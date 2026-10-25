@@ -1,0 +1,196 @@
+{
+  "id": "ARXO-2026-0002",
+  "url": "https://arxo.io/findings/ARXO-2026-0002/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "IRS, Instructions for Form 6251 (2025)",
+  "acts": [
+    "26 USC §§224, 225; P.L. 119-21 §§70201-70202"
+  ],
+  "location": "Instructions for Form 6251 (2025), page 1, “Enhanced deduction for seniors”",
+  "text": {
+    "en": {
+      "title": "Instructions for Form 6251 (2025) cite 26 U.S.C. §56(b)(5)(D), which does not exist",
+      "summary": "The 2025 Instructions for Form 6251 say the enhanced deduction for seniors is treated as a personal exemption and added back to alternative minimum taxable income “as an adjustment under section 56(b)(5)(D)”. Section 56(b) has no paragraph (5); the disallowance of personal exemptions is in section 56(b)(1)(D).",
+      "impact": "Citation only: the amount added back on the form is not affected.",
+      "correction": "Cite section 56(b)(1)(D), subject to the publisher's confirmation."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "received",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official program or service",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "instruction",
+        "source": "IRS, Instructions for Form 6251 (2025)",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": null,
+        "locator": "Instructions for Form 6251 (2025), page 1, Enhanced deduction for seniors",
+        "text": "The deduction is treated as a personal exemption that is added back to alternative minimum taxable income as an adjustment under section 56(b)(5)(D).",
+        "translations": {},
+        "url": "https://www.irs.gov/pub/irs-prior/i6251--2025.pdf",
+        "sha256": "b130e87362006177794ac29affd2637652cc4c8c03e54227891e2d1b9c976753",
+        "retrieved": "2026-10-24",
+        "copy": "sources/b130e87362006177-i6251-2025.pdf",
+        "copy_sha256": "b130e87362006177794ac29affd2637652cc4c8c03e54227891e2d1b9c976753",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "norm",
+        "source": "Office of the Law Revision Counsel, 26 U.S.C. §56 (online edition)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "26 U.S.C. §56(b)(1)(D)",
+        "text": "The standard deduction under section 63(c), the deduction for personal exemptions under section 151, and the deduction under section 642(b) shall not be allowed.",
+        "translations": {},
+        "url": "https://uscode.house.gov/us/usc/119-118/t26/s56/",
+        "sha256": "8ec358336644f294c86c490ac70b3bfc943a75c2c95242c2e0fdb6bfd5121415",
+        "retrieved": "2026-10-24",
+        "copy": "sources/8ec358336644f294-irc56-live.html",
+        "copy_sha256": "8ec358336644f294c86c490ac70b3bfc943a75c2c95242c2e0fdb6bfd5121415",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-22",
+      "institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "channel": "email",
+      "role": "publisher of the United States Code"
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "Joint Committee on Taxation",
+      "channel": "email",
+      "role": "technical corrections"
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "Senate Committee on Finance (majority and minority tax staff)",
+      "channel": "email",
+      "role": "tax-writing committee"
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "House Committee on Ways and Means (majority and minority tax staff)",
+      "channel": "email",
+      "role": "tax-writing committee"
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "U.S. Department of the Treasury, Office of Tax Legislative Counsel",
+      "channel": "email",
+      "role": "tax guidance and technical corrections"
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "Internal Revenue Service, National Public Liaison",
+      "channel": "email",
+      "role": "IRS",
+      "what": "also stated in the covering letter"
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "U.S. Government Accountability Office",
+      "channel": "email",
+      "role": "audit"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Internal Revenue Service, National Public Liaison",
+      "role": "official IRS channel for the forms and instructions"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-10-22",
+      "institution": "U.S. Government Accountability Office",
+      "kind": "received"
+    }
+  ],
+  "approval": "2026-10-22",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-22)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-25T12:17:00Z",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "event": "received",
+      "text": "Receipt confirmed: U.S. Government Accountability Office"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to Office of the Law Revision Counsel, U.S. House of Representatives (e-mail)"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to Joint Committee on Taxation (e-mail)"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to Senate Committee on Finance (majority and minority tax staff) (e-mail)"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to House Committee on Ways and Means (majority and minority tax staff) (e-mail)"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to U.S. Department of the Treasury, Office of Tax Legislative Counsel (e-mail)"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to Internal Revenue Service, National Public Liaison (e-mail)"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to U.S. Government Accountability Office (e-mail)"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

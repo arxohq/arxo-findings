@@ -1,0 +1,10 @@
+Arxo Findings Register — data licence
+
+The data in this repository (register.json, findings.csv, findings/*.json, feed.atom and the register
+pages) are licensed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution: "Arxo Law, Arxo Findings Register".
+
+The files in sources/ are copies of official texts kept so that each quotation can be checked. They remain
+under the terms set by their publishers.

@@ -1,0 +1,206 @@
+{
+  "id": "ARXO-2026-0009",
+  "url": "https://arxo.io/findings/ARXO-2026-0009/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": null,
+  "act": "Grading instructions for farm animals, Order of the Minister of Agriculture of Kazakhstan No. 3-3/517 of 10 October 2014",
+  "acts": [
+    "Приказ МСХ РК от 10.10.2014 № 3-3/517 (НГР V14F0009818)",
+    "Приказ МСХ РК от 30.04.2026 № 166 (НГР V2600038615)"
+  ],
+  "location": "Appendix 14 (marals and sika deer), paragraph 20",
+  "text": {
+    "en": {
+      "title": "Maral and sika deer grading, paragraph 20: the weight threshold for class III hinds is “(ISO-IBS kg)” instead of a number",
+      "summary": "Paragraph 20 of the grading instructions for marals and sika deer assigns to class III the hinds “with a very low live weight (ISO-IBS kg)”: a placeholder stands where the weight should be. Class II is 170–184 kg, so a hind below 170 kg cannot be classed by weight. The Russian and Kazakh texts read the same way.",
+      "impact": "A hind weighing less than 170 kg falls into no weight class.",
+      "correction": "For the issuing ministry to restore the value from the approved text of the order.",
+      "quote_translations": {
+        "second": "Class II comprises animals with a lower live weight of 170 (one hundred and seventy) – 184 (one hundred and eighty-four) kg",
+        "third": "Class III comprises hinds with a very low live weight (ISO-IBS kg) regardless of conformation.",
+        "third-kk": "Class III comprises hinds with a very low live weight (ISO-IBS kg) regardless of conformation."
+      }
+    },
+    "ru": {
+      "title": "Маралы и пятнистые олени, п. 20: порог третьего класса маток — «(ISO-IBS кг)» вместо числа",
+      "summary": "В п. 20 Инструкции по бонитировке маралов и пятнистых оленей третий класс маток задан словами «с очень низкой живой массой (ISO-IBS кг)»: вместо числа в тексте стоит служебное обозначение. Второй класс — 170–184 кг, поэтому для матки с живой массой ниже 170 кг класс по массе не определяется. Так в русском и казахском текстах.",
+      "correction": "Восстановить число по утверждённому тексту приказа."
+    },
+    "kk": {
+      "title": "Маралдар және теңбіл бұғылар, 20-тармақ: үшінші сыныпты аналықтардың шегі сан орнына «(ISO-IBS кг)» деп жазылған",
+      "summary": "Маралдарды және теңбіл бұғыларды бонитирлеу жөніндегі нұсқаулықтың 20-тармағында үшінші сыныпқа «тірідей салмағы өте төмен (ISO-IBS кг)» аналықтар жатқызылады: сан тұрған жерде қызметтік белгі қалған. Екінші сынып — 170–184 кг, сондықтан тірідей салмағы 170 кг-нан төмен аналықтың салмақ бойынша сыныбы анықталмайды. Орыс және қазақ мәтіндерінде бірдей.",
+      "correction": "Санды бұйрықтың бекітілген мәтіні бойынша қалпына келтіру."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "received",
+    "last_checked": "2026-10-22",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "second",
+        "source": "Әділет legal information system, Russian text in force (V14F0009818)",
+        "role": "Normative text",
+        "language": "ru",
+        "edition": "в редакции приказа № 166 от 30.04.2026",
+        "locator": "Appendix 14, paragraph 20, class II (Russian text)",
+        "text": "Ко второму классу относят животных с более низкой живой массой 170 (сто семьдесят) – 184 (сто восемьдесят четыре) кг",
+        "translations": {
+          "en": "Class II comprises animals with a lower live weight of 170 (one hundred and seventy) – 184 (one hundred and eighty-four) kg"
+        },
+        "url": "https://adilet.zan.kz/api/documents/a19614c2-a69b-4a59-811d-73d93ac86810",
+        "sha256": "a657cf973997c1451e1ac5679870abbaf73394159e1f2c0e7f27aef930443663",
+        "retrieved": "2026-10-22",
+        "copy": "sources/2e5069719dbfa6fc-ru.txt",
+        "copy_sha256": "2e5069719dbfa6fc54cc214e34c3f5d7e8777db15dce30982f96e5bb22ddda60",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "third",
+        "source": "Әділет legal information system, Russian text in force (V14F0009818)",
+        "role": "Normative text",
+        "language": "ru",
+        "edition": "в редакции приказа № 166 от 30.04.2026",
+        "locator": "Appendix 14, paragraph 20, class III (Russian text)",
+        "text": "К третьему классу относят маток с очень низкой живой массой (ISO-IBS кг) независимо от экстерьера.",
+        "translations": {
+          "en": "Class III comprises hinds with a very low live weight (ISO-IBS kg) regardless of conformation."
+        },
+        "url": "https://adilet.zan.kz/api/documents/a19614c2-a69b-4a59-811d-73d93ac86810",
+        "sha256": "a657cf973997c1451e1ac5679870abbaf73394159e1f2c0e7f27aef930443663",
+        "retrieved": "2026-10-22",
+        "copy": "sources/2e5069719dbfa6fc-ru.txt",
+        "copy_sha256": "2e5069719dbfa6fc54cc214e34c3f5d7e8777db15dce30982f96e5bb22ddda60",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "third-kk",
+        "source": "Әділет legal information system, Kazakh text in force (V14F0009818)",
+        "role": "Language version",
+        "language": "kk",
+        "edition": "в редакции приказа № 166 от 30.04.2026",
+        "locator": "Appendix 14, paragraph 20, class III (Kazakh text)",
+        "text": "Үшінші сыныпқа сырт бітіміне қарамастан тірідей салмағы өте төмен (ISO-IBS кг) аналықтар жатқызылады.",
+        "translations": {
+          "en": "Class III comprises hinds with a very low live weight (ISO-IBS kg) regardless of conformation."
+        },
+        "url": "https://adilet.zan.kz/api/documents/4f315ad9-63e6-4252-9f2f-814f1d34d75c",
+        "sha256": "1d8395ac095e209767e1b41eeadb479181007927463435017345d74a7f45d086",
+        "retrieved": "2026-10-22",
+        "copy": "sources/483c41dd1333f388-live-kk.flat.txt",
+        "copy_sha256": "483c41dd1333f388ec8973839e35660dcc9b5917962e300a9f3f140e27bbcecb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": true,
+  "notified": [
+    {
+      "date": "2026-10-22",
+      "institution": "Ministry of Agriculture of the Republic of Kazakhstan (Livestock Department)",
+      "channel": "portal",
+      "role": "issuing ministry",
+      "reference": "ЖТ-2026-04813274"
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "Ministry of Agriculture of the Republic of Kazakhstan (Livestock Department)",
+      "channel": "email",
+      "role": "issuing ministry",
+      "what": "the same appeal by e-mail"
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "Analytical Center of Economic Policy in the Agro-Industrial Complex (operator of the Republican Livestock System information system, plem.kz)",
+      "channel": "email",
+      "role": "operator of the system that records grading results",
+      "what": "Appendix 1 to the appeal: the list of errors in the grading instructions"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Ministry of Agriculture of the Republic of Kazakhstan (Livestock Department)",
+      "role": "author of the order"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-10-23",
+      "institution": "Ministry of Agriculture of the Republic of Kazakhstan",
+      "kind": "received",
+      "summary": {
+        "en": "The e-mail copy was answered with a note that no version in the state language was attached, and was then forwarded to the ministry's office for citizens' appeals. The appeal filed through the eOtinish portal awaits a reply.",
+        "ru": "На копию по электронной почте ответили, что версии на государственном языке нет, и передали её в подразделение по работе с обращениями граждан. Обращение, поданное через портал eOtinish, ожидает ответа.",
+        "kk": "Электрондық поштамен жіберілген көшірмеге мемлекеттік тілдегі нұсқасы жоқ деп жауап берілді, кейін ол азаматтардың өтініштерімен жұмыс бөліміне жолданды. eOtinish порталы арқылы берілген өтініш жауап күтуде."
+      }
+    }
+  ],
+  "approval": "2026-10-22",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-22)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Әділет: Инструкции по бонитировке (приказ № 3-3/517), русский текст",
+      "url": "https://adilet.zan.kz/rus/docs/V14F0009818"
+    },
+    {
+      "title": "Әділет: бонитирлеу жөніндегі нұсқаулықтар (№ 3-3/517 бұйрық), қазақ тіліндегі мәтін",
+      "url": "https://adilet.zan.kz/kaz/docs/V14F0009818"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-25T12:17:00Z",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to Ministry of Agriculture of the Republic of Kazakhstan (Livestock Department) (official portal)"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to Ministry of Agriculture of the Republic of Kazakhstan (Livestock Department) (e-mail)"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to Analytical Center of Economic Policy in the Agro-Industrial Complex (operator of the Republican Livestock System information system, plem.kz) (e-mail)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "received",
+      "text": "Receipt confirmed: Ministry of Agriculture of the Republic of Kazakhstan"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

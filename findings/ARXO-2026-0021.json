@@ -1,0 +1,231 @@
+{
+  "id": "ARXO-2026-0021",
+  "url": "https://arxo.io/findings/ARXO-2026-0021/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "FR",
+  "jurisdiction_detail": null,
+  "act": "Code général des impôts, consolidated text on Légifrance",
+  "acts": [
+    "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026",
+    "Loi n° 2026-103 du 19 février 2026 de finances pour 2026",
+    "Code général des impôts",
+    "Code de la sécurité sociale",
+    "Code des impositions sur les biens et services",
+    "Guide 2026 sur la fiscalité des énergies"
+  ],
+  "location": "CGI art. 1600, I (version for 2027)",
+  "text": {
+    "en": {
+      "title": "CGI art. 1600 on Légifrance, version for 2027: the 2026 Finance Act insertion on the Corsica chamber of commerce is missing",
+      "summary": "Article 135, VI, A, of Law No. 2026-103 (2026 Finance Act) inserts « et l'établissement public du commerce et de l'industrie de Corse » after « région » in I of article 1600 of the General Tax Code, with no end date. The version published on Légifrance for 1 January 2027 to 1 January 2028 (LEGIARTI000049534935) does not contain the insertion, while the preceding version (from 1 March 2026) and the versions for 2028 to 2030 do. The discrepancy arose in the consolidation; the text published in the Official Journal is correct.",
+      "correction": "Add the insertion to the 2027 version, as in the neighbouring versions.",
+      "quote_translations": {
+        "legi-2027": "It is collected for CCI France and distributed among the regional chambers of commerce and industry, under the conditions laid down in 10° of article L. 711-16 of the Commercial Code.",
+        "legi-2026-03": "It is collected for CCI France and distributed among the regional chambers of commerce and industry and the public body for commerce and industry of Corsica, under the conditions laid down in 10° of article L. 711-16 of the Commercial Code.",
+        "legi-2028": "distributed among the regional chambers of commerce and industry and the public body for commerce and industry of Corsica, under the conditions laid down in 10° of article L. 711-16 of the Commercial Code.",
+        "instruction": "VI. – A. – In the second sentence of the first paragraph of I of article 1600 of the General Tax Code, after the word « région », the words « and the public body for commerce and industry of Corsica » are inserted."
+      }
+    },
+    "fr": {
+      "title": "CGI, art. 1600, sur Légifrance, version 2027 : l'insertion de la LF 2026 relative à l'établissement public du commerce et de l'industrie de Corse manque",
+      "summary": "L'article 135, VI, A, de la loi n° 2026-103 de finances pour 2026 insère « et l'établissement public du commerce et de l'industrie de Corse » après « région » au I de l'article 1600 du code général des impôts, sans date de fin. La version publiée sur Légifrance du 1er janvier 2027 au 1er janvier 2028 (LEGIARTI000049534935) ne contient pas cette insertion, alors que la version précédente (à partir du 1er mars 2026) et les versions 2028 à 2030 la contiennent. L'écart est né dans la consolidation ; le texte publié au Journal officiel est correct.",
+      "correction": "Reprendre l'insertion dans la version 2027, comme dans les versions voisines."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "received",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The consolidated text",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "legi-2027",
+        "source": "Code général des impôts, article 1600, version du 1er janvier 2027 au 1er janvier 2028 (Légifrance, LEGIARTI000049534935)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "version du 1er janvier 2027 au 1er janvier 2028",
+        "locator": "CGI, art. 1600, I, premier alinéa, deuxième phrase (version du 1er janvier 2027 au 1er janvier 2028)",
+        "text": "Elle est perçue au profit de CCI France et répartie entre les chambres de commerce et d'industrie de région, dans les conditions prévues au 10° de l'article L. 711-16 du code de commerce.",
+        "translations": {
+          "en": "It is collected for CCI France and distributed among the regional chambers of commerce and industry, under the conditions laid down in 10° of article L. 711-16 of the Commercial Code."
+        },
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049534935/2027-01-01",
+        "sha256": "300a77695a198626265304fa6923f59fa46856aa0d0000cfd0c5a808ea8b12d1",
+        "retrieved": "2026-10-22",
+        "copy": "sources/062a3ee2c93cc494-LEGIARTI000049534935.txt",
+        "copy_sha256": "062a3ee2c93cc494b4ed322fd8cbd9b48b0b40fa52eaea70889dd2b9aae54db7",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "legi-2026-03",
+        "source": "Code général des impôts, article 1600, version du 1er mars 2026 au 1er janvier 2027 (Légifrance, LEGIARTI000053562172)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "version du 1er mars 2026 au 1er janvier 2027",
+        "locator": "CGI, art. 1600, I, premier alinéa, deuxième phrase (version du 1er mars 2026 au 1er janvier 2027)",
+        "text": "Elle est perçue au profit de CCI France et répartie entre les chambres de commerce et d'industrie de région et l'établissement public du commerce et de l'industrie de Corse, dans les conditions prévues au 10° de l'article L. 711-16 du code de commerce.",
+        "translations": {
+          "en": "It is collected for CCI France and distributed among the regional chambers of commerce and industry and the public body for commerce and industry of Corsica, under the conditions laid down in 10° of article L. 711-16 of the Commercial Code."
+        },
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053562172/2026-03-01",
+        "sha256": "07c945919d93df55ef04429b43f7b1b1e93d195c68bb2e34222ddf3d0e83a726",
+        "retrieved": "2026-10-22",
+        "copy": "sources/54fd6e515db6b07a-LEGIARTI000053562172.txt",
+        "copy_sha256": "54fd6e515db6b07aa475a12b4391d7fda4936ef59146b972be59e18a97211448",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "legi-2028",
+        "source": "Code général des impôts, article 1600, version du 1er janvier 2028 au 1er janvier 2029 (Légifrance, LEGIARTI000051242816)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "version du 1er janvier 2028 au 1er janvier 2029",
+        "locator": "CGI, art. 1600, I, premier alinéa, deuxième phrase (version du 1er janvier 2028 au 1er janvier 2029)",
+        "text": "répartie entre les chambres de commerce et d'industrie de région et l'établissement public du commerce et de l'industrie de Corse, dans les conditions prévues au 10° de l'article L. 711-16 du code de commerce.",
+        "translations": {
+          "en": "distributed among the regional chambers of commerce and industry and the public body for commerce and industry of Corsica, under the conditions laid down in 10° of article L. 711-16 of the Commercial Code."
+        },
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051242816/2028-01-01",
+        "sha256": "4d9dc88fd7be7bf5ffbdf7aa686a9e228d43f8a14030efad055a2a8df4be6220",
+        "retrieved": "2026-10-22",
+        "copy": "sources/3a5032f0dffd6560-LEGIARTI000051242816.txt",
+        "copy_sha256": "3a5032f0dffd65604dfdf1eaa7e795160c47055f557e7eda547113aea862ce81",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "instruction",
+        "source": "Loi n° 2026-103 du 19 février 2026 de finances pour 2026, article 135 (JORF n° 0043)",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": "JORF n° 0043 du 20 février 2026, texte n° 1",
+        "locator": "LF 2026, art. 135, VI, A",
+        "text": "VI. - A. - A la deuxième phrase du premier alinéa du I de l'article 1600 du code général des impôts, après le mot : « région », sont insérés les mots : « et l'établissement public du commerce et de l'industrie de Corse ».",
+        "translations": {
+          "en": "VI. – A. – In the second sentence of the first paragraph of I of article 1600 of the General Tax Code, after the word « région », the words « and the public body for commerce and industry of Corsica » are inserted."
+        },
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053508993",
+        "sha256": "5fd5d3f45b506a5cef8e510dc475ac610b8d9c1ebfc4421411c9b375c07db0fd",
+        "retrieved": "2026-10-22",
+        "copy": "sources/715db8092598e13e-jorf-lf2026.json.gz",
+        "copy_sha256": "715db8092598e13e3ec6a0f23f409eae8f50a4c123d55cb1136057f43be11b07",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-23T08:32:04Z",
+      "institution": "Direction de l'information légale et administrative (DILA)",
+      "channel": "email",
+      "role": "publisher of the consolidated texts on Légifrance"
+    },
+    {
+      "date": "2026-10-23T08:32:04Z",
+      "institution": "Direction de la législation fiscale (DGFiP), sous-direction F",
+      "channel": "email",
+      "role": "copy of the same message"
+    },
+    {
+      "date": "2026-10-23T10:22:08Z",
+      "institution": "Direction de l'information légale et administrative (DILA)",
+      "channel": "web_form",
+      "role": "publisher of the consolidated texts on Légifrance (Légifrance contact form)"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Direction de l'information légale et administrative (DILA)",
+      "role": "publisher of Légifrance"
+    },
+    {
+      "institution": "Direction de la législation fiscale (DGFiP), sous-direction F",
+      "role": "author of the tax provisions concerned"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-10-23T10:22Z",
+      "institution": "Direction de l'information légale et administrative (DILA)",
+      "kind": "received",
+      "summary": {
+        "en": "Automatic acknowledgement from the Légifrance contact service; usual reply time is seven working days.",
+        "fr": "Accusé de réception automatique du service de contact de Légifrance ; délai habituel de réponse : sept jours ouvrés."
+      }
+    }
+  ],
+  "approval": "2026-10-23",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-23)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [
+    {
+      "date": "2026-10-23",
+      "title": "arxohq/arxo-fr-lf2026-lfss2026 (findings.csv, code B2)",
+      "url": "https://github.com/arxohq/arxo-fr-lf2026-lfss2026"
+    }
+  ],
+  "reproduction": [
+    {
+      "title": "Public evidence repository: operations, findings and hashes",
+      "url": "https://github.com/arxohq/arxo-fr-lf2026-lfss2026",
+      "commit": "1a1ec228cbe1e265431e8e233360725d6e42e6f3"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-25T12:17:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "published_elsewhere",
+      "text": "Published: arxohq/arxo-fr-lf2026-lfss2026 (findings.csv, code B2)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "received",
+      "text": "Receipt confirmed: Direction de l'information légale et administrative (DILA)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Direction de l'information légale et administrative (DILA) (e-mail)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Direction de la législation fiscale (DGFiP), sous-direction F (e-mail)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Direction de l'information légale et administrative (DILA) (web form)"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "id": "ARXO-2026-0018",
+  "url": "https://arxo.io/findings/ARXO-2026-0018/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "FR",
+  "jurisdiction_detail": null,
+  "act": "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026 (LFSS 2026)",
+  "acts": [
+    "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026",
+    "Loi n° 2026-103 du 19 février 2026 de finances pour 2026",
+    "Code général des impôts",
+    "Code de la sécurité sociale",
+    "Code des impositions sur les biens et services",
+    "Guide 2026 sur la fiscalité des énergies"
+  ],
+  "location": "LFSS 2026, art. 102, II, 3°",
+  "text": {
+    "en": {
+      "title": "LFSS 2026 art. 102, II, 3°: the title of Law No. 2025-199 misquoted as « de financement pour la sécurité sociale »",
+      "summary": "Article 102, II, 3°, of Law No. 2025-1403 (2026 social security financing act) cites « la loi n° 2025-199 du 28 février 2025 de financement pour la sécurité sociale pour 2025 ». The exact title, « de financement de la sécurité sociale pour 2025 », appears in IX of the same article. The text adopted by the National Assembly (T.A. No. 199 rect.) carries the same words, so the discrepancy is in the adopted text; the law referred to remains identifiable.",
+      "correction": "Read « de financement de la sécurité sociale pour 2025 », for example in a later coordination provision.",
+      "quote_translations": {
+        "art102-II-3": "3° Article L. 732-39, as worded by Law No. 2025-199 of 28 February 2025 on financing for social security for 2025, is reworded as follows:",
+        "art102-IX": "IX. – Article 87 of Law No. 2025-199 of 28 February 2025 on the financing of social security for 2025 is amended as follows:"
+      }
+    },
+    "fr": {
+      "title": "LFSS 2026, art. 102, II, 3° : l'intitulé de la loi n° 2025-199 cité « de financement pour la sécurité sociale »",
+      "summary": "Le 3° du II de l'article 102 de la loi n° 2025-1403 de financement de la sécurité sociale pour 2026 cite « la loi n° 2025-199 du 28 février 2025 de financement pour la sécurité sociale pour 2025 ». L'intitulé exact, « de financement de la sécurité sociale pour 2025 », figure au IX du même article. Le texte adopté par l'Assemblée nationale (T.A. n° 199 rect.) porte les mêmes mots : l'écart est dans le texte adopté ; la loi visée reste identifiable.",
+      "correction": "Lire « de financement de la sécurité sociale pour 2025 », par exemple dans une disposition de coordination ultérieure."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "received",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "art102-II-3",
+        "source": "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026, article 102 (JORF n° 0306)",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": "JORF n° 0306 du 31 décembre 2025, texte n° 1",
+        "locator": "LFSS 2026, art. 102, II, 3° (CRPM, art. L. 732-39)",
+        "text": "3° L'article L. 732-39, dans sa rédaction résultant de la loi n° 2025-199 du 28 février 2025 de financement pour la sécurité sociale pour 2025, est ainsi rédigé :",
+        "translations": {
+          "en": "3° Article L. 732-39, as worded by Law No. 2025-199 of 28 February 2025 on financing for social security for 2025, is reworded as follows:"
+        },
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053226930",
+        "sha256": "9c6916c95a399a66ff61e762fdbb6c1802332cd96d7fe61078473a5ab2718d99",
+        "retrieved": "2026-10-22",
+        "copy": "sources/79252932bb7f65a9-jorf-lfss2026.json.gz",
+        "copy_sha256": "79252932bb7f65a97faa90333acbc2d7eb7bf15f5956d14f065cff9cfacde349",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "art102-IX",
+        "source": "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026, article 102 (JORF n° 0306)",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": "JORF n° 0306 du 31 décembre 2025, texte n° 1",
+        "locator": "LFSS 2026, art. 102, IX",
+        "text": "IX. - L'article 87 de la loi n° 2025-199 du 28 février 2025 de financement de la sécurité sociale pour 2025 est ainsi modifié :",
+        "translations": {
+          "en": "IX. – Article 87 of Law No. 2025-199 of 28 February 2025 on the financing of social security for 2025 is amended as follows:"
+        },
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053226930",
+        "sha256": "9c6916c95a399a66ff61e762fdbb6c1802332cd96d7fe61078473a5ab2718d99",
+        "retrieved": "2026-10-22",
+        "copy": "sources/79252932bb7f65a9-jorf-lfss2026.json.gz",
+        "copy_sha256": "79252932bb7f65a97faa90333acbc2d7eb7bf15f5956d14f065cff9cfacde349",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-23T08:31:09Z",
+      "institution": "Direction de la législation fiscale (DGFiP), bureau C1",
+      "channel": "email",
+      "role": "tax legislation service responsible for income tax provisions",
+      "what": "listed in the annex on citation errors"
+    },
+    {
+      "date": "2026-10-23T08:31:09Z",
+      "institution": "Secrétariat général du Gouvernement",
+      "channel": "email",
+      "role": "quality of law (copy of the same message)",
+      "what": "listed in the annex on citation errors"
+    },
+    {
+      "date": "2026-10-23",
+      "institution": "Ministère de la Santé — Direction de la sécurité sociale (copy: Direction générale de l'offre de soins)",
+      "channel": "web_form",
+      "role": "social security legislation (ministry contact form)",
+      "what": "listed as a citation error in the text of the act"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Direction de la législation fiscale (DGFiP), bureau C1",
+      "role": "drafting of tax legislation"
+    },
+    {
+      "institution": "Secrétariat général du Gouvernement",
+      "role": "legislative quality and publication of the Official Journal"
+    },
+    {
+      "institution": "Ministère de la Santé — Direction de la sécurité sociale (copy: Direction générale de l'offre de soins)",
+      "role": "author of the social security provisions (Direction de la sécurité sociale)"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-10-23T10:37Z",
+      "institution": "Ministère de la Santé",
+      "kind": "received",
+      "summary": {
+        "en": "Automatic acknowledgement: the message was forwarded to the service that handles the minister's mail.",
+        "fr": "Accusé de réception automatique : le message a été transmis au service chargé du courrier de la ministre."
+      }
+    }
+  ],
+  "approval": "2026-10-23",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-23)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [
+    {
+      "date": "2026-10-23",
+      "title": "arxohq/arxo-fr-lf2026-lfss2026 (findings.csv, code A5)",
+      "url": "https://github.com/arxohq/arxo-fr-lf2026-lfss2026"
+    }
+  ],
+  "reproduction": [
+    {
+      "title": "Public evidence repository: operations, findings and hashes",
+      "url": "https://github.com/arxohq/arxo-fr-lf2026-lfss2026",
+      "commit": "1a1ec228cbe1e265431e8e233360725d6e42e6f3"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-25T12:17:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "published_elsewhere",
+      "text": "Published: arxohq/arxo-fr-lf2026-lfss2026 (findings.csv, code A5)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "received",
+      "text": "Receipt confirmed: Ministère de la Santé"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Direction de la législation fiscale (DGFiP), bureau C1 (e-mail)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Secrétariat général du Gouvernement (e-mail)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Ministère de la Santé — Direction de la sécurité sociale (copy: Direction générale de l'offre de soins) (web form)"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

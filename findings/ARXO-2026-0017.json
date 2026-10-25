@@ -1,0 +1,181 @@
+{
+  "id": "ARXO-2026-0017",
+  "url": "https://arxo.io/findings/ARXO-2026-0017/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "FR",
+  "jurisdiction_detail": null,
+  "act": "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026 (LFSS 2026)",
+  "acts": [
+    "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026",
+    "Loi n° 2026-103 du 19 février 2026 de finances pour 2026",
+    "Code général des impôts",
+    "Code de la sécurité sociale",
+    "Code des impositions sur les biens et services",
+    "Guide 2026 sur la fiscalité des énergies"
+  ],
+  "location": "LFSS 2026, art. 12, II, 1°",
+  "text": {
+    "en": {
+      "title": "LFSS 2026 art. 12, II, 1°: Law No. 2016-1918 cited as a « financement » amending act instead of the amending finance act for 2016",
+      "summary": "Article 12, II, 1°, of Law No. 2025-1403 (2026 social security financing act) refers to « la loi n° 2016-1918 du 29 décembre 2016 de financement rectificative pour 2016 ». In the LEGI register of texts, Law No. 2016-1918 of 29 December 2016 is the amending finance act for 2016 (« de finances rectificative pour 2016 »). The text adopted by the National Assembly (T.A. No. 199 rect.) carries the same words, so the discrepancy is in the adopted text; the law referred to remains identifiable by its number and date.",
+      "correction": "Read « de finances rectificative pour 2016 », for example in a later coordination provision.",
+      "quote_translations": {
+        "art12-II-1": "1° From the taxation of 2025 income as regards the contribution mentioned in article L. 136-6 of the Social Security Code, subject to II of article 34 of Law No. 2016-1918 of 29 December 2016 on amending financing for 2016;"
+      }
+    },
+    "fr": {
+      "title": "LFSS 2026, art. 12, II, 1° : la loi n° 2016-1918 citée comme loi « de financement rectificative » au lieu de loi de finances rectificative pour 2016",
+      "summary": "Le 1° du II de l'article 12 de la loi n° 2025-1403 de financement de la sécurité sociale pour 2026 vise « la loi n° 2016-1918 du 29 décembre 2016 de financement rectificative pour 2016 ». Dans le répertoire des textes LEGI, la loi n° 2016-1918 du 29 décembre 2016 est la loi de finances rectificative pour 2016. Le texte adopté par l'Assemblée nationale (T.A. n° 199 rect.) porte les mêmes mots : l'écart est dans le texte adopté ; la loi visée reste identifiable par son numéro et sa date.",
+      "correction": "Lire « de finances rectificative pour 2016 », par exemple dans une disposition de coordination ultérieure."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "received",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "art12-II-1",
+        "source": "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026, article 12 (JORF n° 0306)",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": "JORF n° 0306 du 31 décembre 2025, texte n° 1",
+        "locator": "LFSS 2026, art. 12, II, 1°",
+        "text": "1° A compter de l'imposition des revenus de l'année 2025 en ce qui concerne la contribution mentionnée à l'article L. 136-6 du code de la sécurité sociale, sous réserve du II de l'article 34 de la loi n° 2016-1918 du 29 décembre 2016 de financement rectificative pour 2016 ;",
+        "translations": {
+          "en": "1° From the taxation of 2025 income as regards the contribution mentioned in article L. 136-6 of the Social Security Code, subject to II of article 34 of Law No. 2016-1918 of 29 December 2016 on amending financing for 2016;"
+        },
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053226452",
+        "sha256": "0704502130821e1e0381aa20fcd76a53d0c95ba0dd084d471e158f23ccce2cc8",
+        "retrieved": "2026-10-22",
+        "copy": "sources/79252932bb7f65a9-jorf-lfss2026.json.gz",
+        "copy_sha256": "79252932bb7f65a97faa90333acbc2d7eb7bf15f5956d14f065cff9cfacde349",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-23T08:31:09Z",
+      "institution": "Direction de la législation fiscale (DGFiP), bureau C1",
+      "channel": "email",
+      "role": "tax legislation service responsible for income tax provisions",
+      "what": "listed in the annex on citation errors"
+    },
+    {
+      "date": "2026-10-23T08:31:09Z",
+      "institution": "Secrétariat général du Gouvernement",
+      "channel": "email",
+      "role": "quality of law (copy of the same message)",
+      "what": "listed in the annex on citation errors"
+    },
+    {
+      "date": "2026-10-23",
+      "institution": "Ministère de la Santé — Direction de la sécurité sociale (copy: Direction générale de l'offre de soins)",
+      "channel": "web_form",
+      "role": "social security legislation (ministry contact form)",
+      "what": "listed as a citation error in the text of the act"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Direction de la législation fiscale (DGFiP), bureau C1",
+      "role": "drafting of tax legislation"
+    },
+    {
+      "institution": "Secrétariat général du Gouvernement",
+      "role": "legislative quality and publication of the Official Journal"
+    },
+    {
+      "institution": "Ministère de la Santé — Direction de la sécurité sociale (copy: Direction générale de l'offre de soins)",
+      "role": "author of the social security provisions (Direction de la sécurité sociale)"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-10-23T10:37Z",
+      "institution": "Ministère de la Santé",
+      "kind": "received",
+      "summary": {
+        "en": "Automatic acknowledgement: the message was forwarded to the service that handles the minister's mail.",
+        "fr": "Accusé de réception automatique : le message a été transmis au service chargé du courrier de la ministre."
+      }
+    }
+  ],
+  "approval": "2026-10-23",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-23)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [
+    {
+      "date": "2026-10-23",
+      "title": "arxohq/arxo-fr-lf2026-lfss2026 (findings.csv, code A4)",
+      "url": "https://github.com/arxohq/arxo-fr-lf2026-lfss2026"
+    }
+  ],
+  "reproduction": [
+    {
+      "title": "Public evidence repository: operations, findings and hashes",
+      "url": "https://github.com/arxohq/arxo-fr-lf2026-lfss2026",
+      "commit": "1a1ec228cbe1e265431e8e233360725d6e42e6f3"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-25T12:17:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "published_elsewhere",
+      "text": "Published: arxohq/arxo-fr-lf2026-lfss2026 (findings.csv, code A4)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "received",
+      "text": "Receipt confirmed: Ministère de la Santé"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Direction de la législation fiscale (DGFiP), bureau C1 (e-mail)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Secrétariat général du Gouvernement (e-mail)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Ministère de la Santé — Direction de la sécurité sociale (copy: Direction générale de l'offre de soins) (web form)"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

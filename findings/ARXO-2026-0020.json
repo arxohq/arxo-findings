@@ -1,0 +1,285 @@
+{
+  "id": "ARXO-2026-0020",
+  "url": "https://arxo.io/findings/ARXO-2026-0020/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "FR",
+  "jurisdiction_detail": null,
+  "act": "Code de la sécurité sociale, consolidated text on Légifrance",
+  "acts": [
+    "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026",
+    "Loi n° 2026-103 du 19 février 2026 de finances pour 2026",
+    "Code général des impôts",
+    "Code de la sécurité sociale",
+    "Code des impositions sur les biens et services",
+    "Guide 2026 sur la fiscalité des énergies"
+  ],
+  "location": "CSS art. L. 136-4, IV",
+  "text": {
+    "en": {
+      "title": "CSS art. L. 136-4, IV, on Légifrance: the word « aux » dropped and « définiaux » run together after the 2026 social security financing act",
+      "summary": "We applied article 18, I, 2°, of Law No. 2025-1403 to the prior consolidated version of article L. 136-4, IV, of the Social Security Code and compared the result with the versions published on Légifrance (LEGIARTI000053282498 from 31 December 2025 and LEGIARTI000053284767 in force since 21 February 2026). The instruction replaces only « mêmes articles 64 bis et 76 », so the result reads « déterminés aux articles 50-0, 64 bis, 76 et 102 ter » and « du champ défini aux articles »; both versions read « déterminés articles » and « définiaux ». The discrepancy arose in the consolidation; the text published in the Official Journal is correct.",
+      "correction": "In both versions, read « du champ défini aux articles » and « déterminés aux articles 50-0, 64 bis, 76 et 102 ter du même code ».",
+      "quote_translations": {
+        "legi-2026-aux": "is assessed on the amount of profits determined articles [sic] 50-0, 64 bis, 76 and 102 ter of the same code",
+        "legi-2026-defini": "where their activity falls within the scope definedin [sic] articles L. 722-1 to L. 722-3 of the Rural and Maritime Fishing Code",
+        "legi-2025-12": "within the scope definedin [sic] articles L. 722-1 to L. 722-3 of the Rural and Maritime Fishing Code, of articles 50-0 and 102 ter of the General Tax Code is assessed on the amount of profits determined articles [sic] 50-0, 64 bis, 76 and 102 ter of the same code",
+        "legi-before": "is assessed on the amount of profits determined under the same articles 64 bis and 76",
+        "instruction": "2° In IV, after the word « impôts », the words « and, where their activity falls within the scope defined in articles L. 722-1 to L. 722-3 of the Rural and Maritime Fishing Code, of articles 50-0 and 102 ter of the General Tax Code » are inserted and the words « same articles 64 bis and 76 » are replaced by the words « articles 50-0, 64 bis, 76 and 102 ter of the same code »."
+      }
+    },
+    "fr": {
+      "title": "CSS, art. L. 136-4, IV, sur Légifrance : le mot « aux » manque et « définiaux » est collé après la LFSS 2026",
+      "summary": "Nous avons appliqué l'article 18, I, 2°, de la loi n° 2025-1403 à la version consolidée antérieure du IV de l'article L. 136-4 du code de la sécurité sociale et comparé le résultat aux versions publiées sur Légifrance (LEGIARTI000053282498 du 31 décembre 2025 et LEGIARTI000053284767, en vigueur depuis le 21 février 2026). L'instruction remplace seulement « mêmes articles 64 bis et 76 » : le résultat porte « déterminés aux articles 50-0, 64 bis, 76 et 102 ter » et « du champ défini aux articles » ; les deux versions portent « déterminés articles » et « définiaux ». L'écart est né dans la consolidation ; le texte publié au Journal officiel est correct.",
+      "correction": "Dans les deux versions, lire « du champ défini aux articles » et « déterminés aux articles 50-0, 64 bis, 76 et 102 ter du même code »."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "received",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The consolidated text",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "legi-2026-aux",
+        "source": "Code de la sécurité sociale, article L. 136-4, version en vigueur depuis le 21 février 2026 (Légifrance, LEGIARTI000053284767)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "version à compter du 21 février 2026",
+        "locator": "CSS, art. L. 136-4, IV (version en vigueur depuis le 21 février 2026)",
+        "text": "est assise sur le montant des bénéfices déterminés articles 50-0, 64 bis, 76 et 102 ter du même code",
+        "translations": {
+          "en": "is assessed on the amount of profits determined articles [sic] 50-0, 64 bis, 76 and 102 ter of the same code"
+        },
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053284767/2026-02-21",
+        "sha256": "efdc0d6dc1cc4dc4a60c330e0312d3a0d05f7f97a32e24f2eec93aa382943b79",
+        "retrieved": "2026-10-22",
+        "copy": "sources/45ef36ba8c168576-LEGIARTI000053284767.txt",
+        "copy_sha256": "45ef36ba8c168576c1c958834fb47ce5c9f23a9940ea1a89d6ce9fe17ea81f11",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "legi-2026-defini",
+        "source": "Code de la sécurité sociale, article L. 136-4, version en vigueur depuis le 21 février 2026 (Légifrance, LEGIARTI000053284767)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "version à compter du 21 février 2026",
+        "locator": "CSS, art. L. 136-4, IV (version en vigueur depuis le 21 février 2026)",
+        "text": "lorsque leur exercice relève du champ définiaux articles L. 722-1 à L. 722-3 du code rural et de la pêche maritime",
+        "translations": {
+          "en": "where their activity falls within the scope definedin [sic] articles L. 722-1 to L. 722-3 of the Rural and Maritime Fishing Code"
+        },
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053284767/2026-02-21",
+        "sha256": "efdc0d6dc1cc4dc4a60c330e0312d3a0d05f7f97a32e24f2eec93aa382943b79",
+        "retrieved": "2026-10-22",
+        "copy": "sources/45ef36ba8c168576-LEGIARTI000053284767.txt",
+        "copy_sha256": "45ef36ba8c168576c1c958834fb47ce5c9f23a9940ea1a89d6ce9fe17ea81f11",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "legi-2025-12",
+        "source": "Code de la sécurité sociale, article L. 136-4, version du 31 décembre 2025 au 21 février 2026 (Légifrance, LEGIARTI000053282498)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "version du 31 décembre 2025 au 21 février 2026",
+        "locator": "CSS, art. L. 136-4, IV (version du 31 décembre 2025 au 21 février 2026)",
+        "text": "du champ définiaux articles L. 722-1 à L. 722-3 du code rural et de la pêche maritime, des articles 50-0 et 102 ter du code général des impôts est assise sur le montant des bénéfices déterminés articles 50-0,64 bis, 76 et 102 ter du même code",
+        "translations": {
+          "en": "within the scope definedin [sic] articles L. 722-1 to L. 722-3 of the Rural and Maritime Fishing Code, of articles 50-0 and 102 ter of the General Tax Code is assessed on the amount of profits determined articles [sic] 50-0, 64 bis, 76 and 102 ter of the same code"
+        },
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053282498/2025-12-31",
+        "sha256": "eb387f227fa3ef2cc92d7c68f896e0d9a3928ebaf13986d362b2fc49f6afab39",
+        "retrieved": "2026-10-22",
+        "copy": "sources/59ba7ff9a4f781cd-LEGIARTI000053282498.txt",
+        "copy_sha256": "59ba7ff9a4f781cddb7ebd62189c0b0825da306b9a65543726e88bb1ad11d2b8",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "legi-before",
+        "source": "Code de la sécurité sociale, article L. 136-4, version du 28 février 2025 au 31 décembre 2025 (Légifrance, LEGIARTI000051284469)",
+        "role": "Prior edition",
+        "language": "fr",
+        "edition": "version du 28 février 2025 au 31 décembre 2025",
+        "locator": "CSS, art. L. 136-4, IV (version antérieure à la LFSS 2026)",
+        "text": "est assise sur le montant des bénéfices déterminés aux mêmes articles 64 bis et 76",
+        "translations": {
+          "en": "is assessed on the amount of profits determined under the same articles 64 bis and 76"
+        },
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051284469/2025-02-28",
+        "sha256": "8a0ebe66e77d639006e359b335a5367ecc51e78880fc6b6ebf1e917ffd904de0",
+        "retrieved": "2026-10-22",
+        "copy": "sources/8a0ebe66e77d6390-LEGIARTI000051284469.txt",
+        "copy_sha256": "8a0ebe66e77d639006e359b335a5367ecc51e78880fc6b6ebf1e917ffd904de0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "instruction",
+        "source": "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026, article 18 (JORF n° 0306)",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": "JORF n° 0306 du 31 décembre 2025, texte n° 1",
+        "locator": "LFSS 2026, art. 18, I, 2°",
+        "text": "2° Au IV, après le mot : « impôts », sont insérés les mots : « et, lorsque leur exercice relève du champ défini aux articles L. 722-1 à L. 722-3 du code rural et de la pêche maritime, des articles 50-0 et 102 ter du code général des impôts » et les mots : « mêmes articles 64 bis et 76 » sont remplacés par les mots : « articles 50-0, 64 bis, 76 et 102 ter du même code ».",
+        "translations": {
+          "en": "2° In IV, after the word « impôts », the words « and, where their activity falls within the scope defined in articles L. 722-1 to L. 722-3 of the Rural and Maritime Fishing Code, of articles 50-0 and 102 ter of the General Tax Code » are inserted and the words « same articles 64 bis and 76 » are replaced by the words « articles 50-0, 64 bis, 76 and 102 ter of the same code »."
+        },
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053226483",
+        "sha256": "1b2dd5120ae45b8001aef51aee11664c212a830dbf83dab41216ff07a91e3ed7",
+        "retrieved": "2026-10-22",
+        "copy": "sources/79252932bb7f65a9-jorf-lfss2026.json.gz",
+        "copy_sha256": "79252932bb7f65a97faa90333acbc2d7eb7bf15f5956d14f065cff9cfacde349",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-23T08:32:04Z",
+      "institution": "Direction de l'information légale et administrative (DILA)",
+      "channel": "email",
+      "role": "publisher of the consolidated texts on Légifrance"
+    },
+    {
+      "date": "2026-10-23T08:32:04Z",
+      "institution": "Direction de la législation fiscale (DGFiP), sous-direction F",
+      "channel": "email",
+      "role": "copy of the same message"
+    },
+    {
+      "date": "2026-10-23T10:22:08Z",
+      "institution": "Direction de l'information légale et administrative (DILA)",
+      "channel": "web_form",
+      "role": "publisher of the consolidated texts on Légifrance (Légifrance contact form)"
+    },
+    {
+      "date": "2026-10-23",
+      "institution": "Ministère de la Santé — Direction de la sécurité sociale (copy: Direction générale de l'offre de soins)",
+      "channel": "web_form",
+      "role": "social security legislation (ministry contact form)",
+      "what": "consolidation point, also reported to DILA"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Direction de l'information légale et administrative (DILA)",
+      "role": "publisher of Légifrance"
+    },
+    {
+      "institution": "Direction de la législation fiscale (DGFiP), sous-direction F",
+      "role": "author of the tax provisions concerned"
+    },
+    {
+      "institution": "Ministère de la Santé — Direction de la sécurité sociale (copy: Direction générale de l'offre de soins)",
+      "role": "author of the social security provisions (Direction de la sécurité sociale)"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-10-23T10:22Z",
+      "institution": "Direction de l'information légale et administrative (DILA)",
+      "kind": "received",
+      "summary": {
+        "en": "Automatic acknowledgement from the Légifrance contact service; usual reply time is seven working days.",
+        "fr": "Accusé de réception automatique du service de contact de Légifrance ; délai habituel de réponse : sept jours ouvrés."
+      }
+    },
+    {
+      "date": "2026-10-23T10:37Z",
+      "institution": "Ministère de la Santé",
+      "kind": "received",
+      "summary": {
+        "en": "Automatic acknowledgement: the message was forwarded to the service that handles the minister's mail.",
+        "fr": "Accusé de réception automatique : le message a été transmis au service chargé du courrier de la ministre."
+      }
+    }
+  ],
+  "approval": "2026-10-23",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-23)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [
+    {
+      "date": "2026-10-23",
+      "title": "arxohq/arxo-fr-lf2026-lfss2026 (findings.csv, code B1)",
+      "url": "https://github.com/arxohq/arxo-fr-lf2026-lfss2026"
+    }
+  ],
+  "reproduction": [
+    {
+      "title": "Public evidence repository: operations, findings and hashes",
+      "url": "https://github.com/arxohq/arxo-fr-lf2026-lfss2026",
+      "commit": "1a1ec228cbe1e265431e8e233360725d6e42e6f3"
+    }
+  ],
+  "sources": [],
+  "related": [
+    {
+      "id": "ARXO-2026-0022",
+      "relation": "see_also"
+    }
+  ],
+  "first_published": "2026-10-25T12:17:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "published_elsewhere",
+      "text": "Published: arxohq/arxo-fr-lf2026-lfss2026 (findings.csv, code B1)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "received",
+      "text": "Receipt confirmed: Direction de l'information légale et administrative (DILA)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "received",
+      "text": "Receipt confirmed: Ministère de la Santé"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Direction de l'information légale et administrative (DILA) (e-mail)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Direction de la législation fiscale (DGFiP), sous-direction F (e-mail)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Direction de l'information légale et administrative (DILA) (web form)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Ministère de la Santé — Direction de la sécurité sociale (copy: Direction générale de l'offre de soins) (web form)"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

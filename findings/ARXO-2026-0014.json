@@ -1,0 +1,202 @@
+{
+  "id": "ARXO-2026-0014",
+  "url": "https://arxo.io/findings/ARXO-2026-0014/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "FR",
+  "jurisdiction_detail": null,
+  "act": "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026 (LFSS 2026)",
+  "acts": [
+    "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026",
+    "Loi n° 2026-103 du 19 février 2026 de finances pour 2026",
+    "Code général des impôts",
+    "Code de la sécurité sociale",
+    "Code des impositions sur les biens et services",
+    "Guide 2026 sur la fiscalité des énergies"
+  ],
+  "location": "LFSS 2026, art. 99, V, 4° b and c, and 6°",
+  "text": {
+    "en": {
+      "title": "LFSS 2026 art. 99, V, 4° b and c, and 6°: the published text omitted « first occurrence » where the anchor word occurs twice (corrected on 23 May 2026)",
+      "summary": "As published in the Official Journal of 31 December 2025, three insertions in article 99, V, of Law No. 2025-1403 were placed « après le mot : « enfant » » (7° and 8° of article L. 223-1 of the Social Security Code) and « après le mot : « travail » » (1° of article L. 351-3), while each word occurs twice in the provision amended. The text adopted by the National Assembly (T.A. No. 199 rect.) reads « après la première occurrence du mot », so the discrepancy arose at publication. The rectificatif published in Official Journal No. 0120 of 23 May 2026 had already restored the adopted wording before Arxo's check of 22 October 2026.",
+      "correction": "Already corrected by the rectificatif of 23 May 2026, which reads « après la première occurrence du mot ».",
+      "quote_translations": {
+        "art99-V-4-b": "– after the word « enfant » (child), the words « , of the additional birth leave » are inserted;",
+        "art99-V-4-c": "c) In 8°, the words « of the SNCF, SNCF Mobilités and SNCF Réseau » are replaced by the words « of the national company SNCF and its subsidiaries and economic interest groupings covered by I of article L. 2101-2 of the Transport Code » and, after the word « enfant » (child), the words « , of the additional birth leave » are inserted;",
+        "art99-V-6": "6° In 1° of article L. 351-3, after the word « travail » (work), the words « or of the additional birth leave » are inserted;",
+        "rectif-4bc": "in b and c of 4° of V of article 99, instead of: « after the word: “enfant” », read: « after the first occurrence of the word: “enfant” »",
+        "rectif-6": "in 6° of V of article 99, instead of: « after the word: “travail” », read: « after the first occurrence of the word: “travail” »"
+      }
+    },
+    "fr": {
+      "title": "LFSS 2026, art. 99, V, 4°, b et c, et 6° : le texte publié omettait « la première occurrence » alors que le mot figure deux fois (corrigé le 23 mai 2026)",
+      "summary": "Dans l'édition du Journal officiel du 31 décembre 2025, trois insertions de l'article 99, V, de la loi n° 2025-1403 étaient placées « après le mot : « enfant » » (7° et 8° de l'article L. 223-1 du code de la sécurité sociale) et « après le mot : « travail » » (1° de l'article L. 351-3), alors que chaque mot figure deux fois dans la subdivision modifiée. Le texte adopté par l'Assemblée nationale (T.A. n° 199 rect.) porte « après la première occurrence du mot » : l'écart est né à la publication. Le rectificatif publié au JO n° 0120 du 23 mai 2026 avait déjà rétabli la rédaction adoptée avant la vérification d'Arxo du 22 octobre 2026.",
+      "correction": "Déjà corrigé par le rectificatif du 23 mai 2026 : « après la première occurrence du mot »."
+    }
+  },
+  "status": {
+    "badge": "corrected_before_report",
+    "label": {
+      "en": "Corrected before our report",
+      "ru": "Исправлено до нашего сообщения"
+    },
+    "conclusion": "confirmed",
+    "official_text": "corrected_before_report",
+    "addressee": "none",
+    "last_checked": "2026-10-23",
+    "fixed_on": "2026-05-23",
+    "correction_type": "publication",
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "art99-V-4-b",
+        "source": "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026, article 99 (JORF n° 0306)",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": "JORF n° 0306 du 31 décembre 2025, texte n° 1",
+        "locator": "LFSS 2026, art. 99, V, 4°, b, deuxième tiret (CSS, art. L. 223-1, 7°)",
+        "text": "- après le mot : « enfant », sont insérés les mots : « , du congé supplémentaire de naissance » ;",
+        "translations": {
+          "en": "– after the word « enfant » (child), the words « , of the additional birth leave » are inserted;"
+        },
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053226868",
+        "sha256": "02b2000f6b22345fd7779a40b5bf61d5f77d58b761fc34e26c9f498d06b35ccc",
+        "retrieved": "2026-10-22",
+        "copy": "sources/79252932bb7f65a9-jorf-lfss2026.json.gz",
+        "copy_sha256": "79252932bb7f65a97faa90333acbc2d7eb7bf15f5956d14f065cff9cfacde349",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "art99-V-4-c",
+        "source": "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026, article 99 (JORF n° 0306)",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": "JORF n° 0306 du 31 décembre 2025, texte n° 1",
+        "locator": "LFSS 2026, art. 99, V, 4°, c (CSS, art. L. 223-1, 8°)",
+        "text": "c) Au 8°, les mots : « de la SNCF, SNCF Mobilités et SNCF Réseau » sont remplacés par les mots : « de la société nationale SNCF et de ses filiales et groupements d'intérêt économique relevant du I de l'article L. 2101-2 du code des transports » et, après le mot : « enfant », sont insérés les mots : « , du congé supplémentaire de naissance » ;",
+        "translations": {
+          "en": "c) In 8°, the words « of the SNCF, SNCF Mobilités and SNCF Réseau » are replaced by the words « of the national company SNCF and its subsidiaries and economic interest groupings covered by I of article L. 2101-2 of the Transport Code » and, after the word « enfant » (child), the words « , of the additional birth leave » are inserted;"
+        },
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053226868",
+        "sha256": "02b2000f6b22345fd7779a40b5bf61d5f77d58b761fc34e26c9f498d06b35ccc",
+        "retrieved": "2026-10-22",
+        "copy": "sources/79252932bb7f65a9-jorf-lfss2026.json.gz",
+        "copy_sha256": "79252932bb7f65a97faa90333acbc2d7eb7bf15f5956d14f065cff9cfacde349",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "art99-V-6",
+        "source": "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026, article 99 (JORF n° 0306)",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": "JORF n° 0306 du 31 décembre 2025, texte n° 1",
+        "locator": "LFSS 2026, art. 99, V, 6° (CSS, art. L. 351-3, 1°)",
+        "text": "6° Au 1° de l'article L. 351-3, après le mot : « travail », sont insérés les mots : « ou du congé supplémentaire de naissance » ;",
+        "translations": {
+          "en": "6° In 1° of article L. 351-3, after the word « travail » (work), the words « or of the additional birth leave » are inserted;"
+        },
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053226868",
+        "sha256": "02b2000f6b22345fd7779a40b5bf61d5f77d58b761fc34e26c9f498d06b35ccc",
+        "retrieved": "2026-10-22",
+        "copy": "sources/79252932bb7f65a9-jorf-lfss2026.json.gz",
+        "copy_sha256": "79252932bb7f65a97faa90333acbc2d7eb7bf15f5956d14f065cff9cfacde349",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "rectif-4bc",
+        "source": "Rectificatif à la loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026 (JORF n° 0120 du 23 mai 2026)",
+        "role": "Correction",
+        "language": "fr",
+        "edition": "JORF n° 0120 du 23 mai 2026",
+        "locator": "Rectificatif du 23 mai 2026, deuxième tiret",
+        "text": "au b et au c du 4° du V de l'article 99, au lieu de : « après le mot : “enfant” », lire : « après la première occurrence du mot : “enfant” »",
+        "translations": {
+          "en": "in b and c of 4° of V of article 99, instead of: « after the word: “enfant” », read: « after the first occurrence of the word: “enfant” »"
+        },
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000054125098",
+        "sha256": "c250d8f8fd0faf8162a3c68d129830504ec47fcc931b594c360227f86dadd532",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e64602b8fe9e588d-rectificatifs-jorf-20251231-20261023.json",
+        "copy_sha256": "e64602b8fe9e588d4d2cf493fb4bef19899bcf2a8f3ae3be4de745e25f109940",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "rectif-6",
+        "source": "Rectificatif à la loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026 (JORF n° 0120 du 23 mai 2026)",
+        "role": "Correction",
+        "language": "fr",
+        "edition": "JORF n° 0120 du 23 mai 2026",
+        "locator": "Rectificatif du 23 mai 2026, troisième tiret",
+        "text": "au 6° du V de l'article 99, au lieu de : « après le mot : “travail” », lire : « après la première occurrence du mot : “travail” »",
+        "translations": {
+          "en": "in 6° of V of article 99, instead of: « after the word: “travail” », read: « after the first occurrence of the word: “travail” »"
+        },
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000054125098",
+        "sha256": "c250d8f8fd0faf8162a3c68d129830504ec47fcc931b594c360227f86dadd532",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e64602b8fe9e588d-rectificatifs-jorf-20251231-20261023.json",
+        "copy_sha256": "e64602b8fe9e588d4d2cf493fb4bef19899bcf2a8f3ae3be4de745e25f109940",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [],
+  "responsible": [],
+  "responses": [],
+  "approval": "2026-10-23",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved its publication (2026-10-23)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [
+    {
+      "date": "2026-10-23",
+      "title": "arxohq/arxo-fr-lf2026-lfss2026 (findings.csv, code A8)",
+      "url": "https://github.com/arxohq/arxo-fr-lf2026-lfss2026"
+    }
+  ],
+  "reproduction": [
+    {
+      "title": "Public evidence repository: operations, findings and hashes",
+      "url": "https://github.com/arxohq/arxo-fr-lf2026-lfss2026",
+      "commit": "1a1ec228cbe1e265431e8e233360725d6e42e6f3"
+    }
+  ],
+  "sources": [],
+  "related": [
+    {
+      "id": "ARXO-2026-0013",
+      "relation": "see_also"
+    }
+  ],
+  "first_published": "2026-10-25T12:17:00Z",
+  "history": [
+    {
+      "date": "2026-05-23",
+      "event": "corrected",
+      "text": "Corrected by Rectificatif à la loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026 (JORF n° 0120 du 23 mai 2026)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "published_elsewhere",
+      "text": "Published: arxohq/arxo-fr-lf2026-lfss2026 (findings.csv, code A8)"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "id": "ARXO-2026-0023",
+  "url": "https://arxo.io/findings/ARXO-2026-0023/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "FR",
+  "jurisdiction_detail": null,
+  "act": "Guide 2026 sur la fiscalité des énergies (Ministry of Ecological Transition)",
+  "acts": [
+    "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026",
+    "Loi n° 2026-103 du 19 février 2026 de finances pour 2026",
+    "Code général des impôts",
+    "Code de la sécurité sociale",
+    "Code des impositions sur les biens et services",
+    "Guide 2026 sur la fiscalité des énergies"
+  ],
+  "location": "Guide 2026, pages 25, 33 and 37",
+  "text": {
+    "en": {
+      "title": "2026 energy taxation guide: the ED95 rate is 12.119 €/MWh on page 25 but 12.157 €/MWh on pages 33 and 37",
+      "summary": "We compared the « Guide 2026 sur la fiscalité des énergies » published by the Ministry of Ecological Transition (editions of 30 May and 22 July 2026) with article L. 312-79 of the Code of taxes on goods and services (CIBS). Page 25 and article L. 312-79 give 12.119 €/MWh for ethanol-diesel ED95, while page 33 (annex 2) and page 37 (annex 3, 6.43 €/hL) give 12.157 €/MWh, although 6.43 × 3.6 / 1.91 = 12.119. The discrepancy is in the guide; the rate in the code is not affected.",
+      "correction": "On pages 33 and 37, read 12.119 €/MWh.",
+      "quote_translations": {
+        "p25": "Ethanol-diesel ED95 | L. 312-80 | 12.119 (2023) | 12.119 (2024 and 2025 until 31 July) | 12.119 (from 1 August 2025)",
+        "p33": "Ethanol-diesel ED95 | L. 312-80 | 12.157 (2023 – 31 July 2025) | 12.157 (from 1 August 2025)",
+        "p37": "ED95 | 1.91 GJ per unit | hL | 6.43 €/hL | 12.157 €/MWh",
+        "cibs": "Ethanol-diesel ED95 | L. 312-80 | 12.119 €/MWh"
+      }
+    },
+    "fr": {
+      "title": "Guide 2026 sur la fiscalité des énergies : le tarif de l'ED95 est de 12,119 €/MWh page 25, mais de 12,157 €/MWh pages 33 et 37",
+      "summary": "Nous avons comparé le « Guide 2026 sur la fiscalité des énergies » publié par le ministère de la Transition écologique (éditions du 30 mai et du 22 juillet 2026) à l'article L. 312-79 du code des impositions sur les biens et services (CIBS). La page 25 et l'article L. 312-79 donnent 12,119 €/MWh pour l'éthanol-diesel ED95 ; la page 33 (annexe 2) et la page 37 (annexe 3, 6,43 €/hL) donnent 12,157 €/MWh, alors que 6,43 × 3,6 / 1,91 = 12,119. L'écart est dans le Guide ; le tarif du code n'est pas en cause.",
+      "correction": "Pages 33 et 37 : lire 12,119 €/MWh."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "received",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "p25",
+        "source": "Ministère de la Transition écologique, Guide 2026 sur la fiscalité des énergies, édition du 22 juillet 2026, pages 25, 33 et 37",
+        "role": "Official guidance",
+        "language": "fr",
+        "edition": "édition du 22 juillet 2026",
+        "locator": "Guide 2026, page 25 du PDF, tarifs particuliers (article L. 312-79 du CIBS), ligne ED95",
+        "text": "Éthanol-diesel ED95 L. 312-80 12,119 12,119 12,119",
+        "translations": {
+          "en": "Ethanol-diesel ED95 | L. 312-80 | 12.119 (2023) | 12.119 (2024 and 2025 until 31 July) | 12.119 (from 1 August 2025)"
+        },
+        "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Guide%202026%20sur%20fiscalit%C3%A9%20des%20%C3%A9nergies.pdf",
+        "sha256": "c89da0259490e26057140e291d974b7e0a267805cfe96e5d6f4a8ca5d81420f2",
+        "retrieved": "2026-10-23",
+        "copy": "sources/81f4ef122c364499-guide-2026-07-pages-25-33-37.txt",
+        "copy_sha256": "81f4ef122c364499f994e11eb89115b99cdde96978752a600a44479b5d01ec3f",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "p33",
+        "source": "Ministère de la Transition écologique, Guide 2026 sur la fiscalité des énergies, édition du 22 juillet 2026, pages 25, 33 et 37",
+        "role": "Official guidance",
+        "language": "fr",
+        "edition": "édition du 22 juillet 2026",
+        "locator": "Guide 2026, page 33 du PDF, annexe 2 (extraits du CIBS), tarifs particuliers, ligne ED95",
+        "text": "Éthanol-diesel ED95 L. 312-80 12,157 12,157",
+        "translations": {
+          "en": "Ethanol-diesel ED95 | L. 312-80 | 12.157 (2023 – 31 July 2025) | 12.157 (from 1 August 2025)"
+        },
+        "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Guide%202026%20sur%20fiscalit%C3%A9%20des%20%C3%A9nergies.pdf",
+        "sha256": "c89da0259490e26057140e291d974b7e0a267805cfe96e5d6f4a8ca5d81420f2",
+        "retrieved": "2026-10-23",
+        "copy": "sources/81f4ef122c364499-guide-2026-07-pages-25-33-37.txt",
+        "copy_sha256": "81f4ef122c364499f994e11eb89115b99cdde96978752a600a44479b5d01ec3f",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "p37",
+        "source": "Ministère de la Transition écologique, Guide 2026 sur la fiscalité des énergies, édition du 22 juillet 2026, pages 25, 33 et 37",
+        "role": "Official guidance",
+        "language": "fr",
+        "edition": "édition du 22 juillet 2026",
+        "locator": "Guide 2026, page 37 du PDF, annexe 3 (situations au 1er février et au 1er août 2026), ligne ED95",
+        "text": "ED95 1,91 hL 6,43 12,157",
+        "translations": {
+          "en": "ED95 | 1.91 GJ per unit | hL | 6.43 €/hL | 12.157 €/MWh"
+        },
+        "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Guide%202026%20sur%20fiscalit%C3%A9%20des%20%C3%A9nergies.pdf",
+        "sha256": "c89da0259490e26057140e291d974b7e0a267805cfe96e5d6f4a8ca5d81420f2",
+        "retrieved": "2026-10-23",
+        "copy": "sources/81f4ef122c364499-guide-2026-07-pages-25-33-37.txt",
+        "copy_sha256": "81f4ef122c364499f994e11eb89115b99cdde96978752a600a44479b5d01ec3f",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "cibs",
+        "source": "Code des impositions sur les biens et services, article L. 312-79, version à compter du 1er août 2025 (Légifrance, LEGIARTI000051214618)",
+        "role": "Normative text",
+        "language": "fr",
+        "edition": "version à compter du 1er août 2025",
+        "locator": "CIBS, art. L. 312-79, tableau des tarifs particuliers, ligne ED95",
+        "text": "Éthanol-diesel ED95 L. 312-80 12,119",
+        "translations": {
+          "en": "Ethanol-diesel ED95 | L. 312-80 | 12.119 €/MWh"
+        },
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051214618/2026-10-23",
+        "sha256": "ce4cfda319942c23fbc8d301de1e6da5fd770eb17247517b695528d89e62efd1",
+        "retrieved": "2026-10-22",
+        "copy": "sources/ce4cfda319942c23-LEGIARTI000051214618.txt",
+        "copy_sha256": "ce4cfda319942c23fbc8d301de1e6da5fd770eb17247517b695528d89e62efd1",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-23",
+      "institution": "Direction de la législation fiscale (DGFiP), bureau D2",
+      "channel": "email",
+      "role": "energy taxation"
+    },
+    {
+      "date": "2026-10-23",
+      "institution": "Direction générale de l'énergie et du climat (DGEC)",
+      "channel": "web_form",
+      "role": "author of the guide (ministry contact form)",
+      "reference": "179274722100"
+    },
+    {
+      "date": "2026-10-23",
+      "institution": "Direction générale des douanes et droits indirects (DGDDI)",
+      "channel": "web_form",
+      "role": "excise administration (customs information service form)"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Direction de la législation fiscale (DGFiP), bureau D2",
+      "role": "drafting of energy taxation"
+    },
+    {
+      "institution": "Direction générale de l'énergie et du climat (DGEC)",
+      "role": "publisher of the guide"
+    },
+    {
+      "institution": "Direction générale des douanes et droits indirects (DGDDI)",
+      "role": "co-author of the guide (excise duties)"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-10-23T09:30Z",
+      "institution": "Direction générale des douanes et droits indirects (DGDDI)",
+      "kind": "received",
+      "summary": {
+        "en": "Acknowledgement from the customs information service; processing within five working days.",
+        "fr": "Accusé de réception du service Infos Douane Service ; traitement sous cinq jours ouvrés."
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "institution": "Direction générale de l'énergie et du climat (DGEC)",
+      "kind": "received",
+      "summary": {
+        "en": "Receipt of the online request, registration number 179274722100.",
+        "fr": "Accusé d'enregistrement de la demande en ligne, numéro 179274722100."
+      }
+    }
+  ],
+  "approval": "2026-10-23",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-23)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Ministère de la Transition écologique, page « Fiscalité des énergies » (mise à jour du 22 juillet 2026)",
+      "url": "https://www.ecologie.gouv.fr/politiques-publiques/fiscalite-energies",
+      "date": "2026-07-22"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-25T12:17:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "received",
+      "text": "Receipt confirmed: Direction générale des douanes et droits indirects (DGDDI)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "received",
+      "text": "Receipt confirmed: Direction générale de l'énergie et du climat (DGEC)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Direction de la législation fiscale (DGFiP), bureau D2 (e-mail)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Direction générale de l'énergie et du climat (DGEC) (web form)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Direction générale des douanes et droits indirects (DGDDI) (web form)"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

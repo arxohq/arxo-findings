@@ -1,0 +1,225 @@
+{
+  "id": "ARXO-2026-0024",
+  "url": "https://arxo.io/findings/ARXO-2026-0024/",
+  "record_kind": "discrepancy",
+  "class": "language_versions",
+  "class_label": "Language versions",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": null,
+  "act": "Grading instructions for farm animals, Order of the Minister of Agriculture of Kazakhstan No. 3-3/517 of 10 October 2014",
+  "acts": [
+    "Приказ МСХ РК от 10.10.2014 № 3-3/517 (НГР V14F0009818)",
+    "Приказ МСХ РК от 30.04.2026 № 166 (НГР V2600038615)"
+  ],
+  "location": "Appendix 17 (rabbits), paragraph 10",
+  "text": {
+    "en": {
+      "title": "Rabbit grading, paragraph 10: the Russian and Kazakh texts set opposite culling conditions",
+      "summary": "The Russian text of paragraph 10 recommends culling does “that raised fewer than 5 kits in each of the first two kindlings” and those with “more than two consecutive misses”. The Kazakh text of the same paragraph names does that raised “at least 5 kits” and misses “twice in a row”. The condition on the number of kits is reversed between the language versions, and the number of misses differs.",
+      "impact": "Read literally, the Kazakh text recommends culling the more productive does.",
+      "correction": "Kazakh text: “5-тен кем көжек өсірген”; the number of misses to be aligned in both versions by the issuing ministry.",
+      "quote_translations": {
+        "ru": "does that raised fewer than 5 kits in each of the first two kindlings (except where caused by sterile bucks)",
+        "ru-2": "more than two consecutive misses have been recorded",
+        "kk": "a doe that raised at least 5 kits in each of its first two kindlings",
+        "kk-2": "if she has not conceived twice in a row"
+      }
+    },
+    "ru": {
+      "title": "Кролики, п. 10: русский и казахский тексты дают противоположные условия выбраковки",
+      "summary": "Русский текст п. 10 рекомендует выбраковывать самок, «вырастивших менее 5 крольчат в каждом из двух первых окролов», и крольчих с «более двух последовательных пропустований». Казахский текст того же пункта говорит «кем дегенде 5 көжекті өсірген аналық» (вырастивших не менее 5 крольчат) и «қатарынан екі рет буаз болмаса» (два раза подряд). Условие по числу крольчат в языковых версиях противоположное, число пропустований различается.",
+      "correction": "Казахский текст: «5-тен кем көжек өсірген»; число пропустований согласовать в обеих версиях."
+    },
+    "kk": {
+      "title": "Қояндар, 10-тармақ: орыс және қазақ мәтіндері жарамсызға шығарудың қарама-қарсы шарттарын береді",
+      "summary": "10-тармақтың орыс мәтіні «алғашқы екі көжектеуінің әрқайсысында 5-тен кем көжек өсірген» аналықтарды және «қатарынан екіден артық» буаз болмаған аналықтарды жарамсызға шығаруды ұсынады. Сол тармақтың қазақ мәтінінде «кем дегенде 5 көжекті өсірген аналық» және «қатарынан екі рет буаз болмаса» деп жазылған. Көжек саны бойынша шарт тіл нұсқаларында қарама-қарсы, буаз болмау саны әртүрлі.",
+      "correction": "Қазақ мәтіні: «5-тен кем көжек өсірген»; буаз болмау санын екі нұсқада келісу."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "received",
+    "last_checked": "2026-10-22",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A language version",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "ru",
+        "source": "Әділет legal information system, Russian text in force (V14F0009818)",
+        "role": "Normative text",
+        "language": "ru",
+        "edition": "в редакции приказа № 166 от 30.04.2026",
+        "locator": "Appendix 17, paragraph 10, number of kits (Russian text)",
+        "text": "самок, вырастивших менее 5 крольчат в каждом из двух первых окролов (кроме случаев, вызванных стерильностью самцов)",
+        "translations": {
+          "en": "does that raised fewer than 5 kits in each of the first two kindlings (except where caused by sterile bucks)"
+        },
+        "url": "https://adilet.zan.kz/api/documents/a19614c2-a69b-4a59-811d-73d93ac86810",
+        "sha256": "a657cf973997c1451e1ac5679870abbaf73394159e1f2c0e7f27aef930443663",
+        "retrieved": "2026-10-22",
+        "copy": "sources/2e5069719dbfa6fc-ru.txt",
+        "copy_sha256": "2e5069719dbfa6fc54cc214e34c3f5d7e8777db15dce30982f96e5bb22ddda60",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "ru-2",
+        "source": "Әділет legal information system, Russian text in force (V14F0009818)",
+        "role": "Normative text",
+        "language": "ru",
+        "edition": "в редакции приказа № 166 от 30.04.2026",
+        "locator": "Appendix 17, paragraph 10, misses (Russian text)",
+        "text": "зарегистрировано более двух последовательных пропустований",
+        "translations": {
+          "en": "more than two consecutive misses have been recorded"
+        },
+        "url": "https://adilet.zan.kz/api/documents/a19614c2-a69b-4a59-811d-73d93ac86810",
+        "sha256": "a657cf973997c1451e1ac5679870abbaf73394159e1f2c0e7f27aef930443663",
+        "retrieved": "2026-10-22",
+        "copy": "sources/2e5069719dbfa6fc-ru.txt",
+        "copy_sha256": "2e5069719dbfa6fc54cc214e34c3f5d7e8777db15dce30982f96e5bb22ddda60",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "kk",
+        "source": "Әділет legal information system, Kazakh text in force (V14F0009818)",
+        "role": "Language version",
+        "language": "kk",
+        "edition": "в редакции приказа № 166 от 30.04.2026",
+        "locator": "Appendix 17, paragraph 10, number of kits (Kazakh text)",
+        "text": "алғашқы екі көжектеуінің әрбіреуінде кем дегенде 5 көжекті өсірген аналық",
+        "translations": {
+          "en": "a doe that raised at least 5 kits in each of its first two kindlings"
+        },
+        "url": "https://adilet.zan.kz/api/documents/4f315ad9-63e6-4252-9f2f-814f1d34d75c",
+        "sha256": "1d8395ac095e209767e1b41eeadb479181007927463435017345d74a7f45d086",
+        "retrieved": "2026-10-22",
+        "copy": "sources/483c41dd1333f388-live-kk.flat.txt",
+        "copy_sha256": "483c41dd1333f388ec8973839e35660dcc9b5917962e300a9f3f140e27bbcecb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "kk-2",
+        "source": "Әділет legal information system, Kazakh text in force (V14F0009818)",
+        "role": "Language version",
+        "language": "kk",
+        "edition": "в редакции приказа № 166 от 30.04.2026",
+        "locator": "Appendix 17, paragraph 10, misses (Kazakh text)",
+        "text": "қатарынан екі рет буаз болмаса",
+        "translations": {
+          "en": "if she has not conceived twice in a row"
+        },
+        "url": "https://adilet.zan.kz/api/documents/4f315ad9-63e6-4252-9f2f-814f1d34d75c",
+        "sha256": "1d8395ac095e209767e1b41eeadb479181007927463435017345d74a7f45d086",
+        "retrieved": "2026-10-22",
+        "copy": "sources/483c41dd1333f388-live-kk.flat.txt",
+        "copy_sha256": "483c41dd1333f388ec8973839e35660dcc9b5917962e300a9f3f140e27bbcecb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-22",
+      "institution": "Ministry of Agriculture of the Republic of Kazakhstan (Livestock Department)",
+      "channel": "portal",
+      "role": "issuing ministry",
+      "reference": "ЖТ-2026-04813274"
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "Ministry of Agriculture of the Republic of Kazakhstan (Livestock Department)",
+      "channel": "email",
+      "role": "issuing ministry",
+      "what": "the same appeal by e-mail"
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "Analytical Center of Economic Policy in the Agro-Industrial Complex (operator of the Republican Livestock System information system, plem.kz)",
+      "channel": "email",
+      "role": "operator of the system that records grading results",
+      "what": "Appendix 1 to the appeal: the list of errors in the grading instructions"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Ministry of Agriculture of the Republic of Kazakhstan (Livestock Department)",
+      "role": "author of the order"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-10-23",
+      "institution": "Ministry of Agriculture of the Republic of Kazakhstan",
+      "kind": "received",
+      "summary": {
+        "en": "The e-mail copy was answered with a note that no version in the state language was attached, and was then forwarded to the ministry's office for citizens' appeals. The appeal filed through the eOtinish portal awaits a reply.",
+        "ru": "На копию по электронной почте ответили, что версии на государственном языке нет, и передали её в подразделение по работе с обращениями граждан. Обращение, поданное через портал eOtinish, ожидает ответа.",
+        "kk": "Электрондық поштамен жіберілген көшірмеге мемлекеттік тілдегі нұсқасы жоқ деп жауап берілді, кейін ол азаматтардың өтініштерімен жұмыс бөліміне жолданды. eOtinish порталы арқылы берілген өтініш жауап күтуде."
+      }
+    }
+  ],
+  "approval": "2026-10-22",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-22)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Әділет: Инструкции по бонитировке (приказ № 3-3/517), русский текст",
+      "url": "https://adilet.zan.kz/rus/docs/V14F0009818"
+    },
+    {
+      "title": "Әділет: бонитирлеу жөніндегі нұсқаулықтар (№ 3-3/517 бұйрық), қазақ тіліндегі мәтін",
+      "url": "https://adilet.zan.kz/kaz/docs/V14F0009818"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-25T12:17:00Z",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to Ministry of Agriculture of the Republic of Kazakhstan (Livestock Department) (official portal)"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to Ministry of Agriculture of the Republic of Kazakhstan (Livestock Department) (e-mail)"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to Analytical Center of Economic Policy in the Agro-Industrial Complex (operator of the Republican Livestock System information system, plem.kz) (e-mail)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "received",
+      "text": "Receipt confirmed: Ministry of Agriculture of the Republic of Kazakhstan"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

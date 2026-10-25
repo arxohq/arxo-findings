@@ -1,0 +1,169 @@
+{
+  "id": "ARXO-2026-0019",
+  "url": "https://arxo.io/findings/ARXO-2026-0019/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "FR",
+  "jurisdiction_detail": null,
+  "act": "Loi n° 2026-103 du 19 février 2026 de finances pour 2026 (LF 2026)",
+  "acts": [
+    "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026",
+    "Loi n° 2026-103 du 19 février 2026 de finances pour 2026",
+    "Code général des impôts",
+    "Code de la sécurité sociale",
+    "Code des impositions sur les biens et services",
+    "Guide 2026 sur la fiscalité des énergies"
+  ],
+  "location": "LF 2026, art. 81, V",
+  "text": {
+    "en": {
+      "title": "LF 2026 art. 81, V: « code général des collectivité territoriales » (missing plural in the name of the code)",
+      "summary": "Article 81, V, of Law No. 2026-103 (2026 Finance Act) introduces amendments to « La deuxième partie du code général des collectivité territoriales ». The code is the « code général des collectivités territoriales », as the same article writes it elsewhere. The final text adopted by the National Assembly (T.A. No. 227) carries the same spelling, so the discrepancy is in the adopted text; the code referred to remains identifiable.",
+      "correction": "Read « code général des collectivités territoriales ».",
+      "quote_translations": {
+        "art81-V": "V. – Part two of the General Code of local authority [sic, singular] is amended as follows:",
+        "art81-cgct": "mentioned in article L. 2333-92 of the General Code of local authorities, up to 2 euros per tonne."
+      }
+    },
+    "fr": {
+      "title": "LF 2026, art. 81, V : « code général des collectivité territoriales » (pluriel manquant dans le nom du code)",
+      "summary": "Le V de l'article 81 de la loi n° 2026-103 de finances pour 2026 introduit des modifications à « La deuxième partie du code général des collectivité territoriales ». Le code est le « code général des collectivités territoriales », comme l'écrit ailleurs le même article. Le texte définitif adopté par l'Assemblée nationale (T.A. n° 227) porte la même graphie : l'écart est dans le texte adopté ; le code visé reste identifiable.",
+      "correction": "Lire « code général des collectivités territoriales »."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "art81-V",
+        "source": "Loi n° 2026-103 du 19 février 2026 de finances pour 2026, article 81 (JORF n° 0043)",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": "JORF n° 0043 du 20 février 2026, texte n° 1",
+        "locator": "LF 2026, art. 81, V, phrase introductive",
+        "text": "V. - La deuxième partie du code général des collectivité territoriales est ainsi modifiée :",
+        "translations": {
+          "en": "V. – Part two of the General Code of local authority [sic, singular] is amended as follows:"
+        },
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053508597",
+        "sha256": "4daf82402d859ef7c6814e04f6eebaedaac8db06ec146af529f852d30dc49f1b",
+        "retrieved": "2026-10-22",
+        "copy": "sources/715db8092598e13e-jorf-lf2026.json.gz",
+        "copy_sha256": "715db8092598e13e3ec6a0f23f409eae8f50a4c123d55cb1136057f43be11b07",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "art81-cgct",
+        "source": "Loi n° 2026-103 du 19 février 2026 de finances pour 2026, article 81 (JORF n° 0043)",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": "JORF n° 0043 du 20 février 2026, texte n° 1",
+        "locator": "LF 2026, art. 81 (CIBS, art. L. 433-59 inséré)",
+        "text": "mentionnées à l'article L. 2333-92 du code général des collectivités territoriales, dans la limite de 2 euros par tonne.",
+        "translations": {
+          "en": "mentioned in article L. 2333-92 of the General Code of local authorities, up to 2 euros per tonne."
+        },
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053508597",
+        "sha256": "4daf82402d859ef7c6814e04f6eebaedaac8db06ec146af529f852d30dc49f1b",
+        "retrieved": "2026-10-22",
+        "copy": "sources/715db8092598e13e-jorf-lf2026.json.gz",
+        "copy_sha256": "715db8092598e13e3ec6a0f23f409eae8f50a4c123d55cb1136057f43be11b07",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-23T08:31:09Z",
+      "institution": "Direction de la législation fiscale (DGFiP), bureau C1",
+      "channel": "email",
+      "role": "tax legislation service responsible for income tax provisions",
+      "what": "listed in the annex on citation errors"
+    },
+    {
+      "date": "2026-10-23T08:31:09Z",
+      "institution": "Secrétariat général du Gouvernement",
+      "channel": "email",
+      "role": "quality of law (copy of the same message)",
+      "what": "listed in the annex on citation errors"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Direction de la législation fiscale (DGFiP), bureau C1",
+      "role": "drafting of tax legislation"
+    },
+    {
+      "institution": "Secrétariat général du Gouvernement",
+      "role": "legislative quality and publication of the Official Journal"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-23",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-23)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [
+    {
+      "date": "2026-10-23",
+      "title": "arxohq/arxo-fr-lf2026-lfss2026 (findings.csv, code A6)",
+      "url": "https://github.com/arxohq/arxo-fr-lf2026-lfss2026"
+    }
+  ],
+  "reproduction": [
+    {
+      "title": "Public evidence repository: operations, findings and hashes",
+      "url": "https://github.com/arxohq/arxo-fr-lf2026-lfss2026",
+      "commit": "1a1ec228cbe1e265431e8e233360725d6e42e6f3"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-25T12:17:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "published_elsewhere",
+      "text": "Published: arxohq/arxo-fr-lf2026-lfss2026 (findings.csv, code A6)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Direction de la législation fiscale (DGFiP), bureau C1 (e-mail)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Secrétariat général du Gouvernement (e-mail)"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

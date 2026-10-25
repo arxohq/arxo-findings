@@ -1,0 +1,238 @@
+{
+  "id": "ARXO-2026-0003",
+  "url": "https://arxo.io/findings/ARXO-2026-0003/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "26 U.S.C. (Internal Revenue Code)",
+  "acts": [
+    "P.L. 119-21 (139 Stat. 72)",
+    "P.L. 119-108",
+    "26 U.S.C.",
+    "31 U.S.C. 1324"
+  ],
+  "location": "26 U.S.C. §42(e)(3)(B)",
+  "text": {
+    "en": {
+      "title": "26 U.S.C. §42(e)(3)(B) refers to “subsection (b)(2)(B)(ii)”, which no longer exists",
+      "summary": "Section 42(e)(3)(B) sets the credit for certain rehabilitation expenditures “using the percentage applicable under subsection (b)(2)(B)(ii)”. Subsection (b)(2)(B) has had no clauses since P.L. 110-289 §3002(a) restructured subsection (b); the 30 percent rule is now in subsection (b)(1)(B)(ii). The reference was not conformed when subsection (b) was rewritten.",
+      "correction": "Refer to subsection (b)(1)(B)(ii)."
+    }
+  },
+  "status": {
+    "badge": "accepted",
+    "label": {
+      "en": "Accepted by the addressee",
+      "ru": "Принято адресатом"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "accepted",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Documented search",
+    "quotes": [
+      {
+        "location": "ref",
+        "source": "Office of the Law Revision Counsel, United States Code, Title 26, release point 119-121 (XML)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "119-121",
+        "locator": "26 U.S.C. §42(e)(3)(B)",
+        "text": "the credit under this section for such rehabilitation expenditures shall be determined using the percentage applicable under subsection (b)(2)(B)(ii).",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/121/xml_usc26@119-121.zip",
+        "sha256": "5d3633536e1d289992d676cb9520b6816529e15e837d09af2e5c8d9100ca9d3a",
+        "retrieved": "2026-10-22",
+        "copy": "sources/5d3633536e1d2899-xml_usc26-119-121.zip",
+        "copy_sha256": "5d3633536e1d289992d676cb9520b6816529e15e837d09af2e5c8d9100ca9d3a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "target",
+        "source": "Office of the Law Revision Counsel, United States Code, Title 26, release point 119-121 (XML)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "119-121",
+        "locator": "26 U.S.C. §42(b)(1)(B)(ii)",
+        "text": "30 percent of the qualified basis of a building not described in clause (i).",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/121/xml_usc26@119-121.zip",
+        "sha256": "5d3633536e1d289992d676cb9520b6816529e15e837d09af2e5c8d9100ca9d3a",
+        "retrieved": "2026-10-22",
+        "copy": "sources/5d3633536e1d2899-xml_usc26-119-121.zip",
+        "copy_sha256": "5d3633536e1d289992d676cb9520b6816529e15e837d09af2e5c8d9100ca9d3a",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-22",
+      "institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "channel": "email",
+      "role": "publisher of the United States Code"
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "Joint Committee on Taxation",
+      "channel": "email",
+      "role": "technical corrections"
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "Senate Committee on Finance (majority and minority tax staff)",
+      "channel": "email",
+      "role": "tax-writing committee"
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "House Committee on Ways and Means (majority and minority tax staff)",
+      "channel": "email",
+      "role": "tax-writing committee"
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "U.S. Department of the Treasury, Office of Tax Legislative Counsel",
+      "channel": "email",
+      "role": "tax guidance and technical corrections"
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "Internal Revenue Service, National Public Liaison",
+      "channel": "email",
+      "role": "IRS"
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "U.S. Government Accountability Office",
+      "channel": "email",
+      "role": "audit"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "role": "publisher of the United States Code"
+    },
+    {
+      "institution": "Joint Committee on Taxation",
+      "role": "technical corrections to tax legislation"
+    },
+    {
+      "institution": "Senate Committee on Finance (majority and minority tax staff)",
+      "role": "tax-writing committee"
+    },
+    {
+      "institution": "House Committee on Ways and Means (majority and minority tax staff)",
+      "role": "tax-writing committee"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-10-22",
+      "institution": "U.S. Government Accountability Office",
+      "kind": "received"
+    },
+    {
+      "date": "2026-10-23T12:26:00Z",
+      "institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "kind": "acknowledged",
+      "summary": {
+        "en": "The Office of the Law Revision Counsel said it has added a footnote and a References in Text note for this reference; they will appear in the next release point of the Code. Until that release point is published, the text of the Code is unchanged."
+      }
+    }
+  ],
+  "approval": "2026-10-22",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-22)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [
+    {
+      "date": "2026-10-23",
+      "title": "arxohq/arxo-pl119-21-amendments, memo 1 and Follow-up",
+      "url": "https://github.com/arxohq/arxo-pl119-21-amendments"
+    }
+  ],
+  "reproduction": [
+    {
+      "title": "Public evidence repository: P.L. 119-21 amendments to Title 26",
+      "url": "https://github.com/arxohq/arxo-pl119-21-amendments"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-25T12:17:00Z",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "event": "received",
+      "text": "Receipt confirmed: U.S. Government Accountability Office"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to Office of the Law Revision Counsel, U.S. House of Representatives (e-mail)"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to Joint Committee on Taxation (e-mail)"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to Senate Committee on Finance (majority and minority tax staff) (e-mail)"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to House Committee on Ways and Means (majority and minority tax staff) (e-mail)"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to U.S. Department of the Treasury, Office of Tax Legislative Counsel (e-mail)"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to Internal Revenue Service, National Public Liaison (e-mail)"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to U.S. Government Accountability Office (e-mail)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "acknowledged",
+      "text": "Accepted: Office of the Law Revision Counsel, U.S. House of Representatives"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "published_elsewhere",
+      "text": "Published: arxohq/arxo-pl119-21-amendments, memo 1 and Follow-up"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

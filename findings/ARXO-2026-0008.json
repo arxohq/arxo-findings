@@ -1,0 +1,187 @@
+{
+  "id": "ARXO-2026-0008",
+  "url": "https://arxo.io/findings/ARXO-2026-0008/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": null,
+  "act": "Grading instructions for farm animals, Order of the Minister of Agriculture of Kazakhstan No. 3-3/517 of 10 October 2014",
+  "acts": [
+    "Приказ МСХ РК от 10.10.2014 № 3-3/517 (НГР V14F0009818)",
+    "Приказ МСХ РК от 30.04.2026 № 166 (НГР V2600038615)"
+  ],
+  "location": "Appendix 2 (beef cattle), paragraph 28",
+  "text": {
+    "en": {
+      "title": "Beef cattle grading, paragraph 28: class I is written as “81-70 points”, so totals of 61–70 fall into no class",
+      "summary": "Paragraph 28 of the grading instructions for beef cattle sets “elite – 71-80 points”, “class I – 81-70 points” and “class II – 51-60 points”. A total of 61 to 70 points matches no row: a cow scoring 65 receives no class for the complex of traits. The Russian and Kazakh texts read the same way.",
+      "impact": "An animal with a total of 61–70 points cannot be assigned a class for the complex of traits.",
+      "correction": "“Class I – 61-70 points” (Kazakh text: “I сынып – 61-70 балл”).",
+      "quote_translations": {
+        "ru": "elite-record – 81 points and more; elite – 71-80 points; class I – 81-70 points; class II – 51-60 points",
+        "kk": "elite – 71-80 points; class I – 81-70 points; class II – 51-60 points"
+      }
+    },
+    "ru": {
+      "title": "Мясной КРС, п. 28: границы I класса записаны как «81-70 баллов» — сумма 61–70 не попадает ни в один класс",
+      "summary": "В п. 28 Инструкции по бонитировке крупного рогатого скота мясного направления границы I класса записаны как «81-70 баллов». Соседние строки — «элита – 71-80 баллов» и «II класс – 51-60 баллов». Сумма от 61 до 70 баллов не попадает ни в одну строку: например, корова с суммой 65 баллов класса по комплексу признаков не получает. Так в русском и казахском текстах.",
+      "correction": "«I класс – 61-70 баллов» (казахский текст: «I сынып – 61-70 балл»)."
+    },
+    "kk": {
+      "title": "Өнімділіктің етті бағытындағы ірі қара мал, 28-тармақ: I сынып «81-70 балл» деп жазылған — 61–70 балл ешбір сыныпқа кірмейді",
+      "summary": "Өнімділіктің етті бағытындағы ірі қара малды бонитирлеу жөніндегі нұсқаулықтың 28-тармағында «элита – 71-80 балл», «I сынып – 81-70 балл» және «II сынып – 51-60 балл» деп көрсетілген. 61-ден 70-ке дейінгі балл ешбір жолға сәйкес келмейді: мысалы, 65 балл жинаған сиыр белгілер кешені бойынша сынып алмайды. Орыс және қазақ мәтіндерінде бірдей.",
+      "correction": "«I сынып – 61-70 балл»."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "received",
+    "last_checked": "2026-10-22",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "ru",
+        "source": "Әділет legal information system, Russian text in force (V14F0009818)",
+        "role": "Normative text",
+        "language": "ru",
+        "edition": "в редакции приказа № 166 от 30.04.2026",
+        "locator": "Appendix 2, paragraph 28 (Russian text)",
+        "text": "элита-рекорд – 81 балл и более; элита – 71-80 баллов; I класс – 81-70 баллов; II класс – 51-60 баллов",
+        "translations": {
+          "en": "elite-record – 81 points and more; elite – 71-80 points; class I – 81-70 points; class II – 51-60 points"
+        },
+        "url": "https://adilet.zan.kz/api/documents/a19614c2-a69b-4a59-811d-73d93ac86810",
+        "sha256": "a657cf973997c1451e1ac5679870abbaf73394159e1f2c0e7f27aef930443663",
+        "retrieved": "2026-10-22",
+        "copy": "sources/2e5069719dbfa6fc-ru.txt",
+        "copy_sha256": "2e5069719dbfa6fc54cc214e34c3f5d7e8777db15dce30982f96e5bb22ddda60",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "kk",
+        "source": "Әділет legal information system, Kazakh text in force (V14F0009818)",
+        "role": "Language version",
+        "language": "kk",
+        "edition": "в редакции приказа № 166 от 30.04.2026",
+        "locator": "Appendix 2, paragraph 28 (Kazakh text)",
+        "text": "элита – 71-80 балл; I сынып– 81-70 балл; II сынып – 51-60 балл",
+        "translations": {
+          "en": "elite – 71-80 points; class I – 81-70 points; class II – 51-60 points"
+        },
+        "url": "https://adilet.zan.kz/api/documents/4f315ad9-63e6-4252-9f2f-814f1d34d75c",
+        "sha256": "1d8395ac095e209767e1b41eeadb479181007927463435017345d74a7f45d086",
+        "retrieved": "2026-10-22",
+        "copy": "sources/483c41dd1333f388-live-kk.flat.txt",
+        "copy_sha256": "483c41dd1333f388ec8973839e35660dcc9b5917962e300a9f3f140e27bbcecb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": true,
+  "notified": [
+    {
+      "date": "2026-10-22",
+      "institution": "Ministry of Agriculture of the Republic of Kazakhstan (Livestock Department)",
+      "channel": "portal",
+      "role": "issuing ministry",
+      "reference": "ЖТ-2026-04813274"
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "Ministry of Agriculture of the Republic of Kazakhstan (Livestock Department)",
+      "channel": "email",
+      "role": "issuing ministry",
+      "what": "the same appeal by e-mail"
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "Analytical Center of Economic Policy in the Agro-Industrial Complex (operator of the Republican Livestock System information system, plem.kz)",
+      "channel": "email",
+      "role": "operator of the system that records grading results",
+      "what": "Appendix 1 to the appeal: the list of errors in the grading instructions"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Ministry of Agriculture of the Republic of Kazakhstan (Livestock Department)",
+      "role": "author of the order"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-10-23",
+      "institution": "Ministry of Agriculture of the Republic of Kazakhstan",
+      "kind": "received",
+      "summary": {
+        "en": "The e-mail copy was answered with a note that no version in the state language was attached, and was then forwarded to the ministry's office for citizens' appeals. The appeal filed through the eOtinish portal awaits a reply.",
+        "ru": "На копию по электронной почте ответили, что версии на государственном языке нет, и передали её в подразделение по работе с обращениями граждан. Обращение, поданное через портал eOtinish, ожидает ответа.",
+        "kk": "Электрондық поштамен жіберілген көшірмеге мемлекеттік тілдегі нұсқасы жоқ деп жауап берілді, кейін ол азаматтардың өтініштерімен жұмыс бөліміне жолданды. eOtinish порталы арқылы берілген өтініш жауап күтуде."
+      }
+    }
+  ],
+  "approval": "2026-10-22",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-22)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Әділет: Инструкции по бонитировке (приказ № 3-3/517), русский текст",
+      "url": "https://adilet.zan.kz/rus/docs/V14F0009818"
+    },
+    {
+      "title": "Әділет: бонитирлеу жөніндегі нұсқаулықтар (№ 3-3/517 бұйрық), қазақ тіліндегі мәтін",
+      "url": "https://adilet.zan.kz/kaz/docs/V14F0009818"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-25T12:17:00Z",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to Ministry of Agriculture of the Republic of Kazakhstan (Livestock Department) (official portal)"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to Ministry of Agriculture of the Republic of Kazakhstan (Livestock Department) (e-mail)"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to Analytical Center of Economic Policy in the Agro-Industrial Complex (operator of the Republican Livestock System information system, plem.kz) (e-mail)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "received",
+      "text": "Receipt confirmed: Ministry of Agriculture of the Republic of Kazakhstan"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

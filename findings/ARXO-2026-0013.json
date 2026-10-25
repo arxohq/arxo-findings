@@ -1,0 +1,183 @@
+{
+  "id": "ARXO-2026-0013",
+  "url": "https://arxo.io/findings/ARXO-2026-0013/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "FR",
+  "jurisdiction_detail": null,
+  "act": "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026 (LFSS 2026)",
+  "acts": [
+    "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026",
+    "Loi n° 2026-103 du 19 février 2026 de finances pour 2026",
+    "Code général des impôts",
+    "Code de la sécurité sociale",
+    "Code des impositions sur les biens et services",
+    "Guide 2026 sur la fiscalité des énergies"
+  ],
+  "location": "LFSS 2026, art. 18, II",
+  "text": {
+    "en": {
+      "title": "LFSS 2026 art. 18, II: the 2026 Finance Act cited under the number and date of the social security financing act itself (corrected on 23 May 2026)",
+      "summary": "As published in the Official Journal of 31 December 2025, article 18, II, of Law No. 2025-1403 (2026 social security financing act) referred to « la loi n° 2025-1403 du 30 décembre 2025 de finances pour 2026 », that is, to the 2026 Finance Act under the number and date of Law No. 2025-1403 itself. The text adopted by the National Assembly left the number and date blank, so the discrepancy arose at publication. The rectificatif published in Official Journal No. 0120 of 23 May 2026 had already corrected it before Arxo's check of 22 October 2026.",
+      "correction": "Already corrected by the rectificatif of 23 May 2026, which reads « loi n° 2026-103 du 19 février 2026 de finances pour 2026 ».",
+      "quote_translations": {
+        "art18-II": "II. – Point b of 1° of I enters into force on the date on which article 75-0 D of the General Tax Code, as worded by Law No. 2025-1403 of 30 December 2025 on finances for 2026, enters into force.",
+        "lfss-title": "LAW No. 2025-1403 of 30 December 2025 on the financing of social security for 2026",
+        "lf-title": "LAW No. 2026-103 of 19 February 2026 on finances for 2026",
+        "rectificatif": "in II of article 18, instead of: « Law No. 2025-1403 of 30 December 2025 on finances for 2026. », read: « Law No. 2026-103 of 19 February 2026 on finances for 2026. »"
+      }
+    },
+    "fr": {
+      "title": "LFSS 2026, art. 18, II : la loi de finances pour 2026 citée sous le numéro et la date de la LFSS elle-même (corrigé le 23 mai 2026)",
+      "summary": "Dans l'édition du Journal officiel du 31 décembre 2025, le II de l'article 18 de la loi n° 2025-1403 visait « la loi n° 2025-1403 du 30 décembre 2025 de finances pour 2026 », c'est-à-dire la loi de finances pour 2026 sous le numéro et la date de la LFSS elle-même. Le texte adopté par l'Assemblée nationale laissait le numéro et la date en blanc : l'écart est né à la publication. Le rectificatif publié au JO n° 0120 du 23 mai 2026 l'avait déjà corrigé avant la vérification d'Arxo du 22 octobre 2026.",
+      "correction": "Déjà corrigé par le rectificatif du 23 mai 2026 : « loi n° 2026-103 du 19 février 2026 de finances pour 2026 »."
+    }
+  },
+  "status": {
+    "badge": "corrected_before_report",
+    "label": {
+      "en": "Corrected before our report",
+      "ru": "Исправлено до нашего сообщения"
+    },
+    "conclusion": "confirmed",
+    "official_text": "corrected_before_report",
+    "addressee": "none",
+    "last_checked": "2026-10-23",
+    "fixed_on": "2026-05-23",
+    "correction_type": "publication",
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "art18-II",
+        "source": "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026, article 18 (JORF n° 0306)",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": "JORF n° 0306 du 31 décembre 2025, texte n° 1",
+        "locator": "LFSS 2026, art. 18, II",
+        "text": "II. - Le b du 1° du I entre en vigueur à la date de l'entrée en vigueur de l'article 75-0 D du code général des impôts dans sa rédaction résultant de la loi n° 2025-1403 du 30 décembre 2025 de finances pour 2026.",
+        "translations": {
+          "en": "II. – Point b of 1° of I enters into force on the date on which article 75-0 D of the General Tax Code, as worded by Law No. 2025-1403 of 30 December 2025 on finances for 2026, enters into force."
+        },
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053226483",
+        "sha256": "1b2dd5120ae45b8001aef51aee11664c212a830dbf83dab41216ff07a91e3ed7",
+        "retrieved": "2026-10-22",
+        "copy": "sources/79252932bb7f65a9-jorf-lfss2026.json.gz",
+        "copy_sha256": "79252932bb7f65a97faa90333acbc2d7eb7bf15f5956d14f065cff9cfacde349",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "lfss-title",
+        "source": "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026 (JORF n° 0306)",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": "JORF n° 0306 du 31 décembre 2025, texte n° 1",
+        "locator": "LFSS 2026, intitulé",
+        "text": "LOI n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026",
+        "translations": {
+          "en": "LAW No. 2025-1403 of 30 December 2025 on the financing of social security for 2026"
+        },
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053226384",
+        "sha256": "d55ebf4292a500e2c41bcc1bd28c2600bb0d684fe6abf43b84d6a147d79db374",
+        "retrieved": "2026-10-22",
+        "copy": "sources/79252932bb7f65a9-jorf-lfss2026.json.gz",
+        "copy_sha256": "79252932bb7f65a97faa90333acbc2d7eb7bf15f5956d14f065cff9cfacde349",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "lf-title",
+        "source": "Loi n° 2026-103 du 19 février 2026 de finances pour 2026 (JORF n° 0043)",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": "JORF n° 0043 du 20 février 2026, texte n° 1",
+        "locator": "LF 2026, intitulé",
+        "text": "LOI n° 2026-103 du 19 février 2026 de finances pour 2026",
+        "translations": {
+          "en": "LAW No. 2026-103 of 19 February 2026 on finances for 2026"
+        },
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053508155",
+        "sha256": "fd25904a24369cc358e7e4599aa7d18e218354f06a9d84e05aa56ba97e8f5243",
+        "retrieved": "2026-10-22",
+        "copy": "sources/715db8092598e13e-jorf-lf2026.json.gz",
+        "copy_sha256": "715db8092598e13e3ec6a0f23f409eae8f50a4c123d55cb1136057f43be11b07",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "rectificatif",
+        "source": "Rectificatif à la loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026 (JORF n° 0120 du 23 mai 2026)",
+        "role": "Correction",
+        "language": "fr",
+        "edition": "JORF n° 0120 du 23 mai 2026",
+        "locator": "Rectificatif du 23 mai 2026, premier tiret",
+        "text": "au II de l'article 18, au lieu de : « loi n° 2025-1403 du 30 décembre 2025 de finances pour 2026. », lire : « loi n° 2026-103 du 19 février 2026 de finances pour 2026. »",
+        "translations": {
+          "en": "in II of article 18, instead of: « Law No. 2025-1403 of 30 December 2025 on finances for 2026. », read: « Law No. 2026-103 of 19 February 2026 on finances for 2026. »"
+        },
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000054125098",
+        "sha256": "c250d8f8fd0faf8162a3c68d129830504ec47fcc931b594c360227f86dadd532",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e64602b8fe9e588d-rectificatifs-jorf-20251231-20261023.json",
+        "copy_sha256": "e64602b8fe9e588d4d2cf493fb4bef19899bcf2a8f3ae3be4de745e25f109940",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [],
+  "responsible": [],
+  "responses": [],
+  "approval": "2026-10-23",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved its publication (2026-10-23)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [
+    {
+      "date": "2026-10-23",
+      "title": "arxohq/arxo-fr-lf2026-lfss2026 (findings.csv, code A1)",
+      "url": "https://github.com/arxohq/arxo-fr-lf2026-lfss2026"
+    }
+  ],
+  "reproduction": [
+    {
+      "title": "Public evidence repository: operations, findings and hashes",
+      "url": "https://github.com/arxohq/arxo-fr-lf2026-lfss2026",
+      "commit": "1a1ec228cbe1e265431e8e233360725d6e42e6f3"
+    }
+  ],
+  "sources": [],
+  "related": [
+    {
+      "id": "ARXO-2026-0014",
+      "relation": "see_also"
+    }
+  ],
+  "first_published": "2026-10-25T12:17:00Z",
+  "history": [
+    {
+      "date": "2026-05-23",
+      "event": "corrected",
+      "text": "Corrected by Rectificatif à la loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026 (JORF n° 0120 du 23 mai 2026)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "published_elsewhere",
+      "text": "Published: arxohq/arxo-fr-lf2026-lfss2026 (findings.csv, code A1)"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

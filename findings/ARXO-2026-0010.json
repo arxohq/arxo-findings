@@ -1,0 +1,207 @@
+{
+  "id": "ARXO-2026-0010",
+  "url": "https://arxo.io/findings/ARXO-2026-0010/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": null,
+  "act": "Grading instructions for farm animals, Order of the Minister of Agriculture of Kazakhstan No. 3-3/517 of 10 October 2014",
+  "acts": [
+    "Приказ МСХ РК от 10.10.2014 № 3-3/517 (НГР V14F0009818)",
+    "Приказ МСХ РК от 30.04.2026 № 166 (НГР V2600038615)"
+  ],
+  "location": "Appendix 10 (camels), paragraph 23",
+  "text": {
+    "en": {
+      "title": "Camel grading, paragraph 23: the Russian electronic publication shows the word “ФОРМУЛА” instead of the live-weight formula",
+      "summary": "In the Russian card of the Әділет legal information system, paragraph 23 of the grading instructions for camels reads “by the formula: ФОРМУЛА”: the word “FORMULA” stands where the formula should be. The Kazakh card shows an image of the formula at the same place.",
+      "impact": "A reader of the Russian publication cannot see the formula for estimating live weight.",
+      "correction": "Place the formula image in the Russian card, as in the Kazakh card.",
+      "quote_translations": {
+        "ru": "followed by division by the age coefficient by the formula: FORMULA",
+        "ru-api": "FORMULA",
+        "kk": "HTML of the Kazakh card: an image of the formula"
+      }
+    },
+    "ru": {
+      "title": "Верблюды, п. 23: в русской карточке «Әділет» вместо формулы живой массы — слово «ФОРМУЛА»",
+      "summary": "В русской карточке ИПС «Әділет» в п. 23 Инструкции по бонитировке верблюдов после слов «по формуле:» вместо формулы стоит слово «ФОРМУЛА». В казахской карточке на этом месте — изображение формулы.",
+      "correction": "Разместить изображение формулы в русской карточке."
+    },
+    "kk": {
+      "title": "Түйелер, 23-тармақ: «Әділет» орыс тіліндегі карточкасында тірідей салмақ формуласының орнына «ФОРМУЛА» сөзі тұр",
+      "summary": "«Әділет» АҚЖ орыс тіліндегі карточкасында түйелерді бонитирлеу жөніндегі нұсқаулықтың 23-тармағында «по формуле:» сөздерінен кейін формула орнына «ФОРМУЛА» сөзі тұр. Қазақ тіліндегі карточкада осы жерде формуланың суреті бар.",
+      "correction": "Формула суретін орыс тіліндегі карточкаға орналастыру."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "received",
+    "last_checked": "2026-10-22",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "ru",
+        "source": "Әділет legal information system, Russian text in force (V14F0009818)",
+        "role": "Normative text",
+        "language": "ru",
+        "edition": "в редакции приказа № 166 от 30.04.2026",
+        "locator": "Appendix 10, paragraph 23 (Russian text)",
+        "text": "с последующим делением на возрастной коэффициент по формуле: ФОРМУЛА",
+        "translations": {
+          "en": "followed by division by the age coefficient by the formula: FORMULA"
+        },
+        "url": "https://adilet.zan.kz/api/documents/a19614c2-a69b-4a59-811d-73d93ac86810",
+        "sha256": "a657cf973997c1451e1ac5679870abbaf73394159e1f2c0e7f27aef930443663",
+        "retrieved": "2026-10-22",
+        "copy": "sources/2e5069719dbfa6fc-ru.txt",
+        "copy_sha256": "2e5069719dbfa6fc54cc214e34c3f5d7e8777db15dce30982f96e5bb22ddda60",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "ru-api",
+        "source": "Әділет legal information system, Russian text in force (V14F0009818)",
+        "role": "Normative text",
+        "language": "ru",
+        "edition": "в редакции приказа № 166 от 30.04.2026",
+        "locator": "Appendix 10, paragraph 23 (Russian card, raw text)",
+        "text": "ФОРМУЛА",
+        "translations": {
+          "en": "FORMULA"
+        },
+        "url": "https://adilet.zan.kz/api/documents/a19614c2-a69b-4a59-811d-73d93ac86810",
+        "sha256": "a657cf973997c1451e1ac5679870abbaf73394159e1f2c0e7f27aef930443663",
+        "retrieved": "2026-10-22",
+        "copy": "sources/a657cf973997c145-adilet-api.json",
+        "copy_sha256": "a657cf973997c1451e1ac5679870abbaf73394159e1f2c0e7f27aef930443663",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "kk",
+        "source": "Әділет legal information system, Kazakh text in force (V14F0009818)",
+        "role": "Language version",
+        "language": "kk",
+        "edition": "в редакции приказа № 166 от 30.04.2026",
+        "locator": "Appendix 10, paragraph 23 (Kazakh card, HTML)",
+        "text": "<img src=\"/files/1598/50/0.jpg\">",
+        "translations": {
+          "en": "HTML of the Kazakh card: an image of the formula"
+        },
+        "url": "https://adilet.zan.kz/api/documents/4f315ad9-63e6-4252-9f2f-814f1d34d75c",
+        "sha256": "1d8395ac095e209767e1b41eeadb479181007927463435017345d74a7f45d086",
+        "retrieved": "2026-10-22",
+        "copy_kind": "no copy kept; see the official address and hash"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-22",
+      "institution": "Ministry of Agriculture of the Republic of Kazakhstan (Livestock Department)",
+      "channel": "portal",
+      "role": "issuing ministry",
+      "reference": "ЖТ-2026-04813274"
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "Ministry of Agriculture of the Republic of Kazakhstan (Livestock Department)",
+      "channel": "email",
+      "role": "issuing ministry",
+      "what": "the same appeal by e-mail"
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "Institute of Legislation and Legal Information of the Republic of Kazakhstan (operator of the Әділет legal information system)",
+      "channel": "email",
+      "role": "publisher of the electronic text"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Ministry of Agriculture of the Republic of Kazakhstan (Livestock Department)",
+      "role": "author of the order"
+    },
+    {
+      "institution": "Institute of Legislation and Legal Information of the Republic of Kazakhstan (operator of the Әділет legal information system)",
+      "role": "publisher of the electronic text"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-10-23",
+      "institution": "Ministry of Agriculture of the Republic of Kazakhstan",
+      "kind": "received",
+      "summary": {
+        "en": "The e-mail copy was answered with a note that no version in the state language was attached, and was then forwarded to the ministry's office for citizens' appeals. The appeal filed through the eOtinish portal awaits a reply.",
+        "ru": "На копию по электронной почте ответили, что версии на государственном языке нет, и передали её в подразделение по работе с обращениями граждан. Обращение, поданное через портал eOtinish, ожидает ответа.",
+        "kk": "Электрондық поштамен жіберілген көшірмеге мемлекеттік тілдегі нұсқасы жоқ деп жауап берілді, кейін ол азаматтардың өтініштерімен жұмыс бөліміне жолданды. eOtinish порталы арқылы берілген өтініш жауап күтуде."
+      }
+    }
+  ],
+  "approval": "2026-10-22",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-22)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Әділет: Инструкции по бонитировке (приказ № 3-3/517), русский текст",
+      "url": "https://adilet.zan.kz/rus/docs/V14F0009818"
+    },
+    {
+      "title": "Әділет: бонитирлеу жөніндегі нұсқаулықтар (№ 3-3/517 бұйрық), қазақ тіліндегі мәтін",
+      "url": "https://adilet.zan.kz/kaz/docs/V14F0009818"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-25T12:17:00Z",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to Ministry of Agriculture of the Republic of Kazakhstan (Livestock Department) (official portal)"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to Ministry of Agriculture of the Republic of Kazakhstan (Livestock Department) (e-mail)"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "reported",
+      "text": "Reported to Institute of Legislation and Legal Information of the Republic of Kazakhstan (operator of the Әділет legal information system) (e-mail)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "received",
+      "text": "Receipt confirmed: Ministry of Agriculture of the Republic of Kazakhstan"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

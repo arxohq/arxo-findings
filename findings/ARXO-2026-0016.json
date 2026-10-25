@@ -1,0 +1,169 @@
+{
+  "id": "ARXO-2026-0016",
+  "url": "https://arxo.io/findings/ARXO-2026-0016/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "FR",
+  "jurisdiction_detail": null,
+  "act": "Loi n° 2026-103 du 19 février 2026 de finances pour 2026 (LF 2026)",
+  "acts": [
+    "Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026",
+    "Loi n° 2026-103 du 19 février 2026 de finances pour 2026",
+    "Code général des impôts",
+    "Code de la sécurité sociale",
+    "Code des impositions sur les biens et services",
+    "Guide 2026 sur la fiscalité des énergies"
+  ],
+  "location": "LF 2026, art. 183, II",
+  "text": {
+    "en": {
+      "title": "LF 2026 art. 183, II: Law No. 2020-1721 cited with the date 9 December 2020 instead of 29 December 2020",
+      "summary": "Article 183, II, of Law No. 2026-103 (2026 Finance Act) amends article 225 of « la loi n° 2020-1721 du 9 décembre 2020 de finances pour 2021 ». Law No. 2020-1721 is dated 29 December 2020, and other articles of the same act, such as article 19, cite it with that date. The final text adopted by the National Assembly (T.A. No. 227) carries the same date, so the discrepancy is in the adopted text; the law referred to remains identifiable by its number.",
+      "correction": "Read « du 29 décembre 2020 », for example in a later coordination provision.",
+      "quote_translations": {
+        "art183-II": "II. – The first paragraph of article 225 of Law No. 2020-1721 of 9 December 2020 on finances for 2021 is amended as follows:",
+        "art19": "Article 15 of Law No. 2020-1721 of 29 December 2020 on finances for 2021 is amended as follows:"
+      }
+    },
+    "fr": {
+      "title": "LF 2026, art. 183, II : la loi n° 2020-1721 citée avec la date du 9 décembre 2020 au lieu du 29 décembre 2020",
+      "summary": "Le II de l'article 183 de la loi n° 2026-103 de finances pour 2026 modifie l'article 225 de « la loi n° 2020-1721 du 9 décembre 2020 de finances pour 2021 ». La loi n° 2020-1721 est du 29 décembre 2020, et d'autres articles de la même loi, comme l'article 19, la citent avec cette date. Le texte définitif adopté par l'Assemblée nationale (T.A. n° 227) porte la même date : l'écart est dans le texte adopté ; la loi visée reste identifiable par son numéro.",
+      "correction": "Lire « du 29 décembre 2020 », par exemple dans une disposition de coordination ultérieure."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "art183-II",
+        "source": "Loi n° 2026-103 du 19 février 2026 de finances pour 2026, article 183 (JORF n° 0043)",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": "JORF n° 0043 du 20 février 2026, texte n° 1",
+        "locator": "LF 2026, art. 183, II",
+        "text": "II. - Le premier alinéa de l'article 225 de la loi n° 2020-1721 du 9 décembre 2020 de finances pour 2021 est ainsi modifié :",
+        "translations": {
+          "en": "II. – The first paragraph of article 225 of Law No. 2020-1721 of 9 December 2020 on finances for 2021 is amended as follows:"
+        },
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053509398",
+        "sha256": "5ee097e103e758c39a4ff080ac5edd9c0ff47a890c1dbeaa0f2e5fc65d71e6f6",
+        "retrieved": "2026-10-22",
+        "copy": "sources/715db8092598e13e-jorf-lf2026.json.gz",
+        "copy_sha256": "715db8092598e13e3ec6a0f23f409eae8f50a4c123d55cb1136057f43be11b07",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "art19",
+        "source": "Loi n° 2026-103 du 19 février 2026 de finances pour 2026, article 19 (JORF n° 0043)",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": "JORF n° 0043 du 20 février 2026, texte n° 1",
+        "locator": "LF 2026, art. 19, premier alinéa",
+        "text": "L'article 15 de la loi n° 2020-1721 du 29 décembre 2020 de finances pour 2021 est ainsi modifié :",
+        "translations": {
+          "en": "Article 15 of Law No. 2020-1721 of 29 December 2020 on finances for 2021 is amended as follows:"
+        },
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053508272",
+        "sha256": "1d183f4a60f14ef3531d383999a4ed2ef4ee7f2ed06fa4baf31e13d0c9b1b357",
+        "retrieved": "2026-10-22",
+        "copy": "sources/715db8092598e13e-jorf-lf2026.json.gz",
+        "copy_sha256": "715db8092598e13e3ec6a0f23f409eae8f50a4c123d55cb1136057f43be11b07",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-23T08:31:09Z",
+      "institution": "Direction de la législation fiscale (DGFiP), bureau C1",
+      "channel": "email",
+      "role": "tax legislation service responsible for income tax provisions",
+      "what": "listed in the annex on citation errors"
+    },
+    {
+      "date": "2026-10-23T08:31:09Z",
+      "institution": "Secrétariat général du Gouvernement",
+      "channel": "email",
+      "role": "quality of law (copy of the same message)",
+      "what": "listed in the annex on citation errors"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Direction de la législation fiscale (DGFiP), bureau C1",
+      "role": "drafting of tax legislation"
+    },
+    {
+      "institution": "Secrétariat général du Gouvernement",
+      "role": "legislative quality and publication of the Official Journal"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-23",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-23)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [
+    {
+      "date": "2026-10-23",
+      "title": "arxohq/arxo-fr-lf2026-lfss2026 (findings.csv, code A3)",
+      "url": "https://github.com/arxohq/arxo-fr-lf2026-lfss2026"
+    }
+  ],
+  "reproduction": [
+    {
+      "title": "Public evidence repository: operations, findings and hashes",
+      "url": "https://github.com/arxohq/arxo-fr-lf2026-lfss2026",
+      "commit": "1a1ec228cbe1e265431e8e233360725d6e42e6f3"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-25T12:17:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "published_elsewhere",
+      "text": "Published: arxohq/arxo-fr-lf2026-lfss2026 (findings.csv, code A3)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Direction de la législation fiscale (DGFiP), bureau C1 (e-mail)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Secrétariat général du Gouvernement (e-mail)"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}
