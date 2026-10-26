@@ -4,7 +4,7 @@
   "description": "Verified discrepancies in legal texts, official publications and implementations, with evidence and correction histories.",
   "publisher": "Arxo Law",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "as_of": "2026-10-26T13:20:00+00:00",
+  "as_of": "2026-10-26T13:33:00+00:00",
   "base_url": "https://arxo.io/findings/",
   "counts": {
     "records": 24,
@@ -5006,7 +5006,7 @@
         {
           "title": "Public evidence repository: recomputation of Rev. Proc. 2025-32 amounts",
           "url": "https://github.com/arxohq/arxo-irs-inflation-adjustments",
-          "commit": "686601c"
+          "commit": "4983918"
         }
       ],
       "sources": [],
@@ -5298,7 +5298,7 @@
         {
           "title": "Public evidence repository: recomputation of Rev. Proc. 2025-32 amounts",
           "url": "https://github.com/arxohq/arxo-irs-inflation-adjustments",
-          "commit": "686601c"
+          "commit": "4983918"
         }
       ],
       "sources": [],
