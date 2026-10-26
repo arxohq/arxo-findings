@@ -1,0 +1,292 @@
+{
+  "id": "ARXO-2026-0027",
+  "url": "https://arxo.io/findings/ARXO-2026-0027/",
+  "record_kind": "discrepancy",
+  "class": "derived_figures",
+  "class_label": "Derived figures",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Rev. Proc. 2025-32 (inflation-adjusted amounts for 2026)",
+  "acts": [
+    "Internal Revenue Code (26 U.S.C.)",
+    "P.L. 119-21",
+    "Rev. Proc. 2025-32",
+    "Announcement 2026-2"
+  ],
+  "location": "Rev. Proc. 2025-32, sections 4.35 and 4.50",
+  "text": {
+    "en": {
+      "title": "Rev. Proc. 2025-32: the 2026 section 6334(d)(4)(B) amount is published as $5,300; the statutory rounding rule gives $5,250",
+      "summary": "Section 6334(d)(4)(C) increases the $4,150 amount by the cost-of-living adjustment (base year 2017) and rounds the increase down to a multiple of $100. For 2026 the increase is $1,167.12, rounded to $1,100, giving $5,250. Rev. Proc. 2025-32 publishes $5,300 in section 4.50 (wages exempt from levy) and section 4.35 (qualified disability trust deduction, which uses the same adjustment); the published increase, $1,150, is not a multiple of $100 and matches rounding the full amount, $5,317.12, down. Rev. Proc. 2024-40 shows the same pattern for 2025 in sections 2.35 and 2.51: $5,100 published, $5,150 under the statute.",
+      "impact": "The per-dependent amount used to compute wages exempt from levy is $50 higher than the statute gives for 2026 and was $50 lower for 2025; holding the standard deduction constant, that is about $0.96 per dependent per week. The qualified disability trust deduction differs by the same $50.",
+      "correction": "$5,250 for 2026, or a published statement of the authority for rounding the whole amount."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "received",
+    "last_checked": "2026-10-26",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A published derived figure",
+  "evidence": {
+    "method": "Built by computation from the text",
+    "quotes": [
+      {
+        "location": "norm2",
+        "source": "26 U.S.C. §6334, United States Code, 2024 edition (govinfo)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "USCODE-2024, 31.12.2024 (before P.L. 119-21)",
+        "locator": "26 U.S.C. §6334(d)(4)",
+        "text": "(4) Years when personal exemption amount is zero (A) In general In the case of any taxable year in which the exemption amount under section 151(d) is zero, paragraph (2) shall not apply and for purposes of paragraph (1) the term \"exempt amount\" means an amount equal to— (i) the sum of the amount",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title26/html/USCODE-2024-title26-subtitleF-chap64-subchapD-partII-sec6334.htm",
+        "sha256": "5a5d7ea8b6886703675be3e0a8d63099d736aaa93d4f95ba52f65e64d2d3b21b",
+        "retrieved": null,
+        "copy": "sources/5a5d7ea8b6886703-USCODE-2024-title26-subtitleF-chap64-subchapD-partII-sec6334.htm",
+        "copy_sha256": "5a5d7ea8b6886703675be3e0a8d63099d736aaa93d4f95ba52f65e64d2d3b21b",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "rule",
+        "source": "26 U.S.C. §6334, United States Code, 2024 edition (govinfo)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "USCODE-2024, 31.12.2024 (before P.L. 119-21)",
+        "locator": "26 U.S.C. §6334(d)(4)(C), last sentence",
+        "text": "If any increase determined under the preceding sentence is not a multiple of $100, such increase shall be rounded to the next lowest multiple of $100.",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title26/html/USCODE-2024-title26-subtitleF-chap64-subchapD-partII-sec6334.htm",
+        "sha256": "5a5d7ea8b6886703675be3e0a8d63099d736aaa93d4f95ba52f65e64d2d3b21b",
+        "retrieved": null,
+        "copy": "sources/5a5d7ea8b6886703-USCODE-2024-title26-subtitleF-chap64-subchapD-partII-sec6334.htm",
+        "copy_sha256": "5a5d7ea8b6886703675be3e0a8d63099d736aaa93d4f95ba52f65e64d2d3b21b",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "norm1",
+        "source": "26 U.S.C. §642, United States Code, 2024 edition (govinfo)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "USCODE-2024, 31.12.2024 (before P.L. 119-21)",
+        "locator": "26 U.S.C. §642(b)(2)(C)",
+        "text": "(C) Disability trusts (i) In general A qualified disability trust shall be allowed a deduction equal to the exemption amount under section 151(d), determined— (I) by treating such trust as an individual described in section 68(b)(1)(C), and (II) by applying section 67(e) (without the reference to",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title26/html/USCODE-2024-title26-subtitleA-chap1-subchapJ-partI-subpartA-sec642.htm",
+        "sha256": "3b45c392c3256d0f8737444d305ba2c091e2de79ff9abbf5ee4a2580a756caad",
+        "retrieved": null,
+        "copy": "sources/3b45c392c3256d0f-USCODE-2024-title26-subtitleA-chap1-subchapJ-partI-subpartA-sec642.htm",
+        "copy_sha256": "3b45c392c3256d0f8737444d305ba2c091e2de79ff9abbf5ee4a2580a756caad",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "published",
+        "source": "IRS, Rev. Proc. 2025-32 (as revised 17 October 2025)",
+        "role": "Published figures",
+        "language": "en",
+        "edition": "17.10.2025",
+        "locator": "Rev. Proc. 2025-32, section 4.35",
+        "text": "the amount of the deduction under § 642(b)(2)(C)(i) is $5,300.",
+        "translations": {},
+        "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+        "sha256": "e9ada115fb43a4af5ea326ca91edd40ab0bf29b9be01d2c13d7b8fa96214635b",
+        "retrieved": null,
+        "copy": "sources/0429fc711f7b2233-en.txt",
+        "copy_sha256": "0429fc711f7b22336a7cfe8b2a3e0c5af2e467eed346c0ceb181c8236cacff73",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "published-450",
+        "source": "IRS, Rev. Proc. 2025-32 (as revised 17 October 2025)",
+        "role": "Published figures",
+        "language": "en",
+        "edition": "17.10.2025",
+        "locator": "Rev. Proc. 2025-32, section 4.50",
+        "text": "the dollar amount used to calculate the amount determined under § 6334(d)(4)(B) is $5,300.",
+        "translations": {},
+        "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+        "sha256": "e9ada115fb43a4af5ea326ca91edd40ab0bf29b9be01d2c13d7b8fa96214635b",
+        "retrieved": null,
+        "copy": "sources/0429fc711f7b2233-en.txt",
+        "copy_sha256": "0429fc711f7b22336a7cfe8b2a3e0c5af2e467eed346c0ceb181c8236cacff73",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "published-2025-235",
+        "source": "IRS, Rev. Proc. 2024-40",
+        "role": "Published figures",
+        "language": "en",
+        "edition": null,
+        "locator": "Rev. Proc. 2024-40, section 2.35",
+        "text": "amount of the deduction under § 642(b)(2)(C)(i) is $5,100.",
+        "translations": {},
+        "url": "https://www.irs.gov/pub/irs-drop/rp-24-40.pdf",
+        "sha256": "4de9db6b6662b5c305a59100a027051628823b42fd5817ea4e383ad4c302af1f",
+        "retrieved": null,
+        "copy": "sources/6ad6d8eab031e696-en.txt",
+        "copy_sha256": "6ad6d8eab031e696bbeaf914932650110bf25f48318ea8ae93beb0cb7efd2e1e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "published-2025-251",
+        "source": "IRS, Rev. Proc. 2024-40",
+        "role": "Published figures",
+        "language": "en",
+        "edition": null,
+        "locator": "Rev. Proc. 2024-40, section 2.51",
+        "text": "the dollar amount used to calculate the amount determined under § 6334(d)(4)(B) is $5,100.",
+        "translations": {},
+        "url": "https://www.irs.gov/pub/irs-drop/rp-24-40.pdf",
+        "sha256": "4de9db6b6662b5c305a59100a027051628823b42fd5817ea4e383ad4c302af1f",
+        "retrieved": null,
+        "copy": "sources/6ad6d8eab031e696-en.txt",
+        "copy_sha256": "6ad6d8eab031e696bbeaf914932650110bf25f48318ea8ae93beb0cb7efd2e1e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ],
+    "computation": {
+      "built_from_text": "5250",
+      "published": "5300"
+    }
+  },
+  "impact_shown": true,
+  "notified": [
+    {
+      "date": "2026-10-21",
+      "institution": "Taxpayer Advocate Service (Systemic Advocacy Management System)",
+      "channel": "web_form",
+      "role": "IRS"
+    },
+    {
+      "date": "2026-10-21",
+      "institution": "Treasury Inspector General for Tax Administration",
+      "channel": "web_form",
+      "role": "oversight of the IRS"
+    },
+    {
+      "date": "2026-10-21T12:54:00Z",
+      "institution": "U.S. Government Accountability Office",
+      "channel": "email",
+      "role": "audit",
+      "what": "a general description of the rounding issue and the published findings"
+    },
+    {
+      "date": "2026-10-26T12:55:16Z",
+      "institution": "Internal Revenue Service, Office of Chief Counsel",
+      "channel": "email",
+      "role": "author of Rev. Proc. 2025-32"
+    },
+    {
+      "date": "2026-10-26",
+      "institution": "Internal Revenue Service, Tax Forms and Publications",
+      "channel": "web_form",
+      "role": "Publication 1494 and the affected instructions"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Internal Revenue Service, Office of Chief Counsel",
+      "role": "author of Rev. Proc. 2025-32"
+    },
+    {
+      "institution": "Internal Revenue Service, Tax Forms and Publications",
+      "role": "Publication 1494 and the affected instructions"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-10-21",
+      "institution": "Taxpayer Advocate Service (Systemic Advocacy Management System)",
+      "kind": "received"
+    },
+    {
+      "date": "2026-10-21",
+      "institution": "Treasury Inspector General for Tax Administration",
+      "kind": "received"
+    }
+  ],
+  "approval": "2026-10-21",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-21)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [
+    {
+      "date": "2026-10-21",
+      "title": "arxohq/arxo-irs-inflation-adjustments, FINDINGS",
+      "url": "https://github.com/arxohq/arxo-irs-inflation-adjustments"
+    }
+  ],
+  "reproduction": [
+    {
+      "title": "Public evidence repository: recomputation of Rev. Proc. 2025-32 amounts",
+      "url": "https://github.com/arxohq/arxo-irs-inflation-adjustments",
+      "commit": "686601c"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-26T13:20:00Z",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "event": "published_elsewhere",
+      "text": "Published: arxohq/arxo-irs-inflation-adjustments, FINDINGS"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "received",
+      "text": "Receipt confirmed: Taxpayer Advocate Service (Systemic Advocacy Management System)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "received",
+      "text": "Receipt confirmed: Treasury Inspector General for Tax Administration"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Taxpayer Advocate Service (Systemic Advocacy Management System) (web form)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Treasury Inspector General for Tax Administration (web form)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to U.S. Government Accountability Office (e-mail)"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-26",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-26",
+      "event": "reported",
+      "text": "Reported to Internal Revenue Service, Office of Chief Counsel (e-mail)"
+    },
+    {
+      "date": "2026-10-26",
+      "event": "reported",
+      "text": "Reported to Internal Revenue Service, Tax Forms and Publications (web form)"
+    }
+  ]
+}

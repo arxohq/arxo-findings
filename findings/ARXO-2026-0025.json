@@ -1,0 +1,227 @@
+{
+  "id": "ARXO-2026-0025",
+  "url": "https://arxo.io/findings/ARXO-2026-0025/",
+  "record_kind": "discrepancy",
+  "class": "derived_figures",
+  "class_label": "Derived figures",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Rev. Proc. 2025-32 (inflation-adjusted amounts for 2026)",
+  "acts": [
+    "Internal Revenue Code (26 U.S.C.)",
+    "P.L. 119-21",
+    "Rev. Proc. 2025-32",
+    "Announcement 2026-2"
+  ],
+  "location": "Rev. Proc. 2025-32, section 4.14(1)",
+  "text": {
+    "en": {
+      "title": "Rev. Proc. 2025-32: the 2026 head-of-household standard deduction is published as $24,150; the statutory rounding rule gives $24,175",
+      "summary": "Section 63(c)(7)(B)(ii) increases the $23,625 base by the cost-of-living adjustment and rounds the increase down to the next lowest multiple of $50. With the C-CPI-U values published on 11 September 2025 the increase is $559.56, rounded to $550, giving $24,175. Rev. Proc. 2025-32, section 4.14(1), publishes $24,150: its increase of $525 is not a multiple of $50 and matches rounding the whole amount instead of the increase.",
+      "impact": "The 2026 standard deduction of a head-of-household filer is $25 lower than the amount the statute gives. This is a difference in the deduction, not in tax: the tax effect depends on the filer's bracket.",
+      "correction": "$24,175, or a published statement of the authority for rounding the whole amount."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "received",
+    "last_checked": "2026-10-26",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A published derived figure",
+  "evidence": {
+    "method": "Built by computation from the text",
+    "quotes": [
+      {
+        "location": "rule",
+        "source": "26 U.S.C. §63, United States Code, 2024 edition (govinfo)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "USCODE-2024, 31.12.2024 (before P.L. 119-21)",
+        "locator": "26 U.S.C. §63(c)(7)(B)(ii), last sentence",
+        "text": "If any increase under this clause is not a multiple of $50, such increase shall be rounded to the next lowest multiple of $50.",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title26/html/USCODE-2024-title26-subtitleA-chap1-subchapB-partI-sec63.htm",
+        "sha256": "1f095b810947b437cbac8e1e2b2321a8257697a377645a837f036d69eb1e470d",
+        "retrieved": null,
+        "copy": "sources/1f095b810947b437-USCODE-2024-title26-subtitleA-chap1-subchapB-partI-sec63.htm",
+        "copy_sha256": "1f095b810947b437cbac8e1e2b2321a8257697a377645a837f036d69eb1e470d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "base",
+        "source": "Public Law 119-21, 139 Stat. 72 (govinfo USLM)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "P.L. 119-21 §70102(b)(1)",
+        "text": "by striking “ $18,000 ” both places it appears in subparagraphs (A)(i) and (B)(ii) and inserting “ $23,625 ”",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ21/uslm/PLAW-119publ21.xml",
+        "sha256": "762ae9af06640f023ddb9eb6f474ff7cfa275691de338d4fd985cfb04a7b6dea",
+        "retrieved": null,
+        "copy": "sources/762ae9af06640f02-PLAW-119publ21.xml",
+        "copy_sha256": "762ae9af06640f023ddb9eb6f474ff7cfa275691de338d4fd985cfb04a7b6dea",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "published",
+        "source": "IRS, Rev. Proc. 2025-32 (as revised 17 October 2025)",
+        "role": "Published figures",
+        "language": "en",
+        "edition": "17.10.2025",
+        "locator": "Rev. Proc. 2025-32, section 4.14(1), Heads of Households",
+        "text": "$24,150",
+        "translations": {},
+        "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+        "sha256": "e9ada115fb43a4af5ea326ca91edd40ab0bf29b9be01d2c13d7b8fa96214635b",
+        "retrieved": null,
+        "copy": "sources/0429fc711f7b2233-en.txt",
+        "copy_sha256": "0429fc711f7b22336a7cfe8b2a3e0c5af2e467eed346c0ceb181c8236cacff73",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ],
+    "computation": {
+      "built_from_text": "24175",
+      "published": "24150"
+    }
+  },
+  "impact_shown": true,
+  "notified": [
+    {
+      "date": "2026-10-21T12:54:00Z",
+      "institution": "U.S. Government Accountability Office",
+      "channel": "email",
+      "role": "audit"
+    },
+    {
+      "date": "2026-10-21",
+      "institution": "Taxpayer Advocate Service (Systemic Advocacy Management System)",
+      "channel": "web_form",
+      "role": "IRS"
+    },
+    {
+      "date": "2026-10-21",
+      "institution": "Treasury Inspector General for Tax Administration",
+      "channel": "web_form",
+      "role": "oversight of the IRS"
+    },
+    {
+      "date": "2026-10-26T12:55:16Z",
+      "institution": "Internal Revenue Service, Office of Chief Counsel",
+      "channel": "email",
+      "role": "author of Rev. Proc. 2025-32"
+    },
+    {
+      "date": "2026-10-26",
+      "institution": "Internal Revenue Service, Tax Forms and Publications",
+      "channel": "web_form",
+      "role": "Instructions for Form 1040 (standard deduction)"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Internal Revenue Service, Office of Chief Counsel",
+      "role": "author of Rev. Proc. 2025-32"
+    },
+    {
+      "institution": "Internal Revenue Service, Tax Forms and Publications",
+      "role": "Instructions for Form 1040 (standard deduction)"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-10-21",
+      "institution": "Taxpayer Advocate Service (Systemic Advocacy Management System)",
+      "kind": "received"
+    },
+    {
+      "date": "2026-10-21",
+      "institution": "Treasury Inspector General for Tax Administration",
+      "kind": "received"
+    }
+  ],
+  "approval": "2026-10-21",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-21)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [
+    {
+      "date": "2026-10-21",
+      "title": "arxohq/arxo-irs-inflation-adjustments, FINDINGS",
+      "url": "https://github.com/arxohq/arxo-irs-inflation-adjustments"
+    }
+  ],
+  "reproduction": [
+    {
+      "title": "Public evidence repository: recomputation of Rev. Proc. 2025-32 amounts",
+      "url": "https://github.com/arxohq/arxo-irs-inflation-adjustments",
+      "commit": "686601c"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-26T13:20:00Z",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "published_elsewhere",
+      "text": "Published: arxohq/arxo-irs-inflation-adjustments, FINDINGS"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "received",
+      "text": "Receipt confirmed: Taxpayer Advocate Service (Systemic Advocacy Management System)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "received",
+      "text": "Receipt confirmed: Treasury Inspector General for Tax Administration"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to U.S. Government Accountability Office (e-mail)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Taxpayer Advocate Service (Systemic Advocacy Management System) (web form)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Treasury Inspector General for Tax Administration (web form)"
+    },
+    {
+      "date": "2026-10-26",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-26",
+      "event": "reported",
+      "text": "Reported to Internal Revenue Service, Office of Chief Counsel (e-mail)"
+    },
+    {
+      "date": "2026-10-26",
+      "event": "reported",
+      "text": "Reported to Internal Revenue Service, Tax Forms and Publications (web form)"
+    }
+  ]
+}

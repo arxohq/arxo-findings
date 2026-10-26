@@ -5,9 +5,29 @@
   <link rel="alternate" href="https://arxo.io/findings/"/>
   <link rel="self" href="https://arxo.io/findings/feed.atom"/>
   <id>https://arxo.io/findings/</id>
-  <updated>2026-10-25T12:17:00+00:00</updated>
+  <updated>2026-10-26T13:20:00+00:00</updated>
   <author><name>Arxo Law</name></author>
   <rights>Data: CC BY 4.0, Arxo Law</rights>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0027/</id>
+    <title>ARXO-2026-0027 — Rev. Proc. 2025-32: the 2026 section 6334(d)(4)(B) amount is published as $5,300; the statutory rounding rule gives $5,250</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0027/"/>
+    <published>2026-10-26T00:00:00Z</published>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Section 6334(d)(4)(C) increases the $4,150 amount by the cost-of-living adjustment (base year 2017) and rounds the increase down to a multiple of $100. For 2026 the increase is $1,167.12, rounded to $1,100, giving $5,250. Rev. Proc. 2025-32 publishes $5,300 in section 4.50 (wages exempt from levy) and section 4.35 (qualified disability trust deduction, which uses the same adjustment); the published increase, $1,150, is not a multiple of $100 and matches rounding the full amount, $5,317.12, down. Rev. Proc. 2024-40 shows the same pattern for 2025 in sections 2.35 and 2.51: $5,100 published, $5,150 under the statute.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0025/</id>
+    <title>ARXO-2026-0025 — Rev. Proc. 2025-32: the 2026 head-of-household standard deduction is published as $24,150; the statutory rounding rule gives $24,175</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0025/"/>
+    <published>2026-10-26T00:00:00Z</published>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Section 63(c)(7)(B)(ii) increases the $23,625 base by the cost-of-living adjustment and rounds the increase down to the next lowest multiple of $50. With the C-CPI-U values published on 11 September 2025 the increase is $559.56, rounded to $550, giving $24,175. Rev. Proc. 2025-32, section 4.14(1), publishes $24,150: its increase of $525 is not a multiple of $50 and matches rounding the whole amount instead of the increase.</summary>
+  </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0024/</id>
     <title>ARXO-2026-0024 — Rabbit grading, paragraph 10: the Russian and Kazakh texts set opposite culling conditions</title>
