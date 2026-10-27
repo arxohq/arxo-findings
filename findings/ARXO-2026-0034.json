@@ -1,0 +1,133 @@
+{
+  "id": "ARXO-2026-0034",
+  "url": "https://arxo.io/findings/ARXO-2026-0034/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML)",
+  "acts": [
+    "AIFC Rules No. FR0008 of 2017 (AML Rules)"
+  ],
+  "location": "Guidance on appointment of MLRO (a), after AML 13.1.3",
+  "text": {
+    "en": {
+      "title": "AML Guidance after 13.1.3 cites GEN 2.1.2 for the MLRO appointment; it is now GEN 2.1.1(1)(d)",
+      "summary": "The Guidance says \"Under GEN 2.1.2., the MLRO function is a mandatory appointment.\" In the current General Rules GEN 2.1.2(1) is omitted and the MLRO appointment is GEN 2.1.1(1)(d).",
+      "correction": "Replace \"GEN 2.1.2.\" with \"GEN 2.1.1(1)(d)\" (subject to the exemption for Credit Rating Agencies in GEN 2.1.1(3)); an editorial correction under section 19(3)(a) of the AIFC Regulations on AIFC Acts."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Guidance on appointment of MLRO (a), after AML 13.1.3",
+        "text": "Under GEN 2.1.2., the MLRO function is a mandatory appointment.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC General Rules (GEN), V20",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "GEN V20 2.1.1(1)",
+        "text": "Subject to (2) an Authorised Person must make the following appointments and ensure that they are held by one or more Approved Individuals at all times:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/gen-_v20_01.01.2026.pdf",
+        "sha256": "e863a30c73072b0323a4d064ab0e3f7e103428a7992f91360ed19a173a68e681",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e863a30c73072b03-gen-v20.pdf",
+        "copy_sha256": "e863a30c73072b0323a4d064ab0e3f7e103428a7992f91360ed19a173a68e681",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC General Rules, initial release",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "GEN initial release 2.1.2(a)",
+        "text": "Money Laundering Reporting Officer; and",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-general-rules-initial-release.pdf",
+        "sha256": "acbe7b35cf6517f54bac1bec8e1904fd1feb21cf68e5f6705bef08699cd6a793",
+        "retrieved": "2026-10-23",
+        "copy": "sources/acbe7b35cf6517f5-gen-initial.pdf",
+        "copy_sha256": "acbe7b35cf6517f54bac1bec8e1904fd1feb21cf68e5f6705bef08699cd6a793",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

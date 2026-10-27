@@ -1,0 +1,145 @@
+{
+  "id": "ARXO-2026-0103",
+  "url": "https://arxo.io/findings/ARXO-2026-0103/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Recognition Rules (REC)",
+  "acts": [
+    "AIFC Market Rules",
+    "AIFC Authorised Market Institution Rules",
+    "AIFC Recognition Rules",
+    "AIFC MTF and OTF Rules"
+  ],
+  "location": "REC 1.1.4(a)",
+  "text": {
+    "en": {
+      "title": "REC 1.1.4(a): should the comparison also cover Chapter 2 of Part 3 of the Framework Regulations?",
+      "summary": "REC 1.1.4 is made for section 89(3)(a) of the Framework Regulations, which asks whether investors get protection equivalent to the requirements for licensing an Authorised Market Institution \"in Chapter 2 of Part 3\". REC 1.1.4(a) asks the applicant to compare its home rules \"with Part 4 of the Framework Regulations and Chapters 2 and 3 or 4 (as appropriate) of the AMI Rules\". Part 4 is \"Controlled and Designated Functions\". The AMI chapters cover much of what section 89(3)(a) protects, and controlled functions are also relevant, but Chapter 2 of Part 3 is not named.",
+      "correction": "Please clarify whether REC 1.1.4(a) should also refer to, or refer instead to, Chapter 2 of Part 3 of the Framework Regulations."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Recognition Rules No. FR0004 of 2017",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "REC (FR0004, as amended 29 June 2022), 1.1.4(a) (rule), page 3",
+        "text": "comparing the regulatory requirements in the applicant's home jurisdiction with Part 4 of the Framework Regulations",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-recognition-rules-no.-fr0004-of-2017.pdf",
+        "sha256": "c2c8f517a52b3b68cfb5459e68d5b0965ae4a8e9e2c9a6bfd3f9c02fc75512eb",
+        "retrieved": "2026-10-23",
+        "copy": "sources/c2c8f517a52b3b68-aifc-recognition-rules-no.-fr0004-of-2017.pdf",
+        "copy_sha256": "c2c8f517a52b3b68cfb5459e68d5b0965ae4a8e9e2c9a6bfd3f9c02fc75512eb",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Financial Services Framework Regulations, V12",
+        "role": "Later act",
+        "language": "en",
+        "edition": null,
+        "locator": "FSFR V12 s.89(3)(a), page 44",
+        "text": "licensing of an Authorised Market Institution in Chapter 2 of Part 3;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/fsfr_v12-18.10.2024-itf_gk.pdf",
+        "sha256": "9c995b9be0e4359d9a595afe7d0a9d5d9f3a4597c3ee3255db2b2e1df520b5c3",
+        "retrieved": "2026-10-23",
+        "copy": "sources/9c995b9be0e4359d-fsfr-v12.pdf",
+        "copy_sha256": "9c995b9be0e4359d9a595afe7d0a9d5d9f3a4597c3ee3255db2b2e1df520b5c3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Financial Services Framework Regulations, V12",
+        "role": "Later act",
+        "language": "en",
+        "edition": null,
+        "locator": "FSFR V12 contents",
+        "text": "PART 4: CONTROLLED AND DESIGNATED FUNCTIONS",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/fsfr_v12-18.10.2024-itf_gk.pdf",
+        "sha256": "9c995b9be0e4359d9a595afe7d0a9d5d9f3a4597c3ee3255db2b2e1df520b5c3",
+        "retrieved": "2026-10-23",
+        "copy": "sources/9c995b9be0e4359d-fsfr-v12.pdf",
+        "copy_sha256": "9c995b9be0e4359d9a595afe7d0a9d5d9f3a4597c3ee3255db2b2e1df520b5c3",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Recognition Rules No. FR0004 of 2017",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-recognition-rules-no.-fr0004-of-2017.pdf"
+    },
+    {
+      "title": "AIFC Financial Services Framework Regulations, V12",
+      "url": "https://aifc.kz/wp-content/uploads/2024/05/fsfr_v12-18.10.2024-itf_gk.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

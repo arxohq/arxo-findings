@@ -1,0 +1,126 @@
+{
+  "id": "ARXO-2026-0153",
+  "url": "https://arxo.io/findings/ARXO-2026-0153/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Rules on Digital Asset Activities (DAA), V5",
+  "acts": [
+    "AIFC Rules on Digital Asset Activities",
+    "AIFC Rules on Providing Money Services",
+    "AIFC Financial Technology Rules",
+    "AIFC Representative Office Rules",
+    "AIFC Auditor Rules"
+  ],
+  "location": "DAA V5, 4.7.2(1)",
+  "text": {
+    "en": {
+      "title": "DAA 4.7.2: annual reserve audit may end 4 months after year end, but its result is due 4 weeks after the 'reference date of the valuation'",
+      "summary": "DAA 4.7.2(1) requires the issuer to \"mandate an independent third party audit of the reserve assets annually but not later than four months after the close of its financial year\"; 4.7.2(2) requires the result to be provided \"at the latest within 4 weeks of the reference date of the valuation\". \"Reference date of the valuation\" is not defined, and (1) does not say whether the four months apply to commissioning or to completing the audit. If the reference date is the financial-year end, the result could be due before the audit has to be done.",
+      "correction": "Please define the reference date of the valuation and clarify whether the four-month period concerns commissioning or completing the audit."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 4.7.2(1)",
+        "text": "Issuer of a Fiat stablecoin or Commodity stablecoin must mandate an independent third party audit of the reserve assets annually but not later than four months after the close of its financial year.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 4.7.2(2)",
+        "text": "The result of the audit conducted under (1) must be provided to the AFSA without delay, at the latest within 4 weeks of the reference date of the valuation.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "id": "ARXO-2026-0168",
+  "url": "https://arxo.io/findings/ARXO-2026-0168/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Representative Office Rules",
+  "acts": [
+    "AIFC Rules on Digital Asset Activities",
+    "AIFC Rules on Providing Money Services",
+    "AIFC Financial Technology Rules",
+    "AIFC Representative Office Rules",
+    "AIFC Auditor Rules"
+  ],
+  "location": "REP 3.3(2)",
+  "text": {
+    "en": {
+      "title": "REP 3.3(2) cites 'REP 2.2.2' (does not exist) and REP 3.8 cites 'the CIR' (no longer a defined rulebook name)",
+      "summary": "(1) 3.3(2): the AFSA may determine fitness 'according to the criteria set out in REP 2.2.2'; REP 2.2 has subrules (1)-(2), the criteria are in REP 2.2(2). (2) 3.8: a Representative Office may only market a Unit of a Foreign Fund 'in accordance with the requirements set out in the CIR'. 'CIR' was the Glossary abbreviation for the Collective Investment Scheme Rules only in Glossary V1 (29.04.2018); from V2 (30.07.2018) to V23 the abbreviation is 'CIS'. Meaning survives by context in both places.",
+      "correction": "Please read \"REP 2.2(2)\" for \"REP 2.2.2\" in REP 3.3(2) and \"the CIS\" for \"the CIR\" in REP 3.8 (an editorial correction under section 19(3)(a) of the AIFC Regulations on AIFC Acts)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Representative Office Rules No. FR0006 of 2017",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "REP 3.3(2)",
+        "text": "according to the criteria set out in REP 2.2.2.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-representative-office-rules-no.-fr0006-of-2017.pdf",
+        "sha256": "27f581d97d61baa56e9b4da5be6b775999a10a569b612e2f3e975f5c2f834dbd",
+        "retrieved": "2026-10-23",
+        "copy": "sources/27f581d97d61baa5-aifc-representative-office-rules-no.-fr0006-of-2017.pdf",
+        "copy_sha256": "27f581d97d61baa56e9b4da5be6b775999a10a569b612e2f3e975f5c2f834dbd",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Representative Office Rules No. FR0006 of 2017",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "REP 2.2(2)",
+        "text": "In making an assessment under REP 2.2(1)(a), the AFSA may consider:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-representative-office-rules-no.-fr0006-of-2017.pdf",
+        "sha256": "27f581d97d61baa56e9b4da5be6b775999a10a569b612e2f3e975f5c2f834dbd",
+        "retrieved": "2026-10-23",
+        "copy": "sources/27f581d97d61baa5-aifc-representative-office-rules-no.-fr0006-of-2017.pdf",
+        "copy_sha256": "27f581d97d61baa56e9b4da5be6b775999a10a569b612e2f3e975f5c2f834dbd",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Representative Office Rules No. FR0006 of 2017",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "REP 3.8",
+        "text": "requirements set out in the CIR.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-representative-office-rules-no.-fr0006-of-2017.pdf",
+        "sha256": "27f581d97d61baa56e9b4da5be6b775999a10a569b612e2f3e975f5c2f834dbd",
+        "retrieved": "2026-10-23",
+        "copy": "sources/27f581d97d61baa5-aifc-representative-office-rules-no.-fr0006-of-2017.pdf",
+        "copy_sha256": "27f581d97d61baa56e9b4da5be6b775999a10a569b612e2f3e975f5c2f834dbd",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Glossary (GLO), V23",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary V23, entry 'CIS'",
+        "text": "The Collective Investment Scheme Rules.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf",
+        "sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "retrieved": "2026-10-23",
+        "copy": "sources/041617346ad87a9f-glo-v23.pdf",
+        "copy_sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "Initial version",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary V1 (29.04.2018), entry 'CIR'",
+        "text": "CIR",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v1_fr0017_29.04.2018.pdf",
+        "sha256": "7f11ec8e216ff1bd63898566e88e97271d71410511a2c41d680f521da8384f2f",
+        "retrieved": "2026-10-23",
+        "copy": "sources/7f11ec8e216ff1bd-glo_v1_fr0017_29.04.2018.pdf",
+        "copy_sha256": "7f11ec8e216ff1bd63898566e88e97271d71410511a2c41d680f521da8384f2f",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Representative Office Rules No. FR0006 of 2017",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-representative-office-rules-no.-fr0006-of-2017.pdf"
+    },
+    {
+      "title": "AIFC Glossary (GLO), V23",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf"
+    },
+    {
+      "title": "Initial version",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v1_fr0017_29.04.2018.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

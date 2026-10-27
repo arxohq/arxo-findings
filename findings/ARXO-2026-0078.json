@@ -1,0 +1,122 @@
+{
+  "id": "ARXO-2026-0078",
+  "url": "https://arxo.io/findings/ARXO-2026-0078/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "Constitutional Statute of the Republic of Kazakhstan on the Astana International Financial Centre and AIFC acts",
+  "acts": [
+    "Constitutional Statute of the Republic of Kazakhstan No. 438-V of 7 December 2015 on the Astana International Financial Centre"
+  ],
+  "location": "statute art. 6 p. 3 lead-in",
+  "text": {
+    "en": {
+      "title": "AFSA online rulebook: the page \"Financial Services Exempt from Corporate Tax\" carries no act title, number, date or adopting body",
+      "summary": "The page is listed under Rules (version 1 January 2020) and states that a participant \"shall not be liable for corporation tax … on income or capital\" for the services in its Schedule 1. It carries no act title, number, date or adopting body, no end date (the Statute sets 1 January 2066) and no exclusion of the digital asset exchange (Article 6(3), since 2023).",
+      "correction": "Please identify the instrument reproduced on this page and state its current or transitional application, with links to Article 6(3) and the 2020 Joint Order."
+    },
+    "ru": {
+      "title": "Электронный свод правил AFSA: страница «Financial Services Exempt from Corporate Tax» не содержит наименования, номера и даты акта и сведений о принявшем его органе",
+      "summary": "Страница размещена в разделе Rules (версия от 1 января 2020 года) и указывает, что участник «не облагается корпоративным налогом … на доход или капитал» по услугам, перечисленным в её приложении 1. На странице нет наименования, номера и даты акта и сведений о принявшем его органе, нет срока окончания действия (Конституционный закон устанавливает 1 января 2066 года) и нет исключения биржи цифровых активов (пункт 3 статьи 6, с 2023 года).",
+      "correction": "Просим указать, какой акт воспроизведён на этой странице, и сообщить, применяется ли он в настоящее время или в переходном порядке, со ссылками на пункт 3 статьи 6 и совместный приказ 2020 года."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l3",
+        "source": "Constitutional Statute on the AIFC, Russian text (Adilet)",
+        "role": "Normative text",
+        "language": "ru",
+        "edition": null,
+        "locator": "statute art. 6 p. 3 lead-in",
+        "text": "Участники Центра, за исключением биржи цифровых активов, до 1 января 2066 года освобождаются от уплаты корпоративного подоходного налога",
+        "translations": {},
+        "url": "https://adilet.zan.kz/rus/docs/Z1500000438",
+        "sha256": "7d7b541f67901d6ef3ccfa8e564606fd80972da031b1a7adf66ad5a0a2a4a893",
+        "retrieved": "2026-10-23",
+        "copy": "sources/7d7b541f67901d6e-ru-adilet-api.json",
+        "copy_sha256": "7d7b541f67901d6ef3ccfa8e564606fd80972da031b1a7adf66ad5a0a2a4a893",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Constitutional Law No. 296-VI (2019), Russian",
+        "role": "Amending act",
+        "language": "ru",
+        "edition": null,
+        "locator": "296-VI art. 2 part 2 (grandfathering of services defined by AIFC acts before 296-VI)",
+        "text": "К доходам, полученным от оказания финансовых услуг, определенных актами Центра до введения в действие настоящего Конституционного закона",
+        "translations": {},
+        "url": "https://adilet.zan.kz/rus/docs/Z1900000296",
+        "sha256": "de447bdf2ab9532df0f13dde0f5550b851becbf2b47d03d374878e0675a810da",
+        "retrieved": "2026-10-23",
+        "copy": "sources/de447bdf2ab9532d-ru-adilet-api.json",
+        "copy_sha256": "de447bdf2ab9532df0f13dde0f5550b851becbf2b47d03d374878e0675a810da",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

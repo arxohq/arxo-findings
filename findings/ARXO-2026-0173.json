@@ -1,0 +1,282 @@
+{
+  "id": "ARXO-2026-0173",
+  "url": "https://arxo.io/findings/ARXO-2026-0173/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Rules on Digital Asset Activities (DAA), V5",
+  "acts": [
+    "AIFC Rules on Digital Asset Activities",
+    "AIFC Rules on Providing Money Services",
+    "AIFC Financial Technology Rules",
+    "AIFC Representative Office Rules",
+    "AIFC Auditor Rules"
+  ],
+  "location": "DAA 3.2(1)(b), p.44",
+  "text": {
+    "en": {
+      "title": "Capital of Digital Asset Service Providers: DAA Table 2 and PRU (INV) Table 3.3 both apply to the same activities with different amounts",
+      "summary": "DAA 3.2(1)(b) and Table 2 set the capital of a Digital Asset Service Provider at USD 250,000 for Providing Custody, USD 100,000 for Managing Investments and USD 250,000 for Dealing in Investments as Principal (other than matched principal). PRU (INV) 1.3 applies to any firm authorised to conduct these activities; Investments include Digital Assets (Glossary), and PRU (INV) 1.3(6) does not exclude Digital Asset Business. PRU (INV) Table 3.3 sets USD 500,000 for Providing Custody Services and for Dealing in Investments as Principal and USD 150,000 for Managing Investments, with the liquid assets requirement in PRU (INV) 4. DAA 3.2(1)(a) keeps the general authorisation requirements of other applicable rules, and for stablecoin issuers DAA 4.2(b) states that \"the highest amount applies\" where another activity requires more capital, so the DAA amounts may be meant as a floor next to PRU (INV). The Rules do not say so for Table 2. Example: a firm licensed only to provide custody of Digital Assets with capital resources of USD 300,000 meets Table 2, but is USD 200,000 below PRU (INV) Table 3.3 for the same activity.",
+      "correction": "Please state whether the DAA Table 2 amounts are meant to replace or to supplement PRU (INV) for Digital Asset Service Providers. If they replace it, PRU (INV) 1.3 could exclude Digital Asset Business; if PRU (INV) applies, Table 2 could say that the higher amount applies."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA 3.2(1)(b), p.44",
+        "text": "the applicant must ensure that it maintains at all times capital resources no lower than the capital requirement specified in Table 2 by reference to the activity that the Digital Asset Service Provider is authorised to conduct",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA Table 2, p.44 (row Providing Custody)",
+        "text": "250,000 Providing Custody",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Prudential Rules for Investment Firms (PRU INV), V7",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PRU (INV) 1.3(1)",
+        "text": "These PRU(INV) Rules apply to PRU Investment Firms.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/pru.inv_v7_fr0011_01.01.2025_gk.pdf",
+        "sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1d2d8c432b940719-pru-v7.pdf",
+        "copy_sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Prudential Rules for Investment Firms (PRU INV), V7",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PRU (INV) 1.3(4)",
+        "text": "A \"PRU Intermediary Investment Firm\" is an entity that has an Authorisation to conduct any of the following Regulated Activities",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/pru.inv_v7_fr0011_01.01.2025_gk.pdf",
+        "sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1d2d8c432b940719-pru-v7.pdf",
+        "copy_sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Prudential Rules for Investment Firms (PRU INV), V7",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PRU (INV) 1.3(4)(c)",
+        "text": "(c) Providing Custody Services;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/pru.inv_v7_fr0011_01.01.2025_gk.pdf",
+        "sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1d2d8c432b940719-pru-v7.pdf",
+        "copy_sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "AIFC Prudential Rules for Investment Firms (PRU INV), V7",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PRU (INV) Table 3.3",
+        "text": "Providing Custody Services 500,000",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/pru.inv_v7_fr0011_01.01.2025_gk.pdf",
+        "sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1d2d8c432b940719-pru-v7.pdf",
+        "copy_sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "AIFC Prudential Rules for Investment Firms (PRU INV), V7",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PRU (INV) 1.3(6)",
+        "text": "These PRU(INV) Rules do not apply to entities that have an Authorisation to conduct any of the following activities unless they are PRU Investment Firms",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/pru.inv_v7_fr0011_01.01.2025_gk.pdf",
+        "sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1d2d8c432b940719-pru-v7.pdf",
+        "copy_sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l8",
+        "source": "AIFC Glossary (GLO), V23",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary, «Investment»",
+        "text": "A Security, Unit, Derivative, Digital Asset or Environmental Instrument",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf",
+        "sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "retrieved": "2026-10-23",
+        "copy": "sources/041617346ad87a9f-glo-v23.pdf",
+        "copy_sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l9",
+        "source": "AIFC General Rules (GEN), V20",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "GEN Schedule 1 para 5(c)",
+        "text": "safeguarding and administering Digital Assets belonging to another Person",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/gen-_v20_01.01.2026.pdf",
+        "sha256": "e863a30c73072b0323a4d064ab0e3f7e103428a7992f91360ed19a173a68e681",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e863a30c73072b03-gen-v20.pdf",
+        "copy_sha256": "e863a30c73072b0323a4d064ab0e3f7e103428a7992f91360ed19a173a68e681",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l10",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA 3.2(1)(a), p.44",
+        "text": "general authorisation requirements applicable to the applicant under the Framework Regulations and other applicable rules",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l11",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA 4.2(b), p.77 (the same drafter's rule for stablecoin issuers)",
+        "text": "Regulated Activity for which the capital requirement is higher than USD 200,000, the highest amount applies",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf"
+    },
+    {
+      "title": "AIFC Prudential Rules for Investment Firms (PRU INV), V7",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/pru.inv_v7_fr0011_01.01.2025_gk.pdf"
+    },
+    {
+      "title": "AIFC Glossary (GLO), V23",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf"
+    },
+    {
+      "title": "AIFC General Rules (GEN), V20",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/gen-_v20_01.01.2026.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

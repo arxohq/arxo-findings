@@ -1,0 +1,167 @@
+{
+  "id": "ARXO-2026-0167",
+  "url": "https://arxo.io/findings/ARXO-2026-0167/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Auditor Rules",
+  "acts": [
+    "AIFC Rules on Digital Asset Activities",
+    "AIFC Rules on Providing Money Services",
+    "AIFC Financial Technology Rules",
+    "AIFC Representative Office Rules",
+    "AIFC Auditor Rules"
+  ],
+  "location": "AUD Annex C(a)",
+  "text": {
+    "en": {
+      "title": "AUD Annex C (Insurance Intermediary Auditor's Report) measures client money 'in accordance with COB 11', which has no client-money rules",
+      "summary": "AUD Annex C (Insurance Intermediary Auditor's Report), paragraphs (a) and (b)(i), measure client money \"in accordance with COB 11\", while (b)(iii)-(iv) refer to COB 8. The client-money rules for insurance intermediaries were added to COB as section 8.5 in December 2018; COB 11 now ends at 11.7.7 and contains no client-money rules. The meaning can be recovered from (b)(iii)-(iv) and the title of the Annex.",
+      "correction": "Please replace \"COB 11\" with \"COB 8.5\" in Annex C (an editorial correction under section 19(3)(a) of the AIFC Regulations on AIFC Acts)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Auditor Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AUD Annex C(a)",
+        "text": "the amount of Client Money the Insurance Intermediary was holding and controlling in accordance with COB 11",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-auditor-rules.pdf",
+        "sha256": "b7eb7eed75dfea7f0aefc2937b881836c3b1a7ba4f59701ec90fcfec5af4fae3",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b7eb7eed75dfea7f-aifc-auditor-rules.pdf",
+        "copy_sha256": "b7eb7eed75dfea7f0aefc2937b881836c3b1a7ba4f59701ec90fcfec5af4fae3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Auditor Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AUD Annex C(b)(iii)",
+        "text": "any of the requirements in COB 8 have not been met;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-auditor-rules.pdf",
+        "sha256": "b7eb7eed75dfea7f0aefc2937b881836c3b1a7ba4f59701ec90fcfec5af4fae3",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b7eb7eed75dfea7f-aifc-auditor-rules.pdf",
+        "copy_sha256": "b7eb7eed75dfea7f0aefc2937b881836c3b1a7ba4f59701ec90fcfec5af4fae3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "Conduct Of Business Rules A2., with amendments as of 2 December 2018, commence on 2 December 2018",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "COB Amendments No. 2.1 (approved 2 December 2018), cover",
+        "text": "AMENDMENTS No. 2.1",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_a2_02.12.2018.pdf",
+        "sha256": "e9854ad17038b6576e3910da0808eb63798044691da4aeab0752173116b85839",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e9854ad17038b657-cob_a2_02.12.2018.pdf",
+        "copy_sha256": "e9854ad17038b6576e3910da0808eb63798044691da4aeab0752173116b85839",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "Conduct Of Business Rules A2., with amendments as of 2 December 2018, commence on 2 December 2018",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "COB Amendments No. 2.1, new section 8.5 heading",
+        "text": "Client money: Insurance Intermediation and Insurance Management",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_a2_02.12.2018.pdf",
+        "sha256": "e9854ad17038b6576e3910da0808eb63798044691da4aeab0752173116b85839",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e9854ad17038b657-cob_a2_02.12.2018.pdf",
+        "copy_sha256": "e9854ad17038b6576e3910da0808eb63798044691da4aeab0752173116b85839",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Auditor Rules",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-auditor-rules.pdf"
+    },
+    {
+      "title": "Conduct Of Business Rules A2., with amendments as of 2 December 2018, commence on 2 December 2018",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_a2_02.12.2018.pdf"
+    }
+  ],
+  "related": [
+    {
+      "id": "ARXO-2026-0166",
+      "relation": "same_cause"
+    }
+  ],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

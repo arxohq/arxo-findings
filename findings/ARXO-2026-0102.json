@@ -1,0 +1,189 @@
+{
+  "id": "ARXO-2026-0102",
+  "url": "https://arxo.io/findings/ARXO-2026-0102/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Rules on Multilateral and Organised Trading Facilities (MOTF), V3",
+  "acts": [
+    "AIFC Market Rules",
+    "AIFC Authorised Market Institution Rules",
+    "AIFC Recognition Rules",
+    "AIFC MTF and OTF Rules"
+  ],
+  "location": "MOTF V3, 8.1(2) (rule), page 16",
+  "text": {
+    "en": {
+      "title": "MOTF 8.1(2)-(3), 6.3 and 20.1: cross-references garbled ('8.1((a)a(a)', '8.1(a)(i)(i)(a)(i)(i)', '6.2(a)(i)', '20.1(1)(1)')",
+      "summary": "MOTF 8.1(1) has paragraphs (a) to (c). 8.1(2) says \"For the purposes of MOTF 8.1((a)a(a)\"; 8.1(3)(a) \"MOTF 8.1(a)a(b)\"; 8.1(3)(b) \"MOTF 8.1(a)(i)(i)(a)(i)(i)\"; 8.1(3)(c) \"MOTF 8.1(a)(i)(i)(1)\". MOTF 6.2 has items (i) and (ii) without (a), yet 6.3 waives \"MOTF 6.2(a)(i)\". MOTF 20.1(1) has no sub-paragraph, yet 20.1(2) to (4) refer to \"MOTF 20.1(1)(1)\". The AFSA online text is the same. For 8.1(2) and 6.3 the target follows from the content (8.1(1)(a), error checking; 6.2(i), public consultation). For 8.1(3)(a) it is unclear whether \"made public\" qualifies 8.1(1)(b) (consolidation of data) or (c) (availability to the public).",
+      "correction": "Please correct the references: in 8.1(2) to \"MOTF 8.1(1)(a)\"; in 8.1(3)(b) and (c) to \"MOTF 8.1(3)(a)(i)\"; in 6.3 to \"MOTF 6.2(i)\"; in 20.1(2) to (4) to \"MOTF 20.1(1)\"; and state whether 8.1(3)(a) refers to 8.1(1)(b) or (c)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "MOTF_V3., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MOTF V3, 8.1(2) (rule), page 16",
+        "text": "For the purposes of MOTF 8.1((a)a(a), a verification process",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/motf_v3_fr0054_01.01.2025_zs.pdf",
+        "sha256": "bb55bd49d1161eb8f79da4776e5064c4857b004de677728334ea39718a00b8ae",
+        "retrieved": "2026-10-23",
+        "copy": "sources/bb55bd49d1161eb8-motf_v3_fr0054_01.01.2025_zs.pdf",
+        "copy_sha256": "bb55bd49d1161eb8f79da4776e5064c4857b004de677728334ea39718a00b8ae",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "MOTF_V3., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MOTF V3, 8.1(3)(a) (rule), page 16",
+        "text": "For the purposes of MOTF 8.1(a)a(b), information is made public, if it:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/motf_v3_fr0054_01.01.2025_zs.pdf",
+        "sha256": "bb55bd49d1161eb8f79da4776e5064c4857b004de677728334ea39718a00b8ae",
+        "retrieved": "2026-10-23",
+        "copy": "sources/bb55bd49d1161eb8-motf_v3_fr0054_01.01.2025_zs.pdf",
+        "copy_sha256": "bb55bd49d1161eb8f79da4776e5064c4857b004de677728334ea39718a00b8ae",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "MOTF_V3., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MOTF V3, 8.1(3)(b) (rule), page 16",
+        "text": "For the purposes of MOTF 8.1(a)(i)(i)(a)(i)(i), an arrangement fulfils",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/motf_v3_fr0054_01.01.2025_zs.pdf",
+        "sha256": "bb55bd49d1161eb8f79da4776e5064c4857b004de677728334ea39718a00b8ae",
+        "retrieved": "2026-10-23",
+        "copy": "sources/bb55bd49d1161eb8-motf_v3_fr0054_01.01.2025_zs.pdf",
+        "copy_sha256": "bb55bd49d1161eb8f79da4776e5064c4857b004de677728334ea39718a00b8ae",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "MOTF_V3., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MOTF V3, 8.1(3)(c) (rule), page 16",
+        "text": "requirements of MOTF 8.1(a)(i)(i)(1).",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/motf_v3_fr0054_01.01.2025_zs.pdf",
+        "sha256": "bb55bd49d1161eb8f79da4776e5064c4857b004de677728334ea39718a00b8ae",
+        "retrieved": "2026-10-23",
+        "copy": "sources/bb55bd49d1161eb8-motf_v3_fr0054_01.01.2025_zs.pdf",
+        "copy_sha256": "bb55bd49d1161eb8f79da4776e5064c4857b004de677728334ea39718a00b8ae",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "MOTF_V3., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MOTF V3, 6.3 (rule), page 12",
+        "text": "dispense with the requirement in MOTF 6.2(a)(i)",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/motf_v3_fr0054_01.01.2025_zs.pdf",
+        "sha256": "bb55bd49d1161eb8f79da4776e5064c4857b004de677728334ea39718a00b8ae",
+        "retrieved": "2026-10-23",
+        "copy": "sources/bb55bd49d1161eb8-motf_v3_fr0054_01.01.2025_zs.pdf",
+        "copy_sha256": "bb55bd49d1161eb8f79da4776e5064c4857b004de677728334ea39718a00b8ae",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "MOTF_V3., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MOTF V3, 20.1(2) (rule), page 26",
+        "text": "deemed sufficient to satisfy MOTF 20.1(1)(1).",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/motf_v3_fr0054_01.01.2025_zs.pdf",
+        "sha256": "bb55bd49d1161eb8f79da4776e5064c4857b004de677728334ea39718a00b8ae",
+        "retrieved": "2026-10-23",
+        "copy": "sources/bb55bd49d1161eb8-motf_v3_fr0054_01.01.2025_zs.pdf",
+        "copy_sha256": "bb55bd49d1161eb8f79da4776e5064c4857b004de677728334ea39718a00b8ae",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "MOTF_V3., with amendments as of 15 December 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/motf_v3_fr0054_01.01.2025_zs.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

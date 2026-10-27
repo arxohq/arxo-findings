@@ -1,0 +1,149 @@
+{
+  "id": "ARXO-2026-0071",
+  "url": "https://arxo.io/findings/ARXO-2026-0071/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Prudential Rules for Investment Firms (PRU INV), V7",
+  "acts": [
+    "AIFC Rules No. FR0011 of 2017 (Prudential Rules for Investment Firms)"
+  ],
+  "location": "PRU(INV) 1.3(10) / page 6",
+  "text": {
+    "en": {
+      "title": "PRU (Investment Firms) 1.3(10) and 6.1(2): which Chapter 6 rules apply to Externally Regulated firms",
+      "summary": "Rule 1.3(10) says that \"in Chapter 6, only Rule 6.6 applies\" to Externally Regulated PRU Investment Firms. Rule 6.1(2) says \"Other than Rules 6.5 and 6.6, this Chapter does not apply\" to them, and Rule 6.5(2) contains a limitation written for them. Rule 6.5 carries the duty to notify a breach within one Business Day and the restriction on payments to Affiliates, so whether these firms are bound by it depends on which rule is read.",
+      "correction": "Please align PRU INV 1.3(10) with 6.1(2) and 6.5(2) by addressing both Rules 6.5 and 6.6 expressly."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Prudential Rules for Investment Firms (PRU INV), V7",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PRU(INV) 1.3(10) / page 6",
+        "text": "and in Chapter 6, only Rule 6.6 applies to Externally Regulated PRU Investment Firms",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/pru.inv_v7_fr0011_01.01.2025_gk.pdf",
+        "sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1d2d8c432b940719-pru-v7.pdf",
+        "copy_sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Prudential Rules for Investment Firms (PRU INV), V7",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PRU(INV) 6.1(2) / page 16",
+        "text": "Other than Rules 6.5 and 6.6, this Chapter does not apply to an Externally Regulated PRU Investment Firm.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/pru.inv_v7_fr0011_01.01.2025_gk.pdf",
+        "sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1d2d8c432b940719-pru-v7.pdf",
+        "copy_sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Prudential Rules for Investment Firms (PRU INV), V7",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PRU(INV) 6.5(2) / page 17",
+        "text": "In the case of an Externally Regulated PRU Investment Firm, the restriction in paragraph (1)(b) shall apply only to assets within the control of the AIFC Operation of the Externally Regulated PRU Investment Firm.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/pru.inv_v7_fr0011_01.01.2025_gk.pdf",
+        "sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1d2d8c432b940719-pru-v7.pdf",
+        "copy_sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Prudential Rules for Investment Firms (PRU INV), V7",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PRU(INV) 6.5(1)(a) / page 16",
+        "text": "notify the AFSA in writing about the breach and the relevant circumstances immediately and not later than within 1 Business Day",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/pru.inv_v7_fr0011_01.01.2025_gk.pdf",
+        "sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1d2d8c432b940719-pru-v7.pdf",
+        "copy_sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "ARXO-2026-0074",
+  "url": "https://arxo.io/findings/ARXO-2026-0074/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "Constitutional Statute of the Republic of Kazakhstan on the Astana International Financial Centre and AIFC acts",
+  "acts": [
+    "Constitutional Statute of the Republic of Kazakhstan No. 438-V of 7 December 2015 on the Astana International Financial Centre"
+  ],
+  "location": "AIFC website, page of the Constitutional Statute, download list",
+  "text": {
+    "en": {
+      "title": "aifc.kz: the link \"Constitutional Statute of the Republic of Kazakhstan kz\" opens the Constitution of Kazakhstan",
+      "summary": "On the Constitutional Statute page of aifc.kz the link labelled \"Constitutional Statute of the Republic of Kazakhstan kz\" serves constitution-of-the-rk-kz.pdf, a 48-page Kazakh text of the Constitution of the Republic of Kazakhstan.",
+      "correction": "Please link the label to the current Kazakh text of the AIFC Constitutional Statute."
+    },
+    "kk": {
+      "title": "aifc.kz: «Constitutional Statute of the Republic of Kazakhstan kz» деген сілтеме бойынша Қазақстан Республикасының Конституциясы ашылады",
+      "summary": "aifc.kz сайтының Конституциялық заң бетінде «Constitutional Statute of the Republic of Kazakhstan kz» деп белгіленген сілтеме бойынша constitution-of-the-rk-kz.pdf файлы ашылады, ол — «Қазақстан Республикасының Конституциясы» мәтінінің қазақ тіліндегі 48 беттік нұсқасы.",
+      "correction": "Аталған белгіні «Астана» халықаралық қаржы орталығы туралы» Қазақстан Республикасының Конституциялық заңының қазақ тіліндегі қолданыстағы мәтініне байланыстыруды сұраймыз."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "aifc.kz, Constitutional Statute page",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "aifc.kz statute page, download list, 2nd item (href …/2024/05/constitution-of-the-rk-kz.pdf)",
+        "text": "Constitutional Statute of the Republic of Kazakhstan kz",
+        "translations": {},
+        "url": "https://aifc.kz/legal-framework/constitutional-statute-of-the-republic-of-kazakhstan/",
+        "sha256": "55f07523e5580dd1c22a562feb2ae5ec26ca61b85304da434cd76f2f99ce070d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/55f07523e5580dd1-statute-page.html",
+        "copy_sha256": "55f07523e5580dd1c22a562feb2ae5ec26ca61b85304da434cd76f2f99ce070d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "aifc.kz, file linked as the Kazakh Constitutional Statute",
+        "role": "Official publication",
+        "language": "kk",
+        "edition": null,
+        "locator": "constitution-of-the-rk-kz.pdf, p. 1 (rendered, checked visually)",
+        "text": "Қазақстан Республикасының Конституциясы",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/constitution-of-the-rk-kz.pdf",
+        "sha256": "0a43938c518c87d1f4d693d2ec740313f575c140beafc8a6d0fe863bdad1dadc",
+        "retrieved": "2026-10-23",
+        "copy": "sources/0a43938c518c87d1-constitution-of-the-rk-kz.pdf",
+        "copy_sha256": "0a43938c518c87d1f4d693d2ec740313f575c140beafc8a6d0fe863bdad1dadc",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "aifc.kz, file linked as the Kazakh Constitutional Statute",
+        "role": "Official publication",
+        "language": "kk",
+        "edition": null,
+        "locator": "same, p. 1",
+        "text": "Конституция 1995 жылы 30 тамызда республикалық референдумда қабылданды.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/constitution-of-the-rk-kz.pdf",
+        "sha256": "0a43938c518c87d1f4d693d2ec740313f575c140beafc8a6d0fe863bdad1dadc",
+        "retrieved": "2026-10-23",
+        "copy": "sources/0a43938c518c87d1-constitution-of-the-rk-kz.pdf",
+        "copy_sha256": "0a43938c518c87d1f4d693d2ec740313f575c140beafc8a6d0fe863bdad1dadc",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "publisher of AIFC acts on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Authority",
+      "role": "publisher of AIFC acts on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

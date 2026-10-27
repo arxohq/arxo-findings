@@ -1,0 +1,174 @@
+{
+  "id": "ARXO-2026-0151",
+  "url": "https://arxo.io/findings/ARXO-2026-0151/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Rules on Digital Asset Activities (DAA), V5",
+  "acts": [
+    "AIFC Rules on Digital Asset Activities",
+    "AIFC Rules on Providing Money Services",
+    "AIFC Financial Technology Rules",
+    "AIFC Representative Office Rules",
+    "AIFC Auditor Rules"
+  ],
+  "location": "DAA V5, 3.9.1(e)",
+  "text": {
+    "en": {
+      "title": "DAA 3.9.1(2) and 3.8.4(2): permission to combine items '(f) and (j)' copied from COB Schedule 3 after relettering",
+      "summary": "In COB Schedule 3 (source text) (f) is the price and (j) the firm's charges, so combining them gives an all-in price. DAA 3.9.1 drops COB item (c) (client's name), so the price is (e) and the charges (i); yet 3.9.1(2) still says '(f) and (j)' - now the execution-only statement and amounts received from another Person, which cannot form a single price. DAA 3.8.4 drops three COB items (principal/agent, client name, total payable) and ends at (i): '(j)' does not exist there at all (and the paragraph is numbered (2) without a (1)).",
+      "correction": "Please read \"items (e) and (i)\" for \"items (f) and (j)\" in 3.9.1(2) and \"items (d) and (g)\" in 3.8.4(2), and number the lead-in of 3.8.4 as (1)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 3.9.1(e)",
+        "text": "(e) the price or unit price at which the Transaction was executed;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 3.9.1(f)",
+        "text": "(f) if applicable, a statement that the Transaction was executed on an execution-only basis;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 3.9.1(j)",
+        "text": "(j) the amount or basis of any amounts received from another Person in connection with the services.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 3.8.4(2) and 3.9.1(2) (same sentence, pp.67 and 68)",
+        "text": "A Digital Asset Service Provider may combine items (f) and (j) above in respect of a Transaction where the Client has requested a note showing a single price combining both of these items.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 3.8.4(i) - last item of the list",
+        "text": "(i) a statement that the price at which the Transaction has been Executed is on a Historic Price or Forward Price basis, as the case may be.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

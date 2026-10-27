@@ -1,0 +1,133 @@
+{
+  "id": "ARXO-2026-0068",
+  "url": "https://arxo.io/findings/ARXO-2026-0068/",
+  "record_kind": "discrepancy",
+  "class": "amendments",
+  "class_label": "Amendments",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Glossary (GLO), V23",
+  "acts": [
+    "AIFC Rules No. FR0017 of 2017 (Glossary)"
+  ],
+  "location": "Glossary V23, entry \"Approved Individual\" (1)",
+  "text": {
+    "en": {
+      "title": "Glossary, \"Approved Individual\": the two limbs are joined by \"and\"",
+      "summary": "An Approved Individual is defined as an individual \"(1) approved by the AFSA to carry out a Controlled Function; and (2) approved by the AFSA to be appointed by a DNFBP and Registered Auditor to carry out the MLRO function\". Read literally, an individual approved only for a Controlled Function is not an Approved Individual. Section 21 of the Framework Regulations defines the term by limb (1) alone. The AFSA online Glossary shows both versions: the list has the two limbs, the term page only limb (1).",
+      "correction": "Please express the alternative approval routes with \"or\" (also \"a DNFBP or Registered Auditor\") and align the definition with section 21 of the Framework Regulations."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Glossary (GLO), V23",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary V23, entry \"Approved Individual\" (1)",
+        "text": "approved by the AFSA to carry out a Controlled Function; and",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf",
+        "sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "retrieved": "2026-10-23",
+        "copy": "sources/041617346ad87a9f-glo-v23.pdf",
+        "copy_sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Glossary (GLO), V23",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary V23, entry \"Approved Individual\" (2)",
+        "text": "approved by the AFSA to be appointed by a DNFBP and Registered Auditor to carry out the MLRO function.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf",
+        "sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "retrieved": "2026-10-23",
+        "copy": "sources/041617346ad87a9f-glo-v23.pdf",
+        "copy_sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Financial Services Framework Regulations, V12",
+        "role": "Later act",
+        "language": "en",
+        "edition": null,
+        "locator": "FSFR V12 s.21",
+        "text": "An Approved Individual is an individual who is approved by the AFSA to carry out a Controlled Function.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/fsfr_v12-18.10.2024-itf_gk.pdf",
+        "sha256": "9c995b9be0e4359d9a595afe7d0a9d5d9f3a4597c3ee3255db2b2e1df520b5c3",
+        "retrieved": "2026-10-23",
+        "copy": "sources/9c995b9be0e4359d-fsfr-v12.pdf",
+        "copy_sha256": "9c995b9be0e4359d9a595afe7d0a9d5d9f3a4597c3ee3255db2b2e1df520b5c3",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

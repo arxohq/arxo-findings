@@ -1,0 +1,266 @@
+{
+  "id": "ARXO-2026-0104",
+  "url": "https://arxo.io/findings/ARXO-2026-0104/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Market Rules (MAR), V13",
+  "acts": [
+    "AIFC Market Rules",
+    "AIFC Authorised Market Institution Rules",
+    "AIFC Recognition Rules",
+    "AIFC MTF and OTF Rules"
+  ],
+  "location": "MAR V13, 1.9.3(1) (rule), page 23",
+  "text": {
+    "en": {
+      "title": "AFSA online Market Rules do not contain MAR 1.9.3 and 1.9.4 (Amendments No. 7, 29 June 2022)",
+      "summary": "The AFSA online Market Rules do not contain MAR 1.9.3 (Expert’s responsibility) and 1.9.4 (Exceptions from liability), which Amendments No. 7 inserted with effect from 29 June 2022. In the online text, 1.9.2 (Limitations on the application of MAR 1.9.1) is followed directly by 1.10 (AIFC ESG Debentures). The consolidated versions V8 to V13 on aifc.kz contain both rules. The online text applied another change made by the same instrument (MAR 2.1(2), which excludes Listed Funds and Exempt Offerors from MAR 2), but not its change to MAR 3.1-1(1), which in the act also excludes an Exempt Offeror from MAR 3. The online Schedule 4, paragraph 1(a)(ii) still refers to \"consent under MAR 1.9.3\", and the Glossary defines \"Expert\" by MAR 1.9.3; a reader of the online rulebook cannot find that rule. Our earlier observation on the Glossary entry \"Expert\" (AIFC-GLO-06) relied on the online text and is withdrawn: the definition resolves in the act. MAR 1.9.4(4)(a) has a separate wrong reference (see AIFC2-MKT-05).",
+      "correction": "Please insert MAR 1.9.3 and 1.9.4 in the online Market Rules and apply the change to MAR 3.1-1(1) made by Amendments No. 7."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l6",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 1.9.3(1) (rule), page 23",
+        "text": "For the purposes of liability under section 79(1) of the Framework Regulations, an Expert",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 1.9.3(3)(a) (rule), page 23",
+        "text": "keep a record of any consent received under Rule 1.9.3(1); and",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l8",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 1.9.4(3) (rule), page 24",
+        "text": "included in the Prospectus with the Expert's consent at the time when the Prospectus was",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l9",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 3.1-1(1) (rule), page 37 — A7 wording",
+        "text": "This section 3 of the MAR will not apply to:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l10",
+        "source": "Market Rules A7., with amendments as of 29 June 2022, commence on 29 June 2022",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR Amendments No. 7, cover",
+        "text": "Commencement Date: 29 June 2022",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_a7_29.06.2022.pdf",
+        "sha256": "a8d7aa5caef9a91ca3e9fb4116ab69592a5539176e4c3a4cf77bea273c3e3a7a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a8d7aa5caef9a91c-mar_a7_29.06.2022.pdf",
+        "copy_sha256": "a8d7aa5caef9a91ca3e9fb4116ab69592a5539176e4c3a4cf77bea273c3e3a7a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l11",
+        "source": "Market Rules A7., with amendments as of 29 June 2022, commence on 29 June 2022",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR Amendments No. 7, legend",
+        "text": "In this document the underlining indicates new text",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_a7_29.06.2022.pdf",
+        "sha256": "a8d7aa5caef9a91ca3e9fb4116ab69592a5539176e4c3a4cf77bea273c3e3a7a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a8d7aa5caef9a91c-mar_a7_29.06.2022.pdf",
+        "copy_sha256": "a8d7aa5caef9a91ca3e9fb4116ab69592a5539176e4c3a4cf77bea273c3e3a7a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l12",
+        "source": "Market Rules A7., with amendments as of 29 June 2022, commence on 29 June 2022",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR Amendments No. 7, page 2 — 1.9.3 inserted",
+        "text": "1.9.3 Expert’s responsibility",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_a7_29.06.2022.pdf",
+        "sha256": "a8d7aa5caef9a91ca3e9fb4116ab69592a5539176e4c3a4cf77bea273c3e3a7a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a8d7aa5caef9a91c-mar_a7_29.06.2022.pdf",
+        "copy_sha256": "a8d7aa5caef9a91ca3e9fb4116ab69592a5539176e4c3a4cf77bea273c3e3a7a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l13",
+        "source": "Market Rules A7., with amendments as of 29 June 2022, commence on 29 June 2022",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR Amendments No. 7, page 2 — 1.9.4 inserted",
+        "text": "1.9.4 Exceptions from liability",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_a7_29.06.2022.pdf",
+        "sha256": "a8d7aa5caef9a91ca3e9fb4116ab69592a5539176e4c3a4cf77bea273c3e3a7a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a8d7aa5caef9a91c-mar_a7_29.06.2022.pdf",
+        "copy_sha256": "a8d7aa5caef9a91ca3e9fb4116ab69592a5539176e4c3a4cf77bea273c3e3a7a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l14",
+        "source": "Market Rules A7., with amendments as of 29 June 2022, commence on 29 June 2022",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR Amendments No. 7, page 4 — 3.1-1(1)",
+        "text": "This section 3 of the MAR will not apply to:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_a7_29.06.2022.pdf",
+        "sha256": "a8d7aa5caef9a91ca3e9fb4116ab69592a5539176e4c3a4cf77bea273c3e3a7a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a8d7aa5caef9a91c-mar_a7_29.06.2022.pdf",
+        "copy_sha256": "a8d7aa5caef9a91ca3e9fb4116ab69592a5539176e4c3a4cf77bea273c3e3a7a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l15",
+        "source": "AIFC Glossary (GLO), V23",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary V23, 'Expert'",
+        "text": "Has the meaning given in MAR 1.9.3.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf",
+        "sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "retrieved": "2026-10-23",
+        "copy": "sources/041617346ad87a9f-glo-v23.pdf",
+        "copy_sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf"
+    },
+    {
+      "title": "Market Rules A7., with amendments as of 29 June 2022, commence on 29 June 2022",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_a7_29.06.2022.pdf"
+    },
+    {
+      "title": "AIFC Glossary (GLO), V23",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf"
+    }
+  ],
+  "related": [
+    {
+      "id": "ARXO-2026-0096",
+      "relation": "see_also"
+    }
+  ],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

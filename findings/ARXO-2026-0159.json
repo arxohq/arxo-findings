@@ -1,0 +1,238 @@
+{
+  "id": "ARXO-2026-0159",
+  "url": "https://arxo.io/findings/ARXO-2026-0159/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC website, page of the AIFC Rules on Digital Asset Activities",
+  "acts": [
+    "AIFC Rules on Digital Asset Activities",
+    "AIFC Rules on Providing Money Services",
+    "AIFC Financial Technology Rules",
+    "AIFC Representative Office Rules",
+    "AIFC Auditor Rules"
+  ],
+  "location": "aifc.kz act page, Past Version list",
+  "text": {
+    "en": {
+      "title": "aifc.kz DAA page: the \"V2 (18 October 2024)\" link opens the initial version; the consolidated V4 is listed under \"Amendments\" and Amendments No. 3 under \"Past Version\"",
+      "summary": "On the aifc.kz page of the AIFC Rules on Digital Asset Activities: (1) the links \"AIFC Rules on Digital Asset Activities V2., with amendments as of 4 September 2024, commence on 18 October 2024\" and \"Initial Version\" open the same file. Its cover shows a commencement date of 1 January 2024 and no amendments, so the text in force from 18 October 2024 is not available at that link. (2) Under \"Amendments\", the entry \"A3., with amendments as of 13 April 2025\" opens the consolidated version with amendments as of 13 April 2025, while the amending instrument (Amendments No. 3) is listed under \"Past Version\". (3) No amending instrument dated 4 September 2024 is linked, so the source of changes made between the initial version and the version in force on 1 January 2025 (for example the new lettering of DAA 4.5(1), see AIFC2-DAA-02) cannot be identified from the page.",
+      "correction": "Please correct the version and amendment links on the DAA page, publish the consolidated text in force from 18 October 2024, and identify (or publish) the instruments behind the changes made in 2024."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "aifc.kz act page aifc-rules-on-digital-asset-activities",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "aifc.kz act page, Past Version list",
+        "text": "AIFC Rules on Digital Asset Activities V2., with amendments as of 4 September 2024, commence on 18 October 2024",
+        "translations": {},
+        "url": "https://aifc.kz/legal-framework/aifc-rules-on-digital-asset-activities/",
+        "sha256": "07e11b76a8f9ac578122674b8deabbac3217fbd12cc6a0f1514c2cd34843f42a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/07e11b76a8f9ac57-aifc-rules-on-digital-asset-activities.html",
+        "copy_sha256": "07e11b76a8f9ac578122674b8deabbac3217fbd12cc6a0f1514c2cd34843f42a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "aifc.kz act page aifc-rules-on-digital-asset-activities",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "aifc.kz act page",
+        "text": "AIFC Rules on Digital Asset Activities Initial Version",
+        "translations": {},
+        "url": "https://aifc.kz/legal-framework/aifc-rules-on-digital-asset-activities/",
+        "sha256": "07e11b76a8f9ac578122674b8deabbac3217fbd12cc6a0f1514c2cd34843f42a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/07e11b76a8f9ac57-aifc-rules-on-digital-asset-activities.html",
+        "copy_sha256": "07e11b76a8f9ac578122674b8deabbac3217fbd12cc6a0f1514c2cd34843f42a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "aifc.kz act page aifc-rules-on-digital-asset-activities",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "aifc.kz act page, Amendments list (opens daa_v4_13.10.2025_ma-1-1.pdf)",
+        "text": "AIFC Rules on Digital Asset Activities A3., with amendments as of 13 April 2025, which commence on 13 October 2025",
+        "translations": {},
+        "url": "https://aifc.kz/legal-framework/aifc-rules-on-digital-asset-activities/",
+        "sha256": "07e11b76a8f9ac578122674b8deabbac3217fbd12cc6a0f1514c2cd34843f42a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/07e11b76a8f9ac57-aifc-rules-on-digital-asset-activities.html",
+        "copy_sha256": "07e11b76a8f9ac578122674b8deabbac3217fbd12cc6a0f1514c2cd34843f42a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "aifc.kz act page aifc-rules-on-digital-asset-activities",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "aifc.kz act page, Past Version list (opens daa_a3_19.05.2025-1.pdf)",
+        "text": "AIFC Rules on Digital Asset Activities (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "translations": {},
+        "url": "https://aifc.kz/legal-framework/aifc-rules-on-digital-asset-activities/",
+        "sha256": "07e11b76a8f9ac578122674b8deabbac3217fbd12cc6a0f1514c2cd34843f42a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/07e11b76a8f9ac57-aifc-rules-on-digital-asset-activities.html",
+        "copy_sha256": "07e11b76a8f9ac578122674b8deabbac3217fbd12cc6a0f1514c2cd34843f42a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Rules on Digital Asset Activities V2., with amendments as of 4 September 2024, commence on 18 October 2024",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "File behind the 'V2' link, cover",
+        "text": "Commencement date: 01 January 2024",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-rules-on-digital-asset-activities-daa_stablecoins-1-1.pdf",
+        "sha256": "b2e861a30dc0572cad84b883e338a785dd3bc1239d668642df59d25fa86e7c0c",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b2e861a30dc0572c-aifc-rules-on-digital-asset-activities-daa_stablecoins-1-1.pdf",
+        "copy_sha256": "b2e861a30dc0572cad84b883e338a785dd3bc1239d668642df59d25fa86e7c0c",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "AIFC Rules on Digital Asset Activities A3., with amendments as of 13 April 2025, which commence on 13 October 2025",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "File behind the 'A3' amendments link: a consolidated version, cover",
+        "text": "(with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-rules-on-digital-asset-activities-daa_v4_13.10.2025_ma-1-1.pdf",
+        "sha256": "25e9223f15295f6eb3e01993c141d64c3d6bbb6931ecc42040f1a2b3ac84240b",
+        "retrieved": "2026-10-23",
+        "copy": "sources/25e9223f15295f6e-aifc-rules-on-digital-asset-activities-daa_v4_13.10.2025_ma-1-1.pdf",
+        "copy_sha256": "25e9223f15295f6eb3e01993c141d64c3d6bbb6931ecc42040f1a2b3ac84240b",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "AIFC Rules on Digital Asset Activities (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "File behind the 'Past Version' link: the amending instrument",
+        "text": "AMENDMENTS № 3 TO AIFC RULES ON",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_a3_19.05.2025-1.pdf",
+        "sha256": "65f769cc1ef6b168b00e94cdbedbcff984140bcec05015e059bf048f2d94c0d4",
+        "retrieved": "2026-10-23",
+        "copy": "sources/65f769cc1ef6b168-daa_a3_19.05.2025-1.pdf",
+        "copy_sha256": "65f769cc1ef6b168b00e94cdbedbcff984140bcec05015e059bf048f2d94c0d4",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    },
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "publisher of AIFC acts on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    },
+    {
+      "institution": "AIFC Authority",
+      "role": "publisher of AIFC acts on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "aifc.kz act page aifc-rules-on-digital-asset-activities",
+      "url": "https://aifc.kz/legal-framework/aifc-rules-on-digital-asset-activities/"
+    },
+    {
+      "title": "AIFC Rules on Digital Asset Activities V2., with amendments as of 4 September 2024, commence on 18 October 2024",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-rules-on-digital-asset-activities-daa_stablecoins-1-1.pdf"
+    },
+    {
+      "title": "AIFC Rules on Digital Asset Activities A3., with amendments as of 13 April 2025, which commence on 13 October 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-rules-on-digital-asset-activities-daa_v4_13.10.2025_ma-1-1.pdf"
+    },
+    {
+      "title": "AIFC Rules on Digital Asset Activities (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_a3_19.05.2025-1.pdf"
+    }
+  ],
+  "related": [
+    {
+      "id": "ARXO-2026-0150",
+      "relation": "see_also"
+    }
+  ],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

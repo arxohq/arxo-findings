@@ -1,0 +1,157 @@
+{
+  "id": "ARXO-2026-0097",
+  "url": "https://arxo.io/findings/ARXO-2026-0097/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Market Rules (MAR), V13",
+  "acts": [
+    "AIFC Market Rules",
+    "AIFC Authorised Market Institution Rules",
+    "AIFC Recognition Rules",
+    "AIFC MTF and OTF Rules"
+  ],
+  "location": "MAR V13, 5.5.3(c) (rule), page 54",
+  "text": {
+    "en": {
+      "title": "MAR 5.5.3: the closing words \"prior to conducting a Market Sounding\" also cover the record of disclosures in (c), which can only be completed after the sounding",
+      "summary": "MAR 5.5.3 lists four steps (a) to (d) and then, on a separate line after (d), the words \"prior to conducting a Market Sounding\". Laid out this way, the words govern the whole list. Steps (a) and (b) already carry their own timing. Step (c) requires a record of the disclosures, including \"the date and time of each disclosure\", which cannot be complete before the sounding. The AFSA online text joins the closing words to (d) instead. The second sentence of (c) also asks for the record to be given to \"the competent authority\", while (d) names the AFSA.",
+      "correction": "Please make clear that the closing words apply to (a) only, or delete them, since (a) and (b) already set the timing; and use \"the AFSA\" in (c), or delete the second sentence of (c) as a repeat of (d)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 5.5.3(c) (rule), page 54",
+        "text": "The disclosing market participant must provide that record to the competent authority upon request; and",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 5.5.3(d) and the closing words of the lead-in (rule), page 54",
+        "text": "provide its written record to the AFSA upon request; prior to conducting a Market Sounding.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 5.5.3(c) (rule), page 54",
+        "text": "the identity of the potential investors to whom the information has been disclosed",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 5.5.2 (rule), page 53",
+        "text": "provided that the Person making the disclosure complied with the requirements in MAR 5.5.3",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "ARXO-2026-0111",
+  "url": "https://arxo.io/findings/ARXO-2026-0111/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Collective Investment Scheme Rules (CIS), V8",
+  "acts": [
+    "AIFC Collective Investment Scheme Rules",
+    "AIFC Islamic Finance Rules"
+  ],
+  "location": "CIS V8 7.7 heading",
+  "text": {
+    "en": {
+      "title": "CIS 7.7: 'Related Person Transaction' covers 'any other Fund managed by the Fund', not by the Fund Manager as the heading says",
+      "summary": "CIS 7.7(a) and (d) refer to \"any other Fund managed by the Fund or any of its Associates\". A Fund does not manage other Funds; the heading of 7.7 speaks of Funds \"managed by the Fund Manager\". The meaning survives through the heading and the Associate limb, but the wording has no referent.",
+      "correction": "Please read \"any other Fund managed by the Fund Manager or any of its Associates\" in 7.7(a) and (d) (an editorial correction under section 19(3)(a) of the AIFC Regulations on AIFC Acts)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 7.7 heading",
+        "text": "Transactions between a Fund and its Fund Manager and the Fund Manager's Associates or other Funds managed by the Fund Manager",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 7.7(a)",
+        "text": "any other Fund managed by the Fund or any of its Associates (each, a \"Related Person Transaction\") unless it is in accordance with the requirements in this Rule 7.7.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

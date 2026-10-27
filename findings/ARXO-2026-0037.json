@@ -1,0 +1,165 @@
+{
+  "id": "ARXO-2026-0037",
+  "url": "https://arxo.io/findings/ARXO-2026-0037/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Fees Rules (FEES), AIFC Rules No. FR0007 of 2017, V18",
+  "acts": [
+    "AIFC Rules No. FR0007 of 2017 (Fees Rules)"
+  ],
+  "location": "FEES Schedule 6, table 6.1, row 'Operating a Digital Asset Trading Facility'",
+  "text": {
+    "en": {
+      "title": "FEES Schedule 6, table 6.1 (Digital Asset Trading Facility): no rule for an average daily trading value of exactly 500 000 USD",
+      "summary": "The variable fee is \"not applicable\" where the average daily trading value is \"less than 500 000 USD\" and is the greater of the trading levy and 5 000 USD where it is \"more than 500 000 USD\". A value of exactly 500 000 USD is covered by no branch, while the outcomes on either side differ (0 USD and at least 5 000 USD for the quarter).",
+      "correction": "Please include an average daily trading value of exactly USD 500,000 in one band only."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Fees Rules (FEES), V18, with amendments as of 13 November 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Schedule 6, table 6.1, row 'Operating a Digital Asset Trading Facility**', variable fee bullet 1",
+        "text": "where the average daily trading value is less than 500 000 USD, is not applicable;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-v18.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf",
+        "sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b5e10ace11734eda-fees-v18.pdf",
+        "copy_sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Fees Rules (FEES), V18, with amendments as of 13 November 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Schedule 6, table 6.1, row 'Operating a Digital Asset Trading Facility**', variable fee bullet 2",
+        "text": "where the average daily trading value is more than 500 000 USD:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-v18.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf",
+        "sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b5e10ace11734eda-fees-v18.pdf",
+        "copy_sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Fees Rules (FEES), V18, with amendments as of 13 November 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Schedule 6, table 6.1, same cell, floor",
+        "text": "5 000 USD,",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-v18.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf",
+        "sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b5e10ace11734eda-fees-v18.pdf",
+        "copy_sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Fees Rules (FEES), V18, with amendments as of 13 November 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Schedule 6, Notes (2)",
+        "text": "variable fee is calculated on a quarterly basis by multiplying the average daily trading value by the active trading days in the relevant quarter.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-v18.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf",
+        "sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b5e10ace11734eda-fees-v18.pdf",
+        "copy_sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Fees Rules, Amendments No. 14 and No. 14.1 (2023)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "A14 merged PDF p.12 (origin)",
+        "text": "where the average daily trading value is less than 500 000 USD, is not applicable;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees_a14_as-of-01.01.2024-merged-1.pdf",
+        "sha256": "bd11d229dfdd313809a02cb41a0326bfdae66d26cb01aa3d4d4a206fc54b647e",
+        "retrieved": "2026-10-23",
+        "copy": "sources/bd11d229dfdd3138-fees-a14.pdf",
+        "copy_sha256": "bd11d229dfdd313809a02cb41a0326bfdae66d26cb01aa3d4d4a206fc54b647e",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": true,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

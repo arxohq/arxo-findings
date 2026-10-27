@@ -1,0 +1,162 @@
+{
+  "id": "ARXO-2026-0124",
+  "url": "https://arxo.io/findings/ARXO-2026-0124/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Banking Business Prudential Rules (BBR), V6",
+  "acts": [
+    "Banking Business Prudential Rules",
+    "Islamic Banking Business Prudential Rules",
+    "Insurance and Reinsurance Prudential Rules",
+    "Takaful and Retakaful Prudential Rules",
+    "Prudential Rules for Insurance Intermediaries"
+  ],
+  "location": "BBR 4.29(5)(c), p.29",
+  "text": {
+    "en": {
+      "title": "Allocation of the 10% excess across tiers uses the bank's OWN capital as numerator and holdings as denominator; shares do not sum to 1",
+      "summary": "BBR 4.29(5)(c) allocates the excess over 10% to each tier of capital by the formula Excess x A/B, where A is \"the amount of CET 1 capital, additional tier 1 capital or tier 2 capital of the Bank\" and B is \"the total capital holdings of the Bank\". Read literally, A is the bank's own capital in a tier, while B is its holdings in other entities, so the three shares do not add up to 1. For example, with own CET1, AT1 and T2 of 100, 10 and 20, holdings of 12 (CET1) and 3 (T2) and an excess of 5, the literal formula deducts 43.3 in total instead of 5. Under 4.29(1)(b) deductions are made from the tier for which the held capital would qualify, which points to A being the bank's holdings in that tier. \"Capital holdings\" is not defined. IBB 4.44(3) has the same wording. With holdings of USD 15 million, all in CET1 instruments, and own CET1 of USD 100 million, the literal formula deducts USD 33.3 million instead of 5 million; with holdings of USD 150 million it deducts USD 93.3 million instead of 140 million. For a bank with other credit risk-weighted assets of USD 900 million, a market risk requirement of USD 10 million and an operational risk requirement of USD 15 million (capital requirement USD 99.4 million), Total Capital after the allocation is USD 86.7 million under the literal formula and USD 125 million if A is the holdings of each tier.",
+      "correction": "Please define A as the Bank's holdings of CET1, AT1 or T2 instruments of the entities concerned (as the case may be) and B as the total of those holdings, in BBR 4.29(5)(c) and IBB 4.44(3)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 4.29(5)(c), p.29",
+        "text": "A is the amount of CET 1 capital, additional tier 1 capital or tier 2 capital of the Bank, as the case may be;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 4.29(5)(c)",
+        "text": "B is the total capital holdings of the Bank.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Islamic Banking Business Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IBB 4.44(3)",
+        "text": "A is the amount of CET 1 Capital, additional Tier 1 Capital or Tier 2 Capital of the Islamic bank, as the case requires.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf",
+        "sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e8b3c15b1ff574fd-aifc-islamic-banking-business-prudential-rules.pdf",
+        "copy_sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 4.29(1)(b), p.27",
+        "text": "Deductions must be made from the same Tier for which the capital would qualify if it were issued by the Bank itself",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf"
+    },
+    {
+      "title": "AIFC Islamic Banking Business Prudential Rules",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

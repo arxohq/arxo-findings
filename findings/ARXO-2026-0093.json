@@ -1,0 +1,160 @@
+{
+  "id": "ARXO-2026-0093",
+  "url": "https://arxo.io/findings/ARXO-2026-0093/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Market Rules (MAR), V13",
+  "acts": [
+    "AIFC Market Rules",
+    "AIFC Authorised Market Institution Rules",
+    "AIFC Recognition Rules",
+    "AIFC MTF and OTF Rules"
+  ],
+  "location": "MAR V13, 5.2.2(a) (rule), page 47",
+  "text": {
+    "en": {
+      "title": "MAR 5.2.2(a) in the consolidated PDFs V9–V13 on aifc.kz still refers to itself; Amendments No. 8 changed it to MAR 5.2.1",
+      "summary": "Amendments No. 8 to the Market Rules (approved 25 June 2023, in force 1 August 2023) replaced \"5.2.2\" with \"5.2.1\" in MAR 5.2.2(a) and added the closing bracket. The consolidated versions V9 (1 August 2023) to V13 (1 January 2026) published on aifc.kz applied the other edits in the same line (\"of\", \"Investments\") but still read \"has the meaning given in MAR 5.2.2 (Definition of Inside Information (general); and\", so the definition refers to itself. The AFSA online rulebook already reads \"MAR 5.2.1\". The bracketed title points to 5.2.1, so the meaning survives.",
+      "correction": "Please correct MAR 5.2.2(a) in the consolidated PDF to \"MAR 5.2.1 (Definition of Inside Information (general))\", as made by Amendments No. 8."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The consolidated text",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 5.2.2(a) (rule), page 47",
+        "text": "has the meaning given in MAR 5.2.2 (Definition of Inside Information (general); and",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Market Rules A8., with amendments as of 25 June 2023, commence on 1 August 2023",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR Amendments No. 8, 5.2.2(a), page 2 (rendered: '5.2.2' struck through, '5.2.1' underlined)",
+        "text": "has the meaning given in MAR 5.2.2 5.2.1 (Definition of Inside Information (general)); and",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_a8_01.08.2023.pdf",
+        "sha256": "bc76b7bf663efe8c63ce8257054d4c3d42106c9ea3da98b3d00a840c39ecd0a5",
+        "retrieved": "2026-10-23",
+        "copy": "sources/bc76b7bf663efe8c-mar_a8_01.08.2023.pdf",
+        "copy_sha256": "bc76b7bf663efe8c63ce8257054d4c3d42106c9ea3da98b3d00a840c39ecd0a5",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 5.2.1 heading, page 47",
+        "text": "Definition of Inside Information (general)",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    },
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "publisher of AIFC acts on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    },
+    {
+      "institution": "AIFC Authority",
+      "role": "publisher of AIFC acts on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf"
+    },
+    {
+      "title": "Market Rules A8., with amendments as of 25 June 2023, commence on 1 August 2023",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_a8_01.08.2023.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

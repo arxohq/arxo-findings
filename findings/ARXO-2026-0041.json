@@ -1,0 +1,133 @@
+{
+  "id": "ARXO-2026-0041",
+  "url": "https://arxo.io/findings/ARXO-2026-0041/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Fees Rules (FEES), AIFC Rules No. FR0007 of 2017, V18",
+  "acts": [
+    "AIFC Rules No. FR0007 of 2017 (Fees Rules)"
+  ],
+  "location": "FEES Schedule 1, rule 1.1-1 (Amendments No. 14.1 of 9 December 2023)",
+  "text": {
+    "en": {
+      "title": "FEES Schedule 1, 1.1-1: the exception for Operating a Digital Asset Trading Facility is printed but was never enacted",
+      "summary": "Amendments No. 14.1 (9 December 2023) inserted 1.1-1 (additional application fee for Digital Assets activities) without an exception; the same instrument put an exception for Operating a Digital Asset Trading Facility only into 6.1-1. Consolidated versions V15 to V18 print the exception in 1.1-1 as well, and we could not find it in any of the published amending instruments Nos. 12 to 17. Whether a Digital Asset Trading Facility applicant owes the additional fee (now 2 800 USD) depends on which text is right; a consolidated version cannot change legal effect (section 19(2) of the AIFC Regulations on AIFC Acts). The draft in Consultation Paper AFSA-PSRD-CSP-2026-0004 amends 1.1-1 again (the fixed amount is replaced by a table) and prints the words \"except for the Regulated Activity of Operating a Digital Asset Trading Facility\" as existing text, not as an insertion.",
+      "correction": "Since the draft amends 1.1-1 in any case, please either enact the exception expressly in the amending instrument, as new text, or remove it, and identify the instrument that supports it for the period since V15."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The consolidated text",
+  "evidence": {
+    "method": "Traced through the amending instruction",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Fees Rules, Amendments No. 14 and No. 14.1 (2023)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "A14 merged PDF p.8 (Amendments No. 14.1 of 09.12.2023), Schedule 1, new 1.1-1 (underlined)",
+        "text": "An applicant seeking to conduct Regulated Activities in relation to Digital Assets must pay to the AFSA an additional application fee in the amount of 2 000 USD.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees_a14_as-of-01.01.2024-merged-1.pdf",
+        "sha256": "bd11d229dfdd313809a02cb41a0326bfdae66d26cb01aa3d4d4a206fc54b647e",
+        "retrieved": "2026-10-23",
+        "copy": "sources/bd11d229dfdd3138-fees-a14.pdf",
+        "copy_sha256": "bd11d229dfdd313809a02cb41a0326bfdae66d26cb01aa3d4d4a206fc54b647e",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Fees Rules, Amendments No. 14 and No. 14.1 (2023)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "A14 merged PDF p.13, Schedule 6, new 6.1-1 (contrast: exception present)",
+        "text": "except for the Regulated Activity of Operating a Digital Asset Trading Facility, must pay to the AFSA an additional annual supervision fee in the amount of 2 000 USD.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees_a14_as-of-01.01.2024-merged-1.pdf",
+        "sha256": "bd11d229dfdd313809a02cb41a0326bfdae66d26cb01aa3d4d4a206fc54b647e",
+        "retrieved": "2026-10-23",
+        "copy": "sources/bd11d229dfdd3138-fees-a14.pdf",
+        "copy_sha256": "bd11d229dfdd313809a02cb41a0326bfdae66d26cb01aa3d4d4a206fc54b647e",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Fees Rules, V15",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "V15 Schedule 1, 1.1-1",
+        "text": "except for the Regulated Activity of Operating a Digital Asset Trading Facility, must pay to the AFSA an additional application fee in the amount of 2 000 USD.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-v15-01.01.2024_sa_as.pdf",
+        "sha256": "4bb51cd71bb9b06876ec794341df17dda22fe9d7646ce970eb111ab71f4d71f9",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4bb51cd71bb9b068-fees-v15.pdf",
+        "copy_sha256": "4bb51cd71bb9b06876ec794341df17dda22fe9d7646ce970eb111ab71f4d71f9",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

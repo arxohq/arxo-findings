@@ -1,0 +1,195 @@
+{
+  "id": "ARXO-2026-0148",
+  "url": "https://arxo.io/findings/ARXO-2026-0148/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Islamic Banking Business Prudential Rules",
+  "acts": [
+    "Banking Business Prudential Rules",
+    "Islamic Banking Business Prudential Rules",
+    "Insurance and Reinsurance Prudential Rules",
+    "Takaful and Retakaful Prudential Rules",
+    "Prudential Rules for Insurance Intermediaries"
+  ],
+  "location": "IBB 4.29 Definitions",
+  "text": {
+    "en": {
+      "title": "Islamic banks — significant and non-significant investments: an investment that is significant under 4.29 through Additional Tier 1 or Tier 2 instruments, with less than 10% of the common shares, is not covered by 4.43 or 4.45",
+      "summary": "IBB 4.29 defines a significant investment as an investment of 10% or more in the common shares, or other instruments that qualify as capital, of the entity concerned. Rule 4.43 applies where the Islamic Bank makes a non-significant investment and does not own 10% or more of the common shares; Rule 4.45 applies where it makes a significant investment and owns 10% or more of the common shares. An investment that is significant through Additional Tier 1 or Tier 2 instruments, with less than 10% of the common shares, is outside both rules, and no other rule in 4.40 to 4.46 deducts it: 4.42 covers reciprocal cross holdings only, and 4.45(3) and 4.46 cover common shares and other CET 1 instruments only. The headings of 4.43 to 4.45 do not refer to the shareholding. Take an unconsolidated Islamic Bank whose only instrument other than common shares is an issue of Tier 2 sukuk of USD 300 million, with no reciprocal holding and no pledge: for an Islamic Bank with CET 1 Capital of USD 100 million, a holding of USD 30 million (10% of the issue) with no common shares is not deducted, while a holding of USD 29.7 million (9.9%) leads to a deduction of the excess of USD 19.7 million under 4.44.",
+      "correction": "Please consider either testing significance in 4.29 by the holding of common shares only and aligning 4.45(1)(c), or replacing the common-share conditions in 4.43(1)(c) and 4.45(1)(c) with a reference to a non-significant and a significant investment as defined, so that 4.45(2) applies to such holdings (a full deduction, stricter than testing significance by common shares only)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Islamic Banking Business Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IBB 4.29 Definitions",
+        "text": "Significant investment, by an Islamic Bank in an entity concerned, means an investment of 10% or more in the common shares, or other instruments that qualify as capital, of the entity concerned.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf",
+        "sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e8b3c15b1ff574fd-aifc-islamic-banking-business-prudential-rules.pdf",
+        "copy_sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Islamic Banking Business Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IBB 4.43 heading",
+        "text": "Non-significant investments—aggregate is less than 10% of firm’s Common Equity Tier 1",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf",
+        "sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e8b3c15b1ff574fd-aifc-islamic-banking-business-prudential-rules.pdf",
+        "copy_sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Islamic Banking Business Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IBB 4.43(1)(a)",
+        "text": "an Islamic Bank makes a non-significant investment in an entity concerned;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf",
+        "sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e8b3c15b1ff574fd-aifc-islamic-banking-business-prudential-rules.pdf",
+        "copy_sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Islamic Banking Business Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IBB 4.43(1)(c)",
+        "text": "an Islamic Bank does not own 10% or more of the common shares of the entity concerned; and",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf",
+        "sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e8b3c15b1ff574fd-aifc-islamic-banking-business-prudential-rules.pdf",
+        "copy_sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Islamic Banking Business Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IBB 4.45(1)(c)",
+        "text": "an Islamic Bank owns 10% or more of the common shares of the entity concerned.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf",
+        "sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e8b3c15b1ff574fd-aifc-islamic-banking-business-prudential-rules.pdf",
+        "copy_sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "AIFC Islamic Banking Business Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IBB 4.45(2)",
+        "text": "An Islamic Bank must deduct the total amount of investments in the entity concerned (other than investments in common shares, or other instruments that qualify as CET 1 Capital, of the entity).",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf",
+        "sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e8b3c15b1ff574fd-aifc-islamic-banking-business-prudential-rules.pdf",
+        "copy_sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Islamic Banking Business Prudential Rules",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf"
+    }
+  ],
+  "related": [
+    {
+      "id": "ARXO-2026-0144",
+      "relation": "split_from"
+    }
+  ],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

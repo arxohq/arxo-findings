@@ -1,0 +1,126 @@
+{
+  "id": "ARXO-2026-0187",
+  "url": "https://arxo.io/findings/ARXO-2026-0187/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Foundations Regulations, V5",
+  "acts": [
+    "AIFC Companies Regulations",
+    "AIFC Companies Rules",
+    "AIFC Insolvency Regulations",
+    "AIFC Insolvency Rules",
+    "AIFC Foundations Regulations"
+  ],
+  "location": "Foundations Regulations V5, s.14(1)(g)",
+  "text": {
+    "en": {
+      "title": "Foundations Regulations s.14(1)(g): UBO particulars \"required by Part 16\" of the Companies Regulations; that Part is 14-1 (Part 16 does not exist)",
+      "summary": "Companies Regulations V8 end with Part 15. The UBO Part was renumbered from 16 to 14-1 by A2, in force 01.03.2019. The Foundations Regulations, adopted after that (26.03.2019), cite \"Part 16 (Ultimate Beneficial Owners)\" in s.14(1)(g). The same act cites \"Part 14-1 (Ultimate Beneficial Owners)\" in its application section near the end. The heading in brackets saves the meaning.",
+      "correction": "Please replace \"Part 16\" with \"Part 14-1\" in section 14(1)(g)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Foundations Regulations V5 with amendments as of 17 October, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Foundations Regulations V5, s.14(1)(g)",
+        "text": "the particulars required by Part 16 (Ultimate Beneficial Owners) of the AIFC",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fr_v5_may_2024_ba.pdf",
+        "sha256": "1101421f81f4073f8d6409fa9a7f4d564402f8b5fe55d94fe1600ee6922797d2",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1101421f81f4073f-fr_v5_may_2024_ba.pdf",
+        "copy_sha256": "1101421f81f4073f8d6409fa9a7f4d564402f8b5fe55d94fe1600ee6922797d2",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Foundations Regulations V5 with amendments as of 17 October, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Foundations Regulations V5, application of Part 14-1",
+        "text": "The provisions of Part 14-1 (Ultimate Beneficial Owners) of the AIFC Companies Regulations",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fr_v5_may_2024_ba.pdf",
+        "sha256": "1101421f81f4073f8d6409fa9a7f4d564402f8b5fe55d94fe1600ee6922797d2",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1101421f81f4073f-fr_v5_may_2024_ba.pdf",
+        "copy_sha256": "1101421f81f4073f8d6409fa9a7f4d564402f8b5fe55d94fe1600ee6922797d2",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Authority",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Foundations Regulations V5 with amendments as of 17 October, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/fr_v5_may_2024_ba.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

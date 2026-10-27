@@ -34,15 +34,15 @@
     }
   },
   "status": {
-    "badge": "reported",
+    "badge": "accepted",
     "label": {
-      "en": "Reported",
-      "ru": "Сообщено"
+      "en": "Accepted by the addressee",
+      "ru": "Принято адресатом"
     },
     "conclusion": "confirmed",
     "official_text": "unchanged",
-    "addressee": "received",
-    "last_checked": "2026-10-24",
+    "addressee": "accepted",
+    "last_checked": "2026-10-26",
     "fixed_on": null,
     "correction_type": null,
     "under_review": false
@@ -167,6 +167,15 @@
         "en": "Automatic acknowledgement: the message was forwarded to the service that handles the minister's mail.",
         "fr": "Accusé de réception automatique : le message a été transmis au service chargé du courrier de la ministre."
       }
+    },
+    {
+      "date": "2026-10-26T14:19:01Z",
+      "institution": "Direction de l'information légale et administrative (DILA)",
+      "kind": "acknowledged",
+      "summary": {
+        "en": "The Légifrance consolidation service stated that the version applicable from 1 September 2027 had been updated with the changes made by Article 72, I, 5°, of the 2026 Social Security Financing Act and that the update would appear on Légifrance after the next site update.",
+        "fr": "Le service de consolidation de Légifrance a indiqué que la version applicable à compter du 1er septembre 2027 avait été mise à jour des modifications du 5° du I de l'article 72 de la loi de financement de la sécurité sociale pour 2026 et que la mise à jour serait visible sur Légifrance après la prochaine mise à jour du site."
+      }
     }
   ],
   "approval": "2026-10-23",
@@ -242,6 +251,11 @@
       "date": "2026-10-25",
       "event": "entered",
       "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-26",
+      "event": "acknowledged",
+      "text": "Accepted: Direction de l'information légale et administrative (DILA)"
     }
   ]
 }

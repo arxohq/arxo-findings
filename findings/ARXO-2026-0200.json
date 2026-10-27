@@ -1,0 +1,168 @@
+{
+  "id": "ARXO-2026-0200",
+  "url": "https://arxo.io/findings/ARXO-2026-0200/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Rules on Keeping Records",
+  "acts": [
+    "AIFC Employment Regulations",
+    "AIFC Data Protection Regulations and Rules",
+    "AIFC Court Regulations 2017",
+    "AIFC Court Rules 2018",
+    "AIFC Arbitration Regulations",
+    "IAC Arbitration and Mediation Rules 2022"
+  ],
+  "location": "r.2.2 Initiation of the procedure",
+  "text": {
+    "en": {
+      "title": "Foreign-labour record rules (2018) put the reporting duty on the foreign employee; Article 8(3) of the Constitutional Statute, as amended in December 2019, names AIFC Participants and bodies",
+      "summary": "Article 8(3) of the Constitutional Statute, as amended by Constitutional Law No. 296-VI of 30 December 2019, requires Participants and bodies of the Centre to submit information on attracted foreign nationals to the AIFC Authority \"in accordance with acts of the Centre\". The only implementing act we found, AIFC Rules No. 2 of 2018 (rule 2.2), puts the duty on the Foreign Employee, who may file in person or through the Employer. The two duties can coexist, but we found no act of the Centre addressed to Participants and bodies. Rule 2.2 also uses \"admit\" where \"apply\" or \"submit\" seems meant.",
+      "correction": "Please indicate the act of the Centre that implements the second paragraph of Article 8(3), or consider adding to the Rules a duty addressed to Participants and bodies of the Centre."
+    },
+    "ru": {
+      "title": "Правила учёта иностранной рабочей силы (2018) возлагают обязанность представлять сведения на иностранного работника; пункт 3 статьи 8 Конституционного закона в редакции декабря 2019 года называет участников и органы МФЦА",
+      "summary": "Пункт 3 статьи 8 Конституционного закона Республики Казахстан «О Международном финансовом центре „Астана“» в редакции Конституционного закона № 296-VI от 30 декабря 2019 года предусматривает: «Участники и органы Центра представляют сведения о привлеченных иностранцах и лицах без гражданства в администрацию Центра в соответствии с актами Центра». Единственный найденный нами акт, реализующий эту норму, — Правила МФЦА № 2 2018 года (правило 2.2) — возлагает обязанность на иностранного работника, который может обратиться лично или через работодателя. Обе обязанности могут существовать одновременно, однако акта Центра, адресованного участникам и органам Центра, мы не нашли. В правиле 2.2 также использовано слово «admit», тогда как по смыслу, по-видимому, имеется в виду «apply» или «submit» (обратиться, представить).",
+      "correction": "Просим указать акт Центра, реализующий второй абзац пункта 3 статьи 8, либо рассмотреть дополнение Правил обязанностью, адресованной участникам и органам Центра."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC RULES ON KEEPING RECORDS",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "r.2.2 Initiation of the procedure",
+        "text": "A Foreign Employee must admit to the AIFCA in person or through the Employer or a proxy (via power of attorney) not later than 14 days of the Foreign Employee’s stay in Kazakhstan as a Work Visa or a Work Registration holder.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-rules-on-keeping-records.pdf",
+        "sha256": "00cf9b2a01880532e8ebd1f8aa2def3ddbfcca04b6494dd601698ba8d3affb54",
+        "retrieved": "2026-10-23",
+        "copy": "sources/00cf9b2a01880532-aifc-rules-on-keeping-records.pdf",
+        "copy_sha256": "00cf9b2a01880532e8ebd1f8aa2def3ddbfcca04b6494dd601698ba8d3affb54",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC RULES ON KEEPING RECORDS",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "title page",
+        "text": "AIFC RULES NO. 2 OF 2018",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-rules-on-keeping-records.pdf",
+        "sha256": "00cf9b2a01880532e8ebd1f8aa2def3ddbfcca04b6494dd601698ba8d3affb54",
+        "retrieved": "2026-10-23",
+        "copy": "sources/00cf9b2a01880532-aifc-rules-on-keeping-records.pdf",
+        "copy_sha256": "00cf9b2a01880532e8ebd1f8aa2def3ddbfcca04b6494dd601698ba8d3affb54",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Constitutional Statute on the AIFC, Russian text (Adilet)",
+        "role": "Normative text",
+        "language": "ru",
+        "edition": null,
+        "locator": "Constitutional Statute art. 8(3), para 2 (Adilet, RU authentic)",
+        "text": "Участники и органы Центра представляют сведения о привлеченных иностранцах и лицах без гражданства в администрацию Центра в соответствии с актами Центра.",
+        "translations": {},
+        "url": "https://adilet.zan.kz/rus/docs/Z1500000438",
+        "sha256": "7d7b541f67901d6ef3ccfa8e564606fd80972da031b1a7adf66ad5a0a2a4a893",
+        "retrieved": "2026-10-23",
+        "copy": "sources/7d7b541f67901d6e-ru-adilet-api.json",
+        "copy_sha256": "7d7b541f67901d6ef3ccfa8e564606fd80972da031b1a7adf66ad5a0a2a4a893",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Constitutional Statute on the AIFC, Russian text (Adilet)",
+        "role": "Normative text",
+        "language": "ru",
+        "edition": null,
+        "locator": "art. 8 footnote",
+        "text": "Сноска. Статья 8 с изменением, внесенным Конституционным законом РК от 30.12.2019 № 296-VІ",
+        "translations": {},
+        "url": "https://adilet.zan.kz/rus/docs/Z1500000438",
+        "sha256": "7d7b541f67901d6ef3ccfa8e564606fd80972da031b1a7adf66ad5a0a2a4a893",
+        "retrieved": "2026-10-23",
+        "copy": "sources/7d7b541f67901d6e-ru-adilet-api.json",
+        "copy_sha256": "7d7b541f67901d6ef3ccfa8e564606fd80972da031b1a7adf66ad5a0a2a4a893",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Authority",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC RULES ON KEEPING RECORDS",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-rules-on-keeping-records.pdf"
+    },
+    {
+      "title": "Constitutional Statute on the AIFC, Russian text (Adilet)",
+      "url": "https://adilet.zan.kz/rus/docs/Z1500000438"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

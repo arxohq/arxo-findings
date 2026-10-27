@@ -1,0 +1,146 @@
+{
+  "id": "ARXO-2026-0125",
+  "url": "https://arxo.io/findings/ARXO-2026-0125/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Banking Business Prudential Rules (BBR), V6",
+  "acts": [
+    "Banking Business Prudential Rules",
+    "Islamic Banking Business Prudential Rules",
+    "Insurance and Reinsurance Prudential Rules",
+    "Takaful and Retakaful Prudential Rules",
+    "Prudential Rules for Insurance Intermediaries"
+  ],
+  "location": "BBR 4.30(3)(a)",
+  "text": {
+    "en": {
+      "title": "Threshold deduction: 10% per item 'or' 15% aggregate; (4) deducts the excess over '(3)(a) or (b)' - outcome indeterminate",
+      "summary": "4.30(3) grants full recognition (300%/400% risk weight, no deduction) 'provided that (a) each item is no more than 10% ...; or (b) in total, the 3 items are no more than 15%'. With 'or', a bank whose items are each under 10% but total over 15% satisfies (a) and needs no deduction, while 4.30(4) requires deduction of 'any amount in excess of the threshold in (3)(a) or (b)', which can be read as the excess over 15%. The same 'or' is in IBB 4.46(3). (Also '(net of all regulatory adjustments except those under this Subdivision)': there are no Subdivisions in BBR.) With three items of USD 9 million each and CET1 of USD 100 million, the text yields a deduction of 0 (sub-rule (3)(a)) and of USD 12 million (sub-rule (4) by reference to (3)(b)). A bank with other credit risk-weighted assets of USD 800 million and a market risk requirement of USD 10 million then both meets and breaches its capital requirement under 4.9 (USD 100 million against 97.64 million; USD 88 million against 93.8 million). Lines 38-40 and 44 of Form 30 in the Manual for Preparation of Returns apply the 10% and 15% limits together.",
+      "correction": "Please make the two caps work together: either (a) replace \"or\" in 4.30(3) with \"and\" and deduct the amount above each 10% cap and then the amount above the 15% aggregate cap, or (b) keep alternative caps and state in 4.30(4) which excess is deducted. IBB 4.46(3) needs the same change."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 4.30(3)(a)",
+        "text": "each item is no more than 10% of the Bank’s CET 1 Capital (net of all regulatory adjustments except those under this Subdivision); or",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 4.30(4)",
+        "text": "A Bank must deduct from CET 1 Capital any amount in excess of the threshold in sub-rule (3) (a) or (b) above.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Islamic Banking Business Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IBB 4.46(3)(a)",
+        "text": "each item is no more than 10% of an Islamic Bank’s CET 1 Capital (net of all regulatory adjustments except those under this section); or",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf",
+        "sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e8b3c15b1ff574fd-aifc-islamic-banking-business-prudential-rules.pdf",
+        "copy_sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf"
+    },
+    {
+      "title": "AIFC Islamic Banking Business Prudential Rules",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

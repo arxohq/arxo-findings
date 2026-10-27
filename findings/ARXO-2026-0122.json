@@ -1,0 +1,258 @@
+{
+  "id": "ARXO-2026-0122",
+  "url": "https://arxo.io/findings/ARXO-2026-0122/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Banking Business Prudential Rules (BBR), V6",
+  "acts": [
+    "Banking Business Prudential Rules",
+    "Islamic Banking Business Prudential Rules",
+    "Insurance and Reinsurance Prudential Rules",
+    "Takaful and Retakaful Prudential Rules",
+    "Prudential Rules for Insurance Intermediaries"
+  ],
+  "location": "BBR 9.16(5)(b)",
+  "text": {
+    "en": {
+      "title": "BBR cites BPG Chapter 9 Sections D, E and F for the LCR, NSFR and maturity mismatch; in the BPG these are Sections G, H and I",
+      "summary": "BBR 9.16(5)(b) (the AFSA's power to adjust \"requirements under section D of Chapter 9 of the BPG\" for HQLA and net cash outflows), 9.19(2) (NSFR methodology, \"Section E\", twice) and 9.21(1)(a) (maturity-ladder methodology, \"section F\") cite BPG Chapter 9 by section letter; the notes to 9.16(3) and 9.21 do the same. In the published BPG (AFSA-L-GB-2019-0001, 28 January 2019) Sections D, E and F of Chapter 9 are Funding Strategy, Stress Testing and Contingency Funding Plan; the LCR, NSFR and Maturity Mismatch Approach are Sections G, H and I. The right sections can be found by their titles.",
+      "correction": "Please read Section G for Section D (9.16(5)(b) and the note to 9.16(3)), Section H for Section E (9.19(2), twice) and Section I for Section F (9.21(1)(a) and the note to 9.21)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 9.16(5)(b)",
+        "text": "adjust requirements under section D of Chapter 9 of the BPG for calculating its stock of HQLA or the Total Net Cash Outflows;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 9.19(2)",
+        "text": "guidance set out in Section E of Chapter 9 of the BPG issued by the AFSA.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 9.19(2) second sentence",
+        "text": "The ASF and RSF used in this calculation of NSFR are to be determined in accordance with the methodology, formulae and guidance provided in Section E of Chapter 9 of the BPG.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 9.21(1)(a)",
+        "text": "determining, in accordance with the methodology in section F of Chapter 9 of the BPG",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC BANKING PRUDENTIAL GUIDELINE",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": null,
+        "locator": "BPG Chapter 9, section D heading",
+        "text": "D. Funding Strategy",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-banking-prudential-guideline.pdf",
+        "sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "retrieved": "2026-10-23",
+        "copy": "sources/c0ab57e226481347-aifc-banking-prudential-guideline.pdf",
+        "copy_sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "AIFC BANKING PRUDENTIAL GUIDELINE",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": null,
+        "locator": "BPG Chapter 9, section E heading",
+        "text": "E. Stress Testing",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-banking-prudential-guideline.pdf",
+        "sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "retrieved": "2026-10-23",
+        "copy": "sources/c0ab57e226481347-aifc-banking-prudential-guideline.pdf",
+        "copy_sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "AIFC BANKING PRUDENTIAL GUIDELINE",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": null,
+        "locator": "BPG Chapter 9, section F heading",
+        "text": "F. Contingency Funding Plan (CFP)",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-banking-prudential-guideline.pdf",
+        "sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "retrieved": "2026-10-23",
+        "copy": "sources/c0ab57e226481347-aifc-banking-prudential-guideline.pdf",
+        "copy_sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l8",
+        "source": "AIFC BANKING PRUDENTIAL GUIDELINE",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": null,
+        "locator": "BPG Chapter 9, section G heading",
+        "text": "G. Liquidity Coverage Ratio",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-banking-prudential-guideline.pdf",
+        "sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "retrieved": "2026-10-23",
+        "copy": "sources/c0ab57e226481347-aifc-banking-prudential-guideline.pdf",
+        "copy_sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l9",
+        "source": "AIFC BANKING PRUDENTIAL GUIDELINE",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": null,
+        "locator": "BPG Chapter 9, section H heading",
+        "text": "H. Net Stable Funding Ratio (NSFR)",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-banking-prudential-guideline.pdf",
+        "sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "retrieved": "2026-10-23",
+        "copy": "sources/c0ab57e226481347-aifc-banking-prudential-guideline.pdf",
+        "copy_sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l10",
+        "source": "AIFC BANKING PRUDENTIAL GUIDELINE",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": null,
+        "locator": "BPG Chapter 9, section I heading",
+        "text": "I. Maturity Mismatch Approach",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-banking-prudential-guideline.pdf",
+        "sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "retrieved": "2026-10-23",
+        "copy": "sources/c0ab57e226481347-aifc-banking-prudential-guideline.pdf",
+        "copy_sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf"
+    },
+    {
+      "title": "AIFC BANKING PRUDENTIAL GUIDELINE",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-banking-prudential-guideline.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

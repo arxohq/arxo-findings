@@ -1,0 +1,149 @@
+{
+  "id": "ARXO-2026-0044",
+  "url": "https://arxo.io/findings/ARXO-2026-0044/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Fees Rules (FEES), AIFC Rules No. FR0007 of 2017, V18",
+  "acts": [
+    "AIFC Rules No. FR0007 of 2017 (Fees Rules)"
+  ],
+  "location": "V18 FEES 4.1.1",
+  "text": {
+    "en": {
+      "title": "FEES 4.1.2 still says the fee for extracts will be set \"at a later date\"",
+      "summary": "Amendments No. 6 (27 December 2019) made the fee in FEES 4.1.1 one \"specified in Schedule 5-1\" (the \"Processing inquiries\" row), but left FEES 4.1.2: \"The Registrar of Companies may determine the amount of the fee specified in FEES 4.1.1 at a later date.\"",
+      "correction": "Please clarify how FEES 4.1.2 operates alongside the extract fees in Schedule 5-1 (for example, whether it still covers persons or services outside that Schedule), or delete it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Fees Rules (FEES), V18, with amendments as of 13 November 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "V18 FEES 4.1.1",
+        "text": "to pay a prescribed fee specified in Schedule 5-1 for each specific information request.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-v18.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf",
+        "sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b5e10ace11734eda-fees-v18.pdf",
+        "copy_sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Fees Rules (FEES), V18, with amendments as of 13 November 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "V18 FEES 4.1.2",
+        "text": "The Registrar of Companies may determine the amount of the fee specified in FEES 4.1.1 at a later date.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-v18.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf",
+        "sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b5e10ace11734eda-fees-v18.pdf",
+        "copy_sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Fees Rules, Amendments No. 6 (2019)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "A6 p.3, FEES 4.1.1 (insertion underlined)",
+        "text": "upon application, to pay a prescribed fee specified in Schedule 5-1 for each specific information request.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees_a6_14.12.2019-1.pdf",
+        "sha256": "df35d51c6cb58a43002ad1efe40466a7e632282c4269f59c5377887a8b82183b",
+        "retrieved": "2026-10-23",
+        "copy": "sources/df35d51c6cb58a43-fees-a6.pdf",
+        "copy_sha256": "df35d51c6cb58a43002ad1efe40466a7e632282c4269f59c5377887a8b82183b",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Fees Rules (FEES), V18, with amendments as of 13 November 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "V18 Schedule 5-1 rows",
+        "text": "Processing inquiries**",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-v18.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf",
+        "sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b5e10ace11734eda-fees-v18.pdf",
+        "copy_sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

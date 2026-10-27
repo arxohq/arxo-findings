@@ -1,0 +1,162 @@
+{
+  "id": "ARXO-2026-0120",
+  "url": "https://arxo.io/findings/ARXO-2026-0120/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Banking Business Prudential Rules (BBR), V6",
+  "acts": [
+    "Banking Business Prudential Rules",
+    "Islamic Banking Business Prudential Rules",
+    "Insurance and Reinsurance Prudential Rules",
+    "Takaful and Retakaful Prudential Rules",
+    "Prudential Rules for Insurance Intermediaries"
+  ],
+  "location": "BBR 7.6(2), definition of GI",
+  "text": {
+    "en": {
+      "title": "Basic indicator approach: GI is defined as an average, and the formula divides it by n again",
+      "summary": "BBR 7.6(2) sets the operational risk capital requirement as GI x alpha / n. GI is defined as \"the Bank's average annual gross income\" for the years (out of the previous 3) in which it is positive, and n is the number of those years. The average is therefore divided by n a second time, and the result falls as the number of positive years grows: with gross income of USD 50 million in each of three years the requirement is 50 x 15% / 3 = USD 2.5 million; with USD 50 million in one year and losses in the other two it is USD 7.5 million. Sub-rule (3) speaks of excluding loss years \"from both the numerator and denominator when calculating the average\". The difference concerns the operational risk component, which enters risk-weighted assets at 12.5 times the requirement (BBR 4.7(2)(b)), not the whole capital requirement. IBB 9.10(2) has the same formula and definition. Carried through to the capital ratios: for a bank with gross income of USD 50 million in each of three years, other credit risk-weighted assets of USD 450 million, a market risk requirement of USD 4 million and Total Capital of USD 45 million, the requirement under 4.9 is USD 42.5 million as printed and USD 47.5 million if gross income is averaged once, so the bank meets or breaches the 8% Total Capital ratio depending on the reading (8.47% against 7.58%). The AFSA return (Annex 1.13 of the Manual for Preparation of Returns) computes a single \"Average GI\" over the positive years and does not divide it by n again.",
+      "correction": "Please confirm that the requirement is meant to equal alpha times the average of the positive annual gross income figures. If so, please define GI in BBR 7.6(2) and IBB 9.10(2) as the sum of those figures, or delete the division by n."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 7.6(2) definition of GI, p.71 (formula is an image-like fraction GI*alpha / n on the same page)",
+        "text": "GI is the Bank’s average annual gross income (as defined in sub-rule (3) or (4)) for those years (out of the previous 3 years) for which the Bank’s annual gross income is more than zero.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 7.6(2) definition of n",
+        "text": "n is the number of years out of the previous 3 years for which the Bank’s gross income is more than zero.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 7.6(3)",
+        "text": "figures for any year in which the annual gross income of a Bank is negative or zero must be excluded from both the numerator and denominator when calculating the average.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Islamic Banking Business Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IBB 9.10(2), p.123 (same fraction GI x alpha / n)",
+        "text": "GI is an Islamic Bank’s average annual gross income (as defined in sub-rule (3) below) for those years (out of the previous 3 years) for which an Islamic Bank’s annual gross income is more than zero.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf",
+        "sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e8b3c15b1ff574fd-aifc-islamic-banking-business-prudential-rules.pdf",
+        "copy_sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf"
+    },
+    {
+      "title": "AIFC Islamic Banking Business Prudential Rules",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "ARXO-2026-0040",
+  "url": "https://arxo.io/findings/ARXO-2026-0040/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Fees Rules (FEES), AIFC Rules No. FR0007 of 2017, V18",
+  "acts": [
+    "AIFC Rules No. FR0007 of 2017 (Fees Rules)"
+  ],
+  "location": "Schedule 6, 6.4, row 'Recognised Non-AIFC Member', para 1",
+  "text": {
+    "en": {
+      "title": "FEES Schedule 6, 6.4: the Recognised Non-AIFC Member trading value fee is ambiguous for members on several platforms",
+      "summary": "The trading value fee applies to members \"whose trading value is over 25 million USD per quarter on each trading platform\". For a member above the threshold on one platform and below it on another, the text can mean that no fee is due (not over the threshold on each platform) or that a fee is due per platform; the base (\"0.001% of trading value\") does not say whether it is per platform or in total.",
+      "correction": "Please state whether the USD 25 million quarterly threshold applies per platform or across platforms, and specify the trading-value base of the variable fee."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Fees Rules (FEES), V18, with amendments as of 13 November 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Schedule 6, 6.4, row 'Recognised Non-AIFC Member', para 1",
+        "text": "For Recognised Non-AIFC Members that are admitted to trading by an Authorised Investment Exchange, Multilateral or Organised Trading Facility or Digital Asset Trading Facility: calculated according to formula 1 below.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-v18.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf",
+        "sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b5e10ace11734eda-fees-v18.pdf",
+        "copy_sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Fees Rules (FEES), V18, with amendments as of 13 November 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Schedule 6, 6.4, row 'Recognised Non-AIFC Member', para 2",
+        "text": "or whose trading value is lower than 25 million USD per quarter on each trading platform: a fixed amount of 1 000 USD",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-v18.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf",
+        "sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b5e10ace11734eda-fees-v18.pdf",
+        "copy_sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Fees Rules (FEES), V18, with amendments as of 13 November 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Schedule 6, 6.4, Formula 1, TVF",
+        "text": "whose trading value is over 25 million USD per quarter on each trading platform",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-v18.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf",
+        "sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b5e10ace11734eda-fees-v18.pdf",
+        "copy_sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Fees Rules (FEES), V18, with amendments as of 13 November 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Schedule 6, 6.4, Formula 1, TVF",
+        "text": "TVF – Trading value fee, calculated as 0.001% of trading value, applicable only to Recognised Non-AIFC Members admitted to trading by an Authorised Investment Exchange, Multilateral or Organised Trading Facility or Digital Asset Trading Facility,",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-v18.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf",
+        "sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b5e10ace11734eda-fees-v18.pdf",
+        "copy_sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

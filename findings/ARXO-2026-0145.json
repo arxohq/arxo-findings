@@ -1,0 +1,226 @@
+{
+  "id": "ARXO-2026-0145",
+  "url": "https://arxo.io/findings/ARXO-2026-0145/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Banking Business Prudential Rules (BBR), V6",
+  "acts": [
+    "Banking Business Prudential Rules",
+    "Islamic Banking Business Prudential Rules",
+    "Insurance and Reinsurance Prudential Rules",
+    "Takaful and Retakaful Prudential Rules",
+    "Prudential Rules for Insurance Intermediaries"
+  ],
+  "location": "BBR 9.21(1)(c), p.86",
+  "text": {
+    "en": {
+      "title": "Maturity mismatch limits: the net cumulative position is inflows less outflows, and 9.21(4) requires it not to exceed negative 15% and negative 25%",
+      "summary": "BBR 9.21(1)(c) defines the net cumulative maturity mismatch position as inflows (assets) less outflows (liabilities) in each time band, and 9.21(3) expresses it as a percentage of Total Deposits; line 5 of Form 81 in the Manual for Preparation of Returns uses the same sign. Rule 9.21(4) then requires the position not to exceed negative 15% (sight to 8 days) and negative 25% (sight to 1 month), and the Bank must notify the AFSA if it exceeds these limits. Read as written, a bank with Total Deposits of USD 100 million whose inflows up to 8 days are USD 110 million and outflows USD 100 million (a position of +10%) exceeds negative 15% and breaches the limit, while a bank whose inflows are USD 40 million against outflows of USD 100 million (-60%) does not exceed it. The flows are those included in the maturity ladder under the BPG. IBB 10.30(4) and (5) have the same text (the denominator in IBB 10.30(3) also includes UPSIA accounts).",
+      "correction": "Please consider setting negative 15% and negative 25% as lower bounds of the position (keeping the denominators in BBR 9.21(3) and IBB 10.30(3)), and aligning the notification duty so that it applies when the position falls below a bound (the last sentence of BBR 9.21(4) and IBB 10.30(5))."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 9.21(1)(c), p.86",
+        "text": "subtracting outflows (liabilities) from inflows (assets) in each time band.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 9.21(4), p.87",
+        "text": "A Bank must ensure that its net cumulative Maturity Mismatch position as calculated in (3) above in each time band does not exceed the following:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 9.21(4)(a)",
+        "text": "sight – 8 days, negative 15%; and",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 9.21(4)(b)",
+        "text": "sight – 1 month, negative 25%.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 9.21(4), notification",
+        "text": "A Bank must notify the AFSA in writing immediately if it exceeds these net cumulative Maturity Mismatch limits.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "AIFC Islamic Banking Business Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IBB 10.30(1)(c), p.138 (sister rule)",
+        "text": "subtracting outflows (liabilities) from inflows (assets) in each time band.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf",
+        "sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e8b3c15b1ff574fd-aifc-islamic-banking-business-prudential-rules.pdf",
+        "copy_sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "AIFC Islamic Banking Business Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IBB 10.30(4), p.139 (sister rule)",
+        "text": "A Bank must ensure that its net cumulative maturity mismatch position as calculated in (3) above in each time band does not exceed the following:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf",
+        "sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e8b3c15b1ff574fd-aifc-islamic-banking-business-prudential-rules.pdf",
+        "copy_sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l8",
+        "source": "AIFC Islamic Banking Business Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IBB 10.30(5), p.139 (sister rule)",
+        "text": "An Islamic Bank must notify the AFSA in writing immediately if it exceeds these net cumulative maturity mismatch limits.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf",
+        "sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e8b3c15b1ff574fd-aifc-islamic-banking-business-prudential-rules.pdf",
+        "copy_sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf"
+    },
+    {
+      "title": "AIFC Islamic Banking Business Prudential Rules",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "id": "ARXO-2026-0179",
+  "url": "https://arxo.io/findings/ARXO-2026-0179/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Companies Regulations, V8",
+  "acts": [
+    "AIFC Companies Regulations",
+    "AIFC Companies Rules",
+    "AIFC Insolvency Regulations",
+    "AIFC Insolvency Rules",
+    "AIFC Foundations Regulations"
+  ],
+  "location": "Companies Regulations V8, s.179-6(1)",
+  "text": {
+    "en": {
+      "title": "Companies Regulations ss.179-6(1) and 179-7: after Amendments No. 4 moved the Nominee Director particulars to 179-7(1-1), the references in 179-6(1) and in the fine clause 179-7(2) were not updated",
+      "summary": "Amendments No. 4 moved the particulars of the Register of Nominee Directors from section 179-7(1) into a new subsection (1-1). Section 179-6(1) still refers to \"section 179-7(1)(a) to (e)\", and section 179-7(2) still makes only \"subsection (1)\" finable. Section 21(2) of the AIFC Regulations on AIFC Acts allows both references to be read as reaching the moved list, so this is a matter of clarity rather than a gap.",
+      "correction": "Please update the reference in section 179-6(1) to \"section 179-7(1-1)(a) to (e)\" (an editorial correction under section 19(3)(a) of the AIFC Regulations on AIFC Acts) and consider amending section 179-7(2) to read \"subsection (1) or (1-1)\"."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Regulations V8, s.179-6(1)",
+        "text": "required particulars referred to in section 179-7(1)(a) to (e) (Register of Nominee Directors)",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf",
+        "sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a77bf2c39b86d220-comreg_v8_01.01.25.pdf",
+        "copy_sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Regulations V8, s.179-7(1)",
+        "text": "A company which has one (1) or more Nominee Directors shall keep and maintain a Register of Nominee Directors in which they shall be entered.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf",
+        "sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a77bf2c39b86d220-comreg_v8_01.01.25.pdf",
+        "copy_sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Regulations V8, s.179-7(1-1)",
+        "text": "The following information obtained pursuant to section 179-6(1) (Duty of Nominee Directors) or otherwise known by it, shall be entered in relation to the Person on whose behalf, each Nominee Director acts:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf",
+        "sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a77bf2c39b86d220-comreg_v8_01.01.25.pdf",
+        "copy_sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Regulations V8, s.179-7(16)",
+        "text": "Contravention of subsections (3) to (15) is punishable by a fine.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf",
+        "sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a77bf2c39b86d220-comreg_v8_01.01.25.pdf",
+        "copy_sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "V4, with amendments as of 6 August 2019, commence 7 August 2019",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Regulations V4 (07.08.2019), s.179-7(1) with list",
+        "text": "in which there shall be entered, the following information",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/comreg_v4_2_02.07.2019.pdf",
+        "sha256": "fee74e3280f2eaa4f37c02ed07a36e86fcf89834372e979de6bfd097f76341e1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/fee74e3280f2eaa4-comreg_v4_2_02.07.2019.pdf",
+        "copy_sha256": "fee74e3280f2eaa4f37c02ed07a36e86fcf89834372e979de6bfd097f76341e1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "A4., with amendments as of 27 December 2019, commence on 1 January 2020",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Amendments No. 4, new s.179-7(1-1), page 24",
+        "text": "The following information obtained pursuant to section 179-6(1) (Duty of Nominee Directors) or otherwise known by it, shall be entered in relation to the Person on whose behalf, each Nominee Director acts:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_a4_14.12.2019-1.pdf",
+        "sha256": "c605e3df369f7f2f861b6e62ea36d0ab42b60907ef6bfad1a0f01b04302e788d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/c605e3df369f7f2f-comreg_a4_14.12.2019-1.pdf",
+        "copy_sha256": "c605e3df369f7f2f861b6e62ea36d0ab42b60907ef6bfad1a0f01b04302e788d",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Authority",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf"
+    },
+    {
+      "title": "V4, with amendments as of 6 August 2019, commence 7 August 2019",
+      "url": "https://aifc.kz/wp-content/uploads/2024/05/comreg_v4_2_02.07.2019.pdf"
+    },
+    {
+      "title": "A4., with amendments as of 27 December 2019, commence on 1 January 2020",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_a4_14.12.2019-1.pdf"
+    }
+  ],
+  "related": [
+    {
+      "id": "ARXO-2026-0177",
+      "relation": "same_cause"
+    },
+    {
+      "id": "ARXO-2026-0180",
+      "relation": "see_also"
+    }
+  ],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "ARXO-2026-0207",
+  "url": "https://arxo.io/findings/ARXO-2026-0207/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Court Rules 2018",
+  "acts": [
+    "AIFC Employment Regulations",
+    "AIFC Data Protection Regulations and Rules",
+    "AIFC Court Regulations 2017",
+    "AIFC Court Rules 2018",
+    "AIFC Arbitration Regulations",
+    "IAC Arbitration and Mediation Rules 2022"
+  ],
+  "location": "r.2.12",
+  "text": {
+    "en": {
+      "title": "Court Rules fix filing and service cut-off at '4pm Alma Ata time (UTC + 6)'; Kazakhstan has used UTC+5 since 1 March 2024",
+      "summary": "Rule 2.12 requires any act due \"on or before a particular date\" to be done \"by 4pm Alma Ata time (UTC + 6)\", and rule 5.15 treats a document \"delivered before 4pm Alma Ata time (UTC + 6) on a business day\" as served that day. When the Rules were written both labels meant the same time. Since 1 March 2024 the whole of Kazakhstan uses the fifth time zone, UTC+5 (Resolution of the Government of the Republic of Kazakhstan No. 20 of 19 January 2024, amending Resolution No. 1749 of 23 November 2000). Since then \"Alma Ata time\" and \"UTC + 6\" differ by one hour: 4pm UTC+6 is 3pm local time, and 4pm local time is 5pm UTC+6.",
+      "correction": "Please choose one time base for rules 2.12 and 5.15 - local time (for example \"4pm Astana time\") or a fixed offset - and remove the other label."
+    },
+    "ru": {
+      "title": "Правила Суда МФЦА устанавливают крайний срок подачи и вручения «16:00 по времени Алма-Аты (UTC + 6)»; с 1 марта 2024 года в Казахстане действует UTC+5",
+      "summary": "Правило 2.12 требует, чтобы действие, которое должно быть совершено «в определённую дату или ранее», было совершено «до 16:00 по времени Алма-Аты (UTC + 6)», а правило 5.15 считает документ, «доставленный до 16:00 по времени Алма-Аты (UTC + 6) в рабочий день», врученным в тот же день. Когда Правила составлялись, оба обозначения означали одно и то же время. С 1 марта 2024 года на всей территории Казахстана применяется 5-й часовой пояс, UTC+5 (постановление Правительства Республики Казахстан от 19 января 2024 года № 20 о внесении изменений в постановление от 23 ноября 2000 года № 1749). С этого времени «время Алма-Аты» и «UTC + 6» расходятся на один час: 16:00 по UTC+6 — это 15:00 по местному времени, а 16:00 по местному времени — это 17:00 по UTC+6.",
+      "correction": "Просим выбрать для правил 2.12 и 5.15 одну основу исчисления времени — местное время (например, «16:00 по времени Астаны») или фиксированное смещение — и исключить второе обозначение."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Court Rules 2018, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "r.2.12",
+        "text": "the act shall be done by 4pm Alma Ata time (UTC + 6) on that date.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-court-rules-2018-eng-1.pdf",
+        "sha256": "5a63449bb33df505991a8660cfd17e33df5165f7a965be64a47e3ce5e6335457",
+        "retrieved": "2026-10-23",
+        "copy": "sources/5a63449bb33df505-aifc-court-rules-2018-eng-1.pdf",
+        "copy_sha256": "5a63449bb33df505991a8660cfd17e33df5165f7a965be64a47e3ce5e6335457",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Court Rules 2018, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Part 5 (deemed service)",
+        "text": "if it is delivered before 4pm Alma Ata time (UTC + 6) on a business day",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-court-rules-2018-eng-1.pdf",
+        "sha256": "5a63449bb33df505991a8660cfd17e33df5165f7a965be64a47e3ce5e6335457",
+        "retrieved": "2026-10-23",
+        "copy": "sources/5a63449bb33df505-aifc-court-rules-2018-eng-1.pdf",
+        "copy_sha256": "5a63449bb33df505991a8660cfd17e33df5165f7a965be64a47e3ce5e6335457",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Adilet, P2400000020 (Russian text)",
+        "role": "Later act",
+        "language": "ru",
+        "edition": null,
+        "locator": "Resolution of the Government of the Republic of Kazakhstan No. 20 of 19.01.2024 (Adilet P2400000020, API JSON fetched 23.10.2026), item 1: new item 3 of Resolution No. 1749",
+        "text": "3. Применить ко всей территории Республики Казахстан 5-й часовой пояс.",
+        "translations": {},
+        "url": "https://adilet.zan.kz/rus/docs/P2400000020",
+        "sha256": "8f9d46d1843e9e97304f7a64d88efdd79d530e5ece7dd5023bfb3a8fb7b2dfee",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8f9d46d1843e9e97-P2400000020-ru-adilet-api.json",
+        "copy_sha256": "8f9d46d1843e9e97304f7a64d88efdd79d530e5ece7dd5023bfb3a8fb7b2dfee",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Adilet, P2400000020 (Russian text)",
+        "role": "Later act",
+        "language": "ru",
+        "edition": null,
+        "locator": "Resolution of the Government of the Republic of Kazakhstan No. 20 of 19.01.2024 (Adilet P2400000020, API JSON fetched 23.10.2026), item 1: new item 3-1 of Resolution No. 1749",
+        "text": "в ночь с 29 февраля 2024 года на 1 марта 2024 года (в 00:00 часов) перевести местное время на 1 час назад",
+        "translations": {},
+        "url": "https://adilet.zan.kz/rus/docs/P2400000020",
+        "sha256": "8f9d46d1843e9e97304f7a64d88efdd79d530e5ece7dd5023bfb3a8fb7b2dfee",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8f9d46d1843e9e97-P2400000020-ru-adilet-api.json",
+        "copy_sha256": "8f9d46d1843e9e97304f7a64d88efdd79d530e5ece7dd5023bfb3a8fb7b2dfee",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:55:21Z",
+      "institution": "AIFC Court",
+      "channel": "email",
+      "role": "court that adopts the AIFC Court Rules and applies the AIFC Court Regulations"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Court",
+      "role": "court that adopts the AIFC Court Rules and applies the AIFC Court Regulations"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Court Rules 2018, English text",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-court-rules-2018-eng-1.pdf"
+    },
+    {
+      "title": "Adilet, P2400000020 (Russian text)",
+      "url": "https://adilet.zan.kz/rus/docs/P2400000020"
+    }
+  ],
+  "related": [
+    {
+      "id": "ARXO-2026-0213",
+      "relation": "same_cause"
+    }
+  ],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Court (e-mail)"
+    }
+  ]
+}

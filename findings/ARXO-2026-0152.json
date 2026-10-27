@@ -1,0 +1,235 @@
+{
+  "id": "ARXO-2026-0152",
+  "url": "https://arxo.io/findings/ARXO-2026-0152/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Rules on Digital Asset Activities (DAA), V5",
+  "acts": [
+    "AIFC Rules on Digital Asset Activities",
+    "AIFC Rules on Providing Money Services",
+    "AIFC Financial Technology Rules",
+    "AIFC Representative Office Rules",
+    "AIFC Auditor Rules"
+  ],
+  "location": "DAA V5, 2.8.2(1)(c)",
+  "text": {
+    "en": {
+      "title": "DAA 2.8.2(1)(c): stablecoin admission criteria \"in (4) or (5)\": (5) is a notice after admission, and the reserve test in (4)(c) covers only Fiat stablecoins",
+      "summary": "DAA 2.8.2(1)(c) makes admission of a Fiat or Commodity stablecoin to trading depend on \"all of the requirements in (4) or (5) as applicable\". Paragraph (4) lists reserve criteria, but its test of reserve adequacy in (4)(c) speaks only of \"reserves in respect of Fiat stablecoins\". Paragraph (5) is not a criterion: it requires the operator to notify the AFSA within 3 business days after admission (in earlier versions, 10 days before admission). So for a Commodity stablecoin the operator has no stated test that the reserves cover the stablecoins in circulation. Issuers licensed in the AIFC must still meet the reserve rules in DAA 4.7.1, which cover Commodity stablecoins, and the AFSA approves stablecoins other than those issued by licensed Digital Asset Service Providers (2.8.1(3)(b)); the gap concerns the operator's admission test, mainly for stablecoins issued outside the AIFC. PMS 2.4.2(1)(c) has the same wording (AIFC2-PMS-02).",
+      "correction": "Please state the reserve test that applies when a Commodity stablecoin is admitted to trading, and in 2.8.2(1)(c) refer only to the paragraphs that contain admission criteria."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 2.8.2(1)(c)",
+        "text": "for a Fiat or Commodity stablecoin, all of the requirements in (4) or (5) as applicable",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 2.8.2(5)",
+        "text": "Digital Asset Trading Facility Operator is required to notify the AFSA within 3 business days after the admission of the Digital Asset to trading.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 2.8.2(4)(c)",
+        "text": "the published information referred to in (4)(a) demonstrates that the reserves in respect of Fiat stablecoins:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 2.8.2(1) lead-in",
+        "text": "(1) For the purposes of 2.8.1(3)(b), a Digital Asset can be admitted to trading on the Operator’s facility",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Rules on Digital Asset Activities Initial Version",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA initial version, 2.8.2(5) (pre-V5 wording)",
+        "text": "Digital Asset Trading Facility Operator is required to notify the AFSA 10 days prior to the date of the admission of the Digital Asset to trading.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-rules-on-digital-asset-activities-daa_stablecoins.pdf",
+        "sha256": "b2e861a30dc0572cad84b883e338a785dd3bc1239d668642df59d25fa86e7c0c",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b2e861a30dc0572c-aifc-rules-on-digital-asset-activities-daa_stablecoins.pdf",
+        "copy_sha256": "b2e861a30dc0572cad84b883e338a785dd3bc1239d668642df59d25fa86e7c0c",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 2.8.1(3)(b), p.24",
+        "text": "obtain approval of the AFSA in respect of Fiat and Commodity stablecoins, except for stablecoins issued by the Digital Asset Service Providers holding the relevant Licence.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 4.7.1(3-1)",
+        "text": "Issuer of a Commodity stablecoin must issue stablecoins whose reserve assets consist of referenced Commodities only.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l8",
+        "source": "AIFC Rules on Digital Asset Activities A3., with amendments as of 13 April 2025, which commence on 13 October 2025",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V4 (in force 13.10.2025), 2.8.2(5) - prior notice before Amendments No. 4",
+        "text": "notify the AFSA 10 days prior to the date of the admission",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-rules-on-digital-asset-activities-daa_v4_13.10.2025_ma-1-1.pdf",
+        "sha256": "25e9223f15295f6eb3e01993c141d64c3d6bbb6931ecc42040f1a2b3ac84240b",
+        "retrieved": "2026-10-23",
+        "copy": "sources/25e9223f15295f6e-aifc-rules-on-digital-asset-activities-daa_v4_13.10.2025_ma-1-1.pdf",
+        "copy_sha256": "25e9223f15295f6eb3e01993c141d64c3d6bbb6931ecc42040f1a2b3ac84240b",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf"
+    },
+    {
+      "title": "AIFC Rules on Digital Asset Activities Initial Version",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-rules-on-digital-asset-activities-daa_stablecoins.pdf"
+    },
+    {
+      "title": "AIFC Rules on Digital Asset Activities A3., with amendments as of 13 April 2025, which commence on 13 October 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-rules-on-digital-asset-activities-daa_v4_13.10.2025_ma-1-1.pdf"
+    }
+  ],
+  "related": [
+    {
+      "id": "ARXO-2026-0161",
+      "relation": "same_cause"
+    }
+  ],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

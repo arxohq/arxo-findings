@@ -1,0 +1,130 @@
+{
+  "id": "ARXO-2026-0095",
+  "url": "https://arxo.io/findings/ARXO-2026-0095/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Market Rules (MAR), V13",
+  "acts": [
+    "AIFC Market Rules",
+    "AIFC Authorised Market Institution Rules",
+    "AIFC Recognition Rules",
+    "AIFC MTF and OTF Rules"
+  ],
+  "location": "MAR V13, 6.2.2 heading, page 56",
+  "text": {
+    "en": {
+      "title": "MAR 6.2.2 heading refers to 'MAR 8.2.2 (Obligation to draw up insider lists)'; MAR has no chapter 8",
+      "summary": "The heading of MAR 6.2.2 reads 'Reporting Entity is responsible for complying with MAR 8.2.2 (Obligation to draw up insider lists)'. MAR ends with chapter 7 and Schedules 1-4; the obligation to draw up insider lists is MAR 6.2.1. The number has been wrong since the initial version (2017) and is repeated in the table of contents and on the regulator's site.",
+      "correction": "Please replace \"MAR 8.2.2\" with \"MAR 6.2.1\" in the heading of MAR 6.2.2. This is an editorial correction under section 19(3)(a) of the AIFC Regulations on AIFC Acts. The table of contents is not part of the act and can be updated at the same time."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 6.2.2 heading, page 56",
+        "text": "Reporting Entity is responsible for complying with MAR 8.2.2 (Obligation to draw up",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 6.2.1 heading, page 56",
+        "text": "Obligation to draw up insider lists",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf"
+    }
+  ],
+  "related": [
+    {
+      "id": "ARXO-2026-0094",
+      "relation": "interacts"
+    }
+  ],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

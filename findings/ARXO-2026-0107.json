@@ -1,0 +1,175 @@
+{
+  "id": "ARXO-2026-0107",
+  "url": "https://arxo.io/findings/ARXO-2026-0107/",
+  "record_kind": "discrepancy",
+  "class": "amendments",
+  "class_label": "Amendments",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Collective Investment Scheme Rules (CIS), V8",
+  "acts": [
+    "AIFC Collective Investment Scheme Rules",
+    "AIFC Islamic Finance Rules"
+  ],
+  "location": "CIS V8 5.3(l) lead-in",
+  "text": {
+    "en": {
+      "title": "CIS 5.3(l) is headed 'Information relating to a Feeder Fund' but sets property-fund disclosures; 'Property Fund' is not defined",
+      "summary": "Paragraph (l) of CIS 5.3 opens 'Information relating to a Feeder Fund:' and then lists only real-estate items: investment in Real Property, the 'Property Fund's' net assets in property-related assets, vacant or mortgaged properties, valuer under 6.10(b), insurance of Real Property, single-property funds, REIT vehicle. Nothing in (l) concerns Feeder Funds (whose disclosures sit in 2.4-1(c)(v)). The term 'Property Fund' used in (l)(ii), (iv), (v), (vi)(E), (vii) and Schedule 1 (j)(i) is not defined in CIS or in Glossary V23. Under s.24 of the AIFC Regulations on AIFC Acts the heading is part of the act, so the text names one scope (Feeder Funds) and the content implies another (funds investing in Real Property, incl. REITs).",
+      "correction": "Please replace the heading of CIS 5.3(l) with \"Information relating to a Property Fund\" (or \"a Fund investing in Real Property\") and define the term in the Glossary; the scope is for the AFSA to set."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 5.3(l) lead-in",
+        "text": "Information relating to a Feeder Fund:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 5.3(l)(vi)(J)",
+        "text": "if the Fund is a REIT, whether the investment vehicle is an Investment",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 Schedule 1 (j)(i)",
+        "text": "whether the aim of the Fund is to spread investment risks and, if a Property Fund, whether the Fund invests in a single property;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Collective Investment Scheme Rules A3., with amendments as of 16 April 2023, commence on 1 June 2023",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Amendments No. 3, page 5: 5.3(l) inserted with this heading",
+        "text": "Information relating to a Feeder Fund:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_a3-01.06.2023.pdf",
+        "sha256": "246115c48a9b6dcc965363841d924a864d80308e6e9c64234bb4e57c3548b35b",
+        "retrieved": "2026-10-23",
+        "copy": "sources/246115c48a9b6dcc-cis_a3-01.06.2023.pdf",
+        "copy_sha256": "246115c48a9b6dcc965363841d924a864d80308e6e9c64234bb4e57c3548b35b",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 5.3(l)(ii)",
+        "text": "What percentage of the Property Fund’s net assets may consist of property related assets, referred to in 3.1(b), which are not traded in or dealt on markets provided for in the Constitution.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf"
+    },
+    {
+      "title": "Collective Investment Scheme Rules A3., with amendments as of 16 April 2023, commence on 1 June 2023",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_a3-01.06.2023.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

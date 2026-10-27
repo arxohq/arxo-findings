@@ -1,0 +1,182 @@
+{
+  "id": "ARXO-2026-0216",
+  "url": "https://arxo.io/findings/ARXO-2026-0216/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Arbitration Regulations",
+  "acts": [
+    "AIFC Employment Regulations",
+    "AIFC Data Protection Regulations and Rules",
+    "AIFC Court Regulations 2017",
+    "AIFC Court Rules 2018",
+    "AIFC Arbitration Regulations",
+    "IAC Arbitration and Mediation Rules 2022"
+  ],
+  "location": "Art. 45(1)",
+  "text": {
+    "en": {
+      "title": "Recognition of arbitral awards: Article 14(4) of the Constitutional Statute and Article 45(1) of the Arbitration Regulations; the English translation of Article 14(4) is narrower than the Russian and Kazakh texts",
+      "summary": "Article 14(4) of the Constitutional Statute (Russian and Kazakh texts) provides that recognition and enforcement of arbitral awards on the territory of the Centre follow the legislation of the Republic of Kazakhstan. The English translation on aifc.kz reads \"Awards of arbitration courts in the Republic of Kazakhstan\", which is narrower. Article 45(1) of the AIFC Arbitration Regulations provides for recognition and enforcement by the AIFC Court of an award \"irrespective of the State or jurisdiction in which it was made\". The structure of Article 14 supports the narrower reading; on it, the two rules overlap only for awards made in Kazakhstan outside the AIFC. We do not claim that Article 45 cannot be applied.",
+      "correction": "Please align the English translation of Article 14(4) with the Russian and Kazakh texts, and clarify how Article 45 of the Arbitration Regulations relates to Article 14(4)."
+    },
+    "ru": {
+      "title": "Признание арбитражных решений: пункт 4 статьи 14 Конституционного закона и статья 45(1) Арбитражного регламента МФЦА; английский перевод пункта 4 статьи 14 уже русского и казахского текстов",
+      "summary": "Пункт 4 статьи 14 Конституционного закона Республики Казахстан «О Международном финансовом центре „Астана“» (русский и казахский тексты) предусматривает: «Признание и исполнение решений арбитражей на территории Центра осуществляются в соответствии с законодательством Республики Казахстан». Английский перевод на aifc.kz говорит о «решениях арбитражей в Республике Казахстан», что уже. Статья 45(1) Арбитражного регламента МФЦА предусматривает признание и исполнение Судом МФЦА арбитражного решения «независимо от государства или юрисдикции, в которых оно вынесено». Структура статьи 14 поддерживает более узкое прочтение; при нём две нормы пересекаются только в отношении решений, вынесенных в Казахстане вне МФЦА. Мы не утверждаем, что статья 45 не может применяться.",
+      "correction": "Просим привести английский перевод пункта 4 статьи 14 в соответствие с русским и казахским текстами и пояснить, как статья 45 Арбитражного регламента соотносится с пунктом 4 статьи 14."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Arbitration Regulations, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Art. 45(1)",
+        "text": "An arbitral award, irrespective of the State or jurisdiction in which it was made, shall be recognised as binding within the AIFC",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-arbitration-regulations-eng.pdf",
+        "sha256": "9f153a1d7882ce287f6bbb7937c4f477eab9f256d408608501e46b17b0cc2d48",
+        "retrieved": "2026-10-23",
+        "copy": "sources/9f153a1d7882ce28-aifc-arbitration-regulations-eng.pdf",
+        "copy_sha256": "9f153a1d7882ce287f6bbb7937c4f477eab9f256d408608501e46b17b0cc2d48",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Arbitration Regulations, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Art. 7",
+        "text": "The requirements of the Arbitration Law of the Republic of Kazakhstan do not apply to arbitrations conducted under these Regulations.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-arbitration-regulations-eng.pdf",
+        "sha256": "9f153a1d7882ce287f6bbb7937c4f477eab9f256d408608501e46b17b0cc2d48",
+        "retrieved": "2026-10-23",
+        "copy": "sources/9f153a1d7882ce28-aifc-arbitration-regulations-eng.pdf",
+        "copy_sha256": "9f153a1d7882ce287f6bbb7937c4f477eab9f256d408608501e46b17b0cc2d48",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Constitutional Statute on the AIFC, Russian text (Adilet)",
+        "role": "Normative text",
+        "language": "ru",
+        "edition": null,
+        "locator": "Constitutional Statute art. 14(4) (Adilet RU)",
+        "text": "4. Признание и исполнение решений арбитражей на территории Центра осуществляются в соответствии с законодательством Республики Казахстан.",
+        "translations": {},
+        "url": "https://adilet.zan.kz/rus/docs/Z1500000438",
+        "sha256": "7d7b541f67901d6ef3ccfa8e564606fd80972da031b1a7adf66ad5a0a2a4a893",
+        "retrieved": "2026-10-23",
+        "copy": "sources/7d7b541f67901d6e-ru-adilet-api.json",
+        "copy_sha256": "7d7b541f67901d6ef3ccfa8e564606fd80972da031b1a7adf66ad5a0a2a4a893",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:20Z",
+      "institution": "AIFC Management Council",
+      "channel": "email",
+      "role": "body that adopted the act"
+    },
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    },
+    {
+      "date": "2026-10-27T07:55:21Z",
+      "institution": "AIFC Court",
+      "channel": "email",
+      "role": "court that adopts the AIFC Court Rules and applies the AIFC Court Regulations"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Management Council",
+      "role": "body that adopted the act"
+    },
+    {
+      "institution": "AIFC Authority",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    },
+    {
+      "institution": "AIFC Court",
+      "role": "court that adopts the AIFC Court Rules and applies the AIFC Court Regulations"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Arbitration Regulations, English text",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-arbitration-regulations-eng.pdf"
+    },
+    {
+      "title": "Constitutional Statute on the AIFC, Russian text (Adilet)",
+      "url": "https://adilet.zan.kz/rus/docs/Z1500000438"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Management Council (e-mail)"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Court (e-mail)"
+    }
+  ]
+}

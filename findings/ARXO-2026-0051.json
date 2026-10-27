@@ -1,0 +1,117 @@
+{
+  "id": "ARXO-2026-0051",
+  "url": "https://arxo.io/findings/ARXO-2026-0051/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Fees Rules (FEES), AIFC Rules No. FR0007 of 2017, V18",
+  "acts": [
+    "AIFC Rules No. FR0007 of 2017 (Fees Rules)"
+  ],
+  "location": "Schedule 6, **Notes (4) to table 6.1",
+  "text": {
+    "en": {
+      "title": "Variable fees: the payment deadline can expire before the invoice is issued",
+      "summary": "Variable fees are \"paid within 21 days after the issuance of an invoice by the AFSA, but no later than within 1 month following each corresponding quarter\". If the invoice is issued late in the following month, or after it, the payer may have fewer than 21 days or the deadline may precede the invoice, and the 1% per month increase under FEES 5.1.2 can start before the invoice arrives.",
+      "correction": "Please clarify the payment obligation where an invoice is issued shortly before or after the quarterly long-stop date, and whether a minimum payment period is intended."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Fees Rules (FEES), V18, with amendments as of 13 November 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Schedule 6, **Notes (4) to table 6.1",
+        "text": "Variable fee is paid quarterly (paid within 21 days after the issuance of an invoice by the AFSA, but no later than within 1 month following each corresponding quarter).",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-v18.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf",
+        "sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b5e10ace11734eda-fees-v18.pdf",
+        "copy_sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Fees Rules (FEES), V18, with amendments as of 13 November 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "FEES 5.1.2",
+        "text": "the sum due will be increased by 1% for each month, or part of a month, that it remains outstanding beyond the due date.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-v18.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf",
+        "sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b5e10ace11734eda-fees-v18.pdf",
+        "copy_sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

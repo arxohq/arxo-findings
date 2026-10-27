@@ -1,0 +1,219 @@
+{
+  "id": "ARXO-2026-0143",
+  "url": "https://arxo.io/findings/ARXO-2026-0143/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Banking Business Prudential Rules (BBR), V6",
+  "acts": [
+    "Banking Business Prudential Rules",
+    "Islamic Banking Business Prudential Rules",
+    "Insurance and Reinsurance Prudential Rules",
+    "Takaful and Retakaful Prudential Rules",
+    "Prudential Rules for Insurance Intermediaries"
+  ],
+  "location": "BBR 4.31(2), p.30",
+  "text": {
+    "en": {
+      "title": "Capital conservation ratios: Table 4A is entered by the CET1 capital ratio, while the buffer under 4.31(2) excludes CET1 used for the T1 and Total Capital ratios",
+      "summary": "BBR 4.31(2) provides that the capital conservation buffer must be made up of CET1 capital above the amounts used to meet the CET1, T1 and Total Capital ratios, and 4.32(1) requires a bank whose buffer falls below the required minimum to restrict its distributions. Under 4.32(2) and Table 4A, however, the minimum capital conservation ratio is selected by the bank's CET1 capital ratio, which does not exclude the CET1 used to meet the T1 and Total Capital ratios; a ratio above 7% gives 0%. For a bank whose capital is all CET1, the buffer becomes positive only above 8% of risk-weighted assets and reaches 2.5% at 10.5%. With risk-weighted assets of USD 1,000 million, CET1 of USD 85 million (8.5%) and no AT1 or T2 capital, the bank's ratios are above the minima, its buffer under 4.31(2) is USD 5 million against USD 25 million, so it is in breach of 4.31(1) and 4.32(1) requires it to restrict distributions; yet Table 4A sets no positive minimum retention (0%). BPG Chapter 4 paragraph 11(c) states that a bank with a CET1 capital ratio of more than 7% can distribute 100% of its earnings; 4.33(1) also compares CET1 with the CET1 ratio plus the buffer. IBB 5.2 to 5.4 and Table 5.1 have the same structure. Basel III paragraph 131 measures the CET1 ratio of the table excluding the CET1 needed for the 6% Tier 1 and 8% Total Capital requirements.",
+      "correction": "Please clarify how the restriction under 4.32(1) is quantified for such a bank, and consider either measuring column 2 of Table 4A as the CET1 capital ratio excluding the CET1 used to meet the T1 and Total Capital ratios (4.5% plus the buffer under 4.31(2)) and aligning 4.33(1), BPG Chapter 4 paragraph 11 and IBB 5.3 to 5.4, or, if Table 4A reflects the intended policy, aligning 4.31(2) and Form 30 line 7 with it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 4.31(2), p.30",
+        "text": "A Bank’s capital conservation buffer must be made up of CET 1 Capital above the amounts used to meet the Bank’s CET 1 Capital ratio, T1 Capital ratio and Total Capital ratio in Rule 4.12.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 4.32(1), p.30",
+        "text": "If a Bank’s capital conservation buffer falls below the required minimum, the Bank must immediately conserve its capital by restricting its distributions.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 4.32(2), p.30",
+        "text": "Capital conservation ratio is the percentage of earnings that a Bank must not distribute if its CET 1 capital ratio falls within the corresponding ratio in column 2 of that table.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR Table 4A row 5, p.31",
+        "text": ">7%",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC BANKING PRUDENTIAL GUIDELINE",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": null,
+        "locator": "BPG Chapter 4 para 11(c), p.13",
+        "text": "A Bank with a CET 1 Capital ratio of more than 7% can distribute 100% of its earnings.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-banking-prudential-guideline.pdf",
+        "sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "retrieved": "2026-10-23",
+        "copy": "sources/c0ab57e226481347-aifc-banking-prudential-guideline.pdf",
+        "copy_sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "AIFC Islamic Banking Business Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IBB 5.2(2) (sister rule)",
+        "text": "A firm’s Capital Conservation Buffer must be made up of CET 1 Capital above the amounts used to meet an Islamic Bank’s CET 1 Capital ratio, Tier 1 Capital ratio and Regulatory Capital ratio",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf",
+        "sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e8b3c15b1ff574fd-aifc-islamic-banking-business-prudential-rules.pdf",
+        "copy_sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "AIFC Islamic Banking Business Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IBB 5.3 Guidance (iii) (sister rule; guidance is part of the rules, IBB 1.3(b))",
+        "text": "A firm with a CET 1 Capital ratio of more than 7% can distribute 100% of its earnings.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf",
+        "sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e8b3c15b1ff574fd-aifc-islamic-banking-business-prudential-rules.pdf",
+        "copy_sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf"
+    },
+    {
+      "title": "AIFC BANKING PRUDENTIAL GUIDELINE",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-banking-prudential-guideline.pdf"
+    },
+    {
+      "title": "AIFC Islamic Banking Business Prudential Rules",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf"
+    }
+  ],
+  "related": [
+    {
+      "id": "ARXO-2026-0126",
+      "relation": "see_also"
+    }
+  ],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

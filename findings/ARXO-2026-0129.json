@@ -1,0 +1,162 @@
+{
+  "id": "ARXO-2026-0129",
+  "url": "https://arxo.io/findings/ARXO-2026-0129/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Banking Business Prudential Rules (BBR), V6",
+  "acts": [
+    "Banking Business Prudential Rules",
+    "Islamic Banking Business Prudential Rules",
+    "Insurance and Reinsurance Prudential Rules",
+    "Takaful and Retakaful Prudential Rules",
+    "Prudential Rules for Insurance Intermediaries"
+  ],
+  "location": "BBR 3.7(2)",
+  "text": {
+    "en": {
+      "title": "Fallback signatories of prudential returns: 'Risk Manager' is called a Controlled Function, but in GEN it is a Designated Function",
+      "summary": "BBR 3.7(2) requires, if the primary signatories are unavailable, signature by 'both of the individuals approved to exercise the following Controlled Functions: (a) the Risk Manager function; (b) the Compliance Officer function'. GEN 2.2.1 lists Controlled Functions as GEN 2.2.2-2.2.5 (SEO, Director, Finance Officer, Compliance Officer); Risk Manager is GEN 2.3.5 and may be held by a Designated Individual who is not AFSA-approved (GEN 2.1.2(2)). In GEN at the BBR's adoption (2018) there was no Risk Manager function at all.",
+      "correction": "Please either refer in 3.7(2) to \"the individuals performing the Risk Manager function (GEN 2.3.5) and the Compliance Officer function\", or make the Risk Manager a Controlled Function in GEN."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 3.7(2)",
+        "text": "be signed by both of the individuals approved to exercise the following Controlled Functions:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 3.7(2)(a)",
+        "text": "the Risk Manager function;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC General Rules (GEN), V20",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "GEN V20 2.2.1",
+        "text": "The functions specified in GEN 2.2.2 to 2.2.5 are Controlled Functions.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/gen-_v20_01.01.2026.pdf",
+        "sha256": "e863a30c73072b0323a4d064ab0e3f7e103428a7992f91360ed19a173a68e681",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e863a30c73072b03-gen-v20.pdf",
+        "copy_sha256": "e863a30c73072b0323a4d064ab0e3f7e103428a7992f91360ed19a173a68e681",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC General Rules (GEN), V20",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "GEN V20 2.3.5",
+        "text": "The Risk Manager function is carried out by an individual who is a Director, Partner or",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/gen-_v20_01.01.2026.pdf",
+        "sha256": "e863a30c73072b0323a4d064ab0e3f7e103428a7992f91360ed19a173a68e681",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e863a30c73072b03-gen-v20.pdf",
+        "copy_sha256": "e863a30c73072b0323a4d064ab0e3f7e103428a7992f91360ed19a173a68e681",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf"
+    },
+    {
+      "title": "AIFC General Rules (GEN), V20",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/gen-_v20_01.01.2026.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "id": "ARXO-2026-0032",
+  "url": "https://arxo.io/findings/ARXO-2026-0032/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML)",
+  "acts": [
+    "AIFC Rules No. FR0008 of 2017 (AML Rules)"
+  ],
+  "location": "Cover page",
+  "text": {
+    "en": {
+      "title": "AML: the online rulebook named as the current version differs from the aifc.kz text of 15 December 2024",
+      "summary": "aifc.kz offers the AML Rules \"with amendments as of 15 December 2024, which commence on 1 January 2025\" and says the current version is on the regulator's website. The AFSA online rulebook (as displayed on 23 October 2026) dates its AML articles 12 December 2021 (Chapter 11-1: 4 January 2024) and differs in binding rules: 6.6.1(d) reads \"terminate or suspend\" instead of \"terminate\"; 4.3.2(e) (transactions aimed at cashing out money obtained by criminal means) is missing; 5.1.5 prints its second paragraph twice and lacks the first paragraph. The amending instrument of 15 December 2024 is not published.",
+      "correction": "Please identify the operative edition and reconcile the two published texts."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Cover page",
+        "text": "(with amendments as of 15 December 2024,",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AML 6.6.1(d) (PDF)",
+        "text": "terminate any existing business relationship with the customer;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AML 4.3.2(e) (PDF only)",
+        "text": "it is aimed at cashing out money obtained by criminal means; and",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AML 5.1.5 first paragraph (PDF only)",
+        "text": "A Relevant Person must understand the nature of the business and control structure of a customer that is a legal person or legal arrangement.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "aifc.kz, AML Rules page",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "aifc.kz AML page: pointer to the regulator's site as current version",
+        "text": "current version can be found on Regulator's website:",
+        "translations": {},
+        "url": "https://aifc.kz/legal-framework/anti-money-laundering-and-counter-terrorist-financing-rules-full-text/",
+        "sha256": "e35923b7e4c666e3c402bdb9b46ba5865a80739995efa6c5c7f330223732991b",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e35923b7e4c666e3-aml-page.html",
+        "copy_sha256": "e35923b7e4c666e3c402bdb9b46ba5865a80739995efa6c5c7f330223732991b",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

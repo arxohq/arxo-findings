@@ -1,0 +1,142 @@
+{
+  "id": "ARXO-2026-0185",
+  "url": "https://arxo.io/findings/ARXO-2026-0185/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Foundations Regulations, V5",
+  "acts": [
+    "AIFC Companies Regulations",
+    "AIFC Companies Rules",
+    "AIFC Insolvency Regulations",
+    "AIFC Insolvency Rules",
+    "AIFC Foundations Regulations"
+  ],
+  "location": "Foundations Regulations V5, Schedule 3, row 1",
+  "text": {
+    "en": {
+      "title": "Foundations Regulations Schedule 3: fine row \"6(6)\" for failing to give a copy of an assignment; the duty and the fine are in s.6(7)",
+      "summary": "Row \"6(6) Person failing to provide a copy of assignment of rights - 1,500\". s.6(6) only permits assignment of rights if the By-laws allow. The duty to give the Registrar a copy within 30 days, with \"liable to a fine, as set out in Schedule 3\", is s.6(7). Amendments No. 3 (2023) itself quotes 6(7) as the fine provision. The description in the row matches 6(7).",
+      "correction": "Please replace \"6(6)\" with \"6(7)\" in Schedule 3."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Foundations Regulations V5 with amendments as of 17 October, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Foundations Regulations V5, Schedule 3, row 1",
+        "text": "Person failing to provide a copy of assignment of rights",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fr_v5_may_2024_ba.pdf",
+        "sha256": "1101421f81f4073f8d6409fa9a7f4d564402f8b5fe55d94fe1600ee6922797d2",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1101421f81f4073f-fr_v5_may_2024_ba.pdf",
+        "copy_sha256": "1101421f81f4073f8d6409fa9a7f4d564402f8b5fe55d94fe1600ee6922797d2",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Foundations Regulations V5 with amendments as of 17 October, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Foundations Regulations V5, s.6(6)",
+        "text": "Any rights a Person may have in respect of a Foundation may be assigned to some other Person, if its By-laws so provide.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fr_v5_may_2024_ba.pdf",
+        "sha256": "1101421f81f4073f8d6409fa9a7f4d564402f8b5fe55d94fe1600ee6922797d2",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1101421f81f4073f-fr_v5_may_2024_ba.pdf",
+        "copy_sha256": "1101421f81f4073f8d6409fa9a7f4d564402f8b5fe55d94fe1600ee6922797d2",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Foundations Regulations V5 with amendments as of 17 October, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Foundations Regulations V5, s.6(7)",
+        "text": "If rights are assigned under subsection (6), the Person assigning the rights must within a period of thirty (30) days provide a copy of the assignment to the Registrar.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fr_v5_may_2024_ba.pdf",
+        "sha256": "1101421f81f4073f8d6409fa9a7f4d564402f8b5fe55d94fe1600ee6922797d2",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1101421f81f4073f-fr_v5_may_2024_ba.pdf",
+        "copy_sha256": "1101421f81f4073f8d6409fa9a7f4d564402f8b5fe55d94fe1600ee6922797d2",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Authority",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Foundations Regulations V5 with amendments as of 17 October, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/fr_v5_may_2024_ba.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

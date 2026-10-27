@@ -1,0 +1,122 @@
+{
+  "id": "ARXO-2026-0089",
+  "url": "https://arxo.io/findings/ARXO-2026-0089/",
+  "record_kind": "discrepancy",
+  "class": "amendments",
+  "class_label": "Amendments",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Conduct of Business Rules (COB), V17",
+  "acts": [
+    "AIFC Rules No. FR0005 of 2017 (COB)"
+  ],
+  "location": "COB 1.2.3",
+  "text": {
+    "en": {
+      "title": "COB 5.6.11 names Insurance Intermediaries for the Takaful disclosure, but COB 1.2.3 does not list it among the rules that apply to them",
+      "summary": "COB 1.2.3 says that COB does not apply to Insurance Intermediaries \"with the exception of COB 3, COB 4, COB 8.5 and COB 11\". COB 5.6.11(1), inserted with the Takaful amendments in 2018, names \"an Insurance Intermediary\" among the persons who must explain the differences between Takaful and conventional contracts. When COB 8.5 was added to the list in 1.2.3, 5.6.11 was not. Because 5.6.11 names Insurance Intermediaries expressly, it is best read as applying to them, but 1.2.3 does not say so.",
+      "correction": "Please add COB 5.6.11 to the exceptions in COB 1.2.3."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB 1.2.3",
+        "text": "The requirements in COB do not apply to Insurance Intermediaries, with the exception of COB",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB 5.6.11(1)",
+        "text": "A Takaful Operator or an Insurance Intermediary or an Insurance Manager making a",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

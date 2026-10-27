@@ -1,0 +1,133 @@
+{
+  "id": "ARXO-2026-0036",
+  "url": "https://arxo.io/findings/ARXO-2026-0036/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Fees Rules (FEES), AIFC Rules No. FR0007 of 2017, V18",
+  "acts": [
+    "AIFC Rules No. FR0007 of 2017 (Fees Rules)"
+  ],
+  "location": "Schedule 8, para 8.6",
+  "text": {
+    "en": {
+      "title": "FEES Schedule 8, 8.6: the consolidated text omits words adopted by Amendments No. 17",
+      "summary": "Amendments No. 17 (13 November 2025) inserted 8.6 as \"50% of an application fee for change of control payable under Schedule 1 of FEES\". The consolidated V18 and the AFSA online rulebook omit \"for change of control\". The heading of 8.6 still ties the fee to change of control, so the meaning survives, but the published body text differs from the adopted one.",
+      "correction": "Please align Schedule 8, paragraph 8.6 with Amendments No. 17 by restoring \"for change of control\"."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The consolidated text",
+  "evidence": {
+    "method": "Traced through the amending instruction",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Fees Rules (FEES), V18, with amendments as of 13 November 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Schedule 8, para 8.6",
+        "text": "A FinTech Lab Participant applying for change of control must pay to the AFSA 50% of an application fee payable under Schedule 1 of FEES.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-v18.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf",
+        "sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b5e10ace11734eda-fees-v18.pdf",
+        "copy_sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Fees Rules, Amendments A17 (13 November 2025)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Amendments No. 17, Schedule 8, new para 8.6 (underlined)",
+        "text": "A FinTech Lab Participant applying for change of control must pay to the AFSA 50% of an application fee for change of control payable under Schedule 1 of FEES.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-a17.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf",
+        "sha256": "5fe861eab94a9f4f93cd4f78461a21fd12c908b113096a25fe6e8a618f04dc03",
+        "retrieved": "2026-10-23",
+        "copy": "sources/5fe861eab94a9f4f-fees-a17.pdf",
+        "copy_sha256": "5fe861eab94a9f4f93cd4f78461a21fd12c908b113096a25fe6e8a618f04dc03",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Fees Rules (FEES), V18, with amendments as of 13 November 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Schedule 1, Notes, 'Application fee for change of control'",
+        "text": "An Authorised Firm applying for change of control must pay to the AFSA an application fee in the amount of 1 400 USD.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-v18.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf",
+        "sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b5e10ace11734eda-fees-v18.pdf",
+        "copy_sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

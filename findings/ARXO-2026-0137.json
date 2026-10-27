@@ -1,0 +1,186 @@
+{
+  "id": "ARXO-2026-0137",
+  "url": "https://arxo.io/findings/ARXO-2026-0137/",
+  "record_kind": "discrepancy",
+  "class": "amendments",
+  "class_label": "Amendments",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Glossary (GLO), V23",
+  "acts": [
+    "Banking Business Prudential Rules",
+    "Islamic Banking Business Prudential Rules",
+    "Insurance and Reinsurance Prudential Rules",
+    "Takaful and Retakaful Prudential Rules",
+    "Prudential Rules for Insurance Intermediaries"
+  ],
+  "location": "Glossary V23, 'Captive Insurer'",
+  "text": {
+    "en": {
+      "title": "Glossary still defines 'Captive Insurer' as group-only, contrary to PINS 14.1.1 (Class 2 and 3 since 2020); FEES fee rows depend on it",
+      "summary": "Glossary V23: Captive Insurer = Licence to carry on Insurance Business 'only for the business or operations of the Group to which it belongs'. PINS 14.1.1-14.1.2 (since 13.12.2020): Class 2 may take up to 20% of GWP from third-party risks; Class 3 insures persons in similar businesses (group captives). The PINS 'Working Schedule 1' list of defined terms also keeps the group-only text. FEES V18 charges 'Captive Insurance Business' USD 7,000 (application) / 4,200 (annual) versus 'Insurance Business' 14,000 / 9,800.",
+      "correction": "Please define \"Captive Insurer\" and \"Captive Insurance Business\" in the Glossary by reference to PINS 14.1.1 and 14.1.2, and update PINS Working Schedule 1."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Glossary (GLO), V23",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary V23, 'Captive Insurer'",
+        "text": "An Authorised Firm with a Licence to carry on Insurance Business only for the",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf",
+        "sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "retrieved": "2026-10-23",
+        "copy": "sources/041617346ad87a9f-glo-v23.pdf",
+        "copy_sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Insurance and Reinsurance Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PINS 14.1.1",
+        "text": "A Captive Insurer is an Authorised Firm with a Licence to carry on Insurance Business as a Class 1, Class 2 or Class 3 Captive Insurer.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-insurance-and-reinsurance-prudential-rules.pdf",
+        "sha256": "3f9031ccaf1b4673811786d2cd011df2d712e9245c96f21c34fbf532bfcbfff7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/3f9031ccaf1b4673-aifc-insurance-and-reinsurance-prudential-rules.pdf",
+        "copy_sha256": "3f9031ccaf1b4673811786d2cd011df2d712e9245c96f21c34fbf532bfcbfff7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Fees Rules (FEES), V18, with amendments as of 13 November 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "FEES V18 application fees table",
+        "text": "Captive Insurance Business other than through a",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-v18.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf",
+        "sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b5e10ace11734eda-fees-v18.pdf",
+        "copy_sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Fees Rules (FEES), V18, with amendments as of 13 November 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "FEES V18 application fees table",
+        "text": "Insurance Business 14 000",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-v18.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf",
+        "sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b5e10ace11734eda-fees-v18.pdf",
+        "copy_sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AFSA Consultation Paper AFSA-PSRD-CSP-2026-0005: Targeted Amendments to the AIFC Rules (15.07.2026)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "Consultation Paper AFSA-PSRD-CSP-2026-0005 (15.07.2026, closed, not adopted as of 25.10.2026), Part II, para 9 (GLO definitions)",
+        "text": "the GLO definition of Captive Insurer is amended to read “has the meaning given in PINS 14.1.1”",
+        "translations": {},
+        "url": "https://orderly.myafsa.com/api/pdf?articleId=a0001TEMM0004__TEMP__TEMP0006",
+        "sha256": "05a2ed115abcc1ab90a39c74ced2414b5a157d49522442ec652e29947cb34872",
+        "retrieved": "2026-10-25",
+        "copy": "sources/05a2ed115abcc1ab-AFSA-PSRD-CSP-2026-0005.pdf",
+        "copy_sha256": "05a2ed115abcc1ab90a39c74ced2414b5a157d49522442ec652e29947cb34872",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Glossary (GLO), V23",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf"
+    },
+    {
+      "title": "AIFC Insurance and Reinsurance Prudential Rules",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-insurance-and-reinsurance-prudential-rules.pdf"
+    },
+    {
+      "title": "AIFC Fees Rules (FEES), V18, with amendments as of 13 November 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-v18.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf"
+    },
+    {
+      "title": "AFSA Consultation Paper AFSA-PSRD-CSP-2026-0005: Targeted Amendments to the AIFC Rules (15.07.2026)",
+      "url": "https://orderly.myafsa.com/api/pdf?articleId=a0001TEMM0004__TEMP__TEMP0006"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

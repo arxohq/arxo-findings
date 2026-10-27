@@ -1,0 +1,229 @@
+{
+  "id": "ARXO-2026-0029",
+  "url": "https://arxo.io/findings/ARXO-2026-0029/",
+  "record_kind": "discrepancy",
+  "class": "amendments",
+  "class_label": "Amendments",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML)",
+  "acts": [
+    "AIFC Rules No. FR0008 of 2017 (AML Rules)"
+  ],
+  "location": "AML 13.6.1(b)",
+  "text": {
+    "en": {
+      "title": "AML 13.6.1(b), 13.8.1, 13.8.2, 14.1.1(d)–(e), 14.5.1(c): references to \"AML 13.7.3\" now point to the wrong rule",
+      "summary": "Seven references to \"a notification to the MLRO under AML 13.7.3\" survive from the 2018 numbering. AML 13.7.3 is now \"Suspicious Activity and Transactions Controls\" and creates no notification; the employee's duty to report to the MLRO is AML 13.7.5. The MLRO's duties to enquire, to decide on a suspicious transaction report, to record reasons and to keep records are attached to the old number.",
+      "correction": "Please update the seven references to AML 13.7.3 that are meant to identify employee notifications to AML 13.7.5 (an editorial correction under section 19(3)(a) of the AIFC Regulations on AIFC Acts)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AML 13.6.1(b) (Oversight responsibility of MLRO)",
+        "text": "acting as the point of contact to receive notifications from the Relevant Person’s employees under AML 13.7.3.;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AML 13.8.1 lead-in (Activity upon notification)",
+        "text": "A Relevant Person must ensure that where the Relevant Person's MLRO receives a notification under AML 13.7.3., the MLRO, without delay:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AML 13.8.1(a)",
+        "text": "enquires into and documents the circumstances in relation to which the notification made under AML 13.7.3. was made;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AML 13.8.2 (Recording reasons for not making a STR)",
+        "text": "Where, following a notification to the MLRO under AML 13.7.3, no STR is made, a Relevant Person must record the reasons for not making a STR.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AML 14.1.1(e) (Training); 14.1.1(d) has the same reference",
+        "text": "understand its arrangements regarding the making of a notification to the MLRO under AML 13.7.3.;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AML 14.5.1(c) (Obligation to keep records)",
+        "text": "notifications made under AML 13.7.3.;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AML 13.7.3 heading (number visible on page image only)",
+        "text": "Suspicious Activity and Transactions Controls",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l8",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AML 13.7.3 second paragraph — no notification to the MLRO in this rule",
+        "text": "A Relevant Person must register in the FIU reporting system for submitting STRs or TTRs before the commencement of its business activities.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l9",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AML 13.7.5 (Employee reporting to MLRO) — the actual notification duty",
+        "text": "that a person is engaged in or attempting money laundering, that employeepromptly notifies the Relevant Person’s MLRO and provides the MLRO with all relevant information within the employee's knowledge.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

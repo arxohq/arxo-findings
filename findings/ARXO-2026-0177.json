@@ -1,0 +1,218 @@
+{
+  "id": "ARXO-2026-0177",
+  "url": "https://arxo.io/findings/ARXO-2026-0177/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Companies Regulations, V8",
+  "acts": [
+    "AIFC Companies Regulations",
+    "AIFC Companies Rules",
+    "AIFC Insolvency Regulations",
+    "AIFC Insolvency Rules",
+    "AIFC Foundations Regulations"
+  ],
+  "location": "Companies Regulations V8, s.26(1)",
+  "text": {
+    "en": {
+      "title": "Companies Regulations s.26(4): the fine clause was not updated when Amendments No. 4 moved the annual-return deadline and contents into a new subsection (1-1)",
+      "summary": "Amendments No. 4 moved the annual-return deadline and contents from section 26(1) of the Companies Regulations into a new subsection (1-1). Section 26(4) still makes \"subsection (1), (2-1) or (3)\" punishable by a fine, and item 10 of Schedule 3 of the Companies Rules still says \"26(1) or (3)\". The reference to (1) may be read as reaching the re-enacted duty (section 21(2) of the AIFC Regulations on AIFC Acts), but a reader of section 26(4) cannot see that late or incomplete filing is finable. Item 10 also does not list subsection (2-1), which section 26(4) makes finable.",
+      "correction": "Please consider amending section 26(4) to read \"subsection (1), (1-1), (2-1) or (3)\", and please align item 10 of Schedule 3 of the Companies Rules, which also omits (2-1)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Regulations V8, s.26(1)",
+        "text": "Annual return must be filed with the Registrar by:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf",
+        "sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a77bf2c39b86d220-comreg_v8_01.01.25.pdf",
+        "copy_sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Regulations V8, s.26(1-1)",
+        "text": "A Company which is subject to subsection (1) must, within 6 months of the end of each financial year, or other date the Registrar considers appropriate, file with the Registrar an annual return containing:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf",
+        "sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a77bf2c39b86d220-comreg_v8_01.01.25.pdf",
+        "copy_sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Regulations V8, s.26(4)",
+        "text": "Contravention of subsection (1), (2-1) or (3) is punishable by a fine.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf",
+        "sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a77bf2c39b86d220-comreg_v8_01.01.25.pdf",
+        "copy_sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "A4., with amendments as of 27 December 2019, commence on 1 January 2020",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Amendments No. 4, s.26(4) (unchanged while (1) is split), page 8",
+        "text": "Contravention of subsection (1), (2-1) or (3) is punishable by a fine.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_a4_14.12.2019-1.pdf",
+        "sha256": "c605e3df369f7f2f861b6e62ea36d0ab42b60907ef6bfad1a0f01b04302e788d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/c605e3df369f7f2f-comreg_a4_14.12.2019-1.pdf",
+        "copy_sha256": "c605e3df369f7f2f861b6e62ea36d0ab42b60907ef6bfad1a0f01b04302e788d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Regulations V8, s.173(1)",
+        "text": "Contravention of the relevant provision or of a relevant requirement is expressed to be punishable by a fine",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf",
+        "sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a77bf2c39b86d220-comreg_v8_01.01.25.pdf",
+        "copy_sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "Companies Rules V6., with amendments as of 22 September 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Rules V6, Schedule 3, item 10",
+        "text": "26(1) or (3)",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cor_v6_may_2024_ba.pdf",
+        "sha256": "36daca0e6b461129e14b4fe7daed2846452cca2ab5de1f27cd5f5bfb663b8eb1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/36daca0e6b461129-cor_v6_may_2024_ba.pdf",
+        "copy_sha256": "36daca0e6b461129e14b4fe7daed2846452cca2ab5de1f27cd5f5bfb663b8eb1",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    },
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    },
+    {
+      "institution": "AIFC Authority",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf"
+    },
+    {
+      "title": "A4., with amendments as of 27 December 2019, commence on 1 January 2020",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_a4_14.12.2019-1.pdf"
+    },
+    {
+      "title": "Companies Rules V6., with amendments as of 22 September 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cor_v6_may_2024_ba.pdf"
+    }
+  ],
+  "related": [
+    {
+      "id": "ARXO-2026-0179",
+      "relation": "same_cause"
+    }
+  ],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARXO-2026-0079: aifc.kz, The Structure of the Bodies of the AIFC: two links serve the wrong file</title>
+<meta name="description" content="The links &quot;… ru (initial)&quot; and &quot;… with amendments as of 9 October 2017. ENG&quot; serve the same file as the 2021 Russian consolidation (&quot;с изменениями и дополнениями по состоянию на 1 июля 2021 года&quot;). The initial Russian text and the 2017 English version are not available.">
+<link rel="canonical" href="https://arxo.io/findings/ARXO-2026-0079/">
+<link rel="alternate" type="application/atom+xml" title="Arxo Findings Register" href="../feed.atom">
+<style>
+:root{--bg:#f7f6f2;--paper:#ffffff;--ink:#1d1f22;--muted:#5d636b;--line:#dcd9d0;--accent:#1f4e79;
+--reported:#5d636b;--accepted:#1f6f5c;--disagrees:#8a5a00;--note:#2c5d8f;--corrected:#1f6f2c;--withdrawn:#8b2f2f;
+--code:#f0eee8;--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+--serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+--sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15171a;--paper:#1c1f23;--ink:#e7e5df;
+--muted:#9aa1a9;--line:#33373d;--accent:#8db8e3;--reported:#9aa1a9;--accepted:#6cc3a8;--disagrees:#e0b45c;
+--note:#8db8e3;--corrected:#7fcf86;--withdrawn:#e58f8f;--code:#25292e}}
+:root[data-theme="dark"]{--bg:#15171a;--paper:#1c1f23;--ink:#e7e5df;--muted:#9aa1a9;--line:#33373d;--accent:#8db8e3;
+--reported:#9aa1a9;--accepted:#6cc3a8;--disagrees:#e0b45c;--note:#8db8e3;--corrected:#7fcf86;--withdrawn:#e58f8f;--code:#25292e}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--sans)}
+a{color:var(--accent)}a:hover{text-decoration-thickness:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header.site{border-bottom:1px solid var(--line);background:var(--paper)}
+header.site .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;justify-content:space-between;padding-top:14px;padding-bottom:12px}
+.brand{font:600 15px/1.2 var(--sans);letter-spacing:.02em;text-decoration:none;color:var(--ink)}
+.brand span{color:var(--muted);font-weight:400}
+nav.site a{margin-right:16px;font-size:14px;color:var(--muted);text-decoration:none}nav.site a:hover{color:var(--ink)}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.25;margin:1.6em 0 .5em}
+h1{font-size:clamp(26px,4vw,36px);margin-top:.9em}h2{font-size:22px;border-bottom:1px solid var(--line);padding-bottom:6px}
+h3{font-size:17px}
+p.lede{font-size:18px;color:var(--muted);max-width:760px;margin-top:0}
+.rule{background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--accent);padding:12px 16px;margin:20px 0;max-width:820px}
+.mono,code{font-family:var(--mono);font-size:.9em}
+code{background:var(--code);padding:1px 4px;border-radius:3px;word-break:break-all}
+.badge{display:inline-flex;align-items:center;gap:6px;font:600 12px/1 var(--sans);letter-spacing:.04em;text-transform:uppercase;white-space:nowrap}
+.badge::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor;flex:none}
+.b-reported{color:var(--reported)}.b-accepted{color:var(--accepted)}.b-disagrees{color:var(--disagrees)}
+.b-note_added{color:var(--note)}.b-corrected,.b-corrected_before_report{color:var(--corrected)}.b-withdrawn{color:var(--withdrawn)}
+.filters{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 8px}
+.filters label{display:flex;flex-direction:column;font-size:12px;color:var(--muted);gap:3px}
+.filters select,.filters input{font:14px var(--sans);padding:6px 8px;border:1px solid var(--line);border-radius:4px;background:var(--paper);color:var(--ink);min-width:150px}
+.filters input{min-width:220px}
+.count{font-size:13px;color:var(--muted);margin:6px 0 10px}
+.ledger{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.ledger li{display:grid;grid-template-columns:130px 1fr 200px;gap:4px 18px;padding:12px 4px;border-bottom:1px solid var(--line)}
+.ledger li:hover{background:var(--paper)}
+.ledger .id{font-family:var(--mono);font-size:13px}.ledger .id a{text-decoration:none}
+.ledger .what a{color:var(--ink);text-decoration:none;font-weight:600}.ledger .what a:hover{color:var(--accent)}
+.ledger .meta{font-size:13px;color:var(--muted);margin-top:2px}
+.ledger .st{text-align:right}.ledger .st .when{display:block;font-size:12px;color:var(--muted);margin-top:4px}
+@media (max-width:720px){.ledger li{grid-template-columns:1fr}.ledger .st{text-align:left}}
+table.grid{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0}
+table.grid th,table.grid td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+table.grid th{font-weight:600;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.scroll{overflow-x:auto}
+dl.facts{display:grid;grid-template-columns:170px 1fr;gap:6px 16px;margin:12px 0;font-size:15px}
+dl.facts dt{color:var(--muted)}dl.facts dd{margin:0}
+@media (max-width:600px){dl.facts{grid-template-columns:1fr}dl.facts dt{margin-top:6px}}
+blockquote.q{margin:12px 0;padding:12px 16px;background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--ink);font-family:var(--serif);font-size:16px}
+.qmeta{font-size:13px;color:var(--muted);margin:4px 0 16px;overflow-wrap:anywhere}
+.tr{font-size:14px;color:var(--muted);margin:6px 0 0;font-family:var(--sans)}
+ol.history{list-style:none;padding:0;margin:8px 0;border-left:2px solid var(--line)}
+ol.history li{padding:4px 0 8px 14px;position:relative;font-size:15px}
+ol.history li::before{content:"";position:absolute;left:-5px;top:12px;width:8px;height:8px;border-radius:50%;background:var(--muted)}
+ol.history .d{font-family:var(--mono);font-size:13px;color:var(--muted);margin-right:8px}
+.alt{border-top:1px dashed var(--line);margin-top:24px;padding-top:4px}
+.headline .id{font-family:var(--mono);color:var(--muted);font-size:14px}
+footer.site{margin:48px 0 0;border-top:1px solid var(--line);padding:18px 0 40px;font-size:13px;color:var(--muted)}
+.empty{padding:20px 4px;color:var(--muted)}
+</style>
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "Report",
+ "identifier": "ARXO-2026-0079",
+ "url": "https://arxo.io/findings/ARXO-2026-0079/",
+ "headline": "aifc.kz, The Structure of the Bodies of the AIFC: two links serve the wrong file",
+ "name": "aifc.kz, The Structure of the Bodies of the AIFC: two links serve the wrong file",
+ "description": "The links \"… ru (initial)\" and \"… with amendments as of 9 October 2017. ENG\" serve the same file as the 2021 Russian consolidation (\"с изменениями и дополнениями по состоянию на 1 июля 2021 года\"). The initial Russian text and the 2017 English version are not available.",
+ "inLanguage": "en",
+ "about": [
+  {
+   "@type": "Legislation",
+   "name": "Constitutional Statute of the Republic of Kazakhstan No. 438-V of 7 December 2015 on the Astana International Financial Centre",
+   "legislationJurisdiction": "KZ"
+  }
+ ],
+ "citation": [
+  {
+   "@type": "MediaObject",
+   "name": "aifc.kz, Structure of the Bodies page",
+   "contentUrl": "https://aifc.kz/legal-framework/the-structure-of-the-bodies-of-the-aifc/",
+   "sha256": "4989aafede0670a2ff1f589c7ab6e5c6d124980ef797545fd05e4a755b4eafcc"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "The Structure of the Bodies of the AIFC, Russian, as of 1 July 2021",
+   "contentUrl": "https://aifc.kz/wp-content/uploads/2024/05/2.-b-c-bc-0-30-2-a-87ab.-0-1.7.2021-4-o-a09b0.pdf",
+   "sha256": "3e36eb409cb7bb0d08bc1b2755c20c0400e8b9bade51b5e8cfdd10f08e7289d1"
+  }
+ ],
+ "publisher": {
+  "@type": "Organization",
+  "name": "Arxo Law",
+  "url": "https://arxo.io"
+ },
+ "isPartOf": {
+  "@type": "Dataset",
+  "name": "Arxo Findings Register",
+  "url": "https://arxo.io/findings/"
+ },
+ "dateModified": "2026-10-27",
+ "creativeWorkStatus": "Reported",
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+ "datePublished": "2026-10-27"
+}</script>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a class="brand" href="../index.html">Arxo Findings Register <span>· Arxo Law</span></a>
+<nav class="site"><a href="../index.html">Register</a><a href="../policy/index.html">Principles</a><a href="../method/index.html">Method</a><a href="../register.json">Data</a><a href="../feed.atom">Feed</a></nav>
+</div></header>
+<main class="wrap">
+
+<div class="headline"><p class="id">ARXO-2026-0079 · <span class="badge b-reported">Reported</span></p>
+<h1>aifc.kz, The Structure of the Bodies of the AIFC: two links serve the wrong file</h1></div>
+
+
+<p>The links &quot;… ru (initial)&quot; and &quot;… with amendments as of 9 October 2017. ENG&quot; serve the same file as the 2021 Russian consolidation (&quot;с изменениями и дополнениями по состоянию на 1 июля 2021 года&quot;). The initial Russian text and the 2017 English version are not available.</p><h3>Proposed correction</h3><p>Please link each label to the corresponding version.</p>
+<dl class="facts"><dt>Jurisdiction</dt><dd>Kazakhstan — AIFC</dd><dt>Act</dt><dd>Constitutional Statute of the Republic of Kazakhstan on the Astana International Financial Centre and AIFC acts</dd><dt>Place</dt><dd>Structure page, link 3</dd><dt>Record</dt><dd>Discrepancy</dd><dt>Class</dt><dd>Publication and consolidation</dd><dt>Where it arose</dt><dd>The official publication</dd><dt>Arxo&#x27;s conclusion</dt><dd>Confirmed</dd><dt>Official text</dt><dd>Unchanged at last check</dd><dt>Last checked</dt><dd>2026-10-23</dd></dl>
+<h2>Evidence</h2>
+<p>Contradiction within the text. Quotations are verbatim from the official material; translations are ours and marked.</p>
+<blockquote class="q" lang="en">The Structure of the Bodies of the Astana International Financial Centre ru (initial)</blockquote><div class="qmeta">Official publication · <a href="https://aifc.kz/legal-framework/the-structure-of-the-bodies-of-the-aifc/">aifc.kz, Structure of the Bodies page</a> · Structure page, link 3 · retrieved 2026-10-23 · SHA-256 <code>4989aafede0670a2ff1f589c7ab6e5c6d124980ef797545fd05e4a755b4eafcc</code> · <a href="../sources/4989aafede0670a2-structure-page.html">copy</a></div><blockquote class="q" lang="en">with amendments as of 9 October 2017. ENG</blockquote><div class="qmeta">Official publication · <a href="https://aifc.kz/legal-framework/the-structure-of-the-bodies-of-the-aifc/">aifc.kz, Structure of the Bodies page</a> · Structure page, link 4 · retrieved 2026-10-23 · SHA-256 <code>4989aafede0670a2ff1f589c7ab6e5c6d124980ef797545fd05e4a755b4eafcc</code> · <a href="../sources/4989aafede0670a2-structure-page.html">copy</a></div><blockquote class="q" lang="ru">(с изменениями и дополнениями по</blockquote><div class="qmeta">Later act · <a href="https://aifc.kz/wp-content/uploads/2024/05/2.-b-c-bc-0-30-2-a-87ab.-0-1.7.2021-4-o-a09b0.pdf">The Structure of the Bodies of the AIFC, Russian, as of 1 July 2021</a> · the file served by links 1, 3 and 4, title page · retrieved 2026-10-23 · SHA-256 <code>3e36eb409cb7bb0d08bc1b2755c20c0400e8b9bade51b5e8cfdd10f08e7289d1</code> · <a href="../sources/3e36eb409cb7bb0d-structure-ru-2021.pdf">copy</a></div>
+
+<h2>How to check it without Arxo's tools</h2>
+<ol><li>Open <a href="https://aifc.kz/legal-framework/the-structure-of-the-bodies-of-the-aifc/">aifc.kz, Structure of the Bodies page</a> and find Structure page, link 3; Structure page, link 4. Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/4989aafede0670a2-structure-page.html">4989aafede0670a2-structure-page.html</a> (SHA-256 <code>4989aafede0670a2ff1f589c7ab6e5c6d124980ef797545fd05e4a755b4eafcc</code>, copy of the official file).</li><li>Open <a href="https://aifc.kz/wp-content/uploads/2024/05/2.-b-c-bc-0-30-2-a-87ab.-0-1.7.2021-4-o-a09b0.pdf">The Structure of the Bodies of the AIFC, Russian, as of 1 July 2021</a> and find the file served by links 1, 3 and 4, title page. Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/3e36eb409cb7bb0d-structure-ru-2021.pdf">3e36eb409cb7bb0d-structure-ru-2021.pdf</a> (SHA-256 <code>3e36eb409cb7bb0d08bc1b2755c20c0400e8b9bade51b5e8cfdd10f08e7289d1</code>, copy of the official file).</li><li>The finding holds if the quoted passages read as shown and the comparison gives the result stated at the top of this page. If it does not, write to us with the record ID.</li></ol>
+<h2>How this finding was made</h2>
+<p>AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27).</p>
+
+<h2>Responsible institutions</h2><ul><li>AIFC Management Council — body that adopted the act</li><li>AIFC Authority — publisher of AIFC acts on the AIFC website</li></ul>
+<h2>Reported to</h2>
+<div class="scroll"><table class="grid"><thead><tr><th>Date</th><th>Institution</th><th>Channel</th><th>Reference</th></tr></thead><tbody><tr><td class="mono">2026-10-27</td><td>AIFC Management Council</td><td>e-mail</td><td class="mono"></td></tr><tr><td class="mono">2026-10-27</td><td>AIFC Authority</td><td>e-mail</td><td class="mono"></td></tr></tbody></table></div>
+<h2>Responses</h2>
+<p>No response recorded.</p>
+
+
+<h2>History</h2>
+<ol class="history"><li><span class="d">2026-10-23</span>Confirmed by Arxo</li><li><span class="d">2026-10-27</span>Entered in the register</li><li><span class="d">2026-10-27</span>Reported to AIFC Management Council (e-mail)</li><li><span class="d">2026-10-27</span>Reported to AIFC Authority (e-mail)</li></ol>
+<section class="alt" lang="ru"><h2>Русский</h2><h3>aifc.kz, страница «Структура органов МФЦА»: две ссылки открывают не тот файл</h3><p>Ссылки «… ru (initial)» (первоначальная редакция на русском языке) и «… with amendments as of 9 October 2017. ENG» (с изменениями на 9 октября 2017 года, на английском языке) открывают тот же файл, что и русская консолидированная редакция 2021 года («с изменениями и дополнениями по состоянию на 1 июля 2021 года»). Первоначальный русский текст и английская редакция 2017 года недоступны.</p><h3>Исправление</h3><p>Просим связать каждую ссылку с соответствующей редакцией.</p></section>
+<h2>Cite this record</h2>
+<p>Arxo Law, Arxo Findings Register, ARXO-2026-0079, https://arxo.io/findings/ARXO-2026-0079/ (status as of 2026-10-23). Data: <a href="../findings/ARXO-2026-0079.json">ARXO-2026-0079.json</a>.</p>
+
+</main>
+<footer class="site"><div class="wrap">
+Published by Arxo Law. Data under CC BY 4.0: <a href="../register.json">register.json</a> · <a href="../findings.csv">findings.csv</a> · <a href="../SHA256SUMS">SHA256SUMS</a>.
+Objections, reports of our own mistakes and requests for verification: <a href="mailto:hi@arxo.io">hi@arxo.io</a> — give the record ID, the conclusion you dispute and your source. We acknowledge receipt within five working days and answer on the merits within ten.
+<a href="../policy/index.html">Responsible Disclosure of Defects in Law</a>. Arxo executes the canon.
+</div></footer>
+</body>
+</html>

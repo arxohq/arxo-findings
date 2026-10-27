@@ -1,0 +1,149 @@
+{
+  "id": "ARXO-2026-0069",
+  "url": "https://arxo.io/findings/ARXO-2026-0069/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Glossary (GLO), V23",
+  "acts": [
+    "AIFC Rules No. FR0017 of 2017 (Glossary)"
+  ],
+  "location": "Glossary V23, entry \"Authorised Investment Exchange\"",
+  "text": {
+    "en": {
+      "title": "Glossary, \"Authorised Investment Exchange\": refers to \"Operating an Investment Exchange\"",
+      "summary": "The definition refers to the \"Market Activity of Operating an Investment Exchange\". The Market Activity in GEN Schedule 4, paragraph 1, and in the Glossary itself is \"Operating an Exchange\". The entry \"Operating a facility for Investment Tokens\" uses the same name.",
+      "correction": "\"Market Activity of Operating an Exchange\"."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Glossary (GLO), V23",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary V23, entry \"Authorised Investment Exchange\"",
+        "text": "Market Activity of Operating an Investment Exchange.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf",
+        "sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "retrieved": "2026-10-23",
+        "copy": "sources/041617346ad87a9f-glo-v23.pdf",
+        "copy_sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Glossary (GLO), V23",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary V23, entry \"Operating an Exchange\"",
+        "text": "The Market Activity defined in paragraph 1 of Schedule 4 of the AIFC General Rules.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf",
+        "sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "retrieved": "2026-10-23",
+        "copy": "sources/041617346ad87a9f-glo-v23.pdf",
+        "copy_sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC General Rules (GEN), V20",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "GEN V20 Schedule 4 para 1 / page 57",
+        "text": "Operating an Exchange means operating a facility which functions regularly and brings together",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/gen-_v20_01.01.2026.pdf",
+        "sha256": "e863a30c73072b0323a4d064ab0e3f7e103428a7992f91360ed19a173a68e681",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e863a30c73072b03-gen-v20.pdf",
+        "copy_sha256": "e863a30c73072b0323a4d064ab0e3f7e103428a7992f91360ed19a173a68e681",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Glossary (GLO), V23",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary V23, entry «Operating a facility for Investment Tokens» (a)",
+        "text": "Operating an Investment Exchange on which Investment Tokens are traded",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf",
+        "sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "retrieved": "2026-10-23",
+        "copy": "sources/041617346ad87a9f-glo-v23.pdf",
+        "copy_sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

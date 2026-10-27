@@ -1,0 +1,193 @@
+{
+  "id": "ARXO-2026-0092",
+  "url": "https://arxo.io/findings/ARXO-2026-0092/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Market Rules (MAR), V13",
+  "acts": [
+    "AIFC Market Rules",
+    "AIFC Authorised Market Institution Rules",
+    "AIFC Recognition Rules",
+    "AIFC MTF and OTF Rules"
+  ],
+  "location": "MAR V13, 1.1.2(1)(b) (rule), page 9",
+  "text": {
+    "en": {
+      "title": "MAR 1.1.2(1)(b): is an offer that meets both (2)(c) and (2)(d) meant to lose the placement exemption?",
+      "summary": "MAR 1.1.2(1)(b) exempts an offer by way of placement only if it satisfies \"one and one only\" of the conditions in (2); (1)(c) allows combinations only where one of them is (a), (b) or (m). An offer of Securities denominated in units of at least USD 100,000 (condition (d)) and issued at or above that amount also meets condition (c), because every investor pays at least USD 100,000. Read literally, such an offer is not exempt unless it also meets (a), (b) or (m), while the same offer issued below USD 100,000 per unit would be. For Exempt Securities, MAR 1.2.2(1) uses \"one or more of the conditions\". The words \"one and one only\" may be meant to stop the stacking of exemptions, but the text does not say which combinations are excluded.",
+      "correction": "Please confirm whether an offer that meets both conditions 1.1.2(2)(c) and (d) is meant to lose the exemption unless 1.1.2(1)(c) applies. If not, please consider \"one or more of the conditions\", or name the conditions that may not be combined."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 1.1.2(1)(b) (rule), page 9",
+        "text": "the offer satisfies one and one only of the conditions mentioned in subsection (2) below; or",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 1.1.2(1)(c) (rule), page 9",
+        "text": "the offer satisfies one or more of conditions (a), (b) and (m) in subsection (2) below.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 1.1.2(2)(c) (rule), page 9 (same words also in 1.2.2(1)(c))",
+        "text": "the offer is directed at investors who acquire Securities for a total consideration of at least USD100,000 (or an equivalent amount in another currency) per Person for each separate offer; or",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 1.1.2(2)(d) (rule), page 9 (same words also in 1.2.2(1)(d))",
+        "text": "the Securities being offered are denominated in amounts of at least USD100,000 per unit (or an equivalent amount in another currency); or",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "Market Rules A1., with amendments as of 4 July 2018, commence on 11 July 2018",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR Amendments No. 1 (approved 4 July 2018), 1.1.2(1)(b) inserted (underlined on the rendered page)",
+        "text": "the offer satisfies one and one only of the conditions mentioned in subsection (2) below, or",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_a1_04.07.2018.pdf",
+        "sha256": "a1ce119d9bd5b80f2c68c30f1878b5d9085f0dd84061a80875d0d816533b4af2",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a1ce119d9bd5b80f-mar_a1_04.07.2018.pdf",
+        "copy_sha256": "a1ce119d9bd5b80f2c68c30f1878b5d9085f0dd84061a80875d0d816533b4af2",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13 1.2.2(1) (Exempt Securities), page 11",
+        "text": "Prospectus, if such Securities satisfy one or more of the conditions specified below:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf"
+    },
+    {
+      "title": "Market Rules A1., with amendments as of 4 July 2018, commence on 11 July 2018",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_a1_04.07.2018.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

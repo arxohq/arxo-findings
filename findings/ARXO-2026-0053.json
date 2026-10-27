@@ -1,0 +1,117 @@
+{
+  "id": "ARXO-2026-0053",
+  "url": "https://arxo.io/findings/ARXO-2026-0053/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC General Rules (GEN), V20",
+  "acts": [
+    "AIFC Rules No. FR0001 of 2017 (General Rules)"
+  ],
+  "location": "Schedule 1 para 4(2) / page 45",
+  "text": {
+    "en": {
+      "title": "GEN Schedule 1, paragraph 4(2): two activity names that do not exist",
+      "summary": "Paragraph 4(2) incorporates into Managing a Collective Investment Scheme activities constituting \"Dealing as Agent\" and \"Dealing as Principal\". Schedule 1 defines \"Dealing in Investments as Agent\" (paragraph 2) and \"Dealing in Investments as Principal\" (paragraph 1); the Glossary does not define the two shorter names. The wording has been there since the initial 2017 release. The draft in Consultation Paper AFSA-PSRD-CSP-2026-0001 (Annex 2) corrects a third name in the same paragraph (\"Managing Assets\" to \"Managing Investments\") but keeps these two.",
+      "correction": "Please use the defined names \"Dealing in Investments as Agent\" and \"Dealing in Investments as Principal\"; the change could be made in the same amendment."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC General Rules (GEN), V20",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Schedule 1 para 4(2) / page 45",
+        "text": "To the extent that any activity under (1) constitutes Managing Assets, Providing Fund",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/gen-_v20_01.01.2026.pdf",
+        "sha256": "e863a30c73072b0323a4d064ab0e3f7e103428a7992f91360ed19a173a68e681",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e863a30c73072b03-gen-v20.pdf",
+        "copy_sha256": "e863a30c73072b0323a4d064ab0e3f7e103428a7992f91360ed19a173a68e681",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC General Rules (GEN), V20",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Schedule 1 para 3 / page 45",
+        "text": "Managing Investments means managing on a discretionary basis assets belonging to another",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/gen-_v20_01.01.2026.pdf",
+        "sha256": "e863a30c73072b0323a4d064ab0e3f7e103428a7992f91360ed19a173a68e681",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e863a30c73072b03-gen-v20.pdf",
+        "copy_sha256": "e863a30c73072b0323a4d064ab0e3f7e103428a7992f91360ed19a173a68e681",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

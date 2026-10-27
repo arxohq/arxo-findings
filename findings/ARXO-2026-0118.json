@@ -1,0 +1,179 @@
+{
+  "id": "ARXO-2026-0118",
+  "url": "https://arxo.io/findings/ARXO-2026-0118/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Glossary (GLO), V23",
+  "acts": [
+    "AIFC Collective Investment Scheme Rules",
+    "AIFC Islamic Finance Rules"
+  ],
+  "location": "Glossary V23 'Prospectus'",
+  "text": {
+    "en": {
+      "title": "IFR 7.3 requires SSB approval of a Fund's \"Prospectus\", a Glossary term for securities prospectuses; Funds issue \"Offering Materials\"",
+      "summary": "IFR 7.3(1) and (2) require a Fund’s Constitution \"and Prospectus\" to be approved by an SSB and reviewed every year; the Guidance under 7.2 also speaks of the Fund’s \"most recent Prospectus\". In the Glossary, \"Prospectus\" is the document referred to in MAR 1.3, which an unlisted Fund does not issue; such a Fund gives investors \"Offering Materials\" (CIS 5.3), and IFR itself uses that term in 7.8. Read with 7.8, \"Prospectus\" in 7.3 can be understood as the Fund’s Offering Materials, but the defined term points elsewhere. CIS has moved to the same term for Funds: Amendments No. 7 to CIS (in force 1 January 2025) replaced \"Prospectus\" with \"Offering Materials\" in the Feeder Fund rules. IFR 7.3 was not aligned.",
+      "correction": "Please use \"Offering Materials\" in IFR 7.3(1), 7.3(2) and the Guidance under 7.2, or state that \"Prospectus\" there includes a Fund’s Offering Materials."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Glossary (GLO), V23",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary V23 'Prospectus'",
+        "text": "A document referred to in MAR 1.3.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf",
+        "sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "retrieved": "2026-10-23",
+        "copy": "sources/041617346ad87a9f-glo-v23.pdf",
+        "copy_sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Collective Investment Scheme Rules A7., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS Amendments No. 7, page 4: 'Prospectus' struck, 'Offering Materials' inserted",
+        "text": "copies of the Prospectus Offering Materials and the last audited annual",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_a7-01.01.2025.pdf",
+        "sha256": "26b1d661daa1376ede349c4366d802d11b0d58158c0ec1fcbf4da71a8d6cdca3",
+        "retrieved": "2026-10-23",
+        "copy": "sources/26b1d661daa1376e-cis_a7-01.01.2025.pdf",
+        "copy_sha256": "26b1d661daa1376ede349c4366d802d11b0d58158c0ec1fcbf4da71a8d6cdca3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "ISLAMIC FINANCE RULES",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IFR 7.3(1)",
+        "text": "The Fund Manager of a Domestic Fund that is a Non-Exempt Fund must ensure that the relevant Fund’s Constitution and Prospectus are approved by the Fund’s SSB.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/islamic-finance-rules-1.pdf",
+        "sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "retrieved": "2026-10-23",
+        "copy": "sources/f5bf530f9d9d46ed-islamic-finance-rules-1.pdf",
+        "copy_sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "ISLAMIC FINANCE RULES",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IFR 7.3(2)",
+        "text": "The Fund Manager of an Exempt Fund must ensure that the Fund’s Constitution and Prospectus are, approved by the Fund Manager’s SSB.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/islamic-finance-rules-1.pdf",
+        "sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "retrieved": "2026-10-23",
+        "copy": "sources/f5bf530f9d9d46ed-islamic-finance-rules-1.pdf",
+        "copy_sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "ISLAMIC FINANCE RULES",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IFR 7.8 heading — IFR's own use of 'Offering Materials'",
+        "text": "Additional disclosures in the Offering Materials of a Non-Exempt Islamic Fund",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/islamic-finance-rules-1.pdf",
+        "sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "retrieved": "2026-10-23",
+        "copy": "sources/f5bf530f9d9d46ed-islamic-finance-rules-1.pdf",
+        "copy_sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Glossary (GLO), V23",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf"
+    },
+    {
+      "title": "Collective Investment Scheme Rules A7., with amendments as of 15 December 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_a7-01.01.2025.pdf"
+    },
+    {
+      "title": "ISLAMIC FINANCE RULES",
+      "url": "https://aifc.kz/wp-content/uploads/2024/05/islamic-finance-rules-1.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

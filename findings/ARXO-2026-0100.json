@@ -1,0 +1,125 @@
+{
+  "id": "ARXO-2026-0100",
+  "url": "https://arxo.io/findings/ARXO-2026-0100/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Authorised Market Institution Rules (AMI), V11",
+  "acts": [
+    "AIFC Market Rules",
+    "AIFC Authorised Market Institution Rules",
+    "AIFC Recognition Rules",
+    "AIFC MTF and OTF Rules"
+  ],
+  "location": "AMI V11, 2-1.2.2(4) (rule), page 26",
+  "text": {
+    "en": {
+      "title": "AMI 2-1.2.2(4) refers to the annual audit 'required under AMI 2-1.5'; AMI has no 2-1.5 (audit is 2-1.4)",
+      "summary": "AMI 2-1.2.2(4) requires systems and controls embedded in DLT to be \"included within the scope of the annual audit and written report required under AMI 2-1.5\". Chapter 2-1 (in AMI since V8, 1 January 2024) ends with 2-1.4 \"Technology audit reports\", which contains the annual audit and written report. In V8 to V11 there is no AMI 2-1.5.",
+      "correction": "Please replace \"AMI 2-1.5\" with \"AMI 2-1.4\" in AMI 2-1.2.2(4). The description of the audit already fixes the meaning, so this is an editorial correction under section 19(3)(a) of the AIFC Regulations on AIFC Acts."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Authorised Market Institution Rules V11., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AMI V11, 2-1.2.2(4) (rule), page 26",
+        "text": "written report required under AMI 2-1.5.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ami_v11_01.01.2026-1.pdf",
+        "sha256": "8f6c60e7a2ea9f1b70a5fc63cf33f8f9f4e5192e4f54dec80e109c914651b198",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8f6c60e7a2ea9f1b-ami_v11_01.01.2026-1.pdf",
+        "copy_sha256": "8f6c60e7a2ea9f1b70a5fc63cf33f8f9f4e5192e4f54dec80e109c914651b198",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Authorised Market Institution Rules V11., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AMI V11, 2-1.4 heading, page 27",
+        "text": "Technology audit reports",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ami_v11_01.01.2026-1.pdf",
+        "sha256": "8f6c60e7a2ea9f1b70a5fc63cf33f8f9f4e5192e4f54dec80e109c914651b198",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8f6c60e7a2ea9f1b-ami_v11_01.01.2026-1.pdf",
+        "copy_sha256": "8f6c60e7a2ea9f1b70a5fc63cf33f8f9f4e5192e4f54dec80e109c914651b198",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Authorised Market Institution Rules V11., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/ami_v11_01.01.2026-1.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

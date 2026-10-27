@@ -1,0 +1,219 @@
+{
+  "id": "ARXO-2026-0117",
+  "url": "https://arxo.io/findings/ARXO-2026-0117/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Islamic Finance Rules (IFR)",
+  "acts": [
+    "AIFC Collective Investment Scheme Rules",
+    "AIFC Islamic Finance Rules"
+  ],
+  "location": "IFR 7.5(1)",
+  "text": {
+    "en": {
+      "title": "IFR 7.5(3) and the draft Shari'ah Governance Rules: does a Fund that relies on Shari'ah screening keep its relief from appointing an SSB?",
+      "summary": "Under the current IFR, 7.5(3) releases the Fund Manager of a Non-Exempt Fund from appointing an SSB where it relies on a widely accepted Shari'ah screening process, while 7.3(1), 7.6(2) and 7.7(1) refer to \"the Fund's SSB\" without an exception. The draft in Consultation Paper AFSA-PSRD-CSP-2026-0003 deletes IFR 7.5 to 7.7 and places Shari'ah governance in new Shari'ah Governance Rules, which apply to \"a Fund Manager of a Domestic Fund which is operated or held out as being operated as an Islamic Fund\" (rule 1(1)(b)). After adoption the conflict inside IFR falls away with 7.5 to 7.7. Two questions remain: the new Rules contain no counterpart of the screening relief in 7.5(3), so it is unclear whether such Funds must now appoint an SSB; and IFR 7.3(1), which the draft does not amend, still requires approval by \"the Fund's SSB\".",
+      "correction": "When finalising the draft, please state whether a Fund that relies on a widely accepted Shari'ah screening process keeps its relief from appointing an SSB under the new Shari'ah Governance Rules, and align IFR 7.3(1) with the answer (for example \"where an SSB is appointed to the Fund\")."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "ISLAMIC FINANCE RULES",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IFR 7.5(1)",
+        "text": "A Fund Manager of a Domestic Fund that is a Non-Exempt Fund must, subject to (3), appoint a SSB to its Fund that meets the following requirements:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/islamic-finance-rules-1.pdf",
+        "sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "retrieved": "2026-10-23",
+        "copy": "sources/f5bf530f9d9d46ed-islamic-finance-rules-1.pdf",
+        "copy_sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "ISLAMIC FINANCE RULES",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IFR 7.5(3)",
+        "text": "A Fund Manager is not required to comply with the requirement (1) in where it relies, for the purposes of making Investments for the Fund, on a widely accepted Shari'ah screening process",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/islamic-finance-rules-1.pdf",
+        "sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "retrieved": "2026-10-23",
+        "copy": "sources/f5bf530f9d9d46ed-islamic-finance-rules-1.pdf",
+        "copy_sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "ISLAMIC FINANCE RULES",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IFR 7.8(1)(c)",
+        "text": "if the Fund does not have a SSB appointed to it pursuant to Rule 7.5(3), what widely acceptable screening methodologies are used by the Fund",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/islamic-finance-rules-1.pdf",
+        "sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "retrieved": "2026-10-23",
+        "copy": "sources/f5bf530f9d9d46ed-islamic-finance-rules-1.pdf",
+        "copy_sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "ISLAMIC FINANCE RULES",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IFR 7.6(2)",
+        "text": "In the case of a Domestic Fund that is a Non-Exempt Fund, the Fund Manager must commission an interim and an annual report relating to the Fund operations from the SSB which complies with AAOIFI GSIFI No 1.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/islamic-finance-rules-1.pdf",
+        "sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "retrieved": "2026-10-23",
+        "copy": "sources/f5bf530f9d9d46ed-islamic-finance-rules-1.pdf",
+        "copy_sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "ISLAMIC FINANCE RULES",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IFR 7.3(1)",
+        "text": "The Fund Manager of a Domestic Fund that is a Non-Exempt Fund must ensure that the relevant Fund’s Constitution and Prospectus are approved by the Fund’s SSB.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/islamic-finance-rules-1.pdf",
+        "sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "retrieved": "2026-10-23",
+        "copy": "sources/f5bf530f9d9d46ed-islamic-finance-rules-1.pdf",
+        "copy_sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "ISLAMIC FINANCE RULES",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IFR 7.7(1)",
+        "text": "internal Shari’ah review to assess the extent to which the Fund complies with fatwas, rulings and guidelines issued by the Fund’s SSB.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/islamic-finance-rules-1.pdf",
+        "sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "retrieved": "2026-10-23",
+        "copy": "sources/f5bf530f9d9d46ed-islamic-finance-rules-1.pdf",
+        "copy_sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "ISLAMIC FINANCE RULES",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IFR 7.6(1) — 'wherever applicable'",
+        "text": "Shari’ah reviews of the Fund, wherever applicable, are undertaken by the SSB",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/islamic-finance-rules-1.pdf",
+        "sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "retrieved": "2026-10-23",
+        "copy": "sources/f5bf530f9d9d46ed-islamic-finance-rules-1.pdf",
+        "copy_sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l8",
+        "source": "ISLAMIC FINANCE RULES",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IFR 7.6(2)",
+        "text": "commission an interim and an annual report relating to the Fund operations from the",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/islamic-finance-rules-1.pdf",
+        "sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "retrieved": "2026-10-23",
+        "copy": "sources/f5bf530f9d9d46ed-islamic-finance-rules-1.pdf",
+        "copy_sha256": "f5bf530f9d9d46edbfb3740d5937f3ca2ec853c0a15174b64d7e9d548a7baaed",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "ISLAMIC FINANCE RULES",
+      "url": "https://aifc.kz/wp-content/uploads/2024/05/islamic-finance-rules-1.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

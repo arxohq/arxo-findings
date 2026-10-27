@@ -1,0 +1,146 @@
+{
+  "id": "ARXO-2026-0138",
+  "url": "https://arxo.io/findings/ARXO-2026-0138/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Insurance and Reinsurance Prudential Rules",
+  "acts": [
+    "Banking Business Prudential Rules",
+    "Islamic Banking Business Prudential Rules",
+    "Insurance and Reinsurance Prudential Rules",
+    "Takaful and Retakaful Prudential Rules",
+    "Prudential Rules for Insurance Intermediaries"
+  ],
+  "location": "PINS 11.4.1(1)(b)",
+  "text": {
+    "en": {
+      "title": "Notice to policyholders must include 'the Scheme Summary referred to in rule 11.8' - there is no rule 11.8 (PINS and TRR)",
+      "summary": "PINS 11.4.1(1)(b) and TRR 11.4.1(1)(b) refer to 'rule 11.8'; chapter 11 ends at 11.4.2. The Scheme Summary is defined in 11.2.3(a)(ii) and regulated in 11.3.3.",
+      "correction": "Please read \"rule 11.3.3\" for \"rule 11.8\" in PINS 11.4.1(1)(b) and TRR 11.4.1(1)(b) (an editorial correction under section 19(3)(a) of the AIFC Regulations on AIFC Acts)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Insurance and Reinsurance Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PINS 11.4.1(1)(b)",
+        "text": "the Scheme Summary referred to in rule 11.8.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-insurance-and-reinsurance-prudential-rules.pdf",
+        "sha256": "3f9031ccaf1b4673811786d2cd011df2d712e9245c96f21c34fbf532bfcbfff7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/3f9031ccaf1b4673-aifc-insurance-and-reinsurance-prudential-rules.pdf",
+        "copy_sha256": "3f9031ccaf1b4673811786d2cd011df2d712e9245c96f21c34fbf532bfcbfff7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Insurance and Reinsurance Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PINS 11.3.3",
+        "text": "The Scheme Summary must",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-insurance-and-reinsurance-prudential-rules.pdf",
+        "sha256": "3f9031ccaf1b4673811786d2cd011df2d712e9245c96f21c34fbf532bfcbfff7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/3f9031ccaf1b4673-aifc-insurance-and-reinsurance-prudential-rules.pdf",
+        "copy_sha256": "3f9031ccaf1b4673811786d2cd011df2d712e9245c96f21c34fbf532bfcbfff7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Takaful and Retakaful Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "TRR 11.4.1(1)(b)",
+        "text": "the Scheme Summary referred to in rule 11.8.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-takaful-and-retakaful-prudential-rules.pdf",
+        "sha256": "f0a0b4a6a254d390fd8452b3b783b3ef05b4fce958ae8bec7843054790e83364",
+        "retrieved": "2026-10-23",
+        "copy": "sources/f0a0b4a6a254d390-aifc-takaful-and-retakaful-prudential-rules.pdf",
+        "copy_sha256": "f0a0b4a6a254d390fd8452b3b783b3ef05b4fce958ae8bec7843054790e83364",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Insurance and Reinsurance Prudential Rules",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-insurance-and-reinsurance-prudential-rules.pdf"
+    },
+    {
+      "title": "AIFC Takaful and Retakaful Prudential Rules",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-takaful-and-retakaful-prudential-rules.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

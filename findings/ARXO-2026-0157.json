@@ -1,0 +1,142 @@
+{
+  "id": "ARXO-2026-0157",
+  "url": "https://arxo.io/findings/ARXO-2026-0157/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Rules on Digital Asset Activities (DAA), V5",
+  "acts": [
+    "AIFC Rules on Digital Asset Activities",
+    "AIFC Rules on Providing Money Services",
+    "AIFC Financial Technology Rules",
+    "AIFC Representative Office Rules",
+    "AIFC Auditor Rules"
+  ],
+  "location": "DAA V5, 3.10.2(3)(c)",
+  "text": {
+    "en": {
+      "title": "DAA 3.10.2(3)(c) refers twice to 'DAA 2.8.10(1)', which does not exist",
+      "summary": "DAA section 2.8 ends at 2.8.8; there is no 2.8.10. The sibling subrules (2) and (3) of the same rule refer to '3.10.2 (1)' (the DASP risk warnings); the DATF equivalent is 2.8.5(1). Meaning survives by context.",
+      "correction": "Please read \"DAA 3.10.2(1)\" for \"DAA 2.8.10(1)\" and \"DAA 2.8.10 (1)\" in 3.10.2(3)(c) (an editorial correction under section 19(3)(a) of the AIFC Regulations on AIFC Acts)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 3.10.2(3)(c)",
+        "text": "provide the material referred to in DAA 2.8.10(1), reference may be made instead",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 3.10.2(3)(c) (second mention)",
+        "text": "referred to in DAA 2.8.10 (1) is provided.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 3.10.2(2)",
+        "text": "it must include the risk warning referred to in 3.10.2 (1) in a prominent place",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

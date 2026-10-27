@@ -1,0 +1,250 @@
+{
+  "id": "ARXO-2026-0186",
+  "url": "https://arxo.io/findings/ARXO-2026-0186/",
+  "record_kind": "discrepancy",
+  "class": "amendments",
+  "class_label": "Amendments",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Foundations Regulations, V5",
+  "acts": [
+    "AIFC Companies Regulations",
+    "AIFC Companies Rules",
+    "AIFC Insolvency Regulations",
+    "AIFC Insolvency Rules",
+    "AIFC Foundations Regulations"
+  ],
+  "location": "Foundations Regulations V5, s.36(3)",
+  "text": {
+    "en": {
+      "title": "Foundations Regulations s.36: since Amendments No. 1 (2019) \"the Foundation's return date\" is not defined; since Amendments No. 3 (2023) s.36(4)-(5) still refer to \"Schedule 3 (Fines and Fees)\" and to fees \"prescribed in Regulations\"",
+      "summary": "Amendments No. 1 to the Foundations Regulations (2019) deleted the definition of the return date (\"each anniversary of the date it received its Commercial Licence\") from section 36(3) but kept the words \"made up to the Foundation's return date\"; the term is not defined elsewhere. The filing deadline, \"within 6 months of the end of each financial year\", does not depend on that date, and the Registrar may set another date. Amendments No. 3 (2023) moved fees to the Fees Rules (section 61) and removed fees from Schedule 3, but section 36(4) still refers to \"Schedule 3 (Fines and Fees)\" and section 36(5) still requires \"application for registration fees ... as prescribed in Regulations\".",
+      "correction": "Please specify the date to which an annual return under section 36 must be made up, and update the fee references in section 36(4) and (5) to match the current fee provisions."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Foundations Regulations V5 with amendments as of 17 October, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Foundations Regulations V5, s.36(3)",
+        "text": "The annual return must be made up to the Foundation’s return date, or such other date the Registrar considers appropriate",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fr_v5_may_2024_ba.pdf",
+        "sha256": "1101421f81f4073f8d6409fa9a7f4d564402f8b5fe55d94fe1600ee6922797d2",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1101421f81f4073f-fr_v5_may_2024_ba.pdf",
+        "copy_sha256": "1101421f81f4073f8d6409fa9a7f4d564402f8b5fe55d94fe1600ee6922797d2",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Foundations Regulations V5 with amendments as of 17 October, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Foundations Regulations V5, s.36(4)",
+        "text": "liable to a fine, as set out in Schedule 3 (Fines and Fees).",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fr_v5_may_2024_ba.pdf",
+        "sha256": "1101421f81f4073f8d6409fa9a7f4d564402f8b5fe55d94fe1600ee6922797d2",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1101421f81f4073f-fr_v5_may_2024_ba.pdf",
+        "copy_sha256": "1101421f81f4073f8d6409fa9a7f4d564402f8b5fe55d94fe1600ee6922797d2",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Foundations Regulations V5 with amendments as of 17 October, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Foundations Regulations V5, s.36(5)",
+        "text": "A Foundation must pay the prescribed application for registration fees to the Registrar as prescribed in Regulations.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fr_v5_may_2024_ba.pdf",
+        "sha256": "1101421f81f4073f8d6409fa9a7f4d564402f8b5fe55d94fe1600ee6922797d2",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1101421f81f4073f-fr_v5_may_2024_ba.pdf",
+        "copy_sha256": "1101421f81f4073f8d6409fa9a7f4d564402f8b5fe55d94fe1600ee6922797d2",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Foundations Regulations V5 with amendments as of 17 October, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Foundations Regulations V5, s.61",
+        "text": "Fees Rules contain a list of fees payable to the Registrar in connection with these Regulations.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fr_v5_may_2024_ba.pdf",
+        "sha256": "1101421f81f4073f8d6409fa9a7f4d564402f8b5fe55d94fe1600ee6922797d2",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1101421f81f4073f-fr_v5_may_2024_ba.pdf",
+        "copy_sha256": "1101421f81f4073f8d6409fa9a7f4d564402f8b5fe55d94fe1600ee6922797d2",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Foundations Regulations (initial release) 26.03.2019",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "Foundations Regulations V1 (26.03.2019), s.36(3) and (5)",
+        "text": "which shall be each anniversary of the date it received its Commercial Licence",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/fr_v1_24_26.03.2019.pdf",
+        "sha256": "da033f8908e2bd7808492eda984b77e4e3f29c3f4fa8d10ee7bc962c62f67090",
+        "retrieved": "2026-10-23",
+        "copy": "sources/da033f8908e2bd78-fr_v1_24_26.03.2019.pdf",
+        "copy_sha256": "da033f8908e2bd7808492eda984b77e4e3f29c3f4fa8d10ee7bc962c62f67090",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "AIFC Foundations Regulations (initial release) 26.03.2019",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "Foundations Regulations V1, s.36(5)",
+        "text": "A Foundation must pay the prescribed Commercial Licence fees to the Registrar as prescribed in Regulations.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/fr_v1_24_26.03.2019.pdf",
+        "sha256": "da033f8908e2bd7808492eda984b77e4e3f29c3f4fa8d10ee7bc962c62f67090",
+        "retrieved": "2026-10-23",
+        "copy": "sources/da033f8908e2bd78-fr_v1_24_26.03.2019.pdf",
+        "copy_sha256": "da033f8908e2bd7808492eda984b77e4e3f29c3f4fa8d10ee7bc962c62f67090",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "AIFC Foundations Regulations A1 with amendments as of 5 July 2019, commence on 5 July 2019",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Foundations Regulations Amendments No. 1 (2019), p.3, s.36(3): the words after \"return date\" are struck through (deleted)",
+        "text": "The annual return must be made up to the Foundation’s return date, which shall be each anniversary of the date it received its Commercial Licence",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fr_a1_02.07.2019.pdf",
+        "sha256": "107e6ab6f0532285a08d6db1307b8f27f562fe9ae585d1e7e9ed5d8c604f9c39",
+        "retrieved": "2026-10-23",
+        "copy": "sources/107e6ab6f0532285-fr_a1_02.07.2019.pdf",
+        "copy_sha256": "107e6ab6f0532285a08d6db1307b8f27f562fe9ae585d1e7e9ed5d8c604f9c39",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l8",
+        "source": "AIFC Foundations Regulations A1 with amendments as of 5 July 2019, commence on 5 July 2019",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "same, p.3, s.36(3): inserted words (underlined)",
+        "text": "within 6 months of the end of each financial year, or other date the Registrar considers appropriate",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fr_a1_02.07.2019.pdf",
+        "sha256": "107e6ab6f0532285a08d6db1307b8f27f562fe9ae585d1e7e9ed5d8c604f9c39",
+        "retrieved": "2026-10-23",
+        "copy": "sources/107e6ab6f0532285-fr_a1_02.07.2019.pdf",
+        "copy_sha256": "107e6ab6f0532285a08d6db1307b8f27f562fe9ae585d1e7e9ed5d8c604f9c39",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l9",
+        "source": "AIFC Foundations Regulations A3 with amendments as of 28 December 2022, commence on 1 January 2023",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Foundations Regulations Amendments No. 3 (2023), p.4, s.60(3): unstruck words only; \"Part 1 (Fines) of\" and \"and Fees\" are struck through",
+        "text": "to these Regulations contains a list of maximum fines",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fr_a3_01.01.2023.pdf",
+        "sha256": "654d3a2cce121db0e336fde304ac7b45b573bcc6002330e23a00e2f52910ba38",
+        "retrieved": "2026-10-23",
+        "copy": "sources/654d3a2cce121db0-fr_a3_01.01.2023.pdf",
+        "copy_sha256": "654d3a2cce121db0e336fde304ac7b45b573bcc6002330e23a00e2f52910ba38",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Authority",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Foundations Regulations V5 with amendments as of 17 October, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/fr_v5_may_2024_ba.pdf"
+    },
+    {
+      "title": "AIFC Foundations Regulations (initial release) 26.03.2019",
+      "url": "https://aifc.kz/wp-content/uploads/2024/05/fr_v1_24_26.03.2019.pdf"
+    },
+    {
+      "title": "AIFC Foundations Regulations A1 with amendments as of 5 July 2019, commence on 5 July 2019",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/fr_a1_02.07.2019.pdf"
+    },
+    {
+      "title": "AIFC Foundations Regulations A3 with amendments as of 28 December 2022, commence on 1 January 2023",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/fr_a3_01.01.2023.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

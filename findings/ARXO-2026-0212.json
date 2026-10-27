@@ -1,0 +1,152 @@
+{
+  "id": "ARXO-2026-0212",
+  "url": "https://arxo.io/findings/ARXO-2026-0212/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC International Arbitration Centre Arbitration and Mediation Rules 2022",
+  "acts": [
+    "AIFC Employment Regulations",
+    "AIFC Data Protection Regulations and Rules",
+    "AIFC Court Regulations 2017",
+    "AIFC Court Rules 2018",
+    "AIFC Arbitration Regulations",
+    "IAC Arbitration and Mediation Rules 2022"
+  ],
+  "location": "Article 7.4 (first)",
+  "text": {
+    "en": {
+      "title": "IAC Rules: two Articles are numbered 7.4; the second refers to \"Articles 7.3 and 7.4\"",
+      "summary": "Article 7.4 (objection that the Tribunal is exceeding the scope of its authority) is followed by a second Article 7.4 (\"The Tribunal may rule on an objection referred to in Articles 7.3 and 7.4 ...\"). By the word \"objection\" the reference is to the first 7.4, but any citation of \"Article 7.4\" is ambiguous. The unofficial Russian translation numbers the second one 7.5.",
+      "correction": "Please renumber the second Article 7.4 as 7.5, as the Russian translation does."
+    },
+    "ru": {
+      "title": "Правила МАЦ: две статьи имеют номер 7.4; вторая отсылает к «Статьям 7.3 и 7.4»",
+      "summary": "За статьёй 7.4 (возражение о том, что арбитражный суд выходит за пределы своих полномочий) следует вторая статья 7.4 («Арбитражный суд имеет право вынести решение о возражении, упомянутом в Статьях 7.3 и 7.4 ...»). По слову «возражение» отсылка относится к первой статье 7.4, однако любая ссылка на «статью 7.4» неоднозначна. В неофициальном русском переводе вторая статья имеет номер 7.5.",
+      "correction": "Просим перенумеровать вторую статью 7.4 в 7.5, как это сделано в русском переводе."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "IAC Arbitration and Mediation Rules 2022, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Article 7.4 (first)",
+        "text": "7.4 Any objection that the Tribunal is exceeding the scope of its",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/iac-arbitration-and-mediation-rules-2022-eng.pdf",
+        "sha256": "279a7e21f2ed8b346383821c4785b5fcee97707cd6ad16b7ebe66884049c2137",
+        "retrieved": "2026-10-23",
+        "copy": "sources/279a7e21f2ed8b34-iac-arbitration-and-mediation-rules-2022-eng.pdf",
+        "copy_sha256": "279a7e21f2ed8b346383821c4785b5fcee97707cd6ad16b7ebe66884049c2137",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "IAC Arbitration and Mediation Rules 2022, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Article 7.4 (second)",
+        "text": "The Tribunal may rule on an objection referred to in Articles 7.3 and 7.4 either as a preliminary question or in an Award on the merits.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/iac-arbitration-and-mediation-rules-2022-eng.pdf",
+        "sha256": "279a7e21f2ed8b346383821c4785b5fcee97707cd6ad16b7ebe66884049c2137",
+        "retrieved": "2026-10-23",
+        "copy": "sources/279a7e21f2ed8b34-iac-arbitration-and-mediation-rules-2022-eng.pdf",
+        "copy_sha256": "279a7e21f2ed8b346383821c4785b5fcee97707cd6ad16b7ebe66884049c2137",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "IAC Arbitration and Mediation Rules 2022, Russian text",
+        "role": "Language version",
+        "language": "ru",
+        "edition": null,
+        "locator": "RU translation",
+        "text": "7.5 Арбитражный суд имеет право вынести решение о возражении, упомянутом в Статьях 7.3 и 7.4",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/iac-arbitration-and-mediation-rules-2022-ru.pdf",
+        "sha256": "7facd43abfca8b929904233583cb9db5a6dbbc39f275b7e5c8e36aa58fd9c0f7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/7facd43abfca8b92-iac-arbitration-and-mediation-rules-2022-ru.pdf",
+        "copy_sha256": "7facd43abfca8b929904233583cb9db5a6dbbc39f275b7e5c8e36aa58fd9c0f7",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:56:01Z",
+      "institution": "AIFC International Arbitration Centre",
+      "channel": "email",
+      "role": "author of the IAC Arbitration and Mediation Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC International Arbitration Centre",
+      "role": "author of the IAC Arbitration and Mediation Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "IAC Arbitration and Mediation Rules 2022, English text",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/iac-arbitration-and-mediation-rules-2022-eng.pdf"
+    },
+    {
+      "title": "IAC Arbitration and Mediation Rules 2022, Russian text",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/iac-arbitration-and-mediation-rules-2022-ru.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC International Arbitration Centre (e-mail)"
+    }
+  ]
+}

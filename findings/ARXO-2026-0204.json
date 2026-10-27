@@ -1,0 +1,147 @@
+{
+  "id": "ARXO-2026-0204",
+  "url": "https://arxo.io/findings/ARXO-2026-0204/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Data Protection Rules",
+  "acts": [
+    "AIFC Employment Regulations",
+    "AIFC Data Protection Regulations and Rules",
+    "AIFC Court Regulations 2017",
+    "AIFC Court Rules 2018",
+    "AIFC Arbitration Regulations",
+    "IAC Arbitration and Mediation Rules 2022"
+  ],
+  "location": "r.4.2.3(a)",
+  "text": {
+    "en": {
+      "title": "DP Rules r.4.2.3(a): first notification due 'no later than 14 days start of the operations' - before or after the start is not said",
+      "summary": "Rule 4.2.3(a) requires the notification of Personal Data Processing operations 'no later than 14 days start of the operations' - a word ('after' or 'before') is missing, so the deadline can be read as 14 days before the operations start or 14 days after. The neighbouring r.4.3 uses the full form 'no later than 14 days after the day the particulars change'. Text unchanged since the 2018 Rules; the notification attracts the item 3 fee (USD 1,000/500/200).",
+      "correction": "Please state whether the first notification is due 14 days before or 14 days after the start of the operations (rule 4.3 uses \"after the day\")."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC DATA PROTECTION RULES (with ammendments as of 1 April, 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "r.4.2.3(a)",
+        "text": "no later than 14 days start of the operations; and",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-data-protection-rules.pdf",
+        "sha256": "d585ad603a068eefe225665e2d0b41d0e5cfa6f6f7e554dfb53d2e673d5a8614",
+        "retrieved": "2026-10-23",
+        "copy": "sources/d585ad603a068eef-aifc-data-protection-rules.pdf",
+        "copy_sha256": "d585ad603a068eefe225665e2d0b41d0e5cfa6f6f7e554dfb53d2e673d5a8614",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC DATA PROTECTION RULES (with ammendments as of 1 April, 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "r.4.3",
+        "text": "about changed particulars of Personal Data Processing operations as soon as possible after the particulars change, but no later than 14 days after the day the particulars change.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-data-protection-rules.pdf",
+        "sha256": "d585ad603a068eefe225665e2d0b41d0e5cfa6f6f7e554dfb53d2e673d5a8614",
+        "retrieved": "2026-10-23",
+        "copy": "sources/d585ad603a068eef-aifc-data-protection-rules.pdf",
+        "copy_sha256": "d585ad603a068eefe225665e2d0b41d0e5cfa6f6f7e554dfb53d2e673d5a8614",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC DATA PROTECTION RULES 2018",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "2018 Rules r.4.2.3(a) - same text",
+        "text": "no later than 14 days start of the operations; and",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-data-protection-rules-no.1-of-2018-1-1.pdf",
+        "sha256": "8664e957109b527d9f7e9826d52dc1d5506e65f3282baf255e27a89d5663e969",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8664e957109b527d-aifc-data-protection-rules-no.1-of-2018-1-1.pdf",
+        "copy_sha256": "8664e957109b527d9f7e9826d52dc1d5506e65f3282baf255e27a89d5663e969",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Authority",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC DATA PROTECTION RULES (with ammendments as of 1 April, 2025)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-data-protection-rules.pdf"
+    },
+    {
+      "title": "AIFC DATA PROTECTION RULES 2018",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-data-protection-rules-no.1-of-2018-1-1.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

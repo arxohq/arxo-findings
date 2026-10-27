@@ -1,0 +1,142 @@
+{
+  "id": "ARXO-2026-0085",
+  "url": "https://arxo.io/findings/ARXO-2026-0085/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Conduct of Business Rules (COB), V17",
+  "acts": [
+    "AIFC Rules No. FR0005 of 2017 (COB)"
+  ],
+  "location": "COB 2.3.1(b)",
+  "text": {
+    "en": {
+      "title": "COB 2.3.1(b) lists only COB 2.5.1 and 2.5.5 and omits Undertakings assessed under COB 2.5.6",
+      "summary": "COB 2.3.1(b) allows a Person to be classified as a Professional Client if it meets the requirements to be an Assessed Professional Client \"in accordance with COB 2.5.1 or 2.5.5\". COB 2.5.1 covers individuals and 2.5.5 joint account holders. COB 2.5.6 (Undertakings with own funds of at least USD 1 million) is not listed, although 2.5.6 itself applies \"For the purposes of COB 2.3.1\" and the Glossary defines Assessed Professional Client by \"COB 2.5.1 and 2.5.6\". The words of 2.5.6 and the Glossary keep the intended meaning, but the list in 2.3.1(b) does not match them.",
+      "correction": "Please align the list in COB 2.3.1(b) with COB 2.5.6 and the Glossary definition, for example \"COB 2.5.1, 2.5.5 or 2.5.6\"."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB 2.3.1(b)",
+        "text": "COB 2.5.1 or 2.5.5, provided that Person has not been classified as a Retail Client in",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB 2.5.6",
+        "text": "For the purposes of COB 2.3.1, an Authorised Firm may treat an Undertaking as an Assessed",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Glossary (GLO), V23",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary V23, 'Assessed Professional Client'",
+        "text": "Has the meaning given in COB 2.5.1 and 2.5.6.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf",
+        "sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "retrieved": "2026-10-23",
+        "copy": "sources/041617346ad87a9f-glo-v23.pdf",
+        "copy_sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf"
+    },
+    {
+      "title": "AIFC Glossary (GLO), V23",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

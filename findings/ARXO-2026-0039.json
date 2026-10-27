@@ -1,0 +1,165 @@
+{
+  "id": "ARXO-2026-0039",
+  "url": "https://arxo.io/findings/ARXO-2026-0039/",
+  "record_kind": "discrepancy",
+  "class": "amendments",
+  "class_label": "Amendments",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Fees Rules (FEES), AIFC Rules No. FR0007 of 2017, V18",
+  "acts": [
+    "AIFC Rules No. FR0007 of 2017 (Fees Rules)"
+  ],
+  "location": "V18 FEES 1.3",
+  "text": {
+    "en": {
+      "title": "FEES 1.3 refers to Schedule 6 for Approved Individual application fees; Schedule 6 has none",
+      "summary": "FEES 1.3 says Approved Individual fees are \"as specified in Schedules 1, 2 or 6\". Schedule 6 sets annual supervision fees only. Approved Individual fees are in Schedules 1 and 2, in Schedule 3 (change of MLRO, Audit Principal) and in Schedule 8 (FinTech Lab, 200 USD). Amendments No. 12 replaced \"3 or 4\" with \"or 6\" in 2022.",
+      "correction": "Please replace the reference with the provisions that actually set individual-approval fees (Schedules 1 and 2, and as applicable Schedules 3 and 8)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Fees Rules (FEES), V18, with amendments as of 13 November 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "V18 FEES 1.3",
+        "text": "Schedules 1, 2 or 6 depending on the nature of the entity on whose behalf the Approved Individual is acting.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-v18.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf",
+        "sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b5e10ace11734eda-fees-v18.pdf",
+        "copy_sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Fees Rules, V12",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "V12 FEES 1.3 (before)",
+        "text": "Schedules 1, 2, 3 or 4, depending on the nature of the entity on whose behalf the Approved Individual is acting.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees_v12-final-1.pdf",
+        "sha256": "9b4b399546e0b20ed1e4bd911211d18bd5e77ad5f6b61cfa7c8205b76e971586",
+        "retrieved": "2026-10-23",
+        "copy": "sources/9b4b399546e0b20e-fees-v12.pdf",
+        "copy_sha256": "9b4b399546e0b20ed1e4bd911211d18bd5e77ad5f6b61cfa7c8205b76e971586",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Fees Rules, V13",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "V13 FEES 1.3 (first appearance)",
+        "text": "Schedules 1, 2 or 6 depending on the nature of the entity on whose behalf the Approved Individual is acting.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-v13-final-01may-2022-1.pdf",
+        "sha256": "6c0c91eaf7c9ac53b93adafc68bbc725496c71e48558a8364b32ea998ff28139",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6c0c91eaf7c9ac53-fees-v13.pdf",
+        "copy_sha256": "6c0c91eaf7c9ac53b93adafc68bbc725496c71e48558a8364b32ea998ff28139",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Fees Rules (FEES), V18, with amendments as of 13 November 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "V18 Schedule 8 Notes (b) — Approved Individual fee outside Schedules 1-2",
+        "text": "the amount of 200 USD for each individual for whom Approved Individual status is sought.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees-rules-v18.-with-amendments-as-of-13-november-2025-commence-on-1-december-2025.pdf",
+        "sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b5e10ace11734eda-fees-v18.pdf",
+        "copy_sha256": "b5e10ace11734eda9e2edf7ab4dc62ef97ee659e460dbcb48ab5c4815f8de8f6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Fees Rules, Amendments No. 12 (24 April 2022)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Amendments No. 12, p. 3, FEES 1.3 (\"3 or 4,\" struck, \"or 6\" underlined)",
+        "text": "Schedules 1, 2, 3 or 4, or 6 depending on the nature of the",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees_a12_as-of-01.05.2022.pdf",
+        "sha256": "8c57099c25478299136322a55a1d21fd367017eaf1fc105ad9b650e83efabf87",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8c57099c25478299-fees-a12.pdf",
+        "copy_sha256": "8c57099c25478299136322a55a1d21fd367017eaf1fc105ad9b650e83efabf87",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

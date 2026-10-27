@@ -1,0 +1,291 @@
+{
+  "id": "ARXO-2026-0166",
+  "url": "https://arxo.io/findings/ARXO-2026-0166/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Auditor Rules",
+  "acts": [
+    "AIFC Rules on Digital Asset Activities",
+    "AIFC Rules on Providing Money Services",
+    "AIFC Financial Technology Rules",
+    "AIFC Representative Office Rules",
+    "AIFC Auditor Rules"
+  ],
+  "location": "AUD 9.2.1 table, row 'Client Money Auditor's Report' (rendered page checked)",
+  "text": {
+    "en": {
+      "title": "AUD 9.2.1 table: the rows for Non-Exempt Funds and Reporting Entities refer to CIR 11.4(a) and MAR 3.2.2, which do not require an audit",
+      "summary": "The table in AUD 9.2.1 links each auditor's report to the rule that requires it. Two rows do not lead there: \"Financial Statements - Non-Exempt Fund\" refers to \"CIR 11.4(a)\", a rulebook name the Glossary no longer has (the fund auditor rule is CIS 10.4), and \"Financial Statements - Reporting Entity\" refers to MAR 3.2.2, which is \"Signing of the annual report\" (the audit duty is MAR 3.1.2). The rows for the client asset reports refer to COB 8.2.19, 8.3.14 and 11.8.15, which no longer require an auditor's report; the draft in Consultation Paper AFSA-PSRD-CSP-2026-0005 replaces these references with a new GEN 6.3.9, and we support that change, but it leaves the two rows above as they are. In the draft GEN 6.3.9, item (a)(iv) requires an \"Insurance Intermediary Auditor's Report\" \"if the Authorised Firm is permitted to control or hold Client Money\". This is the same condition as for the Client Money Auditor's Report in (a)(ii) and is not limited to insurance intermediaries; the Glossary and the AUD table call this report \"Insurance Intermediary Audit Report\".",
+      "correction": "Please update the two rows to the provisions that require the audit (for example CIS 10.4 and MAR 3.1.2). When finalising the draft GEN 6.3.9, please limit item (a)(iv) to insurance intermediaries that hold or control Client Money and use one name for the report."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Auditor Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AUD 9.2.1 table, row 'Client Money Auditor's Report' (rendered page checked)",
+        "text": "COB 8.2.19",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-auditor-rules.pdf",
+        "sha256": "b7eb7eed75dfea7f0aefc2937b881836c3b1a7ba4f59701ec90fcfec5af4fae3",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b7eb7eed75dfea7f-aifc-auditor-rules.pdf",
+        "copy_sha256": "b7eb7eed75dfea7f0aefc2937b881836c3b1a7ba4f59701ec90fcfec5af4fae3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Auditor Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AUD 9.2.1 table, row 'Client Investments Auditor's Report'",
+        "text": "COB 8.3.14",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-auditor-rules.pdf",
+        "sha256": "b7eb7eed75dfea7f0aefc2937b881836c3b1a7ba4f59701ec90fcfec5af4fae3",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b7eb7eed75dfea7f-aifc-auditor-rules.pdf",
+        "copy_sha256": "b7eb7eed75dfea7f0aefc2937b881836c3b1a7ba4f59701ec90fcfec5af4fae3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Auditor Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AUD 9.2.1 table, row 'Insurance Intermediary Audit Report'",
+        "text": "COB 11.8.15",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-auditor-rules.pdf",
+        "sha256": "b7eb7eed75dfea7f0aefc2937b881836c3b1a7ba4f59701ec90fcfec5af4fae3",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b7eb7eed75dfea7f-aifc-auditor-rules.pdf",
+        "copy_sha256": "b7eb7eed75dfea7f0aefc2937b881836c3b1a7ba4f59701ec90fcfec5af4fae3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Auditor Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AUD 9.2.1 table, row 'Financial Statements - Non-Exempt Fund'",
+        "text": "CIR 11.4(a)",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-auditor-rules.pdf",
+        "sha256": "b7eb7eed75dfea7f0aefc2937b881836c3b1a7ba4f59701ec90fcfec5af4fae3",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b7eb7eed75dfea7f-aifc-auditor-rules.pdf",
+        "copy_sha256": "b7eb7eed75dfea7f0aefc2937b881836c3b1a7ba4f59701ec90fcfec5af4fae3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Auditor Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AUD 9.2.1 table, row 'Financial Statements - Reporting Entity'",
+        "text": "MAR 3.2.2",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-auditor-rules.pdf",
+        "sha256": "b7eb7eed75dfea7f0aefc2937b881836c3b1a7ba4f59701ec90fcfec5af4fae3",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b7eb7eed75dfea7f-aifc-auditor-rules.pdf",
+        "copy_sha256": "b7eb7eed75dfea7f0aefc2937b881836c3b1a7ba4f59701ec90fcfec5af4fae3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l11",
+        "source": "AIFC Glossary (GLO), V23",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary V23, 'Client Money Auditor's Report'",
+        "text": "The report specified in COB 8.2.19.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf",
+        "sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "retrieved": "2026-10-23",
+        "copy": "sources/041617346ad87a9f-glo-v23.pdf",
+        "copy_sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l12",
+        "source": "Conduct Of Business Rules Initial version",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "COB V1 (10.12.2017), 8.2.19",
+        "text": "provide at least once a year an audited statement of the Client Money unless such a statement has been provided in a periodic statement in accordance with COB 9.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v1_fr0005_10.12.2017.pdf",
+        "sha256": "f0613d3937d235871f74a92c9ccc430cfab72b4aba2873560ebdd390b6106e7f",
+        "retrieved": "2026-10-23",
+        "copy": "sources/f0613d3937d23587-cob_v1_fr0005_10.12.2017.pdf",
+        "copy_sha256": "f0613d3937d235871f74a92c9ccc430cfab72b4aba2873560ebdd390b6106e7f",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l13",
+        "source": "Conduct Of Business Rules Initial version",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "COB V1 (10.12.2017), 11.8.15",
+        "text": "Intermediary must provide at least once a year an audited statement of the Client Money.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v1_fr0005_10.12.2017.pdf",
+        "sha256": "f0613d3937d235871f74a92c9ccc430cfab72b4aba2873560ebdd390b6106e7f",
+        "retrieved": "2026-10-23",
+        "copy": "sources/f0613d3937d23587-cob_v1_fr0005_10.12.2017.pdf",
+        "copy_sha256": "f0613d3937d235871f74a92c9ccc430cfab72b4aba2873560ebdd390b6106e7f",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l16",
+        "source": "AIFC General Rules (GEN), V20",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "GEN V20 6.3.9(a)(ii)",
+        "text": "such other reports as the AFSA may require; and",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/gen-_v20_01.01.2026.pdf",
+        "sha256": "e863a30c73072b0323a4d064ab0e3f7e103428a7992f91360ed19a173a68e681",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e863a30c73072b03-gen-v20.pdf",
+        "copy_sha256": "e863a30c73072b0323a4d064ab0e3f7e103428a7992f91360ed19a173a68e681",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l17",
+        "source": "AIFC Auditor Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AUD 9.2.3, p.17",
+        "text": "The AFSA may at any time require auditors of certain companies to prepare such additional audit reports as it believes necessary",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-auditor-rules.pdf",
+        "sha256": "b7eb7eed75dfea7f0aefc2937b881836c3b1a7ba4f59701ec90fcfec5af4fae3",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b7eb7eed75dfea7f-aifc-auditor-rules.pdf",
+        "copy_sha256": "b7eb7eed75dfea7f0aefc2937b881836c3b1a7ba4f59701ec90fcfec5af4fae3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l18",
+        "source": "AFSA Consultation Paper AFSA-PSRD-CSP-2026-0005: Targeted Amendments to the AIFC Rules (15.07.2026)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "Consultation Paper AFSA-PSRD-CSP-2026-0005 (15.07.2026, closed, not adopted as of 25.10.2026), Annex, new GEN 6.3.9(a)(iv)",
+        "text": "produce, if the Authorised Firm is permitted to control or hold Client Money, an Insurance Intermediary Auditor’s Report in accordance with the Rules in AUD Annex C",
+        "translations": {},
+        "url": "https://orderly.myafsa.com/api/pdf?articleId=a0001TEMM0004__TEMP__TEMP0006",
+        "sha256": "05a2ed115abcc1ab90a39c74ced2414b5a157d49522442ec652e29947cb34872",
+        "retrieved": "2026-10-25",
+        "copy": "sources/05a2ed115abcc1ab-AFSA-PSRD-CSP-2026-0005.pdf",
+        "copy_sha256": "05a2ed115abcc1ab90a39c74ced2414b5a157d49522442ec652e29947cb34872",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Auditor Rules",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-auditor-rules.pdf"
+    },
+    {
+      "title": "AIFC Glossary (GLO), V23",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf"
+    },
+    {
+      "title": "Conduct Of Business Rules Initial version",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v1_fr0005_10.12.2017.pdf"
+    },
+    {
+      "title": "AIFC General Rules (GEN), V20",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/gen-_v20_01.01.2026.pdf"
+    },
+    {
+      "title": "AFSA Consultation Paper AFSA-PSRD-CSP-2026-0005: Targeted Amendments to the AIFC Rules (15.07.2026)",
+      "url": "https://orderly.myafsa.com/api/pdf?articleId=a0001TEMM0004__TEMP__TEMP0006"
+    }
+  ],
+  "related": [
+    {
+      "id": "ARXO-2026-0167",
+      "relation": "same_cause"
+    }
+  ],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

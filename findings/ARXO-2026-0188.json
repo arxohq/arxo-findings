@@ -1,0 +1,126 @@
+{
+  "id": "ARXO-2026-0188",
+  "url": "https://arxo.io/findings/ARXO-2026-0188/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Non-Profit Incorporated Organisations Regulations, V6",
+  "acts": [
+    "AIFC Companies Regulations",
+    "AIFC Companies Rules",
+    "AIFC Insolvency Regulations",
+    "AIFC Insolvency Rules",
+    "AIFC Foundations Regulations"
+  ],
+  "location": "NPIO Regulations V6, Schedule 1, definition \"Authorised Activities\"",
+  "text": {
+    "en": {
+      "title": "NPIO Regulations Schedule 1: \"Authorised Activities\" defined by s.8, which is the prohibition; the definition is in s.9",
+      "summary": "The definition reads \"section 8 (Authorised Activities of Incorporated Organisations)\". s.8 is \"Prohibition against conducting certain activities\". s.9 is \"Authorised Activities of Incorporated Organisations\", and s.9(2) lists them. The heading in brackets saves the meaning. The NPIO Rules fine table correctly cites \"9(1) Authorised Activities\".",
+      "correction": "Please replace \"section 8\" with \"section 9\" in the definition of Authorised Activities."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Non-Profit Incorporated Organisations Regulations V6., with amendments as of 17 October 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "NPIO Regulations V6, Schedule 1, definition \"Authorised Activities\"",
+        "text": "Authorised Activities has the meaning given by section 8 (Authorised Activities of Incorporated Organisations).",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/11/npioreg_v6_may_2024_ba.pdf",
+        "sha256": "6077654febfb180e21aa944fef5ba2cc87ceec512f4769b7a211d1932caf32dd",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6077654febfb180e-npioreg_v6_may_2024_ba.pdf",
+        "copy_sha256": "6077654febfb180e21aa944fef5ba2cc87ceec512f4769b7a211d1932caf32dd",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Non-Profit Incorporated Organisations Regulations V6., with amendments as of 17 October 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "NPIO Regulations V6, heading of s.8",
+        "text": "Prohibition against conducting certain activities",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/11/npioreg_v6_may_2024_ba.pdf",
+        "sha256": "6077654febfb180e21aa944fef5ba2cc87ceec512f4769b7a211d1932caf32dd",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6077654febfb180e-npioreg_v6_may_2024_ba.pdf",
+        "copy_sha256": "6077654febfb180e21aa944fef5ba2cc87ceec512f4769b7a211d1932caf32dd",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Authority",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Non-Profit Incorporated Organisations Regulations V6., with amendments as of 17 October 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/11/npioreg_v6_may_2024_ba.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

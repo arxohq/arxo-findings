@@ -1,0 +1,174 @@
+{
+  "id": "ARXO-2026-0184",
+  "url": "https://arxo.io/findings/ARXO-2026-0184/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Insolvency Regulations, V3",
+  "acts": [
+    "AIFC Companies Regulations",
+    "AIFC Companies Rules",
+    "AIFC Insolvency Regulations",
+    "AIFC Insolvency Rules",
+    "AIFC Foundations Regulations"
+  ],
+  "location": "Insolvency Regulations V3, s.98(a)",
+  "text": {
+    "en": {
+      "title": "Insolvency Regulations ss.98-99: where inability to pay is proved to the Court, which date is the \"onset of Insolvency\"?",
+      "summary": "Sections 98 and 99 of the Insolvency Regulations measure look-back periods to \"the onset of Insolvency\". For Part 10, Schedule 3 defines \"Insolvency\" as being Unable to Pay its Debts, the approval of a Voluntary Arrangement or the appointment of a Receiver or Administrative Receiver. Where inability to pay is \"proved to the satisfaction of the Court\" (section 50(1)(c) and (2)), the text does not say whether the onset is the date the inability began or the date of the Court's finding; section 98(c) points to the order date for one case only. For comparison, the corresponding ADGM provision (Insolvency Regulations 2015, section 259(3)) defines the onset of insolvency in a separate subsection by reference to formal events.",
+      "correction": "Please clarify, for the section 50(1)(c) and (2) cases, which date is the onset of Insolvency for sections 98 and 99."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "V3_AIFC Insolvency Regulations with amendments as of 27 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Insolvency Regulations V3, s.98(a)",
+        "text": "at a time in the period of 2 years ending with the onset of Insolvency; or",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ireg_v3_14_01.01.2025.pdf",
+        "sha256": "8c93c6f2c248880c488cbc24fd3462fa0b923eeaf240be33f71b6fb768a6efbe",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8c93c6f2c248880c-ireg_v3_14_01.01.2025.pdf",
+        "copy_sha256": "8c93c6f2c248880c488cbc24fd3462fa0b923eeaf240be33f71b6fb768a6efbe",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "V3_AIFC Insolvency Regulations with amendments as of 27 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Insolvency Regulations V3, s.98(b)",
+        "text": "at a time in the period of 6 months ending with the onset of Insolvency; or",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ireg_v3_14_01.01.2025.pdf",
+        "sha256": "8c93c6f2c248880c488cbc24fd3462fa0b923eeaf240be33f71b6fb768a6efbe",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8c93c6f2c248880c-ireg_v3_14_01.01.2025.pdf",
+        "copy_sha256": "8c93c6f2c248880c488cbc24fd3462fa0b923eeaf240be33f71b6fb768a6efbe",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "V3_AIFC Insolvency Regulations with amendments as of 27 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Insolvency Regulations V3, s.98(c)",
+        "text": "if the order gives rise to the onset of Insolvency.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ireg_v3_14_01.01.2025.pdf",
+        "sha256": "8c93c6f2c248880c488cbc24fd3462fa0b923eeaf240be33f71b6fb768a6efbe",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8c93c6f2c248880c-ireg_v3_14_01.01.2025.pdf",
+        "copy_sha256": "8c93c6f2c248880c488cbc24fd3462fa0b923eeaf240be33f71b6fb768a6efbe",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "V3_AIFC Insolvency Regulations with amendments as of 27 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Insolvency Regulations V3, s.99(1)(b)",
+        "text": "the security interest is created within 1 year before the onset of Insolvency",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ireg_v3_14_01.01.2025.pdf",
+        "sha256": "8c93c6f2c248880c488cbc24fd3462fa0b923eeaf240be33f71b6fb768a6efbe",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8c93c6f2c248880c-ireg_v3_14_01.01.2025.pdf",
+        "copy_sha256": "8c93c6f2c248880c488cbc24fd3462fa0b923eeaf240be33f71b6fb768a6efbe",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "V3_AIFC Insolvency Regulations with amendments as of 27 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Insolvency Regulations V3, Schedule 3, definition \"Insolvency\"",
+        "text": "means that the Company is Unable to Pay its Debts; and",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ireg_v3_14_01.01.2025.pdf",
+        "sha256": "8c93c6f2c248880c488cbc24fd3462fa0b923eeaf240be33f71b6fb768a6efbe",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8c93c6f2c248880c-ireg_v3_14_01.01.2025.pdf",
+        "copy_sha256": "8c93c6f2c248880c488cbc24fd3462fa0b923eeaf240be33f71b6fb768a6efbe",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Authority",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "V3_AIFC Insolvency Regulations with amendments as of 27 December 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/ireg_v3_14_01.01.2025.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

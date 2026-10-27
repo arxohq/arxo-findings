@@ -1,0 +1,179 @@
+{
+  "id": "ARXO-2026-0205",
+  "url": "https://arxo.io/findings/ARXO-2026-0205/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Data Protection Rules",
+  "acts": [
+    "AIFC Employment Regulations",
+    "AIFC Data Protection Regulations and Rules",
+    "AIFC Court Regulations 2017",
+    "AIFC Court Rules 2018",
+    "AIFC Arbitration Regulations",
+    "IAC Arbitration and Mediation Rules 2022"
+  ],
+  "location": "Schedule 1, note under the table of fees",
+  "text": {
+    "en": {
+      "title": "DP Rules Schedule 1: the 50% fee reduction for 1 March 2025 - 1 March 2026 appears only in a \"Note\", which is not part of the act",
+      "summary": "Under the fees table of Schedule 1 (items 2 and 3) the 2025 consolidation adds: \"Note: For the period commencing on 1 March 2025 and concluding on 1 March 2026, the fees under items 2 and 3 of the Table of fee are applied with 50% reduction.\" Under section 26(1)(a) of the AIFC Regulations on AIFC Acts a note is not part of the act, and under section 27 a note is merely explanatory. Rule 7.2 and the table still set the full amounts. The amending instrument of 2025 is not on the act page, so we could not see whether it contains an operative rule for the reduction. The period ended on 1 March 2026.",
+      "correction": "Please identify the operative provision that authorised the 50% reduction for 1 March 2025 - 1 March 2026, and place any future reduction in an operative provision."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "Not established",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC DATA PROTECTION RULES (with ammendments as of 1 April, 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Schedule 1, note under the table of fees",
+        "text": "Note: For the period commencing on 1 March 2025 and concluding on 1 March 2026, the fees under items 2 and 3 of the Table of fee are applied with 50% reduction.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-data-protection-rules.pdf",
+        "sha256": "d585ad603a068eefe225665e2d0b41d0e5cfa6f6f7e554dfb53d2e673d5a8614",
+        "retrieved": "2026-10-23",
+        "copy": "sources/d585ad603a068eef-aifc-data-protection-rules.pdf",
+        "copy_sha256": "d585ad603a068eefe225665e2d0b41d0e5cfa6f6f7e554dfb53d2e673d5a8614",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC DATA PROTECTION RULES (with ammendments as of 1 April, 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Schedule 1, item 3",
+        "text": "notification under section 19 of the Regulations",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-data-protection-rules.pdf",
+        "sha256": "d585ad603a068eefe225665e2d0b41d0e5cfa6f6f7e554dfb53d2e673d5a8614",
+        "retrieved": "2026-10-23",
+        "copy": "sources/d585ad603a068eef-aifc-data-protection-rules.pdf",
+        "copy_sha256": "d585ad603a068eefe225665e2d0b41d0e5cfa6f6f7e554dfb53d2e673d5a8614",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Regulations on AIFC Acts, as amended on 11 January 2019",
+        "role": "Later act",
+        "language": "en",
+        "edition": null,
+        "locator": "AIFC Acts Regulations s.26(1)(a)",
+        "text": "a footnote, endnote or other note; and",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/with-amendments-as-of-11-january-2019.pdf",
+        "sha256": "4f25a8539468e034bf728e88a7af90f9c2bcb8c1bc72c22dd126f7edab2486bc",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4f25a8539468e034-regulations-on-aifc-acts-2019.pdf",
+        "copy_sha256": "4f25a8539468e034bf728e88a7af90f9c2bcb8c1bc72c22dd126f7edab2486bc",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Regulations on AIFC Acts, as amended on 11 January 2019",
+        "role": "Later act",
+        "language": "en",
+        "edition": null,
+        "locator": "AIFC Acts Regulations s.27",
+        "text": "A note in or to an AIFC Act is merely explanatory.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/with-amendments-as-of-11-january-2019.pdf",
+        "sha256": "4f25a8539468e034bf728e88a7af90f9c2bcb8c1bc72c22dd126f7edab2486bc",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4f25a8539468e034-regulations-on-aifc-acts-2019.pdf",
+        "copy_sha256": "4f25a8539468e034bf728e88a7af90f9c2bcb8c1bc72c22dd126f7edab2486bc",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Regulations on AIFC Acts, as amended on 11 January 2019",
+        "role": "Later act",
+        "language": "en",
+        "edition": null,
+        "locator": "AIFC Acts Regulations s.24(1)(c)",
+        "text": "a Schedule, Appendix, Dictionary or Glossary; and",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/with-amendments-as-of-11-january-2019.pdf",
+        "sha256": "4f25a8539468e034bf728e88a7af90f9c2bcb8c1bc72c22dd126f7edab2486bc",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4f25a8539468e034-regulations-on-aifc-acts-2019.pdf",
+        "copy_sha256": "4f25a8539468e034bf728e88a7af90f9c2bcb8c1bc72c22dd126f7edab2486bc",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Authority",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC DATA PROTECTION RULES (with ammendments as of 1 April, 2025)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-data-protection-rules.pdf"
+    },
+    {
+      "title": "AIFC Regulations on AIFC Acts, as amended on 11 January 2019",
+      "url": "https://aifc.kz/wp-content/uploads/2024/05/with-amendments-as-of-11-january-2019.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

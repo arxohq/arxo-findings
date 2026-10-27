@@ -1,0 +1,214 @@
+{
+  "id": "ARXO-2026-0136",
+  "url": "https://arxo.io/findings/ARXO-2026-0136/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Insurance and Reinsurance Prudential Rules",
+  "acts": [
+    "Banking Business Prudential Rules",
+    "Islamic Banking Business Prudential Rules",
+    "Insurance and Reinsurance Prudential Rules",
+    "Takaful and Retakaful Prudential Rules",
+    "Prudential Rules for Insurance Intermediaries"
+  ],
+  "location": "PINS 14.1.1",
+  "text": {
+    "en": {
+      "title": "Captive PCR: PINS 14.4.3(1) exempts Class 1, 2 and 3 captives, while the AFSA Guidance (2020) says only Class 1 is exempt",
+      "summary": "PINS 14.4.3(1) says Class 1, 2 and 3 Captive Insurers \"are not required to calculate\" the Prescribed Capital Requirement; 14.4.3(2) says each Cell of a Protected Cell Company \"must calculate\" it. Read with the heading, (2) is the specific rule for PCC cells. The AFSA's Guidance to the AIFC Captive Insurance Regime (13 December 2020) says only pure captives (Class 1) are exempt, which differs from 14.4.3(1).",
+      "correction": "Please confirm whether the exemption in 14.4.3(1) is meant for Class 1 only (as in the Guidance) or for all classes, and align the text or the Guidance."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Insurance and Reinsurance Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PINS 14.1.1",
+        "text": "A Captive Insurer is an Authorised Firm with a Licence to carry on Insurance Business as a Class 1, Class 2 or Class 3 Captive Insurer.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-insurance-and-reinsurance-prudential-rules.pdf",
+        "sha256": "3f9031ccaf1b4673811786d2cd011df2d712e9245c96f21c34fbf532bfcbfff7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/3f9031ccaf1b4673-aifc-insurance-and-reinsurance-prudential-rules.pdf",
+        "copy_sha256": "3f9031ccaf1b4673811786d2cd011df2d712e9245c96f21c34fbf532bfcbfff7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Insurance and Reinsurance Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PINS 14.2.1(1)",
+        "text": "An Authorised Firm which is a Protected Cell Company (PCC) incorporated under the Companies Regulations may apply to the AFSA for a Licence to conduct Captive Insurance Business.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-insurance-and-reinsurance-prudential-rules.pdf",
+        "sha256": "3f9031ccaf1b4673811786d2cd011df2d712e9245c96f21c34fbf532bfcbfff7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/3f9031ccaf1b4673-aifc-insurance-and-reinsurance-prudential-rules.pdf",
+        "copy_sha256": "3f9031ccaf1b4673811786d2cd011df2d712e9245c96f21c34fbf532bfcbfff7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Insurance and Reinsurance Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PINS 14.4.3(1)",
+        "text": "Class 1, Class 2 and Class 3 Captive Insurers are not required to calculate Prescribed Capital Requirement;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-insurance-and-reinsurance-prudential-rules.pdf",
+        "sha256": "3f9031ccaf1b4673811786d2cd011df2d712e9245c96f21c34fbf532bfcbfff7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/3f9031ccaf1b4673-aifc-insurance-and-reinsurance-prudential-rules.pdf",
+        "copy_sha256": "3f9031ccaf1b4673811786d2cd011df2d712e9245c96f21c34fbf532bfcbfff7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Insurance and Reinsurance Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PINS 14.4.3(2)",
+        "text": "For a Protected Cell Company each Cell of a Protected Cell Company must calculate its Prescribed Capital Requirement in accordance with PINS 5.2.3 (Obligation to calculate PCR) as if it were a stand-alone Insurer.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-insurance-and-reinsurance-prudential-rules.pdf",
+        "sha256": "3f9031ccaf1b4673811786d2cd011df2d712e9245c96f21c34fbf532bfcbfff7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/3f9031ccaf1b4673-aifc-insurance-and-reinsurance-prudential-rules.pdf",
+        "copy_sha256": "3f9031ccaf1b4673811786d2cd011df2d712e9245c96f21c34fbf532bfcbfff7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Insurance and Reinsurance Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PINS 5.4.2 (applies to captives via 14.3.4)",
+        "text": "An AIFC-Incorporated Insurer must at all times have Eligible Capital equal to or higher than the amount of its PCR.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-insurance-and-reinsurance-prudential-rules.pdf",
+        "sha256": "3f9031ccaf1b4673811786d2cd011df2d712e9245c96f21c34fbf532bfcbfff7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/3f9031ccaf1b4673-aifc-insurance-and-reinsurance-prudential-rules.pdf",
+        "copy_sha256": "3f9031ccaf1b4673811786d2cd011df2d712e9245c96f21c34fbf532bfcbfff7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "Guidance to the AIFC Captive Insurance Regime for Captive Insurers and Captive Insurance Managers",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": null,
+        "locator": "AFSA Guidance to the AIFC Captive Insurance Regime (13.12.2020), p.3",
+        "text": "Because of the lower risk of pure captives (Class 1 in the AIFC), they are exempted from the obligation",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/guidance-to-the-aifc-captive-insurance-regime_13.12.2020.pdf",
+        "sha256": "fb612ca7e20ee6e5f1cfaa2752c2938f6761f8cd313fd597fed62006a85d1630",
+        "retrieved": "2026-10-23",
+        "copy": "sources/fb612ca7e20ee6e5-guidance-to-the-aifc-captive-insurance-regime_13.12.2020.pdf",
+        "copy_sha256": "fb612ca7e20ee6e5f1cfaa2752c2938f6761f8cd313fd597fed62006a85d1630",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "AIFC Insurance and Reinsurance Prudential Rules (initial release)",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "PINS initial release (2 December 2018), 14.4.3 - only the PCC sentence",
+        "text": "Each Cell of a Protected Cell Company must calculate its Prescribed Capital Requirement in accordance with PINS 5.2.3 (Obligation to calculate PCR) as if it were a stand-alone Insurer.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-insurance-and-reinsurance-prudential-rules-initial-release.pdf",
+        "sha256": "77d2ce624506daad4f1595fae4d780b41faae2ecf74567c54b509383ec6051ba",
+        "retrieved": "2026-10-23",
+        "copy": "sources/77d2ce624506daad-aifc-insurance-and-reinsurance-prudential-rules-initial-release.pdf",
+        "copy_sha256": "77d2ce624506daad4f1595fae4d780b41faae2ecf74567c54b509383ec6051ba",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Insurance and Reinsurance Prudential Rules",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-insurance-and-reinsurance-prudential-rules.pdf"
+    },
+    {
+      "title": "Guidance to the AIFC Captive Insurance Regime for Captive Insurers and Captive Insurance Managers",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/guidance-to-the-aifc-captive-insurance-regime_13.12.2020.pdf"
+    },
+    {
+      "title": "AIFC Insurance and Reinsurance Prudential Rules (initial release)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-insurance-and-reinsurance-prudential-rules-initial-release.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

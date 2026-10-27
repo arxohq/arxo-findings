@@ -1,0 +1,149 @@
+{
+  "id": "ARXO-2026-0070",
+  "url": "https://arxo.io/findings/ARXO-2026-0070/",
+  "record_kind": "discrepancy",
+  "class": "amendments",
+  "class_label": "Amendments",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Prudential Rules for Investment Firms (PRU INV), V7",
+  "acts": [
+    "AIFC Rules No. FR0011 of 2017 (Prudential Rules for Investment Firms)"
+  ],
+  "location": "PRU (INV) 3.3(3), Table 3.3, row for Exempt Funds",
+  "text": {
+    "en": {
+      "title": "PRU (Investment Firms) Table 3.3: a manager of a Single Family Office Fund without a custodian falls in two rows (USD 50,000 and USD 500,000)",
+      "summary": "Amendments No. 4 (in force 1 July 2024) added \"or (b) because the Fund is a Single Family Office Fund\" to the USD 50,000 row of Table 3.3. The USD 500,000 row for a Collective Investment Scheme \"which does not have an appointed Eligible Custodian\" was not changed; its only exception is the nature of the Fund and its assets. A manager of a Single Family Office Fund without an Eligible Custodian therefore meets both rows, and the text does not say which applies. Reading both rows cumulatively gives USD 500,000 and leaves the limb added by Amendments No. 4 without effect.",
+      "correction": "Please clarify which row applies to a Single Family Office Fund without an Eligible Custodian and, if USD 50,000 is intended, exclude that case expressly from the USD 500,000 row."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Prudential Rules for Investment Firms (PRU INV), V7",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PRU(INV) 3.3(3) / Table 3.3, row 'Managing A Collective Investment Scheme, that is an Exempt Fund…' (USD 50,000) / page 11",
+        "text": "Managing A Collective Investment Scheme, that is an Exempt Fund and that has an appointed Eligible Custodian, unless the appointment of an Eligible Custodian is not required (a) due to the nature of the Fund and the type of assets which it holds; or (b) because the Fund is a Single Family Office Fund",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/pru.inv_v7_fr0011_01.01.2025_gk.pdf",
+        "sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1d2d8c432b940719-pru-v7.pdf",
+        "copy_sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Prudential Rules for Investment Firms (PRU INV), V7",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PRU(INV) Table 3.3, row 'Managing A Collective Investment Scheme, which does not have an appointed Eligible Custodian…' (USD 500,000) / page 11",
+        "text": "Managing A Collective Investment Scheme, which does not have an appointed Eligible Custodian, except where an Eligible Custodian is not required due to the nature of the Fund and the type of assets which it holds",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/pru.inv_v7_fr0011_01.01.2025_gk.pdf",
+        "sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1d2d8c432b940719-pru-v7.pdf",
+        "copy_sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Prudential Rules for Investment Firms (PRU INV), V7",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PRU(INV) 3.3(3) / page 10",
+        "text": "if the PRU Investment Firm is authorised to conduct more than one such activity, the amount that is the higher or highest of the relevant amounts of in Table 3.3",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/pru.inv_v7_fr0011_01.01.2025_gk.pdf",
+        "sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1d2d8c432b940719-pru-v7.pdf",
+        "copy_sha256": "1d2d8c432b94071987e1f351c1dd44b443f39d75aa8fc552c31d1c7051812e89",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "PRU INV, Amendments No. 4 (2024)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Amendments No.4 (30.06.2024) / Table 3.3 / page 2 (underlined new text)",
+        "text": "or (b) because the Fund is a Single Family Office Fund",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/pru.inv_a4_01.07.2024.pdf",
+        "sha256": "b4f771b93ac69536a9145250c030b709c1148fc4d4af547d57004c032424ed87",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b4f771b93ac69536-pru-a4.pdf",
+        "copy_sha256": "b4f771b93ac69536a9145250c030b709c1148fc4d4af547d57004c032424ed87",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

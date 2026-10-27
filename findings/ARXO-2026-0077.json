@@ -1,0 +1,217 @@
+{
+  "id": "ARXO-2026-0077",
+  "url": "https://arxo.io/findings/ARXO-2026-0077/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "Constitutional Statute of the Republic of Kazakhstan on the Astana International Financial Centre and AIFC acts",
+  "acts": [
+    "Constitutional Statute of the Republic of Kazakhstan No. 438-V of 7 December 2015 on the Astana International Financial Centre"
+  ],
+  "location": "statute art. 13 p. 3-1 (z105)",
+  "text": {
+    "en": {
+      "title": "The Structure of the Bodies of the AIFC, §9(14): the Governor recommends judges \"to the Council\"",
+      "summary": "Under Article 13(3-1) of the Constitutional Statute the Chairman and judges of the AIFC Court are appointed by the President on the Governor's recommendation; the AIFC Court Regulations say the same. §9(14) of the Structure of the Bodies (as of 1 July 2021) says that the Governor recommends to the Council the persons to be appointed as judges, wording that predates the 2017 amendment of the Statute.",
+      "correction": "Please clarify the role of the Council in §9(14), consistently with appointment by the President on the Governor's recommendation."
+    },
+    "ru": {
+      "title": "Структура органов МФЦА, подпункт 14) пункта 9: Управляющий рекомендует судей «Совету»",
+      "summary": "Согласно пункту 3-1 статьи 13 Конституционного закона Республики Казахстан «О Международном финансовом центре „Астана“» «Председатель и судьи суда Центра назначаются и освобождаются Президентом Республики Казахстан по рекомендации Управляющего Центром»; Регламент Суда МФЦА говорит то же. Подпункт 14) пункта 9 Структуры органов МФЦА (по состоянию на 1 июля 2021 года) указывает, что Управляющий «рекомендует Совету» лиц «для назначения на должность председателя и судьи»; эта формулировка предшествует изменению Конституционного закона 2017 года.",
+      "correction": "Просим уточнить роль Совета в подпункте 14) пункта 9 в соответствии с порядком назначения Президентом по рекомендации Управляющего."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Constitutional Statute on the AIFC, Russian text (Adilet)",
+        "role": "Normative text",
+        "language": "ru",
+        "edition": null,
+        "locator": "statute art. 13 p. 3-1 (z105)",
+        "text": "3-1. Председатель и судьи суда Центра назначаются и освобождаются Президентом Республики Казахстан по рекомендации Управляющего Центром.",
+        "translations": {},
+        "url": "https://adilet.zan.kz/rus/docs/Z1500000438",
+        "sha256": "7d7b541f67901d6ef3ccfa8e564606fd80972da031b1a7adf66ad5a0a2a4a893",
+        "retrieved": "2026-10-23",
+        "copy": "sources/7d7b541f67901d6e-ru-adilet-api.json",
+        "copy_sha256": "7d7b541f67901d6ef3ccfa8e564606fd80972da031b1a7adf66ad5a0a2a4a893",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "The Structure of the Bodies of the AIFC, as of 1 July 2021",
+        "role": "Later act",
+        "language": "en",
+        "edition": null,
+        "locator": "Structure of the Bodies (EN, as of 1 July 2021), §9(14)",
+        "text": "14) recommends to the Council candidates for appointment to the position of the Chairman and",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/structure-of-aifc-bodies-with-amendments-as-of-1.7.2021-4-o-a09b0.pdf",
+        "sha256": "4dda92f3c64f8c0b917110af5eac8ac37c6a7784f065ab8aaeacba092c662753",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4dda92f3c64f8c0b-structure-en-2021.pdf",
+        "copy_sha256": "4dda92f3c64f8c0b917110af5eac8ac37c6a7784f065ab8aaeacba092c662753",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "The Structure of the Bodies of the AIFC, as of 1 July 2021",
+        "role": "Later act",
+        "language": "en",
+        "edition": null,
+        "locator": "Structure §9(14), continuation",
+        "text": "judges of the AIFC’s Courts as well as the Chairman of the AFSA’s Board of Directors and other members",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/structure-of-aifc-bodies-with-amendments-as-of-1.7.2021-4-o-a09b0.pdf",
+        "sha256": "4dda92f3c64f8c0b917110af5eac8ac37c6a7784f065ab8aaeacba092c662753",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4dda92f3c64f8c0b-structure-en-2021.pdf",
+        "copy_sha256": "4dda92f3c64f8c0b917110af5eac8ac37c6a7784f065ab8aaeacba092c662753",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "The Structure of the Bodies of the AIFC, Russian, as of 1 July 2021",
+        "role": "Later act",
+        "language": "ru",
+        "edition": null,
+        "locator": "Structure of the Bodies (Russian text, as of 1 July 2021), paragraph 9, subparagraph 14",
+        "text": "14) рекомендует Совету кандидатов для назначения на должность председателя и судьи",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/2.-b-c-bc-0-30-2-a-87ab.-0-1.7.2021-4-o-a09b0.pdf",
+        "sha256": "3e36eb409cb7bb0d08bc1b2755c20c0400e8b9bade51b5e8cfdd10f08e7289d1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/3e36eb409cb7bb0d-structure-ru-2021.pdf",
+        "copy_sha256": "3e36eb409cb7bb0d08bc1b2755c20c0400e8b9bade51b5e8cfdd10f08e7289d1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "The Structure of the Bodies of the AIFC, Russian, 2017",
+        "role": "Prior edition",
+        "language": "ru",
+        "edition": null,
+        "locator": "Structure of the Bodies (Russian text, as amended on 9 October 2017), paragraph 9, subparagraph 14",
+        "text": "рекомендует Совету кандидатов для назначения на должность председателя и судьи",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/the-structure-of-the-bodies-of-the-astana-international-financial-centre-rus.pdf",
+        "sha256": "0a33f819ebc083596fa93066ab2474dc35e87adc6ce6c9e985b69747213ba3b3",
+        "retrieved": "2026-10-23",
+        "copy": "sources/0a33f819ebc08359-structure-ru-2017.pdf",
+        "copy_sha256": "0a33f819ebc083596fa93066ab2474dc35e87adc6ce6c9e985b69747213ba3b3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "AIFC Court Regulations 2017",
+        "role": "Later act",
+        "language": "en",
+        "edition": null,
+        "locator": "AIFC Court Regulations 2017, art. 'Appointment of Judges of the Court'",
+        "text": "The Chief Justice of the Court and Judges shall be appointed by the President of the Republic of",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-court-regulations-2017-eng.pdf",
+        "sha256": "27ccf803835369bdfa39986422ef4fb54b6e26640f272c55b090e518722b479d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/27ccf803835369bd-court-regulations-2017-en.pdf",
+        "copy_sha256": "27ccf803835369bdfa39986422ef4fb54b6e26640f272c55b090e518722b479d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "AIFC Court Regulations 2017",
+        "role": "Later act",
+        "language": "en",
+        "edition": null,
+        "locator": "AIFC Court Regulations 2017, same article",
+        "text": "Kazakhstan upon the proposal of the Governor.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-court-regulations-2017-eng.pdf",
+        "sha256": "27ccf803835369bdfa39986422ef4fb54b6e26640f272c55b090e518722b479d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/27ccf803835369bd-court-regulations-2017-en.pdf",
+        "copy_sha256": "27ccf803835369bdfa39986422ef4fb54b6e26640f272c55b090e518722b479d",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:20Z",
+      "institution": "AIFC Management Council",
+      "channel": "email",
+      "role": "body that adopted the act"
+    },
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Management Council",
+      "role": "body that adopted the act"
+    },
+    {
+      "institution": "AIFC Authority",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Management Council (e-mail)"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

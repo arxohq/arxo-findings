@@ -1,0 +1,223 @@
+{
+  "id": "ARXO-2026-0106",
+  "url": "https://arxo.io/findings/ARXO-2026-0106/",
+  "record_kind": "discrepancy",
+  "class": "amendments",
+  "class_label": "Amendments",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Collective Investment Scheme Rules (CIS), V8",
+  "acts": [
+    "AIFC Collective Investment Scheme Rules",
+    "AIFC Islamic Finance Rules"
+  ],
+  "location": "CIS V8 5.3(l)(viii)",
+  "text": {
+    "en": {
+      "title": "Disclosure item for a Fund Manager acting itself as custodian of Real Property points to CIS 7.3(e), which the same amending instrument deleted",
+      "summary": "CIS 5.3(l)(viii) requires three disclosures \"If the Fund Manager itself acts as the custodian of Real Property, in accordance with CIS 7.3.(e)\". CIS 7.3(e) reads \"[intentionally omitted]\": Amendments No. 3 (in force 1 June 2023) inserted 5.3(l)(viii) with this reference and, on the same page, deleted the whole of 7.3(e), which was the custody exemption for a Self-managed Fund. The reference therefore has no target. A Fund may still have no Eligible Custodian under 8.2(b), or under a waiver (8.2(e) or 1.3), but CIS does not describe any of these cases as the Fund Manager itself acting as custodian, so it is unclear when the disclosure applies. The draft in Consultation Paper AFSA-PSRD-CSP-2026-0001 deletes the words \"Subject to Rule (e), and\" in 7.3(d) but moves the disclosure item, with the same reference to 7.3(e), into the new CIS 5.6.2(h).",
+      "correction": "Please state which case the item (5.3(l)(viii), in the draft 5.6.2(h)) is meant to cover and correct the reference: (a) to CIS 8.2(b) or 8.2(e), if those cases are meant; or (b) to a new rule that allows a Fund Manager to act as custodian of Real Property, with conditions. If no such case is intended, the item can be removed."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 5.3(l)(viii)",
+        "text": "If the Fund Manager itself acts as the custodian of Real Property, in accordance with CIS 7.3.(e):",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 7.3(d)",
+        "text": "Subject to Rule (e), and without removing the generality of the obligation under (c), the Fund Manager must delegate the Regulated Activity of Providing Custody in relation to the Fund's property to a service provider who is an Eligible Custodian in accordance with Rule 8.2.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 7.3(e)",
+        "text": "(e) [intentionally omitted]",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 8.3 (chapeau)",
+        "text": "For the purposes of these Rules, an Eligible Custodian is a Person who is a separate legal entity from the Fund Manager for the relevant Fund and who also meets one of the following criteria:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "Collective Investment Scheme Rules A3., with amendments as of 16 April 2023, commence on 1 June 2023",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Amendments No. 3, page 6: 5.3(l)(viii) inserted (underlined)",
+        "text": "If the Fund Manager itself acts as the custodian of Real Property, in accordance with CIS",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_a3-01.06.2023.pdf",
+        "sha256": "246115c48a9b6dcc965363841d924a864d80308e6e9c64234bb4e57c3548b35b",
+        "retrieved": "2026-10-23",
+        "copy": "sources/246115c48a9b6dcc-cis_a3-01.06.2023.pdf",
+        "copy_sha256": "246115c48a9b6dcc965363841d924a864d80308e6e9c64234bb4e57c3548b35b",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "Collective Investment Scheme Rules A3., with amendments as of 16 April 2023, commence on 1 June 2023",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Amendments No. 3, page 6: 7.3(e) struck through in full (rendered page checked)",
+        "text": "A Self-managed Fund is not required to delegate the Regulated Activity of Providing Custody to an",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_a3-01.06.2023.pdf",
+        "sha256": "246115c48a9b6dcc965363841d924a864d80308e6e9c64234bb4e57c3548b35b",
+        "retrieved": "2026-10-23",
+        "copy": "sources/246115c48a9b6dcc-cis_a3-01.06.2023.pdf",
+        "copy_sha256": "246115c48a9b6dcc965363841d924a864d80308e6e9c64234bb4e57c3548b35b",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l8",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 8.2(b)",
+        "text": "(b) A Fund Manager is not required to appoint an Eligible Custodian where, due to the nature",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l9",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 1.3 (Waivers)",
+        "text": "A Person may apply to the AFSA to waive any specific requirement of these Rules in respect of",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf"
+    },
+    {
+      "title": "Collective Investment Scheme Rules A3., with amendments as of 16 April 2023, commence on 1 June 2023",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_a3-01.06.2023.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

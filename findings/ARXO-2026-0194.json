@@ -1,0 +1,283 @@
+{
+  "id": "ARXO-2026-0194",
+  "url": "https://arxo.io/findings/ARXO-2026-0194/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Regulations No. 57 of 2026 on the AIFC Investment Tax Residency Programme",
+  "acts": [
+    "Constitutional Statute on the AIFC",
+    "Tax Code of the Republic of Kazakhstan 2025",
+    "AIFC Tax Administration Rules",
+    "Joint Order of 2020 on the List of financial services"
+  ],
+  "location": "AIFC Regulations No. 57 of 2026 (6 Aug 2026), EN, Schedule, 'Tax Code'",
+  "text": {
+    "en": {
+      "title": "ITRP Regulations (AIFC Regulations No. 57 of 2026): \"Tax Code\" is the repealed Code No. 120-VI in the English and Kazakh texts, and sections 29(2) and 30(2) restate rules that current law no longer contains",
+      "summary": "AIFC Regulations No. 57 of 2026 on the AIFC Investment Tax Residency Programme (6 August 2026) replaced AIFC Act No. 42 of 2022 (section 3). The English and Kazakh texts of its Schedule define \"Tax Code\" as the Code of 25 December 2017 No. 120-VI, which was repealed on 1 January 2026. The Russian text gives only the name of the Code, without a date or number; under Article 2(5) of the Tax Code of 18 July 2025 No. 214-VIII that name now refers to the current Code, so the language versions point to different Codes. Sections 29(2) and 30(2), carried over from Act No. 42 word for word, restate rules of Article 218(2) of the 2017 Code: the investment resident provides, \"along with other documents determined by the Tax Code\", the AIFC Authority's confirmation letter, and the residency certificate \"is issued for the year in which the fee ... was paid\". Under the 2025 Code these documents are no longer in the Code: Article 224(1) leaves the procedure to the authorised body, and the list for an AIFC investment resident, including the confirmation letter, is in item 8(6) of the list of requirements to the Rules approved by Order of the Minister of Finance of 11 November 2025 No. 689. The 2025 Code and Order No. 689 do not keep the fee-year rule: Article 224(3)(3) confirms residency for the calendar year stated in the application and Article 224(4) for the past and (or) the current year. For example, an investor who pays the fee in January 2026 and asks for confirmation for 2025 would get a certificate for 2026 under section 30(2), while Article 224(4) allows 2025. Sections 29(1) and 30(1) refer to the acting tax legislation, so residency itself follows current law, but section 30(2) states a period that current law does not set.",
+      "correction": "Please update the definition of \"Tax Code\" in the English and Kazakh texts to the Code of 18 July 2025 No. 214-VIII (and give the date and number in the Russian text), refer in section 29(2) to the documents set by the rules of the authorised body (currently Order No. 689 of 11 November 2025), and align section 30(2) with Article 224 of the Code, or delete it."
+    },
+    "ru": {
+      "title": "Регламент МФЦА о программе инвестиционного налогового резидентства (№ 57 2026 года): в английском и казахском текстах «Налоговый кодекс» — утративший силу Кодекс № 120-VI, а статьи 29(2) и 30(2) воспроизводят нормы, которых действующее право больше не содержит",
+      "summary": "Регламент МФЦА № 57 2026 года о программе инвестиционного налогового резидентства МФЦА (6 августа 2026 года) заменил акт МФЦА № 42 2022 года (статья 3). Английский и казахский тексты приложения к нему определяют «Налоговый кодекс» как Кодекс от 25 декабря 2017 года № 120-VI, утративший силу 1 января 2026 года. Русский текст приводит только наименование Кодекса, без даты и номера; согласно пункту 5 статьи 2 Налогового кодекса от 18 июля 2025 года № 214-VIII это наименование теперь обозначает действующий Кодекс, так что языковые версии указывают на разные кодексы. Статьи 29(2) и 30(2), дословно перенесённые из акта № 42, воспроизводят нормы пункта 2 статьи 218 Кодекса 2017 года: инвестиционный резидент представляет «наряду с другими документами, определёнными Налоговым кодексом», письмо-подтверждение Администрации МФЦА, а документ, подтверждающий резидентство, «выдается за календарный год, в котором произведена уплата сбора за выдачу документа, подтверждающего резидентство Республики Казахстан в целях Налогового кодекса». По Кодексу 2025 года эти документы в самом Кодексе больше не названы: пункт 1 статьи 224 оставляет порядок уполномоченному органу, а перечень документов для инвестиционного резидента МФЦА, включая письмо-подтверждение, содержится в подпункте 6) пункта 8 перечня требований к Правилам, утверждённым приказом Министра финансов от 11 ноября 2025 года № 689. Кодекс 2025 года и приказ № 689 не сохраняют правило о годе уплаты сбора: подпункт 3) пункта 3 статьи 224 предусматривает подтверждение резидентства за календарный год, указанный в заявлении, а пункт 4 статьи 224 — «за прошедший и (или) текущий календарные годы». Например, инвестор, уплативший сбор в январе 2026 года и запросивший подтверждение за 2025 год, по статье 30(2) получил бы документ за 2026 год, тогда как пункт 4 статьи 224 допускает 2025 год. Статьи 29(1) и 30(1) отсылают к действующему налоговому законодательству, поэтому само резидентство определяется по действующему праву, однако статья 30(2) устанавливает период, которого действующее право не предусматривает.",
+      "correction": "Просим привести определение «Налогового кодекса» в английском и казахском текстах в соответствие с Кодексом от 18 июля 2025 года № 214-VIII (а в русском тексте указать его дату и номер), в статье 29(2) сослаться на документы, установленные правилами уполномоченного органа (в настоящее время — приказ № 689 от 11 ноября 2025 года), и согласовать статью 30(2) со статьёй 224 Кодекса либо исключить её."
+    },
+    "kk": {
+      "title": "АХҚО инвестициялық салықтық резиденттік бағдарламасы туралы регламент (2026 жылғы № 57 АХҚО регламенті): ағылшын және қазақ тілдеріндегі мәтіндерде «Салық кодексі» күшін жойған № 120-VI Кодексті білдіреді, ал 29-баптың 2-тармағы мен 30-баптың 2-тармағы қолданыстағы құқықта енді жоқ ережелерді қайталайды",
+      "summary": "АХҚО инвестициялық салықтық резиденттік бағдарламасы туралы 2026 жылғы № 57 АХҚО регламенті (2026 жылғы 6 тамыз) 2022 жылғы № 42 АХҚО актісін ауыстырды (3-бап). Оның Қосымшасының ағылшын және қазақ тілдеріндегі мәтіндерінде «Салық кодексі» 2026 жылғы 1 қаңтарда күшін жойған 2017 жылғы 25 желтоқсандағы № 120-VI Кодекс ретінде айқындалған. Орыс тіліндегі мәтінде күні мен нөмірі көрсетілмей, Кодекстің атауы ғана берілген; 2025 жылғы 18 шілдедегі № 214-VIII Салық кодексінің 2-бабының 5-тармағына сәйкес бұл атау енді қолданыстағы Кодексті білдіреді, сондықтан тілдік нұсқалар әртүрлі кодекстерге сілтеме жасайды. № 42 актіден сөзбе-сөз көшірілген 29-баптың 2-тармағы мен 30-баптың 2-тармағы 2017 жылғы Кодекстің 218-бабының 2-тармағындағы ережелерді қайталайды: инвестициялық резидент «Салық кодексінде айқындалған өзге де құжаттармен бірге» АХҚО Әкімшілігінің растау хатын ұсынады, ал резиденттікті растайтын құжат «алым ... төленген жылға беріледі». 2025 жылғы Кодекс бойынша бұл құжаттар Кодексте енді жоқ: 224-баптың 1-тармағы тәртіпті белгілеуді уәкілетті органға қалдырады, ал АХҚО инвестициялық резиденті үшін құжаттар тізбесі, оның ішінде растау хаты, Қаржы министрінің 2025 жылғы 11 қарашадағы № 689 бұйрығымен бекітілген Қағидаларға қосымшадағы талаптар тізбесінің 8-тармағының 6) тармақшасында берілген. 2025 жылғы Кодекс пен № 689 бұйрықта алым төленген жыл туралы ереже сақталмаған: 224-баптың 3-тармағының 3) тармақшасына сәйкес резиденттік өтініште көрсетілген күнтізбелік жылға, ал 224-баптың 4-тармағына сәйкес өткен және (немесе) ағымдағы жылға расталады. Мысалы, алымды 2026 жылғы қаңтарда төлеп, 2025 жылға растауды сұраған инвестор 30-баптың 2-тармағы бойынша 2026 жылға құжат алар еді, ал 224-баптың 4-тармағы 2025 жылды растауға мүмкіндік береді. 29-баптың 1-тармағы мен 30-баптың 1-тармағы қолданыстағы салық заңнамасына сілтеме жасайды, сондықтан резиденттіктің өзі қолданыстағы құқыққа сәйкес айқындалады, алайда 30-баптың 2-тармағында қолданыстағы құқықта белгіленбеген кезең көрсетілген.",
+      "correction": "Ағылшын және қазақ тілдеріндегі мәтіндердегі «Салық кодексі» анықтамасын 2025 жылғы 18 шілдедегі № 214-VIII Кодекске сәйкес жаңартуды (орыс тіліндегі мәтінде оның күні мен нөмірін көрсетуді), 29-баптың 2-тармағында уәкілетті органның қағидаларында белгіленген құжаттарға (қазіргі уақытта 2025 жылғы 11 қарашадағы № 689 бұйрық) сілтеме жасауды және 30-баптың 2-тармағын Кодекстің 224-бабымен сәйкестендіруді немесе оны алып тастауды сұраймыз."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Regulations No. 57 of 2026 on AIFC Investment Tax Residency Programme (6 August 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AIFC Regulations No. 57 of 2026 (6 Aug 2026), EN, Schedule, 'Tax Code'",
+        "text": "Tax Code means the Code of the Republic of Kazakhstan On Taxes and Other Obligatory Payments to the Budget of 25 December 2017 No. 120-VI.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2026/08/aifc-investment-tax-residency-programme-regulations.pdf",
+        "sha256": "05db2c9461ea5ed2d41906bf434d3bf618e364488c29bec057b9447a6761a363",
+        "retrieved": "2026-10-25",
+        "copy": "sources/05db2c9461ea5ed2-en.pdf",
+        "copy_sha256": "05db2c9461ea5ed2d41906bf434d3bf618e364488c29bec057b9447a6761a363",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Regulations No. 57 of 2026 on AIFC Investment Tax Residency Programme, Kazakh text",
+        "role": "Language version",
+        "language": "kk",
+        "edition": null,
+        "locator": "same, KK, Schedule, 'Салық кодексі'",
+        "text": "Салық кодексі 2017 жылғы 25 желтоқсандағы № 120-VI",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2026/08/ahqo-investiciyalyq-salyqtyq-rezidenttik-baghdarlamasynyng-akti.pdf",
+        "sha256": "83174c877977d4a9e51f9798b57606bf06380430ed96edbcdc0eaf383b608ea1",
+        "retrieved": "2026-10-25",
+        "copy": "sources/83174c877977d4a9-kk.pdf",
+        "copy_sha256": "83174c877977d4a9e51f9798b57606bf06380430ed96edbcdc0eaf383b608ea1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Regulations No. 57 of 2026 on AIFC Investment Tax Residency Programme, Russian text",
+        "role": "Language version",
+        "language": "ru",
+        "edition": null,
+        "locator": "same, RU, Schedule, 'Налоговый кодекс' (no date or number)",
+        "text": "Налоговый кодекс означает Кодекс Республики Казахстан «О налогах и других обязательных платежах в бюджет (Налоговый кодекс)».",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2026/08/akt-programmy-investiczionnogo-nalogovogo-rezidentstva-mfcza.pdf",
+        "sha256": "86f78bfa1b60563de6c88de117184c29832b443abc54f4e1d1a6033a98f20111",
+        "retrieved": "2026-10-25",
+        "copy": "sources/86f78bfa1b60563d-ru.pdf",
+        "copy_sha256": "86f78bfa1b60563de6c88de117184c29832b443abc54f4e1d1a6033a98f20111",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Regulations No. 57 of 2026 on AIFC Investment Tax Residency Programme (6 August 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "same, EN, s.3 (Act No. 42 ceases to have effect)",
+        "text": "AIFC Regulations on AIFC Investment Tax Residency Programme No. 42 shall cease to have effect.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2026/08/aifc-investment-tax-residency-programme-regulations.pdf",
+        "sha256": "05db2c9461ea5ed2d41906bf434d3bf618e364488c29bec057b9447a6761a363",
+        "retrieved": "2026-10-25",
+        "copy": "sources/05db2c9461ea5ed2-en.pdf",
+        "copy_sha256": "05db2c9461ea5ed2d41906bf434d3bf618e364488c29bec057b9447a6761a363",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Regulations No. 57 of 2026 on AIFC Investment Tax Residency Programme (6 August 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "same, EN, s.29(2)",
+        "text": "an Investment Resident must provide, along with other documents determined by the Tax Code, a confirmation letter issued by the AIFC Authority for the relevant period",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2026/08/aifc-investment-tax-residency-programme-regulations.pdf",
+        "sha256": "05db2c9461ea5ed2d41906bf434d3bf618e364488c29bec057b9447a6761a363",
+        "retrieved": "2026-10-25",
+        "copy": "sources/05db2c9461ea5ed2-en.pdf",
+        "copy_sha256": "05db2c9461ea5ed2d41906bf434d3bf618e364488c29bec057b9447a6761a363",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "AIFC Regulations No. 57 of 2026 on AIFC Investment Tax Residency Programme, Russian text",
+        "role": "Language version",
+        "language": "ru",
+        "edition": null,
+        "locator": "same, RU, s.30(2)",
+        "text": "выдается за календарный год, в котором произведена уплата сбора за выдачу документа, подтверждающего резидентство Республики Казахстан в целях Налогового кодекса.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2026/08/akt-programmy-investiczionnogo-nalogovogo-rezidentstva-mfcza.pdf",
+        "sha256": "86f78bfa1b60563de6c88de117184c29832b443abc54f4e1d1a6033a98f20111",
+        "retrieved": "2026-10-25",
+        "copy": "sources/86f78bfa1b60563d-ru.pdf",
+        "copy_sha256": "86f78bfa1b60563de6c88de117184c29832b443abc54f4e1d1a6033a98f20111",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "Order of the Minister of Finance of 11 November 2025 No. 689, Russian text",
+        "role": "Later act",
+        "language": "ru",
+        "edition": null,
+        "locator": "Order of the Minister of Finance No. 689 of 11 Nov 2025 (reg. 37383), Appendix 1 to the Rules (List of requirements), item 8(6) (mirror of Adilet)",
+        "text": "электронное письмо-подтверждение, выдаваемое Администрацией МФЦА за соответствующий период",
+        "translations": {},
+        "url": "https://zakon.uchet.kz/rus/docs/V2500037383",
+        "sha256": "5d3e3d1979b26e4d6ac1a2c7490f0b171c7a9b4881a54d966832663540d91c4d",
+        "retrieved": "2026-10-25",
+        "copy": "sources/5d3e3d1979b26e4d-V2500037383-rus-mirror.html",
+        "copy_sha256": "5d3e3d1979b26e4d6ac1a2c7490f0b171c7a9b4881a54d966832663540d91c4d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l8",
+        "source": "Tax Code of the Republic of Kazakhstan 2017, Russian text",
+        "role": "Later act",
+        "language": "ru",
+        "edition": null,
+        "locator": "Tax Code 2017 art. 218(2), last paragraph",
+        "text": "Документ, подтверждающий резидентство выдается за календарный год, в котором произведена уплата сбора за выдачу документа, подтверждающего резидентство.",
+        "translations": {},
+        "url": "https://adilet.zan.kz/rus/docs/K1700000120",
+        "sha256": "e37bbb58c1dacf3c49d399fbb8193af299455b966f930497abf402ee237455b9",
+        "retrieved": "2026-10-21",
+        "copy": "sources/e37bbb58c1dacf3c-ru.txt",
+        "copy_sha256": "e37bbb58c1dacf3c49d399fbb8193af299455b966f930497abf402ee237455b9",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l9",
+        "source": "Tax Code of the Republic of Kazakhstan 2025, Russian text",
+        "role": "Later act",
+        "language": "ru",
+        "edition": null,
+        "locator": "Tax Code 2025 art. 224(1) part 3",
+        "text": "Порядок и сроки подтверждения резидентства устанавливаются уполномоченным органом.",
+        "translations": {},
+        "url": "https://adilet.zan.kz/rus/docs/K2500000214",
+        "sha256": "92011e1851b415f3648a4f135b535bd76351206deb31540f2ce7eda946a02ddb",
+        "retrieved": "2026-10-21",
+        "copy": "sources/92011e1851b415f3-ru.txt",
+        "copy_sha256": "92011e1851b415f3648a4f135b535bd76351206deb31540f2ce7eda946a02ddb",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l10",
+        "source": "Tax Code of the Republic of Kazakhstan 2025, Russian text",
+        "role": "Later act",
+        "language": "ru",
+        "edition": null,
+        "locator": "Tax Code 2025 art. 224(4)",
+        "text": "4. Резидентство подтверждается за прошедший и (или) текущий календарные годы.",
+        "translations": {},
+        "url": "https://adilet.zan.kz/rus/docs/K2500000214",
+        "sha256": "92011e1851b415f3648a4f135b535bd76351206deb31540f2ce7eda946a02ddb",
+        "retrieved": "2026-10-21",
+        "copy": "sources/92011e1851b415f3-ru.txt",
+        "copy_sha256": "92011e1851b415f3648a4f135b535bd76351206deb31540f2ce7eda946a02ddb",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Authority",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Regulations No. 57 of 2026 on AIFC Investment Tax Residency Programme (6 August 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2026/08/aifc-investment-tax-residency-programme-regulations.pdf"
+    },
+    {
+      "title": "AIFC Regulations No. 57 of 2026 on AIFC Investment Tax Residency Programme, Kazakh text",
+      "url": "https://aifc.kz/wp-content/uploads/2026/08/ahqo-investiciyalyq-salyqtyq-rezidenttik-baghdarlamasynyng-akti.pdf"
+    },
+    {
+      "title": "AIFC Regulations No. 57 of 2026 on AIFC Investment Tax Residency Programme, Russian text",
+      "url": "https://aifc.kz/wp-content/uploads/2026/08/akt-programmy-investiczionnogo-nalogovogo-rezidentstva-mfcza.pdf"
+    },
+    {
+      "title": "Order of the Minister of Finance of 11 November 2025 No. 689, Russian text",
+      "url": "https://zakon.uchet.kz/rus/docs/V2500037383"
+    },
+    {
+      "title": "Tax Code of the Republic of Kazakhstan 2017, Russian text",
+      "url": "https://adilet.zan.kz/rus/docs/K1700000120"
+    },
+    {
+      "title": "Tax Code of the Republic of Kazakhstan 2025, Russian text",
+      "url": "https://adilet.zan.kz/rus/docs/K2500000214"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

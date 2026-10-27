@@ -1,0 +1,235 @@
+{
+  "id": "ARXO-2026-0144",
+  "url": "https://arxo.io/findings/ARXO-2026-0144/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Banking Business Prudential Rules (BBR), V6",
+  "acts": [
+    "Banking Business Prudential Rules",
+    "Islamic Banking Business Prudential Rules",
+    "Insurance and Reinsurance Prudential Rules",
+    "Takaful and Retakaful Prudential Rules",
+    "Prudential Rules for Insurance Intermediaries"
+  ],
+  "location": "BBR 4.27, p.26",
+  "text": {
+    "en": {
+      "title": "Significant and non-significant investments: the definition in 4.27, the heading of 4.29(4) and the conditions of 4.29(4)(a) and 4.29(6)(a) classify a holding of AT1 or T2 instruments differently",
+      "summary": "BBR 4.27 defines a significant investment as an investment of 10% or more in the common shares, or other instruments that qualify as capital, of the entity concerned. The heading of Rule 4.29(4), which is part of the Rules under section 24(1)(a) of the AIFC Regulations on AIFC Acts, describes non-significant investments as those \"where the Bank does not own more than 10% of issued common equity of the entity\". Rule 4.29(4) then applies where the Bank makes a non-significant investment and does not own more than 10% of the common shares, and Rule 4.29(6) where the Bank makes a significant investment and owns 10% or more of the common shares. A holding of 10% or more of an issue of AT1 or T2 instruments of another bank or insurer, with less than 10% of its common shares, is non-significant by the heading and significant by 4.27, and under the conditions of the two rules it is outside both of them. Take an unconsolidated issuer whose only instrument other than common shares is a T2 issue of USD 300 million, with no reciprocal holding and no pledge: for a bank with CET1 of USD 100 million, a holding of USD 30 million (10% of the issue) with no common shares is not deducted under the conditions of 4.29, while the heading and line 37 of Form 30 lead to a deduction of the excess of USD 20 million; a holding of USD 29.7 million (9.9%) leads to a deduction of USD 19.7 million. The heading also uses \"not more than 10%\" where 4.27 uses \"10% or more\".",
+      "correction": "Please consider either testing significance in 4.27 by the holding of common shares only, as the heading of 4.29(4) and line 37 of Form 30 do, and aligning the 10% boundary, or replacing the common-share conditions in the heading and in 4.29(4)(a)(iii) and 4.29(6)(a)(iii) with a reference to a non-significant and a significant investment as defined, so that 4.29(6)(b) applies to such holdings (a full deduction, stricter than testing significance by common shares only)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 4.27, p.26",
+        "text": "significant investment, by a Bank in an entity concerned, means an investment of 10% or more in the common shares, or other instruments that qualify as capital, of the entity concerned.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 4.29(4) heading, p.28",
+        "text": "Non-significant investments—where the Bank does not own more than 10% of issued common equity of the entity",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 4.29(4)(a)(i), p.28",
+        "text": "a Bank makes a non-significant investment in an entity concerned;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 4.29(4)(a)(iii), p.28",
+        "text": "the Bank does not own more than 10% of the common shares of the entity concerned;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 4.29(6)(a)(iii), p.29",
+        "text": "the Bank owns 10% or more of the common shares of the entity concerned.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 4.29(6)(b), p.29",
+        "text": "A Bank must deduct the total amount of investments in the entity concerned (other than investments in common shares, or other instruments that qualify as CET 1 capital, of the entity).",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "AIFC Regulations on AIFC Acts, as amended on 11 January 2019",
+        "role": "Later act",
+        "language": "en",
+        "edition": null,
+        "locator": "AIFC Regulations on AIFC Acts s.24(1)(a)",
+        "text": "a heading to a provision; and",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/with-amendments-as-of-11-january-2019.pdf",
+        "sha256": "4f25a8539468e034bf728e88a7af90f9c2bcb8c1bc72c22dd126f7edab2486bc",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4f25a8539468e034-regulations-on-aifc-acts-2019.pdf",
+        "copy_sha256": "4f25a8539468e034bf728e88a7af90f9c2bcb8c1bc72c22dd126f7edab2486bc",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l8",
+        "source": "AIFC Regulations on AIFC Acts, as amended on 11 January 2019",
+        "role": "Later act",
+        "language": "en",
+        "edition": null,
+        "locator": "AIFC Regulations on AIFC Acts s.28(3)",
+        "text": "A definition in an AIFC Act applies except so far as the contrary intention appears.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/with-amendments-as-of-11-january-2019.pdf",
+        "sha256": "4f25a8539468e034bf728e88a7af90f9c2bcb8c1bc72c22dd126f7edab2486bc",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4f25a8539468e034-regulations-on-aifc-acts-2019.pdf",
+        "copy_sha256": "4f25a8539468e034bf728e88a7af90f9c2bcb8c1bc72c22dd126f7edab2486bc",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf"
+    },
+    {
+      "title": "AIFC Regulations on AIFC Acts, as amended on 11 January 2019",
+      "url": "https://aifc.kz/wp-content/uploads/2024/05/with-amendments-as-of-11-january-2019.pdf"
+    }
+  ],
+  "related": [
+    {
+      "id": "ARXO-2026-0119",
+      "relation": "see_also"
+    },
+    {
+      "id": "ARXO-2026-0148",
+      "relation": "same_cause"
+    }
+  ],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

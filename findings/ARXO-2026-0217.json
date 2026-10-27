@@ -1,0 +1,147 @@
+{
+  "id": "ARXO-2026-0217",
+  "url": "https://arxo.io/findings/ARXO-2026-0217/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Regulations on Damages and Remedies",
+  "acts": [
+    "AIFC Employment Regulations",
+    "AIFC Data Protection Regulations and Rules",
+    "AIFC Court Regulations 2017",
+    "AIFC Court Rules 2018",
+    "AIFC Arbitration Regulations",
+    "IAC Arbitration and Mediation Rules 2022"
+  ],
+  "location": "act page, 'Effective Version' block",
+  "text": {
+    "en": {
+      "title": "aifc.kz page of the Regulations on Damages and Remedies sends readers for the 'current version' to the AFSA Auditor Rules",
+      "summary": "Under \"Effective Version\" the aifc.kz page of the AIFC Regulations on Damages and Remedies states \"current version can be found on Regulator's website:\" and links https://orderly.myafsa.com/articles/auditorrules. That section of the AFSA rulebook is the AIFC Auditor Rules. The Regulations on Damages and Remedies (No. 17 of 2017) are not an AFSA rulebook. The same link appears on the aifc.kz page of the Auditor Rules. The only PDF offered is the 2017 text.",
+      "correction": "Please remove the AFSA link from the page of the Regulations on Damages and Remedies, or replace it with the location of the current text of these Regulations."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "aifc.kz act page aifc-regulations-on-damages-and-remedies",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "act page, 'Effective Version' block",
+        "text": "current version can be found on Regulator's website:",
+        "translations": {},
+        "url": "https://aifc.kz/legal-framework/aifc-regulations-on-damages-and-remedies/",
+        "sha256": "f524e0383e98c114e833fecd83043dc69e3f2a47afd140ebd9bd3d3e35dc3602",
+        "retrieved": "2026-10-23",
+        "copy": "sources/f524e0383e98c114-aifc-regulations-on-damages-and-remedies.html",
+        "copy_sha256": "f524e0383e98c114e833fecd83043dc69e3f2a47afd140ebd9bd3d3e35dc3602",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "aifc.kz act page aifc-regulations-on-damages-and-remedies",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "act page, link",
+        "text": "https://orderly.myafsa.com/articles/auditorrules",
+        "translations": {},
+        "url": "https://aifc.kz/legal-framework/aifc-regulations-on-damages-and-remedies/",
+        "sha256": "f524e0383e98c114e833fecd83043dc69e3f2a47afd140ebd9bd3d3e35dc3602",
+        "retrieved": "2026-10-23",
+        "copy": "sources/f524e0383e98c114-aifc-regulations-on-damages-and-remedies.html",
+        "copy_sha256": "f524e0383e98c114e833fecd83043dc69e3f2a47afd140ebd9bd3d3e35dc3602",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Regulations on Damages and Remedies",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "s.1 Name",
+        "text": "These Regulations are the AIFC Regulations on Damages and Remedies 2017.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/12.-regulations-on-damages-and-remedies-no.17-of-2019.pdf",
+        "sha256": "84760ea13d8887fd3417ea9a76bb5fb8dd533be200a06ff9510e5c4970c91e56",
+        "retrieved": "2026-10-23",
+        "copy": "sources/84760ea13d8887fd-12.-regulations-on-damages-and-remedies-no.17-of-2019.pdf",
+        "copy_sha256": "84760ea13d8887fd3417ea9a76bb5fb8dd533be200a06ff9510e5c4970c91e56",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "publisher of AIFC acts on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Authority",
+      "role": "publisher of AIFC acts on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "aifc.kz act page aifc-regulations-on-damages-and-remedies",
+      "url": "https://aifc.kz/legal-framework/aifc-regulations-on-damages-and-remedies/"
+    },
+    {
+      "title": "Regulations on Damages and Remedies",
+      "url": "https://aifc.kz/wp-content/uploads/2024/05/12.-regulations-on-damages-and-remedies-no.17-of-2019.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

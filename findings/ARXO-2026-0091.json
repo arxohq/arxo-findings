@@ -1,0 +1,122 @@
+{
+  "id": "ARXO-2026-0091",
+  "url": "https://arxo.io/findings/ARXO-2026-0091/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Conduct of Business Rules (COB), V17",
+  "acts": [
+    "AIFC Rules No. FR0005 of 2017 (COB)"
+  ],
+  "location": "COB 8.5.13(2)",
+  "text": {
+    "en": {
+      "title": "COB 8.5.13(2) and the 16.2 table use the undefined 'Insurance Bank Account'",
+      "summary": "COB 8.5 requires Client Money to be held in \"Client Money Accounts\" (8.5.6, 8.5.9). COB 8.5.13(2) requires records of \"all sums withdrawn from the Insurance Bank Account as a result of credit taken under COB 8.5.12\", and the table in COB 16.2 repeats it. \"Insurance Bank Account\" is not defined in COB or in the Glossary and is used nowhere else. The term has been in COB since the first version (then COB 11.8.12). The meaning (the Client Money Account) can be recovered from 8.5.9 and 8.5.12.",
+      "correction": "Please replace \"Insurance Bank Account\" with \"Client Money Account\" in COB 8.5.13(2) and in the table in COB 16.2."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB 8.5.13(2)",
+        "text": "withdrawn from the Insurance Bank Account as a result of credit taken under COB 8.5.12",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB 8.5.9(a)",
+        "text": "ensure that Client Money is held in one or more Client Money Accounts with one or more",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

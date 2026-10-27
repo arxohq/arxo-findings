@@ -1,0 +1,126 @@
+{
+  "id": "ARXO-2026-0140",
+  "url": "https://arxo.io/findings/ARXO-2026-0140/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Prudential Rules for Insurance Intermediaries",
+  "acts": [
+    "Banking Business Prudential Rules",
+    "Islamic Banking Business Prudential Rules",
+    "Insurance and Reinsurance Prudential Rules",
+    "Takaful and Retakaful Prudential Rules",
+    "Prudential Rules for Insurance Intermediaries"
+  ],
+  "location": "PRU(INT) 5.2(2)",
+  "text": {
+    "en": {
+      "title": "PRU(INT) auditor certification covers quarterly returns submitted 'by the PRU Investment Firm' (copied from PRU INV)",
+      "summary": "PRU(INT) 5.2(2): the auditor's certification must relate to the annual returns and \"each set of unaudited quarterly returns that have been submitted to the AFSA by the PRU Investment Firm in the previous year\". A PRU Investment Firm is a category under the Prudential Rules for Investment Firms; PRU(INT) applies to Insurance Intermediaries and Insurance Managers, called together \"Authorised Firm\" (1.3(1)). 5.2(1) and the first sentence of 5.2(2) speak of an Authorised Firm, so the meaning survives. This is the converse of our observation AIFC-PRU-03, where PRU (Investment Firms) 3.2 refers to \"the Insurance Intermediary\".",
+      "correction": "Please replace \"PRU Investment Firm\" with \"Authorised Firm\" in PRU(INT) 5.2(2) (an editorial correction under section 19(3)(a) of the AIFC Regulations on AIFC Acts)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Prudential Rules for Insurance Intermediaries",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PRU(INT) 5.2(2)",
+        "text": "The certification must relate to the annual prudential returns and each set of unaudited quarterly returns that have been submitted to the AFSA by the PRU Investment Firm in the previous year.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-prudential-rules-for-insurance-intermediaries.pdf",
+        "sha256": "95c1086b7275b2017295e0ff412b026dca70f8f441cb325d3c9d5581c8fa4e93",
+        "retrieved": "2026-10-23",
+        "copy": "sources/95c1086b7275b201-aifc-prudential-rules-for-insurance-intermediaries.pdf",
+        "copy_sha256": "95c1086b7275b2017295e0ff412b026dca70f8f441cb325d3c9d5581c8fa4e93",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Prudential Rules for Insurance Intermediaries",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PRU(INT) 1.3(1)",
+        "text": "The term “Authorised Firm” is used where rules apply to both Insurance Intermediaries and Insurance Managers.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-prudential-rules-for-insurance-intermediaries.pdf",
+        "sha256": "95c1086b7275b2017295e0ff412b026dca70f8f441cb325d3c9d5581c8fa4e93",
+        "retrieved": "2026-10-23",
+        "copy": "sources/95c1086b7275b201-aifc-prudential-rules-for-insurance-intermediaries.pdf",
+        "copy_sha256": "95c1086b7275b2017295e0ff412b026dca70f8f441cb325d3c9d5581c8fa4e93",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Prudential Rules for Insurance Intermediaries",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-prudential-rules-for-insurance-intermediaries.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

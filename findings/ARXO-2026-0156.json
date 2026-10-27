@@ -1,0 +1,130 @@
+{
+  "id": "ARXO-2026-0156",
+  "url": "https://arxo.io/findings/ARXO-2026-0156/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Rules on Digital Asset Activities (DAA), V5",
+  "acts": [
+    "AIFC Rules on Digital Asset Activities",
+    "AIFC Rules on Providing Money Services",
+    "AIFC Financial Technology Rules",
+    "AIFC Representative Office Rules",
+    "AIFC Auditor Rules"
+  ],
+  "location": "DAA V5, 4.7.4(3)(b)(ii)",
+  "text": {
+    "en": {
+      "title": "DAA 4.7.4(3)(b)(ii): reserve repos 'with a maturity of 7 or less' - unit missing",
+      "summary": "DAA 4.7.4(3)(b)(ii) lists \"repurchase agreements with a maturity of 7 or less\". The unit is missing; PMS 9.2(d) uses \"7 (seven) days or less\".",
+      "correction": "Please read \"with a maturity of 7 days or less\" (as in PMS 9.2(d))."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 4.7.4(3)(b)(ii)",
+        "text": "repurchase agreements with a maturity of 7 or less which are backed by (i) above; and",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Rules on Providing Money Services (with amendments as of 13 April 2025, which commence on 13 October 2025 and on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PMS 9.2(d) (parallel provision)",
+        "text": "repurchase agreements with a maturity of 7 (seven) days or less",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2025/06/pms-rulebook-25.05.2025_-v.1.pdf",
+        "sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/333935eb310b57bc-pms-rulebook-25.05.2025_-v.1.pdf",
+        "copy_sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf"
+    },
+    {
+      "title": "AIFC Rules on Providing Money Services (with amendments as of 13 April 2025, which commence on 13 October 2025 and on 13 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2025/06/pms-rulebook-25.05.2025_-v.1.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

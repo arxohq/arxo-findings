@@ -1,0 +1,194 @@
+{
+  "id": "ARXO-2026-0080",
+  "url": "https://arxo.io/findings/ARXO-2026-0080/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Conduct of Business Rules (COB), V17",
+  "acts": [
+    "AIFC Rules No. FR0005 of 2017 (COB)"
+  ],
+  "location": "aifc.kz act page, 'Effective Version' block",
+  "text": {
+    "en": {
+      "title": "AFSA online COB does not include the Amendments No. 14 changes in force since 13 January 2026",
+      "summary": "Amendments No. 14 to COB commence on 13 January 2026, except the changes to COB 1.2.2, which commenced on 13 October 2025. The consolidated version V17 on aifc.kz contains them: COB 8.1.2 and 8.1.4 now cover firms that Provide Money Services, the Guidance under COB 8.2.5 refers to PMS 9, COB 15.1 has two new paragraphs, and the new COB 15.5 sets a deadline of 15 business days for Money Service complaints. The aifc.kz page for COB says that the current version can be found on the regulator's website. The AFSA online COB (checked on 23 October 2026) shows none of these changes: COB 8.1.2(a) still refers only to Investment Business, COB 15.1 has one paragraph, and there is no COB 15.5. The page shows no deleted (struck-through) text at these places.",
+      "correction": "Please update the online COB to include the amendments in force since 13 January 2026, including COB 8.1.2, 8.1.4, 15.1 and 15.5."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "aifc.kz act page conduct-of-business-rules",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "aifc.kz act page, 'Effective Version' block",
+        "text": "current version can be found on Regulator's website:",
+        "translations": {},
+        "url": "https://aifc.kz/legal-framework/conduct-of-business-rules/",
+        "sha256": "15a489cbdfccccc810b66defccb0bccb1dcd402d8486ad995e7b77d3078adec9",
+        "retrieved": "2026-10-23",
+        "copy": "sources/15a489cbdfccccc8-conduct-of-business-rules.html",
+        "copy_sha256": "15a489cbdfccccc810b66defccb0bccb1dcd402d8486ad995e7b77d3078adec9",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB V17 title page",
+        "text": "(with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Conduct Of Business Rules A14., with amendments as of 13 April 2025, which commence on 13 October 2025 and 13 January 2026",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Amendments No. 14, commencement clause",
+        "text": "These amendments No.14 TO AIFC CONDUCT OF BUSINESS RULES commence on 13 January 2026, except for amendments in COB 1.2.2. that commence on 13 October 2025.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_a14_as-of-25.05.2025_ma-1.pdf",
+        "sha256": "533c278ef461deab56c311480e687c877e7b2ed83ac6e45f58d6a494a09be001",
+        "retrieved": "2026-10-23",
+        "copy": "sources/533c278ef461deab-cob_a14_as-of-25.05.2025_ma-1.pdf",
+        "copy_sha256": "533c278ef461deab56c311480e687c877e7b2ed83ac6e45f58d6a494a09be001",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB 15.5.2",
+        "text": "no later than 15 business days from the date the complaint is received.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB 15.1, second paragraph",
+        "text": "Rule 15.5. sets out additional requirements that apply to an Authorised Firm that is licensed by the AFSA to carry on a Regulated Activity of Providing Money Services.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB 8.1.2(a)",
+        "text": "the carrying on of Investment Business or Provides Money Services in or from the AIFC;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "aifc.kz act page conduct-of-business-rules",
+      "url": "https://aifc.kz/legal-framework/conduct-of-business-rules/"
+    },
+    {
+      "title": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf"
+    },
+    {
+      "title": "Conduct Of Business Rules A14., with amendments as of 13 April 2025, which commence on 13 October 2025 and 13 January 2026",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_a14_as-of-25.05.2025_ma-1.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

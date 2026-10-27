@@ -1,0 +1,149 @@
+{
+  "id": "ARXO-2026-0065",
+  "url": "https://arxo.io/findings/ARXO-2026-0065/",
+  "record_kind": "discrepancy",
+  "class": "amendments",
+  "class_label": "Amendments",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Glossary (GLO), V23",
+  "acts": [
+    "AIFC Rules No. FR0017 of 2017 (Glossary)"
+  ],
+  "location": "Glossary V23, entry \"Operating a Loan Crowdfunding Platform\"",
+  "text": {
+    "en": {
+      "title": "Glossary, \"Operating a Loan Crowdfunding Platform\": points to Schedule 3 of the Framework Regulations, which no longer exists",
+      "summary": "The entry reads \"The Market Activity as defined in paragraph 4 of Schedule 3 of the Framework Regulations\". Market Activities moved to Schedule 4 of the General Rules (Framework Regulations section 18(1)); the neighbouring entries were updated, this one was not.",
+      "correction": "\"The Market Activity defined in paragraph 4 of Schedule 4 of the AIFC General Rules.\""
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Glossary (GLO), V23",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary V23, entry \"Operating a Loan Crowdfunding Platform\"",
+        "text": "The Market Activity as defined in paragraph 4 of Schedule 3 of the Framework Regulations.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf",
+        "sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "retrieved": "2026-10-23",
+        "copy": "sources/041617346ad87a9f-glo-v23.pdf",
+        "copy_sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Glossary (GLO), V23",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary V23, entry \"Operating an Investment Crowdfunding Platform\"",
+        "text": "The Market Activity defined in paragraph 5 of Schedule 4 of the AIFC General Rules.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf",
+        "sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "retrieved": "2026-10-23",
+        "copy": "sources/041617346ad87a9f-glo-v23.pdf",
+        "copy_sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Financial Services Framework Regulations, V12",
+        "role": "Later act",
+        "language": "en",
+        "edition": null,
+        "locator": "FSFR V12 s.18(1)",
+        "text": "The activities specified in Schedule 4 of AIFC General Rules constitute Market Activities for",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/fsfr_v12-18.10.2024-itf_gk.pdf",
+        "sha256": "9c995b9be0e4359d9a595afe7d0a9d5d9f3a4597c3ee3255db2b2e1df520b5c3",
+        "retrieved": "2026-10-23",
+        "copy": "sources/9c995b9be0e4359d-fsfr-v12.pdf",
+        "copy_sha256": "9c995b9be0e4359d9a595afe7d0a9d5d9f3a4597c3ee3255db2b2e1df520b5c3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Financial Services Framework Regulations, V4",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "FSFR V4 (2019) Schedule 3 heading",
+        "text": "SCHEDULE 3: Market Activities",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/fsfr_v4_18_05.05.2019.pdf",
+        "sha256": "36ea25af7085e2017194212da7b9a43757147bfc451ee042b934adf5621da93a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/36ea25af7085e201-fsfr-v4.pdf",
+        "copy_sha256": "36ea25af7085e2017194212da7b9a43757147bfc451ee042b934adf5621da93a",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

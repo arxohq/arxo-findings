@@ -1,0 +1,126 @@
+{
+  "id": "ARXO-2026-0165",
+  "url": "https://arxo.io/findings/ARXO-2026-0165/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Rules on Providing Money Services (PMS)",
+  "acts": [
+    "AIFC Rules on Digital Asset Activities",
+    "AIFC Rules on Providing Money Services",
+    "AIFC Financial Technology Rules",
+    "AIFC Representative Office Rules",
+    "AIFC Auditor Rules"
+  ],
+  "location": "PMS 7.9.2(2)",
+  "text": {
+    "en": {
+      "title": "PMS 7.9.2(2) and (4): broken cross-reference \"subrule 0\" in the refund rule (PDF and regulator's website)",
+      "summary": "Both subrules refer to \"subrule 0\", an unresolved automatic cross-reference; the same \"0\" appears in the text on the regulator's website. The intended target is 7.9.2(1) (refund of an unauthorised Payment Transaction). The meaning survives by context.",
+      "correction": "Please read \"subrule (1)\" for \"subrule 0\" in 7.9.2(2) and (4) (an editorial correction under section 19(3)(a) of the AIFC Regulations on AIFC Acts)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Rules on Providing Money Services (with amendments as of 13 April 2025, which commence on 13 October 2025 and on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PMS 7.9.2(2)",
+        "text": "The Money Service Provider must provide the refund referred to in subrule 0 as soon as practicable",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2025/06/pms-rulebook-25.05.2025_-v.1.pdf",
+        "sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/333935eb310b57bc-pms-rulebook-25.05.2025_-v.1.pdf",
+        "copy_sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Rules on Providing Money Services (with amendments as of 13 April 2025, which commence on 13 October 2025 and on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PMS 7.9.2(4)",
+        "text": "When crediting a Payment Account under subrule 0, a Money Service Provider must ensure",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2025/06/pms-rulebook-25.05.2025_-v.1.pdf",
+        "sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/333935eb310b57bc-pms-rulebook-25.05.2025_-v.1.pdf",
+        "copy_sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Rules on Providing Money Services (with amendments as of 13 April 2025, which commence on 13 October 2025 and on 13 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2025/06/pms-rulebook-25.05.2025_-v.1.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

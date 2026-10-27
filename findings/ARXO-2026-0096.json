@@ -1,0 +1,198 @@
+{
+  "id": "ARXO-2026-0096",
+  "url": "https://arxo.io/findings/ARXO-2026-0096/",
+  "record_kind": "discrepancy",
+  "class": "amendments",
+  "class_label": "Amendments",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Market Rules (MAR), V13",
+  "acts": [
+    "AIFC Market Rules",
+    "AIFC Authorised Market Institution Rules",
+    "AIFC Recognition Rules",
+    "AIFC MTF and OTF Rules"
+  ],
+  "location": "MAR V13, 1.9.4(4)(a) (rule), page 25",
+  "text": {
+    "en": {
+      "title": "MAR 1.9.4(4)(a): the Expert limb of the correction defence refers to \"(2)(c)\", which is not about Expert statements; the Expert paragraph is (3)",
+      "summary": "MAR 1.9.4(4)(a) gives a defence where, before acquisition, \"a correction or, where the statement was such as is mentioned in (2)(c), the fact that the Expert was not competent or had not consented\" was published. Paragraph (2)(c) is the general correction defence and describes no statement; statements made on the authority of an Expert are dealt with in (3). Read literally, the second limb of (4)(a) has no case to apply to. The same reference is already in Amendments No. 7 (29 June 2022), which inserted 1.9.3 and 1.9.4: the instrument lettered the top-level paragraphs (a) to (f) but its own cross-references already used the numbers (2) to (6), so \"(2)(c)\" pointed to the correction defence from the start. The DFSA and ADGM market rules from which this text comes have the same reference (DFSA MKT 2.11.1(4)(a), ADGM MKT 4.11.1(4)(a)). MAR 1.9.3 and 1.9.4 appear in the consolidated MAR (V13) on aifc.kz but not in the AFSA online rulebook (see AIFC2-MKT-13).",
+      "correction": "Please replace \"mentioned in (2)(c)\" with \"mentioned in (3)\" in MAR 1.9.4(4)(a)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 1.9.4(4)(a) (rule), page 25",
+        "text": "where the statement was such as is mentioned in (2)(c), the fact that the Expert was not competent or had not consented",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 1.9.4(2)(c) (rule), page 24",
+        "text": "he had taken all reasonable steps to secure that a correction was promptly made and brought to the attention of the Persons likely to acquire the Securities in",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 1.9.4(3) (rule), page 24",
+        "text": "purporting to be made by or on the authority of an Expert and included in the Prospectus with the Expert's consent",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Market Rules A7., with amendments as of 29 June 2022, commence on 29 June 2022",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR Amendments No. 7 (29 June 2022), 1.9.4 paragraph '(d)', page 3 (Expert paragraph lettered '(c)')",
+        "text": "such as is mentioned in (2)(c), the fact that the Expert was not competent or had not consented",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_a7_29.06.2022.pdf",
+        "sha256": "a8d7aa5caef9a91ca3e9fb4116ab69592a5539176e4c3a4cf77bea273c3e3a7a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a8d7aa5caef9a91c-mar_a7_29.06.2022.pdf",
+        "copy_sha256": "a8d7aa5caef9a91ca3e9fb4116ab69592a5539176e4c3a4cf77bea273c3e3a7a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "Market Rules A7., with amendments as of 29 June 2022, commence on 29 June 2022",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR Amendments No. 7, 1.9.4 lettered paragraph '(a)', page 2 — numeric cross-references",
+        "text": "if any of the circumstances specified in (2) to (6) apply",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_a7_29.06.2022.pdf",
+        "sha256": "a8d7aa5caef9a91ca3e9fb4116ab69592a5539176e4c3a4cf77bea273c3e3a7a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a8d7aa5caef9a91c-mar_a7_29.06.2022.pdf",
+        "copy_sha256": "a8d7aa5caef9a91ca3e9fb4116ab69592a5539176e4c3a4cf77bea273c3e3a7a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "Market Rules A7., with amendments as of 29 June 2022, commence on 29 June 2022",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR Amendments No. 7, 1.9.4 lettered paragraph '(d)', page 3",
+        "text": "Without prejudice to (2) and (3), a Person does not incur any liability",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_a7_29.06.2022.pdf",
+        "sha256": "a8d7aa5caef9a91ca3e9fb4116ab69592a5539176e4c3a4cf77bea273c3e3a7a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a8d7aa5caef9a91c-mar_a7_29.06.2022.pdf",
+        "copy_sha256": "a8d7aa5caef9a91ca3e9fb4116ab69592a5539176e4c3a4cf77bea273c3e3a7a",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf"
+    },
+    {
+      "title": "Market Rules A7., with amendments as of 29 June 2022, commence on 29 June 2022",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_a7_29.06.2022.pdf"
+    }
+  ],
+  "related": [
+    {
+      "id": "ARXO-2026-0104",
+      "relation": "see_also"
+    }
+  ],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

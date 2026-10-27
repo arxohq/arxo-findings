@@ -1,0 +1,286 @@
+{
+  "id": "ARXO-2026-0209",
+  "url": "https://arxo.io/findings/ARXO-2026-0209/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Court Regulations 2017",
+  "acts": [
+    "AIFC Employment Regulations",
+    "AIFC Data Protection Regulations and Rules",
+    "AIFC Court Regulations 2017",
+    "AIFC Court Rules 2018",
+    "AIFC Arbitration Regulations",
+    "IAC Arbitration and Mediation Rules 2022"
+  ],
+  "location": "s.13(1)",
+  "text": {
+    "en": {
+      "title": "Court Regulations s.13: the Chief Justice appoints temporary Judges; the Statute (art. 13(3-1), from 2018) reserves appointment of judges to the President",
+      "summary": "Section 13(1) of the AIFC Court Regulations lets the Chief Justice, after consulting the Governor, appoint a person as a temporary Judge \"to facilitate the disposal of business in the Court\"; section 13(3) treats that person \"for all purposes\" as a Judge. The Regulations were adopted on 5 December 2017 under Article 13(5) of the Constitutional Statute (section 2). At that time Article 13(5) left to the Council resolution on the Court \"the procedure for the appointment and removal of judges and other officials of the court\". Constitutional Law No. 119-VI of 22 December 2017 added Article 13(3-1): the Chairman and judges of the Centre's court are appointed and released by the President of the Republic of Kazakhstan on the recommendation of the Governor. The same law deleted the words \"judges and other\" from Article 13(5), so the Council resolution now sets the procedure only for officials of the court. Section 12(1) of the Regulations follows Article 13(3-1) for permanent Judges; section 13 was not aligned. As written, a person appointed under section 13 would hear cases and sign judgments as a Judge without the appointment that Article 13(3-1) requires. We found no sign that section 13 has been used: the judges named in the judgments published on court.aifc.kz since April 2019 are all among the Chief Justice and Justices listed by the Court.",
+      "correction": "Please consider amending section 13 so that temporary Judges are appointed in the manner required by Article 13(3-1) of the Constitutional Statute, or repealing it. The Court Regulations are adopted by the Management Council (section 2), so the change needs a Council resolution. Because section 13 appears not to have been used, the change can be made before any case depends on it."
+    },
+    "ru": {
+      "title": "Регламент Суда МФЦА, статья 13: временных судей назначает Председатель Суда; Конституционный закон (пункт 3-1 статьи 13, с 2018 года) относит назначение судей к полномочиям Президента",
+      "summary": "Статья 13(1) Регламента Суда МФЦА позволяет Председателю Суда после консультации с Управляющим назначить лицо временным судьёй «для содействия рассмотрению дел в Суде»; статья 13(3) считает такое лицо судьёй «во всех отношениях». Регламент принят 5 декабря 2017 года на основании пункта 5 статьи 13 Конституционного закона Республики Казахстан «О Международном финансовом центре „Астана“» (статья 2). В то время пункт 5 статьи 13 относил к постановлению Совета о суде «порядок назначения и освобождения судей и других должностных лиц суда от должности». Конституционный закон № 119-VI от 22 декабря 2017 года дополнил статью 13 пунктом 3-1: «Председатель и судьи суда Центра назначаются и освобождаются Президентом Республики Казахстан по рекомендации Управляющего Центром». Тот же закон исключил из пункта 5 статьи 13 слова «судей и других», поэтому постановление Совета теперь устанавливает порядок только для должностных лиц суда. Статья 12(1) Регламента следует пункту 3-1 статьи 13 в отношении постоянных судей; статья 13 в соответствие приведена не была. По буквальному тексту лицо, назначенное по статье 13, рассматривало бы дела и подписывало решения в качестве судьи без назначения, которого требует пункт 3-1 статьи 13. Признаков применения статьи 13 мы не нашли: все судьи, названные в решениях, опубликованных на court.aifc.kz с апреля 2019 года, входят в состав Председателя и судей, указанный Судом.",
+      "correction": "Просим рассмотреть изменение статьи 13, с тем чтобы временные судьи назначались в порядке, установленном пунктом 3-1 статьи 13 Конституционного закона, либо её отмену. Регламент Суда принимается Советом по управлению (статья 2), поэтому изменение требует постановления Совета. Поскольку статья 13, по-видимому, не применялась, изменение можно внести до того, как от неё будет зависеть какое-либо дело."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Court Regulations 2017, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "s.13(1)",
+        "text": "he may appoint a person qualified for appointment as a Judge of the Court to be a temporary Judge of the Court",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-court-regulations-2017-eng.pdf",
+        "sha256": "27ccf803835369bdfa39986422ef4fb54b6e26640f272c55b090e518722b479d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/27ccf803835369bd-aifc-court-regulations-2017-eng.pdf",
+        "copy_sha256": "27ccf803835369bdfa39986422ef4fb54b6e26640f272c55b090e518722b479d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Court Regulations 2017, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "s.13(3)",
+        "text": "Every person while acting under this Article shall be treated for all purposes as, and accordingly may perform any of the functions of, a Judge of the Court in which he is acting.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-court-regulations-2017-eng.pdf",
+        "sha256": "27ccf803835369bdfa39986422ef4fb54b6e26640f272c55b090e518722b479d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/27ccf803835369bd-aifc-court-regulations-2017-eng.pdf",
+        "copy_sha256": "27ccf803835369bdfa39986422ef4fb54b6e26640f272c55b090e518722b479d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Constitutional Statute on the AIFC, Russian text (Adilet)",
+        "role": "Normative text",
+        "language": "ru",
+        "edition": null,
+        "locator": "Constitutional Statute art. 13(3-1)",
+        "text": "3-1. Председатель и судьи суда Центра назначаются и освобождаются Президентом Республики Казахстан по рекомендации Управляющего Центром.",
+        "translations": {},
+        "url": "https://adilet.zan.kz/rus/docs/Z1500000438",
+        "sha256": "7d7b541f67901d6ef3ccfa8e564606fd80972da031b1a7adf66ad5a0a2a4a893",
+        "retrieved": "2026-10-23",
+        "copy": "sources/7d7b541f67901d6e-ru-adilet-api.json",
+        "copy_sha256": "7d7b541f67901d6ef3ccfa8e564606fd80972da031b1a7adf66ad5a0a2a4a893",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Court Regulations 2017, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "title",
+        "text": "Dated 5 December 2017",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-court-regulations-2017-eng.pdf",
+        "sha256": "27ccf803835369bdfa39986422ef4fb54b6e26640f272c55b090e518722b479d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/27ccf803835369bd-aifc-court-regulations-2017-eng.pdf",
+        "copy_sha256": "27ccf803835369bdfa39986422ef4fb54b6e26640f272c55b090e518722b479d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "Constitutional Statute on the AIFC, 2015, Russian",
+        "role": "Prior edition",
+        "language": "ru",
+        "edition": null,
+        "locator": "Constitutional Statute art. 13(5), second part, original 2015 text (Adilet)",
+        "text": "порядок назначения и освобождения судей и других должностных лиц суда от должности",
+        "translations": {},
+        "url": "https://adilet.zan.kz/rus/docs/Z1500000438",
+        "sha256": "d623675c440972bcbd91c5f758fdc45509c37e138e3320c1d815a3a94edc1fc5",
+        "retrieved": "2026-10-23",
+        "copy": "sources/d623675c440972bc-ru-adilet-api.json",
+        "copy_sha256": "d623675c440972bcbd91c5f758fdc45509c37e138e3320c1d815a3a94edc1fc5",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "Constitutional Statute on the AIFC, Russian text (Adilet)",
+        "role": "Normative text",
+        "language": "ru",
+        "edition": null,
+        "locator": "Constitutional Statute art. 13(5), second part, current text (Adilet)",
+        "text": "порядок назначения и освобождения должностных лиц суда от должности, квалификационные требования к судьям и должностным лицам суда",
+        "translations": {},
+        "url": "https://adilet.zan.kz/rus/docs/Z1500000438",
+        "sha256": "7d7b541f67901d6ef3ccfa8e564606fd80972da031b1a7adf66ad5a0a2a4a893",
+        "retrieved": "2026-10-23",
+        "copy": "sources/7d7b541f67901d6e-ru-adilet-api.json",
+        "copy_sha256": "7d7b541f67901d6ef3ccfa8e564606fd80972da031b1a7adf66ad5a0a2a4a893",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "Constitutional Statute on the AIFC, Russian text (Adilet)",
+        "role": "Normative text",
+        "language": "ru",
+        "edition": null,
+        "locator": "Constitutional Statute, footnote to art. 13 (amending laws)",
+        "text": "Статья 13 с изменениями, внесенными Конституционными законами РК от 22.12.2017",
+        "translations": {},
+        "url": "https://adilet.zan.kz/rus/docs/Z1500000438",
+        "sha256": "7d7b541f67901d6ef3ccfa8e564606fd80972da031b1a7adf66ad5a0a2a4a893",
+        "retrieved": "2026-10-23",
+        "copy": "sources/7d7b541f67901d6e-ru-adilet-api.json",
+        "copy_sha256": "7d7b541f67901d6ef3ccfa8e564606fd80972da031b1a7adf66ad5a0a2a4a893",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l8",
+        "source": "Constitutional Law No. 296-VI (2019), Russian",
+        "role": "Amending act",
+        "language": "ru",
+        "edition": null,
+        "locator": "Constitutional Law No. 296-VI of 30.12.2019, art. 1(2)(9): the only change it made to art. 13",
+        "text": "пункт 8 статьи 13 изложить в следующей редакции",
+        "translations": {},
+        "url": "https://adilet.zan.kz/rus/docs/Z1900000296",
+        "sha256": "de447bdf2ab9532df0f13dde0f5550b851becbf2b47d03d374878e0675a810da",
+        "retrieved": "2026-10-23",
+        "copy": "sources/de447bdf2ab9532d-ru-adilet-api.json",
+        "copy_sha256": "de447bdf2ab9532df0f13dde0f5550b851becbf2b47d03d374878e0675a810da",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l9",
+        "source": "AIFC Court Regulations 2017, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Court Regulations s.2 (legislative authority)",
+        "text": "These Regulations are adopted by the Resolution of the Council under Article 13(5) of the Constitutional Statute",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-court-regulations-2017-eng.pdf",
+        "sha256": "27ccf803835369bdfa39986422ef4fb54b6e26640f272c55b090e518722b479d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/27ccf803835369bd-aifc-court-regulations-2017-eng.pdf",
+        "copy_sha256": "27ccf803835369bdfa39986422ef4fb54b6e26640f272c55b090e518722b479d",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:20Z",
+      "institution": "AIFC Management Council",
+      "channel": "email",
+      "role": "body that adopted the act"
+    },
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    },
+    {
+      "date": "2026-10-27T07:55:21Z",
+      "institution": "AIFC Court",
+      "channel": "email",
+      "role": "court that adopts the AIFC Court Rules and applies the AIFC Court Regulations"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Management Council",
+      "role": "body that adopted the act"
+    },
+    {
+      "institution": "AIFC Authority",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    },
+    {
+      "institution": "AIFC Court",
+      "role": "court that adopts the AIFC Court Rules and applies the AIFC Court Regulations"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Court Regulations 2017, English text",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-court-regulations-2017-eng.pdf"
+    },
+    {
+      "title": "Constitutional Statute on the AIFC, Russian text (Adilet)",
+      "url": "https://adilet.zan.kz/rus/docs/Z1500000438"
+    },
+    {
+      "title": "Constitutional Statute on the AIFC, 2015, Russian",
+      "url": "https://adilet.zan.kz/rus/docs/Z1500000438"
+    },
+    {
+      "title": "Constitutional Law No. 296-VI (2019), Russian",
+      "url": "https://adilet.zan.kz/rus/docs/Z1900000296"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Management Council (e-mail)"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Court (e-mail)"
+    }
+  ]
+}

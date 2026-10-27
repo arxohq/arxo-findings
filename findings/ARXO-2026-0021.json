@@ -35,15 +35,15 @@
     }
   },
   "status": {
-    "badge": "reported",
+    "badge": "accepted",
     "label": {
-      "en": "Reported",
-      "ru": "Сообщено"
+      "en": "Accepted by the addressee",
+      "ru": "Принято адресатом"
     },
     "conclusion": "confirmed",
     "official_text": "unchanged",
-    "addressee": "received",
-    "last_checked": "2026-10-24",
+    "addressee": "accepted",
+    "last_checked": "2026-10-26",
     "fixed_on": null,
     "correction_type": null,
     "under_review": false
@@ -166,6 +166,15 @@
         "en": "Automatic acknowledgement from the Légifrance contact service; usual reply time is seven working days.",
         "fr": "Accusé de réception automatique du service de contact de Légifrance ; délai habituel de réponse : sept jours ouvrés."
       }
+    },
+    {
+      "date": "2026-10-26T14:19:01Z",
+      "institution": "Direction de l'information légale et administrative (DILA)",
+      "kind": "acknowledged",
+      "summary": {
+        "en": "The Légifrance consolidation service stated that the consolidation error in the version for 1 January 2027 to 1 January 2028 had been corrected and that the correction would appear on Légifrance after the next site update.",
+        "fr": "Le service de consolidation de Légifrance a indiqué que l'erreur de consolidation de la version du 1er janvier 2027 au 1er janvier 2028 était corrigée et que la correction serait visible sur Légifrance après la prochaine mise à jour du site."
+      }
     }
   ],
   "approval": "2026-10-23",
@@ -226,6 +235,11 @@
       "date": "2026-10-25",
       "event": "entered",
       "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-26",
+      "event": "acknowledged",
+      "text": "Accepted: Direction de l'information légale et administrative (DILA)"
     }
   ]
 }

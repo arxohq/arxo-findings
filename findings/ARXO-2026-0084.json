@@ -1,0 +1,158 @@
+{
+  "id": "ARXO-2026-0084",
+  "url": "https://arxo.io/findings/ARXO-2026-0084/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Conduct of Business Rules (COB), V17",
+  "acts": [
+    "AIFC Rules No. FR0005 of 2017 (COB)"
+  ],
+  "location": "COB 1.2.4",
+  "text": {
+    "en": {
+      "title": "COB 1.2.4 lists 'COB 15 (Record Keeping)' for Trust Service Providers: COB 15 is complaints, record keeping is COB 16",
+      "summary": "COB 1.2.4 disapplies COB to Trust Service Providers except, among others, \"COB 15 (Record Keeping)\". Chapter 15 is \"Complaints Handling and Dispute Resolution\"; Chapter 16 is \"Record Keeping and Internal Audit\"; and section 15.4 inside Chapter 15 is \"Record keeping\" for complaints. The number and the label point to different provisions. The mismatch exists from the first version of COB (2017) and was kept through every later change to 1.2.4. Other exclusion rules name the chapters correctly, for example 1.2.2(g): \"COB 15 (Complaints Handling and Dispute Resolution), COB 16 (Record Keeping and Internal Audit)\".",
+      "correction": "Please state which rules apply to Trust Service Providers: (1) COB 15 (Complaints Handling and Dispute Resolution); (2) COB 16 (Record Keeping and Internal Audit); (3) both; or (4) COB 15.4 (Record keeping), the complaint-records section of COB 15."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB 1.2.4",
+        "text": "COB 12 (Trust Service Providers), and COB 15 (Record Keeping).",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB 1.2.2(g)",
+        "text": "COB 15 (Complaints Handling and Dispute Resolution), COB 16 (Record Keeping and Internal Audit)",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Conduct Of Business Rules Initial version",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "COB 1.2.4 in the initial version",
+        "text": "COB 12 (Trust Service Providers), and COB 15 (Record Keeping).",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v1_fr0005_10.12.2017.pdf",
+        "sha256": "f0613d3937d235871f74a92c9ccc430cfab72b4aba2873560ebdd390b6106e7f",
+        "retrieved": "2026-10-23",
+        "copy": "sources/f0613d3937d23587-cob_v1_fr0005_10.12.2017.pdf",
+        "copy_sha256": "f0613d3937d235871f74a92c9ccc430cfab72b4aba2873560ebdd390b6106e7f",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB V17 15.4.1 (section 15.4 'Record keeping')",
+        "text": "An Authorised Firm must maintain a record of all Complaints made against it for a minimum",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf"
+    },
+    {
+      "title": "Conduct Of Business Rules Initial version",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v1_fr0005_10.12.2017.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

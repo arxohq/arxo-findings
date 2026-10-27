@@ -1,0 +1,183 @@
+{
+  "id": "ARXO-2026-0182",
+  "url": "https://arxo.io/findings/ARXO-2026-0182/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Insolvency Rules, V3",
+  "acts": [
+    "AIFC Companies Regulations",
+    "AIFC Companies Rules",
+    "AIFC Insolvency Regulations",
+    "AIFC Insolvency Rules",
+    "AIFC Foundations Regulations"
+  ],
+  "location": "Insolvency Rules V3, rule 9.1, subrule numbered 8.1.1(b)",
+  "text": {
+    "en": {
+      "title": "Insolvency Rules, rule 9.1: the consolidated PDFs on aifc.kz number its subrules 8.1.1-8.1.6, while 8.1.1(b) and 9.3.1(a) cite \"9.1.3\"",
+      "summary": "Amendments No. 1 to the Insolvency Rules (2 December 2018) inserted rule 9.1 with subrules 9.1.1-9.1.6. The consolidated PDFs on aifc.kz (V2 and the current V3) print them as 8.1.1-8.1.6, while 8.1.1(b) and 9.3.1(a) still cite \"9.1.3\". The Insolvency Rules on the AFSA website (read on 24 October 2026) number them 9.1.1-9.1.6, so the cited subrule exists there.",
+      "correction": "Please renumber the subrules of rule 9.1 as 9.1.1-9.1.6 in the consolidated PDF on aifc.kz."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The consolidated text",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "V3_Insolvency Rules with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Insolvency Rules V3, rule 9.1, subrule numbered 8.1.1(b)",
+        "text": "purposes set out in 9.1.3 below;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ir_v3_gr0008_01.01.2025.pdf",
+        "sha256": "782ee782f649d9016e95f69bd3c2128b4b4c7fa087f47fa6f8f053feefec0f8e",
+        "retrieved": "2026-10-23",
+        "copy": "sources/782ee782f649d901-ir_v3_gr0008_01.01.2025.pdf",
+        "copy_sha256": "782ee782f649d9016e95f69bd3c2128b4b4c7fa087f47fa6f8f053feefec0f8e",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "V3_Insolvency Rules with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Insolvency Rules V3, rule 9.1, subrule numbered 8.1.3",
+        "text": "8.1.3 A Cell Receivership Order is an order directing",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ir_v3_gr0008_01.01.2025.pdf",
+        "sha256": "782ee782f649d9016e95f69bd3c2128b4b4c7fa087f47fa6f8f053feefec0f8e",
+        "retrieved": "2026-10-23",
+        "copy": "sources/782ee782f649d901-ir_v3_gr0008_01.01.2025.pdf",
+        "copy_sha256": "782ee782f649d9016e95f69bd3c2128b4b4c7fa087f47fa6f8f053feefec0f8e",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "V3_Insolvency Rules with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Insolvency Rules V3, rule 9.3.1(a)",
+        "text": "may do all such things as may be necessary for one or more of the purposes set out in subrule 9.1.3; and",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ir_v3_gr0008_01.01.2025.pdf",
+        "sha256": "782ee782f649d9016e95f69bd3c2128b4b4c7fa087f47fa6f8f053feefec0f8e",
+        "retrieved": "2026-10-23",
+        "copy": "sources/782ee782f649d901-ir_v3_gr0008_01.01.2025.pdf",
+        "copy_sha256": "782ee782f649d9016e95f69bd3c2128b4b4c7fa087f47fa6f8f053feefec0f8e",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "V3_Insolvency Rules with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Insolvency Rules V3, rule 8.1 heading",
+        "text": "Claims provable as Debts",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ir_v3_gr0008_01.01.2025.pdf",
+        "sha256": "782ee782f649d9016e95f69bd3c2128b4b4c7fa087f47fa6f8f053feefec0f8e",
+        "retrieved": "2026-10-23",
+        "copy": "sources/782ee782f649d901-ir_v3_gr0008_01.01.2025.pdf",
+        "copy_sha256": "782ee782f649d9016e95f69bd3c2128b4b4c7fa087f47fa6f8f053feefec0f8e",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "A1_Insolvency Rules with amendments as of 2 December 2018, commence on 1 March 2019",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Amendments No. 1 to the Insolvency Rules, page 8, subrule 9.1.3",
+        "text": "9.1.3. A Cell Receivership Order is an order directing",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ir_a1_02.12.2018.pdf",
+        "sha256": "a57b6e461acd2b10e237a7b9b8a22889f27516c316cf78fc5fff86057b9f2489",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a57b6e461acd2b10-ir_a1_02.12.2018.pdf",
+        "copy_sha256": "a57b6e461acd2b10e237a7b9b8a22889f27516c316cf78fc5fff86057b9f2489",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "publisher of AIFC acts on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Authority",
+      "role": "publisher of AIFC acts on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "V3_Insolvency Rules with amendments as of 15 December 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/ir_v3_gr0008_01.01.2025.pdf"
+    },
+    {
+      "title": "A1_Insolvency Rules with amendments as of 2 December 2018, commence on 1 March 2019",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/ir_a1_02.12.2018.pdf"
+    }
+  ],
+  "related": [
+    {
+      "id": "ARXO-2026-0174",
+      "relation": "see_also"
+    }
+  ],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

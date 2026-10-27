@@ -1,0 +1,179 @@
+{
+  "id": "ARXO-2026-0199",
+  "url": "https://arxo.io/findings/ARXO-2026-0199/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Employment Regulations, V4",
+  "acts": [
+    "AIFC Employment Regulations",
+    "AIFC Data Protection Regulations and Rules",
+    "AIFC Court Regulations 2017",
+    "AIFC Court Rules 2018",
+    "AIFC Arbitration Regulations",
+    "IAC Arbitration and Mediation Rules 2022"
+  ],
+  "location": "s.26 Rest breaks",
+  "text": {
+    "en": {
+      "title": "Employment Regulations s.26: rest breaks of \"not less than 15 hours\" for a working day of more than 6 hours",
+      "summary": "Section 26 of the Employment Regulations entitles an Employee whose working time on a day is more than 6 hours to rest breaks of \"not less than 15 hours\" in total; the breaks \"may be spent away from the Employee's workstation\". With the 8-hour limit in section 24 this makes a day of 23 hours of work and breaks, and more than 24 hours once working time exceeds 9 hours, so the figure is hard to apply as a break during work. The text has been the same since 2017. For comparison, the ADGM Employment Regulations (2015, 2019 and 2024), which have the same structure and the same 6-hour trigger, give rest breaks of not less than 1 hour in aggregate. The intended figure cannot be derived from the AIFC text itself.",
+      "correction": "Please clarify whether the 15 hours in section 26 means breaks during work or total daily rest, and amend the figure or the wording accordingly."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Employment Regulations V4., with amendments as of 15 January 2021, commence on 15 January 2021",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "s.26 Rest breaks",
+        "text": "If an Employee’s working time on a day is more than 6 hours",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/v4_emp1.pdf",
+        "sha256": "88395ed672316b81efa2cd856d1bd3968ac6ced06f27658e1cef4374f9423a8f",
+        "retrieved": "2026-10-23",
+        "copy": "sources/88395ed672316b81-v4_emp1.pdf",
+        "copy_sha256": "88395ed672316b81efa2cd856d1bd3968ac6ced06f27658e1cef4374f9423a8f",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Employment Regulations V4., with amendments as of 15 January 2021, commence on 15 January 2021",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "s.26 Rest breaks",
+        "text": "the Employee is entitled to rest breaks of not less than 15 hours in total",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/v4_emp1.pdf",
+        "sha256": "88395ed672316b81efa2cd856d1bd3968ac6ced06f27658e1cef4374f9423a8f",
+        "retrieved": "2026-10-23",
+        "copy": "sources/88395ed672316b81-v4_emp1.pdf",
+        "copy_sha256": "88395ed672316b81efa2cd856d1bd3968ac6ced06f27658e1cef4374f9423a8f",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Employment Regulations",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "V1 (2017) s.26 - same text",
+        "text": "the Employee is entitled to rest breaks of not less than 15 hours in total",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/4.-aifc-emploment-regulations-2017_new-design.pdf",
+        "sha256": "19eae770bc9b98ccc0fd2ae0c5e0edf1136bd378e0401dbbb10ca6b324269683",
+        "retrieved": "2026-10-23",
+        "copy": "sources/19eae770bc9b98cc-4.-aifc-emploment-regulations-2017_new-design.pdf",
+        "copy_sha256": "19eae770bc9b98ccc0fd2ae0c5e0edf1136bd378e0401dbbb10ca6b324269683",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Employment Regulations V4., with amendments as of 15 January 2021, commence on 15 January 2021",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Employment Regulations V4, s.24 (daily working time)",
+        "text": "An Employee’s working time on a day must not exceed 8 hours unless the Employer has",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/v4_emp1.pdf",
+        "sha256": "88395ed672316b81efa2cd856d1bd3968ac6ced06f27658e1cef4374f9423a8f",
+        "retrieved": "2026-10-23",
+        "copy": "sources/88395ed672316b81-v4_emp1.pdf",
+        "copy_sha256": "88395ed672316b81efa2cd856d1bd3968ac6ced06f27658e1cef4374f9423a8f",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Employment Regulations V4., with amendments as of 15 January 2021, commence on 15 January 2021",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Employment Regulations V4, s.26 (second sentence)",
+        "text": "The rest breaks may be spent away from the Employee’s workstation.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/v4_emp1.pdf",
+        "sha256": "88395ed672316b81efa2cd856d1bd3968ac6ced06f27658e1cef4374f9423a8f",
+        "retrieved": "2026-10-23",
+        "copy": "sources/88395ed672316b81-v4_emp1.pdf",
+        "copy_sha256": "88395ed672316b81efa2cd856d1bd3968ac6ced06f27658e1cef4374f9423a8f",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Authority",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Employment Regulations V4., with amendments as of 15 January 2021, commence on 15 January 2021",
+      "url": "https://aifc.kz/wp-content/uploads/2024/05/v4_emp1.pdf"
+    },
+    {
+      "title": "AIFC Employment Regulations",
+      "url": "https://aifc.kz/wp-content/uploads/2024/05/4.-aifc-emploment-regulations-2017_new-design.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

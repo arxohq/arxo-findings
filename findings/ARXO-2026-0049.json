@@ -1,0 +1,133 @@
+{
+  "id": "ARXO-2026-0049",
+  "url": "https://arxo.io/findings/ARXO-2026-0049/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Fees Rules (FEES), AIFC Rules No. FR0007 of 2017, V18",
+  "acts": [
+    "AIFC Rules No. FR0007 of 2017 (Fees Rules)"
+  ],
+  "location": "aifc.kz Fees Rules page, list of versions (V13) — the Amendments list has A11 then A13",
+  "text": {
+    "en": {
+      "title": "aifc.kz: the Fees Rules page does not link Amendments No. 12 (1 May 2022)",
+      "summary": "The list of amending instruments on the Fees Rules page goes from A11 to A13. Amendments No. 12 (approved 24 April 2022, in force 1 May 2022), which introduced the annual supervision fees, late fees and FinTech Lab fees, is in the site's media library but is not linked from the page.",
+      "correction": "Add the link to Amendments No. 12 to the list on the Fees Rules page."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Documented search",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "aifc.kz, Fees Rules page",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "aifc.kz Fees Rules page, list of versions (V13) — the Amendments list has A11 then A13",
+        "text": "Fees Rules V13., with amendments as of 24 April 2022, commence on 1 May 2022",
+        "translations": {},
+        "url": "https://aifc.kz/legal-framework/fees-rules/",
+        "sha256": "e5e5483bdc5c5a0f940bbc32d0a856a5679a26248735930f0e7319b83a35240a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e5e5483bdc5c5a0f-fees-rules.html",
+        "copy_sha256": "e5e5483bdc5c5a0f940bbc32d0a856a5679a26248735930f0e7319b83a35240a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "aifc.kz, Fees Rules page",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "aifc.kz Fees Rules page, Amendments list (A13 follows A11)",
+        "text": "Fees Rules A13., with amendments as of 9 December 2022, commence on 1 January 2023",
+        "translations": {},
+        "url": "https://aifc.kz/legal-framework/fees-rules/",
+        "sha256": "e5e5483bdc5c5a0f940bbc32d0a856a5679a26248735930f0e7319b83a35240a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e5e5483bdc5c5a0f-fees-rules.html",
+        "copy_sha256": "e5e5483bdc5c5a0f940bbc32d0a856a5679a26248735930f0e7319b83a35240a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Fees Rules, Amendments No. 12 (24 April 2022)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Amendments No. 12, cover",
+        "text": "AMENDMENTS No. 12",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/fees_a12_as-of-01.05.2022.pdf",
+        "sha256": "8c57099c25478299136322a55a1d21fd367017eaf1fc105ad9b650e83efabf87",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8c57099c25478299-fees-a12.pdf",
+        "copy_sha256": "8c57099c25478299136322a55a1d21fd367017eaf1fc105ad9b650e83efabf87",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "publisher of AIFC acts on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Authority",
+      "role": "publisher of AIFC acts on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "id": "ARXO-2026-0109",
+  "url": "https://arxo.io/findings/ARXO-2026-0109/",
+  "record_kind": "discrepancy",
+  "class": "amendments",
+  "class_label": "Amendments",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Collective Investment Scheme Rules (CIS), V8",
+  "acts": [
+    "AIFC Collective Investment Scheme Rules",
+    "AIFC Islamic Finance Rules"
+  ],
+  "location": "CIS V8 5.1(a)",
+  "text": {
+    "en": {
+      "title": "CIS 5.1 disapplies 5.3(b)(i) (investment objective, strategy, leverage) for Non-Exempt Funds; in the draft, 5.1 refers to the deleted rule 5.3",
+      "summary": "CIS 5.1(a) applies 5.3 to all Funds \"excluding 5.3(b)(i) and (j)\", and 5.1(b) applies \"5.3(b)(i) and (j)\" to Exempt Funds only. 5.3(b)(i) is the core disclosure of the investment objective, policy and strategy, asset types, risks and leverage, including the maximum level of leverage. The items that are Exempt-only by nature are 5.3(i) (the Exempt Fund legend) and 5.3(j) (the legend for an Exempt Fund of a Foreign Fund Manager). Read literally, a Non-Exempt (retail) Fund is relieved of 5.3(b)(i) while Exempt Funds must give it. The opening words of 5.3(b) and Schedule 1(j) still bind every Fund, so what is literally lost is the specific list, including the maximum level of leverage. The draft in Consultation Paper AFSA-PSRD-CSP-2026-0001 deletes rule 5.3 and moves its content to the new 5.4, 5.5 and Schedule 1-1, while 5.1(a) and (b) still refer to \"5.3 (excluding 5.3(b)(i) and (j))\" and \"5.3(b)(i) and (j)\". If the draft is adopted as published, both references will point to a deleted rule.",
+      "correction": "Please confirm whether 5.1(a) and (b) should refer to the Exempt Fund legends (5.3(i) and (j)) rather than to 5.3(b)(i). When finalising the draft, please redirect 5.1(a) and (b) to the new content rules (5.4 and 5.5) and name the items that apply to Exempt Funds only."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 5.1(a)",
+        "text": "Rules 5.2(c) and 5.3 (excluding 5.3(b)(i) and (j)) apply to all Funds (whether Exempt or Non-Exempt Funds) that are Offered to investors in the AIFC.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 5.1(b)",
+        "text": "Rules 5.2(b) and 5.3(b)(i) and (j) apply to Exempt Funds only.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 5.3(b)(i)",
+        "text": "a description of the investment objective, policy and strategy of the Fund,",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 5.3(b)(i), end",
+        "text": "and the maximum level of leverage which the Fund may utilise; and",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 5.3(i)",
+        "text": "All Offering Materials relating to an Exempt Fund must prominently disclose the following statement to prospective Unitholders:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "Collective Investment Scheme Rules A2., with amendments as of 2 July 2019, commence on 5 August 2019",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Amendments No. 2, page 9: 5.1 inserted (underlined; rendered page checked)",
+        "text": "Rules 5.2(b) and 5.3(b)(i) and (j) apply to Exempt Funds only.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_a2_02.07.2019.pdf",
+        "sha256": "23d4bc1ba051f953a6e2c45f7097039568dbd53ad91e21bf0a3af12f790a1afd",
+        "retrieved": "2026-10-23",
+        "copy": "sources/23d4bc1ba051f953-cis_a2_02.07.2019.pdf",
+        "copy_sha256": "23d4bc1ba051f953a6e2c45f7097039568dbd53ad91e21bf0a3af12f790a1afd",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "Collective Investment Scheme Rules V3., with amendments as of 2 July, commence on 5 August 2019",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V3 5.3(i) — Exempt Fund legend already lettered (i) when 5.1 was written",
+        "text": "All Offering Materials relating to an Exempt Fund must prominently disclose the",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v3_fr0009_02.07.2019.pdf",
+        "sha256": "3606f32aa9d57ac2842993ea3483d38ed42b03d10e2ce383351ee6ee7f80accb",
+        "retrieved": "2026-10-23",
+        "copy": "sources/3606f32aa9d57ac2-cis_v3_fr0009_02.07.2019.pdf",
+        "copy_sha256": "3606f32aa9d57ac2842993ea3483d38ed42b03d10e2ce383351ee6ee7f80accb",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l8",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 5.3(b) opening words",
+        "text": "contain all the information which a person and his professional advisers would reasonably require",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l9",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 Schedule 1(j) (Constitution)",
+        "text": "information on the investment objectives of the Fund, including:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf"
+    },
+    {
+      "title": "Collective Investment Scheme Rules A2., with amendments as of 2 July 2019, commence on 5 August 2019",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_a2_02.07.2019.pdf"
+    },
+    {
+      "title": "Collective Investment Scheme Rules V3., with amendments as of 2 July, commence on 5 August 2019",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v3_fr0009_02.07.2019.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

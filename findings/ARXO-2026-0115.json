@@ -1,0 +1,139 @@
+{
+  "id": "ARXO-2026-0115",
+  "url": "https://arxo.io/findings/ARXO-2026-0115/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Collective Investment Scheme Rules (CIS), V8",
+  "acts": [
+    "AIFC Collective Investment Scheme Rules",
+    "AIFC Islamic Finance Rules"
+  ],
+  "location": "CIS V8 10.1(b)",
+  "text": {
+    "en": {
+      "title": "AFSA online CIS shows rule 10.1 in the 2018 wording, without Exempt Funds of Foreign Fund Managers added by Amendments No. 2 (2019)",
+      "summary": "The AFSA online CIS still shows 10.1 in the 2018 wording: \"This chapter applies to all Funds managed by Fund Managers located in the AIFC.\" Since Amendments No. 2 (2019), 10.1 also covers (b) Exempt Funds of Foreign Fund Managers. The online text therefore leaves those Funds outside 10.2, 10.3 and 10.6.",
+      "correction": "Please replace rule 10.1 in the online CIS with the current text."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 10.1(b)",
+        "text": "all Exempt Funds managed by Foreign Fund Managers,",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 10.1(i)",
+        "text": "Rule 10.4 applies to Non-Exempt Funds and Real Estate Investment Trusts only;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 10.1(ii)",
+        "text": "Rule 10.5 applies to Non-Exempt Funds only.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

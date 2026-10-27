@@ -1,0 +1,230 @@
+{
+  "id": "ARXO-2026-0149",
+  "url": "https://arxo.io/findings/ARXO-2026-0149/",
+  "record_kind": "discrepancy",
+  "class": "amendments",
+  "class_label": "Amendments",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Rules on Digital Asset Activities (DAA), V5",
+  "acts": [
+    "AIFC Rules on Digital Asset Activities",
+    "AIFC Rules on Providing Money Services",
+    "AIFC Financial Technology Rules",
+    "AIFC Representative Office Rules",
+    "AIFC Auditor Rules"
+  ],
+  "location": "DAA V5, Part 4 application statement",
+  "text": {
+    "en": {
+      "title": "Part 4 covers issuers of Commodity stablecoins, but authorisation (4.1) and capital (4.2) name only Fiat stablecoins",
+      "summary": "Amendments No. 3 (approved 13 April 2025, in force 13 October 2025) extended the Part 4 application statement to \"issuing Fiat stablecoins and Commodity stablecoins\", but in the same instrument added only \"or issuing Fiat stablecoins\" to 4.1(1), the lead-in of 4.2 and 4.2(b). The current version keeps this. Rule 4.11.3(1) says \"In addition to DAA 4.2(b), an issuer of a Fiat stablecoin or Commodity stablecoin\" must hold ongoing capital of 2%, so it assumes that 4.2(b) applies to both. GEN Schedule 1, paragraph 21, Guidance (5) also mentions only Fiat stablecoins. A Commodity-stablecoin issuer might be covered as \"Providing Money Services in relation to Digital Assets\" (buying and selling of a Digital Asset), but 4.1(2) treats issuing as a separate activity. The rules therefore do not say clearly which licence a Commodity-stablecoin issuer needs or whether the USD 200,000 floor in 4.2(b) applies to it.",
+      "correction": "Please clarify how rules 4.1 and 4.2 apply to issuers of Commodity stablecoins, including the licence category and the minimum capital, for example by adding \"or Commodity stablecoins\" after \"issuing Fiat stablecoins\" in 4.1(1), the lead-in of 4.2 and 4.2(b)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, Part 4 application statement",
+        "text": "issuing Fiat stablecoins and Commodity stablecoins",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 4.1(1)",
+        "text": "A Person wishing to carry on Providing Money Services in relation to Digital Assets or issuing Fiat stablecoins in or from the AIFC must be an Authorised Firm licensed by the AFSA for providing a Regulated Activity of Providing Money Services.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 4.2 lead-in",
+        "text": "The AFSA may not grant authorisation or variation of a Licence to carry on the activities of Providing Money Services in relation to Digital Assets or issuing Fiat stablecoins if:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 4.11.3(1)",
+        "text": "In addition to DAA 4.2(b), an issuer of a Fiat stablecoin or Commodity stablecoin must ensure that it maintains at all times ongoing capital resources in the amount of 2% of the average outstanding Fiat stablecoins or Commodity stablecoins",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Rules on Digital Asset Activities (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Amendments No. 3 (13.04.2025), Part 4 application statement - underlined insertion (rendered page checked)",
+        "text": "Assets., issuing Fiat stablecoins and Commodity stablecoins.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_a3_19.05.2025-1.pdf",
+        "sha256": "65f769cc1ef6b168b00e94cdbedbcff984140bcec05015e059bf048f2d94c0d4",
+        "retrieved": "2026-10-23",
+        "copy": "sources/65f769cc1ef6b168-daa_a3_19.05.2025-1.pdf",
+        "copy_sha256": "65f769cc1ef6b168b00e94cdbedbcff984140bcec05015e059bf048f2d94c0d4",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "AIFC Rules on Digital Asset Activities (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Amendments No. 3, 4.1(1) - underlined insertion covers Fiat only (rendered page checked)",
+        "text": "Digital Assets or issuing Fiat stablecoins in or from the AIFC must be an Authorised Firm licensed",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_a3_19.05.2025-1.pdf",
+        "sha256": "65f769cc1ef6b168b00e94cdbedbcff984140bcec05015e059bf048f2d94c0d4",
+        "retrieved": "2026-10-23",
+        "copy": "sources/65f769cc1ef6b168-daa_a3_19.05.2025-1.pdf",
+        "copy_sha256": "65f769cc1ef6b168b00e94cdbedbcff984140bcec05015e059bf048f2d94c0d4",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "AIFC General Rules (GEN), V20",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "GEN V20, Schedule 1 para 21, Guidance (5)",
+        "text": "An Authorised Firm Providing Money Services in relation to Digital Assets, issuing Fiat stablecoins must comply with DAA Chapter 4",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/gen-_v20_01.01.2026.pdf",
+        "sha256": "e863a30c73072b0323a4d064ab0e3f7e103428a7992f91360ed19a173a68e681",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e863a30c73072b03-gen-v20.pdf",
+        "copy_sha256": "e863a30c73072b0323a4d064ab0e3f7e103428a7992f91360ed19a173a68e681",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l8",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5, 4.1(2), p.76",
+        "text": "A Person authorised to issue Fiat stablecoins may provide Money Services in relation to Digital Assets and Money Services under paragraph 21 Schedule 1 GEN.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf"
+    },
+    {
+      "title": "AIFC Rules on Digital Asset Activities (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_a3_19.05.2025-1.pdf"
+    },
+    {
+      "title": "AIFC General Rules (GEN), V20",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/gen-_v20_01.01.2026.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

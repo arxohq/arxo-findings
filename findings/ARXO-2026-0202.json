@@ -1,0 +1,195 @@
+{
+  "id": "ARXO-2026-0202",
+  "url": "https://arxo.io/findings/ARXO-2026-0202/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Data Protection Regulations",
+  "acts": [
+    "AIFC Employment Regulations",
+    "AIFC Data Protection Regulations and Rules",
+    "AIFC Court Regulations 2017",
+    "AIFC Court Rules 2018",
+    "AIFC Arbitration Regulations",
+    "IAC Arbitration and Mediation Rules 2022"
+  ],
+  "location": "s.9",
+  "text": {
+    "en": {
+      "title": "Data Protection Regulations s.9: the lawful-basis rule is addressed to the Data Processor, while other sections treat it as the Data Controller's basis - who is bound?",
+      "summary": "Section 9 of the Data Protection Regulations opens \"A Data Processor must not Process Personal Data unless\" one of grounds (a)-(e) applies. The grounds themselves refer to the Data Controller, and sections 9-1(1), 13(1)(c)(v) and 14(2)(c)(v) treat section 9 as the Controller's lawful basis. The Controller's duty to process lawfully also follows from section 8(1)(a). A Processor may well be meant to be bound too, so the text allows more than one reading of who is bound by section 9. For comparison, the corresponding ADGM provision (Data Protection Regulations 2015, section 2) opened without naming an addressee: \"Personal Data may only be Processed if\".",
+      "correction": "Please clarify whether section 9 binds Data Controllers, Data Processors or both, and adjust its opening words if needed."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC DATA PROTECTION REGULATIONS (with amendments as of 1 April 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "s.9",
+        "text": "A Data Processor must not Process Personal Data unless:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-data-protection-regulations-2025-1.pdf",
+        "sha256": "d1a6312a3161802bcd4f252058143c087a07fd8cd3c57f8d3cc9c968f1e5a022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/d1a6312a3161802b-aifc-data-protection-regulations-2025-1.pdf",
+        "copy_sha256": "d1a6312a3161802bcd4f252058143c087a07fd8cd3c57f8d3cc9c968f1e5a022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC DATA PROTECTION REGULATIONS (with amendments as of 1 April 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Schedule 1, definition",
+        "text": "Data Processor means any Person who Processes Personal Data on behalf of a Data Controller.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-data-protection-regulations-2025-1.pdf",
+        "sha256": "d1a6312a3161802bcd4f252058143c087a07fd8cd3c57f8d3cc9c968f1e5a022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/d1a6312a3161802b-aifc-data-protection-regulations-2025-1.pdf",
+        "copy_sha256": "d1a6312a3161802bcd4f252058143c087a07fd8cd3c57f8d3cc9c968f1e5a022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC DATA PROTECTION REGULATIONS (with amendments as of 1 April 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "s.9-1(1)",
+        "text": "if it is to be relied on as a basis for Processing under section 9(a) or under section 10(a).",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-data-protection-regulations-2025-1.pdf",
+        "sha256": "d1a6312a3161802bcd4f252058143c087a07fd8cd3c57f8d3cc9c968f1e5a022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/d1a6312a3161802b-aifc-data-protection-regulations-2025-1.pdf",
+        "copy_sha256": "d1a6312a3161802bcd4f252058143c087a07fd8cd3c57f8d3cc9c968f1e5a022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC DATA PROTECTION REGULATIONS (with amendments as of 1 April 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "s.13(1)(c)(v)",
+        "text": "whether the Personal Data will be Processed relying on section 9(e)",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-data-protection-regulations-2025-1.pdf",
+        "sha256": "d1a6312a3161802bcd4f252058143c087a07fd8cd3c57f8d3cc9c968f1e5a022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/d1a6312a3161802b-aifc-data-protection-regulations-2025-1.pdf",
+        "copy_sha256": "d1a6312a3161802bcd4f252058143c087a07fd8cd3c57f8d3cc9c968f1e5a022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC DATA PROTECTION REGULATIONS (with amendments as of 1 April 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "s.8(2)",
+        "text": "A Data Processor must take every reasonable step to ensure that Personal Data that is inaccurate or incomplete",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-data-protection-regulations-2025-1.pdf",
+        "sha256": "d1a6312a3161802bcd4f252058143c087a07fd8cd3c57f8d3cc9c968f1e5a022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/d1a6312a3161802b-aifc-data-protection-regulations-2025-1.pdf",
+        "copy_sha256": "d1a6312a3161802bcd4f252058143c087a07fd8cd3c57f8d3cc9c968f1e5a022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "AIFC DATA PROTECTION REGULATIONS",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "2017 s.9 - same addressee",
+        "text": "A Data Processor must not Process Personal Data unless:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-data-protection-regulations-no.-10-of-2017-2-1.pdf",
+        "sha256": "058b64665566a460177bf348931072150793f938269c0c47f74c2f789c5e4f72",
+        "retrieved": "2026-10-23",
+        "copy": "sources/058b64665566a460-aifc-data-protection-regulations-no.-10-of-2017-2-1.pdf",
+        "copy_sha256": "058b64665566a460177bf348931072150793f938269c0c47f74c2f789c5e4f72",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Authority",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC DATA PROTECTION REGULATIONS (with amendments as of 1 April 2025)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-data-protection-regulations-2025-1.pdf"
+    },
+    {
+      "title": "AIFC DATA PROTECTION REGULATIONS",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-data-protection-regulations-no.-10-of-2017-2-1.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

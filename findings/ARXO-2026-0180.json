@@ -1,0 +1,210 @@
+{
+  "id": "ARXO-2026-0180",
+  "url": "https://arxo.io/findings/ARXO-2026-0180/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Companies Rules, V6",
+  "acts": [
+    "AIFC Companies Regulations",
+    "AIFC Companies Rules",
+    "AIFC Insolvency Regulations",
+    "AIFC Insolvency Rules",
+    "AIFC Foundations Regulations"
+  ],
+  "location": "Companies Rules V6, rule 7.4",
+  "text": {
+    "en": {
+      "title": "Companies Rules Schedule 3, items 62 and 64: \"179-4(8) or (21)\" and \"179-7(2) or (15)\" name the \"in Writing\" subsections; the fine clauses of these regimes are 179-4(22) and 179-7(16)",
+      "summary": "Schedule 3 of the Companies Rules sets fine limits by naming provisions of the Companies Regulations. Items 62 (\"179-4(8) or (21)\") and 64 (\"179-7(2) or (15)\") first appear in V4 (in force 1 January 2020); V3 had only \"179-4(8)\" and \"179-7(2)\". Subsections 179-4(21) and 179-7(15) only require notices to be \"in Writing\", while the fine clauses for these regimes are 179-4(22) and 179-7(16). The same change added \"52(17)\", also a fine clause, to item 18, so (21) and (15) look off by one. No published amending act contains this change. The Companies Rules on the AFSA website (read on 24 October 2026) have the same text. Whether items 62 and 64 set a limit for breaches of 179-4(9)-(20) and 179-7(3)-(14) depends on how the description in column 3 is read.",
+      "correction": "Please confirm whether items 62 and 64 should refer to sections 179-4(22) and 179-7(16), and correct the references accordingly."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "Not established",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Companies Rules V6., with amendments as of 22 September 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Rules V6, rule 7.4",
+        "text": "Contravention of a provision of the AIFC Companies Regulations mentioned in column 2 of an item of the table in Schedule 3 (Fine limits) is the amount specified in column 4 of the item.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cor_v6_may_2024_ba.pdf",
+        "sha256": "36daca0e6b461129e14b4fe7daed2846452cca2ab5de1f27cd5f5bfb663b8eb1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/36daca0e6b461129-cor_v6_may_2024_ba.pdf",
+        "copy_sha256": "36daca0e6b461129e14b4fe7daed2846452cca2ab5de1f27cd5f5bfb663b8eb1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Companies Rules V6., with amendments as of 22 September 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Rules V6, Schedule 3, item 18",
+        "text": "52(3) or (17)",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cor_v6_may_2024_ba.pdf",
+        "sha256": "36daca0e6b461129e14b4fe7daed2846452cca2ab5de1f27cd5f5bfb663b8eb1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/36daca0e6b461129-cor_v6_may_2024_ba.pdf",
+        "copy_sha256": "36daca0e6b461129e14b4fe7daed2846452cca2ab5de1f27cd5f5bfb663b8eb1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Companies Rules V6., with amendments as of 22 September 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Rules V6, Schedule 3, item 62",
+        "text": "179-4(8) or (21)",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cor_v6_may_2024_ba.pdf",
+        "sha256": "36daca0e6b461129e14b4fe7daed2846452cca2ab5de1f27cd5f5bfb663b8eb1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/36daca0e6b461129-cor_v6_may_2024_ba.pdf",
+        "copy_sha256": "36daca0e6b461129e14b4fe7daed2846452cca2ab5de1f27cd5f5bfb663b8eb1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Companies Rules V6., with amendments as of 22 September 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Rules V6, Schedule 3, item 64",
+        "text": "179-7(2) or (15)",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cor_v6_may_2024_ba.pdf",
+        "sha256": "36daca0e6b461129e14b4fe7daed2846452cca2ab5de1f27cd5f5bfb663b8eb1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/36daca0e6b461129-cor_v6_may_2024_ba.pdf",
+        "copy_sha256": "36daca0e6b461129e14b4fe7daed2846452cca2ab5de1f27cd5f5bfb663b8eb1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Regulations V8, s.179-4(21) and s.179-7(15)",
+        "text": "All notices and information to be delivered to the Registrar under this section must be made in Writing.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf",
+        "sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a77bf2c39b86d220-comreg_v8_01.01.25.pdf",
+        "copy_sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Regulations V8, s.179-4(22)",
+        "text": "Contravention of subsections (9) to (21) is punishable by a fine.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf",
+        "sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a77bf2c39b86d220-comreg_v8_01.01.25.pdf",
+        "copy_sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Regulations V8, s.52(3)",
+        "text": "Contravention of subsections (1) and (2) is punishable by a fine.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf",
+        "sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a77bf2c39b86d220-comreg_v8_01.01.25.pdf",
+        "copy_sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Companies Rules V6., with amendments as of 22 September 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cor_v6_may_2024_ba.pdf"
+    },
+    {
+      "title": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

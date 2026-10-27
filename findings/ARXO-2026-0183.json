@@ -1,0 +1,166 @@
+{
+  "id": "ARXO-2026-0183",
+  "url": "https://arxo.io/findings/ARXO-2026-0183/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Insolvency Regulations, V3",
+  "acts": [
+    "AIFC Companies Regulations",
+    "AIFC Companies Rules",
+    "AIFC Insolvency Regulations",
+    "AIFC Insolvency Rules",
+    "AIFC Foundations Regulations"
+  ],
+  "location": "Insolvency Regulations V3, s.88(1)",
+  "text": {
+    "en": {
+      "title": "Insolvency Regulations s.88(2): the Rules may vary \"requirements mentioned in subsection (2)\", i.e. in the power itself; the criteria are in (1)",
+      "summary": "Section 88(1) says the Rules must prescribe the criteria for registration as an insolvency practitioner or official liquidator. Section 88(2) lets the Rules vary \"requirements mentioned in subsection (2)\" for applicants regulated outside the AIFC. Subsection (2) is the power itself and mentions no requirements; the criteria are in (1). The parallel provision for auditors, section 134(3) of the Companies Regulations, refers to the subsection that sets the criteria.",
+      "correction": "Please replace \"subsection (2)\" with \"subsection (1)\" in section 88(2)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "V3_AIFC Insolvency Regulations with amendments as of 27 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Insolvency Regulations V3, s.88(1)",
+        "text": "The Rules must prescribe criteria that a Person must meet to be registered as an insolvency practitioner or official liquidator.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ireg_v3_14_01.01.2025.pdf",
+        "sha256": "8c93c6f2c248880c488cbc24fd3462fa0b923eeaf240be33f71b6fb768a6efbe",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8c93c6f2c248880c-ireg_v3_14_01.01.2025.pdf",
+        "copy_sha256": "8c93c6f2c248880c488cbc24fd3462fa0b923eeaf240be33f71b6fb768a6efbe",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "V3_AIFC Insolvency Regulations with amendments as of 27 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Insolvency Regulations V3, s.88(2)",
+        "text": "The Rules may provide for requirements mentioned in subsection (2) to be varied for applicants who are, at the time of application, regulated in a jurisdiction outside the AIFC.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ireg_v3_14_01.01.2025.pdf",
+        "sha256": "8c93c6f2c248880c488cbc24fd3462fa0b923eeaf240be33f71b6fb768a6efbe",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8c93c6f2c248880c-ireg_v3_14_01.01.2025.pdf",
+        "copy_sha256": "8c93c6f2c248880c488cbc24fd3462fa0b923eeaf240be33f71b6fb768a6efbe",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Regulations V8, s.134(3) (parallel for auditors)",
+        "text": "The Rules may provide for requirements referred to in subsection (2) to be varied for applicants who are, at the time of application, regulated in a jurisdiction outside the AIFC.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf",
+        "sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a77bf2c39b86d220-comreg_v8_01.01.25.pdf",
+        "copy_sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "V2_AIFC Insolvency Regulations with amendments as of 6 August 2019, commence on 7 August 2019",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "Insolvency Regulations V2 (07.08.2019), s.88(2)",
+        "text": "The Rules may provide for requirements mentioned in subsection (2) to be varied",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ireg_v1_14_20.12.17-1.pdf",
+        "sha256": "f4c8dc0fb967f0fbece98eeda8f7205d3a7582df09c02401e86213ea22c3eeca",
+        "retrieved": "2026-10-23",
+        "copy": "sources/f4c8dc0fb967f0fb-ireg_v1_14_20.12.17-1.pdf",
+        "copy_sha256": "f4c8dc0fb967f0fbece98eeda8f7205d3a7582df09c02401e86213ea22c3eeca",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Authority",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "V3_AIFC Insolvency Regulations with amendments as of 27 December 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/ireg_v3_14_01.01.2025.pdf"
+    },
+    {
+      "title": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf"
+    },
+    {
+      "title": "V2_AIFC Insolvency Regulations with amendments as of 6 August 2019, commence on 7 August 2019",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/ireg_v1_14_20.12.17-1.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

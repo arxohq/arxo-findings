@@ -1,0 +1,165 @@
+{
+  "id": "ARXO-2026-0099",
+  "url": "https://arxo.io/findings/ARXO-2026-0099/",
+  "record_kind": "discrepancy",
+  "class": "amendments",
+  "class_label": "Amendments",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Market Rules (MAR), V13",
+  "acts": [
+    "AIFC Market Rules",
+    "AIFC Authorised Market Institution Rules",
+    "AIFC Recognition Rules",
+    "AIFC MTF and OTF Rules"
+  ],
+  "location": "MAR V13, Schedule 4 para 4(a)(iii) (rule), page 122",
+  "text": {
+    "en": {
+      "title": "MAR Schedule 4 para 4(a)(iii) points to 'technology and governance requirements set out in AMI 2-1.2'; those are in AMI 2-1.1",
+      "summary": "MAR Schedule 4 para 4(a)(iii) requires a Security Token prospectus to explain 'how the operator of the facility meets the technology and governance requirements set out in AMI 2-1.2'. In AMI V11 the technology and governance requirements are AMI 2-1.1 ('Technology and governance requirements'); AMI 2-1.2 is 'Operating a facility for Investment Tokens that permits direct access'. The same mismatch existed when Schedule 4 was introduced (AMI V8, 1 Jan 2024).",
+      "correction": "Please replace \"AMI 2-1.2\" with \"AMI 2-1.1\" in MAR Schedule 4, paragraph 4(a)(iii). The words \"technology and governance requirements\" already fix the meaning, so this is an editorial correction under section 19(3)(a) of the AIFC Regulations on AIFC Acts."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, Schedule 4 para 4(a)(iii) (rule), page 122",
+        "text": "requirements set out in AMI 2-1.2;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Authorised Market Institution Rules V11., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AMI V11, 2-1.1 heading, page 23",
+        "text": "Technology and governance requirements",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ami_v11_01.01.2026-1.pdf",
+        "sha256": "8f6c60e7a2ea9f1b70a5fc63cf33f8f9f4e5192e4f54dec80e109c914651b198",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8f6c60e7a2ea9f1b-ami_v11_01.01.2026-1.pdf",
+        "copy_sha256": "8f6c60e7a2ea9f1b70a5fc63cf33f8f9f4e5192e4f54dec80e109c914651b198",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Authorised Market Institution Rules V11., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AMI V11, 2-1.2 heading, page 24",
+        "text": "Operating a facility for Investment Tokens that permits direct access",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ami_v11_01.01.2026-1.pdf",
+        "sha256": "8f6c60e7a2ea9f1b70a5fc63cf33f8f9f4e5192e4f54dec80e109c914651b198",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8f6c60e7a2ea9f1b-ami_v11_01.01.2026-1.pdf",
+        "copy_sha256": "8f6c60e7a2ea9f1b70a5fc63cf33f8f9f4e5192e4f54dec80e109c914651b198",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Market Rules A9., with amendments as of 9 December, commence on 1 August 2023",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR Amendments No. 9 (STO, in force 1 Jan 2024), Schedule 4 para 4(a)(iii)",
+        "text": "requirements set out in AMI 2-1.2;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_a9_01.01.2023-sto.pdf",
+        "sha256": "45c2f66a50e2526f20d3a04827c87229a57cb81cbe1ddc9df647aceafc76c78d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/45c2f66a50e2526f-mar_a9_01.01.2023-sto.pdf",
+        "copy_sha256": "45c2f66a50e2526f20d3a04827c87229a57cb81cbe1ddc9df647aceafc76c78d",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf"
+    },
+    {
+      "title": "Authorised Market Institution Rules V11., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/ami_v11_01.01.2026-1.pdf"
+    },
+    {
+      "title": "Market Rules A9., with amendments as of 9 December, commence on 1 August 2023",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_a9_01.01.2023-sto.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

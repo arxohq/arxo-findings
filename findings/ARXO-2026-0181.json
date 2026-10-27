@@ -1,0 +1,146 @@
+{
+  "id": "ARXO-2026-0181",
+  "url": "https://arxo.io/findings/ARXO-2026-0181/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Companies Regulations, V8",
+  "acts": [
+    "AIFC Companies Regulations",
+    "AIFC Companies Rules",
+    "AIFC Insolvency Regulations",
+    "AIFC Insolvency Rules",
+    "AIFC Foundations Regulations"
+  ],
+  "location": "Companies Regulations V8, Schedule 1, definition \"Objectives\"",
+  "text": {
+    "en": {
+      "title": "Companies Regulations Schedule 1 and NPIO Regulations s.33(5): \"Objectives\" of the Registrar defined by s.9(1) of the Companies Regulations; the objectives are in s.10(1)",
+      "summary": "Both definitions point to \"section 9(1) (Registrar's Objectives and Functions)\". s.9 is \"Appointment of Registrar\". The objectives are set in s.10(1) (\"(the Registrar's Objectives)\"), whose heading is the one in brackets. The bracketed heading saves the meaning.",
+      "correction": "Please replace \"section 9(1)\" with \"section 10(1)\" in both definitions."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Regulations V8, Schedule 1, definition \"Objectives\"",
+        "text": "Objectives, of the Registrar, has the meaning given by section 9(1) (Registrar’s Objectives and Functions).",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf",
+        "sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a77bf2c39b86d220-comreg_v8_01.01.25.pdf",
+        "copy_sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Regulations V8, s.10(1)",
+        "text": "(the Registrar’s Objectives):",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf",
+        "sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a77bf2c39b86d220-comreg_v8_01.01.25.pdf",
+        "copy_sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Non-Profit Incorporated Organisations Regulations V6., with amendments as of 17 October 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Non-Profit Incorporated Organisations Regulations V6, s.33(5)",
+        "text": "objectives, of the Registrar of Companies, has the meaning given by section 9(1) (Registrar’s Objectives and Functions) of the AIFC Companies Regulations.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/11/npioreg_v6_may_2024_ba.pdf",
+        "sha256": "6077654febfb180e21aa944fef5ba2cc87ceec512f4769b7a211d1932caf32dd",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6077654febfb180e-npioreg_v6_may_2024_ba.pdf",
+        "copy_sha256": "6077654febfb180e21aa944fef5ba2cc87ceec512f4769b7a211d1932caf32dd",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Authority",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf"
+    },
+    {
+      "title": "Non-Profit Incorporated Organisations Regulations V6., with amendments as of 17 October 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/11/npioreg_v6_may_2024_ba.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

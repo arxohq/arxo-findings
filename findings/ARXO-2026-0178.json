@@ -1,0 +1,178 @@
+{
+  "id": "ARXO-2026-0178",
+  "url": "https://arxo.io/findings/ARXO-2026-0178/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Companies Rules, V6",
+  "acts": [
+    "AIFC Companies Regulations",
+    "AIFC Companies Rules",
+    "AIFC Insolvency Regulations",
+    "AIFC Insolvency Rules",
+    "AIFC Foundations Regulations"
+  ],
+  "location": "Companies Rules V6, rule 5.3.3",
+  "text": {
+    "en": {
+      "title": "Companies Rules 5.3 (transfer out of the AIFC): since V4 the subrules are numbered 5.3.3-5.3.6, and three cross-references, including the 60-day notice, point to numbers that no longer exist",
+      "summary": "In the Companies Rules V1-V3, rule 5.3 has 5.3.1 (application, with (c) \"a declaration ... under subrule 5.3.3\"), 5.3.2, 5.3.3 (\"For rule 5.3.1(c), the declaration ... must state\") and 5.3.4 (60-day notice before \"an application mentioned in subrule 5.3.1\"). From V4 (in force 1 January 2020) the same subrules are numbered 5.3.3-5.3.6 and there is no 5.3.1 or 5.3.2, but the text is unchanged. So 5.3.3(c) now points to itself, 5.3.5 points to \"5.3.1(c)\" and 5.3.6 ties the 60-day notice to \"an application mentioned in subrule 5.3.1\". The Companies Rules on the AFSA website (read on 24 October 2026) have the same numbering. No published amending act changes rule 5.3. Rule 5.3 deals with one application only, so the meaning can be recovered.",
+      "correction": "Please restore the numbering 5.3.1-5.3.4 of rule 5.3, as in V1-V3, so that the references in the rule resolve again."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The consolidated text",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Companies Rules V6., with amendments as of 22 September 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Rules V6, rule 5.3.3",
+        "text": "5.3.3. An application by a Company to the Registrar of Companies for authorisation under",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cor_v6_may_2024_ba.pdf",
+        "sha256": "36daca0e6b461129e14b4fe7daed2846452cca2ab5de1f27cd5f5bfb663b8eb1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/36daca0e6b461129-cor_v6_may_2024_ba.pdf",
+        "copy_sha256": "36daca0e6b461129e14b4fe7daed2846452cca2ab5de1f27cd5f5bfb663b8eb1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Companies Rules V6., with amendments as of 22 September 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Rules V6, rule 5.3.3(c)",
+        "text": "a declaration by the Directors of the Company under subrule 5.3.3.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cor_v6_may_2024_ba.pdf",
+        "sha256": "36daca0e6b461129e14b4fe7daed2846452cca2ab5de1f27cd5f5bfb663b8eb1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/36daca0e6b461129-cor_v6_may_2024_ba.pdf",
+        "copy_sha256": "36daca0e6b461129e14b4fe7daed2846452cca2ab5de1f27cd5f5bfb663b8eb1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Companies Rules V6., with amendments as of 22 September 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Rules V6, rule 5.3.5",
+        "text": "For rule 5.3.1(c), the declaration by the Directors of the Company must state that:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cor_v6_may_2024_ba.pdf",
+        "sha256": "36daca0e6b461129e14b4fe7daed2846452cca2ab5de1f27cd5f5bfb663b8eb1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/36daca0e6b461129-cor_v6_may_2024_ba.pdf",
+        "copy_sha256": "36daca0e6b461129e14b4fe7daed2846452cca2ab5de1f27cd5f5bfb663b8eb1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Companies Rules V6., with amendments as of 22 September 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Rules V6, rule 5.3.6",
+        "text": "If a Company intends to make an application mentioned in subrule 5.3.1 to the Registrar of Companies, the Company must, not later than 60 days before the day the Company makes the application",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cor_v6_may_2024_ba.pdf",
+        "sha256": "36daca0e6b461129e14b4fe7daed2846452cca2ab5de1f27cd5f5bfb663b8eb1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/36daca0e6b461129-cor_v6_may_2024_ba.pdf",
+        "copy_sha256": "36daca0e6b461129e14b4fe7daed2846452cca2ab5de1f27cd5f5bfb663b8eb1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "Companies Rules V3., with amendments as of 2 July 2019, commence on 5 August 2019",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Rules V3 (05.08.2019), rule 5.3.1",
+        "text": "5.3.1 An application by a Company to the Registrar of Companies for authorisation under",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/cor_v3_gr0004_02.07.2019.pdf",
+        "sha256": "e026b94dfcc4f867298795ae67f813b483f548ff3246570ce807cb855d1d8821",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e026b94dfcc4f867-cor_v3_gr0004_02.07.2019.pdf",
+        "copy_sha256": "e026b94dfcc4f867298795ae67f813b483f548ff3246570ce807cb855d1d8821",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Companies Rules V6., with amendments as of 22 September 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cor_v6_may_2024_ba.pdf"
+    },
+    {
+      "title": "Companies Rules V3., with amendments as of 2 July 2019, commence on 5 August 2019",
+      "url": "https://aifc.kz/wp-content/uploads/2024/05/cor_v3_gr0004_02.07.2019.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

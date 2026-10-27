@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARXO-2026-0171: DAA 4.7: the reserve of a Fiat stablecoin is only operationally segregated; the Rules do not say whether it is protected from the issuer&#x27;s own creditors and how it is shared among holders on insolvency</title>
+<meta name="description" content="DAA 4.7.1(4) requires the issuer of a Fiat stablecoin to ensure that the reserve of assets is &quot;operationally segregated from the proprietary assets of the issuer&quot;. DAA 4.7.3(7) requires the custody arrangements to protect the reserve against &quot;claims of the custodian&#x27;s creditors&quot;, and DAA 4.7.3(1)(a)">
+<link rel="canonical" href="https://arxo.io/findings/ARXO-2026-0171/">
+<link rel="alternate" type="application/atom+xml" title="Arxo Findings Register" href="../feed.atom">
+<style>
+:root{--bg:#f7f6f2;--paper:#ffffff;--ink:#1d1f22;--muted:#5d636b;--line:#dcd9d0;--accent:#1f4e79;
+--reported:#5d636b;--accepted:#1f6f5c;--disagrees:#8a5a00;--note:#2c5d8f;--corrected:#1f6f2c;--withdrawn:#8b2f2f;
+--code:#f0eee8;--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+--serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+--sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15171a;--paper:#1c1f23;--ink:#e7e5df;
+--muted:#9aa1a9;--line:#33373d;--accent:#8db8e3;--reported:#9aa1a9;--accepted:#6cc3a8;--disagrees:#e0b45c;
+--note:#8db8e3;--corrected:#7fcf86;--withdrawn:#e58f8f;--code:#25292e}}
+:root[data-theme="dark"]{--bg:#15171a;--paper:#1c1f23;--ink:#e7e5df;--muted:#9aa1a9;--line:#33373d;--accent:#8db8e3;
+--reported:#9aa1a9;--accepted:#6cc3a8;--disagrees:#e0b45c;--note:#8db8e3;--corrected:#7fcf86;--withdrawn:#e58f8f;--code:#25292e}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--sans)}
+a{color:var(--accent)}a:hover{text-decoration-thickness:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header.site{border-bottom:1px solid var(--line);background:var(--paper)}
+header.site .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;justify-content:space-between;padding-top:14px;padding-bottom:12px}
+.brand{font:600 15px/1.2 var(--sans);letter-spacing:.02em;text-decoration:none;color:var(--ink)}
+.brand span{color:var(--muted);font-weight:400}
+nav.site a{margin-right:16px;font-size:14px;color:var(--muted);text-decoration:none}nav.site a:hover{color:var(--ink)}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.25;margin:1.6em 0 .5em}
+h1{font-size:clamp(26px,4vw,36px);margin-top:.9em}h2{font-size:22px;border-bottom:1px solid var(--line);padding-bottom:6px}
+h3{font-size:17px}
+p.lede{font-size:18px;color:var(--muted);max-width:760px;margin-top:0}
+.rule{background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--accent);padding:12px 16px;margin:20px 0;max-width:820px}
+.mono,code{font-family:var(--mono);font-size:.9em}
+code{background:var(--code);padding:1px 4px;border-radius:3px;word-break:break-all}
+.badge{display:inline-flex;align-items:center;gap:6px;font:600 12px/1 var(--sans);letter-spacing:.04em;text-transform:uppercase;white-space:nowrap}
+.badge::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor;flex:none}
+.b-reported{color:var(--reported)}.b-accepted{color:var(--accepted)}.b-disagrees{color:var(--disagrees)}
+.b-note_added{color:var(--note)}.b-corrected,.b-corrected_before_report{color:var(--corrected)}.b-withdrawn{color:var(--withdrawn)}
+.filters{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 8px}
+.filters label{display:flex;flex-direction:column;font-size:12px;color:var(--muted);gap:3px}
+.filters select,.filters input{font:14px var(--sans);padding:6px 8px;border:1px solid var(--line);border-radius:4px;background:var(--paper);color:var(--ink);min-width:150px}
+.filters input{min-width:220px}
+.count{font-size:13px;color:var(--muted);margin:6px 0 10px}
+.ledger{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.ledger li{display:grid;grid-template-columns:130px 1fr 200px;gap:4px 18px;padding:12px 4px;border-bottom:1px solid var(--line)}
+.ledger li:hover{background:var(--paper)}
+.ledger .id{font-family:var(--mono);font-size:13px}.ledger .id a{text-decoration:none}
+.ledger .what a{color:var(--ink);text-decoration:none;font-weight:600}.ledger .what a:hover{color:var(--accent)}
+.ledger .meta{font-size:13px;color:var(--muted);margin-top:2px}
+.ledger .st{text-align:right}.ledger .st .when{display:block;font-size:12px;color:var(--muted);margin-top:4px}
+@media (max-width:720px){.ledger li{grid-template-columns:1fr}.ledger .st{text-align:left}}
+table.grid{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0}
+table.grid th,table.grid td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+table.grid th{font-weight:600;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.scroll{overflow-x:auto}
+dl.facts{display:grid;grid-template-columns:170px 1fr;gap:6px 16px;margin:12px 0;font-size:15px}
+dl.facts dt{color:var(--muted)}dl.facts dd{margin:0}
+@media (max-width:600px){dl.facts{grid-template-columns:1fr}dl.facts dt{margin-top:6px}}
+blockquote.q{margin:12px 0;padding:12px 16px;background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--ink);font-family:var(--serif);font-size:16px}
+.qmeta{font-size:13px;color:var(--muted);margin:4px 0 16px;overflow-wrap:anywhere}
+.tr{font-size:14px;color:var(--muted);margin:6px 0 0;font-family:var(--sans)}
+ol.history{list-style:none;padding:0;margin:8px 0;border-left:2px solid var(--line)}
+ol.history li{padding:4px 0 8px 14px;position:relative;font-size:15px}
+ol.history li::before{content:"";position:absolute;left:-5px;top:12px;width:8px;height:8px;border-radius:50%;background:var(--muted)}
+ol.history .d{font-family:var(--mono);font-size:13px;color:var(--muted);margin-right:8px}
+.alt{border-top:1px dashed var(--line);margin-top:24px;padding-top:4px}
+.headline .id{font-family:var(--mono);color:var(--muted);font-size:14px}
+footer.site{margin:48px 0 0;border-top:1px solid var(--line);padding:18px 0 40px;font-size:13px;color:var(--muted)}
+.empty{padding:20px 4px;color:var(--muted)}
+</style>
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "Report",
+ "identifier": "ARXO-2026-0171",
+ "url": "https://arxo.io/findings/ARXO-2026-0171/",
+ "headline": "DAA 4.7: the reserve of a Fiat stablecoin is only operationally segregated; the Rules do not say whether it is",
+ "name": "DAA 4.7: the reserve of a Fiat stablecoin is only operationally segregated; the Rules do not say whether it is protected from the issuer's own creditors and how it is shared among holders on insolvency",
+ "description": "DAA 4.7.1(4) requires the issuer of a Fiat stablecoin to ensure that the reserve of assets is \"operationally segregated from the proprietary assets of the issuer\". DAA 4.7.3(7) requires the custody arrangements to protect the reserve against \"claims of the custodian's creditors\", and DAA 4.7.3(1)(a) requires that the reserve is \"not encumbered nor pledged as Collateral\". DAA 4.11.2(1) requires the issuer to grant holders redemption rights \"on the reserve assets when the issuer is not able to comply with its obligations\", while DAA 4.5(1)(c) speaks of \"the rights or the absence of rights granted to the holders\". The DAA, PMS and COB do not state that the reserve is held on trust for holders or is otherwise outside the issuer's estate. Under the Insolvency Regulations (Schedule 3) property of a company excludes only property held on trust, and under rule 5.46.1 of the Insolvency Rules unsecured debts rank equally. Because the issuer is a Money Service Provider (DAA 4.1(1)), COB 8.2 applies to it (COB 8.1.4), and COB 8.2.16(2)(c) requires money remaining with the firm to be paid to each Client before the general order of winding up; it is not clear whether this covers the reserve, which is not Client Money under COB 8.2.1 and PMS 9.3, and holders who have no client agreement with the issuer (DAA 4.11.2(3)). DAA 4.7.2(3)(b) refers to an issuer \"required to implement a redemption plan\", but no rule sets out such a plan. Example: if the reserve forms part of the estate and holders rank as unsecured creditors, an issuer with 50 million USD of coins in circulation, a reserve of 50 million USD, no other assets, other unsecured creditors of 10 million USD and winding-up costs of 1 million USD pays holders about 82 cents per coin (49 / 60). The wording of 4.7.1(4), 4.7.3(7) and 4.11.2(1) is close to Articles 36(3), 37 and 39(1) of the EU Markets in Crypto-Assets Regulation (EU) 2023/1114; Article 36(2) of that Regulation, which requires the reserve to be legally segregated from the issuer's estate so that the issuer's creditors have no recourse to it, has no counterpart in the DAA.",
+ "inLanguage": "en",
+ "about": [
+  {
+   "@type": "Legislation",
+   "name": "AIFC Rules on Digital Asset Activities",
+   "legislationJurisdiction": "KZ"
+  },
+  {
+   "@type": "Legislation",
+   "name": "AIFC Rules on Providing Money Services",
+   "legislationJurisdiction": "KZ"
+  },
+  {
+   "@type": "Legislation",
+   "name": "AIFC Financial Technology Rules",
+   "legislationJurisdiction": "KZ"
+  },
+  {
+   "@type": "Legislation",
+   "name": "AIFC Representative Office Rules",
+   "legislationJurisdiction": "KZ"
+  },
+  {
+   "@type": "Legislation",
+   "name": "AIFC Auditor Rules",
+   "legislationJurisdiction": "KZ"
+  }
+ ],
+ "citation": [
+  {
+   "@type": "MediaObject",
+   "name": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+   "contentUrl": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+   "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "V3_AIFC Insolvency Regulations with amendments as of 27 December 2024, commence on 1 January 2025",
+   "contentUrl": "https://aifc.kz/wp-content/uploads/2024/06/ireg_v3_14_01.01.2025.pdf",
+   "sha256": "8c93c6f2c248880c488cbc24fd3462fa0b923eeaf240be33f71b6fb768a6efbe"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "V3_Insolvency Rules with amendments as of 15 December 2024, commence on 1 January 2025",
+   "contentUrl": "https://aifc.kz/wp-content/uploads/2024/06/ir_v3_gr0008_01.01.2025.pdf",
+   "sha256": "782ee782f649d9016e95f69bd3c2128b4b4c7fa087f47fa6f8f053feefec0f8e"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "AIFC Rules on Providing Money Services (with amendments as of 13 April 2025, which commence on 13 October 2025 and on 13 January 2026)",
+   "contentUrl": "https://aifc.kz/wp-content/uploads/2025/06/pms-rulebook-25.05.2025_-v.1.pdf",
+   "sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+   "contentUrl": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+   "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6"
+  }
+ ],
+ "publisher": {
+  "@type": "Organization",
+  "name": "Arxo Law",
+  "url": "https://arxo.io"
+ },
+ "isPartOf": {
+  "@type": "Dataset",
+  "name": "Arxo Findings Register",
+  "url": "https://arxo.io/findings/"
+ },
+ "dateModified": "2026-10-27",
+ "creativeWorkStatus": "Reported",
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+ "datePublished": "2026-10-27"
+}</script>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a class="brand" href="../index.html">Arxo Findings Register <span>· Arxo Law</span></a>
+<nav class="site"><a href="../index.html">Register</a><a href="../policy/index.html">Principles</a><a href="../method/index.html">Method</a><a href="../register.json">Data</a><a href="../feed.atom">Feed</a></nav>
+</div></header>
+<main class="wrap">
+
+<div class="headline"><p class="id">ARXO-2026-0171 · <span class="badge b-reported">Reported</span></p>
+<h1>DAA 4.7: the reserve of a Fiat stablecoin is only operationally segregated; the Rules do not say whether it is protected from the issuer&#x27;s own creditors and how it is shared among holders on insolvency</h1></div>
+
+
+<p>DAA 4.7.1(4) requires the issuer of a Fiat stablecoin to ensure that the reserve of assets is &quot;operationally segregated from the proprietary assets of the issuer&quot;. DAA 4.7.3(7) requires the custody arrangements to protect the reserve against &quot;claims of the custodian&#x27;s creditors&quot;, and DAA 4.7.3(1)(a) requires that the reserve is &quot;not encumbered nor pledged as Collateral&quot;. DAA 4.11.2(1) requires the issuer to grant holders redemption rights &quot;on the reserve assets when the issuer is not able to comply with its obligations&quot;, while DAA 4.5(1)(c) speaks of &quot;the rights or the absence of rights granted to the holders&quot;. The DAA, PMS and COB do not state that the reserve is held on trust for holders or is otherwise outside the issuer&#x27;s estate. Under the Insolvency Regulations (Schedule 3) property of a company excludes only property held on trust, and under rule 5.46.1 of the Insolvency Rules unsecured debts rank equally. Because the issuer is a Money Service Provider (DAA 4.1(1)), COB 8.2 applies to it (COB 8.1.4), and COB 8.2.16(2)(c) requires money remaining with the firm to be paid to each Client before the general order of winding up; it is not clear whether this covers the reserve, which is not Client Money under COB 8.2.1 and PMS 9.3, and holders who have no client agreement with the issuer (DAA 4.11.2(3)). DAA 4.7.2(3)(b) refers to an issuer &quot;required to implement a redemption plan&quot;, but no rule sets out such a plan. Example: if the reserve forms part of the estate and holders rank as unsecured creditors, an issuer with 50 million USD of coins in circulation, a reserve of 50 million USD, no other assets, other unsecured creditors of 10 million USD and winding-up costs of 1 million USD pays holders about 82 cents per coin (49 / 60). The wording of 4.7.1(4), 4.7.3(7) and 4.11.2(1) is close to Articles 36(3), 37 and 39(1) of the EU Markets in Crypto-Assets Regulation (EU) 2023/1114; Article 36(2) of that Regulation, which requires the reserve to be legally segregated from the issuer&#x27;s estate so that the issuer&#x27;s creditors have no recourse to it, has no counterpart in the DAA.</p><h3>Proposed correction</h3><p>Please clarify whether the reserve of assets is legally segregated from the issuer&#x27;s estate and how it is distributed among holders if the issuer becomes insolvent, including how DAA 4.11.2 relates to COB 8.2.16. If protection is intended, the DAA could provide that the reserve is held on trust for holders and set out the order of distribution and a redemption plan.</p>
+<dl class="facts"><dt>Jurisdiction</dt><dd>Kazakhstan — AIFC</dd><dt>Act</dt><dd>AIFC Rules on Digital Asset Activities (DAA), V5</dd><dt>Place</dt><dd>DAA 4.7.1(4), p.83</dd><dt>Record</dt><dd>Question of reading or data</dd><dt>Class</dt><dd>Question of reading or data</dd><dt>Where it arose</dt><dd>The text of the act</dd><dt>Arxo&#x27;s conclusion</dt><dd>Confirmed</dd><dt>Official text</dt><dd>Unchanged at last check</dd><dt>Last checked</dt><dd>2026-10-25</dd></dl>
+<h2>Evidence</h2>
+<p>Contradiction within the text. Quotations are verbatim from the official material; translations are ours and marked.</p>
+<blockquote class="q" lang="en">must ensure that the reserve of assets is operationally segregated from the proprietary assets of the issuer</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf">AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)</a> · DAA 4.7.1(4), p.83 · retrieved 2026-10-23 · SHA-256 <code>4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557</code> · <a href="../sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf">copy</a></div><blockquote class="q" lang="en">must ensure that the reserve assets held in custody are protected against claims of the custodian’s creditors</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf">AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)</a> · DAA 4.7.3(7), p.86 · retrieved 2026-10-23 · SHA-256 <code>4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557</code> · <a href="../sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf">copy</a></div><blockquote class="q" lang="en">the reserve assets are not encumbered nor pledged as Collateral</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf">AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)</a> · DAA 4.7.3(1)(a), p.85 · retrieved 2026-10-23 · SHA-256 <code>4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557</code> · <a href="../sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf">copy</a></div><blockquote class="q" lang="en">must grant holders redemption rights at all times on the issuer of a Fiat stablecoin or Commodity stablecoin, and on the reserve assets when the issuer is not able to comply with its obligations</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf">AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)</a> · DAA 4.11.2(1), p.93 · retrieved 2026-10-23 · SHA-256 <code>4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557</code> · <a href="../sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf">copy</a></div><blockquote class="q" lang="en">at least equal to the aggregate value of the claims on the issuer of a Fiat stablecoin or Commodity stablecoin from holders of Fiat stablecoins</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf">AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)</a> · DAA 4.7.1(7), p.84 · retrieved 2026-10-23 · SHA-256 <code>4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557</code> · <a href="../sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf">copy</a></div><blockquote class="q" lang="en">are not depository liabilities or assets of the Digital Asset Trading Facility Operator and must be held on trust</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf">AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)</a> · DAA 2.13.7(2), p.38 (neighbouring rule for Clients&#x27; Digital Assets) · retrieved 2026-10-23 · SHA-256 <code>4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557</code> · <a href="../sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf">copy</a></div><blockquote class="q" lang="en">does not include property of the company held in trust by the company upon trust</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/ireg_v3_14_01.01.2025.pdf">V3_AIFC Insolvency Regulations with amendments as of 27 December 2024, commence on 1 January 2025</a> · Insolvency Regulations, Schedule 3, «Property of the company» · retrieved 2026-10-23 · SHA-256 <code>8c93c6f2c248880c488cbc24fd3462fa0b923eeaf240be33f71b6fb768a6efbe</code> · <a href="../sources/8c93c6f2c248880c-ireg_v3_14_01.01.2025.pdf">copy</a></div><blockquote class="q" lang="en">Excluded Property, in relation to a Company that is an Investment Intermediary, means</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/ir_v3_gr0008_01.01.2025.pdf">V3_Insolvency Rules with amendments as of 15 December 2024, commence on 1 January 2025</a> · Insolvency Rules, Schedule 4, «Excluded Property» · retrieved 2026-10-23 · SHA-256 <code>782ee782f649d9016e95f69bd3c2128b4b4c7fa087f47fa6f8f053feefec0f8e</code> · <a href="../sources/782ee782f649d901-ir_v3_gr0008_01.01.2025.pdf">copy</a></div><blockquote class="q" lang="en">Debts other than preferential Debts rank equally between themselves in the winding up of a Company</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/ir_v3_gr0008_01.01.2025.pdf">V3_Insolvency Rules with amendments as of 15 December 2024, commence on 1 January 2025</a> · Insolvency Rules 5.46.1 · retrieved 2026-10-23 · SHA-256 <code>782ee782f649d9016e95f69bd3c2128b4b4c7fa087f47fa6f8f053feefec0f8e</code> · <a href="../sources/782ee782f649d901-ir_v3_gr0008_01.01.2025.pdf">copy</a></div><blockquote class="q" lang="en">provisions that prescribe procedures and priorities for dealing with assets of a licensed Company</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/ireg_v3_14_01.01.2025.pdf">V3_AIFC Insolvency Regulations with amendments as of 27 December 2024, commence on 1 January 2025</a> · Insolvency Regulations s.100(2) · retrieved 2026-10-23 · SHA-256 <code>8c93c6f2c248880c488cbc24fd3462fa0b923eeaf240be33f71b6fb768a6efbe</code> · <a href="../sources/8c93c6f2c248880c-ireg_v3_14_01.01.2025.pdf">copy</a></div><blockquote class="q" lang="en">sums received from, or for the benefit of, a Client for the execution of a Payment Transaction</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2025/06/pms-rulebook-25.05.2025_-v.1.pdf">AIFC Rules on Providing Money Services (with amendments as of 13 April 2025, which commence on 13 October 2025 and on 13 January 2026)</a> · PMS 9.3(1)(a) · retrieved 2026-10-23 · SHA-256 <code>333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a</code> · <a href="../sources/333935eb310b57bc-pms-rulebook-25.05.2025_-v.1.pdf">copy</a></div><blockquote class="q" lang="en">The fiat currency held by the issuer would be considered as Client Money</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf">AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)</a> · DAA 4.7.1, Guidance · retrieved 2026-10-23 · SHA-256 <code>4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557</code> · <a href="../sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf">copy</a></div><blockquote class="q" lang="en">carrying on of Investment Business or Provides Money Services in or from the AIFC must comply with COB 8.2</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf">Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)</a> · COB 8.1.4 (Money Service Providers — COB 8.2) · retrieved 2026-10-23 · SHA-256 <code>ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6</code> · <a href="../sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf">copy</a></div><blockquote class="q" lang="en">any Money remaining with the Authorised Firm must be paid to each Client in full or, where insufficient funds are held by the Authorised Firm, proportionately, in accordance with each Client’s valid claim over that Money</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf">Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)</a> · COB 8.2.16(2)(c) · retrieved 2026-10-23 · SHA-256 <code>ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6</code> · <a href="../sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf">copy</a></div><blockquote class="q" lang="en">to the extent that these Rules are inconsistent with the AIFC Insolvency Regulations, these Rules will prevail</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf">Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)</a> · COB 8.2.16(1) · retrieved 2026-10-23 · SHA-256 <code>ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6</code> · <a href="../sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf">copy</a></div><blockquote class="q" lang="en">the rights or the absence of rights granted to the holders of Fiat stablecoins</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf">AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)</a> · DAA 4.5(1)(c), p.78 · retrieved 2026-10-23 · SHA-256 <code>4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557</code> · <a href="../sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf">copy</a></div><blockquote class="q" lang="en">with valid client agreements with the issuer of a Fiat stablecoin or Commodity stablecoin</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf">AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)</a> · DAA 4.11.2(3), p.93 · retrieved 2026-10-23 · SHA-256 <code>4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557</code> · <a href="../sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf">copy</a></div><blockquote class="q" lang="en">has been required to implement a redemption plan</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf">AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)</a> · DAA 4.7.2(3)(b), p.84 · retrieved 2026-10-23 · SHA-256 <code>4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557</code> · <a href="../sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf">copy</a></div>
+
+<h2>How to check it without Arxo's tools</h2>
+<ol><li>Open <a href="https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf">AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)</a> and find DAA 4.7.1(4), p.83; DAA 4.7.3(7), p.86; DAA 4.7.3(1)(a), p.85; DAA 4.11.2(1), p.93; DAA 4.7.1(7), p.84; DAA 2.13.7(2), p.38 (neighbouring rule for Clients&#x27; Digital Assets); DAA 4.7.1, Guidance; DAA 4.5(1)(c), p.78; DAA 4.11.2(3), p.93; DAA 4.7.2(3)(b), p.84. Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf">4a5174f747a66c22-daa_v5_01.01.2026.pdf</a> (SHA-256 <code>4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557</code>, copy of the official file).</li><li>Open <a href="https://aifc.kz/wp-content/uploads/2024/06/ireg_v3_14_01.01.2025.pdf">V3_AIFC Insolvency Regulations with amendments as of 27 December 2024, commence on 1 January 2025</a> and find Insolvency Regulations, Schedule 3, «Property of the company»; Insolvency Regulations s.100(2). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/8c93c6f2c248880c-ireg_v3_14_01.01.2025.pdf">8c93c6f2c248880c-ireg_v3_14_01.01.2025.pdf</a> (SHA-256 <code>8c93c6f2c248880c488cbc24fd3462fa0b923eeaf240be33f71b6fb768a6efbe</code>, copy of the official file).</li><li>Open <a href="https://aifc.kz/wp-content/uploads/2024/06/ir_v3_gr0008_01.01.2025.pdf">V3_Insolvency Rules with amendments as of 15 December 2024, commence on 1 January 2025</a> and find Insolvency Rules, Schedule 4, «Excluded Property»; Insolvency Rules 5.46.1. Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/782ee782f649d901-ir_v3_gr0008_01.01.2025.pdf">782ee782f649d901-ir_v3_gr0008_01.01.2025.pdf</a> (SHA-256 <code>782ee782f649d9016e95f69bd3c2128b4b4c7fa087f47fa6f8f053feefec0f8e</code>, copy of the official file).</li><li>Open <a href="https://aifc.kz/wp-content/uploads/2025/06/pms-rulebook-25.05.2025_-v.1.pdf">AIFC Rules on Providing Money Services (with amendments as of 13 April 2025, which commence on 13 October 2025 and on 13 January 2026)</a> and find PMS 9.3(1)(a). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/333935eb310b57bc-pms-rulebook-25.05.2025_-v.1.pdf">333935eb310b57bc-pms-rulebook-25.05.2025_-v.1.pdf</a> (SHA-256 <code>333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a</code>, copy of the official file).</li><li>Open <a href="https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf">Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)</a> and find COB 8.1.4 (Money Service Providers — COB 8.2); COB 8.2.16(2)(c); COB 8.2.16(1). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf">ae99fece8c925210-cob_v17_13.01.2026-1.pdf</a> (SHA-256 <code>ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6</code>, copy of the official file).</li><li>The finding holds if the quoted passages read as shown and the comparison gives the result stated at the top of this page. If it does not, write to us with the record ID.</li></ol>
+<h2>How this finding was made</h2>
+<p>AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27).</p>
+
+<h2>Responsible institutions</h2><ul><li>Astana Financial Services Authority (AFSA) — author of the AIFC Rules</li></ul>
+<h2>Reported to</h2>
+<div class="scroll"><table class="grid"><thead><tr><th>Date</th><th>Institution</th><th>Channel</th><th>Reference</th></tr></thead><tbody><tr><td class="mono">2026-10-27</td><td>Astana Financial Services Authority (AFSA)</td><td>e-mail</td><td class="mono"></td></tr></tbody></table></div>
+<h2>Responses</h2>
+<p>No response recorded.</p>
+<h2>Documents and reproduction</h2><ul><li><a href="https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf">AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)</a></li><li><a href="https://aifc.kz/wp-content/uploads/2024/06/ireg_v3_14_01.01.2025.pdf">V3_AIFC Insolvency Regulations with amendments as of 27 December 2024, commence on 1 January 2025</a></li><li><a href="https://aifc.kz/wp-content/uploads/2024/06/ir_v3_gr0008_01.01.2025.pdf">V3_Insolvency Rules with amendments as of 15 December 2024, commence on 1 January 2025</a></li><li><a href="https://aifc.kz/wp-content/uploads/2025/06/pms-rulebook-25.05.2025_-v.1.pdf">AIFC Rules on Providing Money Services (with amendments as of 13 April 2025, which commence on 13 October 2025 and on 13 January 2026)</a></li><li><a href="https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf">Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)</a></li></ul>
+<h2>Related records</h2><ul><li><a href="../ARXO-2026-0149/index.html">ARXO-2026-0149</a> — Part 4 covers issuers of Commodity stablecoins, but authorisation (4.1) and capital (4.2) name only Fiat stablecoins</li></ul>
+<h2>History</h2>
+<ol class="history"><li><span class="d">2026-10-25</span>Confirmed by Arxo</li><li><span class="d">2026-10-27</span>Entered in the register</li><li><span class="d">2026-10-27</span>Reported to Astana Financial Services Authority (AFSA) (e-mail)</li></ol>
+
+<h2>Cite this record</h2>
+<p>Arxo Law, Arxo Findings Register, ARXO-2026-0171, https://arxo.io/findings/ARXO-2026-0171/ (status as of 2026-10-25). Data: <a href="../findings/ARXO-2026-0171.json">ARXO-2026-0171.json</a>.</p>
+
+</main>
+<footer class="site"><div class="wrap">
+Published by Arxo Law. Data under CC BY 4.0: <a href="../register.json">register.json</a> · <a href="../findings.csv">findings.csv</a> · <a href="../SHA256SUMS">SHA256SUMS</a>.
+Objections, reports of our own mistakes and requests for verification: <a href="mailto:hi@arxo.io">hi@arxo.io</a> — give the record ID, the conclusion you dispute and your source. We acknowledge receipt within five working days and answer on the merits within ten.
+<a href="../policy/index.html">Responsible Disclosure of Defects in Law</a>. Arxo executes the canon.
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,297 @@
+{
+  "id": "ARXO-2026-0105",
+  "url": "https://arxo.io/findings/ARXO-2026-0105/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Conduct of Business Rules (COB), V17",
+  "acts": [
+    "AIFC Market Rules",
+    "AIFC Authorised Market Institution Rules",
+    "AIFC Recognition Rules",
+    "AIFC MTF and OTF Rules"
+  ],
+  "location": "COB 1.2.2(c)",
+  "text": {
+    "en": {
+      "title": "COB 1.2.2(c) applies COB 8 (Client Assets) to Authorised Crowdfunding Platforms, but the reading rule does not reach the scope of COB 8, which is defined by Investment Business",
+      "summary": "COB 1.2.2(c) disapplies COB for an Authorised Crowdfunding Platform except COB 3, COB 4, COB 7, \"COB 8 (Client Assets)\" and COB Schedule 2, and the reading rule that follows provides that in these chapters \"Regulated Activities\" shall be read as \"Market Activities\". COB 8 does not use that term to set its scope: it applies to a firm that holds Money for a Client \"in the course of, or in connection with, the carrying on of Investment Business or Provides Money Services\" (COB 8.1.2(a), 8.1.4), and COB 8.2.1 defines Client Money by Investment Business. Operating a Loan or Investment Crowdfunding Platform is a Market Activity and is not in the Glossary definition of Investment Business. Read literally, the Client Money Rules do not attach to money a platform holds for lenders or investors, for example before the target funding amount is reached (AMI 7.3.22) or when it collects repayments for lenders (AMI 7.4.2), unless the platform also holds a licence for Investment Business or Money Services (AMI 7.2.1). AMI 2.9.1 requires satisfactory arrangements for safeguarding users' assets, and AMI 7.3.4(1)(n) requires disclosure of the \"arrangements and safeguards for Client Assets held or controlled by an Authorised Crowdfunding Platform\", but these rules do not set out the client money rules or the distribution rules in COB 8.2.16. Example: lenders transfer 900,000 USD to a platform for a loan with a target of 1,000,000 USD; the platform fails before the target is reached; whether the 900,000 USD is Client Money protected by COB 8.2.16 depends on whether COB 8 is read as reaching Market Activities.",
+      "correction": "Please add to the reading rules for COB 1.2.2(c) that references in COB 8 to \"Investment Business\" are read as references to the Market Activities of an Authorised Crowdfunding Platform, or otherwise state how COB 8 applies to money held by such platforms."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB 1.2.2(c)",
+        "text": "an Authorised Crowdfunding Platform, except for COB 3 (Communications with Clients and Financial Promotions), COB 4 (Key Information and Client Agreement), COB 7 (Conflicts of Interest), COB 8 (Client Assets)",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB 1.2.2, reading rule for (c)(b)",
+        "text": "\"Regulated Activities\" shall be read as if it were a reference to \"Market Activities\"",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB 8.1.2(a)",
+        "text": "receives Money from, or holds or controls Money for or on behalf of, a Client in the course of, or in connection with, the carrying on of Investment Business or Provides Money Services in or from the AIFC",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB 8.2.1",
+        "text": "carrying on of Investment Business in or from the AIFC is Client Money, except Money which is",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Glossary (GLO), V23",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary, «Authorised Crowdfunding Platform»",
+        "text": "Market Activity of Operating a Loan Crowdfunding Platform",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf",
+        "sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "retrieved": "2026-10-23",
+        "copy": "sources/041617346ad87a9f-glo-v23.pdf",
+        "copy_sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "AIFC Glossary (GLO), V23",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary, «Investment Business», p.26 (the exclusion follows the whole list (a)–(k))",
+        "text": "(k) Operating an Exchange, but not including Digital Asset Business.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf",
+        "sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "retrieved": "2026-10-23",
+        "copy": "sources/041617346ad87a9f-glo-v23.pdf",
+        "copy_sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "Authorised Market Institution Rules V11., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AMI 7.3.22(1)",
+        "text": "all loan proceeds are only provided to the Borrower or offering proceeds are only provided to the Issuer when the aggregate capital raised from all lenders or Investors is equal to or greater than the target funding amount",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ami_v11_01.01.2026-1.pdf",
+        "sha256": "8f6c60e7a2ea9f1b70a5fc63cf33f8f9f4e5192e4f54dec80e109c914651b198",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8f6c60e7a2ea9f1b-ami_v11_01.01.2026-1.pdf",
+        "copy_sha256": "8f6c60e7a2ea9f1b70a5fc63cf33f8f9f4e5192e4f54dec80e109c914651b198",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l8",
+        "source": "Authorised Market Institution Rules V11., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AMI 7.4.2(1)",
+        "text": "A Loan Crowdfunding Platform must have in place arrangements to administer the collection of amounts due and payable under a Permitted Loan.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ami_v11_01.01.2026-1.pdf",
+        "sha256": "8f6c60e7a2ea9f1b70a5fc63cf33f8f9f4e5192e4f54dec80e109c914651b198",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8f6c60e7a2ea9f1b-ami_v11_01.01.2026-1.pdf",
+        "copy_sha256": "8f6c60e7a2ea9f1b70a5fc63cf33f8f9f4e5192e4f54dec80e109c914651b198",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l9",
+        "source": "Authorised Market Institution Rules V11., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AMI 7.3.4(1)(n)",
+        "text": "arrangements and safeguards for Client Assets held or controlled by an Authorised Crowdfunding Platform",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ami_v11_01.01.2026-1.pdf",
+        "sha256": "8f6c60e7a2ea9f1b70a5fc63cf33f8f9f4e5192e4f54dec80e109c914651b198",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8f6c60e7a2ea9f1b-ami_v11_01.01.2026-1.pdf",
+        "copy_sha256": "8f6c60e7a2ea9f1b70a5fc63cf33f8f9f4e5192e4f54dec80e109c914651b198",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l10",
+        "source": "Authorised Market Institution Rules V11., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AMI 2.9.1(1)",
+        "text": "where its facilities include making provision for the safeguarding and administration of assets belonging to users of those facilities",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ami_v11_01.01.2026-1.pdf",
+        "sha256": "8f6c60e7a2ea9f1b70a5fc63cf33f8f9f4e5192e4f54dec80e109c914651b198",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8f6c60e7a2ea9f1b-ami_v11_01.01.2026-1.pdf",
+        "copy_sha256": "8f6c60e7a2ea9f1b70a5fc63cf33f8f9f4e5192e4f54dec80e109c914651b198",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l11",
+        "source": "Authorised Market Institution Rules V11., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AMI 7.2.1",
+        "text": "An Authorised Crowdfunding Platform may apply to the AFSA to carry on one or more of the following Regulated and Market Activities",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ami_v11_01.01.2026-1.pdf",
+        "sha256": "8f6c60e7a2ea9f1b70a5fc63cf33f8f9f4e5192e4f54dec80e109c914651b198",
+        "retrieved": "2026-10-23",
+        "copy": "sources/8f6c60e7a2ea9f1b-ami_v11_01.01.2026-1.pdf",
+        "copy_sha256": "8f6c60e7a2ea9f1b70a5fc63cf33f8f9f4e5192e4f54dec80e109c914651b198",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l12",
+        "source": "V3_Insolvency Rules with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Insolvency Rules, Schedule 4, «Excluded Property»(b)",
+        "text": "if any AFSA Rules relating to the holding by Investment Intermediaries of Money belonging to third parties apply in relation to the Company",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/ir_v3_gr0008_01.01.2025.pdf",
+        "sha256": "782ee782f649d9016e95f69bd3c2128b4b4c7fa087f47fa6f8f053feefec0f8e",
+        "retrieved": "2026-10-23",
+        "copy": "sources/782ee782f649d901-ir_v3_gr0008_01.01.2025.pdf",
+        "copy_sha256": "782ee782f649d9016e95f69bd3c2128b4b4c7fa087f47fa6f8f053feefec0f8e",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf"
+    },
+    {
+      "title": "AIFC Glossary (GLO), V23",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf"
+    },
+    {
+      "title": "Authorised Market Institution Rules V11., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/ami_v11_01.01.2026-1.pdf"
+    },
+    {
+      "title": "V3_Insolvency Rules with amendments as of 15 December 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/ir_v3_gr0008_01.01.2025.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

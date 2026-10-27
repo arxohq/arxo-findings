@@ -1,0 +1,161 @@
+{
+  "id": "ARXO-2026-0191",
+  "url": "https://arxo.io/findings/ARXO-2026-0191/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC website, page of the List of financial services exempt from corporate income tax and VAT",
+  "acts": [
+    "Constitutional Statute on the AIFC",
+    "Tax Code of the Republic of Kazakhstan 2025",
+    "AIFC Tax Administration Rules",
+    "Joint Order of 2020 on the List of financial services"
+  ],
+  "location": "aifc.kz act page (Taxation), 'Effective Version' block",
+  "text": {
+    "en": {
+      "title": "aifc.kz: the page of the CIT/VAT-exempt List sends readers for the 'current version' to the regulator's page of a different act — the AML list of services subject to financial monitoring",
+      "summary": "The aifc.kz page \"The List of financial services provided by the AIFC participants, income from which is exempt from CIT and VAT\" (Joint Order No. 126/547/118 of 2020) says that the current version can be found on the regulator's website and links to orderly.myafsa.com/articles/the-list-of-financial-services-and-ancillary-services-...-subject-to-the-financial-monitoring. That address is the regulator's page of a different act: the list of services subject to financial monitoring, which aifc.kz publishes on its own page with the same link.",
+      "correction": "Please remove the \"current version\" link from this page, or point it to a page that reproduces the 2020 Joint Order."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "aifc.kz act page the-list-of-financial-services-provided-by-the-aifc-participants-income-from-which-is-exempt-from-cit-and-vat",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "aifc.kz act page (Taxation), 'Effective Version' block",
+        "text": "current version can be found on Regulator's website",
+        "translations": {},
+        "url": "https://aifc.kz/legal-framework/the-list-of-financial-services-provided-by-the-aifc-participants-income-from-which-is-exempt-from-cit-and-vat/",
+        "sha256": "1c65910e768e02c1492455d5adecf791202b05047fc7feb55103fd489aabe1ca",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1c65910e768e02c1-the-list-of-financial-services-provided-by-the-aifc-participants-income-from-which-is-exempt-from-cit-and-vat.html",
+        "copy_sha256": "1c65910e768e02c1492455d5adecf791202b05047fc7feb55103fd489aabe1ca",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "aifc.kz act page the-list-of-financial-services-provided-by-the-aifc-participants-income-from-which-is-exempt-from-cit-and-vat",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "same, link text",
+        "text": "https://orderly.myafsa.com/articles/the-list-of-financial-services-and-ancillary-services-provided-by-the-astana-international-financial-centre-participants-subject-to-the-financial-monitoring",
+        "translations": {},
+        "url": "https://aifc.kz/legal-framework/the-list-of-financial-services-provided-by-the-aifc-participants-income-from-which-is-exempt-from-cit-and-vat/",
+        "sha256": "1c65910e768e02c1492455d5adecf791202b05047fc7feb55103fd489aabe1ca",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1c65910e768e02c1-the-list-of-financial-services-provided-by-the-aifc-participants-income-from-which-is-exempt-from-cit-and-vat.html",
+        "copy_sha256": "1c65910e768e02c1492455d5adecf791202b05047fc7feb55103fd489aabe1ca",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "aifc.kz act page the-list-of-financial-services-provided-by-the-aifc-participants-income-from-which-is-exempt-from-cit-and-vat",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "same, file label",
+        "text": "The List of financial services provided by the AIFC participants, income from which is exempt from Corporate Income Tax and Value Added Tax ru",
+        "translations": {},
+        "url": "https://aifc.kz/legal-framework/the-list-of-financial-services-provided-by-the-aifc-participants-income-from-which-is-exempt-from-cit-and-vat/",
+        "sha256": "1c65910e768e02c1492455d5adecf791202b05047fc7feb55103fd489aabe1ca",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1c65910e768e02c1-the-list-of-financial-services-provided-by-the-aifc-participants-income-from-which-is-exempt-from-cit-and-vat.html",
+        "copy_sha256": "1c65910e768e02c1492455d5adecf791202b05047fc7feb55103fd489aabe1ca",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "aifc.kz act page the-list-of-financial-services-and-ancillary-services-provided-by-the-astana-international-financial-centre-participants-subject-to-the-financial-monitoring",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "aifc.kz page of the AML list (Financial Services), file label",
+        "text": "List of financial services and ancillary services provided by the Astana International Financial Centre participants, subject to the financial monitoring ru",
+        "translations": {},
+        "url": "https://aifc.kz/legal-framework/the-list-of-financial-services-and-ancillary-services-provided-by-the-astana-international-financial-centre-participants-subject-to-the-financial-monitoring/",
+        "sha256": "e303fd6e0bcce68214be73aece16ee0a5dab108e1561e68b9efded897936feb0",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e303fd6e0bcce682-the-list-of-financial-services-and-ancillary-services-provided-by-the-astana-international-financial-centre-participants-subject-to-the-financial-monitoring.html",
+        "copy_sha256": "e303fd6e0bcce68214be73aece16ee0a5dab108e1561e68b9efded897936feb0",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "publisher of AIFC acts on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Authority",
+      "role": "publisher of AIFC acts on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "aifc.kz act page the-list-of-financial-services-provided-by-the-aifc-participants-income-from-which-is-exempt-from-cit-and-vat",
+      "url": "https://aifc.kz/legal-framework/the-list-of-financial-services-provided-by-the-aifc-participants-income-from-which-is-exempt-from-cit-and-vat/"
+    },
+    {
+      "title": "aifc.kz act page the-list-of-financial-services-and-ancillary-services-provided-by-the-astana-international-financial-centre-participants-subject-to-the-financial-monitoring",
+      "url": "https://aifc.kz/legal-framework/the-list-of-financial-services-and-ancillary-services-provided-by-the-astana-international-financial-centre-participants-subject-to-the-financial-monitoring/"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

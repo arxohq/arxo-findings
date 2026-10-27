@@ -1,0 +1,149 @@
+{
+  "id": "ARXO-2026-0067",
+  "url": "https://arxo.io/findings/ARXO-2026-0067/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Glossary (GLO), V23",
+  "acts": [
+    "AIFC Rules No. FR0017 of 2017 (Glossary)"
+  ],
+  "location": "Glossary V23, entry \"Client Money Distribution Rules\"",
+  "text": {
+    "en": {
+      "title": "Glossary: three insurance client money terms point to COB 11.8, which no longer exists",
+      "summary": "\"Client Money Distribution Rules\" (\"COB 11.8.14\"), \"Client Money\" (\"COB 11.8.4\") and \"Segregated Client\" (\"COB 11.8\") point to COB 11.8. Chapter 11 of the current COB ends at 11.7; the client money rules for insurance intermediation are in COB 8.5 (including 8.5.5, money held as agent of an insurer, and 8.5.15, distribution rules). The draft in Consultation Paper AFSA-PSRD-CSP-2026-0005 changes the fourth such entry, \"Insurance Intermediary Audit Report\", to refer to GEN 6.3.9, which we support, but leaves these three as they are.",
+      "correction": "Please reconcile the three definitions with COB 8.5."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Glossary (GLO), V23",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary V23, entry \"Client Money Distribution Rules\"",
+        "text": "In COB 11, the Rules contained in COB 11.8.14.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf",
+        "sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "retrieved": "2026-10-23",
+        "copy": "sources/041617346ad87a9f-glo-v23.pdf",
+        "copy_sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Glossary (GLO), V23",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary V23, entry \"Client Money\"",
+        "text": "in accordance with COB 11.8.4;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf",
+        "sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "retrieved": "2026-10-23",
+        "copy": "sources/041617346ad87a9f-glo-v23.pdf",
+        "copy_sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Glossary (GLO), V23",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary V23, entry \"Segregated Client\"",
+        "text": "COB 8.2, COB 8.3 or COB 11.8.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf",
+        "sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "retrieved": "2026-10-23",
+        "copy": "sources/041617346ad87a9f-glo-v23.pdf",
+        "copy_sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "AFSA Consultation Paper AFSA-PSRD-CSP-2026-0005: Targeted Amendments to the AIFC Rules (15.07.2026)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "Consultation Paper AFSA-PSRD-CSP-2026-0005 (15.07.2026, closed, not adopted as of 25.10.2026), Annex, Glossary «Insurance Intermediary Audit Report»",
+        "text": "The report specified in COB 11.8.15 GEN 6.3.9.",
+        "translations": {},
+        "url": "https://orderly.myafsa.com/api/pdf?articleId=a0001TEMM0004__TEMP__TEMP0006",
+        "sha256": "05a2ed115abcc1ab90a39c74ced2414b5a157d49522442ec652e29947cb34872",
+        "retrieved": "2026-10-25",
+        "copy": "sources/05a2ed115abcc1ab-AFSA-PSRD-CSP-2026-0005.pdf",
+        "copy_sha256": "05a2ed115abcc1ab90a39c74ced2414b5a157d49522442ec652e29947cb34872",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

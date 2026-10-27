@@ -1,0 +1,169 @@
+{
+  "id": "ARXO-2026-0098",
+  "url": "https://arxo.io/findings/ARXO-2026-0098/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Market Rules (MAR), V13",
+  "acts": [
+    "AIFC Market Rules",
+    "AIFC Authorised Market Institution Rules",
+    "AIFC Recognition Rules",
+    "AIFC MTF and OTF Rules"
+  ],
+  "location": "MAR V13, 2.4.5(b) (rule), page 35",
+  "text": {
+    "en": {
+      "title": "MAR 2.4.5(b) refers to \"a Takeover Offer under the Takeover Rules\": which Takeover Rules apply?",
+      "summary": "MAR 2.4.5(b) lifts the closed-period dealing ban for \"undertakings to accept, or the acceptance of, a Takeover Offer under the Takeover Rules\". The Glossary defines \"Takeover Rules\" as Rules prescribed by the AFSA under section 88(1)(a) of the Framework Regulations, which says that the AFSA \"may prescribe\" such Rules. We did not find any Takeover Rules among the acts published on aifc.kz or in the AFSA online rulebook. Chapter 11 of Part 7 of the AIFC Companies Regulations (\"Protection of Minorities in Takeovers\") is part of the Regulations, not Rules made by the AFSA under section 88(1)(a). If no Takeover Rules have been made, exemption (b) has nothing to apply to, and a Restricted Person would need clearance under MAR 2.4.4.",
+      "correction": "Please identify the Takeover Rules that apply for MAR 2.4.5(b), or confirm that this exemption currently has no application. If it is meant to apply now, please consider referring simply to \"a Takeover Offer\", which the Glossary defines."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 2.4.5(b) (rule), page 35",
+        "text": "undertakings to accept, or the acceptance of, a Takeover Offer under the Takeover Rules;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Glossary (GLO), V23",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Glossary V23, 'Takeover Rules'",
+        "text": "Rules prescribed by the AFSA pursuant to section 88(1)(a) of the Framework",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf",
+        "sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "retrieved": "2026-10-23",
+        "copy": "sources/041617346ad87a9f-glo-v23.pdf",
+        "copy_sha256": "041617346ad87a9ff3634eff95b3b92f65ee5f4965298a2c1137b8b9a8374b45",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Financial Services Framework Regulations, V12",
+        "role": "Later act",
+        "language": "en",
+        "edition": null,
+        "locator": "FSFR V12 s.88(1), page 43",
+        "text": "The AFSA may prescribe by Rules",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/fsfr_v12-18.10.2024-itf_gk.pdf",
+        "sha256": "9c995b9be0e4359d9a595afe7d0a9d5d9f3a4597c3ee3255db2b2e1df520b5c3",
+        "retrieved": "2026-10-23",
+        "copy": "sources/9c995b9be0e4359d-fsfr-v12.pdf",
+        "copy_sha256": "9c995b9be0e4359d9a595afe7d0a9d5d9f3a4597c3ee3255db2b2e1df520b5c3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AIFC Companies Regulations V8, Part 7, Chapter 11 heading (Regulations, not AFSA Rules)",
+        "text": "CHAPTER 11–PROTECTION OF MINORITIES IN TAKEOVERS",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf",
+        "sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a77bf2c39b86d220-comreg_v8_01.01.25.pdf",
+        "copy_sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf"
+    },
+    {
+      "title": "AIFC Glossary (GLO), V23",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/glo_v23_01.01.2026.pdf"
+    },
+    {
+      "title": "AIFC Financial Services Framework Regulations, V12",
+      "url": "https://aifc.kz/wp-content/uploads/2024/05/fsfr_v12-18.10.2024-itf_gk.pdf"
+    },
+    {
+      "title": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

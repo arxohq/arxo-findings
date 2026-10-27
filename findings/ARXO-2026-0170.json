@@ -1,0 +1,158 @@
+{
+  "id": "ARXO-2026-0170",
+  "url": "https://arxo.io/findings/ARXO-2026-0170/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "Rules and mechanisms of cooperation of unbacked digital asset exchanges and Centre Participants with second-tier banks of the Republic of Kazakhstan",
+  "acts": [
+    "AIFC Rules on Digital Asset Activities",
+    "AIFC Rules on Providing Money Services",
+    "AIFC Financial Technology Rules",
+    "AIFC Representative Office Rules",
+    "AIFC Auditor Rules"
+  ],
+  "location": "Cooperation Rules 3.1.1",
+  "text": {
+    "en": {
+      "title": "Bank-cooperation Rules 3.1.1: the USD 1,000 monthly limit is on \"depositing\", but 3.1.3 and the Guidance treat it as a limit on investments (purchases)",
+      "summary": "Rule 3.1.1 requires controls preventing individual Retail Clients resident in Kazakhstan (unless they pass the provider's test) \"from depositing more than 1,000 (one thousand) USD within one calendar month\". The heading of 3.1 is \"Limits for investing\", rule 3.1.3 speaks of \"the limits on investments in Digital Assets\" as provided under rule 3.1.1, and the Guidance says: \"Only purchase transactions of Digital Assets in the jurisdiction of the Centre are taken into account when calculating the limit.\" Deposits and purchases can differ: a client may deposit USD 3,000 and buy for USD 900, or deposit USD 900 and buy for USD 3,000 using sale proceeds.",
+      "correction": "Please clarify whether the limit measures deposits or purchases (and whether any netting is permitted), and align rule 3.1.1 and the Guidance."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Rules and mechanisms of cooperation of Unbacked Digital Asset Exchanges and/or Centre Participants authorized to carry out digital assets-related activities with second-tier bank of the Republic of Ka",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Cooperation Rules 3.1.1",
+        "text": "from depositing more than 1,000 (one thousand) USD within one calendar month.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan.pdf",
+        "sha256": "fdae78fa000df953b46f14532a045d8ece13715191fae067b45554b2d12509c0",
+        "retrieved": "2026-10-23",
+        "copy": "sources/fdae78fa000df953-rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan.pdf",
+        "copy_sha256": "fdae78fa000df953b46f14532a045d8ece13715191fae067b45554b2d12509c0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Rules and mechanisms of cooperation of Unbacked Digital Asset Exchanges and/or Centre Participants authorized to carry out digital assets-related activities with second-tier bank of the Republic of Ka",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Cooperation Rules, Guidance to 3.1.3",
+        "text": "Only purchase transactions of Digital Assets in the jurisdiction of the Centre are taken into account when calculating the limit.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan.pdf",
+        "sha256": "fdae78fa000df953b46f14532a045d8ece13715191fae067b45554b2d12509c0",
+        "retrieved": "2026-10-23",
+        "copy": "sources/fdae78fa000df953-rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan.pdf",
+        "copy_sha256": "fdae78fa000df953b46f14532a045d8ece13715191fae067b45554b2d12509c0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Rules and mechanisms of cooperation of Unbacked Digital Asset Exchanges and/or Centre Participants authorized to carry out digital assets-related activities with second-tier bank of the Republic of Ka",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Cooperation Rules 3.1 heading",
+        "text": "Limits for investing",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan.pdf",
+        "sha256": "fdae78fa000df953b46f14532a045d8ece13715191fae067b45554b2d12509c0",
+        "retrieved": "2026-10-23",
+        "copy": "sources/fdae78fa000df953-rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan.pdf",
+        "copy_sha256": "fdae78fa000df953b46f14532a045d8ece13715191fae067b45554b2d12509c0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Rules and mechanisms of cooperation of Unbacked Digital Asset Exchanges and/or Centre Participants authorized to carry out digital assets-related activities with second-tier bank of the Republic of Ka",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Cooperation Rules 3.1.3",
+        "text": "ensures compliance with the limits on investments in Digital Assets by individual Retail Clients",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan.pdf",
+        "sha256": "fdae78fa000df953b46f14532a045d8ece13715191fae067b45554b2d12509c0",
+        "retrieved": "2026-10-23",
+        "copy": "sources/fdae78fa000df953-rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan.pdf",
+        "copy_sha256": "fdae78fa000df953b46f14532a045d8ece13715191fae067b45554b2d12509c0",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Rules and mechanisms of cooperation of Unbacked Digital Asset Exchanges and/or Centre Participants authorized to carry out digital assets-related activities with second-tier bank of the Republic of Ka",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

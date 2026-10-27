@@ -1,0 +1,250 @@
+{
+  "id": "ARXO-2026-0169",
+  "url": "https://arxo.io/findings/ARXO-2026-0169/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "Rules and mechanisms of cooperation of unbacked digital asset exchanges and Centre Participants with second-tier banks of the Republic of Kazakhstan",
+  "acts": [
+    "AIFC Rules on Digital Asset Activities",
+    "AIFC Rules on Providing Money Services",
+    "AIFC Financial Technology Rules",
+    "AIFC Representative Office Rules",
+    "AIFC Auditor Rules"
+  ],
+  "location": "Cooperation Rules 3.3.2",
+  "text": {
+    "en": {
+      "title": "Bank-cooperation Rules: Schedule 2 still shows the 2023 DAA capital table (Self-managed Fund row, old DATF measure), while 3.3.1 refers to the DAA rules",
+      "summary": "Rule 3.3.1 of the Rules and mechanisms of cooperation with second-tier banks requires Digital Asset Service Providers to hold minimum capital \"in accordance with rules 2.2. and 3.2\" of the DAA, and 3.3.2 says the amounts \"are specified in Schedule 2\". Schedule 2, both in the PDF on aifc.kz (approved 11 December 2023) and on the regulator's website, still has (1) the row \"Managing a Collective Investment Scheme, which is a Self-managed Fund ...\" with USD 200,000, which the DAA no longer contains (it is absent from the consolidated version in force from 1 January 2025), and (2) the old measure for operating a Digital Asset Trading Facility: \"sufficient working capital ... in different market conditions (both negative and positive scenarios)\". Since 1 January 2026 the DAA uses \"operational expenses in fiat currency\". The other rows match. It is not clear which source governs.",
+      "correction": "Please confirm whether Schedule 2 is meant to set its own amounts or only to reproduce the DAA, and then update Schedule 2 to the current DAA tables or replace it with a reference to DAA 2.2 and 3.2."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Rules and mechanisms of cooperation of Unbacked Digital Asset Exchanges and/or Centre Participants authorized to carry out digital assets-related activities with second-tier bank of the Republic of Ka",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Cooperation Rules 3.3.2",
+        "text": "The amounts of minimum capital of Digital Asset Service Providers are specified in Schedule",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan.pdf",
+        "sha256": "fdae78fa000df953b46f14532a045d8ece13715191fae067b45554b2d12509c0",
+        "retrieved": "2026-10-23",
+        "copy": "sources/fdae78fa000df953-rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan.pdf",
+        "copy_sha256": "fdae78fa000df953b46f14532a045d8ece13715191fae067b45554b2d12509c0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Rules and mechanisms of cooperation of Unbacked Digital Asset Exchanges and/or Centre Participants authorized to carry out digital assets-related activities with second-tier bank of the Republic of Ka",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Cooperation Rules 3.3.1",
+        "text": "Digital Asset Service Providers are required to provide a minimum amount of capital in accordance with rules 2.2. and 3.2 of the of the AIFC Rules On Digital Asset Activities",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan.pdf",
+        "sha256": "fdae78fa000df953b46f14532a045d8ece13715191fae067b45554b2d12509c0",
+        "retrieved": "2026-10-23",
+        "copy": "sources/fdae78fa000df953-rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan.pdf",
+        "copy_sha256": "fdae78fa000df953b46f14532a045d8ece13715191fae067b45554b2d12509c0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Rules and mechanisms of cooperation of Unbacked Digital Asset Exchanges and/or Centre Participants authorized to carry out digital assets-related activities with second-tier bank of the Republic of Ka",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Cooperation Rules Schedule 2, DATF row (rendered page checked)",
+        "text": "equal to sufficient working capital in fiat",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan.pdf",
+        "sha256": "fdae78fa000df953b46f14532a045d8ece13715191fae067b45554b2d12509c0",
+        "retrieved": "2026-10-23",
+        "copy": "sources/fdae78fa000df953-rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan.pdf",
+        "copy_sha256": "fdae78fa000df953b46f14532a045d8ece13715191fae067b45554b2d12509c0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Rules and mechanisms of cooperation of Unbacked Digital Asset Exchanges and/or Centre Participants authorized to carry out digital assets-related activities with second-tier bank of the Republic of Ka",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Cooperation Rules Schedule 2, Self-managed Fund row",
+        "text": "which is a Self-managed Fund and has an",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan.pdf",
+        "sha256": "fdae78fa000df953b46f14532a045d8ece13715191fae067b45554b2d12509c0",
+        "retrieved": "2026-10-23",
+        "copy": "sources/fdae78fa000df953-rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan.pdf",
+        "copy_sha256": "fdae78fa000df953b46f14532a045d8ece13715191fae067b45554b2d12509c0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA V5 Table 1, DATF row (rendered page checked)",
+        "text": "equal to operational expenses in fiat currency",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf",
+        "sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4a5174f747a66c22-daa_v5_01.01.2026.pdf",
+        "copy_sha256": "4a5174f747a66c222093a9cbd075c58816f1761b7a3b2807f86f9b98ccf28557",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "AIFC Rules on Digital Asset Activities Initial Version",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "DAA initial version Table 2 - the row Schedule 2 copies",
+        "text": "which is a Self-managed Fund and has an",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-rules-on-digital-asset-activities-daa_stablecoins.pdf",
+        "sha256": "b2e861a30dc0572cad84b883e338a785dd3bc1239d668642df59d25fa86e7c0c",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b2e861a30dc0572c-aifc-rules-on-digital-asset-activities-daa_stablecoins.pdf",
+        "copy_sha256": "b2e861a30dc0572cad84b883e338a785dd3bc1239d668642df59d25fa86e7c0c",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "https://orderly.myafsa.com/entiresection/a0001000200020011/rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "Regulator's website (orderly.myafsa.com), Cooperation Rules 3.3.2",
+        "text": "The amounts of minimum capital of Digital Asset Service Providers are specified in Schedule 2 to these Rules.",
+        "translations": {},
+        "url": "https://orderly.myafsa.com/entiresection/a0001000200020011/rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan",
+        "sha256": "b0b62a22bf8c5cfe4282768d0211035dea0d51e570bd610930c2439070cd2dae",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b0b62a22bf8c5cfe-orderly-coop.html",
+        "copy_sha256": "b0b62a22bf8c5cfe4282768d0211035dea0d51e570bd610930c2439070cd2dae",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l8",
+        "source": "https://orderly.myafsa.com/entiresection/a0001000200020011/rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "Regulator's website, Cooperation Rules Schedule 2, Self-managed Fund row",
+        "text": "which is a Self-managed Fund and has an appointed Eligible Custodian",
+        "translations": {},
+        "url": "https://orderly.myafsa.com/entiresection/a0001000200020011/rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan",
+        "sha256": "b0b62a22bf8c5cfe4282768d0211035dea0d51e570bd610930c2439070cd2dae",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b0b62a22bf8c5cfe-orderly-coop.html",
+        "copy_sha256": "b0b62a22bf8c5cfe4282768d0211035dea0d51e570bd610930c2439070cd2dae",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l9",
+        "source": "https://orderly.myafsa.com/entiresection/a0001000200020011/rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "Regulator's website, Cooperation Rules Schedule 2, DATF row",
+        "text": "an amount equal to sufficient working capital in fiat currency to continue business for a period of 12 months, based on realistic forecasts for the business in different market conditions (both negative and positive scenarios)",
+        "translations": {},
+        "url": "https://orderly.myafsa.com/entiresection/a0001000200020011/rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan",
+        "sha256": "b0b62a22bf8c5cfe4282768d0211035dea0d51e570bd610930c2439070cd2dae",
+        "retrieved": "2026-10-23",
+        "copy": "sources/b0b62a22bf8c5cfe-orderly-coop.html",
+        "copy_sha256": "b0b62a22bf8c5cfe4282768d0211035dea0d51e570bd610930c2439070cd2dae",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Rules and mechanisms of cooperation of Unbacked Digital Asset Exchanges and/or Centre Participants authorized to carry out digital assets-related activities with second-tier bank of the Republic of Ka",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan.pdf"
+    },
+    {
+      "title": "AIFC Rules on Digital Asset Activities_V5 (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/daa_v5_01.01.2026.pdf"
+    },
+    {
+      "title": "AIFC Rules on Digital Asset Activities Initial Version",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-rules-on-digital-asset-activities-daa_stablecoins.pdf"
+    },
+    {
+      "title": "https://orderly.myafsa.com/entiresection/a0001000200020011/rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan",
+      "url": "https://orderly.myafsa.com/entiresection/a0001000200020011/rules-of-cooperation-between-datfs-dasps-and-second-tier-banks-of-kazakhstan"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

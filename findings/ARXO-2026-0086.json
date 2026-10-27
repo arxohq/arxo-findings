@@ -1,0 +1,174 @@
+{
+  "id": "ARXO-2026-0086",
+  "url": "https://arxo.io/findings/ARXO-2026-0086/",
+  "record_kind": "discrepancy",
+  "class": "amendments",
+  "class_label": "Amendments",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Conduct of Business Rules (COB), V17",
+  "acts": [
+    "AIFC Rules No. FR0005 of 2017 (COB)"
+  ],
+  "location": "COB 8.5.15(2)(d)(i)",
+  "text": {
+    "en": {
+      "title": "COB 8.5 was extended to Insurance Managers but the distribution waterfall and agency rule still name only the Insurance Intermediary",
+      "summary": "Amendments No. 2 rewrote the old COB 11.8 as COB 8.5 for \"an Insurance Intermediary or Insurance Manager\", and that phrase runs through COB 8.5. Three places still name only the Insurance Intermediary: 8.5.15(2)(c) \"where insufficient funds are held by the Insurance Intermediary\"; 8.5.15(2)(d)(i) \"trustee in bankruptcy over the Insurance Intermediary, payment must be made accordance with the AIFC Insolvency Regulations\"; and 8.5.5(b) \"once the money is received by the Insurance Intermediary\". The Investment Business rule 8.2.16(2)(d)(i) covers \"the Authorised Firm or the Nominee Company\".",
+      "correction": "Please add \"or Insurance Manager\" after \"Insurance Intermediary\" in COB 8.5.15(2)(c), 8.5.15(2)(d)(i) and 8.5.5(b), and read \"made in accordance with\" in 8.5.15(2)(d)(i)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB 8.5.15(2)(d)(i)",
+        "text": "bankruptcy over the Insurance Intermediary, payment must be made accordance with the AIFC Insolvency Regulations; or",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB 8.5.15(2)(c)",
+        "text": "where insufficient funds are held by the Insurance",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB 8.5.5(b)",
+        "text": "insurance cover is maintained for the Client once the money is received by the Insurance",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "COB 8.5.1",
+        "text": "COB 8.5 applies to an Insurance Intermediary or Insurance Manager that receives or holds",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf",
+        "sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "retrieved": "2026-10-23",
+        "copy": "sources/ae99fece8c925210-cob_v17_13.01.2026-1.pdf",
+        "copy_sha256": "ae99fece8c92521046670bbcf56bf4176715e22ece4779e4ba8b461a631793c6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "Conduct Of Business Rules A2., with amendments as of 2 December 2018, commence on 2 December 2018",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Amendments No. 2, 8.5.15(2)(d)(i) as made",
+        "text": "bankruptcy over the Insurance Intermediary, payment must be made",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_a2_02.12.2018.pdf",
+        "sha256": "e9854ad17038b6576e3910da0808eb63798044691da4aeab0752173116b85839",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e9854ad17038b657-cob_a2_02.12.2018.pdf",
+        "copy_sha256": "e9854ad17038b6576e3910da0808eb63798044691da4aeab0752173116b85839",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Conduct of Business Rules_V17 (with amendments as of 7 December 2025, which commence on 13 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_v17_13.01.2026-1.pdf"
+    },
+    {
+      "title": "Conduct Of Business Rules A2., with amendments as of 2 December 2018, commence on 2 December 2018",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cob_a2_02.12.2018.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

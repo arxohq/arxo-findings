@@ -1,0 +1,263 @@
+{
+  "id": "ARXO-2026-0198",
+  "url": "https://arxo.io/findings/ARXO-2026-0198/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Employment Regulations, V4",
+  "acts": [
+    "AIFC Employment Regulations",
+    "AIFC Data Protection Regulations and Rules",
+    "AIFC Court Regulations 2017",
+    "AIFC Court Rules 2018",
+    "AIFC Arbitration Regulations",
+    "IAC Arbitration and Mediation Rules 2022"
+  ],
+  "location": "AIFC Employment Regulations V4, Part 10-1",
+  "text": {
+    "en": {
+      "title": "Consolidated V3 and V4 of the Employment Regulations drop the text of section 65-1 (Whistleblowing); only the contents entry remains",
+      "summary": "Version 2 of the Employment Regulations (amendments as of 22 February 2019) contains Part 10-1 with section 65-1, which extends to Employees the whistleblower protections of Part 14-2 of the Companies Regulations. The later amending instruments on the act page (No. 30 of 2019 and No. 39 of 2021) do not omit it. Yet the consolidated V3 and the current V4 list \"PART 10-1: WHISTLEBLOWING\" in the contents but have no text for it. The full text on the aifc.kz website goes from Part 10 to Part 11 and has no Part 10-1 and no section 65-1. The act page publishes no instrument that inserted section 65-1 in February 2019, and no instrument that omitted it. Part 14-2 of the Companies Regulations still protects any Worker directly.",
+      "correction": "Please restore Part 10-1 (section 65-1) in the consolidated text and publish the instrument that inserted it, or publish the instrument that removed it and update the contents."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "Not established",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Employment Regulations V4., with amendments as of 15 January 2021, commence on 15 January 2021",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "V4 contents, Part 10-1 (body absent between s.65 on p.25 and Part 11 on p.26)",
+        "text": "PART 10-1: WHISTLEBLOWING",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/v4_emp1.pdf",
+        "sha256": "88395ed672316b81efa2cd856d1bd3968ac6ced06f27658e1cef4374f9423a8f",
+        "retrieved": "2026-10-23",
+        "copy": "sources/88395ed672316b81-v4_emp1.pdf",
+        "copy_sha256": "88395ed672316b81efa2cd856d1bd3968ac6ced06f27658e1cef4374f9423a8f",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Employment Regulations V2., with amendments as of 22 February 2019, commence on 1 March 2019",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "V2, s.65-1 Whistleblowing, p.26",
+        "text": "specified in Part 14-2 (WHISTLEBLOWING) of the AIFC Companies Regulations 2017 shall be entitled to the protections set out therein.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/4-aifc1.pdf",
+        "sha256": "fb7f0895ad0be03060a0857431b09c129fd49a132b24dbda3b237a95d9a4b267",
+        "retrieved": "2026-10-23",
+        "copy": "sources/fb7f0895ad0be030-4-aifc1.pdf",
+        "copy_sha256": "fb7f0895ad0be03060a0857431b09c129fd49a132b24dbda3b237a95d9a4b267",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Employment Regulations V2., with amendments as of 22 February 2019, commence on 1 March 2019",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "V2 title page",
+        "text": "(with amendments as of 22 February 2019,",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/4-aifc1.pdf",
+        "sha256": "fb7f0895ad0be03060a0857431b09c129fd49a132b24dbda3b237a95d9a4b267",
+        "retrieved": "2026-10-23",
+        "copy": "sources/fb7f0895ad0be030-4-aifc1.pdf",
+        "copy_sha256": "fb7f0895ad0be03060a0857431b09c129fd49a132b24dbda3b237a95d9a4b267",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Employment Regulations V3., with amendments as of 9 July 2019, commence 10 on July 2019",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": null,
+        "locator": "V3 contents (body also absent)",
+        "text": "PART 10-1: WHISTLEBLOWING",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/v3.-employment-reg.pdf",
+        "sha256": "1d8b355a5d846acdc4c357e214519a17ae6b4fc7f1485069ee289f1a225b1b51",
+        "retrieved": "2026-10-23",
+        "copy": "sources/1d8b355a5d846acd-v3.-employment-reg.pdf",
+        "copy_sha256": "1d8b355a5d846acdc4c357e214519a17ae6b4fc7f1485069ee289f1a225b1b51",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Employment Amendment Regulations 2019",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Amendment Regulations 2019, s.5 (scope); ss.6-15 contain no omission of Part 10-1",
+        "text": "This Part amends the AIFC Employment Regulations 2017.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/30.-aifc-employment-amendment-regulations-2019_new-design.pdf",
+        "sha256": "0c467a7db3a11ebbaefdeef23b657b63ebd217597e7b8ec45d630788a10dc0e8",
+        "retrieved": "2026-10-23",
+        "copy": "sources/0c467a7db3a11ebb-30.-aifc-employment-amendment-regulations-2019_new-design.pdf",
+        "copy_sha256": "0c467a7db3a11ebbaefdeef23b657b63ebd217597e7b8ec45d630788a10dc0e8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "AIFC Employment Amendment Regulations no. 39 dated 15 January 2021",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Amendment Regulations 2021, s.7 (only amendment)",
+        "text": "Omit section 64 (End-of-service gratuity), substitute:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-employment-amendment-regulations-no.-39-dated-15-january-2021.pdf",
+        "sha256": "010c57b1ce94b16940183dd9ab35401fb01e583f5eec12ecbaa12be6e5735b16",
+        "retrieved": "2026-10-23",
+        "copy": "sources/010c57b1ce94b169-aifc-employment-amendment-regulations-no.-39-dated-15-january-2021.pdf",
+        "copy_sha256": "010c57b1ce94b16940183dd9ab35401fb01e583f5eec12ecbaa12be6e5735b16",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Companies Regulations V8, Part 14-2",
+        "text": "PART 14-2: WHISTLEBLOWING",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf",
+        "sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a77bf2c39b86d220-comreg_v8_01.01.25.pdf",
+        "copy_sha256": "a77bf2c39b86d2202b1f8e6654fc1884cfd9e1c9648fbdd97894a4ff22939e03",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l8",
+        "source": "https://aifc.kz/legal-framework/employment-regulations/employment-full-text/",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "aifc.kz web full text of the Employment Regulations (fetched 23.10.2026), contents: Part 10 followed by Part 11",
+        "text": "PART 10: TERMINATION OF EMPLOYMENT PART 11: MISCELLANEOUS",
+        "translations": {},
+        "url": "https://aifc.kz/legal-framework/employment-regulations/employment-full-text/",
+        "sha256": "a1d6905bbc01f5f9734306876a5f97f8534f1730971be54d9eae57698fb4fa02",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a1d6905bbc01f5f9-emp-fulltext.html",
+        "copy_sha256": "a1d6905bbc01f5f9734306876a5f97f8534f1730971be54d9eae57698fb4fa02",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l9",
+        "source": "https://aifc.kz/legal-framework/employment-regulations/employment-full-text/",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "same, body: end of s.65 followed by Part 11",
+        "text": "and the Employee’s Contract of Employment. PART 11: MISCELLANEOUS 66. Power to make rules",
+        "translations": {},
+        "url": "https://aifc.kz/legal-framework/employment-regulations/employment-full-text/",
+        "sha256": "a1d6905bbc01f5f9734306876a5f97f8534f1730971be54d9eae57698fb4fa02",
+        "retrieved": "2026-10-23",
+        "copy": "sources/a1d6905bbc01f5f9-emp-fulltext.html",
+        "copy_sha256": "a1d6905bbc01f5f9734306876a5f97f8534f1730971be54d9eae57698fb4fa02",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "publisher of AIFC acts on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Authority",
+      "role": "publisher of AIFC acts on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Employment Regulations V4., with amendments as of 15 January 2021, commence on 15 January 2021",
+      "url": "https://aifc.kz/wp-content/uploads/2024/05/v4_emp1.pdf"
+    },
+    {
+      "title": "AIFC Employment Regulations V2., with amendments as of 22 February 2019, commence on 1 March 2019",
+      "url": "https://aifc.kz/wp-content/uploads/2024/05/4-aifc1.pdf"
+    },
+    {
+      "title": "AIFC Employment Regulations V3., with amendments as of 9 July 2019, commence 10 on July 2019",
+      "url": "https://aifc.kz/wp-content/uploads/2024/05/v3.-employment-reg.pdf"
+    },
+    {
+      "title": "AIFC Employment Amendment Regulations 2019",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/30.-aifc-employment-amendment-regulations-2019_new-design.pdf"
+    },
+    {
+      "title": "AIFC Employment Amendment Regulations no. 39 dated 15 January 2021",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-employment-amendment-regulations-no.-39-dated-15-january-2021.pdf"
+    },
+    {
+      "title": "ComReg_V8, with amendments as of 17 October 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/comreg_v8_01.01.25.pdf"
+    },
+    {
+      "title": "https://aifc.kz/legal-framework/employment-regulations/employment-full-text/",
+      "url": "https://aifc.kz/legal-framework/employment-regulations/employment-full-text/"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

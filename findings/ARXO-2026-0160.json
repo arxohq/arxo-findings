@@ -1,0 +1,174 @@
+{
+  "id": "ARXO-2026-0160",
+  "url": "https://arxo.io/findings/ARXO-2026-0160/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Rules on Providing Money Services (PMS)",
+  "acts": [
+    "AIFC Rules on Digital Asset Activities",
+    "AIFC Rules on Providing Money Services",
+    "AIFC Financial Technology Rules",
+    "AIFC Representative Office Rules",
+    "AIFC Auditor Rules"
+  ],
+  "location": "PMS 4.3(1) lead-in",
+  "text": {
+    "en": {
+      "title": "PMS 4.3 and 7.3(3) list different cases in which a redemption fee may be charged: may a fee be charged for a redemption during the agreement?",
+      "summary": "Two rules govern fees on the redemption of Electronic Money, and both use \"only where\". PMS 4.3(1) allows a fee where (a) the redemption is requested before the termination of the client agreement, (b) a fixed-term agreement is terminated early, or (c) redemption is requested more than one year after termination. PMS 7.3(3) allows a fee only where it \"relates to early termination or late redemption\". A redemption requested at early termination meets both rules. A redemption during a running agreement, without termination, is allowed by 4.3(1)(a) and referred to in 4.4(1), but does not fit 7.3(3). Read together, such a fee is not allowed, which leaves little room for 4.3(1)(a).",
+      "correction": "Please clarify whether a fee may be charged for a redemption, including a partial redemption, during a running agreement, and align rules 4.3 and 7.3(3)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Rules on Providing Money Services (with amendments as of 13 April 2025, which commence on 13 October 2025 and on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PMS 4.3(1) lead-in",
+        "text": "Redemption may be subject to a fee only where the fee is stated in the contract by PMS 4.2. (a) and:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2025/06/pms-rulebook-25.05.2025_-v.1.pdf",
+        "sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/333935eb310b57bc-pms-rulebook-25.05.2025_-v.1.pdf",
+        "copy_sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Rules on Providing Money Services (with amendments as of 13 April 2025, which commence on 13 October 2025 and on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PMS 4.3(1)(a)",
+        "text": "the redemption is requested before the termination of the client agreement;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2025/06/pms-rulebook-25.05.2025_-v.1.pdf",
+        "sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/333935eb310b57bc-pms-rulebook-25.05.2025_-v.1.pdf",
+        "copy_sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Rules on Providing Money Services (with amendments as of 13 April 2025, which commence on 13 October 2025 and on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PMS 7.3(3) lead-in",
+        "text": "A Money Service Provider may impose a charge or fee for an Electronic Money redemption only where the relevant charge or fee:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2025/06/pms-rulebook-25.05.2025_-v.1.pdf",
+        "sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/333935eb310b57bc-pms-rulebook-25.05.2025_-v.1.pdf",
+        "copy_sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Rules on Providing Money Services (with amendments as of 13 April 2025, which commence on 13 October 2025 and on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PMS 7.3(3)(b)",
+        "text": "relates to early termination or late redemption (that is, a redemption occurring more than 1 (one) year after the termination of the client agreement).",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2025/06/pms-rulebook-25.05.2025_-v.1.pdf",
+        "sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/333935eb310b57bc-pms-rulebook-25.05.2025_-v.1.pdf",
+        "copy_sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "AIFC Rules on Providing Money Services (with amendments as of 13 April 2025, which commence on 13 October 2025 and on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PMS 4.4(1), p.16",
+        "text": "the Money Service Provider that issues Electronic Money must redeem the amount so requested subject to any fee imposed in accordance with PMS 4.3.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2025/06/pms-rulebook-25.05.2025_-v.1.pdf",
+        "sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/333935eb310b57bc-pms-rulebook-25.05.2025_-v.1.pdf",
+        "copy_sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Rules on Providing Money Services (with amendments as of 13 April 2025, which commence on 13 October 2025 and on 13 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2025/06/pms-rulebook-25.05.2025_-v.1.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

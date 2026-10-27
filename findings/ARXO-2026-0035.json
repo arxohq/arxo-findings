@@ -1,0 +1,149 @@
+{
+  "id": "ARXO-2026-0035",
+  "url": "https://arxo.io/findings/ARXO-2026-0035/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML)",
+  "acts": [
+    "AIFC Rules No. FR0008 of 2017 (AML Rules)"
+  ],
+  "location": "Guidance on RBA (k), after AML 4.3.3",
+  "text": {
+    "en": {
+      "title": "AML Guidance refers to Chapter 6 for risk assessments; they are in Chapters 4 and 5",
+      "summary": "Guidance (k) after AML 4.3.3 and Guidance (j) after AML 6.3.4 refer to the customer risk assessment \"under Chapter 6\", and the sanctions Guidance (g) to \"the risk assessments under Chapters 5 and 6\". AML 1.5(d) places the customer risk assessment in Chapter 5; Chapter 6 contains none.",
+      "correction": "Please align the risk-assessment references in the Guidance with the business and customer risk assessment provisions (Chapters 4 and 5)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Guidance on RBA (k), after AML 4.3.3",
+        "text": "will also feed into the Relevant Person’s risk assessment of its customers (see Chapter 6).",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Guidance on conducting CDD (j), after AML 6.3.4",
+        "text": "money laundering risks identified under Chapter 6.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Guidance on Government, Regulatory and International Findings (g)",
+        "text": "taking into account the risk assessments under Chapters 5 and 6.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AML 1.5(d)",
+        "text": "Chapter 5 explains the concept of Customer Risk Assessments (“CRA”).",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

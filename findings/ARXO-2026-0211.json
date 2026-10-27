@@ -1,0 +1,183 @@
+{
+  "id": "ARXO-2026-0211",
+  "url": "https://arxo.io/findings/ARXO-2026-0211/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC International Arbitration Centre Arbitration and Mediation Rules 2022",
+  "acts": [
+    "AIFC Employment Regulations",
+    "AIFC Data Protection Regulations and Rules",
+    "AIFC Court Regulations 2017",
+    "AIFC Court Rules 2018",
+    "AIFC Arbitration Regulations",
+    "IAC Arbitration and Mediation Rules 2022"
+  ],
+  "location": "Article 10.7",
+  "text": {
+    "en": {
+      "title": "IAC Rules 10.7 give 'seven days' to apply to the AIFC Court on a rejected challenge; Arbitration Regulations 22(3), which parties cannot cut, give thirty",
+      "summary": "IAC Rules 10.7: a decision rejecting a challenge is \"without prejudice to any right a party may have to apply within seven days to the AIFC Court under the Arbitration Regulations, Article 22(3)\". Article 22(3) of the Arbitration Regulations gives the challenging party \"thirty days after having received notice of the decision rejecting the challenge\", and Article 22(1) makes any procedure agreed by the parties subject to paragraph (3). The AIFC Court Rules (rule 27.28) also fix 30 days for this application. Because rule 10.7 is \"without prejudice to any right\", the 30 days are not cut, but the Rules state the wrong period. The unofficial Russian translation also says \"в течение семи дней\" (within seven days).",
+      "correction": "Please replace \"within seven days\" with \"within thirty days after having received notice of the decision\" in Article 10.7, or refer to Article 22(3) without stating a period."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "IAC Arbitration and Mediation Rules 2022, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Article 10.7",
+        "text": "Any decision of the Tribunal rejecting a challenge shall be without prejudice to any right a party may have to apply within seven days",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/iac-arbitration-and-mediation-rules-2022-eng.pdf",
+        "sha256": "279a7e21f2ed8b346383821c4785b5fcee97707cd6ad16b7ebe66884049c2137",
+        "retrieved": "2026-10-23",
+        "copy": "sources/279a7e21f2ed8b34-iac-arbitration-and-mediation-rules-2022-eng.pdf",
+        "copy_sha256": "279a7e21f2ed8b346383821c4785b5fcee97707cd6ad16b7ebe66884049c2137",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "IAC Arbitration and Mediation Rules 2022, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Article 10.7 (cont.)",
+        "text": "to the AIFC Court under the Arbitration Regulations, Article 22(3).",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/iac-arbitration-and-mediation-rules-2022-eng.pdf",
+        "sha256": "279a7e21f2ed8b346383821c4785b5fcee97707cd6ad16b7ebe66884049c2137",
+        "retrieved": "2026-10-23",
+        "copy": "sources/279a7e21f2ed8b34-iac-arbitration-and-mediation-rules-2022-eng.pdf",
+        "copy_sha256": "279a7e21f2ed8b346383821c4785b5fcee97707cd6ad16b7ebe66884049c2137",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Arbitration Regulations, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Arbitration Regulations Art. 22(3)",
+        "text": "the challenging party may request, within thirty days after having received notice of the decision rejecting the challenge, the AIFC Court of First Instance to decide on the challenge",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-arbitration-regulations-eng.pdf",
+        "sha256": "9f153a1d7882ce287f6bbb7937c4f477eab9f256d408608501e46b17b0cc2d48",
+        "retrieved": "2026-10-23",
+        "copy": "sources/9f153a1d7882ce28-aifc-arbitration-regulations-eng.pdf",
+        "copy_sha256": "9f153a1d7882ce287f6bbb7937c4f477eab9f256d408608501e46b17b0cc2d48",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Arbitration Regulations, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Arbitration Regulations Art. 22(1)",
+        "text": "The parties are free to agree on a procedure for challenging an arbitrator, subject to the provisions of paragraph (3) of this Article.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-arbitration-regulations-eng.pdf",
+        "sha256": "9f153a1d7882ce287f6bbb7937c4f477eab9f256d408608501e46b17b0cc2d48",
+        "retrieved": "2026-10-23",
+        "copy": "sources/9f153a1d7882ce28-aifc-arbitration-regulations-eng.pdf",
+        "copy_sha256": "9f153a1d7882ce287f6bbb7937c4f477eab9f256d408608501e46b17b0cc2d48",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Court Rules 2018, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AIFC Court Rules 2018, r.27.28",
+        "text": "An application to challenge an Arbitrator under Article 22(3) of the Arbitration Regulations shall be made within 30 days after receipt of notice of the ruling",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-court-rules-2018-eng-1.pdf",
+        "sha256": "5a63449bb33df505991a8660cfd17e33df5165f7a965be64a47e3ce5e6335457",
+        "retrieved": "2026-10-23",
+        "copy": "sources/5a63449bb33df505-aifc-court-rules-2018-eng-1.pdf",
+        "copy_sha256": "5a63449bb33df505991a8660cfd17e33df5165f7a965be64a47e3ce5e6335457",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:56:01Z",
+      "institution": "AIFC International Arbitration Centre",
+      "channel": "email",
+      "role": "author of the IAC Arbitration and Mediation Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC International Arbitration Centre",
+      "role": "author of the IAC Arbitration and Mediation Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "IAC Arbitration and Mediation Rules 2022, English text",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/iac-arbitration-and-mediation-rules-2022-eng.pdf"
+    },
+    {
+      "title": "AIFC Arbitration Regulations, English text",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-arbitration-regulations-eng.pdf"
+    },
+    {
+      "title": "AIFC Court Rules 2018, English text",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-court-rules-2018-eng-1.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC International Arbitration Centre (e-mail)"
+    }
+  ]
+}

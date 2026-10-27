@@ -1,0 +1,212 @@
+{
+  "id": "ARXO-2026-0116",
+  "url": "https://arxo.io/findings/ARXO-2026-0116/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Collective Investment Scheme Rules (CIS), V8",
+  "acts": [
+    "AIFC Collective Investment Scheme Rules",
+    "AIFC Islamic Finance Rules"
+  ],
+  "location": "CIS V8 2.4(b)(iii)",
+  "text": {
+    "en": {
+      "title": "AFSA online CIS misses other Amendments No. 7 changes: Venture Capital Fund (2.4(b)(iii)), 7.6(b) \"Associates\", and rule 1.6 without text",
+      "summary": "The AFSA online CIS includes many changes made by Amendments No. 7 (in force 1 January 2025), but not these: (1) 2.4(b)(iii) still describes a Venture Capital Fund as \"an Exempt Fund and a Domestic Fund\" that invests \"in the equity share capital\" of unlisted businesses; Amendments No. 7 deleted \"and a Domestic Fund\" and replaced \"equity share capital\" with \"Securities and Units\", while the online text already shows the feeder route added by the same amendment; (2) 7.6(b) still says \"Associates\" where Amendments No. 7 put \"Related Parties\"; (3) rule 1.6 (when a Fund invests in Digital Assets indirectly), inserted by Amendments No. 7, has a heading but no text under it.",
+      "correction": "Please apply Amendments No. 7 to rules 2.4(b)(iii), 7.6(b) and 1.6 in the online CIS."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 2.4(b)(iii)",
+        "text": "a Venture Capital Fund, which is an Exempt Fund that:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 2.4(b)(iii)(A)",
+        "text": "primarily invests in the Securities and Units of unlisted businesses which are at an early stage of development, either:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "Collective Investment Scheme Rules A7., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Amendments No. 7, page 3 (deletions rendered)",
+        "text": "a Venture Capital Fund, which is an Exempt Fund and a Domestic Fund that:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_a7-01.01.2025.pdf",
+        "sha256": "26b1d661daa1376ede349c4366d802d11b0d58158c0ec1fcbf4da71a8d6cdca3",
+        "retrieved": "2026-10-23",
+        "copy": "sources/26b1d661daa1376e-cis_a7-01.01.2025.pdf",
+        "copy_sha256": "26b1d661daa1376ede349c4366d802d11b0d58158c0ec1fcbf4da71a8d6cdca3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 7.6(b)",
+        "text": "Where a conflict of interest arises, whether in dealings with Related Parties or otherwise, the Fund Manager must disclose to Unitholders the nature of the conflict and how the conflict will be managed.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l8",
+        "source": "Collective Investment Scheme Rules A7., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Amendments No. 7, page 14 (labelled '8.7')",
+        "text": "whether in dealings with Associates Related Parties",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_a7-01.01.2025.pdf",
+        "sha256": "26b1d661daa1376ede349c4366d802d11b0d58158c0ec1fcbf4da71a8d6cdca3",
+        "retrieved": "2026-10-23",
+        "copy": "sources/26b1d661daa1376e-cis_a7-01.01.2025.pdf",
+        "copy_sha256": "26b1d661daa1376ede349c4366d802d11b0d58158c0ec1fcbf4da71a8d6cdca3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l9",
+        "source": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "CIS V8 1.6",
+        "text": "For the purposes of these Rules, a Fund invests in Digital Assets indirectly if:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf",
+        "sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "retrieved": "2026-10-23",
+        "copy": "sources/733512c03c358cc3-cis_v8_fr0009-01.01.2025.pdf",
+        "copy_sha256": "733512c03c358cc361a31decd44731fd64d90dcb747829a11e3d1382e4669fb7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l11",
+        "source": "Collective Investment Scheme Rules A7., with amendments as of 15 December 2024, commence on 1 January 2025",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "Amendments No. 7, page 2 (1.6 underlined as new)",
+        "text": "For the purposes of these Rules, a Fund invests in Digital Assets indirectly if:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_a7-01.01.2025.pdf",
+        "sha256": "26b1d661daa1376ede349c4366d802d11b0d58158c0ec1fcbf4da71a8d6cdca3",
+        "retrieved": "2026-10-23",
+        "copy": "sources/26b1d661daa1376e-cis_a7-01.01.2025.pdf",
+        "copy_sha256": "26b1d661daa1376ede349c4366d802d11b0d58158c0ec1fcbf4da71a8d6cdca3",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "publisher of the AIFC Rules on the AFSA website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Collective Investment Scheme Rules V8., with amendments as of 15 December 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_v8_fr0009-01.01.2025.pdf"
+    },
+    {
+      "title": "Collective Investment Scheme Rules A7., with amendments as of 15 December 2024, commence on 1 January 2025",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/cis_a7-01.01.2025.pdf"
+    }
+  ],
+  "related": [
+    {
+      "id": "ARXO-2026-0114",
+      "relation": "same_cause"
+    }
+  ],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

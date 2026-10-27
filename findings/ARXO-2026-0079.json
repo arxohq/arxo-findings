@@ -1,0 +1,153 @@
+{
+  "id": "ARXO-2026-0079",
+  "url": "https://arxo.io/findings/ARXO-2026-0079/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "Constitutional Statute of the Republic of Kazakhstan on the Astana International Financial Centre and AIFC acts",
+  "acts": [
+    "Constitutional Statute of the Republic of Kazakhstan No. 438-V of 7 December 2015 on the Astana International Financial Centre"
+  ],
+  "location": "Structure page, link 3",
+  "text": {
+    "en": {
+      "title": "aifc.kz, The Structure of the Bodies of the AIFC: two links serve the wrong file",
+      "summary": "The links \"… ru (initial)\" and \"… with amendments as of 9 October 2017. ENG\" serve the same file as the 2021 Russian consolidation (\"с изменениями и дополнениями по состоянию на 1 июля 2021 года\"). The initial Russian text and the 2017 English version are not available.",
+      "correction": "Please link each label to the corresponding version."
+    },
+    "ru": {
+      "title": "aifc.kz, страница «Структура органов МФЦА»: две ссылки открывают не тот файл",
+      "summary": "Ссылки «… ru (initial)» (первоначальная редакция на русском языке) и «… with amendments as of 9 October 2017. ENG» (с изменениями на 9 октября 2017 года, на английском языке) открывают тот же файл, что и русская консолидированная редакция 2021 года («с изменениями и дополнениями по состоянию на 1 июля 2021 года»). Первоначальный русский текст и английская редакция 2017 года недоступны.",
+      "correction": "Просим связать каждую ссылку с соответствующей редакцией."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "aifc.kz, Structure of the Bodies page",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "Structure page, link 3",
+        "text": "The Structure of the Bodies of the Astana International Financial Centre ru (initial)",
+        "translations": {},
+        "url": "https://aifc.kz/legal-framework/the-structure-of-the-bodies-of-the-aifc/",
+        "sha256": "4989aafede0670a2ff1f589c7ab6e5c6d124980ef797545fd05e4a755b4eafcc",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4989aafede0670a2-structure-page.html",
+        "copy_sha256": "4989aafede0670a2ff1f589c7ab6e5c6d124980ef797545fd05e4a755b4eafcc",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "aifc.kz, Structure of the Bodies page",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "Structure page, link 4",
+        "text": "with amendments as of 9 October 2017. ENG",
+        "translations": {},
+        "url": "https://aifc.kz/legal-framework/the-structure-of-the-bodies-of-the-aifc/",
+        "sha256": "4989aafede0670a2ff1f589c7ab6e5c6d124980ef797545fd05e4a755b4eafcc",
+        "retrieved": "2026-10-23",
+        "copy": "sources/4989aafede0670a2-structure-page.html",
+        "copy_sha256": "4989aafede0670a2ff1f589c7ab6e5c6d124980ef797545fd05e4a755b4eafcc",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "The Structure of the Bodies of the AIFC, Russian, as of 1 July 2021",
+        "role": "Later act",
+        "language": "ru",
+        "edition": null,
+        "locator": "the file served by links 1, 3 and 4, title page",
+        "text": "(с изменениями и дополнениями по",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/05/2.-b-c-bc-0-30-2-a-87ab.-0-1.7.2021-4-o-a09b0.pdf",
+        "sha256": "3e36eb409cb7bb0d08bc1b2755c20c0400e8b9bade51b5e8cfdd10f08e7289d1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/3e36eb409cb7bb0d-structure-ru-2021.pdf",
+        "copy_sha256": "3e36eb409cb7bb0d08bc1b2755c20c0400e8b9bade51b5e8cfdd10f08e7289d1",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:20Z",
+      "institution": "AIFC Management Council",
+      "channel": "email",
+      "role": "body that adopted the act"
+    },
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "publisher of AIFC acts on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Management Council",
+      "role": "body that adopted the act"
+    },
+    {
+      "institution": "AIFC Authority",
+      "role": "publisher of AIFC acts on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Management Council (e-mail)"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

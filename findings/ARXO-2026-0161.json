@@ -1,0 +1,131 @@
+{
+  "id": "ARXO-2026-0161",
+  "url": "https://arxo.io/findings/ARXO-2026-0161/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Rules on Providing Money Services (PMS)",
+  "acts": [
+    "AIFC Rules on Digital Asset Activities",
+    "AIFC Rules on Providing Money Services",
+    "AIFC Financial Technology Rules",
+    "AIFC Representative Office Rules",
+    "AIFC Auditor Rules"
+  ],
+  "location": "PMS 2.4.2(1)(c)",
+  "text": {
+    "en": {
+      "title": "PMS 2.4.2(1)(c): stablecoin criteria \"in subrules (4) or (5)\": (5) is a prior notice, and the reserve test in (4)(c) covers only Fiat stablecoins",
+      "summary": "PMS 2.4.2(1)(c) requires, for a Fiat or Commodity stablecoin, that \"all of the requirements in subrules (4) or (5) as applicable are met\". Subrule (4) gives reserve criteria, but its reserve-adequacy test in (4)(c) speaks only of \"reserves in respect of Fiat stablecoins\". Subrule (5) requires the provider to notify the AFSA at least 10 days before admission; it can be read as a condition of admission, but the text does not say when (5) applies instead of (4). No reserve-adequacy test is stated for Commodity stablecoins. DAA 2.8.2(1)(c) has the same wording (AIFC2-DAA-04).",
+      "correction": "Please clarify when subrule (5) applies instead of subrule (4), and state the reserve test for Commodity stablecoins."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Rules on Providing Money Services (with amendments as of 13 April 2025, which commence on 13 October 2025 and on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PMS 2.4.2(1)(c)",
+        "text": "for a Fiat or Commodity stablecoin, all of the requirements in subrules (4) or (5) as applicable are met",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2025/06/pms-rulebook-25.05.2025_-v.1.pdf",
+        "sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/333935eb310b57bc-pms-rulebook-25.05.2025_-v.1.pdf",
+        "copy_sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Rules on Providing Money Services (with amendments as of 13 April 2025, which commence on 13 October 2025 and on 13 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "PMS 2.4.2(5)",
+        "text": "the Money Service Provider is required to notify the AFSA at least 10 (ten) days prior to the date of the admission",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2025/06/pms-rulebook-25.05.2025_-v.1.pdf",
+        "sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a",
+        "retrieved": "2026-10-23",
+        "copy": "sources/333935eb310b57bc-pms-rulebook-25.05.2025_-v.1.pdf",
+        "copy_sha256": "333935eb310b57bcba51ab477b3e11e65a88e7ccf094eda06bc4e023e4fdac1a",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Rules on Providing Money Services (with amendments as of 13 April 2025, which commence on 13 October 2025 and on 13 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2025/06/pms-rulebook-25.05.2025_-v.1.pdf"
+    }
+  ],
+  "related": [
+    {
+      "id": "ARXO-2026-0152",
+      "relation": "same_cause"
+    }
+  ],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

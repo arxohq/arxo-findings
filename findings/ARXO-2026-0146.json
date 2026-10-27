@@ -1,0 +1,214 @@
+{
+  "id": "ARXO-2026-0146",
+  "url": "https://arxo.io/findings/ARXO-2026-0146/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Banking Business Prudential Rules (BBR), V6",
+  "acts": [
+    "Banking Business Prudential Rules",
+    "Islamic Banking Business Prudential Rules",
+    "Insurance and Reinsurance Prudential Rules",
+    "Takaful and Retakaful Prudential Rules",
+    "Prudential Rules for Insurance Intermediaries"
+  ],
+  "location": "BPG Chapter 9 para 177(a), p.120",
+  "text": {
+    "en": {
+      "title": "NSFR required stable funding: unencumbered HQLA securities with a residual maturity of one year or more fall within the descriptions of two RSF categories",
+      "summary": "Under BPG Chapter 9 paragraph 177(a) each asset is assigned to one of the eight RSF categories, and BBR 9.19(2) requires the NSFR to be calculated in accordance with Chapter 9 of the BPG (it refers to Section E; the NSFR methodology is in Section H). Paragraph 179 assigns unencumbered Level 1 HQLA to Category 2 (5%), paragraphs 181 and 182(a) assign Level 2A and 2B HQLA to Categories 4 and 5 (15% and 50%), and paragraph 184(c) assigns 'unencumbered securities with residual maturity of 1 year or more' to Category 7 (85%). Unlike paragraph 184(d) and row 24 of the disclosure template Table 13, paragraph 184(c) does not exclude securities that qualify as HQLA, and no rule sets which description prevails. For a bank with available stable funding of USD 1,000 million, other required stable funding of USD 700 million and an unencumbered five-year Level 1 government bond of USD 500 million, the NSFR is 137.9% under paragraph 179 and 88.9% under paragraph 184(c). Form 201 in the Manual for Preparation of Returns repeats both lines (10.1 and 15.3), and IBB Appendix 1 paragraphs 131 and 136(c) repeat the same overlap (for an Islamic Bank, for example a Level 1 sovereign sukuk).",
+      "correction": "Please consider assigning HQLA securities to one category unambiguously, for example by excluding securities that qualify as HQLA from BPG Chapter 9 paragraph 184(c), as paragraph 184(d) and Table 13 row 24 do, and from IBB Appendix 1 paragraph 136(c), and aligning Form 201 line 15.3."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-25",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC BANKING PRUDENTIAL GUIDELINE",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": null,
+        "locator": "BPG Chapter 9 para 177(a), p.120",
+        "text": "assign each of the Bank’s assets to 1 of the 8 categories set out in paragraphs 178 to 185 of this Chapter of the BPG",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-banking-prudential-guideline.pdf",
+        "sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "retrieved": "2026-10-23",
+        "copy": "sources/c0ab57e226481347-aifc-banking-prudential-guideline.pdf",
+        "copy_sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC BANKING PRUDENTIAL GUIDELINE",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": null,
+        "locator": "BPG Chapter 9 para 179 (Category 2, 5%), p.121",
+        "text": "unencumbered level 1 HQLA (except assets that receive a 0% RSF factor under paragraph",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-banking-prudential-guideline.pdf",
+        "sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "retrieved": "2026-10-23",
+        "copy": "sources/c0ab57e226481347-aifc-banking-prudential-guideline.pdf",
+        "copy_sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC BANKING PRUDENTIAL GUIDELINE",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": null,
+        "locator": "BPG Chapter 9 para 184(c) (Category 7, 85%), p.122",
+        "text": "unencumbered securities with residual maturity of 1 year or more;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-banking-prudential-guideline.pdf",
+        "sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "retrieved": "2026-10-23",
+        "copy": "sources/c0ab57e226481347-aifc-banking-prudential-guideline.pdf",
+        "copy_sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC BANKING PRUDENTIAL GUIDELINE",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": null,
+        "locator": "BPG Chapter 9 para 184(d)",
+        "text": "exchange-traded equities that are not in default and do not qualify as HQLA;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-banking-prudential-guideline.pdf",
+        "sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "retrieved": "2026-10-23",
+        "copy": "sources/c0ab57e226481347-aifc-banking-prudential-guideline.pdf",
+        "copy_sha256": "c0ab57e226481347e28c09650f905debc948a442ad7b65fa2db2d196d0b22009",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "BBR 9.19(2), p.85",
+        "text": "A Bank must calculate its NSFR using the following formula and in accordance with the methodology, formulae, parameters and guidance set out in Section E of Chapter 9 of the BPG issued by the AFSA.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf",
+        "sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6384caa7b1938818-bbr_v6_13.10.2025_ma.pdf",
+        "copy_sha256": "6384caa7b19388180b780ec19044e1261cae3021c63c670f14ceb35285107022",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "AIFC Islamic Banking Business Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IBB Appendix 1 para 131, p.189 (sister rule)",
+        "text": "unencumbered level 1 HQLA (except assets that receive a 0% RSF factor under paragraph",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf",
+        "sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e8b3c15b1ff574fd-aifc-islamic-banking-business-prudential-rules.pdf",
+        "copy_sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "AIFC Islamic Banking Business Prudential Rules",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "IBB Appendix 1 para 136(c), p.189 (sister rule)",
+        "text": "unencumbered securities with residual maturity of 1 year or more;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf",
+        "sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "retrieved": "2026-10-23",
+        "copy": "sources/e8b3c15b1ff574fd-aifc-islamic-banking-business-prudential-rules.pdf",
+        "copy_sha256": "e8b3c15b1ff574fd59504ade7cc9e0488ed5fa6ecfdc7816e3dc603bf4caedeb",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC BANKING PRUDENTIAL GUIDELINE",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-banking-prudential-guideline.pdf"
+    },
+    {
+      "title": "AIFC Banking Prudential Rules_V6 (with amendments as of 13 April 2025, which commence on 13 October 2025)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/bbr_v6_13.10.2025_ma.pdf"
+    },
+    {
+      "title": "AIFC Islamic Banking Business Prudential Rules",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-islamic-banking-business-prudential-rules.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

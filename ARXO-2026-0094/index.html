@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARXO-2026-0094: MAR 5.5.2, 6.1.7, 6.2.2 and 6.4.3: references printed as &quot;MAR 5.2.65&quot;, &quot;MAR 6.2.21&quot; and &quot;MAR 5.2.6.6&quot; name no existing rule</title>
+<meta name="description" content="Four references in the market abuse and disclosure chapters name rules that do not exist: &quot;MAR 5.2.65&quot; (5.5.2 and 6.1.7), &quot;MAR 6.2.21&quot; (6.2.2) and &quot;MAR 5.2.6.6&quot; (6.4.3). Up to V4 (14 February 2019) these places read &quot;MAR 5.2.6&quot; and &quot;MAR 6.2.2&quot;; the merged numbers first appear in V5 (2019), and we fo">
+<link rel="canonical" href="https://arxo.io/findings/ARXO-2026-0094/">
+<link rel="alternate" type="application/atom+xml" title="Arxo Findings Register" href="../feed.atom">
+<style>
+:root{--bg:#f7f6f2;--paper:#ffffff;--ink:#1d1f22;--muted:#5d636b;--line:#dcd9d0;--accent:#1f4e79;
+--reported:#5d636b;--accepted:#1f6f5c;--disagrees:#8a5a00;--note:#2c5d8f;--corrected:#1f6f2c;--withdrawn:#8b2f2f;
+--code:#f0eee8;--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+--serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+--sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15171a;--paper:#1c1f23;--ink:#e7e5df;
+--muted:#9aa1a9;--line:#33373d;--accent:#8db8e3;--reported:#9aa1a9;--accepted:#6cc3a8;--disagrees:#e0b45c;
+--note:#8db8e3;--corrected:#7fcf86;--withdrawn:#e58f8f;--code:#25292e}}
+:root[data-theme="dark"]{--bg:#15171a;--paper:#1c1f23;--ink:#e7e5df;--muted:#9aa1a9;--line:#33373d;--accent:#8db8e3;
+--reported:#9aa1a9;--accepted:#6cc3a8;--disagrees:#e0b45c;--note:#8db8e3;--corrected:#7fcf86;--withdrawn:#e58f8f;--code:#25292e}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--sans)}
+a{color:var(--accent)}a:hover{text-decoration-thickness:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header.site{border-bottom:1px solid var(--line);background:var(--paper)}
+header.site .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;justify-content:space-between;padding-top:14px;padding-bottom:12px}
+.brand{font:600 15px/1.2 var(--sans);letter-spacing:.02em;text-decoration:none;color:var(--ink)}
+.brand span{color:var(--muted);font-weight:400}
+nav.site a{margin-right:16px;font-size:14px;color:var(--muted);text-decoration:none}nav.site a:hover{color:var(--ink)}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.25;margin:1.6em 0 .5em}
+h1{font-size:clamp(26px,4vw,36px);margin-top:.9em}h2{font-size:22px;border-bottom:1px solid var(--line);padding-bottom:6px}
+h3{font-size:17px}
+p.lede{font-size:18px;color:var(--muted);max-width:760px;margin-top:0}
+.rule{background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--accent);padding:12px 16px;margin:20px 0;max-width:820px}
+.mono,code{font-family:var(--mono);font-size:.9em}
+code{background:var(--code);padding:1px 4px;border-radius:3px;word-break:break-all}
+.badge{display:inline-flex;align-items:center;gap:6px;font:600 12px/1 var(--sans);letter-spacing:.04em;text-transform:uppercase;white-space:nowrap}
+.badge::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor;flex:none}
+.b-reported{color:var(--reported)}.b-accepted{color:var(--accepted)}.b-disagrees{color:var(--disagrees)}
+.b-note_added{color:var(--note)}.b-corrected,.b-corrected_before_report{color:var(--corrected)}.b-withdrawn{color:var(--withdrawn)}
+.filters{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 8px}
+.filters label{display:flex;flex-direction:column;font-size:12px;color:var(--muted);gap:3px}
+.filters select,.filters input{font:14px var(--sans);padding:6px 8px;border:1px solid var(--line);border-radius:4px;background:var(--paper);color:var(--ink);min-width:150px}
+.filters input{min-width:220px}
+.count{font-size:13px;color:var(--muted);margin:6px 0 10px}
+.ledger{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.ledger li{display:grid;grid-template-columns:130px 1fr 200px;gap:4px 18px;padding:12px 4px;border-bottom:1px solid var(--line)}
+.ledger li:hover{background:var(--paper)}
+.ledger .id{font-family:var(--mono);font-size:13px}.ledger .id a{text-decoration:none}
+.ledger .what a{color:var(--ink);text-decoration:none;font-weight:600}.ledger .what a:hover{color:var(--accent)}
+.ledger .meta{font-size:13px;color:var(--muted);margin-top:2px}
+.ledger .st{text-align:right}.ledger .st .when{display:block;font-size:12px;color:var(--muted);margin-top:4px}
+@media (max-width:720px){.ledger li{grid-template-columns:1fr}.ledger .st{text-align:left}}
+table.grid{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0}
+table.grid th,table.grid td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+table.grid th{font-weight:600;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.scroll{overflow-x:auto}
+dl.facts{display:grid;grid-template-columns:170px 1fr;gap:6px 16px;margin:12px 0;font-size:15px}
+dl.facts dt{color:var(--muted)}dl.facts dd{margin:0}
+@media (max-width:600px){dl.facts{grid-template-columns:1fr}dl.facts dt{margin-top:6px}}
+blockquote.q{margin:12px 0;padding:12px 16px;background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--ink);font-family:var(--serif);font-size:16px}
+.qmeta{font-size:13px;color:var(--muted);margin:4px 0 16px;overflow-wrap:anywhere}
+.tr{font-size:14px;color:var(--muted);margin:6px 0 0;font-family:var(--sans)}
+ol.history{list-style:none;padding:0;margin:8px 0;border-left:2px solid var(--line)}
+ol.history li{padding:4px 0 8px 14px;position:relative;font-size:15px}
+ol.history li::before{content:"";position:absolute;left:-5px;top:12px;width:8px;height:8px;border-radius:50%;background:var(--muted)}
+ol.history .d{font-family:var(--mono);font-size:13px;color:var(--muted);margin-right:8px}
+.alt{border-top:1px dashed var(--line);margin-top:24px;padding-top:4px}
+.headline .id{font-family:var(--mono);color:var(--muted);font-size:14px}
+footer.site{margin:48px 0 0;border-top:1px solid var(--line);padding:18px 0 40px;font-size:13px;color:var(--muted)}
+.empty{padding:20px 4px;color:var(--muted)}
+</style>
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "Report",
+ "identifier": "ARXO-2026-0094",
+ "url": "https://arxo.io/findings/ARXO-2026-0094/",
+ "headline": "MAR 5.5.2, 6.1.7, 6.2.2 and 6.4.3: references printed as \"MAR 5.2.65\", \"MAR 6.2.21\" and \"MAR 5.2.6.6\" name no ",
+ "name": "MAR 5.5.2, 6.1.7, 6.2.2 and 6.4.3: references printed as \"MAR 5.2.65\", \"MAR 6.2.21\" and \"MAR 5.2.6.6\" name no existing rule",
+ "description": "Four references in the market abuse and disclosure chapters name rules that do not exist: \"MAR 5.2.65\" (5.5.2 and 6.1.7), \"MAR 6.2.21\" (6.2.2) and \"MAR 5.2.6.6\" (6.4.3). Up to V4 (14 February 2019) these places read \"MAR 5.2.6\" and \"MAR 6.2.2\"; the merged numbers first appear in V5 (2019), and we found no amending instrument that made that change. Amendments No. 6 (2020) shows \"5.2.5\" as new text in 6.1.7, next to a broken field code (\"Error! Reference source not found.\"), and its text of 6.2.2 and 6.4.3 is also damaged; V7 to V13 still print \"MAR 5.2.65\". The AFSA online text is the same. The bracketed titles show the intended targets for three of the places: 5.2.5 (Unlawful disclosure of Inside Information) in 5.5.2 and 6.1.7, and 6.2.1 (Obligation to draw up insider lists) in 6.2.2. In 6.4.3 there is no title.",
+ "inLanguage": "en",
+ "about": [
+  {
+   "@type": "Legislation",
+   "name": "AIFC Market Rules",
+   "legislationJurisdiction": "KZ"
+  },
+  {
+   "@type": "Legislation",
+   "name": "AIFC Authorised Market Institution Rules",
+   "legislationJurisdiction": "KZ"
+  },
+  {
+   "@type": "Legislation",
+   "name": "AIFC Recognition Rules",
+   "legislationJurisdiction": "KZ"
+  },
+  {
+   "@type": "Legislation",
+   "name": "AIFC MTF and OTF Rules",
+   "legislationJurisdiction": "KZ"
+  }
+ ],
+ "citation": [
+  {
+   "@type": "MediaObject",
+   "name": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+   "contentUrl": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+   "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Market Rules A6., with amendments as of 28 June 2020, commence on 1 July 2020",
+   "contentUrl": "https://aifc.kz/wp-content/uploads/2024/06/mar_a6_01.07.2020.pdf",
+   "sha256": "2dcc359f7710ccacc176f97cbae6c9080f7783c57ea6240fa3d5dc3e61ba56e9"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Market Rules V4., with amendments as of 14 February 2019, commence on 14 February 2019",
+   "contentUrl": "https://aifc.kz/wp-content/uploads/2024/06/mar_v4_fr0003_14.02.2019.pdf",
+   "sha256": "0e4b702830703cd8850cde46f966f8938dd182852ccdb9c12f9fdb54abeb4f55"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Market Rules V5., with amendments as of 24 june 2019, commence on 24 June 2019",
+   "contentUrl": "https://aifc.kz/wp-content/uploads/2024/06/mar_v5_fr0003_05.05.2019.pdf",
+   "sha256": "90d9567374a19dd84ae4b6b852799320568880f931cbcae432a29e200283ea9d"
+  }
+ ],
+ "publisher": {
+  "@type": "Organization",
+  "name": "Arxo Law",
+  "url": "https://arxo.io"
+ },
+ "isPartOf": {
+  "@type": "Dataset",
+  "name": "Arxo Findings Register",
+  "url": "https://arxo.io/findings/"
+ },
+ "dateModified": "2026-10-27",
+ "creativeWorkStatus": "Reported",
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+ "datePublished": "2026-10-27"
+}</script>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a class="brand" href="../index.html">Arxo Findings Register <span>· Arxo Law</span></a>
+<nav class="site"><a href="../index.html">Register</a><a href="../policy/index.html">Principles</a><a href="../method/index.html">Method</a><a href="../register.json">Data</a><a href="../feed.atom">Feed</a></nav>
+</div></header>
+<main class="wrap">
+
+<div class="headline"><p class="id">ARXO-2026-0094 · <span class="badge b-reported">Reported</span></p>
+<h1>MAR 5.5.2, 6.1.7, 6.2.2 and 6.4.3: references printed as &quot;MAR 5.2.65&quot;, &quot;MAR 6.2.21&quot; and &quot;MAR 5.2.6.6&quot; name no existing rule</h1></div>
+
+
+<p>Four references in the market abuse and disclosure chapters name rules that do not exist: &quot;MAR 5.2.65&quot; (5.5.2 and 6.1.7), &quot;MAR 6.2.21&quot; (6.2.2) and &quot;MAR 5.2.6.6&quot; (6.4.3). Up to V4 (14 February 2019) these places read &quot;MAR 5.2.6&quot; and &quot;MAR 6.2.2&quot;; the merged numbers first appear in V5 (2019), and we found no amending instrument that made that change. Amendments No. 6 (2020) shows &quot;5.2.5&quot; as new text in 6.1.7, next to a broken field code (&quot;Error! Reference source not found.&quot;), and its text of 6.2.2 and 6.4.3 is also damaged; V7 to V13 still print &quot;MAR 5.2.65&quot;. The AFSA online text is the same. The bracketed titles show the intended targets for three of the places: 5.2.5 (Unlawful disclosure of Inside Information) in 5.5.2 and 6.1.7, and 6.2.1 (Obligation to draw up insider lists) in 6.2.2. In 6.4.3 there is no title.</p><h3>Proposed correction</h3><p>Please correct the references to &quot;MAR 5.2.5&quot; in 5.5.2 and 6.1.7 and to &quot;MAR 6.2.1&quot; in 6.2.2; because the bracketed titles fix the meaning, this can be an editorial correction under section 19(3)(a) of the AIFC Regulations on AIFC Acts. Please also state which rule 6.4.3 is meant to refer to.</p>
+<dl class="facts"><dt>Jurisdiction</dt><dd>Kazakhstan — AIFC</dd><dt>Act</dt><dd>AIFC Market Rules (MAR), V13</dd><dt>Place</dt><dd>MAR V13, 5.5.2 (rule), page 53</dd><dt>Record</dt><dd>Discrepancy</dd><dt>Class</dt><dd>Text of the act</dd><dt>Where it arose</dt><dd>Not established</dd><dt>Arxo&#x27;s conclusion</dt><dd>Confirmed</dd><dt>Official text</dt><dd>Unchanged at last check</dd><dt>Last checked</dt><dd>2026-10-24</dd></dl>
+<h2>Evidence</h2>
+<p>Contradiction within the text. Quotations are verbatim from the official material; translations are ours and marked.</p>
+<blockquote class="q" lang="en">constitute unlawful disclosure of Inside Information (MAR 5.2.65) provided that the Person</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf">Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)</a> · MAR V13, 5.5.2 (rule), page 53 · retrieved 2026-10-23 · SHA-256 <code>163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d</code> · <a href="../sources/163c0ad176174003-mar_v13_01.01.2026.pdf">copy</a></div><blockquote class="q" lang="en">as referred to in MAR 5.2.65 (Unlawful Disclosure of Inside Information)</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf">Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)</a> · MAR V13, 6.1.7 (rule), page 56 · retrieved 2026-10-23 · SHA-256 <code>163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d</code> · <a href="../sources/163c0ad176174003-mar_v13_01.01.2026.pdf">copy</a></div><blockquote class="q" lang="en">for complying with MAR 6.2.21 (Obligation to draw up insider lists).</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf">Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)</a> · MAR V13, 6.2.2 (rule), page 56 · retrieved 2026-10-23 · SHA-256 <code>163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d</code> · <a href="../sources/163c0ad176174003-mar_v13_01.01.2026.pdf">copy</a></div><blockquote class="q" lang="en">For the purposes of MAR 5.2.6.6, MAR 5.4.2(c), MAR 6.4.1 and MAR 6.4.2</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf">Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)</a> · MAR V13, 6.4.3 (rule), page 59 · retrieved 2026-10-23 · SHA-256 <code>163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d</code> · <a href="../sources/163c0ad176174003-mar_v13_01.01.2026.pdf">copy</a></div><blockquote class="q" lang="en">Unlawful disclosure of Inside information occurs where:</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf">Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)</a> · MAR V13, 5.2.5 (rule), page 48 - the intended target · retrieved 2026-10-23 · SHA-256 <code>163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d</code> · <a href="../sources/163c0ad176174003-mar_v13_01.01.2026.pdf">copy</a></div><blockquote class="q" lang="en">as referred to in MAR Error! Reference source not found. 5.2.5 (Unlawful</blockquote><div class="qmeta">Amending act · <a href="https://aifc.kz/wp-content/uploads/2024/06/mar_a6_01.07.2020.pdf">Market Rules A6., with amendments as of 28 June 2020, commence on 1 July 2020</a> · MAR Amendments No. 6 (in force 1 July 2020), 6.1.7, page 29 (&#x27;5.2.5&#x27; underlined) · retrieved 2026-10-23 · SHA-256 <code>2dcc359f7710ccacc176f97cbae6c9080f7783c57ea6240fa3d5dc3e61ba56e9</code> · <a href="../sources/2dcc359f7710ccac-mar_a6_01.07.2020.pdf">copy</a></div><blockquote class="q" lang="en">as referred to in MAR 5.2.6 (Unlawful Disclosure of Inside Information)</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/mar_v4_fr0003_14.02.2019.pdf">Market Rules V4., with amendments as of 14 February 2019, commence on 14 February 2019</a> · MAR V4 (14 Feb 2019), 6.1.7 - text before the merge · retrieved 2026-10-23 · SHA-256 <code>0e4b702830703cd8850cde46f966f8938dd182852ccdb9c12f9fdb54abeb4f55</code> · <a href="../sources/0e4b702830703cd8-mar_v4_fr0003_14.02.2019.pdf">copy</a></div><blockquote class="q" lang="en">for complying with MAR 6.2.21 (Obligation to draw up insider lists).</blockquote><div class="qmeta">Normative text · <a href="https://aifc.kz/wp-content/uploads/2024/06/mar_v5_fr0003_05.05.2019.pdf">Market Rules V5., with amendments as of 24 june 2019, commence on 24 June 2019</a> · MAR V5 (2019), 6.2.2, page 52 - first appearance of merged numbers · retrieved 2026-10-23 · SHA-256 <code>90d9567374a19dd84ae4b6b852799320568880f931cbcae432a29e200283ea9d</code> · <a href="../sources/90d9567374a19dd8-mar_v5_fr0003_05.05.2019.pdf">copy</a></div>
+
+<h2>How to check it without Arxo's tools</h2>
+<ol><li>Open <a href="https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf">Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)</a> and find MAR V13, 5.5.2 (rule), page 53; MAR V13, 6.1.7 (rule), page 56; MAR V13, 6.2.2 (rule), page 56; MAR V13, 6.4.3 (rule), page 59; MAR V13, 5.2.5 (rule), page 48 - the intended target. Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/163c0ad176174003-mar_v13_01.01.2026.pdf">163c0ad176174003-mar_v13_01.01.2026.pdf</a> (SHA-256 <code>163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d</code>, copy of the official file).</li><li>Open <a href="https://aifc.kz/wp-content/uploads/2024/06/mar_a6_01.07.2020.pdf">Market Rules A6., with amendments as of 28 June 2020, commence on 1 July 2020</a> and find MAR Amendments No. 6 (in force 1 July 2020), 6.1.7, page 29 (&#x27;5.2.5&#x27; underlined). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/2dcc359f7710ccac-mar_a6_01.07.2020.pdf">2dcc359f7710ccac-mar_a6_01.07.2020.pdf</a> (SHA-256 <code>2dcc359f7710ccacc176f97cbae6c9080f7783c57ea6240fa3d5dc3e61ba56e9</code>, copy of the official file).</li><li>Open <a href="https://aifc.kz/wp-content/uploads/2024/06/mar_v4_fr0003_14.02.2019.pdf">Market Rules V4., with amendments as of 14 February 2019, commence on 14 February 2019</a> and find MAR V4 (14 Feb 2019), 6.1.7 - text before the merge. Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/0e4b702830703cd8-mar_v4_fr0003_14.02.2019.pdf">0e4b702830703cd8-mar_v4_fr0003_14.02.2019.pdf</a> (SHA-256 <code>0e4b702830703cd8850cde46f966f8938dd182852ccdb9c12f9fdb54abeb4f55</code>, copy of the official file).</li><li>Open <a href="https://aifc.kz/wp-content/uploads/2024/06/mar_v5_fr0003_05.05.2019.pdf">Market Rules V5., with amendments as of 24 june 2019, commence on 24 June 2019</a> and find MAR V5 (2019), 6.2.2, page 52 - first appearance of merged numbers. Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/90d9567374a19dd8-mar_v5_fr0003_05.05.2019.pdf">90d9567374a19dd8-mar_v5_fr0003_05.05.2019.pdf</a> (SHA-256 <code>90d9567374a19dd84ae4b6b852799320568880f931cbcae432a29e200283ea9d</code>, copy of the official file).</li><li>The finding holds if the quoted passages read as shown and the comparison gives the result stated at the top of this page. If it does not, write to us with the record ID.</li></ol>
+<h2>How this finding was made</h2>
+<p>AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27).</p>
+
+<h2>Responsible institutions</h2><ul><li>Astana Financial Services Authority (AFSA) — author of the AIFC Rules</li><li>AIFC Authority — body that prepares AIFC acts and publishes them on the AIFC website</li></ul>
+<h2>Reported to</h2>
+<div class="scroll"><table class="grid"><thead><tr><th>Date</th><th>Institution</th><th>Channel</th><th>Reference</th></tr></thead><tbody><tr><td class="mono">2026-10-27</td><td>Astana Financial Services Authority (AFSA)</td><td>e-mail</td><td class="mono"></td></tr><tr><td class="mono">2026-10-27</td><td>AIFC Authority</td><td>e-mail</td><td class="mono"></td></tr></tbody></table></div>
+<h2>Responses</h2>
+<p>No response recorded.</p>
+<h2>Documents and reproduction</h2><ul><li><a href="https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf">Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)</a></li><li><a href="https://aifc.kz/wp-content/uploads/2024/06/mar_a6_01.07.2020.pdf">Market Rules A6., with amendments as of 28 June 2020, commence on 1 July 2020</a></li><li><a href="https://aifc.kz/wp-content/uploads/2024/06/mar_v4_fr0003_14.02.2019.pdf">Market Rules V4., with amendments as of 14 February 2019, commence on 14 February 2019</a></li><li><a href="https://aifc.kz/wp-content/uploads/2024/06/mar_v5_fr0003_05.05.2019.pdf">Market Rules V5., with amendments as of 24 june 2019, commence on 24 June 2019</a></li></ul>
+
+<h2>History</h2>
+<ol class="history"><li><span class="d">2026-10-24</span>Confirmed by Arxo</li><li><span class="d">2026-10-27</span>Entered in the register</li><li><span class="d">2026-10-27</span>Reported to Astana Financial Services Authority (AFSA) (e-mail)</li><li><span class="d">2026-10-27</span>Reported to AIFC Authority (e-mail)</li></ol>
+
+<h2>Cite this record</h2>
+<p>Arxo Law, Arxo Findings Register, ARXO-2026-0094, https://arxo.io/findings/ARXO-2026-0094/ (status as of 2026-10-24). Data: <a href="../findings/ARXO-2026-0094.json">ARXO-2026-0094.json</a>.</p>
+
+</main>
+<footer class="site"><div class="wrap">
+Published by Arxo Law. Data under CC BY 4.0: <a href="../register.json">register.json</a> · <a href="../findings.csv">findings.csv</a> · <a href="../SHA256SUMS">SHA256SUMS</a>.
+Objections, reports of our own mistakes and requests for verification: <a href="mailto:hi@arxo.io">hi@arxo.io</a> — give the record ID, the conclusion you dispute and your source. We acknowledge receipt within five working days and answer on the merits within ten.
+<a href="../policy/index.html">Responsible Disclosure of Defects in Law</a>. Arxo executes the canon.
+</div></footer>
+</body>
+</html>

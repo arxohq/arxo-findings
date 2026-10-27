@@ -1,0 +1,248 @@
+{
+  "id": "ARXO-2026-0094",
+  "url": "https://arxo.io/findings/ARXO-2026-0094/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Market Rules (MAR), V13",
+  "acts": [
+    "AIFC Market Rules",
+    "AIFC Authorised Market Institution Rules",
+    "AIFC Recognition Rules",
+    "AIFC MTF and OTF Rules"
+  ],
+  "location": "MAR V13, 5.5.2 (rule), page 53",
+  "text": {
+    "en": {
+      "title": "MAR 5.5.2, 6.1.7, 6.2.2 and 6.4.3: references printed as \"MAR 5.2.65\", \"MAR 6.2.21\" and \"MAR 5.2.6.6\" name no existing rule",
+      "summary": "Four references in the market abuse and disclosure chapters name rules that do not exist: \"MAR 5.2.65\" (5.5.2 and 6.1.7), \"MAR 6.2.21\" (6.2.2) and \"MAR 5.2.6.6\" (6.4.3). Up to V4 (14 February 2019) these places read \"MAR 5.2.6\" and \"MAR 6.2.2\"; the merged numbers first appear in V5 (2019), and we found no amending instrument that made that change. Amendments No. 6 (2020) shows \"5.2.5\" as new text in 6.1.7, next to a broken field code (\"Error! Reference source not found.\"), and its text of 6.2.2 and 6.4.3 is also damaged; V7 to V13 still print \"MAR 5.2.65\". The AFSA online text is the same. The bracketed titles show the intended targets for three of the places: 5.2.5 (Unlawful disclosure of Inside Information) in 5.5.2 and 6.1.7, and 6.2.1 (Obligation to draw up insider lists) in 6.2.2. In 6.4.3 there is no title.",
+      "correction": "Please correct the references to \"MAR 5.2.5\" in 5.5.2 and 6.1.7 and to \"MAR 6.2.1\" in 6.2.2; because the bracketed titles fix the meaning, this can be an editorial correction under section 19(3)(a) of the AIFC Regulations on AIFC Acts. Please also state which rule 6.4.3 is meant to refer to."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "Not established",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 5.5.2 (rule), page 53",
+        "text": "constitute unlawful disclosure of Inside Information (MAR 5.2.65) provided that the Person",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 6.1.7 (rule), page 56",
+        "text": "as referred to in MAR 5.2.65 (Unlawful Disclosure of Inside Information)",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 6.2.2 (rule), page 56",
+        "text": "for complying with MAR 6.2.21 (Obligation to draw up insider lists).",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 6.4.3 (rule), page 59",
+        "text": "For the purposes of MAR 5.2.6.6, MAR 5.4.2(c), MAR 6.4.1 and MAR 6.4.2",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l5",
+        "source": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V13, 5.2.5 (rule), page 48 - the intended target",
+        "text": "Unlawful disclosure of Inside information occurs where:",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf",
+        "sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/163c0ad176174003-mar_v13_01.01.2026.pdf",
+        "copy_sha256": "163c0ad17617400321bc039bc3f91829586cbde62fec9a8d37e946d417252e7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l6",
+        "source": "Market Rules A6., with amendments as of 28 June 2020, commence on 1 July 2020",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR Amendments No. 6 (in force 1 July 2020), 6.1.7, page 29 ('5.2.5' underlined)",
+        "text": "as referred to in MAR Error! Reference source not found. 5.2.5 (Unlawful",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_a6_01.07.2020.pdf",
+        "sha256": "2dcc359f7710ccacc176f97cbae6c9080f7783c57ea6240fa3d5dc3e61ba56e9",
+        "retrieved": "2026-10-23",
+        "copy": "sources/2dcc359f7710ccac-mar_a6_01.07.2020.pdf",
+        "copy_sha256": "2dcc359f7710ccacc176f97cbae6c9080f7783c57ea6240fa3d5dc3e61ba56e9",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l7",
+        "source": "Market Rules V4., with amendments as of 14 February 2019, commence on 14 February 2019",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V4 (14 Feb 2019), 6.1.7 - text before the merge",
+        "text": "as referred to in MAR 5.2.6 (Unlawful Disclosure of Inside Information)",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v4_fr0003_14.02.2019.pdf",
+        "sha256": "0e4b702830703cd8850cde46f966f8938dd182852ccdb9c12f9fdb54abeb4f55",
+        "retrieved": "2026-10-23",
+        "copy": "sources/0e4b702830703cd8-mar_v4_fr0003_14.02.2019.pdf",
+        "copy_sha256": "0e4b702830703cd8850cde46f966f8938dd182852ccdb9c12f9fdb54abeb4f55",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l8",
+        "source": "Market Rules V5., with amendments as of 24 june 2019, commence on 24 June 2019",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "MAR V5 (2019), 6.2.2, page 52 - first appearance of merged numbers",
+        "text": "for complying with MAR 6.2.21 (Obligation to draw up insider lists).",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v5_fr0003_05.05.2019.pdf",
+        "sha256": "90d9567374a19dd84ae4b6b852799320568880f931cbcae432a29e200283ea9d",
+        "retrieved": "2026-10-23",
+        "copy": "sources/90d9567374a19dd8-mar_v5_fr0003_05.05.2019.pdf",
+        "copy_sha256": "90d9567374a19dd84ae4b6b852799320568880f931cbcae432a29e200283ea9d",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    },
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    },
+    {
+      "institution": "AIFC Authority",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "Market Rules V13., (with amendments as of 7 December 2025, which commence on 1 January 2026)",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v13_01.01.2026.pdf"
+    },
+    {
+      "title": "Market Rules A6., with amendments as of 28 June 2020, commence on 1 July 2020",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_a6_01.07.2020.pdf"
+    },
+    {
+      "title": "Market Rules V4., with amendments as of 14 February 2019, commence on 14 February 2019",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v4_fr0003_14.02.2019.pdf"
+    },
+    {
+      "title": "Market Rules V5., with amendments as of 24 june 2019, commence on 24 June 2019",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/mar_v5_fr0003_05.05.2019.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    }
+  ]
+}

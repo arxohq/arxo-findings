@@ -1,0 +1,133 @@
+{
+  "id": "ARXO-2026-0031",
+  "url": "https://arxo.io/findings/ARXO-2026-0031/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML)",
+  "acts": [
+    "AIFC Rules No. FR0008 of 2017 (AML Rules)"
+  ],
+  "location": "AML 14.2.3(b)",
+  "text": {
+    "en": {
+      "title": "AML 14.2.3(b) refers to the staff training rule AML 14.1.1(b)",
+      "summary": "AML 14.2.3 deals with Group entities, but (b) requires the firm to document \"the basis for its satisfaction that the requirement in AML 14.1.1.(b) is met\" — the rule on training the firm's own employees. The intended target is probably AML 14.2.1(b) or the equivalence test in AML 14.2.2.",
+      "correction": "Please confirm which requirement AML 14.2.3(b) is meant to refer to (group application, equivalence or additional measures) and correct the reference."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AML 14.2.3(b)",
+        "text": "document the basis for its satisfaction that the requirement in AML 14.1.1.(b) is met.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AML 14.1.1(b) — the target as written",
+        "text": "are regularly given training in how to recognise and deal with transactions and other activities which may be related to money laundering;",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Anti-Money Laundering, Counter-Terrorist Financing and Sanctions Rules (AML), as of 15 December 2024",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "AML 14.2.2 — the satisfaction test for Group entities",
+        "text": "The requirement in AML 14.2.1. does not apply if the Relevant Person can satisfy the AFSA that the relevant branch, Subsidiary or Group entity is subject to regulation",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/08/anti-money-laundering-and-counter-terrorist-financing-and-sanctions-rules.pdf",
+        "sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "retrieved": "2026-10-23",
+        "copy": "sources/6ca352e46b7bd314-aml.pdf",
+        "copy_sha256": "6ca352e46b7bd314846207558a7131c1525cb9ad14aa6a9ba9d6cd2d2edd35b1",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:59Z",
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "channel": "email",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Astana Financial Services Authority (AFSA)",
+      "role": "author of the AIFC Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to Astana Financial Services Authority (AFSA) (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": "ARXO-2026-0215",
+  "url": "https://arxo.io/findings/ARXO-2026-0215/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Arbitration Regulations",
+  "acts": [
+    "AIFC Employment Regulations",
+    "AIFC Data Protection Regulations and Rules",
+    "AIFC Court Regulations 2017",
+    "AIFC Court Rules 2018",
+    "AIFC Arbitration Regulations",
+    "IAC Arbitration and Mediation Rules 2022"
+  ],
+  "location": "Art. 9(2)",
+  "text": {
+    "en": {
+      "title": "Arbitration Regulations Art. 9(2): for foreign-seated arbitrations Articles 17 and 18 apply, but not Article 16 (stay of court proceedings)",
+      "summary": "Article 9(2) of the AIFC Arbitration Regulations applies \"Articles 17, 18, Part 3, and the Schedule\" where the seat is outside the AIFC. Article 16 (what the AIFC Court must do when an action is brought in a matter that is subject to an arbitration agreement) is not listed. In the UNCITRAL Model Law (article 1(2)) the corresponding articles 8 and 9 apply whatever the place of arbitration. The AIFC Court can still stay proceedings under its general powers (section 27(2)(g) of the Court Regulations, rule 8.8 of the Court Rules), so the question is whether the Article 16 rule is meant to apply as well.",
+      "correction": "Please confirm whether Article 16 is meant to apply where the seat is outside the AIFC."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Arbitration Regulations, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Art. 9(2)",
+        "text": "Articles 17, 18, Part 3, and the Schedule of these Regulations shall apply where the Seat is one other than the AIFC.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-arbitration-regulations-eng.pdf",
+        "sha256": "9f153a1d7882ce287f6bbb7937c4f477eab9f256d408608501e46b17b0cc2d48",
+        "retrieved": "2026-10-23",
+        "copy": "sources/9f153a1d7882ce28-aifc-arbitration-regulations-eng.pdf",
+        "copy_sha256": "9f153a1d7882ce287f6bbb7937c4f477eab9f256d408608501e46b17b0cc2d48",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Arbitration Regulations, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Art. 9(1)",
+        "text": "Parts 1 to 3 and the Schedule of these Regulations shall apply where the Seat of the Arbitration is the AIFC.",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-arbitration-regulations-eng.pdf",
+        "sha256": "9f153a1d7882ce287f6bbb7937c4f477eab9f256d408608501e46b17b0cc2d48",
+        "retrieved": "2026-10-23",
+        "copy": "sources/9f153a1d7882ce28-aifc-arbitration-regulations-eng.pdf",
+        "copy_sha256": "9f153a1d7882ce287f6bbb7937c4f477eab9f256d408608501e46b17b0cc2d48",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Arbitration Regulations, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Art. 16(1)",
+        "text": "If an action is brought before the AIFC Court in a matter which is the subject of an arbitration agreement",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-arbitration-regulations-eng.pdf",
+        "sha256": "9f153a1d7882ce287f6bbb7937c4f477eab9f256d408608501e46b17b0cc2d48",
+        "retrieved": "2026-10-23",
+        "copy": "sources/9f153a1d7882ce28-aifc-arbitration-regulations-eng.pdf",
+        "copy_sha256": "9f153a1d7882ce287f6bbb7937c4f477eab9f256d408608501e46b17b0cc2d48",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Arbitration Regulations, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Art. 18",
+        "text": "Unless otherwise agreed by the parties, all information relating to the arbitral proceedings shall be kept confidential",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-arbitration-regulations-eng.pdf",
+        "sha256": "9f153a1d7882ce287f6bbb7937c4f477eab9f256d408608501e46b17b0cc2d48",
+        "retrieved": "2026-10-23",
+        "copy": "sources/9f153a1d7882ce28-aifc-arbitration-regulations-eng.pdf",
+        "copy_sha256": "9f153a1d7882ce287f6bbb7937c4f477eab9f256d408608501e46b17b0cc2d48",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:53:20Z",
+      "institution": "AIFC Management Council",
+      "channel": "email",
+      "role": "body that adopted the act"
+    },
+    {
+      "date": "2026-10-27T07:54:42Z",
+      "institution": "AIFC Authority",
+      "channel": "email",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    },
+    {
+      "date": "2026-10-27T07:56:01Z",
+      "institution": "AIFC International Arbitration Centre",
+      "channel": "email",
+      "role": "author of the IAC Arbitration and Mediation Rules"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Management Council",
+      "role": "body that adopted the act"
+    },
+    {
+      "institution": "AIFC Authority",
+      "role": "body that prepares AIFC acts and publishes them on the AIFC website"
+    },
+    {
+      "institution": "AIFC International Arbitration Centre",
+      "role": "author of the IAC Arbitration and Mediation Rules"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Arbitration Regulations, English text",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-arbitration-regulations-eng.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Management Council (e-mail)"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Authority (e-mail)"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC International Arbitration Centre (e-mail)"
+    }
+  ]
+}

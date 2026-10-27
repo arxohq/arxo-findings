@@ -1,0 +1,168 @@
+{
+  "id": "ARXO-2026-0206",
+  "url": "https://arxo.io/findings/ARXO-2026-0206/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "KZ",
+  "jurisdiction_detail": "AIFC",
+  "act": "AIFC Court Rules 2018",
+  "acts": [
+    "AIFC Employment Regulations",
+    "AIFC Data Protection Regulations and Rules",
+    "AIFC Court Regulations 2017",
+    "AIFC Court Rules 2018",
+    "AIFC Arbitration Regulations",
+    "IAC Arbitration and Mediation Rules 2022"
+  ],
+  "location": "r.28.7(9)",
+  "text": {
+    "en": {
+      "title": "Court Rules r.28.7: 'Part 23 (judgments and orders)' applies to small claims, but Part 23 is the Abridged Procedure; judgments and orders are Part 24",
+      "summary": "Rule 28.7(9) lists \"Part 23 (judgments and orders)\" among the provisions that apply to small claims. Part 23 is \"Abridged Procedure for Claims\"; \"Judgments and Orders\" is Part 24. The words in brackets are part of the rule. The unofficial Russian translation repeats \"Часть 23 (судебные решения и приказы)\", while its own contents name Part 24 \"Судебные решения и приказы\".",
+      "correction": "Please replace \"Part 23 (judgments and orders)\" with \"Part 24 (judgments and orders)\" in rule 28.7(9), in English and in the Russian translation."
+    },
+    "ru": {
+      "title": "Правила Суда МФЦА, правило 28.7: к мелким искам применяется «Часть 23 (судебные решения и приказы)», однако Часть 23 — сокращённое производство по искам, а судебные решения и приказы — Часть 24",
+      "summary": "Правило 28.7(9) включает «Часть 23 (судебные решения и приказы)» в число положений, применимых к мелким искам. Часть 23 называется «Сокращённое производство по искам» («Abridged Procedure for Claims»); «Судебные решения и приказы» («Judgments and Orders») — это Часть 24. Слова в скобках являются частью правила. Неофициальный русский перевод повторяет «Часть 23 (судебные решения и приказы);», хотя в его собственном оглавлении Часть 24 названа «Судебные решения и приказы».",
+      "correction": "Просим заменить в правиле 28.7(9) «Part 23 (judgments and orders)» на «Part 24 (judgments and orders)» в английском тексте и соответственно «Часть 23» на «Часть 24» в русском переводе."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-24",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "AIFC Court Rules 2018, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "r.28.7(9)",
+        "text": "Part 23 (judgments and orders);",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-court-rules-2018-eng-1.pdf",
+        "sha256": "5a63449bb33df505991a8660cfd17e33df5165f7a965be64a47e3ce5e6335457",
+        "retrieved": "2026-10-23",
+        "copy": "sources/5a63449bb33df505-aifc-court-rules-2018-eng-1.pdf",
+        "copy_sha256": "5a63449bb33df505991a8660cfd17e33df5165f7a965be64a47e3ce5e6335457",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "AIFC Court Rules 2018, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "contents, Part 23",
+        "text": "Abridged Procedure for Claims",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-court-rules-2018-eng-1.pdf",
+        "sha256": "5a63449bb33df505991a8660cfd17e33df5165f7a965be64a47e3ce5e6335457",
+        "retrieved": "2026-10-23",
+        "copy": "sources/5a63449bb33df505-aifc-court-rules-2018-eng-1.pdf",
+        "copy_sha256": "5a63449bb33df505991a8660cfd17e33df5165f7a965be64a47e3ce5e6335457",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "AIFC Court Rules 2018, English text",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "contents, Part 24",
+        "text": "Judgments and Orders",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-court-rules-2018-eng-1.pdf",
+        "sha256": "5a63449bb33df505991a8660cfd17e33df5165f7a965be64a47e3ce5e6335457",
+        "retrieved": "2026-10-23",
+        "copy": "sources/5a63449bb33df505-aifc-court-rules-2018-eng-1.pdf",
+        "copy_sha256": "5a63449bb33df505991a8660cfd17e33df5165f7a965be64a47e3ce5e6335457",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "AIFC Court Rules 2018, Russian text",
+        "role": "Language version",
+        "language": "ru",
+        "edition": null,
+        "locator": "r.28.7(9), unofficial RU translation",
+        "text": "Часть 23 (судебные решения и приказы);",
+        "translations": {},
+        "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-court-rules-2018-ru-1.pdf",
+        "sha256": "664dc2438d930b523096439922d75beaedeeb7888f0aff4035dc7ad2f6c2b123",
+        "retrieved": "2026-10-23",
+        "copy": "sources/664dc2438d930b52-aifc-court-rules-2018-ru-1.pdf",
+        "copy_sha256": "664dc2438d930b523096439922d75beaedeeb7888f0aff4035dc7ad2f6c2b123",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-27T07:55:21Z",
+      "institution": "AIFC Court",
+      "channel": "email",
+      "role": "court that adopts the AIFC Court Rules and applies the AIFC Court Regulations"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "AIFC Court",
+      "role": "court that adopts the AIFC Court Rules and applies the AIFC Court Regulations"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-27",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-27)."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [
+    {
+      "title": "AIFC Court Rules 2018, English text",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-court-rules-2018-eng-1.pdf"
+    },
+    {
+      "title": "AIFC Court Rules 2018, Russian text",
+      "url": "https://aifc.kz/wp-content/uploads/2024/06/aifc-court-rules-2018-ru-1.pdf"
+    }
+  ],
+  "related": [],
+  "first_published": "2026-10-27T08:42:00Z",
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "reported",
+      "text": "Reported to AIFC Court (e-mail)"
+    }
+  ]
+}
