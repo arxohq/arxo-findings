@@ -5,7 +5,7 @@
   <link rel="alternate" href="https://arxo.io/findings/"/>
   <link rel="self" href="https://arxo.io/findings/feed.atom"/>
   <id>https://arxo.io/findings/</id>
-  <updated>2026-10-27T08:42:00+00:00</updated>
+  <updated>2026-10-27T11:00:00+00:00</updated>
   <author><name>Arxo Law</name></author>
   <rights>Data: CC BY 4.0, Arxo Law</rights>
   <entry>
@@ -1789,6 +1789,16 @@
     <summary>Reported. Seven references to &quot;a notification to the MLRO under AML 13.7.3&quot; survive from the 2018 numbering. AML 13.7.3 is now &quot;Suspicious Activity and Transactions Controls&quot; and creates no notification; the employee&#x27;s duty to report to the MLRO is AML 13.7.5. The MLRO&#x27;s duties to enquire, to decide on a suspicious transaction report, to record reasons and to keep records are attached to the old number.</summary>
   </entry>
   <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0028/</id>
+    <title>ARXO-2026-0028 — CIBS art. L. 312-37 on Légifrance, version from 1 February to 1 August 2026: no « Modifié par » link to the 2026 Finance Act</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0028/"/>
+    <published>2026-10-27T00:00:00Z</published>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <category term="FR"/>
+    <category term="accepted" label="Accepted by the addressee"/>
+    <summary>Accepted by the addressee. The version of article L. 312-37 of the Code of taxes on goods and services in force from 1 February 2026 to 1 August 2026 (LEGIARTI000053593049) carries the amount of €19.24 set by Article 71, I, 4°, d, of Law No. 2026-103 (2026 Finance Act), and its note refers to V of that article. Yet the version has no « Modifié par » link to that law, while the following versions of the same article (LEGIARTI000053592986, LEGIARTI000053593023) do. The text of the version is correct; only the link to the amending law is missing.</summary>
+  </entry>
+  <entry>
     <id>https://arxo.io/findings/ARXO-2026-0027/</id>
     <title>ARXO-2026-0027 — Rev. Proc. 2025-32: the 2026 section 6334(d)(4)(B) amount is published as $5,300; the statutory rounding rule gives $5,250</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0027/"/>
@@ -1815,8 +1825,8 @@
     <published>2026-10-25T00:00:00Z</published>
     <updated>2026-10-26T00:00:00Z</updated>
     <category term="FR"/>
-    <category term="accepted" label="Accepted by the addressee"/>
-    <summary>Accepted by the addressee. Article 72, I, 5°, of Law No. 2025-1403 deletes « part prévue au 2° du I de l&#x27;article L. 162-23, affectée à la » from the first paragraph of I of article L. 162-23-8 of the Social Security Code and inserts « exerçant les activités mentionnées au 4° du même article L. 162-22 ». The version in force until 1 September 2027 (LEGIARTI000053283299) contains both changes; the version from 1 September 2027 (LEGIARTI000048971734, which stems from Law No. 2023-29) contains none of them and restores the earlier wording. The discrepancy arose in the consolidation; the text published in the Official Journal is correct.</summary>
+    <category term="corrected" label="Corrected"/>
+    <summary>Corrected. Article 72, I, 5°, of Law No. 2025-1403 deletes « part prévue au 2° du I de l&#x27;article L. 162-23, affectée à la » from the first paragraph of I of article L. 162-23-8 of the Social Security Code and inserts « exerçant les activités mentionnées au 4° du même article L. 162-22 ». The version in force until 1 September 2027 (LEGIARTI000053283299) contains both changes; the version from 1 September 2027 (LEGIARTI000048971734, which stems from Law No. 2023-29) contains none of them and restores the earlier wording. The discrepancy arose in the consolidation; the text published in the Official Journal is correct.</summary>
   </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0021/</id>
@@ -1825,8 +1835,8 @@
     <published>2026-10-25T00:00:00Z</published>
     <updated>2026-10-26T00:00:00Z</updated>
     <category term="FR"/>
-    <category term="accepted" label="Accepted by the addressee"/>
-    <summary>Accepted by the addressee. Article 135, VI, A, of Law No. 2026-103 (2026 Finance Act) inserts « et l&#x27;établissement public du commerce et de l&#x27;industrie de Corse » after « région » in I of article 1600 of the General Tax Code, with no end date. The version published on Légifrance for 1 January 2027 to 1 January 2028 (LEGIARTI000049534935) does not contain the insertion, while the preceding version (from 1 March 2026) and the versions for 2028 to 2030 do. The discrepancy arose in the consolidation; the text published in the Official Journal is correct.</summary>
+    <category term="corrected" label="Corrected"/>
+    <summary>Corrected. Article 135, VI, A, of Law No. 2026-103 (2026 Finance Act) inserts « et l&#x27;établissement public du commerce et de l&#x27;industrie de Corse » after « région » in I of article 1600 of the General Tax Code, with no end date. The version published on Légifrance for 1 January 2027 to 1 January 2028 (LEGIARTI000049534935) does not contain the insertion, while the preceding version (from 1 March 2026) and the versions for 2028 to 2030 do. The discrepancy arose in the consolidation; the text published in the Official Journal is correct.</summary>
   </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0020/</id>

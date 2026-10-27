@@ -35,17 +35,17 @@
     }
   },
   "status": {
-    "badge": "accepted",
+    "badge": "corrected",
     "label": {
-      "en": "Accepted by the addressee",
-      "ru": "Принято адресатом"
+      "en": "Corrected",
+      "ru": "Исправлено"
     },
     "conclusion": "confirmed",
-    "official_text": "unchanged",
+    "official_text": "corrected",
     "addressee": "accepted",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-10-27",
     "fixed_on": null,
-    "correction_type": null,
+    "correction_type": "publication",
     "under_review": false
   },
   "origin": "The consolidated text",
@@ -175,6 +175,23 @@
         "en": "The Légifrance consolidation service stated that the consolidation error in the version for 1 January 2027 to 1 January 2028 had been corrected and that the correction would appear on Légifrance after the next site update.",
         "fr": "Le service de consolidation de Légifrance a indiqué que l'erreur de consolidation de la version du 1er janvier 2027 au 1er janvier 2028 était corrigée et que la correction serait visible sur Légifrance après la prochaine mise à jour du site."
       }
+    },
+    {
+      "date": "2026-10-26",
+      "institution": "Direction de l'information légale et administrative (DILA)",
+      "kind": "corrected",
+      "summary": {
+        "en": "The 2027 version of the article in the consolidated LEGI data now contains the insertion made by article 135, VI, A of the Finance Act for 2026.",
+        "fr": "La version 2027 de l'article dans les données consolidées LEGI contient désormais l'insertion faite par l'article 135, VI, A de la loi de finances pour 2026."
+      },
+      "document": {
+        "title": "DILA open data: LEGI incremental release LEGI_20261026-212955 (SHA-256 f857ac6182604dca…)",
+        "url": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/LEGI_20261026-212955.tar.gz",
+        "date": "2026-10-26"
+      },
+      "change": "publication",
+      "before": "Elle est perçue au profit de CCI France et répartie entre les chambres de commerce et d'industrie de région, dans les conditions prévues au 10° de l'article L. 711-16 du code de commerce.",
+      "after": "Elle est perçue au profit de CCI France et répartie entre les chambres de commerce et d'industrie de région et l'établissement public du commerce et de l'industrie de Corse, dans les conditions prévues au 10° de l'article L. 711-16 du code de commerce."
     }
   ],
   "approval": "2026-10-23",
@@ -240,6 +257,11 @@
       "date": "2026-10-26",
       "event": "acknowledged",
       "text": "Accepted: Direction de l'information légale et administrative (DILA)"
+    },
+    {
+      "date": "2026-10-26",
+      "event": "corrected",
+      "text": "Correction published: Direction de l'information légale et administrative (DILA)"
     }
   ]
 }
