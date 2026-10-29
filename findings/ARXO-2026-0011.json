@@ -1,0 +1,197 @@
+{
+  "id": "ARXO-2026-0011",
+  "url": "https://arxo.io/findings/ARXO-2026-0011/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "11 CFR 111.24 (Federal Election Commission civil monetary penalties)",
+  "acts": [
+    "FR 2024-31368 (90 FR 210, January 3, 2025)",
+    "11 CFR 111.24, 111.43, 111.44",
+    "Federal Civil Penalties Inflation Adjustment Act of 1990, 28 USC 2461 note"
+  ],
+  "location": "11 CFR 111.24(a)(2)(ii)",
+  "text": {
+    "en": {
+      "title": "eCFR shows $84,852 in 11 CFR 111.24(a)(2)(ii); the January 2025 rule replaced it with $87,056",
+      "summary": "The Federal Election Commission's 2025 inflation adjustment (90 FR 210, FR Doc. 2024-31368) amends section 111.24 by replacing the amount in paragraph (a)(2)(ii) with $87,056. The eCFR still shows the earlier $84,852 in its versions as of 31 December 2025 and 20 October 2026: the amendment to this paragraph was not incorporated.",
+      "impact": "Anyone reading the eCFR sees a maximum penalty for a knowing and willful violation under paragraph (a)(2)(ii) that is $2,204 lower than the rule sets. No penalty actually assessed on the eCFR figure is claimed.",
+      "correction": "$87,056, as set by the rule."
+    }
+  },
+  "status": {
+    "badge": "accepted",
+    "label": {
+      "en": "Accepted by the addressee",
+      "ru": "Принято адресатом"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "accepted",
+    "last_checked": "2026-10-23",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The consolidated text",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "FR-INSTRUCTION",
+        "source": "Federal Election Commission, Civil Monetary Penalties Annual Inflation Adjustments, 90 FR 210 (3 January 2025), FR Doc. 2024-31368",
+        "role": "Amending act",
+        "language": "en",
+        "edition": "2025 annual adjustment",
+        "locator": "90 FR 212, amendatory instruction 2 to §111.24",
+        "text": "2. Section 111.24 is amended in each paragraph indicated in the left column by removing the number indicated in the middle column and adding in its place the number indicated in the right column:",
+        "translations": {},
+        "url": "https://www.federalregister.gov/documents/full_text/xml/2025/01/03/2024-31368.xml",
+        "sha256": "563bb07024c6f9fe10e07d8398f781a13344f922efb62361ca6a7f5a5a655fa7",
+        "retrieved": null,
+        "copy": "sources/563bb07024c6f9fe-fr-2024-31368.xml",
+        "copy_sha256": "563bb07024c6f9fe10e07d8398f781a13344f922efb62361ca6a7f5a5a655fa7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "ROW1-FR",
+        "source": "Federal Election Commission, Civil Monetary Penalties Annual Inflation Adjustments, 90 FR 210 (3 January 2025), FR Doc. 2024-31368",
+        "role": "Amending act",
+        "language": "en",
+        "edition": "2025 annual adjustment",
+        "locator": "90 FR 212, amendment table, §111.24(a)(2)(ii), amount added",
+        "text": "87,056",
+        "translations": {},
+        "url": "https://www.federalregister.gov/documents/full_text/xml/2025/01/03/2024-31368.xml",
+        "sha256": "563bb07024c6f9fe10e07d8398f781a13344f922efb62361ca6a7f5a5a655fa7",
+        "retrieved": null,
+        "copy": "sources/563bb07024c6f9fe-fr-2024-31368.xml",
+        "copy_sha256": "563bb07024c6f9fe10e07d8398f781a13344f922efb62361ca6a7f5a5a655fa7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "ROW1-OLD",
+        "source": "eCFR, 11 CFR 111.24, version as of 31 December 2025",
+        "role": "Prior edition",
+        "language": "en",
+        "edition": "11 CFR Part 111, snapshot 2025-12-31",
+        "locator": "eCFR as of 31 December 2025, §111.24(a)(2)(ii)",
+        "text": "(ii) Notwithstanding paragraph (a)(2)(i) of this section, in the case of a knowing and willful violation of 52 U.S.C. 30122,the civil penalty shall not be less than 300% of the amount of any contribution involved in the violation and shall not exceed the greater of $84,852 or 1,000% of the amount of any contribution involved in the violation.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/on/2025-12-31/title-11/chapter-I/subchapter-A/part-111/subpart-A/section-111.24",
+        "sha256": "216c7c3030eb63e37a913792bfb003ef3dbd13da92b55ef268e52347d7193cc4",
+        "retrieved": null,
+        "copy": "sources/216c7c3030eb63e3-ecfr-11-111-2025-12-31.xml",
+        "copy_sha256": "216c7c3030eb63e37a913792bfb003ef3dbd13da92b55ef268e52347d7193cc4",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "ROW1-CURRENT",
+        "source": "eCFR, 11 CFR 111.24, version as of 20 October 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "11 CFR Part 111, snapshot 2026-10-20",
+        "locator": "eCFR as of 20 October 2026, §111.24(a)(2)(ii)",
+        "text": "(ii) Notwithstanding paragraph (a)(2)(i) of this section, in the case of a knowing and willful violation of 52 U.S.C. 30122,the civil penalty shall not be less than 300% of the amount of any contribution involved in the violation and shall not exceed the greater of $84,852 or 1,000% of the amount of any contribution involved in the violation.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/current/title-11/chapter-I/subchapter-A/part-111/subpart-A/section-111.24",
+        "sha256": "216c7c3030eb63e37a913792bfb003ef3dbd13da92b55ef268e52347d7193cc4",
+        "retrieved": null,
+        "copy": "sources/216c7c3030eb63e3-ecfr-11-111-2026-10-20.xml",
+        "copy_sha256": "216c7c3030eb63e37a913792bfb003ef3dbd13da92b55ef268e52347d7193cc4",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "coordinator-print-add1",
+        "source": "Federal Register, 90 FR 210–212 (3 January 2025), printed edition",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "90 FR 212 (printed edition), amendment table, §111.24(a)(2)(ii), amount added",
+        "text": "87,056",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/FR-2025-01-03/pdf/2024-31368.pdf",
+        "sha256": "6b1d3a27909493af0dad197e7ea75495742c7b429aaa2ae958f3a6c61c9275ea",
+        "retrieved": null,
+        "copy": "sources/6b1d3a27909493af-fr-2024-31368-review.pdf",
+        "copy_sha256": "6b1d3a27909493af0dad197e7ea75495742c7b429aaa2ae958f3a6c61c9275ea",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-23T07:27:00Z",
+      "institution": "Federal Election Commission",
+      "channel": "email",
+      "role": "author of the rule"
+    },
+    {
+      "date": "2026-10-23T07:27:00Z",
+      "institution": "Office of the Federal Register, National Archives and Records Administration",
+      "channel": "email",
+      "role": "publisher of the eCFR"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Federal Election Commission",
+      "role": "author of the rule"
+    },
+    {
+      "institution": "Office of the Federal Register, National Archives and Records Administration",
+      "role": "publisher of the eCFR"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-10-23T21:06:00Z",
+      "institution": "Office of the Federal Register, National Archives and Records Administration",
+      "kind": "acknowledged",
+      "summary": {
+        "en": "The Office of the Federal Register replied that the amendment to paragraph (a)(2)(ii) had not been incorporated and that it will publish a CFR correction in the Federal Register. The correction has not yet been published."
+      }
+    }
+  ],
+  "approval": "2026-10-23",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-23)."
+  },
+  "credit": [],
+  "press_date": "2026-10-28T11:00:00-04:00",
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-29T15:20:00Z",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "acknowledged",
+      "text": "Accepted: Office of the Federal Register, National Archives and Records Administration"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Federal Election Commission (e-mail)"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register, National Archives and Records Administration (e-mail)"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

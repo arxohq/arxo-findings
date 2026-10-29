@@ -4,21 +4,22 @@
   "description": "Verified discrepancies in legal texts, official publications and implementations, with evidence and correction histories.",
   "publisher": "Arxo Law",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "as_of": "2026-10-27T11:00:00+00:00",
+  "as_of": "2026-10-29T15:20:00+00:00",
   "base_url": "https://arxo.io/findings/",
   "counts": {
-    "records": 203,
-    "discrepancies": 166,
+    "records": 205,
+    "discrepancies": 168,
     "questions": 37,
     "by_jurisdiction": {
       "FR": 12,
       "KZ": 182,
-      "US": 9
+      "US": 11
     },
     "by_status": {
       "reported": 192,
-      "accepted": 7,
-      "corrected": 2,
+      "accepted": 3,
+      "note_added": 5,
+      "corrected": 3,
       "corrected_before_report": 2
     },
     "matrix": [
@@ -32,13 +33,13 @@
         "jurisdiction": "FR",
         "class": "publication",
         "status": "accepted",
-        "records": 2
+        "records": 1
       },
       {
         "jurisdiction": "FR",
         "class": "publication",
         "status": "corrected",
-        "records": 2
+        "records": 3
       },
       {
         "jurisdiction": "FR",
@@ -85,7 +86,7 @@
       {
         "jurisdiction": "US",
         "class": "act_text",
-        "status": "accepted",
+        "status": "note_added",
         "records": 5
       },
       {
@@ -103,15 +104,21 @@
       {
         "jurisdiction": "US",
         "class": "publication",
+        "status": "accepted",
+        "records": 2
+      },
+      {
+        "jurisdiction": "US",
+        "class": "publication",
         "status": "reported",
         "records": 1
       }
     ],
-    "institutions_notified": 29,
-    "corrected_by_official_document": 4,
+    "institutions_notified": 31,
+    "corrected_by_official_document": 5,
     "withdrawn_after_publication": {
       "withdrawn": 0,
-      "of_published": 203
+      "of_published": 205
     },
     "rule": "Counts are of findings. One finding is one independently checkable statement about one discrepancy at one place; classes and questions are counted separately and are not added together."
   },
@@ -569,15 +576,15 @@
         }
       },
       "status": {
-        "badge": "accepted",
+        "badge": "note_added",
         "label": {
-          "en": "Accepted by the addressee",
-          "ru": "Принято адресатом"
+          "en": "Editorial note added",
+          "ru": "Добавлено редакционное пояснение"
         },
         "conclusion": "confirmed",
-        "official_text": "unchanged",
+        "official_text": "note_added",
         "addressee": "accepted",
-        "last_checked": "2026-10-25",
+        "last_checked": "2026-10-29",
         "fixed_on": null,
         "correction_type": null,
         "under_review": false
@@ -696,6 +703,20 @@
           "summary": {
             "en": "The Office of the Law Revision Counsel said it has added a footnote and a References in Text note for this reference; they will appear in the next release point of the Code. Until that release point is published, the text of the Code is unchanged."
           }
+        },
+        {
+          "date": "2026-10-29",
+          "institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+          "kind": "note_added",
+          "summary": {
+            "en": "In release point 119-134 of the United States Code, the reference carries a footnote and a References in Text note: subsection (b)(2)(B)(ii) was redesignated subsection (b)(1)(B)(ii) in 2008. The wording of the section is unchanged."
+          },
+          "document": {
+            "title": "Office of the Law Revision Counsel: United States Code, release point 119-134, 26 U.S.C. §42",
+            "url": "https://uscode.house.gov/us/usc/119-134/t26/s42/"
+          },
+          "before": "the credit under this section for such rehabilitation expenditures shall be determined using the percentage applicable under subsection (b)(2)(B)(ii).",
+          "after": "the credit under this section for such rehabilitation expenditures shall be determined using the percentage applicable under subsection (b)(2)(B)(ii).¹ Footnote ¹: “See References in Text note below.” References in Text note: “Subsection (b)(2)(B)(ii), referred to in subsec. (e)(3)(B), was redesignated subsec. (b)(1)(B)(ii) of this section, and amended, by Pub. L. 110-289, div. C, title I, § 3002(a)(1), (2)(C), July 30, 2008, 122 Stat. 2879.”"
         }
       ],
       "approval": "2026-10-22",
@@ -780,6 +801,11 @@
           "date": "2026-10-25",
           "event": "entered",
           "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "note_added",
+          "text": "Editorial note published: Office of the Law Revision Counsel, U.S. House of Representatives"
         }
       ]
     },
@@ -807,15 +833,15 @@
         }
       },
       "status": {
-        "badge": "accepted",
+        "badge": "note_added",
         "label": {
-          "en": "Accepted by the addressee",
-          "ru": "Принято адресатом"
+          "en": "Editorial note added",
+          "ru": "Добавлено редакционное пояснение"
         },
         "conclusion": "confirmed",
-        "official_text": "unchanged",
+        "official_text": "note_added",
         "addressee": "accepted",
-        "last_checked": "2026-10-25",
+        "last_checked": "2026-10-29",
         "fixed_on": null,
         "correction_type": null,
         "under_review": false
@@ -934,6 +960,20 @@
           "summary": {
             "en": "The Office of the Law Revision Counsel said it has added a footnote and a References in Text note for this reference; they will appear in the next release point of the Code. Until that release point is published, the text of the Code is unchanged."
           }
+        },
+        {
+          "date": "2026-10-29",
+          "institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+          "kind": "note_added",
+          "summary": {
+            "en": "In release point 119-134 of the United States Code, the reference carries a footnote mark and a References in Text note: the definition of related person in subsection (d)(2)(D)(iii) was redesignated subsection (d)(2)(D)(ii) in 2008. The wording of the section is unchanged."
+          },
+          "document": {
+            "title": "Office of the Law Revision Counsel: United States Code, release point 119-134, 26 U.S.C. §42",
+            "url": "https://uscode.house.gov/us/usc/119-134/t26/s42/"
+          },
+          "before": "any person who is related (as defined in subsection (d)(2)(D)(iii)) to such individual.",
+          "after": "any person who is related (as defined in subsection (d)(2)(D)(iii)) ¹ to such individual. References in Text note: “Subsection (d)(2)(D)(iii), referred to in subsec. (i)(3)(C)(ii), as it relates to the definition of “related person”, was redesignated subsec. (d)(2)(D)(ii) of this section by Pub. L. 110-289, div. C, title I, § 3003(e)(2), (g)(2), July 30, 2008, 122 Stat. 2881, 2882.”"
         }
       ],
       "approval": "2026-10-22",
@@ -1018,6 +1058,11 @@
           "date": "2026-10-25",
           "event": "entered",
           "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "note_added",
+          "text": "Editorial note published: Office of the Law Revision Counsel, U.S. House of Representatives"
         }
       ]
     },
@@ -1045,15 +1090,15 @@
         }
       },
       "status": {
-        "badge": "accepted",
+        "badge": "note_added",
         "label": {
-          "en": "Accepted by the addressee",
-          "ru": "Принято адресатом"
+          "en": "Editorial note added",
+          "ru": "Добавлено редакционное пояснение"
         },
         "conclusion": "confirmed",
-        "official_text": "unchanged",
+        "official_text": "note_added",
         "addressee": "accepted",
-        "last_checked": "2026-10-25",
+        "last_checked": "2026-10-29",
         "fixed_on": null,
         "correction_type": null,
         "under_review": false
@@ -1172,6 +1217,20 @@
           "summary": {
             "en": "The Office of the Law Revision Counsel said it has added a footnote and a References in Text note for this reference; they will appear in the next release point of the Code. Until that release point is published, the text of the Code is unchanged."
           }
+        },
+        {
+          "date": "2026-10-29",
+          "institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+          "kind": "note_added",
+          "summary": {
+            "en": "In release point 119-134 of the United States Code, the reference carries a footnote mark and a References in Text note: subparagraph (B) has contained no clauses since its 1988 amendment. The wording of the section is unchanged."
+          },
+          "document": {
+            "title": "Office of the Law Revision Counsel: United States Code, release point 119-134, 26 U.S.C. §42",
+            "url": "https://uscode.house.gov/us/usc/119-134/t26/s42/"
+          },
+          "before": "For purposes of subparagraph (B)(i), a husband and wife (and their estates) shall be treated as 1 partner.",
+          "after": "For purposes of subparagraph (B)(i),¹ a husband and wife (and their estates) shall be treated as 1 partner. References in Text note: “Subparagraph (B), referred to in subsec. (j)(5)(C)(i), meaning subsec. (j)(5)(B) of this section, was amended generally by Pub. L. 100-647, title IV, § 4004(a), Nov. 10, 1988, 102 Stat. 3644, and, as so amended, no longer contains clauses. For text of subsec. (j)(5)(B) prior to amendment, see 1988 Amendment note below.”"
         }
       ],
       "approval": "2026-10-22",
@@ -1256,6 +1315,11 @@
           "date": "2026-10-25",
           "event": "entered",
           "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "note_added",
+          "text": "Editorial note published: Office of the Law Revision Counsel, U.S. House of Representatives"
         }
       ]
     },
@@ -1283,15 +1347,15 @@
         }
       },
       "status": {
-        "badge": "accepted",
+        "badge": "note_added",
         "label": {
-          "en": "Accepted by the addressee",
-          "ru": "Принято адресатом"
+          "en": "Editorial note added",
+          "ru": "Добавлено редакционное пояснение"
         },
         "conclusion": "confirmed",
-        "official_text": "unchanged",
+        "official_text": "note_added",
         "addressee": "accepted",
-        "last_checked": "2026-10-25",
+        "last_checked": "2026-10-29",
         "fixed_on": null,
         "correction_type": null,
         "under_review": false
@@ -1394,6 +1458,20 @@
           "summary": {
             "en": "The Office of the Law Revision Counsel said it has added a footnote and a References in Text note for this reference; they will appear in the next release point of the Code. Until that release point is published, the text of the Code is unchanged."
           }
+        },
+        {
+          "date": "2026-10-29",
+          "institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+          "kind": "note_added",
+          "summary": {
+            "en": "In release point 119-134 of the United States Code, the words “the $4,150 amount in subparagraph (A)” carry the footnote “So in original.” The wording of the section is unchanged."
+          },
+          "document": {
+            "title": "Office of the Law Revision Counsel: United States Code, release point 119-134, 26 U.S.C. §642",
+            "url": "https://uscode.house.gov/us/usc/119-134/t26/s642/"
+          },
+          "before": "the $4,150 amount in subparagraph (A) shall be increased in the same manner as provided in section 6334(d)(4)(C).",
+          "after": "the $4,150 ² amount in subparagraph (A) shall be increased in the same manner as provided in section 6334(d)(4)(C). Footnote ²: “So in original.”"
         }
       ],
       "approval": "2026-10-22",
@@ -1478,6 +1556,11 @@
           "date": "2026-10-25",
           "event": "entered",
           "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "note_added",
+          "text": "Editorial note published: Office of the Law Revision Counsel, U.S. House of Representatives"
         }
       ]
     },
@@ -1505,15 +1588,15 @@
         }
       },
       "status": {
-        "badge": "accepted",
+        "badge": "note_added",
         "label": {
-          "en": "Accepted by the addressee",
-          "ru": "Принято адресатом"
+          "en": "Editorial note added",
+          "ru": "Добавлено редакционное пояснение"
         },
         "conclusion": "confirmed",
-        "official_text": "unchanged",
+        "official_text": "note_added",
         "addressee": "accepted",
-        "last_checked": "2026-10-25",
+        "last_checked": "2026-10-29",
         "fixed_on": null,
         "correction_type": null,
         "under_review": false
@@ -1616,6 +1699,20 @@
           "summary": {
             "en": "The Office of the Law Revision Counsel said it has added a footnote and a References in Text note for this reference; they will appear in the next release point of the Code. Until that release point is published, the text of the Code is unchanged."
           }
+        },
+        {
+          "date": "2026-10-29",
+          "institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+          "kind": "note_added",
+          "summary": {
+            "en": "In release point 119-134 of the United States Code, the reference carries a footnote and a References in Text note: section 1(f)(3)(B), as amended in 2017, no longer refers to the year 1992. The wording of the section is unchanged."
+          },
+          "document": {
+            "title": "Office of the Law Revision Counsel: United States Code, release point 119-134, 26 U.S.C. §877",
+            "url": "https://uscode.house.gov/us/usc/119-134/t26/s877/"
+          },
+          "before": "multiplied by the cost-of-living adjustment determined under section 1(f)(3) for such calendar year by substituting “2003” for “1992” in subparagraph (B) thereof.",
+          "after": "multiplied by the cost-of-living adjustment determined under section 1(f)(3) for such calendar year by substituting “2003” for “1992” in subparagraph (B) thereof.¹ Footnote ¹: “See References in Text note below.” References in Text note: “Section 1(f)(3)(B), referred to in subsec. (a)(2), was struck out, and a new section 1(f)(3)(B) enacted, by Pub. L. 115-97, title I, §11002(a), Dec. 22, 2017, 131 Stat. 2059. As amended, section 1(f)(3)(B) of this title no longer refers to the year 1992.”"
         }
       ],
       "approval": "2026-10-22",
@@ -1700,6 +1797,11 @@
           "date": "2026-10-25",
           "event": "entered",
           "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "note_added",
+          "text": "Editorial note published: Office of the Law Revision Counsel, U.S. House of Representatives"
         }
       ]
     },
@@ -2298,6 +2400,412 @@
         },
         {
           "date": "2026-10-25",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0011",
+      "url": "https://arxo.io/findings/ARXO-2026-0011/",
+      "record_kind": "discrepancy",
+      "class": "publication",
+      "class_label": "Publication and consolidation",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "11 CFR 111.24 (Federal Election Commission civil monetary penalties)",
+      "acts": [
+        "FR 2024-31368 (90 FR 210, January 3, 2025)",
+        "11 CFR 111.24, 111.43, 111.44",
+        "Federal Civil Penalties Inflation Adjustment Act of 1990, 28 USC 2461 note"
+      ],
+      "location": "11 CFR 111.24(a)(2)(ii)",
+      "text": {
+        "en": {
+          "title": "eCFR shows $84,852 in 11 CFR 111.24(a)(2)(ii); the January 2025 rule replaced it with $87,056",
+          "summary": "The Federal Election Commission's 2025 inflation adjustment (90 FR 210, FR Doc. 2024-31368) amends section 111.24 by replacing the amount in paragraph (a)(2)(ii) with $87,056. The eCFR still shows the earlier $84,852 in its versions as of 31 December 2025 and 20 October 2026: the amendment to this paragraph was not incorporated.",
+          "impact": "Anyone reading the eCFR sees a maximum penalty for a knowing and willful violation under paragraph (a)(2)(ii) that is $2,204 lower than the rule sets. No penalty actually assessed on the eCFR figure is claimed.",
+          "correction": "$87,056, as set by the rule."
+        }
+      },
+      "status": {
+        "badge": "accepted",
+        "label": {
+          "en": "Accepted by the addressee",
+          "ru": "Принято адресатом"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "accepted",
+        "last_checked": "2026-10-23",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The consolidated text",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "FR-INSTRUCTION",
+            "source": "Federal Election Commission, Civil Monetary Penalties Annual Inflation Adjustments, 90 FR 210 (3 January 2025), FR Doc. 2024-31368",
+            "role": "Amending act",
+            "language": "en",
+            "edition": "2025 annual adjustment",
+            "locator": "90 FR 212, amendatory instruction 2 to §111.24",
+            "text": "2. Section 111.24 is amended in each paragraph indicated in the left column by removing the number indicated in the middle column and adding in its place the number indicated in the right column:",
+            "translations": {},
+            "url": "https://www.federalregister.gov/documents/full_text/xml/2025/01/03/2024-31368.xml",
+            "sha256": "563bb07024c6f9fe10e07d8398f781a13344f922efb62361ca6a7f5a5a655fa7",
+            "retrieved": null,
+            "copy": "sources/563bb07024c6f9fe-fr-2024-31368.xml",
+            "copy_sha256": "563bb07024c6f9fe10e07d8398f781a13344f922efb62361ca6a7f5a5a655fa7",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "ROW1-FR",
+            "source": "Federal Election Commission, Civil Monetary Penalties Annual Inflation Adjustments, 90 FR 210 (3 January 2025), FR Doc. 2024-31368",
+            "role": "Amending act",
+            "language": "en",
+            "edition": "2025 annual adjustment",
+            "locator": "90 FR 212, amendment table, §111.24(a)(2)(ii), amount added",
+            "text": "87,056",
+            "translations": {},
+            "url": "https://www.federalregister.gov/documents/full_text/xml/2025/01/03/2024-31368.xml",
+            "sha256": "563bb07024c6f9fe10e07d8398f781a13344f922efb62361ca6a7f5a5a655fa7",
+            "retrieved": null,
+            "copy": "sources/563bb07024c6f9fe-fr-2024-31368.xml",
+            "copy_sha256": "563bb07024c6f9fe10e07d8398f781a13344f922efb62361ca6a7f5a5a655fa7",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "ROW1-OLD",
+            "source": "eCFR, 11 CFR 111.24, version as of 31 December 2025",
+            "role": "Prior edition",
+            "language": "en",
+            "edition": "11 CFR Part 111, snapshot 2025-12-31",
+            "locator": "eCFR as of 31 December 2025, §111.24(a)(2)(ii)",
+            "text": "(ii) Notwithstanding paragraph (a)(2)(i) of this section, in the case of a knowing and willful violation of 52 U.S.C. 30122,the civil penalty shall not be less than 300% of the amount of any contribution involved in the violation and shall not exceed the greater of $84,852 or 1,000% of the amount of any contribution involved in the violation.",
+            "translations": {},
+            "url": "https://www.ecfr.gov/on/2025-12-31/title-11/chapter-I/subchapter-A/part-111/subpart-A/section-111.24",
+            "sha256": "216c7c3030eb63e37a913792bfb003ef3dbd13da92b55ef268e52347d7193cc4",
+            "retrieved": null,
+            "copy": "sources/216c7c3030eb63e3-ecfr-11-111-2025-12-31.xml",
+            "copy_sha256": "216c7c3030eb63e37a913792bfb003ef3dbd13da92b55ef268e52347d7193cc4",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "ROW1-CURRENT",
+            "source": "eCFR, 11 CFR 111.24, version as of 20 October 2026",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "11 CFR Part 111, snapshot 2026-10-20",
+            "locator": "eCFR as of 20 October 2026, §111.24(a)(2)(ii)",
+            "text": "(ii) Notwithstanding paragraph (a)(2)(i) of this section, in the case of a knowing and willful violation of 52 U.S.C. 30122,the civil penalty shall not be less than 300% of the amount of any contribution involved in the violation and shall not exceed the greater of $84,852 or 1,000% of the amount of any contribution involved in the violation.",
+            "translations": {},
+            "url": "https://www.ecfr.gov/current/title-11/chapter-I/subchapter-A/part-111/subpart-A/section-111.24",
+            "sha256": "216c7c3030eb63e37a913792bfb003ef3dbd13da92b55ef268e52347d7193cc4",
+            "retrieved": null,
+            "copy": "sources/216c7c3030eb63e3-ecfr-11-111-2026-10-20.xml",
+            "copy_sha256": "216c7c3030eb63e37a913792bfb003ef3dbd13da92b55ef268e52347d7193cc4",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "coordinator-print-add1",
+            "source": "Federal Register, 90 FR 210–212 (3 January 2025), printed edition",
+            "role": "Official publication",
+            "language": "en",
+            "edition": null,
+            "locator": "90 FR 212 (printed edition), amendment table, §111.24(a)(2)(ii), amount added",
+            "text": "87,056",
+            "translations": {},
+            "url": "https://www.govinfo.gov/content/pkg/FR-2025-01-03/pdf/2024-31368.pdf",
+            "sha256": "6b1d3a27909493af0dad197e7ea75495742c7b429aaa2ae958f3a6c61c9275ea",
+            "retrieved": null,
+            "copy": "sources/6b1d3a27909493af-fr-2024-31368-review.pdf",
+            "copy_sha256": "6b1d3a27909493af0dad197e7ea75495742c7b429aaa2ae958f3a6c61c9275ea",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-23T07:27:00Z",
+          "institution": "Federal Election Commission",
+          "channel": "email",
+          "role": "author of the rule"
+        },
+        {
+          "date": "2026-10-23T07:27:00Z",
+          "institution": "Office of the Federal Register, National Archives and Records Administration",
+          "channel": "email",
+          "role": "publisher of the eCFR"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Federal Election Commission",
+          "role": "author of the rule"
+        },
+        {
+          "institution": "Office of the Federal Register, National Archives and Records Administration",
+          "role": "publisher of the eCFR"
+        }
+      ],
+      "responses": [
+        {
+          "date": "2026-10-23T21:06:00Z",
+          "institution": "Office of the Federal Register, National Archives and Records Administration",
+          "kind": "acknowledged",
+          "summary": {
+            "en": "The Office of the Federal Register replied that the amendment to paragraph (a)(2)(ii) had not been incorporated and that it will publish a CFR correction in the Federal Register. The correction has not yet been published."
+          }
+        }
+      ],
+      "approval": "2026-10-23",
+      "ai_role": {
+        "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-23)."
+      },
+      "credit": [],
+      "press_date": "2026-10-28T11:00:00-04:00",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-29T15:20:00Z",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "event": "acknowledged",
+          "text": "Accepted: Office of the Federal Register, National Archives and Records Administration"
+        },
+        {
+          "date": "2026-10-23",
+          "event": "reported",
+          "text": "Reported to Federal Election Commission (e-mail)"
+        },
+        {
+          "date": "2026-10-23",
+          "event": "reported",
+          "text": "Reported to Office of the Federal Register, National Archives and Records Administration (e-mail)"
+        },
+        {
+          "date": "2026-10-25",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0012",
+      "url": "https://arxo.io/findings/ARXO-2026-0012/",
+      "record_kind": "discrepancy",
+      "class": "publication",
+      "class_label": "Publication and consolidation",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "11 CFR 111.24 (Federal Election Commission civil monetary penalties)",
+      "acts": [
+        "FR 2024-31368 (90 FR 210, January 3, 2025)",
+        "11 CFR 111.24, 111.43, 111.44",
+        "Federal Civil Penalties Inflation Adjustment Act of 1990, 28 USC 2461 note"
+      ],
+      "location": "11 CFR 111.24(b)",
+      "text": {
+        "en": {
+          "title": "eCFR shows $7,455 in 11 CFR 111.24(b); the January 2025 rule sets $7,445",
+          "summary": "The same 2025 rule replaces the first amount in paragraph (b) with $7,445; this is also the figure its table derives from $7,256. The eCFR shows $7,455 in its versions as of 31 December 2025 and 20 October 2026: the amendment was incorporated with two digits transposed.",
+          "impact": "The eCFR overstates the maximum penalty under paragraph (b) by $10. No penalty actually assessed on the eCFR figure is claimed.",
+          "correction": "$7,445, as set by the rule."
+        }
+      },
+      "status": {
+        "badge": "accepted",
+        "label": {
+          "en": "Accepted by the addressee",
+          "ru": "Принято адресатом"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "accepted",
+        "last_checked": "2026-10-23",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The consolidated text",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "FR-INSTRUCTION",
+            "source": "Federal Election Commission, Civil Monetary Penalties Annual Inflation Adjustments, 90 FR 210 (3 January 2025), FR Doc. 2024-31368",
+            "role": "Amending act",
+            "language": "en",
+            "edition": "2025 annual adjustment",
+            "locator": "90 FR 212, amendatory instruction 2 to §111.24",
+            "text": "2. Section 111.24 is amended in each paragraph indicated in the left column by removing the number indicated in the middle column and adding in its place the number indicated in the right column:",
+            "translations": {},
+            "url": "https://www.federalregister.gov/documents/full_text/xml/2025/01/03/2024-31368.xml",
+            "sha256": "563bb07024c6f9fe10e07d8398f781a13344f922efb62361ca6a7f5a5a655fa7",
+            "retrieved": null,
+            "copy": "sources/563bb07024c6f9fe-fr-2024-31368.xml",
+            "copy_sha256": "563bb07024c6f9fe10e07d8398f781a13344f922efb62361ca6a7f5a5a655fa7",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "ROW2-FR",
+            "source": "Federal Election Commission, Civil Monetary Penalties Annual Inflation Adjustments, 90 FR 210 (3 January 2025), FR Doc. 2024-31368",
+            "role": "Amending act",
+            "language": "en",
+            "edition": "2025 annual adjustment",
+            "locator": "90 FR 212, amendment table, §111.24(b), amount added",
+            "text": "7,445",
+            "translations": {},
+            "url": "https://www.federalregister.gov/documents/full_text/xml/2025/01/03/2024-31368.xml",
+            "sha256": "563bb07024c6f9fe10e07d8398f781a13344f922efb62361ca6a7f5a5a655fa7",
+            "retrieved": null,
+            "copy": "sources/563bb07024c6f9fe-fr-2024-31368.xml",
+            "copy_sha256": "563bb07024c6f9fe10e07d8398f781a13344f922efb62361ca6a7f5a5a655fa7",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "ROW2-OLD",
+            "source": "eCFR, 11 CFR 111.24, version as of 31 December 2025",
+            "role": "Prior edition",
+            "language": "en",
+            "edition": "11 CFR Part 111, snapshot 2025-12-31",
+            "locator": "eCFR as of 31 December 2025, §111.24(b)",
+            "text": "(b) Any Commission member or employee, or any other person, who in violation of 52 U.S.C. 30109(a)(12)(A) makes public any notification or investigation under 52 U.S.C. 30109 without receiving the written consent of the person receiving such notification, or the person with respect to whom such investigation is made, shall be fined not more than $7,455. Any such member, employee, or other person who knowingly and willfully violates this provision shall be fined not more than $18,610.",
+            "translations": {},
+            "url": "https://www.ecfr.gov/on/2025-12-31/title-11/chapter-I/subchapter-A/part-111/subpart-A/section-111.24",
+            "sha256": "216c7c3030eb63e37a913792bfb003ef3dbd13da92b55ef268e52347d7193cc4",
+            "retrieved": null,
+            "copy": "sources/216c7c3030eb63e3-ecfr-11-111-2025-12-31.xml",
+            "copy_sha256": "216c7c3030eb63e37a913792bfb003ef3dbd13da92b55ef268e52347d7193cc4",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "ROW2-CURRENT",
+            "source": "eCFR, 11 CFR 111.24, version as of 20 October 2026",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "11 CFR Part 111, snapshot 2026-10-20",
+            "locator": "eCFR as of 20 October 2026, §111.24(b)",
+            "text": "(b) Any Commission member or employee, or any other person, who in violation of 52 U.S.C. 30109(a)(12)(A) makes public any notification or investigation under 52 U.S.C. 30109 without receiving the written consent of the person receiving such notification, or the person with respect to whom such investigation is made, shall be fined not more than $7,455. Any such member, employee, or other person who knowingly and willfully violates this provision shall be fined not more than $18,610.",
+            "translations": {},
+            "url": "https://www.ecfr.gov/current/title-11/chapter-I/subchapter-A/part-111/subpart-A/section-111.24",
+            "sha256": "216c7c3030eb63e37a913792bfb003ef3dbd13da92b55ef268e52347d7193cc4",
+            "retrieved": null,
+            "copy": "sources/216c7c3030eb63e3-ecfr-11-111-2026-10-20.xml",
+            "copy_sha256": "216c7c3030eb63e37a913792bfb003ef3dbd13da92b55ef268e52347d7193cc4",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "coordinator-print-add2",
+            "source": "Federal Register, 90 FR 210–212 (3 January 2025), printed edition",
+            "role": "Official publication",
+            "language": "en",
+            "edition": null,
+            "locator": "90 FR 212 (printed edition), amendment table, §111.24(b), amount added",
+            "text": "7,445",
+            "translations": {},
+            "url": "https://www.govinfo.gov/content/pkg/FR-2025-01-03/pdf/2024-31368.pdf",
+            "sha256": "6b1d3a27909493af0dad197e7ea75495742c7b429aaa2ae958f3a6c61c9275ea",
+            "retrieved": null,
+            "copy": "sources/6b1d3a27909493af-fr-2024-31368-review.pdf",
+            "copy_sha256": "6b1d3a27909493af0dad197e7ea75495742c7b429aaa2ae958f3a6c61c9275ea",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-23T07:27:00Z",
+          "institution": "Federal Election Commission",
+          "channel": "email",
+          "role": "author of the rule"
+        },
+        {
+          "date": "2026-10-23T07:27:00Z",
+          "institution": "Office of the Federal Register, National Archives and Records Administration",
+          "channel": "email",
+          "role": "publisher of the eCFR"
+        },
+        {
+          "date": "2026-10-24T12:39:00Z",
+          "institution": "Office of the Federal Register, National Archives and Records Administration",
+          "channel": "email",
+          "role": "publisher of the eCFR",
+          "what": "clarification on paragraph (b), sent before the CFR correction"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Federal Election Commission",
+          "role": "author of the rule"
+        },
+        {
+          "institution": "Office of the Federal Register, National Archives and Records Administration",
+          "role": "publisher of the eCFR"
+        }
+      ],
+      "responses": [
+        {
+          "date": "2026-10-26T14:52:00Z",
+          "institution": "Office of the Federal Register, National Archives and Records Administration",
+          "kind": "acknowledged",
+          "summary": {
+            "en": "The Office of the Federal Register replied that the amount in paragraph (b) will be fixed in the same CFR correction as paragraph (a)(2)(ii). The correction has not yet been published."
+          }
+        }
+      ],
+      "approval": "2026-10-23",
+      "ai_role": {
+        "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo checked the finding and approved the report before it was sent (2026-10-23)."
+      },
+      "credit": [],
+      "press_date": "2026-10-28T11:00:00-04:00",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-29T15:20:00Z",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "event": "reported",
+          "text": "Reported to Federal Election Commission (e-mail)"
+        },
+        {
+          "date": "2026-10-23",
+          "event": "reported",
+          "text": "Reported to Office of the Federal Register, National Archives and Records Administration (e-mail)"
+        },
+        {
+          "date": "2026-10-24",
+          "event": "reported",
+          "text": "Reported to Office of the Federal Register, National Archives and Records Administration (e-mail)"
+        },
+        {
+          "date": "2026-10-25",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-26",
+          "event": "acknowledged",
+          "text": "Accepted: Office of the Federal Register, National Archives and Records Administration"
+        },
+        {
+          "date": "2026-10-29",
           "event": "entered",
           "text": "Entered in the register"
         }
@@ -5506,17 +6014,17 @@
         }
       },
       "status": {
-        "badge": "accepted",
+        "badge": "corrected",
         "label": {
-          "en": "Accepted by the addressee",
-          "ru": "Принято адресатом"
+          "en": "Corrected",
+          "ru": "Исправлено"
         },
         "conclusion": "confirmed",
-        "official_text": "unchanged",
+        "official_text": "corrected",
         "addressee": "accepted",
         "last_checked": "2026-10-27",
         "fixed_on": null,
-        "correction_type": null,
+        "correction_type": "publication",
         "under_review": false
       },
       "origin": "The consolidated text",
@@ -5676,6 +6184,23 @@
             "en": "The Légifrance consolidation service stated that a modification history link had been added to the version of the article in force from 1 February 2026 to 1 August 2026, and that it would appear on Légifrance after the next site update.",
             "fr": "Le service de consolidation de Légifrance a indiqué qu'un lien d'historique de modification avait été ajouté à la version de l'article en vigueur du 01/02/2026 au 01/08/2026 et qu'il serait consultable sur Légifrance après la prochaine mise à jour du site."
           }
+        },
+        {
+          "date": "2026-10-27",
+          "institution": "Direction de l'information légale et administrative (DILA)",
+          "kind": "corrected",
+          "summary": {
+            "en": "The version of the article in force from 1 February 2026 to 1 August 2026 in the consolidated LEGI data now has a modification link to article 71, I, 4°, of the Finance Act for 2026 (Law No. 2026-103).",
+            "fr": "La version de l'article en vigueur du 1er février 2026 au 1er août 2026 dans les données consolidées LEGI comporte désormais un lien de modification vers l'article 71, I, 4°, de la loi de finances pour 2026 (loi n° 2026-103)."
+          },
+          "document": {
+            "title": "DILA open data: LEGI incremental release LEGI_20261027-211214 (SHA-256 5219256314a12d37…)",
+            "url": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/LEGI_20261027-211214.tar.gz",
+            "date": "2026-10-27"
+          },
+          "change": "publication",
+          "before": "Links of version LEGIARTI000053593049: none to Law No. 2026-103 (JORFTEXT000053508155)",
+          "after": "<LIEN cidtexte=\"JORFTEXT000053508155\" datesignatexte=\"2026-02-19\" id=\"LEGIARTI000053511434\" naturetexte=\"LOI\" nortexte=\"CPPX2524517L\" num=\"71\" numtexte=\"2026-103\" sens=\"source\" typelien=\"MODIFICATION\">LOI n°2026-103 du 19 février 2026 - art. 71, I, 4° (V)</LIEN>"
         }
       ],
       "approval": "2026-10-26",
@@ -5751,6 +6276,11 @@
           "date": "2026-10-27",
           "event": "acknowledged",
           "text": "Accepted: Direction de l'information légale et administrative (DILA)"
+        },
+        {
+          "date": "2026-10-27",
+          "event": "corrected",
+          "text": "Correction published: Direction de l'information légale et administrative (DILA)"
         },
         {
           "date": "2026-10-27",

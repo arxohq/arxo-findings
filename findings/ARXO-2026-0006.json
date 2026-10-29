@@ -22,15 +22,15 @@
     }
   },
   "status": {
-    "badge": "accepted",
+    "badge": "note_added",
     "label": {
-      "en": "Accepted by the addressee",
-      "ru": "Принято адресатом"
+      "en": "Editorial note added",
+      "ru": "Добавлено редакционное пояснение"
     },
     "conclusion": "confirmed",
-    "official_text": "unchanged",
+    "official_text": "note_added",
     "addressee": "accepted",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-29",
     "fixed_on": null,
     "correction_type": null,
     "under_review": false
@@ -133,6 +133,20 @@
       "summary": {
         "en": "The Office of the Law Revision Counsel said it has added a footnote and a References in Text note for this reference; they will appear in the next release point of the Code. Until that release point is published, the text of the Code is unchanged."
       }
+    },
+    {
+      "date": "2026-10-29",
+      "institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "kind": "note_added",
+      "summary": {
+        "en": "In release point 119-134 of the United States Code, the words “the $4,150 amount in subparagraph (A)” carry the footnote “So in original.” The wording of the section is unchanged."
+      },
+      "document": {
+        "title": "Office of the Law Revision Counsel: United States Code, release point 119-134, 26 U.S.C. §642",
+        "url": "https://uscode.house.gov/us/usc/119-134/t26/s642/"
+      },
+      "before": "the $4,150 amount in subparagraph (A) shall be increased in the same manner as provided in section 6334(d)(4)(C).",
+      "after": "the $4,150 ² amount in subparagraph (A) shall be increased in the same manner as provided in section 6334(d)(4)(C). Footnote ²: “So in original.”"
     }
   ],
   "approval": "2026-10-22",
@@ -217,6 +231,11 @@
       "date": "2026-10-25",
       "event": "entered",
       "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "note_added",
+      "text": "Editorial note published: Office of the Law Revision Counsel, U.S. House of Representatives"
     }
   ]
 }

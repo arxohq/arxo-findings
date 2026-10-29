@@ -22,15 +22,15 @@
     }
   },
   "status": {
-    "badge": "accepted",
+    "badge": "note_added",
     "label": {
-      "en": "Accepted by the addressee",
-      "ru": "Принято адресатом"
+      "en": "Editorial note added",
+      "ru": "Добавлено редакционное пояснение"
     },
     "conclusion": "confirmed",
-    "official_text": "unchanged",
+    "official_text": "note_added",
     "addressee": "accepted",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-29",
     "fixed_on": null,
     "correction_type": null,
     "under_review": false
@@ -149,6 +149,20 @@
       "summary": {
         "en": "The Office of the Law Revision Counsel said it has added a footnote and a References in Text note for this reference; they will appear in the next release point of the Code. Until that release point is published, the text of the Code is unchanged."
       }
+    },
+    {
+      "date": "2026-10-29",
+      "institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "kind": "note_added",
+      "summary": {
+        "en": "In release point 119-134 of the United States Code, the reference carries a footnote mark and a References in Text note: subparagraph (B) has contained no clauses since its 1988 amendment. The wording of the section is unchanged."
+      },
+      "document": {
+        "title": "Office of the Law Revision Counsel: United States Code, release point 119-134, 26 U.S.C. §42",
+        "url": "https://uscode.house.gov/us/usc/119-134/t26/s42/"
+      },
+      "before": "For purposes of subparagraph (B)(i), a husband and wife (and their estates) shall be treated as 1 partner.",
+      "after": "For purposes of subparagraph (B)(i),¹ a husband and wife (and their estates) shall be treated as 1 partner. References in Text note: “Subparagraph (B), referred to in subsec. (j)(5)(C)(i), meaning subsec. (j)(5)(B) of this section, was amended generally by Pub. L. 100-647, title IV, § 4004(a), Nov. 10, 1988, 102 Stat. 3644, and, as so amended, no longer contains clauses. For text of subsec. (j)(5)(B) prior to amendment, see 1988 Amendment note below.”"
     }
   ],
   "approval": "2026-10-22",
@@ -233,6 +247,11 @@
       "date": "2026-10-25",
       "event": "entered",
       "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "note_added",
+      "text": "Editorial note published: Office of the Law Revision Counsel, U.S. House of Representatives"
     }
   ]
 }

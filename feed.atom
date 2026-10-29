@@ -5,9 +5,79 @@
   <link rel="alternate" href="https://arxo.io/findings/"/>
   <link rel="self" href="https://arxo.io/findings/feed.atom"/>
   <id>https://arxo.io/findings/</id>
-  <updated>2026-10-27T11:00:00+00:00</updated>
+  <updated>2026-10-29T15:20:00+00:00</updated>
   <author><name>Arxo Law</name></author>
   <rights>Data: CC BY 4.0, Arxo Law</rights>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0012/</id>
+    <title>ARXO-2026-0012 — eCFR shows $7,455 in 11 CFR 111.24(b); the January 2025 rule sets $7,445</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0012/"/>
+    <published>2026-10-29T00:00:00Z</published>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="accepted" label="Accepted by the addressee"/>
+    <summary>Accepted by the addressee. The same 2025 rule replaces the first amount in paragraph (b) with $7,445; this is also the figure its table derives from $7,256. The eCFR shows $7,455 in its versions as of 31 December 2025 and 20 October 2026: the amendment was incorporated with two digits transposed.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0011/</id>
+    <title>ARXO-2026-0011 — eCFR shows $84,852 in 11 CFR 111.24(a)(2)(ii); the January 2025 rule replaced it with $87,056</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0011/"/>
+    <published>2026-10-29T00:00:00Z</published>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="accepted" label="Accepted by the addressee"/>
+    <summary>Accepted by the addressee. The Federal Election Commission&#x27;s 2025 inflation adjustment (90 FR 210, FR Doc. 2024-31368) amends section 111.24 by replacing the amount in paragraph (a)(2)(ii) with $87,056. The eCFR still shows the earlier $84,852 in its versions as of 31 December 2025 and 20 October 2026: the amendment to this paragraph was not incorporated.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0007/</id>
+    <title>ARXO-2026-0007 — 26 U.S.C. §877(a)(2) substitutes “2003” for “1992” in §1(f)(3)(B), which no longer contains “1992”</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0007/"/>
+    <published>2026-10-25T00:00:00Z</published>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="note_added" label="Editorial note added"/>
+    <summary>Editorial note added. Section 877(a)(2) adjusts the $124,000 tax-liability threshold for expatriates by the cost-of-living adjustment under section 1(f)(3) “by substituting ‘2003’ for ‘1992’ in subparagraph (B) thereof”. Section 1(f)(3)(B) no longer contains “1992”, so the substitution finds nothing to replace. The threshold is still used: §877A defines a covered expatriate through §877(a)(2).</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0006/</id>
+    <title>ARXO-2026-0006 — 26 U.S.C. §642(b)(2)(C)(iii)(II) indexes “the $4,150 amount in subparagraph (A)”, which holds $100</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0006/"/>
+    <published>2026-10-25T00:00:00Z</published>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="note_added" label="Editorial note added"/>
+    <summary>Editorial note added. Subclause (II) increases “the $4,150 amount in subparagraph (A)” for inflation. Subparagraph (A) of §642(b)(2) contains $100; the $4,150 amount is in subclause (I) of the same clause, which substitutes it for the exemption amount while that amount is zero.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0005/</id>
+    <title>ARXO-2026-0005 — 26 U.S.C. §42(j)(5)(C)(i) refers to “subparagraph (B)(i)”, which has had no clauses since 1988</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0005/"/>
+    <published>2026-10-25T00:00:00Z</published>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="note_added" label="Editorial note added"/>
+    <summary>Editorial note added. Section 42(j)(5)(C)(i) treats a husband and wife as one partner “for purposes of subparagraph (B)(i)”. Subparagraph (B) is a single sentence about partnerships with 35 or more partners and has had no clauses since P.L. 100-647 §4004(a) rewrote it.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0004/</id>
+    <title>ARXO-2026-0004 — 26 U.S.C. §42(i)(3)(C)(ii) defines a related person by reference to “subsection (d)(2)(D)(iii)”, which no longer exists</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0004/"/>
+    <published>2026-10-25T00:00:00Z</published>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="note_added" label="Editorial note added"/>
+    <summary>Editorial note added. Section 42(i)(3)(C)(ii) excludes units owned by a person “related (as defined in subsection (d)(2)(D)(iii))” to the occupant. P.L. 110-289 §3003(e) and (g)(2) redesignated that definition as subsection (d)(2)(D)(ii), which now reads “(ii) Related person”; subparagraph (D) has no clause (iii).</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0003/</id>
+    <title>ARXO-2026-0003 — 26 U.S.C. §42(e)(3)(B) refers to “subsection (b)(2)(B)(ii)”, which no longer exists</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0003/"/>
+    <published>2026-10-25T00:00:00Z</published>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="note_added" label="Editorial note added"/>
+    <summary>Editorial note added. Section 42(e)(3)(B) sets the credit for certain rehabilitation expenditures “using the percentage applicable under subsection (b)(2)(B)(ii)”. Subsection (b)(2)(B) has had no clauses since P.L. 110-289 §3002(a) restructured subsection (b); the 30 percent rule is now in subsection (b)(1)(B)(ii). The reference was not conformed when subsection (b) was rewritten.</summary>
+  </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0217/</id>
     <title>ARXO-2026-0217 — aifc.kz page of the Regulations on Damages and Remedies sends readers for the &#x27;current version&#x27; to the AFSA Auditor Rules</title>
@@ -1795,8 +1865,8 @@
     <published>2026-10-27T00:00:00Z</published>
     <updated>2026-10-27T00:00:00Z</updated>
     <category term="FR"/>
-    <category term="accepted" label="Accepted by the addressee"/>
-    <summary>Accepted by the addressee. The version of article L. 312-37 of the Code of taxes on goods and services in force from 1 February 2026 to 1 August 2026 (LEGIARTI000053593049) carries the amount of €19.24 set by Article 71, I, 4°, d, of Law No. 2026-103 (2026 Finance Act), and its note refers to V of that article. Yet the version has no « Modifié par » link to that law, while the following versions of the same article (LEGIARTI000053592986, LEGIARTI000053593023) do. The text of the version is correct; only the link to the amending law is missing.</summary>
+    <category term="corrected" label="Corrected"/>
+    <summary>Corrected. The version of article L. 312-37 of the Code of taxes on goods and services in force from 1 February 2026 to 1 August 2026 (LEGIARTI000053593049) carries the amount of €19.24 set by Article 71, I, 4°, d, of Law No. 2026-103 (2026 Finance Act), and its note refers to V of that article. Yet the version has no « Modifié par » link to that law, while the following versions of the same article (LEGIARTI000053592986, LEGIARTI000053593023) do. The text of the version is correct; only the link to the amending law is missing.</summary>
   </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0027/</id>
@@ -1967,56 +2037,6 @@
     <category term="KZ"/>
     <category term="reported" label="Reported"/>
     <summary>Reported. Paragraph 28 of the grading instructions for beef cattle sets “elite – 71-80 points”, “class I – 81-70 points” and “class II – 51-60 points”. A total of 61 to 70 points matches no row: a cow scoring 65 receives no class for the complex of traits. The Russian and Kazakh texts read the same way.</summary>
-  </entry>
-  <entry>
-    <id>https://arxo.io/findings/ARXO-2026-0007/</id>
-    <title>ARXO-2026-0007 — 26 U.S.C. §877(a)(2) substitutes “2003” for “1992” in §1(f)(3)(B), which no longer contains “1992”</title>
-    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0007/"/>
-    <published>2026-10-25T00:00:00Z</published>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <category term="US"/>
-    <category term="accepted" label="Accepted by the addressee"/>
-    <summary>Accepted by the addressee. Section 877(a)(2) adjusts the $124,000 tax-liability threshold for expatriates by the cost-of-living adjustment under section 1(f)(3) “by substituting ‘2003’ for ‘1992’ in subparagraph (B) thereof”. Section 1(f)(3)(B) no longer contains “1992”, so the substitution finds nothing to replace. The threshold is still used: §877A defines a covered expatriate through §877(a)(2).</summary>
-  </entry>
-  <entry>
-    <id>https://arxo.io/findings/ARXO-2026-0006/</id>
-    <title>ARXO-2026-0006 — 26 U.S.C. §642(b)(2)(C)(iii)(II) indexes “the $4,150 amount in subparagraph (A)”, which holds $100</title>
-    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0006/"/>
-    <published>2026-10-25T00:00:00Z</published>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <category term="US"/>
-    <category term="accepted" label="Accepted by the addressee"/>
-    <summary>Accepted by the addressee. Subclause (II) increases “the $4,150 amount in subparagraph (A)” for inflation. Subparagraph (A) of §642(b)(2) contains $100; the $4,150 amount is in subclause (I) of the same clause, which substitutes it for the exemption amount while that amount is zero.</summary>
-  </entry>
-  <entry>
-    <id>https://arxo.io/findings/ARXO-2026-0005/</id>
-    <title>ARXO-2026-0005 — 26 U.S.C. §42(j)(5)(C)(i) refers to “subparagraph (B)(i)”, which has had no clauses since 1988</title>
-    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0005/"/>
-    <published>2026-10-25T00:00:00Z</published>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <category term="US"/>
-    <category term="accepted" label="Accepted by the addressee"/>
-    <summary>Accepted by the addressee. Section 42(j)(5)(C)(i) treats a husband and wife as one partner “for purposes of subparagraph (B)(i)”. Subparagraph (B) is a single sentence about partnerships with 35 or more partners and has had no clauses since P.L. 100-647 §4004(a) rewrote it.</summary>
-  </entry>
-  <entry>
-    <id>https://arxo.io/findings/ARXO-2026-0004/</id>
-    <title>ARXO-2026-0004 — 26 U.S.C. §42(i)(3)(C)(ii) defines a related person by reference to “subsection (d)(2)(D)(iii)”, which no longer exists</title>
-    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0004/"/>
-    <published>2026-10-25T00:00:00Z</published>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <category term="US"/>
-    <category term="accepted" label="Accepted by the addressee"/>
-    <summary>Accepted by the addressee. Section 42(i)(3)(C)(ii) excludes units owned by a person “related (as defined in subsection (d)(2)(D)(iii))” to the occupant. P.L. 110-289 §3003(e) and (g)(2) redesignated that definition as subsection (d)(2)(D)(ii), which now reads “(ii) Related person”; subparagraph (D) has no clause (iii).</summary>
-  </entry>
-  <entry>
-    <id>https://arxo.io/findings/ARXO-2026-0003/</id>
-    <title>ARXO-2026-0003 — 26 U.S.C. §42(e)(3)(B) refers to “subsection (b)(2)(B)(ii)”, which no longer exists</title>
-    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0003/"/>
-    <published>2026-10-25T00:00:00Z</published>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <category term="US"/>
-    <category term="accepted" label="Accepted by the addressee"/>
-    <summary>Accepted by the addressee. Section 42(e)(3)(B) sets the credit for certain rehabilitation expenditures “using the percentage applicable under subsection (b)(2)(B)(ii)”. Subsection (b)(2)(B) has had no clauses since P.L. 110-289 §3002(a) restructured subsection (b); the 30 percent rule is now in subsection (b)(1)(B)(ii). The reference was not conformed when subsection (b) was rewritten.</summary>
   </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0002/</id>

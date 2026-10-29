@@ -22,15 +22,15 @@
     }
   },
   "status": {
-    "badge": "accepted",
+    "badge": "note_added",
     "label": {
-      "en": "Accepted by the addressee",
-      "ru": "Принято адресатом"
+      "en": "Editorial note added",
+      "ru": "Добавлено редакционное пояснение"
     },
     "conclusion": "confirmed",
-    "official_text": "unchanged",
+    "official_text": "note_added",
     "addressee": "accepted",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-29",
     "fixed_on": null,
     "correction_type": null,
     "under_review": false
@@ -149,6 +149,20 @@
       "summary": {
         "en": "The Office of the Law Revision Counsel said it has added a footnote and a References in Text note for this reference; they will appear in the next release point of the Code. Until that release point is published, the text of the Code is unchanged."
       }
+    },
+    {
+      "date": "2026-10-29",
+      "institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "kind": "note_added",
+      "summary": {
+        "en": "In release point 119-134 of the United States Code, the reference carries a footnote and a References in Text note: subsection (b)(2)(B)(ii) was redesignated subsection (b)(1)(B)(ii) in 2008. The wording of the section is unchanged."
+      },
+      "document": {
+        "title": "Office of the Law Revision Counsel: United States Code, release point 119-134, 26 U.S.C. §42",
+        "url": "https://uscode.house.gov/us/usc/119-134/t26/s42/"
+      },
+      "before": "the credit under this section for such rehabilitation expenditures shall be determined using the percentage applicable under subsection (b)(2)(B)(ii).",
+      "after": "the credit under this section for such rehabilitation expenditures shall be determined using the percentage applicable under subsection (b)(2)(B)(ii).¹ Footnote ¹: “See References in Text note below.” References in Text note: “Subsection (b)(2)(B)(ii), referred to in subsec. (e)(3)(B), was redesignated subsec. (b)(1)(B)(ii) of this section, and amended, by Pub. L. 110-289, div. C, title I, § 3002(a)(1), (2)(C), July 30, 2008, 122 Stat. 2879.”"
     }
   ],
   "approval": "2026-10-22",
@@ -233,6 +247,11 @@
       "date": "2026-10-25",
       "event": "entered",
       "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "note_added",
+      "text": "Editorial note published: Office of the Law Revision Counsel, U.S. House of Representatives"
     }
   ]
 }

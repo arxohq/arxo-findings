@@ -22,15 +22,15 @@
     }
   },
   "status": {
-    "badge": "accepted",
+    "badge": "note_added",
     "label": {
-      "en": "Accepted by the addressee",
-      "ru": "Принято адресатом"
+      "en": "Editorial note added",
+      "ru": "Добавлено редакционное пояснение"
     },
     "conclusion": "confirmed",
-    "official_text": "unchanged",
+    "official_text": "note_added",
     "addressee": "accepted",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-29",
     "fixed_on": null,
     "correction_type": null,
     "under_review": false
@@ -133,6 +133,20 @@
       "summary": {
         "en": "The Office of the Law Revision Counsel said it has added a footnote and a References in Text note for this reference; they will appear in the next release point of the Code. Until that release point is published, the text of the Code is unchanged."
       }
+    },
+    {
+      "date": "2026-10-29",
+      "institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "kind": "note_added",
+      "summary": {
+        "en": "In release point 119-134 of the United States Code, the reference carries a footnote and a References in Text note: section 1(f)(3)(B), as amended in 2017, no longer refers to the year 1992. The wording of the section is unchanged."
+      },
+      "document": {
+        "title": "Office of the Law Revision Counsel: United States Code, release point 119-134, 26 U.S.C. §877",
+        "url": "https://uscode.house.gov/us/usc/119-134/t26/s877/"
+      },
+      "before": "multiplied by the cost-of-living adjustment determined under section 1(f)(3) for such calendar year by substituting “2003” for “1992” in subparagraph (B) thereof.",
+      "after": "multiplied by the cost-of-living adjustment determined under section 1(f)(3) for such calendar year by substituting “2003” for “1992” in subparagraph (B) thereof.¹ Footnote ¹: “See References in Text note below.” References in Text note: “Section 1(f)(3)(B), referred to in subsec. (a)(2), was struck out, and a new section 1(f)(3)(B) enacted, by Pub. L. 115-97, title I, §11002(a), Dec. 22, 2017, 131 Stat. 2059. As amended, section 1(f)(3)(B) of this title no longer refers to the year 1992.”"
     }
   ],
   "approval": "2026-10-22",
@@ -217,6 +231,11 @@
       "date": "2026-10-25",
       "event": "entered",
       "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "note_added",
+      "text": "Editorial note published: Office of the Law Revision Counsel, U.S. House of Representatives"
     }
   ]
 }
