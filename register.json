@@ -4,14 +4,14 @@
   "description": "Verified discrepancies in legal texts, standards, official publications and implementations, with evidence and correction histories.",
   "publisher": "Arxo Law",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "as_of": "2026-10-31T13:12:41+00:00",
+  "as_of": "2026-10-31T13:20:34+00:00",
   "base_url": "https://arxo.io/findings/",
   "counts": {
-    "records": 299,
-    "discrepancies": 247,
-    "questions": 52,
+    "records": 324,
+    "discrepancies": 269,
+    "questions": 55,
     "by_jurisdiction": {
-      "EU": 1,
+      "EU": 26,
       "FR": 12,
       "KZ": 182,
       "US": 59
@@ -20,7 +20,7 @@
       "BCBS": 45
     },
     "by_status": {
-      "reported": 286,
+      "reported": 311,
       "accepted": 3,
       "note_added": 5,
       "corrected": 3,
@@ -29,9 +29,33 @@
     "matrix": [
       {
         "jurisdiction": "EU",
+        "class": "act_text",
+        "status": "reported",
+        "records": 10
+      },
+      {
+        "jurisdiction": "EU",
+        "class": "amendments",
+        "status": "reported",
+        "records": 1
+      },
+      {
+        "jurisdiction": "EU",
+        "class": "language_versions",
+        "status": "reported",
+        "records": 11
+      },
+      {
+        "jurisdiction": "EU",
         "class": "programs",
         "status": "reported",
         "records": 1
+      },
+      {
+        "jurisdiction": "EU",
+        "class": "question",
+        "status": "reported",
+        "records": 3
       },
       {
         "jurisdiction": "FR",
@@ -142,11 +166,11 @@
         "records": 45
       }
     ],
-    "institutions_notified": 63,
+    "institutions_notified": 66,
     "corrected_by_official_document": 5,
     "withdrawn_after_publication": {
       "withdrawn": 0,
-      "of_published": 268
+      "of_published": 293
     },
     "rule": "Counts are of findings. One finding is one independently checkable statement about one discrepancy at one place; classes and questions are counted separately and are not added together."
   },
@@ -49564,6 +49588,3510 @@
           "date": "2026-10-31",
           "event": "reported",
           "text": "Reported to European Commission, DG FISMA (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0401",
+      "url": "https://arxo.io/findings/ARXO-2026-0401/",
+      "record_kind": "discrepancy",
+      "class": "language_versions",
+      "class_label": "Language versions",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 73(7), Maltese version",
+      "text": {
+        "en": {
+          "title": "AI Act, Maltese version: Article 73(7) refers to Article 3, point (44)(c), which does not exist",
+          "summary": "The other 23 versions refer to Article 3, point (49)(c): a serious incident that infringes obligations under Union law intended to protect fundamental rights. Point (44) defines publicly accessible space and has no point (c). Maltese Article 3, point (49)(c), and the reference in Maltese Article 73(10) support the intended reading.",
+          "impact": "A market surveillance authority that reads only Maltese Article 73(7) is pointed, for the incidents after which it must inform the bodies under Article 77(1), to a definition that does not exist.",
+          "correction": "Replace point (44)(c) with point (49)(c) in Maltese Article 73(7).",
+          "quote_translations": {
+            "q1": "referred to in Article 3, point (44)(c)"
+          }
+        },
+        "mt": {
+          "title": "L-Att dwar l-Intelliġenza Artifiċjali, verżjoni Maltija: l-Artikolu 73(7) jirreferi għall-Artikolu 3, il-punt (44)(c), li ma jeżistix",
+          "summary": "It-23 verżjoni l-oħra jirreferu għall-Artikolu 3, il-punt (49)(c): inċident serju li jikser obbligi taħt il-liġi tal-Unjoni maħsuba biex jipproteġu d-drittijiet fundamentali. Il-punt (44) jiddefinixxi spazju aċċessibbli għall-pubbliku u m'għandux punt (c). L-Artikolu 3, il-punt (49)(c), u r-referenza fl-Artikolu 73(10) tal-verżjoni Maltija jappoġġaw il-qari intenzjonat.",
+          "impact": "Awtorità tas-sorveljanza tas-suq li taqra biss l-Artikolu 73(7) Malti tintbagħat, għall-inċidenti li warajhom trid tinforma lill-korpi taħt l-Artikolu 77(1), għal definizzjoni li ma teżistix.",
+          "correction": "Il-punt (44)(c) jinbidel bil-punt (49)(c) fl-Artikolu 73(7) tal-verżjoni Maltija."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Maltese version",
+            "role": "Language version",
+            "language": "mt",
+            "edition": "published",
+            "locator": "Article 73(7) (Maltese)",
+            "text": "msemmi fl-Artikolu 3, il-punt (44)(c)",
+            "translations": {
+              "en": "referred to in Article 3, point (44)(c)"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/MT/TXT/?uri=CELEX:32024R1689",
+            "sha256": "f8b3cef536530715d0016a22b15004831a94726459bf3ccdbd787c619b08af3b",
+            "retrieved": "2026-10-31",
+            "copy": "sources/f8b3cef536530715-oj.xhtml",
+            "copy_sha256": "f8b3cef536530715d0016a22b15004831a94726459bf3ccdbd787c619b08af3b",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 73(7) (English)",
+            "text": "a serious incident referred to in Article 3, point (49)(c)",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:05:34Z",
+          "institution": "European Commission, European AI Office",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70YM_AC_01zvysJGHJc08uAX6NxnU6XtfyeJT2hGLo=Gw@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Commission, European AI Office",
+          "role": "applies the Regulation and prepares the Commission's guidelines"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Commission, European AI Office (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0402",
+      "url": "https://arxo.io/findings/ARXO-2026-0402/",
+      "record_kind": "discrepancy",
+      "class": "language_versions",
+      "class_label": "Language versions",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 71(1), Italian version",
+      "text": {
+        "en": {
+          "title": "AI Act, Italian version: Article 71(1) refers to Article 69 where the other versions refer to Article 49",
+          "summary": "The other 23 versions refer to Article 49 in this position. Article 69 is about access to the pool of experts by the Member States; registration is in Article 49.",
+          "impact": "A reader of the Italian text is sent to the rule on the pool of experts instead of the registration rule.",
+          "correction": "Replace Article 69 with Article 49 in this position of Italian Article 71(1).",
+          "quote_translations": {
+            "q1": "registered in accordance with Article 6(4) and Article 69"
+          }
+        },
+        "it": {
+          "title": "Regolamento sull'intelligenza artificiale, versione italiana: l'articolo 71, paragrafo 1, rinvia all'articolo 69 dove le altre versioni rinviano all'articolo 49",
+          "summary": "Le altre 23 versioni rinviano in questo punto all'articolo 49. L'articolo 69 riguarda l'accesso degli Stati membri al gruppo di esperti; la registrazione è disciplinata dall'articolo 49.",
+          "impact": "Chi legge il testo italiano è rinviato alla norma sul gruppo di esperti invece che alla norma sulla registrazione.",
+          "correction": "Sostituire, in questo punto dell'articolo 71, paragrafo 1, della versione italiana, l'articolo 69 con l'articolo 49."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Italian version",
+            "role": "Language version",
+            "language": "it",
+            "edition": "published",
+            "locator": "Article 71(1) (Italian)",
+            "text": "registrati in conformità dell’articolo 6, paragrafo 4 e dell’articolo 69",
+            "translations": {
+              "en": "registered in accordance with Article 6(4) and Article 69"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1689",
+            "sha256": "ba2ca075faa2ccfc19c57185692771db11319ecc3b4e5bb067a90f63aa8b2c86",
+            "retrieved": "2026-10-31",
+            "copy": "sources/ba2ca075faa2ccfc-oj.xhtml",
+            "copy_sha256": "ba2ca075faa2ccfc19c57185692771db11319ecc3b4e5bb067a90f63aa8b2c86",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 71(1) (English)",
+            "text": "registered in accordance with Article 6(4) and Article 49",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0403",
+      "url": "https://arxo.io/findings/ARXO-2026-0403/",
+      "record_kind": "discrepancy",
+      "class": "language_versions",
+      "class_label": "Language versions",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 53(1)(a), Finnish version",
+      "text": {
+        "en": {
+          "title": "AI Act, Finnish version: technical documentation of general-purpose AI models refers to Annex IX instead of Annex XI",
+          "summary": "The other versions refer to Annex XI (technical documentation of general-purpose AI models). Annex IX is about registration of high-risk AI systems tested in real world conditions. The Finnish Annex XI itself refers back to Article 53(1)(a).",
+          "impact": "A provider of a general-purpose AI model who reads only the Finnish article is sent to the wrong list of required information.",
+          "correction": "Replace Annex IX with Annex XI in Finnish Article 53(1)(a).",
+          "quote_translations": {
+            "q1": "at least the information set out in Annex IX",
+            "q3": "The technical documentation referred to in Article 53(1)(a) shall contain at least the following information"
+          }
+        },
+        "fi": {
+          "title": "Tekoälysäädös, suomenkielinen toisinto: yleiskäyttöisten tekoälymallien tekninen dokumentaatio viittaa liitteeseen IX liitteen XI sijasta",
+          "summary": "Muut toisinnot viittaavat liitteeseen XI (yleiskäyttöisten tekoälymallien tekninen dokumentaatio). Liite IX koskee tosielämän olosuhteissa testattavien suuririskisten tekoälyjärjestelmien rekisteröintiä. Suomenkielinen liite XI viittaa itse takaisin 53 artiklan 1 kohdan a alakohtaan.",
+          "impact": "Yleiskäyttöisen tekoälymallin tarjoaja, joka lukee vain suomenkielistä artiklaa, ohjataan väärään luetteloon vaadittavista tiedoista.",
+          "correction": "Korvataan suomenkielisessä 53 artiklan 1 kohdan a alakohdassa viittaus liitteeseen IX viittauksella liitteeseen XI."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Finnish version",
+            "role": "Language version",
+            "language": "fi",
+            "edition": "published",
+            "locator": "Article 53(1)(a) (Finnish)",
+            "text": "vähintään liitteessä IX esitetyt tiedot",
+            "translations": {
+              "en": "at least the information set out in Annex IX"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/FI/TXT/?uri=CELEX:32024R1689",
+            "sha256": "67eb1b5ff07dd76e80ef8931506bb7e8f1cdbf8a8b4aa07057d894bac4a9a38f",
+            "retrieved": "2026-10-31",
+            "copy": "sources/67eb1b5ff07dd76e-oj.xhtml",
+            "copy_sha256": "67eb1b5ff07dd76e80ef8931506bb7e8f1cdbf8a8b4aa07057d894bac4a9a38f",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 53(1)(a) (English)",
+            "text": "at a minimum, the information set out in Annex XI",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Finnish version",
+            "role": "Language version",
+            "language": "fi",
+            "edition": "published",
+            "locator": "Annex XI, introductory sentence (Finnish)",
+            "text": "Tämän asetuksen 53 artiklan 1 kohdan a alakohdassa tarkoitettuun tekniseen dokumentaation on sisällyttävä vähintään seuraavat tiedot",
+            "translations": {
+              "en": "The technical documentation referred to in Article 53(1)(a) shall contain at least the following information"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/FI/TXT/?uri=CELEX:32024R1689",
+            "sha256": "67eb1b5ff07dd76e80ef8931506bb7e8f1cdbf8a8b4aa07057d894bac4a9a38f",
+            "retrieved": "2026-10-31",
+            "copy": "sources/67eb1b5ff07dd76e-oj.xhtml",
+            "copy_sha256": "67eb1b5ff07dd76e80ef8931506bb7e8f1cdbf8a8b4aa07057d894bac4a9a38f",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:05:34Z",
+          "institution": "European Commission, European AI Office",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70YM_AC_01zvysJGHJc08uAX6NxnU6XtfyeJT2hGLo=Gw@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Commission, European AI Office",
+          "role": "applies the Regulation and prepares the Commission's guidelines"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Commission, European AI Office (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0404",
+      "url": "https://arxo.io/findings/ARXO-2026-0404/",
+      "record_kind": "discrepancy",
+      "class": "language_versions",
+      "class_label": "Language versions",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 41(5), Polish version",
+      "text": {
+        "en": {
+          "title": "AI Act, Polish version: Article 41(5) refers to Chapter I, Section 2, which does not exist",
+          "summary": "The other 23 versions refer to Section 2 of this Chapter, that is Chapter III, Section 2. Chapter I has no Section 2.",
+          "impact": "In the Polish text, the requirements that a provider's technical solutions must meet are referred to a section that does not exist.",
+          "correction": "Replace Chapter I with Chapter III (or this Chapter) in Polish Article 41(5).",
+          "quote_translations": {
+            "q1": "with the requirements referred to in Chapter I, Section 2"
+          }
+        },
+        "pl": {
+          "title": "Akt w sprawie sztucznej inteligencji, wersja polska: art. 41 ust. 5 odsyła do nieistniejącej sekcji 2 rozdziału I",
+          "summary": "Pozostałe 23 wersje odsyłają do sekcji 2 niniejszego rozdziału, czyli do sekcji 2 rozdziału III. Rozdział I nie ma sekcji 2.",
+          "impact": "W tekście polskim wymogi, którym muszą odpowiadać rozwiązania techniczne dostawcy, są odesłane do sekcji, która nie istnieje.",
+          "correction": "Zastąpić w art. 41 ust. 5 wersji polskiej rozdział I rozdziałem III (lub niniejszym rozdziałem)."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Polish version",
+            "role": "Language version",
+            "language": "pl",
+            "edition": "published",
+            "locator": "Article 41(5) (Polish)",
+            "text": "z wymogami, o których mowa w rozdziale I sekcja 2",
+            "translations": {
+              "en": "with the requirements referred to in Chapter I, Section 2"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:32024R1689",
+            "sha256": "37b91c6f5fdc6c2286285af5c87c8473496685ace62b9c9c3c5afc5a0b257360",
+            "retrieved": "2026-10-31",
+            "copy": "sources/37b91c6f5fdc6c22-oj.xhtml",
+            "copy_sha256": "37b91c6f5fdc6c2286285af5c87c8473496685ace62b9c9c3c5afc5a0b257360",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 41(5) (English)",
+            "text": "meet the requirements referred to in Section 2 of this Chapter",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters. AI models also helped build the illustrative rule models."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0405",
+      "url": "https://arxo.io/findings/ARXO-2026-0405/",
+      "record_kind": "discrepancy",
+      "class": "language_versions",
+      "class_label": "Language versions",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 3, point (20), Irish version",
+      "text": {
+        "en": {
+          "title": "AI Act, Irish version: the definition of conformity assessment refers to a Title III that the Regulation does not have",
+          "summary": "The Irish text does not limit the reference to Section 2, and the Regulation has chapters, not titles. The other 23 versions keep the Section 2 reference: 22 refer to Chapter III, Section 2, and the German text says Titel III Abschnitt 2.",
+          "impact": "The reference does not specify Section 2 and names a Title III that the Regulation does not have.",
+          "correction": "Refer to Chapter III, Section 2, in Irish Article 3, point (20).",
+          "quote_translations": {
+            "q1": "the requirements set out in Title III"
+          }
+        },
+        "ga": {
+          "title": "An Gníomh um an Intleacht Shaorga, leagan Gaeilge: tagraíonn an sainmhíniú ar mheasúnú comhréireachta do Theideal III nach bhfuil sa Rialachán",
+          "summary": "Ní theorannaíonn an téacs Gaeilge an tagairt do Roinn 2, agus tá caibidlí sa Rialachán, ní teidil. Coinníonn na 23 leagan eile an tagairt do Roinn 2: tagraíonn 22 díobh do Chaibidil III, Roinn 2, agus deir an téacs Gearmáinise Titel III Abschnitt 2.",
+          "impact": "Ní shonraíonn an tagairt Roinn 2 agus ainmníonn sí Teideal III nach bhfuil sa Rialachán.",
+          "correction": "Tagairt a dhéanamh do Chaibidil III, Roinn 2, in Airteagal 3, pointe (20), den leagan Gaeilge."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Irish version",
+            "role": "Language version",
+            "language": "ga",
+            "edition": "published",
+            "locator": "Article 3, point (20) (Irish)",
+            "text": "na ceanglais a leagtar amach i dTeideal III",
+            "translations": {
+              "en": "the requirements set out in Title III"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/GA/TXT/?uri=CELEX:32024R1689",
+            "sha256": "89e4d8093dca4e6edb360c22fb7cf6a681fa352c906aca49a849bb7d5f2eb0bb",
+            "retrieved": "2026-10-31",
+            "copy": "sources/89e4d8093dca4e6e-oj.xhtml",
+            "copy_sha256": "89e4d8093dca4e6edb360c22fb7cf6a681fa352c906aca49a849bb7d5f2eb0bb",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 3, point (20) (English)",
+            "text": "the requirements set out in Chapter III, Section 2 relating to a high-risk AI system",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0406",
+      "url": "https://arxo.io/findings/ARXO-2026-0406/",
+      "record_kind": "discrepancy",
+      "class": "language_versions",
+      "class_label": "Language versions",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 40(2), third subparagraph, Estonian version",
+      "text": {
+        "en": {
+          "title": "AI Act, Estonian version: Article 40(2) refers to Article 2 of Regulation (EU) No 1025/2012 instead of Article 24",
+          "summary": "The other 23 versions refer to Article 24 of Regulation (EU) No 1025/2012, headed Reports. Article 2 of that Regulation contains definitions.",
+          "impact": "A reader of the Estonian text is sent to definitions instead of the reporting rule for standardisation organisations.",
+          "correction": "Replace Article 2 with Article 24 in Estonian Article 40(2), third subparagraph.",
+          "quote_translations": {
+            "q1": "in accordance with Article 2 of Regulation (EU) No 1025/2012"
+          }
+        },
+        "et": {
+          "title": "Tehisintellektimäärus, eestikeelne versioon: artikli 40 lõige 2 viitab määruse (EL) nr 1025/2012 artiklile 2 artikli 24 asemel",
+          "summary": "Ülejäänud 23 versiooni viitavad määruse (EL) nr 1025/2012 artiklile 24 pealkirjaga Aruanded. Selle määruse artikkel 2 sisaldab mõisteid.",
+          "impact": "Eestikeelse teksti lugeja suunatakse standardiorganisatsioonide aruandlusreegli asemel mõistete juurde.",
+          "correction": "Asendada eestikeelse artikli 40 lõike 2 kolmandas lõigus artikkel 2 artikliga 24."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Estonian version",
+            "role": "Language version",
+            "language": "et",
+            "edition": "published",
+            "locator": "Article 40(2), third subparagraph (Estonian)",
+            "text": "kooskõlas määruse (EL) nr 1025/2012 artikliga 2",
+            "translations": {
+              "en": "in accordance with Article 2 of Regulation (EU) No 1025/2012"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/ET/TXT/?uri=CELEX:32024R1689",
+            "sha256": "0dc5932d5ec5cd6b66fc1a5ee9c54352f9852b3d08379bf7455786c15fa6556a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/0dc5932d5ec5cd6b-oj.xhtml",
+            "copy_sha256": "0dc5932d5ec5cd6b66fc1a5ee9c54352f9852b3d08379bf7455786c15fa6556a",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 40(2), third subparagraph (English)",
+            "text": "in accordance with Article 24 of Regulation (EU) No 1025/2012",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0407",
+      "url": "https://arxo.io/findings/ARXO-2026-0407/",
+      "record_kind": "discrepancy",
+      "class": "language_versions",
+      "class_label": "Language versions",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 71(3), Maltese version",
+      "text": {
+        "en": {
+          "title": "AI Act, Maltese version: Article 71(3) refers to Article 49(4) twice instead of Article 49(3) and (4)",
+          "summary": "The other 23 versions refer to Article 49(3) and (4).",
+          "impact": "The cross-reference in Maltese Article 71(3) omits Article 49(3), on deployers that are public authorities; the duty in Article 49(3) remains.",
+          "correction": "Replace the first 49(4) with 49(3) in Maltese Article 71(3).",
+          "quote_translations": {
+            "q1": "in accordance with Article 49(4) and (4)"
+          }
+        },
+        "mt": {
+          "title": "L-Att dwar l-Intelliġenza Artifiċjali, verżjoni Maltija: l-Artikolu 71(3) jirreferi darbtejn għall-Artikolu 49(4) minflok għall-Artikolu 49(3) u (4)",
+          "summary": "It-23 verżjoni l-oħra jirreferu għall-Artikolu 49(3) u (4).",
+          "impact": "Ir-referenza fl-Artikolu 71(3) Malti tħalli barra l-Artikolu 49(3), dwar l-implimentaturi li huma awtoritajiet pubbliċi; l-obbligu fl-Artikolu 49(3) jibqa’.",
+          "correction": "L-ewwel 49(4) jinbidel b'49(3) fl-Artikolu 71(3) tal-verżjoni Maltija."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Maltese version",
+            "role": "Language version",
+            "language": "mt",
+            "edition": "published",
+            "locator": "Article 71(3) (Maltese)",
+            "text": "f'konformità mal-Artikolu 49(4) u (4)",
+            "translations": {
+              "en": "in accordance with Article 49(4) and (4)"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/MT/TXT/?uri=CELEX:32024R1689",
+            "sha256": "f8b3cef536530715d0016a22b15004831a94726459bf3ccdbd787c619b08af3b",
+            "retrieved": "2026-10-31",
+            "copy": "sources/f8b3cef536530715-oj.xhtml",
+            "copy_sha256": "f8b3cef536530715d0016a22b15004831a94726459bf3ccdbd787c619b08af3b",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 71(3) (English)",
+            "text": "in accordance with Article 49(3) and (4)",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0408",
+      "url": "https://arxo.io/findings/ARXO-2026-0408/",
+      "record_kind": "discrepancy",
+      "class": "language_versions",
+      "class_label": "Language versions",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 49(4)(a), Italian version",
+      "text": {
+        "en": {
+          "title": "AI Act, Italian version: Article 49(4)(a) lists registration fields 1 to 5, 8 and 9 instead of 1 to 5, 7 and 10",
+          "summary": "The other 23 versions say points 1 to 10 of Annex VIII, Section A, with the exception of points 6, 8 and 9, that is points 1 to 5, 7 and 10. The Italian list includes points 8 and 9 (certificate details and a scanned copy of the certificate), which the other versions exclude. It leaves out point 7 (status of the system) and point 10 (Member States where the system is placed on the market, put into service or made available).",
+          "impact": "For a system registered in the secure non-public section, the Italian text names a different set of fields.",
+          "correction": "Align the list in Italian Article 49(4)(a) with the other versions.",
+          "quote_translations": {
+            "q1": "Annex VIII, Section A, points 1 to 5 and points 8 and 9"
+          }
+        },
+        "it": {
+          "title": "Regolamento sull'intelligenza artificiale, versione italiana: l'articolo 49, paragrafo 4, lettera a), elenca i campi di registrazione da 1 a 5, 8 e 9 invece di 1 a 5, 7 e 10",
+          "summary": "Le altre 23 versioni indicano i punti da 1 a 10 dell'allegato VIII, sezione A, ad eccezione dei punti 6, 8 e 9, cioè i punti da 1 a 5, 7 e 10. L'elenco italiano comprende i punti 8 e 9 (dati del certificato e copia scansionata del certificato), che le altre versioni escludono, e omette il punto 7 (stato del sistema) e il punto 10 (Stati membri in cui il sistema è immesso sul mercato, messo in servizio o reso disponibile).",
+          "impact": "Per un sistema registrato nella sezione sicura non pubblica, il testo italiano indica un insieme diverso di campi.",
+          "correction": "Allineare l'elenco dell'articolo 49, paragrafo 4, lettera a), della versione italiana alle altre versioni."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Italian version",
+            "role": "Language version",
+            "language": "it",
+            "edition": "published",
+            "locator": "Article 49(4)(a) (Italian)",
+            "text": "all'allegato VIII, sezione A, punti da 1 a 5 e punti 8 e 9",
+            "translations": {
+              "en": "Annex VIII, Section A, points 1 to 5 and points 8 and 9"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1689",
+            "sha256": "ba2ca075faa2ccfc19c57185692771db11319ecc3b4e5bb067a90f63aa8b2c86",
+            "retrieved": "2026-10-31",
+            "copy": "sources/ba2ca075faa2ccfc-oj.xhtml",
+            "copy_sha256": "ba2ca075faa2ccfc19c57185692771db11319ecc3b4e5bb067a90f63aa8b2c86",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 49(4)(a) (English)",
+            "text": "Section A, points 1 to 10, of Annex VIII, with the exception of points 6, 8 and 9",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:05:34Z",
+          "institution": "European Commission, European AI Office",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70YM_AC_01zvysJGHJc08uAX6NxnU6XtfyeJT2hGLo=Gw@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Commission, European AI Office",
+          "role": "applies the Regulation and prepares the Commission's guidelines"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Commission, European AI Office (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0411",
+      "url": "https://arxo.io/findings/ARXO-2026-0411/",
+      "record_kind": "discrepancy",
+      "class": "language_versions",
+      "class_label": "Language versions",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 113, third paragraph, point (b), Irish version",
+      "text": {
+        "en": {
+          "title": "AI Act, Irish version: Article 113(b) does not except Article 101 from the date of 2 August 2025",
+          "summary": "The other 23 versions add with the exception of Article 101. Read alone, the Irish wording includes Article 101 (fines for providers of general-purpose AI models) in the provisions applying from 2 August 2025.",
+          "impact": "Read alone, the Irish text makes the fines of Article 101 apply one year earlier than the other versions.",
+          "correction": "Add the exception of Article 101 to Irish Article 113, third paragraph, point (b).",
+          "quote_translations": {
+            "q1": "Chapter III Section 4, Chapter V, Chapter VII and Chapter XII and Article 78 shall apply from 2 August 2025;"
+          }
+        },
+        "ga": {
+          "title": "An Gníomh um an Intleacht Shaorga, leagan Gaeilge: ní eisiann Airteagal 113(b) Airteagal 101 ón dáta 2 Lúnasa 2025",
+          "summary": "Tá eisceacht maidir le hAirteagal 101 sna 23 leagan eile. Má léitear ina aonar é, áirítear Airteagal 101 (fíneálacha do sholáthraithe samhlacha intleachta saorga ilchuspóireacha) leis na forálacha a bhfuil feidhm acu ón 2 Lúnasa 2025.",
+          "impact": "Má léitear ina aonar é, bheadh feidhm ag fíneálacha Airteagal 101 bliain níos luaithe de réir an téacs Gaeilge ná de réir na leaganacha eile.",
+          "correction": "An eisceacht maidir le hAirteagal 101 a chur le hAirteagal 113, an tríú mír, pointe (b), den leagan Gaeilge."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Irish version",
+            "role": "Language version",
+            "language": "ga",
+            "edition": "published",
+            "locator": "Article 113, third paragraph, point (b) (Irish)",
+            "text": "Beidh feidhm ag Caibidil III Roinn 4, Caibidil V, Caibidil VII agus Caibidil XII agus Airteagal 78 ón 2 Lúnasa 2025;",
+            "translations": {
+              "en": "Chapter III Section 4, Chapter V, Chapter VII and Chapter XII and Article 78 shall apply from 2 August 2025;"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/GA/TXT/?uri=CELEX:32024R1689",
+            "sha256": "89e4d8093dca4e6edb360c22fb7cf6a681fa352c906aca49a849bb7d5f2eb0bb",
+            "retrieved": "2026-10-31",
+            "copy": "sources/89e4d8093dca4e6e-oj.xhtml",
+            "copy_sha256": "89e4d8093dca4e6edb360c22fb7cf6a681fa352c906aca49a849bb7d5f2eb0bb",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 113, third paragraph, point (b) (English)",
+            "text": "Chapter III Section 4, Chapter V, Chapter VII and Chapter XII and Article 78 shall apply from 2 August 2025, with the exception of Article 101;",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:05:34Z",
+          "institution": "European Commission, European AI Office",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70YM_AC_01zvysJGHJc08uAX6NxnU6XtfyeJT2hGLo=Gw@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Commission, European AI Office",
+          "role": "applies the Regulation and prepares the Commission's guidelines"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters. AI models also helped build the illustrative rule models."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Commission, European AI Office (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0413",
+      "url": "https://arxo.io/findings/ARXO-2026-0413/",
+      "record_kind": "discrepancy",
+      "class": "language_versions",
+      "class_label": "Language versions",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 51(2), Portuguese and Croatian versions",
+      "text": {
+        "en": {
+          "title": "AI Act, Portuguese and Croatian versions: the 10^25 threshold of Article 51(2) is measured per second",
+          "summary": "The other 22 versions measure the cumulative amount of computation in floating point operations, without a time unit. The added words do not fit the cumulative quantity described in the same paragraph. Recital 111 and Annex XIII, point (c), support a total number of operations.",
+          "impact": "In a hypothetical case with a constant training rate, 2×10^25 operations over a million seconds means 2×10^19 operations per second. The total is above 10^25; the rate is not.",
+          "correction": "Delete the words per second (por segundo, u sekundi) in Article 51(2).",
+          "quote_translations": {
+            "q1": "measured in floating point operations per second",
+            "q2": "expressed as the number of floating point operations per second"
+          }
+        },
+        "pt": {
+          "title": "Regulamento da Inteligência Artificial, versões portuguesa e croata: o limiar de 10^25 do artigo 51.º, n.º 2, é medido por segundo",
+          "summary": "As outras 22 versões medem a quantidade acumulada de cálculo em operações de vírgula flutuante, sem unidade de tempo. As palavras acrescentadas não correspondem à quantidade acumulada descrita no mesmo número. O considerando 111 e o anexo XIII, alínea c), apontam para um número total de operações.",
+          "impact": "Num caso hipotético com uma taxa de treino constante, 2×10^25 operações ao longo de um milhão de segundos correspondem a 2×10^19 operações por segundo. O total é superior a 10^25; a taxa não é.",
+          "correction": "Suprimir, no artigo 51.º, n.º 2, as palavras «por segundo» na versão portuguesa e «u sekundi» na versão croata."
+        },
+        "hr": {
+          "title": "Akt o umjetnoj inteligenciji, portugalska i hrvatska verzija: prag od 10^25 iz članka 51. stavka 2. mjeri se u sekundi",
+          "summary": "Ostale 22 verzije mjere kumulativnu količinu računanja u matematičkim operacijama nad brojevima s pomičnim zarezom, bez jedinice vremena. Dodane riječi ne odgovaraju kumulativnoj količini opisanoj u istom stavku. Uvodna izjava 111. i Prilog XIII. točka (c) upućuju na ukupan broj operacija.",
+          "impact": "U hipotetskom slučaju sa stalnom brzinom treniranja, 2×10^25 operacija tijekom milijun sekundi znači 2×10^19 operacija u sekundi. Ukupan broj veći je od 10^25; brzina nije.",
+          "correction": "U članku 51. stavku 2. brisati riječi „por segundo” u portugalskoj verziji i „u sekundi” u hrvatskoj verziji."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Portuguese version",
+            "role": "Language version",
+            "language": "pt",
+            "edition": "published",
+            "locator": "Article 51(2) (Portuguese)",
+            "text": "medido em operações de vírgula flutuante por segundo",
+            "translations": {
+              "en": "measured in floating point operations per second"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32024R1689",
+            "sha256": "11c7f31fa5d9074f472d63f02ae58915319245cd33230637facb21bcce697af5",
+            "retrieved": "2026-10-31",
+            "copy": "sources/11c7f31fa5d9074f-oj.xhtml",
+            "copy_sha256": "11c7f31fa5d9074f472d63f02ae58915319245cd33230637facb21bcce697af5",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Croatian version",
+            "role": "Language version",
+            "language": "hr",
+            "edition": "published",
+            "locator": "Article 51(2) (Croatian)",
+            "text": "iskazana brojem matematičkih operacija nad brojevima s pomičnim zarezom u sekundi",
+            "translations": {
+              "en": "expressed as the number of floating point operations per second"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:32024R1689",
+            "sha256": "cc5d2eaedfd7d4d97a614b742c7ba47787ccc21bda52b80e5b9bf9e2e3eb5317",
+            "retrieved": "2026-10-31",
+            "copy": "sources/cc5d2eaedfd7d4d9-oj.xhtml",
+            "copy_sha256": "cc5d2eaedfd7d4d97a614b742c7ba47787ccc21bda52b80e5b9bf9e2e3eb5317",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 51(2) (English)",
+            "text": "the cumulative amount of computation used for its training measured in floating point operations is greater than",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:05:34Z",
+          "institution": "European Commission, European AI Office",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70YM_AC_01zvysJGHJc08uAX6NxnU6XtfyeJT2hGLo=Gw@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Commission, European AI Office",
+          "role": "applies the Regulation and prepares the Commission's guidelines"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters. AI models also helped build the illustrative rule models."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Commission, European AI Office (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0414",
+      "url": "https://arxo.io/findings/ARXO-2026-0414/",
+      "record_kind": "discrepancy",
+      "class": "language_versions",
+      "class_label": "Language versions",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 74(8), first part, Greek version",
+      "text": {
+        "en": {
+          "title": "AI Act, Greek version: the first part of Article 74(8) refers to Annex III without limiting it to point 1",
+          "summary": "The other 23 versions say listed in point 1 of Annex III. The limits to high-risk systems and to the stated purposes (law enforcement, border management, justice and democracy) remain. The second part (points 6, 7 and 8) is the same in all versions.",
+          "impact": "Read alone, the Greek text extends the designation rule of Article 74(8) (data protection authorities or other authorities under the same conditions) to more Annex III systems used for those purposes than point 1 (biometrics).",
+          "correction": "Add point 1 to the opening reference to Annex III in Greek Article 74(8).",
+          "quote_translations": {
+            "q1": "For high-risk AI systems listed in Annex III to this Regulation, in so far as"
+          }
+        },
+        "el": {
+          "title": "Κανονισμός για την τεχνητή νοημοσύνη, ελληνική απόδοση: το πρώτο σκέλος του άρθρου 74 παράγραφος 8 παραπέμπει στο παράρτημα III χωρίς περιορισμό στο σημείο 1",
+          "summary": "Οι άλλες 23 γλωσσικές αποδόσεις αναφέρουν συστήματα που απαριθμούνται στο σημείο 1 του παραρτήματος III. Οι περιορισμοί στα συστήματα υψηλού κινδύνου και στους αναφερόμενους σκοπούς (επιβολή του νόμου, διαχείριση των συνόρων, δικαιοσύνη και δημοκρατία) παραμένουν. Το δεύτερο σκέλος (σημεία 6, 7 και 8) είναι ίδιο σε όλες τις αποδόσεις.",
+          "impact": "Αν διαβαστεί μόνο του, το ελληνικό κείμενο επεκτείνει τον κανόνα ορισμού του άρθρου 74 παράγραφος 8 (αρχές προστασίας δεδομένων ή άλλες αρχές υπό τους ίδιους όρους) σε περισσότερα συστήματα του παραρτήματος III που χρησιμοποιούνται για τους σκοπούς αυτούς από όσα καλύπτει το σημείο 1 (βιομετρικά στοιχεία).",
+          "correction": "Προσθήκη του σημείου 1 στην αρχική παραπομπή στο παράρτημα III στο άρθρο 74 παράγραφος 8 της ελληνικής απόδοσης."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Greek version",
+            "role": "Language version",
+            "language": "el",
+            "edition": "published",
+            "locator": "Article 74(8) (Greek)",
+            "text": "Για τα συστήματα ΤΝ υψηλού κινδύνου που απαριθμούνται στο παράρτημα ΙΙΙ του παρόντος κανονισμού, στον βαθμό που",
+            "translations": {
+              "en": "For high-risk AI systems listed in Annex III to this Regulation, in so far as"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/EL/TXT/?uri=CELEX:32024R1689",
+            "sha256": "794a4d448179cb493f0bb344a651824ea42067bc21e59739c46afcbdb10f429c",
+            "retrieved": "2026-10-31",
+            "copy": "sources/794a4d448179cb49-oj.xhtml",
+            "copy_sha256": "794a4d448179cb493f0bb344a651824ea42067bc21e59739c46afcbdb10f429c",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 74(8) (English)",
+            "text": "For high-risk AI systems listed in point 1 of Annex III to this Regulation, in so far as",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:05:34Z",
+          "institution": "European Commission, European AI Office",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70YM_AC_01zvysJGHJc08uAX6NxnU6XtfyeJT2hGLo=Gw@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Commission, European AI Office",
+          "role": "applies the Regulation and prepares the Commission's guidelines"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Commission, European AI Office (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0416",
+      "url": "https://arxo.io/findings/ARXO-2026-0416/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Annex X, point 3",
+      "text": {
+        "en": {
+          "title": "AI Act, Annex X: the quoted title of the Eurodac Regulation names Regulation (EU) 2024/1315 instead of 2024/1351",
+          "summary": "The title of Regulation (EU) 2024/1358 as published names Regulations (EU) 2024/1351 and (EU) 2024/1350. English and 22 other versions of Annex X have 2024/1315; the Finnish version has 2024/1351. The main reference to Regulation (EU) 2024/1358 is correct. The Spanish corrigendum of 4.5.2026 (OJ L, 2026/90343) restates Annex X, point 3, and keeps 2024/1315.",
+          "impact": "No change to which systems are listed; the quoted title names a different regulation.",
+          "correction": "Replace 2024/1315 with 2024/1351 in the quoted title in Annex X, point 3."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Annex X, point 3 (English)",
+            "text": "in order to effectively apply Regulations (EU) 2024/1315 and (EU) 2024/1350",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EU) 2024/1358 on the establishment of Eurodac",
+            "role": "Later act",
+            "language": "en",
+            "edition": "published",
+            "locator": "Title",
+            "text": "in order to effectively apply Regulations (EU) 2024/1351 and (EU) 2024/1350",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1358",
+            "sha256": "d9211e0a6270b43eb34d8130ac871ea13ee8d41752e031ec31c7f79ef40e2bbf",
+            "retrieved": "2026-10-31",
+            "copy": "sources/d9211e0a6270b43e-32024R1358-en.xhtml",
+            "copy_sha256": "d9211e0a6270b43eb34d8130ac871ea13ee8d41752e031ec31c7f79ef40e2bbf",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0417",
+      "url": "https://arxo.io/findings/ARXO-2026-0417/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Annex VIII, Section C, point 5",
+      "text": {
+        "en": {
+          "title": "AI Act, Annex VIII, Section C, point 5: the data protection impact assessment is referred to Article 26(8) instead of 26(9)",
+          "summary": "Article 26(8) is about registration by deployers that are public authorities. The data protection impact assessment is in Article 26(9). The error is in all 24 versions. This has been pointed out publicly before.",
+          "impact": "A public authority that registers a system is sent to the wrong paragraph for the assessment whose summary it submits.",
+          "correction": "Replace Article 26(8) with Article 26(9) in Annex VIII, Section C, point 5."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Annex VIII, Section C, point 5 (English)",
+            "text": "as specified in Article 26(8) of this Regulation",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 26(9) (English)",
+            "text": "shall use the information provided under Article 13 of this Regulation to comply with their obligation to carry out a data protection impact assessment",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:05:34Z",
+          "institution": "European Commission, European AI Office",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70YM_AC_01zvysJGHJc08uAX6NxnU6XtfyeJT2hGLo=Gw@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Commission, European AI Office",
+          "role": "applies the Regulation and prepares the Commission's guidelines"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [
+        {
+          "who": "Kris Shrishak",
+          "url": "https://www.linkedin.com/posts/krisshrishak_eu-aiact-activity-7303086659275776001-YLxg",
+          "note": {
+            "en": "Pointed out publicly that Annex VIII, Section C, point 5, refers to Article 26(8) instead of Article 26(9)."
+          }
+        }
+      ],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Commission, European AI Office (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0418",
+      "url": "https://arxo.io/findings/ARXO-2026-0418/",
+      "record_kind": "discrepancy",
+      "class": "amendments",
+      "class_label": "Amendments",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 49(4)(b) after Regulation (EU) 2026/1744",
+      "text": {
+        "en": {
+          "title": "AI Act after the Digital Omnibus: Article 49(4)(b) still lists point 9 of Annex VIII, Section B, which was deleted",
+          "summary": "Article 1, point (42), of Regulation (EU) 2026/1744 deleted points 7 and 9 of Annex VIII, Section B. Article 49(4)(b) still lists points 8 and 9 of Section B. This has been noted publicly before.",
+          "impact": "For a system registered in the secure non-public section, one listed field no longer exists.",
+          "correction": "Amend Article 49(4)(b) to refer to Section B, points 1 to 5 and point 8, of Annex VIII."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2026/1744 amending Regulation (EU) 2024/1689 (Digital Omnibus on AI)",
+            "role": "Amending act",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 1, point (42)",
+            "text": "in Annex VIII, section B, points 7 and 9 are deleted;",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R1744",
+            "sha256": "9d754652b867722807e4219c85912ce354233e58a1b4eb8c7752b4d1922993db",
+            "retrieved": "2026-10-31",
+            "copy": "sources/9d754652b8677228-en.xhtml",
+            "copy_sha256": "9d754652b867722807e4219c85912ce354233e58a1b4eb8c7752b4d1922993db",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EU) 2024/1689, consolidated text of 27 July 2026 (documentation aid)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 49(4)(b)",
+            "text": "Section B, points 1 to 5, and points 8 and 9 of Annex VIII;",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+            "sha256": "5e7719f77e8a606b257dc25958ee3222c4383300a5a34270a5b850a2ce8b8715",
+            "retrieved": "2026-10-31",
+            "copy": "sources/5e7719f77e8a606b-en.xhtml",
+            "copy_sha256": "5e7719f77e8a606b257dc25958ee3222c4383300a5a34270a5b850a2ce8b8715",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:05:34Z",
+          "institution": "European Commission, European AI Office",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70YM_AC_01zvysJGHJc08uAX6NxnU6XtfyeJT2hGLo=Gw@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "European Commission, European AI Office",
+          "role": "applies the Regulation and prepares the Commission's guidelines"
+        },
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [
+        {
+          "who": "Praxikon",
+          "url": "https://www.praxikon.com/en/verplichtingen/article-71-eu-database",
+          "note": {
+            "en": "Its page on Article 71 noted that Article 49(4)(b) still lists point 9 of Annex VIII, Section B, after Regulation (EU) 2026/1744."
+          }
+        }
+      ],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Commission, European AI Office (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0419",
+      "url": "https://arxo.io/findings/ARXO-2026-0419/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 40(1)",
+      "text": {
+        "en": {
+          "title": "AI Act, Article 40(1): stray word in “set out in of Chapter V”",
+          "summary": "Article 40(1), English version, reads with the obligations set out in of Chapter V.",
+          "impact": "No change to any requirement.",
+          "correction": "Read set out in Chapter V."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Documented search",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 40(1) (English)",
+            "text": "with the obligations set out in of Chapter V",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0420",
+      "url": "https://arxo.io/findings/ARXO-2026-0420/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 71(4)",
+      "text": {
+        "en": {
+          "title": "AI Act, Article 71(4): missing word in “accessible the public”",
+          "summary": "Article 71(4), English version, reads making the information accessible the public.",
+          "impact": "No change to any requirement.",
+          "correction": "Read accessible to the public."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Documented search",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 71(4) (English)",
+            "text": "making the information accessible the public",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0421",
+      "url": "https://arxo.io/findings/ARXO-2026-0421/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 101(1), first subparagraph",
+      "text": {
+        "en": {
+          "title": "AI Act, Article 101(1): extra full stop before “when”",
+          "summary": "The first subparagraph of Article 101(1), English version, has an extra full stop in whichever is higher., when.",
+          "impact": "No change to any requirement.",
+          "correction": "Delete the full stop."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Documented search",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 101(1), first subparagraph (English)",
+            "text": "whichever is higher., when",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0422",
+      "url": "https://arxo.io/findings/ARXO-2026-0422/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 101(1), second subparagraph",
+      "text": {
+        "en": {
+          "title": "AI Act, Article 101(1): missing word in “shall also into account”",
+          "summary": "The second subparagraph of Article 101(1), English version, reads The Commission shall also into account.",
+          "impact": "No change to any requirement.",
+          "correction": "Read shall also take into account."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Documented search",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 101(1), second subparagraph (English)",
+            "text": "The Commission shall also into account",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0423",
+      "url": "https://arxo.io/findings/ARXO-2026-0423/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 111, title",
+      "text": {
+        "en": {
+          "title": "AI Act, Article 111: “marked” for “market” in the title",
+          "summary": "The title of Article 111, English version, reads already placed on the marked.",
+          "impact": "No change to any requirement.",
+          "correction": "Read market."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Documented search",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 111, title (English)",
+            "text": "already placed on the marked",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0424",
+      "url": "https://arxo.io/findings/ARXO-2026-0424/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 112(6)",
+      "text": {
+        "en": {
+          "title": "AI Act, Article 112(6): “asses” for “assess”",
+          "summary": "Article 112(6), English version, reads asses the need.",
+          "impact": "No change to any requirement.",
+          "correction": "Read assess."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Documented search",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 112(6) (English)",
+            "text": "asses the need",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0425",
+      "url": "https://arxo.io/findings/ARXO-2026-0425/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 71(1), Maltese version",
+      "text": {
+        "en": {
+          "title": "AI Act, Maltese version: Article 71(1) prints 6(40 for 6(4)",
+          "summary": "Maltese Article 71(1) refers to Article 6(40 where Article 6(4) is meant (a typing error).",
+          "impact": "No change to any requirement.",
+          "correction": "Read 6(4)."
+        },
+        "mt": {
+          "title": "L-Att dwar l-Intelliġenza Artifiċjali, verżjoni Maltija: l-Artikolu 71(1) jistampa 6(40 minflok 6(4)",
+          "summary": "L-Artikolu 71(1) tal-verżjoni Maltija jirreferi għall-Artikolu 6(40 fejn huwa maħsub l-Artikolu 6(4) (żball tat-tajpjar).",
+          "impact": "L-ebda bidla f'xi rekwiżit.",
+          "correction": "Aqra 6(4)."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Documented search",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Maltese version",
+            "role": "Language version",
+            "language": "mt",
+            "edition": "published",
+            "locator": "Article 71(1) (Maltese)",
+            "text": "l-Artikolu 6(40",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/MT/TXT/?uri=CELEX:32024R1689",
+            "sha256": "f8b3cef536530715d0016a22b15004831a94726459bf3ccdbd787c619b08af3b",
+            "retrieved": "2026-10-31",
+            "copy": "sources/f8b3cef536530715-oj.xhtml",
+            "copy_sha256": "f8b3cef536530715d0016a22b15004831a94726459bf3ccdbd787c619b08af3b",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0426",
+      "url": "https://arxo.io/findings/ARXO-2026-0426/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 49(2), German and Estonian versions",
+      "text": {
+        "en": {
+          "title": "AI Act, German and Estonian versions: Article 49(2) calls a system high-risk although the provider has concluded it is not",
+          "summary": "German and Estonian Article 49(2) call the object a high-risk system although the provider has concluded that it is not high-risk. The other versions say an AI system.",
+          "impact": "No change to the registration duty; the label contradicts the condition in the same sentence.",
+          "correction": "Read an AI system, as in the other versions.",
+          "quote_translations": {
+            "q1": "of a high-risk AI system",
+            "q2": "of such a high-risk AI system"
+          }
+        },
+        "de": {
+          "title": "KI-Verordnung, deutsche und estnische Fassung: Artikel 49 Absatz 2 bezeichnet ein System als Hochrisiko-KI-System, obwohl der Anbieter zu dem Schluss gelangt ist, dass es das nicht ist",
+          "summary": "Die deutsche und die estnische Fassung von Artikel 49 Absatz 2 bezeichnen den Gegenstand als Hochrisiko-KI-System, obwohl der Anbieter zu dem Schluss gelangt ist, dass es kein Hochrisiko-KI-System ist. Die anderen Fassungen sprechen von einem KI-System.",
+          "impact": "Keine Änderung der Registrierungspflicht; die Bezeichnung widerspricht der Bedingung im selben Satz.",
+          "correction": "Zu lesen: eines KI-Systems, wie in den anderen Fassungen."
+        },
+        "et": {
+          "title": "Tehisintellektimäärus, saksa- ja eestikeelne versioon: artikli 49 lõige 2 nimetab süsteemi suure riskiga süsteemiks, kuigi pakkuja on otsustanud, et see seda ei ole",
+          "summary": "Artikli 49 lõike 2 saksa- ja eestikeelne versioon nimetavad objekti suure riskiga süsteemiks, kuigi pakkuja on otsustanud, et see ei ole suure riskiga. Teised versioonid räägivad tehisintellektisüsteemist.",
+          "impact": "Registreerimiskohustus ei muutu; nimetus on vastuolus sama lause tingimusega.",
+          "correction": "Lugeda: tehisintellektisüsteemi, nagu teistes versioonides."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, German version",
+            "role": "Language version",
+            "language": "de",
+            "edition": "published",
+            "locator": "Article 49(2) (German)",
+            "text": "eines Hochrisiko-KI-Systems",
+            "translations": {
+              "en": "of a high-risk AI system"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689",
+            "sha256": "126daa7d62d9b0e9f4700d9ba5504b4a59ca9205b8764a1a27e40817d3144b3b",
+            "retrieved": "2026-10-31",
+            "copy": "sources/126daa7d62d9b0e9-oj.xhtml",
+            "copy_sha256": "126daa7d62d9b0e9f4700d9ba5504b4a59ca9205b8764a1a27e40817d3144b3b",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Estonian version",
+            "role": "Language version",
+            "language": "et",
+            "edition": "published",
+            "locator": "Article 49(2) (Estonian)",
+            "text": "sellise suure riskiga tehisintellektisüsteemi",
+            "translations": {
+              "en": "of such a high-risk AI system"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/ET/TXT/?uri=CELEX:32024R1689",
+            "sha256": "0dc5932d5ec5cd6b66fc1a5ee9c54352f9852b3d08379bf7455786c15fa6556a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/0dc5932d5ec5cd6b-oj.xhtml",
+            "copy_sha256": "0dc5932d5ec5cd6b66fc1a5ee9c54352f9852b3d08379bf7455786c15fa6556a",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 49(2) (English)",
+            "text": "an AI system for which the provider has concluded that it is not high-risk",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:04:50Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0427",
+      "url": "https://arxo.io/findings/ARXO-2026-0427/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Articles 18(1) and 22(3)(b)",
+      "text": {
+        "en": {
+          "title": "AI Act: which event starts the 10-year period of Articles 18(1) and 22(3)(b) when placing on the market and putting into service fall on different dates?",
+          "summary": "Articles 18(1) and 22(3)(b) count 10 years after the high-risk AI system has been placed on the market or put into service. Where the two events happen on different dates, the text does not say which one starts the period.",
+          "impact": "Where the two events fall on different dates, the end of the 10-year period differs by the interval between them.",
+          "correction": "The guidelines could say which event starts the period."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 18(1) (English)",
+            "text": "after the high-risk AI system has been placed on the market or put into service",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:05:34Z",
+          "institution": "European Commission, European AI Office",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70YM_AC_01zvysJGHJc08uAX6NxnU6XtfyeJT2hGLo=Gw@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "European Commission, European AI Office",
+          "role": "applies the Regulation and prepares the Commission's guidelines"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters. AI models also helped build the illustrative rule models."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Commission, European AI Office (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0428",
+      "url": "https://arxo.io/findings/ARXO-2026-0428/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Annex III, point 8(b)",
+      "text": {
+        "en": {
+          "title": "AI Act: is a voter exposed to the output of a campaign tool whose recommended messages staff send on?",
+          "summary": "Annex III, point 8(b), excludes AI systems to the output of which natural persons are not directly exposed. A campaign tool ranks voters and recommends which message each voter should receive; campaign staff then send those messages. The text does not say whether this counts as direct exposure to the output of the system, read with recital 62.",
+          "impact": "Whether the campaign tool falls under point 8(b) depends on whether the voter counts as directly exposed to its output: the internal ranking or the message the voter receives.",
+          "correction": "The guidelines could say whether mediated exposure of this kind is direct exposure."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Annex III, point 8(b) (English)",
+            "text": "AI systems to the output of which natural persons are not directly exposed",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:05:34Z",
+          "institution": "European Commission, European AI Office",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70YM_AC_01zvysJGHJc08uAX6NxnU6XtfyeJT2hGLo=Gw@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "European Commission, European AI Office",
+          "role": "applies the Regulation and prepares the Commission's guidelines"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters. AI models also helped build the illustrative rule models."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Commission, European AI Office (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0429",
+      "url": "https://arxo.io/findings/ARXO-2026-0429/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "acts": [
+        "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+        "Regulation (EU) 2026/1744"
+      ],
+      "location": "Article 82(1) and Article 79",
+      "text": {
+        "en": {
+          "title": "AI Act: which evaluation satisfies Article 82(1) when a compliant system presents only a risk to another public interest?",
+          "summary": "Article 82(1) applies, having performed an evaluation under Article 79, to a compliant high-risk AI system that presents a risk, including a risk to other aspects of public interest protection. Article 79(2) requires an evaluation for risks to health, safety or fundamental rights, and Article 74(1) applies the general market surveillance framework of Regulation (EU) 2019/1020. The text does not say which evaluation satisfies Article 82(1) where the only risk is to another public interest.",
+          "impact": "For an authority that finds only a risk to another public interest, the text does not say which evaluation lets it act under Article 82.",
+          "correction": "The guidelines could say which evaluation applies."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 82(1) (English)",
+            "text": "having performed an evaluation under Article 79",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 82(1) (English)",
+            "text": "to other aspects of public interest protection",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+            "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8f0b656302f9864c-en.xhtml",
+            "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:05:34Z",
+          "institution": "European Commission, European AI Office",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70YM_AC_01zvysJGHJc08uAX6NxnU6XtfyeJT2hGLo=Gw@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "European Commission, European AI Office",
+          "role": "applies the Regulation and prepares the Commission's guidelines"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters. AI models also helped build the illustrative rule models."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T13:20:34+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Commission, European AI Office (e-mail)"
         }
       ]
     }

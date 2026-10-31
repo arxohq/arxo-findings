@@ -1,0 +1,157 @@
+{
+  "id": "ARXO-2026-0417",
+  "url": "https://arxo.io/findings/ARXO-2026-0417/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+  "acts": [
+    "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+    "Regulation (EU) 2026/1744"
+  ],
+  "location": "Annex VIII, Section C, point 5",
+  "text": {
+    "en": {
+      "title": "AI Act, Annex VIII, Section C, point 5: the data protection impact assessment is referred to Article 26(8) instead of 26(9)",
+      "summary": "Article 26(8) is about registration by deployers that are public authorities. The data protection impact assessment is in Article 26(9). The error is in all 24 versions. This has been pointed out publicly before.",
+      "impact": "A public authority that registers a system is sent to the wrong paragraph for the assessment whose summary it submits.",
+      "correction": "Replace Article 26(8) with Article 26(9) in Annex VIII, Section C, point 5."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Annex VIII, Section C, point 5 (English)",
+        "text": "as specified in Article 26(8) of this Regulation",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+        "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "retrieved": "2026-10-31",
+        "copy": "sources/8f0b656302f9864c-en.xhtml",
+        "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 26(9) (English)",
+        "text": "shall use the information provided under Article 13 of this Regulation to comply with their obligation to carry out a data protection impact assessment",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+        "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "retrieved": "2026-10-31",
+        "copy": "sources/8f0b656302f9864c-en.xhtml",
+        "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:04:50Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:04:50Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:05:34Z",
+      "institution": "European Commission, European AI Office",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70YM_AC_01zvysJGHJc08uAX6NxnU6XtfyeJT2hGLo=Gw@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Commission, European AI Office",
+      "role": "applies the Regulation and prepares the Commission's guidelines"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [
+    {
+      "who": "Kris Shrishak",
+      "url": "https://www.linkedin.com/posts/krisshrishak_eu-aiact-activity-7303086659275776001-YLxg",
+      "note": {
+        "en": "Pointed out publicly that Annex VIII, Section C, point 5, refers to Article 26(8) instead of Article 26(9)."
+      }
+    }
+  ],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:20:34+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Commission, European AI Office (e-mail)"
+    }
+  ]
+}

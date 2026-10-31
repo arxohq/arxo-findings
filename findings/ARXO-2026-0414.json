@@ -1,0 +1,160 @@
+{
+  "id": "ARXO-2026-0414",
+  "url": "https://arxo.io/findings/ARXO-2026-0414/",
+  "record_kind": "discrepancy",
+  "class": "language_versions",
+  "class_label": "Language versions",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+  "acts": [
+    "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+    "Regulation (EU) 2026/1744"
+  ],
+  "location": "Article 74(8), first part, Greek version",
+  "text": {
+    "en": {
+      "title": "AI Act, Greek version: the first part of Article 74(8) refers to Annex III without limiting it to point 1",
+      "summary": "The other 23 versions say listed in point 1 of Annex III. The limits to high-risk systems and to the stated purposes (law enforcement, border management, justice and democracy) remain. The second part (points 6, 7 and 8) is the same in all versions.",
+      "impact": "Read alone, the Greek text extends the designation rule of Article 74(8) (data protection authorities or other authorities under the same conditions) to more Annex III systems used for those purposes than point 1 (biometrics).",
+      "correction": "Add point 1 to the opening reference to Annex III in Greek Article 74(8).",
+      "quote_translations": {
+        "q1": "For high-risk AI systems listed in Annex III to this Regulation, in so far as"
+      }
+    },
+    "el": {
+      "title": "Κανονισμός για την τεχνητή νοημοσύνη, ελληνική απόδοση: το πρώτο σκέλος του άρθρου 74 παράγραφος 8 παραπέμπει στο παράρτημα III χωρίς περιορισμό στο σημείο 1",
+      "summary": "Οι άλλες 23 γλωσσικές αποδόσεις αναφέρουν συστήματα που απαριθμούνται στο σημείο 1 του παραρτήματος III. Οι περιορισμοί στα συστήματα υψηλού κινδύνου και στους αναφερόμενους σκοπούς (επιβολή του νόμου, διαχείριση των συνόρων, δικαιοσύνη και δημοκρατία) παραμένουν. Το δεύτερο σκέλος (σημεία 6, 7 και 8) είναι ίδιο σε όλες τις αποδόσεις.",
+      "impact": "Αν διαβαστεί μόνο του, το ελληνικό κείμενο επεκτείνει τον κανόνα ορισμού του άρθρου 74 παράγραφος 8 (αρχές προστασίας δεδομένων ή άλλες αρχές υπό τους ίδιους όρους) σε περισσότερα συστήματα του παραρτήματος III που χρησιμοποιούνται για τους σκοπούς αυτούς από όσα καλύπτει το σημείο 1 (βιομετρικά στοιχεία).",
+      "correction": "Προσθήκη του σημείου 1 στην αρχική παραπομπή στο παράρτημα III στο άρθρο 74 παράγραφος 8 της ελληνικής απόδοσης."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Greek version",
+        "role": "Language version",
+        "language": "el",
+        "edition": "published",
+        "locator": "Article 74(8) (Greek)",
+        "text": "Για τα συστήματα ΤΝ υψηλού κινδύνου που απαριθμούνται στο παράρτημα ΙΙΙ του παρόντος κανονισμού, στον βαθμό που",
+        "translations": {
+          "en": "For high-risk AI systems listed in Annex III to this Regulation, in so far as"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/EL/TXT/?uri=CELEX:32024R1689",
+        "sha256": "794a4d448179cb493f0bb344a651824ea42067bc21e59739c46afcbdb10f429c",
+        "retrieved": "2026-10-31",
+        "copy": "sources/794a4d448179cb49-oj.xhtml",
+        "copy_sha256": "794a4d448179cb493f0bb344a651824ea42067bc21e59739c46afcbdb10f429c",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 74(8) (English)",
+        "text": "For high-risk AI systems listed in point 1 of Annex III to this Regulation, in so far as",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+        "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "retrieved": "2026-10-31",
+        "copy": "sources/8f0b656302f9864c-en.xhtml",
+        "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:04:50Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:04:50Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:05:34Z",
+      "institution": "European Commission, European AI Office",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70YM_AC_01zvysJGHJc08uAX6NxnU6XtfyeJT2hGLo=Gw@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Commission, European AI Office",
+      "role": "applies the Regulation and prepares the Commission's guidelines"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:20:34+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Commission, European AI Office (e-mail)"
+    }
+  ]
+}

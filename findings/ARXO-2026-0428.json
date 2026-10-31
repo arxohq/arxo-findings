@@ -1,0 +1,103 @@
+{
+  "id": "ARXO-2026-0428",
+  "url": "https://arxo.io/findings/ARXO-2026-0428/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+  "acts": [
+    "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+    "Regulation (EU) 2026/1744"
+  ],
+  "location": "Annex III, point 8(b)",
+  "text": {
+    "en": {
+      "title": "AI Act: is a voter exposed to the output of a campaign tool whose recommended messages staff send on?",
+      "summary": "Annex III, point 8(b), excludes AI systems to the output of which natural persons are not directly exposed. A campaign tool ranks voters and recommends which message each voter should receive; campaign staff then send those messages. The text does not say whether this counts as direct exposure to the output of the system, read with recital 62.",
+      "impact": "Whether the campaign tool falls under point 8(b) depends on whether the voter counts as directly exposed to its output: the internal ranking or the message the voter receives.",
+      "correction": "The guidelines could say whether mediated exposure of this kind is direct exposure."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Annex III, point 8(b) (English)",
+        "text": "AI systems to the output of which natural persons are not directly exposed",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+        "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "retrieved": "2026-10-31",
+        "copy": "sources/8f0b656302f9864c-en.xhtml",
+        "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:05:34Z",
+      "institution": "European Commission, European AI Office",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70YM_AC_01zvysJGHJc08uAX6NxnU6XtfyeJT2hGLo=Gw@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "European Commission, European AI Office",
+      "role": "applies the Regulation and prepares the Commission's guidelines"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters. AI models also helped build the illustrative rule models."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:20:34+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Commission, European AI Office (e-mail)"
+    }
+  ]
+}

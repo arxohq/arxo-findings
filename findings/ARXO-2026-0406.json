@@ -1,0 +1,145 @@
+{
+  "id": "ARXO-2026-0406",
+  "url": "https://arxo.io/findings/ARXO-2026-0406/",
+  "record_kind": "discrepancy",
+  "class": "language_versions",
+  "class_label": "Language versions",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+  "acts": [
+    "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+    "Regulation (EU) 2026/1744"
+  ],
+  "location": "Article 40(2), third subparagraph, Estonian version",
+  "text": {
+    "en": {
+      "title": "AI Act, Estonian version: Article 40(2) refers to Article 2 of Regulation (EU) No 1025/2012 instead of Article 24",
+      "summary": "The other 23 versions refer to Article 24 of Regulation (EU) No 1025/2012, headed Reports. Article 2 of that Regulation contains definitions.",
+      "impact": "A reader of the Estonian text is sent to definitions instead of the reporting rule for standardisation organisations.",
+      "correction": "Replace Article 2 with Article 24 in Estonian Article 40(2), third subparagraph.",
+      "quote_translations": {
+        "q1": "in accordance with Article 2 of Regulation (EU) No 1025/2012"
+      }
+    },
+    "et": {
+      "title": "Tehisintellektimäärus, eestikeelne versioon: artikli 40 lõige 2 viitab määruse (EL) nr 1025/2012 artiklile 2 artikli 24 asemel",
+      "summary": "Ülejäänud 23 versiooni viitavad määruse (EL) nr 1025/2012 artiklile 24 pealkirjaga Aruanded. Selle määruse artikkel 2 sisaldab mõisteid.",
+      "impact": "Eestikeelse teksti lugeja suunatakse standardiorganisatsioonide aruandlusreegli asemel mõistete juurde.",
+      "correction": "Asendada eestikeelse artikli 40 lõike 2 kolmandas lõigus artikkel 2 artikliga 24."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Estonian version",
+        "role": "Language version",
+        "language": "et",
+        "edition": "published",
+        "locator": "Article 40(2), third subparagraph (Estonian)",
+        "text": "kooskõlas määruse (EL) nr 1025/2012 artikliga 2",
+        "translations": {
+          "en": "in accordance with Article 2 of Regulation (EU) No 1025/2012"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/ET/TXT/?uri=CELEX:32024R1689",
+        "sha256": "0dc5932d5ec5cd6b66fc1a5ee9c54352f9852b3d08379bf7455786c15fa6556a",
+        "retrieved": "2026-10-31",
+        "copy": "sources/0dc5932d5ec5cd6b-oj.xhtml",
+        "copy_sha256": "0dc5932d5ec5cd6b66fc1a5ee9c54352f9852b3d08379bf7455786c15fa6556a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 40(2), third subparagraph (English)",
+        "text": "in accordance with Article 24 of Regulation (EU) No 1025/2012",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+        "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "retrieved": "2026-10-31",
+        "copy": "sources/8f0b656302f9864c-en.xhtml",
+        "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:04:50Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:04:50Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:20:34+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

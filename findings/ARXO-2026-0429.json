@@ -1,0 +1,119 @@
+{
+  "id": "ARXO-2026-0429",
+  "url": "https://arxo.io/findings/ARXO-2026-0429/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+  "acts": [
+    "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+    "Regulation (EU) 2026/1744"
+  ],
+  "location": "Article 82(1) and Article 79",
+  "text": {
+    "en": {
+      "title": "AI Act: which evaluation satisfies Article 82(1) when a compliant system presents only a risk to another public interest?",
+      "summary": "Article 82(1) applies, having performed an evaluation under Article 79, to a compliant high-risk AI system that presents a risk, including a risk to other aspects of public interest protection. Article 79(2) requires an evaluation for risks to health, safety or fundamental rights, and Article 74(1) applies the general market surveillance framework of Regulation (EU) 2019/1020. The text does not say which evaluation satisfies Article 82(1) where the only risk is to another public interest.",
+      "impact": "For an authority that finds only a risk to another public interest, the text does not say which evaluation lets it act under Article 82.",
+      "correction": "The guidelines could say which evaluation applies."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 82(1) (English)",
+        "text": "having performed an evaluation under Article 79",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+        "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "retrieved": "2026-10-31",
+        "copy": "sources/8f0b656302f9864c-en.xhtml",
+        "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 82(1) (English)",
+        "text": "to other aspects of public interest protection",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+        "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "retrieved": "2026-10-31",
+        "copy": "sources/8f0b656302f9864c-en.xhtml",
+        "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:05:34Z",
+      "institution": "European Commission, European AI Office",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70YM_AC_01zvysJGHJc08uAX6NxnU6XtfyeJT2hGLo=Gw@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "European Commission, European AI Office",
+      "role": "applies the Regulation and prepares the Commission's guidelines"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters. AI models also helped build the illustrative rule models."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:20:34+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Commission, European AI Office (e-mail)"
+    }
+  ]
+}

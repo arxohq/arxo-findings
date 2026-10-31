@@ -1,0 +1,185 @@
+{
+  "id": "ARXO-2026-0413",
+  "url": "https://arxo.io/findings/ARXO-2026-0413/",
+  "record_kind": "discrepancy",
+  "class": "language_versions",
+  "class_label": "Language versions",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+  "acts": [
+    "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+    "Regulation (EU) 2026/1744"
+  ],
+  "location": "Article 51(2), Portuguese and Croatian versions",
+  "text": {
+    "en": {
+      "title": "AI Act, Portuguese and Croatian versions: the 10^25 threshold of Article 51(2) is measured per second",
+      "summary": "The other 22 versions measure the cumulative amount of computation in floating point operations, without a time unit. The added words do not fit the cumulative quantity described in the same paragraph. Recital 111 and Annex XIII, point (c), support a total number of operations.",
+      "impact": "In a hypothetical case with a constant training rate, 2×10^25 operations over a million seconds means 2×10^19 operations per second. The total is above 10^25; the rate is not.",
+      "correction": "Delete the words per second (por segundo, u sekundi) in Article 51(2).",
+      "quote_translations": {
+        "q1": "measured in floating point operations per second",
+        "q2": "expressed as the number of floating point operations per second"
+      }
+    },
+    "pt": {
+      "title": "Regulamento da Inteligência Artificial, versões portuguesa e croata: o limiar de 10^25 do artigo 51.º, n.º 2, é medido por segundo",
+      "summary": "As outras 22 versões medem a quantidade acumulada de cálculo em operações de vírgula flutuante, sem unidade de tempo. As palavras acrescentadas não correspondem à quantidade acumulada descrita no mesmo número. O considerando 111 e o anexo XIII, alínea c), apontam para um número total de operações.",
+      "impact": "Num caso hipotético com uma taxa de treino constante, 2×10^25 operações ao longo de um milhão de segundos correspondem a 2×10^19 operações por segundo. O total é superior a 10^25; a taxa não é.",
+      "correction": "Suprimir, no artigo 51.º, n.º 2, as palavras «por segundo» na versão portuguesa e «u sekundi» na versão croata."
+    },
+    "hr": {
+      "title": "Akt o umjetnoj inteligenciji, portugalska i hrvatska verzija: prag od 10^25 iz članka 51. stavka 2. mjeri se u sekundi",
+      "summary": "Ostale 22 verzije mjere kumulativnu količinu računanja u matematičkim operacijama nad brojevima s pomičnim zarezom, bez jedinice vremena. Dodane riječi ne odgovaraju kumulativnoj količini opisanoj u istom stavku. Uvodna izjava 111. i Prilog XIII. točka (c) upućuju na ukupan broj operacija.",
+      "impact": "U hipotetskom slučaju sa stalnom brzinom treniranja, 2×10^25 operacija tijekom milijun sekundi znači 2×10^19 operacija u sekundi. Ukupan broj veći je od 10^25; brzina nije.",
+      "correction": "U članku 51. stavku 2. brisati riječi „por segundo” u portugalskoj verziji i „u sekundi” u hrvatskoj verziji."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Portuguese version",
+        "role": "Language version",
+        "language": "pt",
+        "edition": "published",
+        "locator": "Article 51(2) (Portuguese)",
+        "text": "medido em operações de vírgula flutuante por segundo",
+        "translations": {
+          "en": "measured in floating point operations per second"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32024R1689",
+        "sha256": "11c7f31fa5d9074f472d63f02ae58915319245cd33230637facb21bcce697af5",
+        "retrieved": "2026-10-31",
+        "copy": "sources/11c7f31fa5d9074f-oj.xhtml",
+        "copy_sha256": "11c7f31fa5d9074f472d63f02ae58915319245cd33230637facb21bcce697af5",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Croatian version",
+        "role": "Language version",
+        "language": "hr",
+        "edition": "published",
+        "locator": "Article 51(2) (Croatian)",
+        "text": "iskazana brojem matematičkih operacija nad brojevima s pomičnim zarezom u sekundi",
+        "translations": {
+          "en": "expressed as the number of floating point operations per second"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:32024R1689",
+        "sha256": "cc5d2eaedfd7d4d97a614b742c7ba47787ccc21bda52b80e5b9bf9e2e3eb5317",
+        "retrieved": "2026-10-31",
+        "copy": "sources/cc5d2eaedfd7d4d9-oj.xhtml",
+        "copy_sha256": "cc5d2eaedfd7d4d97a614b742c7ba47787ccc21bda52b80e5b9bf9e2e3eb5317",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 51(2) (English)",
+        "text": "the cumulative amount of computation used for its training measured in floating point operations is greater than",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+        "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "retrieved": "2026-10-31",
+        "copy": "sources/8f0b656302f9864c-en.xhtml",
+        "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:04:50Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:04:50Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:05:34Z",
+      "institution": "European Commission, European AI Office",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70YM_AC_01zvysJGHJc08uAX6NxnU6XtfyeJT2hGLo=Gw@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Commission, European AI Office",
+      "role": "applies the Regulation and prepares the Commission's guidelines"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters. AI models also helped build the illustrative rule models."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:20:34+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Commission, European AI Office (e-mail)"
+    }
+  ]
+}

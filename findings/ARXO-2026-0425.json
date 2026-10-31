@@ -1,0 +1,124 @@
+{
+  "id": "ARXO-2026-0425",
+  "url": "https://arxo.io/findings/ARXO-2026-0425/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+  "acts": [
+    "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+    "Regulation (EU) 2026/1744"
+  ],
+  "location": "Article 71(1), Maltese version",
+  "text": {
+    "en": {
+      "title": "AI Act, Maltese version: Article 71(1) prints 6(40 for 6(4)",
+      "summary": "Maltese Article 71(1) refers to Article 6(40 where Article 6(4) is meant (a typing error).",
+      "impact": "No change to any requirement.",
+      "correction": "Read 6(4)."
+    },
+    "mt": {
+      "title": "L-Att dwar l-Intelliġenza Artifiċjali, verżjoni Maltija: l-Artikolu 71(1) jistampa 6(40 minflok 6(4)",
+      "summary": "L-Artikolu 71(1) tal-verżjoni Maltija jirreferi għall-Artikolu 6(40 fejn huwa maħsub l-Artikolu 6(4) (żball tat-tajpjar).",
+      "impact": "L-ebda bidla f'xi rekwiżit.",
+      "correction": "Aqra 6(4)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Documented search",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Maltese version",
+        "role": "Language version",
+        "language": "mt",
+        "edition": "published",
+        "locator": "Article 71(1) (Maltese)",
+        "text": "l-Artikolu 6(40",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/MT/TXT/?uri=CELEX:32024R1689",
+        "sha256": "f8b3cef536530715d0016a22b15004831a94726459bf3ccdbd787c619b08af3b",
+        "retrieved": "2026-10-31",
+        "copy": "sources/f8b3cef536530715-oj.xhtml",
+        "copy_sha256": "f8b3cef536530715d0016a22b15004831a94726459bf3ccdbd787c619b08af3b",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:04:50Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:04:50Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:20:34+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "ARXO-2026-0401",
+  "url": "https://arxo.io/findings/ARXO-2026-0401/",
+  "record_kind": "discrepancy",
+  "class": "language_versions",
+  "class_label": "Language versions",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+  "acts": [
+    "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+    "Regulation (EU) 2026/1744"
+  ],
+  "location": "Article 73(7), Maltese version",
+  "text": {
+    "en": {
+      "title": "AI Act, Maltese version: Article 73(7) refers to Article 3, point (44)(c), which does not exist",
+      "summary": "The other 23 versions refer to Article 3, point (49)(c): a serious incident that infringes obligations under Union law intended to protect fundamental rights. Point (44) defines publicly accessible space and has no point (c). Maltese Article 3, point (49)(c), and the reference in Maltese Article 73(10) support the intended reading.",
+      "impact": "A market surveillance authority that reads only Maltese Article 73(7) is pointed, for the incidents after which it must inform the bodies under Article 77(1), to a definition that does not exist.",
+      "correction": "Replace point (44)(c) with point (49)(c) in Maltese Article 73(7).",
+      "quote_translations": {
+        "q1": "referred to in Article 3, point (44)(c)"
+      }
+    },
+    "mt": {
+      "title": "L-Att dwar l-Intelliġenza Artifiċjali, verżjoni Maltija: l-Artikolu 73(7) jirreferi għall-Artikolu 3, il-punt (44)(c), li ma jeżistix",
+      "summary": "It-23 verżjoni l-oħra jirreferu għall-Artikolu 3, il-punt (49)(c): inċident serju li jikser obbligi taħt il-liġi tal-Unjoni maħsuba biex jipproteġu d-drittijiet fundamentali. Il-punt (44) jiddefinixxi spazju aċċessibbli għall-pubbliku u m'għandux punt (c). L-Artikolu 3, il-punt (49)(c), u r-referenza fl-Artikolu 73(10) tal-verżjoni Maltija jappoġġaw il-qari intenzjonat.",
+      "impact": "Awtorità tas-sorveljanza tas-suq li taqra biss l-Artikolu 73(7) Malti tintbagħat, għall-inċidenti li warajhom trid tinforma lill-korpi taħt l-Artikolu 77(1), għal definizzjoni li ma teżistix.",
+      "correction": "Il-punt (44)(c) jinbidel bil-punt (49)(c) fl-Artikolu 73(7) tal-verżjoni Maltija."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Maltese version",
+        "role": "Language version",
+        "language": "mt",
+        "edition": "published",
+        "locator": "Article 73(7) (Maltese)",
+        "text": "msemmi fl-Artikolu 3, il-punt (44)(c)",
+        "translations": {
+          "en": "referred to in Article 3, point (44)(c)"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/MT/TXT/?uri=CELEX:32024R1689",
+        "sha256": "f8b3cef536530715d0016a22b15004831a94726459bf3ccdbd787c619b08af3b",
+        "retrieved": "2026-10-31",
+        "copy": "sources/f8b3cef536530715-oj.xhtml",
+        "copy_sha256": "f8b3cef536530715d0016a22b15004831a94726459bf3ccdbd787c619b08af3b",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 73(7) (English)",
+        "text": "a serious incident referred to in Article 3, point (49)(c)",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+        "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "retrieved": "2026-10-31",
+        "copy": "sources/8f0b656302f9864c-en.xhtml",
+        "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:04:50Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:04:50Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:05:34Z",
+      "institution": "European Commission, European AI Office",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70YM_AC_01zvysJGHJc08uAX6NxnU6XtfyeJT2hGLo=Gw@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Commission, European AI Office",
+      "role": "applies the Regulation and prepares the Commission's guidelines"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:20:34+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Commission, European AI Office (e-mail)"
+    }
+  ]
+}

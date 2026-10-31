@@ -1,0 +1,170 @@
+{
+  "id": "ARXO-2026-0426",
+  "url": "https://arxo.io/findings/ARXO-2026-0426/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+  "acts": [
+    "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+    "Regulation (EU) 2026/1744"
+  ],
+  "location": "Article 49(2), German and Estonian versions",
+  "text": {
+    "en": {
+      "title": "AI Act, German and Estonian versions: Article 49(2) calls a system high-risk although the provider has concluded it is not",
+      "summary": "German and Estonian Article 49(2) call the object a high-risk system although the provider has concluded that it is not high-risk. The other versions say an AI system.",
+      "impact": "No change to the registration duty; the label contradicts the condition in the same sentence.",
+      "correction": "Read an AI system, as in the other versions.",
+      "quote_translations": {
+        "q1": "of a high-risk AI system",
+        "q2": "of such a high-risk AI system"
+      }
+    },
+    "de": {
+      "title": "KI-Verordnung, deutsche und estnische Fassung: Artikel 49 Absatz 2 bezeichnet ein System als Hochrisiko-KI-System, obwohl der Anbieter zu dem Schluss gelangt ist, dass es das nicht ist",
+      "summary": "Die deutsche und die estnische Fassung von Artikel 49 Absatz 2 bezeichnen den Gegenstand als Hochrisiko-KI-System, obwohl der Anbieter zu dem Schluss gelangt ist, dass es kein Hochrisiko-KI-System ist. Die anderen Fassungen sprechen von einem KI-System.",
+      "impact": "Keine Änderung der Registrierungspflicht; die Bezeichnung widerspricht der Bedingung im selben Satz.",
+      "correction": "Zu lesen: eines KI-Systems, wie in den anderen Fassungen."
+    },
+    "et": {
+      "title": "Tehisintellektimäärus, saksa- ja eestikeelne versioon: artikli 49 lõige 2 nimetab süsteemi suure riskiga süsteemiks, kuigi pakkuja on otsustanud, et see seda ei ole",
+      "summary": "Artikli 49 lõike 2 saksa- ja eestikeelne versioon nimetavad objekti suure riskiga süsteemiks, kuigi pakkuja on otsustanud, et see ei ole suure riskiga. Teised versioonid räägivad tehisintellektisüsteemist.",
+      "impact": "Registreerimiskohustus ei muutu; nimetus on vastuolus sama lause tingimusega.",
+      "correction": "Lugeda: tehisintellektisüsteemi, nagu teistes versioonides."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, German version",
+        "role": "Language version",
+        "language": "de",
+        "edition": "published",
+        "locator": "Article 49(2) (German)",
+        "text": "eines Hochrisiko-KI-Systems",
+        "translations": {
+          "en": "of a high-risk AI system"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689",
+        "sha256": "126daa7d62d9b0e9f4700d9ba5504b4a59ca9205b8764a1a27e40817d3144b3b",
+        "retrieved": "2026-10-31",
+        "copy": "sources/126daa7d62d9b0e9-oj.xhtml",
+        "copy_sha256": "126daa7d62d9b0e9f4700d9ba5504b4a59ca9205b8764a1a27e40817d3144b3b",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Estonian version",
+        "role": "Language version",
+        "language": "et",
+        "edition": "published",
+        "locator": "Article 49(2) (Estonian)",
+        "text": "sellise suure riskiga tehisintellektisüsteemi",
+        "translations": {
+          "en": "of such a high-risk AI system"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/ET/TXT/?uri=CELEX:32024R1689",
+        "sha256": "0dc5932d5ec5cd6b66fc1a5ee9c54352f9852b3d08379bf7455786c15fa6556a",
+        "retrieved": "2026-10-31",
+        "copy": "sources/0dc5932d5ec5cd6b-oj.xhtml",
+        "copy_sha256": "0dc5932d5ec5cd6b66fc1a5ee9c54352f9852b3d08379bf7455786c15fa6556a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 49(2) (English)",
+        "text": "an AI system for which the provider has concluded that it is not high-risk",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+        "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "retrieved": "2026-10-31",
+        "copy": "sources/8f0b656302f9864c-en.xhtml",
+        "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:04:50Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:04:50Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:20:34+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

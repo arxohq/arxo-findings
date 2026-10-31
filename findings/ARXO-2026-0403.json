@@ -1,0 +1,179 @@
+{
+  "id": "ARXO-2026-0403",
+  "url": "https://arxo.io/findings/ARXO-2026-0403/",
+  "record_kind": "discrepancy",
+  "class": "language_versions",
+  "class_label": "Language versions",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+  "acts": [
+    "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+    "Regulation (EU) 2026/1744"
+  ],
+  "location": "Article 53(1)(a), Finnish version",
+  "text": {
+    "en": {
+      "title": "AI Act, Finnish version: technical documentation of general-purpose AI models refers to Annex IX instead of Annex XI",
+      "summary": "The other versions refer to Annex XI (technical documentation of general-purpose AI models). Annex IX is about registration of high-risk AI systems tested in real world conditions. The Finnish Annex XI itself refers back to Article 53(1)(a).",
+      "impact": "A provider of a general-purpose AI model who reads only the Finnish article is sent to the wrong list of required information.",
+      "correction": "Replace Annex IX with Annex XI in Finnish Article 53(1)(a).",
+      "quote_translations": {
+        "q1": "at least the information set out in Annex IX",
+        "q3": "The technical documentation referred to in Article 53(1)(a) shall contain at least the following information"
+      }
+    },
+    "fi": {
+      "title": "Tekoälysäädös, suomenkielinen toisinto: yleiskäyttöisten tekoälymallien tekninen dokumentaatio viittaa liitteeseen IX liitteen XI sijasta",
+      "summary": "Muut toisinnot viittaavat liitteeseen XI (yleiskäyttöisten tekoälymallien tekninen dokumentaatio). Liite IX koskee tosielämän olosuhteissa testattavien suuririskisten tekoälyjärjestelmien rekisteröintiä. Suomenkielinen liite XI viittaa itse takaisin 53 artiklan 1 kohdan a alakohtaan.",
+      "impact": "Yleiskäyttöisen tekoälymallin tarjoaja, joka lukee vain suomenkielistä artiklaa, ohjataan väärään luetteloon vaadittavista tiedoista.",
+      "correction": "Korvataan suomenkielisessä 53 artiklan 1 kohdan a alakohdassa viittaus liitteeseen IX viittauksella liitteeseen XI."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Finnish version",
+        "role": "Language version",
+        "language": "fi",
+        "edition": "published",
+        "locator": "Article 53(1)(a) (Finnish)",
+        "text": "vähintään liitteessä IX esitetyt tiedot",
+        "translations": {
+          "en": "at least the information set out in Annex IX"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/FI/TXT/?uri=CELEX:32024R1689",
+        "sha256": "67eb1b5ff07dd76e80ef8931506bb7e8f1cdbf8a8b4aa07057d894bac4a9a38f",
+        "retrieved": "2026-10-31",
+        "copy": "sources/67eb1b5ff07dd76e-oj.xhtml",
+        "copy_sha256": "67eb1b5ff07dd76e80ef8931506bb7e8f1cdbf8a8b4aa07057d894bac4a9a38f",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 53(1)(a) (English)",
+        "text": "at a minimum, the information set out in Annex XI",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+        "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "retrieved": "2026-10-31",
+        "copy": "sources/8f0b656302f9864c-en.xhtml",
+        "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Finnish version",
+        "role": "Language version",
+        "language": "fi",
+        "edition": "published",
+        "locator": "Annex XI, introductory sentence (Finnish)",
+        "text": "Tämän asetuksen 53 artiklan 1 kohdan a alakohdassa tarkoitettuun tekniseen dokumentaation on sisällyttävä vähintään seuraavat tiedot",
+        "translations": {
+          "en": "The technical documentation referred to in Article 53(1)(a) shall contain at least the following information"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/FI/TXT/?uri=CELEX:32024R1689",
+        "sha256": "67eb1b5ff07dd76e80ef8931506bb7e8f1cdbf8a8b4aa07057d894bac4a9a38f",
+        "retrieved": "2026-10-31",
+        "copy": "sources/67eb1b5ff07dd76e-oj.xhtml",
+        "copy_sha256": "67eb1b5ff07dd76e80ef8931506bb7e8f1cdbf8a8b4aa07057d894bac4a9a38f",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:04:50Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:04:50Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:05:34Z",
+      "institution": "European Commission, European AI Office",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70YM_AC_01zvysJGHJc08uAX6NxnU6XtfyeJT2hGLo=Gw@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Commission, European AI Office",
+      "role": "applies the Regulation and prepares the Commission's guidelines"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:20:34+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Commission, European AI Office (e-mail)"
+    }
+  ]
+}

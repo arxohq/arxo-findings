@@ -1,0 +1,145 @@
+{
+  "id": "ARXO-2026-0405",
+  "url": "https://arxo.io/findings/ARXO-2026-0405/",
+  "record_kind": "discrepancy",
+  "class": "language_versions",
+  "class_label": "Language versions",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+  "acts": [
+    "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+    "Regulation (EU) 2026/1744"
+  ],
+  "location": "Article 3, point (20), Irish version",
+  "text": {
+    "en": {
+      "title": "AI Act, Irish version: the definition of conformity assessment refers to a Title III that the Regulation does not have",
+      "summary": "The Irish text does not limit the reference to Section 2, and the Regulation has chapters, not titles. The other 23 versions keep the Section 2 reference: 22 refer to Chapter III, Section 2, and the German text says Titel III Abschnitt 2.",
+      "impact": "The reference does not specify Section 2 and names a Title III that the Regulation does not have.",
+      "correction": "Refer to Chapter III, Section 2, in Irish Article 3, point (20).",
+      "quote_translations": {
+        "q1": "the requirements set out in Title III"
+      }
+    },
+    "ga": {
+      "title": "An Gníomh um an Intleacht Shaorga, leagan Gaeilge: tagraíonn an sainmhíniú ar mheasúnú comhréireachta do Theideal III nach bhfuil sa Rialachán",
+      "summary": "Ní theorannaíonn an téacs Gaeilge an tagairt do Roinn 2, agus tá caibidlí sa Rialachán, ní teidil. Coinníonn na 23 leagan eile an tagairt do Roinn 2: tagraíonn 22 díobh do Chaibidil III, Roinn 2, agus deir an téacs Gearmáinise Titel III Abschnitt 2.",
+      "impact": "Ní shonraíonn an tagairt Roinn 2 agus ainmníonn sí Teideal III nach bhfuil sa Rialachán.",
+      "correction": "Tagairt a dhéanamh do Chaibidil III, Roinn 2, in Airteagal 3, pointe (20), den leagan Gaeilge."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Irish version",
+        "role": "Language version",
+        "language": "ga",
+        "edition": "published",
+        "locator": "Article 3, point (20) (Irish)",
+        "text": "na ceanglais a leagtar amach i dTeideal III",
+        "translations": {
+          "en": "the requirements set out in Title III"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/GA/TXT/?uri=CELEX:32024R1689",
+        "sha256": "89e4d8093dca4e6edb360c22fb7cf6a681fa352c906aca49a849bb7d5f2eb0bb",
+        "retrieved": "2026-10-31",
+        "copy": "sources/89e4d8093dca4e6e-oj.xhtml",
+        "copy_sha256": "89e4d8093dca4e6edb360c22fb7cf6a681fa352c906aca49a849bb7d5f2eb0bb",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 3, point (20) (English)",
+        "text": "the requirements set out in Chapter III, Section 2 relating to a high-risk AI system",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+        "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "retrieved": "2026-10-31",
+        "copy": "sources/8f0b656302f9864c-en.xhtml",
+        "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:04:50Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:04:50Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:20:34+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

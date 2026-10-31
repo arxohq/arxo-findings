@@ -1,0 +1,145 @@
+{
+  "id": "ARXO-2026-0404",
+  "url": "https://arxo.io/findings/ARXO-2026-0404/",
+  "record_kind": "discrepancy",
+  "class": "language_versions",
+  "class_label": "Language versions",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+  "acts": [
+    "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+    "Regulation (EU) 2026/1744"
+  ],
+  "location": "Article 41(5), Polish version",
+  "text": {
+    "en": {
+      "title": "AI Act, Polish version: Article 41(5) refers to Chapter I, Section 2, which does not exist",
+      "summary": "The other 23 versions refer to Section 2 of this Chapter, that is Chapter III, Section 2. Chapter I has no Section 2.",
+      "impact": "In the Polish text, the requirements that a provider's technical solutions must meet are referred to a section that does not exist.",
+      "correction": "Replace Chapter I with Chapter III (or this Chapter) in Polish Article 41(5).",
+      "quote_translations": {
+        "q1": "with the requirements referred to in Chapter I, Section 2"
+      }
+    },
+    "pl": {
+      "title": "Akt w sprawie sztucznej inteligencji, wersja polska: art. 41 ust. 5 odsyła do nieistniejącej sekcji 2 rozdziału I",
+      "summary": "Pozostałe 23 wersje odsyłają do sekcji 2 niniejszego rozdziału, czyli do sekcji 2 rozdziału III. Rozdział I nie ma sekcji 2.",
+      "impact": "W tekście polskim wymogi, którym muszą odpowiadać rozwiązania techniczne dostawcy, są odesłane do sekcji, która nie istnieje.",
+      "correction": "Zastąpić w art. 41 ust. 5 wersji polskiej rozdział I rozdziałem III (lub niniejszym rozdziałem)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, Polish version",
+        "role": "Language version",
+        "language": "pl",
+        "edition": "published",
+        "locator": "Article 41(5) (Polish)",
+        "text": "z wymogami, o których mowa w rozdziale I sekcja 2",
+        "translations": {
+          "en": "with the requirements referred to in Chapter I, Section 2"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:32024R1689",
+        "sha256": "37b91c6f5fdc6c2286285af5c87c8473496685ace62b9c9c3c5afc5a0b257360",
+        "retrieved": "2026-10-31",
+        "copy": "sources/37b91c6f5fdc6c22-oj.xhtml",
+        "copy_sha256": "37b91c6f5fdc6c2286285af5c87c8473496685ace62b9c9c3c5afc5a0b257360",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal, 12 July 2024, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 41(5) (English)",
+        "text": "meet the requirements referred to in Section 2 of this Chapter",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+        "sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "retrieved": "2026-10-31",
+        "copy": "sources/8f0b656302f9864c-en.xhtml",
+        "copy_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:04:50Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:04:50Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73zKA9_oGOP2pTmV59C_i_Bwa9-ep8Whbju+-fUxkj85Q@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters. AI models also helped build the illustrative rule models."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:20:34+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}
