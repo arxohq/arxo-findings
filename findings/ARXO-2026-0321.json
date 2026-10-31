@@ -1,0 +1,127 @@
+{
+  "id": "ARXO-2026-0321",
+  "url": "https://arxo.io/findings/ARXO-2026-0321/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "PEG 3350 and electrolytes for oral solution prescribing information (SPL set ID 7609ecf7-0ce0-4fbb-9c27-30987f689575)",
+  "acts": [
+    "FDA prescribing information published on DailyMed"
+  ],
+  "location": "7.2 and 2.1",
+  "text": {
+    "en": {
+      "title": "PEG 3350 and electrolytes for oral solution: 7.2 and 2.1 give different instructions for one patient",
+      "summary": "7.2 reads “Administer oral medications within one hour before the start of administration of GoLYTELY”. 2.1 reads “Do not take oral medications within 1 hour before the start or during administration”. Example: A tablet taken 30 minutes before the opening dose follows 7.2 and breaks 2.1, Highlights and 17. The same text is in 9 labels from 8 labelers in the DailyMed release of 29 October 2026.",
+      "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Prescribing information, Azurity Pharmaceuticals, Inc., SPL set ID 7609ecf7-0ce0-4fbb-9c27-30987f689575, version 1 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 1",
+        "locator": "7.2",
+        "text": "Administer oral medications within one hour before the start of administration of GoLYTELY",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/7609ecf7-0ce0-4fbb-9c27-30987f689575.xml",
+        "sha256": "159a2be285e0c1940159e36bbcb624cb1e0d66ecbbe0f85e537b56fa6de29dcc",
+        "retrieved": "2026-10-29",
+        "copy": "sources/159a2be285e0c194-7609ecf7-0ce0-4fbb-9c27-30987f689575-v1.xml",
+        "copy_sha256": "159a2be285e0c1940159e36bbcb624cb1e0d66ecbbe0f85e537b56fa6de29dcc",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Prescribing information, Azurity Pharmaceuticals, Inc., SPL set ID 7609ecf7-0ce0-4fbb-9c27-30987f689575, version 1 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 1",
+        "locator": "2.1",
+        "text": "Do not take oral medications within 1 hour before the start or during administration",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/7609ecf7-0ce0-4fbb-9c27-30987f689575.xml",
+        "sha256": "159a2be285e0c1940159e36bbcb624cb1e0d66ecbbe0f85e537b56fa6de29dcc",
+        "retrieved": "2026-10-29",
+        "copy": "sources/159a2be285e0c194-7609ecf7-0ce0-4fbb-9c27-30987f689575-v1.xml",
+        "copy_sha256": "159a2be285e0c1940159e36bbcb624cb1e0d66ecbbe0f85e537b56fa6de29dcc",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31",
+      "institution": "Azurity Pharmaceuticals, Inc.",
+      "channel": "email",
+      "role": "holder of the labeling"
+    },
+    {
+      "date": "2026-10-31",
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "channel": "email",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Azurity Pharmaceuticals, Inc.",
+      "role": "holder of the labeling"
+    },
+    {
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+  },
+  "credit": [],
+  "press_date": "2026-10-31T00:00:00Z",
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": null,
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Azurity Pharmaceuticals, Inc. (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+    }
+  ]
+}

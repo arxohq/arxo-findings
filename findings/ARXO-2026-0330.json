@@ -1,0 +1,127 @@
+{
+  "id": "ARXO-2026-0330",
+  "url": "https://arxo.io/findings/ARXO-2026-0330/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "lorlatinib prescribing information (SPL set ID 2b34d62d-e02a-4af3-bc0d-1571dd4ee76d)",
+  "acts": [
+    "FDA prescribing information published on DailyMed"
+  ],
+  "location": "Highlights, Dosage and Administration, line \"Renal Impairment\" and 2.6",
+  "text": {
+    "en": {
+      "title": "lorlatinib: Highlights, Dosage and Administration, line \"Renal Impairment\" and 2.6 give different instructions for one patient",
+      "summary": "Highlights, Dosage and Administration, line \"Renal Impairment\" reads “75 mg orally once daily”. 2.6 reads “15 to < 30 mL/min”. Example: A patient with CLcr 60 mL/min gets the reduced dose by Highlights; by 2.6 and 8.7 no adjustment applies. The text is in this label.",
+      "impact": "Potential effect on a prescribing decision: low; careful reading of the whole label usually resolves it. Arxo does not say which instruction is correct and gives no dose."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Prescribing information, Pfizer Laboratories Div Pfizer Inc, SPL set ID 2b34d62d-e02a-4af3-bc0d-1571dd4ee76d, version 13 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 13",
+        "locator": "Highlights, Dosage and Administration, line \"Renal Impairment\"",
+        "text": "75 mg orally once daily",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/2b34d62d-e02a-4af3-bc0d-1571dd4ee76d.xml",
+        "sha256": "046f06875fd09d2510a67b15c13bc79680a5380e40f4979645a940152905baa0",
+        "retrieved": "2026-10-29",
+        "copy": "sources/046f06875fd09d25-2b34d62d-e02a-4af3-bc0d-1571dd4ee76d-v13.xml",
+        "copy_sha256": "046f06875fd09d2510a67b15c13bc79680a5380e40f4979645a940152905baa0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Prescribing information, Pfizer Laboratories Div Pfizer Inc, SPL set ID 2b34d62d-e02a-4af3-bc0d-1571dd4ee76d, version 13 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 13",
+        "locator": "2.6",
+        "text": "15 to < 30 mL/min",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/2b34d62d-e02a-4af3-bc0d-1571dd4ee76d.xml",
+        "sha256": "046f06875fd09d2510a67b15c13bc79680a5380e40f4979645a940152905baa0",
+        "retrieved": "2026-10-29",
+        "copy": "sources/046f06875fd09d25-2b34d62d-e02a-4af3-bc0d-1571dd4ee76d-v13.xml",
+        "copy_sha256": "046f06875fd09d2510a67b15c13bc79680a5380e40f4979645a940152905baa0",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31",
+      "institution": "Pfizer",
+      "channel": "email",
+      "role": "holder of the labeling"
+    },
+    {
+      "date": "2026-10-31",
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "channel": "email",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Pfizer",
+      "role": "holder of the labeling"
+    },
+    {
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+  },
+  "credit": [],
+  "press_date": "2026-10-31T00:00:00Z",
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": null,
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Pfizer (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+    }
+  ]
+}

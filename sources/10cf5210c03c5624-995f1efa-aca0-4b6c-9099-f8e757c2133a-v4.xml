@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5c07b457-1143-440c-9975-90c16852a103"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>
+      <content styleCode="bold">These highlights do not include all the information needed to use MULTRYS<sup>®</sup>
+      </content>
+      <content styleCode="bold"> safely and effectively. See full prescribing information for MULTRYS<sup>® </sup>
+         <content styleCode="bold">.</content>
+         <br/>
+         <br/>
+         <content styleCode="bold">MULTRYS<sup>®</sup> (trace elements injection 4*</content>
+         <content styleCode="bold">) for intravenous use<br/>
+         </content>
+      </content>
+      <content styleCode="bold">
+         <content styleCode="bold">Initial U.S. Approval:  2020</content>
+         <br/>
+      </content>
+   </title>
+   <effectiveTime value="20240701"/>
+   <setId root="995f1efa-aca0-4b6c-9099-f8e757c2133a"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="002033710" root="1.3.6.1.4.1.519.1"/>
+            <name>American Regent, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="002033710" root="1.3.6.1.4.1.519.1"/>
+                        <name>American Regent, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0517-9302" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0517-9302" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="0a7af503-a94e-4fe7-88d1-6cb8e06fdf95"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20240823"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0517-9302" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Multrys</name>
+                        <formCode code="C42945" displayName="INJECTION, SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Trace Elements Injection 4</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="ug" value="2470"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="89DS0H96TB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ZINC SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="13S1S8SF37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ZINC CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="ug" value="150"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LRX7AJ16DT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CUPRIC SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="8CBV67279L" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CUPRIC CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="ug" value="8.22"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="W00LYS4T26" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MANGANESE SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="H6EP7W5457" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MANGANOUS CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="ug" value="9.8"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="F6A27P4Q4R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SELENIOUS ACID</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="F6A27P4Q4R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SELENIOUS ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0517-9302-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" displayName="VIAL, SINGLE-DOSE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="25"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0517-9302-25" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C53438" displayName="TRAY" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20210901"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA209376" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20210901"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b8d0f0fc-d2e3-4088-82ee-1a9b073fe413">
+               <id root="93e3621e-d87f-4e53-8aa3-b697b528286d"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Multrys is indicated in neonatal and pediatric patients weighing less than 10 kg as a source of zinc, copper, manganese, and selenium for parenteral nutrition when oral or enteral nutrition is not possible, insufficient, or contraindicated.</paragraph>
+               </text>
+               <effectiveTime value="20240701"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Multrys is a combination of trace elements (zinc sulfate, cupric sulfate, manganese sulfate, and selenious acid) indicated in neonatal and pediatric patients weighing less than 10 kg as a source of zinc, copper, manganese, and selenium for parenteral nutrition when oral or enteral nutrition is not possible, insufficient, or contraindicated. (<linkHtml href="#LINK_b8d0f0fc-d2e3-4088-82ee-1a9b073fe413">1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_a5cc6c0d-94c4-4c2c-9e03-6b61985556d0">
+               <id root="71a1ebdb-7d85-486b-8a06-424645b6c42b"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <text/>
+               <effectiveTime value="20240701"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>
+                              <content styleCode="italics">Single-dose vial, for admixture use only.</content> (<linkHtml href="#LINK_e024fca9-15b4-442b-842a-85f6aedbf18b">2.1</linkHtml>)</item>
+                           <item>See full prescribing information for information on preparation, administration and general dosing considerations. (<linkHtml href="#LINK_e024fca9-15b4-442b-842a-85f6aedbf18b">2.1</linkHtml>, <linkHtml href="#LINK_57a831c0-2586-41be-ad93-223875d3ea69">2.2</linkHtml>, <linkHtml href="#LINK_5234614b-ee8a-4161-bd12-09c1666dce4f">2.3</linkHtml>, <linkHtml href="#LINK_53e05acd-fdd3-447f-a36a-b4dc496daeae">2.4</linkHtml>)<paragraph>
+                                 <content styleCode="underline">Recommended Dosage</content>
+                              </paragraph>
+                           </item>
+                           <item>Each mL of Multrys provides zinc 1,000 mcg, copper 60 mcg, manganese 3 mcg, and selenium 6 mcg. (<linkHtml href="#LINK_6d0c3ce3-7df4-4a0c-86d5-a543b964f7c7">2.5</linkHtml>)</item>
+                           <item>Multrys is recommended only for pediatric patients who require supplementation with all four of the individual trace elements (i.e., zinc, copper, manganese, and selenium) to meet daily requirements. (<linkHtml href="#LINK_6d0c3ce3-7df4-4a0c-86d5-a543b964f7c7">2.5</linkHtml>)</item>
+                           <item>
+                              <content styleCode="italics">
+                                 <content styleCode="underline">Pediatric Patients 0.4 kg to 0.59 kg</content>
+                              </content>
+                              <content styleCode="underline">:</content> The total recommended dosage of Multrys is 0.2 mL<content styleCode="bold"> every other day</content>.Daily supplementation of Zinc Sulfate, Cupric Chloride and Selenious Acid will be needed to meet daily requirements. (<linkHtml href="#LINK_6d0c3ce3-7df4-4a0c-86d5-a543b964f7c7">2.5</linkHtml>)</item>
+                           <item>
+                              <content styleCode="italics">
+                                 <content styleCode="underline">Pediatric Patients 0.6 kg to 10 kg</content>
+                              </content>
+                              <content styleCode="underline">:</content> The recommended dosage of Multrys is 0.3 mL/kg/day rounded to the nearest 0.1 mL for up to a maximum of 1 mL per day. The recommended volume of Multrys to be added to parenteral nutrition ranges from 0.2 mL per day to 1 mL per day based on body weight. (<linkHtml href="#LINK_6d0c3ce3-7df4-4a0c-86d5-a543b964f7c7">2.5</linkHtml>) </item>
+                           <item>Multrys is not recommended for patients who may require a lower dosage of one or more of the individual trace elements. (<linkHtml href="#LINK_6d0c3ce3-7df4-4a0c-86d5-a543b964f7c7">2.5</linkHtml>)</item>
+                           <item>Monitor trace element concentrations in blood during long-term administration of parenteral nutrition. (<linkHtml href="#LINK_6d0c3ce3-7df4-4a0c-86d5-a543b964f7c7">2.5</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_e024fca9-15b4-442b-842a-85f6aedbf18b">
+                     <id root="01292fdd-89af-4593-ab26-1645d1639173"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Important Administration Information</title>
+                     <text>
+                        <paragraph>Multrys is supplied as a single-dose vial for <content styleCode="italics">admixture use</content> only.  Prior to administration, Multrys <content styleCode="italics">must be transferred to a separate </content>
+                           <content styleCode="italics">parenteral nutrition</content>
+                           <content styleCode="italics"> container </content>and used as an admixture in parenteral nutrition solution.</paragraph>
+                        <paragraph>The final parenteral nutrition solution is for intravenous infusion into a central or peripheral vein. The choice of a central or peripheral venous route should depend on the osmolarity of the final infusate.  Solutions with osmolarity of 900 mOsmol/L or greater must be infused through a central catheter <content styleCode="italics">[see Warnings and Precautions </content>
+                           <content styleCode="italics">(<linkHtml href="#LINK_afc4548d-55a9-4af9-9f3b-8d604e462ac6">5.2</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20240701"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_57a831c0-2586-41be-ad93-223875d3ea69">
+                     <id root="910a011a-f003-4e6f-894a-58b8fdb004d2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Preparation and Administration Instructions</title>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Multrys is for <content styleCode="italics">admixture use</content> only.Prior to administration, Multrys <content styleCode="italics">must be prepared and used as an admixture</content> in parenteral nutrition solution. </item>
+                           <item>Add Multrys to the parenteral nutrition solution in a suitable work area such as a laminar flow hood (or an equivalent clean air compounding area).The key factor in the preparation is careful aseptic technique to avoid inadvertent touch contamination during mixing of solutions and addition of other nutrients.</item>
+                           <item>Inspect the parenteral nutrition solution containing Multrys for particulate matter before admixing, after admixing, and prior to administration. </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20240701"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_5234614b-ee8a-4161-bd12-09c1666dce4f">
+                     <id root="e0225734-b6a1-4043-8b13-4d1234462959"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3 Preparation Instructions for Admixing Using a Parenteral Nutrition Container<br/>
+                     </title>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Inspect Multrys single-dose vial for particulate matter.</item>
+                           <item>Transfer Multrys to the parenteral nutrition container after the admixture of amino acids, dextrose, lipid emulsion (if added), and electrolyte solutions is prepared.</item>
+                           <item>Because additives may be incompatible, evaluate all additions to the parenteral nutrition container for compatibility and stability of the resulting preparation.Consult with a pharmacist, if available.For introducing additives to the parenteral nutrition container, use aseptic technique.</item>
+                           <item>An interaction may occur between cupric ion and ascorbic acid; therefore, multivitamin additives should be added to the admixed parenteral nutrition solution shortly before infusion.</item>
+                           <item>Inspect the final parenteral nutrition solution containing Multrys to ensure that:<br/>
+                              <list listType="unordered" styleCode="Circle">
+                                 <item>Precipitates have not formed during mixing or addition of additives.</item>
+                                 <item>The emulsion has not separated, if lipid emulsion has been added.Separation of the emulsion can be visibly identified by a yellowish streaking or the accumulation of yellowish droplets in the admixed emulsion.</item>
+                                 <item>Discard if any precipitates are observed.</item>
+                              </list>
+                           </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="underline">Stability and Storage</content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Single dose vial.Discard any unused portion.</item>
+                           <item>Penetrate vial closure only one time with a suitable sterile transfer device or dispensing set that allows measured dispensing of the contents.</item>
+                           <item>Transfer Multrys to the parenteral nutrition container promptly after removal from the vial. Discard any remaining drug.</item>
+                           <item>Use parenteral nutrition solutions containing Multrys promptly after mixing.Any storage of the admixture should be under refrigeration from 2ºC to 8ºC (36ºF to 46ºF) and limited to a period of no longer than 9 days.After removal from refrigeration, use promptly and complete the infusion within 24 hours. Discard any remaining admixture.</item>
+                           <item>Protect the parenteral nutrition solution from light.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20240701"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_53e05acd-fdd3-447f-a36a-b4dc496daeae">
+                     <id root="29989d59-975b-4afa-bba1-2c86386f3f4b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.4 Overview of Dosing</title>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Prior to administration of parenteral nutrition solution containing Multrys, correct severe fluid, electrolyte, and acid-base disorders.</item>
+                           <item>The dosage of the final parenteral nutrition solution containing Multrys must be based on the concentrations of all components in the solution, the patient’s clinical condition, nutritional requirements, and the contribution of oral or enteral intake.</item>
+                           <item>Monitor fluid and electrolyte status during treatment use of Multrys and adjust the parenteral nutrition solution as needed.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20240701"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_6d0c3ce3-7df4-4a0c-86d5-a543b964f7c7">
+                     <id root="0c8bb7a4-f999-4c93-b632-1c727b45f537"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.5  Recommended Dosage in Pediatric Patients and Monitoring Considerations<br/>
+                     </title>
+                     <text>
+                        <paragraph>Multrys is a fixed-combination product. Each mL of Multrys provides zinc 1,000 mcg, copper 60 mcg, manganese 3 mcg, and selenium 6 mcg.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="underline">Recommended Dosage for Pediatric Patients Weighing</content>
+                           </content>
+                           <content styleCode="italics">
+                              <content styleCode="underline"> 0.4 kg to 0.59 kg</content>
+                           </content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>The total recommended dosage of Multrys is 0.2 mL <content styleCode="bold">every other day.</content>
+                           </item>
+                           <item>Daily supplementation of Zinc, Copper, and Selenium will be needed to meet daily requirements (See Table 2 below). </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="underline">Recommended Dosage f</content>
+                           </content>
+                           <content styleCode="italics">
+                              <content styleCode="underline">or Pediatric Patients Weighing 0.6 kg to less than 10 kg</content>
+                           </content>
+                           <br/>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>The recommended dosage of Multrys is 0.3 mL/kg/day rounded to nearest 0.1 mL for up to a maximum of 1 mL per day.</item>
+                           <item>The recommended volume of Multrys to be added to parenteral nutrition ranges from 0.2 mL per day to 1 mL per day based on body weight, see Table 1 below.</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">Table 1. Recommended Daily Volume of Multrys and Corresponding Amount of Each Trace Element (mcg)</content>
+                        </paragraph>
+                        <table>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" rowspan="2" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">Body Weight</content>
+                                 </td>
+                                 <td align="center" rowspan="2" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold"> Recommended<br/>Daily Volume</content>
+                                 </td>
+                                 <td align="center" colspan="4" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold"> Amount of Trace Element Provided by the Corresponding Multrys Volume</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold"> Zinc<br/>mcg</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">Copper<br/>mcg</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">Manganese<br/>mcg</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">Selenium<br/>mcg</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> <content styleCode="bold">0.6 kg to 0.8 kg</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">0.2 mL</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">200</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">12</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">0.6</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">1.2</td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> <content styleCode="bold">0.9 kg to 1.1 kg</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">0.3 mL</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">300</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">18</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">0.9</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">1.8</td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold"> 1.2 kg to 1.4 kg</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">0.4 mL</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">400</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">24</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">1.2</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">2.4</td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> <content styleCode="bold">1.5 kg to 1.7 kg</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">0.5 mL</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">500</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">30</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">1.5</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">3</td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">1.8 kg to 2 kg</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">0.6 mL</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">600 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 36</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 1.8</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">3.6</td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">2.1 kg to 2.3 kg</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold"> 0.7 mL </content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">700</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 42</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 2.1</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">4.2 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">2.4 kg to 2.6 kg</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold"> 0.8 mL </content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">800</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 48</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 2.4</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">4.8</td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">2.7 kg to 2.9 kg</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">0.9 mL</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">900</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 54</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 2.7</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">5.4</td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">3 </content>
+                                    <content styleCode="bold">kg to 9.9 kg</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">1 mL</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">1,000 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 60</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 3</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">6</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <content styleCode="italics">Additional Trace Element Supplementation with Multrys</content>
+                        </paragraph>
+                        <paragraph>Multrys is recommended only for pediatric patients who require supplementation with all four of the individual trace elements (i.e., zinc, copper, manganese and selenium). </paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>To determine the additional amount of supplementation that is needed, compare the calculated daily recommended dosage based on the body weight of the patient to the amount of each trace element provided by Multrys and enteral nutrition sources.</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">Table 2: Daily Requirement for Trace Element Supplementation for Pediatric Patients</content>
+                        </paragraph>
+                        <table>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">Trace Element</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="bold">Patient Weight<br/>(kg)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">Daily Requirement*</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td rowspan="3" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph> Zinc</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">Less than 3 kg</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">400 mcg/kg/day</td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">3 kg to 5 kg</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">250 mcg/kg/day</td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">5 to 10 kg</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">100 mcg/kg/day</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">Copper</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">-</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">20 mcg/kg/day</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">Selenium</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">-</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">2 mcg/kg/day</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">Manganese**</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">-</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">1 mcg/kg/day</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>*Multrys is not recommended for pediatric patients who may require a lower dosage of one or more of these individual trace elements.<br/>
+                        </paragraph>
+                        <paragraph>**Avoid additional manganese supplementation with Multrys use. Accumulation of manganese in the brain can occur with long-term administration with higher than the recommended dosage of 1 mcg/kg/day <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_c6ebf498-ebd4-4bf7-bc51-341335ada7e8">5.3</linkHtml>)].</content>
+                        </paragraph>
+                        <paragraph>For pediatric patients weighing less than 3 kg, Multrys does not provide the recommended daily dosage of zinc. <br/>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Zinc:For patients weighing less than 3 kg, add Zinc Sulfate to provide total daily recommended dose of 400 mcg/kg/day using parenteral and/or enteral routes of administration.</item>
+                        </list>
+                        <paragraph>For pediatric patients weighing 0.4 kg to 0.59 kg and 4 kg to 9.9 kg, Multrys does not provide the recommended daily dosage of copper or selenium. <br/>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Copper:For patients weighing 0.4 to 0.59 kg or 4 kg to 9.9 kg, add Cupric Chloride to provide total daily recommended dose of 20 mcg/kg/day using parenteral and/or enteral routes of administration.</item>
+                           <item>Selenium: For patients weighing 0.4 to 0.59 kg or 4 kg to 9.9 kg, add Selenious Acid to provide total daily recommended dose of 2 mcg/kg/day using parenteral and/or enteral routes of administration.</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="underline">Monitoring</content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Monitor zinc, copper, and selenium serum concentrations and manganese whole blood concentrations during long-term administration of parenteral nutrition.</item>
+                           <item>Trace element concentrations may vary depending on the assay used and the laboratory reference range.The collection, processing, and storage of the blood samples should be performed according to the laboratory’s sample requirements for analysis.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20240701"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7b551995-4441-4fca-9561-b9839bb5204b">
+               <id root="0eb901be-298a-403f-bfb7-3cc112ad246d"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Injection: Each mL of Multrys contains zinc 1,000 mcg, copper 60 mcg, manganese 3 mcg, and selenium 6 mcg in a clear, colorless to slightly blue solution, single-dose vial.</paragraph>
+               </text>
+               <effectiveTime value="20240701"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Injection: Each mL contains zinc 1,000 mcg, copper 60 mcg, manganese 3 mcg, and selenium 6 mcg in a 1 mL, single-dose vial. (3)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_1a558bee-1391-415d-9f44-c728b4152657">
+               <id root="fc5de957-9f6d-4ecc-b29f-f0aeb293140c"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Multrys is contraindicated in patients with hypersensitivity to zinc or copper <content styleCode="italics">[see Warnings and Precautions </content>
+                     <content styleCode="italics">(<linkHtml href="#LINK_ac46321f-591e-492b-bac7-ff751ebbedda">5.7</linkHtml>
+                     </content>)].</paragraph>
+               </text>
+               <effectiveTime value="20240701"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Hypersensitivity to zinc or copper (<linkHtml href="#LINK_1a558bee-1391-415d-9f44-c728b4152657">4,</linkHtml> <linkHtml href="#LINK_ac46321f-591e-492b-bac7-ff751ebbedda">5.7</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_2ccf9f14-d644-48b5-824d-58a0fa368397">
+               <id root="6c441c98-9ebb-403c-bf20-1cdb167dfca1"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <text/>
+               <effectiveTime value="20240701"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>
+                              <content styleCode="underline">Pulmonary Embolism due to Pulmonary Vascular Precipitates</content>: If signs of pulmonary distress occur, stop the infusion and initiate a medical evaluation. (<linkHtml href="#LINK_ac46321f-591e-492b-bac7-ff751ebbedda">5.1</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Vein Damage and Thrombosis</content>:Solutions with osmolarity of 900 mOsmol/L or more must be infused through a central catheter. (<linkHtml href="#LINK_e024fca9-15b4-442b-842a-85f6aedbf18b">2.1</linkHtml>, <linkHtml href="#LINK_afc4548d-55a9-4af9-9f3b-8d604e462ac6">5.2</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Neurologic Toxicity with Manganese</content>:Monitor for clinical signs and symptoms of neurotoxicity, whole blood manganese concentrations, and liver function tests in patients receiving long-term Multrys.Discontinue Multrys and consider brain magnetic resonance imaging (MRI) if toxicity is suspected. (<linkHtml href="#LINK_c6ebf498-ebd4-4bf7-bc51-341335ada7e8">5.3</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Hepatic Accumulation of Copper and Manganese</content>:Assess for development of hepatic accumulation.Monitor concentrations of copper and manganese in patients with cholestasis or cirrhosis receiving Multrys long-term. (<linkHtml href="#LINK_ba2aa507-693e-45a9-a9fe-357c50c5ef25">5.4</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Aluminum Toxicity</content>: Increased risk in patients with renal impairment, including preterm infants. (<linkHtml href="#LINK_bf956072-4516-49e8-8f01-f41d909bb9e4">5.5</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Monitoring and Laboratory Tests</content>: Monitor zinc, copper, and selenium serum concentrations, whole blood manganese concentration, fluid and electrolyte status, serum osmolarity, blood glucose, liver and kidney function, blood count, and coagulation parameters. (<linkHtml href="#LINK_d53e33a1-ce13-43df-b4be-ca260c45f2ae">5.6</linkHtml>, <linkHtml href="#LINK_53e05acd-fdd3-447f-a36a-b4dc496daeae">2.4</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Hypersensitivity Reactions with Zinc and Copper</content>: If reactions occur, discontinue Multrys and initiate appropriate medical treatment. (<linkHtml href="#LINK_ac46321f-591e-492b-bac7-ff751ebbedda">5.7</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_6387f3c6-a6d4-4f70-9105-0c9a28209b11">
+                     <id root="96ce7f6e-d80e-4a12-a087-6e0b51e94cb3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Pulmonary
+Embolism due to Pulmonary Vascular Precipitates<br/>
+                     </title>
+                     <text>
+                        <paragraph>Pulmonary vascular precipitates causing pulmonary vascular emboli and pulmonary distress have been reported in patients receiving parenteral nutrition.  The cause of precipitate formation has not been determined in all cases; however, in some fatal cases, pulmonary emboli occurred as a result of calcium phosphate precipitates.  Precipitation has occurred following passage through an in-line filter; in vivo precipitate formation may also have occurred.  If signs of pulmonary distress occur, stop the parenteral nutrition infusion and initiate a medical evaluation.  In addition to inspection of the solution <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#www.splportal.comLINK_57a831c0-2586-41be-ad93-223875d3ea69">2.2</linkHtml>, <linkHtml href="#www.splportal.comLINK_5234614b-ee8a-4161-bd12-09c1666dce4f">2.3</linkHtml>)]</content>, the infusion set and catheter should also periodically be checked for precipitates.</paragraph>
+                     </text>
+                     <effectiveTime value="20240701"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_afc4548d-55a9-4af9-9f3b-8d604e462ac6">
+                     <id root="2595f912-bde2-4bbc-951a-7b49b38d83a6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2  Vein Damage and Thrombosis
+<br/>
+                     </title>
+                     <text>
+                        <paragraph>Multrys must be prepared and used as an admixture in parenteral nutrition solution.  It is not for direct intravenous infusion.  In addition, consider the osmolarity of the final parenteral nutrition solution in determining peripheral versus central administration.  Solution with an osmolarity of 900 mOsmol/L or greater must be infused through a central catheter <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#www.splportal.comLINK_e024fca9-15b4-442b-842a-85f6aedbf18b">2.1</linkHtml>)]</content>.  The infusion of hypertonic nutrient solution into a peripheral vein may result in vein irritation, vein damage, and/or thrombosis.  The primary complication of peripheral access is venous thrombophlebitis, which manifests as pain, erythema, tenderness or a palpable cord. Remove the catheter as soon as possible, if thrombophlebitis develops.</paragraph>
+                     </text>
+                     <effectiveTime value="20240701"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c6ebf498-ebd4-4bf7-bc51-341335ada7e8">
+                     <id root="8c78b091-0dc2-4955-9628-805cd73f2183"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Neurologic Toxicity with Manganese</title>
+                     <text>
+                        <paragraph> Pediatric patients on long-term parenteral nutrition receiving manganese at higher than recommended dosages and pediatric patients with cholestatic liver disease have experienced manganese accumulation in the basal ganglia.  Some adult patients with brain MRI findings reportedly experienced neuropsychiatric symptoms, including changes in mood or memory, seizures and/or parkinsonian-like tremors, dysarthria, mask-face, and halting gait.  Some pediatric patients experienced dystonic movements or seizures.  Brain MRI findings and clinical symptoms have also been observed in patients who received manganese at or below the recommended dosage and with normal blood manganese concentrations.  Regression of symptoms and brain MRI findings have occurred over weeks to months following discontinuation of manganese in most patients but have not always completely resolved.</paragraph>
+                        <paragraph> Monitor patients receiving long-term parenteral nutrition solutions containing Multrys for neurologic signs and symptoms and routinely monitor whole blood manganese concentrations and liver function tests. In case of suspected manganese toxicity or new neuro-psychiatric manifestations, temporarily discontinue Multrys, check manganese whole blood concentrations, and consider brain MRI evaluation.</paragraph>
+                        <paragraph> Monitor patients receiving Multrys for cholestasis or other biliary liver disease.  Consider individual trace element products as an alternative to Multrys in patients with hepatobiliary disease <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_ba2aa507-693e-45a9-a9fe-357c50c5ef25">5.4</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20240701"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_ba2aa507-693e-45a9-a9fe-357c50c5ef25">
+                     <id root="ed80ee5e-6993-425e-95df-55f3bbc99130"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4  Hepatic Accumulation of Copper and Manganese<br/>
+                     </title>
+                     <text>
+                        <paragraph>Copper is primarily eliminated in the bile and excretion is decreased in patients with cholestasis and/or cirrhosis.  Hepatic accumulation of copper and manganese have been reported in autopsies of patients receiving long-term parenteral nutrition containing copper and manganese at dosages higher than recommended.</paragraph>
+                        <paragraph>Patients with cholestasis and/or cirrhosis receiving parenteral nutrition are at increased risk of manganese brain deposition and neurotoxicity <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_c6ebf498-ebd4-4bf7-bc51-341335ada7e8">5.3)</linkHtml>].</content>
+                        </paragraph>
+                        <paragraph>Administration of copper to patients with cholestasis and/or cirrhosis may cause hepatic accumulation of copper.  Administration of copper to patients with Wilson disease, an inborn error of copper metabolism with a defect in hepatocellular copper transport, may cause both increased hepatic accumulation of copper and aggravation of the underlying hepatocellular degeneration.  </paragraph>
+                        <paragraph>If a patient develops signs or symptoms of hepatobiliary disease during the use of Multrys, obtain serum concentrations of copper and ceruloplasmin as well as manganese whole blood concentrations; consider using individual trace element products in these patients <content styleCode="italics">[see Use in Specific Populations (<linkHtml href="#www.splportal.comLINK_dc048bc5-4382-47c1-bb6e-07286abd478d">8.6</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20240701"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_bf956072-4516-49e8-8f01-f41d909bb9e4">
+                     <id root="e733581f-d1b0-4016-ac80-6d03a5ab2aa4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5  Aluminum Toxicity
+<br/>
+                     </title>
+                     <text>
+                        <paragraph>Multrys contains aluminum that may be toxic.  Aluminum may reach toxic levels with prolonged parenteral administration if kidney function is impaired.  Preterm infants, including preterm neonates, are particularly at risk because their kidneys are immature, and they require large amounts of calcium and phosphate solutions, which contain aluminum.</paragraph>
+                        <paragraph>Research indicates that patients with impaired kidney function, including preterm infants and premature neonates, who receive parenteral levels of aluminum at greater than 4 to 5 mcg/kg/day accumulate aluminum at levels associated with central nervous system and bone toxicity.  Tissue loading may occur at even lower rates of administration or lower daily amounts.</paragraph>
+                        <paragraph>Exposure to aluminum from Multrys is not more than 0.45 mcg/kg/day.  When prescribing Multrys for use in parenteral nutrition containing other small volume parenteral products, the total daily patient exposure to aluminum from the admixture should be considered and maintained at no more than 5 mcg/kg/day.</paragraph>
+                     </text>
+                     <effectiveTime value="20240701"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_d53e33a1-ce13-43df-b4be-ca260c45f2ae">
+                     <id root="7c7a010c-0bed-40e0-8a23-92f6901b22ef"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6  Monitoring and Laboratory Tests
+<br/>
+                     </title>
+                     <text>
+                        <paragraph>Monitor zinc, copper, and selenium serum concentrations, manganese whole blood concentration, fluid and electrolyte status, serum osmolarity, blood glucose, liver and kidney function, blood count, and coagulation parameters during use of parenteral nutrition containing Multrys <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#www.splportal.comLINK_53e05acd-fdd3-447f-a36a-b4dc496daeae">2.4</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20240701"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_ac46321f-591e-492b-bac7-ff751ebbedda">
+                     <id root="b4df00a8-0b64-4390-a7da-9e0222edd363"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.7  Hypersensitivity Reactions with Zinc and Copper<br/>
+                     </title>
+                     <text>
+                        <paragraph>Postmarket safety reporting has identified zinc hypersensitivity in patients receiving zinc-containing insulin products and copper hypersensitivity in women receiving copper-containing intrauterine devices, providing evidence that patients may experience hypersensitivity reactions when exposed to these metals. If hypersensitivity reactions (e.g., pruritis, angioedema, dyspnea, rash, urticaria) occur in patients receiving Multrys in parenteral nutrition, discontinue Multrys, and initiate appropriate medical treatment <content styleCode="italics">[see Contraindications (<linkHtml href="#www.splportal.comLINK_1a558bee-1391-415d-9f44-c728b4152657">4)]</linkHtml>
+                           </content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20240701"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e863391a-418f-4354-bb45-a44a30918a05">
+               <id root="3af04afb-21e2-41fc-a151-2bc4fbcabafc"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following adverse reactions were identified in clinical studies or post-marketing reports.  Given that some of these reactions were reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Adverse reactions with other components of parenteral nutrition solutions:</content>
+                     <br/>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Pulmonary embolism due to pulmonary vascular precipitates <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_6387f3c6-a6d4-4f70-9105-0c9a28209b11">5.1</linkHtml>)]</content>
+                     </item>
+                     <item>Vein damage and thrombosis <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_afc4548d-55a9-4af9-9f3b-8d604e462ac6">5.2</linkHtml>)]</content>
+                     </item>
+                     <item>Aluminum toxicity<content styleCode="italics"> [see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_bf956072-4516-49e8-8f01-f41d909bb9e4">5.5</linkHtml>)]</content>
+                        <paragraph>
+                           <content styleCode="underline">Adverse reactions with the use of trace elements administered parenterally or by other routes of administration:</content>
+                        </paragraph>
+                     </item>
+                     <item>Neurologic toxicity with manganese <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_c6ebf498-ebd4-4bf7-bc51-341335ada7e8">5.3</linkHtml>)]</content>
+                     </item>
+                     <item>Hepatic accumulation of copper and manganese <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_ba2aa507-693e-45a9-a9fe-357c50c5ef25">5.4</linkHtml>)]</content>
+                     </item>
+                     <item>Hypersensitivity reactions with zinc and copper <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_ac46321f-591e-492b-bac7-ff751ebbedda">5.7)]</linkHtml>
+                           <br/>
+                        </content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20240701"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>This section intentionally left blank. (<linkHtml href="#LINK_e863391a-418f-4354-bb45-a44a30918a05">6</linkHtml>)<br/>
+                           <br/>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact </content>
+                           <content styleCode="bold">American Regent, Inc. at 1-800-734-9236 </content>
+                           <content styleCode="bold">or FDA at 1-800-FDA-1088 or </content>
+                           <content styleCode="bold">
+                              <linkHtml href="http://www.fda.gov/medwatch">www.fda.gov/medwatch</linkHtml>
+                           </content>
+                           <content styleCode="bold">.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold"> </content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_955353e1-f08c-4e8a-a142-f9f1e7b02ee6">
+               <id root="cd8a0310-90e3-4d09-92ee-8f19c8199468"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <text/>
+               <effectiveTime value="20240701"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>This section intentionally left blank. (<linkHtml href="#LINK_955353e1-f08c-4e8a-a142-f9f1e7b02ee6">8</linkHtml>)<br/>
+                           <br/>  <br/>
+                           <br/>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_488fa835-2186-4170-9ec5-c097030b2837">
+                     <id root="1b7a2ed5-113c-46b6-a6e4-5aa3bb145c38"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Multrys is approved for use in neonatal and pediatric patients weighing less than 10 kg as a source of zinc, copper, manganese, and selenium for parenteral nutrition when oral or enteral nutrition is not possible, insufficient, or contraindicated.  Safety and dosing recommendations in pediatric patients less than 10 kg are based on published literature describing controlled studies of products containing zinc, copper, manganese, and selenium <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#www.splportal.comLINK_6d0c3ce3-7df4-4a0c-86d5-a543b964f7c7">2.5)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20240701"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_dc048bc5-4382-47c1-bb6e-07286abd478d">
+                     <id root="60e00ca3-e321-42cd-946f-600a56fedc78"/>
+                     <code code="88829-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEPATIC IMPAIRMENT SUBSECTION"/>
+                     <title>8.6 Hepatic Impairment</title>
+                     <text>
+                        <paragraph>Copper is primarily excreted in the bile.  Excretion is decreased in patients with cholestasis and/or cirrhosis.  Manganese is presumed to be excreted in bile <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#www.splportal.comLINK_207193b4-1c90-4d85-9052-bd8df8b2239f">12.3</linkHtml>)]</content>.  Hepatic accumulation of copper and manganese has been reported with long-term administration of parenteral nutrition at dosages higher than recommended <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_ba2aa507-693e-45a9-a9fe-357c50c5ef25">5.4)]</linkHtml>
+                           </content>.</paragraph>
+                        <paragraph>For patients with cholestasis or cirrhosis, monitor hepatic and biliary function during long-term administration of Multrys.  </paragraph>
+                        <paragraph>If a patient develops signs or symptoms of hepatobiliary disease during use of Multrys, obtain serum concentrations of copper and ceruloplasmin as well as manganese whole blood concentrations; consider using individual trace element products in these patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20240701"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0ac314e6-c0b6-4413-954a-12112226e2c6">
+               <id root="3ed6ff64-bcea-4b1a-9a3c-24eada614b22"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>There is no information on overdose-related toxicity with a fixed-combination trace element product.  However, there are reports on overdosage in the literature for the individual trace elements.  Management of overdosage is supportive care based on presenting signs and symptoms.  Obtain blood samples for laboratory testing of the individual trace elements and ceruloplasmin for copper.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Zinc</content>
+                  </paragraph>
+                  <paragraph>Acute zinc toxicity was reported in an infant who received an inadvertent 1,000-fold overdose of zinc in parenteral nutrition that led to cardiac failure and death.  Zinc toxicity in adult patients receiving 17 to 400-fold the recommended dosage in parenteral nutrition for 2.5 to 60 days reported signs and symptoms including vomiting, diarrhea, hyperamylasemia, thrombocytopenia, and anemia.  The zinc serum concentration was 2 to 30-fold the upper end of the reported range in healthy subjects in these cases.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Copper</content>
+                  </paragraph>
+                  <paragraph>Acute copper toxicity was reported in patients with oral, intravenous, or subcutaneous administration.  Clinical manifestations included metallic taste, nausea, vomiting, abdominal pain, and multi-organ failure involving kidney, liver, blood, and cardiovascular systems.  Chelating agents can be used for treatment of acute toxicity.  Long-term administration of parenteral copper above recommended dosage may result in significant accumulation of copper in the liver, brain, and other tissues with possible organ damage <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_ba2aa507-693e-45a9-a9fe-357c50c5ef25">5.4</linkHtml>)]</content>. </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Manganese</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Acute manganese toxicity was reported in adult patients following infusion of manganese more than 10,000-fold the recommended dosage and after use of dialysis fluid contaminated with manganese.  Signs and symptoms included skin flushing, acute pancreatitis, elevated whole blood manganese concentrations, and MRI evidence of brain accumulation of manganese.  Chronic infusion and oral intake of manganese above recommended dosage have resulted in neuropsychiatric symptoms and MRI evidence of brain accumulation of manganese <content styleCode="italics">[see Warnings and Precautions (5.3)]</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Selenium</content>
+                  </paragraph>
+                  <paragraph> Acute selenium toxicity was reported with oral overdosage of greater than 1 g/day.  Symptoms included nausea, vomiting, diarrhea, abdominal pain, garlic breath odor, and altered mental status.  Death from circulatory collapse was reported after oral ingestion of 5 to 10 g of selenium with blood concentrations ranging 10 to 50-fold the upper end of the reported range in healthy subjects.</paragraph>
+               </text>
+               <effectiveTime value="20240701"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_94691ec5-b2a9-4dd8-b0ef-4131f1cfb48b">
+               <id root="b633b0d5-a564-42f9-898f-b701b1921960"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Multrys (trace elements injection 4*, USP) is a sterile, non-pyrogenic, clear, and colorless to slightly blue solution, intended for use as a combination of four trace elements and an additive to intravenous solutions for parenteral nutrition.  It contains no preservative.</paragraph>
+                  <paragraph>Each single-dose vial contains 1 mL.  *Each mL contains zinc 1,000 mcg (equivalent to zinc sulfate 2,470 mcg), copper 60 mcg (equivalent to cupric sulfate 150 mcg), manganese 3 mcg (equivalent to manganese sulfate 8.22 mcg), selenium 6 mcg (equivalent to selenious acid 9.8 mcg), and water for injection. Sulfuric acid may be added to adjust pH between 1.5 and 3.5.</paragraph>
+                  <paragraph>Zinc sulfate exists as a heptahydrate. The structural formula is:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Molecular formula: ZnSO<sub>4</sub> • 7H<sub>2</sub>O.<br/>Molecular weight: 287.54 g/mol.</paragraph>
+                  <paragraph>Cupric sulfate exists as a pentahydrate. The structural formula is:</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <paragraph>Molecular formula: CuSO<sub>4</sub> • 5H<sub>2</sub>O.<br/>Molecular weight: 249.69 g/mol.</paragraph>
+                  <paragraph>
+                     <br/>Manganese sulfate exists as a monohydrate. The structural formula is:</paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+                  <paragraph>Molecular formula: MnSO<sub>4</sub> • H<sub>2</sub>O.<br/>
+                  </paragraph>
+                  <paragraph>Molecular weight: 169.02 g/mol.</paragraph>
+                  <paragraph>
+                     <br/>The structural formula of selenious acid is:</paragraph>
+                  <renderMultiMedia referencedObject="MM4"/>
+                  <paragraph>Molecular formula: H<sub>2</sub>SeO<sub>3</sub>.<br/>Molecular weight: 128.97 g/mol.</paragraph>
+                  <paragraph>Multrys contains no more than 1,500 mcg/L of aluminum. </paragraph>
+               </text>
+               <effectiveTime value="20240701"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Zinc Sulfate Structural Formula</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="multrys-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Cupric Sulfate Structural Formula</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="multrys-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Manganese Structural Formula</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="multrys-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>Selenious Acid Structural Formula</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="multrys-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e00814d3-be93-4070-b050-629d90e2cb8e">
+               <id root="f8f8c700-e6a8-4275-b716-995e6269c074"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <text/>
+               <effectiveTime value="20240701"/>
+               <component>
+                  <section ID="LINK_2d63f6d0-8787-429f-87af-c34b72bcb5b1">
+                     <id root="6358deb7-7ef7-49e4-89eb-a28f48d79eb6"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Zinc</content>
+                        </paragraph>
+                        <paragraph>Zinc functions as a cofactor of various enzymes including DNA polymerases, RNA polymerases, alcohol dehydrogenase, and alkaline phosphatases.  Zinc is a coordinator of protein structural folding that interacts with a variety of proteins, lipids, and nucleic acids.  In addition, zinc is a catalyst of essential biochemical reactions, including activation of substrates of carbonic anhydrase in erythrocyte.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Copper</content>
+                           <br/>
+                        </paragraph>
+                        <paragraph>Copper is a cofactor for many metalloenzymes acting as an oxidase to achieve reduction of molecular oxygen.  Examples of copper metalloenzymes include but are not limited to lysyl oxidase, monoamine oxidase, ferroxidase, cytochrome C oxidase, dopamine beta monooxygenase, tyrosinase, and superoxide dismutase.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Manganese</content>
+                           <br/>
+                        </paragraph>
+                        <paragraph>Manganese is essential for the normal catalytic activity of several metalloenzymes including manganese superoxide dismutase, arginase, glutamine synthetase, phosphoenolpyruvate decarboxylase, and pyruvate carboxylase.  Manganese contributes to the normal function of several other enzyme families including the oxidoreductases, transferases, hydrolases, lyases, isomerases, and ligases.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Selenium</content>
+                           <br/>
+                        </paragraph>
+                        <paragraph>Selenious acid is converted in vivo to hydrogen selenide via glutathione-involved electron reductions.  Hydrogen selenide acts as a selenium pool to form selenoproteins which include, but are not limited to, glutathione peroxidase, iodothyronine deiodinase, peroxidase, and thioredoxins. </paragraph>
+                     </text>
+                     <effectiveTime value="20240701"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_affbb941-c37e-4af6-9fbc-80100d9e96a0">
+                     <id root="4a189e20-467b-4c63-ad01-022dac9de4e2"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>The exposure-response relationship and the time course of pharmacodynamic response are unknown for zinc, copper, manganese, and selenium.</paragraph>
+                     </text>
+                     <effectiveTime value="20240701"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_207193b4-1c90-4d85-9052-bd8df8b2239f">
+                     <id root="71ec5d5a-084f-4c61-9a44-986a7cb03ec3"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Zinc</content>
+                        </paragraph>
+                        <paragraph>Over 85% of total body zinc is found in skeletal muscle and bone.  In blood, zinc is mainly localized within erythrocytes.  Approximately 80% of serum zinc is bound to albumin and the remainder to α-2-macroglobulin and amino acids.  In adults, zinc is primarily excreted via the gastrointestinal tract and eliminated in the feces.  A smaller amount of zinc is excreted via the kidneys in the urine.  Urinary zinc excretion rates in very low birth weight preterm infants are relatively high in the neonatal period, and they decline to a level on a body weight basis that is similar to that of normal adults by two months of age.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Copper</content>
+                        </paragraph>
+                        <paragraph>In plasma, about 7% of copper is bound to albumin and amino acids.  In the liver, about 93% of copper is bound to ceruloplasmin and released to the serum.  Copper is excreted in bile and into the gastrointestinal tract where it is not reabsorbed.  Copper is also eliminated through the kidneys.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Manganese</content>
+                        </paragraph>
+                        <paragraph>Manganese is widely distributed in body tissues including liver and specific brain regions such as the basal ganglia.  The concentrations of manganese are higher in erythrocytes compared to the plasma or serum concentrations.  In human plasma, manganese is bound to albumin and β<sub>1</sub>-globulin.  Manganese is found in human bile suggesting biliary excretion.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Selenium</content>
+                        </paragraph>
+                        <paragraph>In humans, 85% of intravenous administered <sup>75</sup>Se-sodium selenite was protein-bound within 4 to 6 hours and 95% by 24 hours.</paragraph>
+                     </text>
+                     <effectiveTime value="20240701"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_21d640e4-93ba-4836-8b79-96504c9df829">
+               <id root="f66d55cc-8af1-4d07-8d7d-e08a005a32ce"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Multrys (trace elements injection 4*, USP) is a clear, colorless to slightly blue solution supplied in:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>1 mL single-dose vial (NDC 0517-9302-01) and packaged in trays containing 25 vials per tray (NDC 0517-9302-25).</item>
+                  </list>
+                  <paragraph>*Each mL of Multrys contains zinc 1,000 mcg, copper 60 mcg, manganese 3 mcg, and selenium 6 mcg.</paragraph>
+                  <paragraph>Vial closure is not made with natural rubber latex.</paragraph>
+                  <paragraph>Store at 20°C to 25°C (68°F to 77°F), excursions permitted to 15°C to 30°C (59°F to 86°F) [See USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Store admixed solution at 2ºC to 8ºC (36ºF to 46ºF) <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#www.splportal.comLINK_5234614b-ee8a-4161-bd12-09c1666dce4f">2.3</linkHtml>)]</content>.</paragraph>
+               </text>
+               <effectiveTime value="20240701"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_73edc75b-0e77-491f-926c-8b562099da33">
+               <id root="b29c19d1-68ef-4801-8ac5-068681cc8fd2"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Inform patients, caregivers, and home healthcare providers of the following risks of Multrys:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Pulmonary embolism due to pulmonary vascular precipitates <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_6387f3c6-a6d4-4f70-9105-0c9a28209b11">5.1</linkHtml>)]</content>
+                     </item>
+                     <item>Vein damage and thrombosis <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_afc4548d-55a9-4af9-9f3b-8d604e462ac6">5.2</linkHtml>)]</content>
+                     </item>
+                     <item>Neurologic toxicity with manganese <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_c6ebf498-ebd4-4bf7-bc51-341335ada7e8">5.3</linkHtml>)]</content>
+                     </item>
+                     <item>Hepatic accumulation of copper and manganese <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_ba2aa507-693e-45a9-a9fe-357c50c5ef25">5.4)]</linkHtml>
+                        </content>
+                     </item>
+                     <item>Aluminum toxicity<content styleCode="italics"> [see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_bf956072-4516-49e8-8f01-f41d909bb9e4">5.5)</linkHtml>]</content>
+                     </item>
+                     <item>Hypersensitivity reactions with zinc and copper <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_ac46321f-591e-492b-bac7-ff751ebbedda">5.7</linkHtml>)]</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20240701"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_4e654c5b-5fb0-44f4-8f29-2fe666324a5e">
+               <id root="8d02653b-71d2-4cb7-aa66-e3dd8b8b37a6"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:<br/>
+                        <br/>
+                        <renderMultiMedia referencedObject="MM5"/>
+                     </content>
+                  </paragraph>
+                  <paragraph>IN9302</paragraph>
+               </text>
+               <effectiveTime value="20240701"/>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>ARI Logo</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="multrys-5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d30c1916-b7ad-4146-ba21-704ae1046948">
+               <id root="b3a4c043-5292-4749-b58c-411ec360ef15"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - Container Label</title>
+               <text>
+                  <paragraph>NDC 0517-<content styleCode="bold">9302</content>-01<br/>
+                     <br/>
+Rx Only<br/>
+                     <br/>
+Multrys<sup>®</sup> (Trace Elements Injection 4*, USP)<br/>
+                     <br/>
+*Each mL provides: zinc 1,000 mcg, copper 60 mcg, manganese 3 mcg, and selenium 6 mcg<br/>
+                     <br/>
+For intravenous infusion after admixing</paragraph>
+                  <paragraph>For use in neonatal and pediatric patients weighing less than 10 kg<br/>
+                     <br/>
+1 mL Single-Dose Vial - Discard Unused Portion<br/>
+                     <br/>
+                     <renderMultiMedia referencedObject="MM6"/>
+                     <br/>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240701"/>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>1 ml multrys container label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="multrys-6.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_72014a4f-8c85-420a-b060-faed1d1b455f">
+               <id root="4f258863-4d95-4b61-8e72-59438b36c740"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - Carton Labeling</title>
+               <text>
+                  <paragraph>NDC 0517-<content styleCode="bold">9302</content>-25<br/>
+                     <br/>
+Rx Only<br/>
+                     <br/>
+Multrys<sup>®</sup> (Trace Elements Injection 4*, USP)<br/>
+                     <br/>
+*Each mL provides: zinc 1,000 mcg, copper 60 mcg, manganese 3 mcg, and selenium 6 mcg</paragraph>
+                  <paragraph>For intravenous infusion after admixing</paragraph>
+                  <paragraph>For use in neonatal and pediatric patients weighing less than 10 kg<br/>
+                     <br/>
+25 x 1 mL Single-Dose Vials - Discard Unused Portion<br/>
+                     <br/>
+                     <renderMultiMedia referencedObject="MM7"/>
+                     <br/>
+                     <br/>
+                     <br/>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240701"/>
+               <component>
+                  <observationMedia ID="MM7">
+                     <text>1 ml 25 pack multrys carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="multrys-7.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

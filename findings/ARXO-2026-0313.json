@@ -1,0 +1,127 @@
+{
+  "id": "ARXO-2026-0313",
+  "url": "https://arxo.io/findings/ARXO-2026-0313/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "cabozantinib prescribing information (SPL set ID 1a0c3bea-c87b-4d25-bb44-5f0174da6b34)",
+  "acts": [
+    "FDA prescribing information published on DailyMed"
+  ],
+  "location": "2.4 and 2.5",
+  "text": {
+    "en": {
+      "title": "cabozantinib: 2.4 and 2.5 give different instructions for one patient",
+      "summary": "2.4 reads “180 mg”. 2.5 reads “80 mg”. Example: A patient started at 180 mg (strong CYP3A4 inducer, 2.4) or at 80 mg (hepatic impairment, 2.5) who has an adverse reaction has no resume level in 2.2, which lists only 140, 100 and 60 mg. The text is in this label.",
+      "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Prescribing information, Exelixis, Inc., SPL set ID 1a0c3bea-c87b-4d25-bb44-5f0174da6b34, version 16 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 16",
+        "locator": "2.4",
+        "text": "180 mg",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/1a0c3bea-c87b-4d25-bb44-5f0174da6b34.xml",
+        "sha256": "9abd57dbe4460dd339c4af7cc566d141c55a1b3a152c2de6d2268c23438b24f0",
+        "retrieved": "2026-10-29",
+        "copy": "sources/9abd57dbe4460dd3-1a0c3bea-c87b-4d25-bb44-5f0174da6b34-v16.xml",
+        "copy_sha256": "9abd57dbe4460dd339c4af7cc566d141c55a1b3a152c2de6d2268c23438b24f0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Prescribing information, Exelixis, Inc., SPL set ID 1a0c3bea-c87b-4d25-bb44-5f0174da6b34, version 16 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 16",
+        "locator": "2.5",
+        "text": "80 mg",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/1a0c3bea-c87b-4d25-bb44-5f0174da6b34.xml",
+        "sha256": "9abd57dbe4460dd339c4af7cc566d141c55a1b3a152c2de6d2268c23438b24f0",
+        "retrieved": "2026-10-29",
+        "copy": "sources/9abd57dbe4460dd3-1a0c3bea-c87b-4d25-bb44-5f0174da6b34-v16.xml",
+        "copy_sha256": "9abd57dbe4460dd339c4af7cc566d141c55a1b3a152c2de6d2268c23438b24f0",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31",
+      "institution": "Exelixis, Inc.",
+      "channel": "email",
+      "role": "holder of the labeling"
+    },
+    {
+      "date": "2026-10-31",
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "channel": "email",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Exelixis, Inc.",
+      "role": "holder of the labeling"
+    },
+    {
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+  },
+  "credit": [],
+  "press_date": "2026-10-31T00:00:00Z",
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": null,
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Exelixis, Inc. (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+    }
+  ]
+}

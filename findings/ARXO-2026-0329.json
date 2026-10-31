@@ -1,0 +1,127 @@
+{
+  "id": "ARXO-2026-0329",
+  "url": "https://arxo.io/findings/ARXO-2026-0329/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "trace elements injection (zinc) prescribing information (SPL set ID 995f1efa-aca0-4b6c-9099-f8e757c2133a)",
+  "acts": [
+    "FDA prescribing information published on DailyMed"
+  ],
+  "location": "Table 2 and Table 2",
+  "text": {
+    "en": {
+      "title": "trace elements injection (zinc): Table 2 and Table 2 give different instructions for one patient",
+      "summary": "Table 2 reads “3 kg to 5 kg”. Table 2 reads “5 to 10 kg”. Example: An infant weighing exactly 5 kg matches both zinc rows: 250 and 100 mcg/kg/day. The text is in this label.",
+      "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Prescribing information, American Regent, Inc., SPL set ID 995f1efa-aca0-4b6c-9099-f8e757c2133a, version 4 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 4",
+        "locator": "Table 2",
+        "text": "3 kg to 5 kg",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/995f1efa-aca0-4b6c-9099-f8e757c2133a.xml",
+        "sha256": "10cf5210c03c5624998dc96763c1dc23a9caf96e27acc96f280ec08ff730a74b",
+        "retrieved": "2026-10-29",
+        "copy": "sources/10cf5210c03c5624-995f1efa-aca0-4b6c-9099-f8e757c2133a-v4.xml",
+        "copy_sha256": "10cf5210c03c5624998dc96763c1dc23a9caf96e27acc96f280ec08ff730a74b",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Prescribing information, American Regent, Inc., SPL set ID 995f1efa-aca0-4b6c-9099-f8e757c2133a, version 4 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 4",
+        "locator": "Table 2",
+        "text": "5 to 10 kg",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/995f1efa-aca0-4b6c-9099-f8e757c2133a.xml",
+        "sha256": "10cf5210c03c5624998dc96763c1dc23a9caf96e27acc96f280ec08ff730a74b",
+        "retrieved": "2026-10-29",
+        "copy": "sources/10cf5210c03c5624-995f1efa-aca0-4b6c-9099-f8e757c2133a-v4.xml",
+        "copy_sha256": "10cf5210c03c5624998dc96763c1dc23a9caf96e27acc96f280ec08ff730a74b",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31",
+      "institution": "American Regent, Inc.",
+      "channel": "email",
+      "role": "holder of the labeling"
+    },
+    {
+      "date": "2026-10-31",
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "channel": "email",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "American Regent, Inc.",
+      "role": "holder of the labeling"
+    },
+    {
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+  },
+  "credit": [],
+  "press_date": "2026-10-31T00:00:00Z",
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": null,
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to American Regent, Inc. (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+    }
+  ]
+}

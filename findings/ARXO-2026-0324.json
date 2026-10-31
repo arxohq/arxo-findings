@@ -1,0 +1,127 @@
+{
+  "id": "ARXO-2026-0324",
+  "url": "https://arxo.io/findings/ARXO-2026-0324/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "dronedarone prescribing information (SPL set ID 7fa41601-7fb5-4155-8e50-2ae903f0d2d6)",
+  "acts": [
+    "FDA prescribing information published on DailyMed"
+  ],
+  "location": "7.3 and 7.3",
+  "text": {
+    "en": {
+      "title": "dronedarone: 7.3 and 7.3 give different instructions for one patient",
+      "summary": "7.3 reads “reduce the dose of dabigatran to 75 mg twice daily”. 7.3 reads “should be avoided”. Example: At CrCL exactly 30 mL/min, 7.3 places the patient both in the 30 to 50 band (reduce dabigatran) and in the 15 to 30 band (avoid the combination). The same text is in 2 labels from 2 labelers in the DailyMed release of 29 October 2026.",
+      "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Prescribing information, Sanofi-Aventis U.S. LLC, SPL set ID 7fa41601-7fb5-4155-8e50-2ae903f0d2d6, version 37 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 37",
+        "locator": "7.3",
+        "text": "reduce the dose of dabigatran to 75 mg twice daily",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/7fa41601-7fb5-4155-8e50-2ae903f0d2d6.xml",
+        "sha256": "ad58e6f56c84b6c17a9cd070e5d7b3aaa2acaf2bf2e3d79950625ec86e6fa54a",
+        "retrieved": "2026-10-29",
+        "copy": "sources/ad58e6f56c84b6c1-7fa41601-7fb5-4155-8e50-2ae903f0d2d6-v37.xml",
+        "copy_sha256": "ad58e6f56c84b6c17a9cd070e5d7b3aaa2acaf2bf2e3d79950625ec86e6fa54a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Prescribing information, Sanofi-Aventis U.S. LLC, SPL set ID 7fa41601-7fb5-4155-8e50-2ae903f0d2d6, version 37 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 37",
+        "locator": "7.3",
+        "text": "should be avoided",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/7fa41601-7fb5-4155-8e50-2ae903f0d2d6.xml",
+        "sha256": "ad58e6f56c84b6c17a9cd070e5d7b3aaa2acaf2bf2e3d79950625ec86e6fa54a",
+        "retrieved": "2026-10-29",
+        "copy": "sources/ad58e6f56c84b6c1-7fa41601-7fb5-4155-8e50-2ae903f0d2d6-v37.xml",
+        "copy_sha256": "ad58e6f56c84b6c17a9cd070e5d7b3aaa2acaf2bf2e3d79950625ec86e6fa54a",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31",
+      "institution": "sanofi-aventis U.S. LLC",
+      "channel": "email",
+      "role": "holder of the labeling"
+    },
+    {
+      "date": "2026-10-31",
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "channel": "email",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "sanofi-aventis U.S. LLC",
+      "role": "holder of the labeling"
+    },
+    {
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+  },
+  "credit": [],
+  "press_date": "2026-10-31T00:00:00Z",
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": null,
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to sanofi-aventis U.S. LLC (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+    }
+  ]
+}

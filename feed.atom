@@ -5,9 +5,319 @@
   <link rel="alternate" href="https://arxo.io/findings/"/>
   <link rel="self" href="https://arxo.io/findings/feed.atom"/>
   <id>https://arxo.io/findings/</id>
-  <updated>2026-10-29T15:20:00+00:00</updated>
+  <updated>2026-10-31T09:05:00+00:00</updated>
   <author><name>Arxo Law</name></author>
   <rights>Data: CC BY 4.0, Arxo Law</rights>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0331/</id>
+    <title>ARXO-2026-0331 — raltegravir: wording question in 2.1</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0331/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. 2.1 reads “Maximum daily dose is 300 mg taken by mouth twice daily”. Example: &quot;Maximum daily dose&quot; can be read as 300 mg per day or as 600 mg per day. The same text is in 7 labels from 6 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0330/</id>
+    <title>ARXO-2026-0330 — lorlatinib: Highlights, Dosage and Administration, line &quot;Renal Impairment&quot; and 2.6 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0330/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Highlights, Dosage and Administration, line &quot;Renal Impairment&quot; reads “75 mg orally once daily”. 2.6 reads “15 to &lt; 30 mL/min”. Example: A patient with CLcr 60 mL/min gets the reduced dose by Highlights; by 2.6 and 8.7 no adjustment applies. The text is in this label.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0329/</id>
+    <title>ARXO-2026-0329 — trace elements injection (zinc): Table 2 and Table 2 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0329/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Table 2 reads “3 kg to 5 kg”. Table 2 reads “5 to 10 kg”. Example: An infant weighing exactly 5 kg matches both zinc rows: 250 and 100 mcg/kg/day. The text is in this label.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0328/</id>
+    <title>ARXO-2026-0328 — azacitidine: 2.5 and 2.5 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0328/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. 2.5 reads “30-60”. 2.5 reads “15-30”. Example: At bone marrow biopsy cellularity exactly 30%, the table gives two columns, 100% and 50% of the dose. There is no column above 60%. The same text is in 19 labels from 14 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0327/</id>
+    <title>ARXO-2026-0327 — potassium phosphates injection: 2.2 has no instruction for a patient the label covers</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0327/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. 2.2 reads “4 mEq/dL”. Example: Serum potassium is reported in mEq/L. Read as printed, a threshold of 4 mEq/dL is 40 mEq/L, so a patient with potassium 5.5 mEq/L is below it. The same text is in 13 labels from 10 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0326/</id>
+    <title>ARXO-2026-0326 — amino acids injection (PROSOL): Table 2 and Table 2 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0326/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Table 2 reads “1 month to 1 year of age”. Table 2 reads “1 to 10 years of age”. Example: A child aged exactly 1 year matches both rows. A child aged exactly 1 month, and a child aged 10 to 11 years, match no row. The text is in this label.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0325/</id>
+    <title>ARXO-2026-0325 — emtricitabine: 2.4 and 2.5 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0325/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. 2.4 reads “0–3 months of age”. 2.5 reads “3 months through 17 years of age”. Example: An infant aged exactly 3 months matches both sections, with doses of 3 mg per kg and 6 mg per kg. The same text is in 4 labels from 4 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0324/</id>
+    <title>ARXO-2026-0324 — dronedarone: 7.3 and 7.3 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0324/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. 7.3 reads “reduce the dose of dabigatran to 75 mg twice daily”. 7.3 reads “should be avoided”. Example: At CrCL exactly 30 mL/min, 7.3 places the patient both in the 30 to 50 band (reduce dabigatran) and in the 15 to 30 band (avoid the combination). The same text is in 2 labels from 2 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0323/</id>
+    <title>ARXO-2026-0323 — pralsetinib: Highlights, Warnings and Precautions has no instruction for a patient the label covers</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0323/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Highlights, Warnings and Precautions reads “Permanently discontinue for Grade 3 or 4 reactions”. Example: Grade 3 ILD or pneumonitis: Highlights requires permanent discontinuation; Table 2 has ILD rows only for Grade 1 or 2 and Grade 4, so it gives no action for Grade 3, and the general row for other adverse reactions allows resumption at a reduced dose. The text is in this label.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0322/</id>
+    <title>ARXO-2026-0322 — heparin sodium injection: Highlights, Contraindications has no instruction for a patient the label covers</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0322/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Highlights, Contraindications reads “Severe thrombocytopenia”. Example: Highlights lists severe thrombocytopenia as a contraindication; section 4 does not, and section 4 lists HIT or HITT history and hypersensitivity, which Highlights omits. The same text is in 28 labels from 16 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0321/</id>
+    <title>ARXO-2026-0321 — PEG 3350 and electrolytes for oral solution: 7.2 and 2.1 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0321/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. 7.2 reads “Administer oral medications within one hour before the start of administration of GoLYTELY”. 2.1 reads “Do not take oral medications within 1 hour before the start or during administration”. Example: A tablet taken 30 minutes before the opening dose follows 7.2 and breaks 2.1, Highlights and 17. The same text is in 9 labels from 8 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0320/</id>
+    <title>ARXO-2026-0320 — acamprosate calcium: 2.1 and 4.2 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0320/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. 2.1 reads “creatinine clearance of 30 to 50 mL/min”. 4.2 reads “creatinine clearance of ≤30 mL/min”. Example: At creatinine clearance exactly 30 mL/min the label gives a reduced dose (2.1, 5.1, 12.3) and a contraindication (4.2, 8.6, Highlights). The same text is in 8 labels from 8 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0319/</id>
+    <title>ARXO-2026-0319 — oxycodone hydrochloride: Highlights, Drug Interactions has no instruction for a patient the label covers</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0319/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Highlights, Drug Interactions reads “Can potentiate the effects of morphine”. Example: The MAOI line in Highlights of an oxycodone label names morphine; section 7 does not. The same text is in 63 labels from 28 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0318/</id>
+    <title>ARXO-2026-0318 — pantoprazole sodium for injection: 2.1 and 12.3 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0318/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. 2.1 reads “Greater than 15 kg up to 40 kg”. 12.3 reads “body weight of 40 kg and greater”. Example: A child weighing exactly 40 kg gets 20 mg by 2.1 and 40 mg by 12.3. The same text is in 5 labels from 3 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0317/</id>
+    <title>ARXO-2026-0317 — lipid injectable emulsion (soybean and olive oils): 2.4, Table 1 and 2.4, Table 1 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0317/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. 2.4, Table 1 reads “Birth to 2 years of age”. 2.4, Table 1 reads “2 to less than 12 years of age”. Example: A child aged exactly 2 years matches both rows, with different initial doses. The text is in this label.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0316/</id>
+    <title>ARXO-2026-0316 — dolutegravir: Highlights and 1 has no instruction for a patient the label covers</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0316/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Highlights and 1 reads “weighing at least 2 kg”. Example: A child aged 5 weeks who weighs 2.5 kg is within the indication and has no row in Table 2 (neonates under 4 weeks) or Table 3 (from 3 kg). The text is in this label.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0315/</id>
+    <title>ARXO-2026-0315 — raltegravir: Table 2 and Table 2 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0315/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Table 2 reads “at least 4 weeks of age and weighing 3 kg to less than 25 kg”. Table 2 reads “weighing at least 2 kg”. Example: A child aged 5 weeks who weighs 2.5 kg has no row in Table 2. The text is in this label.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0314/</id>
+    <title>ARXO-2026-0314 — bendamustine: Highlights, Use in Specific Populations and 8.7 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0314/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Highlights, Use in Specific Populations reads “2.5-1.0 x ULN”. 8.7 reads “2.5 to 10 times upper limit of normal (ULN)”. Example: For a patient with AST 5 times ULN and bilirubin 2 times ULN, the Highlights range is empty and expresses no limit; 8.7 covers the case. The same text is in 2 labels from 2 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0313/</id>
+    <title>ARXO-2026-0313 — cabozantinib: 2.4 and 2.5 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0313/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. 2.4 reads “180 mg”. 2.5 reads “80 mg”. Example: A patient started at 180 mg (strong CYP3A4 inducer, 2.4) or at 80 mg (hepatic impairment, 2.5) who has an adverse reaction has no resume level in 2.2, which lists only 140, 100 and 60 mg. The text is in this label.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0312/</id>
+    <title>ARXO-2026-0312 — glycopyrrolate oral solution: Table 1, 18 to 22 kg, Dose Level 2 has no instruction for a patient the label covers</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0312/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Table 1, 18 to 22 kg, Dose Level 2 reads “0.8 mL”. Example: The cell sits in the milligram column. Read as printed, 0.8 mL of a 1 mg/5 mL solution is 0.16 mg, while the volume column of the same row gives 4 mL. The same text is in 5 labels from 5 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0311/</id>
+    <title>ARXO-2026-0311 — amino acids with electrolytes in dextrose (5/20 formulation): Table 1 and Table 2 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0311/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Table 1 reads “3.2 to 8”. Table 2 reads “1.25”. Example: For a 70 kg adult, the top of the Table 1 dextrose range (8 g/kg/day) needs about 2800 mL a day; the Table 2 maximum infusion rate of 1.25 mL/kg/hour allows about 2100 mL a day (6 g/kg/day). The same text is in 2 labels from 2 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0310/</id>
+    <title>ARXO-2026-0310 — imipenem and cilastatin: 2.2, Table 2 and 2.2, Table 2 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0310/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. 2.2, Table 2 reads “4 weeks to 3 months of age”. 2.2, Table 2 reads “1 to 4 weeks of age”. Example: An infant aged exactly 4 weeks matches both rows: every 6 hours and every 8 hours. The same text is in 6 labels from 3 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0309/</id>
+    <title>ARXO-2026-0309 — remifentanil: 2.7 and Table 2 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0309/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. 2.7 reads “birth to 12 years of age”. Table 2 reads “1 to 12 years”. Table 2 reads “birth to 2 months of age”. Example: A child aged 7 months has no row in Table 2, while 2.7 sends the reader to Table 2 for all children from birth to 12 years. The same text is in 6 labels from 4 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0308/</id>
+    <title>ARXO-2026-0308 — idarubicin: 2.2 and 5.4 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0308/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. 2.2 reads “If patients develop severe myelosuppression, reduce the dose of IDAMYCIN PFS by 25%”. 5.4 reads “Discontinue IDAMYCIN PFS in patients who develop severe myelosuppression”. Example: After severe myelosuppression in cycle 1, 2.2 directs the next cycle at a reduced dose and 5.4 directs discontinuation. The text is in this label.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0307/</id>
+    <title>ARXO-2026-0307 — idarubicin: 2.4, Table 2 and 5.8 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0307/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. 2.4, Table 2 reads “Less than or equal to 2.6”. 5.8 reads “2.6 to 5 mg/dL”. Example: At serum bilirubin exactly 2.6 mg/dL, Table 2 gives no adjustment and 5.8 and Highlights give a 50% reduction. At exactly 5 mg/dL, Table 2 has no row. The text is in this label.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0306/</id>
+    <title>ARXO-2026-0306 — pregabalin: 2.5, Table 2 and 2.5, Table 2 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0306/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. 2.5, Table 2 reads “30-60 75 150 225 300 BID or TID”. 2.5, Table 2 reads “15-30 25-50 75 100-150 150 QD or BID”. Example: A patient with creatinine clearance exactly 30 mL/min matches both rows, with different total daily doses and regimens. The same text is in 225 labels from 60 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0305/</id>
+    <title>ARXO-2026-0305 — amoxicillin: 2.2 and 8.4 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0305/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. 2.2 reads “Aged 3 Months (12 weeks) and Older”. 8.4 reads “12 weeks or younger (3 months or younger)”. Example: An infant aged exactly 12 weeks falls under Table 1 of 2.2 and also under the 30 mg/kg/day upper limit of 8.4 and Highlights. The same text is in 181 labels from 35 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0304/</id>
+    <title>ARXO-2026-0304 — amoxicillin: 2.5 and Table 2 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0304/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. 2.5 reads “less than 30 mL/min”. Table 2 reads “GFR 10 to 30 mL/min”. Example: At GFR exactly 30 mL/min, 2.5 and 8.6 do not place the patient in severe impairment, so the 875 mg tablet is not excluded; Table 2 places the same patient in the row &quot;GFR 10 to 30 mL/min&quot;. The same text is in 163 labels from 34 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0303/</id>
+    <title>ARXO-2026-0303 — amoxicillin: Highlights, Dosage and Administration and 2.5 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0303/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Highlights, Dosage and Administration reads “severe renal impairment (GFR greater than 30 mL/min)”. 2.5 reads “less than 30 mL/min”. Example: A patient with GFR 45 mL/min is in the reduced-dose group by Highlights and not by 2.5 and 8.6; a patient with GFR 10 mL/min is the reverse. The same text is in 180 labels from 34 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0302/</id>
+    <title>ARXO-2026-0302 — dabrafenib: 5.3 and Table 5 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0302/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. 5.3 reads “Permanently discontinue TAFINLAR for all Grade 4 hemorrhagic events”. Table 5 reads “First occurrence of any Grade 4”. Example: At a first Grade 4 hemorrhage, Table 5 allows resuming at a lower dose and 5.3 requires permanent discontinuation. The text is in this label.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0301/</id>
+    <title>ARXO-2026-0301 — meloxicam tablets: Highlights, Dosage and Administration and 2.4 give different instructions for one patient</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0301/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Highlights, Dosage and Administration reads “7.5 mg/kg once daily in children ≥60 kg”. 2.4 reads “7.5 mg once daily in children who weigh ≥60 kg”. Example: For a child of 60 kg, Highlights read literally gives 7.5 mg per kg (450 mg a day); section 2.4 gives 7.5 mg. The same text is in 4 labels from 2 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0012/</id>
     <title>ARXO-2026-0012 — eCFR shows $7,455 in 11 CFR 111.24(b); the January 2025 rule sets $7,445</title>

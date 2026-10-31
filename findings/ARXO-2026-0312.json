@@ -1,0 +1,111 @@
+{
+  "id": "ARXO-2026-0312",
+  "url": "https://arxo.io/findings/ARXO-2026-0312/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "glycopyrrolate oral solution prescribing information (SPL set ID d200bd44-9856-4104-a29e-a4cca3db6737)",
+  "acts": [
+    "FDA prescribing information published on DailyMed"
+  ],
+  "location": "Table 1, 18 to 22 kg, Dose Level 2",
+  "text": {
+    "en": {
+      "title": "glycopyrrolate oral solution: Table 1, 18 to 22 kg, Dose Level 2 has no instruction for a patient the label covers",
+      "summary": "Table 1, 18 to 22 kg, Dose Level 2 reads “0.8 mL”. Example: The cell sits in the milligram column. Read as printed, 0.8 mL of a 1 mg/5 mL solution is 0.16 mg, while the volume column of the same row gives 4 mL. The same text is in 5 labels from 5 labelers in the DailyMed release of 29 October 2026.",
+      "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Prescribing information, Merz Pharmaceuticals, LLC, SPL set ID d200bd44-9856-4104-a29e-a4cca3db6737, version 20 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 20",
+        "locator": "Table 1, 18 to 22 kg, Dose Level 2",
+        "text": "0.8 mL",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/d200bd44-9856-4104-a29e-a4cca3db6737.xml",
+        "sha256": "a5348a34bbc674f4f74fcc76f2332434391d6a2266f2ab0ca02a7174789e9ecc",
+        "retrieved": "2026-10-29",
+        "copy": "sources/a5348a34bbc674f4-d200bd44-9856-4104-a29e-a4cca3db6737-v20.xml",
+        "copy_sha256": "a5348a34bbc674f4f74fcc76f2332434391d6a2266f2ab0ca02a7174789e9ecc",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31",
+      "institution": "Merz Pharmaceuticals, LLC",
+      "channel": "email",
+      "role": "holder of the labeling"
+    },
+    {
+      "date": "2026-10-31",
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "channel": "email",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Merz Pharmaceuticals, LLC",
+      "role": "holder of the labeling"
+    },
+    {
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+  },
+  "credit": [],
+  "press_date": "2026-10-31T00:00:00Z",
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": null,
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Merz Pharmaceuticals, LLC (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "ARXO-2026-0318",
+  "url": "https://arxo.io/findings/ARXO-2026-0318/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "pantoprazole sodium for injection prescribing information (SPL set ID 51e4144a-489e-436c-609a-39305f8f56ba)",
+  "acts": [
+    "FDA prescribing information published on DailyMed"
+  ],
+  "location": "2.1 and 12.3",
+  "text": {
+    "en": {
+      "title": "pantoprazole sodium for injection: 2.1 and 12.3 give different instructions for one patient",
+      "summary": "2.1 reads “Greater than 15 kg up to 40 kg”. 12.3 reads “body weight of 40 kg and greater”. Example: A child weighing exactly 40 kg gets 20 mg by 2.1 and 40 mg by 12.3. The same text is in 5 labels from 3 labelers in the DailyMed release of 29 October 2026.",
+      "impact": "Potential effect on a prescribing decision: low; careful reading of the whole label usually resolves it. Arxo does not say which instruction is correct and gives no dose."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc., SPL set ID 51e4144a-489e-436c-609a-39305f8f56ba, version 60 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 60",
+        "locator": "2.1",
+        "text": "Greater than 15 kg up to 40 kg",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/51e4144a-489e-436c-609a-39305f8f56ba.xml",
+        "sha256": "310324b8628d46a8de8760b13eedf2793a0cf1b092183df17070aae7dfb76a26",
+        "retrieved": "2026-10-29",
+        "copy": "sources/310324b8628d46a8-51e4144a-489e-436c-609a-39305f8f56ba-v60.xml",
+        "copy_sha256": "310324b8628d46a8de8760b13eedf2793a0cf1b092183df17070aae7dfb76a26",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc., SPL set ID 51e4144a-489e-436c-609a-39305f8f56ba, version 60 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 60",
+        "locator": "12.3",
+        "text": "body weight of 40 kg and greater",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/51e4144a-489e-436c-609a-39305f8f56ba.xml",
+        "sha256": "310324b8628d46a8de8760b13eedf2793a0cf1b092183df17070aae7dfb76a26",
+        "retrieved": "2026-10-29",
+        "copy": "sources/310324b8628d46a8-51e4144a-489e-436c-609a-39305f8f56ba-v60.xml",
+        "copy_sha256": "310324b8628d46a8de8760b13eedf2793a0cf1b092183df17070aae7dfb76a26",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31",
+      "institution": "Pfizer",
+      "channel": "email",
+      "role": "holder of the labeling"
+    },
+    {
+      "date": "2026-10-31",
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "channel": "email",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Pfizer",
+      "role": "holder of the labeling"
+    },
+    {
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+  },
+  "credit": [],
+  "press_date": "2026-10-31T00:00:00Z",
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": null,
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Pfizer (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+    }
+  ]
+}

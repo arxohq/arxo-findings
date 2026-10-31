@@ -1,0 +1,2428 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="badf58f9-01fe-4900-be06-784029a72151"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use MULTAQ safely and effectively. See full prescribing information for MULTAQ.<br/>
+      <br/> MULTAQ® (dronedarone) tablets, for oral use<br/> Initial U.S. Approval: 2009</title>
+   <effectiveTime value="20250529"/>
+   <setId root="7fa41601-7fb5-4155-8e50-2ae903f0d2d6"/>
+   <versionNumber value="37"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="824676584" root="1.3.6.1.4.1.519.1"/>
+            <name>Sanofi-Aventis U.S. LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="763683216" root="1.3.6.1.4.1.519.1"/>
+                        <name>Sanofi Winthrop Industrie</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0024-4142" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0024-4142" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="280437582" root="1.3.6.1.4.1.519.1"/>
+                        <name>Sanofi Winthrop Industrie</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0024-4142" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="API MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0024-4142" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="571879985" root="1.3.6.1.4.1.519.1"/>
+                        <name>Sanofi Winthrop Industrie</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0024-4142" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0024-4142" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="050424395" root="1.3.6.1.4.1.519.1"/>
+                        <name>Genzyme Corporation</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0024-4142" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0024-4142" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="f63800f7-6a15-4231-8204-2ebfa8d07602"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20250529"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0024-4142" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Multaq</name>
+                        <formCode code="C42931" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Dronedarone</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="400" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="JQZ1L091Y2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DRONEDARONE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="JQZ1L091Y2" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DRONEDARONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="68401960MK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSPOVIDONE (120 .MU.M)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TUF2IVW3M2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLOXAMER 407</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="30IQX730WE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL 6000</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="R12CBM0EIZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARNAUBA WAX</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0024-4142-60" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TYPE 0: NOT A COMBINATION PRODUCT" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20090701"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="500" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0024-4142-50" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TYPE 0: NOT A COMBINATION PRODUCT" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="completed"/>
+                                 <effectiveTime>
+                                    <low value="20090701"/>
+                                    <high value="20090701"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0024-4142-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20090701"/>
+                                          <high value="20210930"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TYPE 0: NOT A COMBINATION PRODUCT" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="6" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0024-4142-00" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="8" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0024-4142-06" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C96974" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20090701"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TYPE 0: NOT A COMBINATION PRODUCT" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="6" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0024-4142-00" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TYPE 0: NOT A COMBINATION PRODUCT" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C96974" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20240601"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA022425" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20090701"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="17" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">4142</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="BOX">
+               <id root="b4f70987-45c9-4d7d-adce-17f224ab2a9e"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>
+                  <content styleCode="emphasis">WARNING: INCREASED RISK OF DEATH, STROKE AND HEART FAILURE IN PATIENTS WITH DECOMPENSATED HEART FAILURE OR PERMANENT ATRIAL FIBRILLATION</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">In patients with symptomatic heart failure and recent decompensation requiring hospitalization or NYHA Class IV heart failure, MULTAQ doubles the risk of death <content styleCode="italics">[see <linkHtml href="#S14.3">Clinical Studies (14.3)</linkHtml>]</content>. MULTAQ is contraindicated in patients with symptomatic heart failure with recent decompensation requiring hospitalization or NYHA Class IV heart failure <content styleCode="italics">[see <linkHtml href="#S4">Contraindications (4)</linkHtml>, <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]</content>.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">In patients with permanent atrial fibrillation, MULTAQ doubles the risk of death, stroke and hospitalization for heart failure <content styleCode="italics">[see <linkHtml href="#S14.4">Clinical Studies (14.4)</linkHtml>]</content>. MULTAQ is contraindicated in patients in atrial fibrillation (AF) who will not or cannot be cardioverted into normal sinus rhythm <content styleCode="italics">[see <linkHtml href="#S4">Contraindications (4)</linkHtml>, <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>]</content>.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250529"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>WARNING: INCREASED RISK OF DEATH, STROKE AND HEART FAILURE IN PATIENTS WITH DECOMPENSATED HEART FAILURE OR PERMANENT ATRIAL FIBRILLATION</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">See full prescribing information for complete boxed warning.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">MULTAQ is contraindicated in patients with symptomatic heart failure with recent decompensation requiring hospitalization or NYHA Class IV heart failure. MULTAQ doubles the risk of death in these patients. (<linkHtml href="#S4">4</linkHtml>, <linkHtml href="#S5.1">5.1</linkHtml>, <linkHtml href="#S14.3">14.3</linkHtml>)</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">MULTAQ is contraindicated in patients in atrial fibrillation (AF) who will not or cannot be cardioverted into normal sinus rhythm. In patients with permanent AF, MULTAQ doubles the risk of death, stroke, and hospitalization for heart failure. (<linkHtml href="#S4">4</linkHtml>, <linkHtml href="#S5.2">5.2</linkHtml>, <linkHtml href="#S14.4">14.4</linkHtml>)</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S1">
+               <id root="a49d270b-21fe-4289-a78a-de332662a006"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>MULTAQ<sup>®</sup> is indicated to reduce the risk of hospitalization for atrial fibrillation in patients in sinus rhythm with a history of paroxysmal or persistent atrial fibrillation (AF) <content styleCode="italics">[see <linkHtml href="#S14">Clinical Studies (14)</linkHtml>]</content>.</paragraph>
+               </text>
+               <effectiveTime value="20250529"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>MULTAQ is an antiarrhythmic drug indicated to reduce the risk of hospitalization for atrial fibrillation (AF) in patients in sinus rhythm with a history of paroxysmal or persistent AF (<linkHtml href="#S1">1</linkHtml>, <linkHtml href="#S14">14</linkHtml>).</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S2">
+               <id root="9b552fe1-9a29-4c0d-a033-947b4ec403c9"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The recommended dosage of MULTAQ is 400 mg twice daily in adults. MULTAQ should be taken as one tablet with the morning meal and one tablet with the evening meal.</paragraph>
+                  <paragraph>Treatment with Class I or III antiarrhythmics (e.g., amiodarone, flecainide, propafenone, quinidine, disopyramide, dofetilide, sotalol) or drugs that are strong inhibitors of CYP3A (e.g., ketoconazole) must be stopped before starting MULTAQ <content styleCode="italics">[see <linkHtml href="#S4">Contraindications (4)</linkHtml>]</content>.</paragraph>
+                  <paragraph>                     Verify that females of reproductive potential are not pregnant prior to initiating MULTAQ <content styleCode="italics">[see <linkHtml href="#S5.10">Warnings and Precautions (5.10)</linkHtml>, <linkHtml href="#S8.1">Use in Specific Populations (8.1</linkHtml>, <linkHtml href="#S8.3">8.3)</linkHtml>].</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250529"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>One tablet of 400 mg twice a day with morning and evening meals (<linkHtml href="#S2">2</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S3">
+               <id root="43076c6b-ee2e-4ec2-b43a-ea3dedca06ec"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>MULTAQ 400 mg tablets are provided as white film-coated tablets for oral administration, oblong-shaped, engraved with a double wave marking on one side and "4142" code on the other side.</paragraph>
+               </text>
+               <effectiveTime value="20250529"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>400 mg film-coated tablets (<linkHtml href="#S3">3</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S4">
+               <id root="96cd7803-aea9-4cfa-841b-cc9ab7f0f57c"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>MULTAQ is contraindicated in patients with:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Permanent atrial fibrillation (patients in whom normal sinus rhythm will not or cannot be restored) <content styleCode="italics">[see <linkHtml href="#BOX">Boxed Warning</linkHtml>, <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>]</content>
+                     </item>
+                     <item>Symptomatic heart failure with recent decompensation requiring hospitalization or NYHA Class IV symptoms <content styleCode="italics">[see <linkHtml href="#BOX">Boxed Warning</linkHtml>, <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]</content>
+                     </item>
+                     <item>Second or third-degree atrioventricular (AV) block, or sick sinus syndrome (except when used in conjunction with a functioning pacemaker)</item>
+                     <item>Bradycardia &lt;50 bpm </item>
+                     <item>Concomitant use of strong CYP3A inhibitors, such as ketoconazole, itraconazole, voriconazole, cyclosporine, telithromycin, clarithromycin, nefazodone, and ritonavir <content styleCode="italics">[see <linkHtml href="#S7.2">Drug Interactions (7.2)</linkHtml>]</content>
+                     </item>
+                     <item>Concomitant use of erythromycin <content styleCode="italics">[see <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>
+                     </item>
+                     <item>Concomitant use of drugs or herbal products that prolong the QT interval and might increase the risk of torsade de pointes, such as phenothiazine antipsychotics, tricyclic antidepressants, certain oral macrolide antibiotics, and Class I and III antiarrhythmics</item>
+                     <item>Liver or lung toxicity related to the previous use of amiodarone</item>
+                     <item>QTc interval &gt;500 ms or PR interval &gt;280 ms</item>
+                     <item>Severe hepatic impairment</item>
+                     <item>Hypersensitivity to the active substance or to any of the excipients</item>
+                  </list>
+               </text>
+               <effectiveTime value="20250529"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Permanent AF (patients in whom normal sinus rhythm will not or cannot be restored)  (<linkHtml href="#BOX">Boxed Warning</linkHtml>, <linkHtml href="#S4">4</linkHtml>)</item>
+                           <item>Recently decompensated heart failure requiring hospitalization or Class IV heart failure (<linkHtml href="#BOX">Boxed Warning</linkHtml>, <linkHtml href="#S4">4</linkHtml>)</item>
+                           <item>Second or third-degree atrioventricular (AV) block or sick sinus syndrome (except when used in conjunction with a functioning pacemaker) (<linkHtml href="#S4">4</linkHtml>)</item>
+                           <item>Bradycardia &lt;50 bpm (<linkHtml href="#S4">4</linkHtml>) </item>
+                           <item>Concomitant use of a strong CYP3A inhibitor (<linkHtml href="#S4">4</linkHtml>)</item>
+                           <item>Concomitant use of erythromycin (<linkHtml href="#S4">4</linkHtml>)</item>
+                           <item>Concomitant use of drugs or herbal products that prolong the QT interval and may induce torsade de pointes (<linkHtml href="#S4">4</linkHtml>)</item>
+                           <item>Liver or lung toxicity related to the previous use of amiodarone (<linkHtml href="#S4">4</linkHtml>)</item>
+                           <item>QTc interval &gt;500 ms or PR interval &gt;280 ms (<linkHtml href="#S4">4</linkHtml>)</item>
+                           <item>Severe hepatic impairment (<linkHtml href="#S4">4</linkHtml>)</item>
+                           <item>Hypersensitivity to the active substance or to any of the excipients (<linkHtml href="#S4">4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S5">
+               <id root="f55e0a12-0e76-4015-bb59-90b92c5d613b"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20250529"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Determine cardiac rhythm at least once every 3 months. If AF is detected discontinue MULTAQ or cardiovert. (<linkHtml href="#S5.2">5.2</linkHtml>)</item>
+                           <item>Ensure appropriate antithrombotic therapy prior to and throughout MULTAQ use. (<linkHtml href="#S5.3">5.3</linkHtml>)</item>
+                           <item>Liver injury: If hepatic injury is suspected, discontinue MULTAQ. (<linkHtml href="#S5.5">5.5</linkHtml>)</item>
+                           <item>If pulmonary toxicity is confirmed, discontinue treatment. (<linkHtml href="#S5.6">5.6</linkHtml>)</item>
+                           <item>Hypokalemia and hypomagnesemia: Maintain potassium and magnesium levels within the normal range. (<linkHtml href="#S5.7">5.7</linkHtml>)</item>
+                           <item>Renal impairment: Monitor renal function periodically. (<linkHtml href="#S5.9">5.9</linkHtml>)</item>
+                           <item>Embryofetal Toxicity: Based on animal data, MULTAQ may cause fetal harm when administered to a pregnant woman. Advise females of reproductive potential of the potential risk to a fetus and to use effective contraception while using MULTAQ. (<linkHtml href="#S5.10">5.10</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S5.1">
+                     <id root="171e56d1-50e3-43c0-bc29-095a5eeabb91"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Cardiovascular Death in NYHA Class IV or Decompensated Heart Failure</title>
+                     <text>
+                        <paragraph>MULTAQ is contraindicated in patients with NYHA Class IV heart failure or symptomatic heart failure with recent decompensation requiring hospitalization because it doubles the risk of death.</paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.2">
+                     <id root="2eb5b80e-1c4d-41fd-80ef-ed9c52ac4ea2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Cardiovascular Death and Heart Failure in Permanent AF</title>
+                     <text>
+                        <paragraph>MULTAQ doubles the risk of cardiovascular death (largely arrhythmic) and heart failure events in patients with permanent AF. Patients treated with dronedarone should undergo monitoring of cardiac rhythm no less often than every 3 months. Cardiovert patients who are in atrial fibrillation (if clinically indicated) or discontinue MULTAQ. MULTAQ offers no benefit in subjects in permanent AF.</paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.3">
+                     <id root="83cfd736-9b86-412b-9818-cf693352a9ca"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3	Increased Risk of Stroke in Permanent AF</title>
+                     <text>
+                        <paragraph>In a placebo-controlled study in patients with permanent atrial fibrillation, dronedarone was associated with an increased risk of stroke, particularly in the first two weeks of therapy <content styleCode="italics">[see <linkHtml href="#S14.4">Clinical Studies (14.4)</linkHtml>]</content>. MULTAQ should only be initiated in patients in sinus rhythm who are receiving appropriate antithrombotic therapy <content styleCode="italics">[see <linkHtml href="#S7.3">Drug Interactions (7.3)</linkHtml>]</content>. </paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.4">
+                     <id root="85435d88-e35c-4e45-84d1-4ecfb7e5a242"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4 New Onset or Worsening Heart Failure </title>
+                     <text>
+                        <paragraph>New onset or worsening of heart failure has been reported during treatment with MULTAQ in the postmarketing setting. In a placebo-controlled study in patients with permanent AF increased rates of heart failure were observed in patients with normal left ventricular function and no history of symptomatic heart failure, as well as those with a history of heart failure or left ventricular dysfunction. </paragraph>
+                        <paragraph>Advise patients to consult a physician if they develop signs or symptoms of heart failure, such as weight gain, dependent edema, or increasing shortness of breath. If heart failure develops or worsens and requires hospitalization, discontinue MULTAQ. </paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.5">
+                     <id root="dcb2cd11-c38f-4a62-b987-427e3b8c3cc7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5 Liver Injury</title>
+                     <text>
+                        <paragraph>Hepatocellular liver injury, including acute liver failure requiring transplant, has been reported in patients treated with MULTAQ in the postmarketing setting. Advise patients treated with MULTAQ to report immediately symptoms suggesting hepatic injury (such as anorexia, nausea, vomiting, fever, malaise, fatigue, right upper quadrant pain, jaundice, dark urine, or itching). Consider obtaining periodic hepatic serum enzymes, especially during the first 6 months of treatment, but it is not known whether routine periodic monitoring of serum enzymes will prevent the development of severe liver injury. If hepatic injury is suspected, promptly discontinue MULTAQ and test serum enzymes, aspartate aminotransferase (AST), alanine aminotransferase (ALT) and alkaline phosphatase, as well as serum bilirubin, to establish whether there is liver injury. If liver injury is found, institute appropriate treatment and investigate the probable cause. Do not restart MULTAQ in patients without another explanation for the observed liver injury.</paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.6">
+                     <id root="e2b4275e-5ed9-4d36-bc35-8898d8d785f7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6 Pulmonary Toxicity</title>
+                     <text>
+                        <paragraph>Cases of interstitial lung disease including pneumonitis and pulmonary fibrosis have been reported in patients treated with MULTAQ in the postmarketing setting <content styleCode="italics">[see <linkHtml href="#S6.2">Adverse Reactions (6.2)</linkHtml>]</content>. Onset of dyspnea or non-productive cough may be related to pulmonary toxicity and patients should be carefully evaluated clinically. If pulmonary toxicity is confirmed, MULTAQ should be discontinued.</paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.7">
+                     <id root="2b96269f-9d6f-4336-8871-253ba240ae2c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.7 Hypokalemia and Hypomagnesemia with Potassium-Depleting Diuretics</title>
+                     <text>
+                        <paragraph>Hypokalemia or hypomagnesemia may occur with concomitant administration of potassium-depleting diuretics. Potassium levels should be within the normal range prior to administration of MULTAQ and maintained in the normal range during administration of MULTAQ.</paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.8">
+                     <id root="cb921474-2944-4320-aacb-121ed155d646"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.8 QT Interval Prolongation</title>
+                     <text>
+                        <paragraph>                          MULTAQ is associated with concentration-dependent QTcF interval prolongation (estimated QTcF increase for 400 mg BID with food is 15 ms) <content styleCode="italics">[see <linkHtml href="#S12.2">Clinical Pharmacology (12.2)</linkHtml>]</content>. If the QTc interval is &gt;500 ms, discontinue MULTAQ <content styleCode="italics">[see <linkHtml href="#S4">Contraindications (4)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.9">
+                     <id root="4cb6bfd2-c245-4c41-a031-ec1e06401d63"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.9 Renal Impairment and Failure</title>
+                     <text>
+                        <paragraph>Marked increase in serum creatinine, pre-renal azotemia and acute renal failure, often in the setting of heart failure <content styleCode="italics">[see <linkHtml href="#S5.4">Warnings and Precautions (5.4)</linkHtml>]</content> or hypovolemia, have been reported in patients taking MULTAQ. In most cases, these effects appear to be reversible upon drug discontinuation and with appropriate medical treatment. Monitor renal function periodically.</paragraph>
+                        <paragraph>Small increases in creatinine levels (about 0.1 mg/dL) following dronedarone treatment initiation have been shown to be a result of inhibition of creatinine's tubular secretion. The elevation has a rapid onset, reaches a plateau after 7 days and is reversible after discontinuation.</paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.10">
+                     <id root="a06845e7-ab64-4713-9f81-3837bafb60b9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.10    Embryofetal Toxicity</title>
+                     <text>
+                        <paragraph>Based on animal data, MULTAQ may cause fetal harm when administered to a pregnant woman. Dronedarone caused multiple visceral and skeletal malformations in animal reproduction studies when pregnant rats and rabbits were administered dronedarone at doses equivalent to recommended human doses. Advise pregnant women of the potential risk to the fetus. Verify that females of reproductive potential are not pregnant prior to initiating MULTAQ. Advise females of reproductive potential to use effective contraception during treatment with MULTAQ and for 5 days (about 6 half-lives) after the final dose <content styleCode="italics">[see <linkHtml href="#S8.1">Use in Specific Populations (8.1</linkHtml>, <linkHtml href="#S8.3">8.3)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S6">
+               <id root="fbe0ad45-c4c0-4169-81df-f4f6dff487ce"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following safety concerns are described elsewhere in the label:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>New or worsening heart failure <content styleCode="italics">[see <linkHtml href="#S5.4">Warnings and Precautions (5.4)</linkHtml>]</content>
+                     </item>
+                     <item>Liver Injury <content styleCode="italics">[see <linkHtml href="#S5.5">Warnings and Precautions (5.5)</linkHtml>]</content>
+                     </item>
+                     <item>Pulmonary toxicity <content styleCode="italics">[see <linkHtml href="#S5.6">Warnings and Precautions (5.6)</linkHtml>]</content>
+                     </item>
+                     <item>Hypokalemia and hypomagnesemia with potassium-depleting diuretics <content styleCode="italics">[see <linkHtml href="#S5.7">Warnings and Precautions (5.7)</linkHtml>]</content>
+                     </item>
+                     <item>QT prolongation <content styleCode="italics">[see <linkHtml href="#S5.8">Warnings and Precautions (5.8)</linkHtml>]</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20250529"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions (≥2%) are diarrhea, nausea, abdominal pain, vomiting, dyspepsia, bradycardia, skin issues (rashes, pruritus, eczema, dermatitis, dermatitis allergic), and asthenia (<linkHtml href="#S6">6</linkHtml>)</paragraph>
+                        <br/>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact sanofi-aventis U.S. LLC at 1-800-633-1610 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S6.1">
+                     <id root="3b040b5d-c1f0-4bfc-bf78-4b48ff9b23c8"/>
+                     <code code="90374-0" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL TRIALS EXPERIENCE SECTION"/>
+                     <title>6.1 Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>The safety evaluation of dronedarone 400 mg twice daily in patients with AF or AFL is based on 5 placebo-controlled studies, ATHENA, EURIDIS, ADONIS, ERATO and DAFNE. In these studies, a total of 6285 patients were randomized and treated, 3282 patients with MULTAQ 400 mg twice daily, and 2875 with placebo. The mean exposure across studies was 12 months. In ATHENA, the maximum follow-up was 30 months.</paragraph>
+                        <paragraph>In clinical trials, premature discontinuation because of adverse reactions occurred in 11.8% of the dronedarone-treated patients and in 7.7% of the placebo-treated group. The most common reasons for discontinuation of therapy with MULTAQ were gastrointestinal disorders (3.2% vs 1.8% in the placebo group) and QT prolongation (1.5% vs 0.5% in the placebo group).</paragraph>
+                        <paragraph>The most frequent adverse reactions observed with MULTAQ 400 mg twice daily in the 5 studies were diarrhea, nausea, abdominal pain, vomiting, and asthenia.</paragraph>
+                        <paragraph>Table 1 displays adverse reactions more common with dronedarone 400 mg twice daily than with placebo in AF or AFL patients, presented by system organ class and by decreasing order of frequency. Adverse laboratory and ECG effects are presented separately in Table 2. </paragraph>
+                        <table width="80%" ID="table1">
+                           <caption>Table 1: Adverse Drug Reactions that Occurred in at Least 1% of Patients and were More Frequent than Placebo</caption>
+                           <col width="50%" align="left" valign="top"/>
+                           <col width="25%" align="center" valign="top"/>
+                           <col width="25%" align="center" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th styleCode="Lrule Rrule" rowspan="2"/>
+                                 <th styleCode="Rrule">Placebo</th>
+                                 <th styleCode="Rrule">Dronedarone<br/>400 mg twice daily</th>
+                              </tr>
+                              <tr>
+                                 <th styleCode="Rrule" align="center">(N=2875)</th>
+                                 <th styleCode="Rrule">(N=3282)</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">
+                                    <content styleCode="bold">
+                                       <content styleCode="underline">Gastrointestinal</content>
+                                    </content>
+                                 </td>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">  Diarrhea</td>
+                                 <td styleCode="Rrule">6%</td>
+                                 <td styleCode="Rrule">9%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">  Nausea</td>
+                                 <td styleCode="Rrule">3%</td>
+                                 <td styleCode="Rrule">5%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">  Abdominal pain</td>
+                                 <td styleCode="Rrule">3%</td>
+                                 <td styleCode="Rrule">4%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">  Vomiting</td>
+                                 <td styleCode="Rrule">1%</td>
+                                 <td styleCode="Rrule">2%</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">  Dyspeptic signs and symptoms</td>
+                                 <td styleCode="Rrule">1%</td>
+                                 <td styleCode="Rrule">2%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">
+                                    <content styleCode="bold">
+                                       <content styleCode="underline">General </content>
+                                    </content>
+                                 </td>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">  Asthenic conditions</td>
+                                 <td styleCode="Rrule">5%</td>
+                                 <td styleCode="Rrule">7%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">
+                                    <content styleCode="bold">
+                                       <content styleCode="underline">Cardiac</content>
+                                    </content>
+                                 </td>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">  Bradycardia</td>
+                                 <td styleCode="Rrule">1%</td>
+                                 <td styleCode="Rrule">3%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">
+                                    <content styleCode="bold">
+                                       <content styleCode="underline">Skin and subcutaneous tissue </content>
+                                    </content>
+                                 </td>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">  Including rashes (generalized, macular, maculo-papular, erythematous), pruritus, eczema, dermatitis, dermatitis allergic</td>
+                                 <td styleCode="Rrule">3%</td>
+                                 <td styleCode="Rrule">5%</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Photosensitivity reaction and dysgeusia have also been reported at an incidence less than 1% in patients treated with MULTAQ.</paragraph>
+                        <paragraph>The following laboratory data/ECG parameters were reported with MULTAQ 400 mg twice daily.</paragraph>
+                        <table width="80%" ID="table2">
+                           <caption>Table 2: Laboratory Data/ECG Parameters Not Necessarily Reported as Adverse Events</caption>
+                           <col width="50%" align="left" valign="top"/>
+                           <col width="25%" align="center" valign="top"/>
+                           <col width="25%" align="center" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th styleCode="Lrule Rrule"/>
+                                 <th styleCode="Rrule">Placebo</th>
+                                 <th styleCode="Rrule">MULTAQ<br/>400 mg twice daily</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule"/>
+                                 <td styleCode="Rrule">
+                                    <content styleCode="bold">(N=2875)</content>
+                                 </td>
+                                 <td styleCode="Rrule">
+                                    <content styleCode="bold">(N=3282)</content>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Early increases in creatinine ≥10%</td>
+                                 <td styleCode="Rrule">21%</td>
+                                 <td styleCode="Rrule">51%</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule"/>
+                                 <td styleCode="Rrule">
+                                    <content styleCode="bold">(N=2237) </content>
+                                 </td>
+                                 <td styleCode="Rrule">
+                                    <content styleCode="bold">(N=2701)</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">QTc prolonged </td>
+                                 <td styleCode="Rrule">19%</td>
+                                 <td styleCode="Rrule">28%</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Assessment of demographic factors such as gender or age on the incidence of treatment-emergent adverse events did not suggest an excess of adverse events in any particular subgroup.</paragraph>
+                        <paragraph>In randomized clinical trials of patients with paroxysmal or persistent atrial fibrillation, one case of torsade de pointes was reported in patients treated with MULTAQ (2301 patients) versus no cases of torsade de pointes in patients treated with placebo (2327) in the ATHENA study.  No cases of torsade de pointes were reported in patients treated with MULTAQ (828 patients) or placebo (409 patients) in the EURIDIS and ADONIS studies <content styleCode="italics">[see <linkHtml href="#S14">Clinical Studies (14)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S6.2">
+                     <id root="b7dda5e5-3d64-46ca-9467-ce48213347bd"/>
+                     <code code="90375-7" codeSystem="2.16.840.1.113883.6.1" displayName="POSTMARKETING EXPERIENCE SECTION"/>
+                     <title>6.2 Postmarketing Experience</title>
+                     <text>
+                        <paragraph>The following adverse reactions have been identified during postapproval use of MULTAQ. Because these reactions are reported voluntarily from a population of an unknown size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Cardiac:</content> New or worsening heart failure <content styleCode="italics">[see <linkHtml href="#S5.4">Warnings and Precautions (5.4)</linkHtml>]</content>
+                        </paragraph>
+                        <paragraph>Atrial flutter with 1:1 atrioventricular conduction has been reported very rarely.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Hepatic:</content> Liver injury <content styleCode="italics">[see <linkHtml href="#S5.5">Warnings and Precautions (5.5)</linkHtml>]</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Respiratory:</content> Interstitial lung disease including pneumonitis and pulmonary fibrosis<content styleCode="italics"> [see<linkHtml href="#S5.6"> Warnings and Precautions (5.6)</linkHtml>] </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Immune:</content> Anaphylactic reactions including angioedema </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Vascular:</content> Vasculitis, including leukocytoclastic vasculitis</paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S7">
+               <id root="44fa3e25-a29b-454a-bc9e-1cd06f7b4b4f"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <effectiveTime value="20250529"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Dronedarone is metabolized by CYP3A and is a moderate inhibitor of CYP3A and CYP2D6 and has potentially important pharmacodynamic interactions (<linkHtml href="#S7">7</linkHtml>)</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Class I or III antiarrhythmics: Contraindicated. (<linkHtml href="#S4">4</linkHtml>, <linkHtml href="#S7.1">7.1</linkHtml>)</item>
+                           <item>Digoxin: Consider discontinuation or halve dose of digoxin before treatment and monitor digoxin levels. (<linkHtml href="#S7.1">7.1</linkHtml>, <linkHtml href="#S7.3">7.3</linkHtml>)</item>
+                           <item>Calcium channel blockers (CCB): Initiate CCB with low dose and increase after ECG verification of tolerability. (<linkHtml href="#S7.1">7.1</linkHtml>, <linkHtml href="#S7.2">7.2</linkHtml>, <linkHtml href="#S7.3">7.3</linkHtml>)</item>
+                           <item>Beta-blockers: May provoke excessive bradycardia. Initiate with low dose and increase after ECG verification of tolerability. (<linkHtml href="#S7.1">7.1</linkHtml>, <linkHtml href="#S7.3">7.3</linkHtml>)</item>
+                           <item>CYP3A inducers: Avoid concomitant use. (<linkHtml href="#S7.2">7.2</linkHtml>)</item>
+                           <item>Grapefruit juice: Avoid concomitant use. (<linkHtml href="#S7.2">7.2</linkHtml>)</item>
+                           <item>Statins: Avoid simvastatin doses greater than 10 mg daily. Follow label recommendations for concomitant use of other statins with a CYP3A and P-gp inhibitor like dronedarone. (<linkHtml href="#S7.3">7.3</linkHtml>)</item>
+                           <item>CYP3A substrates with a narrow therapeutic index (e.g., sirolimus and tacrolimus): Monitor and adjust dosage of concomitant drug as needed when used with MULTAQ. (<linkHtml href="#S7.3">7.3</linkHtml>)</item>
+                           <item>Warfarin: Monitor INR after initiating dronedarone in patients taking warfarin. (<linkHtml href="#S7.3">7.3</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S7.1">
+                     <id root="c291c426-5957-474f-87d0-90d3cbe2fb24"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1 Pharmacodynamic Interactions</title>
+                     <effectiveTime value="20250529"/>
+                     <component>
+                        <section>
+                           <id root="e8034c3b-598e-4246-ac82-ed02f4f69b94"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Drugs Prolonging the QT Interval (Inducing Torsade de Pointes)</content>
+                              </paragraph>
+                              <paragraph>Coadministration of drugs prolonging the QT interval (such as certain phenothiazines, tricyclic antidepressants, certain macrolide antibiotics, and Class I and III antiarrhythmics) is contraindicated because of the potential risk of torsade de pointes–type ventricular tachycardia <content styleCode="italics">[see <linkHtml href="#S4">Contraindications (4)</linkHtml>, <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="21e7bd46-e88d-4f3f-b0d4-91d1a71a3559"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Digoxin</content>
+                              </paragraph>
+                              <paragraph>In the ANDROMEDA (patients with recently decompensated heart failure) and PALLAS (patients with permanent AF) trials baseline use of digoxin was associated with an increased risk of arrhythmic or sudden death in dronedarone-treated patients compared to placebo. In patients not taking digoxin, no difference in risk of sudden death was observed in the dronedarone versus placebo groups <content styleCode="italics">[see <linkHtml href="#S14.3">Clinical Studies (14.3)</linkHtml>]</content>.</paragraph>
+                              <paragraph>Digoxin can potentiate the electrophysiologic effects of dronedarone (such as decreased AV-node conduction). Dronedarone increases exposure to digoxin <content styleCode="italics">[see <linkHtml href="#S7.3">Drug Interactions (7.3)</linkHtml>,  <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>.</paragraph>
+                              <paragraph>Consider discontinuing digoxin. If digoxin treatment is continued, halve the dose of digoxin, monitor serum levels closely, and observe for toxicity<content styleCode="italics">.</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="e0722873-f723-48b3-a973-6ccc4b0f57c2"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Calcium Channel Blockers</content>
+                              </paragraph>
+                              <paragraph>Calcium channel blockers with depressant effects on the sinus and AV nodes could potentiate dronedarone's effects on conduction.</paragraph>
+                              <paragraph>Give a low dose of calcium channel blockers initially and increase only after ECG verification of good tolerability <content styleCode="italics">[see <linkHtml href="#S7.3">Drug Interactions (7.3)</linkHtml>, <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="ddd42ff8-e393-4805-8393-fcee9554f1c6"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Beta-Blockers</content>
+                              </paragraph>
+                              <paragraph>In clinical trials, bradycardia was more frequently observed when dronedarone was given in combination with beta-blockers.</paragraph>
+                              <paragraph>Give a low dose of beta-blockers initially, and increase only after ECG verification of good tolerability <content styleCode="italics">[see <linkHtml href="#S7.3">Drug Interactions (7.3)</linkHtml>, <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S7.2">
+                     <id root="f87cace3-f49a-46bd-ad00-6cd3b9b036f8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.2 Effects of Other Drugs on Dronedarone</title>
+                     <effectiveTime value="20250529"/>
+                     <component>
+                        <section>
+                           <id root="937c17c0-a4ac-42c9-a60d-ad6a74718c13"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Ketoconazole and Other Potent CYP3A Inhibitors</content>
+                              </paragraph>
+                              <paragraph>Concomitant use of ketoconazole as well as other potent CYP3A inhibitors such as itraconazole, voriconazole, ritonavir, clarithromycin, and nefazodone is contraindicated because exposure to dronedarone is significantly increased <content styleCode="italics">[see <linkHtml href="#S4">Contraindications (4)</linkHtml>, <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="fdd4d2fa-75ec-4235-973a-c23e98cf1cd6"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Grapefruit Juice</content>
+                              </paragraph>
+                              <paragraph>Patients should avoid grapefruit juice beverages while taking MULTAQ because exposure to dronedarone is significantly increased <content styleCode="italics">[see <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="d606c129-9e11-4fa5-a891-de062bfbe537"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Rifampin and Other CYP3A Inducers</content>
+                              </paragraph>
+                              <paragraph>Avoid rifampin or other CYP3A inducers such as phenobarbital, carbamazepine, phenytoin, and St. John's wort because they decrease exposure to dronedarone significantly <content styleCode="italics">[see <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="692d2da5-9814-4a40-8d7a-41b20f7d6b21"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Calcium Channel Blockers</content>
+                              </paragraph>
+                              <paragraph>Verapamil and diltiazem are moderate CYP3A inhibitors and increase dronedarone exposure.  Give a low dose of calcium channel blockers initially and increase only after ECG verification of good tolerability <content styleCode="italics">[see <linkHtml href="#S7.3">Drug Interactions (7.3)</linkHtml>, <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S7.3">
+                     <id root="3a1d9624-6c8b-47d8-9e2c-83e8830e918f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.3 Effects of Dronedarone on Other Drugs</title>
+                     <effectiveTime value="20250529"/>
+                     <component>
+                        <section>
+                           <id root="247a9e35-c201-407d-b567-a36fb546c2c4"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Simvastatin</content>
+                              </paragraph>
+                              <paragraph>Dronedarone increased simvastatin/simvastatin acid exposure. Avoid doses greater than 10 mg once daily of simvastatin <content styleCode="italics">[see <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="23260c49-7140-4c42-88d3-dbdeb2dd0b7f"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Other Statins</content>
+                              </paragraph>
+                              <paragraph>Because of multiple mechanisms of interaction with statins (CYPs and transporters), follow statin label recommendations for use with CYP3A and P-gp inhibitors such as dronedarone.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="12030c85-d8b8-4cf3-bdb2-ff017f9ef7b8"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Calcium Channel Blockers</content>
+                              </paragraph>
+                              <paragraph>Dronedarone increased the exposure of calcium channel blockers (verapamil, diltiazem or nifedipine). Give a low dose of calcium channel blockers initially and increase only after ECG verification of good tolerability <content styleCode="italics">[see <linkHtml href="#S7.1">Drug Interactions (7.1)</linkHtml>, <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="98b53767-22f9-4a09-b8ed-3beaa287c0bd"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Sirolimus, Tacrolimus, and Other CYP3A Substrates with Narrow Therapeutic Range</content>
+                              </paragraph>
+                              <paragraph>Dronedarone can increase plasma concentrations of tacrolimus, sirolimus, and other CYP3A substrates with a narrow therapeutic range when given orally. Monitor plasma concentrations and adjust dosage appropriately.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="12a986ae-3d2f-48be-93db-691b4343bd57"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Beta-Blockers and Other CYP2D6 Substrates</content>
+                              </paragraph>
+                              <paragraph>Dronedarone increased the exposure of propranolol and metoprolol. Give low doses of beta-blockers initially, and increase only after ECG verification of good tolerability. Other CYP2D6 substrates, including other beta-blockers, tricyclic antidepressants, and selective serotonin reuptake inhibitors (SSRIs) may have increased exposure upon coadministration with dronedarone <content styleCode="italics">[see <linkHtml href="#S7.1">Drug Interactions (7.1)</linkHtml>, <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="ad5d0439-9e09-45eb-ade9-801ee3fc05b0"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">P-glycoprotein Substrates</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                           <component>
+                              <section>
+                                 <id root="b04ab6d7-b5d2-4b88-b951-59f9d2d04cbf"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>Digoxin</paragraph>
+                                    <paragraph>Dronedarone increased digoxin exposure by inhibiting the P-gp transporter. Consider discontinuing digoxin. If digoxin treatment is continued, halve the dose of digoxin, monitor serum levels closely, and observe for toxicity <content styleCode="italics">[see <linkHtml href="#S7.1">Drug Interactions (7.1)</linkHtml>, <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20250529"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="480ba419-e4cf-4440-927c-33d252b80b12"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>Dabigatran</paragraph>
+                                    <paragraph>Dronedarone increases dabigatran plasma exposures by inhibiting the P-gp transporter <content styleCode="italics">[see <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>. In patients with moderate renal impairment (CrCL 30–50 mL/min), reduce the dose of dabigatran to 75 mg twice daily when concomitantly administered with dronedarone. In patients with severe renal impairment (CrCL 15–30 mL/min), concomitant use of dronedarone with dabigatran should be avoided. </paragraph>
+                                 </text>
+                                 <effectiveTime value="20250529"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="c5ad1f2a-f365-4a06-b621-75ac29065d44"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Warfarin</content>
+                              </paragraph>
+                              <paragraph>When coadministered with dronedarone exposure to S-warfarin was slightly higher than when warfarin was administered alone. There were no clinically significant increases in INR <content styleCode="italics">[see <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>.</paragraph>
+                              <paragraph>More patients experienced clinically significant INR elevations (≥5) usually within 1 week after starting dronedarone versus placebo in patients taking oral anticoagulants in ATHENA. However, no excess risk of bleeding was observed in the dronedarone group.</paragraph>
+                              <paragraph>Postmarketing cases of increased INR with or without bleeding events have been reported in warfarin-treated patients initiated on dronedarone. Monitor INR after initiating dronedarone in patients taking warfarin.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S8">
+               <id root="cd13c4a9-96f3-4bb4-a3e8-3e78d7e4bc8f"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20250529"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Lactation: Do not breastfeed (<linkHtml href="#S8.2">8.2)</linkHtml>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S8.1">
+                     <id root="cceece2f-42ca-464c-b67e-08cb40e4c48f"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <effectiveTime value="20250529"/>
+                     <component>
+                        <section>
+                           <id root="98e01c6a-85ea-487f-a688-e75a15d534e2"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>MULTAQ may cause fetal harm when administered to a pregnant woman. In animal studies, dronedarone administered to pregnant rats and rabbits during the period of organogenesis caused multiple visceral (rats) and skeletal malformations (rats and rabbits) when administered at doses equivalent to or lower than the maximum recommended human dose (MRHD) <content styleCode="italics">(see <linkHtml href="#data">Data</linkHtml>).</content> There are no available data on dronedarone use in pregnant women to evaluate for a drug-associated risk of major birth defects or miscarriage or other adverse maternal or fetal outcomes.  Advise pregnant women of the potential risk to a fetus. The background risk of major birth defects and miscarriage for the indicated population is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="data">
+                           <id root="e774a208-4bee-46e2-998b-b0e4ec51fcbb"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Data</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                           <component>
+                              <section>
+                                 <id root="41b362d0-f607-49a5-bafc-39cff927f466"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>Animal data</paragraph>
+                                    <paragraph>When pregnant rats in embryofetal development studies received dronedarone at oral doses greater than or equal to the MRHD (on a mg/m<sup>2</sup> basis) during organogenesis (gestational days 6 to 15) fetuses had increased rates of external, visceral and skeletal malformations (cranioschisis, cleft palate, incomplete evagination of pineal body, brachygnathia, partially fused carotid arteries, truncus arteriosus, abnormal lobation of the liver, partially duplicated inferior vena cava, brachydactyly, ectrodactyly, syndactyly, and anterior and/or posterior club feet). When pregnant rabbits in embryofetal development studies received dronedarone, at a dose approximately half the MRHD (on a mg/m<sup>2</sup> basis) during organogenesis (gestational days 6 to 18), fetuses had an increased rate of skeletal abnormalities (anomalous ribcage and vertebrae, pelvic asymmetry) at doses ≥20 mg/kg (the lowest dose tested and approximately half the MRHD on a mg/m<sup>2</sup> basis).</paragraph>
+                                    <paragraph>Actual animal doses:  rat (≥80 mg/kg/day); rabbit (≥20 mg/kg)</paragraph>
+                                 </text>
+                                 <effectiveTime value="20250529"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.2">
+                     <id root="9889b2c2-1d86-4c98-8d01-6f0697b8db3d"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2 Lactation</title>
+                     <effectiveTime value="20250529"/>
+                     <component>
+                        <section>
+                           <id root="e684705e-23dd-4148-bf52-c3513761d984"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>There are no available data on the presence of dronedarone in human milk, the effects on the breastfed infant, or the effect on milk production. Dronedarone and its metabolites are present in rat milk. During a prenatal and postnatal study in rats, maternal dronedarone administration was associated with minor reduced body-weight gain in the offspring. When a drug is present in animal milk, it is likely that the drug will be present in human milk. Because of the potential for serious adverse reactions in breastfed infants from MULTAQ like the adverse effects in adults, (liver injury, and pulmonary toxicity), advise patients not to breastfeed during treatment with MULTAQ and for 5 days (about 6 half-lives) after the last dose.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.3">
+                     <id root="ad2fd96e-d444-4ab4-bf5c-c51e2fa15765"/>
+                     <code code="77291-3" codeSystem="2.16.840.1.113883.6.1" displayName="FEMALES &amp; MALES OF REPRODUCTIVE POTENTIAL SECTION"/>
+                     <title>8.3 Females and Males of Reproductive Potential</title>
+                     <text>
+                        <paragraph>MULTAQ may cause fetal harm when administered to pregnant women <content styleCode="italics">[see <linkHtml href="#S8.1">Use in Specific Populations (8.1)</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                     <component>
+                        <section>
+                           <id root="3ad36b3e-ba0d-489c-a9e4-aaeda9662089"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Pregnancy Testing</content>
+                              </paragraph>
+                              <paragraph>Verify that females of reproductive potential are not pregnant prior to initiating MULTAQ.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="191a0d2f-0f0f-4fa8-9aa5-99b2e31ce6fa"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Contraception</content>
+                              </paragraph>
+                              <paragraph>Advise female patients of reproductive potential to use effective contraception during treatment with MULTAQ and for 5 days after the final dose.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.4">
+                     <id root="1a0849e5-1f27-4f5c-bdfe-0c82ec2aa159"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and efficacy in children below the age of 18 years have not been established. </paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.5">
+                     <id root="ccec3185-ef57-4713-b940-4b1486eac1bd"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>More than 4500 patients with AF or AFL aged 65 years or above were included in the MULTAQ clinical program (of whom more than 2000 patients were 75 years or older). Efficacy and safety were similar in elderly and younger patients. </paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.6">
+                     <id root="b5a2e89c-d88b-43cd-84df-009f0fe29f22"/>
+                     <code code="88828-9" codeSystem="2.16.840.1.113883.6.1" displayName="RENAL IMPAIRMENT SUBSECTION"/>
+                     <title>8.6 Renal Impairment</title>
+                     <text>
+                        <paragraph>Patients with renal impairment were included in clinical studies. Because renal excretion of dronedarone is minimal <content styleCode="italics">[see <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>, no dosing alteration is needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.7">
+                     <id root="9cb0fb23-cbb7-4107-8844-c71c4f5a54a8"/>
+                     <code code="88829-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEPATIC IMPAIRMENT SUBSECTION"/>
+                     <title>8.7 Hepatic Impairment</title>
+                     <text>
+                        <paragraph>Dronedarone is extensively metabolized by the liver. There is little clinical experience with moderate hepatic impairment and none with severe impairment. No dosage adjustment is recommended for moderate hepatic impairment <content styleCode="italics">[see <linkHtml href="#S4">Contraindications (4)</linkHtml>, <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S10">
+               <id root="6d7fde0a-8917-4ab9-8120-8ae9442b6184"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>In the event of overdosage, monitor the patient's cardiac rhythm and blood pressure. Treatment should be supportive and based on symptoms.</paragraph>
+                  <paragraph>It is not known whether dronedarone or its metabolites can be removed by dialysis (hemodialysis, peritoneal dialysis or hemofiltration). There is no specific antidote available.</paragraph>
+               </text>
+               <effectiveTime value="20250529"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S11">
+               <id root="1bfb8412-1cea-4d8b-ba7a-20f73d0cd472"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Dronedarone HCl is a benzofuran derivative with the following chemical name:</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">N</content>-{2-butyl-3-[4-(3-dibutylaminopropoxy)benzoyl]benzofuran-5-yl} methanesulfonamide, hydrochloride. </paragraph>
+                  <paragraph>Dronedarone HCl is a white fine powder that is practically insoluble in water and freely soluble in methylene chloride and methanol. </paragraph>
+                  <paragraph>Its empirical formula is C<sub>31</sub>H<sub>44</sub>N<sub>2</sub>O<sub>5 </sub>S, HCl with a relative molecular mass of 593.2. Its structural formula is: </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+                  <paragraph>MULTAQ is provided as tablets for oral administration.</paragraph>
+                  <paragraph>Each tablet of MULTAQ contains 400 mg of dronedarone (expressed as base). </paragraph>
+                  <paragraph>The inactive ingredients are:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption> </caption>Core of the tablets: Colloidal silicon dioxide, crospovidone, hypromellose, lactose monohydrate, magnesium stearate, poloxamer 407, starch.</item>
+                     <item>
+                        <caption> </caption>Coating/polishing of the tablets: Carnauba wax, hypromellose, polyethylene glycol 6000, titanium dioxide.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20250529"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="7fa41601-7fb5-4155-8e50-2ae903f0d2d6-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S12">
+               <id root="68e797d0-f975-433d-a83d-73b3119be7f3"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20250529"/>
+               <component>
+                  <section ID="S12.1">
+                     <id root="e35b734e-a60f-43b9-aed8-1502147640d2"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>The mechanism of action of dronedarone is unknown. Dronedarone has antiarrhythmic properties belonging to all four Vaughan-Williams classes, but the contribution of each of these activities to the clinical effect is unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S12.2">
+                     <id root="160d46e2-bdd9-4c1b-8df4-0e97be25811f"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <effectiveTime value="20250529"/>
+                     <component>
+                        <section>
+                           <id root="785fca2d-2f02-4e7d-82c2-2a08fcf27318"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Electrophysiological Effects</content>
+                              </paragraph>
+                              <paragraph>The effect of dronedarone on 12-lead ECG parameters was investigated in healthy subjects following repeated oral doses up to 1600 mg twice daily for 10 days.  Concentration-dependent increases in QTcF and PR were observed and the estimated increases for 400 mg BID with food are 15 and 12 ms, respectively. The contribution of dronedarone and the N-debutyl metabolite to observed changes is unknown.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="e2a3242b-31ee-4e59-8c26-29c139726884"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">DAFNE Study</content>
+                              </paragraph>
+                              <paragraph>DAFNE was a dose-response study in patients with recurrent AF, evaluating the effect of dronedarone in comparison with placebo in maintaining sinus rhythm. The doses of dronedarone in this study were 400, 600, and 800 mg twice a day. In this small study, doses above 400 mg were not more effective and were less well tolerated.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S12.3">
+                     <id root="de19867b-8397-47b9-8fd4-03e04b00eceb"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Dronedarone is extensively metabolized and has low systemic bioavailability; its bioavailability is increased by meals. Its elimination half-life is 13 to 19 hours.</paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                     <component>
+                        <section>
+                           <id root="32a0bf43-7537-4464-ad65-996d33a3fe9e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Absorption</content>
+                              </paragraph>
+                              <paragraph>Because of presystemic first pass metabolism the absolute bioavailability of dronedarone without food is low, about 4%. It increases to approximately 15% when dronedarone is administered with a high fat meal. After oral administration in fed conditions, peak plasma concentrations of dronedarone and the main circulating active metabolite (N-debutyl metabolite) are reached within 3 to 6 hours. After repeated administration of 400 mg twice daily, steady state is reached within 4 to 8 days of treatment and the mean accumulation ratio for dronedarone ranges from 2.6 to 4.5. The steady-state C<sub>max</sub> and exposure of the main N-debutyl metabolite is similar to that of the parent compound. The pharmacokinetics of dronedarone and its N-debutyl metabolite both deviate moderately from dose proportionality: a doubling in dose results in approximately 2.5 to 3.0-fold the C<sub>max </sub>and AUC.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="e6070654-100b-4e92-9d19-9c868cf351c7"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Distribution</content>
+                              </paragraph>
+                              <paragraph>The <content styleCode="italics">in vitro</content> plasma protein binding of dronedarone and its N-debutyl metabolite is &gt;98% and not saturable. Both compounds bind mainly to albumin. After intravenous (IV) administration the volume of distribution at steady state is about 1400 L. </paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="da5259c9-1f73-4509-9894-f3735033ce50"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Metabolism</content>
+                              </paragraph>
+                              <paragraph>Dronedarone is extensively metabolized, mainly by CYP3A. The initial metabolic pathway includes N-debutylation to form the active N-debutyl metabolite, oxidative deamination to form the inactive propanoic acid metabolite, and direct oxidation. The metabolites undergo further metabolism to yield over 30 uncharacterized metabolites. Monoamine oxidases contribute partially to the metabolism of the active metabolite of dronedarone.</paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="b7c077ec-caaa-48fe-b084-77df893a18bc"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Excretion/Elimination</content>
+                              </paragraph>
+                              <paragraph>In a mass balance study with orally administered dronedarone (<sup>14</sup>C-labeled) approximately 6% of the labeled dose was excreted in urine, mainly as metabolites (no unchanged compound excreted in urine), and 84% was excreted in feces, mainly as metabolites. Dronedarone and its N-debutyl active metabolite accounted for less than 15% of the resultant radioactivity in the plasma.</paragraph>
+                              <paragraph>After IV administration the plasma clearance of dronedarone ranges from 130 to 150 L/h. The elimination half-life of dronedarone ranges from 13 to 19 hours. </paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="b0aa1ede-c1d9-4498-bce0-15d434490a14"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Special Populations</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                           <component>
+                              <section>
+                                 <id root="62fc8988-2b19-4ee1-9a0a-b063570da07f"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>Gender</paragraph>
+                                    <paragraph>Dronedarone exposures are on average 30% higher in females than in males.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20250529"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="d5790a3a-8ba8-4552-9089-e26c764d1a81"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>Race</paragraph>
+                                    <paragraph>Pharmacokinetic differences related to race were not formally assessed. However, based on a cross study comparison, following single dose administration (400 mg), Asian males (Japanese) have about twice the exposure than Caucasian males. The pharmacokinetics of dronedarone in other races has not been assessed.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20250529"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="8f59b693-8352-4390-b32f-28ba3e48772a"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>Elderly</paragraph>
+                                    <paragraph>Of the total number of subjects in clinical studies of dronedarone, 73% were 65 years of age and over and 34% were 75 and over. In patients aged 65 years old and above, dronedarone exposures are 23% higher than in patients less than 65 years old <content styleCode="italics">[see <linkHtml href="#S8.5">Use in Specific Populations (8.5)</linkHtml>]</content>.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20250529"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="3f55c6d3-b319-4f9b-a9a9-a9d8697a34a1"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>Hepatic impairment</paragraph>
+                                    <paragraph>In subjects with moderate hepatic impairment, the mean dronedarone exposure increased by 30% relative to subjects with normal hepatic function and the mean exposure of the N-debutyl metabolite decreased by about 50%. Pharmacokinetic data were significantly more variable in subjects with moderate hepatic impairment.</paragraph>
+                                    <paragraph>The effect of severe hepatic impairment on the pharmacokinetics of dronedarone was not assessed <content styleCode="italics">[see <linkHtml href="#S4">Contraindications (4)</linkHtml>]</content>.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20250529"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="af4f51a3-bffc-45f3-8e06-1c86772dbfb7"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>Renal impairment</paragraph>
+                                    <paragraph>Consistent with the low renal excretion of dronedarone, no pharmacokinetic difference was observed in subjects with mild or moderate renal impairment compared to subjects with normal renal function <content styleCode="italics">[see <linkHtml href="#S8.6">Use in Specific Populations (8.6)</linkHtml>]</content>. No pharmacokinetic difference was observed in patients with mild to severe renal impairment in comparison with patients with normal renal function.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20250529"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="868b66a5-8f58-41dc-bbf6-648a3c972ba0"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Drug Interactions</content>
+                              </paragraph>
+                              <paragraph>Dronedarone is metabolized primarily by CYP3A and is a moderate inhibitor of CYP3A and CYP2D6.  Dronedarone has no significant potential to inhibit CYP1A2, CYP2C9, CYP2C19, CYP2C8 and CYP2B6. It has the potential to inhibit P-glycoprotein (P-gp) transport. Dronedarone inhibits <content styleCode="italics">in vivo</content> the tubular secretion of creatinine a substrate of the organic cation transporter (OCT2) <content styleCode="italics">[see <linkHtml href="#S5.9">Warnings and Precautions (5.9)</linkHtml>]</content>.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">In vitro</content> dronedarone and the metabolites SR35021 and SR90154 show no significant potential to inhibit the organic anion transporters OAT1 and OAT3 or the organic cation transporter OCT1. However, in vitro data indicate that SR90154 is likely to inhibit the organic anion transporting polypeptides (OATP1B1, OATP1B3) <content styleCode="italics">in vivo</content>.</paragraph>
+                              <paragraph>Pharmacokinetic measures indicating the magnitude of these interactions are presented in Figure 1 (impact of coadministered drugs on dronedarone) and Figure 2 (impact of dronedarone on coadministered drugs).</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Figure 1: The Impact of Coadministered Drugs on the Pharmacokinetics of Dronedarone and Recommendations for Dronedarone Coadministration or Dose Adjustment</content>
+                              </paragraph>
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="MM2"/>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Figure 2: The Impact of Dronedarone on Coadministered Drugs and Recommendations for Dose Adjustment of Coadministered Drug</content>
+                              </paragraph>
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="MM3"/>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20250529"/>
+                           <component>
+                              <observationMedia ID="MM2">
+                                 <text>Figure 1</text>
+                                 <value xsi:type="ED" mediaType="image/jpeg">
+                                    <reference value="7fa41601-7fb5-4155-8e50-2ae903f0d2d6-02.jpg"/>
+                                 </value>
+                              </observationMedia>
+                           </component>
+                           <component>
+                              <observationMedia ID="MM3">
+                                 <text>Figure 2</text>
+                                 <value xsi:type="ED" mediaType="image/jpeg">
+                                    <reference value="7fa41601-7fb5-4155-8e50-2ae903f0d2d6-03.jpg"/>
+                                 </value>
+                              </observationMedia>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S13">
+               <id root="24e3b168-7655-47b2-a9cc-32f901804a86"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20250529"/>
+               <component>
+                  <section ID="S13.1">
+                     <id root="5cc66d7b-a92a-4495-9db9-1fb466f3032c"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>In studies in which dronedarone was administered to rats and mice for up to 2 years at doses of up to 70 mg/kg/day and 300 mg/kg/day, respectively, there was an increased incidence of histiocytic sarcomas in dronedarone-treated male mice (300 mg/kg/day or 5 × the maximum recommended human dose based on AUC comparisons), mammary adenocarcinomas in dronedarone-treated female mice (300 mg/kg/day or 8 × MRHD based on AUC comparisons) and hemangiomas in dronedarone-treated male rats (70 mg/kg/day or 5 × MRHD based on AUC comparisons).</paragraph>
+                        <paragraph>Dronedarone did not demonstrate genotoxic potential in the <content styleCode="italics">in vivo</content> mouse micronucleus test, the Ames bacterial mutation assay, the unscheduled DNA synthesis assay, or an <content styleCode="italics">in vitro</content> chromosomal aberration assay in human lymphocytes. S-9 processed dronedarone, however, was positive in a V79 transfected Chinese hamster V79 assay. </paragraph>
+                        <paragraph>In fertility studies conducted with female rats, dronedarone given prior to breeding and implantation caused an increase in irregular estrus cycles and cessation of cycling at doses ≥10 mg/kg (equivalent to 0.12 × the MRHD on a mg/m<sup>2</sup> basis).</paragraph>
+                        <paragraph>Corpora lutea, implantations and live fetuses were decreased at 100 mg/kg (equivalent to 1.2 × the MRHD on a mg/m<sup>2</sup> basis). There were no reported effects on mating behavior or fertility of male rats at doses of up to 100 mg/kg/day.</paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S13.3">
+                     <id root="a85354b1-041f-4702-998b-c5dca7fec11a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>13.3	Developmental Toxicity</title>
+                     <text>
+                        <paragraph>Dronedarone was teratogenic in rats given oral doses ≥80 mg/kg/day (a dose equivalent to the MRHD on a mg/m<sup>2</sup> basis), with fetuses showing external, visceral and skeletal malformations (cranioschisis, cleft palate, incomplete evagination of pineal body, brachygnathia, partially fused carotid arteries, truncus arteriosus, abnormal lobation of the liver, partially duplicated inferior vena cava, brachydactyly, ectrodactyly, syndactyly, and anterior and/or posterior club feet). In rabbits, dronedarone caused an increase in skeletal abnormalities (anomalous ribcage and vertebrae, pelvic asymmetry) at doses ≥20 mg/kg (the lowest dose tested and approximately half the MRHD on a mg/m<sup>2</sup> basis). </paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S14">
+               <id root="0ca07080-4e48-4f25-84da-96ffda5b40f0"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <effectiveTime value="20250529"/>
+               <component>
+                  <section ID="S14.1">
+                     <id root="3530cfaf-c259-4bd0-a640-659be305d962"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.1 ATHENA</title>
+                     <text>
+                        <paragraph>ATHENA was a multicenter, multinational, double blind, and randomized placebo-controlled study of dronedarone in 4628 patients with a recent history of AF/AFL who were in sinus rhythm or who were to be converted to sinus rhythm. The objective of the study was to determine whether dronedarone could delay death from any cause or hospitalization for cardiovascular reasons.</paragraph>
+                        <paragraph>Initially patients were to be ≥70 years old, or &lt;70 years old with at least one risk factor (including hypertension, diabetes, prior cerebrovascular accident, left atrial diameter ≥50 mm or LVEF &lt;0.40). The inclusion criteria were later changed such that patients were to be ≥75 years old, or ≥70 years old with at least one risk factor. Patients had to have both AF/AFL and sinus rhythm documented within the previous 6 months. Patients could have been in AF/AFL or in sinus rhythm at the time of randomization, but patients not in sinus rhythm were expected to be either electrically or chemically converted to normal sinus rhythm after anticoagulation. </paragraph>
+                        <paragraph>Subjects were randomized and treated for up to 30 months (median follow-up: 22 months) with either MULTAQ 400 mg twice daily (2301 patients) or placebo (2327 patients), in addition to conventional therapy for cardiovascular diseases that included beta-blockers (71%), ACE inhibitors or angiotensin II receptor blockers (ARBs) (69%), digoxin (14%), calcium antagonists (14%), statins (39%), oral anticoagulants (60%), aspirin (44%), other chronic antiplatelet therapy (6%) and diuretics (54%). </paragraph>
+                        <paragraph>The primary endpoint of the study was the time to first hospitalization for cardiovascular reasons or death from any cause. Time to death from any cause, time to first hospitalization for cardiovascular reasons, and time to cardiovascular death and time to all causes of death were also explored.</paragraph>
+                        <paragraph>Patients ranged in age from 23 to 97 years; 42% were 75 years old or older. Forty-seven percent (47%) of patients were female and a majority was Caucasian (89%). Seventy-one percent (71%) of those enrolled had no history of heart failure. The median ejection fraction was 60%. Twenty-nine percent (29%) of patients had heart failure, mostly NYHA class II (17%). The majority had hypertension (86%) and structural heart disease (60%).</paragraph>
+                        <paragraph>Results are shown in Table 3. MULTAQ reduced the combined endpoint of cardiovascular hospitalization or death from any cause by 24.2% when compared to placebo. This difference was entirely attributable to its effect on cardiovascular hospitalization, principally hospitalization related to AF.</paragraph>
+                        <paragraph>Other endpoints, death from any cause and first hospitalization for cardiovascular reasons, are shown in Table 3. Secondary endpoints count all first events of a particular type, whether or not they were preceded by a different type of event.</paragraph>
+                        <table width="90%" ID="table3">
+                           <caption>Table 3: Incidence of Endpoint Events</caption>
+                           <col width="30%" align="left" valign="top"/>
+                           <col width="14%" align="center" valign="top"/>
+                           <col width="14%" align="center" valign="top"/>
+                           <col width="14%" align="center" valign="top"/>
+                           <col width="14%" align="center" valign="top"/>
+                           <col width="14%" align="center" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th styleCode="Lrule Rrule"/>
+                                 <th styleCode="Rrule">Placebo</th>
+                                 <th styleCode="Rrule">MULTAQ<br/>400 mg BID</th>
+                                 <th styleCode="Rrule"/>
+                                 <th styleCode="Rrule"/>
+                                 <th styleCode="Rrule"/>
+                              </tr>
+                              <tr>
+                                 <th styleCode="Lrule Rrule"/>
+                                 <th styleCode="Rrule">(N=2327)</th>
+                                 <th styleCode="Rrule">(N=2301)</th>
+                                 <th styleCode="Rrule">HR</th>
+                                 <th styleCode="Rrule">95% CI</th>
+                                 <th styleCode="Rrule">p-Value</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">
+                                    <content styleCode="bold">Primary endpoint</content>
+                                 </td>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Cardiovascular hospitalization or death from any cause</td>
+                                 <td styleCode="Rrule">913 (39.2%)</td>
+                                 <td styleCode="Rrule">727 (31.6%)</td>
+                                 <td styleCode="Rrule">0.76</td>
+                                 <td styleCode="Rrule">[0.68–0.83]</td>
+                                 <td styleCode="Rrule">&lt;0.0001</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" colspan="6"> </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">
+                                    <content styleCode="bold">Components of the endpoint (as first event)</content>
+                                 </td>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">
+                                    <list listType="unordered">
+                                       <item>Cardiovascular hospitalization</item>
+                                    </list>
+                                 </td>
+                                 <td styleCode="Rrule">856 (36.8%)</td>
+                                 <td styleCode="Rrule">669 (29.1%)</td>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">
+                                    <list listType="unordered">
+                                       <item>Death from any cause</item>
+                                    </list>
+                                 </td>
+                                 <td styleCode="Rrule">57 (2.4%)</td>
+                                 <td styleCode="Rrule">58 (2.5%)</td>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" colspan="6"> </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">
+                                    <content styleCode="bold">Secondary endpoints (any time in study)</content>
+                                 </td>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">
+                                    <list listType="unordered">
+                                       <item>Death from any cause</item>
+                                    </list>
+                                 </td>
+                                 <td styleCode="Rrule">135 (5.8%)</td>
+                                 <td styleCode="Rrule">115 (5.0%)</td>
+                                 <td styleCode="Rrule">0.86</td>
+                                 <td styleCode="Rrule">[0.67–1.11]</td>
+                                 <td styleCode="Rrule">0.24</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">
+                                    <list listType="unordered">
+                                       <item>Cardiovascular hospitalization</item>
+                                    </list>
+                                 </td>
+                                 <td styleCode="Rrule">856 (36.8%)</td>
+                                 <td styleCode="Rrule">669 (29.1%)</td>
+                                 <td styleCode="Rrule">0.74</td>
+                                 <td styleCode="Rrule">[0.67–0.82]</td>
+                                 <td styleCode="Rrule">&lt;0.0001</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">
+                                    <content styleCode="bold">Components of the cardiovascular hospitalization endpoint (as first event)</content>
+                                 </td>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">
+                                    <list listType="unordered" styleCode="Disc">
+                                       <item>AF and other supraventricular rhythm disorders</item>
+                                    </list>
+                                 </td>
+                                 <td styleCode="Rrule">456 (19.6%)</td>
+                                 <td styleCode="Rrule">292 (12.7%)</td>
+                                 <td styleCode="Rrule">0.61</td>
+                                 <td styleCode="Rrule">[0.53–0.71]</td>
+                                 <td styleCode="Rrule">&lt;0.0001</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">
+                                    <list listType="unordered" styleCode="Disc">
+                                       <item>Other</item>
+                                    </list>
+                                 </td>
+                                 <td styleCode="Rrule">400 (17.2%)</td>
+                                 <td styleCode="Rrule">377 (16.4%)</td>
+                                 <td styleCode="Rrule">0.89</td>
+                                 <td styleCode="Rrule">[0.77–1.03]</td>
+                                 <td styleCode="Rrule">0.11</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>The Kaplan-Meier cumulative incidence curves showing the time to first event are displayed in Figure 3. The event curves separated early and continued to diverge over the 30-month follow-up period.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Figure 3: Kaplan-Meier Cumulative Incidence Curves from Randomization to First Cardiovascular Hospitalization or Death from Any Cause</content>
+                        </paragraph>
+                        <paragraph>
+                           <renderMultiMedia referencedObject="MM4"/>
+                        </paragraph>
+                        <paragraph>Reasons for hospitalization included major bleeding (1% in both groups), syncope (1% in both groups), and ventricular arrhythmia (&lt;1% in both groups).</paragraph>
+                        <paragraph>The reduction in cardiovascular hospitalization or death from any cause was generally consistent in all subgroups based on baseline characteristics or medications (ACE inhibitors or ARBs; beta-blockers, digoxin, statins, calcium channel blockers, diuretics) (see <linkHtml href="#figure4">Figure 4</linkHtml>). </paragraph>
+                        <paragraph>
+                           <content styleCode="bold" ID="figure4">Figure 4: Relative Risk (MULTAQ vs Placebo) Estimates with 95% Confidence Intervals According to Selected Baseline Characteristics: First Cardiovascular Hospitalization or Death from Any Cause</content>
+                        </paragraph>
+                        <paragraph>
+                           <renderMultiMedia referencedObject="MM5"/>
+                        </paragraph>
+                        <paragraph>(a) Determined from Cox regression model<br/>(b) P-value of interaction between baseline characteristics and treatment based on Cox regression model<br/>(c) Calcium antagonists with heart rate lowering effects restricted to diltiazem, verapamil and bepridil</paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                     <component>
+                        <observationMedia ID="MM4">
+                           <text>Figure 3</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="7fa41601-7fb5-4155-8e50-2ae903f0d2d6-04.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM5">
+                           <text>Figure 4</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="7fa41601-7fb5-4155-8e50-2ae903f0d2d6-05.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S14.2">
+                     <id root="075bf618-a0b6-4190-9a55-068b0ea55dfd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.2 EURIDIS and ADONIS</title>
+                     <text>
+                        <paragraph>In EURIDIS and ADONIS, a total of 1237 patients in sinus rhythm with a prior episode of AF or AFL were randomized in an outpatient setting and treated with either MULTAQ 400 mg twice daily (n=828) or placebo (n=409) on top of conventional therapies (including oral anticoagulants, beta-blockers, ACE inhibitors or ARBs, chronic antiplatelet agents, diuretics, statins, digoxin, and calcium channel blockers). Patients had at least one ECG-documented AF/AFL episode during the 3 months prior to study entry but were in sinus rhythm for at least one hour. Patients ranged in age from 20 to 88 years, with the majority being Caucasian (97%), male (70%) patients. The most common comorbidities were hypertension (56.8%) and structural heart disease (41.5%), including coronary heart disease (21.8%). Patients were followed for 12 months.</paragraph>
+                        <paragraph>In the pooled data from EURIDIS and ADONIS as well as in the individual trials, dronedarone delayed the time to first recurrence of AF/AFL (primary endpoint), lowering the risk of first AF/AFL recurrence during the 12-month study period by about 25%, with an absolute difference in recurrence rate of about 11% at 12 months. </paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S14.3">
+                     <id root="cc3d768a-1efe-4153-a397-842a41ecf222"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.3 ANDROMEDA</title>
+                     <text>
+                        <paragraph>Patients recently hospitalized with symptomatic heart failure and severe left ventricular systolic dysfunction (wall motion index ≤1.2) were randomized to either MULTAQ 400 mg twice daily or matching placebo, with a primary composite end point of all-cause mortality or hospitalization for heart failure. Patients enrolled in ANDROMEDA were predominantly NYHA Class II (40%) and III (57%), and only 25% had AF at randomization. After enrollment of 627 patients and a median follow-up of 63 days, the trial was terminated because of excess mortality in the dronedarone group. Twenty-five (25) patients in the dronedarone group died versus 12 patients in the placebo group (hazard ratio 2.13; 95% CI: 1.07 to 4.25). The main reason for death was worsening heart failure. Baseline digoxin therapy was reported in 6/16 dronedarone patients versus 1/16 placebo patients who died of arrhythmia. In patients without baseline use of digoxin, no excess risk of arrhythmic death was observed in the dronedarone versus placebo groups.</paragraph>
+                        <paragraph>There were also excess hospitalizations for cardiovascular reasons in the dronedarone group (71 vs 51 for placebo) <content styleCode="italics">[see <linkHtml href="#BOX">Boxed Warning</linkHtml>, <linkHtml href="#S4">Contraindications (4)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S14.4">
+                     <id root="14c14b18-b972-4d0a-95bb-039be229260d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.4 PALLAS </title>
+                     <text>
+                        <paragraph>Patients with permanent AF (AF documented in 2 weeks prior to randomization and at least 6 months prior to randomization in whom cardioversion had failed or was not planned) and additional risk factors for thromboembolism (coronary artery disease, prior stroke or TIA, symptomatic heart failure, LVEF &lt;40%, peripheral arterial occlusive disease, or age &gt;75 with hypertension and diabetes) were randomized to dronedarone 400 mg twice daily or placebo. </paragraph>
+                        <paragraph>After enrollment of 3236 patients (placebo=1617 and dronedarone=1619) and a median follow up of 3.7 months for placebo and 3.9 for dronedarone, the study was terminated because of a significant increase in:</paragraph>
+                        <list listType="unordered" styleCode="disc">
+                           <item>Mortality: 25 dronedarone versus 13 placebo (HR, 1.94; CI: 0.99 to 3.79). The majority of deaths in the dronedarone group were classified as arrhythmic/sudden deaths (HR, 3.26; CI: 1.06 to 10.0). Baseline digoxin therapy was reported in 11/13 dronedarone patients who died of arrhythmia. None of the arrhythmic deaths on placebo (4) reported use of digoxin. In patients without baseline use of digoxin, no excess risk of arrhythmic death was observed in the dronedarone versus placebo groups.</item>
+                           <item>Stroke: 23 dronedarone versus 10 placebo (HR, 2.32; CI: 1.11 to 4.88). The increased risk of stroke observed with dronedarone was observed in the first two weeks of therapy (10 dronedarone vs 1 placebo), most of the subjects treated with dronedarone did not have an INR of 2.0 to 3.0 <content styleCode="italics">[see <linkHtml href="#S5.3">Warnings and Precautions (5.3)</linkHtml>]</content>.</item>
+                           <item>Hospitalizations for heart failure in the dronedarone group: 43 dronedarone versus 24 placebo (HR, 1.81; CI: 1.10 to 2.99).</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S16">
+               <id root="8fd41340-f53d-400d-ab6a-3df1d9a7974e"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>MULTAQ 400-mg tablets are provided as white film-coated tablets for oral administration, oblong-shaped, engraved with a double wave marking on one side and "4142" code on the other side in:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>
+                        <caption> </caption>Bottles of 60 tablets, NDC 0024-4142-60</item>
+                  </list>
+               </text>
+               <effectiveTime value="20250529"/>
+               <component>
+                  <section>
+                     <id root="d43a5df4-a706-45a9-b5e6-f800547a1e45"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>Store at room temperature between 68°F to 77°F (20°C to 25°C): excursions permitted to 59°F–86°F (15°C–30°C), <content styleCode="italics">[see USP controlled room temperature]</content>. </paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S17">
+               <id root="16dfd6d9-ac5e-467f-bad2-abf45ec0c9d0"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (Medication Guide).</paragraph>
+               </text>
+               <effectiveTime value="20250529"/>
+               <component>
+                  <section>
+                     <id root="b531e54b-3a56-43d4-ba56-b3d4e06ef31c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Administration Instructions</content>
+                        </paragraph>
+                        <paragraph>MULTAQ should be administered with a meal. Warn patients not to take MULTAQ with grapefruit juice. </paragraph>
+                        <paragraph>If a dose is missed, patients should take the next dose at the regularly scheduled time and should not double the dose. </paragraph>
+                        <paragraph>Advise patients to consult a physician before stopping treatment with MULTAQ.</paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="1266eb13-d8b6-46dd-be1a-95aed0958926"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">New Onset or Worsening Heart Failure</content>
+                        </paragraph>
+                        <paragraph>Advise patients to consult a physician if they develop signs or symptoms of heart failure such as acute weight gain, dependent edema, or increasing shortness of breath.</paragraph>
+                        <paragraph>Advise patients to inform their physician of any history of heart failure, rhythm disturbance other than atrial fibrillation or flutter or predisposing conditions such as uncorrected hypokalemia.</paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="5495cbd5-abbb-4b85-a903-d9a6721863c6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Liver Injury</content>
+                        </paragraph>
+                        <paragraph>Advise patients to immediately report any symptoms of potential liver injury (such as anorexia, nausea, vomiting, fever, malaise, fatigue, right upper quadrant abdominal discomfort, jaundice, dark urine, or itching) to their physician.</paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="85bdc1d9-2a66-4df1-b383-13d08199ab18"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Drug Interactions</content>
+                        </paragraph>
+                        <paragraph>MULTAQ may interact with some drugs; therefore, advise patients to report to their doctor the use of any other prescription, non-prescription medication or herbal products, particularly St. John's wort. </paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="770ecee9-ff35-4178-b410-823496ab6513"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Embryo-fetal Toxicity</content>
+                        </paragraph>
+                        <paragraph>MULTAQ may cause fetal harm. Advise female patients of reproductive potential to use effective contraception during treatment with MULTAQ and for 5 days after the final dose <content styleCode="italics">[see <linkHtml href="#S8.3">Use in Specific Populations (8.3)</linkHtml>].</content> Advise females to inform their healthcare provider of a known or suspected pregnancy <content styleCode="italics">[see <linkHtml href="#S5.10">Warnings and Precautions (5.10)</linkHtml> and <linkHtml href="#S8.1">Use in Specific Populations (8.1)</linkHtml>].</content>
+                        </paragraph>
+                        <paragraph>Advise females not to breastfeed during treatment with MULTAQ and for 5 days after the final dose <content styleCode="italics">[see <linkHtml href="#S8.2">Use in Specific Populations (8.2)</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250529"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="097c3e5a-0d80-4b84-9239-476711f23623"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>sanofi-aventis U.S. LLC<br/>Morristown, NJ 07960<br/>A SANOFI COMPANY</paragraph>
+                  <paragraph>© sanofi-aventis 2025<br/>All rights reserved.</paragraph>
+                  <paragraph>MULTAQ is a registered trademark of sanofi-aventis.</paragraph>
+               </text>
+               <effectiveTime value="20250529"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="67ce4d0c-b10f-489e-9375-1833ffcd5c35"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <text>
+                  <table width="100%">
+                     <col width="2%" align="left" valign="top"/>
+                     <col width="2%" align="left" valign="top"/>
+                     <col width="39%" align="left" valign="top"/>
+                     <col width="10%" align="left" valign="top"/>
+                     <col width="47%" align="left" valign="top"/>
+                     <tfoot>
+                        <tr>
+                           <td align="left" colspan="5">This Medication Guide has been approved by the U.S. Food and Drug Administration.<br/>Revised May 2025</td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="5" align="center">
+                              <content styleCode="bold">MEDICATION GUIDE<br/>MULTAQ<sup>®</sup>  (MUL-tak)<br/>(dronedarone)<br/>tablets</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" colspan="5">
+                              <paragraph ID="whatis">
+                                 <content styleCode="bold">What is the most important information I should know about MULTAQ?<br/>MULTAQ may cause serious side effects, including:</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <content styleCode="bold">Increased risk of death, stroke, and heart failure in people with:</content>
+                                    <list listType="unordered">
+                                       <item>
+                                          <content styleCode="bold">A certain type of heart failure called decompensated heart failure.</content> Heart failure is when your heart does not pump blood through your body as well as it should. MULTAQ can cause new or worsening heart failure.<br/>
+                                          <content styleCode="bold">Do not take MULTAQ</content> if you have symptoms of heart failure that recently worsened and you were hospitalized, or if you have severe heart failure.<br/>Call your healthcare provider right away if you develop any of the following signs or symptoms of heart failure during treatment with MULTAQ:<list listType="unordered" styleCode="square">
+                                             <item>shortness of breath or wheezing at rest</item>
+                                             <item>wheezing, chest tightness or coughing up frothy sputum at rest, nighttime or after minor exercise</item>
+                                             <item>trouble sleeping or waking up at night because of breathing problems</item>
+                                             <item>using more pillows to prop yourself up at night so you can breathe more easily</item>
+                                             <item>gaining more than 5 pounds quickly</item>
+                                             <item>increasing swelling of feet or legs</item>
+                                          </list>
+                                       </item>
+                                       <item>
+                                          <content styleCode="bold">A certain type of irregular heartbeat (rhythm) called permanent atrial fibrillation (AF).</content> Permanent AF is when you and your healthcare provider decide not to try to change your heart rhythm back to a normal heart rhythm or your heart rhythm cannot be changed back to a normal rhythm.<br/>
+                                          <content styleCode="bold">Do not take MULTAQ</content> if you have permanent AF. Your healthcare provider should check your heart rhythm regularly to make sure your heart keeps a normal rhythm.<br/>Call your healthcare provider right away if you develop any of the following signs or symptoms of AF during treatment with MULTAQ such as:</item>
+                                    </list>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule"/>
+                           <td/>
+                           <td>
+                              <list listType="unordered" styleCode="square">
+                                 <item>fast or irregular heartbeat or pulse</item>
+                                 <item>chest pain</item>
+                                 <item>dizziness or lightheadedness</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule" colspan="2">
+                              <list listType="unordered" styleCode="square">
+                                 <item>tiredness or weakness</item>
+                                 <item>reduced ability to exercise</item>
+                                 <item>shortness of breath</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule"/>
+                           <td styleCode="Rrule" colspan="4">
+                              <content styleCode="bold">MULTAQ doubles your risk of dying if you have these conditions.</content> Your healthcare provider may give you a medicine to help prevent blood clots and decrease your risk of stroke during treatment with MULTAQ. Tell your healthcare provider right away if you develop any of the following signs or symptoms of stroke during treatment with MULTAQ such as: 										<list listType="unordered" styleCode="circle">
+                                 <item>numbness or weakness in the face, arms, or legs, especially on 1 side of the body</item>
+                                 <item>confusion, trouble speaking, or difficulty understanding things</item>
+                                 <item>trouble seeing in 1 or both eyes</item>
+                                 <item>trouble walking, dizziness, loss of balance, or lack of coordination</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" colspan="5">
+                              <list listType="unordered">
+                                 <item>
+                                    <content styleCode="bold">Liver problems.</content> MULTAQ may cause severe liver problems, including life-threatening liver failure.<br/>
+                                    <content styleCode="bold">Do not take MULTAQ</content> if you have severe liver problems. Your healthcare provider may order blood tests to check your liver before you start taking MULTAQ and during treatment.<br/>Call your healthcare provider right away if you develop any of the following signs and symptoms of liver problems during treatment with MULTAQ:</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule"/>
+                           <td colspan="2">
+                              <list listType="unordered" styleCode="circle">
+                                 <item>loss of appetite, nausea, vomiting</item>
+                                 <item>fever, feeling unwell, unusual tiredness</item>
+                                 <item>itching</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule" colspan="2">
+                              <list listType="unordered" styleCode="circle">
+                                 <item>yellowing of the skin or the whites of the eyes (jaundice)</item>
+                                 <item>unusual darkening of the urine</item>
+                                 <item>right upper stomach area pain or discomfort</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="5">
+                              <content styleCode="bold">What is MULTAQ?</content>
+                              <br/>MULTAQ is a prescription medicine used to lower the chance of hospitalization for atrial fibrillation (AF) in people who currently have a normal heart rhythm and have had certain types of AF (paroxysmal or persistent AF) in the past.<br/>It is not known if MULTAQ is safe and effective in children younger than age 18 years old.</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" colspan="5">
+                              <content styleCode="bold">Who should not take MULTAQ?</content>
+                              <br/>See <content styleCode="bold">"<linkHtml href="#whatis">What is the most important information I should know about taking MULTAQ?</linkHtml>"<br/>Do not take MULTAQ if:</content>
+                              <list listType="unordered">
+                                 <item>you have a certain type of heart problem called heart block, and you do not have an implanted pacemaker</item>
+                                 <item>your heart rate is less than 50 beats each minute </item>
+                                 <item>you have had liver or lung problems after using amiodarone</item>
+                                 <item>you have a certain type of electrocardiogram (ECG) abnormality including QTc or PR interval prolongation</item>
+                                 <item>you take certain medicines that can change the amount of MULTAQ that gets into your body such as:</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule"/>
+                           <td colspan="3">
+                              <list listType="unordered" styleCode="circle">
+                                 <item>nefazodone</item>
+                                 <item>ritonavir</item>
+                                 <item>ketoconazole</item>
+                                 <item>itraconazole</item>
+                                 <item>erythromycin</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule">
+                              <list listType="unordered" styleCode="circle">
+                                 <item>voriconazole</item>
+                                 <item>telithromycin</item>
+                                 <item>clarithromycin</item>
+                                 <item>cyclosporin</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" colspan="5">
+                              <list listType="unordered">
+                                 <item>you take certain medicines that can lead to a dangerous abnormal heart rhythm such as:</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule"/>
+                           <td colspan="2">
+                              <list listType="unordered" styleCode="circle">
+                                 <item>phenothiazines</item>
+                                 <item>tricyclic antidepressants</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule" colspan="2">
+                              <list listType="unordered" styleCode="circle">
+                                 <item>macrolide antibiotics</item>
+                                 <item>certain medicines for abnormal heart rhythm or fast heartbeat  (Class I and III antiarrhythmics)</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="5">
+                              <list listType="unordered">
+                                 <item>you are allergic to dronedarone or any of the other ingredients in MULTAQ. See the end of this Medication Guide for a complete list of ingredients in MULTAQ.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="5">
+                              <content styleCode="bold">What should I tell my healthcare provider before taking MULTAQ?<br/>Before taking MULTAQ, tell your healthcare provider about all of your medical conditions, including if you</content>:<list listType="unordered">
+                                 <item>have any other heart problems, including heart rhythm problems, or have had a stroke</item>
+                                 <item>have an implanted pacemaker</item>
+                                 <item>have liver or kidney problems</item>
+                                 <item>have lung problems</item>
+                                 <item>have low levels of potassium or magnesium in your blood</item>
+                                 <item>are pregnant or plan to become pregnant. MULTAQ may harm your unborn baby.<br/>
+                                    <content styleCode="bold">Females who can become pregnant</content>
+                                    <list listType="unordered" styleCode="circle">
+                                       <item>Your healthcare provider will do a pregnancy test before you start treatment with MULTAQ.</item>
+                                       <item>Use effective birth control (contraception) during treatment and for 5 days after your final dose of MULTAQ. </item>
+                                       <item>Tell your healthcare provider right away if you think you are pregnant or become pregnant during treatment with  MULTAQ.</item>
+                                    </list>
+                                 </item>
+                                 <item>are breastfeeding or plan to breastfeed. It is not known if MULTAQ passes into your breast milk. Do not breastfeed during treatment and for 5 days after the final dose of MULTAQ. </item>
+                              </list>Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements. Taking MULTAQ with certain other medicines may affect the amount of MULTAQ or other medicines in your blood and may increase your risk of side effects or affect how well MULTAQ or the other medicines work.<br/>
+                              <content styleCode="bold">Especially tell your healthcare provider if you take</content>:<list listType="unordered">
+                                 <item>medicine for high blood pressure, chest pain, or other heart conditions</item>
+                                 <item>statin medicine to lower blood cholesterol</item>
+                                 <item>medicine for tuberculosis (TB)</item>
+                                 <item>medicine for seizures</item>
+                                 <item>digoxin</item>
+                                 <item>warfarin or other blood thinner medicines</item>
+                                 <item>medicine for organ transplant</item>
+                                 <item>an herbal supplement called St. John's wort</item>
+                                 <item>water pills (diuretics)</item>
+                              </list>Know the medicines you take. Keep a list of them to show to your healthcare provider and pharmacist when you get a new medicine.</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="5">
+                              <content styleCode="bold">How should I take MULTAQ?</content>
+                              <list listType="unordered">
+                                 <item>Take MULTAQ exactly as your healthcare provider tells you.</item>
+                                 <item>Take MULTAQ 2 times a day, in the morning and evening with a meal.</item>
+                                 <item>Do not stop taking MULTAQ without first talking to your healthcare provider.</item>
+                                 <item>If you miss a dose of MULTAQ, skip the missed dose and take your next dose at your regular time. Do not take 2 doses at the same time to make up for a missed dose.</item>
+                                 <item>If you take too much MULTAQ, call your healthcare provider or go to the nearest hospital emergency room right away.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="5">
+                              <content styleCode="bold">What should I avoid while taking MULTAQ?</content>
+                              <br/>Do not drink grapefruit juice during treatment with MULTAQ. Grapefruit juice can increase the amount of MULTAQ in your blood and can increase your chance of getting side effects.</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" colspan="5">
+                              <content styleCode="bold">What are the possible side effects of MULTAQ?<br/>MULTAQ may cause serious side effects, including:</content>
+                              <list listType="unordered">
+                                 <item>See <content styleCode="bold">"<linkHtml href="#whatis">What is the most important information I should know about MULTAQ?</linkHtml>"</content>
+                                 </item>
+                                 <item>
+                                    <content styleCode="bold">Inflammation of the lungs, including scarring and thickening.</content> Call your healthcare provider if you develop shortness of breath or a dry cough during treatment with MULTAQ.</item>
+                                 <item>
+                                    <content styleCode="bold">Low potassium and magnesium levels in your blood.</content> This can happen if you take certain water pills (diuretics) during treatment with MULTAQ. Your healthcare provider may check you for this problem before and during treatment. Tell your healthcare provider if you develop any of the following symptoms of low potassium or low magnesium during treatment with MULTAQ:</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule"/>
+                           <td colspan="2">
+                              <list listType="unordered" styleCode="circle">
+                                 <item>nausea or vomiting</item>
+                                 <item>weakness or sleepiness</item>
+                                 <item>muscle weakness, spasms, or tremors</item>
+                                 <item>loss of appetite</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule" colspan="2">
+                              <list listType="unordered" styleCode="circle">
+                                 <item>constipation</item>
+                                 <item>heart palpitations</item>
+                                 <item>tingling or numbness</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" colspan="5">
+                              <list listType="unordered">
+                                 <item>
+                                    <content styleCode="bold">Changes in the electrical activity in your heart called QT interval prolongation.</content> QT interval prolongation can increase your chance of getting dangerous abnormal heart rhythms.</item>
+                                 <item>
+                                    <content styleCode="bold">Kidney problems and kidney failure.</content> MULTAQ can cause changes in kidney function that can be serious and lead to kidney failure, especially in people with heart failure or people with low body fluid levels. Your healthcare provider will check your blood for signs of kidney problems during treatment. Tell your healthcare provider if you develop any of the following symptoms of kidney problems during treatment with MULTAQ:</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule"/>
+                           <td colspan="2">
+                              <list listType="unordered" styleCode="circle">
+                                 <item>loss of appetite</item>
+                                 <item>nausea and vomiting</item>
+                                 <item>muscle cramps</item>
+                                 <item>dry, itchy skin</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule" colspan="2">
+                              <list listType="unordered" styleCode="circle">
+                                 <item>swelling of the feet and ankles</item>
+                                 <item>shortness of breath</item>
+                                 <item>trouble sleeping</item>
+                                 <item>urinating too much or too little</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" colspan="5">
+                              <content styleCode="bold">The most common side effects of MULTAQ include:</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule" colspan="4">
+                              <list listType="unordered">
+                                 <item>diarrhea</item>
+                                 <item>weakness, lack of energy, and feeling very tired or sleepy (asthenia)</item>
+                                 <item>nausea</item>
+                                 <item>skin problems such as redness, rash, and itching</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule">
+                              <list listType="unordered">
+                                 <item>stomach area (abdominal) pain</item>
+                                 <item>slow heart rate (bradycardia)</item>
+                                 <item>vomiting</item>
+                                 <item>indigestion</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="5">Your healthcare provider may stop treatment with MULTAQ if you develop certain side effects. These are not all of the possible side effects of MULTAQ.<br/>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="5">
+                              <content styleCode="bold">How should I store MULTAQ?</content>
+                              <br/>Store MULTAQ at room temperature between 68°F to 77°F (20°C to 25°C).<br/>
+                              <content styleCode="bold">Keep MULTAQ and all medicines out of the reach of children.</content>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="5">
+                              <content styleCode="bold">General information about the safe and effective use of MULTAQ.</content>
+                              <br/>Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use MULTAQ for a condition for which it was not prescribed. Do not give MULTAQ to other people, even if they have the same symptoms or condition. It may harm them. You can ask your pharmacist or healthcare provider for information about MULTAQ that is written for health professionals.</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" colspan="5">
+                              <content styleCode="bold">What are the ingredients in MULTAQ?<br/>Active ingredient:</content> dronedarone<br/>
+                              <content styleCode="bold">Inactive ingredients:</content>
+                              <br/>tablet core: Colloidal silicon dioxide, crospovidone, hypromellose, lactose monohydrate, magnesium stearate, poloxamer 407, starch.<br/>tablet coating: Carnauba wax, hypromellose, polyethylene glycol 6000, titanium dioxide.<br/>Manufactured by:<br/>sanofi-aventis U.S. LLC<br/>Morristown, NJ 07960<br/>A SANOFI COMPANY<br/>©sanofi-aventis 2025<br/>All rights reserved.<br/>MULTAQ is a registered trademark of sanofi-aventis.<br/>For more information go to www.sanofi-aventis.us or call sanofi-aventis Medical Information Services at 1-800-633-1610 option 1.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20250529"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5fa5904c-cdee-4193-bbe3-8b6e7e0d8ed3"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PRINCIPAL DISPLAY PANEL - 60 Tablet Bottle</content>
+                  </paragraph>
+                  <paragraph>NDC 0024-4142-60</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx ONLY</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">MULTAQ<sup>®</sup>
+                     </content>
+                     <br/>(dronedarone)<br/>
+                     <content styleCode="bold">Tablets 400</content>mg</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dispense with Medication Guide.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">60 </content>Tablets</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">sanofi aventis</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM6"/>
+               </text>
+               <effectiveTime value="20250529"/>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>PRINCIPAL DISPLAY PANEL - 60 Tablet Bottle</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="7fa41601-7fb5-4155-8e50-2ae903f0d2d6-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

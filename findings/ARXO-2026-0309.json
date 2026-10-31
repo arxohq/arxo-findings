@@ -1,0 +1,143 @@
+{
+  "id": "ARXO-2026-0309",
+  "url": "https://arxo.io/findings/ARXO-2026-0309/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "remifentanil prescribing information (SPL set ID 8b4c8696-e23e-4c51-a4d2-babab5bd945a)",
+  "acts": [
+    "FDA prescribing information published on DailyMed"
+  ],
+  "location": "2.7 and Table 2",
+  "text": {
+    "en": {
+      "title": "remifentanil: 2.7 and Table 2 give different instructions for one patient",
+      "summary": "2.7 reads “birth to 12 years of age”. Table 2 reads “1 to 12 years”. Table 2 reads “birth to 2 months of age”. Example: A child aged 7 months has no row in Table 2, while 2.7 sends the reader to Table 2 for all children from birth to 12 years. The same text is in 6 labels from 4 labelers in the DailyMed release of 29 October 2026.",
+      "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Prescribing information, Mylan Institutional LLC, SPL set ID 8b4c8696-e23e-4c51-a4d2-babab5bd945a, version 6 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 6",
+        "locator": "2.7",
+        "text": "birth to 12 years of age",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/8b4c8696-e23e-4c51-a4d2-babab5bd945a.xml",
+        "sha256": "489c9f6ff3e80542ee103417b25b55f11d71b2eafb8027aa8c6475823d01d5b8",
+        "retrieved": "2026-10-29",
+        "copy": "sources/489c9f6ff3e80542-8b4c8696-e23e-4c51-a4d2-babab5bd945a-v6.xml",
+        "copy_sha256": "489c9f6ff3e80542ee103417b25b55f11d71b2eafb8027aa8c6475823d01d5b8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Prescribing information, Mylan Institutional LLC, SPL set ID 8b4c8696-e23e-4c51-a4d2-babab5bd945a, version 6 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 6",
+        "locator": "Table 2",
+        "text": "1 to 12 years",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/8b4c8696-e23e-4c51-a4d2-babab5bd945a.xml",
+        "sha256": "489c9f6ff3e80542ee103417b25b55f11d71b2eafb8027aa8c6475823d01d5b8",
+        "retrieved": "2026-10-29",
+        "copy": "sources/489c9f6ff3e80542-8b4c8696-e23e-4c51-a4d2-babab5bd945a-v6.xml",
+        "copy_sha256": "489c9f6ff3e80542ee103417b25b55f11d71b2eafb8027aa8c6475823d01d5b8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Prescribing information, Mylan Institutional LLC, SPL set ID 8b4c8696-e23e-4c51-a4d2-babab5bd945a, version 6 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 6",
+        "locator": "Table 2",
+        "text": "birth to 2 months of age",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/8b4c8696-e23e-4c51-a4d2-babab5bd945a.xml",
+        "sha256": "489c9f6ff3e80542ee103417b25b55f11d71b2eafb8027aa8c6475823d01d5b8",
+        "retrieved": "2026-10-29",
+        "copy": "sources/489c9f6ff3e80542-8b4c8696-e23e-4c51-a4d2-babab5bd945a-v6.xml",
+        "copy_sha256": "489c9f6ff3e80542ee103417b25b55f11d71b2eafb8027aa8c6475823d01d5b8",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31",
+      "institution": "Viatris",
+      "channel": "email",
+      "role": "holder of the labeling"
+    },
+    {
+      "date": "2026-10-31",
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "channel": "email",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Viatris",
+      "role": "holder of the labeling"
+    },
+    {
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+  },
+  "credit": [],
+  "press_date": "2026-10-31T00:00:00Z",
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": null,
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Viatris (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+    }
+  ]
+}

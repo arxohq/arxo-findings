@@ -1,0 +1,127 @@
+{
+  "id": "ARXO-2026-0305",
+  "url": "https://arxo.io/findings/ARXO-2026-0305/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "amoxicillin prescribing information (SPL set ID 06e5c07d-d95c-4955-8d35-a4703ca2359e)",
+  "acts": [
+    "FDA prescribing information published on DailyMed"
+  ],
+  "location": "2.2 and 8.4",
+  "text": {
+    "en": {
+      "title": "amoxicillin: 2.2 and 8.4 give different instructions for one patient",
+      "summary": "2.2 reads “Aged 3 Months (12 weeks) and Older”. 8.4 reads “12 weeks or younger (3 months or younger)”. Example: An infant aged exactly 12 weeks falls under Table 1 of 2.2 and also under the 30 mg/kg/day upper limit of 8.4 and Highlights. The same text is in 181 labels from 35 labelers in the DailyMed release of 29 October 2026.",
+      "impact": "Potential effect on a prescribing decision: low; careful reading of the whole label usually resolves it. Arxo does not say which instruction is correct and gives no dose."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Prescribing information, USAntibiotics, LLC, SPL set ID 06e5c07d-d95c-4955-8d35-a4703ca2359e, version 5 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 5",
+        "locator": "2.2",
+        "text": "Aged 3 Months (12 weeks) and Older",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/06e5c07d-d95c-4955-8d35-a4703ca2359e.xml",
+        "sha256": "d9090eee66acd399c5013fa6c3d26a7d9e8f8b633828db6da37970822264f2b3",
+        "retrieved": "2026-10-29",
+        "copy": "sources/d9090eee66acd399-06e5c07d-d95c-4955-8d35-a4703ca2359e-v5.xml",
+        "copy_sha256": "d9090eee66acd399c5013fa6c3d26a7d9e8f8b633828db6da37970822264f2b3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Prescribing information, USAntibiotics, LLC, SPL set ID 06e5c07d-d95c-4955-8d35-a4703ca2359e, version 5 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 5",
+        "locator": "8.4",
+        "text": "12 weeks or younger (3 months or younger)",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/06e5c07d-d95c-4955-8d35-a4703ca2359e.xml",
+        "sha256": "d9090eee66acd399c5013fa6c3d26a7d9e8f8b633828db6da37970822264f2b3",
+        "retrieved": "2026-10-29",
+        "copy": "sources/d9090eee66acd399-06e5c07d-d95c-4955-8d35-a4703ca2359e-v5.xml",
+        "copy_sha256": "d9090eee66acd399c5013fa6c3d26a7d9e8f8b633828db6da37970822264f2b3",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31",
+      "institution": "USAntibiotics, LLC",
+      "channel": "email",
+      "role": "holder of the labeling"
+    },
+    {
+      "date": "2026-10-31",
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "channel": "email",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "USAntibiotics, LLC",
+      "role": "holder of the labeling"
+    },
+    {
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+  },
+  "credit": [],
+  "press_date": "2026-10-31T00:00:00Z",
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": null,
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to USAntibiotics, LLC (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+    }
+  ]
+}

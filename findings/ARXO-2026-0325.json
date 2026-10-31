@@ -1,0 +1,127 @@
+{
+  "id": "ARXO-2026-0325",
+  "url": "https://arxo.io/findings/ARXO-2026-0325/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "emtricitabine prescribing information (SPL set ID d6599395-3944-44f9-97f2-e0424c6b6a1f)",
+  "acts": [
+    "FDA prescribing information published on DailyMed"
+  ],
+  "location": "2.4 and 2.5",
+  "text": {
+    "en": {
+      "title": "emtricitabine: 2.4 and 2.5 give different instructions for one patient",
+      "summary": "2.4 reads “0–3 months of age”. 2.5 reads “3 months through 17 years of age”. Example: An infant aged exactly 3 months matches both sections, with doses of 3 mg per kg and 6 mg per kg. The same text is in 4 labels from 4 labelers in the DailyMed release of 29 October 2026.",
+      "impact": "Potential effect on a prescribing decision: low; careful reading of the whole label usually resolves it. Arxo does not say which instruction is correct and gives no dose."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Prescribing information, Gilead Sciences, Inc., SPL set ID d6599395-3944-44f9-97f2-e0424c6b6a1f, version 14 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 14",
+        "locator": "2.4",
+        "text": "0–3 months of age",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/d6599395-3944-44f9-97f2-e0424c6b6a1f.xml",
+        "sha256": "1f6311ec6a1b54b44568a95816c0efe60eaa20f353a07e30b2221204b0dd7796",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1f6311ec6a1b54b4-d6599395-3944-44f9-97f2-e0424c6b6a1f-v14.xml",
+        "copy_sha256": "1f6311ec6a1b54b44568a95816c0efe60eaa20f353a07e30b2221204b0dd7796",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Prescribing information, Gilead Sciences, Inc., SPL set ID d6599395-3944-44f9-97f2-e0424c6b6a1f, version 14 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 14",
+        "locator": "2.5",
+        "text": "3 months through 17 years of age",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/d6599395-3944-44f9-97f2-e0424c6b6a1f.xml",
+        "sha256": "1f6311ec6a1b54b44568a95816c0efe60eaa20f353a07e30b2221204b0dd7796",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1f6311ec6a1b54b4-d6599395-3944-44f9-97f2-e0424c6b6a1f-v14.xml",
+        "copy_sha256": "1f6311ec6a1b54b44568a95816c0efe60eaa20f353a07e30b2221204b0dd7796",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31",
+      "institution": "Gilead Sciences, Inc.",
+      "channel": "email",
+      "role": "holder of the labeling"
+    },
+    {
+      "date": "2026-10-31",
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "channel": "email",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Gilead Sciences, Inc.",
+      "role": "holder of the labeling"
+    },
+    {
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+  },
+  "credit": [],
+  "press_date": "2026-10-31T00:00:00Z",
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": null,
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Gilead Sciences, Inc. (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+    }
+  ]
+}

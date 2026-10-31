@@ -1,0 +1,157 @@
+{
+  "id": "ARXO-2026-0320",
+  "url": "https://arxo.io/findings/ARXO-2026-0320/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "acamprosate calcium prescribing information (SPL set ID 0c729939-d2d2-4e61-acbc-4f1646dc38c1)",
+  "acts": [
+    "FDA prescribing information published on DailyMed"
+  ],
+  "location": "2.1 and 4.2",
+  "text": {
+    "en": {
+      "title": "acamprosate calcium: 2.1 and 4.2 give different instructions for one patient",
+      "summary": "2.1 reads “creatinine clearance of 30 to 50 mL/min”. 4.2 reads “creatinine clearance of ≤30 mL/min”. Example: At creatinine clearance exactly 30 mL/min the label gives a reduced dose (2.1, 5.1, 12.3) and a contraindication (4.2, 8.6, Highlights). The same text is in 8 labels from 8 labelers in the DailyMed release of 29 October 2026.",
+      "impact": "Potential effect on a prescribing decision: low; careful reading of the whole label usually resolves it. Arxo does not say which instruction is correct and gives no dose."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Prescribing information, Zydus Lifesciences Limited, SPL set ID 0c729939-d2d2-4e61-acbc-4f1646dc38c1, version 4 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 4",
+        "locator": "2.1",
+        "text": "creatinine clearance of 30 to 50 mL/min",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/0c729939-d2d2-4e61-acbc-4f1646dc38c1.xml",
+        "sha256": "a86a100e30e8883ef296447f86b6bbc017f6bc530beaf59fc5334070ec143dbc",
+        "retrieved": "2026-10-29",
+        "copy": "sources/a86a100e30e8883e-0c729939-d2d2-4e61-acbc-4f1646dc38c1-v4.xml",
+        "copy_sha256": "a86a100e30e8883ef296447f86b6bbc017f6bc530beaf59fc5334070ec143dbc",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Prescribing information, Zydus Lifesciences Limited, SPL set ID 0c729939-d2d2-4e61-acbc-4f1646dc38c1, version 4 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 4",
+        "locator": "4.2",
+        "text": "creatinine clearance of ≤30 mL/min",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/0c729939-d2d2-4e61-acbc-4f1646dc38c1.xml",
+        "sha256": "a86a100e30e8883ef296447f86b6bbc017f6bc530beaf59fc5334070ec143dbc",
+        "retrieved": "2026-10-29",
+        "copy": "sources/a86a100e30e8883e-0c729939-d2d2-4e61-acbc-4f1646dc38c1-v4.xml",
+        "copy_sha256": "a86a100e30e8883ef296447f86b6bbc017f6bc530beaf59fc5334070ec143dbc",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31",
+      "institution": "Zydus Pharmaceuticals",
+      "channel": "email",
+      "role": "holder of the labeling"
+    },
+    {
+      "date": "2026-10-31",
+      "institution": "Glenmark Pharmaceuticals Inc., USA",
+      "channel": "email",
+      "role": "holder of the labeling"
+    },
+    {
+      "date": "2026-10-31",
+      "institution": "Somerset Therapeutics, LLC",
+      "channel": "email",
+      "role": "holder of the labeling"
+    },
+    {
+      "date": "2026-10-31",
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "channel": "email",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Zydus Pharmaceuticals",
+      "role": "holder of the labeling"
+    },
+    {
+      "institution": "Glenmark Pharmaceuticals Inc., USA",
+      "role": "holder of the labeling"
+    },
+    {
+      "institution": "Somerset Therapeutics, LLC",
+      "role": "holder of the labeling"
+    },
+    {
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+  },
+  "credit": [],
+  "press_date": "2026-10-31T00:00:00Z",
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": null,
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Zydus Pharmaceuticals (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Glenmark Pharmaceuticals Inc., USA (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Somerset Therapeutics, LLC (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+    }
+  ]
+}

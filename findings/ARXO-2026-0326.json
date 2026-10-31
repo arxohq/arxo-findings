@@ -1,0 +1,127 @@
+{
+  "id": "ARXO-2026-0326",
+  "url": "https://arxo.io/findings/ARXO-2026-0326/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "amino acids injection (PROSOL) prescribing information (SPL set ID cc2ace81-5881-43f1-ba94-41b674adc2fc)",
+  "acts": [
+    "FDA prescribing information published on DailyMed"
+  ],
+  "location": "Table 2 and Table 2",
+  "text": {
+    "en": {
+      "title": "amino acids injection (PROSOL): Table 2 and Table 2 give different instructions for one patient",
+      "summary": "Table 2 reads “1 month to 1 year of age”. Table 2 reads “1 to 10 years of age”. Example: A child aged exactly 1 year matches both rows. A child aged exactly 1 month, and a child aged 10 to 11 years, match no row. The text is in this label.",
+      "impact": "Potential effect on a prescribing decision: low; careful reading of the whole label usually resolves it. Arxo does not say which instruction is correct and gives no dose."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Prescribing information, Baxter Healthcare Corporation, SPL set ID cc2ace81-5881-43f1-ba94-41b674adc2fc, version 16 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 16",
+        "locator": "Table 2",
+        "text": "1 month to 1 year of age",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/cc2ace81-5881-43f1-ba94-41b674adc2fc.xml",
+        "sha256": "06b215dafc8d276126273646c09b513f3cdeca3d99fccb8b932d68fc2fa5e8fa",
+        "retrieved": "2026-10-29",
+        "copy": "sources/06b215dafc8d2761-cc2ace81-5881-43f1-ba94-41b674adc2fc-v16.xml",
+        "copy_sha256": "06b215dafc8d276126273646c09b513f3cdeca3d99fccb8b932d68fc2fa5e8fa",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Prescribing information, Baxter Healthcare Corporation, SPL set ID cc2ace81-5881-43f1-ba94-41b674adc2fc, version 16 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 16",
+        "locator": "Table 2",
+        "text": "1 to 10 years of age",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/cc2ace81-5881-43f1-ba94-41b674adc2fc.xml",
+        "sha256": "06b215dafc8d276126273646c09b513f3cdeca3d99fccb8b932d68fc2fa5e8fa",
+        "retrieved": "2026-10-29",
+        "copy": "sources/06b215dafc8d2761-cc2ace81-5881-43f1-ba94-41b674adc2fc-v16.xml",
+        "copy_sha256": "06b215dafc8d276126273646c09b513f3cdeca3d99fccb8b932d68fc2fa5e8fa",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31",
+      "institution": "Baxter Healthcare Corporation",
+      "channel": "email",
+      "role": "holder of the labeling"
+    },
+    {
+      "date": "2026-10-31",
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "channel": "email",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Baxter Healthcare Corporation",
+      "role": "holder of the labeling"
+    },
+    {
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+  },
+  "credit": [],
+  "press_date": "2026-10-31T00:00:00Z",
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": null,
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Baxter Healthcare Corporation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+    }
+  ]
+}

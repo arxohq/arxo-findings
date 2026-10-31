@@ -1,0 +1,127 @@
+{
+  "id": "ARXO-2026-0302",
+  "url": "https://arxo.io/findings/ARXO-2026-0302/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "dabrafenib prescribing information (SPL set ID fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea)",
+  "acts": [
+    "FDA prescribing information published on DailyMed"
+  ],
+  "location": "5.3 and Table 5",
+  "text": {
+    "en": {
+      "title": "dabrafenib: 5.3 and Table 5 give different instructions for one patient",
+      "summary": "5.3 reads “Permanently discontinue TAFINLAR for all Grade 4 hemorrhagic events”. Table 5 reads “First occurrence of any Grade 4”. Example: At a first Grade 4 hemorrhage, Table 5 allows resuming at a lower dose and 5.3 requires permanent discontinuation. The text is in this label.",
+      "impact": "Potential effect on a prescribing decision: high. Arxo does not say which instruction is correct and gives no dose."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Prescribing information, Novartis Pharmaceuticals Corporation, SPL set ID fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea, version 37 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 37",
+        "locator": "5.3",
+        "text": "Permanently discontinue TAFINLAR for all Grade 4 hemorrhagic events",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea.xml",
+        "sha256": "bb96336976f6f013be41317f171017260efb7b04f82b4d0d85c310016351fcc8",
+        "retrieved": "2026-10-29",
+        "copy": "sources/bb96336976f6f013-fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea-v37.xml",
+        "copy_sha256": "bb96336976f6f013be41317f171017260efb7b04f82b4d0d85c310016351fcc8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Prescribing information, Novartis Pharmaceuticals Corporation, SPL set ID fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea, version 37 (DailyMed)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": "version 37",
+        "locator": "Table 5",
+        "text": "First occurrence of any Grade 4",
+        "translations": {},
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea.xml",
+        "sha256": "bb96336976f6f013be41317f171017260efb7b04f82b4d0d85c310016351fcc8",
+        "retrieved": "2026-10-29",
+        "copy": "sources/bb96336976f6f013-fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea-v37.xml",
+        "copy_sha256": "bb96336976f6f013be41317f171017260efb7b04f82b4d0d85c310016351fcc8",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31",
+      "institution": "Novartis Pharmaceuticals Corporation",
+      "channel": "email",
+      "role": "holder of the labeling"
+    },
+    {
+      "date": "2026-10-31",
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "channel": "email",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Novartis Pharmaceuticals Corporation",
+      "role": "holder of the labeling"
+    },
+    {
+      "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+      "role": "regulator of prescription drug labeling"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+  },
+  "credit": [],
+  "press_date": "2026-10-31T00:00:00Z",
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": null,
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Novartis Pharmaceuticals Corporation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+    }
+  ]
+}

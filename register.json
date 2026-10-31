@@ -4,19 +4,19 @@
   "description": "Verified discrepancies in legal texts, official publications and implementations, with evidence and correction histories.",
   "publisher": "Arxo Law",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "as_of": "2026-10-29T15:20:00+00:00",
+  "as_of": "2026-10-31T09:05:00+00:00",
   "base_url": "https://arxo.io/findings/",
   "counts": {
-    "records": 205,
-    "discrepancies": 168,
-    "questions": 37,
+    "records": 236,
+    "discrepancies": 198,
+    "questions": 38,
     "by_jurisdiction": {
       "FR": 12,
       "KZ": 182,
-      "US": 11
+      "US": 42
     },
     "by_status": {
-      "reported": 192,
+      "reported": 223,
       "accepted": 3,
       "note_added": 5,
       "corrected": 3,
@@ -91,6 +91,12 @@
       },
       {
         "jurisdiction": "US",
+        "class": "act_text",
+        "status": "reported",
+        "records": 30
+      },
+      {
+        "jurisdiction": "US",
         "class": "amendments",
         "status": "reported",
         "records": 1
@@ -112,9 +118,15 @@
         "class": "publication",
         "status": "reported",
         "records": 1
+      },
+      {
+        "jurisdiction": "US",
+        "class": "question",
+        "status": "reported",
+        "records": 1
       }
     ],
-    "institutions_notified": 31,
+    "institutions_notified": 57,
     "corrected_by_official_document": 5,
     "withdrawn_after_publication": {
       "withdrawn": 0,
@@ -37380,6 +37392,3937 @@
           "date": "2026-10-27",
           "event": "reported",
           "text": "Reported to AIFC Authority (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0301",
+      "url": "https://arxo.io/findings/ARXO-2026-0301/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "meloxicam tablets prescribing information (SPL set ID 445dc4f6-daac-e2f1-e063-6394a90a0ca5)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "Highlights, Dosage and Administration and 2.4",
+      "text": {
+        "en": {
+          "title": "meloxicam tablets: Highlights, Dosage and Administration and 2.4 give different instructions for one patient",
+          "summary": "Highlights, Dosage and Administration reads “7.5 mg/kg once daily in children ≥60 kg”. 2.4 reads “7.5 mg once daily in children who weigh ≥60 kg”. Example: For a child of 60 kg, Highlights read literally gives 7.5 mg per kg (450 mg a day); section 2.4 gives 7.5 mg. The same text is in 4 labels from 2 labelers in the DailyMed release of 29 October 2026.",
+          "impact": "Potential effect on a prescribing decision: high. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Advanced Rx of Tennessee, LLC, SPL set ID 445dc4f6-daac-e2f1-e063-6394a90a0ca5, version 2 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 2",
+            "locator": "Highlights, Dosage and Administration",
+            "text": "7.5 mg/kg once daily in children ≥60 kg",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/445dc4f6-daac-e2f1-e063-6394a90a0ca5.xml",
+            "sha256": "35a80b1e1d0675dc815b1b768a7e45bd21f6ab88a32854c6ff972cf08be37af7",
+            "retrieved": "2026-10-29",
+            "copy": "sources/35a80b1e1d0675dc-445dc4f6-daac-e2f1-e063-6394a90a0ca5-v2.xml",
+            "copy_sha256": "35a80b1e1d0675dc815b1b768a7e45bd21f6ab88a32854c6ff972cf08be37af7",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, Advanced Rx of Tennessee, LLC, SPL set ID 445dc4f6-daac-e2f1-e063-6394a90a0ca5, version 2 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 2",
+            "locator": "2.4",
+            "text": "7.5 mg once daily in children who weigh ≥60 kg",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/445dc4f6-daac-e2f1-e063-6394a90a0ca5.xml",
+            "sha256": "35a80b1e1d0675dc815b1b768a7e45bd21f6ab88a32854c6ff972cf08be37af7",
+            "retrieved": "2026-10-29",
+            "copy": "sources/35a80b1e1d0675dc-445dc4f6-daac-e2f1-e063-6394a90a0ca5-v2.xml",
+            "copy_sha256": "35a80b1e1d0675dc815b1b768a7e45bd21f6ab88a32854c6ff972cf08be37af7",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Advanced Rx of Tennessee, LLC",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "Bryant Ranch Prepack",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Advanced Rx of Tennessee, LLC",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "Bryant Ranch Prepack",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Advanced Rx of Tennessee, LLC (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Bryant Ranch Prepack (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0302",
+      "url": "https://arxo.io/findings/ARXO-2026-0302/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "dabrafenib prescribing information (SPL set ID fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "5.3 and Table 5",
+      "text": {
+        "en": {
+          "title": "dabrafenib: 5.3 and Table 5 give different instructions for one patient",
+          "summary": "5.3 reads “Permanently discontinue TAFINLAR for all Grade 4 hemorrhagic events”. Table 5 reads “First occurrence of any Grade 4”. Example: At a first Grade 4 hemorrhage, Table 5 allows resuming at a lower dose and 5.3 requires permanent discontinuation. The text is in this label.",
+          "impact": "Potential effect on a prescribing decision: high. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Novartis Pharmaceuticals Corporation, SPL set ID fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea, version 37 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 37",
+            "locator": "5.3",
+            "text": "Permanently discontinue TAFINLAR for all Grade 4 hemorrhagic events",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea.xml",
+            "sha256": "bb96336976f6f013be41317f171017260efb7b04f82b4d0d85c310016351fcc8",
+            "retrieved": "2026-10-29",
+            "copy": "sources/bb96336976f6f013-fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea-v37.xml",
+            "copy_sha256": "bb96336976f6f013be41317f171017260efb7b04f82b4d0d85c310016351fcc8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, Novartis Pharmaceuticals Corporation, SPL set ID fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea, version 37 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 37",
+            "locator": "Table 5",
+            "text": "First occurrence of any Grade 4",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea.xml",
+            "sha256": "bb96336976f6f013be41317f171017260efb7b04f82b4d0d85c310016351fcc8",
+            "retrieved": "2026-10-29",
+            "copy": "sources/bb96336976f6f013-fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea-v37.xml",
+            "copy_sha256": "bb96336976f6f013be41317f171017260efb7b04f82b4d0d85c310016351fcc8",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Novartis Pharmaceuticals Corporation",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Novartis Pharmaceuticals Corporation",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Novartis Pharmaceuticals Corporation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0303",
+      "url": "https://arxo.io/findings/ARXO-2026-0303/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "amoxicillin prescribing information (SPL set ID 06e5c07d-d95c-4955-8d35-a4703ca2359e)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "Highlights, Dosage and Administration and 2.5",
+      "text": {
+        "en": {
+          "title": "amoxicillin: Highlights, Dosage and Administration and 2.5 give different instructions for one patient",
+          "summary": "Highlights, Dosage and Administration reads “severe renal impairment (GFR greater than 30 mL/min)”. 2.5 reads “less than 30 mL/min”. Example: A patient with GFR 45 mL/min is in the reduced-dose group by Highlights and not by 2.5 and 8.6; a patient with GFR 10 mL/min is the reverse. The same text is in 180 labels from 34 labelers in the DailyMed release of 29 October 2026.",
+          "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, USAntibiotics, LLC, SPL set ID 06e5c07d-d95c-4955-8d35-a4703ca2359e, version 5 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 5",
+            "locator": "Highlights, Dosage and Administration",
+            "text": "severe renal impairment (GFR greater than 30 mL/min)",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/06e5c07d-d95c-4955-8d35-a4703ca2359e.xml",
+            "sha256": "d9090eee66acd399c5013fa6c3d26a7d9e8f8b633828db6da37970822264f2b3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/d9090eee66acd399-06e5c07d-d95c-4955-8d35-a4703ca2359e-v5.xml",
+            "copy_sha256": "d9090eee66acd399c5013fa6c3d26a7d9e8f8b633828db6da37970822264f2b3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, USAntibiotics, LLC, SPL set ID 06e5c07d-d95c-4955-8d35-a4703ca2359e, version 5 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 5",
+            "locator": "2.5",
+            "text": "less than 30 mL/min",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/06e5c07d-d95c-4955-8d35-a4703ca2359e.xml",
+            "sha256": "d9090eee66acd399c5013fa6c3d26a7d9e8f8b633828db6da37970822264f2b3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/d9090eee66acd399-06e5c07d-d95c-4955-8d35-a4703ca2359e-v5.xml",
+            "copy_sha256": "d9090eee66acd399c5013fa6c3d26a7d9e8f8b633828db6da37970822264f2b3",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "USAntibiotics, LLC",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "USAntibiotics, LLC",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to USAntibiotics, LLC (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0304",
+      "url": "https://arxo.io/findings/ARXO-2026-0304/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "amoxicillin prescribing information (SPL set ID 06e5c07d-d95c-4955-8d35-a4703ca2359e)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "2.5 and Table 2",
+      "text": {
+        "en": {
+          "title": "amoxicillin: 2.5 and Table 2 give different instructions for one patient",
+          "summary": "2.5 reads “less than 30 mL/min”. Table 2 reads “GFR 10 to 30 mL/min”. Example: At GFR exactly 30 mL/min, 2.5 and 8.6 do not place the patient in severe impairment, so the 875 mg tablet is not excluded; Table 2 places the same patient in the row \"GFR 10 to 30 mL/min\". The same text is in 163 labels from 34 labelers in the DailyMed release of 29 October 2026.",
+          "impact": "Potential effect on a prescribing decision: low; careful reading of the whole label usually resolves it. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, USAntibiotics, LLC, SPL set ID 06e5c07d-d95c-4955-8d35-a4703ca2359e, version 5 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 5",
+            "locator": "2.5",
+            "text": "less than 30 mL/min",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/06e5c07d-d95c-4955-8d35-a4703ca2359e.xml",
+            "sha256": "d9090eee66acd399c5013fa6c3d26a7d9e8f8b633828db6da37970822264f2b3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/d9090eee66acd399-06e5c07d-d95c-4955-8d35-a4703ca2359e-v5.xml",
+            "copy_sha256": "d9090eee66acd399c5013fa6c3d26a7d9e8f8b633828db6da37970822264f2b3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, USAntibiotics, LLC, SPL set ID 06e5c07d-d95c-4955-8d35-a4703ca2359e, version 5 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 5",
+            "locator": "Table 2",
+            "text": "GFR 10 to 30 mL/min",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/06e5c07d-d95c-4955-8d35-a4703ca2359e.xml",
+            "sha256": "d9090eee66acd399c5013fa6c3d26a7d9e8f8b633828db6da37970822264f2b3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/d9090eee66acd399-06e5c07d-d95c-4955-8d35-a4703ca2359e-v5.xml",
+            "copy_sha256": "d9090eee66acd399c5013fa6c3d26a7d9e8f8b633828db6da37970822264f2b3",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "USAntibiotics, LLC",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "USAntibiotics, LLC",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to USAntibiotics, LLC (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0305",
+      "url": "https://arxo.io/findings/ARXO-2026-0305/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "amoxicillin prescribing information (SPL set ID 06e5c07d-d95c-4955-8d35-a4703ca2359e)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "2.2 and 8.4",
+      "text": {
+        "en": {
+          "title": "amoxicillin: 2.2 and 8.4 give different instructions for one patient",
+          "summary": "2.2 reads “Aged 3 Months (12 weeks) and Older”. 8.4 reads “12 weeks or younger (3 months or younger)”. Example: An infant aged exactly 12 weeks falls under Table 1 of 2.2 and also under the 30 mg/kg/day upper limit of 8.4 and Highlights. The same text is in 181 labels from 35 labelers in the DailyMed release of 29 October 2026.",
+          "impact": "Potential effect on a prescribing decision: low; careful reading of the whole label usually resolves it. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, USAntibiotics, LLC, SPL set ID 06e5c07d-d95c-4955-8d35-a4703ca2359e, version 5 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 5",
+            "locator": "2.2",
+            "text": "Aged 3 Months (12 weeks) and Older",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/06e5c07d-d95c-4955-8d35-a4703ca2359e.xml",
+            "sha256": "d9090eee66acd399c5013fa6c3d26a7d9e8f8b633828db6da37970822264f2b3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/d9090eee66acd399-06e5c07d-d95c-4955-8d35-a4703ca2359e-v5.xml",
+            "copy_sha256": "d9090eee66acd399c5013fa6c3d26a7d9e8f8b633828db6da37970822264f2b3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, USAntibiotics, LLC, SPL set ID 06e5c07d-d95c-4955-8d35-a4703ca2359e, version 5 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 5",
+            "locator": "8.4",
+            "text": "12 weeks or younger (3 months or younger)",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/06e5c07d-d95c-4955-8d35-a4703ca2359e.xml",
+            "sha256": "d9090eee66acd399c5013fa6c3d26a7d9e8f8b633828db6da37970822264f2b3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/d9090eee66acd399-06e5c07d-d95c-4955-8d35-a4703ca2359e-v5.xml",
+            "copy_sha256": "d9090eee66acd399c5013fa6c3d26a7d9e8f8b633828db6da37970822264f2b3",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "USAntibiotics, LLC",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "USAntibiotics, LLC",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to USAntibiotics, LLC (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0306",
+      "url": "https://arxo.io/findings/ARXO-2026-0306/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "pregabalin prescribing information (SPL set ID d4734e7d-5079-455e-8ff5-8f4539c998a9)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "2.5, Table 2 and 2.5, Table 2",
+      "text": {
+        "en": {
+          "title": "pregabalin: 2.5, Table 2 and 2.5, Table 2 give different instructions for one patient",
+          "summary": "2.5, Table 2 reads “30-60 75 150 225 300 BID or TID”. 2.5, Table 2 reads “15-30 25-50 75 100-150 150 QD or BID”. Example: A patient with creatinine clearance exactly 30 mL/min matches both rows, with different total daily doses and regimens. The same text is in 225 labels from 60 labelers in the DailyMed release of 29 October 2026.",
+          "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Viatris Specialty LLC, SPL set ID d4734e7d-5079-455e-8ff5-8f4539c998a9, version 18 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 18",
+            "locator": "2.5, Table 2",
+            "text": "30-60 75 150 225 300 BID or TID",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/d4734e7d-5079-455e-8ff5-8f4539c998a9.xml",
+            "sha256": "90e9473ed376ef5f6aac38e36ab607ff5af21f215bfb8600917a3d35e54e63eb",
+            "retrieved": "2026-10-29",
+            "copy": "sources/90e9473ed376ef5f-d4734e7d-5079-455e-8ff5-8f4539c998a9-v18.xml",
+            "copy_sha256": "90e9473ed376ef5f6aac38e36ab607ff5af21f215bfb8600917a3d35e54e63eb",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, Viatris Specialty LLC, SPL set ID d4734e7d-5079-455e-8ff5-8f4539c998a9, version 18 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 18",
+            "locator": "2.5, Table 2",
+            "text": "15-30 25-50 75 100-150 150 QD or BID",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/d4734e7d-5079-455e-8ff5-8f4539c998a9.xml",
+            "sha256": "90e9473ed376ef5f6aac38e36ab607ff5af21f215bfb8600917a3d35e54e63eb",
+            "retrieved": "2026-10-29",
+            "copy": "sources/90e9473ed376ef5f-d4734e7d-5079-455e-8ff5-8f4539c998a9-v18.xml",
+            "copy_sha256": "90e9473ed376ef5f6aac38e36ab607ff5af21f215bfb8600917a3d35e54e63eb",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Viatris",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Viatris",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Viatris (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0307",
+      "url": "https://arxo.io/findings/ARXO-2026-0307/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "idarubicin prescribing information (SPL set ID 0a5a6d93-cc1e-4d7f-8da1-446c134503b3)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "2.4, Table 2 and 5.8",
+      "text": {
+        "en": {
+          "title": "idarubicin: 2.4, Table 2 and 5.8 give different instructions for one patient",
+          "summary": "2.4, Table 2 reads “Less than or equal to 2.6”. 5.8 reads “2.6 to 5 mg/dL”. Example: At serum bilirubin exactly 2.6 mg/dL, Table 2 gives no adjustment and 5.8 and Highlights give a 50% reduction. At exactly 5 mg/dL, Table 2 has no row. The text is in this label.",
+          "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Pfizer Laboratories Div Pfizer Inc, SPL set ID 0a5a6d93-cc1e-4d7f-8da1-446c134503b3, version 27 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 27",
+            "locator": "2.4, Table 2",
+            "text": "Less than or equal to 2.6",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/0a5a6d93-cc1e-4d7f-8da1-446c134503b3.xml",
+            "sha256": "7b4358464a0fe8f4fc2af0bf425208a578d717002ec83d9d1a7bdb1ec4a91fa6",
+            "retrieved": "2026-10-29",
+            "copy": "sources/7b4358464a0fe8f4-0a5a6d93-cc1e-4d7f-8da1-446c134503b3-v27.xml",
+            "copy_sha256": "7b4358464a0fe8f4fc2af0bf425208a578d717002ec83d9d1a7bdb1ec4a91fa6",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, Pfizer Laboratories Div Pfizer Inc, SPL set ID 0a5a6d93-cc1e-4d7f-8da1-446c134503b3, version 27 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 27",
+            "locator": "5.8",
+            "text": "2.6 to 5 mg/dL",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/0a5a6d93-cc1e-4d7f-8da1-446c134503b3.xml",
+            "sha256": "7b4358464a0fe8f4fc2af0bf425208a578d717002ec83d9d1a7bdb1ec4a91fa6",
+            "retrieved": "2026-10-29",
+            "copy": "sources/7b4358464a0fe8f4-0a5a6d93-cc1e-4d7f-8da1-446c134503b3-v27.xml",
+            "copy_sha256": "7b4358464a0fe8f4fc2af0bf425208a578d717002ec83d9d1a7bdb1ec4a91fa6",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Pfizer",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Pfizer",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Pfizer (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0308",
+      "url": "https://arxo.io/findings/ARXO-2026-0308/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "idarubicin prescribing information (SPL set ID 0a5a6d93-cc1e-4d7f-8da1-446c134503b3)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "2.2 and 5.4",
+      "text": {
+        "en": {
+          "title": "idarubicin: 2.2 and 5.4 give different instructions for one patient",
+          "summary": "2.2 reads “If patients develop severe myelosuppression, reduce the dose of IDAMYCIN PFS by 25%”. 5.4 reads “Discontinue IDAMYCIN PFS in patients who develop severe myelosuppression”. Example: After severe myelosuppression in cycle 1, 2.2 directs the next cycle at a reduced dose and 5.4 directs discontinuation. The text is in this label.",
+          "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Pfizer Laboratories Div Pfizer Inc, SPL set ID 0a5a6d93-cc1e-4d7f-8da1-446c134503b3, version 27 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 27",
+            "locator": "2.2",
+            "text": "If patients develop severe myelosuppression, reduce the dose of IDAMYCIN PFS by 25%",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/0a5a6d93-cc1e-4d7f-8da1-446c134503b3.xml",
+            "sha256": "7b4358464a0fe8f4fc2af0bf425208a578d717002ec83d9d1a7bdb1ec4a91fa6",
+            "retrieved": "2026-10-29",
+            "copy": "sources/7b4358464a0fe8f4-0a5a6d93-cc1e-4d7f-8da1-446c134503b3-v27.xml",
+            "copy_sha256": "7b4358464a0fe8f4fc2af0bf425208a578d717002ec83d9d1a7bdb1ec4a91fa6",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, Pfizer Laboratories Div Pfizer Inc, SPL set ID 0a5a6d93-cc1e-4d7f-8da1-446c134503b3, version 27 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 27",
+            "locator": "5.4",
+            "text": "Discontinue IDAMYCIN PFS in patients who develop severe myelosuppression",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/0a5a6d93-cc1e-4d7f-8da1-446c134503b3.xml",
+            "sha256": "7b4358464a0fe8f4fc2af0bf425208a578d717002ec83d9d1a7bdb1ec4a91fa6",
+            "retrieved": "2026-10-29",
+            "copy": "sources/7b4358464a0fe8f4-0a5a6d93-cc1e-4d7f-8da1-446c134503b3-v27.xml",
+            "copy_sha256": "7b4358464a0fe8f4fc2af0bf425208a578d717002ec83d9d1a7bdb1ec4a91fa6",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Pfizer",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Pfizer",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Pfizer (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0309",
+      "url": "https://arxo.io/findings/ARXO-2026-0309/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "remifentanil prescribing information (SPL set ID 8b4c8696-e23e-4c51-a4d2-babab5bd945a)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "2.7 and Table 2",
+      "text": {
+        "en": {
+          "title": "remifentanil: 2.7 and Table 2 give different instructions for one patient",
+          "summary": "2.7 reads “birth to 12 years of age”. Table 2 reads “1 to 12 years”. Table 2 reads “birth to 2 months of age”. Example: A child aged 7 months has no row in Table 2, while 2.7 sends the reader to Table 2 for all children from birth to 12 years. The same text is in 6 labels from 4 labelers in the DailyMed release of 29 October 2026.",
+          "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Mylan Institutional LLC, SPL set ID 8b4c8696-e23e-4c51-a4d2-babab5bd945a, version 6 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 6",
+            "locator": "2.7",
+            "text": "birth to 12 years of age",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/8b4c8696-e23e-4c51-a4d2-babab5bd945a.xml",
+            "sha256": "489c9f6ff3e80542ee103417b25b55f11d71b2eafb8027aa8c6475823d01d5b8",
+            "retrieved": "2026-10-29",
+            "copy": "sources/489c9f6ff3e80542-8b4c8696-e23e-4c51-a4d2-babab5bd945a-v6.xml",
+            "copy_sha256": "489c9f6ff3e80542ee103417b25b55f11d71b2eafb8027aa8c6475823d01d5b8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, Mylan Institutional LLC, SPL set ID 8b4c8696-e23e-4c51-a4d2-babab5bd945a, version 6 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 6",
+            "locator": "Table 2",
+            "text": "1 to 12 years",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/8b4c8696-e23e-4c51-a4d2-babab5bd945a.xml",
+            "sha256": "489c9f6ff3e80542ee103417b25b55f11d71b2eafb8027aa8c6475823d01d5b8",
+            "retrieved": "2026-10-29",
+            "copy": "sources/489c9f6ff3e80542-8b4c8696-e23e-4c51-a4d2-babab5bd945a-v6.xml",
+            "copy_sha256": "489c9f6ff3e80542ee103417b25b55f11d71b2eafb8027aa8c6475823d01d5b8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "Prescribing information, Mylan Institutional LLC, SPL set ID 8b4c8696-e23e-4c51-a4d2-babab5bd945a, version 6 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 6",
+            "locator": "Table 2",
+            "text": "birth to 2 months of age",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/8b4c8696-e23e-4c51-a4d2-babab5bd945a.xml",
+            "sha256": "489c9f6ff3e80542ee103417b25b55f11d71b2eafb8027aa8c6475823d01d5b8",
+            "retrieved": "2026-10-29",
+            "copy": "sources/489c9f6ff3e80542-8b4c8696-e23e-4c51-a4d2-babab5bd945a-v6.xml",
+            "copy_sha256": "489c9f6ff3e80542ee103417b25b55f11d71b2eafb8027aa8c6475823d01d5b8",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Viatris",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Viatris",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Viatris (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0310",
+      "url": "https://arxo.io/findings/ARXO-2026-0310/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "imipenem and cilastatin prescribing information (SPL set ID f41d8abd-7792-4918-1b93-bd83ea01955e)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "2.2, Table 2 and 2.2, Table 2",
+      "text": {
+        "en": {
+          "title": "imipenem and cilastatin: 2.2, Table 2 and 2.2, Table 2 give different instructions for one patient",
+          "summary": "2.2, Table 2 reads “4 weeks to 3 months of age”. 2.2, Table 2 reads “1 to 4 weeks of age”. Example: An infant aged exactly 4 weeks matches both rows: every 6 hours and every 8 hours. The same text is in 6 labels from 3 labelers in the DailyMed release of 29 October 2026.",
+          "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Merck Sharp & Dohme LLC, SPL set ID f41d8abd-7792-4918-1b93-bd83ea01955e, version 35 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 35",
+            "locator": "2.2, Table 2",
+            "text": "4 weeks to 3 months of age",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/f41d8abd-7792-4918-1b93-bd83ea01955e.xml",
+            "sha256": "e6fc7de3962bd7d1df8fbaec2437ca2eb4def03fcd9612d2dfffd68f1e6b19f1",
+            "retrieved": "2026-10-29",
+            "copy": "sources/e6fc7de3962bd7d1-f41d8abd-7792-4918-1b93-bd83ea01955e-v35.xml",
+            "copy_sha256": "e6fc7de3962bd7d1df8fbaec2437ca2eb4def03fcd9612d2dfffd68f1e6b19f1",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, Merck Sharp & Dohme LLC, SPL set ID f41d8abd-7792-4918-1b93-bd83ea01955e, version 35 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 35",
+            "locator": "2.2, Table 2",
+            "text": "1 to 4 weeks of age",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/f41d8abd-7792-4918-1b93-bd83ea01955e.xml",
+            "sha256": "e6fc7de3962bd7d1df8fbaec2437ca2eb4def03fcd9612d2dfffd68f1e6b19f1",
+            "retrieved": "2026-10-29",
+            "copy": "sources/e6fc7de3962bd7d1-f41d8abd-7792-4918-1b93-bd83ea01955e-v35.xml",
+            "copy_sha256": "e6fc7de3962bd7d1df8fbaec2437ca2eb4def03fcd9612d2dfffd68f1e6b19f1",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Merck Sharp & Dohme LLC",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Merck Sharp & Dohme LLC",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Merck Sharp & Dohme LLC (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0311",
+      "url": "https://arxo.io/findings/ARXO-2026-0311/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "amino acids with electrolytes in dextrose (5/20 formulation) prescribing information (SPL set ID 8469d6fb-d6ef-476f-8cc3-0905192de0a8)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "Table 1 and Table 2",
+      "text": {
+        "en": {
+          "title": "amino acids with electrolytes in dextrose (5/20 formulation): Table 1 and Table 2 give different instructions for one patient",
+          "summary": "Table 1 reads “3.2 to 8”. Table 2 reads “1.25”. Example: For a 70 kg adult, the top of the Table 1 dextrose range (8 g/kg/day) needs about 2800 mL a day; the Table 2 maximum infusion rate of 1.25 mL/kg/hour allows about 2100 mL a day (6 g/kg/day). The same text is in 2 labels from 2 labelers in the DailyMed release of 29 October 2026.",
+          "impact": "Potential effect on a prescribing decision: low; careful reading of the whole label usually resolves it. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Baxter Healthcare Company, SPL set ID 8469d6fb-d6ef-476f-8cc3-0905192de0a8, version 17 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 17",
+            "locator": "Table 1",
+            "text": "3.2 to 8",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/8469d6fb-d6ef-476f-8cc3-0905192de0a8.xml",
+            "sha256": "05ab76f8671530a7ee2cf2e79d5c39ae27ec134ae44be525bd22fa3652d574f5",
+            "retrieved": "2026-10-29",
+            "copy": "sources/05ab76f8671530a7-8469d6fb-d6ef-476f-8cc3-0905192de0a8-v17.xml",
+            "copy_sha256": "05ab76f8671530a7ee2cf2e79d5c39ae27ec134ae44be525bd22fa3652d574f5",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, Baxter Healthcare Company, SPL set ID 8469d6fb-d6ef-476f-8cc3-0905192de0a8, version 17 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 17",
+            "locator": "Table 2",
+            "text": "1.25",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/8469d6fb-d6ef-476f-8cc3-0905192de0a8.xml",
+            "sha256": "05ab76f8671530a7ee2cf2e79d5c39ae27ec134ae44be525bd22fa3652d574f5",
+            "retrieved": "2026-10-29",
+            "copy": "sources/05ab76f8671530a7-8469d6fb-d6ef-476f-8cc3-0905192de0a8-v17.xml",
+            "copy_sha256": "05ab76f8671530a7ee2cf2e79d5c39ae27ec134ae44be525bd22fa3652d574f5",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Baxter Healthcare Corporation",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Baxter Healthcare Corporation",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Baxter Healthcare Corporation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0312",
+      "url": "https://arxo.io/findings/ARXO-2026-0312/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "glycopyrrolate oral solution prescribing information (SPL set ID d200bd44-9856-4104-a29e-a4cca3db6737)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "Table 1, 18 to 22 kg, Dose Level 2",
+      "text": {
+        "en": {
+          "title": "glycopyrrolate oral solution: Table 1, 18 to 22 kg, Dose Level 2 has no instruction for a patient the label covers",
+          "summary": "Table 1, 18 to 22 kg, Dose Level 2 reads “0.8 mL”. Example: The cell sits in the milligram column. Read as printed, 0.8 mL of a 1 mg/5 mL solution is 0.16 mg, while the volume column of the same row gives 4 mL. The same text is in 5 labels from 5 labelers in the DailyMed release of 29 October 2026.",
+          "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Merz Pharmaceuticals, LLC, SPL set ID d200bd44-9856-4104-a29e-a4cca3db6737, version 20 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 20",
+            "locator": "Table 1, 18 to 22 kg, Dose Level 2",
+            "text": "0.8 mL",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/d200bd44-9856-4104-a29e-a4cca3db6737.xml",
+            "sha256": "a5348a34bbc674f4f74fcc76f2332434391d6a2266f2ab0ca02a7174789e9ecc",
+            "retrieved": "2026-10-29",
+            "copy": "sources/a5348a34bbc674f4-d200bd44-9856-4104-a29e-a4cca3db6737-v20.xml",
+            "copy_sha256": "a5348a34bbc674f4f74fcc76f2332434391d6a2266f2ab0ca02a7174789e9ecc",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Merz Pharmaceuticals, LLC",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Merz Pharmaceuticals, LLC",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Merz Pharmaceuticals, LLC (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0313",
+      "url": "https://arxo.io/findings/ARXO-2026-0313/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "cabozantinib prescribing information (SPL set ID 1a0c3bea-c87b-4d25-bb44-5f0174da6b34)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "2.4 and 2.5",
+      "text": {
+        "en": {
+          "title": "cabozantinib: 2.4 and 2.5 give different instructions for one patient",
+          "summary": "2.4 reads “180 mg”. 2.5 reads “80 mg”. Example: A patient started at 180 mg (strong CYP3A4 inducer, 2.4) or at 80 mg (hepatic impairment, 2.5) who has an adverse reaction has no resume level in 2.2, which lists only 140, 100 and 60 mg. The text is in this label.",
+          "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Exelixis, Inc., SPL set ID 1a0c3bea-c87b-4d25-bb44-5f0174da6b34, version 16 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 16",
+            "locator": "2.4",
+            "text": "180 mg",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/1a0c3bea-c87b-4d25-bb44-5f0174da6b34.xml",
+            "sha256": "9abd57dbe4460dd339c4af7cc566d141c55a1b3a152c2de6d2268c23438b24f0",
+            "retrieved": "2026-10-29",
+            "copy": "sources/9abd57dbe4460dd3-1a0c3bea-c87b-4d25-bb44-5f0174da6b34-v16.xml",
+            "copy_sha256": "9abd57dbe4460dd339c4af7cc566d141c55a1b3a152c2de6d2268c23438b24f0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, Exelixis, Inc., SPL set ID 1a0c3bea-c87b-4d25-bb44-5f0174da6b34, version 16 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 16",
+            "locator": "2.5",
+            "text": "80 mg",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/1a0c3bea-c87b-4d25-bb44-5f0174da6b34.xml",
+            "sha256": "9abd57dbe4460dd339c4af7cc566d141c55a1b3a152c2de6d2268c23438b24f0",
+            "retrieved": "2026-10-29",
+            "copy": "sources/9abd57dbe4460dd3-1a0c3bea-c87b-4d25-bb44-5f0174da6b34-v16.xml",
+            "copy_sha256": "9abd57dbe4460dd339c4af7cc566d141c55a1b3a152c2de6d2268c23438b24f0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Exelixis, Inc.",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Exelixis, Inc.",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Exelixis, Inc. (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0314",
+      "url": "https://arxo.io/findings/ARXO-2026-0314/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "bendamustine prescribing information (SPL set ID 4df6548f-c4ad-4eb2-a54f-19766a3d90ca)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "Highlights, Use in Specific Populations and 8.7",
+      "text": {
+        "en": {
+          "title": "bendamustine: Highlights, Use in Specific Populations and 8.7 give different instructions for one patient",
+          "summary": "Highlights, Use in Specific Populations reads “2.5-1.0 x ULN”. 8.7 reads “2.5 to 10 times upper limit of normal (ULN)”. Example: For a patient with AST 5 times ULN and bilirubin 2 times ULN, the Highlights range is empty and expresses no limit; 8.7 covers the case. The same text is in 2 labels from 2 labelers in the DailyMed release of 29 October 2026.",
+          "impact": "Potential effect on a prescribing decision: low; careful reading of the whole label usually resolves it. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Azurity Pharmaceuticals, Inc., SPL set ID 4df6548f-c4ad-4eb2-a54f-19766a3d90ca, version 2 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 2",
+            "locator": "Highlights, Use in Specific Populations",
+            "text": "2.5-1.0 x ULN",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4df6548f-c4ad-4eb2-a54f-19766a3d90ca.xml",
+            "sha256": "328333d269ccf8da7d853cc1267fedcc2d14bbda434774e1b3e4cc7f5473de4e",
+            "retrieved": "2026-10-29",
+            "copy": "sources/328333d269ccf8da-4df6548f-c4ad-4eb2-a54f-19766a3d90ca-v2.xml",
+            "copy_sha256": "328333d269ccf8da7d853cc1267fedcc2d14bbda434774e1b3e4cc7f5473de4e",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, Azurity Pharmaceuticals, Inc., SPL set ID 4df6548f-c4ad-4eb2-a54f-19766a3d90ca, version 2 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 2",
+            "locator": "8.7",
+            "text": "2.5 to 10 times upper limit of normal (ULN)",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4df6548f-c4ad-4eb2-a54f-19766a3d90ca.xml",
+            "sha256": "328333d269ccf8da7d853cc1267fedcc2d14bbda434774e1b3e4cc7f5473de4e",
+            "retrieved": "2026-10-29",
+            "copy": "sources/328333d269ccf8da-4df6548f-c4ad-4eb2-a54f-19766a3d90ca-v2.xml",
+            "copy_sha256": "328333d269ccf8da7d853cc1267fedcc2d14bbda434774e1b3e4cc7f5473de4e",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Azurity Pharmaceuticals, Inc.",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Azurity Pharmaceuticals, Inc.",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Azurity Pharmaceuticals, Inc. (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0315",
+      "url": "https://arxo.io/findings/ARXO-2026-0315/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "raltegravir prescribing information (SPL set ID 89a5ec53-d956-4329-8004-0f40f51c88a3)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "Table 2 and Table 2",
+      "text": {
+        "en": {
+          "title": "raltegravir: Table 2 and Table 2 give different instructions for one patient",
+          "summary": "Table 2 reads “at least 4 weeks of age and weighing 3 kg to less than 25 kg”. Table 2 reads “weighing at least 2 kg”. Example: A child aged 5 weeks who weighs 2.5 kg has no row in Table 2. The text is in this label.",
+          "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Merck Sharp & Dohme LLC, SPL set ID 89a5ec53-d956-4329-8004-0f40f51c88a3, version 71 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 71",
+            "locator": "Table 2",
+            "text": "at least 4 weeks of age and weighing 3 kg to less than 25 kg",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/89a5ec53-d956-4329-8004-0f40f51c88a3.xml",
+            "sha256": "e2469625d5e949fe24389d4cd3aea3f58bc79b655a87d4464e6534295d0bb70a",
+            "retrieved": "2026-10-29",
+            "copy": "sources/e2469625d5e949fe-89a5ec53-d956-4329-8004-0f40f51c88a3-v71.xml",
+            "copy_sha256": "e2469625d5e949fe24389d4cd3aea3f58bc79b655a87d4464e6534295d0bb70a",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, Merck Sharp & Dohme LLC, SPL set ID 89a5ec53-d956-4329-8004-0f40f51c88a3, version 71 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 71",
+            "locator": "Table 2",
+            "text": "weighing at least 2 kg",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/89a5ec53-d956-4329-8004-0f40f51c88a3.xml",
+            "sha256": "e2469625d5e949fe24389d4cd3aea3f58bc79b655a87d4464e6534295d0bb70a",
+            "retrieved": "2026-10-29",
+            "copy": "sources/e2469625d5e949fe-89a5ec53-d956-4329-8004-0f40f51c88a3-v71.xml",
+            "copy_sha256": "e2469625d5e949fe24389d4cd3aea3f58bc79b655a87d4464e6534295d0bb70a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Merck Sharp & Dohme LLC",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Merck Sharp & Dohme LLC",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Merck Sharp & Dohme LLC (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0316",
+      "url": "https://arxo.io/findings/ARXO-2026-0316/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "dolutegravir prescribing information (SPL set ID 63df5af3-b8ac-4e76-9830-2dbb340af922)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "Highlights and 1",
+      "text": {
+        "en": {
+          "title": "dolutegravir: Highlights and 1 has no instruction for a patient the label covers",
+          "summary": "Highlights and 1 reads “weighing at least 2 kg”. Example: A child aged 5 weeks who weighs 2.5 kg is within the indication and has no row in Table 2 (neonates under 4 weeks) or Table 3 (from 3 kg). The text is in this label.",
+          "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, ViiV Healthcare Company, SPL set ID 63df5af3-b8ac-4e76-9830-2dbb340af922, version 34 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 34",
+            "locator": "Highlights and 1",
+            "text": "weighing at least 2 kg",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/63df5af3-b8ac-4e76-9830-2dbb340af922.xml",
+            "sha256": "61977454e3b3c46b5b967b3a90538b56b8b4a2f3b3c1600b45c859042ea23ff1",
+            "retrieved": "2026-10-29",
+            "copy": "sources/61977454e3b3c46b-63df5af3-b8ac-4e76-9830-2dbb340af922-v34.xml",
+            "copy_sha256": "61977454e3b3c46b5b967b3a90538b56b8b4a2f3b3c1600b45c859042ea23ff1",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "ViiV Healthcare Company",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "ViiV Healthcare Company",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to ViiV Healthcare Company (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0317",
+      "url": "https://arxo.io/findings/ARXO-2026-0317/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "lipid injectable emulsion (soybean and olive oils) prescribing information (SPL set ID ae98eb03-c0e7-49d1-b024-77968e3d9d6e)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "2.4, Table 1 and 2.4, Table 1",
+      "text": {
+        "en": {
+          "title": "lipid injectable emulsion (soybean and olive oils): 2.4, Table 1 and 2.4, Table 1 give different instructions for one patient",
+          "summary": "2.4, Table 1 reads “Birth to 2 years of age”. 2.4, Table 1 reads “2 to less than 12 years of age”. Example: A child aged exactly 2 years matches both rows, with different initial doses. The text is in this label.",
+          "impact": "Potential effect on a prescribing decision: low; careful reading of the whole label usually resolves it. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Baxter Healthcare Corporation, SPL set ID ae98eb03-c0e7-49d1-b024-77968e3d9d6e, version 24 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 24",
+            "locator": "2.4, Table 1",
+            "text": "Birth to 2 years of age",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/ae98eb03-c0e7-49d1-b024-77968e3d9d6e.xml",
+            "sha256": "baeaa6b77aeadee00d8185e14152e45146911fc9d6eae2a81940313efdb85bda",
+            "retrieved": "2026-10-29",
+            "copy": "sources/baeaa6b77aeadee0-ae98eb03-c0e7-49d1-b024-77968e3d9d6e-v24.xml",
+            "copy_sha256": "baeaa6b77aeadee00d8185e14152e45146911fc9d6eae2a81940313efdb85bda",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, Baxter Healthcare Corporation, SPL set ID ae98eb03-c0e7-49d1-b024-77968e3d9d6e, version 24 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 24",
+            "locator": "2.4, Table 1",
+            "text": "2 to less than 12 years of age",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/ae98eb03-c0e7-49d1-b024-77968e3d9d6e.xml",
+            "sha256": "baeaa6b77aeadee00d8185e14152e45146911fc9d6eae2a81940313efdb85bda",
+            "retrieved": "2026-10-29",
+            "copy": "sources/baeaa6b77aeadee0-ae98eb03-c0e7-49d1-b024-77968e3d9d6e-v24.xml",
+            "copy_sha256": "baeaa6b77aeadee00d8185e14152e45146911fc9d6eae2a81940313efdb85bda",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Baxter Healthcare Corporation",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Baxter Healthcare Corporation",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Baxter Healthcare Corporation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0318",
+      "url": "https://arxo.io/findings/ARXO-2026-0318/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "pantoprazole sodium for injection prescribing information (SPL set ID 51e4144a-489e-436c-609a-39305f8f56ba)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "2.1 and 12.3",
+      "text": {
+        "en": {
+          "title": "pantoprazole sodium for injection: 2.1 and 12.3 give different instructions for one patient",
+          "summary": "2.1 reads “Greater than 15 kg up to 40 kg”. 12.3 reads “body weight of 40 kg and greater”. Example: A child weighing exactly 40 kg gets 20 mg by 2.1 and 40 mg by 12.3. The same text is in 5 labels from 3 labelers in the DailyMed release of 29 October 2026.",
+          "impact": "Potential effect on a prescribing decision: low; careful reading of the whole label usually resolves it. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc., SPL set ID 51e4144a-489e-436c-609a-39305f8f56ba, version 60 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 60",
+            "locator": "2.1",
+            "text": "Greater than 15 kg up to 40 kg",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/51e4144a-489e-436c-609a-39305f8f56ba.xml",
+            "sha256": "310324b8628d46a8de8760b13eedf2793a0cf1b092183df17070aae7dfb76a26",
+            "retrieved": "2026-10-29",
+            "copy": "sources/310324b8628d46a8-51e4144a-489e-436c-609a-39305f8f56ba-v60.xml",
+            "copy_sha256": "310324b8628d46a8de8760b13eedf2793a0cf1b092183df17070aae7dfb76a26",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc., SPL set ID 51e4144a-489e-436c-609a-39305f8f56ba, version 60 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 60",
+            "locator": "12.3",
+            "text": "body weight of 40 kg and greater",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/51e4144a-489e-436c-609a-39305f8f56ba.xml",
+            "sha256": "310324b8628d46a8de8760b13eedf2793a0cf1b092183df17070aae7dfb76a26",
+            "retrieved": "2026-10-29",
+            "copy": "sources/310324b8628d46a8-51e4144a-489e-436c-609a-39305f8f56ba-v60.xml",
+            "copy_sha256": "310324b8628d46a8de8760b13eedf2793a0cf1b092183df17070aae7dfb76a26",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Pfizer",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Pfizer",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Pfizer (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0319",
+      "url": "https://arxo.io/findings/ARXO-2026-0319/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "oxycodone hydrochloride prescribing information (SPL set ID 5a8157d3-ba20-4abf-b0d4-6ad141b31d63)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "Highlights, Drug Interactions",
+      "text": {
+        "en": {
+          "title": "oxycodone hydrochloride: Highlights, Drug Interactions has no instruction for a patient the label covers",
+          "summary": "Highlights, Drug Interactions reads “Can potentiate the effects of morphine”. Example: The MAOI line in Highlights of an oxycodone label names morphine; section 7 does not. The same text is in 63 labels from 28 labelers in the DailyMed release of 29 October 2026.",
+          "impact": "Potential effect on a prescribing decision: low; careful reading of the whole label usually resolves it. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, SpecGx LLC, SPL set ID 5a8157d3-ba20-4abf-b0d4-6ad141b31d63, version 30 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 30",
+            "locator": "Highlights, Drug Interactions",
+            "text": "Can potentiate the effects of morphine",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/5a8157d3-ba20-4abf-b0d4-6ad141b31d63.xml",
+            "sha256": "953077444e91f3435c9228e2d3a0512ac7f0f0631cd4356acf9286cfb7f0b22b",
+            "retrieved": "2026-10-29",
+            "copy": "sources/953077444e91f343-5a8157d3-ba20-4abf-b0d4-6ad141b31d63-v30.xml",
+            "copy_sha256": "953077444e91f3435c9228e2d3a0512ac7f0f0631cd4356acf9286cfb7f0b22b",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "SpecGx LLC",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "Protega Pharmaceuticals Inc.",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "SpecGx LLC",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "Protega Pharmaceuticals Inc.",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to SpecGx LLC (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Protega Pharmaceuticals Inc. (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0320",
+      "url": "https://arxo.io/findings/ARXO-2026-0320/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "acamprosate calcium prescribing information (SPL set ID 0c729939-d2d2-4e61-acbc-4f1646dc38c1)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "2.1 and 4.2",
+      "text": {
+        "en": {
+          "title": "acamprosate calcium: 2.1 and 4.2 give different instructions for one patient",
+          "summary": "2.1 reads “creatinine clearance of 30 to 50 mL/min”. 4.2 reads “creatinine clearance of ≤30 mL/min”. Example: At creatinine clearance exactly 30 mL/min the label gives a reduced dose (2.1, 5.1, 12.3) and a contraindication (4.2, 8.6, Highlights). The same text is in 8 labels from 8 labelers in the DailyMed release of 29 October 2026.",
+          "impact": "Potential effect on a prescribing decision: low; careful reading of the whole label usually resolves it. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Zydus Lifesciences Limited, SPL set ID 0c729939-d2d2-4e61-acbc-4f1646dc38c1, version 4 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 4",
+            "locator": "2.1",
+            "text": "creatinine clearance of 30 to 50 mL/min",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/0c729939-d2d2-4e61-acbc-4f1646dc38c1.xml",
+            "sha256": "a86a100e30e8883ef296447f86b6bbc017f6bc530beaf59fc5334070ec143dbc",
+            "retrieved": "2026-10-29",
+            "copy": "sources/a86a100e30e8883e-0c729939-d2d2-4e61-acbc-4f1646dc38c1-v4.xml",
+            "copy_sha256": "a86a100e30e8883ef296447f86b6bbc017f6bc530beaf59fc5334070ec143dbc",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, Zydus Lifesciences Limited, SPL set ID 0c729939-d2d2-4e61-acbc-4f1646dc38c1, version 4 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 4",
+            "locator": "4.2",
+            "text": "creatinine clearance of ≤30 mL/min",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/0c729939-d2d2-4e61-acbc-4f1646dc38c1.xml",
+            "sha256": "a86a100e30e8883ef296447f86b6bbc017f6bc530beaf59fc5334070ec143dbc",
+            "retrieved": "2026-10-29",
+            "copy": "sources/a86a100e30e8883e-0c729939-d2d2-4e61-acbc-4f1646dc38c1-v4.xml",
+            "copy_sha256": "a86a100e30e8883ef296447f86b6bbc017f6bc530beaf59fc5334070ec143dbc",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Zydus Pharmaceuticals",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "Glenmark Pharmaceuticals Inc., USA",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "Somerset Therapeutics, LLC",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Zydus Pharmaceuticals",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "Glenmark Pharmaceuticals Inc., USA",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "Somerset Therapeutics, LLC",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Zydus Pharmaceuticals (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Glenmark Pharmaceuticals Inc., USA (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Somerset Therapeutics, LLC (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0321",
+      "url": "https://arxo.io/findings/ARXO-2026-0321/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "PEG 3350 and electrolytes for oral solution prescribing information (SPL set ID 7609ecf7-0ce0-4fbb-9c27-30987f689575)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "7.2 and 2.1",
+      "text": {
+        "en": {
+          "title": "PEG 3350 and electrolytes for oral solution: 7.2 and 2.1 give different instructions for one patient",
+          "summary": "7.2 reads “Administer oral medications within one hour before the start of administration of GoLYTELY”. 2.1 reads “Do not take oral medications within 1 hour before the start or during administration”. Example: A tablet taken 30 minutes before the opening dose follows 7.2 and breaks 2.1, Highlights and 17. The same text is in 9 labels from 8 labelers in the DailyMed release of 29 October 2026.",
+          "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Azurity Pharmaceuticals, Inc., SPL set ID 7609ecf7-0ce0-4fbb-9c27-30987f689575, version 1 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 1",
+            "locator": "7.2",
+            "text": "Administer oral medications within one hour before the start of administration of GoLYTELY",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/7609ecf7-0ce0-4fbb-9c27-30987f689575.xml",
+            "sha256": "159a2be285e0c1940159e36bbcb624cb1e0d66ecbbe0f85e537b56fa6de29dcc",
+            "retrieved": "2026-10-29",
+            "copy": "sources/159a2be285e0c194-7609ecf7-0ce0-4fbb-9c27-30987f689575-v1.xml",
+            "copy_sha256": "159a2be285e0c1940159e36bbcb624cb1e0d66ecbbe0f85e537b56fa6de29dcc",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, Azurity Pharmaceuticals, Inc., SPL set ID 7609ecf7-0ce0-4fbb-9c27-30987f689575, version 1 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 1",
+            "locator": "2.1",
+            "text": "Do not take oral medications within 1 hour before the start or during administration",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/7609ecf7-0ce0-4fbb-9c27-30987f689575.xml",
+            "sha256": "159a2be285e0c1940159e36bbcb624cb1e0d66ecbbe0f85e537b56fa6de29dcc",
+            "retrieved": "2026-10-29",
+            "copy": "sources/159a2be285e0c194-7609ecf7-0ce0-4fbb-9c27-30987f689575-v1.xml",
+            "copy_sha256": "159a2be285e0c1940159e36bbcb624cb1e0d66ecbbe0f85e537b56fa6de29dcc",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Azurity Pharmaceuticals, Inc.",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Azurity Pharmaceuticals, Inc.",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Azurity Pharmaceuticals, Inc. (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0322",
+      "url": "https://arxo.io/findings/ARXO-2026-0322/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "heparin sodium injection prescribing information (SPL set ID 9207cef5-4cec-41e7-a351-29ba726feb44)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "Highlights, Contraindications",
+      "text": {
+        "en": {
+          "title": "heparin sodium injection: Highlights, Contraindications has no instruction for a patient the label covers",
+          "summary": "Highlights, Contraindications reads “Severe thrombocytopenia”. Example: Highlights lists severe thrombocytopenia as a contraindication; section 4 does not, and section 4 lists HIT or HITT history and hypersensitivity, which Highlights omits. The same text is in 28 labels from 16 labelers in the DailyMed release of 29 October 2026.",
+          "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Fresenius Kabi USA, LLC, SPL set ID 9207cef5-4cec-41e7-a351-29ba726feb44, version 3 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 3",
+            "locator": "Highlights, Contraindications",
+            "text": "Severe thrombocytopenia",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/9207cef5-4cec-41e7-a351-29ba726feb44.xml",
+            "sha256": "60b2a91054e02f1627b236796cd1349a91ff1c0633824b1aab39b75bcb695139",
+            "retrieved": "2026-10-29",
+            "copy": "sources/60b2a91054e02f16-9207cef5-4cec-41e7-a351-29ba726feb44-v3.xml",
+            "copy_sha256": "60b2a91054e02f1627b236796cd1349a91ff1c0633824b1aab39b75bcb695139",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Fresenius Kabi USA, LLC",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "Hikma Pharmaceuticals USA Inc.",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Fresenius Kabi USA, LLC",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "Hikma Pharmaceuticals USA Inc.",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Fresenius Kabi USA, LLC (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Hikma Pharmaceuticals USA Inc. (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0323",
+      "url": "https://arxo.io/findings/ARXO-2026-0323/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "pralsetinib prescribing information (SPL set ID 16edd46e-28b8-f06d-e063-6394a90ae31b)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "Highlights, Warnings and Precautions",
+      "text": {
+        "en": {
+          "title": "pralsetinib: Highlights, Warnings and Precautions has no instruction for a patient the label covers",
+          "summary": "Highlights, Warnings and Precautions reads “Permanently discontinue for Grade 3 or 4 reactions”. Example: Grade 3 ILD or pneumonitis: Highlights requires permanent discontinuation; Table 2 has ILD rows only for Grade 1 or 2 and Grade 4, so it gives no action for Grade 3, and the general row for other adverse reactions allows resumption at a reduced dose. The text is in this label.",
+          "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Rigel Pharmaceuticals, Inc., SPL set ID 16edd46e-28b8-f06d-e063-6394a90ae31b, version 8 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 8",
+            "locator": "Highlights, Warnings and Precautions",
+            "text": "Permanently discontinue for Grade 3 or 4 reactions",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/16edd46e-28b8-f06d-e063-6394a90ae31b.xml",
+            "sha256": "a49c8c2828cc648d665007781d893be175b05ca8c23ad0cf8989212cb689b19f",
+            "retrieved": "2026-10-29",
+            "copy": "sources/a49c8c2828cc648d-16edd46e-28b8-f06d-e063-6394a90ae31b-v8.xml",
+            "copy_sha256": "a49c8c2828cc648d665007781d893be175b05ca8c23ad0cf8989212cb689b19f",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Rigel Pharmaceuticals, Inc.",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Rigel Pharmaceuticals, Inc.",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Rigel Pharmaceuticals, Inc. (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0324",
+      "url": "https://arxo.io/findings/ARXO-2026-0324/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "dronedarone prescribing information (SPL set ID 7fa41601-7fb5-4155-8e50-2ae903f0d2d6)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "7.3 and 7.3",
+      "text": {
+        "en": {
+          "title": "dronedarone: 7.3 and 7.3 give different instructions for one patient",
+          "summary": "7.3 reads “reduce the dose of dabigatran to 75 mg twice daily”. 7.3 reads “should be avoided”. Example: At CrCL exactly 30 mL/min, 7.3 places the patient both in the 30 to 50 band (reduce dabigatran) and in the 15 to 30 band (avoid the combination). The same text is in 2 labels from 2 labelers in the DailyMed release of 29 October 2026.",
+          "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Sanofi-Aventis U.S. LLC, SPL set ID 7fa41601-7fb5-4155-8e50-2ae903f0d2d6, version 37 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 37",
+            "locator": "7.3",
+            "text": "reduce the dose of dabigatran to 75 mg twice daily",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/7fa41601-7fb5-4155-8e50-2ae903f0d2d6.xml",
+            "sha256": "ad58e6f56c84b6c17a9cd070e5d7b3aaa2acaf2bf2e3d79950625ec86e6fa54a",
+            "retrieved": "2026-10-29",
+            "copy": "sources/ad58e6f56c84b6c1-7fa41601-7fb5-4155-8e50-2ae903f0d2d6-v37.xml",
+            "copy_sha256": "ad58e6f56c84b6c17a9cd070e5d7b3aaa2acaf2bf2e3d79950625ec86e6fa54a",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, Sanofi-Aventis U.S. LLC, SPL set ID 7fa41601-7fb5-4155-8e50-2ae903f0d2d6, version 37 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 37",
+            "locator": "7.3",
+            "text": "should be avoided",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/7fa41601-7fb5-4155-8e50-2ae903f0d2d6.xml",
+            "sha256": "ad58e6f56c84b6c17a9cd070e5d7b3aaa2acaf2bf2e3d79950625ec86e6fa54a",
+            "retrieved": "2026-10-29",
+            "copy": "sources/ad58e6f56c84b6c1-7fa41601-7fb5-4155-8e50-2ae903f0d2d6-v37.xml",
+            "copy_sha256": "ad58e6f56c84b6c17a9cd070e5d7b3aaa2acaf2bf2e3d79950625ec86e6fa54a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "sanofi-aventis U.S. LLC",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "sanofi-aventis U.S. LLC",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to sanofi-aventis U.S. LLC (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0325",
+      "url": "https://arxo.io/findings/ARXO-2026-0325/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "emtricitabine prescribing information (SPL set ID d6599395-3944-44f9-97f2-e0424c6b6a1f)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "2.4 and 2.5",
+      "text": {
+        "en": {
+          "title": "emtricitabine: 2.4 and 2.5 give different instructions for one patient",
+          "summary": "2.4 reads “0–3 months of age”. 2.5 reads “3 months through 17 years of age”. Example: An infant aged exactly 3 months matches both sections, with doses of 3 mg per kg and 6 mg per kg. The same text is in 4 labels from 4 labelers in the DailyMed release of 29 October 2026.",
+          "impact": "Potential effect on a prescribing decision: low; careful reading of the whole label usually resolves it. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Gilead Sciences, Inc., SPL set ID d6599395-3944-44f9-97f2-e0424c6b6a1f, version 14 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 14",
+            "locator": "2.4",
+            "text": "0–3 months of age",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/d6599395-3944-44f9-97f2-e0424c6b6a1f.xml",
+            "sha256": "1f6311ec6a1b54b44568a95816c0efe60eaa20f353a07e30b2221204b0dd7796",
+            "retrieved": "2026-10-29",
+            "copy": "sources/1f6311ec6a1b54b4-d6599395-3944-44f9-97f2-e0424c6b6a1f-v14.xml",
+            "copy_sha256": "1f6311ec6a1b54b44568a95816c0efe60eaa20f353a07e30b2221204b0dd7796",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, Gilead Sciences, Inc., SPL set ID d6599395-3944-44f9-97f2-e0424c6b6a1f, version 14 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 14",
+            "locator": "2.5",
+            "text": "3 months through 17 years of age",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/d6599395-3944-44f9-97f2-e0424c6b6a1f.xml",
+            "sha256": "1f6311ec6a1b54b44568a95816c0efe60eaa20f353a07e30b2221204b0dd7796",
+            "retrieved": "2026-10-29",
+            "copy": "sources/1f6311ec6a1b54b4-d6599395-3944-44f9-97f2-e0424c6b6a1f-v14.xml",
+            "copy_sha256": "1f6311ec6a1b54b44568a95816c0efe60eaa20f353a07e30b2221204b0dd7796",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Gilead Sciences, Inc.",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Gilead Sciences, Inc.",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Gilead Sciences, Inc. (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0326",
+      "url": "https://arxo.io/findings/ARXO-2026-0326/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "amino acids injection (PROSOL) prescribing information (SPL set ID cc2ace81-5881-43f1-ba94-41b674adc2fc)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "Table 2 and Table 2",
+      "text": {
+        "en": {
+          "title": "amino acids injection (PROSOL): Table 2 and Table 2 give different instructions for one patient",
+          "summary": "Table 2 reads “1 month to 1 year of age”. Table 2 reads “1 to 10 years of age”. Example: A child aged exactly 1 year matches both rows. A child aged exactly 1 month, and a child aged 10 to 11 years, match no row. The text is in this label.",
+          "impact": "Potential effect on a prescribing decision: low; careful reading of the whole label usually resolves it. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Baxter Healthcare Corporation, SPL set ID cc2ace81-5881-43f1-ba94-41b674adc2fc, version 16 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 16",
+            "locator": "Table 2",
+            "text": "1 month to 1 year of age",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/cc2ace81-5881-43f1-ba94-41b674adc2fc.xml",
+            "sha256": "06b215dafc8d276126273646c09b513f3cdeca3d99fccb8b932d68fc2fa5e8fa",
+            "retrieved": "2026-10-29",
+            "copy": "sources/06b215dafc8d2761-cc2ace81-5881-43f1-ba94-41b674adc2fc-v16.xml",
+            "copy_sha256": "06b215dafc8d276126273646c09b513f3cdeca3d99fccb8b932d68fc2fa5e8fa",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, Baxter Healthcare Corporation, SPL set ID cc2ace81-5881-43f1-ba94-41b674adc2fc, version 16 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 16",
+            "locator": "Table 2",
+            "text": "1 to 10 years of age",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/cc2ace81-5881-43f1-ba94-41b674adc2fc.xml",
+            "sha256": "06b215dafc8d276126273646c09b513f3cdeca3d99fccb8b932d68fc2fa5e8fa",
+            "retrieved": "2026-10-29",
+            "copy": "sources/06b215dafc8d2761-cc2ace81-5881-43f1-ba94-41b674adc2fc-v16.xml",
+            "copy_sha256": "06b215dafc8d276126273646c09b513f3cdeca3d99fccb8b932d68fc2fa5e8fa",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Baxter Healthcare Corporation",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Baxter Healthcare Corporation",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Baxter Healthcare Corporation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0327",
+      "url": "https://arxo.io/findings/ARXO-2026-0327/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "potassium phosphates injection prescribing information (SPL set ID 475f5cd7-45bd-412a-b419-9962585d6cda)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "2.2",
+      "text": {
+        "en": {
+          "title": "potassium phosphates injection: 2.2 has no instruction for a patient the label covers",
+          "summary": "2.2 reads “4 mEq/dL”. Example: Serum potassium is reported in mEq/L. Read as printed, a threshold of 4 mEq/dL is 40 mEq/L, so a patient with potassium 5.5 mEq/L is below it. The same text is in 13 labels from 10 labelers in the DailyMed release of 29 October 2026.",
+          "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Fresenius Kabi USA, LLC, SPL set ID 475f5cd7-45bd-412a-b419-9962585d6cda, version 4 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 4",
+            "locator": "2.2",
+            "text": "4 mEq/dL",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/475f5cd7-45bd-412a-b419-9962585d6cda.xml",
+            "sha256": "15c7166871663694f9fc349503342f40a2409094396a3824cd8ac5faaefbf2ac",
+            "retrieved": "2026-10-29",
+            "copy": "sources/15c7166871663694-475f5cd7-45bd-412a-b419-9962585d6cda-v4.xml",
+            "copy_sha256": "15c7166871663694f9fc349503342f40a2409094396a3824cd8ac5faaefbf2ac",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Fresenius Kabi USA, LLC",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "Amneal Pharmaceuticals LLC",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Fresenius Kabi USA, LLC",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "Amneal Pharmaceuticals LLC",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Fresenius Kabi USA, LLC (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Amneal Pharmaceuticals LLC (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0328",
+      "url": "https://arxo.io/findings/ARXO-2026-0328/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "azacitidine prescribing information (SPL set ID 3495a71a-cc04-4776-851f-f185956f32af)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "2.5 and 2.5",
+      "text": {
+        "en": {
+          "title": "azacitidine: 2.5 and 2.5 give different instructions for one patient",
+          "summary": "2.5 reads “30-60”. 2.5 reads “15-30”. Example: At bone marrow biopsy cellularity exactly 30%, the table gives two columns, 100% and 50% of the dose. There is no column above 60%. The same text is in 19 labels from 14 labelers in the DailyMed release of 29 October 2026.",
+          "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Celgene Corporation, SPL set ID 3495a71a-cc04-4776-851f-f185956f32af, version 22 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 22",
+            "locator": "2.5",
+            "text": "30-60",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/3495a71a-cc04-4776-851f-f185956f32af.xml",
+            "sha256": "9c1e1aad99c0363335cd2b6cf109ed51c3ee61da1146937ea8a371257ca94640",
+            "retrieved": "2026-10-29",
+            "copy": "sources/9c1e1aad99c03633-3495a71a-cc04-4776-851f-f185956f32af-v22.xml",
+            "copy_sha256": "9c1e1aad99c0363335cd2b6cf109ed51c3ee61da1146937ea8a371257ca94640",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, Celgene Corporation, SPL set ID 3495a71a-cc04-4776-851f-f185956f32af, version 22 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 22",
+            "locator": "2.5",
+            "text": "15-30",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/3495a71a-cc04-4776-851f-f185956f32af.xml",
+            "sha256": "9c1e1aad99c0363335cd2b6cf109ed51c3ee61da1146937ea8a371257ca94640",
+            "retrieved": "2026-10-29",
+            "copy": "sources/9c1e1aad99c03633-3495a71a-cc04-4776-851f-f185956f32af-v22.xml",
+            "copy_sha256": "9c1e1aad99c0363335cd2b6cf109ed51c3ee61da1146937ea8a371257ca94640",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Bristol-Myers Squibb",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Bristol-Myers Squibb",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Bristol-Myers Squibb (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0329",
+      "url": "https://arxo.io/findings/ARXO-2026-0329/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "trace elements injection (zinc) prescribing information (SPL set ID 995f1efa-aca0-4b6c-9099-f8e757c2133a)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "Table 2 and Table 2",
+      "text": {
+        "en": {
+          "title": "trace elements injection (zinc): Table 2 and Table 2 give different instructions for one patient",
+          "summary": "Table 2 reads “3 kg to 5 kg”. Table 2 reads “5 to 10 kg”. Example: An infant weighing exactly 5 kg matches both zinc rows: 250 and 100 mcg/kg/day. The text is in this label.",
+          "impact": "Potential effect on a prescribing decision: medium. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, American Regent, Inc., SPL set ID 995f1efa-aca0-4b6c-9099-f8e757c2133a, version 4 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 4",
+            "locator": "Table 2",
+            "text": "3 kg to 5 kg",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/995f1efa-aca0-4b6c-9099-f8e757c2133a.xml",
+            "sha256": "10cf5210c03c5624998dc96763c1dc23a9caf96e27acc96f280ec08ff730a74b",
+            "retrieved": "2026-10-29",
+            "copy": "sources/10cf5210c03c5624-995f1efa-aca0-4b6c-9099-f8e757c2133a-v4.xml",
+            "copy_sha256": "10cf5210c03c5624998dc96763c1dc23a9caf96e27acc96f280ec08ff730a74b",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, American Regent, Inc., SPL set ID 995f1efa-aca0-4b6c-9099-f8e757c2133a, version 4 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 4",
+            "locator": "Table 2",
+            "text": "5 to 10 kg",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/995f1efa-aca0-4b6c-9099-f8e757c2133a.xml",
+            "sha256": "10cf5210c03c5624998dc96763c1dc23a9caf96e27acc96f280ec08ff730a74b",
+            "retrieved": "2026-10-29",
+            "copy": "sources/10cf5210c03c5624-995f1efa-aca0-4b6c-9099-f8e757c2133a-v4.xml",
+            "copy_sha256": "10cf5210c03c5624998dc96763c1dc23a9caf96e27acc96f280ec08ff730a74b",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "American Regent, Inc.",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "American Regent, Inc.",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to American Regent, Inc. (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0330",
+      "url": "https://arxo.io/findings/ARXO-2026-0330/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "lorlatinib prescribing information (SPL set ID 2b34d62d-e02a-4af3-bc0d-1571dd4ee76d)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "Highlights, Dosage and Administration, line \"Renal Impairment\" and 2.6",
+      "text": {
+        "en": {
+          "title": "lorlatinib: Highlights, Dosage and Administration, line \"Renal Impairment\" and 2.6 give different instructions for one patient",
+          "summary": "Highlights, Dosage and Administration, line \"Renal Impairment\" reads “75 mg orally once daily”. 2.6 reads “15 to < 30 mL/min”. Example: A patient with CLcr 60 mL/min gets the reduced dose by Highlights; by 2.6 and 8.7 no adjustment applies. The text is in this label.",
+          "impact": "Potential effect on a prescribing decision: low; careful reading of the whole label usually resolves it. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Pfizer Laboratories Div Pfizer Inc, SPL set ID 2b34d62d-e02a-4af3-bc0d-1571dd4ee76d, version 13 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 13",
+            "locator": "Highlights, Dosage and Administration, line \"Renal Impairment\"",
+            "text": "75 mg orally once daily",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/2b34d62d-e02a-4af3-bc0d-1571dd4ee76d.xml",
+            "sha256": "046f06875fd09d2510a67b15c13bc79680a5380e40f4979645a940152905baa0",
+            "retrieved": "2026-10-29",
+            "copy": "sources/046f06875fd09d25-2b34d62d-e02a-4af3-bc0d-1571dd4ee76d-v13.xml",
+            "copy_sha256": "046f06875fd09d2510a67b15c13bc79680a5380e40f4979645a940152905baa0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Prescribing information, Pfizer Laboratories Div Pfizer Inc, SPL set ID 2b34d62d-e02a-4af3-bc0d-1571dd4ee76d, version 13 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 13",
+            "locator": "2.6",
+            "text": "15 to < 30 mL/min",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/2b34d62d-e02a-4af3-bc0d-1571dd4ee76d.xml",
+            "sha256": "046f06875fd09d2510a67b15c13bc79680a5380e40f4979645a940152905baa0",
+            "retrieved": "2026-10-29",
+            "copy": "sources/046f06875fd09d25-2b34d62d-e02a-4af3-bc0d-1571dd4ee76d-v13.xml",
+            "copy_sha256": "046f06875fd09d2510a67b15c13bc79680a5380e40f4979645a940152905baa0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Pfizer",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Pfizer",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Pfizer (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0331",
+      "url": "https://arxo.io/findings/ARXO-2026-0331/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "raltegravir prescribing information (SPL set ID 89a5ec53-d956-4329-8004-0f40f51c88a3)",
+      "acts": [
+        "FDA prescribing information published on DailyMed"
+      ],
+      "location": "2.1",
+      "text": {
+        "en": {
+          "title": "raltegravir: wording question in 2.1",
+          "summary": "2.1 reads “Maximum daily dose is 300 mg taken by mouth twice daily”. Example: \"Maximum daily dose\" can be read as 300 mg per day or as 600 mg per day. The same text is in 7 labels from 6 labelers in the DailyMed release of 29 October 2026.",
+          "impact": "Potential effect on a prescribing decision: low; careful reading of the whole label usually resolves it. Arxo does not say which instruction is correct and gives no dose."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Prescribing information, Merck Sharp & Dohme LLC, SPL set ID 89a5ec53-d956-4329-8004-0f40f51c88a3, version 71 (DailyMed)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": "version 71",
+            "locator": "2.1",
+            "text": "Maximum daily dose is 300 mg taken by mouth twice daily",
+            "translations": {},
+            "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/89a5ec53-d956-4329-8004-0f40f51c88a3.xml",
+            "sha256": "e2469625d5e949fe24389d4cd3aea3f58bc79b655a87d4464e6534295d0bb70a",
+            "retrieved": "2026-10-29",
+            "copy": "sources/e2469625d5e949fe-89a5ec53-d956-4329-8004-0f40f51c88a3-v71.xml",
+            "copy_sha256": "e2469625d5e949fe24389d4cd3aea3f58bc79b655a87d4464e6534295d0bb70a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Merck Sharp & Dohme LLC",
+          "channel": "email",
+          "role": "holder of the labeling"
+        },
+        {
+          "date": "2026-10-31",
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "channel": "email",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Merck Sharp & Dohme LLC",
+          "role": "holder of the labeling"
+        },
+        {
+          "institution": "U.S. Food and Drug Administration, Center for Drug Evaluation and Research",
+          "role": "regulator of prescription drug labeling"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the labels, compared their parts and, where marked, ran the example patient through executable rules; an AI agent then read each place in full, with tables and footnotes, and confirmed it. No clinician has assessed these places. A person at Arxo approved publication (2026-10-31)."
+      },
+      "credit": [],
+      "press_date": "2026-10-31T00:00:00Z",
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": null,
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Merck Sharp & Dohme LLC (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
         }
       ]
     }
