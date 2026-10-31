@@ -1,0 +1,172 @@
+{
+  "id": "ARXO-2026-0236",
+  "url": "https://arxo.io/findings/ARXO-2026-0236/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Federal Acquisition Regulation (48 CFR chapter 1)",
+  "acts": [
+    "48 CFR part 25",
+    "48 CFR part 52",
+    "FAR Overhaul Part 25",
+    "26 USC 45",
+    "26 USC 45Y",
+    "P.L. 117-169"
+  ],
+  "location": "FAR 25.101(d)(2)(i); FAR Overhaul 25.101(d)(2)(i)",
+  "text": {
+    "en": {
+      "title": "FAR 25.101(d)(2)(i) refers to 25.1101(b)(1)(v); paragraph 25.1101(b)(1) ends at (iv)",
+      "summary": "FAR 25.101(d)(2)(i) says “See 25.1101(a)(1)(ii) or 25.1101(b)(1)(v) for use of the appropriate Alternate clause”. Paragraph 25.1101(b)(1) ends at (iv), which prescribes Alternate IV for the alternate domestic content test. The FAR Overhaul version refers to 25.601(b)(1)(v), which also ends at (iv).",
+      "impact": "No affected contract has been established.",
+      "correction": "Refer to 25.1101(b)(1)(iv) (Overhaul: 25.601(b)(1)(iv))."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-29",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "citing",
+        "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "48 CFR 25.101(d)(2)(i)",
+        "text": "See 25.1101(a)(1)(ii) or 25.1101(b)(1)(v) for use of the appropriate Alternate clause",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+        "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+        "retrieved": "2026-10-29",
+        "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+        "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "target-iv",
+        "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "48 CFR 25.1101(b)(1)(iv)",
+        "text": "The contracting officer shall use the clause with its Alternate IV to reflect the domestic content threshold that will apply to the entire period of performance",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+        "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+        "retrieved": "2026-10-29",
+        "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+        "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "rfo",
+        "source": "FAR Overhaul Part 25 (acquisition.gov)",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": null,
+        "locator": "FAR Overhaul 25.101(d)(2)(i)",
+        "text": "See 25.601(a)(1)(ii) or 25.601(b)(1)(v) for use of the appropriate Alternate clause",
+        "translations": {},
+        "url": "https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-25",
+        "sha256": "0b45716c3c938a1b204b0fd9c43b7a874830a2ac46647be7c2e6672ddc98f642",
+        "retrieved": "2026-10-29",
+        "copy": "sources/0b45716c3c938a1b-far-rfo-part25.html",
+        "copy_sha256": "0b45716c3c938a1b204b0fd9c43b7a874830a2ac46647be7c2e6672ddc98f642",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-29T18:57:00Z",
+      "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+      "channel": "email",
+      "role": "author of the FAR",
+      "what": "letter to the FAR Council through the GSA Federal Acquisition Policy Division and Regulatory Secretariat"
+    },
+    {
+      "date": "2026-10-29T18:58:00Z",
+      "institution": "Office of the Federal Register, National Archives",
+      "channel": "email",
+      "role": "publisher of the Code of Federal Regulations",
+      "what": "editorial routing letter to the Office of the Federal Register"
+    },
+    {
+      "date": "2026-10-29T18:57:00Z",
+      "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+      "channel": "email",
+      "role": "FAR Council member; class deviation applying the revised FAR Part 25",
+      "what": "letter to DPCAP and DARS"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+      "role": "author of the FAR"
+    },
+    {
+      "institution": "Office of the Federal Register, National Archives",
+      "role": "publisher of the Code of Federal Regulations"
+    },
+    {
+      "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+      "role": "FAR Council member; class deviation applying the revised FAR Part 25"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-29",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo approved the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T11:45:00Z",
+  "history": [
+    {
+      "date": "2026-10-29",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "reported",
+      "text": "Reported to FAR Council (General Services Administration, Federal Acquisition Policy Division) (e-mail)"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register, National Archives (e-mail)"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "reported",
+      "text": "Reported to Department of Defense, Defense Pricing, Contracting, and Acquisition Policy (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

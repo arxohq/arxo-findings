@@ -1,22 +1,22 @@
 {
-  "format": "arxo.public-findings/0.1",
+  "format": "arxo.public-findings/0.2",
   "title": "Arxo Findings Register",
-  "description": "Verified discrepancies in legal texts, official publications and implementations, with evidence and correction histories.",
+  "description": "Verified discrepancies in legal texts, standards, official publications and implementations, with evidence and correction histories.",
   "publisher": "Arxo Law",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "as_of": "2026-10-31T09:22:00+00:00",
+  "as_of": "2026-10-31T11:45:00+00:00",
   "base_url": "https://arxo.io/findings/",
   "counts": {
-    "records": 236,
-    "discrepancies": 198,
-    "questions": 38,
+    "records": 253,
+    "discrepancies": 201,
+    "questions": 52,
     "by_jurisdiction": {
       "FR": 12,
       "KZ": 182,
-      "US": 42
+      "US": 59
     },
     "by_status": {
-      "reported": 223,
+      "reported": 240,
       "accepted": 3,
       "note_added": 5,
       "corrected": 3,
@@ -93,7 +93,7 @@
         "jurisdiction": "US",
         "class": "act_text",
         "status": "reported",
-        "records": 30
+        "records": 33
       },
       {
         "jurisdiction": "US",
@@ -123,14 +123,14 @@
         "jurisdiction": "US",
         "class": "question",
         "status": "reported",
-        "records": 1
+        "records": 15
       }
     ],
-    "institutions_notified": 57,
+    "institutions_notified": 61,
     "corrected_by_official_document": 5,
     "withdrawn_after_publication": {
       "withdrawn": 0,
-      "of_published": 205
+      "of_published": 222
     },
     "rule": "Counts are of findings. One finding is one independently checkable statement about one discrepancy at one place; classes and questions are counted separately and are not added together."
   },
@@ -37392,6 +37392,2798 @@
           "date": "2026-10-27",
           "event": "reported",
           "text": "Reported to AIFC Authority (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0235",
+      "url": "https://arxo.io/findings/ARXO-2026-0235/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "Federal Acquisition Regulation (48 CFR chapter 1)",
+      "acts": [
+        "48 CFR part 25",
+        "48 CFR part 52",
+        "FAR Overhaul Part 25",
+        "26 USC 45",
+        "26 USC 45Y",
+        "P.L. 117-169"
+      ],
+      "location": "FAR 25.1101(b)(1)(iv); FAR Overhaul 25.601(b)(1)(iv)",
+      "text": {
+        "en": {
+          "title": "FAR 25.1101(b)(1)(iv) refers to 25.102(d); section 25.102 has no paragraph (d)",
+          "summary": "FAR 25.1101(b)(1)(iv) applies when the senior procurement executive allows an alternate domestic content test “in accordance with 25.102(d)”. Section 25.102 is a single unnumbered paragraph. The authority for the alternate domestic content test is in 25.101(d). The FAR Overhaul Part 25 text keeps the same reference at 25.601(b)(1)(iv).",
+          "impact": "No affected contract has been established.",
+          "correction": "Refer to 25.101(d) in 25.1101(b)(1)(iv) and in the Overhaul 25.601(b)(1)(iv)."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-29",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "citing",
+            "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 25.1101(b)(1)(iv)",
+            "text": "allows for application of an alternate domestic content test for the contract in accordance with 25.102(d)",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+            "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+            "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "target",
+            "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 25.102",
+            "text": "Except as provided in 25.103, acquire only domestic end products for public use inside the United States.",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+            "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+            "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "authority",
+            "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 25.101(d)(1)",
+            "text": "allows for application of an alternate domestic content test for that contract",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+            "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+            "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "rfo",
+            "source": "FAR Overhaul Part 25 (acquisition.gov)",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": null,
+            "locator": "FAR Overhaul 25.601(b)(1)(iv)",
+            "text": "for the contract in accordance with 25.102(d)",
+            "translations": {},
+            "url": "https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-25",
+            "sha256": "0b45716c3c938a1b204b0fd9c43b7a874830a2ac46647be7c2e6672ddc98f642",
+            "retrieved": "2026-10-29",
+            "copy": "sources/0b45716c3c938a1b-far-rfo-part25.html",
+            "copy_sha256": "0b45716c3c938a1b204b0fd9c43b7a874830a2ac46647be7c2e6672ddc98f642",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-29T18:57:00Z",
+          "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+          "channel": "email",
+          "role": "author of the FAR",
+          "what": "letter to the FAR Council through the GSA Federal Acquisition Policy Division and Regulatory Secretariat"
+        },
+        {
+          "date": "2026-10-29T18:58:00Z",
+          "institution": "Office of the Federal Register, National Archives",
+          "channel": "email",
+          "role": "publisher of the Code of Federal Regulations",
+          "what": "editorial routing letter to the Office of the Federal Register"
+        },
+        {
+          "date": "2026-10-29T18:57:00Z",
+          "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+          "channel": "email",
+          "role": "FAR Council member; class deviation applying the revised FAR Part 25",
+          "what": "letter to DPCAP and DARS"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+          "role": "author of the FAR"
+        },
+        {
+          "institution": "Office of the Federal Register, National Archives",
+          "role": "publisher of the Code of Federal Regulations"
+        },
+        {
+          "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+          "role": "FAR Council member; class deviation applying the revised FAR Part 25"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-29",
+      "ai_role": {
+        "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T11:45:00Z",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to FAR Council (General Services Administration, Federal Acquisition Policy Division) (e-mail)"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to Office of the Federal Register, National Archives (e-mail)"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to Department of Defense, Defense Pricing, Contracting, and Acquisition Policy (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0236",
+      "url": "https://arxo.io/findings/ARXO-2026-0236/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "Federal Acquisition Regulation (48 CFR chapter 1)",
+      "acts": [
+        "48 CFR part 25",
+        "48 CFR part 52",
+        "FAR Overhaul Part 25",
+        "26 USC 45",
+        "26 USC 45Y",
+        "P.L. 117-169"
+      ],
+      "location": "FAR 25.101(d)(2)(i); FAR Overhaul 25.101(d)(2)(i)",
+      "text": {
+        "en": {
+          "title": "FAR 25.101(d)(2)(i) refers to 25.1101(b)(1)(v); paragraph 25.1101(b)(1) ends at (iv)",
+          "summary": "FAR 25.101(d)(2)(i) says “See 25.1101(a)(1)(ii) or 25.1101(b)(1)(v) for use of the appropriate Alternate clause”. Paragraph 25.1101(b)(1) ends at (iv), which prescribes Alternate IV for the alternate domestic content test. The FAR Overhaul version refers to 25.601(b)(1)(v), which also ends at (iv).",
+          "impact": "No affected contract has been established.",
+          "correction": "Refer to 25.1101(b)(1)(iv) (Overhaul: 25.601(b)(1)(iv))."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-29",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "citing",
+            "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 25.101(d)(2)(i)",
+            "text": "See 25.1101(a)(1)(ii) or 25.1101(b)(1)(v) for use of the appropriate Alternate clause",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+            "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+            "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "target-iv",
+            "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 25.1101(b)(1)(iv)",
+            "text": "The contracting officer shall use the clause with its Alternate IV to reflect the domestic content threshold that will apply to the entire period of performance",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+            "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+            "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "rfo",
+            "source": "FAR Overhaul Part 25 (acquisition.gov)",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": null,
+            "locator": "FAR Overhaul 25.101(d)(2)(i)",
+            "text": "See 25.601(a)(1)(ii) or 25.601(b)(1)(v) for use of the appropriate Alternate clause",
+            "translations": {},
+            "url": "https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-25",
+            "sha256": "0b45716c3c938a1b204b0fd9c43b7a874830a2ac46647be7c2e6672ddc98f642",
+            "retrieved": "2026-10-29",
+            "copy": "sources/0b45716c3c938a1b-far-rfo-part25.html",
+            "copy_sha256": "0b45716c3c938a1b204b0fd9c43b7a874830a2ac46647be7c2e6672ddc98f642",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-29T18:57:00Z",
+          "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+          "channel": "email",
+          "role": "author of the FAR",
+          "what": "letter to the FAR Council through the GSA Federal Acquisition Policy Division and Regulatory Secretariat"
+        },
+        {
+          "date": "2026-10-29T18:58:00Z",
+          "institution": "Office of the Federal Register, National Archives",
+          "channel": "email",
+          "role": "publisher of the Code of Federal Regulations",
+          "what": "editorial routing letter to the Office of the Federal Register"
+        },
+        {
+          "date": "2026-10-29T18:57:00Z",
+          "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+          "channel": "email",
+          "role": "FAR Council member; class deviation applying the revised FAR Part 25",
+          "what": "letter to DPCAP and DARS"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+          "role": "author of the FAR"
+        },
+        {
+          "institution": "Office of the Federal Register, National Archives",
+          "role": "publisher of the Code of Federal Regulations"
+        },
+        {
+          "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+          "role": "FAR Council member; class deviation applying the revised FAR Part 25"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-29",
+      "ai_role": {
+        "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T11:45:00Z",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to FAR Council (General Services Administration, Federal Acquisition Policy Division) (e-mail)"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to Office of the Federal Register, National Archives (e-mail)"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to Department of Defense, Defense Pricing, Contracting, and Acquisition Policy (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0237",
+      "url": "https://arxo.io/findings/ARXO-2026-0237/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "Federal Acquisition Regulation (48 CFR chapter 1)",
+      "acts": [
+        "48 CFR part 25",
+        "48 CFR part 52",
+        "FAR Overhaul Part 25",
+        "26 USC 45",
+        "26 USC 45Y",
+        "P.L. 117-169"
+      ],
+      "location": "FAR 52.225-9(b)(3)(i)(A)-(B); 52.225-11(b)(4)(i)(A)-(B)",
+      "text": {
+        "en": {
+          "title": "FAR 52.225-9(b)(3)(i) and 52.225-11(b)(4)(i): headings (A) and (B) overlap when a material is a critical item or contains critical components, but not both",
+          "summary": "In both clauses, heading (A) covers “domestic construction material that is not a critical item or does not contain critical components”, and heading (B) covers material that “is a critical item or contains critical components”. When exactly one of the two conditions holds, both headings apply. The corresponding heading in FAR 25.204(b)(1) uses “and”: material that “is not a critical item and does not contain critical components”. The list of critical items at 25.105(a)(1)-(2) is reserved.",
+          "impact": "No affected award has been established while the list of critical items is reserved.",
+          "correction": "Use “and” in heading (A) of both clauses, as in 25.204(b)(1)."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-29",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "c9A",
+            "source": "eCFR 48 CFR part 52 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 52.225-9(b)(3)(i)(A)",
+            "text": "(A) For domestic construction material that is not a critical item or does not contain critical components.",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=52",
+            "sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+            "retrieved": "2026-10-29",
+            "copy": "sources/69fadf7341a02715-ecfr-48-52-2026-10-27.xml",
+            "copy_sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "c9B",
+            "source": "eCFR 48 CFR part 52 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 52.225-9(b)(3)(i)(B)",
+            "text": "(B) For domestic construction material that is a critical item or contains critical components.",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=52",
+            "sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+            "retrieved": "2026-10-29",
+            "copy": "sources/69fadf7341a02715-ecfr-48-52-2026-10-27.xml",
+            "copy_sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "c11A",
+            "source": "eCFR 48 CFR part 52 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 52.225-11(b)(4)(i)(A)",
+            "text": "The procedures in paragraph (b)(4)(i)(A)(2) of this clause will no longer apply as of January 1, 2030.",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=52",
+            "sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+            "retrieved": "2026-10-29",
+            "copy": "sources/69fadf7341a02715-ecfr-48-52-2026-10-27.xml",
+            "copy_sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "part",
+            "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 25.204(b)(1)",
+            "text": "For construction material that is not a critical item and does not contain critical components.",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+            "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+            "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "reserved",
+            "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 25.105(a)",
+            "text": "(1)-(2) [Reserved]",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+            "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+            "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-29T18:57:00Z",
+          "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+          "channel": "email",
+          "role": "author of the FAR",
+          "what": "letter to the FAR Council through the GSA Federal Acquisition Policy Division and Regulatory Secretariat"
+        },
+        {
+          "date": "2026-10-29T18:58:00Z",
+          "institution": "Office of the Federal Register, National Archives",
+          "channel": "email",
+          "role": "publisher of the Code of Federal Regulations",
+          "what": "editorial routing letter to the Office of the Federal Register"
+        },
+        {
+          "date": "2026-10-29T18:57:00Z",
+          "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+          "channel": "email",
+          "role": "FAR Council member; class deviation applying the revised FAR Part 25",
+          "what": "letter to DPCAP and DARS"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+          "role": "author of the FAR"
+        },
+        {
+          "institution": "Office of the Federal Register, National Archives",
+          "role": "publisher of the Code of Federal Regulations"
+        },
+        {
+          "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+          "role": "FAR Council member; class deviation applying the revised FAR Part 25"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-29",
+      "ai_role": {
+        "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T11:45:00Z",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to FAR Council (General Services Administration, Federal Acquisition Policy Division) (e-mail)"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to Office of the Federal Register, National Archives (e-mail)"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to Department of Defense, Defense Pricing, Contracting, and Acquisition Policy (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0238",
+      "url": "https://arxo.io/findings/ARXO-2026-0238/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "Federal Acquisition Regulation (48 CFR chapter 1)",
+      "acts": [
+        "48 CFR part 25",
+        "48 CFR part 52",
+        "FAR Overhaul Part 25",
+        "48 CFR part 225",
+        "48 CFR part 252",
+        "DFARS Class Deviation 2026-O0041, Revision 1",
+        "10 USC 4863",
+        "10 USC 4872",
+        "2 CFR part 184",
+        "P.L. 117-58"
+      ],
+      "location": "FAR 25.205(c)",
+      "text": {
+        "en": {
+          "title": "FAR 25.205(c): should the minimum consideration for a postaward exception cite 25.204 directly?",
+          "summary": "FAR 25.205(c) sets the minimum consideration for a postaward exception based on unreasonable price by reference to the amount “established in 25.202(a) or in accordance with agency procedures”. Paragraph 25.202(a)(3) sets no amount; it points onward to 25.204, which adds 20 percent of the cost of the foreign construction material. Clauses 52.225-9(c)(2) and 52.225-11(c)(2) state their own minimum by reference to the evaluation factor in each clause. One reading takes the reference to 25.202(a) to reach the 25.204 factor through (a)(3). The other reads 25.202(a) as naming no amount, so that the minimum comes from agency procedures or the clause.",
+          "impact": "No contract with a different consideration amount under either reading has been established.",
+          "correction": "Please consider whether 25.205(c) should cite 25.204 directly."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-29",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "l1",
+            "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 25.205(c)",
+            "text": "adequate consideration is at least the differential established in 25.202(a) or in accordance with agency procedures",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+            "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+            "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l2",
+            "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 25.202(a)(3)",
+            "text": "The contracting officer concludes that the cost of domestic construction material is unreasonable in accordance with 25.204.",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+            "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+            "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l3",
+            "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 25.204(b)(1)(i)",
+            "text": "the contracting officer shall add to the offered price 20 percent of the cost of any foreign construction material proposed for exception",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+            "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+            "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l4",
+            "source": "eCFR 48 CFR part 52 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 52.225-9(c)(2)",
+            "text": "adequate consideration is not less than the differential established in paragraph (b)(3)(i) of this clause",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=52",
+            "sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+            "retrieved": "2026-10-29",
+            "copy": "sources/69fadf7341a02715-ecfr-48-52-2026-10-27.xml",
+            "copy_sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-29T18:57:00Z",
+          "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+          "channel": "email",
+          "role": "author of the FAR",
+          "what": "letter to the FAR Council through the GSA Federal Acquisition Policy Division and Regulatory Secretariat"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+          "role": "author of the FAR"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-29",
+      "ai_role": {
+        "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T11:45:00Z",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to FAR Council (General Services Administration, Federal Acquisition Policy Division) (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0239",
+      "url": "https://arxo.io/findings/ARXO-2026-0239/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "Federal Acquisition Regulation (48 CFR chapter 1)",
+      "acts": [
+        "48 CFR part 25",
+        "48 CFR part 52",
+        "FAR Overhaul Part 25",
+        "48 CFR part 225",
+        "48 CFR part 252",
+        "DFARS Class Deviation 2026-O0041, Revision 1",
+        "10 USC 4863",
+        "10 USC 4872",
+        "2 CFR part 184",
+        "P.L. 117-58"
+      ],
+      "location": "FAR 52.225-9(b)(3)(i)(A)(2); FAR 25.204(b)(1)(ii)",
+      "text": {
+        "en": {
+          "title": "FAR 52.225-9(b)(3)(i)(A)(2): should the U.S.-manufacture condition sit on the selected offer, as in Part 25?",
+          "summary": "The provisions concern construction material that is not a commercially available off-the-shelf (COTS) item and is not wholly or predominantly iron or steel, during the fallback period before January 1, 2030. FAR 25.204(b)(1)(ii) applies when the low offer does not exceed 55 percent domestic content, and treats as domestic the lowest offer that is manufactured in the United States and exceeds 55 percent domestic content. Clause 52.225-9(b)(3)(i)(A)(2) instead requires the low offer to be manufactured in the United States, and treats as domestic the lowest offer above 55 percent without that condition. Clause 52.225-11(b)(4)(i)(A)(2) follows Part 25. One reading applies 52.225-9 as written in contracts that include it. The other reads it in line with Part 25 and 52.225-11.",
+          "impact": "No award that would come out differently under the two texts has been established.",
+          "correction": "Please consider whether 52.225-9 should use the same conditions as Part 25 for both the triggering low offer and the selected offer."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-29",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "l1",
+            "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 25.204(b)(1)(ii)",
+            "text": "the low offer is for foreign construction material that does not exceed 55 percent domestic content, the contracting officer shall",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+            "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+            "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l2",
+            "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 25.204(b)(1)(ii)(A)",
+            "text": "Treat the lowest offer of foreign construction material that is manufactured in the United States and exceeds 55 percent domestic content as a domestic offer",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+            "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+            "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l3",
+            "source": "eCFR 48 CFR part 52 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 52.225-9(b)(3)(i)(A)(2)",
+            "text": "the low offer is for foreign construction material that is manufactured in the United States and does not exceed 55 percent domestic content, the Contracting Officer will treat the lowest offer of foreign construction material that exceeds 55 percent domestic content as a domestic offer",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=52",
+            "sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+            "retrieved": "2026-10-29",
+            "copy": "sources/69fadf7341a02715-ecfr-48-52-2026-10-27.xml",
+            "copy_sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l4",
+            "source": "eCFR 48 CFR part 52 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 52.225-11(b)(4)(i)(A)(2)",
+            "text": "the low offer is for foreign construction material that does not exceed 55 percent domestic content, the Contracting Officer will treat the lowest offer of foreign construction material that is manufactured in the United States and exceeds 55 percent domestic content as a domestic offer and determine",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=52",
+            "sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+            "retrieved": "2026-10-29",
+            "copy": "sources/69fadf7341a02715-ecfr-48-52-2026-10-27.xml",
+            "copy_sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-29T18:57:00Z",
+          "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+          "channel": "email",
+          "role": "author of the FAR",
+          "what": "letter to the FAR Council through the GSA Federal Acquisition Policy Division and Regulatory Secretariat"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+          "role": "author of the FAR"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-29",
+      "ai_role": {
+        "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T11:45:00Z",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to FAR Council (General Services Administration, Federal Acquisition Policy Division) (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0240",
+      "url": "https://arxo.io/findings/ARXO-2026-0240/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "Federal Acquisition Regulation (48 CFR chapter 1)",
+      "acts": [
+        "48 CFR part 25",
+        "48 CFR part 52",
+        "FAR Overhaul Part 25",
+        "48 CFR part 225",
+        "48 CFR part 252",
+        "DFARS Class Deviation 2026-O0041, Revision 1",
+        "10 USC 4863",
+        "10 USC 4872",
+        "2 CFR part 184",
+        "P.L. 117-58"
+      ],
+      "location": "FAR 25.106(c)(1)(ii) and (c)(2)(ii); FAR Overhaul Part 25 guide, same paragraphs",
+      "text": {
+        "en": {
+          "title": "FAR 25.106(c)(1)(ii) and (c)(2)(ii): should the critical-item price tests name the critical calculation expressly?",
+          "summary": "For end products that are critical items or contain critical components, 25.106(c)(1)(ii) and (c)(2)(ii) test the price against the low offer after addition of “the appropriate evaluation factor in accordance with paragraph (a) or (b) of this section”. Paragraph (b) gives the factors for end products that are not critical items. Paragraph (a)(1) directs use of the factors in paragraphs (b) and (c), paragraph (c)(1)(i) specifies the critical calculation, and (c)(2)(i)(B) expressly applies the factors in (c)(1). One reading takes the reference through (a) to the critical calculation. The other follows the alternative reference to (b). The FAR Overhaul Part 25 guide keeps the same references.",
+          "impact": "The list of critical items at 25.105 is reserved, and no affected award has been established.",
+          "correction": "Please consider whether (c)(1)(ii) and (c)(2)(ii) should identify the critical calculation expressly."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-29",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "l1",
+            "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 25.106(c)(1)(ii) and (c)(2)(ii)",
+            "text": "the appropriate evaluation factor in accordance with paragraph (a) or (b) of this section",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+            "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+            "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l2",
+            "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 25.106(a)(1)",
+            "text": "Must use the evaluation factors in paragraphs (b) and (c) of this section",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+            "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+            "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l3",
+            "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 25.106(c)(2)(i)(B)",
+            "text": "Determine the reasonableness of the cost of this offer by applying the evaluation factors listed in paragraph (c)(1) of this section to the low offer.",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+            "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+            "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l4",
+            "source": "FAR Overhaul Part 25 (acquisition.gov)",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": null,
+            "locator": "FAR Overhaul Part 25 guide, 25.106(c)(1)(ii) and (c)(2)(ii)",
+            "text": "the appropriate evaluation factor in accordance with paragraph (a) or (b) of this section",
+            "translations": {},
+            "url": "https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-25",
+            "sha256": "0b45716c3c938a1b204b0fd9c43b7a874830a2ac46647be7c2e6672ddc98f642",
+            "retrieved": "2026-10-29",
+            "copy": "sources/0b45716c3c938a1b-far-rfo-part25.html",
+            "copy_sha256": "0b45716c3c938a1b204b0fd9c43b7a874830a2ac46647be7c2e6672ddc98f642",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-29T18:57:00Z",
+          "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+          "channel": "email",
+          "role": "author of the FAR",
+          "what": "letter to the FAR Council through the GSA Federal Acquisition Policy Division and Regulatory Secretariat"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+          "role": "author of the FAR"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-29",
+      "ai_role": {
+        "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T11:45:00Z",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to FAR Council (General Services Administration, Federal Acquisition Policy Division) (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0241",
+      "url": "https://arxo.io/findings/ARXO-2026-0241/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "Federal Acquisition Regulation (48 CFR chapter 1)",
+      "acts": [
+        "48 CFR part 25",
+        "48 CFR part 52",
+        "FAR Overhaul Part 25",
+        "48 CFR part 225",
+        "48 CFR part 252",
+        "DFARS Class Deviation 2026-O0041, Revision 1",
+        "10 USC 4863",
+        "10 USC 4872",
+        "2 CFR part 184",
+        "P.L. 117-58"
+      ],
+      "location": "FAR 25.202(a)(2)",
+      "text": {
+        "en": {
+          "title": "FAR 25.202(a)(2): should the relief from a nonavailability determination state that it applies when the fallback procedures are used?",
+          "summary": "FAR 25.202(a)(2) says a nonavailability determination is not required before January 1, 2030, if there is an offer for a foreign construction material that exceeds 55 percent domestic content, with a cross-reference to 25.204(b)(1)(ii) and (b)(2)(ii). Those paragraphs set the fallback procedures and their conditions. The 2022 final rule preamble says the language clarifies that a determination is not required when the fallback procedures are used. One reading applies the sentence whenever such an offer exists. The other reads it, with the cross-reference and the preamble, as limited to cases in which the fallback procedures are used.",
+          "impact": "No acquisition with an offer above 55 percent in which the fallback procedures did not apply has been established.",
+          "correction": "Please consider whether 25.202(a)(2) should state that condition expressly."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-29",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "l1",
+            "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 25.202(a)(2)",
+            "text": "A determination is not required before January 1, 2030, if there is an offer for a foreign construction material that exceeds 55 percent domestic content (see 25.204(b)(1)(ii) and 25.204(b)(2)(ii)).",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+            "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+            "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l2",
+            "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 25.204(b)(1)(ii)",
+            "text": "result in an unreasonable cost determination for the domestic construction material offer or there is no domestic construction material offer received",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+            "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "retrieved": "2026-10-29",
+            "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+            "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l3",
+            "source": "Federal Register, 87 FR 12780 (March 7, 2022): FAR Case 2021-008, Amendments to the FAR Buy American Act Requirements, final rule with preamble",
+            "role": "Amending act",
+            "language": "en",
+            "edition": null,
+            "locator": "87 FR 12782, preamble to FAR Case 2021-008",
+            "text": "Language has been added at FAR 25.103(b)(2)(i) and 25.202(a)(2), clarifying that a nonavailability determination is not required when the fallback procedures are used.",
+            "translations": {},
+            "url": "https://www.govinfo.gov/content/pkg/FR-2022-03-07/pdf/2022-04173.pdf",
+            "sha256": "c28aecd46debf9ac5f0924126d13a4fb4083391818b46046b3b8a4e55d17284b",
+            "retrieved": "2026-10-29",
+            "copy": "sources/c28aecd46debf9ac-fr-2022-04173.pdf",
+            "copy_sha256": "c28aecd46debf9ac5f0924126d13a4fb4083391818b46046b3b8a4e55d17284b",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-29T18:57:00Z",
+          "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+          "channel": "email",
+          "role": "author of the FAR",
+          "what": "letter to the FAR Council through the GSA Federal Acquisition Policy Division and Regulatory Secretariat"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+          "role": "author of the FAR"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-29",
+      "ai_role": {
+        "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T11:45:00Z",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to FAR Council (General Services Administration, Federal Acquisition Policy Division) (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0242",
+      "url": "https://arxo.io/findings/ARXO-2026-0242/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "Federal Acquisition Regulation (48 CFR chapter 1)",
+      "acts": [
+        "48 CFR part 25",
+        "48 CFR part 52",
+        "FAR Overhaul Part 25",
+        "48 CFR part 225",
+        "48 CFR part 252",
+        "DFARS Class Deviation 2026-O0041, Revision 1",
+        "10 USC 4863",
+        "10 USC 4872",
+        "2 CFR part 184",
+        "P.L. 117-58"
+      ],
+      "location": "FAR 52.225-11(c)(1)(i)(H)",
+      "text": {
+        "en": {
+          "title": "FAR 52.225-11(c)(1)(i)(H): should the justification refer to paragraph (b)(4), as the introduction does?",
+          "summary": "Under 52.225-11(c)(1)(i), a contractor request to use foreign construction material “in accordance with paragraph (b)(4)” must include listed information. Item (H) asks for a detailed justification of the reason for use of foreign construction materials “cited in accordance with paragraph (b)(3)”. Paragraph (b)(3) is the list of excepted materials. Paragraph (b)(4) states the grounds on which the Contracting Officer may add material to that list. One reading takes (H) to ask for a justification under the grounds in (b)(4). The other takes it to refer to the materials on the (b)(3) list.",
+          "impact": "No request decided differently under the two readings has been established; the grounds are identifiable in (b)(4).",
+          "correction": "Please consider whether the reference in (H) should match the introduction to (c)(1)(i)."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-29",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "l1",
+            "source": "eCFR 48 CFR part 52 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 52.225-11(c)(1)(i)(H)",
+            "text": "A detailed justification of the reason for use of foreign construction materials cited in accordance with paragraph (b)(3) of this clause.",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=52",
+            "sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+            "retrieved": "2026-10-29",
+            "copy": "sources/69fadf7341a02715-ecfr-48-52-2026-10-27.xml",
+            "copy_sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l2",
+            "source": "eCFR 48 CFR part 52 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 52.225-11(c)(1)(i)",
+            "text": "Any Contractor request to use foreign construction material in accordance with paragraph (b)(4) of this clause shall include adequate information for Government evaluation of the request, including",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=52",
+            "sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+            "retrieved": "2026-10-29",
+            "copy": "sources/69fadf7341a02715-ecfr-48-52-2026-10-27.xml",
+            "copy_sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l3",
+            "source": "eCFR 48 CFR part 52 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 52.225-11(b)(3)",
+            "text": "The requirement in paragraph (b)(2) of this clause does not apply to information technology that is a commercial product or to the construction materials or components listed by the Government as follows",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=52",
+            "sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+            "retrieved": "2026-10-29",
+            "copy": "sources/69fadf7341a02715-ecfr-48-52-2026-10-27.xml",
+            "copy_sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l4",
+            "source": "eCFR 48 CFR part 52 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 52.225-11(b)(4)",
+            "text": "The Contracting Officer may add other foreign construction material to the list in paragraph (b)(3) of this clause if the Government determines that",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=52",
+            "sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+            "retrieved": "2026-10-29",
+            "copy": "sources/69fadf7341a02715-ecfr-48-52-2026-10-27.xml",
+            "copy_sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-29T18:57:00Z",
+          "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+          "channel": "email",
+          "role": "author of the FAR",
+          "what": "letter to the FAR Council through the GSA Federal Acquisition Policy Division and Regulatory Secretariat"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+          "role": "author of the FAR"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-29",
+      "ai_role": {
+        "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T11:45:00Z",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to FAR Council (General Services Administration, Federal Acquisition Policy Division) (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0243",
+      "url": "https://arxo.io/findings/ARXO-2026-0243/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "Defense Federal Acquisition Regulation Supplement (48 CFR chapter 2) and Class Deviation 2026-O0041, Revision 1",
+      "acts": [
+        "48 CFR part 25",
+        "48 CFR part 52",
+        "FAR Overhaul Part 25",
+        "48 CFR part 225",
+        "48 CFR part 252",
+        "DFARS Class Deviation 2026-O0041, Revision 1",
+        "10 USC 4863",
+        "10 USC 4872",
+        "2 CFR part 184",
+        "P.L. 117-58"
+      ],
+      "location": "DFARS 225.7003-3(b)(2)(i)(D)(1)",
+      "text": {
+        "en": {
+          "title": "DFARS 225.7003-3(b)(2)(i)(D)(1): should the COTS fastener exception also list components, as the statute and clause do?",
+          "summary": "DFARS 225.7003-3(b)(2)(i)(D)(1) treats commercially available off-the-shelf (COTS) fasteners as excepted when they are incorporated into “COTS end items, subsystems, or assemblies”. Clause 252.225-7009(c)(2)(i)(D)(1) and 10 U.S.C. 4863(h)(2)(D)(i) also list components. For example, a separate subcontract supplies COTS fasteners containing specialty metal for a COTS component that will enter a non-COTS end item. One reading applies the narrower list in Part 225 to that acquisition. The other reads Part 225 in line with the statute and the clause.",
+          "impact": "No contract with a different result under the two texts has been established.",
+          "correction": "Please consider whether Part 225 should also list components, as the statute and clause already do."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-29",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "l1",
+            "source": "eCFR 48 CFR part 225 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 225.7003-3(b)(2)(i)(D)(1)",
+            "text": "The fasteners are incorporated into COTS end items, subsystems, or assemblies;",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=225",
+            "sha256": "26bcbb8e4346b399acd9786340b03a6505db0d74f48ecf0062338d85c547453b",
+            "retrieved": "2026-10-29",
+            "copy": "sources/26bcbb8e4346b399-ecfr-48-225-2026-10-27.xml",
+            "copy_sha256": "26bcbb8e4346b399acd9786340b03a6505db0d74f48ecf0062338d85c547453b",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l2",
+            "source": "eCFR 48 CFR part 252 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 252.225-7009(c)(2)(i)(D)(1)",
+            "text": "The fasteners are incorporated into COTS end items, subsystems, assemblies, or components;",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=252",
+            "sha256": "931f2c8a0276b5a3a06498a79187b268df5ccf2ac9701201e6efda9b59ea1bd4",
+            "retrieved": "2026-10-29",
+            "copy": "sources/931f2c8a0276b5a3-ecfr-48-252-2026-10-27.xml",
+            "copy_sha256": "931f2c8a0276b5a3a06498a79187b268df5ccf2ac9701201e6efda9b59ea1bd4",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l3",
+            "source": "10 U.S.C. (Armed Forces), OLRC release point 119-124",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "10 U.S.C. 4863(h)(2)(D)(i)",
+            "text": "incorporated into commercially available off-the-shelf end items, subsystems, assemblies, or components",
+            "translations": {},
+            "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/124/xml_usc10@119-124.zip",
+            "sha256": "3a0a8808decb5adf4469e23373a921cf23df1a38c460a56811ed3442ea9a6aa8",
+            "retrieved": "2026-10-29",
+            "copy": "sources/3a0a8808decb5adf-usc10-119-124.zip",
+            "copy_sha256": "3a0a8808decb5adf4469e23373a921cf23df1a38c460a56811ed3442ea9a6aa8",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-29T18:57:00Z",
+          "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+          "channel": "email",
+          "role": "author of the DFARS and the class deviation",
+          "what": "letter to DPCAP and DARS"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+          "role": "author of the DFARS and the class deviation"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-29",
+      "ai_role": {
+        "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T11:45:00Z",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to Department of Defense, Defense Pricing, Contracting, and Acquisition Policy (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0244",
+      "url": "https://arxo.io/findings/ARXO-2026-0244/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "Defense Federal Acquisition Regulation Supplement (48 CFR chapter 2) and Class Deviation 2026-O0041, Revision 1",
+      "acts": [
+        "48 CFR part 25",
+        "48 CFR part 52",
+        "FAR Overhaul Part 25",
+        "48 CFR part 225",
+        "48 CFR part 252",
+        "DFARS Class Deviation 2026-O0041, Revision 1",
+        "10 USC 4863",
+        "10 USC 4872",
+        "2 CFR part 184",
+        "P.L. 117-58"
+      ],
+      "location": "10 U.S.C. 4872(f)(1); DFARS 225.7018-1; clause 252.225-7961(a)",
+      "text": {
+        "en": {
+          "title": "Molybdenum in 10 U.S.C. 4872(f)(1): what interim contract instructions apply while the DFARS definition is updated?",
+          "summary": "Public Law 119-60, section 844(a)(1), added molybdenum to the definition of covered material in 10 U.S.C. 4872(f)(1). The DFARS definition in 225.7018-1, the definition in Class Deviation 2026-O0041, Revision 1, and clause 252.225-7961 keep the five-material list without molybdenum. DFARS case 2024-D014 already covers this amendment. One view is that the statutory prohibition applies to DoD acquisitions of molybdenum now. The other is that contract obligations follow the clause list, which does not include molybdenum, until the case is completed.",
+          "impact": "No delivery of molybdenum from a covered nation under a current contract has been established.",
+          "correction": "Please clarify what interim contract instructions apply to the statutory restriction on molybdenum while case 2024-D014 is pending."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-29",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "l1",
+            "source": "10 U.S.C. (Armed Forces), OLRC release point 119-124",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "10 U.S.C. 4872(f)(1)(E)-(F)",
+            "text": "tantalum metals and alloys; and (F) molybdenum.",
+            "translations": {},
+            "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/124/xml_usc10@119-124.zip",
+            "sha256": "3a0a8808decb5adf4469e23373a921cf23df1a38c460a56811ed3442ea9a6aa8",
+            "retrieved": "2026-10-29",
+            "copy": "sources/3a0a8808decb5adf-usc10-119-124.zip",
+            "copy_sha256": "3a0a8808decb5adf4469e23373a921cf23df1a38c460a56811ed3442ea9a6aa8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l2",
+            "source": "eCFR 48 CFR part 225 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 225.7018-1, definition of covered material",
+            "text": "(4) Tungsten metal powder; and (5) Tungsten heavy alloy or any finished or semi-finished component containing tungsten heavy alloy.",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=225",
+            "sha256": "26bcbb8e4346b399acd9786340b03a6505db0d74f48ecf0062338d85c547453b",
+            "retrieved": "2026-10-29",
+            "copy": "sources/26bcbb8e4346b399-ecfr-48-225-2026-10-27.xml",
+            "copy_sha256": "26bcbb8e4346b399acd9786340b03a6505db0d74f48ecf0062338d85c547453b",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l3",
+            "source": "DoD Class Deviation 2026-O0041, Revision 1 (July 1, 2026), Attachment A1: FAR Overhaul Part 25 and DFARS Part 225",
+            "role": "Normative text",
+            "language": "en",
+            "edition": null,
+            "locator": "Class Deviation 2026-O0041, Rev. 1: DFARS 225.7018-1 and clause 252.225-7961(a), definition of covered material",
+            "text": "(4) Tungsten metal powder; and (5) Tungsten heavy alloy or any finished or semi-finished component containing tungsten heavy alloy.",
+            "translations": {},
+            "url": "https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-225/2026-O0041_Rev_1_TAB_A_Deviation_Memo_Part_225.pdf",
+            "sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+            "retrieved": "2026-10-29",
+            "copy": "sources/4866b6f6f7f1f5fb-dfars-rfo-part225-rev1.pdf",
+            "copy_sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l4",
+            "source": "Open DFARS cases as of October 23, 2026 (Defense Acquisition Regulations System)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": null,
+            "locator": "Open DFARS cases as of October 23, 2026, case 2024-D014",
+            "text": "Section 844 adds molybdenum, gallium, and",
+            "translations": {},
+            "url": "https://www.acq.osd.mil/dpap/dars/opencases/dfarscasenum/dfars.pdf",
+            "sha256": "eb0de6e885c16743edd300a5f0a5b086f2e67bb3c255d2aa892199d54b46b7e4",
+            "retrieved": "2026-10-29",
+            "copy": "sources/eb0de6e885c16743-dfars-open-cases.pdf",
+            "copy_sha256": "eb0de6e885c16743edd300a5f0a5b086f2e67bb3c255d2aa892199d54b46b7e4",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-29T18:57:00Z",
+          "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+          "channel": "email",
+          "role": "author of the DFARS and the class deviation",
+          "what": "letter to DPCAP and DARS"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+          "role": "author of the DFARS and the class deviation"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-29",
+      "ai_role": {
+        "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T11:45:00Z",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to Department of Defense, Defense Pricing, Contracting, and Acquisition Policy (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0245",
+      "url": "https://arxo.io/findings/ARXO-2026-0245/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "Defense Federal Acquisition Regulation Supplement (48 CFR chapter 2) and Class Deviation 2026-O0041, Revision 1",
+      "acts": [
+        "48 CFR part 25",
+        "48 CFR part 52",
+        "FAR Overhaul Part 25",
+        "48 CFR part 225",
+        "48 CFR part 252",
+        "DFARS Class Deviation 2026-O0041, Revision 1",
+        "10 USC 4863",
+        "10 USC 4872",
+        "2 CFR part 184",
+        "P.L. 117-58"
+      ],
+      "location": "10 U.S.C. 4872(c)(3)(D); clause 252.225-7961(c)(1)",
+      "text": {
+        "en": {
+          "title": "10 U.S.C. 4872(c)(3)(D): how should the exception for recycled tantalum, tungsten and molybdenum be reflected in contracts?",
+          "summary": "Section 844(a) of Public Law 119-60 added 4872(c)(3)(D): tantalum, tungsten, or molybdenum produced from recycled material, if the contractor demonstrates to the Secretary that the recycled material was produced outside a covered nation and melting and all further processing and manufacturing take place in the United States or in the country of a qualifying foreign government. When these conditions are met, the prohibition in 4872(a)(1) does not apply. The deviation and clause 252.225-7961 keep only the exception for recycled neodymium-iron-boron magnets. Case 2024-D014 includes this amendment. One reading lets a contractor that meets the statutory conditions rely on the exception now. The other keeps the clause restriction until the clause is amended, because the statutory exception does not by itself establish compliance with the contract.",
+          "impact": "No contract or delivery affected by the difference has been established.",
+          "correction": "Please clarify how this exception should be reflected in contracts pending completion of case 2024-D014."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-29",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "l1",
+            "source": "10 U.S.C. (Armed Forces), OLRC release point 119-124",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "10 U.S.C. 4872(c)(3)(D)",
+            "text": "tantalum, tungsten, or molybdenum produced from recycled material if the contractor demonstrates to the Secretary that the recycled material was produced outside of a covered nation",
+            "translations": {},
+            "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/124/xml_usc10@119-124.zip",
+            "sha256": "3a0a8808decb5adf4469e23373a921cf23df1a38c460a56811ed3442ea9a6aa8",
+            "retrieved": "2026-10-29",
+            "copy": "sources/3a0a8808decb5adf-usc10-119-124.zip",
+            "copy_sha256": "3a0a8808decb5adf4469e23373a921cf23df1a38c460a56811ed3442ea9a6aa8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l2",
+            "source": "10 U.S.C. (Armed Forces), OLRC release point 119-124",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "10 U.S.C. 4872(c), introductory text",
+            "text": "Subsection (a)(1) does not apply under the following circumstances",
+            "translations": {},
+            "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/124/xml_usc10@119-124.zip",
+            "sha256": "3a0a8808decb5adf4469e23373a921cf23df1a38c460a56811ed3442ea9a6aa8",
+            "retrieved": "2026-10-29",
+            "copy": "sources/3a0a8808decb5adf-usc10-119-124.zip",
+            "copy_sha256": "3a0a8808decb5adf4469e23373a921cf23df1a38c460a56811ed3442ea9a6aa8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l3",
+            "source": "DoD Class Deviation 2026-O0041, Revision 1 (July 1, 2026), Attachment A1: FAR Overhaul Part 25 and DFARS Part 225",
+            "role": "Normative text",
+            "language": "en",
+            "edition": null,
+            "locator": "Class Deviation 2026-O0041, Rev. 1: clause 252.225-7961(c)(1)(iv)",
+            "text": "A neodymium-iron-boron magnet manufactured from recycled material if the milling of the recycled material and sintering of the final magnet takes place in the United States.",
+            "translations": {},
+            "url": "https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-225/2026-O0041_Rev_1_TAB_A_Deviation_Memo_Part_225.pdf",
+            "sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+            "retrieved": "2026-10-29",
+            "copy": "sources/4866b6f6f7f1f5fb-dfars-rfo-part225-rev1.pdf",
+            "copy_sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l4",
+            "source": "Open DFARS cases as of October 23, 2026 (Defense Acquisition Regulations System)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": null,
+            "locator": "Open DFARS cases as of October 23, 2026, case 2024-D014",
+            "text": "it authorizes an exception to the prohibition for",
+            "translations": {},
+            "url": "https://www.acq.osd.mil/dpap/dars/opencases/dfarscasenum/dfars.pdf",
+            "sha256": "eb0de6e885c16743edd300a5f0a5b086f2e67bb3c255d2aa892199d54b46b7e4",
+            "retrieved": "2026-10-29",
+            "copy": "sources/eb0de6e885c16743-dfars-open-cases.pdf",
+            "copy_sha256": "eb0de6e885c16743edd300a5f0a5b086f2e67bb3c255d2aa892199d54b46b7e4",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-29T18:57:00Z",
+          "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+          "channel": "email",
+          "role": "author of the DFARS and the class deviation",
+          "what": "letter to DPCAP and DARS"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+          "role": "author of the DFARS and the class deviation"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-29",
+      "ai_role": {
+        "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [
+        {
+          "id": "ARXO-2026-0246",
+          "relation": "see_also"
+        }
+      ],
+      "first_published": "2026-10-31T11:45:00Z",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to Department of Defense, Defense Pricing, Contracting, and Acquisition Policy (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0246",
+      "url": "https://arxo.io/findings/ARXO-2026-0246/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "Defense Federal Acquisition Regulation Supplement (48 CFR chapter 2) and Class Deviation 2026-O0041, Revision 1",
+      "acts": [
+        "48 CFR part 25",
+        "48 CFR part 52",
+        "FAR Overhaul Part 25",
+        "48 CFR part 225",
+        "48 CFR part 252",
+        "DFARS Class Deviation 2026-O0041, Revision 1",
+        "10 USC 4863",
+        "10 USC 4872",
+        "2 CFR part 184",
+        "P.L. 117-58"
+      ],
+      "location": "10 U.S.C. 4872(c)(3)(C); clause 252.225-7961(c)(1)(iv)",
+      "text": {
+        "en": {
+          "title": "10 U.S.C. 4872(c)(3)(C): how should the exception for recycled samarium-cobalt magnets be reflected in contracts?",
+          "summary": "Section 844(a) of Public Law 119-60 added samarium-cobalt magnets to the exception in 4872(c)(3)(C) for magnets manufactured from recycled material, with milling of the recycled material and sintering of the final magnet in the United States. The deviation and clause 252.225-7961 keep the exception for recycled neodymium-iron-boron magnets only. The clause also states that its restriction on samarium-cobalt magnets is in addition to any applicable specialty metals restriction. Case 2024-D014 includes this amendment. One reading lets a magnet that meets the statutory conditions fall outside the clause now. The other keeps the clause restriction until it is amended, with any specialty metals restriction applying separately.",
+          "impact": "No contract or delivery affected by the difference has been established.",
+          "correction": "Please clarify how this exception should be reflected in contracts pending completion of case 2024-D014."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-29",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "l1",
+            "source": "10 U.S.C. (Armed Forces), OLRC release point 119-124",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "10 U.S.C. 4872(c)(3)(C)",
+            "text": "a neodymium-iron-boron magnet or samarium-cobalt magnet manufactured from recycled material if the milling of the recycled material and sintering of the final magnet takes place in the United States",
+            "translations": {},
+            "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/124/xml_usc10@119-124.zip",
+            "sha256": "3a0a8808decb5adf4469e23373a921cf23df1a38c460a56811ed3442ea9a6aa8",
+            "retrieved": "2026-10-29",
+            "copy": "sources/3a0a8808decb5adf-usc10-119-124.zip",
+            "copy_sha256": "3a0a8808decb5adf4469e23373a921cf23df1a38c460a56811ed3442ea9a6aa8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l2",
+            "source": "DoD Class Deviation 2026-O0041, Revision 1 (July 1, 2026), Attachment A1: FAR Overhaul Part 25 and DFARS Part 225",
+            "role": "Normative text",
+            "language": "en",
+            "edition": null,
+            "locator": "Class Deviation 2026-O0041, Rev. 1: clause 252.225-7961(c)(1)(iv)",
+            "text": "A neodymium-iron-boron magnet manufactured from recycled material if the milling of the recycled material and sintering of the final magnet takes place in the United States.",
+            "translations": {},
+            "url": "https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-225/2026-O0041_Rev_1_TAB_A_Deviation_Memo_Part_225.pdf",
+            "sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+            "retrieved": "2026-10-29",
+            "copy": "sources/4866b6f6f7f1f5fb-dfars-rfo-part225-rev1.pdf",
+            "copy_sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l3",
+            "source": "DoD Class Deviation 2026-O0041, Revision 1 (July 1, 2026), Attachment A1: FAR Overhaul Part 25 and DFARS Part 225",
+            "role": "Normative text",
+            "language": "en",
+            "edition": null,
+            "locator": "Class Deviation 2026-O0041, Rev. 1: clause 252.225-7961(b)(2)(ii)",
+            "text": "The restriction on melting and producing of samarium-cobalt magnets is in addition to any applicable restrictions on melting of specialty metals if the clause at 252.225-7009",
+            "translations": {},
+            "url": "https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-225/2026-O0041_Rev_1_TAB_A_Deviation_Memo_Part_225.pdf",
+            "sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+            "retrieved": "2026-10-29",
+            "copy": "sources/4866b6f6f7f1f5fb-dfars-rfo-part225-rev1.pdf",
+            "copy_sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l4",
+            "source": "Open DFARS cases as of October 23, 2026 (Defense Acquisition Regulations System)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": null,
+            "locator": "Open DFARS cases as of October 23, 2026, case 2024-D014",
+            "text": "it authorizes an exception to the prohibition for",
+            "translations": {},
+            "url": "https://www.acq.osd.mil/dpap/dars/opencases/dfarscasenum/dfars.pdf",
+            "sha256": "eb0de6e885c16743edd300a5f0a5b086f2e67bb3c255d2aa892199d54b46b7e4",
+            "retrieved": "2026-10-29",
+            "copy": "sources/eb0de6e885c16743-dfars-open-cases.pdf",
+            "copy_sha256": "eb0de6e885c16743edd300a5f0a5b086f2e67bb3c255d2aa892199d54b46b7e4",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-29T18:57:00Z",
+          "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+          "channel": "email",
+          "role": "author of the DFARS and the class deviation",
+          "what": "letter to DPCAP and DARS"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+          "role": "author of the DFARS and the class deviation"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-29",
+      "ai_role": {
+        "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [
+        {
+          "id": "ARXO-2026-0245",
+          "relation": "see_also"
+        }
+      ],
+      "first_published": "2026-10-31T11:45:00Z",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to Department of Defense, Defense Pricing, Contracting, and Acquisition Policy (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0247",
+      "url": "https://arxo.io/findings/ARXO-2026-0247/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "Defense Federal Acquisition Regulation Supplement (48 CFR chapter 2) and Class Deviation 2026-O0041, Revision 1",
+      "acts": [
+        "48 CFR part 25",
+        "48 CFR part 52",
+        "FAR Overhaul Part 25",
+        "48 CFR part 225",
+        "48 CFR part 252",
+        "DFARS Class Deviation 2026-O0041, Revision 1",
+        "10 USC 4863",
+        "10 USC 4872",
+        "2 CFR part 184",
+        "P.L. 117-58"
+      ],
+      "location": "10 U.S.C. 4872(e); clause 252.225-7961(c)",
+      "text": {
+        "en": {
+          "title": "10 U.S.C. 4872(e): how should a statutory national-security waiver be reflected in clause 252.225-7961?",
+          "summary": "Section 4872(e)(1) allows the Secretary to accept delivery of an end item containing covered material manufactured in a covered nation on a written determination that acceptance is necessary to the national security interests of the United States. Paragraph (e)(3) allows a waiver made under 4863(k) to be applied to these restrictions. Case 2024-D014 covers the amendment that made those waivers applicable. The procedure in the deviation and clause 252.225-7961(c) provide for a nonavailability determination and do not describe these waiver paths. One reading lets a valid waiver govern delivery without a change to the clause. The other requires the contract restriction to be modified to reflect it.",
+          "impact": "No end item accepted or refused under such a waiver has been established.",
+          "correction": "Please clarify how a valid statutory waiver should be reflected in the applicable contract restriction while implementation is pending."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-29",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Documented search",
+        "quotes": [
+          {
+            "location": "l1",
+            "source": "10 U.S.C. (Armed Forces), OLRC release point 119-124",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "10 U.S.C. 4872(e)(1)",
+            "text": "may accept the delivery of an end item containing covered material manufactured in a covered nation if the Secretary determines in writing that acceptance of such end item is necessary to the national security interests of the United States",
+            "translations": {},
+            "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/124/xml_usc10@119-124.zip",
+            "sha256": "3a0a8808decb5adf4469e23373a921cf23df1a38c460a56811ed3442ea9a6aa8",
+            "retrieved": "2026-10-29",
+            "copy": "sources/3a0a8808decb5adf-usc10-119-124.zip",
+            "copy_sha256": "3a0a8808decb5adf4469e23373a921cf23df1a38c460a56811ed3442ea9a6aa8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l2",
+            "source": "10 U.S.C. (Armed Forces), OLRC release point 119-124",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "10 U.S.C. 4872(e)(3)",
+            "text": "the Secretary or authorized delegate may apply that waiver to the restrictions under subsection (a) of this section for the same covered material or end item",
+            "translations": {},
+            "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/124/xml_usc10@119-124.zip",
+            "sha256": "3a0a8808decb5adf4469e23373a921cf23df1a38c460a56811ed3442ea9a6aa8",
+            "retrieved": "2026-10-29",
+            "copy": "sources/3a0a8808decb5adf-usc10-119-124.zip",
+            "copy_sha256": "3a0a8808decb5adf4469e23373a921cf23df1a38c460a56811ed3442ea9a6aa8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l3",
+            "source": "DoD Class Deviation 2026-O0041, Revision 1 (July 1, 2026), Attachment A1: FAR Overhaul Part 25 and DFARS Part 225",
+            "role": "Normative text",
+            "language": "en",
+            "edition": null,
+            "locator": "Class Deviation 2026-O0041, Rev. 1: clause 252.225-7961(c)(2)",
+            "text": "If the authorized agency official concerned has made a nonavailability determination, in accordance with section 225.7018-4",
+            "translations": {},
+            "url": "https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-225/2026-O0041_Rev_1_TAB_A_Deviation_Memo_Part_225.pdf",
+            "sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+            "retrieved": "2026-10-29",
+            "copy": "sources/4866b6f6f7f1f5fb-dfars-rfo-part225-rev1.pdf",
+            "copy_sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l4",
+            "source": "Open DFARS cases as of October 23, 2026 (Defense Acquisition Regulations System)",
+            "role": "Official publication",
+            "language": "en",
+            "edition": null,
+            "locator": "Open DFARS cases as of October 23, 2026, case 2024-D014",
+            "text": "Section 843 makes national-security waivers",
+            "translations": {},
+            "url": "https://www.acq.osd.mil/dpap/dars/opencases/dfarscasenum/dfars.pdf",
+            "sha256": "eb0de6e885c16743edd300a5f0a5b086f2e67bb3c255d2aa892199d54b46b7e4",
+            "retrieved": "2026-10-29",
+            "copy": "sources/eb0de6e885c16743-dfars-open-cases.pdf",
+            "copy_sha256": "eb0de6e885c16743edd300a5f0a5b086f2e67bb3c255d2aa892199d54b46b7e4",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-29T18:57:00Z",
+          "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+          "channel": "email",
+          "role": "author of the DFARS and the class deviation",
+          "what": "letter to DPCAP and DARS"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+          "role": "author of the DFARS and the class deviation"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-29",
+      "ai_role": {
+        "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T11:45:00Z",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to Department of Defense, Defense Pricing, Contracting, and Acquisition Policy (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0248",
+      "url": "https://arxo.io/findings/ARXO-2026-0248/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "Defense Federal Acquisition Regulation Supplement (48 CFR chapter 2) and Class Deviation 2026-O0041, Revision 1",
+      "acts": [
+        "48 CFR part 25",
+        "48 CFR part 52",
+        "FAR Overhaul Part 25",
+        "48 CFR part 225",
+        "48 CFR part 252",
+        "DFARS Class Deviation 2026-O0041, Revision 1",
+        "10 USC 4863",
+        "10 USC 4872",
+        "2 CFR part 184",
+        "P.L. 117-58"
+      ],
+      "location": "DFARS 225.7018-2(a)(2) and clause 252.225-7961(b)(1)(ii) (Class Deviation 2026-O0041, Revision 1)",
+      "text": {
+        "en": {
+          "title": "DFARS 225.7018-2(a)(2) and clause 252.225-7961: does “mined, refined, or separated” reach ore and feedstock stages?",
+          "summary": "For contracts awarded on or after January 1, 2027, Class Deviation 2026-O0041, Revision 1, bars covered material “mined, refined, or separated in any covered country”, and clause 252.225-7961 uses the same words. The earlier clause 252.225-7052 described the restriction for each listed material, from mining or production of an ore or feedstock, including recycled material, through finished products. One reading applies the new words to the ore and feedstock stages from which the listed material is made. The other limits them to the listed covered material itself.",
+          "impact": "No contract with a different result under the two readings has been established.",
+          "correction": "Please clarify how the revised wording applies to earlier ore and feedstock stages."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-29",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "l1",
+            "source": "DoD Class Deviation 2026-O0041, Revision 1 (July 1, 2026), Attachment A1: FAR Overhaul Part 25 and DFARS Part 225",
+            "role": "Normative text",
+            "language": "en",
+            "edition": null,
+            "locator": "Class Deviation 2026-O0041, Rev. 1: DFARS 225.7018-2(a)(2)",
+            "text": "Do not award a contract on or after January 1, 2027, for any covered material mined, refined, or separated in any covered country.",
+            "translations": {},
+            "url": "https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-225/2026-O0041_Rev_1_TAB_A_Deviation_Memo_Part_225.pdf",
+            "sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+            "retrieved": "2026-10-29",
+            "copy": "sources/4866b6f6f7f1f5fb-dfars-rfo-part225-rev1.pdf",
+            "copy_sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l2",
+            "source": "DoD Class Deviation 2026-O0041, Revision 1 (July 1, 2026), Attachment A1: FAR Overhaul Part 25 and DFARS Part 225",
+            "role": "Normative text",
+            "language": "en",
+            "edition": null,
+            "locator": "Class Deviation 2026-O0041, Rev. 1: clause 252.225-7961(b)(1)(ii)",
+            "text": "The Contractor shall not deliver under a contract awarded on or after January 1, 2027, any covered material mined, refined, or separated in any covered country.",
+            "translations": {},
+            "url": "https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-225/2026-O0041_Rev_1_TAB_A_Deviation_Memo_Part_225.pdf",
+            "sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+            "retrieved": "2026-10-29",
+            "copy": "sources/4866b6f6f7f1f5fb-dfars-rfo-part225-rev1.pdf",
+            "copy_sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l3",
+            "source": "eCFR 48 CFR part 252 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 252.225-7052(b)(5)(ii)",
+            "text": "this restriction includes mining or production of a tungsten ore or feedstock, including recycled material, through production of tungsten metal powders",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=252",
+            "sha256": "931f2c8a0276b5a3a06498a79187b268df5ccf2ac9701201e6efda9b59ea1bd4",
+            "retrieved": "2026-10-29",
+            "copy": "sources/931f2c8a0276b5a3-ecfr-48-252-2026-10-27.xml",
+            "copy_sha256": "931f2c8a0276b5a3a06498a79187b268df5ccf2ac9701201e6efda9b59ea1bd4",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l4",
+            "source": "eCFR 48 CFR part 252 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 252.225-7052(b)(2)(i)(B)",
+            "text": "for samarium-cobalt magnets this restriction includes the entire supply chain from mining or production of a cobalt and samarium ore or feedstock, including recycled material, through production of finished magnets",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=252",
+            "sha256": "931f2c8a0276b5a3a06498a79187b268df5ccf2ac9701201e6efda9b59ea1bd4",
+            "retrieved": "2026-10-29",
+            "copy": "sources/931f2c8a0276b5a3-ecfr-48-252-2026-10-27.xml",
+            "copy_sha256": "931f2c8a0276b5a3a06498a79187b268df5ccf2ac9701201e6efda9b59ea1bd4",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-29T18:57:00Z",
+          "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+          "channel": "email",
+          "role": "author of the DFARS and the class deviation",
+          "what": "letter to DPCAP and DARS"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+          "role": "author of the DFARS and the class deviation"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-29",
+      "ai_role": {
+        "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T11:45:00Z",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to Department of Defense, Defense Pricing, Contracting, and Acquisition Policy (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0249",
+      "url": "https://arxo.io/findings/ARXO-2026-0249/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "Defense Federal Acquisition Regulation Supplement (48 CFR chapter 2) and Class Deviation 2026-O0041, Revision 1",
+      "acts": [
+        "48 CFR part 25",
+        "48 CFR part 52",
+        "FAR Overhaul Part 25",
+        "48 CFR part 225",
+        "48 CFR part 252",
+        "DFARS Class Deviation 2026-O0041, Revision 1",
+        "10 USC 4863",
+        "10 USC 4872",
+        "2 CFR part 184",
+        "P.L. 117-58"
+      ],
+      "location": "DFARS 252.225-7052 and 252.225-7961; DPCAP memorandum of October 5, 2026",
+      "text": {
+        "en": {
+          "title": "DFARS 252.225-7052 and 252.225-7961: is there guidance on performance before an existing contract is modified?",
+          "summary": "The DPCAP memorandum of October 5, 2026 directs contracting officers to incorporate 252.225-7961 and remove 252.225-7052 in existing contracts as soon as practicable, and not to request consideration when making the modification under FAR 1.107(d). Clause 7052 applies its upstream restriction to deliveries from January 1, 2027. Clause 7961 and the statute as amended by section 848 attach it to contracts awarded on or after that date. One reading keeps the 7052 text binding on performance until the modification is made. The other treats the amended statute and the directed replacement as removing the upstream restriction for contracts awarded before that date.",
+          "impact": "No specific contract awaiting this modification has been identified.",
+          "correction": "Please indicate whether supplementary guidance addresses performance pending the directed modification."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-29",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Documented search",
+        "quotes": [
+          {
+            "location": "l1",
+            "source": "DPCAP memorandum of October 5, 2026: incorporation of DFARS 252.225-7961 in existing contracts",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": null,
+            "locator": "DPCAP memorandum of October 5, 2026",
+            "text": "Contracting Officers (COs) must take the following actions as soon as practicable:",
+            "translations": {},
+            "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA002546-26-DPCAP.pdf",
+            "sha256": "dcb582520193e2fd51266864edaf35e00c39ad15137a81d137be982bfbe4ec16",
+            "retrieved": "2026-10-29",
+            "copy": "sources/dcb582520193e2fd-dpcap-2026-10-05-7052-replacement.pdf",
+            "copy_sha256": "dcb582520193e2fd51266864edaf35e00c39ad15137a81d137be982bfbe4ec16",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l2",
+            "source": "DPCAP memorandum of October 5, 2026: incorporation of DFARS 252.225-7961 in existing contracts",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": null,
+            "locator": "DPCAP memorandum of October 5, 2026, third action",
+            "text": "When modifying existing contracts under the authority at Federal Acquisition Regulation 1.107(d), do not request consideration.",
+            "translations": {},
+            "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA002546-26-DPCAP.pdf",
+            "sha256": "dcb582520193e2fd51266864edaf35e00c39ad15137a81d137be982bfbe4ec16",
+            "retrieved": "2026-10-29",
+            "copy": "sources/dcb582520193e2fd-dpcap-2026-10-05-7052-replacement.pdf",
+            "copy_sha256": "dcb582520193e2fd51266864edaf35e00c39ad15137a81d137be982bfbe4ec16",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l3",
+            "source": "eCFR 48 CFR part 252 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "48 CFR 252.225-7052(b)(1)(ii)",
+            "text": "Effective January 1, 2027, the Contractor shall not deliver under this contract any covered material mined, refined, separated, melted, or produced in any covered country",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=252",
+            "sha256": "931f2c8a0276b5a3a06498a79187b268df5ccf2ac9701201e6efda9b59ea1bd4",
+            "retrieved": "2026-10-29",
+            "copy": "sources/931f2c8a0276b5a3-ecfr-48-252-2026-10-27.xml",
+            "copy_sha256": "931f2c8a0276b5a3a06498a79187b268df5ccf2ac9701201e6efda9b59ea1bd4",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l4",
+            "source": "DoD Class Deviation 2026-O0041, Revision 1 (July 1, 2026), Attachment A1: FAR Overhaul Part 25 and DFARS Part 225",
+            "role": "Normative text",
+            "language": "en",
+            "edition": null,
+            "locator": "Class Deviation 2026-O0041, Rev. 1, memorandum",
+            "text": "Section 848 amends section 844 of the NDAA for FY 2021 to clarify that the restriction at 10 U.S.C. 4872(a) on covered materials mined, refined, or separated in a covered country applies only to contracts awarded on or after January 1, 2027.",
+            "translations": {},
+            "url": "https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-225/2026-O0041_Rev_1_TAB_A_Deviation_Memo_Part_225.pdf",
+            "sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+            "retrieved": "2026-10-29",
+            "copy": "sources/4866b6f6f7f1f5fb-dfars-rfo-part225-rev1.pdf",
+            "copy_sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-29T18:57:00Z",
+          "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+          "channel": "email",
+          "role": "author of the DFARS and the class deviation",
+          "what": "letter to DPCAP and DARS"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+          "role": "author of the DFARS and the class deviation"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-29",
+      "ai_role": {
+        "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T11:45:00Z",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to Department of Defense, Defense Pricing, Contracting, and Acquisition Policy (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0250",
+      "url": "https://arxo.io/findings/ARXO-2026-0250/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "Uniform Guidance, 2 CFR part 184 (Buy America preferences for infrastructure projects)",
+      "acts": [
+        "48 CFR part 25",
+        "48 CFR part 52",
+        "FAR Overhaul Part 25",
+        "48 CFR part 225",
+        "48 CFR part 252",
+        "DFARS Class Deviation 2026-O0041, Revision 1",
+        "10 USC 4863",
+        "10 USC 4872",
+        "2 CFR part 184",
+        "P.L. 117-58"
+      ],
+      "location": "2 CFR 184.6(a)(4); Build America, Buy America Act, section 70915(b)(2)(A)",
+      "text": {
+        "en": {
+          "title": "2 CFR 184.6(a)(4): how does the fiber optic cable standard implement the statutory requirement for input manufacturing?",
+          "summary": "Section 70915(b)(2)(A) of the Build America, Buy America Act directs OMB to ensure that its standards require that each manufacturing process required for the manufacture of the construction material and its inputs occurs in the United States. For fiber optic cable, 2 CFR 184.6(a)(4) requires ribboning (where applicable), buffering, fiber stranding and jacketing in the United States. It includes the glass and optical fiber standards and excludes the standards for non-ferrous metals, plastic and polymer-based products, and other materials. The 2023 preamble explains why OMB treated the cable as a single construction material with its own standard. One reading treats the listed processes as the definition Congress delegated to OMB. The other asks whether the manufacture of polymer and other non-fiber inputs before jacketing is also required.",
+          "impact": "No project or product with a different result has been established. Excluding another material's standard does not by itself show that a required process was omitted.",
+          "correction": "Please clarify how the starting points in 184.6(a)(4) and the treatment of non-fiber cable inputs implement section 70915(b)(2)(A)."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-29",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "l1",
+            "source": "Public Law 117-58 (Infrastructure Investment and Jobs Act), including the Build America, Buy America Act",
+            "role": "Normative text",
+            "language": "en",
+            "edition": null,
+            "locator": "Public Law 117-58, section 70915(b)(2)(A), 135 Stat. 1300",
+            "text": "ensure that the standards require that each manufacturing process required for the manufacture of the construction material and the inputs of the construction material occurs in the United States",
+            "translations": {},
+            "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ58/pdf/PLAW-117publ58.pdf",
+            "sha256": "9f5806990c5b1a7561132fb159782891ecfb1b64bfd130b07701de7efe2aa853",
+            "retrieved": "2026-10-29",
+            "copy": "sources/9f5806990c5b1a75-pl-117-58.pdf",
+            "copy_sha256": "9f5806990c5b1a7561132fb159782891ecfb1b64bfd130b07701de7efe2aa853",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l2",
+            "source": "eCFR 2 CFR part 184 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "2 CFR 184.6(a)(4)",
+            "text": "All manufacturing processes, from the initial ribboning (if applicable), through buffering, fiber stranding and jacketing, occurred in the United States.",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-2.xml?part=184",
+            "sha256": "0980f01f1f3ae8a0d4b0abe04fddb887b3f84517e5cad70e2a2c41d7591c8012",
+            "retrieved": "2026-10-29",
+            "copy": "sources/0980f01f1f3ae8a0-ecfr-2-184-2026-10-27.xml",
+            "copy_sha256": "0980f01f1f3ae8a0d4b0abe04fddb887b3f84517e5cad70e2a2c41d7591c8012",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l3",
+            "source": "eCFR 2 CFR part 184 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "2 CFR 184.6(a)(4), second sentence",
+            "text": "All manufacturing processes also include the standards for glass and optical fiber, but not for non-ferrous metals, plastic and polymer-based products, or any others.",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-2.xml?part=184",
+            "sha256": "0980f01f1f3ae8a0d4b0abe04fddb887b3f84517e5cad70e2a2c41d7591c8012",
+            "retrieved": "2026-10-29",
+            "copy": "sources/0980f01f1f3ae8a0-ecfr-2-184-2026-10-27.xml",
+            "copy_sha256": "0980f01f1f3ae8a0d4b0abe04fddb887b3f84517e5cad70e2a2c41d7591c8012",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l4",
+            "source": "Federal Register, 88 FR 57750 (August 23, 2023): OMB final guidance, 2 CFR parts 184 and 200, with preamble",
+            "role": "Amending act",
+            "language": "en",
+            "edition": null,
+            "locator": "88 FR 57764, preamble on fiber optic cable",
+            "text": "by identifying fiber optic cable and optical fiber as separate, singular construction materials and applying specific standards to each",
+            "translations": {},
+            "url": "https://www.govinfo.gov/content/pkg/FR-2023-08-23/pdf/2023-17724.pdf",
+            "sha256": "cba9d5909881f395a5d202094e09294eeacb0c6d7210bc3e1e3119157a789539",
+            "retrieved": "2026-10-29",
+            "copy": "sources/cba9d5909881f395-fr-2023-17724.pdf",
+            "copy_sha256": "cba9d5909881f395a5d202094e09294eeacb0c6d7210bc3e1e3119157a789539",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-29T18:58:00Z",
+          "institution": "Office of Management and Budget, Made in America Office",
+          "channel": "email",
+          "role": "author of the 2 CFR 184 standards",
+          "what": "letter to the Made in America Office"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Office of Management and Budget, Made in America Office",
+          "role": "author of the 2 CFR 184 standards"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-29",
+      "ai_role": {
+        "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [
+        {
+          "id": "ARXO-2026-0251",
+          "relation": "see_also"
+        }
+      ],
+      "first_published": "2026-10-31T11:45:00Z",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to Office of Management and Budget, Made in America Office (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0251",
+      "url": "https://arxo.io/findings/ARXO-2026-0251/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "US",
+      "jurisdiction_detail": "federal",
+      "act": "Uniform Guidance, 2 CFR part 184 (Buy America preferences for infrastructure projects)",
+      "acts": [
+        "48 CFR part 25",
+        "48 CFR part 52",
+        "FAR Overhaul Part 25",
+        "48 CFR part 225",
+        "48 CFR part 252",
+        "DFARS Class Deviation 2026-O0041, Revision 1",
+        "10 USC 4863",
+        "10 USC 4872",
+        "2 CFR part 184",
+        "P.L. 117-58"
+      ],
+      "location": "2 CFR 184.6(a)(8) and (b); Build America, Buy America Act, section 70915(b)(2)(A)",
+      "text": {
+        "en": {
+          "title": "2 CFR 184.6(a)(8): how does the engineered wood standard implement the statutory requirement for input manufacturing?",
+          "summary": "Section 70915(b)(2)(A) of the Build America, Buy America Act directs OMB to ensure that its standards require that each manufacturing process required for the manufacture of the construction material and its inputs occurs in the United States. For engineered wood, 2 CFR 184.6(a)(8) covers all manufacturing processes from the initial combination of constituent materials until the wood product is in its final form. The 2023 preamble says that only the engineered wood standard applies, even though the lumber and polymer standards could otherwise apply, and explains the standard by the manufacturing processes used in the industry. One reading treats the combination of constituents as the starting point OMB chose under its delegated authority. The other asks whether the manufacture of previously manufactured lumber inputs is also required.",
+          "impact": "No project or product with a different result has been established.",
+          "correction": "Please clarify how the starting point in 184.6(a)(8) and the treatment of previously manufactured lumber inputs implement section 70915(b)(2)(A)."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-29",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "l1",
+            "source": "Public Law 117-58 (Infrastructure Investment and Jobs Act), including the Build America, Buy America Act",
+            "role": "Normative text",
+            "language": "en",
+            "edition": null,
+            "locator": "Public Law 117-58, section 70915(b)(2)(A), 135 Stat. 1300",
+            "text": "ensure that the standards require that each manufacturing process required for the manufacture of the construction material and the inputs of the construction material occurs in the United States",
+            "translations": {},
+            "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ58/pdf/PLAW-117publ58.pdf",
+            "sha256": "9f5806990c5b1a7561132fb159782891ecfb1b64bfd130b07701de7efe2aa853",
+            "retrieved": "2026-10-29",
+            "copy": "sources/9f5806990c5b1a75-pl-117-58.pdf",
+            "copy_sha256": "9f5806990c5b1a7561132fb159782891ecfb1b64bfd130b07701de7efe2aa853",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l2",
+            "source": "eCFR 2 CFR part 184 (currency through 2026-10-27)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "2 CFR 184.6(a)(8)",
+            "text": "All manufacturing processes from the initial combination of constituent materials until the wood product is in its final form, occurred in the United States.",
+            "translations": {},
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-2.xml?part=184",
+            "sha256": "0980f01f1f3ae8a0d4b0abe04fddb887b3f84517e5cad70e2a2c41d7591c8012",
+            "retrieved": "2026-10-29",
+            "copy": "sources/0980f01f1f3ae8a0-ecfr-2-184-2026-10-27.xml",
+            "copy_sha256": "0980f01f1f3ae8a0d4b0abe04fddb887b3f84517e5cad70e2a2c41d7591c8012",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l3",
+            "source": "Federal Register, 88 FR 57750 (August 23, 2023): OMB final guidance, 2 CFR parts 184 and 200, with preamble",
+            "role": "Amending act",
+            "language": "en",
+            "edition": null,
+            "locator": "88 FR 57783, preamble on paragraph (b) of the standards",
+            "text": "Paragraph (b) clarifies that only the single standard for engineered wood applies to a product falling in that category.",
+            "translations": {},
+            "url": "https://www.govinfo.gov/content/pkg/FR-2023-08-23/pdf/2023-17724.pdf",
+            "sha256": "cba9d5909881f395a5d202094e09294eeacb0c6d7210bc3e1e3119157a789539",
+            "retrieved": "2026-10-29",
+            "copy": "sources/cba9d5909881f395-fr-2023-17724.pdf",
+            "copy_sha256": "cba9d5909881f395a5d202094e09294eeacb0c6d7210bc3e1e3119157a789539",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "l4",
+            "source": "Federal Register, 88 FR 57750 (August 23, 2023): OMB final guidance, 2 CFR parts 184 and 200, with preamble",
+            "role": "Amending act",
+            "language": "en",
+            "edition": null,
+            "locator": "88 FR 57783, preamble on the engineered wood standard",
+            "text": "OMB believes that this revised standard accurately reflects the discrete manufacturing processes used in the production of engineered wood.",
+            "translations": {},
+            "url": "https://www.govinfo.gov/content/pkg/FR-2023-08-23/pdf/2023-17724.pdf",
+            "sha256": "cba9d5909881f395a5d202094e09294eeacb0c6d7210bc3e1e3119157a789539",
+            "retrieved": "2026-10-29",
+            "copy": "sources/cba9d5909881f395-fr-2023-17724.pdf",
+            "copy_sha256": "cba9d5909881f395a5d202094e09294eeacb0c6d7210bc3e1e3119157a789539",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-29T18:58:00Z",
+          "institution": "Office of Management and Budget, Made in America Office",
+          "channel": "email",
+          "role": "author of the 2 CFR 184 standards",
+          "what": "letter to the Made in America Office"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Office of Management and Budget, Made in America Office",
+          "role": "author of the 2 CFR 184 standards"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-29",
+      "ai_role": {
+        "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [
+        {
+          "id": "ARXO-2026-0250",
+          "relation": "see_also"
+        }
+      ],
+      "first_published": "2026-10-31T11:45:00Z",
+      "history": [
+        {
+          "date": "2026-10-29",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "reported",
+          "text": "Reported to Office of Management and Budget, Made in America Office (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
         }
       ]
     },

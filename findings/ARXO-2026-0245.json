@@ -1,0 +1,165 @@
+{
+  "id": "ARXO-2026-0245",
+  "url": "https://arxo.io/findings/ARXO-2026-0245/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Defense Federal Acquisition Regulation Supplement (48 CFR chapter 2) and Class Deviation 2026-O0041, Revision 1",
+  "acts": [
+    "48 CFR part 25",
+    "48 CFR part 52",
+    "FAR Overhaul Part 25",
+    "48 CFR part 225",
+    "48 CFR part 252",
+    "DFARS Class Deviation 2026-O0041, Revision 1",
+    "10 USC 4863",
+    "10 USC 4872",
+    "2 CFR part 184",
+    "P.L. 117-58"
+  ],
+  "location": "10 U.S.C. 4872(c)(3)(D); clause 252.225-7961(c)(1)",
+  "text": {
+    "en": {
+      "title": "10 U.S.C. 4872(c)(3)(D): how should the exception for recycled tantalum, tungsten and molybdenum be reflected in contracts?",
+      "summary": "Section 844(a) of Public Law 119-60 added 4872(c)(3)(D): tantalum, tungsten, or molybdenum produced from recycled material, if the contractor demonstrates to the Secretary that the recycled material was produced outside a covered nation and melting and all further processing and manufacturing take place in the United States or in the country of a qualifying foreign government. When these conditions are met, the prohibition in 4872(a)(1) does not apply. The deviation and clause 252.225-7961 keep only the exception for recycled neodymium-iron-boron magnets. Case 2024-D014 includes this amendment. One reading lets a contractor that meets the statutory conditions rely on the exception now. The other keeps the clause restriction until the clause is amended, because the statutory exception does not by itself establish compliance with the contract.",
+      "impact": "No contract or delivery affected by the difference has been established.",
+      "correction": "Please clarify how this exception should be reflected in contracts pending completion of case 2024-D014."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-29",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "10 U.S.C. (Armed Forces), OLRC release point 119-124",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "10 U.S.C. 4872(c)(3)(D)",
+        "text": "tantalum, tungsten, or molybdenum produced from recycled material if the contractor demonstrates to the Secretary that the recycled material was produced outside of a covered nation",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/124/xml_usc10@119-124.zip",
+        "sha256": "3a0a8808decb5adf4469e23373a921cf23df1a38c460a56811ed3442ea9a6aa8",
+        "retrieved": "2026-10-29",
+        "copy": "sources/3a0a8808decb5adf-usc10-119-124.zip",
+        "copy_sha256": "3a0a8808decb5adf4469e23373a921cf23df1a38c460a56811ed3442ea9a6aa8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "10 U.S.C. (Armed Forces), OLRC release point 119-124",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "10 U.S.C. 4872(c), introductory text",
+        "text": "Subsection (a)(1) does not apply under the following circumstances",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/124/xml_usc10@119-124.zip",
+        "sha256": "3a0a8808decb5adf4469e23373a921cf23df1a38c460a56811ed3442ea9a6aa8",
+        "retrieved": "2026-10-29",
+        "copy": "sources/3a0a8808decb5adf-usc10-119-124.zip",
+        "copy_sha256": "3a0a8808decb5adf4469e23373a921cf23df1a38c460a56811ed3442ea9a6aa8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "DoD Class Deviation 2026-O0041, Revision 1 (July 1, 2026), Attachment A1: FAR Overhaul Part 25 and DFARS Part 225",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Class Deviation 2026-O0041, Rev. 1: clause 252.225-7961(c)(1)(iv)",
+        "text": "A neodymium-iron-boron magnet manufactured from recycled material if the milling of the recycled material and sintering of the final magnet takes place in the United States.",
+        "translations": {},
+        "url": "https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-225/2026-O0041_Rev_1_TAB_A_Deviation_Memo_Part_225.pdf",
+        "sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+        "retrieved": "2026-10-29",
+        "copy": "sources/4866b6f6f7f1f5fb-dfars-rfo-part225-rev1.pdf",
+        "copy_sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Open DFARS cases as of October 23, 2026 (Defense Acquisition Regulations System)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "Open DFARS cases as of October 23, 2026, case 2024-D014",
+        "text": "it authorizes an exception to the prohibition for",
+        "translations": {},
+        "url": "https://www.acq.osd.mil/dpap/dars/opencases/dfarscasenum/dfars.pdf",
+        "sha256": "eb0de6e885c16743edd300a5f0a5b086f2e67bb3c255d2aa892199d54b46b7e4",
+        "retrieved": "2026-10-29",
+        "copy": "sources/eb0de6e885c16743-dfars-open-cases.pdf",
+        "copy_sha256": "eb0de6e885c16743edd300a5f0a5b086f2e67bb3c255d2aa892199d54b46b7e4",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-29T18:57:00Z",
+      "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+      "channel": "email",
+      "role": "author of the DFARS and the class deviation",
+      "what": "letter to DPCAP and DARS"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+      "role": "author of the DFARS and the class deviation"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-29",
+  "ai_role": {
+    "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [
+    {
+      "id": "ARXO-2026-0246",
+      "relation": "see_also"
+    }
+  ],
+  "first_published": "2026-10-31T11:45:00Z",
+  "history": [
+    {
+      "date": "2026-10-29",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "reported",
+      "text": "Reported to Department of Defense, Defense Pricing, Contracting, and Acquisition Policy (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

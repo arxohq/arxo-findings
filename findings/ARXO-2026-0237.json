@@ -1,0 +1,204 @@
+{
+  "id": "ARXO-2026-0237",
+  "url": "https://arxo.io/findings/ARXO-2026-0237/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Federal Acquisition Regulation (48 CFR chapter 1)",
+  "acts": [
+    "48 CFR part 25",
+    "48 CFR part 52",
+    "FAR Overhaul Part 25",
+    "26 USC 45",
+    "26 USC 45Y",
+    "P.L. 117-169"
+  ],
+  "location": "FAR 52.225-9(b)(3)(i)(A)-(B); 52.225-11(b)(4)(i)(A)-(B)",
+  "text": {
+    "en": {
+      "title": "FAR 52.225-9(b)(3)(i) and 52.225-11(b)(4)(i): headings (A) and (B) overlap when a material is a critical item or contains critical components, but not both",
+      "summary": "In both clauses, heading (A) covers “domestic construction material that is not a critical item or does not contain critical components”, and heading (B) covers material that “is a critical item or contains critical components”. When exactly one of the two conditions holds, both headings apply. The corresponding heading in FAR 25.204(b)(1) uses “and”: material that “is not a critical item and does not contain critical components”. The list of critical items at 25.105(a)(1)-(2) is reserved.",
+      "impact": "No affected award has been established while the list of critical items is reserved.",
+      "correction": "Use “and” in heading (A) of both clauses, as in 25.204(b)(1)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-29",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c9A",
+        "source": "eCFR 48 CFR part 52 (currency through 2026-10-27)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "48 CFR 52.225-9(b)(3)(i)(A)",
+        "text": "(A) For domestic construction material that is not a critical item or does not contain critical components.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=52",
+        "sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+        "retrieved": "2026-10-29",
+        "copy": "sources/69fadf7341a02715-ecfr-48-52-2026-10-27.xml",
+        "copy_sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "c9B",
+        "source": "eCFR 48 CFR part 52 (currency through 2026-10-27)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "48 CFR 52.225-9(b)(3)(i)(B)",
+        "text": "(B) For domestic construction material that is a critical item or contains critical components.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=52",
+        "sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+        "retrieved": "2026-10-29",
+        "copy": "sources/69fadf7341a02715-ecfr-48-52-2026-10-27.xml",
+        "copy_sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "c11A",
+        "source": "eCFR 48 CFR part 52 (currency through 2026-10-27)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "48 CFR 52.225-11(b)(4)(i)(A)",
+        "text": "The procedures in paragraph (b)(4)(i)(A)(2) of this clause will no longer apply as of January 1, 2030.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=52",
+        "sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+        "retrieved": "2026-10-29",
+        "copy": "sources/69fadf7341a02715-ecfr-48-52-2026-10-27.xml",
+        "copy_sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "part",
+        "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "48 CFR 25.204(b)(1)",
+        "text": "For construction material that is not a critical item and does not contain critical components.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+        "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+        "retrieved": "2026-10-29",
+        "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+        "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "reserved",
+        "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "48 CFR 25.105(a)",
+        "text": "(1)-(2) [Reserved]",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+        "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+        "retrieved": "2026-10-29",
+        "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+        "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-29T18:57:00Z",
+      "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+      "channel": "email",
+      "role": "author of the FAR",
+      "what": "letter to the FAR Council through the GSA Federal Acquisition Policy Division and Regulatory Secretariat"
+    },
+    {
+      "date": "2026-10-29T18:58:00Z",
+      "institution": "Office of the Federal Register, National Archives",
+      "channel": "email",
+      "role": "publisher of the Code of Federal Regulations",
+      "what": "editorial routing letter to the Office of the Federal Register"
+    },
+    {
+      "date": "2026-10-29T18:57:00Z",
+      "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+      "channel": "email",
+      "role": "FAR Council member; class deviation applying the revised FAR Part 25",
+      "what": "letter to DPCAP and DARS"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+      "role": "author of the FAR"
+    },
+    {
+      "institution": "Office of the Federal Register, National Archives",
+      "role": "publisher of the Code of Federal Regulations"
+    },
+    {
+      "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+      "role": "FAR Council member; class deviation applying the revised FAR Part 25"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-29",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo approved the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T11:45:00Z",
+  "history": [
+    {
+      "date": "2026-10-29",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "reported",
+      "text": "Reported to FAR Council (General Services Administration, Federal Acquisition Policy Division) (e-mail)"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register, National Archives (e-mail)"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "reported",
+      "text": "Reported to Department of Defense, Defense Pricing, Contracting, and Acquisition Policy (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

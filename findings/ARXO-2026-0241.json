@@ -1,0 +1,144 @@
+{
+  "id": "ARXO-2026-0241",
+  "url": "https://arxo.io/findings/ARXO-2026-0241/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Federal Acquisition Regulation (48 CFR chapter 1)",
+  "acts": [
+    "48 CFR part 25",
+    "48 CFR part 52",
+    "FAR Overhaul Part 25",
+    "48 CFR part 225",
+    "48 CFR part 252",
+    "DFARS Class Deviation 2026-O0041, Revision 1",
+    "10 USC 4863",
+    "10 USC 4872",
+    "2 CFR part 184",
+    "P.L. 117-58"
+  ],
+  "location": "FAR 25.202(a)(2)",
+  "text": {
+    "en": {
+      "title": "FAR 25.202(a)(2): should the relief from a nonavailability determination state that it applies when the fallback procedures are used?",
+      "summary": "FAR 25.202(a)(2) says a nonavailability determination is not required before January 1, 2030, if there is an offer for a foreign construction material that exceeds 55 percent domestic content, with a cross-reference to 25.204(b)(1)(ii) and (b)(2)(ii). Those paragraphs set the fallback procedures and their conditions. The 2022 final rule preamble says the language clarifies that a determination is not required when the fallback procedures are used. One reading applies the sentence whenever such an offer exists. The other reads it, with the cross-reference and the preamble, as limited to cases in which the fallback procedures are used.",
+      "impact": "No acquisition with an offer above 55 percent in which the fallback procedures did not apply has been established.",
+      "correction": "Please consider whether 25.202(a)(2) should state that condition expressly."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-29",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "48 CFR 25.202(a)(2)",
+        "text": "A determination is not required before January 1, 2030, if there is an offer for a foreign construction material that exceeds 55 percent domestic content (see 25.204(b)(1)(ii) and 25.204(b)(2)(ii)).",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+        "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+        "retrieved": "2026-10-29",
+        "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+        "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "48 CFR 25.204(b)(1)(ii)",
+        "text": "result in an unreasonable cost determination for the domestic construction material offer or there is no domestic construction material offer received",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+        "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+        "retrieved": "2026-10-29",
+        "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+        "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Federal Register, 87 FR 12780 (March 7, 2022): FAR Case 2021-008, Amendments to the FAR Buy American Act Requirements, final rule with preamble",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "87 FR 12782, preamble to FAR Case 2021-008",
+        "text": "Language has been added at FAR 25.103(b)(2)(i) and 25.202(a)(2), clarifying that a nonavailability determination is not required when the fallback procedures are used.",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/FR-2022-03-07/pdf/2022-04173.pdf",
+        "sha256": "c28aecd46debf9ac5f0924126d13a4fb4083391818b46046b3b8a4e55d17284b",
+        "retrieved": "2026-10-29",
+        "copy": "sources/c28aecd46debf9ac-fr-2022-04173.pdf",
+        "copy_sha256": "c28aecd46debf9ac5f0924126d13a4fb4083391818b46046b3b8a4e55d17284b",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-29T18:57:00Z",
+      "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+      "channel": "email",
+      "role": "author of the FAR",
+      "what": "letter to the FAR Council through the GSA Federal Acquisition Policy Division and Regulatory Secretariat"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+      "role": "author of the FAR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-29",
+  "ai_role": {
+    "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T11:45:00Z",
+  "history": [
+    {
+      "date": "2026-10-29",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "reported",
+      "text": "Reported to FAR Council (General Services Administration, Federal Acquisition Policy Division) (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

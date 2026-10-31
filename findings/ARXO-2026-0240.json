@@ -1,0 +1,160 @@
+{
+  "id": "ARXO-2026-0240",
+  "url": "https://arxo.io/findings/ARXO-2026-0240/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Federal Acquisition Regulation (48 CFR chapter 1)",
+  "acts": [
+    "48 CFR part 25",
+    "48 CFR part 52",
+    "FAR Overhaul Part 25",
+    "48 CFR part 225",
+    "48 CFR part 252",
+    "DFARS Class Deviation 2026-O0041, Revision 1",
+    "10 USC 4863",
+    "10 USC 4872",
+    "2 CFR part 184",
+    "P.L. 117-58"
+  ],
+  "location": "FAR 25.106(c)(1)(ii) and (c)(2)(ii); FAR Overhaul Part 25 guide, same paragraphs",
+  "text": {
+    "en": {
+      "title": "FAR 25.106(c)(1)(ii) and (c)(2)(ii): should the critical-item price tests name the critical calculation expressly?",
+      "summary": "For end products that are critical items or contain critical components, 25.106(c)(1)(ii) and (c)(2)(ii) test the price against the low offer after addition of “the appropriate evaluation factor in accordance with paragraph (a) or (b) of this section”. Paragraph (b) gives the factors for end products that are not critical items. Paragraph (a)(1) directs use of the factors in paragraphs (b) and (c), paragraph (c)(1)(i) specifies the critical calculation, and (c)(2)(i)(B) expressly applies the factors in (c)(1). One reading takes the reference through (a) to the critical calculation. The other follows the alternative reference to (b). The FAR Overhaul Part 25 guide keeps the same references.",
+      "impact": "The list of critical items at 25.105 is reserved, and no affected award has been established.",
+      "correction": "Please consider whether (c)(1)(ii) and (c)(2)(ii) should identify the critical calculation expressly."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-29",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "48 CFR 25.106(c)(1)(ii) and (c)(2)(ii)",
+        "text": "the appropriate evaluation factor in accordance with paragraph (a) or (b) of this section",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+        "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+        "retrieved": "2026-10-29",
+        "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+        "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "48 CFR 25.106(a)(1)",
+        "text": "Must use the evaluation factors in paragraphs (b) and (c) of this section",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+        "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+        "retrieved": "2026-10-29",
+        "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+        "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "eCFR 48 CFR part 25 (currency through 2026-10-27)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "48 CFR 25.106(c)(2)(i)(B)",
+        "text": "Determine the reasonableness of the cost of this offer by applying the evaluation factors listed in paragraph (c)(1) of this section to the low offer.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=25",
+        "sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+        "retrieved": "2026-10-29",
+        "copy": "sources/6a5372df63af691e-ecfr-48-25-2026-10-27.xml",
+        "copy_sha256": "6a5372df63af691e5c617813c3ee2b7042f890fc36a9542f132f161c3301cdf3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "FAR Overhaul Part 25 (acquisition.gov)",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": null,
+        "locator": "FAR Overhaul Part 25 guide, 25.106(c)(1)(ii) and (c)(2)(ii)",
+        "text": "the appropriate evaluation factor in accordance with paragraph (a) or (b) of this section",
+        "translations": {},
+        "url": "https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-25",
+        "sha256": "0b45716c3c938a1b204b0fd9c43b7a874830a2ac46647be7c2e6672ddc98f642",
+        "retrieved": "2026-10-29",
+        "copy": "sources/0b45716c3c938a1b-far-rfo-part25.html",
+        "copy_sha256": "0b45716c3c938a1b204b0fd9c43b7a874830a2ac46647be7c2e6672ddc98f642",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-29T18:57:00Z",
+      "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+      "channel": "email",
+      "role": "author of the FAR",
+      "what": "letter to the FAR Council through the GSA Federal Acquisition Policy Division and Regulatory Secretariat"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+      "role": "author of the FAR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-29",
+  "ai_role": {
+    "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T11:45:00Z",
+  "history": [
+    {
+      "date": "2026-10-29",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "reported",
+      "text": "Reported to FAR Council (General Services Administration, Federal Acquisition Policy Division) (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

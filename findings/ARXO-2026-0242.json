@@ -1,0 +1,160 @@
+{
+  "id": "ARXO-2026-0242",
+  "url": "https://arxo.io/findings/ARXO-2026-0242/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Federal Acquisition Regulation (48 CFR chapter 1)",
+  "acts": [
+    "48 CFR part 25",
+    "48 CFR part 52",
+    "FAR Overhaul Part 25",
+    "48 CFR part 225",
+    "48 CFR part 252",
+    "DFARS Class Deviation 2026-O0041, Revision 1",
+    "10 USC 4863",
+    "10 USC 4872",
+    "2 CFR part 184",
+    "P.L. 117-58"
+  ],
+  "location": "FAR 52.225-11(c)(1)(i)(H)",
+  "text": {
+    "en": {
+      "title": "FAR 52.225-11(c)(1)(i)(H): should the justification refer to paragraph (b)(4), as the introduction does?",
+      "summary": "Under 52.225-11(c)(1)(i), a contractor request to use foreign construction material “in accordance with paragraph (b)(4)” must include listed information. Item (H) asks for a detailed justification of the reason for use of foreign construction materials “cited in accordance with paragraph (b)(3)”. Paragraph (b)(3) is the list of excepted materials. Paragraph (b)(4) states the grounds on which the Contracting Officer may add material to that list. One reading takes (H) to ask for a justification under the grounds in (b)(4). The other takes it to refer to the materials on the (b)(3) list.",
+      "impact": "No request decided differently under the two readings has been established; the grounds are identifiable in (b)(4).",
+      "correction": "Please consider whether the reference in (H) should match the introduction to (c)(1)(i)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-29",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "eCFR 48 CFR part 52 (currency through 2026-10-27)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "48 CFR 52.225-11(c)(1)(i)(H)",
+        "text": "A detailed justification of the reason for use of foreign construction materials cited in accordance with paragraph (b)(3) of this clause.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=52",
+        "sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+        "retrieved": "2026-10-29",
+        "copy": "sources/69fadf7341a02715-ecfr-48-52-2026-10-27.xml",
+        "copy_sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "eCFR 48 CFR part 52 (currency through 2026-10-27)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "48 CFR 52.225-11(c)(1)(i)",
+        "text": "Any Contractor request to use foreign construction material in accordance with paragraph (b)(4) of this clause shall include adequate information for Government evaluation of the request, including",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=52",
+        "sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+        "retrieved": "2026-10-29",
+        "copy": "sources/69fadf7341a02715-ecfr-48-52-2026-10-27.xml",
+        "copy_sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "eCFR 48 CFR part 52 (currency through 2026-10-27)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "48 CFR 52.225-11(b)(3)",
+        "text": "The requirement in paragraph (b)(2) of this clause does not apply to information technology that is a commercial product or to the construction materials or components listed by the Government as follows",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=52",
+        "sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+        "retrieved": "2026-10-29",
+        "copy": "sources/69fadf7341a02715-ecfr-48-52-2026-10-27.xml",
+        "copy_sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "eCFR 48 CFR part 52 (currency through 2026-10-27)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "48 CFR 52.225-11(b)(4)",
+        "text": "The Contracting Officer may add other foreign construction material to the list in paragraph (b)(3) of this clause if the Government determines that",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=52",
+        "sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+        "retrieved": "2026-10-29",
+        "copy": "sources/69fadf7341a02715-ecfr-48-52-2026-10-27.xml",
+        "copy_sha256": "69fadf7341a027150e37cd45f2563570f78286d34372199603f1f2de7b475c1d",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-29T18:57:00Z",
+      "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+      "channel": "email",
+      "role": "author of the FAR",
+      "what": "letter to the FAR Council through the GSA Federal Acquisition Policy Division and Regulatory Secretariat"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "FAR Council (General Services Administration, Federal Acquisition Policy Division)",
+      "role": "author of the FAR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-29",
+  "ai_role": {
+    "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T11:45:00Z",
+  "history": [
+    {
+      "date": "2026-10-29",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "reported",
+      "text": "Reported to FAR Council (General Services Administration, Federal Acquisition Policy Division) (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

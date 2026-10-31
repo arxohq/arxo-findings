@@ -1,0 +1,160 @@
+{
+  "id": "ARXO-2026-0244",
+  "url": "https://arxo.io/findings/ARXO-2026-0244/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Defense Federal Acquisition Regulation Supplement (48 CFR chapter 2) and Class Deviation 2026-O0041, Revision 1",
+  "acts": [
+    "48 CFR part 25",
+    "48 CFR part 52",
+    "FAR Overhaul Part 25",
+    "48 CFR part 225",
+    "48 CFR part 252",
+    "DFARS Class Deviation 2026-O0041, Revision 1",
+    "10 USC 4863",
+    "10 USC 4872",
+    "2 CFR part 184",
+    "P.L. 117-58"
+  ],
+  "location": "10 U.S.C. 4872(f)(1); DFARS 225.7018-1; clause 252.225-7961(a)",
+  "text": {
+    "en": {
+      "title": "Molybdenum in 10 U.S.C. 4872(f)(1): what interim contract instructions apply while the DFARS definition is updated?",
+      "summary": "Public Law 119-60, section 844(a)(1), added molybdenum to the definition of covered material in 10 U.S.C. 4872(f)(1). The DFARS definition in 225.7018-1, the definition in Class Deviation 2026-O0041, Revision 1, and clause 252.225-7961 keep the five-material list without molybdenum. DFARS case 2024-D014 already covers this amendment. One view is that the statutory prohibition applies to DoD acquisitions of molybdenum now. The other is that contract obligations follow the clause list, which does not include molybdenum, until the case is completed.",
+      "impact": "No delivery of molybdenum from a covered nation under a current contract has been established.",
+      "correction": "Please clarify what interim contract instructions apply to the statutory restriction on molybdenum while case 2024-D014 is pending."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-29",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "10 U.S.C. (Armed Forces), OLRC release point 119-124",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "10 U.S.C. 4872(f)(1)(E)-(F)",
+        "text": "tantalum metals and alloys; and (F) molybdenum.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/124/xml_usc10@119-124.zip",
+        "sha256": "3a0a8808decb5adf4469e23373a921cf23df1a38c460a56811ed3442ea9a6aa8",
+        "retrieved": "2026-10-29",
+        "copy": "sources/3a0a8808decb5adf-usc10-119-124.zip",
+        "copy_sha256": "3a0a8808decb5adf4469e23373a921cf23df1a38c460a56811ed3442ea9a6aa8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "eCFR 48 CFR part 225 (currency through 2026-10-27)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "48 CFR 225.7018-1, definition of covered material",
+        "text": "(4) Tungsten metal powder; and (5) Tungsten heavy alloy or any finished or semi-finished component containing tungsten heavy alloy.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=225",
+        "sha256": "26bcbb8e4346b399acd9786340b03a6505db0d74f48ecf0062338d85c547453b",
+        "retrieved": "2026-10-29",
+        "copy": "sources/26bcbb8e4346b399-ecfr-48-225-2026-10-27.xml",
+        "copy_sha256": "26bcbb8e4346b399acd9786340b03a6505db0d74f48ecf0062338d85c547453b",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "DoD Class Deviation 2026-O0041, Revision 1 (July 1, 2026), Attachment A1: FAR Overhaul Part 25 and DFARS Part 225",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Class Deviation 2026-O0041, Rev. 1: DFARS 225.7018-1 and clause 252.225-7961(a), definition of covered material",
+        "text": "(4) Tungsten metal powder; and (5) Tungsten heavy alloy or any finished or semi-finished component containing tungsten heavy alloy.",
+        "translations": {},
+        "url": "https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-225/2026-O0041_Rev_1_TAB_A_Deviation_Memo_Part_225.pdf",
+        "sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+        "retrieved": "2026-10-29",
+        "copy": "sources/4866b6f6f7f1f5fb-dfars-rfo-part225-rev1.pdf",
+        "copy_sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Open DFARS cases as of October 23, 2026 (Defense Acquisition Regulations System)",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "Open DFARS cases as of October 23, 2026, case 2024-D014",
+        "text": "Section 844 adds molybdenum, gallium, and",
+        "translations": {},
+        "url": "https://www.acq.osd.mil/dpap/dars/opencases/dfarscasenum/dfars.pdf",
+        "sha256": "eb0de6e885c16743edd300a5f0a5b086f2e67bb3c255d2aa892199d54b46b7e4",
+        "retrieved": "2026-10-29",
+        "copy": "sources/eb0de6e885c16743-dfars-open-cases.pdf",
+        "copy_sha256": "eb0de6e885c16743edd300a5f0a5b086f2e67bb3c255d2aa892199d54b46b7e4",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-29T18:57:00Z",
+      "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+      "channel": "email",
+      "role": "author of the DFARS and the class deviation",
+      "what": "letter to DPCAP and DARS"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+      "role": "author of the DFARS and the class deviation"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-29",
+  "ai_role": {
+    "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T11:45:00Z",
+  "history": [
+    {
+      "date": "2026-10-29",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "reported",
+      "text": "Reported to Department of Defense, Defense Pricing, Contracting, and Acquisition Policy (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

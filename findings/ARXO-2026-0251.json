@@ -1,0 +1,165 @@
+{
+  "id": "ARXO-2026-0251",
+  "url": "https://arxo.io/findings/ARXO-2026-0251/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Uniform Guidance, 2 CFR part 184 (Buy America preferences for infrastructure projects)",
+  "acts": [
+    "48 CFR part 25",
+    "48 CFR part 52",
+    "FAR Overhaul Part 25",
+    "48 CFR part 225",
+    "48 CFR part 252",
+    "DFARS Class Deviation 2026-O0041, Revision 1",
+    "10 USC 4863",
+    "10 USC 4872",
+    "2 CFR part 184",
+    "P.L. 117-58"
+  ],
+  "location": "2 CFR 184.6(a)(8) and (b); Build America, Buy America Act, section 70915(b)(2)(A)",
+  "text": {
+    "en": {
+      "title": "2 CFR 184.6(a)(8): how does the engineered wood standard implement the statutory requirement for input manufacturing?",
+      "summary": "Section 70915(b)(2)(A) of the Build America, Buy America Act directs OMB to ensure that its standards require that each manufacturing process required for the manufacture of the construction material and its inputs occurs in the United States. For engineered wood, 2 CFR 184.6(a)(8) covers all manufacturing processes from the initial combination of constituent materials until the wood product is in its final form. The 2023 preamble says that only the engineered wood standard applies, even though the lumber and polymer standards could otherwise apply, and explains the standard by the manufacturing processes used in the industry. One reading treats the combination of constituents as the starting point OMB chose under its delegated authority. The other asks whether the manufacture of previously manufactured lumber inputs is also required.",
+      "impact": "No project or product with a different result has been established.",
+      "correction": "Please clarify how the starting point in 184.6(a)(8) and the treatment of previously manufactured lumber inputs implement section 70915(b)(2)(A)."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-29",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "Public Law 117-58 (Infrastructure Investment and Jobs Act), including the Build America, Buy America Act",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Public Law 117-58, section 70915(b)(2)(A), 135 Stat. 1300",
+        "text": "ensure that the standards require that each manufacturing process required for the manufacture of the construction material and the inputs of the construction material occurs in the United States",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-117publ58/pdf/PLAW-117publ58.pdf",
+        "sha256": "9f5806990c5b1a7561132fb159782891ecfb1b64bfd130b07701de7efe2aa853",
+        "retrieved": "2026-10-29",
+        "copy": "sources/9f5806990c5b1a75-pl-117-58.pdf",
+        "copy_sha256": "9f5806990c5b1a7561132fb159782891ecfb1b64bfd130b07701de7efe2aa853",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "eCFR 2 CFR part 184 (currency through 2026-10-27)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "2 CFR 184.6(a)(8)",
+        "text": "All manufacturing processes from the initial combination of constituent materials until the wood product is in its final form, occurred in the United States.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-2.xml?part=184",
+        "sha256": "0980f01f1f3ae8a0d4b0abe04fddb887b3f84517e5cad70e2a2c41d7591c8012",
+        "retrieved": "2026-10-29",
+        "copy": "sources/0980f01f1f3ae8a0-ecfr-2-184-2026-10-27.xml",
+        "copy_sha256": "0980f01f1f3ae8a0d4b0abe04fddb887b3f84517e5cad70e2a2c41d7591c8012",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "Federal Register, 88 FR 57750 (August 23, 2023): OMB final guidance, 2 CFR parts 184 and 200, with preamble",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "88 FR 57783, preamble on paragraph (b) of the standards",
+        "text": "Paragraph (b) clarifies that only the single standard for engineered wood applies to a product falling in that category.",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/FR-2023-08-23/pdf/2023-17724.pdf",
+        "sha256": "cba9d5909881f395a5d202094e09294eeacb0c6d7210bc3e1e3119157a789539",
+        "retrieved": "2026-10-29",
+        "copy": "sources/cba9d5909881f395-fr-2023-17724.pdf",
+        "copy_sha256": "cba9d5909881f395a5d202094e09294eeacb0c6d7210bc3e1e3119157a789539",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "Federal Register, 88 FR 57750 (August 23, 2023): OMB final guidance, 2 CFR parts 184 and 200, with preamble",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "88 FR 57783, preamble on the engineered wood standard",
+        "text": "OMB believes that this revised standard accurately reflects the discrete manufacturing processes used in the production of engineered wood.",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/FR-2023-08-23/pdf/2023-17724.pdf",
+        "sha256": "cba9d5909881f395a5d202094e09294eeacb0c6d7210bc3e1e3119157a789539",
+        "retrieved": "2026-10-29",
+        "copy": "sources/cba9d5909881f395-fr-2023-17724.pdf",
+        "copy_sha256": "cba9d5909881f395a5d202094e09294eeacb0c6d7210bc3e1e3119157a789539",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-29T18:58:00Z",
+      "institution": "Office of Management and Budget, Made in America Office",
+      "channel": "email",
+      "role": "author of the 2 CFR 184 standards",
+      "what": "letter to the Made in America Office"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Office of Management and Budget, Made in America Office",
+      "role": "author of the 2 CFR 184 standards"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-29",
+  "ai_role": {
+    "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [
+    {
+      "id": "ARXO-2026-0250",
+      "relation": "see_also"
+    }
+  ],
+  "first_published": "2026-10-31T11:45:00Z",
+  "history": [
+    {
+      "date": "2026-10-29",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "reported",
+      "text": "Reported to Office of Management and Budget, Made in America Office (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "ARXO-2026-0248",
+  "url": "https://arxo.io/findings/ARXO-2026-0248/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Defense Federal Acquisition Regulation Supplement (48 CFR chapter 2) and Class Deviation 2026-O0041, Revision 1",
+  "acts": [
+    "48 CFR part 25",
+    "48 CFR part 52",
+    "FAR Overhaul Part 25",
+    "48 CFR part 225",
+    "48 CFR part 252",
+    "DFARS Class Deviation 2026-O0041, Revision 1",
+    "10 USC 4863",
+    "10 USC 4872",
+    "2 CFR part 184",
+    "P.L. 117-58"
+  ],
+  "location": "DFARS 225.7018-2(a)(2) and clause 252.225-7961(b)(1)(ii) (Class Deviation 2026-O0041, Revision 1)",
+  "text": {
+    "en": {
+      "title": "DFARS 225.7018-2(a)(2) and clause 252.225-7961: does “mined, refined, or separated” reach ore and feedstock stages?",
+      "summary": "For contracts awarded on or after January 1, 2027, Class Deviation 2026-O0041, Revision 1, bars covered material “mined, refined, or separated in any covered country”, and clause 252.225-7961 uses the same words. The earlier clause 252.225-7052 described the restriction for each listed material, from mining or production of an ore or feedstock, including recycled material, through finished products. One reading applies the new words to the ore and feedstock stages from which the listed material is made. The other limits them to the listed covered material itself.",
+      "impact": "No contract with a different result under the two readings has been established.",
+      "correction": "Please clarify how the revised wording applies to earlier ore and feedstock stages."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-29",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "l1",
+        "source": "DoD Class Deviation 2026-O0041, Revision 1 (July 1, 2026), Attachment A1: FAR Overhaul Part 25 and DFARS Part 225",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Class Deviation 2026-O0041, Rev. 1: DFARS 225.7018-2(a)(2)",
+        "text": "Do not award a contract on or after January 1, 2027, for any covered material mined, refined, or separated in any covered country.",
+        "translations": {},
+        "url": "https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-225/2026-O0041_Rev_1_TAB_A_Deviation_Memo_Part_225.pdf",
+        "sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+        "retrieved": "2026-10-29",
+        "copy": "sources/4866b6f6f7f1f5fb-dfars-rfo-part225-rev1.pdf",
+        "copy_sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l2",
+        "source": "DoD Class Deviation 2026-O0041, Revision 1 (July 1, 2026), Attachment A1: FAR Overhaul Part 25 and DFARS Part 225",
+        "role": "Normative text",
+        "language": "en",
+        "edition": null,
+        "locator": "Class Deviation 2026-O0041, Rev. 1: clause 252.225-7961(b)(1)(ii)",
+        "text": "The Contractor shall not deliver under a contract awarded on or after January 1, 2027, any covered material mined, refined, or separated in any covered country.",
+        "translations": {},
+        "url": "https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-225/2026-O0041_Rev_1_TAB_A_Deviation_Memo_Part_225.pdf",
+        "sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+        "retrieved": "2026-10-29",
+        "copy": "sources/4866b6f6f7f1f5fb-dfars-rfo-part225-rev1.pdf",
+        "copy_sha256": "4866b6f6f7f1f5fb1f99b4ca828cdb2c03885c29a6a9d474788a0470da2c9b79",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l3",
+        "source": "eCFR 48 CFR part 252 (currency through 2026-10-27)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "48 CFR 252.225-7052(b)(5)(ii)",
+        "text": "this restriction includes mining or production of a tungsten ore or feedstock, including recycled material, through production of tungsten metal powders",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=252",
+        "sha256": "931f2c8a0276b5a3a06498a79187b268df5ccf2ac9701201e6efda9b59ea1bd4",
+        "retrieved": "2026-10-29",
+        "copy": "sources/931f2c8a0276b5a3-ecfr-48-252-2026-10-27.xml",
+        "copy_sha256": "931f2c8a0276b5a3a06498a79187b268df5ccf2ac9701201e6efda9b59ea1bd4",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "l4",
+        "source": "eCFR 48 CFR part 252 (currency through 2026-10-27)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "48 CFR 252.225-7052(b)(2)(i)(B)",
+        "text": "for samarium-cobalt magnets this restriction includes the entire supply chain from mining or production of a cobalt and samarium ore or feedstock, including recycled material, through production of finished magnets",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml?part=252",
+        "sha256": "931f2c8a0276b5a3a06498a79187b268df5ccf2ac9701201e6efda9b59ea1bd4",
+        "retrieved": "2026-10-29",
+        "copy": "sources/931f2c8a0276b5a3-ecfr-48-252-2026-10-27.xml",
+        "copy_sha256": "931f2c8a0276b5a3a06498a79187b268df5ccf2ac9701201e6efda9b59ea1bd4",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-29T18:57:00Z",
+      "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+      "channel": "email",
+      "role": "author of the DFARS and the class deviation",
+      "what": "letter to DPCAP and DARS"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Defense, Defense Pricing, Contracting, and Acquisition Policy",
+      "role": "author of the DFARS and the class deviation"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-29",
+  "ai_role": {
+    "en": "AI agents read the official texts and compared the provisions, clauses and preambles; they also drafted this record. A person at Arxo approved the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T11:45:00Z",
+  "history": [
+    {
+      "date": "2026-10-29",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "reported",
+      "text": "Reported to Department of Defense, Defense Pricing, Contracting, and Acquisition Policy (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

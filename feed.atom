@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Arxo Findings Register</title>
-  <subtitle>Verified discrepancies in legal texts, official publications and implementations, with evidence and correction histories.</subtitle>
+  <subtitle>Verified discrepancies in legal texts, standards, official publications and implementations, with evidence and correction histories.</subtitle>
   <link rel="alternate" href="https://arxo.io/findings/"/>
   <link rel="self" href="https://arxo.io/findings/feed.atom"/>
   <id>https://arxo.io/findings/</id>
-  <updated>2026-10-31T09:22:00+00:00</updated>
+  <updated>2026-10-31T11:45:00+00:00</updated>
   <author><name>Arxo Law</name></author>
   <rights>Data: CC BY 4.0, Arxo Law</rights>
   <entry>
@@ -317,6 +317,176 @@
     <category term="US"/>
     <category term="reported" label="Reported"/>
     <summary>Reported. Highlights, Dosage and Administration reads “7.5 mg/kg once daily in children ≥60 kg”. 2.4 reads “7.5 mg once daily in children who weigh ≥60 kg”. Example: For a child of 60 kg, Highlights read literally gives 7.5 mg per kg (450 mg a day); section 2.4 gives 7.5 mg. The same text is in 4 labels from 2 labelers in the DailyMed release of 29 October 2026.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0251/</id>
+    <title>ARXO-2026-0251 — 2 CFR 184.6(a)(8): how does the engineered wood standard implement the statutory requirement for input manufacturing?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0251/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Section 70915(b)(2)(A) of the Build America, Buy America Act directs OMB to ensure that its standards require that each manufacturing process required for the manufacture of the construction material and its inputs occurs in the United States. For engineered wood, 2 CFR 184.6(a)(8) covers all manufacturing processes from the initial combination of constituent materials until the wood product is in its final form. The 2023 preamble says that only the engineered wood standard applies, even though the lumber and polymer standards could otherwise apply, and explains the standard by the manufacturing processes used in the industry. One reading treats the combination of constituents as the starting point OMB chose under its delegated authority. The other asks whether the manufacture of previously manufactured lumber inputs is also required.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0250/</id>
+    <title>ARXO-2026-0250 — 2 CFR 184.6(a)(4): how does the fiber optic cable standard implement the statutory requirement for input manufacturing?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0250/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Section 70915(b)(2)(A) of the Build America, Buy America Act directs OMB to ensure that its standards require that each manufacturing process required for the manufacture of the construction material and its inputs occurs in the United States. For fiber optic cable, 2 CFR 184.6(a)(4) requires ribboning (where applicable), buffering, fiber stranding and jacketing in the United States. It includes the glass and optical fiber standards and excludes the standards for non-ferrous metals, plastic and polymer-based products, and other materials. The 2023 preamble explains why OMB treated the cable as a single construction material with its own standard. One reading treats the listed processes as the definition Congress delegated to OMB. The other asks whether the manufacture of polymer and other non-fiber inputs before jacketing is also required.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0249/</id>
+    <title>ARXO-2026-0249 — DFARS 252.225-7052 and 252.225-7961: is there guidance on performance before an existing contract is modified?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0249/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The DPCAP memorandum of October 5, 2026 directs contracting officers to incorporate 252.225-7961 and remove 252.225-7052 in existing contracts as soon as practicable, and not to request consideration when making the modification under FAR 1.107(d). Clause 7052 applies its upstream restriction to deliveries from January 1, 2027. Clause 7961 and the statute as amended by section 848 attach it to contracts awarded on or after that date. One reading keeps the 7052 text binding on performance until the modification is made. The other treats the amended statute and the directed replacement as removing the upstream restriction for contracts awarded before that date.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0248/</id>
+    <title>ARXO-2026-0248 — DFARS 225.7018-2(a)(2) and clause 252.225-7961: does “mined, refined, or separated” reach ore and feedstock stages?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0248/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. For contracts awarded on or after January 1, 2027, Class Deviation 2026-O0041, Revision 1, bars covered material “mined, refined, or separated in any covered country”, and clause 252.225-7961 uses the same words. The earlier clause 252.225-7052 described the restriction for each listed material, from mining or production of an ore or feedstock, including recycled material, through finished products. One reading applies the new words to the ore and feedstock stages from which the listed material is made. The other limits them to the listed covered material itself.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0247/</id>
+    <title>ARXO-2026-0247 — 10 U.S.C. 4872(e): how should a statutory national-security waiver be reflected in clause 252.225-7961?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0247/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Section 4872(e)(1) allows the Secretary to accept delivery of an end item containing covered material manufactured in a covered nation on a written determination that acceptance is necessary to the national security interests of the United States. Paragraph (e)(3) allows a waiver made under 4863(k) to be applied to these restrictions. Case 2024-D014 covers the amendment that made those waivers applicable. The procedure in the deviation and clause 252.225-7961(c) provide for a nonavailability determination and do not describe these waiver paths. One reading lets a valid waiver govern delivery without a change to the clause. The other requires the contract restriction to be modified to reflect it.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0246/</id>
+    <title>ARXO-2026-0246 — 10 U.S.C. 4872(c)(3)(C): how should the exception for recycled samarium-cobalt magnets be reflected in contracts?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0246/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Section 844(a) of Public Law 119-60 added samarium-cobalt magnets to the exception in 4872(c)(3)(C) for magnets manufactured from recycled material, with milling of the recycled material and sintering of the final magnet in the United States. The deviation and clause 252.225-7961 keep the exception for recycled neodymium-iron-boron magnets only. The clause also states that its restriction on samarium-cobalt magnets is in addition to any applicable specialty metals restriction. Case 2024-D014 includes this amendment. One reading lets a magnet that meets the statutory conditions fall outside the clause now. The other keeps the clause restriction until it is amended, with any specialty metals restriction applying separately.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0245/</id>
+    <title>ARXO-2026-0245 — 10 U.S.C. 4872(c)(3)(D): how should the exception for recycled tantalum, tungsten and molybdenum be reflected in contracts?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0245/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Section 844(a) of Public Law 119-60 added 4872(c)(3)(D): tantalum, tungsten, or molybdenum produced from recycled material, if the contractor demonstrates to the Secretary that the recycled material was produced outside a covered nation and melting and all further processing and manufacturing take place in the United States or in the country of a qualifying foreign government. When these conditions are met, the prohibition in 4872(a)(1) does not apply. The deviation and clause 252.225-7961 keep only the exception for recycled neodymium-iron-boron magnets. Case 2024-D014 includes this amendment. One reading lets a contractor that meets the statutory conditions rely on the exception now. The other keeps the clause restriction until the clause is amended, because the statutory exception does not by itself establish compliance with the contract.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0244/</id>
+    <title>ARXO-2026-0244 — Molybdenum in 10 U.S.C. 4872(f)(1): what interim contract instructions apply while the DFARS definition is updated?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0244/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Public Law 119-60, section 844(a)(1), added molybdenum to the definition of covered material in 10 U.S.C. 4872(f)(1). The DFARS definition in 225.7018-1, the definition in Class Deviation 2026-O0041, Revision 1, and clause 252.225-7961 keep the five-material list without molybdenum. DFARS case 2024-D014 already covers this amendment. One view is that the statutory prohibition applies to DoD acquisitions of molybdenum now. The other is that contract obligations follow the clause list, which does not include molybdenum, until the case is completed.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0243/</id>
+    <title>ARXO-2026-0243 — DFARS 225.7003-3(b)(2)(i)(D)(1): should the COTS fastener exception also list components, as the statute and clause do?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0243/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. DFARS 225.7003-3(b)(2)(i)(D)(1) treats commercially available off-the-shelf (COTS) fasteners as excepted when they are incorporated into “COTS end items, subsystems, or assemblies”. Clause 252.225-7009(c)(2)(i)(D)(1) and 10 U.S.C. 4863(h)(2)(D)(i) also list components. For example, a separate subcontract supplies COTS fasteners containing specialty metal for a COTS component that will enter a non-COTS end item. One reading applies the narrower list in Part 225 to that acquisition. The other reads Part 225 in line with the statute and the clause.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0242/</id>
+    <title>ARXO-2026-0242 — FAR 52.225-11(c)(1)(i)(H): should the justification refer to paragraph (b)(4), as the introduction does?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0242/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Under 52.225-11(c)(1)(i), a contractor request to use foreign construction material “in accordance with paragraph (b)(4)” must include listed information. Item (H) asks for a detailed justification of the reason for use of foreign construction materials “cited in accordance with paragraph (b)(3)”. Paragraph (b)(3) is the list of excepted materials. Paragraph (b)(4) states the grounds on which the Contracting Officer may add material to that list. One reading takes (H) to ask for a justification under the grounds in (b)(4). The other takes it to refer to the materials on the (b)(3) list.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0241/</id>
+    <title>ARXO-2026-0241 — FAR 25.202(a)(2): should the relief from a nonavailability determination state that it applies when the fallback procedures are used?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0241/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. FAR 25.202(a)(2) says a nonavailability determination is not required before January 1, 2030, if there is an offer for a foreign construction material that exceeds 55 percent domestic content, with a cross-reference to 25.204(b)(1)(ii) and (b)(2)(ii). Those paragraphs set the fallback procedures and their conditions. The 2022 final rule preamble says the language clarifies that a determination is not required when the fallback procedures are used. One reading applies the sentence whenever such an offer exists. The other reads it, with the cross-reference and the preamble, as limited to cases in which the fallback procedures are used.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0240/</id>
+    <title>ARXO-2026-0240 — FAR 25.106(c)(1)(ii) and (c)(2)(ii): should the critical-item price tests name the critical calculation expressly?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0240/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. For end products that are critical items or contain critical components, 25.106(c)(1)(ii) and (c)(2)(ii) test the price against the low offer after addition of “the appropriate evaluation factor in accordance with paragraph (a) or (b) of this section”. Paragraph (b) gives the factors for end products that are not critical items. Paragraph (a)(1) directs use of the factors in paragraphs (b) and (c), paragraph (c)(1)(i) specifies the critical calculation, and (c)(2)(i)(B) expressly applies the factors in (c)(1). One reading takes the reference through (a) to the critical calculation. The other follows the alternative reference to (b). The FAR Overhaul Part 25 guide keeps the same references.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0239/</id>
+    <title>ARXO-2026-0239 — FAR 52.225-9(b)(3)(i)(A)(2): should the U.S.-manufacture condition sit on the selected offer, as in Part 25?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0239/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The provisions concern construction material that is not a commercially available off-the-shelf (COTS) item and is not wholly or predominantly iron or steel, during the fallback period before January 1, 2030. FAR 25.204(b)(1)(ii) applies when the low offer does not exceed 55 percent domestic content, and treats as domestic the lowest offer that is manufactured in the United States and exceeds 55 percent domestic content. Clause 52.225-9(b)(3)(i)(A)(2) instead requires the low offer to be manufactured in the United States, and treats as domestic the lowest offer above 55 percent without that condition. Clause 52.225-11(b)(4)(i)(A)(2) follows Part 25. One reading applies 52.225-9 as written in contracts that include it. The other reads it in line with Part 25 and 52.225-11.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0238/</id>
+    <title>ARXO-2026-0238 — FAR 25.205(c): should the minimum consideration for a postaward exception cite 25.204 directly?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0238/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. FAR 25.205(c) sets the minimum consideration for a postaward exception based on unreasonable price by reference to the amount “established in 25.202(a) or in accordance with agency procedures”. Paragraph 25.202(a)(3) sets no amount; it points onward to 25.204, which adds 20 percent of the cost of the foreign construction material. Clauses 52.225-9(c)(2) and 52.225-11(c)(2) state their own minimum by reference to the evaluation factor in each clause. One reading takes the reference to 25.202(a) to reach the 25.204 factor through (a)(3). The other reads 25.202(a) as naming no amount, so that the minimum comes from agency procedures or the clause.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0237/</id>
+    <title>ARXO-2026-0237 — FAR 52.225-9(b)(3)(i) and 52.225-11(b)(4)(i): headings (A) and (B) overlap when a material is a critical item or contains critical components, but not both</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0237/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In both clauses, heading (A) covers “domestic construction material that is not a critical item or does not contain critical components”, and heading (B) covers material that “is a critical item or contains critical components”. When exactly one of the two conditions holds, both headings apply. The corresponding heading in FAR 25.204(b)(1) uses “and”: material that “is not a critical item and does not contain critical components”. The list of critical items at 25.105(a)(1)-(2) is reserved.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0236/</id>
+    <title>ARXO-2026-0236 — FAR 25.101(d)(2)(i) refers to 25.1101(b)(1)(v); paragraph 25.1101(b)(1) ends at (iv)</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0236/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. FAR 25.101(d)(2)(i) says “See 25.1101(a)(1)(ii) or 25.1101(b)(1)(v) for use of the appropriate Alternate clause”. Paragraph 25.1101(b)(1) ends at (iv), which prescribes Alternate IV for the alternate domestic content test. The FAR Overhaul version refers to 25.601(b)(1)(v), which also ends at (iv).</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0235/</id>
+    <title>ARXO-2026-0235 — FAR 25.1101(b)(1)(iv) refers to 25.102(d); section 25.102 has no paragraph (d)</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0235/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. FAR 25.1101(b)(1)(iv) applies when the senior procurement executive allows an alternate domestic content test “in accordance with 25.102(d)”. Section 25.102 is a single unnumbered paragraph. The authority for the alternate domestic content test is in 25.101(d). The FAR Overhaul Part 25 text keeps the same reference at 25.601(b)(1)(iv).</summary>
   </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0012/</id>
