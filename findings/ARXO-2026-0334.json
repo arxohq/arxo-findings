@@ -1,0 +1,128 @@
+{
+  "id": "ARXO-2026-0334",
+  "url": "https://arxo.io/findings/ARXO-2026-0334/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "CSS Working Group",
+  "issuer": {
+    "name": "World Wide Web Consortium (W3C)",
+    "short": "W3C",
+    "kind": "standards_body",
+    "url": "https://www.w3.org/"
+  },
+  "act": "CSS Cascading and Inheritance Level 6 (Editor's Draft, 28 April 2026)",
+  "acts": [
+    "CSS Cascading and Inheritance Level 5",
+    "CSS Cascading and Inheritance Level 6",
+    "CSS Shadow Module Level 1",
+    "CSS Nesting Module Level 1",
+    "CSS Animations Level 1"
+  ],
+  "location": "§3.6",
+  "text": {
+    "en": {
+      "title": "CSS Cascade 6: §3.6 on presentational hints points to Level 5 §6.4 Cascade Layers instead of §6.5",
+      "summary": "§3.6 has no text of its own, only an issue box pointing to “CSS Cascading 5 § 6.4 Cascade Layers”. In Level 5 presentational hints are §6.5, and Level 5 moved them out of layers into their own origin (issue 6659). The other pointers of the same kind in Level 6 go to the matching Level 5 section; the Working Draft of 6 September 2024 has the same pointer in §2.6.",
+      "impact": "A reader who follows the pointer lands on Cascade Layers, which no longer govern presentational hints.",
+      "correction": "Point §3.6 to Level 5 §6.5 Precedence of Non-CSS Presentational Hints."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "CSS Cascading and Inheritance Level 6, Editor's Draft of 28 April 2026 (W3C CSS Working Group)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Editor's Draft",
+        "locator": "§3.6 Precedence of Non-CSS Presentational Hints",
+        "text": "CSS Cascading 5 § 6.4 Cascade Layers",
+        "translations": {},
+        "url": "https://drafts.csswg.org/css-cascade-6/",
+        "sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+        "retrieved": "2026-10-30",
+        "copy": "sources/6d3da5b4b2077a16-ed-css-cascade-6.html",
+        "copy_sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "CSS Cascading and Inheritance Level 5, Editor's Draft of 13 April 2026 (W3C CSS Working Group)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Editor's Draft",
+        "locator": "Changes, Issue 6659",
+        "text": "Defined presentational hints to use the author presentational hint origin instead of layers, matching update to [CSS-CASCADE-4]. (Issue 6659)",
+        "translations": {},
+        "url": "https://drafts.csswg.org/css-cascade-5/",
+        "sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+        "retrieved": "2026-10-30",
+        "copy": "sources/2c51fc71d5bfec21-ed-css-cascade-5.html",
+        "copy_sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T15:22:03Z",
+      "institution": "W3C CSS Working Group",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/w3c/csswg-drafts/issues/14705"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "W3C CSS Working Group",
+      "role": "maintains the specification"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the specifications and compared their sections. An AI coordinator checked the place against the full Editor's Draft and the Working Group's issue tracker, and two further AI models checked the report before filing."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T15:52:31+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to W3C CSS Working Group (public issue tracker)"
+    }
+  ]
+}

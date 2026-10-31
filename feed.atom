@@ -5,7 +5,7 @@
   <link rel="alternate" href="https://arxo.io/findings/"/>
   <link rel="self" href="https://arxo.io/findings/feed.atom"/>
   <id>https://arxo.io/findings/</id>
-  <updated>2026-10-31T14:22:13+00:00</updated>
+  <updated>2026-10-31T15:52:31+00:00</updated>
   <author><name>Arxo Law</name></author>
   <rights>Data: CC BY 4.0, Arxo Law</rights>
   <entry>
@@ -957,6 +957,86 @@
     <category term="BCBS"/>
     <category term="reported" label="Reported"/>
     <summary>Reported. The same FAQ cites &#x27;CAP30.21 to CAP30.30&#x27; under CAP30.21 and CAP30.26 but &#x27;CAP30.20 to CAP30.29&#x27; under CAP30.30, so the range omits the paragraph it is attached to.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0339/</id>
+    <title>ARXO-2026-0339 — CSS Animations 1: “the last one in document order wins” for same-name @keyframes does not account for cascade layers</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0339/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="W3C"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. CSS Animations 1 §3 says that of several @keyframes with the same name the last one in document order wins. CSS Cascade 5 §6.4 says @keyframes inside cascade layers use the layer order to resolve collisions, as the Working Group resolved in issue 6404 in 2021. The sentence in CSS Animations 1 was not updated.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0338/</id>
+    <title>ARXO-2026-0338 — CSS Nesting 1: the two forms of “Example nesting Scoping” are called equivalent but set different properties</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0338/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="W3C"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In example #example-81212ace of §3.3 the nested form sets border on :scope, while the form given as “equivalent to” sets only border-block-end. The scoping examples in §3.2 use border-block-end in both forms, so border here looks like a typo.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0337/</id>
+    <title>ARXO-2026-0337 — CSS Shadow 1: the exportparts form “::ident : outerIdent” is rejected by the rules for parsing part mappings</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0337/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="W3C"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. §5.3 defines the exportparts form ::ident : outerIdent and example #example-b11a0a88 uses ::before : preceding-text. §5.6.1 collects the leading token from code points that are not spaces or colons and returns an error when it is empty; ::before starts with a colon, so the token is empty, and §5.6.2 drops the mapping. The form defined in §5.3 can never be produced by the parser.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0336/</id>
+    <title>ARXO-2026-0336 — CSS Cascade 5: what does revert-rule roll back in a style attribute?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0336/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="W3C"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. §7.3.6 rolls revert-rule back “as if the current style rule had not been present”. §6.1 separates declarations in a style attribute from style rules, and §7.3.6 has a sentence for the animation origin but none for the style attribute. The same question for revert-layer was settled in issue 6743 with a dedicated sentence in §7.3.5. Browsers already agree on normal declarations: the web-platform-tests case for a style attribute passes in Chrome, Edge, Firefox and Safari with the 5px result (stable runs of 31 October 2026); no test covers !important.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0335/</id>
+    <title>ARXO-2026-0335 — CSS Cascade 5: the Layer Ordering example gives two different orders when both media queries match</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0335/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="W3C"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Example #example-87e2d331 in §6.4.3 says that when the width query matches, layout comes first, and that when the colour-scheme query matches, theme comes first. When both match, the two sentences give different orders. The rule of §6.4.3 (layers sort by first declaration) gives layout first; only the second sentence is wrong. The 2022 snapshot of the specification (13 January 2022) has the same example.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0334/</id>
+    <title>ARXO-2026-0334 — CSS Cascade 6: §3.6 on presentational hints points to Level 5 §6.4 Cascade Layers instead of §6.5</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0334/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="W3C"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. §3.6 has no text of its own, only an issue box pointing to “CSS Cascading 5 § 6.4 Cascade Layers”. In Level 5 presentational hints are §6.5, and Level 5 moved them out of layers into their own origin (issue 6659). The other pointers of the same kind in Level 6 go to the matching Level 5 section; the Working Draft of 6 September 2024 has the same pointer in §2.6.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0333/</id>
+    <title>ARXO-2026-0333 — CSS Cascade 6: an example of overlapping scopes in §3.5.1 does not follow the current definition of scoping limits</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0333/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="W3C"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The last block of example #example-463550a5 uses to ([data-scope] &gt; *) and says both sections are part of the outer scope. Under §3.5.2 and §3.5.4 the scope end is an ordinary selector list, so both children of the outer section, a p and the inner section, are scoping limits and are out of scope. The example holds only if the scope end is matched relative to :scope, which open issue 13290 proposes; the note was sent there as a comment.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0332/</id>
+    <title>ARXO-2026-0332 — CSS Cascade 6: §3.5.1 says scope proximity wins regardless of specificity, while §3.1 compares specificity first</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0332/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="W3C"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. §3.5.1 of the Editor&#x27;s Draft says the cascade prefers the more proximate scoping root “regardless of specificity”. §3.1 lists Specificity before Scope Proximity, and the changes list records “Removed strong scope proximity” after the Working Group resolved in issue 6790 that proximity is weaker than specificity. The §3.5.1 sentence still describes the old rule; the Working Draft of 6 September 2024 has the same sentence.</summary>
   </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0331/</id>

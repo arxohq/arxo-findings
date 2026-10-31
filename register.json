@@ -4,11 +4,11 @@
   "description": "Verified discrepancies in legal texts, standards, official publications and implementations, with evidence and correction histories.",
   "publisher": "Arxo Law",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "as_of": "2026-10-31T14:22:13+00:00",
+  "as_of": "2026-10-31T15:52:31+00:00",
   "base_url": "https://arxo.io/findings/",
   "counts": {
-    "records": 348,
-    "discrepancies": 273,
+    "records": 356,
+    "discrepancies": 281,
     "questions": 75,
     "by_jurisdiction": {
       "EU": 50,
@@ -17,10 +17,11 @@
       "US": 59
     },
     "by_issuer": {
-      "BCBS": 45
+      "BCBS": 45,
+      "W3C": 8
     },
     "by_status": {
-      "reported": 335,
+      "reported": 343,
       "accepted": 3,
       "note_added": 5,
       "corrected": 3,
@@ -170,13 +171,19 @@
         "class": "act_text",
         "status": "reported",
         "records": 45
+      },
+      {
+        "issuer": "W3C",
+        "class": "act_text",
+        "status": "reported",
+        "records": 8
       }
     ],
-    "institutions_notified": 68,
+    "institutions_notified": 69,
     "corrected_by_official_document": 5,
     "withdrawn_after_publication": {
       "withdrawn": 0,
-      "of_published": 317
+      "of_published": 325
     },
     "rule": "Counts are of findings. One finding is one independently checkable statement about one discrepancy at one place; classes and questions are counted separately and are not added together."
   },
@@ -44161,6 +44168,1142 @@
           "date": "2026-10-31",
           "event": "reported",
           "text": "Reported to U.S. Food and Drug Administration, Center for Drug Evaluation and Research (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0332",
+      "url": "https://arxo.io/findings/ARXO-2026-0332/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "CSS Working Group",
+      "issuer": {
+        "name": "World Wide Web Consortium (W3C)",
+        "short": "W3C",
+        "kind": "standards_body",
+        "url": "https://www.w3.org/"
+      },
+      "act": "CSS Cascading and Inheritance Level 6 (Editor's Draft, 28 April 2026)",
+      "acts": [
+        "CSS Cascading and Inheritance Level 5",
+        "CSS Cascading and Inheritance Level 6",
+        "CSS Shadow Module Level 1",
+        "CSS Nesting Module Level 1",
+        "CSS Animations Level 1"
+      ],
+      "location": "§3.5.1 against §3.1",
+      "text": {
+        "en": {
+          "title": "CSS Cascade 6: §3.5.1 says scope proximity wins regardless of specificity, while §3.1 compares specificity first",
+          "summary": "§3.5.1 of the Editor's Draft says the cascade prefers the more proximate scoping root “regardless of specificity”. §3.1 lists Specificity before Scope Proximity, and the changes list records “Removed strong scope proximity” after the Working Group resolved in issue 6790 that proximity is weaker than specificity. The §3.5.1 sentence still describes the old rule; the Working Draft of 6 September 2024 has the same sentence.",
+          "impact": "#page img { border-radius: 0 } (specificity 1,0,1) against @scope (#hero) { img { border-radius: 50% } } (0,0,1) for an image inside #hero: by §3.1 the radius is 0, by the §3.5.1 sentence it is 50%.",
+          "correction": "Reword the §3.5.1 sentence to match §3.1: proximity decides only when all earlier cascade criteria tie."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "CSS Cascading and Inheritance Level 6, Editor's Draft of 28 April 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§3.5.1 Effects of @scope",
+            "text": "The cascade prioritizes declarations with a more proximate scoping root, regardless of specificity or order of appearance by applying scope proximity between the scoping root and the subject of each scoped style rule.",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-cascade-6/",
+            "sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+            "retrieved": "2026-10-30",
+            "copy": "sources/6d3da5b4b2077a16-ed-css-cascade-6.html",
+            "copy_sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "CSS Cascading and Inheritance Level 6, Editor's Draft of 28 April 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§3.1 Cascade Sorting Order, Specificity",
+            "text": "When comparing declarations from two style rules, the declaration belonging to the style rule with the highest specificity wins.",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-cascade-6/",
+            "sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+            "retrieved": "2026-10-30",
+            "copy": "sources/6d3da5b4b2077a16-ed-css-cascade-6.html",
+            "copy_sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "CSS Cascading and Inheritance Level 6, Editor's Draft of 28 April 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§5.1 Changes since the Working Draft",
+            "text": "Removed strong scope proximity. (Issue 6790)",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-cascade-6/",
+            "sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+            "retrieved": "2026-10-30",
+            "copy": "sources/6d3da5b4b2077a16-ed-css-cascade-6.html",
+            "copy_sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T12:20:56Z",
+          "institution": "W3C CSS Working Group",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/w3c/csswg-drafts/issues/14699"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "W3C CSS Working Group",
+          "role": "maintains the specification"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the specifications and compared their sections; the example was also run through executable rules of both readings. An AI coordinator checked the place against the full Editor's Draft and the Working Group's issue tracker, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T15:52:31+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to W3C CSS Working Group (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0333",
+      "url": "https://arxo.io/findings/ARXO-2026-0333/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "CSS Working Group",
+      "issuer": {
+        "name": "World Wide Web Consortium (W3C)",
+        "short": "W3C",
+        "kind": "standards_body",
+        "url": "https://www.w3.org/"
+      },
+      "act": "CSS Cascading and Inheritance Level 6 (Editor's Draft, 28 April 2026)",
+      "acts": [
+        "CSS Cascading and Inheritance Level 5",
+        "CSS Cascading and Inheritance Level 6",
+        "CSS Shadow Module Level 1",
+        "CSS Nesting Module Level 1",
+        "CSS Animations Level 1"
+      ],
+      "location": "§3.5.1, example #example-463550a5",
+      "text": {
+        "en": {
+          "title": "CSS Cascade 6: an example of overlapping scopes in §3.5.1 does not follow the current definition of scoping limits",
+          "summary": "The last block of example #example-463550a5 uses to ([data-scope] > *) and says both sections are part of the outer scope. Under §3.5.2 and §3.5.4 the scope end is an ordinary selector list, so both children of the outer section, a p and the inner section, are scoping limits and are out of scope. The example holds only if the scope end is matched relative to :scope, which open issue 13290 proposes; the note was sent there as a comment.",
+          "impact": "With the example's HTML, the current text applies section { background: snow } to no section and p { color: red } to no p; the example says the inner section is styled by both scopes.",
+          "correction": "Once issue 13290 is resolved, check the example against the chosen definition, for example by using to (:scope [data-scope] > *)."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "CSS Cascading and Inheritance Level 6, Editor's Draft of 28 April 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§3.5.1 Effects of @scope, example #example-463550a5",
+            "text": "However, authors can use the child combinator and universal selector to create scope boundaries that overlap, such that the inner scope root is part of both scopes:",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-cascade-6/",
+            "sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+            "retrieved": "2026-10-30",
+            "copy": "sources/6d3da5b4b2077a16-ed-css-cascade-6.html",
+            "copy_sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "CSS Cascading and Inheritance Level 6, Editor's Draft of 28 April 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§3.5.1 Effects of @scope, example #example-463550a5",
+            "text": "both sections are part of the outer scope",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-cascade-6/",
+            "sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+            "retrieved": "2026-10-30",
+            "copy": "sources/6d3da5b4b2077a16-ed-css-cascade-6.html",
+            "copy_sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "CSS Cascading and Inheritance Level 6, Editor's Draft of 28 April 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§3.5.4 Scoping Limits",
+            "text": "For each scope created by a scoping root, its scoping limits are set to all elements that are descendants of the scoping root and that match <scope-end>, interpreting :scope and & exactly as in scoped style rules.",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-cascade-6/",
+            "sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+            "retrieved": "2026-10-30",
+            "copy": "sources/6d3da5b4b2077a16-ed-css-cascade-6.html",
+            "copy_sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q4",
+            "source": "CSS Cascading and Inheritance Level 6, Editor's Draft of 28 April 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§3.5 Scoped Styles",
+            "text": "It is not an inclusive descendant of a scoping limit.",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-cascade-6/",
+            "sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+            "retrieved": "2026-10-30",
+            "copy": "sources/6d3da5b4b2077a16-ed-css-cascade-6.html",
+            "copy_sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T15:52:06Z",
+          "institution": "W3C CSS Working Group",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/w3c/csswg-drafts/issues/13290#issuecomment-6545662795"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "W3C CSS Working Group",
+          "role": "maintains the specification"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the specifications and compared their sections; the example was also run through executable rules of both readings. An AI coordinator checked the place against the full Editor's Draft and the Working Group's issue tracker, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T15:52:31+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to W3C CSS Working Group (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0334",
+      "url": "https://arxo.io/findings/ARXO-2026-0334/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "CSS Working Group",
+      "issuer": {
+        "name": "World Wide Web Consortium (W3C)",
+        "short": "W3C",
+        "kind": "standards_body",
+        "url": "https://www.w3.org/"
+      },
+      "act": "CSS Cascading and Inheritance Level 6 (Editor's Draft, 28 April 2026)",
+      "acts": [
+        "CSS Cascading and Inheritance Level 5",
+        "CSS Cascading and Inheritance Level 6",
+        "CSS Shadow Module Level 1",
+        "CSS Nesting Module Level 1",
+        "CSS Animations Level 1"
+      ],
+      "location": "§3.6",
+      "text": {
+        "en": {
+          "title": "CSS Cascade 6: §3.6 on presentational hints points to Level 5 §6.4 Cascade Layers instead of §6.5",
+          "summary": "§3.6 has no text of its own, only an issue box pointing to “CSS Cascading 5 § 6.4 Cascade Layers”. In Level 5 presentational hints are §6.5, and Level 5 moved them out of layers into their own origin (issue 6659). The other pointers of the same kind in Level 6 go to the matching Level 5 section; the Working Draft of 6 September 2024 has the same pointer in §2.6.",
+          "impact": "A reader who follows the pointer lands on Cascade Layers, which no longer govern presentational hints.",
+          "correction": "Point §3.6 to Level 5 §6.5 Precedence of Non-CSS Presentational Hints."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "CSS Cascading and Inheritance Level 6, Editor's Draft of 28 April 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§3.6 Precedence of Non-CSS Presentational Hints",
+            "text": "CSS Cascading 5 § 6.4 Cascade Layers",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-cascade-6/",
+            "sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+            "retrieved": "2026-10-30",
+            "copy": "sources/6d3da5b4b2077a16-ed-css-cascade-6.html",
+            "copy_sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "CSS Cascading and Inheritance Level 5, Editor's Draft of 13 April 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "Changes, Issue 6659",
+            "text": "Defined presentational hints to use the author presentational hint origin instead of layers, matching update to [CSS-CASCADE-4]. (Issue 6659)",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-cascade-5/",
+            "sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+            "retrieved": "2026-10-30",
+            "copy": "sources/2c51fc71d5bfec21-ed-css-cascade-5.html",
+            "copy_sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T15:22:03Z",
+          "institution": "W3C CSS Working Group",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/w3c/csswg-drafts/issues/14705"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "W3C CSS Working Group",
+          "role": "maintains the specification"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the specifications and compared their sections. An AI coordinator checked the place against the full Editor's Draft and the Working Group's issue tracker, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T15:52:31+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to W3C CSS Working Group (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0335",
+      "url": "https://arxo.io/findings/ARXO-2026-0335/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "CSS Working Group",
+      "issuer": {
+        "name": "World Wide Web Consortium (W3C)",
+        "short": "W3C",
+        "kind": "standards_body",
+        "url": "https://www.w3.org/"
+      },
+      "act": "CSS Cascading and Inheritance Level 5 (Editor's Draft, 13 April 2026)",
+      "acts": [
+        "CSS Cascading and Inheritance Level 5",
+        "CSS Cascading and Inheritance Level 6",
+        "CSS Shadow Module Level 1",
+        "CSS Nesting Module Level 1",
+        "CSS Animations Level 1"
+      ],
+      "location": "§6.4.3, example #example-87e2d331",
+      "text": {
+        "en": {
+          "title": "CSS Cascade 5: the Layer Ordering example gives two different orders when both media queries match",
+          "summary": "Example #example-87e2d331 in §6.4.3 says that when the width query matches, layout comes first, and that when the colour-scheme query matches, theme comes first. When both match, the two sentences give different orders. The rule of §6.4.3 (layers sort by first declaration) gives layout first; only the second sentence is wrong. The 2022 snapshot of the specification (13 January 2022) has the same example.",
+          "impact": "A wide viewport with a dark colour-scheme preference and the same property in both layers: by the rule the later layer, theme, wins; by the second sentence of the example layout wins.",
+          "correction": "Make the second sentence apply only when the width query does not match: “Otherwise, theme will come first in the layer order.”"
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "CSS Cascading and Inheritance Level 5, Editor's Draft of 13 April 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§6.4.3 Layer Ordering",
+            "text": "Cascade layers are sorted by the order in which they first are declared, with nested layers grouped within their parent layer.",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-cascade-5/",
+            "sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+            "retrieved": "2026-10-30",
+            "copy": "sources/2c51fc71d5bfec21-ed-css-cascade-5.html",
+            "copy_sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "CSS Cascading and Inheritance Level 5, Editor's Draft of 13 April 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§6.4.3 Layer Ordering, example #example-87e2d331",
+            "text": "If the first media-query matches based on viewport dimensions, then the layout layer will come first in the layer order.",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-cascade-5/",
+            "sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+            "retrieved": "2026-10-30",
+            "copy": "sources/2c51fc71d5bfec21-ed-css-cascade-5.html",
+            "copy_sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "CSS Cascading and Inheritance Level 5, Editor's Draft of 13 April 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§6.4.3 Layer Ordering, example #example-87e2d331",
+            "text": "If the color-scheme preference query matches, or if neither condition is true, then theme will come first in the layer order.",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-cascade-5/",
+            "sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+            "retrieved": "2026-10-30",
+            "copy": "sources/2c51fc71d5bfec21-ed-css-cascade-5.html",
+            "copy_sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T14:21:59Z",
+          "institution": "W3C CSS Working Group",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/w3c/csswg-drafts/issues/14703"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "W3C CSS Working Group",
+          "role": "maintains the specification"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the specifications and compared their sections; the example was also run through executable rules of both readings. An AI coordinator checked the place against the full Editor's Draft and the Working Group's issue tracker, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T15:52:31+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to W3C CSS Working Group (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0336",
+      "url": "https://arxo.io/findings/ARXO-2026-0336/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "CSS Working Group",
+      "issuer": {
+        "name": "World Wide Web Consortium (W3C)",
+        "short": "W3C",
+        "kind": "standards_body",
+        "url": "https://www.w3.org/"
+      },
+      "act": "CSS Cascading and Inheritance Level 5 (Editor's Draft, 13 April 2026)",
+      "acts": [
+        "CSS Cascading and Inheritance Level 5",
+        "CSS Cascading and Inheritance Level 6",
+        "CSS Shadow Module Level 1",
+        "CSS Nesting Module Level 1",
+        "CSS Animations Level 1"
+      ],
+      "location": "§7.3.6, read with §6.1",
+      "text": {
+        "en": {
+          "title": "CSS Cascade 5: what does revert-rule roll back in a style attribute?",
+          "summary": "§7.3.6 rolls revert-rule back “as if the current style rule had not been present”. §6.1 separates declarations in a style attribute from style rules, and §7.3.6 has a sentence for the animation origin but none for the style attribute. The same question for revert-layer was settled in issue 6743 with a dedicated sentence in §7.3.5. Browsers already agree on normal declarations: the web-platform-tests case for a style attribute passes in Chrome, Edge, Firefox and Safari with the 5px result (stable runs of 31 October 2026); no test covers !important.",
+          "impact": "div { border-radius: 5px } and <div style=\"border-radius: 2px; border-radius: revert-rule\">: if the whole attribute counts as the current rule the result is 5px; if only the declaration with revert-rule is removed it is 2px.",
+          "correction": "Extend the §7.3.6 sentence “behaves like revert-layer in the animation origin” to element-attached styles, which matches the browser tests and brings in the §7.3.5 rule for important declarations."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "CSS Cascading and Inheritance Level 5, Editor's Draft of 13 April 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§7.3.6 Rolling Back Rules: the revert-rule keyword",
+            "text": "If the cascaded value of a property is the revert-rule keyword, the cascaded value is rolled back such that the specified value is calculated as if the current style rule had not been present at all.",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-cascade-5/",
+            "sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+            "retrieved": "2026-10-30",
+            "copy": "sources/2c51fc71d5bfec21-ed-css-cascade-5.html",
+            "copy_sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "CSS Cascading and Inheritance Level 5, Editor's Draft of 13 April 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§6.1 Cascade Sorting Order, Element-Attached Styles",
+            "text": "declarations that are attached directly to an element (such as the contents of a style attribute) rather than indirectly mapped by means of a style rule selector",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-cascade-5/",
+            "sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+            "retrieved": "2026-10-30",
+            "copy": "sources/2c51fc71d5bfec21-ed-css-cascade-5.html",
+            "copy_sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "CSS Cascading and Inheritance Level 5, Editor's Draft of 13 April 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§7.3.6 Rolling Back Rules: the revert-rule keyword",
+            "text": "The revert-rule keyword behaves like revert-layer in the animation origin.",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-cascade-5/",
+            "sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+            "retrieved": "2026-10-30",
+            "copy": "sources/2c51fc71d5bfec21-ed-css-cascade-5.html",
+            "copy_sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:21:56Z",
+          "institution": "W3C CSS Working Group",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/w3c/csswg-drafts/issues/14701"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "W3C CSS Working Group",
+          "role": "maintains the specification"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the specifications and compared their sections; the example was also run through executable rules of both readings. An AI coordinator checked the place against the full Editor's Draft and the Working Group's issue tracker, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T15:52:31+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to W3C CSS Working Group (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0337",
+      "url": "https://arxo.io/findings/ARXO-2026-0337/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "CSS Working Group",
+      "issuer": {
+        "name": "World Wide Web Consortium (W3C)",
+        "short": "W3C",
+        "kind": "standards_body",
+        "url": "https://www.w3.org/"
+      },
+      "act": "CSS Shadow Module Level 1 (Editor's Draft, 28 April 2026)",
+      "acts": [
+        "CSS Cascading and Inheritance Level 5",
+        "CSS Cascading and Inheritance Level 6",
+        "CSS Shadow Module Level 1",
+        "CSS Nesting Module Level 1",
+        "CSS Animations Level 1"
+      ],
+      "location": "§5.3 against §5.6.1 and §5.6.2",
+      "text": {
+        "en": {
+          "title": "CSS Shadow 1: the exportparts form “::ident : outerIdent” is rejected by the rules for parsing part mappings",
+          "summary": "§5.3 defines the exportparts form ::ident : outerIdent and example #example-b11a0a88 uses ::before : preceding-text. §5.6.1 collects the leading token from code points that are not spaces or colons and returns an error when it is empty; ::before starts with a colon, so the token is empty, and §5.6.2 drops the mapping. The form defined in §5.3 can never be produced by the parser.",
+          "impact": "exportparts=\"::before : preceding-text\" forwards nothing, so a ::part(preceding-text) rule in the outer document never matches.",
+          "correction": "Align the parsing rules of §5.6.1 with the pseudo-element form of §5.3, or remove the form and the example."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "CSS Shadow Module Level 1, Editor's Draft of 28 April 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§5.3 Forwarding a Shadow Element: the exportparts attribute",
+            "text": "If ::ident is the name of a fully styleable pseudo-element, adds ::ident / outerIdent to el’s forward part name list. Otherwise, does nothing.",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-shadow-1/",
+            "sha256": "c84bdd0453ff210fa95fb95b118d7a8d365f189ea8fab1ee7db791f199fe1db4",
+            "retrieved": "2026-10-30",
+            "copy": "sources/c84bdd0453ff210f-ed-css-shadow-1.html",
+            "copy_sha256": "c84bdd0453ff210fa95fb95b118d7a8d365f189ea8fab1ee7db791f199fe1db4",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "CSS Shadow Module Level 1, Editor's Draft of 28 April 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§5.6.1 Rules for parsing part mappings",
+            "text": "Collect a sequence of code points that are not space characters or U+003A COLON characters, and let first token be the result.",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-shadow-1/",
+            "sha256": "c84bdd0453ff210fa95fb95b118d7a8d365f189ea8fab1ee7db791f199fe1db4",
+            "retrieved": "2026-10-30",
+            "copy": "sources/c84bdd0453ff210f-ed-css-shadow-1.html",
+            "copy_sha256": "c84bdd0453ff210fa95fb95b118d7a8d365f189ea8fab1ee7db791f199fe1db4",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "CSS Shadow Module Level 1, Editor's Draft of 28 April 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§5.6.1 Rules for parsing part mappings",
+            "text": "If first token is empty then return error.",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-shadow-1/",
+            "sha256": "c84bdd0453ff210fa95fb95b118d7a8d365f189ea8fab1ee7db791f199fe1db4",
+            "retrieved": "2026-10-30",
+            "copy": "sources/c84bdd0453ff210f-ed-css-shadow-1.html",
+            "copy_sha256": "c84bdd0453ff210fa95fb95b118d7a8d365f189ea8fab1ee7db791f199fe1db4",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q4",
+            "source": "CSS Shadow Module Level 1, Editor's Draft of 28 April 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§5.6.2 Rules for parsing a list of part mappings",
+            "text": "If mapping is an error then continue to the next iteration of the loop.",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-shadow-1/",
+            "sha256": "c84bdd0453ff210fa95fb95b118d7a8d365f189ea8fab1ee7db791f199fe1db4",
+            "retrieved": "2026-10-30",
+            "copy": "sources/c84bdd0453ff210f-ed-css-shadow-1.html",
+            "copy_sha256": "c84bdd0453ff210fa95fb95b118d7a8d365f189ea8fab1ee7db791f199fe1db4",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:51:57Z",
+          "institution": "W3C CSS Working Group",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/w3c/csswg-drafts/issues/14702"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "W3C CSS Working Group",
+          "role": "maintains the specification"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the specifications and compared their sections. An AI coordinator checked the place against the full Editor's Draft and the Working Group's issue tracker, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T15:52:31+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to W3C CSS Working Group (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0338",
+      "url": "https://arxo.io/findings/ARXO-2026-0338/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "CSS Working Group",
+      "issuer": {
+        "name": "World Wide Web Consortium (W3C)",
+        "short": "W3C",
+        "kind": "standards_body",
+        "url": "https://www.w3.org/"
+      },
+      "act": "CSS Nesting Module Level 1 (Editor's Draft, 8 October 2026)",
+      "acts": [
+        "CSS Cascading and Inheritance Level 5",
+        "CSS Cascading and Inheritance Level 6",
+        "CSS Shadow Module Level 1",
+        "CSS Nesting Module Level 1",
+        "CSS Animations Level 1"
+      ],
+      "location": "§3.3, example #example-81212ace",
+      "text": {
+        "en": {
+          "title": "CSS Nesting 1: the two forms of “Example nesting Scoping” are called equivalent but set different properties",
+          "summary": "In example #example-81212ace of §3.3 the nested form sets border on :scope, while the form given as “equivalent to” sets only border-block-end. The scoping examples in §3.2 use border-block-end in both forms, so border here looks like a typo.",
+          "impact": "With no other styles, the nested form draws four borders on .card and the “equivalent” form draws one.",
+          "correction": "Use border-block-end: 1px solid white; in the nested form as well."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "CSS Nesting Module Level 1, Editor's Draft of 8 October 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§3.3 Nesting Other At-Rules, example #example-81212ace",
+            "text": "@scope (&) { :scope { border: 1px solid white; } }",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-nesting-1/",
+            "sha256": "82a526ba3c93c8ff23b8b3d22296e320a66884bdc1f12f55b2533e2d3b2d5555",
+            "retrieved": "2026-10-30",
+            "copy": "sources/82a526ba3c93c8ff-ed-css-nesting-1.html",
+            "copy_sha256": "82a526ba3c93c8ff23b8b3d22296e320a66884bdc1f12f55b2533e2d3b2d5555",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "CSS Nesting Module Level 1, Editor's Draft of 8 October 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§3.3 Nesting Other At-Rules, example #example-81212ace",
+            "text": "@scope (.card) { :scope { border-block-end: 1px solid white; } }",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-nesting-1/",
+            "sha256": "82a526ba3c93c8ff23b8b3d22296e320a66884bdc1f12f55b2533e2d3b2d5555",
+            "retrieved": "2026-10-30",
+            "copy": "sources/82a526ba3c93c8ff-ed-css-nesting-1.html",
+            "copy_sha256": "82a526ba3c93c8ff23b8b3d22296e320a66884bdc1f12f55b2533e2d3b2d5555",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T14:52:01Z",
+          "institution": "W3C CSS Working Group",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/w3c/csswg-drafts/issues/14704"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "W3C CSS Working Group",
+          "role": "maintains the specification"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the specifications and compared their sections; the example was also run through executable rules of both readings. An AI coordinator checked the place against the full Editor's Draft and the Working Group's issue tracker, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T15:52:31+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to W3C CSS Working Group (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0339",
+      "url": "https://arxo.io/findings/ARXO-2026-0339/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "CSS Working Group",
+      "issuer": {
+        "name": "World Wide Web Consortium (W3C)",
+        "short": "W3C",
+        "kind": "standards_body",
+        "url": "https://www.w3.org/"
+      },
+      "act": "CSS Animations Level 1 (Editor's Draft, 13 September 2026)",
+      "acts": [
+        "CSS Cascading and Inheritance Level 5",
+        "CSS Cascading and Inheritance Level 6",
+        "CSS Shadow Module Level 1",
+        "CSS Nesting Module Level 1",
+        "CSS Animations Level 1"
+      ],
+      "location": "§3, against CSS Cascade 5 §6.4",
+      "text": {
+        "en": {
+          "title": "CSS Animations 1: “the last one in document order wins” for same-name @keyframes does not account for cascade layers",
+          "summary": "CSS Animations 1 §3 says that of several @keyframes with the same name the last one in document order wins. CSS Cascade 5 §6.4 says @keyframes inside cascade layers use the layer order to resolve collisions, as the Working Group resolved in issue 6404 in 2021. The sentence in CSS Animations 1 was not updated.",
+          "impact": "Cascade 5's own example #example-14540e6d: by Cascade 5 the sidebar animates translate from the override layer; by CSS Animations 1 it animates margin-left from the framework layer, which comes later in the document.",
+          "correction": "Let CSS Animations 1 §3 defer to the layer order and keep document order within one layer."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "CSS Animations Level 1, Editor's Draft of 13 September 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§3 Declaring Keyframes",
+            "text": "If multiple @keyframes rules are defined with the same name, the last one in document order wins, and all preceding ones are ignored.",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-animations-1/",
+            "sha256": "a558664f18fc69e909978b802a2cbf5a865897f2eb1f1c02bed6b2845642dfff",
+            "retrieved": "2026-10-30",
+            "copy": "sources/a558664f18fc69e9-ed-css-animations-1.html",
+            "copy_sha256": "a558664f18fc69e909978b802a2cbf5a865897f2eb1f1c02bed6b2845642dfff",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "CSS Cascading and Inheritance Level 5, Editor's Draft of 13 April 2026 (W3C CSS Working Group)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Editor's Draft",
+            "locator": "§6.4 Cascade Layers",
+            "text": "At-rules (such as @keyframes, @font-face, @page, etc.) that are defined inside cascade layers also use the layer order when resolving collisions or cascading.",
+            "translations": {},
+            "url": "https://drafts.csswg.org/css-cascade-5/",
+            "sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+            "retrieved": "2026-10-30",
+            "copy": "sources/2c51fc71d5bfec21-ed-css-cascade-5.html",
+            "copy_sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T12:51:54Z",
+          "institution": "W3C CSS Working Group",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/w3c/csswg-drafts/issues/14700"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "W3C CSS Working Group",
+          "role": "maintains the specification"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the specifications and compared their sections; the example was also run through executable rules of both readings. An AI coordinator checked the place against the full Editor's Draft and the Working Group's issue tracker, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T15:52:31+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to W3C CSS Working Group (public issue tracker)"
         }
       ]
     },

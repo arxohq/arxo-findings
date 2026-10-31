@@ -1,0 +1,144 @@
+{
+  "id": "ARXO-2026-0336",
+  "url": "https://arxo.io/findings/ARXO-2026-0336/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "CSS Working Group",
+  "issuer": {
+    "name": "World Wide Web Consortium (W3C)",
+    "short": "W3C",
+    "kind": "standards_body",
+    "url": "https://www.w3.org/"
+  },
+  "act": "CSS Cascading and Inheritance Level 5 (Editor's Draft, 13 April 2026)",
+  "acts": [
+    "CSS Cascading and Inheritance Level 5",
+    "CSS Cascading and Inheritance Level 6",
+    "CSS Shadow Module Level 1",
+    "CSS Nesting Module Level 1",
+    "CSS Animations Level 1"
+  ],
+  "location": "§7.3.6, read with §6.1",
+  "text": {
+    "en": {
+      "title": "CSS Cascade 5: what does revert-rule roll back in a style attribute?",
+      "summary": "§7.3.6 rolls revert-rule back “as if the current style rule had not been present”. §6.1 separates declarations in a style attribute from style rules, and §7.3.6 has a sentence for the animation origin but none for the style attribute. The same question for revert-layer was settled in issue 6743 with a dedicated sentence in §7.3.5. Browsers already agree on normal declarations: the web-platform-tests case for a style attribute passes in Chrome, Edge, Firefox and Safari with the 5px result (stable runs of 31 October 2026); no test covers !important.",
+      "impact": "div { border-radius: 5px } and <div style=\"border-radius: 2px; border-radius: revert-rule\">: if the whole attribute counts as the current rule the result is 5px; if only the declaration with revert-rule is removed it is 2px.",
+      "correction": "Extend the §7.3.6 sentence “behaves like revert-layer in the animation origin” to element-attached styles, which matches the browser tests and brings in the §7.3.5 rule for important declarations."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "CSS Cascading and Inheritance Level 5, Editor's Draft of 13 April 2026 (W3C CSS Working Group)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Editor's Draft",
+        "locator": "§7.3.6 Rolling Back Rules: the revert-rule keyword",
+        "text": "If the cascaded value of a property is the revert-rule keyword, the cascaded value is rolled back such that the specified value is calculated as if the current style rule had not been present at all.",
+        "translations": {},
+        "url": "https://drafts.csswg.org/css-cascade-5/",
+        "sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+        "retrieved": "2026-10-30",
+        "copy": "sources/2c51fc71d5bfec21-ed-css-cascade-5.html",
+        "copy_sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "CSS Cascading and Inheritance Level 5, Editor's Draft of 13 April 2026 (W3C CSS Working Group)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Editor's Draft",
+        "locator": "§6.1 Cascade Sorting Order, Element-Attached Styles",
+        "text": "declarations that are attached directly to an element (such as the contents of a style attribute) rather than indirectly mapped by means of a style rule selector",
+        "translations": {},
+        "url": "https://drafts.csswg.org/css-cascade-5/",
+        "sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+        "retrieved": "2026-10-30",
+        "copy": "sources/2c51fc71d5bfec21-ed-css-cascade-5.html",
+        "copy_sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "CSS Cascading and Inheritance Level 5, Editor's Draft of 13 April 2026 (W3C CSS Working Group)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Editor's Draft",
+        "locator": "§7.3.6 Rolling Back Rules: the revert-rule keyword",
+        "text": "The revert-rule keyword behaves like revert-layer in the animation origin.",
+        "translations": {},
+        "url": "https://drafts.csswg.org/css-cascade-5/",
+        "sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+        "retrieved": "2026-10-30",
+        "copy": "sources/2c51fc71d5bfec21-ed-css-cascade-5.html",
+        "copy_sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:21:56Z",
+      "institution": "W3C CSS Working Group",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/w3c/csswg-drafts/issues/14701"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "W3C CSS Working Group",
+      "role": "maintains the specification"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the specifications and compared their sections; the example was also run through executable rules of both readings. An AI coordinator checked the place against the full Editor's Draft and the Working Group's issue tracker, and two further AI models checked the report before filing."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T15:52:31+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to W3C CSS Working Group (public issue tracker)"
+    }
+  ]
+}

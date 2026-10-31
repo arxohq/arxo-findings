@@ -1,0 +1,128 @@
+{
+  "id": "ARXO-2026-0338",
+  "url": "https://arxo.io/findings/ARXO-2026-0338/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "CSS Working Group",
+  "issuer": {
+    "name": "World Wide Web Consortium (W3C)",
+    "short": "W3C",
+    "kind": "standards_body",
+    "url": "https://www.w3.org/"
+  },
+  "act": "CSS Nesting Module Level 1 (Editor's Draft, 8 October 2026)",
+  "acts": [
+    "CSS Cascading and Inheritance Level 5",
+    "CSS Cascading and Inheritance Level 6",
+    "CSS Shadow Module Level 1",
+    "CSS Nesting Module Level 1",
+    "CSS Animations Level 1"
+  ],
+  "location": "§3.3, example #example-81212ace",
+  "text": {
+    "en": {
+      "title": "CSS Nesting 1: the two forms of “Example nesting Scoping” are called equivalent but set different properties",
+      "summary": "In example #example-81212ace of §3.3 the nested form sets border on :scope, while the form given as “equivalent to” sets only border-block-end. The scoping examples in §3.2 use border-block-end in both forms, so border here looks like a typo.",
+      "impact": "With no other styles, the nested form draws four borders on .card and the “equivalent” form draws one.",
+      "correction": "Use border-block-end: 1px solid white; in the nested form as well."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "CSS Nesting Module Level 1, Editor's Draft of 8 October 2026 (W3C CSS Working Group)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Editor's Draft",
+        "locator": "§3.3 Nesting Other At-Rules, example #example-81212ace",
+        "text": "@scope (&) { :scope { border: 1px solid white; } }",
+        "translations": {},
+        "url": "https://drafts.csswg.org/css-nesting-1/",
+        "sha256": "82a526ba3c93c8ff23b8b3d22296e320a66884bdc1f12f55b2533e2d3b2d5555",
+        "retrieved": "2026-10-30",
+        "copy": "sources/82a526ba3c93c8ff-ed-css-nesting-1.html",
+        "copy_sha256": "82a526ba3c93c8ff23b8b3d22296e320a66884bdc1f12f55b2533e2d3b2d5555",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "CSS Nesting Module Level 1, Editor's Draft of 8 October 2026 (W3C CSS Working Group)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Editor's Draft",
+        "locator": "§3.3 Nesting Other At-Rules, example #example-81212ace",
+        "text": "@scope (.card) { :scope { border-block-end: 1px solid white; } }",
+        "translations": {},
+        "url": "https://drafts.csswg.org/css-nesting-1/",
+        "sha256": "82a526ba3c93c8ff23b8b3d22296e320a66884bdc1f12f55b2533e2d3b2d5555",
+        "retrieved": "2026-10-30",
+        "copy": "sources/82a526ba3c93c8ff-ed-css-nesting-1.html",
+        "copy_sha256": "82a526ba3c93c8ff23b8b3d22296e320a66884bdc1f12f55b2533e2d3b2d5555",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T14:52:01Z",
+      "institution": "W3C CSS Working Group",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/w3c/csswg-drafts/issues/14704"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "W3C CSS Working Group",
+      "role": "maintains the specification"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the specifications and compared their sections; the example was also run through executable rules of both readings. An AI coordinator checked the place against the full Editor's Draft and the Working Group's issue tracker, and two further AI models checked the report before filing."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T15:52:31+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to W3C CSS Working Group (public issue tracker)"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "ARXO-2026-0337",
+  "url": "https://arxo.io/findings/ARXO-2026-0337/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "CSS Working Group",
+  "issuer": {
+    "name": "World Wide Web Consortium (W3C)",
+    "short": "W3C",
+    "kind": "standards_body",
+    "url": "https://www.w3.org/"
+  },
+  "act": "CSS Shadow Module Level 1 (Editor's Draft, 28 April 2026)",
+  "acts": [
+    "CSS Cascading and Inheritance Level 5",
+    "CSS Cascading and Inheritance Level 6",
+    "CSS Shadow Module Level 1",
+    "CSS Nesting Module Level 1",
+    "CSS Animations Level 1"
+  ],
+  "location": "§5.3 against §5.6.1 and §5.6.2",
+  "text": {
+    "en": {
+      "title": "CSS Shadow 1: the exportparts form “::ident : outerIdent” is rejected by the rules for parsing part mappings",
+      "summary": "§5.3 defines the exportparts form ::ident : outerIdent and example #example-b11a0a88 uses ::before : preceding-text. §5.6.1 collects the leading token from code points that are not spaces or colons and returns an error when it is empty; ::before starts with a colon, so the token is empty, and §5.6.2 drops the mapping. The form defined in §5.3 can never be produced by the parser.",
+      "impact": "exportparts=\"::before : preceding-text\" forwards nothing, so a ::part(preceding-text) rule in the outer document never matches.",
+      "correction": "Align the parsing rules of §5.6.1 with the pseudo-element form of §5.3, or remove the form and the example."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "CSS Shadow Module Level 1, Editor's Draft of 28 April 2026 (W3C CSS Working Group)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Editor's Draft",
+        "locator": "§5.3 Forwarding a Shadow Element: the exportparts attribute",
+        "text": "If ::ident is the name of a fully styleable pseudo-element, adds ::ident / outerIdent to el’s forward part name list. Otherwise, does nothing.",
+        "translations": {},
+        "url": "https://drafts.csswg.org/css-shadow-1/",
+        "sha256": "c84bdd0453ff210fa95fb95b118d7a8d365f189ea8fab1ee7db791f199fe1db4",
+        "retrieved": "2026-10-30",
+        "copy": "sources/c84bdd0453ff210f-ed-css-shadow-1.html",
+        "copy_sha256": "c84bdd0453ff210fa95fb95b118d7a8d365f189ea8fab1ee7db791f199fe1db4",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "CSS Shadow Module Level 1, Editor's Draft of 28 April 2026 (W3C CSS Working Group)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Editor's Draft",
+        "locator": "§5.6.1 Rules for parsing part mappings",
+        "text": "Collect a sequence of code points that are not space characters or U+003A COLON characters, and let first token be the result.",
+        "translations": {},
+        "url": "https://drafts.csswg.org/css-shadow-1/",
+        "sha256": "c84bdd0453ff210fa95fb95b118d7a8d365f189ea8fab1ee7db791f199fe1db4",
+        "retrieved": "2026-10-30",
+        "copy": "sources/c84bdd0453ff210f-ed-css-shadow-1.html",
+        "copy_sha256": "c84bdd0453ff210fa95fb95b118d7a8d365f189ea8fab1ee7db791f199fe1db4",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "CSS Shadow Module Level 1, Editor's Draft of 28 April 2026 (W3C CSS Working Group)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Editor's Draft",
+        "locator": "§5.6.1 Rules for parsing part mappings",
+        "text": "If first token is empty then return error.",
+        "translations": {},
+        "url": "https://drafts.csswg.org/css-shadow-1/",
+        "sha256": "c84bdd0453ff210fa95fb95b118d7a8d365f189ea8fab1ee7db791f199fe1db4",
+        "retrieved": "2026-10-30",
+        "copy": "sources/c84bdd0453ff210f-ed-css-shadow-1.html",
+        "copy_sha256": "c84bdd0453ff210fa95fb95b118d7a8d365f189ea8fab1ee7db791f199fe1db4",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q4",
+        "source": "CSS Shadow Module Level 1, Editor's Draft of 28 April 2026 (W3C CSS Working Group)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Editor's Draft",
+        "locator": "§5.6.2 Rules for parsing a list of part mappings",
+        "text": "If mapping is an error then continue to the next iteration of the loop.",
+        "translations": {},
+        "url": "https://drafts.csswg.org/css-shadow-1/",
+        "sha256": "c84bdd0453ff210fa95fb95b118d7a8d365f189ea8fab1ee7db791f199fe1db4",
+        "retrieved": "2026-10-30",
+        "copy": "sources/c84bdd0453ff210f-ed-css-shadow-1.html",
+        "copy_sha256": "c84bdd0453ff210fa95fb95b118d7a8d365f189ea8fab1ee7db791f199fe1db4",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:51:57Z",
+      "institution": "W3C CSS Working Group",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/w3c/csswg-drafts/issues/14702"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "W3C CSS Working Group",
+      "role": "maintains the specification"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the specifications and compared their sections. An AI coordinator checked the place against the full Editor's Draft and the Working Group's issue tracker, and two further AI models checked the report before filing."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T15:52:31+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to W3C CSS Working Group (public issue tracker)"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "ARXO-2026-0335",
+  "url": "https://arxo.io/findings/ARXO-2026-0335/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "CSS Working Group",
+  "issuer": {
+    "name": "World Wide Web Consortium (W3C)",
+    "short": "W3C",
+    "kind": "standards_body",
+    "url": "https://www.w3.org/"
+  },
+  "act": "CSS Cascading and Inheritance Level 5 (Editor's Draft, 13 April 2026)",
+  "acts": [
+    "CSS Cascading and Inheritance Level 5",
+    "CSS Cascading and Inheritance Level 6",
+    "CSS Shadow Module Level 1",
+    "CSS Nesting Module Level 1",
+    "CSS Animations Level 1"
+  ],
+  "location": "§6.4.3, example #example-87e2d331",
+  "text": {
+    "en": {
+      "title": "CSS Cascade 5: the Layer Ordering example gives two different orders when both media queries match",
+      "summary": "Example #example-87e2d331 in §6.4.3 says that when the width query matches, layout comes first, and that when the colour-scheme query matches, theme comes first. When both match, the two sentences give different orders. The rule of §6.4.3 (layers sort by first declaration) gives layout first; only the second sentence is wrong. The 2022 snapshot of the specification (13 January 2022) has the same example.",
+      "impact": "A wide viewport with a dark colour-scheme preference and the same property in both layers: by the rule the later layer, theme, wins; by the second sentence of the example layout wins.",
+      "correction": "Make the second sentence apply only when the width query does not match: “Otherwise, theme will come first in the layer order.”"
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "CSS Cascading and Inheritance Level 5, Editor's Draft of 13 April 2026 (W3C CSS Working Group)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Editor's Draft",
+        "locator": "§6.4.3 Layer Ordering",
+        "text": "Cascade layers are sorted by the order in which they first are declared, with nested layers grouped within their parent layer.",
+        "translations": {},
+        "url": "https://drafts.csswg.org/css-cascade-5/",
+        "sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+        "retrieved": "2026-10-30",
+        "copy": "sources/2c51fc71d5bfec21-ed-css-cascade-5.html",
+        "copy_sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "CSS Cascading and Inheritance Level 5, Editor's Draft of 13 April 2026 (W3C CSS Working Group)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Editor's Draft",
+        "locator": "§6.4.3 Layer Ordering, example #example-87e2d331",
+        "text": "If the first media-query matches based on viewport dimensions, then the layout layer will come first in the layer order.",
+        "translations": {},
+        "url": "https://drafts.csswg.org/css-cascade-5/",
+        "sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+        "retrieved": "2026-10-30",
+        "copy": "sources/2c51fc71d5bfec21-ed-css-cascade-5.html",
+        "copy_sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "CSS Cascading and Inheritance Level 5, Editor's Draft of 13 April 2026 (W3C CSS Working Group)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Editor's Draft",
+        "locator": "§6.4.3 Layer Ordering, example #example-87e2d331",
+        "text": "If the color-scheme preference query matches, or if neither condition is true, then theme will come first in the layer order.",
+        "translations": {},
+        "url": "https://drafts.csswg.org/css-cascade-5/",
+        "sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+        "retrieved": "2026-10-30",
+        "copy": "sources/2c51fc71d5bfec21-ed-css-cascade-5.html",
+        "copy_sha256": "2c51fc71d5bfec21aee9acf5004344fc0b5197db31fc48a1ae5373f3fbc4670f",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T14:21:59Z",
+      "institution": "W3C CSS Working Group",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/w3c/csswg-drafts/issues/14703"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "W3C CSS Working Group",
+      "role": "maintains the specification"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the specifications and compared their sections; the example was also run through executable rules of both readings. An AI coordinator checked the place against the full Editor's Draft and the Working Group's issue tracker, and two further AI models checked the report before filing."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T15:52:31+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to W3C CSS Working Group (public issue tracker)"
+    }
+  ]
+}

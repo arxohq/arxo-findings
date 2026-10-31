@@ -1,0 +1,144 @@
+{
+  "id": "ARXO-2026-0332",
+  "url": "https://arxo.io/findings/ARXO-2026-0332/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "CSS Working Group",
+  "issuer": {
+    "name": "World Wide Web Consortium (W3C)",
+    "short": "W3C",
+    "kind": "standards_body",
+    "url": "https://www.w3.org/"
+  },
+  "act": "CSS Cascading and Inheritance Level 6 (Editor's Draft, 28 April 2026)",
+  "acts": [
+    "CSS Cascading and Inheritance Level 5",
+    "CSS Cascading and Inheritance Level 6",
+    "CSS Shadow Module Level 1",
+    "CSS Nesting Module Level 1",
+    "CSS Animations Level 1"
+  ],
+  "location": "§3.5.1 against §3.1",
+  "text": {
+    "en": {
+      "title": "CSS Cascade 6: §3.5.1 says scope proximity wins regardless of specificity, while §3.1 compares specificity first",
+      "summary": "§3.5.1 of the Editor's Draft says the cascade prefers the more proximate scoping root “regardless of specificity”. §3.1 lists Specificity before Scope Proximity, and the changes list records “Removed strong scope proximity” after the Working Group resolved in issue 6790 that proximity is weaker than specificity. The §3.5.1 sentence still describes the old rule; the Working Draft of 6 September 2024 has the same sentence.",
+      "impact": "#page img { border-radius: 0 } (specificity 1,0,1) against @scope (#hero) { img { border-radius: 50% } } (0,0,1) for an image inside #hero: by §3.1 the radius is 0, by the §3.5.1 sentence it is 50%.",
+      "correction": "Reword the §3.5.1 sentence to match §3.1: proximity decides only when all earlier cascade criteria tie."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "CSS Cascading and Inheritance Level 6, Editor's Draft of 28 April 2026 (W3C CSS Working Group)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Editor's Draft",
+        "locator": "§3.5.1 Effects of @scope",
+        "text": "The cascade prioritizes declarations with a more proximate scoping root, regardless of specificity or order of appearance by applying scope proximity between the scoping root and the subject of each scoped style rule.",
+        "translations": {},
+        "url": "https://drafts.csswg.org/css-cascade-6/",
+        "sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+        "retrieved": "2026-10-30",
+        "copy": "sources/6d3da5b4b2077a16-ed-css-cascade-6.html",
+        "copy_sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "CSS Cascading and Inheritance Level 6, Editor's Draft of 28 April 2026 (W3C CSS Working Group)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Editor's Draft",
+        "locator": "§3.1 Cascade Sorting Order, Specificity",
+        "text": "When comparing declarations from two style rules, the declaration belonging to the style rule with the highest specificity wins.",
+        "translations": {},
+        "url": "https://drafts.csswg.org/css-cascade-6/",
+        "sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+        "retrieved": "2026-10-30",
+        "copy": "sources/6d3da5b4b2077a16-ed-css-cascade-6.html",
+        "copy_sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "CSS Cascading and Inheritance Level 6, Editor's Draft of 28 April 2026 (W3C CSS Working Group)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Editor's Draft",
+        "locator": "§5.1 Changes since the Working Draft",
+        "text": "Removed strong scope proximity. (Issue 6790)",
+        "translations": {},
+        "url": "https://drafts.csswg.org/css-cascade-6/",
+        "sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+        "retrieved": "2026-10-30",
+        "copy": "sources/6d3da5b4b2077a16-ed-css-cascade-6.html",
+        "copy_sha256": "6d3da5b4b2077a16b70b1fc38967bca88c41f1f9fd85aba223e4ae2525953e3c",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:20:56Z",
+      "institution": "W3C CSS Working Group",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/w3c/csswg-drafts/issues/14699"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "W3C CSS Working Group",
+      "role": "maintains the specification"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the specifications and compared their sections; the example was also run through executable rules of both readings. An AI coordinator checked the place against the full Editor's Draft and the Working Group's issue tracker, and two further AI models checked the report before filing."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T15:52:31+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to W3C CSS Working Group (public issue tracker)"
+    }
+  ]
+}
