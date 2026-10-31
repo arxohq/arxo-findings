@@ -5,9 +5,89 @@
   <link rel="alternate" href="https://arxo.io/findings/"/>
   <link rel="self" href="https://arxo.io/findings/feed.atom"/>
   <id>https://arxo.io/findings/</id>
-  <updated>2026-10-31T13:20:34+00:00</updated>
+  <updated>2026-10-31T13:56:33+00:00</updated>
   <author><name>Arxo Law</name></author>
   <rights>Data: CC BY 4.0, Arxo Law</rights>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0454/</id>
+    <title>ARXO-2026-0454 — Rome II on EUR-Lex: the XHTML text lacks two of the three Commission statements printed in the Official Journal</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0454/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The Official Journal prints three Commission statements after Rome II: on the review clause, on road accidents and on the treatment of foreign law. The English and French PDFs contain all three. The XHTML manifestations in Cellar contain only the statement on the review clause in 23 languages; the Croatian XHTML contains all three.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0453/</id>
+    <title>ARXO-2026-0453 — Rome II: which event must a choice of law follow under Article 14(1)(a) when several events give rise to the damage?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0453/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Article 14(1)(a) allows a choice by an agreement entered into after the event giving rise to the damage. Where several events give rise to the damage, for example a first act in one country and a final act in another, and the parties are not all pursuing a commercial activity, the text does not say which event the agreement must follow.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0452/</id>
+    <title>ARXO-2026-0452 — Rome II: at what time is foreseeability assessed under Article 5(1), second subparagraph?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0452/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The law of the habitual residence of the person claimed to be liable applies if that person could not reasonably foresee the marketing of the product. The text does not say whether foreseeability is assessed when the product was put on the market, when it was marketed in that country, or when the damage occurred.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0451/</id>
+    <title>ARXO-2026-0451 — Rome I: where is a service supplied at a distance, for Article 6(4)(a)?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0451/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Article 6(4)(a) takes out of the consumer rules services to be supplied to the consumer exclusively in a country other than that of his habitual residence. For a service supplied at a distance, for example online advice used by the consumer at home, the text does not say where the service is supplied.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0450/</id>
+    <title>ARXO-2026-0450 — Rome I: which Member State prevails when two Member States impose conflicting compulsory insurance on the same risk?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0450/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Point (a) of Article 7(4) gives priority to the law of the Member State imposing the obligation to take out insurance, and point (b) lets each such State require the contract to be governed by its law. The two points do not say which of two such States prevails when their rules conflict.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0437/</id>
+    <title>ARXO-2026-0437 — Rome II, Croatian version: Articles 5(1) and 9 refer to Article 42(2), and Rome II has 32 articles</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0437/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The other versions of Article 5(1) (product liability) and Article 9 (industrial action) begin without prejudice to Article 4(2), the rule on common habitual residence. The Croatian text refers to Article 42(2). There is no Croatian corrigendum to Rome II.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0435/</id>
+    <title>ARXO-2026-0435 — Rome I, Danish version: Article 7(3) refers to paragraph 3 instead of Article 3, so the paragraph refers to itself</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0435/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The other versions say that the parties may choose one of the listed laws in accordance with Article 3 (freedom of choice). The Danish text says in accordance with paragraph 3, the paragraph in which the words stand.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0433/</id>
+    <title>ARXO-2026-0433 — Rome I, Maltese version: Article 8(4) refers to paragraph 2 or 2a, and there is no paragraph 2a</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0433/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The other versions of the escape clause for employment contracts refer to paragraphs 2 or 3. Article 8 has no paragraph 2a.</summary>
+  </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0429/</id>
     <title>ARXO-2026-0429 — AI Act: which evaluation satisfies Article 82(1) when a compliant system presents only a risk to another public interest?</title>

@@ -1,0 +1,145 @@
+{
+  "id": "ARXO-2026-0437",
+  "url": "https://arxo.io/findings/ARXO-2026-0437/",
+  "record_kind": "discrepancy",
+  "class": "language_versions",
+  "class_label": "Language versions",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 864/2007 (Rome II)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 5(1) and Article 9, Croatian version",
+  "text": {
+    "en": {
+      "title": "Rome II, Croatian version: Articles 5(1) and 9 refer to Article 42(2), and Rome II has 32 articles",
+      "summary": "The other versions of Article 5(1) (product liability) and Article 9 (industrial action) begin without prejudice to Article 4(2), the rule on common habitual residence. The Croatian text refers to Article 42(2). There is no Croatian corrigendum to Rome II.",
+      "impact": "In the Croatian text, the priority of the common habitual residence of the parties in product liability and industrial action cases is referred to an article that does not exist.",
+      "correction": "Replace 42. with 4. in Croatian Article 5(1) and Article 9.",
+      "quote_translations": {
+        "q1": "Without prejudice to Article 42(2)"
+      }
+    },
+    "hr": {
+      "title": "Rim II, hrvatska verzija: članak 5. stavak 1. i članak 9. upućuju na članak 42. stavak 2., a Rim II ima 32 članka",
+      "summary": "Ostale jezične verzije članka 5. stavka 1. (odgovornost za proizvode) i članka 9. (industrijska akcija) počinju upućivanjem koje znači „ne dovodeći u pitanje članak 4. stavak 2.”, odnosno pravilo prema kojem se primjenjuje pravo države u kojoj obje stranke imaju uobičajeno boravište. Hrvatski tekst upućuje na članak 42. stavak 2. Za hrvatsku verziju Rima II nije objavljen ispravak.",
+      "impact": "U hrvatskom tekstu, u predmetima odgovornosti za proizvode i industrijske akcije, prednost prava države u kojoj obje stranke imaju uobičajeno boravište izražena je upućivanjem na članak koji ne postoji.",
+      "correction": "U hrvatskoj verziji članka 5. stavka 1. i članka 9. zamijeniti „42.” s „4.”."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A language version",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Croatian version",
+        "role": "Language version",
+        "language": "hr",
+        "edition": "published",
+        "locator": "Article 5(1) (Croatian)",
+        "text": "Ne dovodeći u pitanje članak 42. stavak 2.",
+        "translations": {
+          "en": "Without prejudice to Article 42(2)"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:32007R0864",
+        "sha256": "658dff9208be23eac15914a531d271ad8387d090233f88afe9e5423ddb7686f8",
+        "retrieved": "2026-10-31",
+        "copy": "sources/658dff9208be23ea-hrv.xhtml",
+        "copy_sha256": "658dff9208be23eac15914a531d271ad8387d090233f88afe9e5423ddb7686f8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 5(1) (English)",
+        "text": "Without prejudice to Article 4(2)",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32007R0864",
+        "sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/488bfcf5bcbcb4e1-eng.xhtml",
+        "copy_sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:12:59Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:12:56Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:56:33+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

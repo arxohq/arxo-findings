@@ -1,0 +1,119 @@
+{
+  "id": "ARXO-2026-0454",
+  "url": "https://arxo.io/findings/ARXO-2026-0454/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 864/2007 (Rome II)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Commission statements published with the Regulation",
+  "text": {
+    "en": {
+      "title": "Rome II on EUR-Lex: the XHTML text lacks two of the three Commission statements printed in the Official Journal",
+      "summary": "The Official Journal prints three Commission statements after Rome II: on the review clause, on road accidents and on the treatment of foreign law. The English and French PDFs contain all three. The XHTML manifestations in Cellar contain only the statement on the review clause in 23 languages; the Croatian XHTML contains all three.",
+      "impact": "The statements are not part of the Regulation, but readers who use the XHTML do not see two of them.",
+      "correction": "Complete the XHTML manifestations of CELEX 32007R0864."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Documented search",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal PDF, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Commission statements, OJ L 199, p. 49 (English)",
+        "text": "Commission Statement on road accidents",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007R0864",
+        "sha256": "63dc4cc014bdb2b9f34e3fd0efd999432810ebe719ad6b9d9e87d3bbfc45d954",
+        "retrieved": "2026-10-31",
+        "copy": "sources/63dc4cc014bdb2b9-32007R0864-eng.pdf",
+        "copy_sha256": "63dc4cc014bdb2b9f34e3fd0efd999432810ebe719ad6b9d9e87d3bbfc45d954",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal PDF, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Commission statements, OJ L 199, p. 49 (English)",
+        "text": "Commission Statement on the treatment of foreign law",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007R0864",
+        "sha256": "63dc4cc014bdb2b9f34e3fd0efd999432810ebe719ad6b9d9e87d3bbfc45d954",
+        "retrieved": "2026-10-31",
+        "copy": "sources/63dc4cc014bdb2b9-32007R0864-eng.pdf",
+        "copy_sha256": "63dc4cc014bdb2b9f34e3fd0efd999432810ebe719ad6b9d9e87d3bbfc45d954",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:13:01Z",
+      "institution": "Publications Office of the European Union",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73oH5-LVk+ypBgz11rr8e=c7SorL3v1rhoU2hKJeEcfWg@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Publications Office of the European Union",
+      "role": "publishes the Official Journal and the EUR-Lex and Cellar manifestations"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:56:33+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Publications Office of the European Union (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "ARXO-2026-0433",
+  "url": "https://arxo.io/findings/ARXO-2026-0433/",
+  "record_kind": "discrepancy",
+  "class": "language_versions",
+  "class_label": "Language versions",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 593/2008 (Rome I)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 8(4), Maltese version",
+  "text": {
+    "en": {
+      "title": "Rome I, Maltese version: Article 8(4) refers to paragraph 2 or 2a, and there is no paragraph 2a",
+      "summary": "The other versions of the escape clause for employment contracts refer to paragraphs 2 or 3. Article 8 has no paragraph 2a.",
+      "impact": "In the Maltese text the comparison with a more closely connected country leaves out the country of paragraph 3 (the place of business that engaged the employee) and names a paragraph that does not exist.",
+      "correction": "Replace 2a with 3 in Maltese Article 8(4).",
+      "quote_translations": {
+        "q1": "in paragraph 2 or 2a"
+      }
+    },
+    "mt": {
+      "title": "Ruma I, verżjoni Maltija: l-Artikolu 8(4) jirreferi għall-paragrafu 2 jew 2a, u m'hemmx paragrafu 2a",
+      "summary": "Il-verżjonijiet l-oħra tal-klawżola liberatorja għall-kuntratti ta' impjieg jirreferu għall-paragrafi 2 jew 3. L-Artikolu 8 m'għandux paragrafu 2a.",
+      "impact": "Fit-test Malti, it-tqabbil ma' pajjiż li miegħu l-kuntratt ikun aktar marbut iħalli barra l-pajjiż indikat fil-paragrafu 3 (fejn ikun jinsab in-negozju li fih ġie impjegat l-impjegat) u jsemmi paragrafu li ma jeżistix.",
+      "correction": "Fl-Artikolu 8(4) tal-verżjoni Maltija, 2a jinbidel b'3."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A language version",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Maltese version",
+        "role": "Language version",
+        "language": "mt",
+        "edition": "published",
+        "locator": "Article 8(4) (Maltese)",
+        "text": "fil-paragrafu 2 jew 2a",
+        "translations": {
+          "en": "in paragraph 2 or 2a"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/MT/TXT/?uri=CELEX:32008R0593",
+        "sha256": "80cad6b6f98e7f5cbcf4665d78e43d56a5352c1d96a546dfaa7f714600a903b6",
+        "retrieved": "2026-10-31",
+        "copy": "sources/80cad6b6f98e7f5c-mlt.xhtml",
+        "copy_sha256": "80cad6b6f98e7f5cbcf4665d78e43d56a5352c1d96a546dfaa7f714600a903b6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 8(4) (English)",
+        "text": "other than that indicated in paragraphs 2 or 3",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0593",
+        "sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+        "retrieved": "2026-10-31",
+        "copy": "sources/2f33c017cfb9fac3-eng.xhtml",
+        "copy_sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:12:59Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:12:56Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:56:33+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

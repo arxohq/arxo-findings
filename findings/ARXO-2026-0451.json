@@ -1,0 +1,103 @@
+{
+  "id": "ARXO-2026-0451",
+  "url": "https://arxo.io/findings/ARXO-2026-0451/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 593/2008 (Rome I)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 6(4)(a)",
+  "text": {
+    "en": {
+      "title": "Rome I: where is a service supplied at a distance, for Article 6(4)(a)?",
+      "summary": "Article 6(4)(a) takes out of the consumer rules services to be supplied to the consumer exclusively in a country other than that of his habitual residence. For a service supplied at a distance, for example online advice used by the consumer at home, the text does not say where the service is supplied.",
+      "impact": "The same online service can fall inside or outside the consumer protection of Article 6.",
+      "correction": "The Commission's work on the application of the Regulation could say where such a service is supplied."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Documented search",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 6(4)(a) (English)",
+        "text": "to be supplied to the consumer exclusively in a country other than that in which he has his habitual residence",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0593",
+        "sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+        "retrieved": "2026-10-31",
+        "copy": "sources/2f33c017cfb9fac3-eng.xhtml",
+        "copy_sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:13:03Z",
+      "institution": "European Commission, Directorate-General for Justice and Consumers",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73FPWyY77P16Om9s08YQiSriGYUrqqu8ceX8LXKh_Q5CA@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "European Commission, Directorate-General for Justice and Consumers",
+      "role": "responsible for the application and review of the two Regulations"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:56:33+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Commission, Directorate-General for Justice and Consumers (e-mail)"
+    }
+  ]
+}

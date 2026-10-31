@@ -1,0 +1,145 @@
+{
+  "id": "ARXO-2026-0435",
+  "url": "https://arxo.io/findings/ARXO-2026-0435/",
+  "record_kind": "discrepancy",
+  "class": "language_versions",
+  "class_label": "Language versions",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 593/2008 (Rome I)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 7(3), first subparagraph, Danish version",
+  "text": {
+    "en": {
+      "title": "Rome I, Danish version: Article 7(3) refers to paragraph 3 instead of Article 3, so the paragraph refers to itself",
+      "summary": "The other versions say that the parties may choose one of the listed laws in accordance with Article 3 (freedom of choice). The Danish text says in accordance with paragraph 3, the paragraph in which the words stand.",
+      "impact": "For a choice of law in an insurance contract covering a mass risk, the Danish text does not send the reader to the general rules on how a choice is made.",
+      "correction": "Replace stk. 3 with artikel 3 in Danish Article 7(3), first subparagraph.",
+      "quote_translations": {
+        "q1": "in accordance with paragraph 3"
+      }
+    },
+    "da": {
+      "title": "Rom I, dansk udgave: artikel 7, stk. 3, henviser til stk. 3 i stedet for artikel 3, så stykket henviser til sig selv",
+      "summary": "De øvrige sprogudgaver siger, at parterne kan vælge en af de anførte love i overensstemmelse med artikel 3 (aftalt lovvalg). Den danske tekst siger »i overensstemmelse med stk. 3« og henviser dermed til det samme stykke.",
+      "impact": "Ved lovvalg i en forsikringsaftale, der dækker andre risici end store risici, henviser den danske tekst ikke læseren til de almindelige regler om, hvordan parterne foretager et lovvalg.",
+      "correction": "Erstat »stk. 3« med »artikel 3« i den danske udgave af artikel 7, stk. 3, første afsnit."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A language version",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Danish version",
+        "role": "Language version",
+        "language": "da",
+        "edition": "published",
+        "locator": "Article 7(3), first subparagraph (Danish)",
+        "text": "i overensstemmelse med stk. 3",
+        "translations": {
+          "en": "in accordance with paragraph 3"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/DA/TXT/?uri=CELEX:32008R0593",
+        "sha256": "ddecb9eca5c46d5ec09d9a9dda404796776cdabe2ed7c8ca892c6fc0f8bd167c",
+        "retrieved": "2026-10-31",
+        "copy": "sources/ddecb9eca5c46d5e-dan.xhtml",
+        "copy_sha256": "ddecb9eca5c46d5ec09d9a9dda404796776cdabe2ed7c8ca892c6fc0f8bd167c",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 7(3), first subparagraph (English)",
+        "text": "may be chosen by the parties in accordance with Article 3",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0593",
+        "sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+        "retrieved": "2026-10-31",
+        "copy": "sources/2f33c017cfb9fac3-eng.xhtml",
+        "copy_sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:12:59Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:12:56Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:56:33+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

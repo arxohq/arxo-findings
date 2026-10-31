@@ -1,0 +1,103 @@
+{
+  "id": "ARXO-2026-0453",
+  "url": "https://arxo.io/findings/ARXO-2026-0453/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 864/2007 (Rome II)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 14(1)(a)",
+  "text": {
+    "en": {
+      "title": "Rome II: which event must a choice of law follow under Article 14(1)(a) when several events give rise to the damage?",
+      "summary": "Article 14(1)(a) allows a choice by an agreement entered into after the event giving rise to the damage. Where several events give rise to the damage, for example a first act in one country and a final act in another, and the parties are not all pursuing a commercial activity, the text does not say which event the agreement must follow.",
+      "impact": "An agreement made between the earliest and the last event can be valid under one reading and invalid under the other.",
+      "correction": "The Commission's work on the application of the Regulation could say which event counts."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Documented search",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 14(1)(a) (English)",
+        "text": "by an agreement entered into after the event giving rise to the damage occurred",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32007R0864",
+        "sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/488bfcf5bcbcb4e1-eng.xhtml",
+        "copy_sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:13:03Z",
+      "institution": "European Commission, Directorate-General for Justice and Consumers",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73FPWyY77P16Om9s08YQiSriGYUrqqu8ceX8LXKh_Q5CA@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "European Commission, Directorate-General for Justice and Consumers",
+      "role": "responsible for the application and review of the two Regulations"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:56:33+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Commission, Directorate-General for Justice and Consumers (e-mail)"
+    }
+  ]
+}
