@@ -1,0 +1,110 @@
+{
+  "id": "ARXO-2026-0475",
+  "url": "https://arxo.io/findings/ARXO-2026-0475/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "Unicode Technical Committee",
+  "issuer": {
+    "name": "Unicode Consortium",
+    "short": "Unicode",
+    "kind": "standards_body",
+    "url": "https://www.unicode.org/"
+  },
+  "act": "UAX #29 revision 49 (Unicode 18.0.0)",
+  "acts": [
+    "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+    "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+  ],
+  "location": "Section 5.1, Table 4, row Upper",
+  "text": {
+    "en": {
+      "title": "UAX #29 rev. 49, Section 5.1 Table 4: the name of U+1CBF is misprinted",
+      "summary": "Table 4 names U+1CBF “GEORGIAN LETTER MTAVRULI CAPITAL LABIAL SIGN”; UnicodeData.txt 18.0.0 names it “GEORGIAN MTAVRULI CAPITAL LETTER LABIAL SIGN”. The range and the Sentence_Break result are not affected.",
+      "impact": "A reader who searches for the printed name does not find the character.",
+      "correction": "Read “GEORGIAN MTAVRULI CAPITAL LETTER LABIAL SIGN”."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Section 5.1, Table 4, row Upper",
+        "text": "U+1CBD (Ჽ) GEORGIAN MTAVRULI CAPITAL LETTER AEN ..U+1CBF (Ჿ) GEORGIAN LETTER MTAVRULI CAPITAL LABIAL SIGN",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+        "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+        "retrieved": "2026-10-31",
+        "copy": "sources/60fb49ee640a154d-tr29-49.html",
+        "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T20:19:00Z",
+      "institution": "Unicode Consortium",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+      "what": "one PDF with 18 reports"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Unicode Consortium",
+      "role": "publishes the annex and the Unicode Character Database"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T20:30:00Z",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Unicode Consortium (e-mail)"
+    }
+  ]
+}

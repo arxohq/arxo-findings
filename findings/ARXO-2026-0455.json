@@ -1,0 +1,140 @@
+{
+  "id": "ARXO-2026-0455",
+  "url": "https://arxo.io/findings/ARXO-2026-0455/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "Unicode Technical Committee",
+  "issuer": {
+    "name": "Unicode Consortium",
+    "short": "Unicode",
+    "kind": "standards_body",
+    "url": "https://www.unicode.org/"
+  },
+  "act": "UAX #14 revision 57 (Unicode 18.0.0)",
+  "acts": [
+    "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+    "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+  ],
+  "location": "Section 9.1",
+  "text": {
+    "en": {
+      "title": "UAX #14 rev. 57, Section 9.1: the rewritten rules do not give the same result as LB9 and LB10",
+      "summary": "Section 9.1 says the rules from LB11 on can be rewritten so that “the overall result of the algorithm is unchanged”: replace LB10 by “× CM” and add a CM copy of every rule with AL on its left side. Applied literally, the rewrite differs from Section 6.1 in three cases: a space before a combining mark (no break instead of the LB18 break), ZWJ, which LB9 treats like CM but Section 9.1 does not mention, and AL-to-CM copies that also match marks attached to other bases. On 1,099 of the 19,346 lines of LineBreakTest.txt, 58 lines give a different result.",
+      "impact": "U+0061 LATIN SMALL LETTER A, U+0020 SPACE, U+0301 COMBINING ACUTE ACCENT, U+0062 LATIN SMALL LETTER B: Section 6.1 gives a break between the space and the accent, the rewrite of Section 9.1 gives none.",
+      "correction": "Keep the treatment of SPACE, ZWJ and combining marks that already have a base in Section 9.1, or qualify the sentence that the overall result is unchanged."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Section 9.1",
+        "text": "However, it is possible to make these rules unnecessary by rewriting all the rules from LB11 on down so that the overall result of the algorithm is unchanged.",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+        "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/296df5332aefe695-tr14-57.html",
+        "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Section 9.1",
+        "text": "Replace LB10 by the following rule: × CM",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+        "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/296df5332aefe695-tr14-57.html",
+        "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Section 9.1",
+        "text": "For each rule containing AL on its left side, add a rule that is identical except for the replacement of AL by CM, but taking care of correctly handling sets of alternate line break classes.",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+        "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/296df5332aefe695-tr14-57.html",
+        "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31",
+      "institution": "Unicode Consortium",
+      "channel": "web_form"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Unicode Consortium",
+      "role": "publishes the annex and the Unicode Character Database"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations and through rule models of both readings. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T20:30:00Z",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Unicode Consortium (web form)"
+    }
+  ]
+}

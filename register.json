@@ -4,12 +4,12 @@
   "description": "Verified discrepancies in legal texts, standards, official publications and implementations, with evidence and correction histories.",
   "publisher": "Arxo Law",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "as_of": "2026-10-31T16:12:29+00:00",
+  "as_of": "2026-10-31T20:30:00+00:00",
   "base_url": "https://arxo.io/findings/",
   "counts": {
-    "records": 356,
-    "discrepancies": 281,
-    "questions": 75,
+    "records": 377,
+    "discrepancies": 293,
+    "questions": 84,
     "by_jurisdiction": {
       "EU": 50,
       "FR": 12,
@@ -18,10 +18,11 @@
     },
     "by_issuer": {
       "BCBS": 45,
+      "Unicode": 21,
       "W3C": 8
     },
     "by_status": {
-      "reported": 343,
+      "reported": 364,
       "accepted": 3,
       "note_added": 5,
       "corrected": 3,
@@ -173,17 +174,29 @@
         "records": 45
       },
       {
+        "issuer": "Unicode",
+        "class": "act_text",
+        "status": "reported",
+        "records": 12
+      },
+      {
+        "issuer": "Unicode",
+        "class": "question",
+        "status": "reported",
+        "records": 9
+      },
+      {
         "issuer": "W3C",
         "class": "act_text",
         "status": "reported",
         "records": 8
       }
     ],
-    "institutions_notified": 69,
+    "institutions_notified": 70,
     "corrected_by_official_document": 5,
     "withdrawn_after_publication": {
       "withdrawn": 0,
-      "of_published": 325
+      "of_published": 346
     },
     "rule": "Counts are of findings. One finding is one independently checkable statement about one discrepancy at one place; classes and questions are counted separately and are not added together."
   },
@@ -57961,6 +57974,2806 @@
           "date": "2026-10-31",
           "event": "reported",
           "text": "Reported to Publications Office of the European Union (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0455",
+      "url": "https://arxo.io/findings/ARXO-2026-0455/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "UAX #14 revision 57 (Unicode 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "Section 9.1",
+      "text": {
+        "en": {
+          "title": "UAX #14 rev. 57, Section 9.1: the rewritten rules do not give the same result as LB9 and LB10",
+          "summary": "Section 9.1 says the rules from LB11 on can be rewritten so that “the overall result of the algorithm is unchanged”: replace LB10 by “× CM” and add a CM copy of every rule with AL on its left side. Applied literally, the rewrite differs from Section 6.1 in three cases: a space before a combining mark (no break instead of the LB18 break), ZWJ, which LB9 treats like CM but Section 9.1 does not mention, and AL-to-CM copies that also match marks attached to other bases. On 1,099 of the 19,346 lines of LineBreakTest.txt, 58 lines give a different result.",
+          "impact": "U+0061 LATIN SMALL LETTER A, U+0020 SPACE, U+0301 COMBINING ACUTE ACCENT, U+0062 LATIN SMALL LETTER B: Section 6.1 gives a break between the space and the accent, the rewrite of Section 9.1 gives none.",
+          "correction": "Keep the treatment of SPACE, ZWJ and combining marks that already have a base in Section 9.1, or qualify the sentence that the overall result is unchanged."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 9.1",
+            "text": "However, it is possible to make these rules unnecessary by rewriting all the rules from LB11 on down so that the overall result of the algorithm is unchanged.",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 9.1",
+            "text": "Replace LB10 by the following rule: × CM",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 9.1",
+            "text": "For each rule containing AL on its left side, add a rule that is identical except for the replacement of AL by CM, but taking care of correctly handling sets of alternate line break classes.",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Unicode Consortium",
+          "channel": "web_form"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations and through rule models of both readings. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (web form)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0456",
+      "url": "https://arxo.io/findings/ARXO-2026-0456/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "UAX #14 revision 57 (Unicode 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "Section 5.1, class AL",
+      "text": {
+        "en": {
+          "title": "UAX #14 rev. 57, Section 5.1 class AL: format characters listed as AL are Line_Break=NU in the data",
+          "summary": "The class AL description lists U+0600..U+0604, U+06DD and U+110BD among the format characters of class AL. LineBreak.txt 18.0.0 gives them Line_Break=NU since Unicode 15.1 (UTC action item 176-A81), and the NU description does not mention them. The table was not updated; revision 55 has the same table.",
+          "impact": "U+0061, U+0020 SPACE, U+002E FULL STOP, U+0600 ARABIC NUMBER SIGN, position 2: as NU (data) LB15c gives a break before the full stop; as AL (the table) LB15d gives none. Published implementations split between the two readings.",
+          "correction": "Move the rows for U+0600..U+0604, U+06DD and U+110BD from the AL table to the NU description."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 5.1, class AL",
+            "text": "0600..0604 | ARABIC NUMBER SIGN..ARABIC SIGN SAMVAT",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 5.1, class AL",
+            "text": "06DD | ARABIC END OF AYAH",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 5.1, class AL",
+            "text": "110BD | KAITHI NUMBER SIGN",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Unicode Consortium",
+          "channel": "web_form"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (web form)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0457",
+      "url": "https://arxo.io/findings/ARXO-2026-0457/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "UAX #14 revision 57 (Unicode 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "Section 10, Table 4",
+      "text": {
+        "en": {
+          "title": "UAX #14 rev. 57, Section 10 Table 4: rows LB12a and LB12b do not match Section 6 or the test rules",
+          "summary": "Table 4 numbers the test rules “LB12a | 12.0 | GL ×” and “LB12b | 12.1 | [^SP, BA, HY] × GL”. Section 6 has no rule LB12b: it has LB12, “GL ×”, and LB12a, “[^SP HY HH] × GL”, and the Modifications section records that Unicode 18.0 removed BA from LB12a. Both rows are one rule name off, and the formula of row 12.1 predates both recent changes of LB12a.",
+          "impact": "U+2013 EN DASH (BA in 18.0), U+00A0 NO-BREAK SPACE, U+0061, position 1: LB12a and LineBreakTest.txt give no break; the formula of Table 4 allows a break.",
+          "correction": "Read “LB12 | 12.0 | GL ×” and “LB12a | 12.1 | [^SP HY HH] × GL” in Table 4."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 10, Table 4",
+            "text": "LB12a | 12.0 | GL ×",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 10, Table 4",
+            "text": "LB12b | 12.1 | [^SP, BA, HY] × GL",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 10, Table 4",
+            "text": "LB12a Do not break before NBSP and related characters, except after spaces and hyphens. [^SP HY HH] × GL",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q4",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 10, Table 4",
+            "text": "Changed rule LB12a to disallow a break between BA and GL, e.g., between EN DASH and NO-BREAK SPACE. [187-C46]",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31",
+          "institution": "Unicode Consortium",
+          "channel": "web_form"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (web form)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0458",
+      "url": "https://arxo.io/findings/ARXO-2026-0458/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "UAX #14 revision 57 (Unicode 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "Section 5.1, class HL, against rule LB21a",
+      "text": {
+        "en": {
+          "title": "UAX #14 rev. 57, Section 5.1 class HL: “a hyphen is any character of class HY or class BA” disagrees with LB21a",
+          "summary": "The class HL description says that a hyphen between a Hebrew letter and non-Hebrew text is any character of class HY or BA. Rule LB21a covers HY and HH, and the class BA description says EN DASH and FIGURE DASH do not participate in LB21a. In 18.0 EN DASH moved to BA, so the difference now applies to a common character.",
+          "impact": "U+05D0 HEBREW LETTER ALEF, U+2013 EN DASH, U+0061, position 2: the HL description gives no break; LB21a does not apply to BA and LB31 gives a break.",
+          "correction": "Say “a hyphen is any character of class HY or class HH” in the HL description."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 5.1, class HL, against rule LB21a",
+            "text": "When a Hebrew letter is separated from following non-Hebrew text by a hyphen, there is no break on either side of the hyphen. In this context a hyphen is any character of class HY or class BA.",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "rule LB21a",
+            "text": "LB21a Do not break after the hyphen in Hebrew + Hyphen + non-Hebrew. HL (HY | HH) × [^HL]",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "class BA",
+            "text": "Contrary to the hyphens in HH, these dashes are not used to indicate affixes, so these characters do not participate in rules LB20a and LB21a.",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T20:19:00Z",
+          "institution": "Unicode Consortium",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+          "what": "one PDF with 18 reports"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0459",
+      "url": "https://arxo.io/findings/ARXO-2026-0459/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "UAX #29 revision 49 (Unicode 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "Section 4.2.6, against Table 3",
+      "text": {
+        "en": {
+          "title": "UAX #29 rev. 49, Section 4.2.6: modifier symbols are said not to be ALetter, but 58 of them are",
+          "summary": "Section 4.2.6 says that modifier symbols (General_Category Sk) are not in the ALetter class and so cause word breaks by default. WordBreakProperty.txt 18.0.0 gives Word_Break=ALetter to 58 Sk code points, and Table 3 of the same annex lists them by name in the ALetter row.",
+          "impact": "U+0061, U+02D2 MODIFIER LETTER CENTRED RIGHT HALF RING, U+0062: the sentence gives breaks on both sides of U+02D2; the data and WB5 give one word.",
+          "correction": "Say “Most modifier symbols (General_Category = Sk) are not in the ALetter class”."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 4.2.6, against Table 3",
+            "text": "Modifier symbols (General_Category = Sk) are not in the ALetter class and so do cause word breaks by default.",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+            "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "retrieved": "2026-10-31",
+            "copy": "sources/60fb49ee640a154d-tr29-49.html",
+            "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "WordBreakProperty.txt (UCD 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "WordBreakProperty.txt (UCD 18.0.0)",
+            "text": "02D2..02D7    ; ALetter # Sk   [6] MODIFIER LETTER CENTRED RIGHT HALF RING..MODIFIER LETTER MINUS SIGN",
+            "translations": {},
+            "url": "https://www.unicode.org/Public/18.0.0/ucd/auxiliary/WordBreakProperty.txt",
+            "sha256": "8dbfa17063e11084201f33c3e76d485d3b9166930c71db8e39ed1c9234171aec",
+            "retrieved": "2026-10-31",
+            "copy": "sources/8dbfa17063e11084-WordBreakProperty.txt",
+            "copy_sha256": "8dbfa17063e11084201f33c3e76d485d3b9166930c71db8e39ed1c9234171aec",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Table 3, row ALetter",
+            "text": "ALetter | Alphabetic = Yes, or any of the following characters: U+00B8 ( ¸ ) CEDILLA U+02C2 ( ˂ ) MODIFIER LETTER LEFT ARROWHEAD ..U+02C5 ( ˅ ) MODIFIER LETTER DOWN ARROWHEAD",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+            "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "retrieved": "2026-10-31",
+            "copy": "sources/60fb49ee640a154d-tr29-49.html",
+            "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T20:19:00Z",
+          "institution": "Unicode Consortium",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+          "what": "one PDF with 18 reports"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0460",
+      "url": "https://arxo.io/findings/ARXO-2026-0460/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "UAX #14 revision 57 (Unicode 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "Section 10, example of test rule numbering",
+      "text": {
+        "en": {
+          "title": "UAX #14 rev. 57, Section 10: the example “13.01) [^NU] × CL” does not match LB13 or the test rules",
+          "summary": "The numbering example in Section 10 gives “13.01) [^NU] × CL” and “13.02) × EX”. LB13 has no condition on the preceding class, and the test rules number the parts “13.01) × EX” and “13.02) × CL”. The example swaps the numbers and adds a condition that no rule has; revision 55 has the same example.",
+          "impact": "The number 1 (U+0031) followed by U+007D RIGHT CURLY BRACKET, position 1: LB13 gives no break; the example’s rule would allow one.",
+          "correction": "Read “13.01) × EX” and “13.02) × CL”, as in the test rules."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 10, example of test rule numbering",
+            "text": "13.01) [^NU] × CL",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 10, example of test rule numbering",
+            "text": "13.02) × EX",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 10, example of test rule numbering",
+            "text": "LB13 Do not break before ‘]’ or ‘!’ or ‘/’, even after spaces. × CL × CP × EX × SY",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T20:19:00Z",
+          "institution": "Unicode Consortium",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+          "what": "one PDF with 18 reports"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0461",
+      "url": "https://arxo.io/findings/ARXO-2026-0461/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "UAX #14 revision 57 (Unicode 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "Section 5.1, class XX",
+      "text": {
+        "en": {
+          "title": "UAX #14 rev. 57, Section 5.1 class XX: unassigned code points outside CJK blocks are not all XX",
+          "summary": "The class XX description includes all unassigned code points that are not within a CJK block. The PR description in the same section puts unassigned code points of the Currency Symbols block in PR, and LineBreak.txt 18.0.0 gives most unassigned code points in U+1F000..U+1FAFF and U+1FC00..U+1FFFD the default ID.",
+          "impact": "U+0061, unassigned U+1FAFF, U+0062: as XX (AL after LB1) no break on either side; as ID (data) a break on both sides, which is what LineBreakTest.txt and the published implementations give.",
+          "correction": "Say that unassigned code points are XX unless the data file gives them another default, such as PR or ID."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 5.1, class XX",
+            "text": "The XX line break class consists of all characters with General_Category Co as well as those unassigned code points that are not within a CJK block.",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 5.1, class XX",
+            "text": "This class also contains all unassigned code points in the Currency Symbols block",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T20:19:00Z",
+          "institution": "Unicode Consortium",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+          "what": "one PDF with 18 reports"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0462",
+      "url": "https://arxo.io/findings/ARXO-2026-0462/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "UAX #14 revision 57 (Unicode 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "Section 5, introduction",
+      "text": {
+        "en": {
+          "title": "UAX #14 rev. 57, Section 5: LB21a is listed among rules that use East_Asian_Width, General_Category and Extended_Pictographic",
+          "summary": "Section 5 lists the rules that use tailorable East_Asian_Width, General_Category and Extended_Pictographic values: LB15a, LB15b, LB19, LB19a, LB21a, LB30 and LB30b. LB21a, “HL (HY | HH) × [^HL]”, uses only line break classes.",
+          "impact": "A reader who tailors these properties looks for an effect on LB21a that does not exist; no break changes.",
+          "correction": "Remove LB21a from the list."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 5, introduction",
+            "text": "In addition to the line breaking properties defined in this section, the algorithm defined in Section 6, Line Breaking Algorithm also makes use of East_Asian_Width property values, defined in Unicode Standard Annex #11, East Asian Width [ UAX11 ], as well as the General_Category and Extended_Pictographic properties. Note that for purposes of the line breaking algorithm, those property values are tailorable, as are the rules of the line breaking algorithm which use them. (See rules LB15a, LB15b, LB19, LB19a, LB21a, LB30, and LB30b .)",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T20:19:00Z",
+          "institution": "Unicode Consortium",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+          "what": "one PDF with 18 reports"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0463",
+      "url": "https://arxo.io/findings/ARXO-2026-0463/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "LineBreak.txt (UCD 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "file header, against the data for U+1F80C..U+1F8FF",
+      "text": {
+        "en": {
+          "title": "LineBreak.txt 18.0.0: do the 85 unassigned code points in Supplemental Arrows-C default to ID, as the header says, or XX, as the data says?",
+          "summary": "The header of LineBreak.txt says all unassigned code points in U+1F000..U+1FAFF default to ID. In the data, 85 unassigned code points in Supplemental Arrows-C (U+1F80C..U+1F80F up to U+1F8D9..U+1F8FF) are XX, and LineBreakTest.txt uses U+1F8FF as XX.",
+          "impact": "U+0061, U+1F8FF, U+0062: as XX there is no break; as ID there is a break on both sides.",
+          "correction": "State which is intended for these code points and align the header or the data."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "LineBreak.txt (UCD 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "file header, against the data for U+1F80C..U+1F8FF",
+            "text": "All unassigned code points in the following Plane 1 ranges, whether",
+            "translations": {},
+            "url": "https://www.unicode.org/Public/18.0.0/ucd/LineBreak.txt",
+            "sha256": "ae8cf1970c73f3f1a12d77852df96c4b2b1723ca8b388e36bb5739250c6849de",
+            "retrieved": "2026-10-31",
+            "copy": "sources/ae8cf1970c73f3f1-LineBreak.txt",
+            "copy_sha256": "ae8cf1970c73f3f1a12d77852df96c4b2b1723ca8b388e36bb5739250c6849de",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "LineBreak.txt (UCD 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "file header, against the data for U+1F80C..U+1F8FF",
+            "text": "inside or outside of allocated blocks, also default to \"ID\"",
+            "translations": {},
+            "url": "https://www.unicode.org/Public/18.0.0/ucd/LineBreak.txt",
+            "sha256": "ae8cf1970c73f3f1a12d77852df96c4b2b1723ca8b388e36bb5739250c6849de",
+            "retrieved": "2026-10-31",
+            "copy": "sources/ae8cf1970c73f3f1-LineBreak.txt",
+            "copy_sha256": "ae8cf1970c73f3f1a12d77852df96c4b2b1723ca8b388e36bb5739250c6849de",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T20:19:00Z",
+          "institution": "Unicode Consortium",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+          "what": "one PDF with 18 reports"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0464",
+      "url": "https://arxo.io/findings/ARXO-2026-0464/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "UAX #14 revision 57 (Unicode 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "Section 5.1, class B2",
+      "text": {
+        "en": {
+          "title": "UAX #14 rev. 57, Section 5.1 B2: is the Spanish parenthetical em dash a default behaviour or a tailoring?",
+          "summary": "The B2 description says that in Spanish the dashes around a parenthetical should not be broken from the contained text; one paragraph earlier it says line breaks can occur before and after an EM DASH. The rules follow the first sentence: LB17 covers only B2 SP* × B2, and LineBreakTest.txt expects breaks between EM DASH and a following or preceding letter. The description does not say that the Spanish convention needs tailoring, and Section 8 does not mention it.",
+          "impact": "“a —b— c”: the rules allow a line to end with the opening dash and to start with the closing dash.",
+          "correction": "If the convention requires tailoring, say so in the B2 description and refer to Section 8."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 5.1, class B2",
+            "text": "Some languages, including Spanish, use EM DASH to set off a parenthetical, and the surrounding dashes should not be broken from the contained text.",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 5.1, class B2",
+            "text": "Line breaks can occur before and after an EM DASH.",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T20:19:00Z",
+          "institution": "Unicode Consortium",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+          "what": "one PDF with 18 reports"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0465",
+      "url": "https://arxo.io/findings/ARXO-2026-0465/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "UAX #14 revision 57 (Unicode 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "Section 9.2, Legacy-CM",
+      "text": {
+        "en": {
+          "title": "UAX #14 rev. 57, Section 9.2: does Legacy-CM intentionally keep the LB8 break inside ZW SP CM?",
+          "summary": "Legacy-CM changes a space that is the base of a combining mark to ID only in rules following LB8. For ZERO WIDTH SPACE, SPACE and a combining mark, LB8 gives a break before the mark before the tailoring applies, so the break falls inside SP CM*, which Section 9.2 describes as an indivisible cluster under the earlier practice.",
+          "impact": "U+200B, U+0020, U+0301, U+0062: under Legacy-CM a line may start with the combining mark.",
+          "correction": "If the exception is intended, state it in Section 9.2."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 9.2, Legacy-CM",
+            "text": "Legacy-CM: In all of the rules following rule LB8, if a space is the base character for a combining mark, the space is changed to type ID.",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "rule LB8",
+            "text": "LB8 Break before any character following a zero-width space, even if one or more spaces intervene. ZW SP* ÷",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 9.2, Legacy-CM",
+            "text": "Previously, whenever the base character was SP, the sequences CM* and SP CM* were defined to act like indivisible clusters",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T20:19:00Z",
+          "institution": "Unicode Consortium",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+          "what": "one PDF with 18 reports"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0466",
+      "url": "https://arxo.io/findings/ARXO-2026-0466/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "UAX #14 revision 57 (Unicode 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "Section 5.1, class GL",
+      "text": {
+        "en": {
+          "title": "UAX #14 rev. 57, Section 5.1 GL: should the description name the HY and HH exceptions of LB12a?",
+          "summary": "The GL description names SP and ZW as what can override the no-break prohibition. LB12a also allows a break before GL after HY and HH, which the HH description explains as widespread practice.",
+          "impact": "U+0061, U+002D HYPHEN-MINUS, U+00A0 NO-BREAK SPACE, U+0062: a break after the hyphen, which the GL description does not mention.",
+          "correction": "Mention the HY and HH exceptions of LB12a in the GL description."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 5.1, class GL",
+            "text": "Non-breaking characters prohibit breaks on either side, but that prohibition can be overridden by SP or ZW. In particular, when NO-BREAK SPACE follows SPACE, there is a break opportunity after the SPACE",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "class HH",
+            "text": "Allowing a break after HH or HY matches widespread implementation practice and supports a common way of handling special line breaking of explicit hyphens",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T20:19:00Z",
+          "institution": "Unicode Consortium",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+          "what": "one PDF with 18 reports"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0467",
+      "url": "https://arxo.io/findings/ARXO-2026-0467/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "UAX #14 revision 57 (Unicode 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "Section 5.1, class EX, against LB25",
+      "text": {
+        "en": {
+          "title": "UAX #14 rev. 57, Section 5.1 EX: should the exception list for EX include PR?",
+          "summary": "The EX description says these characters behave like closing characters except in relation to PO and NS. LB25 keeps CL and CP before PR in numeric context but not EX, so EX also differs in relation to PR.",
+          "impact": "U+0031 U+0021 U+002B U+0032 breaks after the exclamation mark; U+0031 U+0029 U+002B U+0032 does not.",
+          "correction": "Add PR to the exception list of EX, or state that LB25 treats EX differently from CL."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 5.1, class EX, against LB25",
+            "text": "Characters in this line break class behave like closing characters, except in relation to postfix ( PO ) and non-starter characters ( NS ).",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "rule LB25",
+            "text": "NU ( SY | IS )* CL × PR",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T20:19:00Z",
+          "institution": "Unicode Consortium",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+          "what": "one PDF with 18 reports"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0468",
+      "url": "https://arxo.io/findings/ARXO-2026-0468/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "UAX #14 revision 57 (Unicode 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "Section 5.1, class SY, against LB25",
+      "text": {
+        "en": {
+          "title": "UAX #14 rev. 57, Section 5.1 SY: is “except in front of digits” limited to numbers?",
+          "summary": "The SY description says there is a break opportunity after a solidus except in front of digits. LB25 keeps SY × NU only after digits, so after a letter a solidus followed by a number allows a break.",
+          "impact": "U+0061 U+002F U+0031: a break after the solidus, before the number.",
+          "correction": "Say “except before digits when the solidus is part of a number, as in 1/2 or 06/07/99”."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 5.1, class SY, against LB25",
+            "text": "The SY line breaking property is intended to provide a break opportunity after, except in front of digits, so as to not break “1/2” or “06/07/99”.",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "rule LB25",
+            "text": "NU ( SY | IS )* × NU",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T20:19:00Z",
+          "institution": "Unicode Consortium",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+          "what": "one PDF with 18 reports"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0469",
+      "url": "https://arxo.io/findings/ARXO-2026-0469/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "UAX #14 revision 57 (Unicode 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "Section 5.1, class BA, against LB12a",
+      "text": {
+        "en": {
+          "title": "UAX #14 rev. 57, Section 5.1 BA: do EN DASH and FIGURE DASH “not participate” in LB12a, or are they outside its exceptions?",
+          "summary": "The BA description says these dashes do not participate in rule LB12a, so the no-break space after them stays non-breaking. After the 18.0 change LB12a is the rule that keeps it non-breaking; the outcome is right, but the wording reads as if LB12a did not apply.",
+          "impact": "U+0061 U+2013 U+00A0 U+0062: no break before the no-break space, by LB12a.",
+          "correction": "Say “As these characters are not among the exceptions of rule LB12a”."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 5.1, class BA, against LB12a",
+            "text": "As these characters do not participate in rule LB12a, the non-breaking space following the first EN DASH remains non-breaking in that case, whereas it would become breaking if a hyphen were used.",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "rule LB12a",
+            "text": "LB12a Do not break before NBSP and related characters, except after spaces and hyphens.",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "rule LB12a",
+            "text": "[^SP HY HH] × GL",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T20:19:00Z",
+          "institution": "Unicode Consortium",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+          "what": "one PDF with 18 reports"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0470",
+      "url": "https://arxo.io/findings/ARXO-2026-0470/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "UAX #29 revision 49 (Unicode 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "Section 4.2.1, against Table 3",
+      "text": {
+        "en": {
+          "title": "UAX #29 rev. 49, Section 4.2.1: should the text note that U+058A is ALetter and U+30A0 is Katakana by default?",
+          "summary": "Section 4.2.1 says hyphens are better kept out of the default word definition and names U+058A ARMENIAN HYPHEN and U+30A0 KATAKANA-HIRAGANA DOUBLE HYPHEN. Table 3 puts U+058A in ALetter and U+30A0 in Katakana, so by default they do not break words between letters of those classes.",
+          "impact": "Armenian letters around U+058A and Katakana letters around U+30A0 form one word by default.",
+          "correction": "Note in Section 4.2.1 that U+058A is ALetter and U+30A0 is Katakana in the default rules."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 4.2.1, against Table 3",
+            "text": "it is better overall to keep the hyphen out of the default definition. Hyphens include U+002D HYPHEN-MINUS, U+2010 HYPHEN, possibly also U+058A ARMENIAN HYPHEN, and U+30A0 KATAKANA-HIRAGANA DOUBLE HYPHEN.",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+            "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "retrieved": "2026-10-31",
+            "copy": "sources/60fb49ee640a154d-tr29-49.html",
+            "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Table 3, row Katakana",
+            "text": "Katakana | Script = KATAKANA, or any of the following:",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+            "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "retrieved": "2026-10-31",
+            "copy": "sources/60fb49ee640a154d-tr29-49.html",
+            "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Table 3, row Katakana",
+            "text": "U+30A0 ( ゠ ) KATAKANA-HIRAGANA DOUBLE HYPHEN",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+            "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "retrieved": "2026-10-31",
+            "copy": "sources/60fb49ee640a154d-tr29-49.html",
+            "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q4",
+            "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Table 3, row ALetter",
+            "text": "ALetter | Alphabetic = Yes, or any of the following characters:",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+            "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "retrieved": "2026-10-31",
+            "copy": "sources/60fb49ee640a154d-tr29-49.html",
+            "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q5",
+            "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Table 3, row ALetter",
+            "text": "U+058A ( ֊ ) ARMENIAN HYPHEN",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+            "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "retrieved": "2026-10-31",
+            "copy": "sources/60fb49ee640a154d-tr29-49.html",
+            "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T20:19:00Z",
+          "institution": "Unicode Consortium",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+          "what": "one PDF with 18 reports"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0471",
+      "url": "https://arxo.io/findings/ARXO-2026-0471/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "UAX #29 revision 49 (Unicode 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "Section 4.3, Basic Name Validation set",
+      "text": {
+        "en": {
+          "title": "UAX #29 rev. 49, Section 4.3: how is the union and intersection in the Basic Name Validation set grouped?",
+          "summary": "The set “[ \\p{name=/COMMA/}\\p{name=/FULL STOP/}&\\p{p} …” mixes union and intersection without brackets. UTS #18 does not fix one precedence and recommends brackets.",
+          "impact": "U+236A APL FUNCTIONAL SYMBOL COMMA BAR (So) is in the set under one grouping and out of it under the other.",
+          "correction": "Add brackets, for example [[\\p{name=/COMMA/}\\p{name=/FULL STOP/}]&\\p{p}]."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 4.3, Basic Name Validation set",
+            "text": "[ \\p{name=/COMMA/}\\p{name=/FULL STOP/}&\\p{p} \\p{whitespace}-\\p{c} \\p{alpha}",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+            "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "retrieved": "2026-10-31",
+            "copy": "sources/60fb49ee640a154d-tr29-49.html",
+            "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 4.3, Basic Name Validation set",
+            "text": "It is a lenient, non-language-specific set, and could be tailored where only a limited set of languages are permitted",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+            "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "retrieved": "2026-10-31",
+            "copy": "sources/60fb49ee640a154d-tr29-49.html",
+            "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T20:19:00Z",
+          "institution": "Unicode Consortium",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+          "what": "one PDF with 18 reports"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0472",
+      "url": "https://arxo.io/findings/ARXO-2026-0472/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "UAX #29 revision 49 (Unicode 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "Section 7, example of test rule numbering",
+      "text": {
+        "en": {
+          "title": "UAX #29 rev. 49, Section 7: the numbering example “21.01) × $BA, 21.02) × $HY” is a line-breaking rule",
+          "summary": "The example of hundredths numbering in Section 7 comes from line breaking: UAX #29 has no rule 21 and no classes BA or HY, and the segmentation test rules have no such lines. Revision 47 has the same example.",
+          "impact": "A reader of UAX #29 cannot find the rules the example numbers.",
+          "correction": "Replace the example with one from the segmentation test rules."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 7, example of test rule numbering",
+            "text": "Where a rule has multiple parts (lines), each one is numbered using hundredths, such as",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+            "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "retrieved": "2026-10-31",
+            "copy": "sources/60fb49ee640a154d-tr29-49.html",
+            "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 7, example of test rule numbering",
+            "text": "21.01) × $BA",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+            "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "retrieved": "2026-10-31",
+            "copy": "sources/60fb49ee640a154d-tr29-49.html",
+            "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 7, example of test rule numbering",
+            "text": "21.02) × $HY",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+            "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "retrieved": "2026-10-31",
+            "copy": "sources/60fb49ee640a154d-tr29-49.html",
+            "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T20:19:00Z",
+          "institution": "Unicode Consortium",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+          "what": "one PDF with 18 reports"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0473",
+      "url": "https://arxo.io/findings/ARXO-2026-0473/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "UAX #14 revision 57 (Unicode 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "Section 5.1",
+      "text": {
+        "en": {
+          "title": "UAX #14 rev. 57, Section 5.1: classes are said to be listed alphabetically, but HL comes after ID",
+          "summary": "Section 5.1 says line breaking classes are listed alphabetically; the headings run HH, HY, ID, HL, IN.",
+          "impact": "A reader who looks for HL between HH and HY does not find it there.",
+          "correction": "Move the HL subsection between HH and HY."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 5.1",
+            "text": "Line breaking classes are listed alphabetically.",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T20:19:00Z",
+          "institution": "Unicode Consortium",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+          "what": "one PDF with 18 reports"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0474",
+      "url": "https://arxo.io/findings/ARXO-2026-0474/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "UAX #14 revision 57 (Unicode 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "Section 5.1, classes QU and HH",
+      "text": {
+        "en": {
+          "title": "UAX #14 rev. 57, Section 5.1 QU and HH: misspelt “Initial_Punctation”, “Final_Punctation” and “word-initally”",
+          "summary": "The QU description names the General_Category values “Initial_Punctation” and “Final_Punctation”; PropertyValueAliases.txt has Initial_Punctuation and Final_Punctuation. The HH description says “word-initally”.",
+          "impact": "A reader who searches the Unicode Character Database for the value names in the annex finds nothing.",
+          "correction": "Correct the three words."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 5.1, classes QU and HH",
+            "text": "The default is to use the General_Category values Initial_Punctation and Final_Punctation as a hint, together with context",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 5.1, classes QU and HH",
+            "text": "unless they occur word-initally",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+            "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/296df5332aefe695-tr14-57.html",
+            "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T20:19:00Z",
+          "institution": "Unicode Consortium",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+          "what": "one PDF with 18 reports"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0475",
+      "url": "https://arxo.io/findings/ARXO-2026-0475/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Unicode Technical Committee",
+      "issuer": {
+        "name": "Unicode Consortium",
+        "short": "Unicode",
+        "kind": "standards_body",
+        "url": "https://www.unicode.org/"
+      },
+      "act": "UAX #29 revision 49 (Unicode 18.0.0)",
+      "acts": [
+        "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+        "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+      ],
+      "location": "Section 5.1, Table 4, row Upper",
+      "text": {
+        "en": {
+          "title": "UAX #29 rev. 49, Section 5.1 Table 4: the name of U+1CBF is misprinted",
+          "summary": "Table 4 names U+1CBF “GEORGIAN LETTER MTAVRULI CAPITAL LABIAL SIGN”; UnicodeData.txt 18.0.0 names it “GEORGIAN MTAVRULI CAPITAL LETTER LABIAL SIGN”. The range and the Sentence_Break result are not affected.",
+          "impact": "A reader who searches for the printed name does not find the character.",
+          "correction": "Read “GEORGIAN MTAVRULI CAPITAL LETTER LABIAL SIGN”."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Unicode 18.0.0",
+            "locator": "Section 5.1, Table 4, row Upper",
+            "text": "U+1CBD (Ჽ) GEORGIAN MTAVRULI CAPITAL LETTER AEN ..U+1CBF (Ჿ) GEORGIAN LETTER MTAVRULI CAPITAL LABIAL SIGN",
+            "translations": {},
+            "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+            "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "retrieved": "2026-10-31",
+            "copy": "sources/60fb49ee640a154d-tr29-49.html",
+            "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T20:19:00Z",
+          "institution": "Unicode Consortium",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+          "what": "one PDF with 18 reports"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Unicode Consortium",
+          "role": "publishes the annex and the Unicode Character Database"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T20:30:00Z",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Unicode Consortium (e-mail)"
         }
       ]
     }

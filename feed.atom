@@ -5,9 +5,219 @@
   <link rel="alternate" href="https://arxo.io/findings/"/>
   <link rel="self" href="https://arxo.io/findings/feed.atom"/>
   <id>https://arxo.io/findings/</id>
-  <updated>2026-10-31T16:12:29+00:00</updated>
+  <updated>2026-10-31T20:30:00+00:00</updated>
   <author><name>Arxo Law</name></author>
   <rights>Data: CC BY 4.0, Arxo Law</rights>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0475/</id>
+    <title>ARXO-2026-0475 — UAX #29 rev. 49, Section 5.1 Table 4: the name of U+1CBF is misprinted</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0475/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Table 4 names U+1CBF “GEORGIAN LETTER MTAVRULI CAPITAL LABIAL SIGN”; UnicodeData.txt 18.0.0 names it “GEORGIAN MTAVRULI CAPITAL LETTER LABIAL SIGN”. The range and the Sentence_Break result are not affected.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0474/</id>
+    <title>ARXO-2026-0474 — UAX #14 rev. 57, Section 5.1 QU and HH: misspelt “Initial_Punctation”, “Final_Punctation” and “word-initally”</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0474/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The QU description names the General_Category values “Initial_Punctation” and “Final_Punctation”; PropertyValueAliases.txt has Initial_Punctuation and Final_Punctuation. The HH description says “word-initally”.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0473/</id>
+    <title>ARXO-2026-0473 — UAX #14 rev. 57, Section 5.1: classes are said to be listed alphabetically, but HL comes after ID</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0473/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Section 5.1 says line breaking classes are listed alphabetically; the headings run HH, HY, ID, HL, IN.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0472/</id>
+    <title>ARXO-2026-0472 — UAX #29 rev. 49, Section 7: the numbering example “21.01) × $BA, 21.02) × $HY” is a line-breaking rule</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0472/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The example of hundredths numbering in Section 7 comes from line breaking: UAX #29 has no rule 21 and no classes BA or HY, and the segmentation test rules have no such lines. Revision 47 has the same example.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0471/</id>
+    <title>ARXO-2026-0471 — UAX #29 rev. 49, Section 4.3: how is the union and intersection in the Basic Name Validation set grouped?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0471/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The set “[ \p{name=/COMMA/}\p{name=/FULL STOP/}&amp;\p{p} …” mixes union and intersection without brackets. UTS #18 does not fix one precedence and recommends brackets.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0470/</id>
+    <title>ARXO-2026-0470 — UAX #29 rev. 49, Section 4.2.1: should the text note that U+058A is ALetter and U+30A0 is Katakana by default?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0470/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Section 4.2.1 says hyphens are better kept out of the default word definition and names U+058A ARMENIAN HYPHEN and U+30A0 KATAKANA-HIRAGANA DOUBLE HYPHEN. Table 3 puts U+058A in ALetter and U+30A0 in Katakana, so by default they do not break words between letters of those classes.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0469/</id>
+    <title>ARXO-2026-0469 — UAX #14 rev. 57, Section 5.1 BA: do EN DASH and FIGURE DASH “not participate” in LB12a, or are they outside its exceptions?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0469/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The BA description says these dashes do not participate in rule LB12a, so the no-break space after them stays non-breaking. After the 18.0 change LB12a is the rule that keeps it non-breaking; the outcome is right, but the wording reads as if LB12a did not apply.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0468/</id>
+    <title>ARXO-2026-0468 — UAX #14 rev. 57, Section 5.1 SY: is “except in front of digits” limited to numbers?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0468/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The SY description says there is a break opportunity after a solidus except in front of digits. LB25 keeps SY × NU only after digits, so after a letter a solidus followed by a number allows a break.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0467/</id>
+    <title>ARXO-2026-0467 — UAX #14 rev. 57, Section 5.1 EX: should the exception list for EX include PR?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0467/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The EX description says these characters behave like closing characters except in relation to PO and NS. LB25 keeps CL and CP before PR in numeric context but not EX, so EX also differs in relation to PR.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0466/</id>
+    <title>ARXO-2026-0466 — UAX #14 rev. 57, Section 5.1 GL: should the description name the HY and HH exceptions of LB12a?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0466/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The GL description names SP and ZW as what can override the no-break prohibition. LB12a also allows a break before GL after HY and HH, which the HH description explains as widespread practice.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0465/</id>
+    <title>ARXO-2026-0465 — UAX #14 rev. 57, Section 9.2: does Legacy-CM intentionally keep the LB8 break inside ZW SP CM?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0465/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Legacy-CM changes a space that is the base of a combining mark to ID only in rules following LB8. For ZERO WIDTH SPACE, SPACE and a combining mark, LB8 gives a break before the mark before the tailoring applies, so the break falls inside SP CM*, which Section 9.2 describes as an indivisible cluster under the earlier practice.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0464/</id>
+    <title>ARXO-2026-0464 — UAX #14 rev. 57, Section 5.1 B2: is the Spanish parenthetical em dash a default behaviour or a tailoring?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0464/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The B2 description says that in Spanish the dashes around a parenthetical should not be broken from the contained text; one paragraph earlier it says line breaks can occur before and after an EM DASH. The rules follow the first sentence: LB17 covers only B2 SP* × B2, and LineBreakTest.txt expects breaks between EM DASH and a following or preceding letter. The description does not say that the Spanish convention needs tailoring, and Section 8 does not mention it.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0463/</id>
+    <title>ARXO-2026-0463 — LineBreak.txt 18.0.0: do the 85 unassigned code points in Supplemental Arrows-C default to ID, as the header says, or XX, as the data says?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0463/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The header of LineBreak.txt says all unassigned code points in U+1F000..U+1FAFF default to ID. In the data, 85 unassigned code points in Supplemental Arrows-C (U+1F80C..U+1F80F up to U+1F8D9..U+1F8FF) are XX, and LineBreakTest.txt uses U+1F8FF as XX.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0462/</id>
+    <title>ARXO-2026-0462 — UAX #14 rev. 57, Section 5: LB21a is listed among rules that use East_Asian_Width, General_Category and Extended_Pictographic</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0462/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Section 5 lists the rules that use tailorable East_Asian_Width, General_Category and Extended_Pictographic values: LB15a, LB15b, LB19, LB19a, LB21a, LB30 and LB30b. LB21a, “HL (HY | HH) × [^HL]”, uses only line break classes.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0461/</id>
+    <title>ARXO-2026-0461 — UAX #14 rev. 57, Section 5.1 class XX: unassigned code points outside CJK blocks are not all XX</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0461/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The class XX description includes all unassigned code points that are not within a CJK block. The PR description in the same section puts unassigned code points of the Currency Symbols block in PR, and LineBreak.txt 18.0.0 gives most unassigned code points in U+1F000..U+1FAFF and U+1FC00..U+1FFFD the default ID.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0460/</id>
+    <title>ARXO-2026-0460 — UAX #14 rev. 57, Section 10: the example “13.01) [^NU] × CL” does not match LB13 or the test rules</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0460/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The numbering example in Section 10 gives “13.01) [^NU] × CL” and “13.02) × EX”. LB13 has no condition on the preceding class, and the test rules number the parts “13.01) × EX” and “13.02) × CL”. The example swaps the numbers and adds a condition that no rule has; revision 55 has the same example.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0459/</id>
+    <title>ARXO-2026-0459 — UAX #29 rev. 49, Section 4.2.6: modifier symbols are said not to be ALetter, but 58 of them are</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0459/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Section 4.2.6 says that modifier symbols (General_Category Sk) are not in the ALetter class and so cause word breaks by default. WordBreakProperty.txt 18.0.0 gives Word_Break=ALetter to 58 Sk code points, and Table 3 of the same annex lists them by name in the ALetter row.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0458/</id>
+    <title>ARXO-2026-0458 — UAX #14 rev. 57, Section 5.1 class HL: “a hyphen is any character of class HY or class BA” disagrees with LB21a</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0458/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The class HL description says that a hyphen between a Hebrew letter and non-Hebrew text is any character of class HY or BA. Rule LB21a covers HY and HH, and the class BA description says EN DASH and FIGURE DASH do not participate in LB21a. In 18.0 EN DASH moved to BA, so the difference now applies to a common character.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0457/</id>
+    <title>ARXO-2026-0457 — UAX #14 rev. 57, Section 10 Table 4: rows LB12a and LB12b do not match Section 6 or the test rules</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0457/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Table 4 numbers the test rules “LB12a | 12.0 | GL ×” and “LB12b | 12.1 | [^SP, BA, HY] × GL”. Section 6 has no rule LB12b: it has LB12, “GL ×”, and LB12a, “[^SP HY HH] × GL”, and the Modifications section records that Unicode 18.0 removed BA from LB12a. Both rows are one rule name off, and the formula of row 12.1 predates both recent changes of LB12a.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0456/</id>
+    <title>ARXO-2026-0456 — UAX #14 rev. 57, Section 5.1 class AL: format characters listed as AL are Line_Break=NU in the data</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0456/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The class AL description lists U+0600..U+0604, U+06DD and U+110BD among the format characters of class AL. LineBreak.txt 18.0.0 gives them Line_Break=NU since Unicode 15.1 (UTC action item 176-A81), and the NU description does not mention them. The table was not updated; revision 55 has the same table.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0455/</id>
+    <title>ARXO-2026-0455 — UAX #14 rev. 57, Section 9.1: the rewritten rules do not give the same result as LB9 and LB10</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0455/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="Unicode"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Section 9.1 says the rules from LB11 on can be rewritten so that “the overall result of the algorithm is unchanged”: replace LB10 by “× CM” and add a CM copy of every rule with AL on its left side. Applied literally, the rewrite differs from Section 6.1 in three cases: a space before a combining mark (no break instead of the LB18 break), ZWJ, which LB9 treats like CM but Section 9.1 does not mention, and AL-to-CM copies that also match marks attached to other bases. On 1,099 of the 19,346 lines of LineBreakTest.txt, 58 lines give a different result.</summary>
+  </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0454/</id>
     <title>ARXO-2026-0454 — Rome II on EUR-Lex: the XHTML text lacks two of the three Commission statements printed in the Official Journal</title>

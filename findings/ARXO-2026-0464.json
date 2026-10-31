@@ -1,0 +1,126 @@
+{
+  "id": "ARXO-2026-0464",
+  "url": "https://arxo.io/findings/ARXO-2026-0464/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": null,
+  "jurisdiction_detail": "Unicode Technical Committee",
+  "issuer": {
+    "name": "Unicode Consortium",
+    "short": "Unicode",
+    "kind": "standards_body",
+    "url": "https://www.unicode.org/"
+  },
+  "act": "UAX #14 revision 57 (Unicode 18.0.0)",
+  "acts": [
+    "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+    "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+  ],
+  "location": "Section 5.1, class B2",
+  "text": {
+    "en": {
+      "title": "UAX #14 rev. 57, Section 5.1 B2: is the Spanish parenthetical em dash a default behaviour or a tailoring?",
+      "summary": "The B2 description says that in Spanish the dashes around a parenthetical should not be broken from the contained text; one paragraph earlier it says line breaks can occur before and after an EM DASH. The rules follow the first sentence: LB17 covers only B2 SP* × B2, and LineBreakTest.txt expects breaks between EM DASH and a following or preceding letter. The description does not say that the Spanish convention needs tailoring, and Section 8 does not mention it.",
+      "impact": "“a —b— c”: the rules allow a line to end with the opening dash and to start with the closing dash.",
+      "correction": "If the convention requires tailoring, say so in the B2 description and refer to Section 8."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Section 5.1, class B2",
+        "text": "Some languages, including Spanish, use EM DASH to set off a parenthetical, and the surrounding dashes should not be broken from the contained text.",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+        "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/296df5332aefe695-tr14-57.html",
+        "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Section 5.1, class B2",
+        "text": "Line breaks can occur before and after an EM DASH.",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+        "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/296df5332aefe695-tr14-57.html",
+        "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T20:19:00Z",
+      "institution": "Unicode Consortium",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+      "what": "one PDF with 18 reports"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Unicode Consortium",
+      "role": "publishes the annex and the Unicode Character Database"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T20:30:00Z",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Unicode Consortium (e-mail)"
+    }
+  ]
+}

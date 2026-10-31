@@ -1,0 +1,156 @@
+{
+  "id": "ARXO-2026-0457",
+  "url": "https://arxo.io/findings/ARXO-2026-0457/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "Unicode Technical Committee",
+  "issuer": {
+    "name": "Unicode Consortium",
+    "short": "Unicode",
+    "kind": "standards_body",
+    "url": "https://www.unicode.org/"
+  },
+  "act": "UAX #14 revision 57 (Unicode 18.0.0)",
+  "acts": [
+    "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+    "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+  ],
+  "location": "Section 10, Table 4",
+  "text": {
+    "en": {
+      "title": "UAX #14 rev. 57, Section 10 Table 4: rows LB12a and LB12b do not match Section 6 or the test rules",
+      "summary": "Table 4 numbers the test rules “LB12a | 12.0 | GL ×” and “LB12b | 12.1 | [^SP, BA, HY] × GL”. Section 6 has no rule LB12b: it has LB12, “GL ×”, and LB12a, “[^SP HY HH] × GL”, and the Modifications section records that Unicode 18.0 removed BA from LB12a. Both rows are one rule name off, and the formula of row 12.1 predates both recent changes of LB12a.",
+      "impact": "U+2013 EN DASH (BA in 18.0), U+00A0 NO-BREAK SPACE, U+0061, position 1: LB12a and LineBreakTest.txt give no break; the formula of Table 4 allows a break.",
+      "correction": "Read “LB12 | 12.0 | GL ×” and “LB12a | 12.1 | [^SP HY HH] × GL” in Table 4."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Section 10, Table 4",
+        "text": "LB12a | 12.0 | GL ×",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+        "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/296df5332aefe695-tr14-57.html",
+        "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Section 10, Table 4",
+        "text": "LB12b | 12.1 | [^SP, BA, HY] × GL",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+        "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/296df5332aefe695-tr14-57.html",
+        "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Section 10, Table 4",
+        "text": "LB12a Do not break before NBSP and related characters, except after spaces and hyphens. [^SP HY HH] × GL",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+        "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/296df5332aefe695-tr14-57.html",
+        "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q4",
+        "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Section 10, Table 4",
+        "text": "Changed rule LB12a to disallow a break between BA and GL, e.g., between EN DASH and NO-BREAK SPACE. [187-C46]",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+        "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/296df5332aefe695-tr14-57.html",
+        "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31",
+      "institution": "Unicode Consortium",
+      "channel": "web_form"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Unicode Consortium",
+      "role": "publishes the annex and the Unicode Character Database"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T20:30:00Z",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Unicode Consortium (web form)"
+    }
+  ]
+}

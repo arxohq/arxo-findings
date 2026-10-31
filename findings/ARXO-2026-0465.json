@@ -1,0 +1,142 @@
+{
+  "id": "ARXO-2026-0465",
+  "url": "https://arxo.io/findings/ARXO-2026-0465/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": null,
+  "jurisdiction_detail": "Unicode Technical Committee",
+  "issuer": {
+    "name": "Unicode Consortium",
+    "short": "Unicode",
+    "kind": "standards_body",
+    "url": "https://www.unicode.org/"
+  },
+  "act": "UAX #14 revision 57 (Unicode 18.0.0)",
+  "acts": [
+    "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+    "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+  ],
+  "location": "Section 9.2, Legacy-CM",
+  "text": {
+    "en": {
+      "title": "UAX #14 rev. 57, Section 9.2: does Legacy-CM intentionally keep the LB8 break inside ZW SP CM?",
+      "summary": "Legacy-CM changes a space that is the base of a combining mark to ID only in rules following LB8. For ZERO WIDTH SPACE, SPACE and a combining mark, LB8 gives a break before the mark before the tailoring applies, so the break falls inside SP CM*, which Section 9.2 describes as an indivisible cluster under the earlier practice.",
+      "impact": "U+200B, U+0020, U+0301, U+0062: under Legacy-CM a line may start with the combining mark.",
+      "correction": "If the exception is intended, state it in Section 9.2."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Section 9.2, Legacy-CM",
+        "text": "Legacy-CM: In all of the rules following rule LB8, if a space is the base character for a combining mark, the space is changed to type ID.",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+        "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/296df5332aefe695-tr14-57.html",
+        "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "rule LB8",
+        "text": "LB8 Break before any character following a zero-width space, even if one or more spaces intervene. ZW SP* ÷",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+        "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/296df5332aefe695-tr14-57.html",
+        "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Section 9.2, Legacy-CM",
+        "text": "Previously, whenever the base character was SP, the sequences CM* and SP CM* were defined to act like indivisible clusters",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+        "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/296df5332aefe695-tr14-57.html",
+        "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T20:19:00Z",
+      "institution": "Unicode Consortium",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+      "what": "one PDF with 18 reports"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Unicode Consortium",
+      "role": "publishes the annex and the Unicode Character Database"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T20:30:00Z",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Unicode Consortium (e-mail)"
+    }
+  ]
+}

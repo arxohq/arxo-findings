@@ -1,0 +1,174 @@
+{
+  "id": "ARXO-2026-0470",
+  "url": "https://arxo.io/findings/ARXO-2026-0470/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": null,
+  "jurisdiction_detail": "Unicode Technical Committee",
+  "issuer": {
+    "name": "Unicode Consortium",
+    "short": "Unicode",
+    "kind": "standards_body",
+    "url": "https://www.unicode.org/"
+  },
+  "act": "UAX #29 revision 49 (Unicode 18.0.0)",
+  "acts": [
+    "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+    "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+  ],
+  "location": "Section 4.2.1, against Table 3",
+  "text": {
+    "en": {
+      "title": "UAX #29 rev. 49, Section 4.2.1: should the text note that U+058A is ALetter and U+30A0 is Katakana by default?",
+      "summary": "Section 4.2.1 says hyphens are better kept out of the default word definition and names U+058A ARMENIAN HYPHEN and U+30A0 KATAKANA-HIRAGANA DOUBLE HYPHEN. Table 3 puts U+058A in ALetter and U+30A0 in Katakana, so by default they do not break words between letters of those classes.",
+      "impact": "Armenian letters around U+058A and Katakana letters around U+30A0 form one word by default.",
+      "correction": "Note in Section 4.2.1 that U+058A is ALetter and U+30A0 is Katakana in the default rules."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Section 4.2.1, against Table 3",
+        "text": "it is better overall to keep the hyphen out of the default definition. Hyphens include U+002D HYPHEN-MINUS, U+2010 HYPHEN, possibly also U+058A ARMENIAN HYPHEN, and U+30A0 KATAKANA-HIRAGANA DOUBLE HYPHEN.",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+        "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+        "retrieved": "2026-10-31",
+        "copy": "sources/60fb49ee640a154d-tr29-49.html",
+        "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Table 3, row Katakana",
+        "text": "Katakana | Script = KATAKANA, or any of the following:",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+        "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+        "retrieved": "2026-10-31",
+        "copy": "sources/60fb49ee640a154d-tr29-49.html",
+        "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Table 3, row Katakana",
+        "text": "U+30A0 ( ゠ ) KATAKANA-HIRAGANA DOUBLE HYPHEN",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+        "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+        "retrieved": "2026-10-31",
+        "copy": "sources/60fb49ee640a154d-tr29-49.html",
+        "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q4",
+        "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Table 3, row ALetter",
+        "text": "ALetter | Alphabetic = Yes, or any of the following characters:",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+        "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+        "retrieved": "2026-10-31",
+        "copy": "sources/60fb49ee640a154d-tr29-49.html",
+        "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q5",
+        "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Table 3, row ALetter",
+        "text": "U+058A ( ֊ ) ARMENIAN HYPHEN",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+        "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+        "retrieved": "2026-10-31",
+        "copy": "sources/60fb49ee640a154d-tr29-49.html",
+        "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T20:19:00Z",
+      "institution": "Unicode Consortium",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+      "what": "one PDF with 18 reports"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Unicode Consortium",
+      "role": "publishes the annex and the Unicode Character Database"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T20:30:00Z",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Unicode Consortium (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "ARXO-2026-0463",
+  "url": "https://arxo.io/findings/ARXO-2026-0463/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": null,
+  "jurisdiction_detail": "Unicode Technical Committee",
+  "issuer": {
+    "name": "Unicode Consortium",
+    "short": "Unicode",
+    "kind": "standards_body",
+    "url": "https://www.unicode.org/"
+  },
+  "act": "LineBreak.txt (UCD 18.0.0)",
+  "acts": [
+    "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+    "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+  ],
+  "location": "file header, against the data for U+1F80C..U+1F8FF",
+  "text": {
+    "en": {
+      "title": "LineBreak.txt 18.0.0: do the 85 unassigned code points in Supplemental Arrows-C default to ID, as the header says, or XX, as the data says?",
+      "summary": "The header of LineBreak.txt says all unassigned code points in U+1F000..U+1FAFF default to ID. In the data, 85 unassigned code points in Supplemental Arrows-C (U+1F80C..U+1F80F up to U+1F8D9..U+1F8FF) are XX, and LineBreakTest.txt uses U+1F8FF as XX.",
+      "impact": "U+0061, U+1F8FF, U+0062: as XX there is no break; as ID there is a break on both sides.",
+      "correction": "State which is intended for these code points and align the header or the data."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "LineBreak.txt (UCD 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "file header, against the data for U+1F80C..U+1F8FF",
+        "text": "All unassigned code points in the following Plane 1 ranges, whether",
+        "translations": {},
+        "url": "https://www.unicode.org/Public/18.0.0/ucd/LineBreak.txt",
+        "sha256": "ae8cf1970c73f3f1a12d77852df96c4b2b1723ca8b388e36bb5739250c6849de",
+        "retrieved": "2026-10-31",
+        "copy": "sources/ae8cf1970c73f3f1-LineBreak.txt",
+        "copy_sha256": "ae8cf1970c73f3f1a12d77852df96c4b2b1723ca8b388e36bb5739250c6849de",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "LineBreak.txt (UCD 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "file header, against the data for U+1F80C..U+1F8FF",
+        "text": "inside or outside of allocated blocks, also default to \"ID\"",
+        "translations": {},
+        "url": "https://www.unicode.org/Public/18.0.0/ucd/LineBreak.txt",
+        "sha256": "ae8cf1970c73f3f1a12d77852df96c4b2b1723ca8b388e36bb5739250c6849de",
+        "retrieved": "2026-10-31",
+        "copy": "sources/ae8cf1970c73f3f1-LineBreak.txt",
+        "copy_sha256": "ae8cf1970c73f3f1a12d77852df96c4b2b1723ca8b388e36bb5739250c6849de",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T20:19:00Z",
+      "institution": "Unicode Consortium",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+      "what": "one PDF with 18 reports"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Unicode Consortium",
+      "role": "publishes the annex and the Unicode Character Database"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T20:30:00Z",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Unicode Consortium (e-mail)"
+    }
+  ]
+}

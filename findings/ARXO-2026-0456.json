@@ -1,0 +1,140 @@
+{
+  "id": "ARXO-2026-0456",
+  "url": "https://arxo.io/findings/ARXO-2026-0456/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "Unicode Technical Committee",
+  "issuer": {
+    "name": "Unicode Consortium",
+    "short": "Unicode",
+    "kind": "standards_body",
+    "url": "https://www.unicode.org/"
+  },
+  "act": "UAX #14 revision 57 (Unicode 18.0.0)",
+  "acts": [
+    "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+    "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+  ],
+  "location": "Section 5.1, class AL",
+  "text": {
+    "en": {
+      "title": "UAX #14 rev. 57, Section 5.1 class AL: format characters listed as AL are Line_Break=NU in the data",
+      "summary": "The class AL description lists U+0600..U+0604, U+06DD and U+110BD among the format characters of class AL. LineBreak.txt 18.0.0 gives them Line_Break=NU since Unicode 15.1 (UTC action item 176-A81), and the NU description does not mention them. The table was not updated; revision 55 has the same table.",
+      "impact": "U+0061, U+0020 SPACE, U+002E FULL STOP, U+0600 ARABIC NUMBER SIGN, position 2: as NU (data) LB15c gives a break before the full stop; as AL (the table) LB15d gives none. Published implementations split between the two readings.",
+      "correction": "Move the rows for U+0600..U+0604, U+06DD and U+110BD from the AL table to the NU description."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Section 5.1, class AL",
+        "text": "0600..0604 | ARABIC NUMBER SIGN..ARABIC SIGN SAMVAT",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+        "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/296df5332aefe695-tr14-57.html",
+        "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Section 5.1, class AL",
+        "text": "06DD | ARABIC END OF AYAH",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+        "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/296df5332aefe695-tr14-57.html",
+        "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "UAX #14 revision 57 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Section 5.1, class AL",
+        "text": "110BD | KAITHI NUMBER SIGN",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr14/tr14-57.html",
+        "sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/296df5332aefe695-tr14-57.html",
+        "copy_sha256": "296df5332aefe695b4951b511288b118bc6a7b43db7fadfd60f6062096acc7c0",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31",
+      "institution": "Unicode Consortium",
+      "channel": "web_form"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Unicode Consortium",
+      "role": "publishes the annex and the Unicode Character Database"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T20:30:00Z",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Unicode Consortium (web form)"
+    }
+  ]
+}

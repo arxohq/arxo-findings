@@ -1,0 +1,142 @@
+{
+  "id": "ARXO-2026-0472",
+  "url": "https://arxo.io/findings/ARXO-2026-0472/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "Unicode Technical Committee",
+  "issuer": {
+    "name": "Unicode Consortium",
+    "short": "Unicode",
+    "kind": "standards_body",
+    "url": "https://www.unicode.org/"
+  },
+  "act": "UAX #29 revision 49 (Unicode 18.0.0)",
+  "acts": [
+    "Unicode Standard Annex #14, Unicode Line Breaking Algorithm, revision 57",
+    "Unicode Standard Annex #29, Unicode Text Segmentation, revision 49"
+  ],
+  "location": "Section 7, example of test rule numbering",
+  "text": {
+    "en": {
+      "title": "UAX #29 rev. 49, Section 7: the numbering example “21.01) × $BA, 21.02) × $HY” is a line-breaking rule",
+      "summary": "The example of hundredths numbering in Section 7 comes from line breaking: UAX #29 has no rule 21 and no classes BA or HY, and the segmentation test rules have no such lines. Revision 47 has the same example.",
+      "impact": "A reader of UAX #29 cannot find the rules the example numbers.",
+      "correction": "Replace the example with one from the segmentation test rules."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Section 7, example of test rule numbering",
+        "text": "Where a rule has multiple parts (lines), each one is numbered using hundredths, such as",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+        "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+        "retrieved": "2026-10-31",
+        "copy": "sources/60fb49ee640a154d-tr29-49.html",
+        "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Section 7, example of test rule numbering",
+        "text": "21.01) × $BA",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+        "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+        "retrieved": "2026-10-31",
+        "copy": "sources/60fb49ee640a154d-tr29-49.html",
+        "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "UAX #29 revision 49 (Unicode 18.0.0), Unicode Consortium",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Unicode 18.0.0",
+        "locator": "Section 7, example of test rule numbering",
+        "text": "21.02) × $HY",
+        "translations": {},
+        "url": "https://www.unicode.org/reports/tr29/tr29-49.html",
+        "sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+        "retrieved": "2026-10-31",
+        "copy": "sources/60fb49ee640a154d-tr29-49.html",
+        "copy_sha256": "60fb49ee640a154d9e40468306c6b283edcef73be3af5ede778107b4787bdec8",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T20:19:00Z",
+      "institution": "Unicode Consortium",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH71i9Rky90g_YO=CGO3xx7NZFnEg==fkn2PuRp_7WpgjHw@mail.gmail.com>",
+      "what": "one PDF with 18 reports"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Unicode Consortium",
+      "role": "publishes the annex and the Unicode Character Database"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI agents read the annexes and the data files and compared them; the examples were run through published implementations. An AI coordinator checked each place against the full annex and the trackers, and two further AI models checked the report before filing."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T20:30:00Z",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Unicode Consortium (e-mail)"
+    }
+  ]
+}
