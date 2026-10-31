@@ -1,0 +1,254 @@
+{
+  "id": "ARXO-2026-0440",
+  "url": "https://arxo.io/findings/ARXO-2026-0440/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 593/2008 (Rome I)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 7(3), points (a) and (c), Slovak, Dutch, Finnish, Swedish, Estonian and Slovenian versions",
+  "text": {
+    "en": {
+      "title": "Rome I, six versions: does Article 7(3) limit the choice for mass risks to the law of a Member State?",
+      "summary": "In points (a) and (c) of Article 7(3) most versions limit the choice for mass-risk insurance to the law of a Member State. The Slovak, Dutch and Finnish texts of point (a) and the Swedish, Estonian and Slovenian texts of point (c) speak of a country or state.",
+      "impact": "Read alone, these texts allow the choice of the law of a third country for a mass risk.",
+      "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: say Member State in the six versions, as in the others.",
+      "quote_translations": {
+        "q1": "of any country",
+        "q2": "the country",
+        "q3": "of the state",
+        "q4": "the law of the country",
+        "q5": "the law of the state",
+        "q6": "the law of the state"
+      }
+    },
+    "et": {
+      "title": "Rooma I, kuus keeleversiooni: kas artikli 7 lõige 3 piirab massriskide puhul valikut liikmesriigi õigusega?",
+      "summary": "Artikli 7 lõike 3 punktides a ja c piirab enamik versioone massriskide kindlustuse puhul valikut liikmesriigi õigusega. Slovaki, hollandi ja soome tekst punktis a ning rootsi, eesti ja sloveeni tekst punktis c kasutavad liikmesriigi asemel maad või riiki tähistavat sõna.",
+      "impact": "Eraldi lugedes lubavad need tekstid massriski puhul valida kolmanda riigi õiguse.",
+      "correction": "Juristlingvistid võiksid öelda, kas sõnastus tuleks viia kooskõlla teiste keeleversioonidega: kasutada kõigis kuues versioonis sõna „liikmesriik“, nagu teistes versioonides."
+    },
+    "fi": {
+      "title": "Rooma I, kuusi kieliversiota: rajoittaako 7 artiklan 3 kohta massariskien osalta lakivalinnan jäsenvaltion lakiin?",
+      "summary": "Useimmat kieliversiot rajoittavat 7 artiklan 3 kohdan a ja c alakohdassa massariskien vakuutusten lakivalinnan jäsenvaltion lakiin. Slovakin-, hollannin- ja suomenkielinen teksti a alakohdassa sekä ruotsin-, viron- ja sloveeninkielinen teksti c alakohdassa puhuvat maasta tai valtiosta.",
+      "impact": "Yksinään luettuina nämä tekstit sallivat kolmannen maan lain valitsemisen massariskin vakuuttamiseen.",
+      "correction": "Lakimieslingvistit voisivat todeta, pitäisikö sanamuoto yhdenmukaistaa muiden kieliversioiden kanssa: käyttää kaikissa kuudessa kieliversiossa sanaa ”jäsenvaltio”, kuten muissa kieliversioissa."
+    },
+    "nl": {
+      "title": "Rome I, zes versies: beperkt artikel 7, lid 3, de keuze voor massarisico's tot het recht van een lidstaat?",
+      "summary": "In artikel 7, lid 3, onder a) en c), beperken de meeste versies de keuze voor verzekering van massarisico's tot het recht van een lidstaat. De Slowaakse, Nederlandse en Finse tekst onder a) en de Zweedse, Estse en Sloveense tekst onder c) spreken van een land of staat.",
+      "impact": "Op zichzelf gelezen staan deze teksten toe dat voor een massarisico het recht van een derde land wordt gekozen.",
+      "correction": "De juristen-linguïsten zouden kunnen aangeven of de formulering in overeenstemming moet worden gebracht met de andere taalversies: in de zes versies „lidstaat” schrijven, zoals in de andere versies."
+    },
+    "sk": {
+      "title": "Rím I, šesť jazykových znení: obmedzuje článok 7 ods. 3 voľbu pri hromadných rizikách na právny poriadok členského štátu?",
+      "summary": "V písmenách a) a c) článku 7 ods. 3 väčšina znení obmedzuje voľbu pri poistení hromadných rizík na právny poriadok členského štátu. Slovenské, holandské a fínske znenie písmena a) a švédske, estónske a slovinské znenie písmena c) hovoria o krajine alebo štáte.",
+      "impact": "Ak sa čítajú samostatne, tieto znenia umožňujú pri hromadnom riziku zvoliť právny poriadok tretej krajiny.",
+      "correction": "Právnici lingvisti by mohli posúdiť, či by sa znenie malo zosúladiť s ostatnými jazykovými zneniami: uviesť v šiestich zneniach „členský štát“, ako v ostatných zneniach."
+    },
+    "sl": {
+      "title": "Rim I, šest jezikovnih različic: ali člen 7(3) omejuje izbiro pri zavarovanju nevarnosti, ki niso velike, na pravo države članice?",
+      "summary": "V točkah (a) in (c) člena 7(3) večina različic omejuje izbiro pri zavarovanju nevarnosti, ki niso velike, na pravo države članice. Slovaško, nizozemsko in finsko besedilo točke (a) ter švedsko, estonsko in slovensko besedilo točke (c) govorijo o državi, ne da bi jo opredelili kot državo članico.",
+      "impact": "Če se berejo sama zase, ta besedila dopuščajo izbiro prava tretje države za zavarovanje nevarnosti, ki ni velika.",
+      "correction": "Pravniki lingvisti bi lahko povedali, ali bi bilo treba besedilo uskladiti z drugimi jezikovnimi različicami: v šestih različicah zapisati „država članica“, kot v drugih različicah."
+    },
+    "sv": {
+      "title": "Rom I, sex språkversioner: begränsar artikel 7.3 valet för massrisker till lagen i en medlemsstat?",
+      "summary": "I artikel 7.3 a och c begränsar de flesta versioner valet för försäkring av massrisker till lagen i en medlemsstat. Den slovakiska, nederländska och finska texten i led a och den svenska, estniska och slovenska texten i led c talar om ett land eller en stat.",
+      "impact": "Lästa för sig tillåter dessa texter att lagen i ett tredjeland väljs för en massrisk.",
+      "correction": "Juristlingvisterna skulle kunna säga om lydelsen bör anpassas till de andra språkversionerna: skriva ”medlemsstat” i de sex versionerna, som i de övriga."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A language version",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Slovak version",
+        "role": "Language version",
+        "language": "sk",
+        "edition": "published",
+        "locator": "Article 7(3)(a) (Slovak)",
+        "text": "ktorejkoľvek krajiny",
+        "translations": {
+          "en": "of any country"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/SK/TXT/?uri=CELEX:32008R0593",
+        "sha256": "1832109477f6a976318facabc052182a03a4614ffd3eb0b0a74436f64290ce74",
+        "retrieved": "2026-10-31",
+        "copy": "sources/1832109477f6a976-slk.xhtml",
+        "copy_sha256": "1832109477f6a976318facabc052182a03a4614ffd3eb0b0a74436f64290ce74",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Dutch version",
+        "role": "Language version",
+        "language": "nl",
+        "edition": "published",
+        "locator": "Article 7(3)(a) (Dutch)",
+        "text": "het land",
+        "translations": {
+          "en": "the country"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32008R0593",
+        "sha256": "aa80a60c28e2ed5a9af7baf74b6efb039cf8860eb68a86344438ffb9342572f3",
+        "retrieved": "2026-10-31",
+        "copy": "sources/aa80a60c28e2ed5a-nld.xhtml",
+        "copy_sha256": "aa80a60c28e2ed5a9af7baf74b6efb039cf8860eb68a86344438ffb9342572f3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Finnish version",
+        "role": "Language version",
+        "language": "fi",
+        "edition": "published",
+        "locator": "Article 7(3)(a) (Finnish)",
+        "text": "sen valtion",
+        "translations": {
+          "en": "of the state"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/FI/TXT/?uri=CELEX:32008R0593",
+        "sha256": "f24dd6f25e37b7d3d133ccccd8659b6d6ba8607d0720c9f99b692080fda94d16",
+        "retrieved": "2026-10-31",
+        "copy": "sources/f24dd6f25e37b7d3-fin.xhtml",
+        "copy_sha256": "f24dd6f25e37b7d3d133ccccd8659b6d6ba8607d0720c9f99b692080fda94d16",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q4",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Swedish version",
+        "role": "Language version",
+        "language": "sv",
+        "edition": "published",
+        "locator": "Article 7(3)(c) (Swedish)",
+        "text": "lagen i det land",
+        "translations": {
+          "en": "the law of the country"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/SV/TXT/?uri=CELEX:32008R0593",
+        "sha256": "c3c0eda5c83bb5d578b107b48899ac5d9e0d157f801ed737cf274af9108d88d0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/c3c0eda5c83bb5d5-swe.xhtml",
+        "copy_sha256": "c3c0eda5c83bb5d578b107b48899ac5d9e0d157f801ed737cf274af9108d88d0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q5",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Estonian version",
+        "role": "Language version",
+        "language": "et",
+        "edition": "published",
+        "locator": "Article 7(3)(c) (Estonian)",
+        "text": "selle riigi õiguse",
+        "translations": {
+          "en": "the law of the state"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/ET/TXT/?uri=CELEX:32008R0593",
+        "sha256": "63523e7649f28b3f14c9d623feac1b45c07f32062a46f4ebb3185ac0989cb71c",
+        "retrieved": "2026-10-31",
+        "copy": "sources/63523e7649f28b3f-est.xhtml",
+        "copy_sha256": "63523e7649f28b3f14c9d623feac1b45c07f32062a46f4ebb3185ac0989cb71c",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q6",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Slovenian version",
+        "role": "Language version",
+        "language": "sl",
+        "edition": "published",
+        "locator": "Article 7(3)(c) (Slovenian)",
+        "text": "pravo države",
+        "translations": {
+          "en": "the law of the state"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/SL/TXT/?uri=CELEX:32008R0593",
+        "sha256": "105a90b5015f11e393ecf13785ba143eb7892fb73ea7ca492ac8fdfd747e3309",
+        "retrieved": "2026-10-31",
+        "copy": "sources/105a90b5015f11e3-slv.xhtml",
+        "copy_sha256": "105a90b5015f11e393ecf13785ba143eb7892fb73ea7ca492ac8fdfd747e3309",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:12:59Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:12:56Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T14:22:13+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

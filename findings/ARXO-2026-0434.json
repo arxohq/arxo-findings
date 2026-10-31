@@ -1,0 +1,145 @@
+{
+  "id": "ARXO-2026-0434",
+  "url": "https://arxo.io/findings/ARXO-2026-0434/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 593/2008 (Rome I)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 7(2), second subparagraph, Irish version",
+  "text": {
+    "en": {
+      "title": "Rome I, Irish version: is a large-risk insurance contract without a choice governed by the law of the consumer or of the insurer?",
+      "summary": "The other versions point to the law of the country where the insurer has his habitual residence. The Irish text names the consumer, a party that a large-risk insurance contract does not have.",
+      "impact": "For a large-risk policy between an insurer in one Member State and a business policy holder in another, without a choice of law, the Irish text points away from the insurer's country.",
+      "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: replace the consumer with the insurer in Irish Article 7(2), second subparagraph.",
+      "quote_translations": {
+        "q1": "the law of the country where the consumer has his habitual residence"
+      }
+    },
+    "ga": {
+      "title": "An Róimh I, an leagan Gaeilge: an é dlí an tomhaltóra nó dlí an árachóra a rialaíonn conradh árachais a chumhdaíonn mór-riosca nuair nach ndearnadh rogha dlí?",
+      "summary": "Díríonn na leaganacha eile ar dhlí na tíre ina bhfuil gnáthchónaí ar an árachóir. Ainmníonn an téacs Gaeilge an tomhaltóir, páirtí nach bhfuil i gconradh árachais a chumhdaíonn mór-riosca.",
+      "impact": "I gcás polasaí a chumhdaíonn mór-riosca idir árachóir i mBallstát amháin agus sealbhóir polasaí ar gnólacht é i mBallstát eile, gan rogha dlí, díríonn an téacs Gaeilge ar dhlí nach é dlí thír an árachóra é.",
+      "correction": "D'fhéadfadh na dlítheangeolaithe a rá ar cheart an fhoclaíocht a ailíniú leis na leaganacha eile: an t-árachóir a chur in ionad an tomhaltóra sa dara fomhír de mhír 2 d'Airteagal 7 den leagan Gaeilge."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A language version",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Irish version",
+        "role": "Language version",
+        "language": "ga",
+        "edition": "published",
+        "locator": "Article 7(2), second subparagraph (Irish)",
+        "text": "is é dlí na tíre ina bhfuil gnáthchónaí ar an tomhaltóir",
+        "translations": {
+          "en": "the law of the country where the consumer has his habitual residence"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/GA/TXT/?uri=CELEX:32008R0593",
+        "sha256": "3da4017441ff5d684235870f351dedf840e0aeb9fe3e8431dc1b84863565f5ab",
+        "retrieved": "2026-10-31",
+        "copy": "sources/3da4017441ff5d68-gle.xhtml",
+        "copy_sha256": "3da4017441ff5d684235870f351dedf840e0aeb9fe3e8431dc1b84863565f5ab",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 7(2), second subparagraph (English)",
+        "text": "where the insurer has his habitual residence",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0593",
+        "sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+        "retrieved": "2026-10-31",
+        "copy": "sources/2f33c017cfb9fac3-eng.xhtml",
+        "copy_sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:12:59Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:12:56Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T14:22:13+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "ARXO-2026-0444",
+  "url": "https://arxo.io/findings/ARXO-2026-0444/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 864/2007 (Rome II)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 4(2), Croatian version",
+  "text": {
+    "en": {
+      "title": "Rome II, Croatian version: does Article 4(2) apply to the person claimed to be liable or only to a person whose liability is established?",
+      "summary": "The other versions apply the common habitual residence rule to the person claimed to be liable. The Croatian text speaks of the person whose liability has been established.",
+      "impact": "Read alone, the Croatian rule assumes liability before the applicable law that decides it has been found.",
+      "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: align Croatian Article 4(2) with the person claimed to be liable.",
+      "quote_translations": {
+        "q1": "the person whose liability has been established"
+      }
+    },
+    "hr": {
+      "title": "Rim II, hrvatska verzija: primjenjuje li se članak 4. stavak 2. na osobu za koju se tvrdi da je odgovorna ili samo na osobu kojoj je odgovornost utvrđena?",
+      "summary": "Druge verzije primjenjuju pravilo o uobičajenom boravištu u istoj državi na osobu za koju se tvrdi da je odgovorna. Hrvatski tekst glasi „osoba kojoj je utvrđena odgovornost“.",
+      "impact": "Ako se čita zasebno, hrvatsko pravilo pretpostavlja odgovornost prije nego što je utvrđeno mjerodavno pravo na temelju kojeg se o njoj odlučuje.",
+      "correction": "Pravnici lingvisti mogli bi reći treba li tekst uskladiti s drugim jezičnim verzijama: uskladiti članak 4. stavak 2. hrvatske verzije s izrazom osoba za koju se tvrdi da je odgovorna."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A language version",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Croatian version",
+        "role": "Language version",
+        "language": "hr",
+        "edition": "published",
+        "locator": "Article 4(2) (Croatian)",
+        "text": "osoba kojoj je utvrđena odgovornost",
+        "translations": {
+          "en": "the person whose liability has been established"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:32007R0864",
+        "sha256": "658dff9208be23eac15914a531d271ad8387d090233f88afe9e5423ddb7686f8",
+        "retrieved": "2026-10-31",
+        "copy": "sources/658dff9208be23ea-hrv.xhtml",
+        "copy_sha256": "658dff9208be23eac15914a531d271ad8387d090233f88afe9e5423ddb7686f8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 4(2) (English)",
+        "text": "the person claimed to be liable",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32007R0864",
+        "sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/488bfcf5bcbcb4e1-eng.xhtml",
+        "copy_sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:12:59Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:12:56Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T14:22:13+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

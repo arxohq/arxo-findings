@@ -1,0 +1,148 @@
+{
+  "id": "ARXO-2026-0431",
+  "url": "https://arxo.io/findings/ARXO-2026-0431/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 864/2007 (Rome II)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 11(1), Greek version, as corrected in 2014",
+  "text": {
+    "en": {
+      "title": "Rome II, Greek version: should Article 11(1) on negotiorum gestio refer to unjust enrichment, as the 2014 corrigendum made it?",
+      "summary": "The Greek corrigendum of 31 December 2014 replaced, in Article 11(1), the words with this non-contractual obligation by with that unjust enrichment. Article 11 is about negotiorum gestio, and the original Greek wording, like the other versions, tied the connection to that obligation. The same corrigendum also corrected Article 10(1), on unjust enrichment.",
+      "impact": "A court that reads the Greek text looks for the country most closely connected with an unjust enrichment that may not exist in a case of negotiorum gestio.",
+      "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: restore the original Greek wording of Article 11(1).",
+      "quote_translations": {
+        "q1": "with that unjust enrichment",
+        "q2": "with this non-contractual obligation"
+      }
+    },
+    "el": {
+      "title": "Ρώμη ΙΙ, ελληνική απόδοση: πρέπει το άρθρο 11 παράγραφος 1 για τη διοίκηση αλλοτρίων να παραπέμπει στον αδικαιολόγητο πλουτισμό, όπως προβλέπει το διορθωτικό του 2014;",
+      "summary": "Το ελληνικό διορθωτικό της 31ης Δεκεμβρίου 2014 αντικατέστησε στο άρθρο 11 παράγραφος 1 τις λέξεις «με την εξωσυμβατική αυτή ενοχή» με τις λέξεις «με αυτό τον αδικαιολόγητο πλουτισμό». Το άρθρο 11 αφορά τη διοίκηση αλλοτρίων, και η αρχική ελληνική διατύπωση, όπως και οι άλλες γλωσσικές αποδόσεις, συνέδεε την υφιστάμενη σχέση με την ενοχή αυτή. Το ίδιο διορθωτικό διόρθωσε επίσης το άρθρο 10 παράγραφος 1, για τον αδικαιολόγητο πλουτισμό.",
+      "impact": "Δικαστήριο που διαβάζει το ελληνικό κείμενο αναζητά τη χώρα με την οποία συνδέεται στενότερα ένας αδικαιολόγητος πλουτισμός που ενδέχεται να μην υπάρχει σε περίπτωση διοίκησης αλλοτρίων.",
+      "correction": "Οι γλωσσομαθείς νομικοί θα μπορούσαν να διευκρινίσουν αν η διατύπωση πρέπει να ευθυγραμμιστεί με τις άλλες γλωσσικές αποδόσεις: αποκατάσταση της αρχικής ελληνικής διατύπωσης του άρθρου 11 παράγραφος 1."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A language version",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Corrigendum to Regulation (EC) No 864/2007 (Rome II), Official Journal of 31 December 2014, Greek version",
+        "role": "Correction",
+        "language": "el",
+        "edition": "published",
+        "locator": "Article 11(1) (Greek)",
+        "text": "με αυτό τον αδικαιολόγητο πλουτισμό",
+        "translations": {
+          "en": "with that unjust enrichment"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/EL/TXT/?uri=CELEX:32007R0864R(02)",
+        "sha256": "e5437b9803a0d2d744a2bff2591bc84a64da61fabd71ff03c52485799eb6e7c7",
+        "retrieved": "2026-10-31",
+        "copy": "sources/e5437b9803a0d2d7-32007R0864R(02)-ell.xhtml",
+        "copy_sha256": "e5437b9803a0d2d744a2bff2591bc84a64da61fabd71ff03c52485799eb6e7c7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Greek version",
+        "role": "Language version",
+        "language": "el",
+        "edition": "published",
+        "locator": "Article 11(1) (Greek)",
+        "text": "με την εξωσυμβατική αυτή ενοχή",
+        "translations": {
+          "en": "with this non-contractual obligation"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/EL/TXT/?uri=CELEX:32007R0864",
+        "sha256": "018c6580e7febf6b30fedcede546671bd06dadf4757e34aa6b34bec7f82fc1f4",
+        "retrieved": "2026-10-31",
+        "copy": "sources/018c6580e7febf6b-ell.xhtml",
+        "copy_sha256": "018c6580e7febf6b30fedcede546671bd06dadf4757e34aa6b34bec7f82fc1f4",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:12:59Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:12:56Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T14:22:13+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

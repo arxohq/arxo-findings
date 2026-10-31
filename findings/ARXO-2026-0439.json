@@ -1,0 +1,154 @@
+{
+  "id": "ARXO-2026-0439",
+  "url": "https://arxo.io/findings/ARXO-2026-0439/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 593/2008 (Rome I)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 7(2), second subparagraph, Latvian and Estonian versions",
+  "text": {
+    "en": {
+      "title": "Rome I, Latvian and Estonian versions: does the escape clause for large-risk insurance require a clear and manifest closer connection?",
+      "summary": "The other versions require that it is clear from all the circumstances that the contract is manifestly more closely connected with another country. The Latvian text has no word for clear or manifestly; the Estonian text keeps clearly but not manifestly.",
+      "impact": "A weaker connection is enough to leave the insurer's law under the Latvian and Estonian texts.",
+      "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: align Latvian and Estonian Article 7(2), second subparagraph, with the other versions.",
+      "quote_translations": {
+        "q1": "if the circumstances as a whole show that the contract is more closely connected",
+        "q2": "it clearly appears that the contract is more closely connected"
+      }
+    },
+    "et": {
+      "title": "Rooma I, läti ja eesti keeleversioon: kas suuri riske katvate kindlustuslepingute erandiklausli kohaldamiseks peab selgelt ilmnema, et leping on ilmselgelt tihedamalt seotud teise riigiga?",
+      "summary": "Teised versioonid nõuavad, et kõikidest asjaoludest ilmneks selgelt, et leping on ilmselgelt tihedamalt seotud mõne teise riigiga. Läti tekstis puudub sõna, mis vastaks sõnadele selgelt või ilmselgelt; eesti tekstis on säilinud sõna „selgelt“, kuid mitte ilmselgelt („ilmneb selgelt, et leping on tihedamalt seotud“).",
+      "impact": "Läti ja eesti teksti järgi piisab nõrgemast seosest, et kindlustusandja riigi õigus kõrvale jätta.",
+      "correction": "Juristlingvistid võiksid öelda, kas sõnastus tuleks viia kooskõlla teiste keeleversioonidega: viia läti ja eesti teksti artikli 7 lõike 2 teine lõik kooskõlla teiste versioonidega."
+    },
+    "lv": {
+      "title": "Roma I, latviešu un igauņu valodas versija: vai izņēmuma klauzula par lielu risku apdrošināšanu prasa, lai būtu skaidrs, ka līgums ir acīmredzami ciešāk saistīts ar citu valsti?",
+      "summary": "Pārējās versijas prasa, lai no visiem lietas apstākļiem būtu skaidrs, ka līgums ir acīmredzami ciešāk saistīts ar citu valsti. Latviešu tekstā nav vārda, kas atbilstu vārdiem skaidrs vai acīmredzami („Ja lietas apstākļu kopums liecina, ka līgums ir ciešāk saistīts“); igauņu tekstā ir saglabāts vārds skaidri, bet nav vārda acīmredzami.",
+      "impact": "Saskaņā ar latviešu un igauņu tekstu pietiek ar vājāku saikni, lai atkāptos no apdrošinātāja valsts tiesību aktu piemērošanas.",
+      "correction": "Juristi lingvisti varētu norādīt, vai formulējums būtu jāsaskaņo ar pārējām valodu versijām: saskaņot latviešu un igauņu teksta 7. panta 2. punkta otro daļu ar pārējām versijām."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A language version",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Latvian version",
+        "role": "Language version",
+        "language": "lv",
+        "edition": "published",
+        "locator": "Article 7(2), second subparagraph (Latvian)",
+        "text": "Ja lietas apstākļu kopums liecina, ka līgums ir ciešāk saistīts",
+        "translations": {
+          "en": "if the circumstances as a whole show that the contract is more closely connected"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/LV/TXT/?uri=CELEX:32008R0593",
+        "sha256": "d0028ccd5870f14af9cf33ce94867522f4fd1ff02a93a64ce0dd1070e6964fa5",
+        "retrieved": "2026-10-31",
+        "copy": "sources/d0028ccd5870f14a-lav.xhtml",
+        "copy_sha256": "d0028ccd5870f14af9cf33ce94867522f4fd1ff02a93a64ce0dd1070e6964fa5",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Estonian version",
+        "role": "Language version",
+        "language": "et",
+        "edition": "published",
+        "locator": "Article 7(2), second subparagraph (Estonian)",
+        "text": "ilmneb selgelt, et leping on tihedamalt seotud",
+        "translations": {
+          "en": "it clearly appears that the contract is more closely connected"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/ET/TXT/?uri=CELEX:32008R0593",
+        "sha256": "63523e7649f28b3f14c9d623feac1b45c07f32062a46f4ebb3185ac0989cb71c",
+        "retrieved": "2026-10-31",
+        "copy": "sources/63523e7649f28b3f-est.xhtml",
+        "copy_sha256": "63523e7649f28b3f14c9d623feac1b45c07f32062a46f4ebb3185ac0989cb71c",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:12:59Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:12:56Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T14:22:13+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

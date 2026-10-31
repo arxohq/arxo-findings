@@ -1,0 +1,145 @@
+{
+  "id": "ARXO-2026-0432",
+  "url": "https://arxo.io/findings/ARXO-2026-0432/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 593/2008 (Rome I)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 8(2), Croatian version",
+  "text": {
+    "en": {
+      "title": "Rome I, Croatian version: does Article 8(2) on employment contracts apply in the absence of a choice of law, as in the other versions?",
+      "summary": "The other 23 versions open paragraph 2 with the absence of a choice by the parties. The Croatian opening repeats the condition of paragraph 3 and makes paragraph 2 depend on paragraph 2 itself. Croatian corrigenda 32008R0593R(04) and R(06) do not touch Article 8.",
+      "impact": "For an employee who habitually works in one country under a contract without a choice of law, the Croatian text does not clearly state that the law of that country applies.",
+      "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: open Croatian Article 8(2) with the absence of a choice of law by the parties, as in the other versions.",
+      "quote_translations": {
+        "q1": "If the applicable law cannot be determined on the basis of paragraph 2."
+      }
+    },
+    "hr": {
+      "title": "Rim I, hrvatska verzija: primjenjuje li se članak 8. stavak 2. o ugovorima o radu kad stranke nisu izabrale mjerodavno pravo, kao u drugim verzijama?",
+      "summary": "Ostale 23 verzije započinju stavak 2. uvjetom da stranke nisu izabrale mjerodavno pravo. Hrvatski uvodni dio ponavlja uvjet iz stavka 3. i čini stavak 2. ovisnim o samom stavku 2. Hrvatski ispravci 32008R0593R(04) i R(06) ne mijenjaju članak 8.",
+      "impact": "Za zaposlenika koji uobičajeno izvršava svoj posao u jednoj državi na temelju ugovora bez izbora prava, hrvatski tekst ne navodi jasno da se primjenjuje pravo te države.",
+      "correction": "Pravnici lingvisti mogli bi reći treba li tekst uskladiti s drugim jezičnim verzijama: članak 8. stavak 2. hrvatske verzije započeti uvjetom da stranke nisu izabrale mjerodavno pravo, kao u drugim verzijama."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A language version",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Croatian version",
+        "role": "Language version",
+        "language": "hr",
+        "edition": "published",
+        "locator": "Article 8(2) (Croatian)",
+        "text": "Ako se mjerodavno pravo ne može utvrditi na temelju stavka 2.",
+        "translations": {
+          "en": "If the applicable law cannot be determined on the basis of paragraph 2."
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:32008R0593",
+        "sha256": "f9f22d6d143a16f74d397c8c12cd2abc3323e2b3659db22065ba7c12070bfd9a",
+        "retrieved": "2026-10-31",
+        "copy": "sources/f9f22d6d143a16f7-hrv.xhtml",
+        "copy_sha256": "f9f22d6d143a16f74d397c8c12cd2abc3323e2b3659db22065ba7c12070bfd9a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 8(2) (English)",
+        "text": "To the extent that the law applicable to the individual employment contract has not been chosen by the parties",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0593",
+        "sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+        "retrieved": "2026-10-31",
+        "copy": "sources/2f33c017cfb9fac3-eng.xhtml",
+        "copy_sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:12:59Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:12:56Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T14:22:13+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   <link rel="alternate" href="https://arxo.io/findings/"/>
   <link rel="self" href="https://arxo.io/findings/feed.atom"/>
   <id>https://arxo.io/findings/</id>
-  <updated>2026-10-31T13:56:33+00:00</updated>
+  <updated>2026-10-31T14:22:13+00:00</updated>
   <author><name>Arxo Law</name></author>
   <rights>Data: CC BY 4.0, Arxo Law</rights>
   <entry>
@@ -59,6 +59,126 @@
     <summary>Reported. Point (a) of Article 7(4) gives priority to the law of the Member State imposing the obligation to take out insurance, and point (b) lets each such State require the contract to be governed by its law. The two points do not say which of two such States prevails when their rules conflict.</summary>
   </entry>
   <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0449/</id>
+    <title>ARXO-2026-0449 — Rome II, Hungarian and Danish versions: does the review clause ask for more than the other versions?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0449/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The Hungarian and Danish texts of Article 30(1) add a sentence that the other versions do not have: the report shall in particular examine non-contractual obligations arising out of traffic accidents and violations of privacy and rights relating to personality, including defamation.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0448/</id>
+    <title>ARXO-2026-0448 — Rome II, Bulgarian version: does Article 22(2) cover the same acts as the other versions?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0448/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The other versions cover acts intended to have legal effect. The Bulgarian text covers unilateral declarations of will with legal effects.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0447/</id>
+    <title>ARXO-2026-0447 — Rome II, Romanian and Lithuanian versions: does Article 15 describe the same matters as the other versions?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0447/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In Article 15(d) the Romanian text speaks of protective measures where the other versions speak of the measures a court may take to prevent or stop injury or damage. In Article 15(h) the Lithuanian text names acquisitive prescription, which concerns property, beside the limitation of actions.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0446/</id>
+    <title>ARXO-2026-0446 — Rome II, Dutch and Romanian versions: does Article 23 define habitual residence in the same way as the other versions?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0446/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the second subparagraph of Article 23(1) the Dutch text names a subsidiary, a branch or another establishment where the other versions name a branch, an agency or any other establishment. In Article 23(2) the Romanian text replaces a natural person acting in the course of his or her business activity with activity during working hours.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0445/</id>
+    <title>ARXO-2026-0445 — Rome II, Croatian and Slovenian versions: must all the parties pursue a commercial activity for a choice under Article 14(1)(b)?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0445/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The other versions allow a freely negotiated choice before the event where all the parties pursue a commercial activity. The Croatian and Slovenian texts say both parties.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0444/</id>
+    <title>ARXO-2026-0444 — Rome II, Croatian version: does Article 4(2) apply to the person claimed to be liable or only to a person whose liability is established?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0444/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The other versions apply the common habitual residence rule to the person claimed to be liable. The Croatian text speaks of the person whose liability has been established.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0443/</id>
+    <title>ARXO-2026-0443 — Rome II, Bulgarian and Slovenian versions: does Article 6(3)(b) set the same conditions as the other versions?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0443/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Article 6(3)(b) lets the claimant rely on the law of the court where the market is affected in more than one country, if the market in that Member State is directly and substantially affected. The Bulgarian text says more than one Member State; the Slovenian text says directly or substantially.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0442/</id>
+    <title>ARXO-2026-0442 — Rome I and Rome II, Danish, Italian and Romanian versions: does the rule on multiple liability require joint and several liability?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0442/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Most versions apply the rule to several debtors liable for the same claim. The Danish and Italian texts of both Regulations, and the Romanian text of Rome I, say jointly and severally liable. The Romanian text of Rome II says liable together.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0441/</id>
+    <title>ARXO-2026-0441 — Rome I, five versions: are multilateral trading systems in Article 4(1)(h) defined by non-discretionary rules?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0441/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Article 4(1)(h) covers contracts in a multilateral system that brings together interests in financial instruments in accordance with non-discretionary rules. The Lithuanian, Greek, Maltese and Hungarian texts say non-discriminatory; the Danish text says mandatory.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0440/</id>
+    <title>ARXO-2026-0440 — Rome I, six versions: does Article 7(3) limit the choice for mass risks to the law of a Member State?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0440/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In points (a) and (c) of Article 7(3) most versions limit the choice for mass-risk insurance to the law of a Member State. The Slovak, Dutch and Finnish texts of point (a) and the Swedish, Estonian and Slovenian texts of point (c) speak of a country or state.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0439/</id>
+    <title>ARXO-2026-0439 — Rome I, Latvian and Estonian versions: does the escape clause for large-risk insurance require a clear and manifest closer connection?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0439/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The other versions require that it is clear from all the circumstances that the contract is manifestly more closely connected with another country. The Latvian text has no word for clear or manifestly; the Estonian text keeps clearly but not manifestly.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0438/</id>
+    <title>ARXO-2026-0438 — Rome I, Croatian and Dutch versions: does the escape clause for employment contracts set the same test as the other versions?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0438/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The other versions ask whether the contract is more closely connected with another country. The Croatian text asks for the closest connection; the Dutch text asks for a manifestly closer connection, and no other version has manifestly in this paragraph.</summary>
+  </entry>
+  <entry>
     <id>https://arxo.io/findings/ARXO-2026-0437/</id>
     <title>ARXO-2026-0437 — Rome II, Croatian version: Articles 5(1) and 9 refer to Article 42(2), and Rome II has 32 articles</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0437/"/>
@@ -67,6 +187,16 @@
     <category term="EU"/>
     <category term="reported" label="Reported"/>
     <summary>Reported. The other versions of Article 5(1) (product liability) and Article 9 (industrial action) begin without prejudice to Article 4(2), the rule on common habitual residence. The Croatian text refers to Article 42(2). There is no Croatian corrigendum to Rome II.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0436/</id>
+    <title>ARXO-2026-0436 — Rome I, Latvian version: does Article 11(1) on formal validity cover persons in the same country, as in the other versions?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0436/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The other versions cover in paragraph 1 a contract between persons in the same country and in paragraph 2 persons in different countries. In the Latvian text both paragraphs cover persons in different countries.</summary>
   </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0435/</id>
@@ -79,6 +209,16 @@
     <summary>Reported. The other versions say that the parties may choose one of the listed laws in accordance with Article 3 (freedom of choice). The Danish text says in accordance with paragraph 3, the paragraph in which the words stand.</summary>
   </entry>
   <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0434/</id>
+    <title>ARXO-2026-0434 — Rome I, Irish version: is a large-risk insurance contract without a choice governed by the law of the consumer or of the insurer?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0434/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The other versions point to the law of the country where the insurer has his habitual residence. The Irish text names the consumer, a party that a large-risk insurance contract does not have.</summary>
+  </entry>
+  <entry>
     <id>https://arxo.io/findings/ARXO-2026-0433/</id>
     <title>ARXO-2026-0433 — Rome I, Maltese version: Article 8(4) refers to paragraph 2 or 2a, and there is no paragraph 2a</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0433/"/>
@@ -87,6 +227,26 @@
     <category term="EU"/>
     <category term="reported" label="Reported"/>
     <summary>Reported. The other versions of the escape clause for employment contracts refer to paragraphs 2 or 3. Article 8 has no paragraph 2a.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0432/</id>
+    <title>ARXO-2026-0432 — Rome I, Croatian version: does Article 8(2) on employment contracts apply in the absence of a choice of law, as in the other versions?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0432/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The other 23 versions open paragraph 2 with the absence of a choice by the parties. The Croatian opening repeats the condition of paragraph 3 and makes paragraph 2 depend on paragraph 2 itself. Croatian corrigenda 32008R0593R(04) and R(06) do not touch Article 8.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0431/</id>
+    <title>ARXO-2026-0431 — Rome II, Greek version: should Article 11(1) on negotiorum gestio refer to unjust enrichment, as the 2014 corrigendum made it?</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0431/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The Greek corrigendum of 31 December 2014 replaced, in Article 11(1), the words with this non-contractual obligation by with that unjust enrichment. Article 11 is about negotiorum gestio, and the original Greek wording, like the other versions, tied the connection to that obligation. The same corrigendum also corrected Article 10(1), on unjust enrichment.</summary>
   </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0429/</id>

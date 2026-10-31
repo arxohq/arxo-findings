@@ -1,0 +1,145 @@
+{
+  "id": "ARXO-2026-0436",
+  "url": "https://arxo.io/findings/ARXO-2026-0436/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 593/2008 (Rome I)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 11(1), Latvian version",
+  "text": {
+    "en": {
+      "title": "Rome I, Latvian version: does Article 11(1) on formal validity cover persons in the same country, as in the other versions?",
+      "summary": "The other versions cover in paragraph 1 a contract between persons in the same country and in paragraph 2 persons in different countries. In the Latvian text both paragraphs cover persons in different countries.",
+      "impact": "For a contract signed by two parties in the same country, the Latvian text of paragraphs 1 and 2 gives no rule on which laws can make it formally valid.",
+      "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: replace different countries with the same country in Latvian Article 11(1).",
+      "quote_translations": {
+        "q1": "who at the time of conclusion are in different countries"
+      }
+    },
+    "lv": {
+      "title": "Roma I, latviešu valodas versija: vai 11. panta 1. punkts par līguma formālo spēkā esamību attiecas uz personām, kas atrodas vienā un tajā pašā valstī, kā citās versijās?",
+      "summary": "Pārējās versijās 1. punkts attiecas uz līgumu starp personām, kas atrodas vienā un tajā pašā valstī, bet 2. punkts — uz līgumu starp personām, kas atrodas dažādās valstīs. Latviešu tekstā abi punkti attiecas uz personām, kas atrodas dažādās valstīs.",
+      "impact": "Attiecībā uz līgumu, ko parakstījušas divas puses vienā un tajā pašā valstī, latviešu teksta 1. un 2. punkts nenosaka, saskaņā ar kuras valsts tiesību aktiem līgums var būt formāli spēkā.",
+      "correction": "Juristi lingvisti varētu norādīt, vai formulējums būtu jāsaskaņo ar pārējām valodu versijām: latviešu teksta 11. panta 1. punktā vārdus „dažādās valstīs“ aizstāt ar vārdiem „vienā un tajā pašā valstī“."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A language version",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Latvian version",
+        "role": "Language version",
+        "language": "lv",
+        "edition": "published",
+        "locator": "Article 11(1) (Latvian)",
+        "text": "kas līguma noslēgšanas brīdī ir dažādās valstīs",
+        "translations": {
+          "en": "who at the time of conclusion are in different countries"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/LV/TXT/?uri=CELEX:32008R0593",
+        "sha256": "d0028ccd5870f14af9cf33ce94867522f4fd1ff02a93a64ce0dd1070e6964fa5",
+        "retrieved": "2026-10-31",
+        "copy": "sources/d0028ccd5870f14a-lav.xhtml",
+        "copy_sha256": "d0028ccd5870f14af9cf33ce94867522f4fd1ff02a93a64ce0dd1070e6964fa5",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 11(1) (English)",
+        "text": "are in the same country at the time of its conclusion",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0593",
+        "sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+        "retrieved": "2026-10-31",
+        "copy": "sources/2f33c017cfb9fac3-eng.xhtml",
+        "copy_sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:12:59Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:12:56Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T14:22:13+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

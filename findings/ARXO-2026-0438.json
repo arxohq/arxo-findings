@@ -1,0 +1,170 @@
+{
+  "id": "ARXO-2026-0438",
+  "url": "https://arxo.io/findings/ARXO-2026-0438/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 593/2008 (Rome I)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 8(4), Croatian and Dutch versions",
+  "text": {
+    "en": {
+      "title": "Rome I, Croatian and Dutch versions: does the escape clause for employment contracts set the same test as the other versions?",
+      "summary": "The other versions ask whether the contract is more closely connected with another country. The Croatian text asks for the closest connection; the Dutch text asks for a manifestly closer connection, and no other version has manifestly in this paragraph.",
+      "impact": "The same employment contract can pass the escape clause in one version and fail it in another.",
+      "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: align Croatian and Dutch Article 8(4) with the other versions.",
+      "quote_translations": {
+        "q1": "in the closest connection",
+        "q2": "manifestly closer connection"
+      }
+    },
+    "hr": {
+      "title": "Rim I, hrvatska i nizozemska verzija: postavlja li klauzula o odstupanju za ugovore o radu isti kriterij kao druge verzije?",
+      "summary": "Druge verzije pitaju je li ugovor u bližoj vezi s nekom drugom državom. Hrvatski tekst traži najbližu vezu („u najbližoj vezi“); nizozemski tekst traži očito bližu vezu („kennelijk nauwere band“), a nijedna druga verzija u ovom stavku nema riječ očito.",
+      "impact": "Isti ugovor o radu može ispuniti uvjete za primjenu klauzule o odstupanju prema jednoj verziji, a ne ispuniti ih prema drugoj.",
+      "correction": "Pravnici lingvisti mogli bi reći treba li tekst uskladiti s drugim jezičnim verzijama: uskladiti članak 8. stavak 4. hrvatske i nizozemske verzije s drugim verzijama."
+    },
+    "nl": {
+      "title": "Rome I, Kroatische en Nederlandse versie: hanteert de uitwijkclausule voor arbeidsovereenkomsten hetzelfde criterium als de andere versies?",
+      "summary": "De andere versies vragen of de overeenkomst nauwer verbonden is met een ander land. De Kroatische tekst vraagt om de nauwste band („u najbližoj vezi”); de Nederlandse tekst vraagt om een „kennelijk nauwere band”, en geen andere versie bevat in dit lid het woord kennelijk.",
+      "impact": "Dezelfde arbeidsovereenkomst kan in de ene versie aan de voorwaarden voor toepassing van de uitwijkclausule voldoen en in een andere niet.",
+      "correction": "De juristen-linguïsten zouden kunnen aangeven of de formulering in overeenstemming moet worden gebracht met de andere taalversies: artikel 8, lid 4, van de Kroatische en de Nederlandse versie in overeenstemming brengen met de andere versies."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A language version",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Croatian version",
+        "role": "Language version",
+        "language": "hr",
+        "edition": "published",
+        "locator": "Article 8(4) (Croatian)",
+        "text": "u najbližoj vezi",
+        "translations": {
+          "en": "in the closest connection"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:32008R0593",
+        "sha256": "f9f22d6d143a16f74d397c8c12cd2abc3323e2b3659db22065ba7c12070bfd9a",
+        "retrieved": "2026-10-31",
+        "copy": "sources/f9f22d6d143a16f7-hrv.xhtml",
+        "copy_sha256": "f9f22d6d143a16f74d397c8c12cd2abc3323e2b3659db22065ba7c12070bfd9a",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Dutch version",
+        "role": "Language version",
+        "language": "nl",
+        "edition": "published",
+        "locator": "Article 8(4) (Dutch)",
+        "text": "kennelijk nauwere band",
+        "translations": {
+          "en": "manifestly closer connection"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32008R0593",
+        "sha256": "aa80a60c28e2ed5a9af7baf74b6efb039cf8860eb68a86344438ffb9342572f3",
+        "retrieved": "2026-10-31",
+        "copy": "sources/aa80a60c28e2ed5a-nld.xhtml",
+        "copy_sha256": "aa80a60c28e2ed5a9af7baf74b6efb039cf8860eb68a86344438ffb9342572f3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 8(4) (English)",
+        "text": "more closely connected with a country other than",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0593",
+        "sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+        "retrieved": "2026-10-31",
+        "copy": "sources/2f33c017cfb9fac3-eng.xhtml",
+        "copy_sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:12:59Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:12:56Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T14:22:13+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "id": "ARXO-2026-0445",
+  "url": "https://arxo.io/findings/ARXO-2026-0445/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 864/2007 (Rome II)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 14(1)(b), Croatian and Slovenian versions",
+  "text": {
+    "en": {
+      "title": "Rome II, Croatian and Slovenian versions: must all the parties pursue a commercial activity for a choice under Article 14(1)(b)?",
+      "summary": "The other versions allow a freely negotiated choice before the event where all the parties pursue a commercial activity. The Croatian and Slovenian texts say both parties.",
+      "impact": "With three or more parties, the Croatian and Slovenian texts do not say whether every party must pursue a commercial activity.",
+      "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: say all the parties in Croatian and Slovenian Article 14(1)(b).",
+      "quote_translations": {
+        "q1": "both parties",
+        "q2": "both parties"
+      }
+    },
+    "hr": {
+      "title": "Rim II, hrvatska i slovenska verzija: moraju li sve stranke obavljati poslovnu djelatnost za izbor prava prema članku 14. stavku 1. točki (b)?",
+      "summary": "Druge verzije dopuštaju slobodno ugovoren izbor prava prije nastanka događaja ako sve stranke obavljaju poslovnu djelatnost. Hrvatski i slovenski tekst govore o objema strankama („obje stranke“, „obe stranki“).",
+      "impact": "Kad postoje tri ili više stranaka, hrvatski i slovenski tekst ne navode mora li svaka stranka obavljati poslovnu djelatnost.",
+      "correction": "Pravnici lingvisti mogli bi reći treba li tekst uskladiti s drugim jezičnim verzijama: navesti sve stranke u članku 14. stavku 1. točki (b) hrvatske i slovenske verzije."
+    },
+    "sl": {
+      "title": "Rim II, hrvaška in slovenska različica: ali morajo za izbiro prava po členu 14(1)(b) vse stranke opravljati gospodarsko dejavnost?",
+      "summary": "Druge različice dopuščajo izbiro prava, o kateri se stranke svobodno dogovorijo pred nastankom dogodka, če vse stranke opravljajo gospodarsko dejavnost. Hrvaško in slovensko besedilo govorita o obeh strankah („obje stranke“, „obe stranki“).",
+      "impact": "Kadar so udeležene tri stranke ali več, hrvaško in slovensko besedilo ne povesta, ali mora vsaka stranka opravljati gospodarsko dejavnost.",
+      "correction": "Pravniki lingvisti bi lahko povedali, ali bi bilo treba besedilo uskladiti z drugimi jezikovnimi različicami: v členu 14(1)(b) hrvaške in slovenske različice zapisati vse stranke."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A language version",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Croatian version",
+        "role": "Language version",
+        "language": "hr",
+        "edition": "published",
+        "locator": "Article 14(1)(b) (Croatian)",
+        "text": "obje stranke",
+        "translations": {
+          "en": "both parties"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:32007R0864",
+        "sha256": "658dff9208be23eac15914a531d271ad8387d090233f88afe9e5423ddb7686f8",
+        "retrieved": "2026-10-31",
+        "copy": "sources/658dff9208be23ea-hrv.xhtml",
+        "copy_sha256": "658dff9208be23eac15914a531d271ad8387d090233f88afe9e5423ddb7686f8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Slovenian version",
+        "role": "Language version",
+        "language": "sl",
+        "edition": "published",
+        "locator": "Article 14(1)(b) (Slovenian)",
+        "text": "obe stranki",
+        "translations": {
+          "en": "both parties"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/SL/TXT/?uri=CELEX:32007R0864",
+        "sha256": "06ebeb3cbaafa533937925ad790322c44c1649ee077a11c954f82e2c26f68de2",
+        "retrieved": "2026-10-31",
+        "copy": "sources/06ebeb3cbaafa533-slv.xhtml",
+        "copy_sha256": "06ebeb3cbaafa533937925ad790322c44c1649ee077a11c954f82e2c26f68de2",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 14(1)(b) (English)",
+        "text": "all the parties",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32007R0864",
+        "sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/488bfcf5bcbcb4e1-eng.xhtml",
+        "copy_sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:12:59Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:12:56Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T14:22:13+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

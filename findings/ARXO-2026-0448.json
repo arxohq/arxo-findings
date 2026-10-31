@@ -1,0 +1,145 @@
+{
+  "id": "ARXO-2026-0448",
+  "url": "https://arxo.io/findings/ARXO-2026-0448/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 864/2007 (Rome II)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 22(2), Bulgarian version",
+  "text": {
+    "en": {
+      "title": "Rome II, Bulgarian version: does Article 22(2) cover the same acts as the other versions?",
+      "summary": "The other versions cover acts intended to have legal effect. The Bulgarian text covers unilateral declarations of will with legal effects.",
+      "impact": "No change to the applicable law; the rule on proof covers a differently described set of acts.",
+      "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: align Bulgarian Article 22(2) with the other versions.",
+      "quote_translations": {
+        "q1": "unilateral declarations of will with legal effects"
+      }
+    },
+    "bg": {
+      "title": "Рим II, българска версия: обхваща ли член 22, параграф 2 същите актове като другите версии?",
+      "summary": "Другите версии обхващат актове, предназначени да имат правно действие. Българският текст обхваща „Едностранните волеизявления с правни последици“.",
+      "impact": "Приложимото право не се променя; правилото относно доказването обхваща различно описан кръг от актове.",
+      "correction": "Юристите-лингвисти биха могли да преценят дали текстът следва да бъде приведен в съответствие с другите езикови версии: привеждане на член 22, параграф 2 от българската версия в съответствие с другите версии."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A language version",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Bulgarian version",
+        "role": "Language version",
+        "language": "bg",
+        "edition": "published",
+        "locator": "Article 22(2) (Bulgarian)",
+        "text": "Едностранните волеизявления с правни последици",
+        "translations": {
+          "en": "unilateral declarations of will with legal effects"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/BG/TXT/?uri=CELEX:32007R0864",
+        "sha256": "b1323dde5d5c06532e9a15763c657b495b166959eac2ea2d9ff8146561a71571",
+        "retrieved": "2026-10-31",
+        "copy": "sources/b1323dde5d5c0653-bul.xhtml",
+        "copy_sha256": "b1323dde5d5c06532e9a15763c657b495b166959eac2ea2d9ff8146561a71571",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 22(2) (English)",
+        "text": "intended to have legal effect",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32007R0864",
+        "sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/488bfcf5bcbcb4e1-eng.xhtml",
+        "copy_sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:12:59Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:12:56Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T14:22:13+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

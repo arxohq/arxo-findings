@@ -1,0 +1,170 @@
+{
+  "id": "ARXO-2026-0443",
+  "url": "https://arxo.io/findings/ARXO-2026-0443/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 864/2007 (Rome II)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 6(3)(b), Bulgarian and Slovenian versions",
+  "text": {
+    "en": {
+      "title": "Rome II, Bulgarian and Slovenian versions: does Article 6(3)(b) set the same conditions as the other versions?",
+      "summary": "Article 6(3)(b) lets the claimant rely on the law of the court where the market is affected in more than one country, if the market in that Member State is directly and substantially affected. The Bulgarian text says more than one Member State; the Slovenian text says directly or substantially.",
+      "impact": "A claim about a market affected in one Member State and a third country can use the option in most versions but not in Bulgarian; an indirect but substantial effect is enough in Slovenian.",
+      "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: align Bulgarian and Slovenian Article 6(3)(b) with the other versions.",
+      "quote_translations": {
+        "q1": "more than one Member State",
+        "q2": "directly or substantially affected"
+      }
+    },
+    "bg": {
+      "title": "Рим II, българска и словенска версия: поставя ли член 6, параграф 3, буква б) същите условия като другите версии?",
+      "summary": "Член 6, параграф 3, буква б) позволява на ищеца да се позове на правото на сезирания съд, когато пазарът е засегнат в повече от една държава, ако пазарът в тази държава-членка е засегнат непосредствено и значително. Българският текст гласи „повече от една държава-членка“; словенският текст гласи непосредствено или значително.",
+      "impact": "При иск относно пазар, засегнат в една държава-членка и в трета държава, ищецът може да се възползва от тази възможност според повечето версии, но не и според българската; в словенската версия е достатъчно непряко, но значително въздействие.",
+      "correction": "Юристите-лингвисти биха могли да преценят дали текстът следва да бъде приведен в съответствие с другите езикови версии: привеждане на член 6, параграф 3, буква б) от българската и словенската версия в съответствие с другите версии."
+    },
+    "sl": {
+      "title": "Rim II, bolgarska in slovenska različica: ali člen 6(3)(b) določa enake pogoje kot druge različice?",
+      "summary": "Člen 6(3)(b) tožeči stranki omogoča, da se opre na pravo sodišča, kadar je trg prizadet v več kot eni državi, če je trg v tej državi članici neposredno in bistveno prizadet. Bolgarsko besedilo navaja več kot eno državo članico; slovensko besedilo navaja „neposredno ali bistveno prizadeti“.",
+      "impact": "Pri zahtevku glede trga, prizadetega v eni državi članici in v tretji državi, lahko tožeča stranka po večini različic uporabi to možnost, po bolgarski pa ne; v slovenski različici zadošča posreden, a bistven učinek.",
+      "correction": "Pravniki lingvisti bi lahko povedali, ali bi bilo treba besedilo uskladiti z drugimi jezikovnimi različicami: uskladiti člen 6(3)(b) bolgarske in slovenske različice z drugimi različicami."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A language version",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Bulgarian version",
+        "role": "Language version",
+        "language": "bg",
+        "edition": "published",
+        "locator": "Article 6(3)(b) (Bulgarian)",
+        "text": "повече от една държава-членка",
+        "translations": {
+          "en": "more than one Member State"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/BG/TXT/?uri=CELEX:32007R0864",
+        "sha256": "b1323dde5d5c06532e9a15763c657b495b166959eac2ea2d9ff8146561a71571",
+        "retrieved": "2026-10-31",
+        "copy": "sources/b1323dde5d5c0653-bul.xhtml",
+        "copy_sha256": "b1323dde5d5c06532e9a15763c657b495b166959eac2ea2d9ff8146561a71571",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Slovenian version",
+        "role": "Language version",
+        "language": "sl",
+        "edition": "published",
+        "locator": "Article 6(3)(b) (Slovenian)",
+        "text": "neposredno ali bistveno prizadeti",
+        "translations": {
+          "en": "directly or substantially affected"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/SL/TXT/?uri=CELEX:32007R0864",
+        "sha256": "06ebeb3cbaafa533937925ad790322c44c1649ee077a11c954f82e2c26f68de2",
+        "retrieved": "2026-10-31",
+        "copy": "sources/06ebeb3cbaafa533-slv.xhtml",
+        "copy_sha256": "06ebeb3cbaafa533937925ad790322c44c1649ee077a11c954f82e2c26f68de2",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 6(3)(b) (English)",
+        "text": "more than one country",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32007R0864",
+        "sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/488bfcf5bcbcb4e1-eng.xhtml",
+        "copy_sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:12:59Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:12:56Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T14:22:13+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

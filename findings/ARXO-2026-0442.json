@@ -1,0 +1,233 @@
+{
+  "id": "ARXO-2026-0442",
+  "url": "https://arxo.io/findings/ARXO-2026-0442/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 593/2008 (Rome I) and Regulation (EC) No 864/2007 (Rome II)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 16 of Rome I and Article 20 of Rome II, Danish, Italian and Romanian versions",
+  "text": {
+    "en": {
+      "title": "Rome I and Rome II, Danish, Italian and Romanian versions: does the rule on multiple liability require joint and several liability?",
+      "summary": "Most versions apply the rule to several debtors liable for the same claim. The Danish and Italian texts of both Regulations, and the Romanian text of Rome I, say jointly and severally liable. The Romanian text of Rome II says liable together.",
+      "impact": "Under these texts a debtor who is liable for the same claim but not jointly and severally may fall outside the rule on recourse.",
+      "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: align the Danish, Italian and Romanian texts with liable for the same claim.",
+      "quote_translations": {
+        "q1": "are jointly and severally liable",
+        "q2": "jointly and severally liable",
+        "q3": "are jointly and severally liable",
+        "q4": "are jointly and severally liable",
+        "q5": "jointly and severally liable"
+      }
+    },
+    "da": {
+      "title": "Rom I og Rom II, dansk, italiensk og rumænsk version: kræver reglen om flere skyldnere solidarisk hæftelse?",
+      "summary": "De fleste versioner anvender reglen på flere skyldnere, der hæfter for samme fordring. Den danske og den italienske tekst af begge forordninger og den rumænske tekst af Rom I siger, at de »hæfter solidarisk«. Den rumænske tekst af Rom II siger, at de hæfter sammen.",
+      "impact": "Efter disse tekster kan en skyldner, der hæfter for samme fordring, men ikke solidarisk med de øvrige skyldnere, falde uden for reglen om regres.",
+      "correction": "Juristlingvisterne kunne tage stilling til, om ordlyden bør bringes i overensstemmelse med de andre sprogversioner: bringe den danske, den italienske og den rumænske tekst i overensstemmelse med udtrykket hæfter for samme fordring."
+    },
+    "it": {
+      "title": "Roma I e Roma II, versioni danese, italiana e rumena: la norma sulla responsabilità di più debitori richiede la responsabilità in solido?",
+      "summary": "La maggior parte delle versioni applica la norma a più debitori responsabili per lo stesso credito. I testi danese e italiano di entrambi i regolamenti e il testo rumeno di Roma I dicono «responsabili in solido». Il testo rumeno di Roma II dice responsabili insieme.",
+      "impact": "Secondo questi testi, un debitore responsabile per lo stesso credito, ma non in solido con gli altri debitori, può restare escluso dalla norma sul regresso.",
+      "correction": "I giuristi linguisti potrebbero indicare se la formulazione debba essere allineata alle altre versioni linguistiche: allineare i testi danese, italiano e rumeno alla formula responsabili per lo stesso credito."
+    },
+    "ro": {
+      "title": "Roma I și Roma II, versiunile daneză, italiană și română: impune norma privind răspunderea multiplă răspunderea solidară?",
+      "summary": "Majoritatea versiunilor aplică norma mai multor debitori care răspund pentru aceeași creanță. Versiunile daneză și italiană ale ambelor regulamente, precum și versiunea română a Regulamentului Roma I, spun că debitorii „răspund solidar”. Textul român al Regulamentului Roma II spune că răspund în comun.",
+      "impact": "Potrivit acestor texte, un debitor care răspunde pentru aceeași creanță, dar nu solidar cu ceilalți debitori, poate rămâne în afara normei privind regresul.",
+      "correction": "Juriștii-lingviști ar putea preciza dacă formularea ar trebui aliniată cu celelalte versiuni lingvistice: alinierea textelor daneză, italiană și română la formularea răspund pentru aceeași creanță."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A language version",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Danish version",
+        "role": "Language version",
+        "language": "da",
+        "edition": "published",
+        "locator": "Article 16 (Danish)",
+        "text": "hæfter solidarisk",
+        "translations": {
+          "en": "are jointly and severally liable"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/DA/TXT/?uri=CELEX:32008R0593",
+        "sha256": "ddecb9eca5c46d5ec09d9a9dda404796776cdabe2ed7c8ca892c6fc0f8bd167c",
+        "retrieved": "2026-10-31",
+        "copy": "sources/ddecb9eca5c46d5e-dan.xhtml",
+        "copy_sha256": "ddecb9eca5c46d5ec09d9a9dda404796776cdabe2ed7c8ca892c6fc0f8bd167c",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Italian version",
+        "role": "Language version",
+        "language": "it",
+        "edition": "published",
+        "locator": "Article 16 (Italian)",
+        "text": "responsabili in solido",
+        "translations": {
+          "en": "jointly and severally liable"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32008R0593",
+        "sha256": "36a5b0e2e51578ec8ac34c6dce34320d2f52f91bbac2f91adce42350eec03e77",
+        "retrieved": "2026-10-31",
+        "copy": "sources/36a5b0e2e51578ec-ita.xhtml",
+        "copy_sha256": "36a5b0e2e51578ec8ac34c6dce34320d2f52f91bbac2f91adce42350eec03e77",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Romanian version",
+        "role": "Language version",
+        "language": "ro",
+        "edition": "published",
+        "locator": "Article 16 (Romanian)",
+        "text": "răspund solidar",
+        "translations": {
+          "en": "are jointly and severally liable"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32008R0593",
+        "sha256": "23419348fbaa0ff44274e859fc0f8afe46b5cad53961e9ae3217057f0da9cd76",
+        "retrieved": "2026-10-31",
+        "copy": "sources/23419348fbaa0ff4-ron.xhtml",
+        "copy_sha256": "23419348fbaa0ff44274e859fc0f8afe46b5cad53961e9ae3217057f0da9cd76",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q4",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Danish version",
+        "role": "Language version",
+        "language": "da",
+        "edition": "published",
+        "locator": "Article 20 (Danish)",
+        "text": "hæfter solidarisk",
+        "translations": {
+          "en": "are jointly and severally liable"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/DA/TXT/?uri=CELEX:32007R0864",
+        "sha256": "f203d52167fef639398d2cf0aa1ba56486f1a40b6a37d2d56ddfca5a863b0cbe",
+        "retrieved": "2026-10-31",
+        "copy": "sources/f203d52167fef639-dan.xhtml",
+        "copy_sha256": "f203d52167fef639398d2cf0aa1ba56486f1a40b6a37d2d56ddfca5a863b0cbe",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q5",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Italian version",
+        "role": "Language version",
+        "language": "it",
+        "edition": "published",
+        "locator": "Article 20 (Italian)",
+        "text": "responsabili in solido",
+        "translations": {
+          "en": "jointly and severally liable"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32007R0864",
+        "sha256": "5e9d04defee424921d4e6eb4ad4591680084c23a6c1b0a3db4b17cdb188e2a25",
+        "retrieved": "2026-10-31",
+        "copy": "sources/5e9d04defee42492-ita.xhtml",
+        "copy_sha256": "5e9d04defee424921d4e6eb4ad4591680084c23a6c1b0a3db4b17cdb188e2a25",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q6",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 16 (English)",
+        "text": "liable for the same claim",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0593",
+        "sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+        "retrieved": "2026-10-31",
+        "copy": "sources/2f33c017cfb9fac3-eng.xhtml",
+        "copy_sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:12:59Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:12:56Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T14:22:13+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "ARXO-2026-0449",
+  "url": "https://arxo.io/findings/ARXO-2026-0449/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 864/2007 (Rome II)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 30(1), Hungarian and Danish versions",
+  "text": {
+    "en": {
+      "title": "Rome II, Hungarian and Danish versions: does the review clause ask for more than the other versions?",
+      "summary": "The Hungarian and Danish texts of Article 30(1) add a sentence that the other versions do not have: the report shall in particular examine non-contractual obligations arising out of traffic accidents and violations of privacy and rights relating to personality, including defamation.",
+      "impact": "No change to the applicable law; the review clause asks for more in two versions.",
+      "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: align Hungarian and Danish Article 30(1) with the other versions.",
+      "quote_translations": {
+        "q1": "The report shall in particular examine non-contractual obligations arising out of traffic accidents"
+      }
+    },
+    "da": {
+      "title": "Rom II, ungarsk og dansk version: kræver revisionsbestemmelsen mere end de andre versioner?",
+      "summary": "Den ungarske og den danske tekst af artikel 30, stk. 1, tilføjer en sætning, som de andre versioner ikke har: rapporten skal navnlig omhandle forpligtelser uden for kontrakt, der udspringer af trafikulykker og af krænkelser af privatlivets fred og individets rettigheder, herunder ærekrænkelser.",
+      "impact": "Den lov, der skal anvendes, ændres ikke; revisionsbestemmelsen kræver mere i to versioner.",
+      "correction": "Juristlingvisterne kunne tage stilling til, om ordlyden bør bringes i overensstemmelse med de andre sprogversioner: bringe artikel 30, stk. 1, i den ungarske og den danske version i overensstemmelse med de andre versioner."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A language version",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Danish version",
+        "role": "Language version",
+        "language": "da",
+        "edition": "published",
+        "locator": "Article 30(1) (Danish)",
+        "text": "Rapporten skal navnlig omhandle forpligtelser uden for kontrakt, der udspringer af trafikulykker",
+        "translations": {
+          "en": "The report shall in particular examine non-contractual obligations arising out of traffic accidents"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/DA/TXT/?uri=CELEX:32007R0864",
+        "sha256": "f203d52167fef639398d2cf0aa1ba56486f1a40b6a37d2d56ddfca5a863b0cbe",
+        "retrieved": "2026-10-31",
+        "copy": "sources/f203d52167fef639-dan.xhtml",
+        "copy_sha256": "f203d52167fef639398d2cf0aa1ba56486f1a40b6a37d2d56ddfca5a863b0cbe",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 30(1) (English)",
+        "text": "a report on the application of this Regulation",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32007R0864",
+        "sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/488bfcf5bcbcb4e1-eng.xhtml",
+        "copy_sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:12:59Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:12:56Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T14:22:13+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

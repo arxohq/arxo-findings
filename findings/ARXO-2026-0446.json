@@ -1,0 +1,170 @@
+{
+  "id": "ARXO-2026-0446",
+  "url": "https://arxo.io/findings/ARXO-2026-0446/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 864/2007 (Rome II)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 23, Dutch and Romanian versions",
+  "text": {
+    "en": {
+      "title": "Rome II, Dutch and Romanian versions: does Article 23 define habitual residence in the same way as the other versions?",
+      "summary": "In the second subparagraph of Article 23(1) the Dutch text names a subsidiary, a branch or another establishment where the other versions name a branch, an agency or any other establishment. In Article 23(2) the Romanian text replaces a natural person acting in the course of his or her business activity with activity during working hours.",
+      "impact": "A company's subsidiary can count as its place of habitual residence under the Dutch text, and the Romanian test turns on time rather than on the nature of the activity.",
+      "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: align Dutch Article 23(1) and Romanian Article 23(2) with the other versions.",
+      "quote_translations": {
+        "q1": "subsidiary",
+        "q2": "for his activity during working hours"
+      }
+    },
+    "nl": {
+      "title": "Rome II, Nederlandse en Roemeense versie: omschrijft artikel 23 de gewone verblijfplaats op dezelfde wijze als de andere versies?",
+      "summary": "In de tweede alinea van artikel 23, lid 1, noemt de Nederlandse tekst een „dochteronderneming”, een bijkantoor of een andere vestiging, waar de andere versies een bijkantoor, een agentschap of een andere vestiging noemen. In artikel 23, lid 2, vervangt de Roemeense tekst de omschrijving van een natuurlijk persoon bij de uitoefening van zijn of haar beroep door een verwijzing naar activiteit tijdens de werkuren.",
+      "impact": "Volgens de Nederlandse tekst kan een dochteronderneming van een vennootschap als de gewone verblijfplaats van die vennootschap gelden, en volgens de Roemeense tekst hangt het criterium af van het tijdstip in plaats van de aard van de activiteit.",
+      "correction": "De juristen-linguïsten zouden kunnen aangeven of de formulering in overeenstemming moet worden gebracht met de andere taalversies: artikel 23, lid 1, van de Nederlandse versie en artikel 23, lid 2, van de Roemeense versie in overeenstemming brengen met de andere versies."
+    },
+    "ro": {
+      "title": "Roma II, versiunile neerlandeză și română: definește articolul 23 reședința obișnuită în același mod ca celelalte versiuni?",
+      "summary": "La articolul 23 alineatul (1) al doilea paragraf, textul neerlandez menționează o filială („dochteronderneming”), o sucursală sau o altă unitate, acolo unde celelalte versiuni menționează o sucursală, o agenție sau orice altă unitate. La articolul 23 alineatul (2), textul român înlocuiește persoana fizică ce acționează în cursul desfășurării activității sale profesionale cu activitatea în timpul programului de lucru („pentru activitatea sa în timpul programului de lucru”).",
+      "impact": "Potrivit textului neerlandez, filiala unei societăți poate fi considerată locul reședinței obișnuite a acelei societăți, iar criteriul din textul român depinde de timp, nu de natura activității.",
+      "correction": "Juriștii-lingviști ar putea preciza dacă formularea ar trebui aliniată cu celelalte versiuni lingvistice: alinierea articolului 23 alineatul (1) din versiunea neerlandeză și a articolului 23 alineatul (2) din versiunea română cu celelalte versiuni."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A language version",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Dutch version",
+        "role": "Language version",
+        "language": "nl",
+        "edition": "published",
+        "locator": "Article 23(1), second subparagraph (Dutch)",
+        "text": "dochteronderneming",
+        "translations": {
+          "en": "subsidiary"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32007R0864",
+        "sha256": "eda9ded115b3a5a8fb2075f6b6a0c0e49600594989dbd3b7e673c9e185e53f9e",
+        "retrieved": "2026-10-31",
+        "copy": "sources/eda9ded115b3a5a8-nld.xhtml",
+        "copy_sha256": "eda9ded115b3a5a8fb2075f6b6a0c0e49600594989dbd3b7e673c9e185e53f9e",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Romanian version",
+        "role": "Language version",
+        "language": "ro",
+        "edition": "published",
+        "locator": "Article 23(2) (Romanian)",
+        "text": "pentru activitatea sa în timpul programului de lucru",
+        "translations": {
+          "en": "for his activity during working hours"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32007R0864",
+        "sha256": "99a5f4a403bbabf18a0d4302cb67c2ecda75cb0ec22eece3306d080926d836fd",
+        "retrieved": "2026-10-31",
+        "copy": "sources/99a5f4a403bbabf1-ron.xhtml",
+        "copy_sha256": "99a5f4a403bbabf18a0d4302cb67c2ecda75cb0ec22eece3306d080926d836fd",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 23(2) (English)",
+        "text": "acting in the course of his or her business activity",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32007R0864",
+        "sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/488bfcf5bcbcb4e1-eng.xhtml",
+        "copy_sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:12:59Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:12:56Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T14:22:13+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "id": "ARXO-2026-0441",
+  "url": "https://arxo.io/findings/ARXO-2026-0441/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 593/2008 (Rome I)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 4(1)(h), Lithuanian, Greek, Maltese, Hungarian and Danish versions",
+  "text": {
+    "en": {
+      "title": "Rome I, five versions: are multilateral trading systems in Article 4(1)(h) defined by non-discretionary rules?",
+      "summary": "Article 4(1)(h) covers contracts in a multilateral system that brings together interests in financial instruments in accordance with non-discretionary rules. The Lithuanian, Greek, Maltese and Hungarian texts say non-discriminatory; the Danish text says mandatory.",
+      "impact": "A trading venue whose operator has discretion can fall under point (h) in one version and outside it in another.",
+      "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: align the five versions with the term non-discretionary.",
+      "quote_translations": {
+        "q1": "non-discriminatory rules",
+        "q2": "rules that do not discriminate",
+        "q3": "non-discriminatory rules",
+        "q4": "with non-discriminatory rules",
+        "q5": "mandatory rules"
+      }
+    },
+    "da": {
+      "title": "Rom I, fem sprogversioner: er multilaterale handelssystemer i artikel 4, stk. 1, litra h), defineret ved ikke-skønsmæssige regler?",
+      "summary": "Artikel 4, stk. 1, litra h), omfatter aftaler indgået i et multilateralt system, der samler interesser i finansielle instrumenter efter ikke-skønsmæssige regler. Den litauiske, græske, maltesiske og ungarske tekst siger ikke-diskriminerende; den danske tekst siger »ufravigelige regler«.",
+      "impact": "Et handelssted, hvis operatør har skønsbeføjelser, kan i én version falde ind under litra h) og i en anden falde uden for bestemmelsen.",
+      "correction": "Juristlingvisterne kunne tage stilling til, om ordlyden bør bringes i overensstemmelse med de andre sprogversioner: bringe de fem versioner i overensstemmelse med udtrykket ikke-skønsmæssige."
+    },
+    "el": {
+      "title": "Ρώμη Ι, πέντε γλωσσικές αποδόσεις: ορίζονται τα πολυμερή συστήματα διαπραγμάτευσης του άρθρου 4 παράγραφος 1 στοιχείο η) με βάση κανόνες που δεν παρέχουν διακριτική ευχέρεια;",
+      "summary": "Το άρθρο 4 παράγραφος 1 στοιχείο η) καλύπτει συμβάσεις που συνάπτονται σε πολυμερές σύστημα το οποίο συγκεντρώνει συμφέροντα επί χρηματοπιστωτικών μέσων σύμφωνα με κανόνες που δεν παρέχουν διακριτική ευχέρεια. Τα κείμενα στη λιθουανική, την ελληνική, τη μαλτεζική και την ουγγρική γλώσσα κάνουν λόγο για κανόνες χωρίς διακρίσεις («κανόνες που δεν κάνουν διακρίσεις»)· το δανικό κείμενο κάνει λόγο για υποχρεωτικούς κανόνες.",
+      "impact": "Ένας τόπος διαπραγμάτευσης του οποίου ο διαχειριστής έχει διακριτική ευχέρεια μπορεί να εμπίπτει στο στοιχείο η) σε μία γλωσσική απόδοση και να μην εμπίπτει σε άλλη.",
+      "correction": "Οι γλωσσομαθείς νομικοί θα μπορούσαν να διευκρινίσουν αν η διατύπωση πρέπει να ευθυγραμμιστεί με τις άλλες γλωσσικές αποδόσεις: ευθυγράμμιση των πέντε γλωσσικών αποδόσεων με την έννοια των κανόνων που δεν παρέχουν διακριτική ευχέρεια."
+    },
+    "hu": {
+      "title": "Róma I, öt nyelvi változat: a 4. cikk (1) bekezdésének h) pontjában szereplő multilaterális kereskedési rendszereket mérlegelést nem engedő szabályok határozzák-e meg?",
+      "summary": "A 4. cikk (1) bekezdésének h) pontja azokra a szerződésekre vonatkozik, amelyeket olyan multilaterális rendszerben kötnek, amely mérlegelést nem engedő szabályok szerint hozza össze a pénzügyi eszközökkel kapcsolatos érdekeket. A litván, a görög, a máltai és a magyar szöveg megkülönböztetésmentes szabályokról szól („megkülönböztetésmentes szabályokkal”); a dán szöveg kötelező szabályokról.",
+      "impact": "Az a kereskedési helyszín, amelynek üzemeltetője mérlegelési jogkörrel rendelkezik, az egyik változatban a h) pont hatálya alá tartozhat, egy másikban pedig nem.",
+      "correction": "A jogász-nyelvészek megítélhetnék, hogy a szöveget össze kell-e hangolni a többi nyelvi változattal: az öt nyelvi változat összehangolása a „mérlegelést nem engedő” kifejezéssel."
+    },
+    "lt": {
+      "title": "Roma I, penkios kalbinės versijos: ar 4 straipsnio 1 dalies h punkte daugiašalės prekybos sistemos apibrėžiamos nediskrecinėmis taisyklėmis?",
+      "summary": "4 straipsnio 1 dalies h punktas apima sutartis, sudarytas daugiašalėje sistemoje, kuri pagal nediskrecines taisykles suveda su finansinėmis priemonėmis susijusius interesus. Lietuvių, graikų, maltiečių ir vengrų tekstuose kalbama apie nediskriminuojančias taisykles („nediskriminuojančių taisyklių“); danų tekste kalbama apie privalomas taisykles.",
+      "impact": "Prekybos vieta, kurios operatorius turi diskrecijos teisę, pagal vieną versiją gali patekti į h punkto taikymo sritį, o pagal kitą ne.",
+      "correction": "Teisininkai lingvistai galėtų nurodyti, ar formuluotę reikėtų suderinti su kitomis kalbinėmis versijomis: suderinti penkias versijas su terminu „nediskrecinės“."
+    },
+    "mt": {
+      "title": "Ruma I, ħames verżjonijiet: is-sistemi multilaterali ta' kummerċ fl-Artikolu 4(1)(h) huma definiti minn regoli mhux diskrezzjonali?",
+      "summary": "L-Artikolu 4(1)(h) ikopri kuntratti f'sistema multilaterali li tlaqqa' flimkien interessi fi strumenti finanzjarji skont regoli mhux diskrezzjonali. It-testi Litwan, Grieg, Malti u Ungeriż jgħidu mhux diskriminatorji (“regoli non diskriminatorji”); it-test Daniż jgħid obbligatorji.",
+      "impact": "Post tan-negozjar li l-operatur tiegħu għandu diskrezzjoni jista' jaqa' taħt il-punt (h) f'verżjoni waħda u ma jaqax taħtu f'oħra.",
+      "correction": "Il-ġuristi lingwisti jistgħu jgħidu jekk il-kliem għandux jiġi allinjat mal-verżjonijiet l-oħra: jiġu allinjati l-ħames verżjonijiet mat-terminu mhux diskrezzjonali."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A language version",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Lithuanian version",
+        "role": "Language version",
+        "language": "lt",
+        "edition": "published",
+        "locator": "Article 4(1)(h) (Lithuanian)",
+        "text": "nediskriminuojančių taisyklių",
+        "translations": {
+          "en": "non-discriminatory rules"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/LT/TXT/?uri=CELEX:32008R0593",
+        "sha256": "0fc657252046a89128c1f4c232448f5b2271b6da6f530ec1f2733682f09e7769",
+        "retrieved": "2026-10-31",
+        "copy": "sources/0fc657252046a891-lit.xhtml",
+        "copy_sha256": "0fc657252046a89128c1f4c232448f5b2271b6da6f530ec1f2733682f09e7769",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Greek version",
+        "role": "Language version",
+        "language": "el",
+        "edition": "published",
+        "locator": "Article 4(1)(h) (Greek)",
+        "text": "κανόνες που δεν κάνουν διακρίσεις",
+        "translations": {
+          "en": "rules that do not discriminate"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/EL/TXT/?uri=CELEX:32008R0593",
+        "sha256": "573c71cb9596aeb05b0b6ccdfff0482cb9610742bbcd527dd3533b4e2e1d4a40",
+        "retrieved": "2026-10-31",
+        "copy": "sources/573c71cb9596aeb0-ell.xhtml",
+        "copy_sha256": "573c71cb9596aeb05b0b6ccdfff0482cb9610742bbcd527dd3533b4e2e1d4a40",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Maltese version",
+        "role": "Language version",
+        "language": "mt",
+        "edition": "published",
+        "locator": "Article 4(1)(h) (Maltese)",
+        "text": "regoli non diskriminatorji",
+        "translations": {
+          "en": "non-discriminatory rules"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/MT/TXT/?uri=CELEX:32008R0593",
+        "sha256": "80cad6b6f98e7f5cbcf4665d78e43d56a5352c1d96a546dfaa7f714600a903b6",
+        "retrieved": "2026-10-31",
+        "copy": "sources/80cad6b6f98e7f5c-mlt.xhtml",
+        "copy_sha256": "80cad6b6f98e7f5cbcf4665d78e43d56a5352c1d96a546dfaa7f714600a903b6",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q4",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Hungarian version",
+        "role": "Language version",
+        "language": "hu",
+        "edition": "published",
+        "locator": "Article 4(1)(h) (Hungarian)",
+        "text": "megkülönböztetésmentes szabályokkal",
+        "translations": {
+          "en": "with non-discriminatory rules"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/HU/TXT/?uri=CELEX:32008R0593",
+        "sha256": "c67aa8f55a476717b7c29b5dad63f49d3d9f38f59335812bff1475f72a02a734",
+        "retrieved": "2026-10-31",
+        "copy": "sources/c67aa8f55a476717-hun.xhtml",
+        "copy_sha256": "c67aa8f55a476717b7c29b5dad63f49d3d9f38f59335812bff1475f72a02a734",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q5",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Danish version",
+        "role": "Language version",
+        "language": "da",
+        "edition": "published",
+        "locator": "Article 4(1)(h) (Danish)",
+        "text": "ufravigelige regler",
+        "translations": {
+          "en": "mandatory rules"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/DA/TXT/?uri=CELEX:32008R0593",
+        "sha256": "ddecb9eca5c46d5ec09d9a9dda404796776cdabe2ed7c8ca892c6fc0f8bd167c",
+        "retrieved": "2026-10-31",
+        "copy": "sources/ddecb9eca5c46d5e-dan.xhtml",
+        "copy_sha256": "ddecb9eca5c46d5ec09d9a9dda404796776cdabe2ed7c8ca892c6fc0f8bd167c",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q6",
+        "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 4(1)(h) (English)",
+        "text": "non-discretionary rules",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0593",
+        "sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+        "retrieved": "2026-10-31",
+        "copy": "sources/2f33c017cfb9fac3-eng.xhtml",
+        "copy_sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:12:59Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:12:56Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T14:22:13+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}

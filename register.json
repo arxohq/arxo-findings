@@ -4,14 +4,14 @@
   "description": "Verified discrepancies in legal texts, standards, official publications and implementations, with evidence and correction histories.",
   "publisher": "Arxo Law",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "as_of": "2026-10-31T13:56:33+00:00",
+  "as_of": "2026-10-31T14:22:13+00:00",
   "base_url": "https://arxo.io/findings/",
   "counts": {
-    "records": 332,
+    "records": 348,
     "discrepancies": 273,
-    "questions": 59,
+    "questions": 75,
     "by_jurisdiction": {
-      "EU": 34,
+      "EU": 50,
       "FR": 12,
       "KZ": 182,
       "US": 59
@@ -20,7 +20,7 @@
       "BCBS": 45
     },
     "by_status": {
-      "reported": 319,
+      "reported": 335,
       "accepted": 3,
       "note_added": 5,
       "corrected": 3,
@@ -61,7 +61,7 @@
         "jurisdiction": "EU",
         "class": "question",
         "status": "reported",
-        "records": 7
+        "records": 23
       },
       {
         "jurisdiction": "FR",
@@ -176,7 +176,7 @@
     "corrected_by_official_document": 5,
     "withdrawn_after_publication": {
       "withdrawn": 0,
-      "of_published": 301
+      "of_published": 317
     },
     "rule": "Counts are of findings. One finding is one independently checkable statement about one discrepancy at one place; classes and questions are counted separately and are not added together."
   },
@@ -53102,6 +53102,299 @@
       ]
     },
     {
+      "id": "ARXO-2026-0431",
+      "url": "https://arxo.io/findings/ARXO-2026-0431/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EC) No 864/2007 (Rome II)",
+      "acts": [
+        "Regulation (EC) No 593/2008 (Rome I)",
+        "Regulation (EC) No 864/2007 (Rome II)"
+      ],
+      "location": "Article 11(1), Greek version, as corrected in 2014",
+      "text": {
+        "en": {
+          "title": "Rome II, Greek version: should Article 11(1) on negotiorum gestio refer to unjust enrichment, as the 2014 corrigendum made it?",
+          "summary": "The Greek corrigendum of 31 December 2014 replaced, in Article 11(1), the words with this non-contractual obligation by with that unjust enrichment. Article 11 is about negotiorum gestio, and the original Greek wording, like the other versions, tied the connection to that obligation. The same corrigendum also corrected Article 10(1), on unjust enrichment.",
+          "impact": "A court that reads the Greek text looks for the country most closely connected with an unjust enrichment that may not exist in a case of negotiorum gestio.",
+          "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: restore the original Greek wording of Article 11(1).",
+          "quote_translations": {
+            "q1": "with that unjust enrichment",
+            "q2": "with this non-contractual obligation"
+          }
+        },
+        "el": {
+          "title": "Ρώμη ΙΙ, ελληνική απόδοση: πρέπει το άρθρο 11 παράγραφος 1 για τη διοίκηση αλλοτρίων να παραπέμπει στον αδικαιολόγητο πλουτισμό, όπως προβλέπει το διορθωτικό του 2014;",
+          "summary": "Το ελληνικό διορθωτικό της 31ης Δεκεμβρίου 2014 αντικατέστησε στο άρθρο 11 παράγραφος 1 τις λέξεις «με την εξωσυμβατική αυτή ενοχή» με τις λέξεις «με αυτό τον αδικαιολόγητο πλουτισμό». Το άρθρο 11 αφορά τη διοίκηση αλλοτρίων, και η αρχική ελληνική διατύπωση, όπως και οι άλλες γλωσσικές αποδόσεις, συνέδεε την υφιστάμενη σχέση με την ενοχή αυτή. Το ίδιο διορθωτικό διόρθωσε επίσης το άρθρο 10 παράγραφος 1, για τον αδικαιολόγητο πλουτισμό.",
+          "impact": "Δικαστήριο που διαβάζει το ελληνικό κείμενο αναζητά τη χώρα με την οποία συνδέεται στενότερα ένας αδικαιολόγητος πλουτισμός που ενδέχεται να μην υπάρχει σε περίπτωση διοίκησης αλλοτρίων.",
+          "correction": "Οι γλωσσομαθείς νομικοί θα μπορούσαν να διευκρινίσουν αν η διατύπωση πρέπει να ευθυγραμμιστεί με τις άλλες γλωσσικές αποδόσεις: αποκατάσταση της αρχικής ελληνικής διατύπωσης του άρθρου 11 παράγραφος 1."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "A language version",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Corrigendum to Regulation (EC) No 864/2007 (Rome II), Official Journal of 31 December 2014, Greek version",
+            "role": "Correction",
+            "language": "el",
+            "edition": "published",
+            "locator": "Article 11(1) (Greek)",
+            "text": "με αυτό τον αδικαιολόγητο πλουτισμό",
+            "translations": {
+              "en": "with that unjust enrichment"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/EL/TXT/?uri=CELEX:32007R0864R(02)",
+            "sha256": "e5437b9803a0d2d744a2bff2591bc84a64da61fabd71ff03c52485799eb6e7c7",
+            "retrieved": "2026-10-31",
+            "copy": "sources/e5437b9803a0d2d7-32007R0864R(02)-ell.xhtml",
+            "copy_sha256": "e5437b9803a0d2d744a2bff2591bc84a64da61fabd71ff03c52485799eb6e7c7",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Greek version",
+            "role": "Language version",
+            "language": "el",
+            "edition": "published",
+            "locator": "Article 11(1) (Greek)",
+            "text": "με την εξωσυμβατική αυτή ενοχή",
+            "translations": {
+              "en": "with this non-contractual obligation"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/EL/TXT/?uri=CELEX:32007R0864",
+            "sha256": "018c6580e7febf6b30fedcede546671bd06dadf4757e34aa6b34bec7f82fc1f4",
+            "retrieved": "2026-10-31",
+            "copy": "sources/018c6580e7febf6b-ell.xhtml",
+            "copy_sha256": "018c6580e7febf6b30fedcede546671bd06dadf4757e34aa6b34bec7f82fc1f4",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:12:59Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:12:56Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T14:22:13+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0432",
+      "url": "https://arxo.io/findings/ARXO-2026-0432/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EC) No 593/2008 (Rome I)",
+      "acts": [
+        "Regulation (EC) No 593/2008 (Rome I)",
+        "Regulation (EC) No 864/2007 (Rome II)"
+      ],
+      "location": "Article 8(2), Croatian version",
+      "text": {
+        "en": {
+          "title": "Rome I, Croatian version: does Article 8(2) on employment contracts apply in the absence of a choice of law, as in the other versions?",
+          "summary": "The other 23 versions open paragraph 2 with the absence of a choice by the parties. The Croatian opening repeats the condition of paragraph 3 and makes paragraph 2 depend on paragraph 2 itself. Croatian corrigenda 32008R0593R(04) and R(06) do not touch Article 8.",
+          "impact": "For an employee who habitually works in one country under a contract without a choice of law, the Croatian text does not clearly state that the law of that country applies.",
+          "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: open Croatian Article 8(2) with the absence of a choice of law by the parties, as in the other versions.",
+          "quote_translations": {
+            "q1": "If the applicable law cannot be determined on the basis of paragraph 2."
+          }
+        },
+        "hr": {
+          "title": "Rim I, hrvatska verzija: primjenjuje li se članak 8. stavak 2. o ugovorima o radu kad stranke nisu izabrale mjerodavno pravo, kao u drugim verzijama?",
+          "summary": "Ostale 23 verzije započinju stavak 2. uvjetom da stranke nisu izabrale mjerodavno pravo. Hrvatski uvodni dio ponavlja uvjet iz stavka 3. i čini stavak 2. ovisnim o samom stavku 2. Hrvatski ispravci 32008R0593R(04) i R(06) ne mijenjaju članak 8.",
+          "impact": "Za zaposlenika koji uobičajeno izvršava svoj posao u jednoj državi na temelju ugovora bez izbora prava, hrvatski tekst ne navodi jasno da se primjenjuje pravo te države.",
+          "correction": "Pravnici lingvisti mogli bi reći treba li tekst uskladiti s drugim jezičnim verzijama: članak 8. stavak 2. hrvatske verzije započeti uvjetom da stranke nisu izabrale mjerodavno pravo, kao u drugim verzijama."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "A language version",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Croatian version",
+            "role": "Language version",
+            "language": "hr",
+            "edition": "published",
+            "locator": "Article 8(2) (Croatian)",
+            "text": "Ako se mjerodavno pravo ne može utvrditi na temelju stavka 2.",
+            "translations": {
+              "en": "If the applicable law cannot be determined on the basis of paragraph 2."
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:32008R0593",
+            "sha256": "f9f22d6d143a16f74d397c8c12cd2abc3323e2b3659db22065ba7c12070bfd9a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/f9f22d6d143a16f7-hrv.xhtml",
+            "copy_sha256": "f9f22d6d143a16f74d397c8c12cd2abc3323e2b3659db22065ba7c12070bfd9a",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 8(2) (English)",
+            "text": "To the extent that the law applicable to the individual employment contract has not been chosen by the parties",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0593",
+            "sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+            "retrieved": "2026-10-31",
+            "copy": "sources/2f33c017cfb9fac3-eng.xhtml",
+            "copy_sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:12:59Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:12:56Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T14:22:13+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
       "id": "ARXO-2026-0433",
       "url": "https://arxo.io/findings/ARXO-2026-0433/",
       "record_kind": "discrepancy",
@@ -53223,6 +53516,151 @@
       "sources": [],
       "related": [],
       "first_published": "2026-10-31T13:56:33+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0434",
+      "url": "https://arxo.io/findings/ARXO-2026-0434/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EC) No 593/2008 (Rome I)",
+      "acts": [
+        "Regulation (EC) No 593/2008 (Rome I)",
+        "Regulation (EC) No 864/2007 (Rome II)"
+      ],
+      "location": "Article 7(2), second subparagraph, Irish version",
+      "text": {
+        "en": {
+          "title": "Rome I, Irish version: is a large-risk insurance contract without a choice governed by the law of the consumer or of the insurer?",
+          "summary": "The other versions point to the law of the country where the insurer has his habitual residence. The Irish text names the consumer, a party that a large-risk insurance contract does not have.",
+          "impact": "For a large-risk policy between an insurer in one Member State and a business policy holder in another, without a choice of law, the Irish text points away from the insurer's country.",
+          "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: replace the consumer with the insurer in Irish Article 7(2), second subparagraph.",
+          "quote_translations": {
+            "q1": "the law of the country where the consumer has his habitual residence"
+          }
+        },
+        "ga": {
+          "title": "An Róimh I, an leagan Gaeilge: an é dlí an tomhaltóra nó dlí an árachóra a rialaíonn conradh árachais a chumhdaíonn mór-riosca nuair nach ndearnadh rogha dlí?",
+          "summary": "Díríonn na leaganacha eile ar dhlí na tíre ina bhfuil gnáthchónaí ar an árachóir. Ainmníonn an téacs Gaeilge an tomhaltóir, páirtí nach bhfuil i gconradh árachais a chumhdaíonn mór-riosca.",
+          "impact": "I gcás polasaí a chumhdaíonn mór-riosca idir árachóir i mBallstát amháin agus sealbhóir polasaí ar gnólacht é i mBallstát eile, gan rogha dlí, díríonn an téacs Gaeilge ar dhlí nach é dlí thír an árachóra é.",
+          "correction": "D'fhéadfadh na dlítheangeolaithe a rá ar cheart an fhoclaíocht a ailíniú leis na leaganacha eile: an t-árachóir a chur in ionad an tomhaltóra sa dara fomhír de mhír 2 d'Airteagal 7 den leagan Gaeilge."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "A language version",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Irish version",
+            "role": "Language version",
+            "language": "ga",
+            "edition": "published",
+            "locator": "Article 7(2), second subparagraph (Irish)",
+            "text": "is é dlí na tíre ina bhfuil gnáthchónaí ar an tomhaltóir",
+            "translations": {
+              "en": "the law of the country where the consumer has his habitual residence"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/GA/TXT/?uri=CELEX:32008R0593",
+            "sha256": "3da4017441ff5d684235870f351dedf840e0aeb9fe3e8431dc1b84863565f5ab",
+            "retrieved": "2026-10-31",
+            "copy": "sources/3da4017441ff5d68-gle.xhtml",
+            "copy_sha256": "3da4017441ff5d684235870f351dedf840e0aeb9fe3e8431dc1b84863565f5ab",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 7(2), second subparagraph (English)",
+            "text": "where the insurer has his habitual residence",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0593",
+            "sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+            "retrieved": "2026-10-31",
+            "copy": "sources/2f33c017cfb9fac3-eng.xhtml",
+            "copy_sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:12:59Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:12:56Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T14:22:13+00:00",
       "history": [
         {
           "date": "2026-10-31",
@@ -53392,6 +53830,151 @@
       ]
     },
     {
+      "id": "ARXO-2026-0436",
+      "url": "https://arxo.io/findings/ARXO-2026-0436/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EC) No 593/2008 (Rome I)",
+      "acts": [
+        "Regulation (EC) No 593/2008 (Rome I)",
+        "Regulation (EC) No 864/2007 (Rome II)"
+      ],
+      "location": "Article 11(1), Latvian version",
+      "text": {
+        "en": {
+          "title": "Rome I, Latvian version: does Article 11(1) on formal validity cover persons in the same country, as in the other versions?",
+          "summary": "The other versions cover in paragraph 1 a contract between persons in the same country and in paragraph 2 persons in different countries. In the Latvian text both paragraphs cover persons in different countries.",
+          "impact": "For a contract signed by two parties in the same country, the Latvian text of paragraphs 1 and 2 gives no rule on which laws can make it formally valid.",
+          "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: replace different countries with the same country in Latvian Article 11(1).",
+          "quote_translations": {
+            "q1": "who at the time of conclusion are in different countries"
+          }
+        },
+        "lv": {
+          "title": "Roma I, latviešu valodas versija: vai 11. panta 1. punkts par līguma formālo spēkā esamību attiecas uz personām, kas atrodas vienā un tajā pašā valstī, kā citās versijās?",
+          "summary": "Pārējās versijās 1. punkts attiecas uz līgumu starp personām, kas atrodas vienā un tajā pašā valstī, bet 2. punkts — uz līgumu starp personām, kas atrodas dažādās valstīs. Latviešu tekstā abi punkti attiecas uz personām, kas atrodas dažādās valstīs.",
+          "impact": "Attiecībā uz līgumu, ko parakstījušas divas puses vienā un tajā pašā valstī, latviešu teksta 1. un 2. punkts nenosaka, saskaņā ar kuras valsts tiesību aktiem līgums var būt formāli spēkā.",
+          "correction": "Juristi lingvisti varētu norādīt, vai formulējums būtu jāsaskaņo ar pārējām valodu versijām: latviešu teksta 11. panta 1. punktā vārdus „dažādās valstīs“ aizstāt ar vārdiem „vienā un tajā pašā valstī“."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "A language version",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Latvian version",
+            "role": "Language version",
+            "language": "lv",
+            "edition": "published",
+            "locator": "Article 11(1) (Latvian)",
+            "text": "kas līguma noslēgšanas brīdī ir dažādās valstīs",
+            "translations": {
+              "en": "who at the time of conclusion are in different countries"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/LV/TXT/?uri=CELEX:32008R0593",
+            "sha256": "d0028ccd5870f14af9cf33ce94867522f4fd1ff02a93a64ce0dd1070e6964fa5",
+            "retrieved": "2026-10-31",
+            "copy": "sources/d0028ccd5870f14a-lav.xhtml",
+            "copy_sha256": "d0028ccd5870f14af9cf33ce94867522f4fd1ff02a93a64ce0dd1070e6964fa5",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 11(1) (English)",
+            "text": "are in the same country at the time of its conclusion",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0593",
+            "sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+            "retrieved": "2026-10-31",
+            "copy": "sources/2f33c017cfb9fac3-eng.xhtml",
+            "copy_sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:12:59Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:12:56Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T14:22:13+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
       "id": "ARXO-2026-0437",
       "url": "https://arxo.io/findings/ARXO-2026-0437/",
       "record_kind": "discrepancy",
@@ -53513,6 +54096,2177 @@
       "sources": [],
       "related": [],
       "first_published": "2026-10-31T13:56:33+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0438",
+      "url": "https://arxo.io/findings/ARXO-2026-0438/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EC) No 593/2008 (Rome I)",
+      "acts": [
+        "Regulation (EC) No 593/2008 (Rome I)",
+        "Regulation (EC) No 864/2007 (Rome II)"
+      ],
+      "location": "Article 8(4), Croatian and Dutch versions",
+      "text": {
+        "en": {
+          "title": "Rome I, Croatian and Dutch versions: does the escape clause for employment contracts set the same test as the other versions?",
+          "summary": "The other versions ask whether the contract is more closely connected with another country. The Croatian text asks for the closest connection; the Dutch text asks for a manifestly closer connection, and no other version has manifestly in this paragraph.",
+          "impact": "The same employment contract can pass the escape clause in one version and fail it in another.",
+          "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: align Croatian and Dutch Article 8(4) with the other versions.",
+          "quote_translations": {
+            "q1": "in the closest connection",
+            "q2": "manifestly closer connection"
+          }
+        },
+        "hr": {
+          "title": "Rim I, hrvatska i nizozemska verzija: postavlja li klauzula o odstupanju za ugovore o radu isti kriterij kao druge verzije?",
+          "summary": "Druge verzije pitaju je li ugovor u bližoj vezi s nekom drugom državom. Hrvatski tekst traži najbližu vezu („u najbližoj vezi“); nizozemski tekst traži očito bližu vezu („kennelijk nauwere band“), a nijedna druga verzija u ovom stavku nema riječ očito.",
+          "impact": "Isti ugovor o radu može ispuniti uvjete za primjenu klauzule o odstupanju prema jednoj verziji, a ne ispuniti ih prema drugoj.",
+          "correction": "Pravnici lingvisti mogli bi reći treba li tekst uskladiti s drugim jezičnim verzijama: uskladiti članak 8. stavak 4. hrvatske i nizozemske verzije s drugim verzijama."
+        },
+        "nl": {
+          "title": "Rome I, Kroatische en Nederlandse versie: hanteert de uitwijkclausule voor arbeidsovereenkomsten hetzelfde criterium als de andere versies?",
+          "summary": "De andere versies vragen of de overeenkomst nauwer verbonden is met een ander land. De Kroatische tekst vraagt om de nauwste band („u najbližoj vezi”); de Nederlandse tekst vraagt om een „kennelijk nauwere band”, en geen andere versie bevat in dit lid het woord kennelijk.",
+          "impact": "Dezelfde arbeidsovereenkomst kan in de ene versie aan de voorwaarden voor toepassing van de uitwijkclausule voldoen en in een andere niet.",
+          "correction": "De juristen-linguïsten zouden kunnen aangeven of de formulering in overeenstemming moet worden gebracht met de andere taalversies: artikel 8, lid 4, van de Kroatische en de Nederlandse versie in overeenstemming brengen met de andere versies."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "A language version",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Croatian version",
+            "role": "Language version",
+            "language": "hr",
+            "edition": "published",
+            "locator": "Article 8(4) (Croatian)",
+            "text": "u najbližoj vezi",
+            "translations": {
+              "en": "in the closest connection"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:32008R0593",
+            "sha256": "f9f22d6d143a16f74d397c8c12cd2abc3323e2b3659db22065ba7c12070bfd9a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/f9f22d6d143a16f7-hrv.xhtml",
+            "copy_sha256": "f9f22d6d143a16f74d397c8c12cd2abc3323e2b3659db22065ba7c12070bfd9a",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Dutch version",
+            "role": "Language version",
+            "language": "nl",
+            "edition": "published",
+            "locator": "Article 8(4) (Dutch)",
+            "text": "kennelijk nauwere band",
+            "translations": {
+              "en": "manifestly closer connection"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32008R0593",
+            "sha256": "aa80a60c28e2ed5a9af7baf74b6efb039cf8860eb68a86344438ffb9342572f3",
+            "retrieved": "2026-10-31",
+            "copy": "sources/aa80a60c28e2ed5a-nld.xhtml",
+            "copy_sha256": "aa80a60c28e2ed5a9af7baf74b6efb039cf8860eb68a86344438ffb9342572f3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 8(4) (English)",
+            "text": "more closely connected with a country other than",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0593",
+            "sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+            "retrieved": "2026-10-31",
+            "copy": "sources/2f33c017cfb9fac3-eng.xhtml",
+            "copy_sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:12:59Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:12:56Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T14:22:13+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0439",
+      "url": "https://arxo.io/findings/ARXO-2026-0439/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EC) No 593/2008 (Rome I)",
+      "acts": [
+        "Regulation (EC) No 593/2008 (Rome I)",
+        "Regulation (EC) No 864/2007 (Rome II)"
+      ],
+      "location": "Article 7(2), second subparagraph, Latvian and Estonian versions",
+      "text": {
+        "en": {
+          "title": "Rome I, Latvian and Estonian versions: does the escape clause for large-risk insurance require a clear and manifest closer connection?",
+          "summary": "The other versions require that it is clear from all the circumstances that the contract is manifestly more closely connected with another country. The Latvian text has no word for clear or manifestly; the Estonian text keeps clearly but not manifestly.",
+          "impact": "A weaker connection is enough to leave the insurer's law under the Latvian and Estonian texts.",
+          "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: align Latvian and Estonian Article 7(2), second subparagraph, with the other versions.",
+          "quote_translations": {
+            "q1": "if the circumstances as a whole show that the contract is more closely connected",
+            "q2": "it clearly appears that the contract is more closely connected"
+          }
+        },
+        "et": {
+          "title": "Rooma I, läti ja eesti keeleversioon: kas suuri riske katvate kindlustuslepingute erandiklausli kohaldamiseks peab selgelt ilmnema, et leping on ilmselgelt tihedamalt seotud teise riigiga?",
+          "summary": "Teised versioonid nõuavad, et kõikidest asjaoludest ilmneks selgelt, et leping on ilmselgelt tihedamalt seotud mõne teise riigiga. Läti tekstis puudub sõna, mis vastaks sõnadele selgelt või ilmselgelt; eesti tekstis on säilinud sõna „selgelt“, kuid mitte ilmselgelt („ilmneb selgelt, et leping on tihedamalt seotud“).",
+          "impact": "Läti ja eesti teksti järgi piisab nõrgemast seosest, et kindlustusandja riigi õigus kõrvale jätta.",
+          "correction": "Juristlingvistid võiksid öelda, kas sõnastus tuleks viia kooskõlla teiste keeleversioonidega: viia läti ja eesti teksti artikli 7 lõike 2 teine lõik kooskõlla teiste versioonidega."
+        },
+        "lv": {
+          "title": "Roma I, latviešu un igauņu valodas versija: vai izņēmuma klauzula par lielu risku apdrošināšanu prasa, lai būtu skaidrs, ka līgums ir acīmredzami ciešāk saistīts ar citu valsti?",
+          "summary": "Pārējās versijas prasa, lai no visiem lietas apstākļiem būtu skaidrs, ka līgums ir acīmredzami ciešāk saistīts ar citu valsti. Latviešu tekstā nav vārda, kas atbilstu vārdiem skaidrs vai acīmredzami („Ja lietas apstākļu kopums liecina, ka līgums ir ciešāk saistīts“); igauņu tekstā ir saglabāts vārds skaidri, bet nav vārda acīmredzami.",
+          "impact": "Saskaņā ar latviešu un igauņu tekstu pietiek ar vājāku saikni, lai atkāptos no apdrošinātāja valsts tiesību aktu piemērošanas.",
+          "correction": "Juristi lingvisti varētu norādīt, vai formulējums būtu jāsaskaņo ar pārējām valodu versijām: saskaņot latviešu un igauņu teksta 7. panta 2. punkta otro daļu ar pārējām versijām."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "A language version",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Latvian version",
+            "role": "Language version",
+            "language": "lv",
+            "edition": "published",
+            "locator": "Article 7(2), second subparagraph (Latvian)",
+            "text": "Ja lietas apstākļu kopums liecina, ka līgums ir ciešāk saistīts",
+            "translations": {
+              "en": "if the circumstances as a whole show that the contract is more closely connected"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/LV/TXT/?uri=CELEX:32008R0593",
+            "sha256": "d0028ccd5870f14af9cf33ce94867522f4fd1ff02a93a64ce0dd1070e6964fa5",
+            "retrieved": "2026-10-31",
+            "copy": "sources/d0028ccd5870f14a-lav.xhtml",
+            "copy_sha256": "d0028ccd5870f14af9cf33ce94867522f4fd1ff02a93a64ce0dd1070e6964fa5",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Estonian version",
+            "role": "Language version",
+            "language": "et",
+            "edition": "published",
+            "locator": "Article 7(2), second subparagraph (Estonian)",
+            "text": "ilmneb selgelt, et leping on tihedamalt seotud",
+            "translations": {
+              "en": "it clearly appears that the contract is more closely connected"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/ET/TXT/?uri=CELEX:32008R0593",
+            "sha256": "63523e7649f28b3f14c9d623feac1b45c07f32062a46f4ebb3185ac0989cb71c",
+            "retrieved": "2026-10-31",
+            "copy": "sources/63523e7649f28b3f-est.xhtml",
+            "copy_sha256": "63523e7649f28b3f14c9d623feac1b45c07f32062a46f4ebb3185ac0989cb71c",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:12:59Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:12:56Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T14:22:13+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0440",
+      "url": "https://arxo.io/findings/ARXO-2026-0440/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EC) No 593/2008 (Rome I)",
+      "acts": [
+        "Regulation (EC) No 593/2008 (Rome I)",
+        "Regulation (EC) No 864/2007 (Rome II)"
+      ],
+      "location": "Article 7(3), points (a) and (c), Slovak, Dutch, Finnish, Swedish, Estonian and Slovenian versions",
+      "text": {
+        "en": {
+          "title": "Rome I, six versions: does Article 7(3) limit the choice for mass risks to the law of a Member State?",
+          "summary": "In points (a) and (c) of Article 7(3) most versions limit the choice for mass-risk insurance to the law of a Member State. The Slovak, Dutch and Finnish texts of point (a) and the Swedish, Estonian and Slovenian texts of point (c) speak of a country or state.",
+          "impact": "Read alone, these texts allow the choice of the law of a third country for a mass risk.",
+          "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: say Member State in the six versions, as in the others.",
+          "quote_translations": {
+            "q1": "of any country",
+            "q2": "the country",
+            "q3": "of the state",
+            "q4": "the law of the country",
+            "q5": "the law of the state",
+            "q6": "the law of the state"
+          }
+        },
+        "et": {
+          "title": "Rooma I, kuus keeleversiooni: kas artikli 7 lõige 3 piirab massriskide puhul valikut liikmesriigi õigusega?",
+          "summary": "Artikli 7 lõike 3 punktides a ja c piirab enamik versioone massriskide kindlustuse puhul valikut liikmesriigi õigusega. Slovaki, hollandi ja soome tekst punktis a ning rootsi, eesti ja sloveeni tekst punktis c kasutavad liikmesriigi asemel maad või riiki tähistavat sõna.",
+          "impact": "Eraldi lugedes lubavad need tekstid massriski puhul valida kolmanda riigi õiguse.",
+          "correction": "Juristlingvistid võiksid öelda, kas sõnastus tuleks viia kooskõlla teiste keeleversioonidega: kasutada kõigis kuues versioonis sõna „liikmesriik“, nagu teistes versioonides."
+        },
+        "fi": {
+          "title": "Rooma I, kuusi kieliversiota: rajoittaako 7 artiklan 3 kohta massariskien osalta lakivalinnan jäsenvaltion lakiin?",
+          "summary": "Useimmat kieliversiot rajoittavat 7 artiklan 3 kohdan a ja c alakohdassa massariskien vakuutusten lakivalinnan jäsenvaltion lakiin. Slovakin-, hollannin- ja suomenkielinen teksti a alakohdassa sekä ruotsin-, viron- ja sloveeninkielinen teksti c alakohdassa puhuvat maasta tai valtiosta.",
+          "impact": "Yksinään luettuina nämä tekstit sallivat kolmannen maan lain valitsemisen massariskin vakuuttamiseen.",
+          "correction": "Lakimieslingvistit voisivat todeta, pitäisikö sanamuoto yhdenmukaistaa muiden kieliversioiden kanssa: käyttää kaikissa kuudessa kieliversiossa sanaa ”jäsenvaltio”, kuten muissa kieliversioissa."
+        },
+        "nl": {
+          "title": "Rome I, zes versies: beperkt artikel 7, lid 3, de keuze voor massarisico's tot het recht van een lidstaat?",
+          "summary": "In artikel 7, lid 3, onder a) en c), beperken de meeste versies de keuze voor verzekering van massarisico's tot het recht van een lidstaat. De Slowaakse, Nederlandse en Finse tekst onder a) en de Zweedse, Estse en Sloveense tekst onder c) spreken van een land of staat.",
+          "impact": "Op zichzelf gelezen staan deze teksten toe dat voor een massarisico het recht van een derde land wordt gekozen.",
+          "correction": "De juristen-linguïsten zouden kunnen aangeven of de formulering in overeenstemming moet worden gebracht met de andere taalversies: in de zes versies „lidstaat” schrijven, zoals in de andere versies."
+        },
+        "sk": {
+          "title": "Rím I, šesť jazykových znení: obmedzuje článok 7 ods. 3 voľbu pri hromadných rizikách na právny poriadok členského štátu?",
+          "summary": "V písmenách a) a c) článku 7 ods. 3 väčšina znení obmedzuje voľbu pri poistení hromadných rizík na právny poriadok členského štátu. Slovenské, holandské a fínske znenie písmena a) a švédske, estónske a slovinské znenie písmena c) hovoria o krajine alebo štáte.",
+          "impact": "Ak sa čítajú samostatne, tieto znenia umožňujú pri hromadnom riziku zvoliť právny poriadok tretej krajiny.",
+          "correction": "Právnici lingvisti by mohli posúdiť, či by sa znenie malo zosúladiť s ostatnými jazykovými zneniami: uviesť v šiestich zneniach „členský štát“, ako v ostatných zneniach."
+        },
+        "sl": {
+          "title": "Rim I, šest jezikovnih različic: ali člen 7(3) omejuje izbiro pri zavarovanju nevarnosti, ki niso velike, na pravo države članice?",
+          "summary": "V točkah (a) in (c) člena 7(3) večina različic omejuje izbiro pri zavarovanju nevarnosti, ki niso velike, na pravo države članice. Slovaško, nizozemsko in finsko besedilo točke (a) ter švedsko, estonsko in slovensko besedilo točke (c) govorijo o državi, ne da bi jo opredelili kot državo članico.",
+          "impact": "Če se berejo sama zase, ta besedila dopuščajo izbiro prava tretje države za zavarovanje nevarnosti, ki ni velika.",
+          "correction": "Pravniki lingvisti bi lahko povedali, ali bi bilo treba besedilo uskladiti z drugimi jezikovnimi različicami: v šestih različicah zapisati „država članica“, kot v drugih različicah."
+        },
+        "sv": {
+          "title": "Rom I, sex språkversioner: begränsar artikel 7.3 valet för massrisker till lagen i en medlemsstat?",
+          "summary": "I artikel 7.3 a och c begränsar de flesta versioner valet för försäkring av massrisker till lagen i en medlemsstat. Den slovakiska, nederländska och finska texten i led a och den svenska, estniska och slovenska texten i led c talar om ett land eller en stat.",
+          "impact": "Lästa för sig tillåter dessa texter att lagen i ett tredjeland väljs för en massrisk.",
+          "correction": "Juristlingvisterna skulle kunna säga om lydelsen bör anpassas till de andra språkversionerna: skriva ”medlemsstat” i de sex versionerna, som i de övriga."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "A language version",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Slovak version",
+            "role": "Language version",
+            "language": "sk",
+            "edition": "published",
+            "locator": "Article 7(3)(a) (Slovak)",
+            "text": "ktorejkoľvek krajiny",
+            "translations": {
+              "en": "of any country"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/SK/TXT/?uri=CELEX:32008R0593",
+            "sha256": "1832109477f6a976318facabc052182a03a4614ffd3eb0b0a74436f64290ce74",
+            "retrieved": "2026-10-31",
+            "copy": "sources/1832109477f6a976-slk.xhtml",
+            "copy_sha256": "1832109477f6a976318facabc052182a03a4614ffd3eb0b0a74436f64290ce74",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Dutch version",
+            "role": "Language version",
+            "language": "nl",
+            "edition": "published",
+            "locator": "Article 7(3)(a) (Dutch)",
+            "text": "het land",
+            "translations": {
+              "en": "the country"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32008R0593",
+            "sha256": "aa80a60c28e2ed5a9af7baf74b6efb039cf8860eb68a86344438ffb9342572f3",
+            "retrieved": "2026-10-31",
+            "copy": "sources/aa80a60c28e2ed5a-nld.xhtml",
+            "copy_sha256": "aa80a60c28e2ed5a9af7baf74b6efb039cf8860eb68a86344438ffb9342572f3",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Finnish version",
+            "role": "Language version",
+            "language": "fi",
+            "edition": "published",
+            "locator": "Article 7(3)(a) (Finnish)",
+            "text": "sen valtion",
+            "translations": {
+              "en": "of the state"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/FI/TXT/?uri=CELEX:32008R0593",
+            "sha256": "f24dd6f25e37b7d3d133ccccd8659b6d6ba8607d0720c9f99b692080fda94d16",
+            "retrieved": "2026-10-31",
+            "copy": "sources/f24dd6f25e37b7d3-fin.xhtml",
+            "copy_sha256": "f24dd6f25e37b7d3d133ccccd8659b6d6ba8607d0720c9f99b692080fda94d16",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q4",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Swedish version",
+            "role": "Language version",
+            "language": "sv",
+            "edition": "published",
+            "locator": "Article 7(3)(c) (Swedish)",
+            "text": "lagen i det land",
+            "translations": {
+              "en": "the law of the country"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/SV/TXT/?uri=CELEX:32008R0593",
+            "sha256": "c3c0eda5c83bb5d578b107b48899ac5d9e0d157f801ed737cf274af9108d88d0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/c3c0eda5c83bb5d5-swe.xhtml",
+            "copy_sha256": "c3c0eda5c83bb5d578b107b48899ac5d9e0d157f801ed737cf274af9108d88d0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q5",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Estonian version",
+            "role": "Language version",
+            "language": "et",
+            "edition": "published",
+            "locator": "Article 7(3)(c) (Estonian)",
+            "text": "selle riigi õiguse",
+            "translations": {
+              "en": "the law of the state"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/ET/TXT/?uri=CELEX:32008R0593",
+            "sha256": "63523e7649f28b3f14c9d623feac1b45c07f32062a46f4ebb3185ac0989cb71c",
+            "retrieved": "2026-10-31",
+            "copy": "sources/63523e7649f28b3f-est.xhtml",
+            "copy_sha256": "63523e7649f28b3f14c9d623feac1b45c07f32062a46f4ebb3185ac0989cb71c",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q6",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Slovenian version",
+            "role": "Language version",
+            "language": "sl",
+            "edition": "published",
+            "locator": "Article 7(3)(c) (Slovenian)",
+            "text": "pravo države",
+            "translations": {
+              "en": "the law of the state"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/SL/TXT/?uri=CELEX:32008R0593",
+            "sha256": "105a90b5015f11e393ecf13785ba143eb7892fb73ea7ca492ac8fdfd747e3309",
+            "retrieved": "2026-10-31",
+            "copy": "sources/105a90b5015f11e3-slv.xhtml",
+            "copy_sha256": "105a90b5015f11e393ecf13785ba143eb7892fb73ea7ca492ac8fdfd747e3309",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:12:59Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:12:56Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T14:22:13+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0441",
+      "url": "https://arxo.io/findings/ARXO-2026-0441/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EC) No 593/2008 (Rome I)",
+      "acts": [
+        "Regulation (EC) No 593/2008 (Rome I)",
+        "Regulation (EC) No 864/2007 (Rome II)"
+      ],
+      "location": "Article 4(1)(h), Lithuanian, Greek, Maltese, Hungarian and Danish versions",
+      "text": {
+        "en": {
+          "title": "Rome I, five versions: are multilateral trading systems in Article 4(1)(h) defined by non-discretionary rules?",
+          "summary": "Article 4(1)(h) covers contracts in a multilateral system that brings together interests in financial instruments in accordance with non-discretionary rules. The Lithuanian, Greek, Maltese and Hungarian texts say non-discriminatory; the Danish text says mandatory.",
+          "impact": "A trading venue whose operator has discretion can fall under point (h) in one version and outside it in another.",
+          "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: align the five versions with the term non-discretionary.",
+          "quote_translations": {
+            "q1": "non-discriminatory rules",
+            "q2": "rules that do not discriminate",
+            "q3": "non-discriminatory rules",
+            "q4": "with non-discriminatory rules",
+            "q5": "mandatory rules"
+          }
+        },
+        "da": {
+          "title": "Rom I, fem sprogversioner: er multilaterale handelssystemer i artikel 4, stk. 1, litra h), defineret ved ikke-skønsmæssige regler?",
+          "summary": "Artikel 4, stk. 1, litra h), omfatter aftaler indgået i et multilateralt system, der samler interesser i finansielle instrumenter efter ikke-skønsmæssige regler. Den litauiske, græske, maltesiske og ungarske tekst siger ikke-diskriminerende; den danske tekst siger »ufravigelige regler«.",
+          "impact": "Et handelssted, hvis operatør har skønsbeføjelser, kan i én version falde ind under litra h) og i en anden falde uden for bestemmelsen.",
+          "correction": "Juristlingvisterne kunne tage stilling til, om ordlyden bør bringes i overensstemmelse med de andre sprogversioner: bringe de fem versioner i overensstemmelse med udtrykket ikke-skønsmæssige."
+        },
+        "el": {
+          "title": "Ρώμη Ι, πέντε γλωσσικές αποδόσεις: ορίζονται τα πολυμερή συστήματα διαπραγμάτευσης του άρθρου 4 παράγραφος 1 στοιχείο η) με βάση κανόνες που δεν παρέχουν διακριτική ευχέρεια;",
+          "summary": "Το άρθρο 4 παράγραφος 1 στοιχείο η) καλύπτει συμβάσεις που συνάπτονται σε πολυμερές σύστημα το οποίο συγκεντρώνει συμφέροντα επί χρηματοπιστωτικών μέσων σύμφωνα με κανόνες που δεν παρέχουν διακριτική ευχέρεια. Τα κείμενα στη λιθουανική, την ελληνική, τη μαλτεζική και την ουγγρική γλώσσα κάνουν λόγο για κανόνες χωρίς διακρίσεις («κανόνες που δεν κάνουν διακρίσεις»)· το δανικό κείμενο κάνει λόγο για υποχρεωτικούς κανόνες.",
+          "impact": "Ένας τόπος διαπραγμάτευσης του οποίου ο διαχειριστής έχει διακριτική ευχέρεια μπορεί να εμπίπτει στο στοιχείο η) σε μία γλωσσική απόδοση και να μην εμπίπτει σε άλλη.",
+          "correction": "Οι γλωσσομαθείς νομικοί θα μπορούσαν να διευκρινίσουν αν η διατύπωση πρέπει να ευθυγραμμιστεί με τις άλλες γλωσσικές αποδόσεις: ευθυγράμμιση των πέντε γλωσσικών αποδόσεων με την έννοια των κανόνων που δεν παρέχουν διακριτική ευχέρεια."
+        },
+        "hu": {
+          "title": "Róma I, öt nyelvi változat: a 4. cikk (1) bekezdésének h) pontjában szereplő multilaterális kereskedési rendszereket mérlegelést nem engedő szabályok határozzák-e meg?",
+          "summary": "A 4. cikk (1) bekezdésének h) pontja azokra a szerződésekre vonatkozik, amelyeket olyan multilaterális rendszerben kötnek, amely mérlegelést nem engedő szabályok szerint hozza össze a pénzügyi eszközökkel kapcsolatos érdekeket. A litván, a görög, a máltai és a magyar szöveg megkülönböztetésmentes szabályokról szól („megkülönböztetésmentes szabályokkal”); a dán szöveg kötelező szabályokról.",
+          "impact": "Az a kereskedési helyszín, amelynek üzemeltetője mérlegelési jogkörrel rendelkezik, az egyik változatban a h) pont hatálya alá tartozhat, egy másikban pedig nem.",
+          "correction": "A jogász-nyelvészek megítélhetnék, hogy a szöveget össze kell-e hangolni a többi nyelvi változattal: az öt nyelvi változat összehangolása a „mérlegelést nem engedő” kifejezéssel."
+        },
+        "lt": {
+          "title": "Roma I, penkios kalbinės versijos: ar 4 straipsnio 1 dalies h punkte daugiašalės prekybos sistemos apibrėžiamos nediskrecinėmis taisyklėmis?",
+          "summary": "4 straipsnio 1 dalies h punktas apima sutartis, sudarytas daugiašalėje sistemoje, kuri pagal nediskrecines taisykles suveda su finansinėmis priemonėmis susijusius interesus. Lietuvių, graikų, maltiečių ir vengrų tekstuose kalbama apie nediskriminuojančias taisykles („nediskriminuojančių taisyklių“); danų tekste kalbama apie privalomas taisykles.",
+          "impact": "Prekybos vieta, kurios operatorius turi diskrecijos teisę, pagal vieną versiją gali patekti į h punkto taikymo sritį, o pagal kitą ne.",
+          "correction": "Teisininkai lingvistai galėtų nurodyti, ar formuluotę reikėtų suderinti su kitomis kalbinėmis versijomis: suderinti penkias versijas su terminu „nediskrecinės“."
+        },
+        "mt": {
+          "title": "Ruma I, ħames verżjonijiet: is-sistemi multilaterali ta' kummerċ fl-Artikolu 4(1)(h) huma definiti minn regoli mhux diskrezzjonali?",
+          "summary": "L-Artikolu 4(1)(h) ikopri kuntratti f'sistema multilaterali li tlaqqa' flimkien interessi fi strumenti finanzjarji skont regoli mhux diskrezzjonali. It-testi Litwan, Grieg, Malti u Ungeriż jgħidu mhux diskriminatorji (“regoli non diskriminatorji”); it-test Daniż jgħid obbligatorji.",
+          "impact": "Post tan-negozjar li l-operatur tiegħu għandu diskrezzjoni jista' jaqa' taħt il-punt (h) f'verżjoni waħda u ma jaqax taħtu f'oħra.",
+          "correction": "Il-ġuristi lingwisti jistgħu jgħidu jekk il-kliem għandux jiġi allinjat mal-verżjonijiet l-oħra: jiġu allinjati l-ħames verżjonijiet mat-terminu mhux diskrezzjonali."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "A language version",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Lithuanian version",
+            "role": "Language version",
+            "language": "lt",
+            "edition": "published",
+            "locator": "Article 4(1)(h) (Lithuanian)",
+            "text": "nediskriminuojančių taisyklių",
+            "translations": {
+              "en": "non-discriminatory rules"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/LT/TXT/?uri=CELEX:32008R0593",
+            "sha256": "0fc657252046a89128c1f4c232448f5b2271b6da6f530ec1f2733682f09e7769",
+            "retrieved": "2026-10-31",
+            "copy": "sources/0fc657252046a891-lit.xhtml",
+            "copy_sha256": "0fc657252046a89128c1f4c232448f5b2271b6da6f530ec1f2733682f09e7769",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Greek version",
+            "role": "Language version",
+            "language": "el",
+            "edition": "published",
+            "locator": "Article 4(1)(h) (Greek)",
+            "text": "κανόνες που δεν κάνουν διακρίσεις",
+            "translations": {
+              "en": "rules that do not discriminate"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/EL/TXT/?uri=CELEX:32008R0593",
+            "sha256": "573c71cb9596aeb05b0b6ccdfff0482cb9610742bbcd527dd3533b4e2e1d4a40",
+            "retrieved": "2026-10-31",
+            "copy": "sources/573c71cb9596aeb0-ell.xhtml",
+            "copy_sha256": "573c71cb9596aeb05b0b6ccdfff0482cb9610742bbcd527dd3533b4e2e1d4a40",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Maltese version",
+            "role": "Language version",
+            "language": "mt",
+            "edition": "published",
+            "locator": "Article 4(1)(h) (Maltese)",
+            "text": "regoli non diskriminatorji",
+            "translations": {
+              "en": "non-discriminatory rules"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/MT/TXT/?uri=CELEX:32008R0593",
+            "sha256": "80cad6b6f98e7f5cbcf4665d78e43d56a5352c1d96a546dfaa7f714600a903b6",
+            "retrieved": "2026-10-31",
+            "copy": "sources/80cad6b6f98e7f5c-mlt.xhtml",
+            "copy_sha256": "80cad6b6f98e7f5cbcf4665d78e43d56a5352c1d96a546dfaa7f714600a903b6",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q4",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Hungarian version",
+            "role": "Language version",
+            "language": "hu",
+            "edition": "published",
+            "locator": "Article 4(1)(h) (Hungarian)",
+            "text": "megkülönböztetésmentes szabályokkal",
+            "translations": {
+              "en": "with non-discriminatory rules"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/HU/TXT/?uri=CELEX:32008R0593",
+            "sha256": "c67aa8f55a476717b7c29b5dad63f49d3d9f38f59335812bff1475f72a02a734",
+            "retrieved": "2026-10-31",
+            "copy": "sources/c67aa8f55a476717-hun.xhtml",
+            "copy_sha256": "c67aa8f55a476717b7c29b5dad63f49d3d9f38f59335812bff1475f72a02a734",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q5",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Danish version",
+            "role": "Language version",
+            "language": "da",
+            "edition": "published",
+            "locator": "Article 4(1)(h) (Danish)",
+            "text": "ufravigelige regler",
+            "translations": {
+              "en": "mandatory rules"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/DA/TXT/?uri=CELEX:32008R0593",
+            "sha256": "ddecb9eca5c46d5ec09d9a9dda404796776cdabe2ed7c8ca892c6fc0f8bd167c",
+            "retrieved": "2026-10-31",
+            "copy": "sources/ddecb9eca5c46d5e-dan.xhtml",
+            "copy_sha256": "ddecb9eca5c46d5ec09d9a9dda404796776cdabe2ed7c8ca892c6fc0f8bd167c",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q6",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 4(1)(h) (English)",
+            "text": "non-discretionary rules",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0593",
+            "sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+            "retrieved": "2026-10-31",
+            "copy": "sources/2f33c017cfb9fac3-eng.xhtml",
+            "copy_sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:12:59Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:12:56Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T14:22:13+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0442",
+      "url": "https://arxo.io/findings/ARXO-2026-0442/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EC) No 593/2008 (Rome I) and Regulation (EC) No 864/2007 (Rome II)",
+      "acts": [
+        "Regulation (EC) No 593/2008 (Rome I)",
+        "Regulation (EC) No 864/2007 (Rome II)"
+      ],
+      "location": "Article 16 of Rome I and Article 20 of Rome II, Danish, Italian and Romanian versions",
+      "text": {
+        "en": {
+          "title": "Rome I and Rome II, Danish, Italian and Romanian versions: does the rule on multiple liability require joint and several liability?",
+          "summary": "Most versions apply the rule to several debtors liable for the same claim. The Danish and Italian texts of both Regulations, and the Romanian text of Rome I, say jointly and severally liable. The Romanian text of Rome II says liable together.",
+          "impact": "Under these texts a debtor who is liable for the same claim but not jointly and severally may fall outside the rule on recourse.",
+          "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: align the Danish, Italian and Romanian texts with liable for the same claim.",
+          "quote_translations": {
+            "q1": "are jointly and severally liable",
+            "q2": "jointly and severally liable",
+            "q3": "are jointly and severally liable",
+            "q4": "are jointly and severally liable",
+            "q5": "jointly and severally liable"
+          }
+        },
+        "da": {
+          "title": "Rom I og Rom II, dansk, italiensk og rumænsk version: kræver reglen om flere skyldnere solidarisk hæftelse?",
+          "summary": "De fleste versioner anvender reglen på flere skyldnere, der hæfter for samme fordring. Den danske og den italienske tekst af begge forordninger og den rumænske tekst af Rom I siger, at de »hæfter solidarisk«. Den rumænske tekst af Rom II siger, at de hæfter sammen.",
+          "impact": "Efter disse tekster kan en skyldner, der hæfter for samme fordring, men ikke solidarisk med de øvrige skyldnere, falde uden for reglen om regres.",
+          "correction": "Juristlingvisterne kunne tage stilling til, om ordlyden bør bringes i overensstemmelse med de andre sprogversioner: bringe den danske, den italienske og den rumænske tekst i overensstemmelse med udtrykket hæfter for samme fordring."
+        },
+        "it": {
+          "title": "Roma I e Roma II, versioni danese, italiana e rumena: la norma sulla responsabilità di più debitori richiede la responsabilità in solido?",
+          "summary": "La maggior parte delle versioni applica la norma a più debitori responsabili per lo stesso credito. I testi danese e italiano di entrambi i regolamenti e il testo rumeno di Roma I dicono «responsabili in solido». Il testo rumeno di Roma II dice responsabili insieme.",
+          "impact": "Secondo questi testi, un debitore responsabile per lo stesso credito, ma non in solido con gli altri debitori, può restare escluso dalla norma sul regresso.",
+          "correction": "I giuristi linguisti potrebbero indicare se la formulazione debba essere allineata alle altre versioni linguistiche: allineare i testi danese, italiano e rumeno alla formula responsabili per lo stesso credito."
+        },
+        "ro": {
+          "title": "Roma I și Roma II, versiunile daneză, italiană și română: impune norma privind răspunderea multiplă răspunderea solidară?",
+          "summary": "Majoritatea versiunilor aplică norma mai multor debitori care răspund pentru aceeași creanță. Versiunile daneză și italiană ale ambelor regulamente, precum și versiunea română a Regulamentului Roma I, spun că debitorii „răspund solidar”. Textul român al Regulamentului Roma II spune că răspund în comun.",
+          "impact": "Potrivit acestor texte, un debitor care răspunde pentru aceeași creanță, dar nu solidar cu ceilalți debitori, poate rămâne în afara normei privind regresul.",
+          "correction": "Juriștii-lingviști ar putea preciza dacă formularea ar trebui aliniată cu celelalte versiuni lingvistice: alinierea textelor daneză, italiană și română la formularea răspund pentru aceeași creanță."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "A language version",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Danish version",
+            "role": "Language version",
+            "language": "da",
+            "edition": "published",
+            "locator": "Article 16 (Danish)",
+            "text": "hæfter solidarisk",
+            "translations": {
+              "en": "are jointly and severally liable"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/DA/TXT/?uri=CELEX:32008R0593",
+            "sha256": "ddecb9eca5c46d5ec09d9a9dda404796776cdabe2ed7c8ca892c6fc0f8bd167c",
+            "retrieved": "2026-10-31",
+            "copy": "sources/ddecb9eca5c46d5e-dan.xhtml",
+            "copy_sha256": "ddecb9eca5c46d5ec09d9a9dda404796776cdabe2ed7c8ca892c6fc0f8bd167c",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Italian version",
+            "role": "Language version",
+            "language": "it",
+            "edition": "published",
+            "locator": "Article 16 (Italian)",
+            "text": "responsabili in solido",
+            "translations": {
+              "en": "jointly and severally liable"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32008R0593",
+            "sha256": "36a5b0e2e51578ec8ac34c6dce34320d2f52f91bbac2f91adce42350eec03e77",
+            "retrieved": "2026-10-31",
+            "copy": "sources/36a5b0e2e51578ec-ita.xhtml",
+            "copy_sha256": "36a5b0e2e51578ec8ac34c6dce34320d2f52f91bbac2f91adce42350eec03e77",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, Romanian version",
+            "role": "Language version",
+            "language": "ro",
+            "edition": "published",
+            "locator": "Article 16 (Romanian)",
+            "text": "răspund solidar",
+            "translations": {
+              "en": "are jointly and severally liable"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32008R0593",
+            "sha256": "23419348fbaa0ff44274e859fc0f8afe46b5cad53961e9ae3217057f0da9cd76",
+            "retrieved": "2026-10-31",
+            "copy": "sources/23419348fbaa0ff4-ron.xhtml",
+            "copy_sha256": "23419348fbaa0ff44274e859fc0f8afe46b5cad53961e9ae3217057f0da9cd76",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q4",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Danish version",
+            "role": "Language version",
+            "language": "da",
+            "edition": "published",
+            "locator": "Article 20 (Danish)",
+            "text": "hæfter solidarisk",
+            "translations": {
+              "en": "are jointly and severally liable"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/DA/TXT/?uri=CELEX:32007R0864",
+            "sha256": "f203d52167fef639398d2cf0aa1ba56486f1a40b6a37d2d56ddfca5a863b0cbe",
+            "retrieved": "2026-10-31",
+            "copy": "sources/f203d52167fef639-dan.xhtml",
+            "copy_sha256": "f203d52167fef639398d2cf0aa1ba56486f1a40b6a37d2d56ddfca5a863b0cbe",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q5",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Italian version",
+            "role": "Language version",
+            "language": "it",
+            "edition": "published",
+            "locator": "Article 20 (Italian)",
+            "text": "responsabili in solido",
+            "translations": {
+              "en": "jointly and severally liable"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32007R0864",
+            "sha256": "5e9d04defee424921d4e6eb4ad4591680084c23a6c1b0a3db4b17cdb188e2a25",
+            "retrieved": "2026-10-31",
+            "copy": "sources/5e9d04defee42492-ita.xhtml",
+            "copy_sha256": "5e9d04defee424921d4e6eb4ad4591680084c23a6c1b0a3db4b17cdb188e2a25",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q6",
+            "source": "Regulation (EC) No 593/2008 (Rome I), Official Journal, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 16 (English)",
+            "text": "liable for the same claim",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0593",
+            "sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+            "retrieved": "2026-10-31",
+            "copy": "sources/2f33c017cfb9fac3-eng.xhtml",
+            "copy_sha256": "2f33c017cfb9fac3ae950388e1dd1210ea23474c70f7c6a3e653226af586b941",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:12:59Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:12:56Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T14:22:13+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0443",
+      "url": "https://arxo.io/findings/ARXO-2026-0443/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EC) No 864/2007 (Rome II)",
+      "acts": [
+        "Regulation (EC) No 593/2008 (Rome I)",
+        "Regulation (EC) No 864/2007 (Rome II)"
+      ],
+      "location": "Article 6(3)(b), Bulgarian and Slovenian versions",
+      "text": {
+        "en": {
+          "title": "Rome II, Bulgarian and Slovenian versions: does Article 6(3)(b) set the same conditions as the other versions?",
+          "summary": "Article 6(3)(b) lets the claimant rely on the law of the court where the market is affected in more than one country, if the market in that Member State is directly and substantially affected. The Bulgarian text says more than one Member State; the Slovenian text says directly or substantially.",
+          "impact": "A claim about a market affected in one Member State and a third country can use the option in most versions but not in Bulgarian; an indirect but substantial effect is enough in Slovenian.",
+          "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: align Bulgarian and Slovenian Article 6(3)(b) with the other versions.",
+          "quote_translations": {
+            "q1": "more than one Member State",
+            "q2": "directly or substantially affected"
+          }
+        },
+        "bg": {
+          "title": "Рим II, българска и словенска версия: поставя ли член 6, параграф 3, буква б) същите условия като другите версии?",
+          "summary": "Член 6, параграф 3, буква б) позволява на ищеца да се позове на правото на сезирания съд, когато пазарът е засегнат в повече от една държава, ако пазарът в тази държава-членка е засегнат непосредствено и значително. Българският текст гласи „повече от една държава-членка“; словенският текст гласи непосредствено или значително.",
+          "impact": "При иск относно пазар, засегнат в една държава-членка и в трета държава, ищецът може да се възползва от тази възможност според повечето версии, но не и според българската; в словенската версия е достатъчно непряко, но значително въздействие.",
+          "correction": "Юристите-лингвисти биха могли да преценят дали текстът следва да бъде приведен в съответствие с другите езикови версии: привеждане на член 6, параграф 3, буква б) от българската и словенската версия в съответствие с другите версии."
+        },
+        "sl": {
+          "title": "Rim II, bolgarska in slovenska različica: ali člen 6(3)(b) določa enake pogoje kot druge različice?",
+          "summary": "Člen 6(3)(b) tožeči stranki omogoča, da se opre na pravo sodišča, kadar je trg prizadet v več kot eni državi, če je trg v tej državi članici neposredno in bistveno prizadet. Bolgarsko besedilo navaja več kot eno državo članico; slovensko besedilo navaja „neposredno ali bistveno prizadeti“.",
+          "impact": "Pri zahtevku glede trga, prizadetega v eni državi članici in v tretji državi, lahko tožeča stranka po večini različic uporabi to možnost, po bolgarski pa ne; v slovenski različici zadošča posreden, a bistven učinek.",
+          "correction": "Pravniki lingvisti bi lahko povedali, ali bi bilo treba besedilo uskladiti z drugimi jezikovnimi različicami: uskladiti člen 6(3)(b) bolgarske in slovenske različice z drugimi različicami."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "A language version",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Bulgarian version",
+            "role": "Language version",
+            "language": "bg",
+            "edition": "published",
+            "locator": "Article 6(3)(b) (Bulgarian)",
+            "text": "повече от една държава-членка",
+            "translations": {
+              "en": "more than one Member State"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/BG/TXT/?uri=CELEX:32007R0864",
+            "sha256": "b1323dde5d5c06532e9a15763c657b495b166959eac2ea2d9ff8146561a71571",
+            "retrieved": "2026-10-31",
+            "copy": "sources/b1323dde5d5c0653-bul.xhtml",
+            "copy_sha256": "b1323dde5d5c06532e9a15763c657b495b166959eac2ea2d9ff8146561a71571",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Slovenian version",
+            "role": "Language version",
+            "language": "sl",
+            "edition": "published",
+            "locator": "Article 6(3)(b) (Slovenian)",
+            "text": "neposredno ali bistveno prizadeti",
+            "translations": {
+              "en": "directly or substantially affected"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/SL/TXT/?uri=CELEX:32007R0864",
+            "sha256": "06ebeb3cbaafa533937925ad790322c44c1649ee077a11c954f82e2c26f68de2",
+            "retrieved": "2026-10-31",
+            "copy": "sources/06ebeb3cbaafa533-slv.xhtml",
+            "copy_sha256": "06ebeb3cbaafa533937925ad790322c44c1649ee077a11c954f82e2c26f68de2",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 6(3)(b) (English)",
+            "text": "more than one country",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32007R0864",
+            "sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/488bfcf5bcbcb4e1-eng.xhtml",
+            "copy_sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:12:59Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:12:56Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T14:22:13+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0444",
+      "url": "https://arxo.io/findings/ARXO-2026-0444/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EC) No 864/2007 (Rome II)",
+      "acts": [
+        "Regulation (EC) No 593/2008 (Rome I)",
+        "Regulation (EC) No 864/2007 (Rome II)"
+      ],
+      "location": "Article 4(2), Croatian version",
+      "text": {
+        "en": {
+          "title": "Rome II, Croatian version: does Article 4(2) apply to the person claimed to be liable or only to a person whose liability is established?",
+          "summary": "The other versions apply the common habitual residence rule to the person claimed to be liable. The Croatian text speaks of the person whose liability has been established.",
+          "impact": "Read alone, the Croatian rule assumes liability before the applicable law that decides it has been found.",
+          "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: align Croatian Article 4(2) with the person claimed to be liable.",
+          "quote_translations": {
+            "q1": "the person whose liability has been established"
+          }
+        },
+        "hr": {
+          "title": "Rim II, hrvatska verzija: primjenjuje li se članak 4. stavak 2. na osobu za koju se tvrdi da je odgovorna ili samo na osobu kojoj je odgovornost utvrđena?",
+          "summary": "Druge verzije primjenjuju pravilo o uobičajenom boravištu u istoj državi na osobu za koju se tvrdi da je odgovorna. Hrvatski tekst glasi „osoba kojoj je utvrđena odgovornost“.",
+          "impact": "Ako se čita zasebno, hrvatsko pravilo pretpostavlja odgovornost prije nego što je utvrđeno mjerodavno pravo na temelju kojeg se o njoj odlučuje.",
+          "correction": "Pravnici lingvisti mogli bi reći treba li tekst uskladiti s drugim jezičnim verzijama: uskladiti članak 4. stavak 2. hrvatske verzije s izrazom osoba za koju se tvrdi da je odgovorna."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "A language version",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Croatian version",
+            "role": "Language version",
+            "language": "hr",
+            "edition": "published",
+            "locator": "Article 4(2) (Croatian)",
+            "text": "osoba kojoj je utvrđena odgovornost",
+            "translations": {
+              "en": "the person whose liability has been established"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:32007R0864",
+            "sha256": "658dff9208be23eac15914a531d271ad8387d090233f88afe9e5423ddb7686f8",
+            "retrieved": "2026-10-31",
+            "copy": "sources/658dff9208be23ea-hrv.xhtml",
+            "copy_sha256": "658dff9208be23eac15914a531d271ad8387d090233f88afe9e5423ddb7686f8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 4(2) (English)",
+            "text": "the person claimed to be liable",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32007R0864",
+            "sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/488bfcf5bcbcb4e1-eng.xhtml",
+            "copy_sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:12:59Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:12:56Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T14:22:13+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0445",
+      "url": "https://arxo.io/findings/ARXO-2026-0445/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EC) No 864/2007 (Rome II)",
+      "acts": [
+        "Regulation (EC) No 593/2008 (Rome I)",
+        "Regulation (EC) No 864/2007 (Rome II)"
+      ],
+      "location": "Article 14(1)(b), Croatian and Slovenian versions",
+      "text": {
+        "en": {
+          "title": "Rome II, Croatian and Slovenian versions: must all the parties pursue a commercial activity for a choice under Article 14(1)(b)?",
+          "summary": "The other versions allow a freely negotiated choice before the event where all the parties pursue a commercial activity. The Croatian and Slovenian texts say both parties.",
+          "impact": "With three or more parties, the Croatian and Slovenian texts do not say whether every party must pursue a commercial activity.",
+          "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: say all the parties in Croatian and Slovenian Article 14(1)(b).",
+          "quote_translations": {
+            "q1": "both parties",
+            "q2": "both parties"
+          }
+        },
+        "hr": {
+          "title": "Rim II, hrvatska i slovenska verzija: moraju li sve stranke obavljati poslovnu djelatnost za izbor prava prema članku 14. stavku 1. točki (b)?",
+          "summary": "Druge verzije dopuštaju slobodno ugovoren izbor prava prije nastanka događaja ako sve stranke obavljaju poslovnu djelatnost. Hrvatski i slovenski tekst govore o objema strankama („obje stranke“, „obe stranki“).",
+          "impact": "Kad postoje tri ili više stranaka, hrvatski i slovenski tekst ne navode mora li svaka stranka obavljati poslovnu djelatnost.",
+          "correction": "Pravnici lingvisti mogli bi reći treba li tekst uskladiti s drugim jezičnim verzijama: navesti sve stranke u članku 14. stavku 1. točki (b) hrvatske i slovenske verzije."
+        },
+        "sl": {
+          "title": "Rim II, hrvaška in slovenska različica: ali morajo za izbiro prava po členu 14(1)(b) vse stranke opravljati gospodarsko dejavnost?",
+          "summary": "Druge različice dopuščajo izbiro prava, o kateri se stranke svobodno dogovorijo pred nastankom dogodka, če vse stranke opravljajo gospodarsko dejavnost. Hrvaško in slovensko besedilo govorita o obeh strankah („obje stranke“, „obe stranki“).",
+          "impact": "Kadar so udeležene tri stranke ali več, hrvaško in slovensko besedilo ne povesta, ali mora vsaka stranka opravljati gospodarsko dejavnost.",
+          "correction": "Pravniki lingvisti bi lahko povedali, ali bi bilo treba besedilo uskladiti z drugimi jezikovnimi različicami: v členu 14(1)(b) hrvaške in slovenske različice zapisati vse stranke."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "A language version",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Croatian version",
+            "role": "Language version",
+            "language": "hr",
+            "edition": "published",
+            "locator": "Article 14(1)(b) (Croatian)",
+            "text": "obje stranke",
+            "translations": {
+              "en": "both parties"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:32007R0864",
+            "sha256": "658dff9208be23eac15914a531d271ad8387d090233f88afe9e5423ddb7686f8",
+            "retrieved": "2026-10-31",
+            "copy": "sources/658dff9208be23ea-hrv.xhtml",
+            "copy_sha256": "658dff9208be23eac15914a531d271ad8387d090233f88afe9e5423ddb7686f8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Slovenian version",
+            "role": "Language version",
+            "language": "sl",
+            "edition": "published",
+            "locator": "Article 14(1)(b) (Slovenian)",
+            "text": "obe stranki",
+            "translations": {
+              "en": "both parties"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/SL/TXT/?uri=CELEX:32007R0864",
+            "sha256": "06ebeb3cbaafa533937925ad790322c44c1649ee077a11c954f82e2c26f68de2",
+            "retrieved": "2026-10-31",
+            "copy": "sources/06ebeb3cbaafa533-slv.xhtml",
+            "copy_sha256": "06ebeb3cbaafa533937925ad790322c44c1649ee077a11c954f82e2c26f68de2",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 14(1)(b) (English)",
+            "text": "all the parties",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32007R0864",
+            "sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/488bfcf5bcbcb4e1-eng.xhtml",
+            "copy_sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:12:59Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:12:56Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T14:22:13+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0446",
+      "url": "https://arxo.io/findings/ARXO-2026-0446/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EC) No 864/2007 (Rome II)",
+      "acts": [
+        "Regulation (EC) No 593/2008 (Rome I)",
+        "Regulation (EC) No 864/2007 (Rome II)"
+      ],
+      "location": "Article 23, Dutch and Romanian versions",
+      "text": {
+        "en": {
+          "title": "Rome II, Dutch and Romanian versions: does Article 23 define habitual residence in the same way as the other versions?",
+          "summary": "In the second subparagraph of Article 23(1) the Dutch text names a subsidiary, a branch or another establishment where the other versions name a branch, an agency or any other establishment. In Article 23(2) the Romanian text replaces a natural person acting in the course of his or her business activity with activity during working hours.",
+          "impact": "A company's subsidiary can count as its place of habitual residence under the Dutch text, and the Romanian test turns on time rather than on the nature of the activity.",
+          "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: align Dutch Article 23(1) and Romanian Article 23(2) with the other versions.",
+          "quote_translations": {
+            "q1": "subsidiary",
+            "q2": "for his activity during working hours"
+          }
+        },
+        "nl": {
+          "title": "Rome II, Nederlandse en Roemeense versie: omschrijft artikel 23 de gewone verblijfplaats op dezelfde wijze als de andere versies?",
+          "summary": "In de tweede alinea van artikel 23, lid 1, noemt de Nederlandse tekst een „dochteronderneming”, een bijkantoor of een andere vestiging, waar de andere versies een bijkantoor, een agentschap of een andere vestiging noemen. In artikel 23, lid 2, vervangt de Roemeense tekst de omschrijving van een natuurlijk persoon bij de uitoefening van zijn of haar beroep door een verwijzing naar activiteit tijdens de werkuren.",
+          "impact": "Volgens de Nederlandse tekst kan een dochteronderneming van een vennootschap als de gewone verblijfplaats van die vennootschap gelden, en volgens de Roemeense tekst hangt het criterium af van het tijdstip in plaats van de aard van de activiteit.",
+          "correction": "De juristen-linguïsten zouden kunnen aangeven of de formulering in overeenstemming moet worden gebracht met de andere taalversies: artikel 23, lid 1, van de Nederlandse versie en artikel 23, lid 2, van de Roemeense versie in overeenstemming brengen met de andere versies."
+        },
+        "ro": {
+          "title": "Roma II, versiunile neerlandeză și română: definește articolul 23 reședința obișnuită în același mod ca celelalte versiuni?",
+          "summary": "La articolul 23 alineatul (1) al doilea paragraf, textul neerlandez menționează o filială („dochteronderneming”), o sucursală sau o altă unitate, acolo unde celelalte versiuni menționează o sucursală, o agenție sau orice altă unitate. La articolul 23 alineatul (2), textul român înlocuiește persoana fizică ce acționează în cursul desfășurării activității sale profesionale cu activitatea în timpul programului de lucru („pentru activitatea sa în timpul programului de lucru”).",
+          "impact": "Potrivit textului neerlandez, filiala unei societăți poate fi considerată locul reședinței obișnuite a acelei societăți, iar criteriul din textul român depinde de timp, nu de natura activității.",
+          "correction": "Juriștii-lingviști ar putea preciza dacă formularea ar trebui aliniată cu celelalte versiuni lingvistice: alinierea articolului 23 alineatul (1) din versiunea neerlandeză și a articolului 23 alineatul (2) din versiunea română cu celelalte versiuni."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "A language version",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Dutch version",
+            "role": "Language version",
+            "language": "nl",
+            "edition": "published",
+            "locator": "Article 23(1), second subparagraph (Dutch)",
+            "text": "dochteronderneming",
+            "translations": {
+              "en": "subsidiary"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32007R0864",
+            "sha256": "eda9ded115b3a5a8fb2075f6b6a0c0e49600594989dbd3b7e673c9e185e53f9e",
+            "retrieved": "2026-10-31",
+            "copy": "sources/eda9ded115b3a5a8-nld.xhtml",
+            "copy_sha256": "eda9ded115b3a5a8fb2075f6b6a0c0e49600594989dbd3b7e673c9e185e53f9e",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Romanian version",
+            "role": "Language version",
+            "language": "ro",
+            "edition": "published",
+            "locator": "Article 23(2) (Romanian)",
+            "text": "pentru activitatea sa în timpul programului de lucru",
+            "translations": {
+              "en": "for his activity during working hours"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32007R0864",
+            "sha256": "99a5f4a403bbabf18a0d4302cb67c2ecda75cb0ec22eece3306d080926d836fd",
+            "retrieved": "2026-10-31",
+            "copy": "sources/99a5f4a403bbabf1-ron.xhtml",
+            "copy_sha256": "99a5f4a403bbabf18a0d4302cb67c2ecda75cb0ec22eece3306d080926d836fd",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 23(2) (English)",
+            "text": "acting in the course of his or her business activity",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32007R0864",
+            "sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/488bfcf5bcbcb4e1-eng.xhtml",
+            "copy_sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:12:59Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:12:56Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T14:22:13+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0447",
+      "url": "https://arxo.io/findings/ARXO-2026-0447/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EC) No 864/2007 (Rome II)",
+      "acts": [
+        "Regulation (EC) No 593/2008 (Rome I)",
+        "Regulation (EC) No 864/2007 (Rome II)"
+      ],
+      "location": "Article 15, points (d) and (h), Romanian and Lithuanian versions",
+      "text": {
+        "en": {
+          "title": "Rome II, Romanian and Lithuanian versions: does Article 15 describe the same matters as the other versions?",
+          "summary": "In Article 15(d) the Romanian text speaks of protective measures where the other versions speak of the measures a court may take to prevent or stop injury or damage. In Article 15(h) the Lithuanian text names acquisitive prescription, which concerns property, beside the limitation of actions.",
+          "impact": "The matters governed by the applicable law are described differently in these two versions.",
+          "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: align Romanian Article 15(d) and Lithuanian Article 15(h) with the other versions.",
+          "quote_translations": {
+            "q1": "protective measures",
+            "q2": "acquisitive prescription and limitation of actions"
+          }
+        },
+        "lt": {
+          "title": "Roma II, rumunų ir lietuvių kalbų versijos: ar 15 straipsnyje aprašomi tie patys klausimai kaip kitose versijose?",
+          "summary": "15 straipsnio d punkte rumunų tekste kalbama apie apsaugos priemones, o kitose versijose – apie priemones, kurių teismas gali imtis, kad užkirstų kelią pažeidimui ar žalai arba nutrauktų pažeidimą ar žalos darymą. 15 straipsnio h punkte lietuvių tekstas šalia ieškinio senaties nurodo įgyjamąją senatį, kuri susijusi su nuosavybe („įgyjamosios senaties ir ieškininės senaties“).",
+          "impact": "Taikytinos teisės reglamentuojami klausimai šiose dviejose versijose aprašyti skirtingai.",
+          "correction": "Teisininkai lingvistai galėtų nurodyti, ar formuluotę reikėtų suderinti su kitomis kalbinėmis versijomis: suderinti rumunų teksto 15 straipsnio d punktą ir lietuvių teksto 15 straipsnio h punktą su kitomis versijomis."
+        },
+        "ro": {
+          "title": "Roma II, versiunile română și lituaniană: descrie articolul 15 aceleași aspecte ca celelalte versiuni?",
+          "summary": "La articolul 15 litera (d), textul român vorbește despre „măsurile asigurătorii”, în timp ce celelalte versiuni vorbesc despre măsurile pe care o instanță le poate lua pentru a preveni sau a face să înceteze vătămarea sau prejudiciul. La articolul 15 litera (h), textul lituanian menționează prescripția achizitivă, care privește proprietatea, alături de prescripția extinctivă.",
+          "impact": "Aspectele reglementate de legea aplicabilă sunt descrise diferit în aceste două versiuni.",
+          "correction": "Juriștii-lingviști ar putea preciza dacă formularea ar trebui aliniată cu celelalte versiuni lingvistice: alinierea articolului 15 litera (d) din versiunea română și a articolului 15 litera (h) din versiunea lituaniană cu celelalte versiuni."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "A language version",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Romanian version",
+            "role": "Language version",
+            "language": "ro",
+            "edition": "published",
+            "locator": "Article 15(d) (Romanian)",
+            "text": "măsurile asigurătorii",
+            "translations": {
+              "en": "protective measures"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32007R0864",
+            "sha256": "99a5f4a403bbabf18a0d4302cb67c2ecda75cb0ec22eece3306d080926d836fd",
+            "retrieved": "2026-10-31",
+            "copy": "sources/99a5f4a403bbabf1-ron.xhtml",
+            "copy_sha256": "99a5f4a403bbabf18a0d4302cb67c2ecda75cb0ec22eece3306d080926d836fd",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Lithuanian version",
+            "role": "Language version",
+            "language": "lt",
+            "edition": "published",
+            "locator": "Article 15(h) (Lithuanian)",
+            "text": "įgyjamosios senaties ir ieškininės senaties",
+            "translations": {
+              "en": "acquisitive prescription and limitation of actions"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/LT/TXT/?uri=CELEX:32007R0864",
+            "sha256": "0e1afa5f860a130a20c1aeaa2a262b6b83b29b4c337aaa413ceaf83bafaa6e06",
+            "retrieved": "2026-10-31",
+            "copy": "sources/0e1afa5f860a130a-lit.xhtml",
+            "copy_sha256": "0e1afa5f860a130a20c1aeaa2a262b6b83b29b4c337aaa413ceaf83bafaa6e06",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 15(h) (English)",
+            "text": "prescription and limitation",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32007R0864",
+            "sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/488bfcf5bcbcb4e1-eng.xhtml",
+            "copy_sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:12:59Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:12:56Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T14:22:13+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0448",
+      "url": "https://arxo.io/findings/ARXO-2026-0448/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EC) No 864/2007 (Rome II)",
+      "acts": [
+        "Regulation (EC) No 593/2008 (Rome I)",
+        "Regulation (EC) No 864/2007 (Rome II)"
+      ],
+      "location": "Article 22(2), Bulgarian version",
+      "text": {
+        "en": {
+          "title": "Rome II, Bulgarian version: does Article 22(2) cover the same acts as the other versions?",
+          "summary": "The other versions cover acts intended to have legal effect. The Bulgarian text covers unilateral declarations of will with legal effects.",
+          "impact": "No change to the applicable law; the rule on proof covers a differently described set of acts.",
+          "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: align Bulgarian Article 22(2) with the other versions.",
+          "quote_translations": {
+            "q1": "unilateral declarations of will with legal effects"
+          }
+        },
+        "bg": {
+          "title": "Рим II, българска версия: обхваща ли член 22, параграф 2 същите актове като другите версии?",
+          "summary": "Другите версии обхващат актове, предназначени да имат правно действие. Българският текст обхваща „Едностранните волеизявления с правни последици“.",
+          "impact": "Приложимото право не се променя; правилото относно доказването обхваща различно описан кръг от актове.",
+          "correction": "Юристите-лингвисти биха могли да преценят дали текстът следва да бъде приведен в съответствие с другите езикови версии: привеждане на член 22, параграф 2 от българската версия в съответствие с другите версии."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "A language version",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Bulgarian version",
+            "role": "Language version",
+            "language": "bg",
+            "edition": "published",
+            "locator": "Article 22(2) (Bulgarian)",
+            "text": "Едностранните волеизявления с правни последици",
+            "translations": {
+              "en": "unilateral declarations of will with legal effects"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/BG/TXT/?uri=CELEX:32007R0864",
+            "sha256": "b1323dde5d5c06532e9a15763c657b495b166959eac2ea2d9ff8146561a71571",
+            "retrieved": "2026-10-31",
+            "copy": "sources/b1323dde5d5c0653-bul.xhtml",
+            "copy_sha256": "b1323dde5d5c06532e9a15763c657b495b166959eac2ea2d9ff8146561a71571",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 22(2) (English)",
+            "text": "intended to have legal effect",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32007R0864",
+            "sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/488bfcf5bcbcb4e1-eng.xhtml",
+            "copy_sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:12:59Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:12:56Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T14:22:13+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0449",
+      "url": "https://arxo.io/findings/ARXO-2026-0449/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": "EU",
+      "jurisdiction_detail": "European Union",
+      "act": "Regulation (EC) No 864/2007 (Rome II)",
+      "acts": [
+        "Regulation (EC) No 593/2008 (Rome I)",
+        "Regulation (EC) No 864/2007 (Rome II)"
+      ],
+      "location": "Article 30(1), Hungarian and Danish versions",
+      "text": {
+        "en": {
+          "title": "Rome II, Hungarian and Danish versions: does the review clause ask for more than the other versions?",
+          "summary": "The Hungarian and Danish texts of Article 30(1) add a sentence that the other versions do not have: the report shall in particular examine non-contractual obligations arising out of traffic accidents and violations of privacy and rights relating to personality, including defamation.",
+          "impact": "No change to the applicable law; the review clause asks for more in two versions.",
+          "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: align Hungarian and Danish Article 30(1) with the other versions.",
+          "quote_translations": {
+            "q1": "The report shall in particular examine non-contractual obligations arising out of traffic accidents"
+          }
+        },
+        "da": {
+          "title": "Rom II, ungarsk og dansk version: kræver revisionsbestemmelsen mere end de andre versioner?",
+          "summary": "Den ungarske og den danske tekst af artikel 30, stk. 1, tilføjer en sætning, som de andre versioner ikke har: rapporten skal navnlig omhandle forpligtelser uden for kontrakt, der udspringer af trafikulykker og af krænkelser af privatlivets fred og individets rettigheder, herunder ærekrænkelser.",
+          "impact": "Den lov, der skal anvendes, ændres ikke; revisionsbestemmelsen kræver mere i to versioner.",
+          "correction": "Juristlingvisterne kunne tage stilling til, om ordlyden bør bringes i overensstemmelse med de andre sprogversioner: bringe artikel 30, stk. 1, i den ungarske og den danske version i overensstemmelse med de andre versioner."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-10-31",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "A language version",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Danish version",
+            "role": "Language version",
+            "language": "da",
+            "edition": "published",
+            "locator": "Article 30(1) (Danish)",
+            "text": "Rapporten skal navnlig omhandle forpligtelser uden for kontrakt, der udspringer af trafikulykker",
+            "translations": {
+              "en": "The report shall in particular examine non-contractual obligations arising out of traffic accidents"
+            },
+            "url": "https://eur-lex.europa.eu/legal-content/DA/TXT/?uri=CELEX:32007R0864",
+            "sha256": "f203d52167fef639398d2cf0aa1ba56486f1a40b6a37d2d56ddfca5a863b0cbe",
+            "retrieved": "2026-10-31",
+            "copy": "sources/f203d52167fef639-dan.xhtml",
+            "copy_sha256": "f203d52167fef639398d2cf0aa1ba56486f1a40b6a37d2d56ddfca5a863b0cbe",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, English version",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Article 30(1) (English)",
+            "text": "a report on the application of this Regulation",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32007R0864",
+            "sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/488bfcf5bcbcb4e1-eng.xhtml",
+            "copy_sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T13:12:59Z",
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+        },
+        {
+          "date": "2026-10-31T13:12:56Z",
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "channel": "email",
+          "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        },
+        {
+          "institution": "European Parliament, Directorate for Legislative Acts",
+          "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-31",
+      "ai_role": {
+        "en": "AI models helped read and compare the texts and review the draft letters."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-10-31T14:22:13+00:00",
       "history": [
         {
           "date": "2026-10-31",

@@ -1,0 +1,170 @@
+{
+  "id": "ARXO-2026-0447",
+  "url": "https://arxo.io/findings/ARXO-2026-0447/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": "European Union",
+  "act": "Regulation (EC) No 864/2007 (Rome II)",
+  "acts": [
+    "Regulation (EC) No 593/2008 (Rome I)",
+    "Regulation (EC) No 864/2007 (Rome II)"
+  ],
+  "location": "Article 15, points (d) and (h), Romanian and Lithuanian versions",
+  "text": {
+    "en": {
+      "title": "Rome II, Romanian and Lithuanian versions: does Article 15 describe the same matters as the other versions?",
+      "summary": "In Article 15(d) the Romanian text speaks of protective measures where the other versions speak of the measures a court may take to prevent or stop injury or damage. In Article 15(h) the Lithuanian text names acquisitive prescription, which concerns property, beside the limitation of actions.",
+      "impact": "The matters governed by the applicable law are described differently in these two versions.",
+      "correction": "The lawyer-linguists could say whether the wording should be aligned with the other versions: align Romanian Article 15(d) and Lithuanian Article 15(h) with the other versions.",
+      "quote_translations": {
+        "q1": "protective measures",
+        "q2": "acquisitive prescription and limitation of actions"
+      }
+    },
+    "lt": {
+      "title": "Roma II, rumunų ir lietuvių kalbų versijos: ar 15 straipsnyje aprašomi tie patys klausimai kaip kitose versijose?",
+      "summary": "15 straipsnio d punkte rumunų tekste kalbama apie apsaugos priemones, o kitose versijose – apie priemones, kurių teismas gali imtis, kad užkirstų kelią pažeidimui ar žalai arba nutrauktų pažeidimą ar žalos darymą. 15 straipsnio h punkte lietuvių tekstas šalia ieškinio senaties nurodo įgyjamąją senatį, kuri susijusi su nuosavybe („įgyjamosios senaties ir ieškininės senaties“).",
+      "impact": "Taikytinos teisės reglamentuojami klausimai šiose dviejose versijose aprašyti skirtingai.",
+      "correction": "Teisininkai lingvistai galėtų nurodyti, ar formuluotę reikėtų suderinti su kitomis kalbinėmis versijomis: suderinti rumunų teksto 15 straipsnio d punktą ir lietuvių teksto 15 straipsnio h punktą su kitomis versijomis."
+    },
+    "ro": {
+      "title": "Roma II, versiunile română și lituaniană: descrie articolul 15 aceleași aspecte ca celelalte versiuni?",
+      "summary": "La articolul 15 litera (d), textul român vorbește despre „măsurile asigurătorii”, în timp ce celelalte versiuni vorbesc despre măsurile pe care o instanță le poate lua pentru a preveni sau a face să înceteze vătămarea sau prejudiciul. La articolul 15 litera (h), textul lituanian menționează prescripția achizitivă, care privește proprietatea, alături de prescripția extinctivă.",
+      "impact": "Aspectele reglementate de legea aplicabilă sunt descrise diferit în aceste două versiuni.",
+      "correction": "Juriștii-lingviști ar putea preciza dacă formularea ar trebui aliniată cu celelalte versiuni lingvistice: alinierea articolului 15 litera (d) din versiunea română și a articolului 15 litera (h) din versiunea lituaniană cu celelalte versiuni."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "A language version",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Romanian version",
+        "role": "Language version",
+        "language": "ro",
+        "edition": "published",
+        "locator": "Article 15(d) (Romanian)",
+        "text": "măsurile asigurătorii",
+        "translations": {
+          "en": "protective measures"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32007R0864",
+        "sha256": "99a5f4a403bbabf18a0d4302cb67c2ecda75cb0ec22eece3306d080926d836fd",
+        "retrieved": "2026-10-31",
+        "copy": "sources/99a5f4a403bbabf1-ron.xhtml",
+        "copy_sha256": "99a5f4a403bbabf18a0d4302cb67c2ecda75cb0ec22eece3306d080926d836fd",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, Lithuanian version",
+        "role": "Language version",
+        "language": "lt",
+        "edition": "published",
+        "locator": "Article 15(h) (Lithuanian)",
+        "text": "įgyjamosios senaties ir ieškininės senaties",
+        "translations": {
+          "en": "acquisitive prescription and limitation of actions"
+        },
+        "url": "https://eur-lex.europa.eu/legal-content/LT/TXT/?uri=CELEX:32007R0864",
+        "sha256": "0e1afa5f860a130a20c1aeaa2a262b6b83b29b4c337aaa413ceaf83bafaa6e06",
+        "retrieved": "2026-10-31",
+        "copy": "sources/0e1afa5f860a130a-lit.xhtml",
+        "copy_sha256": "0e1afa5f860a130a20c1aeaa2a262b6b83b29b4c337aaa413ceaf83bafaa6e06",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Regulation (EC) No 864/2007 (Rome II), Official Journal, English version",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Article 15(h) (English)",
+        "text": "prescription and limitation",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32007R0864",
+        "sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/488bfcf5bcbcb4e1-eng.xhtml",
+        "copy_sha256": "488bfcf5bcbcb4e1401205419942109bee4b77d03cd1b5dc2b18399e2ea6dde0",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T13:12:59Z",
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70ZbQP3i+XHyoG_2YvrdzeuSRWyOqzu9hnEYRN0Wq-YyA@mail.gmail.com>"
+    },
+    {
+      "date": "2026-10-31T13:12:56Z",
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73wRJpLRgo=g--ww+78cgCogZyxROz8dJX0vAD8VFp6ug@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Council of the European Union, General Secretariat, Directorate for Quality of Legislation",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    },
+    {
+      "institution": "European Parliament, Directorate for Legislative Acts",
+      "role": "lawyer-linguists of the co-legislator; corrigendum procedure"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models helped read and compare the texts and review the draft letters."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T14:22:13+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Council of the European Union, General Secretariat, Directorate for Quality of Legislation (e-mail)"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Parliament, Directorate for Legislative Acts (e-mail)"
+    }
+  ]
+}
