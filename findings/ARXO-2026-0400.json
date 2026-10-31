@@ -1,0 +1,116 @@
+{
+  "id": "ARXO-2026-0400",
+  "url": "https://arxo.io/findings/ARXO-2026-0400/",
+  "record_kind": "discrepancy",
+  "class": "programs",
+  "class_label": "Programs and services",
+  "jurisdiction": "EU",
+  "jurisdiction_detail": null,
+  "act": "Regulation (EU) No 575/2013 (CRR)",
+  "acts": [],
+  "location": "CAP30.23(4) vs CRR Art 72j(1)",
+  "text": {
+    "en": {
+      "title": "CRR: CAP30.23(4) vs CRR Art 72j(1)",
+      "summary": "Article 72j(1) CRR permits no deduction at exactly 5%, whereas Basel Framework CAP30.23(4) requires holdings to be less than 5%. The CRR does not provide discretion over this boundary.",
+      "impact": "Position: G-SIB/G-SII, CET1 1000, designated trading-book holdings of other G-SIBs' TLAC instruments, aggregate exactly 50 (5.0%) Reading a: Basel CAP30.23(4): 50 is not less than 5% — condition fails, deduction 50 from Tier 2 Reading b: CRR Art 72j(1): 50 is equal to 5% — not deducted (0) Difference: Tier 2 deduction 50",
+      "correction": "Confirm whether the boundary at exactly 5% in Article 72j(1) is intended."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework CAP30 (in force 2019-12-15, published 2019-12-15)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2019-12-15",
+        "locator": "CAP30.23(4) vs CRR Art 72j(1)",
+        "text": "Such holdings are, in aggregate and on a gross long basis, less than 5% of the G-SIB’s common equity",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cap/30/inforce/2019-12-15/published/2019-12-15",
+        "sha256": "ab96c0ecb89252e77768ab38fb4c7ffe7f84dc216571074674dde92e8afc7b4d",
+        "retrieved": "2026-10-31",
+        "copy": "sources/ab96c0ecb89252e7-CAP30@2019-12-15~2019-12-15.txt",
+        "copy_sha256": "ab96c0ecb89252e77768ab38fb4c7ffe7f84dc216571074674dde92e8afc7b4d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Regulation (EU) No 575/2013, Article 72j (consolidated 1 January 2027)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "02013R0575-20270101",
+        "locator": "Article 72j(1)",
+        "text": "that in aggregate and measured on a gross long basis is equal to or less than 5 % of the Common Equity Tier 1 items of the institution",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02013R0575-20270101",
+        "sha256": "7edd181ec6fa53b21f515986cc7664a92c2eb72cd9ae1910d14dad9f9cba9145",
+        "retrieved": "2026-10-31",
+        "copy": "sources/7edd181ec6fa53b2-art_72j.txt",
+        "copy_sha256": "7edd181ec6fa53b21f515986cc7664a92c2eb72cd9ae1910d14dad9f9cba9145",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:18Z",
+      "institution": "European Commission, DG FISMA",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLwGnPsrsnlcFHvBWktDvMhzKMZZBrg"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "European Commission, DG FISMA",
+      "role": "responsible for EU banking regulation"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to European Commission, DG FISMA (e-mail)"
+    }
+  ]
+}

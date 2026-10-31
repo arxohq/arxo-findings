@@ -1,0 +1,105 @@
+{
+  "id": "ARXO-2026-0376",
+  "url": "https://arxo.io/findings/ARXO-2026-0376/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework CRE54 (in force 2023-01-01, published 2020-03-27)",
+  "acts": [],
+  "location": "CRE54.35 first bullet (haircuts CRE22.44)",
+  "text": {
+    "en": {
+      "title": "Basel Framework: CRE54.35 first bullet (haircuts CRE22.44)",
+      "summary": "CRE54.35 sends SFT haircuts to CRE22.44, which is the netting-recognition paragraph; the haircut tables are CRE22.49-22.51.",
+      "impact": "Position: SFT with a member: corporate bond rated A, 4 years, 10-business-day haircut 6% Reading a: Literal: CRE22.44 has no haircut, haircut undefined Reading b: Intended: CRE22.49 row A+ to BBB-, >3y<=5y, other issuers: 6 Difference: E* differs by 6% of collateral",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework CRE54 (in force 2023-01-01, published 2020-03-27)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-03-27",
+        "locator": "CRE54.35 first bullet (haircuts CRE22.44)",
+        "text": "Any haircuts to be applied for SFTs must be the standard supervisory haircuts set out in CRE22.44.",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/54/inforce/2023-01-01/published/2020-03-27",
+        "sha256": "2566fdd305261db0f597498bd48bab7e70d9f65f1c8e30ad8276093796a271b2",
+        "retrieved": "2026-10-31",
+        "copy": "sources/2566fdd305261db0-CRE54@2023-01-01~2020-03-27.txt",
+        "copy_sha256": "2566fdd305261db0f597498bd48bab7e70d9f65f1c8e30ad8276093796a271b2",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

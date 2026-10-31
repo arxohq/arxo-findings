@@ -1,0 +1,121 @@
+{
+  "id": "ARXO-2026-0383",
+  "url": "https://arxo.io/findings/ARXO-2026-0383/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework MAR21 (in force 2023-01-01, published 2026-03-23)",
+  "acts": [],
+  "location": "MAR21.1 and MAR21.4",
+  "text": {
+    "en": {
+      "title": "Basel Framework: MAR21.1 and MAR21.4",
+      "summary": "MAR21.1 points to MAR21.8-MAR21.14 (risk-factor definitions) for across-bucket aggregation, which is actually set out in MAR21.4 and MAR21.5.",
+      "impact": "Position: n/a Reading a: n/a Reading b: n/a Difference: none",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework MAR21 (in force 2023-01-01, published 2026-03-23)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2026-03-23",
+        "locator": "MAR21.1 and MAR21.4",
+        "text": "then across buckets within the same risk class as set out in MAR21.8 to MAR21.14.",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/mar/21/inforce/2023-01-01/published/2026-03-23",
+        "sha256": "702d93bcc11364c3ffc2c0c81eb0c5981d89544031c7ebc2a84605f86b22df28",
+        "retrieved": "2026-10-31",
+        "copy": "sources/702d93bcc11364c3-MAR21@2023-01-01~2026-03-23.txt",
+        "copy_sha256": "702d93bcc11364c3ffc2c0c81eb0c5981d89544031c7ebc2a84605f86b22df28",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Basel Framework MAR21 (in force 2023-01-01, published 2026-03-23)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2026-03-23",
+        "locator": "MAR21.1 and MAR21.4",
+        "text": "For each risk factor (as defined in MAR21.8 to MAR21.14), a sensitivity is determined as set out in MAR21.15 to MAR21.38.",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/mar/21/inforce/2023-01-01/published/2026-03-23",
+        "sha256": "702d93bcc11364c3ffc2c0c81eb0c5981d89544031c7ebc2a84605f86b22df28",
+        "retrieved": "2026-10-31",
+        "copy": "sources/702d93bcc11364c3-MAR21@2023-01-01~2026-03-23.txt",
+        "copy_sha256": "702d93bcc11364c3ffc2c0c81eb0c5981d89544031c7ebc2a84605f86b22df28",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

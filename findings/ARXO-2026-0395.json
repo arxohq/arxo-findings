@@ -1,0 +1,121 @@
+{
+  "id": "ARXO-2026-0395",
+  "url": "https://arxo.io/findings/ARXO-2026-0395/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework MAR50 (in force 2023-01-01, published 2020-07-08)",
+  "acts": [],
+  "location": "MAR50.68 Table 10 vs MAR50.66 Table 8",
+  "text": {
+    "en": {
+      "title": "Basel Framework: MAR50.68 Table 10 vs MAR50.66 Table 8",
+      "summary": "MAR50.68 Table 10 labels buckets 8, 9 as IG and 16 as HY/NR, contradicting the credit-quality assignment in MAR50.66 Table 8.",
+      "impact": "Position: HY sovereign reference name, bucket 8 Reading a: Row label read literally: bucket 8 is IG, so IG weight 2.0% is stated but bucket is not IG Reading b: Table 8: bucket 8 is HY/NR, weight 2.0% Difference: no numeric difference for bucket 8; for bucket 16 label 'HY/NR' conflicts with IG",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework MAR50 (in force 2023-01-01, published 2020-07-08)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-07-08",
+        "locator": "MAR50.68 Table 10 vs MAR50.66 Table 8",
+        "text": "| IG bucket | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/mar/50/inforce/2023-01-01/published/2020-07-08",
+        "sha256": "2967e9d1d97f08107758bb9befb89c92d27195a937d2db7191cb9ab2d9118bc4",
+        "retrieved": "2026-10-31",
+        "copy": "sources/2967e9d1d97f0810-MAR50@2023-01-01~2020-07-08.txt",
+        "copy_sha256": "2967e9d1d97f08107758bb9befb89c92d27195a937d2db7191cb9ab2d9118bc4",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Basel Framework MAR50 (in force 2023-01-01, published 2020-07-08)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-07-08",
+        "locator": "MAR50.68 Table 10 vs MAR50.66 Table 8",
+        "text": "| 8 | HY and NR | Sovereigns including central banks, multilateral development banks | Sovereigns including central banks, multilateral development banks |",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/mar/50/inforce/2023-01-01/published/2020-07-08",
+        "sha256": "2967e9d1d97f08107758bb9befb89c92d27195a937d2db7191cb9ab2d9118bc4",
+        "retrieved": "2026-10-31",
+        "copy": "sources/2967e9d1d97f0810-MAR50@2023-01-01~2020-07-08.txt",
+        "copy_sha256": "2967e9d1d97f08107758bb9befb89c92d27195a937d2db7191cb9ab2d9118bc4",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

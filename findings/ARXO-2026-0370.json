@@ -1,0 +1,121 @@
+{
+  "id": "ARXO-2026-0370",
+  "url": "https://arxo.io/findings/ARXO-2026-0370/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework CRE52 (in force 2023-01-01, published 2020-06-05)",
+  "acts": [],
+  "location": "CRE52.20 / CRE52.23 multiplier",
+  "text": {
+    "en": {
+      "title": "Basel Framework: CRE52.20 / CRE52.23 multiplier",
+      "summary": "The SA-CCR multiplier in CRE52.23 divides by the aggregate add-on, and the text gives no convention for a netting set whose aggregate add-on is zero. Taking the limit gives a potential future exposure of zero.",
+      "impact": "Position: Netting set with one long and one short IR trade of equal effective notional in the same currency bucket: AddOnaggregate=0, V=-10, C=0 Reading a: limit AddOn->0+: exp(-inf)=0, multiplier=Floor=5%, PFE=0 Reading b: expression 0/0 or -10/0 undefined: no multiplier, PFE undefined, EAD not computable Difference: PFE is 0 in both only if the limit convention is accepted; otherwise EAD undefined",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework CRE52 (in force 2023-01-01, published 2020-06-05)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-06-05",
+        "locator": "CRE52.20 / CRE52.23 multiplier",
+        "text": "multiplier is defined as a function of three inputs: V, C and AddOnaggregate",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/52/inforce/2023-01-01/published/2020-06-05",
+        "sha256": "5b52b72681dbea4d0ded7a317ea06ca15241c115478efa5dba0fc38f6df9d99d",
+        "retrieved": "2026-10-31",
+        "copy": "sources/5b52b72681dbea4d-CRE52@2023-01-01~2020-06-05.txt",
+        "copy_sha256": "5b52b72681dbea4d0ded7a317ea06ca15241c115478efa5dba0fc38f6df9d99d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Basel Framework CRE52 (in force 2023-01-01, published 2020-06-05)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-06-05",
+        "locator": "CRE52.20 / CRE52.23 multiplier",
+        "text": "the multiplier is floored at 5% of the PFE add-on",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/52/inforce/2023-01-01/published/2020-06-05",
+        "sha256": "5b52b72681dbea4d0ded7a317ea06ca15241c115478efa5dba0fc38f6df9d99d",
+        "retrieved": "2026-10-31",
+        "copy": "sources/5b52b72681dbea4d-CRE52@2023-01-01~2020-06-05.txt",
+        "copy_sha256": "5b52b72681dbea4d0ded7a317ea06ca15241c115478efa5dba0fc38f6df9d99d",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

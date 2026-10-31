@@ -1,0 +1,105 @@
+{
+  "id": "ARXO-2026-0391",
+  "url": "https://arxo.io/findings/ARXO-2026-0391/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework MAR33 (in force 2023-01-01, published 2020-06-05)",
+  "acts": [],
+  "location": "MAR33.15 IMCC(C_i)",
+  "text": {
+    "en": {
+      "title": "Basel Framework: MAR33.15 IMCC(C_i)",
+      "summary": "IMCC(C_i) in MAR33.15 contains the ratio ES_F,C,i / ES_R,C,i, which has no value for a risk class without positions. The CRR writes the convention out (Article 325bb(3) includes a risk class only where the portfolio has a modellable risk factor in it); the Basel text does not.",
+      "impact": "Position: Bank with IMA desks in rates, equity, FX, credit only; no commodity positions. Commodity class: ES_R,S,i = 0, ES_F,C,i = 0, ES_R,C,i = 0. Reading a: IMCC(C_commodity) = 0 x 0/0 undefined, IMCC cannot be computed Reading b: class skipped / contributes 0, IMCC = rho*IMCC(C) + (1-rho)*sum over 4 classes Difference: undefined vs defined capital number; also applies when ES_R,C,i is 0 while ES_F,C,i > 0 (factors not in reduced set): ratio infinite",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework MAR33 (in force 2023-01-01, published 2020-06-05)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-06-05",
+        "locator": "MAR33.15 IMCC(C_i)",
+        "text": "ES_{R,S} is then scaled up by the ratio of (i) the current ES using the full set of risk factors to (ii) the current ES measure using the reduced set of factors.",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/mar/33/inforce/2023-01-01/published/2020-06-05",
+        "sha256": "f33a3dc87d0a26846946b21e43938925ea5c15da64019e71c2fbdb63e73444b8",
+        "retrieved": "2026-10-31",
+        "copy": "sources/f33a3dc87d0a2684-MAR33@2023-01-01~2020-06-05.txt",
+        "copy_sha256": "f33a3dc87d0a26846946b21e43938925ea5c15da64019e71c2fbdb63e73444b8",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

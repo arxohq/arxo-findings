@@ -1,0 +1,694 @@
+LCR40 — inforce 2019-12-15, published 2023-03-30; source sha256 4ca81defbc618e373fe091ed2cd798175339b9689893dfeb8e16fe785f9b1440
+Title: Cash inflows and outflows | Bank for International Settlements
+
+# Definition of total net cash outflows
+
+## LCR40.1
+The term total net cash outflows[fn1] is defined as the total expected cash outflows minus total expected cash inflows in the specified stress scenario for the subsequent 30 calendar days. Total expected cash outflows are calculated by multiplying the outstanding balances of various categories or types of liabilities and off-balance sheet commitments by the rates at which they are expected to run off or be drawn down. Total expected cash inflows are calculated by multiplying the outstanding balances of various categories of contractual receivables by the rates at which they are expected to flow in under the scenario up to an aggregate cap of 75% of total expected cash outflows.
+[fn1] Where applicable, cash inflows and outflows should include interest that is expected to be received and paid during the 30-day time horizon.
+
+## LCR40.2
+While most run-off rates, drawdown rates and similar factors are harmonised across jurisdictions as outlined in this standard, a few parameters are to be determined by supervisory authorities at the national level. Where this is the case, the parameters should be transparent and made publicly available.
+
+## LCR40.3
+LCR99 provides a summary of the factors that are applied to each category.
+
+## LCR40.4
+Banks will not be permitted to double-count items, ie if an asset is included as part of the stock of high-quality liquid assets (HQLA) (ie the numerator), the associated cash inflows cannot also be counted as cash inflows (ie part of the denominator). Where there is potential that an item could be counted in multiple outflow categories (eg committed liquidity facilities granted to cover debt maturing within the 30 calendar day period), a bank only has to assume up to the maximum contractual outflow for that product.
+
+# Cash outflows – Retail deposit run-off
+
+## LCR40.5
+Retail deposits are defined as deposits placed with a bank by a natural person. Deposits from legal entities, sole proprietorships or partnerships are captured in wholesale deposit categories. Retail deposits subject to the Liquidity Coverage Ratio (LCR) include demand deposits and term deposits, unless otherwise excluded under the criteria set out in LCR40.16 and LCR40.17.
+[fnFAQ1][fnFAQ2]
+FAQ1: If a deposit is contractually pledged to a bank as collateral to secure a credit facility or loan granted by the bank that will not mature or be settled in the next 30 days, should the pledged deposit be excluded from the calculation of the total expected cash outflows under the LCR?
+
+The pledged deposit may be excluded from the LCR calculation only if the following conditions are met:
+
+-
+
+the loan will not mature or be settled in the next 30 days;
+
+-
+
+the pledge arrangement is subject to a legally enforceable contract disallowing withdrawal of the deposit before the loan is fully settled or repaid; and
+
+-
+
+the amount of deposit to be excluded cannot exceed the outstanding balance of the loan (which may be the drawn portion of a credit facility).
+
+The above treatment does not apply to a deposit which is pledged against an undrawn facility, in which case the higher of the outflow rate applicable to the undrawn facility or the pledged deposit applies.
+FAQ2: What is the treatment in the LCR of unsecured precious metals liabilities (such as deposits in precious metals received by a bank)? Are the run-off rates for retail deposits and unsecured wholesale funding according to LCR40.5 to LCR40.44 applicable?
+
+Deposits in precious metals received by a bank should be treated as retail deposits according to LCR40.5 to LCR40.18 or as unsecured wholesale funding according to LCR40.19 to LCR40.44 depending on the type of counterparty.
+
+In deviation from this treatment, jurisdictions may alternatively allow a bank to assume no outflow if:
+
+-
+
+the deposit physically settles and the bank is able to supply the precious metals from its own inventories; or
+
+-
+
+contractual arrangements give the bank the choice between cash settlement and physical delivery and there are no market practices or reputational factors that may limit the bank’s discretion to exercise the option in a way that would minimise the LCR-effective outflow, ie to opt for physical delivery if the bank is able to supply the precious metals from its own inventories.
+
+Supervisors in such jurisdictions must publicly disclose the treatment should they opt for the alternative treatment.
+
+## LCR40.6
+These retail deposits are divided into “stable” and “less stable” portions of funds as described below, with minimum run-off rates listed for each category. The run-off rates for retail deposits are minimum floors, with higher run-off rates established by individual jurisdictions as appropriate to capture depositor behaviour in a period of stress in each jurisdiction.
+
+## 
+Stable deposits (run-off rate = 3% and higher)
+
+## LCR40.7
+Stable deposits, which usually receive a run-off factor of 5%, are the amount of the deposits that are fully insured[fn2] by an effective deposit insurance scheme or by a public guarantee that provides equivalent protection and where:
+
+- the depositors have other established relationships with the bank that make deposit withdrawal highly unlikely; or
+
+- the deposits are in transactional accounts (eg accounts where salaries are automatically deposited).
+[fn2] “Fully insured” means that 100% of the deposit amount, up to the deposit insurance limit, is covered by an effective deposit insurance scheme. Deposit balances up to the deposit insurance limit may be treated as “fully insured” even if a depositor has a balance in excess of the deposit insurance limit. However, any amount in excess of the deposit insurance limit must be treated as “less stable”. For example, if a depositor has a deposit of 150 that is covered by a deposit insurance scheme, which has a limit of 100, where the depositor would receive at least 100 from the deposit insurance scheme if the financial institution were unable to pay, then 100 would be considered “fully insured” and treated as stable deposits while 50 would be treated as less stable deposits. However if the deposit insurance scheme only covered a percentage of the funds from the first currency unit (eg 90% of the deposit amount up to a limit of 100) then the entire 150 deposit would be less stable.
+
+## LCR40.8
+For the purposes of this standard, an “effective deposit insurance scheme” refers to a scheme:
+
+- that guarantees that it has the ability to make prompt payouts;
+
+- for which the coverage is clearly defined;
+
+- of which public awareness is high; and
+
+- in which the deposit insurer has formal legal powers to fulfil its mandate and is operationally independent, transparent and accountable.
+
+## LCR40.9
+A jurisdiction with an explicit and legally binding sovereign deposit guarantee that effectively functions as deposit insurance may be regarded as having an effective deposit insurance scheme.
+
+## LCR40.10
+The presence of deposit insurance alone is not sufficient to consider a deposit “stable”.
+
+## LCR40.11
+Jurisdictions may choose to apply a run-off rate of 3% to stable deposits in their jurisdiction, if they meet the above stable deposit criteria and the following additional criteria for deposit insurance schemes:[fn3]
+
+- the insurance scheme is based on a system of prefunding via the periodic collection of levies on banks with insured deposits;[fn4]
+
+- the scheme has adequate means of ensuring ready access to additional funding in the event of a large call on its reserves, eg an explicit and legally binding guarantee from the government, or a standing authority to borrow from the government; and
+
+- access to insured deposits is available to depositors in a short period of time once the deposit insurance scheme is triggered.[fn5]
+[fn3] The Financial Stability Board has asked the International Association of Deposit Insurers (IADI), in conjunction with the Basel Committee and other relevant bodies where appropriate, to update its Core Principles and other guidance to better reflect leading practices. The criteria in this paragraph will therefore be reviewed by the Committee once the work by IADI has been completed.
+[fn4] The requirement for periodic collection of levies from banks does not preclude that deposit insurance schemes may, on occasion, provide for contribution holidays due to the scheme being well-funded at a given point in time.
+[fn5] This period of time would typically be expected to be no more than seven business days.
+
+## LCR40.12
+Jurisdictions applying the 3% run-off rate to stable deposits with deposit insurance arrangements that meet the above criteria should be able to provide evidence of run-off rates for stable deposits within the banking system below 3% during any periods of stress experienced that are consistent with the conditions within the LCR.
+
+## 
+Less stable deposits (run-off rates = 10% and higher)
+
+## LCR40.13
+Supervisory authorities should develop additional buckets with higher run-off rates as necessary to apply to buckets of potentially less stable retail deposits in their jurisdictions, with a minimum run-off rate of 10%. These jurisdiction-specific run-off rates should be clearly outlined and publicly transparent. Buckets of less stable deposits may include deposits that are not fully covered by an effective deposit insurance scheme or sovereign deposit guarantee, high-value deposits, deposits from sophisticated or high net worth individuals, deposits that can be withdrawn quickly (eg internet deposits) and foreign currency deposits, as determined by each jurisdiction.
+
+## LCR40.14
+If a bank is not able to readily identify which retail deposits would qualify as “stable” according to the above definition (eg the bank cannot determine which deposits are covered by an effective deposit insurance scheme or a sovereign deposit guarantee), it must place the full amount in the “less stable” buckets as established by its supervisor.
+
+## LCR40.15
+Foreign currency retail deposits are deposits denominated in any other currency than the domestic currency in a jurisdiction in which the bank operates. Supervisors will determine the run-off factor that banks in their jurisdiction should use for foreign currency deposits. Foreign currency deposits must be considered as “less stable” if there is a reason to believe that such deposits are more volatile than domestic currency deposits. Factors affecting the volatility of foreign currency deposits include the type and sophistication of the depositors, and the nature of such deposits (eg whether the deposits are linked to business needs in the same currency, or whether the deposits are placed in a search for yield).
+
+## LCR40.16
+Cash outflows related to retail term deposits with a residual maturity or withdrawal notice period greater than 30 days may be excluded from total expected cash outflows if the depositor has no legal right to withdraw deposits within the 30-day horizon of the LCR, or if early withdrawal results in a significant penalty that is materially greater than the loss of interest.[fn6]
+[fn6] If a portion of the term deposit can be withdrawn without incurring such a penalty, that portion must be treated as a demand deposit. The remaining balance of the deposit should be treated as a term deposit.
+
+## LCR40.17
+If a bank allows a depositor to withdraw such deposits without applying the corresponding penalty, or despite a clause that says the depositor has no legal right to withdraw, the entire category of these funds must be treated as demand deposits (ie regardless of the remaining term, the deposits would be subject to the deposit run-off rates as specified in LCR40.6 to LCR40.15). Supervisors in each jurisdiction may choose to outline exceptional circumstances that would qualify as hardship, under which the exceptional term deposit could be withdrawn by the depositor without changing the treatment of the entire pool of deposits.
+
+## LCR40.18
+Notwithstanding the above, supervisors may also opt to treat retail term deposits that meet the qualifications set out in LCR40.16 with a higher than 0% run-off rate, if they clearly state the treatment that applies for their jurisdiction and apply this treatment in a similar fashion across banks in their jurisdiction. Such reasons could include, but are not limited to, supervisory concerns that depositors would withdraw term deposits in a similar fashion as retail demand deposits during either normal or stress times, concern that banks may repay such deposits early in stressed times for reputational reasons, or the presence of unintended incentives on banks to impose material penalties on consumers if deposits are withdrawn early. In these cases supervisors would assess a higher run-off against all or some of such deposits.
+
+# Cash outflows – unsecured wholesale funding run-off
+
+## LCR40.19
+For the purposes of the LCR, "unsecured wholesale funding” is defined as those liabilities and general obligations that are raised from non-natural persons (ie legal entities, including sole proprietorships and partnerships) and are not collateralised by legal rights to specifically designated assets owned by the borrowing institution in the case of bankruptcy, insolvency, liquidation or resolution. Obligations related to derivative contracts are excluded from this definition.
+
+## LCR40.20
+The wholesale funding included in the LCR is defined as all funding that is callable within the LCR's horizon of 30 days or that has its earliest possible contractual maturity date situated within this horizon (such as maturing term deposits and unsecured debt securities) as well as funding with an undetermined maturity. This should include all funding with options that are exercisable at the investor's discretion within the 30-calendar-day horizon. For funding with options exercisable at the bank's discretion, supervisors should take into account reputational factors that may limit a bank's ability not to exercise the option.[fn7] In particular, where the market expects certain liabilities to be redeemed before their legal final maturity date, banks and supervisors should assume such behaviour for the purpose of the LCR and include these liabilities as outflows.
+[fn7] This could reflect a case where a bank may imply that it is under liquidity stress if it did not exercise an option on its own funding.
+
+## LCR40.21
+Wholesale funding that is callable[fn8] by the funds provider subject to a contractually defined and binding notice period surpassing the 30-day horizon is not included.
+[fn8] This takes into account any embedded options linked to the funds provider’s ability to call the funding before contractual maturity.
+
+# Unsecured wholesale funding provided by small business customers: 5%, 10% and higher
+
+## LCR40.22
+Unsecured wholesale funding provided by small business customers is treated the same way as retail deposits for the purposes of this standard, effectively distinguishing between a "stable" portion of funding provided by small business customers and different buckets of less stable funding defined by each jurisdiction. The same bucket definitions and associated run-off factors apply as for retail deposits.
+
+## LCR40.23
+This category consists of deposits and other extensions of funds made by non-financial small business customers. "Small business customers" are defined in line with the definition of loans extended to small businesses in CRE30.20 to CRE30.22 that are managed as retail exposures and are generally considered as having similar liquidity risk characteristics to retail accounts provided the total aggregated funding[fn9] raised from one small business customer is less than €1 million (on a consolidated basis where applicable).
+[fnFAQ1]
+[fn9] “Aggregated funding” means the gross amount (ie not netting any form of credit extended to the legal entity) of all forms of funding (eg deposits or debt securities or similar derivative exposure for which the counterparty is known to be a small business customer). In addition, applying the limit on a consolidated basis means that where one or more small business customers are affiliated with each other, they may be considered as a single creditor such that the limit is applied to the total funding received by the bank from this group of customers.
+FAQ1: If a deposit is contractually pledged to a bank as collateral to secure a credit facility or loan granted by the bank that will not mature or be settled in the next 30 days, should the pledged deposit be excluded from the calculation of the total expected cash outflows under the LCR?
+
+The pledged deposit may be excluded from the LCR calculation only if the following conditions are met:
+
+-
+
+the loan will not mature or be settled in the next 30 days;
+
+-
+
+the pledge arrangement is subject to a legally enforceable contract disallowing withdrawal of the deposit before the loan is fully settled or repaid; and
+
+-
+
+the amount of deposit to be excluded cannot exceed the outstanding balance of the loan (which may be the drawn portion of a credit facility).
+
+The above treatment does not apply to a deposit which is pledged against an undrawn facility, in which case the higher of the outflow rate applicable to the undrawn facility or the pledged deposit applies.
+
+## LCR40.24
+Where a bank does not have any exposure to a small business customer that would enable it to use the definition under CRE30.20 to CRE30.22, the bank may include such a deposit in this category provided that the total aggregate funding raised from the customer is less than €1 million (on a consolidated basis where applicable) and the deposit is managed as a retail deposit. This means that the bank treats such deposits in its internal risk management systems consistently over time and in the same manner as other retail deposits, and that the deposits are not individually managed in a way comparable to larger corporate deposits.
+
+## LCR40.25
+Term deposits from small business customers must be treated in accordance with the treatment for term retail deposits as outlined in LCR40.16 to LCR40.18.
+
+# Operational deposits generated by clearing, custody and cash management activities: 25%
+
+## LCR40.26
+Certain activities lead to financial and non-financial customers needing to place, or leave, deposits with a bank in order to facilitate their access and ability to use payment and settlement systems and otherwise make payments. These funds may receive a 25% run-off factor only if the customer has a substantive dependency with the bank and the deposit is required for such activities. Supervisory approval should be given to ensure that banks utilising this treatment actually are conducting these operational activities at the level indicated. Supervisors may choose not to permit banks to utilise the operational deposit run-off rates in cases where, for example, a significant portion of operational deposits are provided by a small proportion of customers (ie concentration risk).
+[fnFAQ1]
+FAQ1: Should deposits from a central counterparty be regarded as operational deposits, noting that such deposits are usually associated with clearing activities?
+
+As for any other qualifying operational deposits, the conditions set out in LCR40.26 to LCR40.36 must be fulfilled.
+
+## LCR40.27
+Qualifying activities in this context refer to clearing, custody or cash management activities that meet the following criteria.
+
+- The customer must be reliant on the bank to perform these services as an independent third party intermediary in order to fulfil its normal banking activities over the next 30 days. For example, this condition would not be met if the bank is aware that the customer has adequate backup arrangements.
+
+- These services must be provided under a legally binding agreement to institutional customers.
+
+- The termination of such agreements must be subject either to a notice period of at least 30 days or significant switching costs (such as those related to transaction, information technology, early termination or legal costs) to be borne by the customer if the operational deposits are moved before 30 days.
+
+## LCR40.28
+Qualifying operational deposits generated by such an activity are ones where:
+
+- The deposits are by-products of the underlying services provided by the banking organisation and not sought out in the wholesale market in the sole interest of offering interest income.
+
+- The deposits are held in specifically designated accounts and priced without giving an economic incentive to the customer (not limited to paying market interest rates) to leave any excess funds on these accounts. In the case that interest rates in a jurisdiction are close to zero, such accounts should be non-interest bearing. Banks should be particularly aware that during prolonged periods of low interest rates, excess balances (as defined below) could be significant.
+
+## LCR40.29
+Any excess balances that could be withdrawn and would still leave enough funds to fulfil these clearing, custody and cash management activities do not qualify for the 25% factor. In other words, only that part of the deposit balance with the service provider that is proven to serve a customer’s operational needs can qualify as stable. Excess balances must be treated in the appropriate category for non-operational deposits. If banks are unable to determine the amount of the excess balance, then the entire deposit must be assumed to be excess to requirements and, therefore, considered non-operational.
+
+## LCR40.30
+Banks must determine the methodology for identifying excess deposits that are excluded from this treatment. This assessment should be conducted at a sufficiently granular level to adequately assess the risk of withdrawal in an idiosyncratic stress. The methodology should take into account relevant factors such as the likelihood that wholesale customers have above average balances in advance of specific payment needs, and consider appropriate indicators (eg ratios of account balances to payment or settlement volumes or to assets under custody) to identify those customers that are not actively managing account balances efficiently.
+
+## LCR40.31
+Operational deposits must receive a 0% inflow assumption for the depositing bank given that these deposits are required for operational reasons, and are therefore not available to the depositing bank to repay other outflows.
+
+## LCR40.32
+Notwithstanding these operational categories, if the deposit under consideration arises out of correspondent banking or from the provision of prime brokerage services, it must be treated as if there were no operational activity for the purpose of determining run-off factors.[fn10]
+[fn10] Correspondent banking refers to arrangements under which one bank (correspondent) holds deposits owned by other banks (respondents) and provides payment and other services in order to settle foreign currency transactions (eg so-called nostro and vostro accounts used to settle transactions in a currency other than the domestic currency of the respondent bank for the provision of clearing and settlement of payments). Prime brokerage is a package of services offered to large active investors, particularly institutional hedge funds. These services usually include: clearing, settlement and custody; consolidated reporting; financing (margin, repo or synthetic); securities lending; capital introduction; and risk analytics.
+
+## LCR40.33
+The following paragraphs describe the types of activities that may generate operational deposits. A bank should assess whether the presence of such an activity does indeed generate an operational deposit as not all such activities qualify due to differences in customer dependency, activity and practices. A clearing relationship, in this context, refers to a service arrangement that enables customers to transfer funds (or securities) indirectly through direct participants in domestic settlement systems to final recipients. Such services are limited to the following activities:
+
+- transmission, reconciliation and confirmation of payment orders;
+
+- daylight overdraft, overnight financing and maintenance of post-settlement balances; and
+
+- determination of intraday and final settlement positions.
+
+## LCR40.34
+A custody relationship, in this context, refers to the provision of safekeeping, reporting, processing of assets or the facilitation of the operational and administrative elements of related activities on behalf of customers in the process of their transacting and retaining financial assets. Such services are limited to the settlement of securities transactions, the transfer of contractual payments, the processing of collateral, and the provision of custody related cash management services. Also included are the receipt of dividends and other income, client subscriptions and redemptions. Custodial services can furthermore extend to asset and corporate trust servicing, treasury, escrow, funds transfer, stock transfer and agency services, including payment and settlement services (excluding correspondent banking), and depository receipts.
+
+## LCR40.35
+A cash management relationship, in this context, refers to the provision of cash management and related services to customers. Cash management services, in this context, refers to those products and services provided to a customer to manage its cash flows, assets and liabilities, and conduct financial transactions necessary to the customer’s ongoing operations. Such services are limited to payment remittance, collection and aggregation of funds, payroll administration, and control over the disbursement of funds.
+
+## LCR40.36
+The portion of the operational deposits generated by clearing, custody and cash management activities that is fully covered by deposit insurance may receive the same treatment as “stable” retail deposits.
+
+# Treatment of deposits in institutional networks of cooperative banks: 25% or 100%
+
+## LCR40.37
+An institutional network of cooperative (or otherwise named) banks is a group of legally autonomous banks with a statutory framework of cooperation with common strategic focus and brand where specific functions are performed by central institutions or specialised service providers. So long as both the bank that has received the monies and the bank that has deposited participate in the same institutional network’s mutual protection scheme against illiquidity and insolvency of its members, a 25% run-off rate may be given to the amount of deposits of member institutions with the central institution or specialised central service providers that are placed:
+
+- due to statutory minimum deposit requirements, which are registered at regulators; or
+
+- in the context of common task sharing and legal, statutory or contractual arrangements.
+
+## LCR40.38
+As with other operational deposits, these deposits must receive a 0% inflow assumption for the depositing bank, as these funds are considered to remain with the centralised institution.
+
+## LCR40.39
+Supervisory approval should be given to ensure that banks utilising this treatment actually are the central institution or a central service provider of such a cooperative (or otherwise named) network. Correspondent banking activities must not be included in this treatment and must receive a 100% outflow treatment, as must funds placed at the central institutions or specialised service providers for any other reason other than those outlined in LCR40.37, or for operational functions of clearing, custody, or cash management as outlined in LCR40.33 to LCR40.35.
+
+# Unsecured wholesale funding provided by non-financial corporates and sovereigns, central banks, multilateral development banks and public sector entities: 20% or 40%
+
+## LCR40.40
+This category comprises all deposits and other extensions of unsecured funding from non-financial corporate customers (that are not categorised as small business customers) and (both domestic and foreign) sovereign, central bank, multilateral development bank, and public sector entity (PSE) customers that are not specifically held for operational purposes (as defined above). The run-off factor for these funds must be 40%, unless the criteria in LCR40.41 are met.
+
+## LCR40.41
+Unsecured wholesale funding provided by non-financial corporate customers, sovereigns, central banks, multilateral development banks and PSEs without operational relationships may receive a 20% run-off factor if the entire amount of the deposit is fully covered by an effective deposit insurance scheme or by a public guarantee that provides equivalent protection.
+
+# Unsecured wholesale funding provided by other legal entity customers: 100%
+
+## LCR40.42
+This category consists of all deposits and other funding from other institutions (including banks, securities firms, insurance companies, etc), fiduciaries,[fn11] beneficiaries,[fn12] conduits and special purpose vehicles, affiliated entities of the bank[fn13] and other entities that are not specifically held for operational purposes (as defined above) and not included in the prior three categories. The run-off factor for these funds must be 100%.
+[fnFAQ1]
+[fn11] Fiduciary is defined in this context as a legal entity that is authorised to manage assets on behalf of a third party. Fiduciaries include asset management entities such as pension funds and other collective investment vehicles.
+[fn12] Beneficiary is defined in this context as a legal entity that receives, or may become eligible to receive, benefits under a will, insurance policy, retirement plan, annuity, trust, or other contract.
+[fn13] Outflows on unsecured wholesale funding from affiliated entities of the bank are included in this category unless the funding is part of an operational relationship, a deposit in an institutional network of cooperative banks or the affiliated entity is a non-financial corporate.
+FAQ1: There may be various cash inflows and outflows between a central counterparty (CCP) and its member banks. Can a bank net off such cash flows with respect to trades cleared with a CCP when calculating the LCR?
+
+There is no specific treatment of cash flows between CCPs and its member banks, ie netting is restricted to cases where it is permitted in the LCR framework (eg derivative cash flows that are subject to the same master netting agreement in LCR40.49).
+
+## LCR40.43
+All notes, bonds and other debt securities issued by the bank must be included in this category regardless of the holder, unless the bond is sold exclusively in the retail market and held in retail accounts (including small business customer accounts treated as retail per LCR40.22 to LCR40.24), in which case the instruments may be treated in the appropriate retail or small business customer deposit category. To be treated in this manner, it is not sufficient that the debt instruments are specifically designed and marketed to retail or small business customers. Rather there should be limitations placed such that those instruments cannot be bought and held by parties other than retail or small business customers.
+
+## LCR40.44
+Customer cash balances arising from the provision of prime brokerage services, including but not limited to the cash arising from prime brokerage services as identified in LCR40.32, must be considered separate from any required segregated balances related to client protection regimes imposed by national regulations, and must not be netted against other customer exposures included in this standard. These offsetting balances held in segregated accounts are treated as inflows in LCR40.87 and must be excluded from the stock of HQLA.
+
+# Secured funding run-off
+
+## LCR40.45
+For the purposes of this standard, “secured funding” is defined as those liabilities and general obligations that are collateralised by legal rights to specifically designated assets owned by the borrowing institution in the case of bankruptcy, insolvency, liquidation or resolution. Unless the counterparty is a central bank, secured funding does not include transactions collateralised by assets that are not tradable in financial markets such as property, plant and equipment.
+
+## LCR40.46
+Loss of secured funding on short-term financing transactions: In this scenario, the ability to continue to transact repurchase, reverse repurchase and other securities financing transactions is limited to transactions backed by HQLA or with the bank’s domestic sovereign, PSE or central bank.[fn14] Collateral swaps must be treated as repurchase or reverse repurchase agreements, as must any other transaction with a similar form. Additionally, collateral lent to the bank’s customers to effect short positions[fn15] must be treated as a form of secured funding. For the scenario, a bank must apply the following factors to all outstanding secured funding transactions with maturities within the 30-calendar-day stress horizon, including customer short positions that do not have a specified contractual maturity. The amount of outflow must be calculated based on the amount of funds raised through the transaction, and not the value of the underlying collateral.
+[fnFAQ1]
+[fn14] In this context, PSEs that receive this treatment should be limited to those that are 20% risk weighted or better, and “domestic” can be defined as a jurisdiction where a bank is legally incorporated.
+[fn15] A customer short position in this context describes a transaction where a bank’s customer sells a security it does not own, and the bank subsequently obtains the same security from internal or external sources to make delivery into the sale. Internal sources include the bank’s own inventory of collateral as well as rehypothecatable collateral held in other customer margin accounts. External sources include collateral obtained through a securities borrowing, reverse repo, or like transaction.
+FAQ1: Are client shorts covered by external securities borrowings subject to LCR40.79 (under “secured lending, including reverse repos and external securities borrowings”) or LCR40.46 (“secured funding run-off”)? Firm shorts covered by external securities borrowings are clearly covered by LCR40.79, and it seems more logical that client shorts covered by external securities borrowings should be as well. However, LCR40.46 makes references to customer shorts and the treatment is different.
+
+The treatments of customer shorts versus firm shorts are separate and distinct and for this reason are addressed in two separate paragraphs. Customer shorts are considered equivalent to other secured financing transactions, as the proceeds from the customer’s short sale may be re-used by the facilitating bank to finance the purchase or borrowing of the shorted security. Contrary to firm short positions, customer short positions are initiated and maintained at the discretion of the customer, and therefore the availability of this financing may be uncertain during a period of stress. These characteristics explain why customer shorts are treated in accordance with the run-off assumption in LCR40.48.
+
+## LCR40.47
+Due to the high quality of Level 1 assets, no reduction in funding availability against these assets is assumed to occur. Moreover, no reduction in funding availability is expected for any maturing secured funding transactions with the bank’s domestic central bank. A reduction in funding availability must be assigned to maturing transactions backed by Level 2 assets equivalent to the required haircuts. A 25% factor may be applied for maturing secured funding transactions with the bank’s domestic sovereign, multilateral development banks, or domestic PSEs that have a 20% or lower risk weight, when the transactions are backed by assets other than Level 1 or Level 2A assets, in recognition that these entities are unlikely to withdraw secured funding from banks in a time of market-wide stress. This treatment, however, may be applied only to outstanding secured funding transactions. Unused collateral or merely the capacity to borrow, as determined at the end of the day for the reporting date, must not be given any credit in this treatment.
+[fnFAQ1][fnFAQ2]
+FAQ1: At what time is the “unused” assessment performed? Is it at the end of day in the respective jurisdiction?
+
+The assessment is at the end of the day of the reporting date in the respective jurisdiction.
+FAQ2: Should “domestic” also refer to a jurisdiction where a bank’s branch or consolidated subsidiary is operating? (Note: it is not uncommon for a bank’s overseas branch to conduct repo transactions with the central bank of the host jurisdiction, which is not the place of “incorporation” of the bank but the place in which the bank’s overseas branch operates.)
+
+The application of the reduced outflow assumptions for secured funding transactions with “domestic” public counterparties should be principally limited to counterparties from the jurisdiction where a bank is legally incorporated. It may be expanded to other public counterparties where the reduced outflow rates in LCR40.48 can be expected to reflect the behaviour of the other public counterparties. For example, in terms of central banks, this may be assumed when the overseas branch has equal access to central bank funding as domestic banks and where it seems reasonable that this equal treatment will remain in the context of central bank measures in times of severe idiosyncratic or market-wide stress.
+
+## LCR40.48
+For all other maturing transactions the run-off factor is 100%, including transactions where a bank has satisfied customers’ short positions with its own long inventory. All secured transactions maturing within 30 days should be reported according to the collateral actually pledged as of close of business on the LCR measurement date. If the bank pledges a pool of assets and cannot determine which specific assets in the collateral pool are used to collateralise the transactions with a residual maturity greater than 30 days, it may assume that assets are encumbered to these transactions in order of increasing liquidity value, consistent with the methodology set out in LCR30.16, in such a way that assets with the lowest liquidity value in the LCR are assigned to the transactions with the longest residual maturities first. The table below summarises the outflow applicable to transactions maturing within 30 days.
+
+| Categories for outstanding maturing secured funding transactions | Amount to add to cash outflows |
+| Backed by Level 1 assets or with central banks | 0% |
+| Backed by Level 2A assets | 15% |
+| Secured funding transactions with domestic sovereign, PSEs or multilateral development banks that are not backed by Level 1 or 2A assets. PSEs that receive this treatment are limited to those that have a risk weight of 20% or lower. | 25% |
+| Backed by residential mortgage-backed securities (RMBS) eligible for inclusion in Level 2B | 25% |
+| Backed by other Level 2B assets | 50% |
+| All others | 100% |
+
+# Cash outflows – Additional requirements
+
+## LCR40.49
+Derivatives cash outflows: The sum of all net derivative cash outflows must receive a 100% factor. Banks must calculate, in accordance with their existing valuation methodologies, expected contractual derivative cash inflows and outflows. Cash flows may be calculated on a net basis (ie inflows can offset outflows) by counterparty only where a valid master netting agreement exists. Banks should exclude from such calculations those liquidity requirements that would result from increased collateral needs due to market value movements or declines in value of collateral posted.[fn16] Options that can be exercised within the next 30 days, including options that expire in greater than 30 days (eg an American-style option), must be assumed to be exercised when they are “in the money” to the option buyer. For transactions involving a delivery obligation that can be fulfilled with a variety of asset classes, delivery of the least valuable asset possible (“cheapest to deliver”) must be assumed. This should apply symmetrically to both the inflow and outflow perspective, such that the obligor is assumed to deliver the security with the lowest liquidity value. Cash flows arising from foreign exchange derivative transactions that involve a full exchange of principal amounts on a simultaneous basis (or within the same day) may be reflected as a net cash flow figure, even where those transactions are not covered by a master netting agreement.
+[fnFAQ1][fnFAQ2]
+[fn16] These risks are captured in LCR40.52 and LCR40.56, respectively.
+FAQ1: Would it be correct to assume that expected contractual derivatives cash inflows from “in the money” options for which the bank is the option holder can be included without contravening the high-level principle in LCR40.75 that contingent inflows are not to be recognised?
+
+Yes, LCR40.49 states that “options should be assumed to be exercised when they are in the money to the option buyer”, eg cash inflows from contractual derivatives that are “in the money” may count towards derivatives cash inflows in the LCR. This is an exception to both LCR40.75, which excludes contingent inflows, and LCR40.85, which excludes inflows with no specific date from the LCR.
+FAQ2: Could you confirm that options with delivery settlement during the relevant period could be considered as cash flows to the extent of the liquidity value of the delivered assets? Or whether all options are assumed to be cash-settled?
+
+Options with delivery settlement shall be considered according to the liquidity value of the delivered assets, ie the assets are subject to the haircuts that would be applied if these assets were collateral in secured transactions or collateral swaps. If contractual arrangements allow for both physical delivery and cash settlement, cash settlement may be assumed.
+
+## LCR40.50
+Where derivative payments are collateralised by HQLA, cash outflows should be calculated net of any corresponding cash or collateral inflows that would result, all other things being equal, from contractual obligations for cash or collateral to be provided to the bank, if the bank is legally entitled and operationally capable to re-use the collateral in new cash raising transactions once the collateral is received. This is in line with the principle that banks should not double count liquidity inflows and outflows.
+
+## LCR40.51
+Increased liquidity needs related to downgrade triggers embedded in financing transactions, derivatives and other contracts: 100% of the amount of collateral that would be posted for, or contractual cash outflows associated with, any downgrade up to and including a 3-notch downgrade. Often, contracts governing derivatives and other transactions have clauses that require the posting of additional collateral, drawdown of contingent facilities, or early repayment of existing liabilities upon the bank’s downgrade by a recognised credit rating organisation. The scenario therefore requires that for each contract in which “downgrade triggers” exist, the bank assumes that 100% of this additional collateral or cash outflow must be posted for any downgrade up to and including a 3-notch downgrade of the bank’s long-term credit rating. Triggers linked to a bank’s short-term rating should be assumed to be triggered at the corresponding long-term rating in accordance with published ratings criteria. The impact of the downgrade must consider impacts on all types of margin collateral and contractual triggers which change rehypothecation rights for non-segregated collateral.
+[fnFAQ1][fnFAQ2]
+FAQ1: Do LCR40.51 to LCR40.55 apply in the same way to all derivative instruments, whether over-the-counter or on-exchange, whether cleared or not? In particular, can confirmation be given that margin posted for clearance through a central counterparty (CCP) and held for the benefit of the bank in accordance with the rules of such CCP should be recognised under the logic of these paragraphs, although the point is not addressed explicitly?
+
+Unless expressly specified otherwise, the provisions apply generally. Any Level 1 assets in segregated accounts held in a bank’s name by the CCP will be treated in accordance with LCR40.52.
+FAQ2: LCR40.52 requires that if a bank has posted a non-Level 1 asset as collateral to secure its mark-to-market exposure under derivatives contracts or other transactions, the bank must hold additional stock of HQLA to cater for a potential reduction in the value of the collateral to the extent of 20% of the collateral value. Similar references to “other transactions” are also made in LCR40.51 and LCR40.56. Banks have queries on the scope of “other transactions”. Is it the policy intent that LCR40.51, LCR40.52 and LCR40.56 are generally applicable to derivatives transactions only?
+
+LCR40.51, LCR40.52 and LCR40.56 are only applicable to derivatives and other transactions not specifically captured in the LCR framework. Thus, they are not applicable to secured funding transactions addressed in LCR40.45 to LCR40.48 and secured lending transactions addressed in LCR40.78 to LCR40.79.
+
+## LCR40.52
+Increased liquidity needs related to the potential for valuation changes on posted collateral securing derivative and other transactions: 20% of the value of non-Level 1 posted collateral. Observation of market practices indicates that most counterparties to derivatives transactions typically are required to secure the mark-to-market valuation of their positions and that this is predominantly done using cash or sovereign, central bank, multilateral development banks, or PSE debt securities with a 0% risk weight under the standardised approach to credit risk (CRE20). When these Level 1 liquid asset securities are posted as collateral, the framework will not require that an additional stock of HQLA be maintained for potential valuation changes. If however, counterparties are securing mark-to-market exposures with other forms of collateral, to cover the potential loss of market value on those securities, 20% of the value of all such posted collateral, net of collateral received on a counterparty basis (provided that the collateral received is not subject to restrictions on reuse or rehypothecation) must be added to the stock of required HQLA by the bank posting such collateral. This 20% must be calculated based on the notional amount required to be posted as collateral after any other haircuts have been applied that may be applicable to the collateral category. Any collateral that is in a segregated margin account may only be used to offset outflows that are associated with payments that are eligible to be offset from that same account. No other form of netting (eg netting of offsetting collateral flows across counterparties) is permissible when calculating this outflow amount.
+[fnFAQ1][fnFAQ2][fnFAQ3][fnFAQ4][fnFAQ5][fnFAQ6]
+FAQ1: Do the bank’s normal procedures apply to determine the notional amount pursuant to the penultimate sentence of LCR40.52?
+
+The notional amount to be collateralised in LCR40.52 is based on contractual terms (eg collateral agreements) that regularly include the methodology of calculating the amount to be covered (“notional amount”).
+FAQ2: Do LCR40.51 to LCR40.55 apply in the same way to all derivative instruments, whether over-the-counter or on-exchange, whether cleared or not? In particular, can confirmation be given that margin posted for clearance through a central counterparty (CCP) and held for the benefit of the bank in accordance with the rules of such CCP should be recognised under the logic of these paragraphs, although the point is not addressed explicitly?
+
+Unless expressly specified otherwise, the provisions apply generally. Any Level 1 assets in segregated accounts held in a bank’s name by the CCP will be treated in accordance with LCR40.52.
+FAQ3: LCR40.52 requires that an additional stock of HQLA be maintained for outflows where the bank is posting non-Level 1 collateral securing its derivatives. Can this be interpreted as applying on a net basis to the extent the bank uses non-Level 1 collateral received from one counterparty to secure derivative liability to another counterparty, if any decrease in the value of this collateral would affect both collateral posting to and by the bank?
+
+No. Netting of collateral inflows and outflows across counterparties is not provided for in LCR40.52 as the impacts of valuation changes (even of identical collateral) may be asymmetric across different counterparties.
+FAQ4: Assuming that a bank is a net poster of non-Level 1 collateral, can the net outflows under LCR40.52 be calculated taking into account any additional eligible non-Level 1 collateral that is unencumbered as of the date of the LCR or that would become unencumbered as a result of the stresses?
+
+No. The LCR framework provides no basis for separate sub-pools of (non-Level 1) HQLA dedicated to specific liquidity needs or for considering contingent inflows of collateral.
+FAQ5: Can it be assumed that a bank will post collateral in the most efficient manner practicable? For example, if a bank is currently a net poster of non-Level 1 collateral (with higher haircuts), it seems appropriate to assume that the bank would use its cash or lower-haircut Level 1 securities first, and not use that cash to purchase additional non-Level 1 collateral that would have a higher haircut.
+
+As with any other outflow captured in the LCR, the outflows addressed in LCR40.52 add to the bank’s net cash outflow that must be met by Level 1 and/or Level 2 assets according to LCR30. No further assumptions have to be made in terms of what the bank actually “will post”.
+FAQ6: LCR40.52 of the LCR text requires that if a bank has posted a non-Level 1 asset as collateral to secure its mark-to-market exposure under derivatives contracts or other transactions, the bank must hold additional stock of HQLA to cater for a potential reduction in the value of the collateral to the extent of 20% of the collateral value. Similar references to “other transactions” are also made in LCR40.51 and LCR40.55. Banks have queries on the scope of “other transactions”. Is it the policy intent that LCR40.51, LCR40.52 and LCR40.55 are generally applicable to derivatives transactions only?
+
+LCR40.51, LCR40.52 and LCR40.55 are only applicable to derivatives and other transactions not specifically captured in the LCR framework. Thus, they are not applicable to secured funding transactions addressed in LCR40.45 to LCR40.48 and secured lending transactions addressed in LCR40.78 to LCR40.79.
+
+## LCR40.53
+Increased liquidity needs related to excess non-segregated collateral held by the bank that could contractually be called at any time by the counterparty: 100% of the non-segregated collateral (ie where the collateral is unencumbered and included in the stock of HQLA or where a recall of collateral by the counterparty would need to use additional funding) that could contractually be recalled by the counterparty because the collateral is in excess of the counterparty’s current collateral requirements.
+[fnFAQ1]
+FAQ1: Do LCR40.51 to LCR40.55 apply in the same way to all derivative instruments, whether over-the-counter or on-exchange, whether cleared or not? In particular, can confirmation be given that margin posted for clearance through a central counterparty (CCP) and held for the benefit of the bank in accordance with the rules of such CCP should be recognised under the logic of these paragraphs, although the point is not addressed explicitly?
+
+Unless expressly specified otherwise, the provisions apply generally. Any Level 1 assets in segregated accounts held in a bank’s name by the CCP will be treated in accordance with LCR40.52.
+
+## LCR40.54
+Increased liquidity needs related to contractually required collateral on transactions for which the counterparty has not yet demanded the collateral be posted: 100% of the collateral that is contractually due but where the counterparty has not yet demanded the posting of such collateral.
+[fnFAQ1]
+FAQ1: Do LCR40.51 to LCR40.55 apply in the same way to all derivative instruments, whether over-the-counter or on-exchange, whether cleared or not? In particular, can confirmation be given that margin posted for clearance through a central counterparty (CCP) and held for the benefit of the bank in accordance with the rules of such CCP should be recognised under the logic of these paragraphs, although the point is not addressed explicitly?
+
+Unless expressly specified otherwise, the provisions apply generally. Any Level 1 assets in segregated accounts held in a bank’s name by the CCP will be treated in accordance with LCR40.52.
+
+## LCR40.55
+Increased liquidity needs related to contracts that allow collateral substitution without the bank's consent to non-HQLA assets: 100% of the amount of non-segregated HQLA collateral that can be substituted with non-HQLA. For substitution of HQLA with other HQLA of a lower liquidity value, the outflow should be measured based on the difference between the LCR haircuts of the collateral currently held and the potential substitute collateral. If the substituted collateral can be of different liquidity value in the LCR, the outflow must be measured based on the potential substitute collateral with the lowest liquidity value. HQLA collateral held that remains unencumbered, but is excluded from the bank's stock of HQLA due to the operational requirements may be excluded from this outflow amount.
+[fnFAQ1][fnFAQ2][fnFAQ3]
+FAQ1: Which cash flow assumptions are applied for secured transactions where assets are received on the basis of a collateral pool that is subject to potential collateral substitution? And, does the concept of collateral substitution also apply to inflows for secured borrowing transactions, ie can a bank take an inflow where it has the contractual right to receive HQLA if it was able to pledge available non-HQLA collateral to a secured lender?
+
+The risks associated with collateral substitution on secured lending transactions with a residual maturity greater than 30 days should be considered as a contingent outflow in accordance with LCR40.55 of the LCR framework. The contractual right to substitute HQLA collateral for lower -quality or non-HQLA collateral would be a contingent inflow. As such, it is not considered in the LCR in line with LCR40.75.
+FAQ2: Do LCR40.51 to LCR40.55 apply in the same way to all derivative instruments, whether over-the-counter or on-exchange, whether cleared or not? In particular, can confirmation be given that margin posted for clearance through a central counterparty (CCP) and held for the benefit of the bank in accordance with the rules of such CCP should be recognised under the logic of these paragraphs, although the point is not addressed explicitly?
+
+Unless expressly specified otherwise, the provisions apply generally. Any Level 1 assets in segregated accounts held in a bank’s name by the CCP will be treated in accordance with LCR40.52.
+FAQ3: Does the outflow factor of 100% refer to the amount of HQLA collateral before or after the application of potential valuation haircuts (eg in the case of Level 2A collateral)?
+
+LCR40.55 does not require an outflow for potential collateral substitution that is greater than the liquidity value of the received HQLA collateral in the LCR. The 100% outflow factor refers to the market value of the received collateral that is subject to potential substitution after applying the respective haircut in the LCR.
+
+## LCR40.56
+Increased liquidity needs related to market valuation changes on derivative or other transactions: As market practice requires collateralisation of mark-to-market exposures on derivative and other transactions, banks face potentially substantial liquidity risk exposures to these valuation changes. Inflows and outflows of transactions executed under the same master netting agreement may be treated on a net basis. Any outflow generated by increased needs related to market valuation changes must be included in the LCR calculated by identifying the largest absolute net 30-day collateral flow realised during the preceding 24 months. The absolute net collateral flow must be based on both realised outflows and inflows. Supervisors may adjust the treatment flexibly according to circumstances.
+[fnFAQ1][fnFAQ2]
+FAQ1: What does “the largest absolute net 30-day collateral flow” refer to?
+
+The largest absolute net 30-day collateral flow is the largest aggregated cumulative net collateral outflow or inflow at the end of all 30-day periods during the preceding 24 months. For this purpose, banks have to consider all 30-day periods during the preceding 24 months. Netting should be considered on a portfolio-level basis. Bank management should understand how collateral moves on a counterparty basis and is encouraged to review the potential outflow at that level. However, the primary mechanism for the “look-back approach” is collateral flows at the portfolio level.
+FAQ2: Should settlement payments (or receipts) made in the context of derivatives structured as "settled-to-market" (STM) be captured in LCR40.56?
+
+Yes, if the settlements are made in relation to market valuation changes. The economic cash flows exchanged between parties to STM and non-STM derivatives are identical and therefore the "collateral flows" mentioned in LCR40.56 include payments and receipts which are deemed to settle outstanding exposures from derivatives structured as STM as well.
+
+## LCR40.57
+Loss of funding on asset-backed securities,[fn17] covered bonds and other structured financing instruments: 100% outflow of funding transactions maturing within the 30-day period, when these instruments are issued by the bank itself (as this assumes that the re-financing market will not exist). This outflow may be offset against HQLA that would become unencumbered and available upon the maturity of the instrument. Any surplus of the liquidity value of HQLA that would become unencumbered over redemption value for the maturing securities may be recognised as an inflow under LCR40.93. Any inflows representing Level 2 HQLA must reflect the market value reduced by, at a minimum, the respective LCR haircut.
+[fn17] To the extent that sponsored conduits/special purpose entities are required to be consolidated under liquidity requirements, their assets and liabilities will be taken into account. Supervisors should be aware of other possible sources of liquidity risk beyond that arising from debt maturing within 30 days.
+
+## LCR40.58
+Loss of funding on asset-backed commercial paper, conduits, securities investment vehicles and other such financing facilities: 100% of maturing amount and 100% of returnable assets. Banks having structured financing facilities that include the issuance of short-term debt instruments, such as asset-backed commercial paper, must fully consider the potential liquidity risk arising from these structures. These risks include, but are not limited to, the inability to refinance maturing debt, and the existence of derivatives or derivative-like components contractually written into the documentation associated with the structure that would allow the “return” of assets in a financing arrangement, or that require the original asset transferor to provide liquidity, effectively ending the financing arrangement (“liquidity puts”) within the 30-day period. Where the structured financing activities of a bank are conducted through a special purpose entity[fn18] (or SPE, such as a special purpose vehicle, conduit or structured investment vehicle), the bank must, in determining the HQLA requirements, look through to the maturity of the debt instruments issued by the entity and any embedded options in financing arrangements that may potentially trigger the “return” of assets or the need for liquidity, irrespective of whether or not the special purpose vehicle is consolidated.
+
+| Potential risk element | HQLA required |
+| Debt maturing within the calculation period | 100% of maturing amount |
+| Embedded options in financing arrangements that allow for the return of assets or potential liquidity support | 100% of the amount of assets that could potentially be returned, or the liquidity required |
+[fn18] An SPE is defined in CRE40.21 as a corporation, trust, or other entity organised for a specific purpose, the activities of which are limited to those appropriate to accomplish the purpose of the SPE, and the structure of which is intended to isolate the SPE from the credit risk of an originator or seller of exposures. SPEs, normally a trust or similar entity, are commonly used as financing vehicles in which exposures are sold to the SPE in exchange for cash or other assets funded by debt issued by the trust.
+
+## LCR40.59
+Drawdowns on committed credit and liquidity facilities: For the purpose of the standard, credit and liquidity facilities are defined as explicit contractual agreements or obligations to extend funds at a future date to retail or wholesale counterparties. These facilities only include contractually irrevocable (committed) or conditionally revocable agreements to extend funds in the future. Unconditionally revocable facilities that are unconditionally cancellable by the bank (in particular, those without a precondition of a material change in the credit condition of the borrower) are excluded from this section and included in LCR40.67. These off-balance sheet facilities or funding commitments can have long- or short-term maturities, with short-term facilities frequently renewing or automatically rolling over. In a stressed environment, it will likely be difficult for customers drawing on facilities of any maturity, even short-term maturities, to be able to quickly pay back the borrowings. Therefore, all facilities that are assumed to be drawn (as outlined in the paragraphs below) must be assumed to remain outstanding without repayment, regardless of maturity.
+
+## LCR40.60
+The currently undrawn portion of these facilities may be calculated net of any HQLA eligible for the stock of HQLA, if the HQLA have already been posted as collateral by the counterparty to secure the facilities or that are contractually obliged to be posted when the counterparty will draw down the facility (eg a liquidity facility structured as a repo facility), if the bank is legally entitled and operationally capable to re-use the collateral in new cash raising transactions once the facility is drawn, and there is no undue correlation between the probability of drawing the facility and the market value of the collateral. The collateral may be netted against the outstanding amount of the facility to the extent that this collateral is not already counted in the stock of HQLA, in line with the principle in LCR40.4 that items must not be double-counted.
+
+## LCR40.61
+A liquidity facility is defined as any committed, undrawn backup facility that would be utilised to refinance the debt obligations of a customer in situations where such a customer is unable to rollover that debt in financial markets (eg pursuant to a commercial paper programme, secured financing transactions, obligations to redeem units). The amount of the commitment that must be treated as a liquidity facility is the amount of the currently outstanding debt issued by the customer (or proportionate share, if a syndicated facility) maturing within a 30-day period that is backstopped by the facility. The portion of a liquidity facility that is backing debt that does not mature within the 30-day window may be excluded from the scope of the definition of a facility. Any additional capacity of the facility (ie the remaining commitment) must be treated as a committed credit facility with its associated drawdown rate as specified in LCR40.64. General working capital facilities for corporate entities (eg revolving credit facilities in place for general corporate or working capital purposes) must not be classified as liquidity facilities, but as credit facilities.
+[fnFAQ1]
+FAQ1: Although LCR40.61 explicitly refers to “rollover” of debt, do these liquidity facilities also capture newly issued positions?
+
+Yes. A liquidity facility according to LCR40.61 is any type of commitment that backs up market funding needs of the customer.
+
+## LCR40.62
+Notwithstanding the above, any facilities provided to hedge funds, money market funds and special purpose funding vehicles, for example SPEs (as defined in LCR40.58) or conduits, or other vehicles used to finance the banks’ own assets, must be captured in their entirety as a liquidity facility to other legal entities.
+[fnFAQ1]
+FAQ1: To what extent should this provision be applied to commercial conduits for clients?
+
+Facilities to SPEs and conduits are subject to the 100% drawdown rate of LCR40.64(7). The LCR framework does not provide any other category for these entities independent of their business purpose.
+
+## LCR40.63
+For that portion of financing programmes that are captured in LCR40.57, LCR40.58 and LCR40.64 (ie are maturing or have liquidity puts that may be exercised in the 30-day horizon), banks that are providers of associated liquidity facilities must not double count the maturing financing instrument and the liquidity facility for consolidated programmes.
+
+## LCR40.64
+Any contractual loan drawdowns from committed facilities[fn19] and estimated drawdowns from revocable facilities within the 30-day period must be fully reflected as outflows.
+
+- Committed credit and liquidity facilities to retail and small business customers: banks must assume a 5% drawdown of the undrawn portion of these facilities.
+
+- Committed credit facilities to non-financial corporates, sovereigns and central banks, PSEs and multilateral development banks: banks must assume a 10% drawdown of the undrawn portion of these credit facilities.
+
+- Committed liquidity facilities to non-financial corporates, sovereigns and central banks, PSEs and multilateral development banks: banks must assume a 30% drawdown of the undrawn portion of these liquidity facilities.
+
+- Committed credit and liquidity facilities extended to banks subject to prudential supervision: banks must assume a 40% drawdown of the undrawn portion of these facilities.
+
+- Committed credit facilities to other financial institutions, including securities firms, insurance companies, fiduciaries, and beneficiaries: banks must assume a 40% drawdown of the undrawn portion of these credit facilities.
+
+- Committed liquidity facilities to other financial institutions, including securities firms, insurance companies' fiduciaries and beneficiaries: banks must assume a 100% drawdown of the undrawn portion of these liquidity facilities.
+
+- Committed credit and liquidity facilities to other legal entities (including SPEs as defined in LCR40.58, conduits and special purpose vehicles,[fn20] and other entities not included in the prior categories): Banks must assume a 100% drawdown of the undrawn portion of these facilities.
+[fn19] Committed facilities refer to those which are irrevocable.
+[fn20] The potential liquidity risks associated with the bank's own structured financing facilities must be treated according to LCR40.57 and LCR40.58 (100% of maturing amount and 100% of returnable assets are included as outflows).
+
+## LCR40.65
+Contractual obligations to extend funds within a 30-day period: Any contractual lending obligations to financial institutions, including central banks, not captured elsewhere in this standard must be captured here at a 100% outflow rate.
+
+## LCR40.66
+If the total of all contractual obligations to extend funds to retail and non-financial wholesale (eg including small or medium-sized entities and other corporates, sovereigns, multilateral development banks and PSEs) clients within the next 30 calendar days (not captured in the prior categories) exceeds 50% of the total contractual inflows due in the next 30 calendar days from these clients, the difference must be reported as a 100% outflow.
+
+## LCR40.67
+Other contingent funding obligations: (run-off rates at national discretion). National supervisors may work with supervised institutions in their jurisdictions to determine the liquidity risk impact of these contingent liabilities and the resulting stock of HQLA that should accordingly be maintained. Supervisors should disclose the run-off rates they assign to each category publicly.
+
+## LCR40.68
+These contingent funding obligations may be either contractual or non-contractual and are not lending commitments. Non-contractual contingent funding obligations include associations with, or sponsorship of, products sold or services provided that may require the support or extension of funds in the future under stressed conditions. Non-contractual obligations may be embedded in financial products and instruments sold, sponsored, or originated by the institution that can give rise to unplanned balance sheet growth arising from support given for reputational risk considerations. These include products and instruments for which the customer or holder has specific expectations regarding the liquidity and marketability of the product or instrument and for which failure to satisfy customer expectations in a commercially reasonable manner would likely cause material reputational damage to the institution or otherwise impair ongoing viability.
+
+## LCR40.69
+Some of these contingent funding obligations are explicitly contingent upon a credit or other event that is not always related to the liquidity events simulated in the stress scenario, but may nevertheless have the potential to cause significant liquidity drains in times of stress. For this standard, each supervisor and bank should consider which of these "other contingent funding obligations" may materialise under the assumed stress events. The potential liquidity exposures to these contingent funding obligations should be treated as a nationally determined behavioural assumption where it is up to the supervisor to determine whether and to what extent these contingent outflows are to be included in the LCR. All identified contractual and non-contractual contingent liabilities and their assumptions should be reported, along with their related triggers. Supervisors and banks should, at a minimum, use historical behaviour in determining appropriate outflows.
+[fnFAQ1]
+FAQ1: How does the LCR in the Basel Framework treat autocallable notes or those funding instruments that mature as soon as a pre-defined market-based trigger is reached or if a trigger is breached at a pre-defined date?
+
+Autocallable notes or those funding instruments with market-based maturity triggers issued by the bank should be treated as other contingent funding obligations according to LCR40.69 in connection with LCR40.67. Accordingly, competent authorities and banks should consider which trigger events may occur under the stress assumptions set out in LCR20.2 on the basis of prudent and appropriate analysis.
+
+## LCR40.70
+Non-contractual contingent funding obligations related to potential liquidity draws from joint ventures or minority investments in entities, which are not consolidated per LCR10.1, should be captured where there is the expectation that the bank will be the main liquidity provider when the entity is in need of liquidity. The amount included should be calculated in accordance with the methodology agreed by the bank’s supervisor.
+
+## LCR40.71
+In the case of contingent funding obligations stemming from trade finance instruments, national authorities may apply a relatively low run-off rate (eg 5% or less). Trade finance instruments consist of trade-related obligations directly underpinned by the movement of goods or the provision of services, such as:
+
+- documentary trade letters of credit, documentary and clean collection, import bills, and export bills; and
+
+- guarantees directly related to trade finance obligations, such as shipping guarantees.
+
+## LCR40.72
+Lending commitments, such as direct import or export financing for non-financial corporate firms, must be excluded from the treatment in LCR40.71 and banks will apply the draw-down rates specified in LCR40.64.
+
+## LCR40.73
+National authorities must determine the run-off rates for the other contingent funding obligations listed below in accordance with LCR40.67. Other contingent funding obligations include products and instruments such as:
+
+- unconditionally revocable “uncommitted” credit and liquidity facilities;
+
+- guarantees and letters of credit unrelated to trade finance obligations (as described in LCR40.71);
+
+- non-contractual obligations such as:
+
+- potential requests for debt repurchases of the bank’s own debt or that of related conduits, securities investment vehicles and other such financing facilities;
+
+- structured products where customers anticipate ready marketability, such as adjustable rate notes and variable-rate demand notes; and
+
+- managed funds that are marketed with the objective of maintaining a stable value such as money market mutual funds or other types of stable value collective investment funds etc;
+
+- for issuers with an affiliated dealer or market-maker, there may be a need to include an amount of the outstanding debt securities (unsecured and secured, term as well as short-term) having maturities greater than 30 calendar days, to cover the potential repurchase of such outstanding securities; and
+
+- non-contractual obligations where customer short positions are covered by other customers’ collateral: a minimum 50% run-off factor of the contingent obligations must be applied where banks have internally matched client assets against other clients’ short positions where the collateral does not qualify as Level 1 or Level 2, and the bank may be obligated to find additional sources of funding for these positions in the event of client withdrawals.
+[fnFAQ1]
+FAQ1: What is the appropriate treatment of using the collateral obtained through a margin loan to cover a customer short position? The margin loan will be a 50% inflow, but will the customer short be reflected by the minimum 50% outflow in LCR40.73 and/or the outflow due to LCR40.46 and LCR40.48? Regarding LCR40.73, how should it be determined whether or not to take a 50% outflow or a greater percentage?
+
+LCR40.73 should be applied to quantify the outflow arising from lending out a non-HQLA asset to affect a customer’s short position if this asset is received as collateral to secure another customer’s margin loan. Thus, the 50% inflow from borrowing the assets to secure a margin loan is symmetrical to the 50% outflow for lending these assets to cover another customer’s short position, subject to national discretion.
+
+## LCR40.74
+Other contractual cash outflows: 100%. Any other contractual cash outflows within the next 30 calendar days must be captured in this standard, such as outflows to cover unsecured collateral borrowings, uncovered short positions, dividends or contractual interest payments. Outflows related to operating costs, however, are not included in this standard.
+[fnFAQ1][fnFAQ2][fnFAQ3][fnFAQ4]
+FAQ1: What is the treatment of inflows and outflows of cash and collateral during the next 30 days arising from forward transactions (eg forward repos)?
+
+The following transactions do not have any impact on a bank’s LCR and can be ignored:
+-
+forward repos, forward reverse repos and forward collateral swaps that start and mature within the LCR’s 30-day horizon;
+-
+forward repos, forward reverse repos and forward collateral swaps that start prior to and mature after the LCR’s 30-day horizon; and
+-
+all forward sales and forward purchases of HQLA.
+
+For forward repos, forward reverse repos and forward collateral swaps that start within the 30-day horizon and mature beyond the LCR’s 30-day horizon, the treatments are as follows.
+-
+Cash outflows from forward reverse repos (with a binding obligation to accept) count towards “other cash outflows” according to LCR40.74 and should be netted against the market value of the collateral received after deducting the haircut applied to the respective assets in the LCR (15% to Level 2A, 25% to RMBS Level 2B assets, and 50% to other Level 2B assets).
+-
+Cash inflows from forward repos are “other contractual inflows” according to LCR40.93 and should be netted against the market value of the collateral extended after deducting the haircut applied to the respective assets in the LCR.
+-
+In case of forward collateral swaps, the net amount between the market values of the assets extended and received after deducting the haircuts applied to the respective assets in the LCR counts towards “other contractual outflows” or “other contractual inflows” depending on which amount is higher.
+
+Forward repos, forward reverse repos and forward collateral swaps that start previous to and mature within the LCR’s 30-day horizon are treated like repos, reverse repos and collateral swaps according to LCR40.46 to LCR40.48 and LCR40.78 to LCR40.81 respectively.
+
+Note that HQLA collateral held by a bank on the first day of the LCR horizon may count towards the stock of HQLA even if it is sold or repoed forward.
+
+Unsettled sales and purchases of HQLA can be ignored in the LCR. The cash flows arising from sales and purchases of non-HQLA that are executed but not yet settled at reporting date count towards “other cash inflows” and “other cash outflows”.
+
+Note that any outflows or inflows of HQLA in the next 30 days in the context of forward and unsettled transactions are only considered if the assets do or will count toward the bank’s stock of HQLA. Outflows and inflows of HQLA-type assets that are or will be excluded from the bank’s stock of HQLA due to operational requirements are treated like outflows or inflows of non-HQLA.
+FAQ2: Other contractual outflow is determined as 100% as per LCR40.74 of the LCR framework, while other contractual inflows are subject to national discretion as per LCR40.93. Some industry members are concerned about the potential asymmetrical treatment between the two items with respect to unsettled sales and purchases as addressed in LCR40.74 FAQ1. Does this requirement apply broadly to all unsettled trades, ie does it also apply to “open” and “failed” trades, or does it only apply to forwards? Banks which apply settlement date accounting for open trades would not have any “open trades” on their balance sheet and therefore this requirement might create an unlevel playing field for different accounting frameworks.
+
+Unsettled transactions are addressed in the second to last paragraph of the response to LCR40.74 FAQ1. It refers to any sales or purchases that are executed but not yet settled at reporting date and follows the approach set out for forward transactions. It captures both “open” and “failed” trades if settlement is expected within 30 days irrespective of the balance sheet treatment. In doing so, the response to LCR40.74 FAQ1 allows for a symmetrical treatment by applying “other cash outflows” to executed but not yet settled purchases of non-HQLA and, subject to national discretion, “other cash inflows” to executed but not yet settled sales, while unsettled sales/purchases of HQLA can be ignored.
+FAQ3: What is the treatment of Level 1 and Level 2 assets that are lent/borrowed without any further offsetting transaction (ie no repo/reverse repo or collateral swap) if the assets will be returned or can be recalled during the next 30 days? Are these assets eligible HQLA on the side of the lender or borrower?
+
+These assets do not count towards the stock of HQLA for either the lender or the borrower. On the side of the borrower, these assets do not enter the LCR calculation. On the lender’s side, these assets count towards the “other contractual inflows” amounting to their market value – in the case of Level 2 assets after haircut.
+FAQ4: Does LCR40.74 FAQ3 apply to assets borrowed/lent on an unsecured basis only and not to secured transactions? Is it correct to interpret that the Basel Committee means “reused” when it uses the wording “further offsetting transaction”?
+
+LCR40.74 FAQ3 refers to assets borrowed/lent on an unsecured basis only. The wording “without any further offsetting transaction” means the absence of a corresponding transfer of cash or securities that would secure the securities borrowing/lending, such as in a repo, reverse repo or collateral swap. If the borrower has reused the securities, there would be an “other contractual cash outflow” to cover unsecured collateral borrowings according to LCR40.74.
+
+The starting point and focus of LCR40.74 FAQ3 (as well as the response to it) is the HQLA eligibility of the assets on the part of either the borrower or the lender. In this context, it is assumed that the borrower has not reused the assets as this would have made the question of HQLA eligibility obsolete anyway. The reuse of the collateral by the borrower, however, introduces an outflow because the borrower may have to source these securities if the borrowing arrangement is not extended.
+
+# Cash inflows
+
+## LCR40.75
+When considering its available cash inflows, the bank must only include contractual inflows (including interest payments) from outstanding exposures that are fully performing and for which the bank has no reason to expect a default within the 30-day time horizon. Contingent inflows, including facilities obtained from a central bank or other party, must not be included in total net cash inflows.
+[fnFAQ1]
+FAQ1: Which cash flow assumptions are applied for secured transactions where assets are received on the basis of a collateral pool that is subject to potential collateral substitution? And, does the concept of collateral substitution also apply to inflows for secured borrowing transactions, ie can a bank take an inflow where it has the contractual right to receive HQLA if it was able to pledge available non-HQLA collateral to a secured lender?
+
+The risks associated with collateral substitution on secured lending transactions with a residual maturity greater than 30 days should be considered as a contingent outflow in accordance with LCR40.55. The contractual right to substitute HQLA collateral for lower-quality or non-HQLA collateral would be a contingent inflow. As such, it is not considered in the LCR in line with LCR40.75.
+
+## LCR40.76
+Banks and supervisors should monitor the concentration of expected inflows across wholesale counterparties in the context of banks’ liquidity management in order to ensure that their liquidity position is not overly dependent on the arrival of expected inflows from one or a limited number of wholesale counterparties.
+
+## LCR40.77
+In order to prevent banks from relying solely on anticipated inflows to meet their liquidity requirement, and also to ensure a minimum level of HQLA holdings, the amount of inflows that can offset outflows must be capped at 75% of total expected cash outflows as calculated in the standard. This requires that a bank must maintain a minimum amount of stock of HQLA equal to 25% of the total cash outflows.
+
+# Cash inflows – secured lending, including reverse repos and securities borrowing
+
+## LCR40.78
+A bank must assume that maturing reverse repurchase or securities borrowing agreements secured by Level 1 assets will be rolled-over and will not give rise to any cash inflows (0%). Maturing reverse repurchase or securities lending agreements secured by Level 2 HQLA must lead to cash inflows equivalent to the relevant haircut for the specific assets. A bank is assumed not to roll over maturing reverse repurchase or securities borrowing agreements secured by non-HQLA assets, and may assume to receive back 100% of the cash related to those agreements. Collateralised loans extended to customers for the purpose of taking leveraged trading positions (“margin loans”) must also be considered as a form of secured lending; however, for this scenario banks must not recognise more than 50% of contractual inflows from maturing margin loans made against non-HQLA collateral. This treatment is in line with the assumptions outlined for secured funding in LCR40.45 to LCR40.48 and LCR40.73(5).
+[fnFAQ1]
+FAQ1: Many margin loans are “overnight” and can be terminated at any time by either side. Others, however, have “term” provisions whereby the bank agrees to make funding available for a given period, but the client is not obliged to draw down on that funding, and where the client has drawn down on the funding, they can repay it at any time. May banks apply LCR40.78 to such margin loans with a contractual maturity beyond 30 days?
+
+No, LCR40.78 and the table in LCR40.79 are specific to secured loans with a contractual maturity up to and including 30 days. No inflow can be assumed for funds extended under such “term” provisions that give the client the possibility to repay after more than 30 days.
+
+## LCR40.79
+As an exception to LCR40.78, if the collateral obtained through reverse repo, securities borrowing, or collateral swaps, which matures within the 30-day horizon, is re-used (ie rehypothecated) and is used to cover short positions that could be extended beyond 30 days, a bank must assume that such reverse repo or securities borrowing arrangements will be rolled-over and not give rise to any cash inflows, reflecting its need to continue to cover the short position or to re-purchase the relevant securities. In these cases, the short position should be treated symmetrically and not give rise to any outflows. Short positions include both instances where in its "matched book" the bank sold short a security outright as part of a trading or hedging strategy and instances where the bank is short a security in the "matched" repo book (ie it has borrowed a security for a given period and lent the security out for a longer period). Short positions must be evaluated at the end of the calculation date; the ability to substitute collateral in the transaction creating the short position must not be considered in determining the inflow rate of the secured lending transaction.
+
+| Maturing secured lending transactions backed by the following asset category | Inflow rate (if collateral is not used to cover short positions) | Inflow rate (if collateral is used to cover short positions) |
+| Level 1 assets | 0% | 0% |
+| Level 2A assets | 15% | 0% |
+| Level 2B assets: eligible RMBS | 25% | 0% |
+| Level 2B assets: all other | 50% | 0% |
+| Margin lending backed by all other collateral | 50% | 0% |
+| Other collateral | 100% | 0% |
+[fnFAQ1][fnFAQ2]
+FAQ1: Are client shorts covered by external securities borrowings subject to LCR40.79 (under “secured lending, including reverse repos and external securities borrowings”) or LCR40.46 (“secured funding run-off”)? Firm shorts covered by external securities borrowings are clearly covered by LCR40.79, and it seems more logical that client shorts covered by external securities borrowings should be as well. However, LCR40.46 makes references to customer shorts and the treatment is different?
+
+The treatments of customer shorts versus firm shorts are separate and distinct and for this reason are addressed in two separate paragraphs. Customer shorts are considered equivalent to other secured financing transactions, as the proceeds from the customer’s short sale may be re-used by the facilitating bank to finance the purchase or borrowing of the shorted security. Contrary to firm short positions, customer short positions are initiated and maintained at the discretion of the customer, and therefore the availability of this financing may be uncertain during a period of stress. These characteristics explain why customer shorts are treated in accordance with the roll-off assumption in LCR40.48.
+FAQ2: Can you confirm that the exception rule in LCR40.79 only applies where the reverse repo has a residual maturity of ≤ 30 days and the short position can be extended > 30 days? And, should the reporting institution also apply a 0% outflow to such short positions even if the contractual or expected residual maturity of the shorts is up to 30 days, given that the secured lending transactions covering such shorts are assumed to be extended?
+
+No, the inflow rates in the third column of the table in LCR40.79 apply to all reverse repos, securities borrowings or collateral swaps where the collateral obtained is used to cover short positions. The reference in the first sentence of LCR40.79 to “short positions that could be extended beyond 30 days” does not restrict the applicability of the 0% inflow rate to the portion of secured lending transactions where the collateral obtained covers short positions with a contractual (or otherwise expected) residual maturity of up to 30 days. Rather, it is intended to point out that the bank must be aware that such short positions may be extended, which would require the bank to roll the secured lending transaction or to purchase the securities in order to keep the short positions covered. In either case, the secured lending transaction would not lead to a cash inflow for the bank’s liquidity situation in a way that it can be considered in the LCR. For customer shorts, LCR40.79 only refers to those that could be extended beyond the 30-day horizon, so the reverse repo can be considered to have a maturity within the 30-day LCR time horizon. For firm shorts, LCR40.80 applies a 0% cash inflow rate to the reverse repo, irrespective of the residual maturity, but does not assume any outflow associated with the closure of the firm’s short position.
+
+## LCR40.80
+In the case of a bank’s short positions, if the short position is being covered by an unsecured security borrowing, the bank should assume the unsecured security borrowing of collateral from financial market participants would run-off in full, leading to a 100% outflow of either cash or HQLA to secure the borrowing, or cash to close out the short position by buying back the security. This must be recorded as a 100% other contractual outflow according to LCR40.74. If, however, the bank’s short position is being covered by a collateralised securities financing transaction, the bank must assume the short position will be maintained throughout the 30-day period and receive a 0% outflow.
+
+## LCR40.81
+Despite the rollover assumptions in LCR40.78 and LCR40.79, a bank should manage its collateral such that it is able to fulfil obligations to return collateral whenever the counterparty decides not to roll-over any reverse repo or securities lending transaction.[fn21] This is especially the case for non-HQLA collateral, since such outflows are not captured in the LCR framework. Supervisors should monitor the bank's collateral management.
+[fnFAQ1]
+[fn21] This is in line with Principle 9 of the Sound Principles.
+FAQ1: Does LCR40.81 of the LCR framework mean to capture specific outflows/inflows or is it rather outlining liquidity risk principles?
+
+LCR40.81 does not address specific cash flows. Rather, it calls to mind that a bank should be prepared to return any received collateral as soon as it may be recalled by the provider irrespective of the treatment in the LCR.
+
+# Cash inflows – Committed facilities
+
+## LCR40.82
+No credit facilities, liquidity facilities or other contingent funding facilities that the bank holds at other institutions for its own purposes are assumed to be able to be drawn. Such facilities must receive a 0% inflow rate, meaning that this scenario does not consider inflows from committed credit or liquidity facilities. This is to reduce the contagion risk of liquidity shortages at one bank causing shortages at other banks and to reflect the risk that other banks may not be in a position to honour credit facilities, or may decide to incur the legal and reputational risk involved in not honouring the commitment, in order to conserve their own liquidity or reduce their exposure to that bank.
+
+# Cash inflows – other inflows by counterparty
+
+## LCR40.83
+For all other types of transactions, either secured or unsecured, the inflow rate must be determined by counterparty. In order to reflect the need for a bank to conduct ongoing loan origination/roll-over with different types of counterparties, even during a time of stress, a set of limits on contractual inflows by counterparty type must be applied. Regarding financial institutions, the bank may generally assume a complete return of liquidity from such institutions, provided the funds are not supporting operational activities as described in LCR40.89. These assumptions may cover both loans and other placements (eg non-operational deposits).
+
+## LCR40.84
+When considering loan payments, the bank must only include inflows from fully performing loans. Further, inflows must only be taken at the latest possible date, based on the contractual rights available to counterparties. For revolving credit facilities, a bank must assume that the existing loan is rolled over and that any remaining undrawn balances are treated in the same way as a committed facility according to LCR40.64.
+
+## LCR40.85
+Inflows from loans that have no specific maturity (ie have non-defined or open maturity) must be excluded; therefore, a bank must not make assumptions as to when maturity of such loans would occur. This treatment must also apply to loans that can be contractually terminated within 30 days, as any inflows exceeding those according the regular amortisation schedule would be “contingent” (in terms of a possible cancellation of the loan) in nature. As an exception to this approach, banks may include minimum payments of principal, fee or interest associated with an open maturity loan, provided that such payments are contractually due within 30 days. These minimum payment amounts should be captured as inflows at the rates prescribed in LCR40.86 and LCR40.87.
+
+## LCR40.86
+All payments (including interest payments and instalments) from retail and small business customers that are fully performing and contractually due within a 30-day horizon may result in inflows. However, banks must assume to continue to extend loans to retail and small business customers, at a rate of 50% of contractual inflows. This results in an inflow of 50% of the contractual amount.
+[fnFAQ1]
+FAQ1: What is the treatment in the LCR of unsecured loans in precious metals extended by a bank or deposits in precious metals placed by a bank? Is the treatment for retail and small business customer inflows and other wholesale inflows according to LCR40.86 to LCR40.90 applicable?
+
+Unsecured loans in precious metals extended by a bank or deposits in precious metals placed by a bank may be treated according to LCR40.86 to LCR40.90 if the loan or deposit uniquely settles in cash. In the case of physical delivery or any optionality to do so, no inflow should be considered.
+
+In deviation from this treatment, jurisdictions may alternatively allow a bank to recognise a cash inflow according to LCR40.86 to LCR40.90 if:
+
+-
+
+contractual arrangements give the bank the choice between cash settlement physical delivery and
+
+o physical delivery is subject to a significant penalty, or
+o both parties expect cash settlement; and
+
+-
+
+there are no factors such as market practices or reputational factors that may limit the bank’s ability to settle the loan or deposit in cash (irrespective of whether physical delivery is subject to a significant penalty).
+
+Supervisors in such jurisdictions must publicly disclose the treatment should they opt for the alternative treatment.
+
+## LCR40.87
+All payments (including interest payments and instalments) from wholesale customers that are fully performing and contractually due within the 30-day horizon may result in inflows. Banks must assume to continue to extend loans to wholesale clients, at a rate of 0% of inflows for financial institutions and central banks, and 50% for all others, including non-financial corporates, sovereigns, multilateral development banks, and PSEs. This results in an inflow percentage of:
+
+- 100% for financial institution and central bank counterparties; and
+
+- 50% for non-financial wholesale counterparties.
+
+## LCR40.88
+Inflows from securities maturing within 30 days not included in the stock of HQLA may be treated in the same category as inflows from financial institutions (ie 100% inflow). Banks may also recognise in this category inflows from the release of balances held in segregated accounts in accordance with regulatory requirements for the protection of customer trading assets, provided that these segregated balances are maintained in HQLA. This inflow must be calculated in line with the treatment of other related outflows and inflows covered in this standard. Level 1 and Level 2 assets maturing within 30 days must be included in the stock of liquid assets and must not be considered as inflows, provided that they meet all operational and definitional requirements as laid out in LCR30.13 to LCR30.45. Payments arising from Level 1 and Level 2 assets which settle within 30 days that do not meet the operational requirements may be considered as inflows.
+[fnFAQ1]
+FAQ1: Can inflows from maturing securities in a collateral pool for covered bonds be considered as inflows?
+
+Yes, inflows are not subject to operational requirements. Hence, these inflows are not per se excluded from the LCR even if the maturing securities are (or have been) excluded from the stock of HQLA due to being “encumbered” according to LCR30.16. However, if the matured securities need to be substituted in the collateral pool within the 30-day horizon, an “other outflow” per LCR40.74 should be considered amounting to the liquidity value of these securities in the LCR.
+
+## LCR40.89
+Deposits held at other financial institutions for operational purposes, as outlined in LCR40.26 to LCR40.36, such as for clearing, custody, and cash management purposes, must be assumed to stay at those institutions – ie they must receive a 0% inflow rate, as noted in LCR40.31. The same methodology applied in LCR40.26 to LCR40.36 for operational deposit outflows should also be applied to determine if deposits held at another financial institution are operational deposits and receive a 0% inflow. As a general principle if the bank receiving the deposit classifies the deposit as operational, the bank placing it should also classify it as an operational deposit. Notwithstanding the exclusion of deposit liabilities raised from correspondent banking activities from the treatment of operational deposits, as described in LCR40.32, deposits placed for the purpose of correspondent banking are held for operational purposes and, as such, must receive a 0% inflow rate. However, a 100% inflow rate may be applied to the amount for which the bank is able to determine that the funds are “excess balances” in the sense of LCR40.29 to LCR40.30, ie they are not tied to operational purposes and may be withdrawn within 30 days.
+
+## LCR40.90
+The same treatment applies for deposits held at the centralised institution in a cooperative banking network, that are assumed to stay at the centralised institution, as outlined in LCR40.37 to LCR40.39; in other words, the depositing bank must not count any inflow for these funds – ie they must receive a 0% inflow rate.
+
+# Cash inflows – other cash inflows
+
+## LCR40.91
+The sum of all net derivative cash inflows must receive a 100% inflow factor. The amounts of derivatives cash inflows and outflows must be calculated in accordance with the methodology described in LCR40.49.
+
+## LCR40.92
+Where derivatives are collateralised by HQLA, cash inflows must be calculated net of any corresponding cash or contractual collateral outflows that would result, all other things being equal, from contractual obligations for cash or collateral to be posted by the bank, given these contractual obligations would reduce the stock of HQLA. This is in accordance with the principle that banks must not double-count liquidity inflows or outflows.
+
+## LCR40.93
+Other contractual cash inflows may be included at national discretion. Inflow percentages may be determined as appropriate for each type of inflow by supervisors in each jurisdiction. Cash inflows related to non-financial revenues are not taken into account in the calculation of the net cash outflows for the purposes of this standard.
+[fnFAQ1][fnFAQ2][fnFAQ3][fnFAQ4]
+FAQ1: What is the treatment of inflows and outflows of cash and collateral during the next 30 days arising from forward transactions (eg forward repos)?
+
+The following transactions do not have any impact on a bank’s LCR and can be ignored:
+-
+forward repos, forward reverse repos and forward collateral swaps that start and mature within the LCR’s 30-day horizon;
+-
+forward repos, forward reverse repos and forward collateral swaps that start prior to and mature after the LCR’s 30-day horizon; and
+-
+all forward sales and forward purchase of HQLA.
+
+For forward repos, forward reverse repos and forward collateral swaps that start within the 30-day horizon and mature beyond the LCR’s 30-day horizon, the treatments are as follows.
+-
+Cash outflows from forward reverse repos (with a binding obligation to accept) count towards “other cash outflows” according to LCR40.74 and should be netted against the market value of the collateral received after deducting the haircut applied to the respective assets in the LCR (15% to Level 2A, 25% to RMBS Level 2B assets, and 50% to other Level 2B assets).
+-
+Cash inflows from forward repos are “other contractual inflows” according to LCR40.93 and should be netted against the market value of the collateral extended after deducting the haircut applied to the respective assets in the LCR.
+-
+In case of forward collateral swaps, the net amount between the market values of the assets extended and received after deducting the haircuts applied to the respective assets in the LCR counts towards “other contractual outflows” or “other contractual inflows” depending on which amount is higher.
+
+Forward repos, forward reverse repos and forward collateral swaps that start previous to and mature within the LCR’s 30-day horizon are treated like repos, reverse repos and collateral swaps according to LCR40.46 to LCR40.48 and LCR40.78 to LCR40.81 respectively.
+
+Note that HQLA collateral held by a bank on the first day of the LCR horizon may count towards the stock of HQLA even if it is sold or repoed forward.
+
+Unsettled sales and purchases of HQLA can be ignored in the LCR. The cash flows arising from sales and purchases of non-HQLA that are executed but not yet settled at reporting date count towards “other cash inflows” and “other cash outflows”.
+
+Note that any outflows or inflows of HQLA in the next 30 days in the context of forward and unsettled transactions are only considered if the assets do or will count toward the bank’s stock of HQLA. Outflows and inflows of HQLA-type assets that are or will be excluded from the bank’s stock of HQLA due to operational requirements are treated like outflows or inflows of non-HQLA.
+FAQ2: Other contractual outflow is determined as 100% as per LCR40.74 of the LCR framework, while other contractual inflows are subject to national discretion as per LCR40.93. Some industry members are concerned about the potential asymmetrical treatment between the two items with respect to unsettled sales and purchases as addressed in LCR40.93 FAQ1. Does this requirement apply broadly to all unsettled trades, ie does it also apply to “open” and “failed” trades, or does it only apply to forwards? Banks which apply settlement date accounting for open trades would not have any “open trades” on their balance sheet and therefore this requirement might create an unlevel playing field for different accounting frameworks.
+
+Unsettled transactions are addressed in the second to last paragraph of the response to LCR40.93 FAQ1. It refers to any sales or purchases that are executed but not yet settled at reporting date and follows the approach set out for forward transactions. It captures both “open” and “failed” trades if settlement is expected within 30 days irrespective of the balance sheet treatment. In doing so, the response to LCR40.93 FAQ1 allows for a symmetrical treatment by applying “other cash outflows” to executed but not yet settled purchases of non-HQLA and, subject to national discretion, “other cash inflows” to executed but not yet settled sales, while unsettled sales/purchases of HQLA can be ignored.
+FAQ3: What is the treatment of Level 1 and Level 2 assets that are lent/borrowed without any further offsetting transaction (ie no repo/reverse repo or collateral swap) if the assets will be returned or can be recalled during the next 30 days? Are these assets eligible HQLA on the side of the lender or borrower?
+
+These assets do not count towards the stock of HQLA for either the lender or the borrower. On the side of the borrower, these assets do not enter the LCR calculation. On the lender’s side, these assets count towards the “other contractual inflows” amounting to their market value – in the case of Level 2 assets after haircut.
+FAQ4: Does LCR40.93 FAQ3 apply to assets borrowed/lent on an unsecured basis only and not to secured transactions? Is it correct to interpret that the Basel Committee means “reused” when it uses the wording “further offsetting transaction”?
+
+LCR40.93 FAQ3 refers to assets borrowed/lent on an unsecured basis only. The wording “without any further offsetting transaction” means the absence of a corresponding transfer of cash or securities that would secure the securities borrowing/lending, such as in a repo, reverse repo or collateral swap. If the borrower has reused the securities, there would be an “other contractual cash outflow” to cover unsecured collateral borrowings according to LCR40.74.
+
+The starting point and focus of LCR40.93 FAQ3 (as well as the response to it) is the HQLA eligibility of the assets on the part of either the borrower or the lender. In this context, it is assumed that the borrower has not reused the assets as this would have made the question of HQLA eligibility obsolete anyway. The reuse of the collateral by the borrower, however, introduces an outflow because the borrower may have to source these securities if the borrowing arrangement is not extended.

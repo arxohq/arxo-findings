@@ -1,0 +1,121 @@
+{
+  "id": "ARXO-2026-0385",
+  "url": "https://arxo.io/findings/ARXO-2026-0385/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework MAR21 (in force 2023-01-01, published 2026-03-23)",
+  "acts": [],
+  "location": "MAR21.33 and MAR21.38(2) bucket references",
+  "text": {
+    "en": {
+      "title": "Basel Framework: MAR21.33 and MAR21.38(2) bucket references",
+      "summary": "MAR21.33 and MAR21.38 cite MAR21.53 (the CSR risk-weight table) for bucket definitions, which are in MAR21.51.",
+      "impact": "Position: CSR index sensitivity, 80% IG sovereigns Reading a: bucket definitions in MAR21.53 Table 4: only bucket numbers and weights, no sector/credit quality definition to test '75% mapped to a sector bucket' Reading b: bucket definitions in MAR21.51 Table 3: bucket 1 IG sovereigns, RW 0.5% Difference: reference does not lead to the criterion",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework MAR21 (in force 2023-01-01, published 2026-03-23)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2026-03-23",
+        "locator": "MAR21.33 and MAR21.38(2) bucket references",
+        "text": "The sensitivity to the index should be assigned to the relevant delta risk bucket defined in MAR21.53 and MAR21.72 as follows:",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/mar/21/inforce/2023-01-01/published/2026-03-23",
+        "sha256": "702d93bcc11364c3ffc2c0c81eb0c5981d89544031c7ebc2a84605f86b22df28",
+        "retrieved": "2026-10-31",
+        "copy": "sources/702d93bcc11364c3-MAR21@2023-01-01~2026-03-23.txt",
+        "copy_sha256": "702d93bcc11364c3ffc2c0c81eb0c5981d89544031c7ebc2a84605f86b22df28",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Basel Framework MAR21 (in force 2023-01-01, published 2026-03-23)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2026-03-23",
+        "locator": "MAR21.33 and MAR21.38(2) bucket references",
+        "text": "For delta CSR non-securitisations, buckets are set along two dimensions - credit quality and sector - as set out in Table 3.",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/mar/21/inforce/2023-01-01/published/2026-03-23",
+        "sha256": "702d93bcc11364c3ffc2c0c81eb0c5981d89544031c7ebc2a84605f86b22df28",
+        "retrieved": "2026-10-31",
+        "copy": "sources/702d93bcc11364c3-MAR21@2023-01-01~2026-03-23.txt",
+        "copy_sha256": "702d93bcc11364c3ffc2c0c81eb0c5981d89544031c7ebc2a84605f86b22df28",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

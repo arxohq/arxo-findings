@@ -1,0 +1,121 @@
+{
+  "id": "ARXO-2026-0382",
+  "url": "https://arxo.io/findings/ARXO-2026-0382/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework LEV30 (in force 2023-01-01, published 2020-03-27)",
+  "acts": [],
+  "location": "LEV30.3 second example",
+  "text": {
+    "en": {
+      "title": "Basel Framework: LEV30.3 second example",
+      "summary": "LEV30.3 cites CAP10.19 for the IRB provisions-shortfall deduction from CET1, but CAP10.19 covers the opposite case (excess provisions in Tier 2); the deduction is in CAP30.13.",
+      "impact": "Position: IRB bank, EL 100, eligible provisions 70, shortfall 30 Reading a: follow CAP10.19 literally: no shortfall deduction found there, so no 30 'deducted from CET1' basis for LEV30.3 -> exposure measure not reduced by 30 Reading b: read as CAP30.13: 30 deducted from CET1, so 30 may be deducted from exposure measure Difference: exposure measure differs by 30",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework LEV30 (in force 2023-01-01, published 2020-03-27)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-03-27",
+        "locator": "LEV30.3 second example",
+        "text": "CAP10.19 requires any shortfall in the stock of eligible provisions relative to expected loss amounts to be deducted from CET1 capital.",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/lev/30/inforce/2023-01-01/published/2020-03-27",
+        "sha256": "5e23fb4d5fa879107b86abc132543ed73ca8818845c245cf34fc2f1663f708d8",
+        "retrieved": "2026-10-31",
+        "copy": "sources/5e23fb4d5fa87910-LEV30@2023-01-01~2020-03-27.txt",
+        "copy_sha256": "5e23fb4d5fa879107b86abc132543ed73ca8818845c245cf34fc2f1663f708d8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Basel Framework CAP30 (in force 2019-12-15, published 2019-12-15)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2019-12-15",
+        "locator": "CAP30.13",
+        "text": "Where the total expected loss amount exceeds total eligible provisions, banks must deduct the difference from Common Equity Tier 1.",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cap/30/inforce/2019-12-15/published/2019-12-15",
+        "sha256": "ab96c0ecb89252e77768ab38fb4c7ffe7f84dc216571074674dde92e8afc7b4d",
+        "retrieved": "2026-10-31",
+        "copy": "sources/ab96c0ecb89252e7-CAP30@2019-12-15~2019-12-15.txt",
+        "copy_sha256": "ab96c0ecb89252e77768ab38fb4c7ffe7f84dc216571074674dde92e8afc7b4d",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

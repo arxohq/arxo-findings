@@ -1,0 +1,121 @@
+{
+  "id": "ARXO-2026-0365",
+  "url": "https://arxo.io/findings/ARXO-2026-0365/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework CRE32 (in force 2028-11-01, published 2025-10-28)",
+  "acts": [],
+  "location": "CRE32.63 (cross-ref to CRE20.92)",
+  "text": {
+    "en": {
+      "title": "Basel Framework: CRE32.63 (cross-ref to CRE20.92)",
+      "summary": "CRE32.63 refers to CRE20.92 for 100% CCF items, but CRE20.92 is the currency-mismatch multiplier and the 100% CCF list is in CRE20.95.",
+      "impact": "Position: Retail undrawn commitment 100 that is a 100%-CCF item (CRE20.95), PD 1%, bank has approved own EAD estimates; own EAD estimate 40. Reading a: Follow CRE20.92 literally: it contains no CCF, so the 100% exclusion never triggers and own EAD 40 is allowed -> EAD 40. Reading b: Follow CRE20.95: item is at 100% CCF in the SA, so own estimates are not allowed -> EAD 100. Difference: EAD 60 (RWA scales proportionally)",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework CRE32 (in force 2028-11-01, published 2025-10-28)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2025-10-28",
+        "locator": "CRE32.63 (cross-ref to CRE20.92)",
+        "text": "provided the exposure is not subject to a CCF of 100% in the standardised approach (see CRE20.92)",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/32/inforce/2028-11-01/published/2025-10-28",
+        "sha256": "1e1051609aa106ca364a92ee01b845b3e06a570b48298b2cc019b5607be72ce8",
+        "retrieved": "2026-10-31",
+        "copy": "sources/1e1051609aa106ca-CRE32@2028-11-01~2025-10-28.txt",
+        "copy_sha256": "1e1051609aa106ca364a92ee01b845b3e06a570b48298b2cc019b5607be72ce8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Basel Framework CRE32 (in force 2028-11-01, published 2025-10-28)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2025-10-28",
+        "locator": "CRE32.63 (cross-ref to CRE20.92)",
+        "text": "provided the exposure is not subject to a CCF of 100% in the foundation approach (see CRE32.33)",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/32/inforce/2028-11-01/published/2025-10-28",
+        "sha256": "1e1051609aa106ca364a92ee01b845b3e06a570b48298b2cc019b5607be72ce8",
+        "retrieved": "2026-10-31",
+        "copy": "sources/1e1051609aa106ca-CRE32@2028-11-01~2025-10-28.txt",
+        "copy_sha256": "1e1051609aa106ca364a92ee01b845b3e06a570b48298b2cc019b5607be72ce8",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

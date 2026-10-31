@@ -1,0 +1,415 @@
+LCR31 — inforce 2019-12-15, published 2019-12-15; source sha256 d166eedf1be541a043ce98af7ba6650d7a27494147e8006c27333824bfe1103c
+Title: Alternative liquidity approaches | Bank for International Settlements
+
+# Introduction
+
+## LCR31.1
+Some jurisdictions may have an insufficient supply of Level 1 high-quality liquid assets (HQLA), or both Level 1 and Level 2 HQLA,[fn1] in their domestic currency[fn2] to meet the aggregate demand of banks with significant exposures in this currency. To address this situation, the Basel Committee has developed alternative treatments for holdings in the stock of HQLA, which are expected to apply to a limited number of currencies and jurisdictions.
+[fn1] Insufficiency in Level 2 assets alone does not qualify for the alternative treatment.
+[fn2] For member states of a monetary union with a common currency, that common currency is considered the “domestic currency”.
+
+## LCR31.2
+Eligibility for such alternative treatment will be judged on the basis of the principles and qualifying criteria set out in LCR31.20 and explained further in LCR31.24 to LCR31.61.
+
+## LCR31.3
+There are three alternative treatments available:
+
+- contractual committed liquidity facilities from the relevant central bank, for a fee (Option 1);
+
+- foreign currency HQLA to cover domestic liquidity needs (Option 2); and
+
+- additional use of Level 2 assets with a higher haircut (Option 3).
+
+# General rules governing the use of alternative liquidity approaches
+
+## LCR31.4
+Jurisdictions are not limited to one option. However, the usage of any of the above options must be constrained by a limit specified by supervisors in jurisdictions whose currency is eligible for the alternative treatment. The limit should be expressed in terms of the maximum amount of HQLA associated with the use of the options (whether individually or in combination) that a bank is allowed to include in its Liquidity Coverage Ratio (LCR), as a percentage of the total amount of HQLA the bank is required to hold in the currency concerned.[fn3] HQLA associated with the options refer to:
+
+- in the case of Option 1, the amount of committed liquidity facilities granted by the relevant central bank, for a fee;
+
+- in the case of Option 2, the amount of foreign currency HQLA used to cover the shortfall of HQLA in the domestic currency; and
+
+- in the case of Option 3, the amount of Level 2 assets held (including those within the 40% cap).
+[fn3] The required amount of HQLA in the domestic currency includes any regulatory buffer (ie above the 100% LCR standard) that the supervisor may reasonably impose on the bank concerned based on its liquidity risk profile.
+
+## LCR31.5
+If, for example, the maximum level of usage of the options is set at 80%, it means that a bank adopting the options, either individually or in combination, would only be allowed to include HQLA associated with the options (after applying any relevant haircut) up to 80% of the required amount of HQLA in the relevant currency.[fn4] Thus, at least 20% of the HQLA requirement would need to be met by Level 1 assets in the relevant currency. The maximum usage of the options is constrained by the bank’s actual shortfall of HQLA in the currency concerned.
+[fn4] For example, if a bank has used Option 1 and Option 3 to the extent that it has been granted an Option 1 facility of 10%, and held Level 2 assets of 55% after haircut (both in terms of the required amount of HQLA in the domestic currency), the HQLA associated with the use of these two options amount to 65% (ie 10%+55%), which is still within the 80% level. The total amount of alternative HQLA used is 25% (ie 10% + 15%; additional Level 2A assets used).
+
+## LCR31.6
+The maximum level of usage should be consistent with the projected size of the HQLA shortfall faced by banks subject to the LCR in the currency concerned, taking into account all relevant factors that may affect the size of the shortfall over time. The supervisor should explain how this level is derived, and justify why this is supported by insufficient HQLA in the banking system.
+
+## LCR31.7
+A bank must keep its supervisor informed of its usage of the options so as to enable the supervisor to manage the aggregate usage of the options in the jurisdiction and to monitor, where necessary, that banks using such options observe the relevant supervisory requirements.
+
+## LCR31.8
+While bank-by-bank approval by the supervisor is not required for use of the alternative liquidity approaches, individual supervisors may still consider providing specific approval for banks to use the options should this be warranted based on their jurisdiction-specific circumstances. For example, use of Option 1 will typically require central bank approval of the committed facility.
+
+## LCR31.9
+In general, a bank that needs to use the options should not be allowed to use such options above the level required to meet its LCR (including any reasonable buffer above the 100% standard that may be imposed by the supervisor), however supervisors may consider whether this should be accommodated under certain circumstances. Banks may wish to do so for a number of reasons. For example, they may want to have an additional liquidity facility in anticipation of tight market conditions. Supervisors should have a process (eg through periodic reviews) for ensuring that the alternative HQLA held by banks are not excessive compared with their actual need. In addition, banks should not intentionally replace their stock of Level 1 or Level 2 assets with ineligible assets to create a larger liquidity shortfall for economic reasons or otherwise.
+
+## LCR31.10
+A bank must demonstrate that it has taken reasonable steps to use Level 1 and Level 2 assets and reduce the amount of liquidity risk (as measured by reducing net cash outflows in the LCR) to improve its LCR, before applying an alternative treatment. Holding an HQLA portfolio is not the only way to mitigate a bank’s liquidity risk. For example, a bank could improve the matching of its assets and liabilities, attract stable funding sources, or reduce its longer-term assets. Banks should not treat the use of the options simply as an economic choice that maximises the profits of the bank through the selection of alternative HQLA based primarily on yield considerations. The liquidity characteristics of an alternative HQLA portfolio should be considered to be more important than its net yield.
+
+## LCR31.11
+In order to ensure that banks’ usage of the options is not out of line with the availability of Level 1 assets within the jurisdiction, supervisors may set a minimum amount of Level 1 assets to be held by each bank that is consistent with the availability of Level 1 assets in the market. A bank must then ensure that it is able to hold and maintain Level 1 assets not less than the minimum amount when applying the options.
+
+# Option 1 – Contractual committed liquidity facilities from the relevant central bank, for a fee
+
+## LCR31.12
+Under Option 1, banks may access contractual committed liquidity facilities provided by the relevant central bank (ie relevant given the currency in question) for a fee. These committed liquidity facilities should be distinct and separate from regular central bank standing arrangements, as these committed liquidity facilities must meet certain criteria. In particular, these facilities must be established contractual arrangements between the central bank and the commercial bank with a maturity date which, at a minimum, falls outside the 30-day LCR window. Further, the contract must be irrevocable prior to maturity and must not involve an ex post credit decision by the central bank. Such facilities must also incur a fee for the facility which is charged regardless of the amount, if any, drawn down against that facility; and the fee must be set so that both banks that claim the facility to meet the LCR and banks that do not have similar financial incentives to reduce their exposure to liquidity risk. That is, the fee should be set so that the net yield on the assets used to secure the facility should not be higher than the net yield on a representative portfolio of Level 1 and Level 2 assets, after adjusting for any material differences in credit risk. A jurisdiction seeking to adopt Option 1 should justify that the fee is suitably set in a manner as prescribed in this paragraph.
+
+# Option 2 – Foreign currency HQLA to cover domestic liquidity needs
+
+## LCR31.13
+Under Option 2, supervisors may permit banks that evidence a shortfall of HQLA in the domestic currency (ie insufficient domestic currency HQLA relative to domestic currency liquidity risk) to hold HQLA in a currency that does not match the currency of the associated liquidity risk. However, the resulting currency mismatch positions must be justifiable and controlled within limits agreed by their supervisors. Supervisors should restrict such positions within levels consistent with the bank’s foreign exchange risk management capacity and needs and ensure that such positions relate to currencies that are freely and reliably convertible, are effectively managed by the bank, and would not pose undue risk to its financial strength. In managing those positions, the bank should take into account the risk that its ability to swap currencies and its access to the relevant foreign exchange markets may erode rapidly under stressed conditions. It should also take into account that sudden, adverse exchange rate movements could sharply widen existing mismatch positions and alter the effectiveness of any foreign exchange hedges in place.
+
+## LCR31.14
+To account for foreign exchange risk associated with foreign currency HQLA used to cover liquidity needs in the domestic currency, such liquid assets must be subject to a minimum haircut of 8% for major currencies that are active in global foreign exchange markets.[fn5] For other currencies, jurisdictions should increase the haircut to an appropriate level on the basis of historical (monthly) exchange rate volatilities between the currency pair over an extended period of time.[fn6] If the domestic currency is formally pegged to another currency under an effective mechanism, the haircut for the pegged currency may be lowered to a level that reflects the limited exchange rate risk under the peg arrangement. To qualify for this treatment, the jurisdiction concerned should demonstrate the effectiveness of its currency peg mechanism and assess the long-term prospect of keeping the peg.
+[fn5] These refer to currencies that exhibit significant and active market turnover in the global foreign currency market (eg the average market turnover of the currency as a percentage of the global foreign currency market turnover over a ten-year period is not lower than 10%).
+[fn6] As an illustration, the exchange rate volatility data used for deriving the foreign exchange haircut may be based on the 30-day moving foreign exchange price volatility data (mean + 3 standard deviations) of the currency pair over a ten-year period, adjusted to align with the 30-day time horizon of the LCR.
+
+## LCR31.15
+Haircuts for foreign currency HQLA used under Option 2 must apply to HQLA in excess of a threshold specified by supervisors which must not be greater than 25%.[fn7] This is to accommodate a certain level of currency mismatch that may commonly exist among banks in their ordinary course of business.
+[fn7] The threshold for applying the haircut under Option 2 refers to the amount of foreign currency HQLA used to cover liquidity needs in the domestic currency as a percentage of total net cash outflows in the domestic currency. Hence under a threshold of 25%, a bank using Option 2 must apply the haircut to that portion of foreign currency HQLA in excess of 25% that are used to cover liquidity needs in the domestic currency.
+
+## LCR31.16
+A bank using Option 2 must demonstrate that its foreign exchange risk management system is able to measure, monitor and control the foreign exchange risk resulting from the currency-mismatched HQLA positions. In addition, the bank must show that it can reasonably convert the currency-mismatched HQLA to liquidity in the domestic currency when required, particularly in a stress scenario. To mitigate the risk that excessive currency mismatch may interfere with the objectives of the framework, the bank supervisor should only allow banks that are able to measure, monitor and control the foreign exchange risk arising from the currency mismatched HQLA positions to use this option. As the HQLA that are eligible under Option 2 can be denominated in different foreign currencies, banks must assess the convertibility of those foreign currencies in a stress scenario. As participants in the foreign exchange market, they are in the best position to assess the depth of the foreign exchange swap or spot market for converting those assets to the required liquidity in the domestic currency in times of stress. The supervisor should also restrict the currencies of the assets that are eligible under Option 2 to those that have been historically proven to be convertible into the domestic currency in times of stress.
+
+# Option 3 – Additional use of Level 2 assets with a higher haircut
+
+## LCR31.17
+This option addresses currencies for which there are insufficient Level 1 assets, as determined by reference to the qualifying principles and criteria, but where there are sufficient Level 2A assets. Under this option, supervisors may permit banks that evidence a shortfall of HQLA in the domestic currency (ie relative to domestic currency liquidity risk) to hold additional Level 2A assets in the stock of HQLA. These additional Level 2A assets must be subject to a minimum haircut of 20%, ie 5% higher than the 15% haircut applicable to Level 2A assets that are included in the 40% cap. The higher haircut should cover any additional price and market liquidity risks arising from increased holdings of Level 2A assets beyond the 40% cap and provide a disincentive for banks to use this option based on yield considerations.[fn8] Supervisors must conduct an analysis to assess whether the additional haircut is sufficient for Level 2A assets in their markets, and should increase the haircut if this is warranted to achieve the purpose for which it is intended. Supervisors should explain and justify the outcome of the analysis (including the level of increase in the haircut, if applicable). Any Level 2B assets held by the bank must remain subject to the cap of 15%, regardless of the amount of other Level 2 assets held.
+[fn8] Supervisors should seek to avoid a situation where the cost of holding a portfolio that benefits from this option is lower than the cost of holding a theoretical compliant portfolio of Level 1 and Level 2 assets, after adjusting for any material differences in credit risk.
+
+## LCR31.18
+A bank using Option 3 must be able to manage the price risk associated with the additional Level 2A assets. As the quality of Level 2A assets is lower than that for Level 1 assets, increasing its composition would increase the price risk and hence the volatility of the bank’s stock of HQLA. To mitigate the uncertainty of performance of this option, banks must demonstrate that the values of the assets under stress are sufficient. At a minimum, they must be able to conduct stress tests to ascertain that the value of its stock of HQLA remains sufficient to support its LCR during a market-wide stress event. The bank should take a higher haircut (ie higher than the supervisor-imposed Option 3 haircut) on the value of the Level 2A assets if the stress test results suggest that the minimum haircut imposed by supervisors would be insufficient to cover the assets’ price and market liquidity risks.
+
+## LCR31.19
+A bank using Option 3 must show that it can reasonably liquidate the additional Level 2A assets in a stress scenario. With additional reliance on Level 2A assets, it is essential to ensure that the market for these assets has sufficient depth. This standard may be implemented in several ways, but should be more severe than the requirements associated with Level 2 assets within the 40% cap, because increased reliance on Level 2A assets would increase concentration risk on an aggregate level, thus affecting market liquidity. The supervisor may:
+
+- require that Level 2A assets that exceed the 40% cap meet higher qualifying criteria (eg minimum credit rating of AA+ or AA instead of AA-, central bank eligible);
+
+- set a limit on the minimum issue size of the Level 2A assets that qualify for use under this option;
+
+- set a limit on the bank’s maximum holding as a percentage of the issue size of the qualifying Level 2A asset;
+
+- set a limit on the maximum bid-ask spread, minimum volume, or minimum turnover of the qualifying Level 2A asset; and
+
+- any other criteria appropriate for the jurisdiction.
+
+# Principles for assessing eligibility for alternative liquidity approaches
+
+## LCR31.20
+All of the following principles must be satisfied in order for a jurisdiction to qualify for alternative treatment.
+
+- To use the alternative treatment under the LCR, a jurisdiction must demonstrate and justify that insufficient HQLA denominated in the domestic currency exists, taking into account all relevant factors affecting the supply of, and demand for, such HQLA (Principle 1).
+
+- The supply of HQLA in the domestic currency of the jurisdiction must be insufficient, in terms of Level 1 assets only or both Level 1 and Level 2 assets, to meet the aggregate demand for such assets from banks operating in that currency. The jurisdiction must be able to provide adequate information (quantitative and otherwise) to demonstrate this aggregate shortfall.
+
+- The determination of insufficient HQLA by the jurisdiction under LCR31.20(1)(a) should address all major factors relevant to the issue. These include, but are not limited to, the expected supply of HQLA in the medium term (eg three to five years), the extent to which the banking sector can and should run less liquidity risk, and the competing demand from banks and non-bank investors for holding HQLA for similar or other purposes.
+
+- Insufficient HQLA faced by the jurisdiction must be caused by structural, policy and other constraints that cannot be resolved within the medium term (eg three to five years). Such constraints may relate to the fiscal or budget policies of the jurisdiction, the infrastructural development of its capital markets, the structure of its monetary system and operations (eg the currency board arrangements for jurisdictions with pegged exchange rates), or other jurisdiction-specific factors leading to the shortage or imbalance in the supply of HQLA available to the banking sector.
+
+- A jurisdiction that intends to adopt one or more of the options for alternative treatment must be capable of limiting the uncertainty of performance, or mitigating the risks of non-performance, of the option(s) concerned (Principle 2).
+
+- For Option 1 (ie the provision of contractual committed liquidity facilities from the relevant central bank for a fee), the jurisdiction must have the economic strength to support the committed liquidity facilities granted by its central bank. To ensure this, the jurisdiction should have a process in place to control the aggregate amount of such facilities to within a level that can be measured and managed.
+
+- For Option 2 (ie use of foreign currency HQLA to cover domestic currency liquidity needs), the jurisdiction must have a mechanism in place to control the foreign exchange risk of its banks’ foreign currency HQLA holdings.
+
+- For Option 3 (ie use of Level 2A assets beyond the 40% cap with a higher haircut), the jurisdiction must only allow Level 2 assets that are of a quality (credit and liquidity) comparable to that for Level 1 assets in its currency to be used under this option. The jurisdiction should be able to provide quantitative and qualitative evidence to substantiate this requirement.
+
+- A jurisdiction that intends to adopt one or more of the options for alternative treatment must be committed to observing all of the obligations set out below (Principle 3).
+
+- The jurisdiction must maintain a supervisory monitoring system to ensure that its banks comply with the rules and requirements relevant to their usage of the options, including any associated haircuts, limits or restrictions.
+
+- The jurisdiction must document and update its approach to adopting an alternative treatment, and make the approach explicit and transparent to other national supervisors. The approach should address how it complies with the applicable criteria, limits and obligations set out in the qualifying principles, including the determination of insufficient HQLA and other key aspects of its framework for alternative treatment.
+
+- The jurisdiction must review periodically the determination of insufficient HQLA at intervals not exceeding five years, and disclose the results of review and any consequential changes to other national supervisors and stakeholders.
+
+- The jurisdiction must permit an independent peer review of its framework for alternative treatment to be conducted as part of the Basel Committee’s work programme and address the comments made.
+
+## LCR31.21
+The eligibility for a jurisdiction to adopt an alternative liquidity approach treatment should be based on a fully implemented LCR standard (ie 100% requirement).
+
+## LCR31.22
+The principles in LCR31.20 may not, in all cases, be able to capture specific circumstances or unique factors affecting individual jurisdictions having insufficient HQLA. Hence, a jurisdiction may provide additional information or explain other factors that are relevant to its compliance with the Principles, even though such information or factors may not be specified in the Principles.
+
+## LCR31.23
+Where a jurisdiction uses estimations or projections to support its case to use alternative liquidity approaches, the rationale and basis for those estimations or projections should be clearly set out. In order to support its case and facilitate independent peer review, the jurisdiction should provide information, to the extent possible, covering a long enough time series (eg three to five years depending on data availability).
+
+# Guidance on meeting Principle 1 – insufficiency of HQLA
+
+## LCR31.24
+In order to qualify for alternative treatment, the jurisdiction must be able to demonstrate that there is an HQLA shortfall in the domestic currency as it relates to the needs in that currency. The jurisdiction must demonstrate this with regard to the three criteria set out above.
+
+## LCR31.25
+LCR31.20(1)(a) requires the jurisdiction to provide sufficient information to demonstrate the insufficient HQLA in its domestic currency. This insufficiency must principally reflect a shortage in Level 1 assets, although Level 2 assets may also be insufficient in some jurisdictions.
+
+## LCR31.26
+To illustrate that a currency does not have sufficient HQLA, the jurisdiction must provide all relevant information and data that have a bearing on the size of the HQLA shortfall faced by banks operating in that currency that are subject to LCR requirements (“LCR banks”). These should, to the extent practicable, include the following information.
+
+- The current and projected stock of HQLA denominated in its currency,[fn9] including:
+
+- the supply of Level 1 and Level 2 assets broken down by asset classes;
+
+- the amounts outstanding for the last three to five years;
+
+- the projected amounts for the next three to five years; and
+
+- any other information in support of its stock and projection of HQLA, including, should the jurisdiction feel that the true nature of the supply of HQLA cannot be simply reflected by the numbers provided, further information to explain sufficiently the case.
+
+- The jurisdiction should provide a detailed analysis of the nature of the market for the above assets. Information relating to the market liquidity of the assets would be of particular importance. The jurisdiction should present its views on the liquidity of the HQLA based on the information presented. The following details should be provided:
+
+- for the primary market for the above assets:
+
+(i)
+
+the channel and method of issuance;
+
+(ii)
+
+the issuers;
+
+(iii)
+
+the past issue tenor, denomination and issue size for the last three to five years; and
+
+(iv)
+
+the projected issue tenor, denomination and issue size for the next three to five years;
+
+- for the secondary market for the above assets:
+
+(i)
+
+the trading size and activity;
+
+(ii)
+
+types of market participants; and
+
+(iii)
+
+the size and activity of its repo market; and
+
+- where possible, the jurisdiction should provide an estimate of the amount of the above assets (Level 1 and Level 2) required to be in free circulation for them to remain genuinely liquid, as well as any justification for these figures.
+
+- With regard to demand for HQLA by LCR banks, the jurisdiction should provide:
+
+- the number of LCR banks under its purview;
+
+- the current demand (ie net 30-day cash outflows) for HQLA by these LCR banks for meeting the LCR or other requirements (eg collateral for intraday repo);
+
+- the projected demand for the next three to five years based on banks’ business growth and strategy;
+
+- an estimate of the percentage of total HQLA already in the hands of banks; and
+
+- commentaries on cash flow projections where appropriate to improve their persuasiveness. The projections should take into account observed behavioural changes of the LCR banks and any other factors that may result in a reduction of their 30-day cash outflows.
+
+- The jurisdiction may provide information on the demand for Level 1 and Level 2 assets by the other HQLA holders in support of its application. These entities are not subject to the LCR but will likely take up, or hold on to, a part of the outstanding stock of HQLA. Such entities include: banks, branches of banks and other deposit-taking institutions which conduct bank-like activity (such as building societies and credit unions) in the jurisdiction but are not subject to the LCR: other financial institutions which are normally subject to prudential supervision, such as investment or securities firms, insurance or reinsurance companies, pension / superannuation funds, mortgage funds, and money market funds; and other significant investors which have demonstrated a track record of strategic ”buy and hold” purchases which can be presumed to be price-insensitive. This would include foreign sovereigns, foreign central banks and foreign sovereign / quasi-sovereign funds, but not hedge funds or other private investment management vehicles. Historical demand for such assets by these holders is not sufficient. The alternate holders of HQLA must at least exhibit the following qualities:
+
+- price-inelastic: the holders of HQLA are unlikely to switch to alternate assets unless there is a significant change in the price of these assets; and
+
+- proven to be stable: the demand for HQLA by the holders should remain stable over the next three years as they require these assets to meet specific purposes, such as asset-liability matching or other regulatory requirements.
+[fn9] To avoid doubt, if the jurisdiction is a member of a monetary union operating under a single currency, debt or other assets issued in other members of the union in that currency is considered available for all jurisdictions in that union. Hence, the jurisdiction should take into account the availability of such assets which qualify as HQLA in its analysis.
+
+## LCR31.27
+The jurisdiction should be able to come up with a reasonable estimate of the HQLA shortfall faced by its LCR banks (current and over the next three to five years), based on credible information. In deriving the HQLA shortfall, the jurisdiction should first compare:
+
+- the total outstanding stock of its HQLA in domestic currency; with
+
+- the total liquidity needs of its LCR banks in domestic currency.
+
+## LCR31.28
+The jurisdiction should then explain the method of deriving the HQLA shortfall, taking into account all relevant factors, including those set out in LCR31.20(1)(b), which may affect the size of the shortfall. A detailed analysis of the calculations should be provided (eg in the form of a template), explaining any adjustments to supply and demand and justifications for such adjustments.[fn10] The jurisdiction should demonstrate that the method of defining insufficiency is appropriate for its circumstances, and that it can reflect the HQLA shortfall faced by LCR banks in the currency.
+[fn10] For HQLA that are subject to caps or haircuts (eg Level 2 assets), the effects of such constraints should be accounted for.
+
+## LCR31.29
+LCR31.20(1)(b) builds on the information provided by the jurisdiction in LCR31.7 to LCR31.10 and requires the jurisdiction to further explain the manner in which insufficient HQLA is determined, by listing all major factors that affect the HQLA shortfall faced by its LCR banks under LCR31.20(1)(a). There should be a commentary for each of the factors, explaining why the factor is relevant, the impact of the factor on the HQLA shortfall, and how such impact is incorporated into the analysis of insufficient HQLA. The jurisdiction should be able to demonstrate that it has adequately considered all relevant factors, including those that may improve the HQLA shortfall, so as to ascertain that the insufficiency issue is fairly stated.
+
+## LCR31.30
+On the supply of HQLA, there should be due consideration of the extent to which insufficient HQLA may be alleviated by estimated medium term supply of such assets, as well as the factors restricting the availability of HQLA to LCR banks. In the case of government debt, relevant information on availability can be reflected, for example, from the size and nature of other users of government debt in the jurisdiction; holdings of government debt which seldom appear in the traded markets; and the amount of government debt in free circulation for the assets to remain truly liquid.
+
+## LCR31.31
+On the demand of HQLA, there should be due consideration of the potential liquidity needs of the banking sector, taking into account the scope for banks to reduce their liquidity risk (and hence their demand for HQLA) and the extent to which banks can satisfy their demand through the repo market (rather than through outright purchase of HQLA). Other needs for maintaining HQLA (eg for intraday repo purposes) may also increase banks’ demand for such assets.
+
+## LCR31.32
+The jurisdiction should also include any other factors not mentioned above that are relevant to its case.
+
+## LCR31.33
+LCR31.20(1)(c) should establish that insufficient HQLA is caused by constraints that are not temporary in nature. The jurisdiction should provide a list of such constraints, explain the nature of the constraints and how the insufficiency issue is affected by the constraints, as well as whether there is any prospect of change in the constraints (eg measures taken to address the constraints) in the next three to five years. To demonstrate the significance of the constraints, the jurisdiction should support the analysis with appropriate quantitative information.
+
+## LCR31.34
+A jurisdiction may have fiscal or budget constraints that limit its ability or need to raise debt. To support this, the following information should, at a minimum, be provided:
+
+- Fiscal position for the past ten years: Consistent fiscal surpluses (eg at least six out of the past ten years or at least two out of the past three years)[fn11] can be an indication that the jurisdiction does not need to raise a significant amount of debt. On the contrary, it is unlikely that jurisdictions with persistent deficits (eg at least six out of the past ten years) will have a shortage in government debt issued.
+
+- Fiscal position as a percentage of gross domestic product (GDP) (ten-year average): This is another way of looking at the fiscal position. A positive ten-year average will likely suggest that the need for debt issuance is low. Similarly, a negative ten-year average will suggest otherwise.
+
+- Issue of government or central bank debt in the past ten years and the reasons for such issuance (eg for market operations or managing the yield curve). This is to assess the level and consistency of debt issuance.
+[fn11] Some deficits during economic downturns need to be catered for. Moreover, the recent surplus/deficit situation is relevant for assessment.
+
+## LCR31.35
+The jurisdiction should also provide the ratio of its government debt to total banking assets denominated in domestic currency (for the past three to five years) to facilitate trend analysis of the government debt position versus a proxy indicator for banking activity (ie total banking assets), as well as comparison of the position across jurisdictions (including those that may not have the insufficiency issue). While this ratio alone cannot give any conclusive view about the insufficiency issue, a relatively low ratio (eg below 20%) may support the case if the jurisdiction also performs similarly under other indicators.
+
+## LCR31.36
+A jurisdiction may have underdeveloped markets that result in limited availability of corporate or covered bonds to satisfy market demand. Information to be provided may include the causes of this situation, measures that are being taken to develop the markets, the expected effect of such measures, and other relevant statistics showing the state of the markets.
+
+## LCR31.37
+There may also be other structural issues affecting the monetary system and operations. For example, the currency board arrangements for jurisdictions with pegged exchange rates could potentially constrain the issue of central bank debt and cause uncertainty or volatility in the availability of such debt to the banking sector. The jurisdiction should explain such arrangements and their effects on the supply of central bank debt (supported by relevant historical data in the past three to five years).
+
+# Guidance on meeting Principle 2 – managing performance
+
+## LCR31.38
+This Principle assesses whether and how the jurisdiction mitigates the risks arising from the adoption of any of the options, based on the requirements set out in the three criteria mentioned above. The assessment should also include whether the jurisdiction’s approach to adopting the options is in line with the alternative treatment set out in LCR31.1 to LCR31.19.
+
+## LCR31.39
+The jurisdiction should explain its policy towards the adoption of the options, including which of the options will be used and the estimated (and maximum allowable) extent of usage by the banking sector. The jurisdiction should also justify the appropriateness of the maximum level of usage of the options to its banking system, in accordance with the relevant guidance set out in LCR31.4 to LCR31.6.
+
+## LCR31.40
+A jurisdiction intending to adopt Option 1 must demonstrate that it has the economic and financial capacity to support the committed liquidity facilities that will be granted to its banks.[fn12] The jurisdiction should, for example, have a strong credit rating (such as AA- or higher[fn13] ) or be able to provide other evidence of financial strength and should not be exposed to adverse developments (eg a looming crisis) that may heavily impinge on its domestic economy in the near term.
+[fn12] This is to enhance market confidence rather than to query the jurisdiction’s ability to honour its commitments.
+[fn13] This is the minimum sovereign rating that qualifies for a 0% risk weight under CRE20.
+
+## LCR31.41
+The jurisdiction should also demonstrate that it has a process in place to control the aggregate facilities granted under Option 1 within a level that is appropriate for its local circumstances. For example, the jurisdiction may limit the amount of Option 1 commitments to a certain proportion of its GDP and justify why this level is suitable for its banking system. The process should address situations where the aggregate facilities are approaching or have breached the limit, and how the limit interplays with other restrictions for using the options (eg maximum level of usage for all options combined).
+
+## LCR31.42
+To facilitate assessment of compliance with requirements in LCR31.12, the jurisdiction should provide all relevant details associated with the extension of the committed facility, covering:
+
+- the commitment fee (including the basis on which it is charged,[fn14] the method of calculation[fn15] and the frequency of re-calculating or varying the fee). The jurisdiction should, in particular, demonstrate that the calculation of the commitment fee is in line with the conceptual framework set out in LCR31.12;
+
+- the types of collateral acceptable to the central bank for securing the facility and respective collateral margins or haircuts required;
+
+- the legal terms of the facility (including whether it covers a fixed term or is renewable or evergreen, the notice of drawdown, whether the contract is irrevocable prior to maturity,[fn16] and whether there are restrictions on a bank’s ability to draw down on the facility);[fn17]
+
+- the criteria for allowing individual banks to use Option 1;
+
+- disclosure policies (ie whether the level of the commitment fee and the amount of committed facilities granted will be disclosed, either by the banks or by the central bank); and
+
+- the projected size of committed liquidity facilities that may be granted under Option 1 (versus the projected size of total net cash outflows in the domestic currency for Option 1 banks) for each of the next three to five years and the basis of projection.
+[fn14] LCR31.12 requires the fee to be charged regardless of the amount, if any, drawn down against the facility.
+[fn15] LCR31.12 presents the conceptual framework for setting the fee.
+[fn16] LCR31.12 requires the maturity date to at least fall outside the 30-day LCR window and the contract to be irrevocable prior to maturity.
+[fn17] LCR31.12 requires the contract not to involve any ex post credit decision by the central bank
+
+## LCR31.43
+A jurisdiction intending to adopt Option 2 should demonstrate that it has a mechanism in place to control the foreign exchange risk arising from banks’ holdings in foreign currency HQLA under this option. This is because such foreign currency asset holdings to cover domestic currency liquidity needs may be exposed to the risk of decline in the liquidity value of those foreign currency assets should exchange rates move adversely when the assets are converted into the domestic currency, especially in times of stress.
+
+## LCR31.44
+This control mechanism should cover the following elements:
+
+- The jurisdiction should ensure that the use of Option 2 is confined only to foreign currencies which provide a reliable source of liquidity in the domestic currency in stressed market conditions. In this regard, the jurisdiction should specify the currencies and broad types of HQLA denominated in those currencies[fn18] allowable under this option, based on prudent criteria. The suitability of the currencies should be reviewed whenever significant changes in the external environment warrant a review.
+
+- The jurisdiction should explain why each of the allowable currencies is selected, including an analysis of the historical exchange rate volatility, and turnover size in the foreign exchange market, of the currency pair (eg based on statistics for each of the past three to five years). In case a currency is selected for other reasons,[fn19] the justifications should be clearly stated to support its inclusion for Option 2 purposes. The selection of currencies should take into account the following aspects:
+
+- the currency should be freely transferable and convertible into the domestic currency;
+
+- the currency should be liquid and active in the relevant foreign exchange market; the methodology and basis of this assessment should be documented;
+
+- the currency should not exhibit significant historical exchange rate volatility against the domestic currency;[fn20] and
+
+- in the case of a currency which is pegged to the domestic currency, there should be a formal mechanism in place for maintaining the peg rate; relevant information about the mechanism and past ten-year statistics on exchange rate volatility of the currency pair showing the effectiveness of the peg arrangement should be documented.
+
+- HQLA in the allowable currencies used for Option 2 purposes must be subject to haircuts as prescribed under this framework (ie at least 8% for major currencies[fn21] ). The jurisdiction should set a higher haircut for other currencies where the exchange rate volatility against the domestic currency is much higher, based on a methodology that compares the historical (eg monthly) exchange rate volatilities between the currency pair concerned over an extended period of time. Where the allowable currency is formally pegged to the domestic currency, a lower haircut may be used to reflect limited exchange rate risk under the peg arrangement. To qualify for this treatment, the jurisdiction should demonstrate the effectiveness of its currency peg mechanism and the long-term prospect of keeping the peg. Where a threshold for applying the haircut under Option 2 is adopted (see LCR31.15), the level of the threshold must not be more than 25%.
+
+- Regular information should be collected from banks in respect of their holding of allowable foreign currency HQLA for LCR purposes to enable supervisory assessment of the foreign exchange risk associated with banks’ holdings of such assets, both individually and in aggregate.
+
+- There should be an effective means to control the foreign exchange risk assumed by banks. The control mechanism, and how it is to be applied to banks, should be elaborated. In particular:
+
+- there should be prescribed criteria for allowing individual banks to use Option 2;
+
+- the approach to assessing whether the estimated holdings of foreign currency HQLA by individual banks using Option 2 are consistent with their foreign exchange risk management capacity (see LCR31.13) should be explained; and
+
+- there should be a system for setting currency mismatch limits to control banks’ maximum foreign currency exposures under Option 2.
+[fn18] For example, clarification may be necessary in cases where only central government debt will be allowed, or Level 1 securities issued by multilateral development banks in some currencies will be allowed.
+[fn19] For example, the central banks of the two currencies concerned may have entered into special foreign exchange swap agreements that facilitate the flow of liquidity between the currencies.
+[fn20] This is relative to the exchange rate volatilities between the domestic currency and other foreign currencies with which the domestic currency is traded.
+[fn21] These currencies refer to those that exhibit significant and active market turnover in the global foreign currency market (eg the average market turnover of the currency as a percentage of the global foreign currency market turnover over a ten-year period is not lower than 10%).
+
+## LCR31.45
+With the adoption of Option 3, the increase in holdings of Level 2A assets within the banking sector (to substitute for Level 1 assets which are of higher quality but in shortage) may give rise to additional price and market liquidity risks, especially in times of stress when concentrated asset holdings have to be liquidated. In order to mitigate this risk, the jurisdiction intending to adopt Option 3 should ensure that only Level 2A assets that are of comparable quality to Level 1 assets in the domestic currency are allowed to be used under this option (ie to exceed the 40% cap). Level 2B assets must remain subject to the 15% cap. The jurisdiction should demonstrate how this can be achieved in its supervisory framework, having regard to the following aspects:
+
+- The adoption of higher qualifying standards for additional Level 2A assets: apart from fulfilling all the qualifying criteria for Level 2A assets, additional requirements should be imposed to ensure the assets provide adequate liquidity value. For example, supervisors may require the minimum credit rating of these additional Level 2A assets to be AA or AA+ instead of AA-, and may impose more stringent qualitative and quantitative criteria. These assets may also be required to be central bank eligible.
+
+- The inclusion of a prudent diversification requirement for banks using Option 3: banks should be required to diversify holdings of Level 2 assets among different issuers and asset classes to the extent feasible in a given national market. The jurisdiction should illustrate how this diversification requirement is to be applied to banks.
+
+## LCR31.46
+The jurisdiction should provide statistical evidence to substantiate that Level 2A assets (used under Option 3) and Level 1 assets in the domestic currency are generally of comparable quality in terms of the maximum decline in price during a relevant historical period of significant liquidity stress.
+
+## LCR31.47
+The jurisdiction should also provide all relevant details associated with the use of Option 3, including:
+
+- the standards and criteria for allowing individual banks to use Option 3;
+
+- the system for monitoring banks’ additional Level 2A asset holding under Option 3 to ensure that they observe the higher requirements;
+
+- the application of higher haircuts to additional Level 2A assets (see LCR31.17);[fn22] and
+
+- the existence of any restriction on the use of Level 2A assets (ie to what extent banks will be allowed to hold such assets as a percentage of their liquid asset stock).
+[fn22] Under LCR31.17, a minimum higher haircut of 20% must be applied to additional Level 2A assets used under this option. The jurisdiction must conduct an analysis to assess whether the 20% haircut is sufficient for Level 2A assets in its market, and should increase the haircut to an appropriate level if this is warranted in order to achieve the purpose of the haircut.
+
+# Guidance on meeting Principle 3 – supervisory obligations
+
+## LCR31.48
+This Principle requires a jurisdiction intending to adopt any of the options to indicate the jurisdiction’s commitment to observing the obligations relating to supervisory monitoring, disclosure, periodic self-assessment, and independent peer review of its eligibility for adopting the options, as set out in the criteria below. Whether these commitments are fulfilled in practice should be assessed in subsequent periodic self-assessments and, where necessary, in subsequent independent peer reviews.
+
+## LCR31.49
+The jurisdiction should demonstrate that it has a clearly documented framework for monitoring the usage of the options by its banks as well as their compliance with the relevant rules and requirements applicable to them under the supervisory framework. In particular, the jurisdiction should have a system to ensure that the rules governing banks’ usage of the options are met, and that the usage of the options within the banking system are monitored and controlled. To achieve this, the framework should be able to address the aspects mentioned below.
+
+## LCR31.50
+The jurisdiction should set out the requirements that banks should meet in order to use the options to comply with the LCR. The requirements may differ depending on the option to be used as well as jurisdiction-specific considerations. The scope of these requirements will generally cover the following areas:
+
+- The jurisdiction should devise the supervisory requirements governing banks’ usage of the options, having regard to the guidance set out in this chapter. Any bank-specific requirements should be communicated to the affected banks.
+
+- Banks using the options should be informed of the minimum amount of Level 1 assets that they are required to hold in the relevant currency. The jurisdiction should set a minimum level for banks in the jurisdiction. This should complement the requirement under LCR31.50(3) below.
+
+- In order to control the usage of the options within the banking system, banks should be informed of any supervisory restriction applicable to them in terms of the maximum amount of alternative HQLA (under each or all of the options) they are allowed to hold. For example, if the maximum usage level is 70%, a bank should maintain at least 30% of its HQLA stock in Level 1 assets in the relevant currency. The maximum level of usage of the options set by the jurisdiction should be consistent with the calculations and projections used to support its compliance with Principles 1 and 2.
+
+- The jurisdiction may apply additional haircuts to banks that use the options to limit the uncertainty of performance, or mitigate the risks of non-performance, of the options used (see Principle 2). For example, a jurisdiction that relies heavily on Option 3 may observe that a large amount of Level 2A assets will be held by banks to fulfil their LCR needs, thereby increasing the market liquidity risk of these assets. This may necessitate increasing the Option 3 haircut for banks that rely heavily on these Level 2A assets.
+
+- The jurisdiction may choose to apply further restrictions to banks that use the options.
+
+## LCR31.51
+The jurisdiction should demonstrate that through its data collection framework (eg as part of regular banking returns), sufficient data can be obtained from its banks to ascertain compliance with the supervisory requirements as communicated to the banks. The jurisdiction should determine the reporting requirements, including the types of data and information required, the manner and frequency of reporting, and how the data and information collected will be used.
+
+## LCR31.52
+The jurisdiction should also indicate how it intends to monitor banks’ compliance with the relevant rules and requirements. This may be performed through a combination of off-site analysis of information collected, prudential interviews with banks and on-site examinations as necessary. For example, an on-site review may be necessary to determine the quality of a bank’s foreign exchange risk management in order to assess the extent which the bank should be allowed to use Option 2 to satisfy its LCR requirements.
+
+## LCR31.53
+The jurisdiction should demonstrate that it has sufficient supervisory powers and tools at its disposal to ensure compliance with the requirements governing banks’ usage of the options. These will include tools for assessing compliance with specific requirements (eg foreign exchange risk management under Option 2 and price risk management under Option 3) as well as general measures and powers available to impose penalties should banks fail to comply with the requirements applicable to them. The jurisdiction should also demonstrate that it has sufficient powers to direct banks to comply with the general rules and/or specific requirements imposed on them. Examples of such measures are the power to issue directives to the banks, restriction of financial activities, financial penalties, increase of Pillar 2 capital, etc.
+
+## LCR31.54
+The jurisdiction should restrict a bank from using the options should it fail to comply with the relevant requirements.
+
+## LCR31.55
+The jurisdiction should demonstrate that it has a documented framework that is disclosed (whether on its website or through other means) upon the adoption of the options for alternative treatment. The document should contain clear and transparent information that will enable other national supervisors and stakeholders to gain a sufficient understanding of its compliance with the qualifying principles for adoption of the options and the manner in which it supervises the use of the options by its banks.
+
+## LCR31.56
+The disclosure should cover the following:
+
+- the jurisdiction’s self-assessment of insufficient HQLA in the domestic currency, including relevant data about the supply of, and demand for, HQLA, and major factors (eg structural, cyclical or jurisdiction-specific) influencing the supply and demand. This assessment should correspond with the self-assessment required under LCR31.57 to LCR31.61 below;
+
+- the jurisdiction’s supervisory approach to applying the alternative treatment, including the option(s) allowed to be used by banks, any guidelines, requirements and restrictions associated with the use of such option(s) by banks, and approach to monitoring banks’ compliance with them;
+
+- if Option 1 is adopted, the terms of the committed liquidity facility, including the maturity of the facility, the commitment fee charged (and the approach adopted for setting the fee), securities eligible as collateral for the facility (and margins required), and other terms, including any restrictions on banks’ usage of this option;
+
+- if Option 2 is adopted, the foreign currencies (and types of securities under those currencies) allowed to be used, haircuts applicable to the foreign currency HQLA, and any restrictions on banks’ usage of this option; and
+
+- if Option 3 is adopted, the Level 2A assets allowed to be used in excess of the 40% cap (and the associated criteria), haircuts applicable to Level 2A assets (within and above the 40% cap), and any restrictions on banks’ usage of this option.
+
+## LCR31.57
+The jurisdiction should update the disclosed information whenever there are changes to the information (eg updated self-assessment of insufficient HQLA performed).
+
+## LCR31.58
+The jurisdiction should perform a review of its eligibility for alternative treatment every five years after it has adopted the options. The primary purpose of this review is to determine that there remains insufficient HQLA in the jurisdiction. The review should be in the form of a self-assessment of the jurisdiction’s compliance with each of the Principles set out in this chapter.
+
+## LCR31.59
+The jurisdiction should have a credible process for conducting the self-assessment, and should provide sufficient information and analysis to support the self-assessment. The results of the self-assessment should be disclosed (on its website or through other means) and accessible by other national supervisors and stakeholders.
+
+## LCR31.60
+Where the self-assessment reflects that insufficient HQLA no longer exists, the jurisdiction should devise a plan for transition to the standard HQLA treatment under the LCR and notify the Basel Committee accordingly. If the issue of insufficiency remains but weaknesses in the jurisdiction’s relevant supervisory framework are identified from the self-assessment, the jurisdiction should disclose its plan to address those weaknesses within a reasonable period.
+
+## LCR31.61
+If the jurisdiction is aware of circumstances (eg relating to fiscal conditions, market infrastructure or availability of liquidity, etc.) that have radically changed to an extent that may render insufficient HQLA no longer relevant to the jurisdiction, it must conduct a self-assessment promptly (ie without waiting until the next self-assessment is due) and notify the Basel Committee of the result as soon as practicable. The Basel Committee may similarly request the jurisdiction to conduct a self-assessment ahead of schedule if the Basel Committee is aware of changes that will significantly affect the jurisdiction’s eligibility for alternative treatment.

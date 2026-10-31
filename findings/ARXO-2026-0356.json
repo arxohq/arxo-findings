@@ -1,0 +1,121 @@
+{
+  "id": "ARXO-2026-0356",
+  "url": "https://arxo.io/findings/ARXO-2026-0356/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework CRE20 (in force 2028-01-01, published 2025-06-10)",
+  "acts": [],
+  "location": "CRE20.35",
+  "text": {
+    "en": {
+      "title": "Basel Framework: CRE20.35",
+      "summary": "CRE20.35 says the primary assets are 'listed in this paragraph', but the list sits in CRE20.34.",
+      "impact": "Position: Cover pool of 110 against bonds of 100 including substitution cash 8 Reading a: Reading by reference to CRE20.34: substitution cash is additional collateral, not a primary asset Reading b: Literal 'this paragraph' has no list: substitution assets cannot be classified as additional or primary Difference: Classification of 8 of the pool (primary vs additional) unresolved",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework CRE20 (in force 2028-01-01, published 2025-06-10)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2025-06-10",
+        "locator": "CRE20.35",
+        "text": "In addition to the primary assets listed in this paragraph, additional collateral may include substitution assets",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/20/inforce/2028-01-01/published/2025-06-10",
+        "sha256": "e983544230ddd672ef515a8b07ee9f2acc990c110ec9cd5146547e93a08b2c7f",
+        "retrieved": "2026-10-31",
+        "copy": "sources/e983544230ddd672-CRE20@2028-01-01~2025-06-10.txt",
+        "copy_sha256": "e983544230ddd672ef515a8b07ee9f2acc990c110ec9cd5146547e93a08b2c7f",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Basel Framework CRE20 (in force 2028-01-01, published 2025-06-10)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2025-06-10",
+        "locator": "CRE20.35",
+        "text": "In order to be eligible for the risk weights set out in CRE20.38, the underlying assets (the cover pool) of covered bonds as defined in CRE20.33 shall meet the requirements set out in CRE20.37 and shall include any of the following:",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/20/inforce/2028-01-01/published/2025-06-10",
+        "sha256": "e983544230ddd672ef515a8b07ee9f2acc990c110ec9cd5146547e93a08b2c7f",
+        "retrieved": "2026-10-31",
+        "copy": "sources/e983544230ddd672-CRE20@2028-01-01~2025-06-10.txt",
+        "copy_sha256": "e983544230ddd672ef515a8b07ee9f2acc990c110ec9cd5146547e93a08b2c7f",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

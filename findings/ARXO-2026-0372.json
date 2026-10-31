@@ -1,0 +1,121 @@
+{
+  "id": "ARXO-2026-0372",
+  "url": "https://arxo.io/findings/ARXO-2026-0372/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework CRE52 (in force 2023-01-01, published 2020-06-05)",
+  "acts": [],
+  "location": "CRE52.50",
+  "text": {
+    "en": {
+      "title": "Basel Framework: CRE52.50",
+      "summary": "CRE52.50 defines the margin period of risk by reference to CRE50.18, which defines the margin threshold; the MPOR definition is CRE50.19.",
+      "impact": "Position: Margined netting set, daily VM, bank estimates MPOR 15 business days; trade effective notional d*delta = 1000. Reading a: Following the intended CRE50.19 definition: MPOR 15 days, higher than floor 10, MF = 1.5*sqrt(15/250) = 0.367, D = 367 Reading b: Following CRE50.18 literally: no MPOR definition applies to estimate, bank uses only the floor of 10 days, MF = 0.300, D = 300 Difference: effective notional 67 (about 22%)",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework CRE52 (in force 2023-01-01, published 2020-06-05)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-06-05",
+        "locator": "CRE52.50",
+        "text": "banks must first estimate the margin period of risk (as defined in CRE50.18) for each of their netting sets",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/52/inforce/2023-01-01/published/2020-06-05",
+        "sha256": "5b52b72681dbea4d0ded7a317ea06ca15241c115478efa5dba0fc38f6df9d99d",
+        "retrieved": "2026-10-31",
+        "copy": "sources/5b52b72681dbea4d-CRE52@2023-01-01~2020-06-05.txt",
+        "copy_sha256": "5b52b72681dbea4d0ded7a317ea06ca15241c115478efa5dba0fc38f6df9d99d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Basel Framework CRE50 (in force 2019-12-15, published 2024-07-05)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2024-07-05",
+        "locator": "CRE50.18",
+        "text": "Margin threshold is the largest amount of an exposure that remains outstanding until one party has the right to call for variation margin.",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/50/inforce/2019-12-15/published/2024-07-05",
+        "sha256": "e989b7a31dccdb507d3285de455ec97aa212655b51c919d1676e00d04938a07f",
+        "retrieved": "2026-10-31",
+        "copy": "sources/e989b7a31dccdb50-CRE50@2019-12-15~2024-07-05.txt",
+        "copy_sha256": "e989b7a31dccdb507d3285de455ec97aa212655b51c919d1676e00d04938a07f",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

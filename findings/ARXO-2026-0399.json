@@ -1,0 +1,121 @@
+{
+  "id": "ARXO-2026-0399",
+  "url": "https://arxo.io/findings/ARXO-2026-0399/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework RBC25 (in force 2023-01-01, published 2020-03-27)",
+  "acts": [],
+  "location": "RBC25.9 FAQ3",
+  "text": {
+    "en": {
+      "title": "Basel Framework: RBC25.9 FAQ3",
+      "summary": "RBC25.9 FAQ3 says an FX option hedging a banking book position is covered by RBC25.9(6), which only lists options on credit or equity risk from the bank's own issued instruments.",
+      "impact": "Position: Bought EUR/USD option, notional 50, hedging FX risk of a banking-book SME loan. Reading a: FAQ3: presumptive trading book unless supervisor approves; RBC25.8(8) overridden. Reading b: RBC25.9(6) does not apply; RBC25.8(8) applies, banking book. Difference: Market risk capital on notional 50 vs none.",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework RBC25 (in force 2023-01-01, published 2020-03-27)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-03-27",
+        "locator": "RBC25.9 FAQ3",
+        "text": "An option that manages FX risk in the banking book is covered by the presumptive list of trading book instruments included in RBC25.9(6).",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/rbc/25/inforce/2023-01-01/published/2020-03-27",
+        "sha256": "b168d28f630407304f9593368dc687fbbe5358dd9dce0d6f2bdc77481b398452",
+        "retrieved": "2026-10-31",
+        "copy": "sources/b168d28f63040730-RBC25@2023-01-01~2020-03-27.txt",
+        "copy_sha256": "b168d28f630407304f9593368dc687fbbe5358dd9dce0d6f2bdc77481b398452",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Basel Framework RBC25 (in force 2023-01-01, published 2020-03-27)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-03-27",
+        "locator": "RBC25.9 FAQ3",
+        "text": "options including embedded derivatives[fn5] from instruments that the institution issued out of its own banking book and that relate to credit or equity risk.",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/rbc/25/inforce/2023-01-01/published/2020-03-27",
+        "sha256": "b168d28f630407304f9593368dc687fbbe5358dd9dce0d6f2bdc77481b398452",
+        "retrieved": "2026-10-31",
+        "copy": "sources/b168d28f63040730-RBC25@2023-01-01~2020-03-27.txt",
+        "copy_sha256": "b168d28f630407304f9593368dc687fbbe5358dd9dce0d6f2bdc77481b398452",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

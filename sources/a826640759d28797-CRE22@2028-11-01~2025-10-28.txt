@@ -1,0 +1,692 @@
+CRE22 — inforce 2028-11-01, published 2025-10-28; source sha256 7fe0a962379cc722184fbb23cda4bc62b3bc63bc56b4c18c728a96e718030651
+Title: Standardised approach: credit risk mitigation | Bank for International Settlements
+
+# Overarching issues
+
+## 
+Introduction
+
+## CRE22.1
+Banks use a number of techniques to mitigate the credit risks to which they are exposed. For example, exposures may be collateralised by first-priority claims, in whole or in part with cash or securities, a loan exposure may be guaranteed by a third party, or a bank may buy a credit derivative to offset various forms of credit risk. Additionally banks may agree to net loans owed to them against deposits from the same counterparty.[fn1]
+[fn1] In this section, “counterparty” is used to denote a party to whom a bank has an on- or off-balance sheet credit exposure. That exposure may, for example, take the form of a loan of cash or securities (where the counterparty would traditionally be called the borrower), of securities posted as collateral, of a commitment or of exposure under an over-the-counter (OTC) derivatives contract.
+
+## CRE22.2
+The framework set out in this chapter is applicable to banking book exposures that are risk-weighted under the standardised approach.
+
+## 
+General requirements
+
+## CRE22.3
+No transaction in which credit risk mitigation (CRM) techniques are used shall receive a higher capital requirement than an otherwise identical transaction where such techniques are not used.
+
+## CRE22.4
+The requirements of the disclosure standard (DIS40) must be fulfilled for banks to obtain capital relief in respect of any CRM techniques.
+
+## CRE22.5
+The effects of CRM must not be double-counted. Therefore, no additional supervisory recognition of CRM for regulatory capital purposes will be granted on exposures for which the risk weight already reflects that CRM. Consistent with CRE21.13, principal-only ratings will also not be allowed within the CRM framework.
+
+## CRE22.6
+While the use of CRM techniques reduces or transfers credit risk, it may simultaneously increase other risks (ie residual risks). Residual risks include legal, operational, liquidity and market risks. Therefore, banks must employ robust procedures and processes to control these risks, including strategy; consideration of the underlying credit; valuation; policies and procedures; systems; control of roll-off risks; and management of concentration risk arising from the bank’s use of CRM techniques and its interaction with the bank’s overall credit risk profile. Where these risks are not adequately controlled, supervisors may impose additional capital charges or take other supervisory actions as outlined in the supervisory review process standard (SRP).
+
+## CRE22.7
+In order for CRM techniques to provide protection, the credit quality of the counterparty must not have a material positive correlation with the employed CRM technique or with the resulting residual risks (as defined in CRE22.6). For example, securities issued by the counterparty (or by any counterparty-related entity) provide little protection as collateral and are thus ineligible.
+
+## CRE22.8
+In the case where a bank has multiple CRM techniques covering a single exposure (eg a bank has both collateral and a guarantee partially covering an exposure), the bank must subdivide the exposure into portions covered by each type of CRM technique (eg portion covered by collateral, portion covered by guarantee) and the risk-weighted assets of each portion must be calculated separately. When credit protection provided by a single protection provider has differing maturities, they must be subdivided into separate protection as well.
+
+## 
+Legal requirements
+
+## CRE22.9
+In order for banks to obtain capital relief for any use of CRM techniques, all documentation used in collateralised transactions, on-balance sheet netting agreements, guarantees and credit derivatives must be binding on all parties and legally enforceable in all relevant jurisdictions. Banks must have conducted sufficient legal review to verify this and have a well-founded legal basis to reach this conclusion, and undertake such further review as necessary to ensure continuing enforceability.
+
+## 
+General treatment of maturity mismatches
+
+## CRE22.10
+For the purposes of calculating risk-weighted assets, a maturity mismatch occurs when the residual maturity of a credit protection arrangement (eg hedge) is less than that of the underlying exposure.
+
+## CRE22.11
+In the case of financial collateral, maturity mismatches are not allowed under the simple approach (see CRE22.33).
+
+## CRE22.12
+Under the other approaches, when there is a maturity mismatch the credit protection arrangement may only be recognised if the original maturity of the arrangement is greater than or equal to one year, and its residual maturity is greater than or equal to three months. In such cases, credit risk mitigation may be partially recognised as detailed below in CRE22.13.
+
+## CRE22.13
+When there is a maturity mismatch with recognised credit risk mitigants, the following adjustment applies, where:
+
+- P_{a} = value of the credit protection adjusted for maturity mismatch
+
+- P = credit protection amount (eg collateral amount, guarantee amount) adjusted for any haircuts
+
+- t = min {T, residual maturity of the credit protection arrangement expressed in years}
+
+- T = min {five years, residual maturity of the exposure expressed in years}
+
+## CRE22.14
+The maturity of the underlying exposure and the maturity of the hedge must both be defined conservatively. The effective maturity of the underlying must be gauged as the longest possible remaining time before the counterparty is scheduled to fulfil its obligation, taking into account any applicable grace period. For the hedge, (embedded) options that may reduce the term of the hedge must be taken into account so that the shortest possible effective maturity is used. For example: where, in the case of a credit derivative, the protection seller has a call option, the maturity is the first call date. Likewise, if the protection buyer owns the call option and has a strong incentive to call the transaction at the first call date, for example because of a step-up in cost from this date on, the effective maturity is the remaining time to the first call date.
+
+## 
+Currency mismatches
+
+## CRE22.15
+Currency mismatches are allowed under all approaches. Under the simple approach there is no specific treatment for currency mismatches, given that a minimum risk weight of 20% (floor) is generally applied. Under the comprehensive approach and in case of guarantees and credit derivatives, a specific adjustment for currency mismatches is prescribed in CRE22.52 and CRE22.82 to CRE22.83, respectively.
+
+# Overview of credit risk mitigation techniques
+
+## 
+Collateralised transactions
+
+## CRE22.16
+A collateralised transaction is one in which:
+
+- banks have a credit exposure or a potential credit exposure; and
+
+- that credit exposure or potential credit exposure is hedged in whole or in part by collateral posted by a counterparty or by a third party on behalf of the counterparty.
+
+## CRE22.17
+Where banks take eligible financial collateral, they may reduce their regulatory capital requirements through the application of CRM techniques.[fn2]
+[fn2] Alternatively, banks with appropriate supervisory approval may instead use the internal models method for counterparty credit risk (CRE53) to determine the exposure amount, taking into account collateral.
+
+## CRE22.18
+Banks may opt for either:
+
+- The simple approach, which replaces the risk weight of the counterparty with the risk weight of the collateral for the collateralised portion of the exposure (generally subject to a 20% floor); or
+
+- The comprehensive approach, which allows a more precise offset of collateral against exposures, by effectively reducing the exposure amount by a volatility-adjusted value ascribed to the collateral.
+
+## CRE22.19
+Detailed operational requirements for both the simple approach and comprehensive approach are given in CRE22.32 to CRE22.65. Banks may operate under either, but not both, approaches in the banking book.
+
+## CRE22.20
+For collateralised OTC transactions, exchange traded derivatives and long settlement transactions, banks may use the standardised approach for counterparty credit risk (CRE52) or the internal models method (CRE53) to calculate the exposure amount, in accordance with CRE22.66 to CRE22.67.
+
+## 
+On-balance sheet netting
+
+## CRE22.21
+Where banks have legally enforceable netting arrangements for loans and deposits that meet the conditions in CRE22.68 and CRE22.69 they may calculate capital requirements on the basis of net credit exposures as set out in that paragraph.
+
+## 
+Guarantees and credit derivatives
+
+## CRE22.22
+Where guarantees or credit derivatives fulfil the minimum operational conditions set out in CRE22.70 to CRE22.72, banks may take account of the credit protection offered by such credit risk mitigation techniques in calculating capital requirements.
+
+## CRE22.23
+A range of guarantors and protection providers are recognised and a substitution approach applies for capital requirement calculations. Only guarantees issued by or protection provided by entities with a lower risk weight than the counterparty lead to reduced capital charges for the guaranteed exposure, since the protected portion of the counterparty exposure is assigned the risk weight of the guarantor or protection provider, whereas the uncovered portion retains the risk weight of the underlying counterparty.
+
+## CRE22.24
+Detailed conditions and operational requirements for guarantees and credit derivatives are given in CRE22.70 to CRE22.84.
+
+# Collateralised transactions
+
+## 
+General requirements
+
+## CRE22.25
+Before capital relief is granted in respect of any form of collateral, the standards set out below in CRE22.26 to CRE22.31 must be met, irrespective of whether the simple or the comprehensive approach is used. Banks that lend securities or post collateral must calculate capital requirements for both of the following: (i) the credit risk or market risk of the securities, if this remains with the bank; and (ii) the counterparty credit risk arising from the risk that the borrower of the securities may default.
+
+## CRE22.26
+The legal mechanism by which collateral is pledged or transferred must ensure that the bank has the right to liquidate or take legal possession of it, in a timely manner, in the event of the default, insolvency or bankruptcy (or one or more otherwise-defined credit events set out in the transaction documentation) of the counterparty (and, where applicable, of the custodian holding the collateral). Additionally, banks must take all steps necessary to fulfil those requirements under the law applicable to the bank’s interest in the collateral for obtaining and maintaining an enforceable security interest, eg by registering it with a registrar, or for exercising a right to net or set off in relation to the title transfer of the collateral.
+
+## CRE22.27
+Banks must have clear and robust procedures for the timely liquidation of collateral to ensure that any legal conditions required for declaring the default of the counterparty and liquidating the collateral are observed, and that collateral can be liquidated promptly.
+
+## CRE22.28
+Banks must ensure that sufficient resources are devoted to the orderly operation of margin agreements with OTC derivative and securities-financing counterparties, as measured by the timeliness and accuracy of its outgoing margin calls and response time to incoming margin calls. Banks must have collateral risk management policies in place to control, monitor and report:
+
+- the risk to which margin agreements expose them (such as the volatility and liquidity of the securities exchanged as collateral);
+
+- the concentration risk to particular types of collateral;
+
+- the reuse of collateral (both cash and non-cash) including the potential liquidity shortfalls resulting from the reuse of collateral received from counterparties; and
+
+- the surrender of rights on collateral posted to counterparties.
+
+## CRE22.29
+Where the collateral is held by a custodian, banks must take reasonable steps to ensure that the custodian segregates the collateral from its own assets.
+
+## CRE22.30
+A capital requirement must be applied on both sides of a transaction. For example, both repos and reverse repos will be subject to capital requirements. Likewise, both sides of a securities lending and borrowing transaction will be subject to explicit capital charges, as will the posting of securities in connection with derivatives exposures or with any other borrowing transaction.
+
+## CRE22.31
+Where a bank, acting as an agent, arranges a repo-style transaction (ie repurchase/reverse repurchase and securities lending/borrowing transactions) between a customer and a third party and provides a guarantee to the customer that the third party will perform on its obligations, then the risk to the bank is the same as if the bank had entered into the transaction as a principal. In such circumstances, a bank must calculate capital requirements as if it were itself the principal.
+
+## 
+The simple approach : general requirements
+
+## CRE22.32
+Under the simple approach, the risk weight of the counterparty is replaced by the risk weight of the collateral instrument collateralising or partially collateralising the exposure.
+
+## CRE22.33
+For collateral to be recognised in the simple approach, it must be pledged for at least the life of the exposure and it must be marked to market and revalued with a minimum frequency of six months. Those portions of exposures collateralised by the market value of recognised collateral receive the risk weight applicable to the collateral instrument. The risk weight on the collateralised portion is subject to a floor of 20% except under the conditions specified in CRE22.36 to CRE22.39. The remainder of the exposure must be assigned the risk weight appropriate to the counterparty. Maturity mismatches are not allowed under the simple approach (see CRE22.10 to CRE22.11).
+
+## 
+The simple approach: eligible financial collateral
+
+## CRE22.34
+The following collateral instruments are eligible for recognition in the simple approach:
+
+- Cash (as well as certificates of deposit or comparable instruments issued by the lending bank) on deposit with the bank that is incurring the counterparty exposure.[fn3] [fn4]
+
+- Gold.
+
+- In jurisdictions that allow the use of external ratings for regulatory purposes:
+
+- Debt securities rated[fn5] by a recognised external credit assessment institution (ECAI) where these are either:
+
+(i)
+
+at least BB– when issued by sovereigns or public sector entities (PSEs) that are treated as sovereigns by the national supervisor; or
+
+(ii)
+
+at least BBB– when issued by other entities (including banks and other prudentially regulated financial institutions); or
+
+(iii)
+
+at least A-3/P-3 for short-term debt instruments.
+
+- Debt securities not rated by a recognised ECAI where these are:
+
+(i)
+
+issued by a bank; and
+
+(ii)
+
+listed on a recognised exchange; and
+
+(iii)
+
+classified as senior debt; and
+
+(iv)
+
+all rated issues of the same seniority by the issuing bank are rated at least BBB– or A-3/P-3 by a recognised ECAI; and
+
+(v)
+
+the bank holding the securities as collateral has no information to suggest that the issue justifies a rating below BBB– or A-3/P-3 (as applicable); and
+
+(vi)
+
+the supervisor is sufficiently confident that the market liquidity of the security is adequate.
+
+- In jurisdictions that do not allow the use of external ratings for regulatory purposes, the following securities will be eligible provided that the supervisor is sufficiently confident that the market liquidity of the security is adequate:
+
+- Debt securities issued by sovereigns or PSEs that are treated as sovereigns by the national supervisor;
+
+- Debt securities issued by banks assigned to Grade A under the standardised credit risk assessment approach;
+
+- Other debt securities issued by “investment grade” entities as defined in CRE22.76, and
+
+- Securitisation exposures with a risk weight of less than 100% in the Securitisation Standardised Approach set out in CRE41.
+
+- Equities (including convertible bonds) that are included in a main index.
+
+- Undertakings for Collective Investments in Transferable Securities (UCITS) and mutual funds where:
+
+- a price for the units is publicly quoted daily; and
+
+- the UCITS/mutual fund is limited to investing in the instruments listed in this paragraph.[fn6]
+[fn3] Cash-funded credit-linked notes issued by the bank against exposures in the banking book that fulfil the criteria for credit derivatives are treated as cash-collateralised transactions.
+[fn4] When cash on deposit, certificates of deposit or comparable instruments issued by the lending bank are held as collateral at a third-party bank in a non-custodial arrangement, if they are openly pledged/assigned to the lending bank and if the pledge/assignment is unconditional and irrevocable, the exposure amount covered by the collateral (after any necessary haircuts for currency risk) receives the risk weight of the third-party bank.
+[fn5] When debt securities that do not have an issue specific rating are issued by a rated sovereign, banks may treat the sovereign issuer rating as the rating of the debt security.
+[fn6] However, the use or potential use by a UCITS/mutual fund of derivative instruments solely to hedge investments listed in this paragraph and CRE22.45 shall not prevent units in that UCITS/mutual fund from being eligible financial collateral.
+
+## CRE22.35
+Resecuritisations as defined in the securitisation chapters (CRE40 to CRE45) are not eligible financial collateral.
+
+## 
+Simple approach: exemptions to the risk-weight floor
+
+## CRE22.36
+Repo-style transactions that fulfil all of the following conditions are exempted from the risk-weight floor under the simple approach:
+
+- Both the exposure and the collateral are cash or a sovereign security or PSE security qualifying for a 0% risk weight under the standardised approach (CRE20);
+
+- Both the exposure and the collateral are denominated in the same currency;
+
+- Either the transaction is overnight or both the exposure and the collateral are marked to market daily and are subject to daily remargining;
+
+- Following a counterparty’s failure to remargin, the time that is required between the last mark-to-market before the failure to remargin and the liquidation of the collateral is considered to be no more than four business days;
+
+- The transaction is settled across a settlement system proven for that type of transaction;
+
+- The documentation covering the agreement is standard market documentation for repo-style transactions in the securities concerned;
+
+- The transaction is governed by documentation specifying that if the counterparty fails to satisfy an obligation to deliver cash or securities or to deliver margin or otherwise defaults, then the transaction is immediately terminable; and
+
+- Upon any default event, regardless of whether the counterparty is insolvent or bankrupt, the bank has the unfettered, legally enforceable right to immediately seize and liquidate the collateral for its benefit.
+
+## CRE22.37
+Core market participants may include, at the discretion of the national supervisor, the following entities:
+
+- Sovereigns, central banks and PSEs;
+
+- Banks and securities firms;
+
+- Other financial companies (including insurance companies) eligible for a 20% risk weight in the standardised approach;
+
+- Regulated mutual funds that are subject to capital or leverage requirements;
+
+- Regulated pension funds; and
+
+- Qualifying central counterparties.
+
+## CRE22.38
+Repo transactions that fulfil the requirement in CRE22.36 receive a 10% risk weight, as an exemption to the risk weight floor described in CRE22.33. If the counterparty to the transaction is a core market participant, banks may apply a risk weight of 0% to the transaction.
+
+## CRE22.39
+The 20% floor for the risk weight on a collateralised transaction does not apply and a 0% risk weight may be applied to the collateralised portion of the exposure where the exposure and the collateral are denominated in the same currency, and either:
+
+- the collateral is cash on deposit as defined in CRE22.34(1); or
+
+- the collateral is in the form of sovereign/PSE securities eligible for a 0% risk weight, and its market value has been discounted by 20%.
+
+## 
+The comprehensive approach : general requirements
+
+## CRE22.40
+In the comprehensive approach, when taking collateral, banks must calculate their adjusted exposure to a counterparty in order to take account of the risk mitigating effect of that collateral. Banks must use the applicable supervisory haircuts to adjust both the amount of the exposure to the counterparty and the value of any collateral received in support of that counterparty to take account of possible future fluctuations in the value of either,[fn7] as occasioned by market movements. Unless either side of the transaction is cash or a zero haircut is applied, the volatility-adjusted exposure amount is higher than the nominal exposure and the volatility-adjusted collateral value is lower than the nominal collateral value.
+[fn7] Exposure amounts may vary where, for example, securities are being lent.
+
+## CRE22.41
+The size of the haircuts that banks must use depends on the prescribed holding period for the transaction. For the purposes of CRE22, the holding period is the period of time over which exposure or collateral values are assumed to move before the bank can close out the transaction. The supervisory prescribed minimum holding period is used as the basis for the calculation of the standard supervisory haircuts.
+
+## CRE22.42
+The holding period, and thus the size of the individual haircuts depends on the type of instrument, type of transaction, residual maturity and the frequency of marking to market and remargining as provided in CRE22.49 to CRE22.51. For example, repo-style transactions subject to daily marking-to-market and to daily remargining will receive a haircut based on a 5-business day holding period and secured lending transactions with daily mark-to-market and no remargining clauses will receive a haircut based on a 20-business day holding period. Haircuts must be scaled up using the square root of time formula depending on the actual frequency of remargining or marking to market. This formula is included in CRE22.59.
+
+## CRE22.43
+Additionally, where the exposure and collateral are held in different currencies, banks must apply an additional haircut to the volatility-adjusted collateral amount in accordance with CRE22.52 and CRE22.82 to CRE22.83 to take account of possible future fluctuations in exchange rates.
+
+## CRE22.44
+The effect of master netting agreements covering securities financing transactions (SFTs) can be recognised for the calculation of capital requirements subject to the conditions and requirements in CRE22.62 to CRE22.65. Where SFTs are subject to a master netting agreement whether they are held in the banking book or trading book, a bank may choose not to recognise the netting effects in calculating capital. In that case, each transaction will be subject to a capital charge as if there were no master netting agreement.
+
+## 
+The comprehensive approach: eligible financial collateral
+
+## CRE22.45
+The following collateral instruments are eligible for recognition in the comprehensive approach:
+
+- All of the instruments listed in CRE22.34;
+
+- Equities and convertible bonds that are not included in a main index but which are listed on a recognised security exchange;
+
+- UCITS/mutual funds which include the instruments in point (2).
+
+## 
+The comprehensive approach: calculation of capital requirement
+
+## CRE22.46
+For a collateralised transaction, the exposure amount after risk mitigation is calculated using the formula that follows, where:
+
+- E* = the exposure value after risk mitigation
+
+- E = current value of the exposure
+
+- H_{e} = haircut appropriate to the exposure
+
+- C = the current value of the collateral received
+
+- H_{c} = haircut appropriate to the collateral
+
+- H_{fx} = haircut appropriate for currency mismatch between the collateral and exposure
+
+## CRE22.47
+In the case of maturity mismatches, the value of the collateral received (collateral amount) must be adjusted in accordance with CRE22.10 to CRE22.14.
+
+## CRE22.48
+The exposure amount after risk mitigation (E*) must be multiplied by the risk weight of the counterparty to obtain the risk-weighted asset amount for the collateralised transaction.
+
+## CRE22.49
+In jurisdictions that allow the use of external ratings for regulatory purposes, the following supervisory haircuts (assuming daily mark-to-market, daily remargining and a 10-business day holding period), expressed as percentages, must be used to determine the haircuts appropriate to the collateral (H_{c}) and to the exposure (H_{e}):
+
+| Supervisory haircuts for comprehensive approach Jurisdictions that allow the use of external ratings for regulatory purposes | Supervisory haircuts for comprehensive approach Jurisdictions that allow the use of external ratings for regulatory purposes | Supervisory haircuts for comprehensive approach Jurisdictions that allow the use of external ratings for regulatory purposes | Supervisory haircuts for comprehensive approach Jurisdictions that allow the use of external ratings for regulatory purposes | Supervisory haircuts for comprehensive approach Jurisdictions that allow the use of external ratings for regulatory purposes | |
+| Issue rating for debt securities | Residual maturity | Sovereigns | Other issuers | Securitisation exposures | Securitisation exposures |
+| AAA to AA–/A-1 | ≤ 1 year | 0.5 | 1 | 2 | 2 |
+| AAA to AA–/A-1 | >1 year, ≤ 3 years | 2 | 3 | 8 | 8 |
+| AAA to AA–/A-1 | >3 years, ≤ 5 years | 2 | 4 | 8 | 8 |
+| AAA to AA–/A-1 | >5 years, ≤ 10 years | 4 | 6 | 16 | 16 |
+| AAA to AA–/A-1 | > 10 years | 4 | 12 | 16 | 16 |
+| A+ to BBB–/ A-2/A-3/P-3 and unrated bank securities CRE22.34(3)(b) | ≤ 1 year | 1 | 2 | 4 | 4 |
+| A+ to BBB–/ A-2/A-3/P-3 and unrated bank securities CRE22.34(3)(b) | >1 year, ≤ 3 years | 3 | 4 | 12 | 12 |
+| A+ to BBB–/ A-2/A-3/P-3 and unrated bank securities CRE22.34(3)(b) | >3 years, ≤ 5 years | 3 | 6 | 12 | 12 |
+| A+ to BBB–/ A-2/A-3/P-3 and unrated bank securities CRE22.34(3)(b) | >5 years, ≤ 10 years | 6 | 12 | 24 | 24 |
+| A+ to BBB–/ A-2/A-3/P-3 and unrated bank securities CRE22.34(3)(b) | > 10 years | 6 | 20 | 24 | 24 |
+| BB+ to BB– | All | 15 | Not eligible | Not eligible | Not eligible |
+| Main index equities (including convertible bonds) and gold | Main index equities (including convertible bonds) and gold | 20 | 20 | 20 | 20 |
+| Other equities and convertible bonds listed on a recognised exchange | Other equities and convertible bonds listed on a recognised exchange | 30 | 30 | 30 | 30 |
+| UCITS/mutual funds | UCITS/mutual funds | Highest haircut applicable to any security in which the fund can invest, unless the bank can apply the look-through approach (LTA) for equity investments in funds, in which case the bank may use a weighted average of haircuts applicable to instruments held by the fund. | Highest haircut applicable to any security in which the fund can invest, unless the bank can apply the look-through approach (LTA) for equity investments in funds, in which case the bank may use a weighted average of haircuts applicable to instruments held by the fund. | Highest haircut applicable to any security in which the fund can invest, unless the bank can apply the look-through approach (LTA) for equity investments in funds, in which case the bank may use a weighted average of haircuts applicable to instruments held by the fund. | Highest haircut applicable to any security in which the fund can invest, unless the bank can apply the look-through approach (LTA) for equity investments in funds, in which case the bank may use a weighted average of haircuts applicable to instruments held by the fund. |
+| Cash in the same currency | Cash in the same currency | 0 | 0 | 0 | 0 |
+
+## CRE22.50
+In jurisdictions that do not allow the use of external ratings for regulatory purposes, the following supervisory haircuts (assuming daily mark-to-market, daily remargining and a 10-business day holding period), expressed as percentages, must be used to determine the haircuts appropriate to the collateral (H_{c}) and to the exposure (H_{e}):
+
+| Supervisory haircuts for comprehensive approach Jurisdictions that do not allow the use of external ratings for regulatory purposes | Supervisory haircuts for comprehensive approach Jurisdictions that do not allow the use of external ratings for regulatory purposes | Supervisory haircuts for comprehensive approach Jurisdictions that do not allow the use of external ratings for regulatory purposes | Supervisory haircuts for comprehensive approach Jurisdictions that do not allow the use of external ratings for regulatory purposes | Supervisory haircuts for comprehensive approach Jurisdictions that do not allow the use of external ratings for regulatory purposes | Supervisory haircuts for comprehensive approach Jurisdictions that do not allow the use of external ratings for regulatory purposes | Supervisory haircuts for comprehensive approach Jurisdictions that do not allow the use of external ratings for regulatory purposes | |
+| | Residual maturity | Issuer's risk weight (only for securities issued by sovereigns | Issuer's risk weight (only for securities issued by sovereigns | Issuer's risk weight (only for securities issued by sovereigns | Other investment-grade securities, consistent with paragraphs CRE22.34(4)(c) | Other investment-grade securities, consistent with paragraphs CRE22.34(4)(c) | Other investment-grade securities, consistent with paragraphs CRE22.34(4)(c) |
+| | Residual maturity | 0% | 20% or 50% | 100% | Non-securitisation exposures | Senior securitisation exposures with SA risk weight < 100% | Senior securitisation exposures with SA risk weight < 100% |
+| Debt securities | ≤ 1 year | 0.5 | 1 | 15 | 2 | 4 | 4 |
+| Debt securities | > 1 year, ≤ 3 years | 2 | 3 | 15 | 4 | 12 | 12 |
+| Debt securities | > 3 years, ≤ 5 years | 2 | 3 | 15 | 6 | 12 | 12 |
+| Debt securities | > 5 years, ≤ 10 years | 4 | 6 | 15 | 12 | 24 | 24 |
+| Debt securities | > 10 years | 4 | 6 | 15 | 20 | 24 | 24 |
+| Main index equities (including convertible bonds) and gold | 20 | 20 | 20 | 20 | 20 | 20 | 20 |
+| Other equities and convertible bonds listed on a recognised exchange | 30 | 30 | 30 | 30 | 30 | 30 | 30 |
+| UCITS/mutual funds | Highest haircut applicable to any security in which the fund can invest, unless the bank can apply the look-through approach (LTA) for equity investments in funds, in which case the bank may use a weighted average of haircuts applicable to instruments held by the fund. | Highest haircut applicable to any security in which the fund can invest, unless the bank can apply the look-through approach (LTA) for equity investments in funds, in which case the bank may use a weighted average of haircuts applicable to instruments held by the fund. | Highest haircut applicable to any security in which the fund can invest, unless the bank can apply the look-through approach (LTA) for equity investments in funds, in which case the bank may use a weighted average of haircuts applicable to instruments held by the fund. | Highest haircut applicable to any security in which the fund can invest, unless the bank can apply the look-through approach (LTA) for equity investments in funds, in which case the bank may use a weighted average of haircuts applicable to instruments held by the fund. | Highest haircut applicable to any security in which the fund can invest, unless the bank can apply the look-through approach (LTA) for equity investments in funds, in which case the bank may use a weighted average of haircuts applicable to instruments held by the fund. | Highest haircut applicable to any security in which the fund can invest, unless the bank can apply the look-through approach (LTA) for equity investments in funds, in which case the bank may use a weighted average of haircuts applicable to instruments held by the fund. | Highest haircut applicable to any security in which the fund can invest, unless the bank can apply the look-through approach (LTA) for equity investments in funds, in which case the bank may use a weighted average of haircuts applicable to instruments held by the fund. |
+| Cash in the same currency | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Other exposure types | 30 | 30 | 30 | 30 | 30 | 30 | 30 |
+
+## CRE22.51
+In paragraphs CRE22.49 to CRE22.50:
+
+- “Sovereigns” includes: PSEs that are treated as sovereigns by the national supervisor, as well as multilateral development banks receiving a 0% risk weight.
+
+- “Other issuers” includes: PSEs that are not treated as sovereigns by the national supervisor.
+
+- “Securitisation exposures” refers to exposures that meet the definition set forth in the securitisation framework.
+
+- “Cash in the same currency” refers to eligible cash collateral specified in CRE22.34(1).
+
+## CRE22.52
+The haircut for currency risk (H_{fx}) where exposure and collateral are denominated in different currencies is 8% (also based on a 10-business day holding period and daily mark-to-market).
+
+## CRE22.53
+For SFTs and secured lending transactions, a haircut adjustment may need to be applied in accordance with CRE22.56 to CRE22.59.
+
+## CRE22.54
+For SFTs in which the bank lends, or posts as collateral, non-eligible instruments, the haircut to be applied on the exposure must be 30%. For transactions in which the bank borrows non-eligible instruments, credit risk mitigation may not be applied.
+
+## CRE22.55
+Where the collateral is a basket of assets, the haircut (H) on the basket must be calculated using the formula that follows, where:
+
+- a_{i} is the weight of the asset (as measured by units of currency) in the basket
+
+- H_{i} the haircut applicable to that asset
+
+## 
+The comprehensive approach: adjustment for different holding periods and non-daily mark-to-market or remargining
+
+## CRE22.56
+For some transactions, depending on the nature and frequency of the revaluation and remargining provisions, different holding periods and thus different haircuts must be applied. The framework for collateral haircuts distinguishes between repo-style transactions (ie repo/reverse repos and securities lending/borrowing), ”other capital markets-driven transactions” (ie OTC derivatives transactions and margin lending) and secured lending. In capital-market-driven transactions and repo-style transactions, the documentation contains remargining clauses; in secured lending transactions, it generally does not.
+
+## CRE22.57
+The minimum holding period for various products is summarised in the following table:
+
+| Minimum holding periods Summary of minimum holding periods and remargining/revaluation periods | Minimum holding periods Summary of minimum holding periods and remargining/revaluation periods | Minimum holding periods Summary of minimum holding periods and remargining/revaluation periods | |
+| Transaction type | Minimum holding period | Minimum remargining/revaluation period | Minimum remargining/revaluation period |
+| Repo-style transaction | five business days | daily remargining | daily remargining |
+| Other capital market transactions | 10 business days | daily remargining | daily remargining |
+| Secured lending | 20 business days | daily revaluation | daily revaluation |
+
+## CRE22.58
+Regarding the minimum holding periods set out in CRE22.57, if a netting set includes both repo-style and other capital market transactions, the minimum holding period of ten business days must be used. Furthermore, a higher minimum holding period must be used in the following cases:
+
+- For all netting sets where the number of trades exceeds 5,000 at any point during a quarter, a 20 business day minimum holding period for the following quarter must be used.
+
+- For netting sets containing one or more trades involving illiquid collateral, a minimum holding period of 20 business days must be used. "Illiquid collateral" must be determined in the context of stressed market conditions and will be characterised by the absence of continuously active markets where a counterparty would, within two or fewer days, obtain multiple price quotations that would not move the market or represent a price reflecting a market discount. Examples of situations where trades are deemed illiquid for this purpose include, but are not limited to, trades that are not marked daily and trades that are subject to specific accounting treatment for valuation purposes (eg repo-style transactions referencing securities whose fair value is determined by models with inputs that are not observed in the market).
+
+- If a bank has experienced more than two margin call disputes on a particular netting set over the previous two quarters that have lasted longer than the bank's estimate of the margin period of risk (as defined in CRE50.19), then for the subsequent two quarters the bank must use a minimum holding period that is twice the level that would apply excluding the application of this sub-paragraph.
+
+## CRE22.59
+When the frequency of remargining or revaluation is longer than the minimum, the minimum haircut numbers must be scaled up depending on the actual number of business days between remargining or revaluation. The 10-business day haircuts provided in CRE22.49 to CRE22.51 are the default haircuts and these haircuts must be scaled up or down using the formula below, where:
+
+- H = haircut
+
+- H_{10} = 10-business day haircut for instrument
+
+- T_{M} = minimum holding period for the type of transaction.
+
+- N_{R} = actual number of business days between remargining for capital market transactions or revaluation for secured transactions
+
+## 
+The comprehensive approach: exemptions under the comprehensive approach for qualifying repo-style transactions involving core market participants
+
+## CRE22.60
+For repo-style transactions with core market participants as defined in CRE22.37 and that satisfy the conditions in CRE22.36 supervisors may apply a haircut of zero.
+
+## CRE22.61
+Where, under the comprehensive approach, a supervisor applies a specific carve-out to repo-style transactions in securities issued by its domestic government, other supervisors may choose to allow banks incorporated in their jurisdiction to adopt the same approach to the same transactions.
+
+## 
+The comprehensive approach: treatment under the comprehensive approach of SFTs covered by master netting agreements
+
+## CRE22.62
+The effects of bilateral netting agreements covering SFTs may be recognised on a counterparty-by-counterparty basis if the agreements are legally enforceable in each relevant jurisdiction upon the occurrence of an event of default and regardless of whether the counterparty is insolvent or bankrupt. In addition, netting agreements must:
+
+- provide the non-defaulting party the right to terminate and close out in a timely manner all transactions under the agreement upon an event of default, including in the event of insolvency or bankruptcy of the counterparty;
+
+- provide for the netting of gains and losses on transactions (including the value of any collateral) terminated and closed out under it so that a single net amount is owed by one party to the other;
+
+- allow for the prompt liquidation or set-off of collateral upon the event of default; and
+
+- be, together with the rights arising from the provisions required in (1) to (3) above, legally enforceable in each relevant jurisdiction upon the occurrence of an event of default and regardless of the counterparty’s insolvency or bankruptcy.
+
+## CRE22.63
+Netting across positions in the banking and trading book may only be recognised when the netted transactions fulfil the following conditions:
+
+- All transactions are marked to market daily;[fn8] and
+
+- The collateral instruments used in the transactions are recognised as eligible financial collateral in the banking book.
+[fn8] The holding period for the haircuts depends, as in other repo-style transactions, on the frequency of margining.
+
+## CRE22.64
+The formula in CRE22.65 will be used to calculate the counterparty credit risk capital requirements for SFTs with netting agreements. This formula includes the current exposure, an amount for systematic exposure of the securities based on the net exposure, an amount for the idiosyncratic exposure of the securities based on the gross exposure, and an amount for currency mismatch. All other rules regarding the calculation of haircuts under the comprehensive approach stated in CRE22.40 to CRE22.61 equivalently apply for banks using bilateral netting agreements for SFTs.
+
+## CRE22.65
+Banks using standard supervisory haircuts for SFTs conducted under a master netting agreement must use the formula that follows to calculate their exposure amount, where:
+
+- E* is the exposure value of the netting set after risk mitigation
+
+- E_{i} is the current value of all cash and securities lent, sold with an agreement to repurchase or otherwise posted to the counterparty under the netting agreement
+
+- C_{j} is the current value of all cash and securities borrowed, purchased with an agreement to resell or otherwise held by the bank under the netting agreement
+
+-
+
+-
+
+- E_{s} is the net current value of each security issuance under the netting set (always a positive value)
+
+- H_{s} is the haircut appropriate to E_{s} as described in tables of CRE22.49 to CRE22.51, as applicable
+
+- H_{s} has a positive sign if the security is lent, sold with an agreement to repurchased, or transacted in manner similar to either securities lending or a repurchase agreement
+
+- H_{s} has a negative sign if the security is borrowed, purchased with an agreement to resell, or transacted in a manner similar to either a securities borrowing or reverse repurchase agreement
+
+- N is the number of security issues contained in the netting set (except that issuances where the value Es is less than one tenth of the value of the largest Es in the netting set are not included the count)
+
+- E_{fx} is the absolute value of the net position in each currency fx different from the settlement currency
+
+- H_{fx} is the haircut appropriate for currency mismatch of currency fx
+
+## 
+Collateralised OTC derivatives, exchange traded derivatives and long settlement transactions
+
+## CRE22.66
+Under the standardised approach for counterparty credit risk (SA-CCR, CRE52), the calculation of the counterparty credit risk charge for an individual contract will be calculated using the following formula, where:
+
+- Alpha = 1.4
+
+- RC = the replacement cost calculated according to CRE52.3 to CRE52.20
+
+- PFE = the amount for potential future exposure calculated according to CRE52.21 to CRE52.73
+
+## CRE22.67
+As an alternative to the SA-CCR for the calculation of the counterparty credit risk charge, banks may also use the internal models method as set out in CRE53, subject to supervisory approval.
+
+# On-balance sheet netting
+
+## CRE22.68
+A bank may use the net exposure of loans and deposits as the basis for its capital adequacy calculation in accordance with the formula in CRE22.46, when the bank:
+
+- has a well-founded legal basis for concluding that the netting or offsetting agreement is enforceable in each relevant jurisdiction regardless of whether the counterparty is insolvent or bankrupt;
+
+- is able at any time to determine those assets and liabilities with the same counterparty that are subject to the netting agreement;
+
+- monitors and controls its roll-off risks; and
+
+- monitors and controls the relevant exposures on a net basis,
+
+## CRE22.69
+When calculating the net exposure described in the paragraph above, assets (loans) are treated as exposure and liabilities (deposits) as collateral. The haircuts are zero except when a currency mismatch exists. A 10-business day holding period applies when daily mark-to-market is conducted. For on-balance sheet netting, the requirements in CRE22.49 and CRE22.59 and CRE22.10 to CRE22.14 must be applied.
+
+# Guarantees and credit derivatives
+
+## 
+Operational requirements for guarantees and credit derivatives
+
+## CRE22.70
+If conditions set below are met, banks can substitute the risk weight of the counterparty with the risk weight of the guarantor.
+
+## CRE22.71
+A guarantee (counter-guarantee) or credit derivative must satisfy the following requirements:
+
+- it represents a direct claim on the protection provider;
+
+- it is explicitly referenced to specific exposures or a pool of exposures, so that the extent of the cover is clearly defined and incontrovertible;
+
+- other than non-payment by a protection purchaser of money due in respect of the credit protection contract it is irrevocable;
+
+- there is no clause in the contract that would allow the protection provider unilaterally to cancel the credit cover, change the maturity agreed ex post, or that would increase the effective cost of cover as a result of deteriorating credit quality in the hedged exposure;
+
+- it must be unconditional; there should be no clause in the protection contract outside the direct control of the bank that could prevent the protection provider from being obliged to pay out in a timely manner in the event that the underlying counterparty fails to make the payment(s) due.
+
+## CRE22.72
+In the case of maturity mismatches, the amount of credit protection that is provided must be adjusted in accordance with CRE22.10 to CRE22.14.
+
+## 
+Specific operational requirements for guarantees
+
+## CRE22.73
+In addition to the legal certainty requirements in CRE22.9, in order for a guarantee to be recognised, the following requirements must be satisfied:
+
+- On the qualifying default/non-payment of the counterparty, the bank may in a timely manner pursue the guarantor for any monies outstanding under the documentation governing the transaction. The guarantor may make one lump sum payment of all monies under such documentation to the bank, or the guarantor may assume the future payment obligations of the counterparty covered by the guarantee. The bank must have the right to receive any such payments from the guarantor without first having to take legal action in order to pursue the counterparty for payment.
+
+- The guarantee is an explicitly documented obligation assumed by the guarantor.
+
+- Except as noted in the following sentence, the guarantee covers all types of payments the underlying counterparty is expected to make under the documentation governing the transaction, for example notional amount, margin payments, etc. Where a guarantee covers payment of principal only, interests and other uncovered payments must be treated as an unsecured amount in accordance with the rules for proportional cover described in CRE22.80.
+
+## 
+Specific operational requirements for credit derivatives
+
+## CRE22.74
+In addition to the legal certainty requirements in CRE22.9, in order for a credit derivative contract to be recognised, the following requirements must be satisfied:
+
+- The credit events specified by the contracting parties must at a minimum cover:
+
+- failure to pay the amounts due under terms of the underlying obligation that are in effect at the time of such failure (with a grace period that is closely in line with the grace period in the underlying obligation);
+
+- bankruptcy, insolvency or inability of the obligor to pay its debts, or its failure or admission in writing of its inability generally to pay its debts as they become due, and analogous events; and
+
+- restructuring[fn9] of the underlying obligation involving forgiveness or postponement of principal, interest or fees that results in a credit loss event (ie write-off, specific provision or other similar debit to the profit and loss account).
+
+- If the credit derivative covers obligations that do not include the underlying obligation, point (7) below governs whether the asset mismatch is permissible.
+
+- The credit derivative shall not terminate prior to expiration of any grace period required for a default on the underlying obligation to occur as a result of a failure to pay. In the case of a maturity mismatch, the provisions of CRE22.10 to CRE22.14 must be applied.
+
+- Credit derivatives allowing for cash settlement are recognised for capital purposes insofar as a robust valuation process is in place in order to estimate loss reliably. There must be a clearly specified period for obtaining post-credit-event valuations of the underlying obligation. If the reference obligation specified in the credit derivative for purposes of cash settlement is different from the underlying obligation, section (7) below governs whether the asset mismatch is permissible.
+
+- If the protection purchaser’s right/ability to transfer the underlying obligation to the protection provider is required for settlement, the terms of the underlying obligation must provide that any required consent to such transfer may not be unreasonably withheld.
+
+- The identity of the parties responsible for determining whether a credit event has occurred must be clearly defined. This determination must not be the sole responsibility of the protection seller. The protection buyer must have the right/ability to inform the protection provider of the occurrence of a credit event.
+
+- A mismatch between the underlying obligation and the reference obligation under the credit derivative (ie the obligation used for purposes of determining cash settlement value or the deliverable obligation) is permissible if:
+
+- the reference obligation ranks pari passu with or is junior to the underlying obligation; and
+
+- the underlying obligation and reference obligation share the same obligor (ie the same legal entity) and legally enforceable cross-default or cross-acceleration clauses are in place.
+
+- A mismatch between the underlying obligation and the obligation used for purposes of determining whether a credit event has occurred is permissible if:
+
+- the latter obligation ranks pari passu with or is junior to the underlying obligation; and
+
+- the underlying obligation and reference obligation share the same obligor (ie the same legal entity) and legally enforceable cross-default or cross-acceleration clauses are in place.
+[fnFAQ1]
+[fn9] When hedging corporate exposures, this particular credit event is not required to be specified provided that: (1) a 100% vote is needed to amend maturity, principal, coupon, currency or seniority status of the underlying corporate exposure; and (2) the legal domicile in which the corporate exposure is governed has a well-established bankruptcy code that allows for a company to reorganise/restructure and provides for an orderly settlement of creditor claims. If these conditions are not met, then the treatment in CRE22.75 may be eligible.
+FAQ1: The conditions outlined in CRE22.74(6) indicates that, in order for a credit derivative contract to be recognised, the identity of the parties responsible for determining whether a credit event has occurred must be clearly defined (the so-called “Determinations Committee”); this determination must not be the sole responsibility of the protection seller; the protection buyer must have the right/ability to inform the protection provider of the occurrence of a credit event. Given the recently developed market practice of the Big Bang Protocol, which all in the credit derivatives industry have signed, how does this protocol affect the recognition of credit derivatives?
+
+Credit derivatives under the Big Bang Protocol can still be recognised. CRE22.74 is still satisfied by: (1) the protection buyer having the right/ability to request a ruling from the Determinations Committee, so the buyer is not powerless; and (2) the Determinations Committee being independent of the protection seller. This means that the roles and identities are clearly defined in the protocol, and the determination of a credit event is not the sole responsibility of the protection seller.
+
+## CRE22.75
+When the restructuring of the underlying obligation is not covered by the credit derivative, but the other requirements in CRE22.74 are met, partial recognition of the credit derivative will be allowed. If the amount of the credit derivative is less than or equal to the amount of the underlying obligation, 60% of the amount of the hedge can be recognised as covered. If the amount of the credit derivative is larger than that of the underlying obligation, then the amount of eligible hedge is capped at 60% of the amount of the underlying obligation.
+
+## 
+Range of eligible guarantors (counter-guarantors)/protection providers and credit derivatives
+
+## CRE22.76
+Credit protection given by the following entities can be recognised when they have a lower risk weight than the counterparty:
+
+- Sovereign entities,[fn10] PSEs, multilateral development banks (MDBs), banks, securities firms and other prudentially regulated financial institutions with a lower risk weight than the counterparty;[fn11]
+
+- In jurisdictions that allow the use of external ratings for regulatory purposes:
+
+- other entities that are externally rated except when credit protection is provided to a securitisation exposure. This would include credit protection provided by a parent, subsidiary and affiliate companies when they have a lower risk weight than the obligor;
+
+- when credit protection is provided to a securitisation exposure, other entities that currently are externally rated BBB– or better and that were externally rated A– or better at the time the credit protection was provided. This would include credit protection provided by parent, subsidiary and affiliate companies when they have a lower risk weight than the obligor.
+
+- In jurisdictions that do not allow the use of external ratings for regulatory purposes:
+
+- Other entities, defined as “investment grade” meaning they have adequate capacity to meet their financial commitments (including repayments of principal and interest) in a timely manner, irrespective of the economic cycle and business conditions. When making this determination, the bank should assess the entity against the investment grade definition taking into account the complexity of its business model, performance against industry and peers, and risks posed by the entity’s operating environment. Moreover, the following conditions will have to be met:
+
+(i)
+
+For corporate entities (or the entity’s parent company), they must have securities outstanding on a recognised securities exchange;
+
+(ii)
+
+The creditworthiness of these “investment grade entities” is not positively correlated with the credit risk of the exposures for which they provided guarantees.
+
+- Parent, subsidiary and affiliate companies of the obligor where their creditworthiness is not positively correlated with the credit risk of the exposures for which they provided guarantees. For an intra-group company to be recognised as eligible guarantor, the credit risk of the whole group should be taken into account.
+[fn10] This includes the Bank for International Settlements, the International Monetary Fund, the European Central Bank, the European Union, the European Stability Mechanism and the European Financial Stability Facility, as well as MDBs eligible for a 0% risk weight as defined in CRE20.14.
+[fn11] A prudentially regulated financial institution is defined as: a legal entity supervised by a regulator that imposes prudential requirements consistent with international norms or a legal entity (parent company or subsidiary) included in a consolidated group where any substantial legal entity in the consolidated group is supervised by a regulator that imposes prudential requirements consistent with international norms. These include, but are not limited to, prudentially regulated insurance companies, broker/dealers, thrifts and futures commission merchants, and qualifying central counterparties as defined in CRE54.
+
+## CRE22.77
+Only credit default swaps and total return swaps that provide credit protection equivalent to guarantees are eligible for recognition.[fn12] The following exception applies: where a bank buys credit protection through a total return swap and records the net payments received on the swap as net income, but does not record offsetting deterioration in the value of the asset that is protected (either through reductions in fair value or by an addition to reserves), the credit protection will not be recognised.
+[fn12] Cash-funded credit-linked notes issued by the bank against exposures in the banking book that fulfil all minimum requirements for credit derivatives are treated as cash-collateralised transactions. However, in this case the limitations regarding the protection provider as set out in CRE22.76 do not apply.
+
+## CRE22.78
+First-to-default and all other nth-to-default credit derivatives (ie by which a bank obtains credit protection for a basket of reference names and where the first- or nth–to-default among the reference names triggers the credit protection and terminates the contract) are not eligible as a credit risk mitigation technique and therefore cannot provide any regulatory capital relief. In transactions in which a bank provided credit protection through such instruments, it shall apply the treatment described in CRE20.103.
+
+## 
+Risk-weight treatment of transactions in which eligible credit protection is provided
+
+## CRE22.79
+The general risk-weight treatment for transactions in which eligible credit protection is provided is as follows:
+
+- The protected portion is assigned the risk weight of the protection provider. The unprotected (ie uncovered) portion of the exposure is assigned the risk weight of the underlying counterparty to the exposure without consideration of the credit protection. In the case of fixed or capped credit protection obtained against the counterparty credit risk of a derivative exposure subject to the SA-CCR or IMM, CRE51.18 must be applied to determine the protected and unprotected portions of the full exposure.
+
+- Materiality thresholds on payments below which the protection provider is exempt from payment in the event of loss are equivalent to retained first-loss positions. The portion of the exposure that is below a materiality threshold must be assigned a risk weight of 1250% by the bank purchasing the credit protection.
+
+## CRE22.80
+Where losses are shared pari passu on a pro rata basis between the bank and the guarantor, capital relief is afforded on a proportional basis, ie the protected portion of the exposure receives the treatment applicable to eligible guarantees/credit derivatives, with the remainder treated as unsecured.
+
+## CRE22.81
+Where the bank transfers a portion of the risk of an exposure in one or more tranches to a protection seller or sellers and retains some level of the risk of the loan, and the risk transferred and the risk retained are of different seniority, banks may obtain credit protection for either the senior tranches (eg the second-loss portion) or the junior tranche (eg the first-loss portion). In this case the rules as set out in the securitisation standard apply.
+
+## 
+Currency mismatches
+
+## CRE22.82
+Where the credit protection is denominated in a currency different from that in which the exposure is denominated – ie there is a currency mismatch – the amount of the exposure deemed to be protected must be reduced by the application of a haircut H_{FX}, using the formula that follows, where:
+
+- G = nominal amount of the credit protection
+
+- H_{FX} = haircut appropriate for currency mismatch between the credit protection and underlying obligation
+
+## CRE22.83
+The currency mismatch haircut for a 10-business day holding period (assuming daily marking to market) is 8%. This haircut must be scaled up using the square root of time formula, depending on the frequency of revaluation of the credit protection as described in CRE22.59.
+
+## 
+Sovereign guarantees and counter-guarantees
+
+## CRE22.84
+As specified in CRE20.8, a lower risk weight may be applied at national discretion to a bank’s exposures to the sovereign (or central bank) where the bank is incorporated and where the exposure is denominated in domestic currency and funded in that currency. National supervisors may extend this treatment to portions of exposures guaranteed by the sovereign (or central bank), where the guarantee is denominated in the domestic currency and the exposure is funded in that currency. An exposure may be covered by a guarantee that is indirectly counter-guaranteed by a sovereign. Such an exposure may be treated as covered by a sovereign guarantee provided that:
+
+- the sovereign counter-guarantee covers all credit risk elements of the exposure;
+
+- both the original guarantee and the counter-guarantee meet all operational requirements for guarantees, except that the counter-guarantee need not be direct and explicit to the original exposure; and
+
+- the supervisor is satisfied that the cover is robust and that no historical evidence suggests that the coverage of the counter-guarantee is less than effectively equivalent to that of a direct sovereign guarantee.

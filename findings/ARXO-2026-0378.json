@@ -1,0 +1,121 @@
+{
+  "id": "ARXO-2026-0378",
+  "url": "https://arxo.io/findings/ARXO-2026-0378/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework LCR10 (in force 2019-12-15, published 2019-12-15)",
+  "acts": [],
+  "location": "LCR10.9 -> LCR30.29",
+  "text": {
+    "en": {
+      "title": "Basel Framework: LCR10.9 -> LCR30.29",
+      "summary": "LCR10.9 cites LCR30.29 for the single reporting currency requirement, but that requirement sits in LCR30.27; LCR30.29 covers HQLA diversification.",
+      "impact": "Position: Reader following the reference to determine reporting-currency rule Reading a: LCR30.29 -> finds only diversification of HQLA within asset classes, no currency rule Reading b: LCR30.27 -> single reporting currency, monitoring by currency Difference: reference resolves to different content",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework LCR10 (in force 2019-12-15, published 2019-12-15)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2019-12-15",
+        "locator": "LCR10.9 -> LCR30.29",
+        "text": "As outlined in LCR30.29, while the LCR must be met on a consolidated basis and reported in a common currency",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/lcr/10/inforce/2019-12-15/published/2019-12-15",
+        "sha256": "1e0208180e3cf973a12cabd9a0b7b4436483893831a4bd1b3fa93fee07126b93",
+        "retrieved": "2026-10-31",
+        "copy": "sources/1e0208180e3cf973-LCR10@2019-12-15~2019-12-15.txt",
+        "copy_sha256": "1e0208180e3cf973a12cabd9a0b7b4436483893831a4bd1b3fa93fee07126b93",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Basel Framework LCR30 (in force 2019-12-15, published 2020-06-05)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-06-05",
+        "locator": "LCR30.27",
+        "text": "While the LCR must be met and reported in a single currency, banks should be able to meet their liquidity needs in each currency",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/lcr/30/inforce/2019-12-15/published/2020-06-05",
+        "sha256": "4236826ef5f62965ab62214f7a7df161dba95ef7e447610f4843989e713999fa",
+        "retrieved": "2026-10-31",
+        "copy": "sources/4236826ef5f62965-LCR30@2019-12-15~2020-06-05.txt",
+        "copy_sha256": "4236826ef5f62965ab62214f7a7df161dba95ef7e447610f4843989e713999fa",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

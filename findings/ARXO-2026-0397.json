@@ -1,0 +1,121 @@
+{
+  "id": "ARXO-2026-0397",
+  "url": "https://arxo.io/findings/ARXO-2026-0397/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework NSF30 (in force 2019-12-15, published 2024-07-05)",
+  "acts": [],
+  "location": "NSF30.32 FAQ1 (footnote number)",
+  "text": {
+    "en": {
+      "title": "Basel Framework: NSF30.32 FAQ1 (footnote number)",
+      "summary": "The NSF30.32 FAQ attributes the definition of NSFR derivative liabilities to footnote 18, which holds the RSF formula; the definition is in footnote 2.",
+      "impact": "Position: Reader follows the FAQ to footnote 18 for NSFR derivative liabilities Reading a: Footnote 18 gives only RSF = 100% x MAX(A - L, 0), no deduction of VM Reading b: Footnote 2 / NSF30.9 gives L = derivative liabilities - VM posted Difference: definition not found by pointer",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework NSF30 (in force 2019-12-15, published 2024-07-05)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2024-07-05",
+        "locator": "NSF30.32 FAQ1 (footnote number)",
+        "text": "NSF30 Footnote 18 states that NSFR derivative liabilities = (derivative liabilities) – (total collateral posted as variation margin on derivative liabilities).",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/nsf/30/inforce/2019-12-15/published/2024-07-05",
+        "sha256": "aab56170f4c57f39254f95c7a1bcaea1af62676fbf4a109cf855eadfa9aadcd0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/aab56170f4c57f39-NSF30@2019-12-15~2024-07-05.txt",
+        "copy_sha256": "aab56170f4c57f39254f95c7a1bcaea1af62676fbf4a109cf855eadfa9aadcd0",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Basel Framework NSF30 (in force 2019-12-15, published 2024-07-05)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2024-07-05",
+        "locator": "NSF30.32 FAQ1 (footnote number)",
+        "text": "[fn18] RSF = 100% x MAX ((NSFR derivative assets – NSFR derivative liabilities), 0).",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/nsf/30/inforce/2019-12-15/published/2024-07-05",
+        "sha256": "aab56170f4c57f39254f95c7a1bcaea1af62676fbf4a109cf855eadfa9aadcd0",
+        "retrieved": "2026-10-31",
+        "copy": "sources/aab56170f4c57f39-NSF30@2019-12-15~2024-07-05.txt",
+        "copy_sha256": "aab56170f4c57f39254f95c7a1bcaea1af62676fbf4a109cf855eadfa9aadcd0",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "ARXO-2026-0375",
+  "url": "https://arxo.io/findings/ARXO-2026-0375/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework CRE54 (in force 2023-01-01, published 2020-03-27)",
+  "acts": [],
+  "location": "CRE54.31 (SFT exposures: CRE22.68 to CRE22.72)",
+  "text": {
+    "en": {
+      "title": "Basel Framework: CRE54.31 (SFT exposures: CRE22.68 to CRE22.72)",
+      "summary": "CRE54.31 points to CRE22.68-22.72 for the SFT exposure, but those paragraphs cover loan/deposit netting and guarantees; the SFT formula is CRE22.65.",
+      "impact": "Position: Account with SFT EBRM 80 and derivative EAD 20, IM 50 posted Reading a: Literal pointers: no SFT EAD rule in CRE22.68-72, the allocation key (80:20) is not computable Reading b: Intended: SFT EAD per CRE22.65, IM split 40/10 Difference: IM allocated to SFTs 40 vs undefined",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework CRE54 (in force 2023-01-01, published 2020-03-27)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-03-27",
+        "locator": "CRE54.31 (SFT exposures: CRE22.68 to CRE22.72)",
+        "text": "CRE22.68 to CRE22.72 for SFTs; and",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/54/inforce/2023-01-01/published/2020-03-27",
+        "sha256": "2566fdd305261db0f597498bd48bab7e70d9f65f1c8e30ad8276093796a271b2",
+        "retrieved": "2026-10-31",
+        "copy": "sources/2566fdd305261db0-CRE54@2023-01-01~2020-03-27.txt",
+        "copy_sha256": "2566fdd305261db0f597498bd48bab7e70d9f65f1c8e30ad8276093796a271b2",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Basel Framework CRE54 (in force 2023-01-01, published 2020-03-27)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-03-27",
+        "locator": "CRE54.31 (SFT exposures: CRE22.68 to CRE22.72)",
+        "text": "EBRM_{i} denotes the exposure value to clearing member ‘i’ before risk mitigation under CRE22.69 to CRE22.73;",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/54/inforce/2023-01-01/published/2020-03-27",
+        "sha256": "2566fdd305261db0f597498bd48bab7e70d9f65f1c8e30ad8276093796a271b2",
+        "retrieved": "2026-10-31",
+        "copy": "sources/2566fdd305261db0-CRE54@2023-01-01~2020-03-27.txt",
+        "copy_sha256": "2566fdd305261db0f597498bd48bab7e70d9f65f1c8e30ad8276093796a271b2",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

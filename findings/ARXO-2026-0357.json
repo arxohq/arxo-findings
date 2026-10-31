@@ -1,0 +1,105 @@
+{
+  "id": "ARXO-2026-0357",
+  "url": "https://arxo.io/findings/ARXO-2026-0357/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework CRE21 (in force 2023-01-01, published 2020-03-27)",
+  "acts": [],
+  "location": "CRE21.5",
+  "text": {
+    "en": {
+      "title": "Basel Framework: CRE21.5",
+      "summary": "CRE21.5 refers to 'the tables above', but the chapter contains no preceding risk-weight table.",
+      "impact": "Position: Supervisor maps an ECAI's long-term scale onto SA corporate weights. Reading a: Calibrate against CRE20 corporate/bank tables -> BBB = 100% (corporates) Reading b: Calibrate against 'tables above' in CRE21 -> only the short-term Table 15 is available, no long-term mapping Difference: not numeric; the target of the reference is undefined",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework CRE21 (in force 2023-01-01, published 2020-03-27)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-03-27",
+        "locator": "CRE21.5",
+        "text": "consistent with that of the level of credit risk reflected in the tables above",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/21/inforce/2023-01-01/published/2020-03-27",
+        "sha256": "a262782d56fff7c55838564afa6ef085f255d0354426e141fea89e8fd743cd6b",
+        "retrieved": "2026-10-31",
+        "copy": "sources/a262782d56fff7c5-CRE21@2023-01-01~2020-03-27.txt",
+        "copy_sha256": "a262782d56fff7c55838564afa6ef085f255d0354426e141fea89e8fd743cd6b",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

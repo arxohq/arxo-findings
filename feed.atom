@@ -5,9 +5,469 @@
   <link rel="alternate" href="https://arxo.io/findings/"/>
   <link rel="self" href="https://arxo.io/findings/feed.atom"/>
   <id>https://arxo.io/findings/</id>
-  <updated>2026-10-31T11:45:00+00:00</updated>
+  <updated>2026-10-31T13:12:41+00:00</updated>
   <author><name>Arxo Law</name></author>
   <rights>Data: CC BY 4.0, Arxo Law</rights>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0400/</id>
+    <title>ARXO-2026-0400 — CRR: CAP30.23(4) vs CRR Art 72j(1)</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0400/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="EU"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Article 72j(1) CRR permits no deduction at exactly 5%, whereas Basel Framework CAP30.23(4) requires holdings to be less than 5%. The CRR does not provide discretion over this boundary.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0399/</id>
+    <title>ARXO-2026-0399 — Basel Framework: RBC25.9 FAQ3</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0399/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. RBC25.9 FAQ3 says an FX option hedging a banking book position is covered by RBC25.9(6), which only lists options on credit or equity risk from the bank&#x27;s own issued instruments.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0398/</id>
+    <title>ARXO-2026-0398 — Basel Framework: OPE25.8 ILM formula, BIC = 0</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0398/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The OPE25.8 ILM formula has no rule for BIC equal to zero when a bucket 1 bank is allowed to use loss data.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0397/</id>
+    <title>ARXO-2026-0397 — Basel Framework: NSF30.32 FAQ1 (footnote number)</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0397/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The NSF30.32 FAQ attributes the definition of NSFR derivative liabilities to footnote 18, which holds the RSF formula; the definition is in footnote 2.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0396/</id>
+    <title>ARXO-2026-0396 — Basel Framework: NSF30.29 FAQ1 vs NSF30.28</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0396/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The NSFR FAQ on Level 2A covered bonds says a rating &#x27;above AA–&#x27; is required, while NSF30.28 and LCR30.43 accept &#x27;at least AA–&#x27;, so a covered bond rated exactly AA– gets 15% or 85% RSF depending on which is followed.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0395/</id>
+    <title>ARXO-2026-0395 — Basel Framework: MAR50.68 Table 10 vs MAR50.66 Table 8</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0395/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. MAR50.68 Table 10 labels buckets 8, 9 as IG and 16 as HY/NR, contradicting the credit-quality assignment in MAR50.66 Table 8.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0394/</id>
+    <title>ARXO-2026-0394 — Basel Framework: MAR33.45 k formula</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0394/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The surcharge factor k in MAR33.45 divides by the sum of SA charges of green and amber desks and is undefined when that sum is zero.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0393/</id>
+    <title>ARXO-2026-0393 — Basel Framework: MAR33.42 vs MAR32.9 Table 1</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0393/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The MAR32.9 Table 1 header cites MAR33.44 for the qualitative add-on, but that add-on is set in MAR33.42; MAR33.44 covers quarterly updates.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0392/</id>
+    <title>ARXO-2026-0392 — Basel Framework: MAR33.20 FAQ1 reference to MAR33.28</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0392/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. FAQ1 to MAR33.20 cites MAR33.28 for the one-year correlation horizon, but that statement is in MAR33.27 (the same FAQ under MAR33.27 cites MAR33.27).</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0391/</id>
+    <title>ARXO-2026-0391 — Basel Framework: MAR33.15 IMCC(C_i)</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0391/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. IMCC(C_i) in MAR33.15 contains the ratio ES_F,C,i / ES_R,C,i, which has no value for a risk class without positions. The CRR writes the convention out (Article 325bb(3) includes a risk class only where the portfolio has a modellable risk factor in it); the Basel text does not.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0390/</id>
+    <title>ARXO-2026-0390 — Basel Framework: MAR31.16 Table 1 row (D)</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0390/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Row (D) of MAR31.16 Table 1 ends at 0.95 ≤ δ &lt; 1.00, so a delta of exactly 1.00 falls in no bucket.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0389/</id>
+    <title>ARXO-2026-0389 — Basel Framework: MAR22.39 first sentence</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0389/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. MAR22.39, in the CTP section, says the maturity scaling and offsetting rules apply to securitisations &quot;(non-CTP)&quot;, a label copied from MAR22.30.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0388/</id>
+    <title>ARXO-2026-0388 — Basel Framework: MAR22.23 HBR; MAR22.44 HBR_ctp</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0388/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The hedge benefit ratio in MAR22.23 is not defined when a bucket has no net long and no net short JTD positions, as its denominator is then zero.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0387/</id>
+    <title>ARXO-2026-0387 — Basel Framework: MAR22.3 range of subsections</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0387/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. MAR22.3 refers to MAR22.9-MAR22.26 for per-risk-class DRC definitions, a range that covers only non-securitisations while the securitisation rules run to MAR22.45.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0386/</id>
+    <title>ARXO-2026-0386 — Basel Framework: MAR21.58 FAQ1 vs MAR21.33(1)</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0386/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The CTP index FAQ says &#x27;at least 75%&#x27; while citing MAR21.33(1), which says &#x27;more than 75%&#x27;; exactly 75% gets two different buckets.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0385/</id>
+    <title>ARXO-2026-0385 — Basel Framework: MAR21.33 and MAR21.38(2) bucket references</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0385/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. MAR21.33 and MAR21.38 cite MAR21.53 (the CSR risk-weight table) for bucket definitions, which are in MAR21.51.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0384/</id>
+    <title>ARXO-2026-0384 — Basel Framework: FAQ1 under MAR21.34 vs MAR21.33(1)</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0384/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The FAQ to MAR21.34 uses &#x27;at least 75%&#x27; for assigning an index CTP to a sector bucket while MAR21.33(1) requires &#x27;more than 75%&#x27;, so an index at exactly 75% maps differently.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0383/</id>
+    <title>ARXO-2026-0383 — Basel Framework: MAR21.1 and MAR21.4</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0383/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. MAR21.1 points to MAR21.8-MAR21.14 (risk-factor definitions) for across-bucket aggregation, which is actually set out in MAR21.4 and MAR21.5.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0382/</id>
+    <title>ARXO-2026-0382 — Basel Framework: LEV30.3 second example</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0382/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. LEV30.3 cites CAP10.19 for the IRB provisions-shortfall deduction from CET1, but CAP10.19 covers the opposite case (excess provisions in Tier 2); the deduction is in CAP30.13.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0381/</id>
+    <title>ARXO-2026-0381 — Basel Framework: LCR40.79 FAQ2 -&gt; LCR40.80</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0381/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. FAQ2 under LCR40.79 attributes the 0% inflow for firm shorts to LCR40.80, which only sets outflow rates; the inflow rate is in the LCR40.79 table.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0380/</id>
+    <title>ARXO-2026-0380 — Basel Framework: LCR40.44 reference to LCR40.87</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0380/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. LCR40.44 sends segregated prime-brokerage balances to LCR40.87 (wholesale loan payments, 50% or 100%), while the rule for such balances sits in LCR40.88, which is optional and conditional on HQLA.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0379/</id>
+    <title>ARXO-2026-0379 — Basel Framework: LCR31.29</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0379/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. LCR31.29 points to LCR31.7-31.10 as the jurisdiction&#x27;s information base, but those paragraphs are bank-to-supervisor usage rules; the shortfall information sits in LCR31.24-31.28.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0378/</id>
+    <title>ARXO-2026-0378 — Basel Framework: LCR10.9 -&gt; LCR30.29</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0378/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. LCR10.9 cites LCR30.29 for the single reporting currency requirement, but that requirement sits in LCR30.27; LCR30.29 covers HQLA diversification.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0377/</id>
+    <title>ARXO-2026-0377 — Basel Framework: CRE54.35 second bullet (holding periods CRE22.61 to CRE22.64)</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0377/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. CRE54.35 cites CRE22.61 to CRE22.64 for SFT holding periods, but those paragraphs contain none; the holding periods are in CRE22.56 to CRE22.58.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0376/</id>
+    <title>ARXO-2026-0376 — Basel Framework: CRE54.35 first bullet (haircuts CRE22.44)</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0376/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. CRE54.35 sends SFT haircuts to CRE22.44, which is the netting-recognition paragraph; the haircut tables are CRE22.49-22.51.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0375/</id>
+    <title>ARXO-2026-0375 — Basel Framework: CRE54.31 (SFT exposures: CRE22.68 to CRE22.72)</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0375/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. CRE54.31 points to CRE22.68-22.72 for the SFT exposure, but those paragraphs cover loan/deposit netting and guarantees; the SFT formula is CRE22.65.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0374/</id>
+    <title>ARXO-2026-0374 — Basel Framework: CRE54.8 bullet 1 (reference to CRE22.61)</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0374/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. CRE54.8 points to CRE22.61 for the 20-day MPOR floor on netting sets above 5000 trades, but that floor is in CRE22.58.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0373/</id>
+    <title>ARXO-2026-0373 — Basel Framework: CRE52.59 Step 5</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0373/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the SA-CCR foreign exchange steps, Step 5 sums add-ons &#x27;calculated in step 5&#x27;, a self-reference; step 4 is meant.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0372/</id>
+    <title>ARXO-2026-0372 — Basel Framework: CRE52.50</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0372/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. CRE52.50 defines the margin period of risk by reference to CRE50.18, which defines the margin threshold; the MPOR definition is CRE50.19.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0371/</id>
+    <title>ARXO-2026-0371 — Basel Framework: CRE52.40 delta, T_i = 0</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0371/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The supervisory option delta divides by the square root of the time to exercise and the text gives no floor or rule when that time is zero.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0370/</id>
+    <title>ARXO-2026-0370 — Basel Framework: CRE52.20 / CRE52.23 multiplier</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0370/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The SA-CCR multiplier in CRE52.23 divides by the aggregate add-on, and the text gives no convention for a netting set whose aggregate add-on is zero. Taking the limit gives a potential future exposure of zero.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0369/</id>
+    <title>ARXO-2026-0369 — Basel Framework: CRE36.31 FAQ2</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0369/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. FAQ2 under CRE36.31 quotes a sentence of CRE36.30 that is not in CRE36.30 of the published chapter.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0368/</id>
+    <title>ARXO-2026-0368 — Basel Framework: CRE34.11 reference to CRE44.10</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0368/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. CRE34.11 points to CRE44.10 for first-loss treatment of collateral and guarantees on purchased receivables, but CRE44.10 only concerns gross-of-provision measurement.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0367/</id>
+    <title>ARXO-2026-0367 — Basel Framework: CRE33.15 Good vs Satisfactory columns (monitoring)</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0367/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The CRE33.15 object-finance monitoring row&#x27;s Weak cell is garbled (&#x27;is able to monitor ... are limited&#x27;).</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0366/</id>
+    <title>ARXO-2026-0366 — Basel Framework: CRE33.13 table, Political and legal environment</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0366/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The CRE33.13 project-finance slotting table has a row (local content relief) with grade labels instead of criteria and an antecedent-less &#x27;such relief&#x27;.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0365/</id>
+    <title>ARXO-2026-0365 — Basel Framework: CRE32.63 (cross-ref to CRE20.92)</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0365/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. CRE32.63 refers to CRE20.92 for 100% CCF items, but CRE20.92 is the currency-mismatch multiplier and the 100% CCF list is in CRE20.95.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0364/</id>
+    <title>ARXO-2026-0364 — Basel Framework: CRE32.10</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0364/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The LGD* formula divides by E x (1+H_E), which is zero for an undrawn commitment whose exposure arises only through the CCF.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0363/</id>
+    <title>ARXO-2026-0363 — Basel Framework: CRE31.2 / CRE32.4</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0363/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Sovereign exposures are exempt from the 0.05% PD floor, yet the risk-weight function uses ln(PD) and G(PD), which are undefined at PD = 0.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0362/</id>
+    <title>ARXO-2026-0362 — Basel Framework: CRE31.6</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0362/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. CRE31.6 cites CRE32.43-32.54 for effective maturity, but the maturity rules are CRE32.44-32.55, so the cross-reference is off by one at both ends.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0361/</id>
+    <title>ARXO-2026-0361 — Basel Framework: CRE30.31</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0361/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. CRE30.31 makes top-down eligibility for recourse receivables depend on a &#x27;primary protection&#x27; test said to be set in CRE34.4-34.7, but those paragraphs contain no such test.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0360/</id>
+    <title>ARXO-2026-0360 — Basel Framework: CRE30.37 fn6</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0360/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Footnote 6 of CRE30.37 sends the domestic-exposure maturity exemption to CRE32.44, but it is in CRE32.45.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0359/</id>
+    <title>ARXO-2026-0359 — Basel Framework: CRE22.66 SA-CCR ranges</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0359/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. CRE22.66 assigns CRE52.20, the PFE formula, to the RC range and leaves CRE52.74 outside both ranges.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0358/</id>
+    <title>ARXO-2026-0358 — Basel Framework: CRE22.49 rating bands</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0358/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The CRE22.49 haircut table names P-3 but omits Moody&#x27;s P-1 and P-2, although P-3 and better short-term paper is eligible collateral.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0357/</id>
+    <title>ARXO-2026-0357 — Basel Framework: CRE21.5</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0357/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. CRE21.5 refers to &#x27;the tables above&#x27;, but the chapter contains no preceding risk-weight table.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0356/</id>
+    <title>ARXO-2026-0356 — Basel Framework: CRE20.35</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0356/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. CRE20.35 says the primary assets are &#x27;listed in this paragraph&#x27;, but the list sits in CRE20.34.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0355/</id>
+    <title>ARXO-2026-0355 — Basel Framework: CAP30.30 FAQ2 range</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0355/"/>
+    <published>2026-10-31T00:00:00Z</published>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <category term="BCBS"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The same FAQ cites &#x27;CAP30.21 to CAP30.30&#x27; under CAP30.21 and CAP30.26 but &#x27;CAP30.20 to CAP30.29&#x27; under CAP30.30, so the range omits the paragraph it is attached to.</summary>
+  </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0331/</id>
     <title>ARXO-2026-0331 — raltegravir: wording question in 2.1</title>

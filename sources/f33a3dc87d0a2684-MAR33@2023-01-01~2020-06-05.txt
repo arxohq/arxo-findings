@@ -1,0 +1,416 @@
+MAR33 — inforce 2023-01-01, published 2020-06-05; source sha256 05bf12b91e3bb88f487710c4f382ee5d055d0c69362be202fd9cb908ee059e56
+Title: Internal models approach: capital requirements calculation | Bank for International Settlements
+
+# Calculation of expected shortfall
+
+## MAR33.1
+Banks will have flexibility in devising the precise nature of their expected shortfall (ES) models, but the following minimum standards will apply for the purpose of calculating market risk capital requirements. Individual banks or their supervisory authorities will have discretion to apply stricter standards.
+[fnFAQ1]
+FAQ1: Does the internal models approach (IMA) require all products to be simulated on full revaluation? Can a parametric approach be used on simple products, such as a forward rate agreement?
+
+The IMA does not require all products to be simulated on full revaluation. Simplifications (eg sensitivities-based valuation) may be used provided the bank’s supervisor agrees that the method used is adequate for the instruments covered.
+
+## MAR33.2
+ES must be computed on a daily basis for the bank-wide internal models to determine market risk capital requirements. ES must also be computed on a daily basis for each trading desk that uses the internal models approach (IMA).
+
+## MAR33.3
+In calculating ES, a bank must use a 97.5th percentile, one-tailed confidence level.
+
+## MAR33.4
+In calculating ES, the liquidity horizons described in MAR33.12 must be reflected by scaling an ES calculated on a base horizon. The ES for a liquidity horizon must be calculated from an ES at a base liquidity horizon of 10 days with scaling applied to this base horizon result as expressed below, where:
+
+- ES is the regulatory liquidity-adjusted ES;
+
+- T is the length of the base horizon, ie 10 days;
+
+- ES_{T}(P) is the ES at horizon T of a portfolio with positions P = (p_{i}) with respect to shocks to all risk factors that the positions P are exposed to;
+
+- ES_{T}(P, j) is the ES at horizon T of a portfolio with positions P = (p_{i}) with respect to shocks for each position p_{i} in the subset of risk factors Q(p_{i}, j), with all other risk factors held constant;
+
+- the ES at horizon T, ES_{T}(P) must be calculated for changes in the risk factors, and ES_{T}(P, j) must be calculated for changes in the relevant subset Q(p_{i}, j) of risk factors, over the time interval T without scaling from a shorter horizon;
+
+- Q(p_{i}, j) is the subset of risk factors for which liquidity horizons, as specified in MAR33.12, for the desk where p_{i} is booked are at least as long as LH_{j} according to the table below. For example, Q(p_{i},4) is the set of risk factors with a 60-day horizon and a 120-day liquidity horizon. Note that Q(p_{i}, j) is a subset of Q(p_{i}, j-1);
+
+- the time series of changes in risk factors over the base time interval T may be determined by overlapping observations; and
+
+- LH_{j} is the liquidity horizon j, with lengths in the following table:
+
+| Liquidity horizons, j | Liquidity horizons, j | Table 1 |
+| j | LH_{j} | LH_{j} |
+| 1 | 10 | 10 |
+| 2 | 20 | 20 |
+| 3 | 40 | 40 |
+| 4 | 60 | 60 |
+| 5 | 120 | 120 |
+
+## MAR33.5
+The ES measure must be calibrated to a period of stress.
+
+- Specifically, the ES measure must replicate an ES outcome that would be generated on the bank's current portfolio if the relevant risk factors were experiencing a period of stress. This is a joint assessment across all relevant risk factors, which will capture stressed correlation measures.
+
+- This calibration is to be based on an indirect approach using a reduced set of risk factors. Banks must specify a reduced set of risk factors that are relevant for their portfolio and for which there is a sufficiently long history of observations.
+
+- This reduced set of risk factors is subject to supervisory approval and must meet the data quality requirements for a modellable risk factor as outlined in MAR31.12 to MAR31.24.
+
+- The identified reduced set of risk factors must be able to explain a minimum of 75% of the variation of the full ES model (ie the ES of the reduced set of risk factors should be at least equal to 75% of the fully specified ES model on average measured over the preceding 12-week period).
+
+[fnFAQ1][fnFAQ2][fnFAQ3][fnFAQ4]
+FAQ1: What indicator must be maximised for the identification of the stressed period?
+
+The aggregate capital requirement for modellable risk factors (IMCC) as per MAR33.15 has to be maximised for the modellable risk factors.
+FAQ2: Is it correct that the reduced set of risk factors must explain a minimum of 75% of the variation of the full ES at the group level (ie top level) only and not at the desk level in order to be consistent with the stressed period selection performed at the group level?
+
+Yes, the reduced set of risk factors must be able to explain a minimum of 75% of the variation of the full ES model at the group level for the aggregate of all desks with IMA model approval.
+FAQ3: How should banks determine whether the ES measure calculated using a reduced set of risk factors explains at least 75% of the variation of the full ES model?
+
+The average of the measurements of the ratio (ES using reduced set of risk factors and current period (ESR,C) to ES using full set of risk factors and current period (ESF,C)) over the preceding 12-week period must be at least 75%.
+FAQ4: Regarding the reform of benchmark reference rates, what guidance can the Committee provide on the calculation of expected shortfall (ES) if the new benchmark rate was not available during a stress period for the purposes of MAR33?
+
+If the new benchmark rate is currently eligible for modelling according to MAR31 but was not available during the stress period, it may pose a challenge to banks calculating the expected shortfall (ES) for the current and stress period per MAR33. To address this, if the new benchmark rate is eligible for modelling according to MAR31 but was not available during the stress period, banks may use:
+
+(i)
+
+for the current period, the new benchmark rate in the full set of risk factors (ESF,C) and in the reduced set of risk factors (ESR,C); and
+
+(ii)
+
+for the stress period, the old benchmark rate in the reduced set of risk factors (ESR,S).
+
+This interpretation does not annul the specification in MAR33.5(2) that the reduced set is subject to supervisory approval and must meet the data quality requirements.
+
+## MAR33.6
+The ES for market risk capital purposes is therefore expressed as follows, where:
+
+- The ES for the portfolio using the above reduced set of risk factors (ES_{R,S}), is calculated based on the most severe 12-month period of stress available over the observation horizon.
+
+- ES_{R,S} is then scaled up by the ratio of (i) the current ES using the full set of risk factors to (ii) the current ES measure using the reduced set of factors. For the purpose of this calculation, this ratio is floored at 1.
+
+- ES_{F,C} is the ES measure based on the current (most recent) 12-month observation period with the full set of risk factors; and
+
+- ES_{R,C} is the ES measure based on the current period with a reduced set of risk factors.
+
+## MAR33.7
+For measures based on stressed observations (ES_{R,S}), banks must identify the 12-month period of stress over the observation horizon in which the portfolio experiences the largest loss. The observation horizon for determining the most stressful 12 months must, at a minimum, span back to and include 2007. Observations within this period must be equally weighted. Banks must update their 12-month stressed periods at least quarterly, or whenever there are material changes in the risk factors in the portfolio. Whenever a bank updates its 12-month stressed periods it must also update the reduced set of risk factors (as the basis for the calculations of E_{R,C} and E_{R,S}) accordingly.
+
+## MAR33.8
+For measures based on current observations (ES_{F,C}), banks must update their data sets no less frequently than once every three months and must also reassess data sets whenever market prices are subject to material changes.
+
+- This updating process must be flexible enough to allow for more frequent updates.
+
+- The supervisory authority may also require a bank to calculate its ES using a shorter observation period if, in the supervisor’s judgement; this is justified by a significant upsurge in price volatility. In this case, however, the period should be no shorter than six months.
+
+## MAR33.9
+No particular type of ES model is prescribed. Provided that each model used captures all the material risks run by the bank, as confirmed through profit and loss (P&L) attribution (PLA) tests and backtesting, and conforms to each of the requirements set out above and below, supervisors may permit banks to use models based on either historical simulation, Monte Carlo simulation, or other appropriate analytical methods.
+
+## MAR33.10
+Banks will have discretion to recognise empirical correlations within broad regulatory risk factor classes (interest rate risk, equity risk, foreign exchange risk, commodity risk and credit risk, including related options volatilities in each risk factor category). Empirical correlations across broad risk factor categories will be constrained by the supervisory aggregation scheme, as described in MAR33.14 to MAR33.15, and must be calculated and used in a manner consistent with the applicable liquidity horizons, clearly documented and able to be explained to supervisors on request.
+
+## MAR33.11
+Banks’ models must accurately capture the risks associated with options within each of the broad risk categories. The following criteria apply to the measurement of options risk:
+
+- Banks’ models must capture the non-linear price characteristics of options positions.
+
+- Banks’ risk measurement systems must have a set of risk factors that captures the volatilities of the rates and prices underlying option positions, ie vega risk. Banks with relatively large and/or complex options portfolios must have detailed specifications of the relevant volatilities. Banks must model the volatility surface across both strike price and vertex (ie tenor).
+
+## MAR33.12
+As set out in MAR33.4, a scaled ES must be calculated based on the liquidity horizon n defined below. n is calculated per the following conditions:
+
+- Banks must map each risk factor on to one of the risk factor categories shown below using consistent and clearly documented procedures.
+
+- The mapping of risk factors must be:
+
+- set out in writing;
+
+- validated by the bank’s risk management;
+
+- made available to supervisors; and
+
+- subject to internal audit.
+
+- n is determined for each broad category of risk factor as set out in Table 2. However, on a desk-by-desk basis, n can be increased relative to the values in the table below (ie the liquidity horizon specified below can be treated as a floor). Where n is increased, the increased horizon must be 20, 40, 60 or 120 days and the rationale must be documented and be subject to supervisory approval. Furthermore, liquidity horizons should be capped at the maturity of the related instrument.
+
+| Liquidity horizon n by risk factor | Liquidity horizon n by risk factor | Liquidity horizon n by risk factor | Liquidity horizon n by risk factor | Table 2 | Table 2 |
+| Risk factor category | n | | Risk factor category | Risk factor category | n |
+| Interest rate: specified currencies - EUR, USD, GBP, AUD, JPY, SEK, CAD and domestic currency of a bank | 10 | | Equity price (small cap): volatility | Equity price (small cap): volatility | 60 |
+| Interest rate: unspecified currencies | 20 | | Equity: other types | Equity: other types | 60 |
+| Interest rate: volatility | 60 | | Foreign exchange (FX) rate: specified currency pairs[fn1] | Foreign exchange (FX) rate: specified currency pairs[fn1] | 10 |
+| Interest rate: other types | 60 | | FX rate: currency pairs | FX rate: currency pairs | 20 |
+| Credit spread: sovereign (investment grade, or IG) | 20 | | FX: volatility | FX: volatility | 40 |
+| Credit spread: sovereign (high yield, or HY) | 40 | | FX: other types | FX: other types | 40 |
+| Credit spread: corporate (IG) | 40 | | Energy and carbon emissions trading price | Energy and carbon emissions trading price | 20 |
+| Credit spread: corporate (HY) | 60 | | Precious metals and non-ferrous metals price | Precious metals and non-ferrous metals price | 20 |
+| Credit spread: volatility | 120 | | Other commodities price | Other commodities price | 60 |
+| Credit spread: other types | 120 | | Energy and carbon emissions trading price: volatility | Energy and carbon emissions trading price: volatility | 60 |
+| | | | Precious metals and non-ferrous metals price: volatility | Precious metals and non-ferrous metals price: volatility | 60 |
+| Equity price (large cap) | 10 | | Other commodities price: volatility | Other commodities price: volatility | 120 |
+| Equity price (small cap) | 20 | | Commodity: other types | Commodity: other types | 120 |
+| Equity price (large cap): volatility | 20 | | | | |
+[fnFAQ1][fnFAQ2][fnFAQ3][fnFAQ4][fnFAQ5]
+[fn1] USD/EUR, USD/JPY, USD/GBP, USD/AUD, USD/CAD, USD/CHF, USD/MXN, USD/CNY, USD/NZD, USD/RUB, USD/HKD, USD/SGD, USD/TRY, USD/KRW, USD/SEK, USD/ZAR, USD/INR, USD/NOK, USD/BRL, EUR/JPY, EUR/GBP, EUR/CHF and JPY/AUD. Currency pairs forming first-order crosses across these specified currency pairs are also subject to the same liquidity horizon.
+FAQ1: Please clarify the liquidity horizon to be used for equity dividends and equity repo risk factors.
+
+The liquidity horizon for equity large cap repo and dividend risk factors is 20 days. All other equity repo and dividend risk factors are subject to a liquidity horizon of 60 days.
+FAQ2: For mono-currency and cross-currency basis risk, should liquidity horizons of 10 days and 20 days for interest rate-specified currencies and unspecified currencies, respectively, be applied?
+
+Yes.
+FAQ3: To which liquidity horizon should inflation risk factors be assigned? Should the liquidity horizon for inflation risk factors be treated consistently with interest rates?
+
+The liquidity horizon for inflation risk factors should be consistent with the liquidity horizons for interest rate risk factors for a given currency.
+FAQ4: How must a bank treat risk factors in instruments that mature before the liquidity horizon of the respective risk factor prescribed in MAR33.12?
+
+If the maturity of the instrument is shorter than the respective liquidity horizon of the risk factor as prescribed in MAR33.12, the next longer liquidity horizon length (out of the lengths of 10, 20, 40, 60 or 120 days as set out in the paragraph) compared with the maturity of the instrument itself must be used. For example, although the liquidity horizon for interest rate volatility is prescribed as 60 days, if an instrument matures in 30 days, a 40-day liquidity horizon would apply for the instrument’s interest rate volatility.
+FAQ5: Which liquidity horizon should be mapped to multi-sector credit and equity indices (ie where different risk factor categories are involved)?
+
+To determine the liquidity horizon of multi-sector credit and equity indices, the respective liquidity horizons of the underlying instruments must be used. A weighted average of liquidity horizons of the instruments contained in the index must be determined by multiplying the liquidity horizon of each individual instrument by its weight in the index (ie the weight used to construct the index) and summing across all instruments. The liquidity horizon of the index is the shortest liquidity horizon (out of 10, 20, 40, 60 and 120 days) that is equal to or longer than the weighted average liquidity horizon. For example, if the weighted average liquidity horizon is 12 days, the liquidity horizon of the index would be 20 days.
+
+# Calculation of capital requirement for modellable risk factors
+
+## MAR33.13
+For those trading desks that are permitted to use the IMA, all risk factors that are deemed to be modellable must be included in the bank’s internal, bank-wide ES model. The bank must calculate its internally modelled capital requirement at the bank-wide level using this model, with no supervisory constraints on cross-risk class correlations (IMCC(C)).
+[fnFAQ1]
+FAQ1: Are banks permitted to not capitalise certain risks or risk factors via ES or stressed expected shortfall (SES) (as appropriate) as long as those risks or risk factors are not included in the model eligibility tests?
+
+Banks design their own models for use under the IMA. As a result, they may exclude risk factors from IMA models as long as the bank’s supervisor does not conclude that the risk factor must be capitalised by either ES or SES. Moreover, at a minimum, the risk factors defined in MAR31.1 to MAR31.11 need to be covered in the IMA. If a risk factor is capitalised by neither ES nor SES, it is to be excluded from the calculation of risk-theoretical P&L.
+
+## MAR33.14
+The bank must calculate a series of partial ES capital requirements (ie all other risk factors must be held constant) for the range of broad regulatory risk classes (interest rate risk, equity risk, foreign exchange risk, commodity risk and credit spread risk). These partial, non-diversifiable (constrained) ES values (IMCC(C_{i})) will then be summed to provide an aggregated risk class ES capital requirement.
+
+## MAR33.15
+The aggregate capital requirement for modellable risk factors (IMCC) is based on the weighted average of the constrained and unconstrained ES capital requirements, where:
+
+- The stress period used in the risk class level ES_{R,S,i} should be the same as that used to calculate the portfolio-wide ES_{R,S}.
+
+- Rho (ρ) is the relative weight assigned to the firm’s internal model. The value of ρ is 0.5.
+
+- B stands for broad regulatory risk classes as set out in MAR33.14.
+[fnFAQ1]
+FAQ1: To calculate the aggregate capital requirement for modellable risk factors (internally modelled capital charge, IMCC) up to 63 daily ES calculations would be necessary if each ES measure were required to be calculated daily. Is it permissible to calculate some of the ES measures weekly or must all measures be calculated daily?
+
+The formula specified in MAR33.15, , can be rewritten as with . While ESR,S , ESF,C and ESR,C must be calculated daily, it is generally acceptable that the ratio of undiversified IMCC(C) to diversified IMCC(C), , may be calculated on a weekly basis.
+
+By defining as the formula for the calculation of IMCC can be rearranged, leading to the following expression of IMCC: . Hence, IMCC can be calculated as a multiple of IMCC(C), where IMCC(C) is calculated daily and the multiplier is updated weekly.
+
+Banks must have procedures and controls in place to ensure that the weekly calculation of the “undiversified IMCC(C) to diversified IMCC(C)” ratio does not lead to a systematic underestimation of risks relative to daily calculation. Banks must be in a position to switch to daily calculation upon supervisory direction.
+
+# Calculation of capital requirement for non-modellable risk factors
+
+## MAR33.16
+Capital requirements for each non-modellable risk factor (NMRF) are to be determined using a stress scenario that is calibrated to be at least as prudent as the ES calibration used for modelled risks (ie a loss calibrated to a 97.5% confidence threshold over a period of stress). In determining that period of stress, a bank must determine a common 12-month period of stress across all NMRFs in the same risk class. Subject to supervisory approval, a bank may be permitted to calculate stress scenario capital requirements at the bucket level (using the same buckets that the bank uses to disprove modellability, per MAR31.16) for risk factors that belong to curves, surfaces or cubes (ie a single stress scenario capital requirement for all the NMRFs that belong to the same bucket).
+
+- For each NMRF, the liquidity horizon of the stress scenario must be the greater of the liquidity horizon assigned to the risk factor in MAR33.12 and 20 days. The bank’s supervisory authority may require a higher liquidity horizon.
+
+- For NMRFs arising from idiosyncratic credit spread risk, banks may apply a common 12-month stress period. Likewise, for NMRFs arising from idiosyncratic equity risk arising from spot, futures and forward prices, equity repo rates, dividends and volatilities, banks may apply a common 12-month stress scenario. Additionally, a zero correlation assumption may be used when aggregating gains and losses provided the bank conducts analysis to demonstrate to its supervisor that this is appropriate. [fn2] Correlation or diversification effects between other non-idiosyncratic NMRFs are recognised through the formula set out in MAR33.17.
+
+- In the event that a bank cannot provide a stress scenario which is acceptable for the supervisor, the bank will have to use the maximum possible loss as the stress scenario.
+[fn2] The tests are generally done on the residuals of panel regressions where the dependent variable is the change in issuer spread while the independent variables can be either a change in a market factor or a dummy variable for sector and/or region. The assumption is that the data on the names used to estimate the model suitably proxies the names in the portfolio and the idiosyncratic residual component captures the multifactor-name basis. If the model is missing systematic explanatory factors or the data suffers from measurement error, then the residuals would exhibit heteroscedasticity (which can be tested via White, Breuche Pagan tests etc) and/or serial correlation (which can be tested with Durbin Watson, Lagrange multiplier (LM) tests etc) and/or cross-sectional correlation (clustering).
+
+## MAR33.17
+The aggregate regulatory capital measure for I (non-modellable idiosyncratic credit spread risk factors that have been demonstrated to be appropriate to aggregate with zero correlation), J (non-modellable idiosyncratic equity risk factors that have been demonstrated to be appropriate to aggregate with zero correlation) and the remaining K (risk factors in model-eligible trading desks that are non-modellable (SES)) is calculated as follows, where:
+
+- ISES_{NM,i} is the stress scenario capital requirement for idiosyncratic credit spread non-modellable risk i from the I risk factors aggregated with zero correlation;
+
+- ISES_{NM,j} is the stress scenario capital requirement for idiosyncratic equity non-modellable risk j from the J risk factors aggregated with zero correlation;
+
+- SES_{NM,k} is the stress scenario capital requirement for non-modellable risk k from K risk factors; and
+
+- Rho ( ) is equal to 0.6.
+
+# Calculation of default risk capital requirement
+
+## MAR33.18
+Banks must have a separate internal model to measure the default risk of trading book positions. The general criteria in MAR30.1 to MAR30.4 and the qualitative standards in MAR30.5 to MAR30.16 also apply to the default risk model.
+
+## MAR33.19
+Default risk is the risk of direct loss due to an obligor’s default as well as the potential for indirect losses that may arise from a default event.
+
+## MAR33.20
+Default risk must be measured using a value-at-risk (VaR) model.
+
+- Banks must use a default simulation model with two types of systematic risk factors.
+
+- Default correlations must be based on credit spreads or on listed equity prices. Correlations must be based on data covering a period of 10 years that includes a period of stress as defined in MAR33.5 and based on a one-year liquidity horizon.
+
+- Banks must have clear policies and procedures that describe the correlation calibration process, documenting in particular in which cases credit spreads or equity prices are used.
+
+- Banks have the discretion to apply a minimum liquidity horizon of 60 days to the determination of default risk capital (DRC) requirement for equity sub-portfolios.
+
+- The VaR calculation must be conducted weekly and be based on a one-year time horizon at a one-tail, 99.9 percentile confidence level.
+[fnFAQ1][fnFAQ2][fnFAQ3][fnFAQ4]
+FAQ1: MAR33.20 and MAR33.28 state that correlations must be measured over a liquidity horizon of one year in line with MAR33.23, which states that a bank must assume constant positions over the one-year capital horizon. However, according to MAR33.23, a minimum liquidity horizon of 60 days can be applied to equity sub-portfolios. Should the correlations for equity sub-portfolios be calibrated utilising a 60-day liquidity horizon for consistency?
+
+Banks are permitted to calibrate correlations to liquidity horizons of 60 days in the case that a separate calculation is performed for equity sub-portfolios and these desks deal predominately in equity exposures. In the case of a desk with both equity and bond exposures, for which a joint calculation for default risk of equities and bonds needs to be performed, the correlations need to be calibrated to a liquidity horizon of one year.
+
+In this case, a bank is permitted to consistently use a 60-day probability of default (PD) for equities and a one-year PD for bonds.
+FAQ2: MAR33.20(2) states: “Default correlations must be based on credit spreads or on listed equity prices.” Are banks permitted to also include additional data sources (eg rating time series) in addition to equity prices in order to correct for a correlation bias observed in equity data?
+
+Only credit spreads or listed equity prices are permitted. No additional data sources (eg rating time series) are permitted.
+FAQ3: MAR33.20(1) specifies that banks must use a default simulation model with two types of systematic risk factors. To meet this condition, should the model always have two random variables that correspond to the systematic risk factors?
+
+Yes. Systematic risk in a DRC requirement model must be accounted for via multiple systematic factors of two different types. The random variable that determines whether an obligor defaults must be an obligor-specific function of the systematic factors of both types and of an idiosyncratic factor. For example, in a Merton-type model, obligor defaults when its asset return falls below an obligor-specific threshold that determines the obligor’s probability of default. Systematic risk can be described via systematic regional factors ( ) and systematic industry factors ( ). For each obligor , region factor loadings and industry factor loadings that describe the sensitivity of the obligor’s asset return to each systematic factor need to be chosen. There must be at least one non-zero factor loading for the region type and at least one non-zero factor loading for the industry type. The asset return of obligor can be represented as , where is the idiosyncratic risk factor and is the idiosyncratic factor loading.
+FAQ4: Is a 60-day liquidity horizon permitted to be used for all equity positions? Are banks permitted to use a longer liquidity horizon where appropriate, eg where equity is held to hedge hybrid positions (such as convertibles)?
+
+Yes, banks are permitted to use a 60-day liquidity horizon for all equity positions but are permitted to use a longer liquidity horizon where appropriate.
+
+## MAR33.21
+All positions subject to market risk capital requirements that have default risk as defined in MAR33.19, with the exception of those positions subject to the standardised approach, are subject to the DRC requirement model.
+
+- Sovereign exposures (including those denominated in the sovereign’s domestic currency), equity positions and defaulted debt positions must be included in the model.
+
+- For equity positions, the default of an issuer must be modelled as resulting in the equity price dropping to zero.
+
+## MAR33.22
+The DRC requirement model capital requirement is the greater of:
+
+- the average of the DRC requirement model measures over the previous 12 weeks; or
+
+- the most recent DRC requirement model measure.
+
+## MAR33.23
+A bank must assume constant positions over the one-year horizon, or 60 days in the context of designated equity sub-portfolios.
+[fnFAQ1][fnFAQ2]
+FAQ1: MAR33.20 and MAR33.27 state that correlations must be measured over a liquidity horizon of one year in line with MAR33.23, which states that a bank must assume constant positions over the one-year capital horizon. However, according to MAR33.23, a minimum liquidity horizon of 60 days can be applied to equity sub-portfolios. Should the correlations for equity sub-portfolios be calibrated utilising a 60-day liquidity horizon for consistency?
+
+Banks are permitted to calibrate correlations to liquidity horizons of 60 days in the case that a separate calculation is performed for equity sub-portfolios and these desks deal predominately in equity exposures. In the case of a desk with both equity and bond exposures, for which a joint calculation for default risk of equities and bonds needs to be performed, the correlations need to be calibrated to a liquidity horizon of one year.
+
+In this case, a bank is permitted to consistently use a 60-day probability of default (PD) for equities and a one-year PD for bonds.
+FAQ2: MAR33.23 states that a bank must have constant positions over the chosen liquidity horizon. However, MAR33.28 states that a bank must capture material mismatches between the position and its hedge. Please explain how these two paragraphs are to be consistently applied to securities with a maturity of less than one year.
+
+The concept of constant positions has changed in the market risk framework because the capital horizon is now meant to always be synonymous with the new definition of liquidity horizon and no new positions are added when positions expire during the capital horizon. For securities with a maturity under one year, a constant position can be maintained within the liquidity horizon but, much like under the Basel II.5 incremental risk charge, any maturity of a long or short position must be accounted for when the ability to maintain a constant position within the liquidity horizon cannot be contractually assured.
+
+## MAR33.24
+Default risk must be measured for each obligor.
+
+- Probabilities of default (PDs) implied from market prices are not acceptable unless they are corrected to obtain an objective probability of default.[fn3]
+
+- PDs are subject to a floor of 0.03%.
+[fn3] Market-implied PDs are not acceptable.
+
+## MAR33.25
+A bank’s model may reflect netting of long and short exposures to the same obligor. If such exposures span different instruments with exposure to the same obligor, the effect of the netting must account for different losses in the different instruments (eg differences in seniority).
+
+## MAR33.26
+The basis risk between long and short exposures of different obligors must be modelled explicitly. The potential for offsetting default risk among long and short exposures across different obligors must be included through the modelling of defaults. The pre-netting of positions before input into the model other than as described in MAR33.25 is not allowed.
+
+## MAR33.27
+The DRC requirement model must recognise the impact of correlations between defaults among obligors, including the effect on correlations of periods of stress as described below.
+
+- These correlations must be based on objective data and not chosen in an opportunistic way where a higher correlation is used for portfolios with a mix of long and short positions and a low correlation used for portfolios with long only exposures.
+
+- A bank must validate that its modelling approach for these correlations is appropriate for its portfolio, including the choice and weights of its systematic risk factors. A bank must document its modelling approach and the period of time used to calibrate the model.
+
+- These correlations must be measured over a liquidity horizon of one year.
+
+- These correlations must be calibrated over a period of at least 10 years.
+
+- Banks must reflect all significant basis risks in recognising these correlations, including, for example, maturity mismatches, internal or external ratings, vintage etc.
+[fnFAQ1][fnFAQ2]
+FAQ1: MAR33.20 and MAR33.27 state that correlations must be measured over a liquidity horizon of one year in line with MAR33.23, which states that a bank must assume constant positions over the one-year capital horizon. However, according to MAR33.23, a minimum liquidity horizon of 60 days can be applied to equity sub-portfolios. Should the correlations for equity sub-portfolios be calibrated utilising a 60-day liquidity horizon for consistency?
+
+Banks are permitted to calibrate correlations to liquidity horizons of 60 days in the case that a separate calculation is performed for equity sub-portfolios and these desks deal predominately in equity exposures. In the case of a desk with both equity and bond exposures, for which a joint calculation for default risk of equities and bonds needs to be performed, the correlations need to be calibrated to a liquidity horizon of one year.
+
+In this case, a bank is permitted to consistently use a 60-day PD for equities and a one-year PD for bonds.
+FAQ2: MAR33.23 states that a bank must have constant positions over the chosen liquidity horizon. However, MAR33.28 states that a bank must capture material mismatches between the position and its hedge. Please explain how these two paragraphs are to be consistently applied to securities with a maturity of less than one year.
+
+The concept of constant positions has changed in the market risk framework because the capital horizon is now meant to always be synonymous with the new definition of liquidity horizon and no new positions are added when positions expire during the capital horizon. For securities with a maturity under one year, a constant position can be maintained within the liquidity horizon but, much like under the Basel II.5 incremental risk charge, any maturity of a long or short position must be accounted for when the ability to maintain a constant position within the liquidity horizon cannot be contractually assured.
+
+## MAR33.28
+The bank’s model must capture any material mismatch between a position and its hedge. With respect to default risk within the one-year capital horizon, the model must account for the risk in the timing of defaults to capture the relative risk from the maturity mismatch of long and short positions of less than one-year maturity.
+
+## MAR33.29
+The bank’s model must reflect the effect of issuer and market concentrations, as well as concentrations that can arise within and across product classes during stressed conditions.
+
+## MAR33.30
+As part of this DRC requirement model, the bank must calculate, for each and every position subjected to the model, an incremental loss amount relative to the current valuation that the bank would incur in the event that the obligor of the position defaults.
+
+## MAR33.31
+Loss estimates must reflect the economic cycle; for example, the model must incorporate the dependence of the recovery on the systemic risk factors.
+
+## MAR33.32
+The bank’s model must reflect the non-linear impact of options and other positions with material non-linear behaviour with respect to default. In the case of equity derivatives positions with multiple underlyings, simplified modelling approaches (for example modelling approaches that rely solely on individual jump-to-default sensitivities to estimate losses when multiple underlyings default) may be applied (subject to supervisory approval).
+[fnFAQ1]
+FAQ1: MAR33.32 indicates that a bank may use a simplified modelling approach for equity derivative positions with multiple underlyings. May a similar simplified approach be used for non-correlation trading portfolio credit derivative positions with multiple underlyings?
+
+No. The simplified treatment applies only to equity derivatives.
+
+## MAR33.33
+Default risk must be assessed from the perspective of the incremental loss from default in excess of the mark-to-market losses already taken into account in the current valuation.
+
+## MAR33.34
+Owing to the high confidence standard and long capital horizon of the DRC requirement, robust direct validation of the DRC model through standard backtesting methods at the 99.9%/one-year soundness standard will not be possible.
+
+- Accordingly, validation of a DRC model necessarily must rely more heavily on indirect methods including but not limited to stress tests, sensitivity analyses and scenario analyses, to assess its qualitative and quantitative reasonableness, particularly with regard to the model’s treatment of concentrations.
+
+- Given the nature of the DRC soundness standard, such tests must not be limited to the range of events experienced historically.
+
+- The validation of a DRC model represents an ongoing process in which supervisors and firms jointly determine the exact set of validation procedures to be employed.
+
+## MAR33.35
+Banks should strive to develop relevant internal modelling benchmarks to assess the overall accuracy of their DRC models.
+
+## MAR33.36
+Due to the unique relationship between credit spread and default risk, banks must seek approval for each trading desk with exposure to these risks, both for credit spread risk and default risk. Trading desks which do not receive approval will be deemed ineligible for internal modelling standards and be subject to the standardised capital framework.
+
+## MAR33.37
+Where a bank has approved PD estimates as part of the internal ratings-based (IRB) approach, this data must be used. Where such estimates do not exist, or the bank’s supervisor determines that they are not sufficiently robust, PDs must be computed using a methodology consistent with the IRB methodology and satisfy the following conditions.
+
+- Risk-neutral PDs should not be used as estimates of observed (historical) PDs.
+
+- PDs must be measured based on historical default data including both formal default events and price declines equivalent to default losses. Where possible, this data should be based on publicly traded securities over a complete economic cycle. The minimum historical observation period for calibration purposes is five years.
+
+- PDs must be estimated based on historical data of default frequency over a one-year period. The PD may also be calculated on a theoretical basis (eg geometric scaling) provided that the bank is able to demonstrate that such theoretical derivations are in line with historical default experience.
+
+- PDs provided by external sources may also be used by banks, provided they can be shown to be relevant for the bank’s portfolio.
+
+## MAR33.38
+Where a bank has approved loss-given-default (LGD)[fn4] estimates as part of the IRB approach, this data must be used. Where such estimates do not exist, or the supervisor determines that they are not sufficiently robust, LGDs must be computed using a methodology consistent with the IRB methodology and satisfy the following conditions.
+
+- LGDs must be determined from a market perspective, based on a position’s current market value less the position’s expected market value subsequent to default. The LGD should reflect the type and seniority of the position and cannot be less than zero.
+
+- LGDs must be based on an amount of historical data that is sufficient to derive robust, accurate estimates.
+
+- LGDs provided by external sources may also be used by institutions, provided they can be shown to be relevant for the bank’s portfolio.
+[fn4] LGD should be interpreted in this context as 1 – recovery rate.
+
+## MAR33.39
+Banks must establish a hierarchy ranking their preferred sources for PDs and LGDs, in order to avoid the cherry-picking of parameters.
+
+# Calculation of capital requirement for model-ineligible trading desks
+
+## MAR33.40
+The regulatory capital requirement associated with trading desks that are either out-of-scope for model approval or that have been deemed ineligible to use an internal model (Cu) is to be calculated by aggregating all such risks and applying the standardised approach.
+
+# Aggregation of capital requirement
+
+## MAR33.41
+The aggregate (non-DRC) capital requirement for those trading desks approved and eligible for the IMA (ie trading desks that pass the backtesting requirements and that have been assigned to the PLA test green zone or amber zone (C_{A}) in MAR32.43 to MAR32.45) is equal to the maximum of the most recent observation and a weighted average of the previous 60 days scaled by a multiplier and is calculated as follows where SES is the aggregate regulatory capital measure for the risk factors in model-eligible trading desks that are non-modellable.
+
+## MAR33.42
+The multiplication factor m_{c} is fixed at 1.5 unless it is set at a higher level by the supervisory authority to reflect the addition of a qualitative add on and/or a backtesting add-on per the following considerations.
+
+- Banks must add to this factor a “plus” directly related to the ex-post performance of the model, thereby introducing a built-in positive incentive to maintain the predictive quality of the model.
+
+- For the backtesting add-on, the plus will range from 0 to 0.5 based on the outcome of the backtesting of the bank’s daily VaR at the 99th percentile based on current observations on the full set of risk factors (VaR_{FC}).
+
+- If the backtesting results are satisfactory and the bank meets all of the qualitative standards set out in MAR30.5 to MAR30.16, the plus factor could be zero. MAR32 presents in detail the approach to be applied for backtesting and the plus factor.
+
+- The backtesting add-on factor is determined based on the maximum of the exceptions generated by the backtesting results against actual P&L (APL) and hypothetical P&L (HPL) as described MAR32.
+
+## MAR33.43
+The aggregate capital requirement for market risk (ACR_{total}) is equal to the aggregate capital requirement for approved and eligible trading desks (IMA_{G,A} =C_{A}+ DRC) plus the standardised approach capital requirement for trading desks that are either out-of-scope for model approval or that have been deemed ineligible to use the internal models approach (C_{U}). If at least one eligible trading desk is in the PLA test amber zone, a capital surcharge is added. The impact of the capital surcharge is limited by the formula:
+
+## MAR33.44
+For the purposes of calculating the capital requirement, the risk factor eligibility test, the PLA test and the trading desk-level backtesting are applied on a quarterly basis to update the modellability of risk factors and desk classification to the PLA test green zone, amber zone, or red zone. In addition, the stressed period and the reduced set of risk factors (E_{R,C} and E_{R,S}) must be updated on a quarterly basis. The reference dates to perform the tests and to update the stress period and selection of the reduced set of risk factors should be consistent. Banks must reflect updates to the stressed period and to the reduced set of risk factors as well as the test results in calculating capital requirements in a timely manner. The averages of the previous 60 days (IMCC, SES) and or respectively 12 weeks (DRC) have only to be calculated at the end of the quarter for the purpose of calculating the capital requirement.
+
+## MAR33.45
+The capital surcharge is calculated as the difference between the aggregated standardised capital charges (SA_{G,A}) and the aggregated internal models-based capital charges ( ) multiplied by a factor k. To determine the aggregated capital charges, positions in all of the trading desks in the PLA green zone or amber zone are taken into account. The capital surcharge is floored at zero. In the formula below:
+
+- ;
+
+- denotes the standardised capital requirement for all the positions of trading desk “i”;
+
+- denotes the indices of all the approved trading desks in the amber zone; and
+
+- denotes the indices of all the approved trading desks in the green zone or amber zone.
+
+## MAR33.46
+The risk-weighted assets for market risk under the IMA are determined by multiplying the capital requirements calculated as set out in this chapter by 12.5.

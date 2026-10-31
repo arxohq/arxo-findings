@@ -1,0 +1,337 @@
+CAP30 — inforce 2019-12-15, published 2019-12-15; source sha256 28a8e617e966208fa2f586a0af98df25adebdf41900de24b439a8c8844a1d9ed
+Title: Regulatory adjustments | Bank for International Settlements
+
+# Introduction
+
+## CAP30.1
+This section sets out the regulatory adjustments to be applied to regulatory capital. In most cases these adjustments are applied in the calculation of Common Equity Tier 1.
+
+## CAP30.2
+Global systemically important banks (G-SIBs) are required to meet a minimum total loss-absorbing capacity (TLAC) requirement set in accordance with the Financial Stability Board's (FSB) TLAC principles and term sheet. The criteria for an instrument to be recognised as TLAC by the issuing G-SIB are set out in the FSB's TLAC Term Sheet. Banks that invest in TLAC or similar instruments may be required to deduct them in the calculation of their own regulatory capital.[fn1]
+[fn1] Principles on Loss-absorbing and Recapitalisation Capacity of G-SIBs in Resolution, Total Loss-absorbing Capacity (TLAC) Term Sheet, Financial Stability Board, November 2015, available at www.fsb.org/wp-content/uploads/TLAC-Principles-and-Term-Sheet-for-publication-final.pdf . The regulatory adjustments for TLAC set out in CAP30 relate to Section 15 of the FSB TLAC Term Sheet.
+
+## CAP30.3
+For the purposes of this section, holdings of TLAC include the following, hereafter collectively referred to as “other TLAC liabilities”:
+
+- All direct, indirect and synthetic investments in the instruments of a G-SIB resolution entity that are eligible to be recognised as external TLAC but that do not otherwise qualify as regulatory capital[fn2] for the issuing G-SIB, with the exception of instruments excluded by CAP30.4; and
+
+- All holdings of instruments issued by a G-SIB resolution entity that rank pari passu to any instruments included in CAP30.3(1), with the exceptions of:
+
+- instruments listed as liabilities excluded from TLAC in Section 10 of the FSB TLAC Term Sheet (“Excluded Liabilities”); and
+
+- instruments ranking pari passu with instruments eligible to be recognised as TLAC by virtue of the exemptions to the subordination requirements in Section 11 of the FSB TLAC Term Sheet.
+[fn2] Holdings of regulatory capital and other TLAC liabilities should reflect the investing bank’s actual exposure to the issuer as regulatory capital or TLAC (ie it is not reduced by amortisation, derecognition or transitional arrangements). This means that Tier 2 instruments that no longer count in full as regulatory capital (as a result of having a residual maturity of less than five years) continue to be recognised in full as a Tier 2 instrument by the investing bank for the regulatory adjustments in this section. Similarly, holdings of other TLAC liabilities in the final year of maturity are still subject to the regulatory adjustments in this chapter even when such instruments no longer receive any recognition in TLAC for the issuer.
+
+## CAP30.4
+In certain jurisdictions, G-SIBs may be able to recognise instruments ranking pari passu to Excluded Liabilities as external TLAC up to a limit, in accordance with the exemptions to the subordination requirements set out in the penultimate paragraph of Section 11 of the FSB TLAC Term Sheet. A bank’s holdings of such instruments will be subject to a proportionate deduction approach. Under this approach, only a proportion of holdings of instruments that are eligible to be recognised as external TLAC by virtue of the subordination exemptions will be considered a holding of TLAC by the investing bank. The proportion is calculated as:
+
+- the funding issued by the G-SIB resolution entity that ranks pari passu with Excluded Liabilities and that is recognised as external TLAC by the G-SIB resolution entity; divided by
+
+- the funding issued by the G-SIB resolution entity that ranks pari passu with Excluded Liabilities and that would be recognised as external TLAC if the subordination requirement was not applied.[fn3]
+[fn3] For example, if a G-SIB resolution entity has funding that ranks pari passu with Excluded Liabilities equal to 5% of risk-weighted assets (RWA) and receives partial recognition of these instruments as external TLAC equivalent to 3.5% of RWA , then an investing bank holding such instruments must include only 70% (= 3.5 / 5) of such instruments in calculating its TLAC holdings. The same proportion should be applied by the investing bank to any indirect or synthetic investments in instruments ranking pari passu with Excluded Liabilities and eligible to be recognised as TLAC by virtue of the subordination exemptions.
+
+## CAP30.5
+Under the proportionate deduction approach, banks must calculate their holdings of other TLAC liabilities of the respective issuing G-SIB resolution entities based on the latest available public information provided by the issuing G-SIBs on the proportion to be used.
+
+## CAP30.6
+The regulatory adjustments relating to TLAC in CAP30.18 to CAP30.31 apply to holdings of TLAC issued by G-SIBs from the date at which the issuing G-SIB becomes subject to a minimum TLAC requirement.[fn4]
+[fn4] The conformance period is set out in Section 21 of the FSB TLAC Term Sheet. In summary, firms that have been designated as G-SIBs before end-2015 and continue to be designated thereafter, with the exception of such firms headquartered in an emerging market economy, must meet the TLAC requirements from 1 January 2019. For firms headquartered in emerging market economies, the requirements will apply from 1 January 2025 at the latest; this may be accelerated in certain circumstances.
+
+# Goodwill and other intangibles (except mortgage servicing rights)
+
+## CAP30.7
+Goodwill and all other intangibles must be deducted in the calculation of Common Equity Tier 1, including any goodwill included in the valuation of significant investments in the capital of banking, financial and insurance entities that are outside the scope of regulatory consolidation. With the exception of mortgage servicing rights, the full amount is to be deducted net of any associated deferred tax liability (DTL) which would be extinguished if the intangible assets become impaired or derecognised under the relevant accounting standards. The amount to be deducted in respect of mortgage servicing rights is set out in the threshold deductions section below.
+[fnFAQ1][fnFAQ2]
+FAQ1: Must goodwill included in the valuation of significant investments in the capital of banking, financial and insurance entities that are outside the scope of regulatory consolidation and accounted for using the equity method also be deducted?
+
+Yes. Under the equity method, the carrying amount of the investment includes any goodwill. In line with CAP30.7 a firm should calculate a goodwill amount as at the acquisition date by separating any excess of the acquisition cost over the investor’s share of the net fair value of the identifiable assets and liabilities of the banking, financial or insurance entity. In accordance with applicable accounting standards, this goodwill amount may be adjusted for any subsequent impairment losses and reversal of impairment losses that can be assigned to the initial goodwill amount.
+FAQ2: Most intangible assets are deducted from regulatory capital, while tangible assets generally are not. Is the lessee's recognised asset under the new lease accounting standards (the right-of-use, or ROU, asset) an asset that is tangible or intangible?
+
+For regulatory capital purposes, an ROU asset should not be deducted from regulatory capital so long as the underlying asset being leased is a tangible asset.
+
+## CAP30.8
+Subject to prior supervisory approval, banks that report under local GAAP may use the IFRS definition of intangible assets to determine which assets are classified as intangible and are thus required to be deducted.
+
+# Deferred tax assets
+
+## CAP30.9
+Deferred tax assets (DTAs) that rely on future profitability of the bank to be realised are to be deducted in the calculation of Common Equity Tier 1. DTAs may be netted with associated DTLs only if the DTAs and DTLs relate to taxes levied by the same taxation authority and offsetting is permitted by the relevant taxation authority. Where these DTAs relate to temporary differences (eg allowance for credit losses) the amount to be deducted is set out in CAP30.32 to CAP30.34. All other such assets, eg those relating to operating losses, such as the carry forward of unused tax losses, or unused tax credits, are to be deducted in full net of deferred tax liabilities as described above. The DTLs permitted to be netted against DTAs must exclude amounts that have been netted against the deduction of goodwill, intangibles and defined benefit pension assets, and must be allocated on a pro rata basis between DTAs subject to the threshold deduction treatment and DTAs that are to be deducted in full.
+[fnFAQ1][fnFAQ2][fnFAQ3]
+FAQ1: Regarding the deduction of DTAs, is it correct that DTAs resulting from net operating losses are not subject to the 10% threshold? Is it correct that the current test in some jurisdictions to check whether DTAs are realisable within one year is not applicable under Basel III?
+
+All DTAs that depend on the future profitability of the bank to be realised and that arise from net operating losses are required to be deducted from Common Equity Tier 1 in full and so do not benefit from the 10% threshold. The test applied in certain jurisdictions to assess whether a DTA is realisable over a one year period is not applicable under Basel III.
+FAQ2: Given that DTAs and DTLs are accounting concepts, what does it mean to say that offsetting is permitted by the relevant taxation authority?
+
+It means that the underlying tax assets and tax liabilities must be permitted to be offset by the relevant taxation authority for any DTLs and DTAs created to be permitted to be offset in determining the deduction from regulatory capital.
+FAQ3: Could the Basel Committee provide guidance on the treatment of deferred taxes in a tax regime in which DTAs arising from temporary differences are automatically transformed into a tax credit in case a bank is not profitable, is liquidated or is placed under insolvency proceedings? In the tax regime the tax credit can be offset against any tax liability of the bank or of any legal entity belonging to the same group as allowed under that national tax regime, and if the amount of such tax liabilities is lower than such tax credit, any exceeding amount of the tax credit will be cash refundable by the central government. Do banks have to deduct DTAs arising from temporary differences in such tax regimes?
+
+No. Banks may apply a 100% risk weight for DTAs arising from temporary differences in such tax regimes.
+
+## CAP30.10
+An overinstallment of tax or, in some jurisdictions, current year tax losses carried back to prior years may give rise to a claim or receivable from the government or local tax authority. Such amounts are typically classified as current tax assets for accounting purposes. The recovery of such a claim or receivable would not rely on the future profitability of the bank and would be assigned the relevant sovereign risk weighting.
+
+# Cash flow hedge reserve
+
+## CAP30.11
+The amount of the cash flow hedge reserve that relates to the hedging of items that are not fair valued on the balance sheet (including projected cash flows) should be derecognised in the calculation of Common Equity Tier 1. This means that positive amounts should be deducted and negative amounts should be added back.
+
+## CAP30.12
+This treatment specifically identifies the element of the cash flow hedge reserve that is to be derecognised for prudential purposes. It removes the element that gives rise to artificial volatility in common equity, as in this case the reserve only reflects one half of the picture (the fair value of the derivative, but not the changes in fair value of the hedged future cash flow).
+
+# Shortfall of the stock of provisions to expected losses
+
+## CAP30.13
+Banks using the internal ratings-based (IRB) approach for other asset classes must compare the amount of total eligible provisions, as defined in CRE35.4, with the total expected loss amount as calculated within the IRB approach and defined in CRE35.2. Where the total expected loss amount exceeds total eligible provisions, banks must deduct the difference from Common Equity Tier 1. The full amount is to be deducted and should not be reduced by any tax effects that could be expected to occur if provisions were to rise to the level of expected losses. Securitisation exposures will be subject to CRE40.36 and will contribute to neither the total expected loss amount nor the total eligible provisions.
+
+# Gain on sale related to securitisation transactions
+
+## CAP30.14
+Banks must deduct from Common Equity Tier 1 any increase in equity capital resulting from a securitisation transaction, such as that associated with expected future margin income resulting in a gain on sale that is recognised in regulatory capital.
+
+# Cumulative gains and losses due to changes in own credit risk on fair valued liabilities
+
+## CAP30.15
+Derecognise in the calculation of Common Equity Tier 1, all unrealised gains and losses that have resulted from changes in the fair value of liabilities that are due to changes in the bank’s own credit risk. In addition, with regard to derivative liabilities, derecognise all accounting valuation adjustments arising from the bank's own credit risk. The offsetting between valuation adjustments arising from the bank's own credit risk and those arising from its counterparties' credit risk is not allowed.
+
+# Defined benefit pension fund assets and liabilities
+
+## CAP30.16
+Defined benefit pension fund liabilities, as included on the balance sheet, must be fully recognised in the calculation of Common Equity Tier 1 (ie Common Equity Tier 1 cannot be increased through derecognising these liabilities). For each defined benefit pension fund that is an asset on the balance sheet, the net asset on the balance sheet in respect of the plan or fund should be deducted in the calculation of Common Equity Tier 1 net of any associated deferred tax liability which would be extinguished if the asset should become impaired or derecognised under the relevant accounting standards. Assets in the fund to which the bank has unrestricted and unfettered access can, with supervisory approval, offset the deduction. Such offsetting assets should be given the risk weight they would receive if they were owned directly by the bank.
+[fnFAQ1]
+FAQ1: Certain accounting standards currently allow the deferral of actuarial losses beyond a specified threshold (ie the corridor approach) without recognition in the financial statements. Is it correct that the deficit as included on the balance sheet should be deducted if the corridor approach is applied in accounting for pensions?
+
+The liability as recorded on the balance sheet in respect of a defined benefit pension fund should be recognised in the calculation of Common Equity Tier 1. In other words, the creation of the liability on the balance sheet of the bank will automatically result in a reduction in the bank’s common equity (through a reduction in reserves) and no adjustment should be applied in respect of this in the calculation of Common Equity Tier 1.
+
+## CAP30.17
+This treatment addresses the concern that assets arising from pension funds may not be capable of being withdrawn and used for the protection of depositors and other creditors of a bank. The concern is that their only value stems from a reduction in future payments into the fund. The treatment allows for banks to reduce the deduction of the asset if they can address these concerns and show that the assets can be easily and promptly withdrawn from the fund.
+
+# Investments in own shares (treasury stock), own other capital instruments or own other TLAC liabilities
+
+## CAP30.18
+All of a bank’s investments in its own common shares, whether held directly or indirectly, will be deducted in the calculation of Common Equity Tier 1 (unless already derecognised under the relevant accounting standards). In addition, any own stock which the bank could be contractually obliged to purchase should be deducted in the calculation of Common Equity Tier 1. The treatment described will apply irrespective of the location of the exposure in the banking book or the trading book. In addition:
+
+- Gross long positions may be deducted net of short positions in the same underlying exposure only if the short positions involve no counterparty risk.
+
+- Banks should look through holdings of index securities to deduct exposures to own shares. However, gross long positions in own shares resulting from holdings of index securities may be netted against short position in own shares resulting from short positions in the same underlying index. In such cases the short positions may involve counterparty risk (which will be subject to the relevant counterparty credit risk charge).
+
+- Subject to supervisory approval, a bank may use a conservative estimate of investments in its own shares where the exposure results from holdings of index securities and the bank finds it operationally burdensome to look through and monitor its exact exposure.
+[fnFAQ1][fnFAQ2][fnFAQ3]
+FAQ1: If a bank acts as market-maker for its own capital instruments is this deemed to create any contractual obligations requiring deductions?
+
+Not until the bank has agreed to purchase stock at an agreed price and either this offer has been accepted or cannot be withdrawn. The purpose of the rule is to capture existing contractual arrangements that could lead to the bank being required to make a purchase of its own capital instruments at a price agreed in the contract (eg a forward purchase or a written put option), such that the extent of the potential loss is known in advance. It was not intended to capture all potential contracts that a bank may enter to in the future.
+FAQ2: For investments in own shares through holdings of index securities, banks may net gross long positions against short positions in the same underlying index. Can the same approach be applied to investments in unconsolidated financial entities?
+
+For both investments in own shares and investments in unconsolidated financial entities that result from holdings of index securities, banks are permitted to net gross long positions against short positions in the same underlying index as long as the maturity of the short position matches the maturity of the long position or has a residual maturity of at least one year.
+FAQ3: What would be the minimum standard for a firm to use a conservative estimate of its investments in the capital of banking, financial and insurance entities held through index securities?
+
+National authorities will provide guidance on what is a conservative estimate; however, the methodology for the estimate should demonstrate that in no case will the actual exposure be higher than the estimated exposure.
+
+## CAP30.19
+This deduction is necessary to avoid the double-counting of a bank’s own capital. Certain accounting regimes do not permit the recognition of treasury stock and so this deduction is only relevant where recognition on the balance sheet is permitted. The treatment seeks to remove the double-counting that arises from direct holdings, indirect holdings via index funds and potential future holdings as a result of contractual obligations to purchase own shares.
+
+## CAP30.20
+Following the same approach outlined above, banks must deduct investments in their own Additional Tier 1 in the calculation of their Additional Tier 1 capital and must deduct investments in their own Tier 2 in the calculation of their Tier 2 capital. G-SIB resolution entities must deduct holdings of their own other TLAC liabilities in the calculation of their TLAC resources. If a bank is required to make a deduction from a particular tier of capital and it does not have enough of that tier of capital to satisfy that deduction, then the shortfall will be deducted from the next higher tier of capital. In the case of insufficient TLAC resources, then the holdings will be deducted from Tier 2.
+[fnFAQ1]
+FAQ1: If a bank acts as market-maker for its own capital instruments, is this deemed to create any contractual obligations requiring deductions?
+
+Not until the bank has agreed to purchase stock at an agreed price and either this offer has been accepted or cannot be withdrawn. The purpose of the rule is to capture existing contractual arrangements that could lead to the bank being required to make a purchase of its own capital instruments at a price agreed in the contract (eg a forward purchase or a written put option), such that the extent of the potential loss is known in advance. It was not intended to capture all potential contracts that a bank may enter to in the future.
+
+# Reciprocal cross-holdings in the capital or other TLAC liabilities of banking, financial and insurance entities
+
+## CAP30.21
+Reciprocal cross-holdings of capital that are designed to artificially inflate the capital position of banks will be deducted in full. Banks must apply a “corresponding deduction approach” to such investments in the capital of other banks, other financial institutions and insurance entities. This means the deduction should be applied to the same component of capital for which the capital would qualify if it was issued by the bank itself. Reciprocal cross-holdings of other TLAC liabilities that are designed to artificially inflate the TLAC position of G-SIBs must be deducted in full from Tier 2 capital.
+[fnFAQ1][fnFAQ2][fnFAQ3][fnFAQ4]
+FAQ1: Is provision of capital support by way of guarantee or other capital enhancements treated as capital invested in financial institutions?
+
+Yes. It is treated as capital in respect of the maximum amount that could be required to be paid out on any such guarantee.
+FAQ2: Can the Basel Committee give some examples of what may be considered to be a financial institution / entity?
+
+Guidance should be sought from national supervisors. However, examples of the type of activities that financial entities might be involved in include financial leasing, issuing credit cards, portfolio management, investment advisory, custodial and safekeeping services and other similar activities that are ancillary to the business of banking.
+FAQ3: How should exposures to the capital of other financial institutions be valued for the purpose of determining the amount of to be subject to the threshold deduction treatment?
+
+Exposures should be valued according to their valuation on the balance sheet of the bank. In this way the exposures captured represents the loss to Common Equity Tier 1 that the bank would suffer if the capital of the financial institution is written-off.
+FAQ4: For capital instruments that are required to be phased out from 1 January 2013, the net amount allowed to be recognised each year onwards is determined on a portfolio basis according to CAP90.1 to CAP90.3. Regarding a bank that holds such instruments, ie the investing bank, could the Basel Committee explain how the corresponding deduction approach should be applied during the transitional phase? For example, if a non-common equity instrument is being phased out from Tier 1 by the issuing bank, should the bank use full value of the instrument or the amount recognised by the issuing bank (ie the phased-out value) to determine the size of the holding subject to the deduction treatment?
+
+During the period in which instruments that do not meet the Basel III entry criteria are being phased out from regulatory capital (ie from 1 January 2013 to 1 January 2022) banks must use the full value of any relevant capital instruments that they hold to calculate the amount to be subject to the deduction treatment set out in CAP30.21 to CAP30.30. For example, assume that a bank holds a capital instrument with a value of 100 on its balance sheet and also assume that the issuer of the capital instrument is a bank that only recognises 50 in its Tier 1 capital due to the application of the phasing-out requirements of CAP90.1 to CAP90.3. In this case the investing bank must apply the corresponding deduction approach set out in CAP30.21 to CAP30.30 on the basis that it has an investment of 100 in Additional Tier 1 instruments.
+
+# Investments in the capital or other TLAC liabilities of banking, financial and insurance entities that are outside the scope of regulatory consolidation and where the bank does not own more than 10% of the issued common share capital of the entity
+
+## CAP30.22
+The regulatory adjustment described in this section applies to investments in the capital or other TLAC liabilities of banking, financial and insurance entities that are outside the scope of regulatory consolidation and where the bank does not own more than 10% of the issued common share capital of the entity. These investments are deducted from regulatory capital, subject to a threshold. For the purpose of this regulatory adjustment:
+
+- Investments include direct, indirect[fn5] and synthetic holdings of capital instruments or other TLAC liabilities. For example, banks should look through holdings of index securities to determine their underlying holdings of capital or other TLAC liabilities.[fn6]
+
+- Holdings in both the banking book and trading book are to be included. Capital includes common stock and all other types of cash and synthetic capital instruments (eg subordinated debt). Other TLAC liabilities are defined in CAP30.3 and CAP30.4.
+
+- For capital instruments, it is the net long position that is to be included (ie the gross long position net of short positions in the same underlying exposure where the maturity of the short position either matches the maturity of the long position or has a residual maturity of at least one year). Banks are also permitted to net gross long positions arising through holdings of index securities against short positions in the same underlying index, as long as the maturity of the short position matches the maturity of the long position or has residual maturity of at least a year. For other TLAC liabilities, it is the gross long position in CAP30.23, CAP30.24 and CAP30.25 and the net long position that is to be included in CAP30.26.
+
+- Underwriting positions in capital instruments or other TLAC liabilities held for five working days or less can be excluded. Underwriting positions held for longer than five working days must be included.
+
+- If the capital instrument of the entity in which the bank has invested does not meet the criteria for Common Equity Tier 1, Additional Tier 1, or Tier 2 capital of the bank, the capital is to be considered common shares for the purposes of this regulatory adjustment.[fn7]
+
+- National discretion applies to allow banks, with prior supervisory approval, to exclude temporarily certain investments where these have been made in the context of resolving or providing financial assistance to reorganise a distressed institution.
+[fnFAQ1][fnFAQ2][fnFAQ3][fnFAQ4][fnFAQ5][fnFAQ6][fnFAQ7]
+[fn5] Indirect holdings are exposures or parts of exposures that, if a direct holding loses its value, will result in a loss to the bank substantially equivalent to the loss in value of the direct holding.
+[fn6] If banks find it operationally burdensome to look through and monitor their exact exposure to the capital or other TLAC liabilities of other financial institutions as a result of their holdings of index securities, national authorities may permit banks, subject to prior supervisory approval, to use a conservative estimate. The methodology should demonstrate that in no case will the actual exposure be higher than the estimated exposure.
+[fn7] If the investment is issued out of a regulated financial entity and not included in regulatory capital in the relevant sector of the financial entity, it is not required to be deducted.
+FAQ1: Is provision of capital support by way of guarantee or other capital enhancements treated as capital invested in financial institutions?
+
+Yes. It is treated as capital in respect of the maximum amount that could be required to be paid out on any such guarantee.
+FAQ2: Can the Basel Committee give some examples of what may be considered to be a financial institution / entity?
+
+Guidance should be sought from national supervisors. However, examples of the type of activities that financial entities might be involved in include financial leasing, issuing credit cards, portfolio management, investment advisory, custodial and safekeeping services and other similar activities that are ancillary to the business of banking.
+FAQ3: To what extent can long and short positions be netted for the purpose of computing the regulatory adjustments applying to investments in banking, financial and insurance entities?
+
+There is no restriction on the extent to which a short position can net a long position for the purposes of determining the size of the exposure to be deducted, subject to the short position meeting the requirements set out in CAP30.22 to CAP30.28.
+FAQ4: How should exposures to the capital of other financial institutions be valued for the purpose of determining the amount of to be subject to the threshold deduction treatment?
+
+Exposures should be valued according to their valuation on the balance sheet of the bank. In this way the exposures captured represents the loss to Common Equity Tier 1 that the bank would suffer if the capital of the financial institution is written-off.
+FAQ5: Can short positions in indexes that are hedging long cash or synthetic positions be decomposed to provide recognition of the hedge for capital purposes?
+
+The portion of the index that is composed of the same underlying exposure that it is being hedged can be used to offset the long position only if all of the following conditions are met: (i) both the exposure being hedged and the short position in the index are held in the trading book; (ii) the positions are fair valued on the bank’s balance sheet; and (iii) the hedge is recognised as effective under the bank’s internal control processes assessed by supervisors.
+FAQ6: Consider a bank that invests in an equity position (a long position) and sells it forward (a short position) to another bank (with maturity of forward sale below one year). Is it correct that both banks in this example will include a long position on the equity exposure, ie the selling bank cannot net the forward sale (as it has less than one year maturity) and the buying bank must recognise the forward purchase (as all long positions are added irrespective of maturity)? Also, given the fact that cash equity has no legal maturity, how does the maturity matching requirement apply?
+
+In the example both banks will be considered to have long positions on the equity exposure. Furthermore, the Basel III rules require that the maturity of the short position must either match the maturity of the long position or have a residual maturity of at least one year. Therefore, in the case of cash equity positions the short position must have a residual maturity of at least one year to be considered to offset the cash equity position. However, after considering this issue, the Basel Committee has concluded that, for positions in the trading book, if the bank has a contractual right/obligation to sell a long position at a specific point in time and the counterparty in the contract has an obligation to purchase the long position if the bank exercises its right to sell, this point in time may be treated as the maturity of the long position. Therefore if these conditions are met, the maturity of the long position and the short position are deemed to be matched even if the maturity of the short position is within one year.
+FAQ7: Does the five working day exemption for underwriting positions begin on the day the payment is made by the underwriter to the issuing bank?
+
+CAP30.22 relates to deductions of investments in other financial institutions, where the underlying policy rationale is to remove the double counting of capital that exists when such investments are made. When a bank underwrites the issuance of capital by another bank, the bank issuing capital will only receive recognition for this capital when the underwriter makes the payment to the issuing bank to purchase the capital instruments. As such, the underwriting bank need not include the (committed) purchase within “investments in the capital of other financial institutions” prior to the day on which payment is made by the underwriting bank to the issuing bank. The five day underwriting exemption begins on the date on which this payment is made and effectively permits five working days where double counting can exist before the exposure must be subject to the deduction treatment outlined in CAP30.22.
+
+## CAP30.23
+A G-SIB’s holdings of other TLAC liabilities must be deducted from Tier 2 capital resources, unless either the following conditions are met, or the holding falls within the 10% threshold provided in CAP30.26.
+
+- The holding has been designated by the bank to be treated in accordance with this paragraph;
+
+- The holding is in the bank’s trading book;
+
+- The holding is sold within 30 business days of the date of acquisition; and
+
+- Such holdings are, in aggregate and on a gross long basis, less than 5% of the G-SIB’s common equity (after apply all other regulatory adjustments in full listed prior to CAP30.22.
+
+## CAP30.24
+If a holding designated under CAP30.23 no longer meets any of the conditions set out in that paragraph, it must be deducted in full from Tier 2 capital. Once a holding has been designated under CAP30.23, it may not subsequently be included within the 10% threshold referred to in CAP30.26. This approach is designed to limit the use of the 5% threshold in CAP30.23 to holdings of TLAC instruments needed to be held within the banking system to ensure deep and liquid markets.
+
+## CAP30.25
+If a bank is not a G-SIB, its holdings of other TLAC liabilities must be deducted from Tier 2 capital resources, unless:
+
+- such holdings are, in aggregate and on a gross long basis, less than 5% of the bank’s common equity (after applying all other regulatory adjustments listed in full prior to CAP30.22); or
+
+- the holdings fall within the 10% threshold provided in CAP30.26.
+
+## CAP30.26
+If the total of all holdings of capital instruments and other TLAC liabilities, as listed in CAP30.22 and not covered by the 5% threshold described in CAP30.23 and CAP30.24 (for G-SIBs) or CAP30.25 (for non-G-SIBs), in aggregate and on a net long basis exceed 10% of the bank’s common equity (after applying all other regulatory adjustments in full listed prior to CAP30.22) then the amount above 10% is required to be deducted. In the case of capital instruments, deduction should be made applying a corresponding deduction approach. This means the deduction should be applied to the same component of capital for which the capital would qualify if it was issued by the bank itself. In the case of holdings of other TLAC liabilities, the deduction should be applied to Tier 2 capital. Accordingly, the amount to be deducted from common equity should be calculated as the total of all holdings of capital instruments and those holdings of other TLAC liabilities not covered by CAP30.23 and CAP30.24 or CAP30.25 which in aggregate exceed 10% of the bank’s common equity (as per above) multiplied by the common equity holdings as a percentage of the total holdings of capital instruments and other TLAC liabilities not covered by CAP30.23 and CAP30.24 or CAP30.25. This would result in a common equity deduction which corresponds to the proportion of the holdings held in common equity. Similarly, the amount to be deducted from Additional Tier 1 capital should be calculated as the total of all holdings of capital instruments and other TLAC liabilities not covered by CAP30.23 and CAP30.24 or CAP30.25 which in aggregate exceed 10% of the bank’s common equity (as per above) multiplied by the Additional Tier 1 capital holdings as a percentage of the total. The amount to be deducted from Tier 2 capital should be calculated as the total of all holdings of capital instruments and other TLAC liabilities not covered by CAP30.23 and CAP30.24 or CAP30.25 which in aggregate exceed 10% of the bank’s common equity (as per above) multiplied by holdings of the Tier 2 capital and other TLAC liabilities as a percentage of the total.
+[fnFAQ1][fnFAQ2][fnFAQ3]
+FAQ1: In many jurisdictions the entry criteria for capital issue by insurance companies and other financial entities will differ from the entry criteria for capital issued by banks. How should the corresponding deduction approach be applied in such cases?
+
+In respect of capital issued by insurance companies and other financial entities, jurisdictions are permitted to give national guidance as to what constitutes a corresponding deduction in cases where the entry criteria for capital issued by these companies differs from the entry criteria for capital issued by the bank and where the institution is subject to minimum prudential standards and supervision. Such guidance should aim to map the instruments issued by these companies to the tier of bank capital which is of the closest corresponding quality.
+FAQ2: Can further guidance be provided on the calculation of the thresholds for investments in the capital of other financial institutions, in particular the ordering of the application of the deductions?
+
+For further guidance on this issue, please see the calculations as set out in the Basel III implementation monitoring workbook and the related instructions. This can be found at www.bis.org/bcbs/qis/index.htm .
+FAQ3: For capital instruments that are required to be phased out from 1 January 2013, the net amount allowed to be recognised each year onwards is determined on a portfolio basis according to CAP90.1 to CAP90.3. Regarding a bank that holds such instruments, ie the investing bank, could the Basel Committee explain how the corresponding deduction approach should be applied during the transitional phase? For example, if a non-common equity instrument is being phased out from Tier 1 by the issuing bank, should the bank use full value of the instrument or the amount recognised by the issuing bank (ie the phased-out value) to determine the size of the holding subject to the deduction treatment?
+
+During the period in which instruments that do not meet the Basel III entry criteria are being phased out from regulatory capital (ie from 1 January 2013 to 1 January 2022) banks must use the full value of any relevant capital instruments that they hold to calculate the amount to be subject to the deduction treatment set out in CAP30.21 to CAP30.30. For example, assume that a bank holds a capital instrument with a value of 100 on its balance sheet and also assume that the issuer of the capital instrument is a bank that only recognises 50 in its Tier 1 capital due to the application of the phasing-out requirements of CAP90.1 to CAP90.3. In this case the investing bank must apply the corresponding deduction approach set out in CAP30.21 to CAP30.30 on the basis that it has an investment of 100 in Additional Tier 1 instruments.
+
+## CAP30.27
+If a bank is required to make a deduction from a particular tier of capital and it does not have enough of that tier of capital to satisfy that deduction, the shortfall will be deducted from the next higher tier of capital (eg if a bank does not have enough Additional Tier 1 capital to satisfy the deduction, the shortfall will be deducted from Common Equity Tier 1).
+
+## CAP30.28
+Amounts that are not deducted will continue to be risk weighted. Thus, instruments in the trading book will be treated as per the market risk rules and instruments in the banking book should be treated as per the IRB approach or the standardised approach (as applicable). For the application of risk weighting the amount of the holdings must be allocated on a pro rata basis between those below and those above the threshold.
+[fnFAQ1]
+FAQ1: Can the Committee confirm that where positions are deducted from capital they should not also contribute to risk-weighted assets (RWA)? Where positions are held in the trading book firms might have market risk hedges in place, so that if the holdings were excluded while leaving the hedges behind in the market risk calculations RWA could potentially increase. In such cases can banks choose to include such positions in their market risk calculations?
+
+Gross long positions that exceed the relevant thresholds and are therefore deducted from capital can be excluded for the calculation of risk weighted assets. However, amounts below the thresholds for deduction must be included in risk weighted assets. Furthermore, any counterparty credit risk associated with short positions used to offset long positions must remain included in the calculation of risk weighted assets.
+
+Regarding positions that are hedged against market risk, but where the hedge does not qualify for offsetting the gross long position for the purposes of determining the amount to be deducted, banks may choose to continue to include the long exposure in their market risk calculations (in addition to deducting the exposure). Where the hedge does qualify for offsetting the gross long position, both hedged long and short position can be, but does not have to be, excluded from the market risk calculations.
+
+# Significant investments in the capital or other TLAC liabilities of banking, financial and insurance entities that are outside the scope of regulatory consolidation
+
+## CAP30.29
+The regulatory adjustment described in this section applies to investments in the capital or other TLAC liabilities of banking, financial and insurance entities that are outside the scope of regulatory consolidation[fn8] where the bank owns more than 10% of the issued common share capital of the issuing entity or where the entity is an affiliate[fn9] of the bank. In addition:
+
+- Investments include direct, indirect and synthetic holdings of capital instruments or other TLAC liabilities. For example, banks should look through holdings of index securities to determine their underlying holdings of capital or other TLAC liabilities.[fn10]
+
+- Holdings in both the banking book and trading book are to be included. Capital includes common stock and all other types of cash and synthetic capital instruments (eg subordinated debt). Other TLAC liabilities are defined in CAP30.3 to CAP30.4. It is the net long position that is to be included (ie the gross long position net of short positions in the same underlying exposure where the maturity of the short position either matches the maturity of the long position or has a residual maturity of at least one year). Banks are also permitted to net gross long positions arising through holdings of index securities against short positions in the same underlying index, as long as the maturity of the short position matches the maturity of the long position or has residual maturity of at least a year.
+
+- Underwriting positions in capital instruments or other TLAC liabilities held for five working days or less can be excluded. Underwriting positions held for longer than five working days must be included.
+
+- If the capital instrument of the entity in which the bank has invested does not meet the criteria for Common Equity Tier 1, Additional Tier 1, or Tier 2 capital of the bank, the capital is to be considered common shares for the purposes of this regulatory adjustment.[fn11]
+
+- National discretion applies to allow banks, with prior supervisory approval, to exclude temporarily certain investments where these have been made in the context of resolving or providing financial assistance to reorganise a distressed institution.
+
+[fnFAQ1][fnFAQ2][fnFAQ3][fnFAQ4][fnFAQ5][fnFAQ6]
+[fn8] Investments in entities that are outside of the scope of regulatory consolidation refers to investments in entities that have not been consolidated at all or have not been consolidated in such a way as to result in their assets being included in the calculation of consolidated risk-weighted assets of the group.
+[fn9] An affiliate of a bank is defined as a company that controls, or is controlled by, or is under common control with, the bank. Control of a company is defined as (1) ownership, control, or holding with power to vote 20% or more of a class of voting securities of the company; or (2) consolidation of the company for financial reporting purposes.
+[fn10] If a bank finds it operationally burdensome to look through and monitor their exact exposure to the capital or other TLAC liabilities of other financial institutions as a result of their holdings of index securities, national authorities may permit banks, subject to prior supervisory approval, to use a conservative estimate.
+[fn11] If the investment is issued out of a regulated financial entity and not included in regulatory capital in the relevant sector of the financial entity, it is not required to be deducted.
+FAQ1: Is provision of capital support by way of guarantee or other capital enhancements treated as capital invested in financial institutions?
+
+Yes. It is treated as capital in respect of the maximum amount that could be required to be paid out on any such guarantee.
+FAQ2: Can the Basel Committee give some examples of what may be considered to be a financial institution / entity?
+
+Guidance should be sought from national supervisors. However, examples of the type of activities that financial entities might be involved in include financial leasing, issuing credit cards, portfolio management, investment advisory, custodial and safekeeping services and other similar activities that are ancillary to the business of banking.
+FAQ3: To what extent can long and short positions be netted for the purpose of computing the regulatory adjustments applying to investments in banking, financial and insurance entities?
+
+There is no restriction on the extent to which a short position can net a long position for the purposes of determining the size of the exposure to be deducted, subject to the short position meeting the requirements set out in CAP30.29 to CAP30.31.
+FAQ4: Can significant investments in insurance entities, including fully owned insurance subsidiaries, be consolidated for regulatory purposes as an alternative to the deduction treatment set out in CAP30.28 to CAP30.34?
+
+Jurisdictions can permit or require banks to consolidate significant investments in insurance entities as an alternative to the deduction approach on the condition that the method of consolidation results in a minimum capital standard that is at least as conservative as that which would apply under the deduction approach, ie the consolidation method cannot result in banks benefiting from higher capital ratios than would apply under the deduction approach.
+
+In order to ensure this outcome, banks that apply a consolidation approach are required to calculate their capital ratios under both the consolidation approach and the deduction approach, at each period that they report or disclose these ratios.
+
+In cases when the consolidation approach results in lower capital ratios than the deduction approach (ie consolidation has a more conservative outcome than deduction), banks will report these lower ratios. In cases when the consolidation approach results in any of the bank’s capital ratios being higher than the ratios calculated under the deduction approach (ie consolidation has a less conservative outcome than deduction), the bank must adjust the capital ratio downwards through applying a regulatory adjustment (ie a deduction) to the relevant component of capital.
+FAQ5: Can short positions in indexes that are hedging long cash or synthetic positions be decomposed to provide recognition of the hedge for capital purposes?
+
+The portion of the index that is composed of the same underlying exposure that it is being hedged can be used to offset the long position only if all of the following conditions are met: (i) both the exposure being hedged and the short position in the index are held in the trading book; (ii) the positions are fair valued on the bank’s balance sheet; and (iii) the hedge is recognised as effective under the bank’s internal control processes assessed by supervisors.
+FAQ6: Consider a bank that invests in an equity position (a long position) and sells it forward (a short position) to another bank (with maturity of forward sale below one year). Is it correct that both banks in this example will include a long position on the equity exposure, ie the selling bank cannot net the forward sale (as it has less than one year maturity) and the buying bank must recognise the forward purchase (as all long positions are added irrespective of maturity)? Also, given the fact that cash equity has no legal maturity, how does the maturity matching requirement apply?
+
+In the example both banks will be considered to have long positions on the equity exposure. Furthermore, the Basel III rules require that the maturity of the short position must either match the maturity of the long position or have a residual maturity of at least one year. Therefore, in the case of cash equity positions the short position must have a residual maturity of at least one year to be considered to offset the cash equity position. However, after considering this issue, the Basel Committee has concluded that, for positions in the trading book, if the bank has a contractual right/obligation to sell a long position at a specific point in time and the counterparty in the contract has an obligation to purchase the long position if the bank exercises its right to sell, this point in time may be treated as the maturity of the long position. Therefore if these conditions are met, the maturity of the long position and the short position are deemed to be matched even if the maturity of the short position is within one year.
+
+## CAP30.30
+All investments in capital instruments included above that are not common shares must be fully deducted following a corresponding deduction approach. This means the deduction should be applied to the same tier of capital for which the capital would qualify if it was issued by the bank itself. All holdings of other TLAC liabilities included above (and as defined in CAP30.3 to CAP30.5 ie applying the proportionate deduction approach for holdings of instruments eligible for TLAC by virtue of the penultimate paragraph of Section 11 of the FSB TLAC Term Sheet) must be fully deducted from Tier 2 capital. If the bank is required to make a deduction from a particular tier of capital and it does not have enough of that tier of capital to satisfy that deduction, the shortfall will be deducted from the next higher tier of capital (eg if a bank does not have enough Additional Tier 1 capital to satisfy the deduction, the shortfall will be deducted from Common Equity Tier 1).
+[fnFAQ1][fnFAQ2]
+FAQ1: In many jurisdictions the entry criteria for capital issued by insurance companies and other financial entities will differ from the entry criteria for capital issued by banks. How should the corresponding deduction approach be applied in such cases?
+
+In respect of capital issued by insurance companies and other financial entities, jurisdictions are permitted to give national guidance as to what constitutes a corresponding deduction in cases where the entry criteria for capital issued by these companies differs from the entry criteria for capital issued by the bank and where the institution is subject to minimum prudential standards and supervision. Such guidance should aim to map the instruments issued by these companies to the tier of bank capital which is of the closest corresponding quality.
+FAQ2: For capital instruments that are required to be phased out from 1 January 2013, the net amount allowed to be recognised each year onwards is determined on a portfolio basis according to CAP90.1 to CAP90.3. Regarding a bank that holds such instruments, ie the investing bank, could the Basel Committee explain how the corresponding deduction approach should be applied during the transitional phase? For example, if a non-common equity instrument is being phased out from Tier 1 by the issuing bank, should the bank use full value of the instrument or the amount recognised by the issuing bank (ie the phased-out value) to determine the size of the holding subject to the deduction treatment?
+
+During the period in which instruments that do not meet the Basel III entry criteria are being phased out from regulatory capital (ie from 1 January 2013 to 1 January 2022) banks must use the full value of any relevant capital instruments that they hold to calculate the amount to be subject to the deduction treatment set out in CAP30.20 to CAP30.29. For example, assume that a bank holds a capital instrument with a value of 100 on its balance sheet and also assume that the issuer of the capital instrument is a bank that only recognises 50 in its Tier 1 capital due to the application of the phasing-out requirements of CAP90.1 to CAP90.3. In this case the investing bank must apply the corresponding deduction approach set out in CAP30.20 to CAP30.29 on the basis that it has an investment of 100 in Additional Tier 1 instruments.
+
+## CAP30.31
+Investments included above that are common shares will be subject to the threshold treatment described in the next section.
+
+# Threshold deductions
+
+## CAP30.32
+Instead of a full deduction, the following items may each receive limited recognition when calculating Common Equity Tier 1, with recognition capped at 10% of the bank’s common equity (after the application of all regulatory adjustments set out in CAP30.7 to CAP30.30):
+
+- significant investments in the common shares of unconsolidated financial institutions (banks, insurance and other financial entities) as referred to in CAP30.29;
+
+- mortgage servicing rights; and
+
+- DTAs that arise from temporary differences.
+[fnFAQ1][fnFAQ2]
+FAQ1: What is the definition of a financial institution?
+
+The definition is determined by national guidance / regulation at present.
+FAQ2: How should exposures to the capital of other financial institutions be valued for the purpose of determining the amount of to be subject to the threshold deduction treatment?
+
+Exposures should be valued according to their valuation on the balance sheet of the bank. In this way the exposures captured represents the loss to Common Equity Tier 1 that the bank would suffer if the capital of the financial institution is written off.
+
+## CAP30.33
+The amount of the three items that remains recognised after the application of all regulatory adjustments must not exceed 15% of the Common Equity Tier 1 capital, calculated after all regulatory adjustments.
+[fnFAQ1]
+FAQ1: This FAQ is meant to clarify the calculation of the 15% limit on significant investments in the common shares of unconsolidated financial institutions (banks, insurance and other financial entities); mortgage servicing rights, and DTAs arising from temporary differences (collectively referred to as specified items).
+
+The recognition of these specified items will be limited to 15% of Common Equity Tier 1 capital, after the application of all deductions. To determine the maximum amount of the specified items that can be recognised*, banks and supervisors should multiply the amount of Common Equity Tier 1** (after all deductions, including after the deduction of the specified items in full) by 17.65%. This number is derived from the proportion of 15% to 85% (ie 15%/85% = 17.65%).
+
+As an example, take a bank with €85 of common equity (calculated net of all deductions, including after the deduction of the specified items in full). The maximum amount of specified items that can be recognised by this bank in its calculation of Common Equity Tier 1 capital is €85 x 17.65% = €15. Any excess above €15 must be deducted from Common Equity Tier 1. If the bank has specified items (excluding amounts deducted after applying the individual 10% limits) that in aggregate sum up to the 15% limit, Common Equity Tier 1 after inclusion of the specified items, will amount to €85 + €15 = €100. The percentage of specified items to total Common Equity Tier 1 would equal 15%.
+
+* The actual amount that will be recognised may be lower than this maximum, either because the sum of the three specified items are below the 15% limit set out in this annex, or due to the application of the 10% limit applied to each item.
+
+** At this point this is a "hypothetical" amount of Common Equity Tier 1 in that it is used only for the purposes of determining the deduction of the specified items.
+
+## CAP30.34
+The amount of the three items that are not deducted in the calculation of Common Equity Tier 1 will be risk weighted at 250%.
+[fnFAQ1]
+FAQ1: Could the Basel Committee provide guidance on the treatment of deferred taxes in a tax regime in which DTAs arising from temporary differences are automatically transformed into a tax credit in case a bank is not profitable, is liquidated or is placed under insolvency proceedings? In the tax regime the tax credit can be offset against any tax liability of the bank or of any legal entity belonging to the same group as allowed under that national tax regime, and if the amount of such tax liabilities is lower than such tax credit, any exceeding amount of the tax credit will be cash refundable by the central government. Do banks have to deduct DTAs arising from temporary differences in such tax regimes?
+
+No. Banks may apply a 100% risk weight for DTAs arising from temporary differences in such tax regimes.

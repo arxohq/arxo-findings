@@ -1,0 +1,105 @@
+{
+  "id": "ARXO-2026-0398",
+  "url": "https://arxo.io/findings/ARXO-2026-0398/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework OPE25 (in force 2027-01-01, published 2024-07-05)",
+  "acts": [],
+  "location": "OPE25.8 ILM formula, BIC = 0",
+  "text": {
+    "en": {
+      "title": "Basel Framework: OPE25.8 ILM formula, BIC = 0",
+      "summary": "The OPE25.8 ILM formula has no rule for BIC equal to zero when a bucket 1 bank is allowed to use loss data.",
+      "impact": "Position: Bucket 1 bank under discretion to use loss data, BI 0, losses 10 per year (LC 150) Reading a: Formula: LC/BIC with BIC 0 -> undefined Reading b: ILM=1 as bucket 1 rule -> ORC 0 Difference: undefined vs 0",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework OPE25 (in force 2027-01-01, published 2024-07-05)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2024-07-05",
+        "locator": "OPE25.8 ILM formula, BIC = 0",
+        "text": "The ILM is defined as below, where the Loss Component (LC) is equal to 15 times average annual operational risk losses incurred over the previous 10 years:",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/ope/25/inforce/2027-01-01/published/2024-07-05",
+        "sha256": "f04841ee703c97f946d78a7daec5faca4269aeea456346fe8e634c52189b9efb",
+        "retrieved": "2026-10-31",
+        "copy": "sources/f04841ee703c97f9-OPE25@2027-01-01~2024-07-05.txt",
+        "copy_sha256": "f04841ee703c97f946d78a7daec5faca4269aeea456346fe8e634c52189b9efb",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "ARXO-2026-0360",
+  "url": "https://arxo.io/findings/ARXO-2026-0360/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework CRE30 (in force 2023-01-01, published 2020-03-27)",
+  "acts": [],
+  "location": "CRE30.37 fn6",
+  "text": {
+    "en": {
+      "title": "Basel Framework: CRE30.37 fn6",
+      "summary": "Footnote 6 of CRE30.37 sends the domestic-exposure maturity exemption to CRE32.44, but it is in CRE32.45.",
+      "impact": "Position: A-IRB bank, domestic corporate group sales and assets EUR 300m Reading a: Follow footnote to CRE32.44: no exemption found, must measure M Reading b: Follow CRE32.45: supervisor may allow fixed 2.5 years Difference: Measured M vs 2.5 fixed",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework CRE30 (in force 2023-01-01, published 2020-03-27)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-03-27",
+        "locator": "CRE30.37 fn6",
+        "text": "[fn6] At the discretion of the national supervisor, certain domestic exposures may be exempt from the calculation of M (see CRE32.44).",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/30/inforce/2023-01-01/published/2020-03-27",
+        "sha256": "4d47fea78cbb9333e9026a15e0f7908b175470dcc6245522c2b9d3ed6206e0b9",
+        "retrieved": "2026-10-31",
+        "copy": "sources/4d47fea78cbb9333-CRE30@2023-01-01~2020-03-27.txt",
+        "copy_sha256": "4d47fea78cbb9333e9026a15e0f7908b175470dcc6245522c2b9d3ed6206e0b9",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Basel Framework CRE32 (in force 2023-01-01, published 2020-03-27)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-03-27",
+        "locator": "CRE32.45",
+        "text": "Banks using any element of the A-IRB approach are required to measure effective maturity for each facility as defined below. However, national supervisors may allow the effective maturity to be fixed at 2.5 years",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/32/inforce/2023-01-01/published/2020-03-27",
+        "sha256": "380431d29284c71db0c84ae1bac673344896b480f941dbb303fa487ad814e015",
+        "retrieved": "2026-10-31",
+        "copy": "sources/380431d29284c71d-CRE32@2023-01-01~2020-03-27.txt",
+        "copy_sha256": "380431d29284c71db0c84ae1bac673344896b480f941dbb303fa487ad814e015",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

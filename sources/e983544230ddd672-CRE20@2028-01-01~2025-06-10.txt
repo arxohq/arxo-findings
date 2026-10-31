@@ -1,0 +1,857 @@
+CRE20 — inforce 2028-01-01, published 2025-06-10; source sha256 4ea040e70074f6fc52895163ccc811939ec5ebf88c9c80019f0f4b8aba89ae92
+Title: Standardised approach: individual exposures | Bank for International Settlements
+
+# Introduction
+
+## CRE20.1
+Banks can choose between two broad methodologies for calculating their risk-based capital requirements for credit risk. The first is the standardised approach, which is set out in chapters CRE20 to CRE22:
+
+- The standardised approach assigns standardised risk weights to exposures as described in this chapter, CRE20. Risk weighted assets are calculated as the product of the standardised risk weights and the exposure amount. Exposures should be risk-weighted net of specific provisions (including partial write-offs).
+
+- To determine the risk weights in the standardised approach for certain exposure classes, in jurisdictions that allow the use of external ratings for regulatory purposes, banks may, as a starting point, use assessments by external credit assessment institutions that are recognised as eligible for capital purposes by national supervisors. The requirements covering the use of external ratings are set out in chapter CRE21.[fn1]
+
+- The credit risk mitigation techniques that are permitted to be recognised under the standardised approach are set out in chapter CRE22.
+[fn1] The notations in CRE20 to CRE22 follow the methodology used by one institution, Standard and Poor’s (S&P). The use of S&P credit ratings is an example only; those of some other external credit assessment institutions could equally well be used. The ratings used throughout this document, therefore, do not express any preferences or determinations on external assessment institutions by the Committee.
+
+## CRE20.2
+The second risk-weighted capital treatment for measuring credit risk, the internal ratings-based (IRB) approach, allows banks to use their internal rating systems for credit risk, subject to the explicit approval of the bank’s supervisor. The IRB approach is set out in CRE30 to CRE36.
+
+## CRE20.3
+The treatment of the following exposures is addressed in separate chapters of the credit risk standard:
+
+- Equity investments in funds are addressed in CRE60.
+
+- Securitisation exposures are addressed in CRE40 to CRE45.
+
+- Exposures to central counterparties are addressed in CRE54.
+
+- Exposures arising from unsettled transactions and failed trades are addressed in CRE70.
+
+# Due diligence requirements
+
+## CRE20.4
+Consistent with the Committee's guidance on the assessment of credit risk[fn2] and paragraphs SRP20.12 to SRP20.14 of the supervisory review process standard, banks must perform due diligence to ensure that they have an adequate understanding, at origination and thereafter on a regular basis (at least annually), of the risk profile and characteristics of their counterparties. In cases where ratings are used, due diligence is necessary to assess the risk of the exposure for risk management purposes and whether the risk weight applied is appropriate and prudent.[fn3] The sophistication of the due diligence should be appropriate to the size and complexity of banks' activities. Banks must take reasonable and adequate steps to assess the operating and financial performance levels and trends through internal credit analysis and/or other analytics outsourced to a third party, as appropriate for each counterparty. Banks must be able to access information about their counterparties on a regular basis to complete due diligence analyses.
+[fnFAQ1]
+[fn2] Basel Committee on Banking Supervision, Guidance on credit risk and accounting for expected credit losses, December 2015, available at www.bis.org/bcbs/publ/d350.pdf .
+[fn3] The due diligence requirements do not apply to the exposures set out in CRE20.7 to CRE20.12.
+FAQ1: Should banks assess climate-related financial risks as part of the due diligence analyses with respect to counterparty creditworthiness?
+
+Climate-related financial risks can impact banks’ credit risk exposure through their counterparties. To the extent that the risk profile of a counterparty is affected by climate-related financial risks, banks should give proper consideration to the climate-related financial risks as part of the counterparty due diligence. To that end, banks should integrate climate-related financial risks either in their own credit risk assessment or when performing due diligence on external ratings.
+
+## CRE20.5
+For exposures to entities belonging to consolidated groups, due diligence should, to the extent possible, be performed at the solo entity level to which there is a credit exposure. In evaluating the repayment capacity of the solo entity, banks are expected to take into account the support of the group and the potential for it to be adversely impacted by problems in the group.
+
+## CRE20.6
+Banks should have in place effective internal policies, processes, systems and controls to ensure that the appropriate risk weights are assigned to counterparties. Banks must be able to demonstrate to their supervisors that their due diligence analyses are appropriate. As part of their supervisory review, supervisors should ensure that banks have appropriately performed their due diligence analyses, and should take supervisory measures where these have not been done.
+
+# Exposures to sovereigns
+
+## CRE20.7
+Exposures to sovereigns and their central banks will be risk-weighted as follows:
+
+| Risk weight table for sovereigns and central banks | Risk weight table for sovereigns and central banks | Risk weight table for sovereigns and central banks | Risk weight table for sovereigns and central banks | Risk weight table for sovereigns and central banks | Risk weight table for sovereigns and central banks | Table 1 | Table 1 |
+| External rating | AAA to AA– | A+ to A– | BBB+ to BBB– | BB+ to B– | Below B– | Below B– | Unrated |
+| Risk weight | 0% | 20% | 50% | 100% | 150% | 150% | 100% |
+
+## CRE20.8
+At national discretion, a lower risk weight may be applied to banks’ exposures to their sovereign (or central bank) of incorporation denominated in domestic currency and funded[fn4] in that currency.[fn5] Where this discretion is exercised, other national supervisors may also permit their banks to apply the same risk weight to domestic currency exposures to this sovereign (or central bank) funded in that currency.
+[fn4] This is to say that the bank would also have corresponding liabilities denominated in the domestic currency.
+[fn5] This lower risk weight may be extended to the risk-weighting of collateral and guarantees under the CRM framework CRE22.
+
+## CRE20.9
+For the purpose of risk-weighting exposures to sovereigns, supervisors may recognise the country risk scores assigned by Export Credit Agencies (ECAs). To qualify, an ECA must publish its risk scores and subscribe to the methodology agreed by the Organisation for Economic Cooperation and Development (OECD). Banks may choose to use the risk scores published by individual ECAs that are recognised by their supervisor, or the consensus risk scores of ECAs participating in the “Arrangement on Officially Supported Export Credits”.[fn6] The OECD-agreed methodology establishes eight risk score categories associated with minimum export insurance premiums. These ECA risk scores will correspond to risk weight categories as detailed below.
+
+| Risk weight table for sovereigns and central banks | Risk weight table for sovereigns and central banks | Risk weight table for sovereigns and central banks | Risk weight table for sovereigns and central banks | Risk weight table for sovereigns and central banks | Risk weight table for sovereigns and central banks | Table 2 |
+| ECA risk scores | 0 to 1 | 2 | 3 | 4 to 6 | 7 | 7 |
+| Risk weight | 0% | 20% | 50% | 100% | 150% | 150% |
+[fn6] The consensus country risk classifications of the Participants to the Arrangement on Officially Supported Export Credits are available on the OECD’s website ( www.oecd.org ).
+
+## CRE20.10
+Exposures to the Bank for International Settlements, the International Monetary Fund, the European Central Bank, the European Union, the European Stability Mechanism and the European Financial Stability Facility may receive a 0% risk weight.
+
+# Exposures to non-central government public sector entities (PSEs)
+
+## CRE20.11
+Exposures to domestic PSEs will be risk-weighted at national discretion, according to either of the following two options.
+
+| Risk weight table for PSEs Option 1: Based on external rating of sovereign | Risk weight table for PSEs Option 1: Based on external rating of sovereign | Risk weight table for PSEs Option 1: Based on external rating of sovereign | Risk weight table for PSEs Option 1: Based on external rating of sovereign | Risk weight table for PSEs Option 1: Based on external rating of sovereign | Table 3 | Table 3 |
+| External rating of the sovereign | AAA to AA– | A+ to A– | BBB+ to BBB– | BB+ to B– | Below B– | Unrated |
+| Risk weight under Option 1 | 20% | 50% | 100% | 100% | 150% | 100% |
+
+| Risk weight table for PSEs Option 2: Based on external rating of PSE | Risk weight table for PSEs Option 2: Based on external rating of PSE | Risk weight table for PSEs Option 2: Based on external rating of PSE | Risk weight table for PSEs Option 2: Based on external rating of PSE | Risk weight table for PSEs Option 2: Based on external rating of PSE | Risk weight table for PSEs Option 2: Based on external rating of PSE | Table 4 | Table 4 |
+| External rating of the PSE | AAA to AA– | A+ to A– | BBB+ to BBB– | BB+ to B– | Below B– | Below B– | Unrated |
+| Risk weight under Option 2 | 20% | 50% | 50% | 100% | 150% | 150% | 50% |
+
+## CRE20.12
+Subject to national discretion, exposures to certain domestic PSEs[fn7] may also be treated as exposures to the sovereigns in whose jurisdictions the PSEs are established. Where this discretion is exercised, other national supervisors may allow their banks to risk-weight exposures to such PSEs in the same manner.
+[fn7] The following examples outline how PSEs might be categorised when focusing on one specific feature, namely revenue-raising powers. However, there may be other ways of determining the different treatments applicable to different types of PSEs, for instance by focusing on the extent of guarantees provided by the central government:
+
+(a)
+
+Regional governments and local authorities could qualify for the same treatment as claims on their sovereign or central government if these governments and local authorities have specific revenue-raising powers and have specific institutional arrangements the effect of which is to reduce their risk of default.
+
+(b)
+
+Administrative bodies responsible to central governments, regional governments or to local authorities and other non-commercial undertakings owned by the governments or local authorities may not warrant the same treatment as claims on their sovereign if the entities do not have revenue-raising powers or other arrangements as described above. If strict lending rules apply to these entities and a declaration of bankruptcy is not possible because of their special public status, it may be appropriate to treat these claims according to Option 1 or 2 for PSEs.
+
+(c)
+
+Commercial undertakings owned by central governments, regional governments or by local authorities may be treated as normal commercial enterprises. In particular, if these entities function as a corporate in competitive markets even though the state, a regional authority or a local authority is the major shareholder of these entities, supervisors should decide to consider them as corporates and therefore attach to them the applicable risk weights.
+
+# Exposures to multilateral development banks (MDBs)
+
+## CRE20.13
+For the purposes of calculating capital requirements, a Multilateral Development Bank (MDB) is an institution created by a group of countries that provides financing and professional advice for economic and social development projects. MDBs have large sovereign memberships and may include both developed and/or developing countries. Each MDB has its own independent legal and operational status, but with a similar mandate and a considerable number of joint owners.
+
+## CRE20.14
+A 0% risk weight will be applied to exposures to MDBs that fulfil to the Committee’s satisfaction the eligibility criteria provided below.[fn8] The Committee will continue to evaluate eligibility on a case-by-case basis. The eligibility criteria for MDBs risk-weighted at 0% are:
+
+- very high-quality long-term issuer ratings, ie a majority of an MDB’s external ratings must be AAA;[fn9]
+
+- either the shareholder structure comprises a significant proportion of sovereigns with long-term issuer external ratings of AA– or better, or the majority of the MDB’s fund-raising is in the form of paid-in equity/capital and there is little or no leverage;
+
+- strong shareholder support demonstrated by the amount of paid-in capital contributed by the shareholders; the amount of further capital the MDBs have the right to call, if required, to repay their liabilities; and continued capital contributions and new pledges from sovereign shareholders;
+
+- adequate level of capital and liquidity (a case-by-case approach is necessary in order to assess whether each MDB’s capital and liquidity are adequate); and,
+
+- strict statutory lending requirements and conservative financial policies, which would include among other conditions a structured approval process, internal creditworthiness and risk concentration limits (per country, sector, and individual exposure and credit category), large exposures approval by the board or a committee of the board, fixed repayment schedules, effective monitoring of use of proceeds, status review process, and rigorous assessment of risk and provisioning to loan loss reserve.
+[fn8] MDBs currently eligible for a 0% risk weight are: the World Bank Group comprising the International Bank for Reconstruction and Development, the International Finance Corporation, the Multilateral Investment Guarantee Agency and the International Development Association, the Asian Development Bank, the African Development Bank, the European Bank for Reconstruction and Development, the Inter-American Development Bank, the European Investment Bank, the European Investment Fund, the Nordic Investment Bank, the Caribbean Development Bank, the Islamic Development Bank, the Council of Europe Development Bank, the International Finance Facility for Immunization, and the Asian Infrastructure Investment Bank.
+[fn9] MDBs that request to be added to the list of MDBs eligible for a 0% risk weight must comply with the AAA rating criterion at the time of the application. Once included in the list of eligible MDBs, the rating may be downgraded, but in no case lower than AA–. Otherwise, exposures to such MDBs will be subject to the treatment set out in CRE20.15.
+
+## CRE20.15
+For exposures to all other MDBs, banks incorporated in jurisdictions that allow the use of external ratings for regulatory purposes will assign to their MDB exposures the corresponding “base” risk weights determined by the external ratings according to Table 5. Banks incorporated in jurisdictions that do not allow external ratings for regulatory purposes will risk-weight such exposures at 50%.
+
+| Risk weight table for MDB exposures | Risk weight table for MDB exposures | Risk weight table for MDB exposures | Risk weight table for MDB exposures | Table 5 | Table 5 | Table 5 | Table 5 |
+| External rating of counterparty | AAA to AA– | A+ to A– | BBB+ to BBB– | BBB+ to BBB– | BB+ to B– | Below B– | Unrated |
+| “Base” risk weight | 20% | 30% | 50% | 50% | 100% | 150% | 50% |
+
+# Exposures to banks
+
+## CRE20.16
+For the purposes of calculating capital requirements, a bank exposure is defined as a claim (including loans and senior debt instruments, unless considered as subordinated debt for the purposes of CRE20.60) on any financial institution that is licensed to take deposits from the public and is subject to appropriate prudential standards and level of supervision.[fn10] The treatment associated with subordinated bank debt and equities is addressed in CRE20.53 to CRE20.60.
+[fn10] For internationally active banks, appropriate prudential standards (eg capital and liquidity requirements) and level of supervision should be in accordance with the Basel framework. For domestic banks, appropriate prudential standards are determined by the national supervisors but should include at least a minimum regulatory capital requirement.
+
+## 
+Risk weight determination
+
+## CRE20.17
+Bank exposures will be risk-weighted based on the following hierarchy:[fn11]
+
+- External Credit Risk Assessment Approach (ECRA): This approach is for banks incorporated in jurisdictions that allow the use of external ratings for regulatory purposes. It applies to all their rated exposures to banks. Banks will apply CRE21.1 to CRE21.21 to determine which rating can be used and for which exposures.
+
+- Standardised Credit Risk Assessment Approach (SCRA): This approach is for all exposures of banks incorporated in jurisdictions that do not allow the use of external ratings for regulatory purposes. For exposures to banks that are unrated, this approach also applies to banks incorporated in jurisdictions that allow the use of external ratings for regulatory purposes.
+[fn11] With the exception of exposures giving rise to Common Equity Tier 1, Additional Tier 1 and Tier 2 items, national supervisors may allow banks belonging to the same institutional protection scheme (such as mutual, cooperatives or savings institutions) in their jurisdictions to apply a lower risk weight than that indicated by the ECRA and SCRA to their intra-group or in-network exposures provided that both counterparties to the exposures are members of the same effective institutional protection scheme that is a contractual or statutory arrangement set up to protect those institutions and seeks to ensure their liquidity and solvency to avoid bankruptcy.
+
+## 
+External Credit Risk Assessment Approach (ECRA)
+
+## CRE20.18
+Banks incorporated in jurisdictions that allow the use of external ratings for regulatory purposes will assign to their rated bank exposures[fn12] the corresponding “base” risk weights determined by the external ratings according to Table 6. Such ratings must not incorporate assumptions of implicit government support, unless the rating refers to a public bank owned by its government.[fn13] Banks incorporated in jurisdictions that allow the use of external ratings for regulatory purposes must only apply SCRA for their unrated bank exposures, in accordance with CRE20.21.
+
+| Risk weight table for bank exposures External Credit Risk Assessment Approach | Risk weight table for bank exposures External Credit Risk Assessment Approach | Risk weight table for bank exposures External Credit Risk Assessment Approach | Risk weight table for bank exposures External Credit Risk Assessment Approach | Risk weight table for bank exposures External Credit Risk Assessment Approach | Table 6 | Table 6 |
+| External rating of counterparty | AAA to AA– | A+ to A– | BBB+ to BBB– | BB+ to B– | BB+ to B– | Below B– |
+| “Base” risk weight | 20% | 30% | 50% | 100% | 100% | 150% |
+| Risk weight for short-term exposures | 20% | 20% | 20% | 50% | 50% | 150% |
+[fn12] An exposure is rated from the perspective of a bank if the exposure is rated by a recognised “eligible credit assessment institution” (ECAI) which has been nominated by the bank (ie the bank has informed its supervisor of its intention to use the ratings of such ECAI for regulatory purposes in a consistent manner CRE21.8. In other words, if an external rating exists but the credit rating agency is not a recognised ECAI by the national supervisor, or the rating has been issued by an ECAI which has not been nominated by the bank, the exposure would be considered as being unrated from the perspective of the bank.
+[fn13] Implicit government support refers to the notion that the government would act to prevent bank creditors from incurring losses in the event of a bank default or bank distress. National supervisors may continue to allow banks to use external ratings which incorporate assumptions of implicit government support for up to a period of five years, from the date of implementation of this standard, when assigning the “base” risk weights in Table 6 to their bank exposures.
+
+## CRE20.19
+Exposures to banks with an original maturity of three months or less, as well as exposures to banks that arise from the movement of goods across national borders with an original maturity of six months or less[fn14] can be assigned a risk weight that correspond to the risk weights for short term exposures in Table 6.
+[fn14] This may include on-balance sheet exposures such as loans and off-balance sheet exposures such as self-liquidating trade-related contingent items.
+
+## CRE20.20
+Banks must perform due diligence to ensure that the external ratings appropriately and conservatively reflect the creditworthiness of the bank counterparties. If the due diligence analysis reflects higher risk characteristics than that implied by the external rating bucket of the exposure (ie AAA to AA–; A+ to A– etc), the bank must assign a risk weight at least one bucket higher than the "base" risk weight determined by the external rating. Due diligence analysis must never result in the application of a lower risk weight than that determined by the external rating.
+[fnFAQ1]
+FAQ1: Should banks assess climate-related financial risks as part of the due diligence analyses with respect to counterparty creditworthiness?
+
+Climate-related financial risks can impact banks’ credit risk exposure through their counterparties. To the extent that the risk profile of a counterparty is affected by climate-related financial risks, banks should give proper consideration to the climate-related financial risks as part of the counterparty due diligence. To that end, banks should integrate climate-related financial risks either in their own credit risk assessment or when performing due diligence on external ratings.
+
+## 
+Standardised Credit Risk Assessment Approach (SCRA)
+
+## CRE20.21
+Banks incorporated in jurisdictions that do not allow the use of external ratings for regulatory purposes will apply the SCRA to all their bank exposures. The SCRA also applies to unrated bank exposures for banks incorporated in jurisdictions that allow the use of external ratings for regulatory purposes. The SCRA requires banks to classify bank exposures into one of three risk-weight buckets (ie Grades A, B and C) and assign the corresponding risk weights in Table 7.[fn15] For the purposes of the SCRA only, “published minimum regulatory requirements” in CRE20.22 to CRE20.30 excludes liquidity standards.
+
+| Risk weight table for bank exposures Standardised Credit Risk Assessment Approach | Risk weight table for bank exposures Standardised Credit Risk Assessment Approach | Risk weight table for bank exposures Standardised Credit Risk Assessment Approach | Risk weight table for bank exposures Standardised Credit Risk Assessment Approach | Table 7 |
+| Credit risk assessment of counterparty | Grade A | Grade B | Grade C | Grade C |
+| “Base” risk weight | 40% | 75% | 150% | 150% |
+| Risk weight for short-term exposures | 20% | 50% | 150% | 150% |
+[fn15] Under the SCRA, exposures to banks without an external credit rating may receive a risk weight of 30%, provided that the counterparty bank has a Common Equity Tier 1 ratio which meets or exceeds 14% and a Tier 1 leverage ratio which meets or exceeds 5%. The counterparty bank must also satisfy all the requirements for Grade A classification.
+
+## 
+SCRA: Grade A
+
+## CRE20.22
+Grade A refers to exposures to banks, where the counterparty bank has adequate capacity to meet their financial commitments (including repayments of principal and interest) in a timely manner, for the projected life of the assets or exposures and irrespective of the economic cycles and business conditions.
+[fnFAQ1]
+FAQ1: To what extent should climate-related financial risks be taken into consideration when determining Grade A classification?
+
+Banks should consider the impact of material climate-related financial risks on the counterparty bank’s capacity to meet their financial commitments in a timely manner for the projected life of the bank’s assets or exposures to this counterparty bank. Prudent practice by the bank to evaluate the counterparty bank’s ability to repay commitments could include incorporating consideration of material climate-related financial risks into the entire credit life cycle, including client due diligence as part of the onboarding process and ongoing monitoring of clients’ risk profiles.
+
+## CRE20.23
+A counterparty bank classified into Grade A must meet or exceed the published minimum regulatory requirements and buffers established by its national supervisor as implemented in the jurisdiction where it is incorporated, except for bank-specific minimum regulatory requirements or buffers that may be imposed through supervisory actions (eg via the Supervisory Review Process, SRP) and not made public. If such minimum regulatory requirements and buffers (other than bank-specific minimum requirements or buffers) are not publicly disclosed or otherwise made available by the counterparty bank, then the counterparty bank must be assessed as Grade B or lower.
+
+## CRE20.24
+If as part of its due diligence, a bank assesses that a counterparty bank does not meet the definition of Grade A in CRE20.22 and CRE20.23, exposures to the counterparty bank must be classified as Grade B or Grade C.
+
+## 
+SCRA: Grade B
+
+## CRE20.25
+Grade B refers to exposures to banks, where the counterparty bank is subject to substantial credit risk, such as repayment capacities that are dependent on stable or favourable economic or business conditions.
+
+## CRE20.26
+A counterparty bank classified into Grade B must meet or exceed the published minimum regulatory requirements (excluding buffers) established by its national supervisor as implemented in the jurisdiction where it is incorporated, except for bank-specific minimum regulatory requirements that may be imposed through supervisory actions (eg via the Supervisory Review Process, SRP) and not made public. If such minimum regulatory requirements are not publicly disclosed or otherwise made available by the counterparty bank then the counterparty bank must be assessed as Grade C.
+
+## CRE20.27
+Banks will classify all exposures that do not meet the requirements outlined in CRE20.22 and CRE20.23 into Grade B, unless the exposure falls within Grade C under CRE20.28 to CRE20.30.
+
+## 
+SCRA: Grade C
+
+## CRE20.28
+Grade C refers to higher credit risk exposures to banks, where the counterparty bank has material default risks and limited margins of safety. For these counterparties, adverse business, financial, or economic conditions are very likely to lead, or have led, to an inability to meet their financial commitments.
+
+## CRE20.29
+At a minimum, if any of the following triggers is breached, a bank must classify the exposure into Grade C:
+
+- The counterparty bank does not meet the criteria for being classified as Grade B with respect to its published minimum regulatory requirements, as set out in CRE20.25 and CRE20.26; or
+
+- Where audited financial statements are required, the external auditor has issued an adverse audit opinion or has expressed substantial doubt about the counterparty bank’s ability to continue as a going concern in its financial statements or audited reports within the previous 12 months.
+
+## CRE20.30
+Even if the triggers set out in CRE20.29 are not breached, a bank may assess that the counterparty bank meets the definition in CRE20.28. In that case, the exposure to such counterparty bank must be classified into Grade C.
+
+## CRE20.31
+Exposures to banks with an original maturity of three months or less, as well as exposures to banks that arise from the movement of goods across national borders with an original maturity of six months or less,[fn16] can be assigned a risk weight that correspond to the risk weights for short term exposures in Table 7.
+[fn16] This may include on-balance sheet exposures such as loans and off-balance sheet exposures such as self-liquidating trade-related contingent items.
+
+## CRE20.32
+To reflect transfer and convertibility risk under the SCRA, a risk-weight floor based on the risk weight applicable to exposures to the sovereign of the country where the bank counterparty is incorporated will be applied to the risk weight assigned to bank exposures. The sovereign floor applies when: (i) the exposure is not in the local currency of the jurisdiction of incorporation of the debtor bank; and (ii) for a borrowing booked in a branch of the debtor bank in a foreign jurisdiction, when the exposure is not in the local currency of the jurisdiction in which the branch operates. The sovereign floor will not apply to short-term (ie with a maturity below one year) self-liquidating, trade-related contingent items that arise from the movement of goods.
+
+# Exposures to covered bonds
+
+## CRE20.33
+Covered bonds are bonds issued by a bank or mortgage institution that are subject by law to special public supervision designed to protect bond holders. Proceeds deriving from the issue of these bonds must be invested in conformity with the law in assets which, during the whole period of the validity of the bonds, are capable of covering claims attached to the bonds and which, in the event of the failure of the issuer, would be used on a priority basis for the reimbursement of the principal and payment of the accrued interest.
+
+## 
+Eligible assets
+
+## CRE20.34
+In order to be eligible for the risk weights set out in CRE20.38, the underlying assets (the cover pool) of covered bonds as defined in CRE20.33 shall meet the requirements set out in CRE20.37 and shall include any of the following:
+
+- claims on, or guaranteed by, sovereigns, their central banks, public sector entities or multilateral development banks;
+
+- claims secured by residential real estate that meet the criteria set out in CRE20.71 and with a loan-to-value ratio of 80% or lower;
+
+- claims secured by commercial real estate that meets the criteria set out in CRE20.71 and with a loan-to-value ratio of 60% or lower; or
+
+- claims on, or guaranteed by banks that qualify for a 30% or lower risk weight. However, such assets cannot exceed 15% of covered bond issuances.
+
+## CRE20.35
+The nominal value of the pool of assets assigned to the covered bond instrument(s) by its issuer should exceed its nominal outstanding value by at least 10%. The value of the pool of assets for this purpose does not need to be that required by the legislative framework. However, if the legislative framework does not stipulate a requirement of at least 10%, the issuing bank needs to publicly disclose on a regular basis that their cover pool meets the 10% requirement in practice. In addition to the primary assets listed in this paragraph, additional collateral may include substitution assets (cash or short term liquid and secure assets held in substitution of the primary assets to top up the cover pool for management purposes) and derivatives entered into for the purposes of hedging the risks arising in the covered bond program.
+
+## CRE20.36
+The conditions set out in CRE20.34 and CRE20.35 must be satisfied at the inception of the covered bond and throughout its remaining maturity.
+
+## 
+Disclosure requirements
+
+## CRE20.37
+Exposures in the form of covered bonds are eligible for the treatment set out in CRE20.38, provided that the bank investing in the covered bonds can demonstrate to its national supervisors that:
+
+- it receives portfolio information at least on:
+
+- the value of the cover pool and outstanding covered bonds;
+
+- the geographical distribution and type of cover assets, loan size, interest rate and currency risks;
+
+- the maturity structure of cover assets and covered bonds; and
+
+- the percentage of loans more than 90 days past due; and
+
+- the issuer makes the information referred to in point (1) available to the bank at least semi-annually.
+
+## CRE20.38
+Covered bonds that meet the criteria set out in the CRE20.34 to CRE20.37 shall be risk-weighted based on the issue-specific rating or the issuer’s risk weight according to the rules outlined in CRE21.1 to CRE21.21. For covered bonds with issue-specific ratings,[fn17] the risk weight shall be determined according to Table 8. For unrated covered bonds, the risk weight would be inferred from the issuer’s ECRA or SCRA risk weight according to Table 9.
+
+| Risk weight table for rated covered bond exposures | Risk weight table for rated covered bond exposures | Risk weight table for rated covered bond exposures | Risk weight table for rated covered bond exposures | Risk weight table for rated covered bond exposures | Table 8 | Table 8 |
+| Issue-specific rating of the covered bond | AAA to AA– | A+ to A– | BBB+ to BBB– | BB+ to B– | BB+ to B– | Below B– |
+| “Base” risk weight | 10% | 20% | 20% | 50% | 50% | 100% |
+
+| Risk weight table for unrated covered bond exposures | Risk weight table for unrated covered bond exposures | Risk weight table for unrated covered bond exposures | Risk weight table for unrated covered bond exposures | Risk weight table for unrated covered bond exposures | Risk weight table for unrated covered bond exposures | Risk weight table for unrated covered bond exposures | Table 9 | Table 9 |
+| Risk weight of the issuing bank | 20% | 30% | 40% | 50% | 75% | 100% | 100% | 150% |
+| “Base” risk weight | 10% | 15% | 20% | 25% | 35% | 50% | 50% | 100% |
+[fn17] An exposure is rated from the perspective of a bank if the exposure is rated by a recognised ECAI which has been nominated by the bank (ie the bank has informed its supervisor of its intention to use the ratings of such ECAI for regulatory purposes in a consistent manner (see CRE21.8). In other words, if an external rating exists but the credit rating agency is not a recognised ECAI by the national supervisor, or the rating has been issued by an ECAI which has not been nominated by the bank, the exposure would be considered as being unrated from the perspective of the bank.
+
+## CRE20.39
+Banks must perform due diligence to ensure that the external ratings appropriately and conservatively reflect the creditworthiness of the covered bond and the issuing bank. If the due diligence analysis reflects higher risk characteristics than that implied by the external rating bucket of the exposure (ie AAA to AA–; A+ to A– etc), the bank must assign a risk weight at least one bucket higher than the "base" risk weight determined by the external rating. Due diligence analysis must never result in the application of a lower risk weight than that determined by the external rating.
+[fnFAQ1]
+FAQ1: Should banks assess climate-related financial risks as part of the due diligence analyses with respect to covered bonds and their issuing banks?
+
+Climate-related financial risks can impact banks’ exposure through the creditworthiness of the covered bond and the issuing bank. To the extent that the creditworthiness of the covered bond and the issuing bank is affected by climate-related financial risks, banks should give proper consideration to the climate-related financial risks as part of the due diligence. To that end, banks should integrate climate-related financial risks either in their own credit risk assessment or when performing due diligence on external ratings.
+
+# Exposures to securities firms and other financial institutions
+
+## CRE20.40
+Exposures to securities firms and other financial institutions will be treated as exposures to banks provided that these firms are subject to prudential standards and a level of supervision equivalent to those applied to banks (including capital and liquidity requirements). National supervisors should determine whether the regulatory and supervisory framework governing securities firms and other financial institutions in their own jurisdictions is equivalent to that which is applied to banks in their own jurisdictions. Where the regulatory and supervisory framework governing securities firms and other financial institutions is determined to be equivalent to that applied to banks in a jurisdiction, other national supervisors may allow their banks to risk weight such exposures to securities firms and other financial institutions as exposures to banks. Exposures to all other securities firms and financial institutions will be treated as exposures to corporates.
+
+# Exposures to corporates
+
+## CRE20.41
+For the purposes of calculating capital requirements, exposures to corporates include exposures (loans, bonds, receivables, etc) to incorporated entities, associations, partnerships, proprietorships, trusts, funds and other entities with similar characteristics, except those which qualify for one of the other exposure classes. The treatment associated with subordinated debt and equities of these counterparties is addressed in CRE20.53 to CRE20.62. The corporate exposure class includes exposures to insurance companies and other financial corporates that do not meet the definitions of exposures to banks, or securities firms and other financial institutions, as determined in CRE20.16 and CRE20.40 respectively. The corporate exposure class does not include exposures to individuals. The corporate exposure class differentiates between the following subcategories:
+
+- General corporate exposures;
+
+- Specialised lending exposures, as defined in CRE20.48.
+
+## 
+General corporate exposures
+
+## CRE20.42
+For corporate exposures of banks incorporated in jurisdictions that allow the use of external ratings for regulatory purposes, banks will assign "base" risk weights according to Table 10.[fn18] Banks must perform due diligence to ensure that the external ratings appropriately and conservatively reflect the creditworthiness of the counterparties. Banks which have assigned risk weights to their rated bank exposures based on CRE20.18 must assign risk weights for all their corporate exposures according to Table 10. If the due diligence analysis reflects higher risk characteristics than that implied by the external rating bucket of the exposure (ie AAA to AA–; A+ to A– etc), the bank must assign a risk weight at least one bucket higher than the "base" risk weight determined by the external rating. Due diligence analysis must never result in the application of a lower risk weight than that determined by the external rating.
+[fnFAQ1]
+[fn18] An exposure is rated from the perspective of a bank if the exposure is rated by a recognised ECAI which has been nominated by the bank (ie the bank has informed its supervisor of its intention to use the ratings of such ECAI for regulatory purposes in a consistent manner CRE21.8. In other words, if an external rating exists but the credit rating agency is not a recognised ECAI by the national supervisor, or the rating has been issued by an ECAI which has not been nominated by the bank, the exposure would be considered as being unrated from the perspective of the bank.
+FAQ1: Should banks assess climate-related financial risks as part of the due diligence analyses with respect to counterparty creditworthiness?
+
+Climate-related financial risks can impact banks’ credit risk exposure through their counterparties. To the extent that the risk profile of a counterparty is affected by climate-related financial risks, banks should give proper consideration to the climate-related financial risks as part of the counterparty due diligence. To that end, banks should integrate climate-related financial risks either in their own credit risk assessment or when performing due diligence on external ratings.
+
+## CRE20.43
+Unrated corporate exposures of banks incorporated in jurisdictions that allow the use of external ratings for regulatory purposes will receive a 100% risk weight, with the exception of unrated exposures to corporate small or medium-sized entities (SMEs), as described in CRE20.47.
+
+| Risk weight table for corporate exposures Jurisdictions that use external ratings for regulatory purposes | Risk weight table for corporate exposures Jurisdictions that use external ratings for regulatory purposes | Risk weight table for corporate exposures Jurisdictions that use external ratings for regulatory purposes | Risk weight table for corporate exposures Jurisdictions that use external ratings for regulatory purposes | Risk weight table for corporate exposures Jurisdictions that use external ratings for regulatory purposes | Risk weight table for corporate exposures Jurisdictions that use external ratings for regulatory purposes | Table 10 | Table 10 |
+| External rating of counterparty | AAA to AA– | A+ to A– | BBB+ to BBB– | BB+ to BB– | Below BB– | Below BB– | Unrated |
+| “Base” risk weight | 20% | 50% | 75% | 100% | 150% | 150% | 100% |
+
+## CRE20.44
+For corporate exposures of banks incorporated in jurisdictions that do not allow the use of external ratings for regulatory purposes, banks will assign a 100% risk weight to all corporate exposures, with the exception of:
+
+- exposures to corporates identified as “investment grade” in CRE20.46; and
+
+- exposures to corporate SMEs in CRE20.47.
+
+## CRE20.45
+Banks must apply the treatment set out in CRE20.44 to their corporate exposures if they have assigned risk weights to their rated bank exposures based on CRE20.21.
+
+## CRE20.46
+Banks in jurisdictions that do not allow the use of external ratings for regulatory purposes may assign a 65% risk weight to exposures to "investment grade" corporates. An "investment grade" corporate is a corporate entity that has adequate capacity to meet its financial commitments in a timely manner and its ability to do so is assessed to be robust against adverse changes in the economic cycle and business conditions. When making this determination, the bank should assess the corporate entity against the investment grade definition taking into account the complexity of its business model, performance against industry and peers, and risks posed by the entity's operating environment. Moreover, the corporate entity (or its parent company) must have securities outstanding on a recognised securities exchange.
+[fnFAQ1]
+FAQ1: To what extent should banks assess whether the corporate has sufficiently accounted for climate-related financial risks in order to meet the “investment grade” definition?
+
+When determining whether a given corporate meets the investment grade definition, banks should consider and evaluate how material climate-related financial risks might impact the capacity of the corporate to meet its financial commitments in a timely manner even under adverse changes in the economic cycle and business conditions.
+
+Banks should also rely on a systematic credit review process to identify at an early stage whether the credit quality of the corporate has decreased such that it no longer meets the “investment grade” definition. Given the uncertainty of the materiality and timing of the impact of climate-related financial risks, banks should continue to evaluate the impact of climate-related financial risks as the capacity to evaluate climate-related financial risk data improves.
+
+## CRE20.47
+Corporate SMEs are defined as corporate exposures where the reported annual sales for the consolidated group of which the corporate counterparty is a part is less than or equal to €50 million for the most recent financial year. In some jurisdictions (eg emerging economies), national supervisors might deem it appropriate to define SMEs in a more conservative manner (ie with a lower level of sales). For unrated exposures to corporate SMEs in jurisdictions that allow the use of external ratings for regulatory purposes, and for all exposures to corporate SMEs in jurisdictions that do not allow the use of external ratings for regulatory purposes, an 85% risk weight will be applied. Exposures to SMEs that meet the criteria in CRE20.65(1) to CRE20.65(3) will be treated as regulatory retail SME exposures and risk weighted at 75%.
+
+## 
+Specialised lending
+
+## CRE20.48
+A corporate exposure will be treated as a specialised lending exposure if such lending possesses all of the following characteristics, either in legal form or economic substance:
+
+- The exposure is not related to real estate and is within the definitions of object finance, project finance or commodities finance under CRE20.49. If the activity is related to real estate, the treatment would be determined in accordance with CRE20.69 to CRE20.91;
+
+- The exposure is typically to an entity (often a special purpose vehicle (SPV)) that was created specifically to finance and/or operate physical assets;
+
+- The borrowing entity has few or no other material assets or activities, and therefore little or no independent capacity to repay the obligation, apart from the income that it receives from the asset(s) being financed. The primary source of repayment of the obligation is the income generated by the asset(s), rather than the independent capacity of the borrowing entity; and
+
+- The terms of the obligation give the lender a substantial degree of control over the asset(s) and the income that it generates.
+
+## CRE20.49
+Exposures described in CRE20.48 will be classified in one of the following three subcategories of specialised lending:
+
+- Project finance refers to the method of funding in which the lender looks primarily to the revenues generated by a single project, both as the source of repayment and as security for the loan. This type of financing is usually for large, complex and expensive installations such as power plants, chemical processing plants, mines, transportation infrastructure, environment, media, and telecoms. Project finance may take the form of financing the construction of a new capital installation, or refinancing of an existing installation, with or without improvements.
+
+- Object finance refers to the method of funding the acquisition of equipment (eg ships, aircraft, satellites, railcars, and fleets) where the repayment of the loan is dependent on the cash flows generated by the specific assets that have been financed and pledged or assigned to the lender.
+
+- Commodities finance refers to short-term lending to finance reserves, inventories, or receivables of exchange-traded commodities (eg crude oil, metals, or crops), where the loan will be repaid from the proceeds of the sale of the commodity and the borrower has no independent capacity to repay the loan.
+
+## CRE20.50
+Banks incorporated in jurisdictions that allow the use of external ratings for regulatory purposes will assign to their specialised lending exposures the risk weights determined by the issue-specific external ratings, if these are available, according to Table 10. Issuer ratings must not be used (ie CRE21.12 does not apply in the case of specialised lending exposures).
+
+## CRE20.51
+For specialised lending exposures for which an issue-specific external rating is not available, and for all specialised lending exposures of banks incorporated in jurisdictions that do not allow the use of external ratings for regulatory purposes, the following risk weights will apply:
+
+- Object and commodities finance exposures will be risk-weighted at 100%;
+
+- Project finance exposures will be risk-weighted at 130% during the pre-operational phase and 100% during the operational phase. Project finance exposures in the operational phase which are deemed to be high quality, as described in CRE20.52, will be risk weighted at 80%. For this purpose, operational phase is defined as the phase in which the entity that was specifically created to finance the project has
+
+- a positive net cash flow that is sufficient to cover any remaining contractual obligation, and
+
+- declining long-term debt.
+
+## CRE20.52
+A high quality project finance exposure refers to an exposure to a project finance entity that is able to meet its financial commitments in a timely manner and its ability to do so is assessed to be robust against adverse changes in the economic cycle and business conditions. The following conditions must also be met:
+
+- The project finance entity is restricted from acting to the detriment of the creditors (eg by not being able to issue additional debt without the consent of existing creditors);
+
+- The project finance entity has sufficient reserve funds or other financial arrangements to cover the contingency funding and working capital requirements of the project;
+
+- The revenues are availability-based[fn19] or subject to a rate-of-return regulation or take-or-pay contract;
+
+- The project finance entity's revenue depends on one main counterparty and this main counterparty shall be a central government, PSE or a corporate entity with a risk weight of 80% or lower;
+
+- The contractual provisions governing the exposure to the project finance entity provide for a high degree of protection for creditors in case of a default of the project finance entity;
+
+- The main counterparty or other counterparties which similarly comply with the eligibility criteria for the main counterparty will protect the creditors from the losses resulting from a termination of the project;
+
+- All assets and contracts necessary to operate the project have been pledged to the creditors to the extent permitted by applicable law; and
+
+- Creditors may assume control of the project finance entity in case of its default.
+
+[fnFAQ1]
+[fn19] Availability-based revenues mean that once construction is completed, the project finance entity is entitled to payments from its contractual counterparties (eg the government), as long as contract conditions are fulfilled. Availability payments are sized to cover operating and maintenance costs, debt service costs and equity returns as the project finance entity operates the project. Availability payments are not subject to swings in demand, such as traffic levels, and are adjusted typically only for lack of performance or lack of availability of the asset to the public.
+FAQ1: To what extent does the classification as high-quality project finance require consideration of climate-related financial risks?
+
+Changes in environmental policy, technological progress or investor sentiment can leave projects exposed to transition risks. At the same time, projects may be exposed to physical risks depending on their type and location.
+
+When assessing the ability of a project finance entity to meet its financial commitments in a timely manner, banks should consider the extent to which climate-related financial risks may have an adverse impact on the ability of a project finance entity to meet its financial commitments in a timely manner. Given uncertainty of the materiality and timing of the impact of climate-related financial risks, banks should evaluate on an ongoing basis the impact of climate-related financial risks as the capacity to evaluate climate-related financial risk data improves.
+
+# Subordinated debt, equity and other capital instruments
+
+## CRE20.53
+The treatment described in CRE20.57 to CRE20.60 applies to subordinated debt, equity and other regulatory capital instruments issued by either corporates or banks, provided that such instruments are not deducted from regulatory capital or risk-weighted at 250% according to CAP30, or risk weighted at 1250% according to CRE20.62. It also excludes equity investments in funds treated under CRE60.
+
+## CRE20.54
+Equity exposures are defined on the basis of the economic substance of the instrument. They include both direct and indirect ownership interests,[fn20] whether voting or non-voting, in the assets and income of a commercial enterprise or of a financial institution that is not consolidated or deducted. An instrument is considered to be an equity exposure if it meets all of the following requirements:
+
+- It is irredeemable in the sense that the return of invested funds can be achieved only by the sale of the investment or sale of the rights to the investment or by the liquidation of the issuer;
+
+- It does not embody an obligation on the part of the issuer; and
+
+- It conveys a residual claim on the assets or income of the issuer.
+[fn20] Indirect equity interests include holdings of derivative instruments tied to equity interests, and holdings in corporations, partnerships, limited liability companies or other types of enterprises that issue ownership interests and are engaged principally in the business of investing in equity instruments.
+
+## CRE20.55
+In addition to instruments classified as equity as a result of paragraph CRE20.54, the following instruments must be categorised as an equity exposure:
+
+- An instrument with the same structure as those permitted as Tier 1 capital for banking organisations.
+
+- An instrument that embodies an obligation on the part of the issuer and meets any of the following conditions:
+
+- The issuer may defer indefinitely the settlement of the obligation;
+
+- The obligation requires (or permits at the issuer’s discretion) settlement by issuance of a fixed number of the issuer’s equity shares;
+
+- The obligation requires (or permits at the issuer’s discretion) settlement by issuance of a variable number of the issuer’s equity shares and (ceteris paribus) any change in the value of the obligation is attributable to, comparable to, and in the same direction as, the change in the value of a fixed number of the issuer’s equity shares;[fn21] or,
+
+- The holder has the option to require that the obligation be settled in equity shares, unless either (i) in the case of a traded instrument, the supervisor is content that the bank has demonstrated that the instrument trades more like the debt of the issuer than like its equity, or (ii) in the case of non-traded instruments, the supervisor is content that the bank has demonstrated that the instrument should be treated as a debt position. In cases (i) and (ii), the bank may decompose the risks for regulatory purposes, with the consent of the supervisor.
+[fn21] For certain obligations that require or permit settlement by issuance of a variable number of the issuer’s equity shares, the change in the monetary value of the obligation is equal to the change in the fair value of a fixed number of equity shares multiplied by a specified factor. Those obligations meet the conditions of item (c) if both the factor and the referenced number of shares are fixed. For example, an issuer may be required to settle an obligation by issuing shares with a value equal to three times the appreciation in the fair value of 1,000 equity shares. That obligation is considered to be the same as an obligation that requires settlement by issuance of shares equal to the appreciation in the fair value of 3,000 equity shares.
+
+## CRE20.56
+Debt obligations and other securities, partnerships, derivatives or other vehicles structured with the intent of conveying the economic substance of equity ownership are considered an equity holding.[fn22] This includes liabilities from which the return is linked to that of equities.[fn23] Conversely, equity investments that are structured with the intent of conveying the economic substance of debt holdings or securitisation exposures would not be considered an equity holding.[fn24]
+[fn22] Equities that are recorded as a loan but arise from a debt/equity swap made as part of the orderly realisation or restructuring of the debt are included in the definition of equity holdings. However, these instruments may not attract a lower capital charge than would apply if the holdings remained in the debt portfolio.
+[fn23] Supervisors may decide not to require that such liabilities be included where they are directly hedged by an equity holding, such that the net position does not involve material risk.
+[fn24] The national supervisor has the discretion to re-characterise debt holdings as equites for regulatory purposes and to otherwise ensure the proper treatment of holdings under the supervisory review process, SRP.
+
+## CRE20.57
+Banks will assign a risk weight of 400% to speculative unlisted equity exposures described in CRE20.58 and a risk weight of 250% to all other equity holdings, with the exception of those equity holdings referred to in CRE20.59.
+
+## CRE20.58
+Speculative unlisted equity exposures are defined as equity investments in unlisted companies that are invested for short-term resale purposes or are considered venture capital or similar investments which are subject to price volatility and are acquired in anticipation of significant future capital gains.[fn25]
+[fn25] For example, investments in unlisted equities of corporate clients with which the bank has or intends to establish a long-term business relationship and debt-equity swaps for corporate restructuring purposes would be excluded.
+
+## CRE20.59
+National supervisors may allow banks to assign a risk weight of 100% to equity holdings made pursuant to national legislated programmes that provide significant subsidies for the investment to the bank and involve government oversight and restrictions on the equity investments. Such treatment can only be accorded to equity holdings up to an aggregate of 10% of the bank’s Total capital. Examples of restrictions are limitations on the size and types of businesses in which the bank is investing, allowable amounts of ownership interests, geographical location and other pertinent factors that limit the potential risk of the investment to the bank.
+
+## CRE20.60
+Banks will assign a risk weight of 150% to subordinated debt and capital instruments other than equities. Any liabilities that meet the definition of “other TLAC liabilities” in CAP30.3 to CAP30.5 and that are not deducted from regulatory capital are considered to be subordinated debt for the purposes of this paragraph.
+
+## CRE20.61
+Notwithstanding the risk weights specified in CRE20.57 to CRE20.60, the risk weight for investments in significant minority- or majority-owned and –controlled commercial entities depends upon the application of two materiality thresholds:
+
+- for individual investments, 15% of the bank’s capital; and
+
+- for the aggregate of such investments, 60% of the bank’s capital.
+
+## CRE20.62
+Investments in significant minority- or majority-owned and –controlled commercial entities below the materiality thresholds in CRE20.61 must be risk-weighted as specified in CRE20.54 to CRE20.60. Investments in excess of the materiality thresholds must be risk-weighted at 1250%.
+
+# Retail exposure  class
+
+## CRE20.63
+The retail exposure class excludes exposures within the real estate exposure class. The retail exposure class includes the following types of exposures:
+
+- exposures to an individual person or persons; and
+
+- exposures to SMEs (as defined in CRE20.47) that meet the “regulatory retail” criteria set out in CRE20.65(1) to CRE20.65(3) below. Exposures to SMEs that do not meet these criteria will be treated as corporate SMEs exposures under CRE20.47.
+
+## CRE20.64
+Exposures within the retail exposure class will be treated according to CRE20.65 to CRE20.67 below. For the purpose of determining risk weighted assets, the retail exposure class consists of the follow three sets of exposures:
+
+- “Regulatory retail” exposures that do not arise from exposures to “transactors” (as defined in CRE20.66).
+
+- “Regulatory retail” exposures to “transactors”.
+
+- “Other retail” exposures.
+
+## CRE20.65
+“Regulatory retail” exposures are defined as retail exposures that meet all of the criteria listed below:
+
+- Product criterion: the exposure takes the form of any of the following: revolving credits and lines of credit (including credit cards, charge cards and overdrafts), personal term loans and leases (eg instalment loans, auto loans and leases, student and educational loans, personal finance) and small business facilities and commitments. Mortgage loans, derivatives and other securities (such as bonds and equities), whether listed or not, are specifically excluded from this category.
+
+- Low value of individual exposures: the maximum aggregated exposure to one counterparty cannot exceed an absolute threshold of €1 million.
+
+- Granularity criterion: no aggregated exposure to one counterparty[fn26] can exceed 0.2%[fn27] of the overall regulatory retail portfolio, unless national supervisors have determined another method to ensure satisfactory diversification of the regulatory retail portfolio. Defaulted retail exposures are to be excluded from the overall regulatory retail portfolio when assessing the granularity criterion.
+[fn26] Aggregated exposure means gross amount (ie not taking any credit risk mitigation into account) of all forms of retail exposures, excluding residential real estate exposures. In case of off-balance sheet claims, the gross amount would be calculated after applying credit conversion factors. In addition, “to one counterparty” means one or several entities that may be considered as a single beneficiary (eg in the case of a small business that is affiliated to another small business, the limit would apply to the bank’s aggregated exposure on both businesses).
+[fn27] To apply the 0.2% threshold of the granularity criterion, banks must: first, identify the full set of exposures in the retail exposure class (as defined by CRE20.63); second, identify the subset of exposure that meet product criterion and do not exceed the threshold for the value of aggregated exposures to one counterparty (as defined by CRE20.65(1) and CRE20.65(2) respectively); and third, exclude any exposures that have a value greater than 0.2% of the subset before exclusions.
+
+## CRE20.66
+“Transactors” are obligors in relation to facilities such as credit cards and charge cards where the balance has been repaid in full at each scheduled repayment date for the previous 12 months. Obligors in relation to overdraft facilities would also be considered as transactors if there has been no drawdown over the previous 12 months.
+
+## CRE20.67
+“Other retail” exposures are defined as exposures to an individual person or persons that do not meet all of the regulatory retail criteria in CRE20.65.
+
+## CRE20.68
+The risk weights that apply to exposures in the retail asset class are as follows:
+
+- Regulatory retail exposures that do not arise from exposures to transactors (as defined in CRE20.66) will be risk weighted at 75%.
+
+- Regulatory retail exposures that arise from exposures to transactors (as defined in CRE20.66) will be risk weighted at 45%.
+
+- Other retail exposures will be risk weighted at 100%.
+
+# Real estate exposure class
+
+## CRE20.69
+Real estate is immovable property that is land, including agricultural land and forest, or anything treated as attached to land, in particular buildings, in contrast to being treated as movable/personal property. The real estate exposure asset class consists of:
+
+- Exposures secured by real estate that are classified as “regulatory real estate” exposures.
+
+- Exposures secured by real estate that are classified as “other real estate” exposures.
+
+- Exposures that are classified as “land acquisition, development and construction” (ADC) exposures.
+
+## CRE20.70
+"Regulatory real estate" exposures consist of:
+
+- "Regulatory residential real estate" exposures that are not "materially dependent on cash flows generated by the property".
+
+- "Regulatory residential real estate" exposures that are "materially dependent on cash flows generated by the property".
+
+- "Regulatory commercial real estate" exposures that are not "materially dependent on cash flows generated by the property".
+
+- "Regulatory commercial real estate" exposures that are "materially dependent on cash flows generated by the property".
+
+[fnFAQ1]
+FAQ1: How shall the distinction between “regulatory residential real estate” (CRE20.77) and “regulatory commercial real estate” (CRE20.78) be applied to exposures with multiple items of collateral, some of which are residential real estate and others which are commercial real estate?
+
+An exposure with multiple items of collateral can be split, according to the ratio of the values of the residential property and the commercial property, into a residential real estate exposure (secured by the residential real estate) and a commercial real estate exposure (secured by the commercial real estate). Both on- and off-balance sheet elements of the exposure should be split according to the same ratio.
+
+## 
+Regulatory real estate exposures
+
+## CRE20.71
+For an exposure secured by real estate to be classified as a “regulatory real estate” exposure, the loan must meet the following requirements:
+
+- Finished property: the exposure must be secured by a fully completed immovable property. This requirement does not apply to forest and agricultural land. Subject to national discretion, supervisors may allow this criteria to be met by loans to individuals that are secured by residential property under construction or land upon which residential property would be constructed, provided that: (i) the property is a one-to-four family residential housing unit that will be the primary residence of the borrower and the lending to the individual is not, in effect, indirectly financing land acquisition, development and construction exposures described in CRE20.90; or (ii) sovereign or PSEs involved have the legal powers and ability to ensure that the property under construction will be finished.
+
+- Legal enforceability: any claim on the property taken must be legally enforceable in all relevant jurisdictions. The collateral agreement and the legal process underpinning it must be such that they provide for the bank to realise the value of the property within a reasonable time frame.
+
+- Claims over the property: the loan is a claim over the property where the lender bank holds a first lien over the property, or a single bank holds the first lien and any sequentially lower ranking lien(s) (ie there is no intermediate lien from another bank) over the same property. However, in jurisdictions where junior liens provide the holder with a claim for collateral that is legally enforceable and constitute an effective credit risk mitigant, junior liens held by a different bank than the one holding the senior lien may also be recognised.[fn28] In order to meet the above requirements, the national frameworks governing liens should ensure the following: (i) each bank holding a lien on a property can initiate the sale of the property independently from other entities holding a lien on the property; and (ii) where the sale of the property is not carried out by means of a public auction, entities holding a senior lien take reasonable steps to obtain a fair market value or the best price that may be obtained in the circumstances when exercising any power of sale on their own (ie it is not possible for the entity holding the senior lien to sell the property on its own at a discounted value in detriment of the junior lien).[fn29]
+
+- Ability of the borrower to repay: the borrower must meet the requirements set according to CRE20.73.
+
+- Prudent value of property: the property must be valued according to the criteria in CRE20.74 to CRE20.76 for determining the value in the loan-to-value ratio (LTV). Moreover, the value of the property must not depend materially on the performance of the borrower.
+
+- Required documentation: all the information required at loan origination and for monitoring purposes must be properly documented, including information on the ability of the borrower to repay and on the valuation of the property.
+[fn28] Likewise, this would apply to junior liens held by the same bank that holds the senior lien in case there is an intermediate lien from another bank (ie the senior and junior liens held by the bank are not in sequential ranking order).
+[fn29] In certain jurisdictions, the majority of bank loans to individuals for the purchase of residential property are not provided as mortgages in legal form. Instead, they are typically provided as loans that are guaranteed by a highly rated monoline guarantor that is required to repay the bank in full if the borrower defaults, and where the bank has legal right to take a mortgage on the property in the event that the guarantor fails. These loans may be treated as residential real estate exposures (rather than guaranteed loans) if the following additional conditions are met:
+
+(a)
+
+the borrower shall be contractually committed not to grant any mortgage lien without the consent of the bank that granted the loan;
+
+(b)
+
+the guarantor shall be either a bank or a financial institution subject to capital requirements comparable to those applied to banks or an insurance undertaking;
+
+(c)
+
+the guarantor shall establish a fully-funded mutual guarantee fund or equivalent protection for insurance undertakings to absorb credit risk losses, whose calibration shall be periodically reviewed by its supervisors and subject to periodic stress testing; and
+
+(d)
+
+the bank shall be contractually and legally allowed to take a mortgage on the property in the event that the guarantor fails.
+
+## CRE20.72
+The risk weights for regulatory real estate exposures will apply to jurisdictions where structural factors result in sustainably low credit losses associated with the exposures to the real estate market. National supervisors should evaluate whether the risk weights in the corresponding risk weight tables are too low for these types of exposures in their jurisdictions based on default experience and other factors such as market price stability. Supervisors may require banks in their jurisdictions to increase these risk weights as appropriate.
+[fnFAQ1]
+FAQ1: To what extent should supervisors consider climate-related financial risks in evaluating whether the risk weights in the corresponding risk weight tables are too low?
+
+In this evaluation, national supervisors should also consider climate-related financial risks, including the potential damage effects or value losses emerging from climate-related financial risks (eg weather related hazards, the implementation of climate-policy standards or changes in investment and consumption patterns derived from transition policies).
+
+## CRE20.73
+National supervisors should ensure that banks put in place underwriting policies with respect to the granting of mortgage loans that include the assessment of the ability of the borrower to repay. Underwriting policies must define a metric(s) (such as the loan’s debt service coverage ratio) and specify its (their) corresponding relevant level(s) to conduct such assessment.[fn30] Underwriting policies must also be appropriate when the repayment of the mortgage loan depends materially on the cash flows generated by the property, including relevant metrics (such as an occupancy rate of the property). National supervisors may provide guidance on appropriate definitions and levels for these metrics in their jurisdictions.
+[fn30] Metrics and levels for measuring the ability to repay should mirror the Financial Stability Board (FSB) Principles for sound residential mortgage underwriting practices (April 2012).
+
+## CRE20.74
+The LTV is the amount of the loan divided by the value of the property. When calculating the LTV, the loan amount will be reduced as the loan amortises. The value of the property will be maintained at the value measured at origination, with the following exceptions:
+
+- The national supervisors elect to require banks to revise the property value downward. If the value has been adjusted downwards, a subsequent upwards adjustment can be made but not to a higher value than the value at origination.
+
+- The value must be adjusted if an extraordinary, idiosyncratic event occurs resulting in a permanent reduction of the property value.
+
+- Modifications made to the property that unequivocally increase its value could also be considered in the LTV.
+
+## CRE20.75
+The LTV must be prudently calculated in accordance with the following requirements:
+
+- Amount of the loan: includes the outstanding loan amount and any undrawn committed amount of the mortgage loan.[fn31] The loan amount must be calculated gross of any provisions and other risk mitigants, except for pledged deposits accounts with the lending bank that meet all requirements for on-balance sheet netting and have been unconditionally and irrevocably pledged for the sole purposes of redemption of the mortgage loan.[fn32]
+
+- Value of the property: the valuation must be appraised independently[fn33] using prudently conservative valuation criteria. To ensure that the value of the property is appraised in a prudently conservative manner, the valuation must exclude expectations on price increases and must be adjusted to take into account the potential for the current market price to be significantly above the value that would be sustainable over the life of the loan. National supervisors should provide guidance setting out prudent valuation criteria where such guidance does not already exist under national law. If a market value can be determined, the valuation should not be higher than the market value.[fn34]
+
+[fnFAQ1]
+[fn31] If a bank grants different loans secured by the same property and they are sequential in ranking order (ie there is no intermediate lien from another bank), the different loans should be considered as a single exposure for risk-weighting purposes, and the amount of the loans should be added to calculate the LTV.
+[fn32] In jurisdictions where junior liens held by a different bank than that holding the senior lien are recognised (in accordance with CRE20.71), the loan amount of the junior liens must include all other loans secured with liens of equal or higher ranking than the bank’s lien securing the loan for purposes of defining the LTV bucket and risk weight for the junior lien. If there is insufficient information for ascertaining the ranking of the other liens, the bank should assume that these liens rank pari passu with the junior lien held by the bank. This treatment does not apply to exposures that are risk weighted according to the loan splitting approach CRE20.83 and CRE20.86, where the junior lien would be taken into account in the calculation of the value of the property. The bank will first determine the “base” risk weight based on Tables 11, 12, 13 or 14 as applicable and adjust the “base” risk weight by a multiplier of 1.25, for application to the loan amount of the junior lien. If the “base” risk weight corresponds to the lowest LTV bucket, the multiplier will not be applied. The resulting risk weight of multiplying the “base” risk weight by 1.25 will be capped at the risk weight applied to the exposure when the requirements in CRE20.71 are not met.
+[fn33] The valuation must be done independently from the bank’s mortgage acquisition, loan processing and loan decision process.
+[fn34] In the case where the mortgage loan is financing the purchase of the property, the value of the property for LTV purposes will not be higher than the effective purchase price.
+FAQ1: To what extent should banks consider climate-related financial risks when determining property value?
+
+Banks should determine whether the current market value incorporates the potential changes in the value of properties emerging from climate-related financial risks (eg potential damage related to weather hazard, the implementation of climate-policy standards or changes in investment and consumption patterns derived from transition policies). National supervisors should consider jurisdiction-specific features that account for climate-related financial risks when setting out prudent valuation criteria.
+
+## CRE20.76
+A guarantee or financial collateral may be recognised as a credit risk mitigant in relation to exposures secured by real estate if it qualifies as eligible collateral under the credit risk mitigation framework. This may include mortgage insurance[fn35] if it meets the operational requirements of the credit risk mitigation framework for a guarantee. Banks may recognise these risk mitigants in calculating the exposure amount; however, the LTV bucket and risk weight to be applied to the exposure amount must be determined before the application of the appropriate credit risk mitigation technique.
+[fn35] A bank’s use of mortgage insurance should mirror the FSB Principles for sound residential mortgage underwriting (April 2012).
+
+## 
+Definition of &#x201C;regulatory residential real estate&#x201D; exposures
+
+## CRE20.77
+A “regulatory residential real estate” exposure is a regulatory real estate exposure that is secured by a property that has the nature of a dwelling and satisfies all applicable laws and regulations enabling the property to be occupied for housing purposes (ie residential property).[fn36]
+[fn36] For residential property under construction described in CRE20.71(1), this means there should be an expectation that the property will satisfy all applicable laws and regulations enabling the property to be occupied for housing purposes.
+
+## 
+Definition of &#x201C;regulatory commercial real estate&#x201D; exposures
+
+## CRE20.78
+A “regulatory commercial real estate” exposure is regulatory real estate exposure that is not a regulatory residential real estate exposure.
+
+## 
+Definition of exposures that are &#x201C;materially dependent on cash flows generated by the property&#x201D;
+
+## CRE20.79
+Regulatory real estate exposures (both residential and commercial) are classified as exposures that are “materially dependent on cash flows generated by the property” when the prospects for servicing the loan materially depend on the cash flows generated by the property securing the loan rather than on the underlying capacity of the borrower to service the debt from other sources. The primary source of these cash flows would generally be lease or rental payments, or the sale of the property. The distinguishing characteristic of these exposures compared to other regulatory real estate exposures is that both the servicing of the loan and the prospects for recovery in the event of default depend materially on the cash flows generated by the property securing the exposure.
+
+## CRE20.80
+It is expected that the material dependence condition, set out in CRE20.79 above, would predominantly apply to loans to corporates, SMEs or SPVs, but is not restricted to those borrower types. As an example, a loan may be considered materially dependent if more than 50% of the income from the borrower used in the bank's assessment of its ability to service the loan is from cash flows generated by the residential property. National supervisors may provide further guidance setting out criteria on how material dependence should be assessed for specific exposure types.
+
+## CRE20.81
+As exceptions to the definition contained in CRE20.79 above, the following types of regulatory real estate exposures are not classified as exposures that are materially dependent on cash flows generated by the property:
+
+- An exposure secured by a property that is the borrower’s primary residence;
+
+- An exposure secured by an income-producing residential housing unit, to an individual who has mortgaged less than a certain number of properties or housing units, as specified by national supervisors;
+
+- An exposure secured by residential real estate property to associations or cooperatives of individuals that are regulated under national law and exist with the only purpose of granting its members the use of a primary residence in the property securing the loans; and
+
+- An exposure secured by residential real estate property to public housing companies and not-for-profit associations regulated under national law that exist to serve social purposes and to offer tenants long-term housing.
+
+## 
+Risk weights for regulatory residential real estate exposures that are not materially dependent on cash flows generated by the property
+
+## CRE20.82
+For regulatory residential real estate exposures that are not materially dependent on cash flow generated by the property, the risk weight to be assigned to the total exposure amount will be determined based on the exposure’s LTV ratio in Table 11 below. The use of the risk weights in Table 11 is referred to as the “whole loan” approach.
+
+| Whole loan approach risk weights for regulatory residential real estate exposures that are not materially dependent on cash flows generated by the property | Whole loan approach risk weights for regulatory residential real estate exposures that are not materially dependent on cash flows generated by the property | Whole loan approach risk weights for regulatory residential real estate exposures that are not materially dependent on cash flows generated by the property | Whole loan approach risk weights for regulatory residential real estate exposures that are not materially dependent on cash flows generated by the property | Whole loan approach risk weights for regulatory residential real estate exposures that are not materially dependent on cash flows generated by the property | Whole loan approach risk weights for regulatory residential real estate exposures that are not materially dependent on cash flows generated by the property | Table 11 | Table 11 |
+| | LTV ≤ 50% | 50% < LTV ≤ 60% | 60% < LTV ≤ 80% | 80% < LTV ≤ 90% | 90% < LTV ≤ 100% | 90% < LTV ≤ 100% | LTV > 100% |
+| Risk weight | 20% | 25% | 30% | 40% | 50% | 50% | 70% |
+
+## CRE20.83
+As an alternative to the whole loan approach for regulatory residential real estate exposures that are not materially dependent on cash flows generated by the property, jurisdictions may apply the “loan splitting” approach. Under the loan splitting approach, the risk weight of 20% is applied to the part of the exposure up to 55% of the property value and the risk weight of the counterparty (as prescribed in CRE20.89(1)) is applied to the residual exposure.[fn37] Where there are liens on the property that are not held by the bank, the treatment is as follows:
+
+- Where a bank holds the junior lien and there are senior liens not held by the bank, to determine the part of the bank’s exposure that is eligible for the 20% risk weight, the amount of 55% of the property value should be reduced by the amount of the senior liens not held by the bank. For example, for a loan of €70,000 to an individual secured on a property valued at €100,000, where there is also a senior ranking lien of €10,000 held by another institution, the bank will apply a risk weight of 20% to €45,000 (=max(€55,000 - €10,000, 0)) of the exposure and, according to CRE20.89(1), a risk weight of 75% to the residual exposure of €25,000.
+
+- Where liens not held by the bank rank pari passu with the bank’s lien, to determine the part of the bank’s exposure that is eligible for the 20% risk weight, the amount of 55% of the property value, reduced by the amount of more senior liens not held by the bank (if any), should be reduced by the product of: (i) 55% of the property value, reduced by the amount of any senior liens (if any, both held by the bank and held by other institutions); and (ii) the amount of liens not held by the bank that rank pari passu with the bank’s lien divided by the sum of all pari passu liens. For example, for a loan of €70,000 to an individual secured on a property valued at €100,000, where there is also a pari passu ranking lien of €10,000 held by another institution, the bank will apply a risk weight of 20% to €48,125 (=€55,000 - €55,000 * €10,000/€80,000) of the exposure and, according to CRE20.89(1), a risk weight of 75% to the residual exposure of €21,875. If both the loan and the bank’s lien is only €30,000 and there is additionally a more senior lien of €10,000 not held by the bank, the property value remaining available is €33,750 (= (€55,000 - €10,000) - ((€55,000 - €10,000) * €10,000/(€10,000+€30,000)), and the bank will apply a risk weight of 20% to €30,000.
+[fn37] For example, for a loan of €70,000 to an individual secured on a property valued at €100,000, the bank will apply a risk weight of 20% to €55,000 of the exposure and, according to CRE20.89(1), a risk weight of 75% to the residual exposure of €15,000. This gives total risk weighted assets for the exposure of €22,250 =(0.20 * €55,000) + (0.75 * €15,000).
+
+## 
+Risk weights for regulatory residential real estate exposures that are materially dependent on cash flows generated by the property
+
+## CRE20.84
+For regulatory residential real estate exposures that are materially dependent on cash flows generated by the property, the risk weight to be assigned to the total exposure amount will be determined based on the exposure’s LTV ratio in Table 12 below.
+
+| Risk weights for regulatory residential real estate exposures that are materially dependent on cash flows generated by the property | Risk weights for regulatory residential real estate exposures that are materially dependent on cash flows generated by the property | Risk weights for regulatory residential real estate exposures that are materially dependent on cash flows generated by the property | Risk weights for regulatory residential real estate exposures that are materially dependent on cash flows generated by the property | Risk weights for regulatory residential real estate exposures that are materially dependent on cash flows generated by the property | Risk weights for regulatory residential real estate exposures that are materially dependent on cash flows generated by the property | Table 12 | Table 12 |
+| | LTV ≤ 50% | 50% < LTV ≤ 60% | 60% < LTV ≤ 80% | 80% < LTV ≤ 90% | 90% < LTV ≤ 100% | 90% < LTV ≤ 100% | LTV > 100% |
+| Risk weight | 30% | 35% | 45% | 60% | 75% | 75% | 105% |
+
+## 
+Risk weights for regulatory commercial real estate exposures that are not materially dependent on cash flows generated by the property
+
+## CRE20.85
+For regulatory commercial real estate exposures that are not materially dependent on cash flow generated by the property, the risk weight to be assigned to the total exposure amount will be determined based on the exposure’s LTV in Table 13 below (which sets out a whole loan approach). The risk weight of the counterparty for the purposes of Table 13 below and CRE20.86 below is prescribed in CRE20.89(1).
+
+| Whole loan approach risk weights for regulatory commercial real estate exposures that are not materially dependent on cash flows generated by the property | Whole loan approach risk weights for regulatory commercial real estate exposures that are not materially dependent on cash flows generated by the property | Whole loan approach risk weights for regulatory commercial real estate exposures that are not materially dependent on cash flows generated by the property | Table 13 |
+| | LTV ≤ 60% | LTV > 60% | LTV > 60% |
+| Risk weight | Min (60%, RW of counterparty) | RW of counterparty | RW of counterparty |
+
+## CRE20.86
+As an alternative to the whole loan approach for regulatory commercial real estate exposures that are not materially dependent on cash flows generated by the property, jurisdictions may apply the “loan splitting” approach. Under the loan splitting approach, the risk weight of 60% or the risk weight of the counterparty, whichever is lower, is applied to the part of the exposure up to 55% of the property value[fn38] , and the risk weight of the counterparty is applied to the residual exposure.
+[fn38] Where there are liens on the property that are not held by the bank, the part of the exposure up to 55% of the property value should be reduced by the amount of the senior liens not held by the bank and by a pro-rata percentage of any liens pari passu with the bank’s lien but not held by the bank. See CRE20.83 for examples of how this methodology applies in the case of residential retail exposures.
+
+## 
+Risk weights for regulatory commercial real estate exposures that are materially dependent on cash flows generated by the property
+
+## CRE20.87
+For regulatory commercial real estate exposures that are materially dependent on cash flows generated by the property[fn39] , the risk weight to be assigned to the total exposure amount will be determined based on the exposure’s LTV in Table 14 below. [fn40]
+
+| Whole loan approach risk weights for regulatory commercial real estate exposures that are materially dependent on cash flows generated by the property | Whole loan approach risk weights for regulatory commercial real estate exposures that are materially dependent on cash flows generated by the property | Whole loan approach risk weights for regulatory commercial real estate exposures that are materially dependent on cash flows generated by the property | Whole loan approach risk weights for regulatory commercial real estate exposures that are materially dependent on cash flows generated by the property | Table 14 |
+| | LTV ≤ 60% | 60% < LTV ≤ 80% | LTV > 80% | LTV > 80% |
+| Risk weight | 70% | 90% | 110% | 110% |
+[fn39] For such exposures, national supervisors may allow banks to apply the risk weights applicable for regulatory commercial real estate exposures that are not materially dependent on cash flows generated by the property (ie the treatment set out in CRE20.85 to CRE20.86), subject to the following conditions: (i) the losses stemming from commercial real estate lending up to 60% of LTV must not exceed 0.3% of the outstanding loans in any given year and (ii) overall losses stemming from commercial real estate lending must not exceed 0.5% of the outstanding loans in any given year. If either of these tests are not satisfied in a given year, the eligibility of the exemption will cease and the exposures where the prospect for servicing the loan materially depend on cash flows generated by the property securing the loan rather than the underlying capacity of the borrower to service the debt from other sources will again be risk weighted according to CRE20.87 until both tests are satisfied again in the future. Jurisdictions applying such treatment must publicly disclose whether these conditions are met.
+[fn40] National supervisors may also require that the risk weight treatment described in CRE20.87 be applied to exposures where the servicing of the loan materially depends on the cash flows generated by a portfolio of properties owned by the borrower.
+
+## 
+Definition of &#x201C;other real estate&#x201D; exposures and applicable risk weights
+
+## CRE20.88
+An “other real estate” exposure is an exposure within the real estate asset class that is not a regulatory real estate exposure (as defined in CRE20.71 above) and is not a land ADC exposure (as defined in CRE20.90 below).
+
+## CRE20.89
+Other real estate exposures are risk weighted as follows:
+
+- The risk weight of the counterparty is used for other real estate exposures that are not materially dependent on the cash flows generated by the property. For exposures to individuals the risk weight applied will be 75%. For exposures to SMEs, the risk weight applied will be 85%. For exposures to other counterparties, the risk weight applied is the risk weight that would be assigned to an unsecured exposure to that counterparty.
+
+- The risk weight of 150% is used for other real estate exposures that are materially dependent on the cash flows generated by the property.
+
+## 
+Definition of land acquisition, development and construction exposures and applicable risk weights
+
+## CRE20.90
+Land ADC exposures[fn41] refers to loans to companies or SPVs financing any of the land acquisition for development and construction purposes, or development and construction of any residential or commercial property. ADC exposures will be risk-weighted at 150%, unless they meet the criteria in CRE20.91.
+[fn41] ADC exposures do not include the acquisition of forest or agricultural land, where there is no planning consent or intention to apply for planning consent.
+
+## CRE20.91
+ADC exposures to residential real estate may be risk weighted at 100%, provided that the following criteria are met:
+
+- prudential underwriting standards meet the requirements in CRE20.71 (ie the requirements that are used to classify regulatory real estate exposures) where applicable;
+
+- pre-sale or pre-lease contracts amount to a significant portion of total contracts or substantial equity at risk.[fn42] Pre-sale or pre-lease contracts must be legally binding written contracts and the purchaser/renter must have made a substantial cash deposit which is subject to forfeiture if the contract is terminated. Equity at risk should be determined as an appropriate amount of borrower-contributed equity to the real estate’s appraised as-completed value.
+[fn42] National supervisors will give further guidance on the appropriate levels of pre-sale or pre-lease contracts and/or equity at risk to be applied in their jurisdictions.
+
+# Risk weight multiplier to certain exposures with currency mismatch
+
+## CRE20.92
+For unhedged retail and residential real estate exposures to individuals where the lending currency differs from the currency of the borrower’s source of income, banks will apply a 1.5 times multiplier to the applicable risk weight according to CRE20.63 to CRE20.68 and CRE20.82 to CRE20.84, subject to a maximum risk weight of 150%.
+
+## CRE20.93
+For the purposes of CRE20.92, an unhedged exposure refers to an exposure to a borrower that has no natural or financial hedge against the foreign exchange risk resulting from the currency mismatch between the currency of the borrower's income and the currency of the loan. A natural hedge exists where the borrower, in its normal operating procedures, receives foreign currency income that matches the currency of a given loan (eg remittances, rental incomes, salaries). A financial hedge generally includes a legal contract with a financial institution (eg forward contract). For the purposes of application of the multiplier, only these natural or financial hedges are considered sufficient where they cover at least 90% of the loan instalment, regardless of the number of hedges.
+[fnFAQ1][fnFAQ2][fnFAQ3]
+FAQ1: Regarding the risk weight multiplier for unhedged retail and residential real estate exposures to individuals with income/lending currency mismatches according to CRE20.92 and CRE20.93, can models or proxy data be used to determine the income of the borrower, whether there is a currency mismatch and whether the hedges are sufficient?
+
+National supervisors may permit the temporary use of models or proxy data in certain circumstances. Otherwise, it is not permitted to solely rely on models or proxy data, instead of collecting borrower-specific information, to determine the level of income of the borrower, whether a currency mismatch exists or whether the hedges are sufficient.
+FAQ2: Are revolving credit facilities (eg overdrafts and credit cards) for individuals within the scope of this risk weight multiplier? If so, how should it be determined whether there is a sufficient hedge, particularly when the facility can be drawn in more than one currency?
+
+Yes, revolving credit facilities for individuals are within the scope of this risk weight multiplier. For the purpose of determining a currency mismatch, the “lending currency” is the currency of the borrower’s payment obligation under the revolving credit facility. To determine whether there is a sufficient hedge, the loan instalments should be calculated assuming the facility is fully drawn. If the currency of the borrower’s payment obligation could be different from the currency of the borrower’s source of income, the full undrawn amount is to be treated as being in a currency different from that of the borrower’s income. The relevant repayment schedule can be assumed as the one with the lowest payments for the borrower permitted under the contract for the revolving credit facility.
+FAQ3: Are derivative contracts with individuals within the scope of this risk weight multiplier? If yes, how should it be determined whether there is a sufficient hedge?
+
+Yes, derivative contracts with individuals that qualify as retail or residential real estate exposures are in the scope of this risk weight multiplier, if a currency mismatch exists. A currency mismatch exists for all payment obligations for which the counterparty is (or might be) obliged under the contract to pay in a currency not matching the currency of its income. A payment obligation of the derivative counterparty to the bank is to be treated as a loan instalment for the purpose of CRE20.93. A payment obligation of the bank to the counterparty, which is due at the same time and denominated in the same currency as the payment obligation of the counterparty to the bank, may be considered income for the purpose of determining whether there is a sufficient hedge.
+
+# Off-balance sheet items
+
+## CRE20.94
+Off-balance sheet items will be converted into credit exposure equivalents through the use of credit conversion factors (CCF). In the case of commitments, the committed but undrawn amount of the exposure would be multiplied by the CCF. For these purposes, commitment means any contractual arrangement that has been offered by the bank and accepted by the client to extend credit, purchase assets or issue credit substitutes.[fn43] It includes any such arrangement that can be unconditionally cancelled by the bank at any time without prior notice to the obligor. It also includes any such arrangement that can be cancelled by the bank if the obligor fails to meet conditions set out in the facility documentation, including conditions that must be met by the obligor prior to any initial or subsequent drawdown under the arrangement. Counterparty risk weightings for over-the-counter (OTC) derivative transactions will not be subject to any specific ceiling.
+[fn43] At national discretion, a jurisdiction may exempt certain arrangements from the definition of commitments provided that the following conditions are met: (i) the bank receives no fees or commissions to establish or maintain the arrangements; (ii) the client is required to apply to the bank for the initial and each subsequent drawdown; (iii) the bank has full authority, regardless of the fulfilment by the client of the conditions set out in the facility documentation, over the execution of each drawdown; and (iv) the bank’s decision on the execution of each drawdown is only made after assessing the creditworthiness of the client immediately prior to drawdown. Exempted arrangements that meet the above criteria are limited to certain arrangements for corporates and SMEs, where counterparties are closely monitored on an ongoing basis.
+
+## CRE20.95
+A 100% CCF will be applied to the following items:
+
+- Direct credit substitutes, eg general guarantees of indebtedness (including standby letters of credit serving as financial guarantees for loans and securities) and acceptances (including endorsements with the character of acceptances).
+
+- Sale and repurchase agreements and asset sales with recourse[fn44] where the credit risk remains with the bank.
+
+- The lending of banks’ securities or the posting of securities as collateral by banks, including instances where these arise out of repo-style transactions (ie repurchase/reverse repurchase and securities lending/securities borrowing transactions). The risk-weighting treatment for counterparty credit risk must be applied in addition to the credit risk charge on the securities or posted collateral, where the credit risk of the securities lent or posted as collateral remains with the bank. This paragraph does not apply to posted collateral related to derivative transactions that is treated in accordance with the counterparty credit risk standards.
+
+- Forward asset purchases, forward forward deposits and partly paid shares and securities, which represent commitments with certain drawdown.
+
+- Off-balance sheet items that are credit substitutes not explicitly included in any other category.
+[fn44] These items are to be weighted according to the type of asset and not according to the type of counterparty with whom the transaction has been entered into.
+
+## CRE20.96
+A 50% CCF will be applied to note issuance facilities and revolving underwriting facilities regardless of the maturity of the underlying facility.
+
+## CRE20.97
+A 50% CCF will be applied to certain transaction-related contingent items (eg performance bonds, bid bonds, warranties and standby letters of credit related to particular transactions).
+
+## CRE20.98
+A 40% CCF will be applied to commitments, regardless of the maturity of the underlying facility, unless they qualify for a lower CCF.
+
+## CRE20.99
+A 20% CCF will be applied to both the issuing and confirming banks of short-term self-liquidating trade letters of credit arising from the movement of goods (eg documentary credits collateralised by the underlying shipment). Short term in this context means with a maturity below one year.
+
+## CRE20.100
+A 10% CCF will be applied to commitments that are unconditionally cancellable at any time by the bank without prior notice, or that effectively provide for automatic cancellation due to deterioration in a borrower’s creditworthiness. National supervisors should evaluate various factors in the jurisdiction, which may constrain banks’ ability to cancel the commitment in practice, and consider applying a higher CCF to certain commitments as appropriate.
+
+## CRE20.101
+Where there is an undertaking to provide a commitment on an off-balance sheet item, banks are to apply the lower of the two applicable CCFs.[fn45]
+[fn45] For example, if a bank has a commitment to open short-term self-liquidating trade letters of credit arising from the movement of goods, a 20% CCF will be applied (instead of a 40% CCF); and if a bank has an unconditionally cancellable commitment described in CRE20.100 to issue direct credit substitutes, a 10% CCF will be applied (instead of a 100% CCF).
+
+# Exposures that give rise to counterparty credit risk
+
+## CRE20.102
+For exposures that give rise to counterparty credit risk according to CRE51.4 (ie OTC derivatives, exchange-traded derivatives, long settlement transactions and securities financing transactions), the exposure amount to be used in the determination of RWA is to be calculated under the rules set out in CRE50 to CRE54.
+
+# Credit derivatives
+
+## CRE20.103
+A bank providing credit protection through a first-to-default or second-to-default credit derivative is subject to capital requirements on such instruments. For first-to-default credit derivatives, the risk weights of the assets included in the basket must be aggregated up to a maximum of 1250% and multiplied by the nominal amount of the protection provided by the credit derivative to obtain the risk-weighted asset amount. For second-to-default credit derivatives, the treatment is similar; however, in aggregating the risk weights, the asset with the lowest risk-weighted amount can be excluded from the calculation. This treatment applies respectively for nth-to-default credit derivatives, for which the n-1 assets with the lowest risk-weighted amounts can be excluded from the calculation.
+
+# Defaulted exposures
+
+## CRE20.104
+For risk-weighting purposes under the standardised approach, a defaulted exposure is defined as one that is past due for more than 90 days, or is an exposure to a defaulted borrower. A defaulted borrower is a borrower in respect of whom any of the following events have occurred:
+
+- Any material credit obligation that is past due for more than 90 days. Overdrafts will be considered as being past due once the customer has breached an advised limit or been advised of a limit smaller than current outstandings;
+
+- Any material credit obligation is on non-accrued status (eg the lending bank no longer recognises accrued interest as income or, if recognised, makes an equivalent amount of provisions);
+
+- A write-off or account-specific provision is made as a result of a significant perceived decline in credit quality subsequent to the bank taking on any credit exposure to the borrower;
+
+- Any credit obligation is sold at a material credit-related economic loss;
+
+- A distressed restructuring of any credit obligation (ie a restructuring that may result in a diminished financial obligation caused by the material forgiveness, or postponement, of principal, interest or (where relevant) fees) is agreed by the bank;
+
+- The borrower’s bankruptcy or a similar order in respect of any of the borrower’s credit obligations to the banking group has been filed;
+
+- The borrower has sought or has been placed in bankruptcy or similar protection where this would avoid or delay repayment of any of the credit obligations to the banking group; or
+
+- Any other situation where the bank considers that the borrower is unlikely to pay its credit obligations in full without recourse by the bank to actions such as realising security.
+
+## CRE20.105
+For retail exposures, the definition of default can be applied at the level of a particular credit obligation, rather than at the level of the borrower. As such, default by a borrower on one obligation does not require a bank to treat all other obligations to the banking group as defaulted.
+
+## CRE20.106
+With the exception of residential real estate exposures treated under CRE20.107, the unsecured or unguaranteed portion of a defaulted exposure shall be risk-weighted net of specific provisions and partial write-offs as follows:
+
+- 150% risk weight when specific provisions are less than 20% of the outstanding amount of the loan; and
+
+- 100% risk weight when specific provisions are equal or greater than 20% of the outstanding amount of the loan.[fn46]
+[fn46] National supervisors have discretion to reduce the risk weight to 50% when specific provisions are no less than 50% of the outstanding amount of the loan.
+
+## CRE20.107
+Defaulted residential real estate exposures where repayments do not materially depend on cash flows generated by the property securing the loan shall be risk-weighted net of specific provisions and partial write-offs at 100%. Guarantees or financial collateral which are eligible according to the credit risk mitigation framework might be taken into account in the calculation of the exposure in accordance with CRE20.76.
+
+## CRE20.108
+For the purpose of defining the secured or guaranteed portion of the defaulted exposure, eligible collateral and guarantees will be the same as for credit risk mitigation purposes (see CRE22).
+
+# Other assets
+
+## CRE20.109
+CAP30.32 specifies a deduction treatment for the following exposures: significant investments in the common shares of unconsolidated financial institutions, mortgage servicing rights, and deferred tax assets that arise from temporary differences. The exposures are deducted in the calculation of Common Equity Tier 1 if they exceed the thresholds set out in CAP30.32 and CAP30.33. A 250% risk weight applies to the amount of the three “threshold deduction” items listed in CAP30.32 that are not deducted by CAP30.32 or CAP30.33.
+
+## CRE20.110
+The standard risk weight for all other assets will be 100%, with the exception of the following exposures:
+
+- A 0% risk weight will apply to:
+
+- cash owned and held at the bank or in transit; and
+
+- gold bullion held at the bank or held in another bank on an allocated basis, to the extent the gold bullion assets are backed by gold bullion liabilities.
+
+- A 20% risk weight will apply to cash items in the process of collection.
+[fnFAQ1]
+FAQ1: In 2016, the International Accounting Standards Board (IASB) and the Financial Accounting Standards Board (FASB) revised the accounting for lease transactions. Both require that most leases will be reflected on a lessee's balance sheet as an obligation to make lease payments (a liability) and a related right-of-use (ROU) asset (an asset). According to FAQ2 of CAP30.7, an ROU asset should not be deducted from regulatory capital so long as the underlying asset being leased is a tangible asset. When the ROU asset is not deducted from regulatory capital, should it be included in RWA and, if so, what risk weight should apply?
+
+Yes, the ROU asset should be included in RWA. The intent of the revisions to the lease accounting standards was to more appropriately reflect the economics of leasing transactions, including both the lessee's obligation to make future lease payments, as well as an ROU asset reflecting the lessee's control over the leased item's economic benefits during the lease term. The ROU asset should be risk-weighted at 100%, consistent with the risk weight applied historically to owned tangible assets and to a lessee's leased assets under leases accounted for as finance leases in accordance with existing accounting standards.

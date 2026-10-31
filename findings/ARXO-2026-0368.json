@@ -1,0 +1,121 @@
+{
+  "id": "ARXO-2026-0368",
+  "url": "https://arxo.io/findings/ARXO-2026-0368/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework CRE34 (in force 2023-01-01, published 2020-11-26)",
+  "acts": [],
+  "location": "CRE34.11 reference to CRE44.10",
+  "text": {
+    "en": {
+      "title": "Basel Framework: CRE34.11 reference to CRE44.10",
+      "summary": "CRE34.11 points to CRE44.10 for first-loss treatment of collateral and guarantees on purchased receivables, but CRE44.10 only concerns gross-of-provision measurement.",
+      "impact": "Position: Receivables with guarantee covering first 10. Reading a: n/a Reading b: n/a Difference: No numeric",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework CRE34 (in force 2023-01-01, published 2020-11-26)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-11-26",
+        "locator": "CRE34.11 reference to CRE44.10",
+        "text": "they may also be treated as first loss protection under the securitisation chapters of the credit risk standard (see CRE44.10).",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/34/inforce/2023-01-01/published/2020-11-26",
+        "sha256": "1a7a7d754038720f78a23970937c06f955db6b022273491031d3f0782c15f803",
+        "retrieved": "2026-10-31",
+        "copy": "sources/1a7a7d754038720f-CRE34@2023-01-01~2020-11-26.txt",
+        "copy_sha256": "1a7a7d754038720f78a23970937c06f955db6b022273491031d3f0782c15f803",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Basel Framework CRE44 (in force 2023-01-01, published 2020-03-27)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-03-27",
+        "locator": "CRE44.10",
+        "text": "the quantities defined in CRE44.2(1) and CRE44.2(2) must be calculated using the gross amount of the exposure without the specific provision and/or non-refundable purchase price discount.",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/44/inforce/2023-01-01/published/2020-03-27",
+        "sha256": "bd3ae6236ed8d62f77ef45aa6db29eb2711497fe0c6178e329f50924d0d040ef",
+        "retrieved": "2026-10-31",
+        "copy": "sources/bd3ae6236ed8d62f-CRE44@2023-01-01~2020-03-27.txt",
+        "copy_sha256": "bd3ae6236ed8d62f77ef45aa6db29eb2711497fe0c6178e329f50924d0d040ef",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

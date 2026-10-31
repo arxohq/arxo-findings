@@ -1,0 +1,121 @@
+{
+  "id": "ARXO-2026-0381",
+  "url": "https://arxo.io/findings/ARXO-2026-0381/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework LCR40 (in force 2019-12-15, published 2023-03-30)",
+  "acts": [],
+  "location": "LCR40.79 FAQ2 -> LCR40.80",
+  "text": {
+    "en": {
+      "title": "Basel Framework: LCR40.79 FAQ2 -> LCR40.80",
+      "summary": "FAQ2 under LCR40.79 attributes the 0% inflow for firm shorts to LCR40.80, which only sets outflow rates; the inflow rate is in the LCR40.79 table.",
+      "impact": "Position: Firm short covered by reverse repo of 100 Level 2B RMBS maturing in 10 days. Reading a: Following FAQ -> LCR40.80 -> no inflow rate stated; reading only 40.80 gives no inflow figure (undefined). Reading b: Table in LCR40.79 -> 0% inflow -> 0; without short cover 25 -> 25. Difference: 25 (or undefined)",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework LCR40 (in force 2019-12-15, published 2023-03-30)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2023-03-30",
+        "locator": "LCR40.79 FAQ2 -> LCR40.80",
+        "text": "For firm shorts, LCR40.80 applies a 0% cash inflow rate to the reverse repo, irrespective of the residual maturity",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/lcr/40/inforce/2019-12-15/published/2023-03-30",
+        "sha256": "44c6353c1aad8b74e46059cb902093f993fbc36eb0190b1d17015639add29d56",
+        "retrieved": "2026-10-31",
+        "copy": "sources/44c6353c1aad8b74-LCR40@2019-12-15~2023-03-30.txt",
+        "copy_sha256": "44c6353c1aad8b74e46059cb902093f993fbc36eb0190b1d17015639add29d56",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Basel Framework LCR40 (in force 2019-12-15, published 2023-03-30)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2023-03-30",
+        "locator": "LCR40.79 FAQ2 -> LCR40.80",
+        "text": "If, however, the bank’s short position is being covered by a collateralised securities financing transaction, the bank must assume the short position will be maintained throughout the 30-day period and receive a 0% outflow.",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/lcr/40/inforce/2019-12-15/published/2023-03-30",
+        "sha256": "44c6353c1aad8b74e46059cb902093f993fbc36eb0190b1d17015639add29d56",
+        "retrieved": "2026-10-31",
+        "copy": "sources/44c6353c1aad8b74-LCR40@2019-12-15~2023-03-30.txt",
+        "copy_sha256": "44c6353c1aad8b74e46059cb902093f993fbc36eb0190b1d17015639add29d56",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

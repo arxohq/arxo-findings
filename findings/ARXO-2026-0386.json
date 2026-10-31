@@ -1,0 +1,121 @@
+{
+  "id": "ARXO-2026-0386",
+  "url": "https://arxo.io/findings/ARXO-2026-0386/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework MAR21 (in force 2023-01-01, published 2026-03-23)",
+  "acts": [],
+  "location": "MAR21.58 FAQ1 vs MAR21.33(1)",
+  "text": {
+    "en": {
+      "title": "Basel Framework: MAR21.58 FAQ1 vs MAR21.33(1)",
+      "summary": "The CTP index FAQ says 'at least 75%' while citing MAR21.33(1), which says 'more than 75%'; exactly 75% gets two different buckets.",
+      "impact": "Position: Credit index CTP, constituents by weight: exactly 75% IG financials (bucket 3) and 25% other; CS01 = 100,000. Reading a: FAQ: at least 75% -> bucket 3, RW (Table 6) 8.0%, WS = 8,000. Reading b: MAR21.33(1): not more than 75% -> fallback (bucket 16, 13.0%) WS = 13,000. Difference: WS 5,000",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework MAR21 (in force 2023-01-01, published 2026-03-23)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2026-03-23",
+        "locator": "MAR21.58 FAQ1 vs MAR21.33(1)",
+        "text": "should be assigned to a single specific delta sector bucket consistent with the characteristics of, at least, 75% of the index constituents (taking into account the weightings of that index), in accordance with MAR21.33(1).",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/mar/21/inforce/2023-01-01/published/2026-03-23",
+        "sha256": "702d93bcc11364c3ffc2c0c81eb0c5981d89544031c7ebc2a84605f86b22df28",
+        "retrieved": "2026-10-31",
+        "copy": "sources/702d93bcc11364c3-MAR21@2023-01-01~2026-03-23.txt",
+        "copy_sha256": "702d93bcc11364c3ffc2c0c81eb0c5981d89544031c7ebc2a84605f86b22df28",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Basel Framework MAR21 (in force 2023-01-01, published 2026-03-23)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2026-03-23",
+        "locator": "MAR21.58 FAQ1 vs MAR21.33(1)",
+        "text": "Where more than 75% of constituents in that index (taking into account the weightings of that index) would be mapped to a specific sector bucket",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/mar/21/inforce/2023-01-01/published/2026-03-23",
+        "sha256": "702d93bcc11364c3ffc2c0c81eb0c5981d89544031c7ebc2a84605f86b22df28",
+        "retrieved": "2026-10-31",
+        "copy": "sources/702d93bcc11364c3-MAR21@2023-01-01~2026-03-23.txt",
+        "copy_sha256": "702d93bcc11364c3ffc2c0c81eb0c5981d89544031c7ebc2a84605f86b22df28",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+CRE44 — inforce 2023-01-01, published 2020-03-27; source sha256 962e315b5e85810583c96d91e10004c09454f8a27e2dcc5e168f956799fbf169
+Title: Securitisation: Internal-ratings-based approach | Bank for International Settlements
+
+# Internal ratings-based approach (SEC-IRBA)
+
+## CRE44.1
+To calculate capital requirements for a securitisation exposure to an internal ratings-based (IRB) pool, a bank must use the securitisation internal ratings-based approach (SEC-IRBA) and the following bank-supplied inputs: the IRB capital charge had the underlying exposures not been securitised (K_{IRB}), the tranche attachment point (A), the tranche detachment point (D) and the supervisory parameter p, as defined below. Where the only difference between exposures to a transaction is related to maturity, A and D will be the same.
+
+# Definition of K{{IRB}}
+
+## CRE44.2
+K_{IRB} is the ratio of the following measures, expressed in decimal form (eg a capital charge equal to 15% of the pool would be expressed as 0.15):
+
+- the IRB capital requirement (including the expected loss portion and, where applicable, dilution risk as discussed in CRE44.11 to CRE44.13) for the underlying exposures in the pool; to
+
+- the exposure amount of the pool (eg the sum of drawn amounts related to securitised exposures plus the exposure-at-default associated with undrawn commitments related to securitised exposures).[fn1][fn2]
+[fn1] KIRB must also include the unexpected loss and the expected loss associated with defaulted exposures in the underlying pool.
+[fn2] Undrawn balances should not be included in the calculation of KIRB in cases where only the drawn balances of revolving facilities have been securitised.
+
+## CRE44.3
+Notwithstanding the clarification in CRE40.46 and CRE40.47 for mixed pools, CRE44.2(1) must be calculated in accordance with applicable minimum IRB standards in CRE30 to CRE36 as if the exposures in the pool were held directly by the bank. This calculation should reflect the effects of any credit risk mitigant that is applied on the underlying exposures (either individually or to the entire pool), and hence benefits all of the securitisation exposures.
+
+## CRE44.4
+For structures involving a special purpose entity (SPE), all of the SPE's exposures related to the securitisation are to be treated as exposures in the pool. Exposures related to the securitisation that should be treated as exposures in the pool could include assets in which the SPE may have invested a reserve account, such as a cash collateral account or claims against counterparties resulting from interest swaps or currency swaps.[fn3] Notwithstanding, the bank can exclude the SPE's exposures from the pool for capital calculation purposes if the bank can demonstrate to its national supervisor that the risk of the SPE's exposures is immaterial (for example, because it has been mitigated[fn4] ) or that it does not affect the bank's securitisation exposure.
+[fn3] In particular, in the case of swaps other than credit derivatives, the numerator of KIRB must include the positive current market value times the risk weight of the swap provider times 8%. In contrast, the denominator should not take into account such a swap, as such a swap would not provide a credit enhancement to any tranche.
+[fn4] Certain best market practices can eliminate or at least significantly reduce the potential risk from a default of a swap provider. Examples of such features could be: cash collateralisation of the market value in combination with an agreement of prompt additional payments in case of an increase of the market value of the swap; and minimum credit quality of the swap provider with the obligation to post collateral or present an alternative swap provider without any costs for the SPE in the event of a credit deterioration on the part of the original swap provider. If national supervisors are satisfied with these risk mitigants and accept that the contribution of these exposures to the risk of the holder of a securitisation exposure is insignificant, supervisors may allow the bank to exclude these exposures from the KIRB calculation.
+
+## CRE44.5
+In the case of funded synthetic securitisations, any proceeds of the issuances of credit-linked notes or other funded obligations of the SPE that serve as collateral for the repayment of the securitisation exposure in question and for which the bank cannot demonstrate to its national supervisor that it is immaterial must be included in the calculation of K_{IRB} if the default risk of the collateral is subject to the tranched loss allocation.[fn5]
+[fn5] As in the case of swaps other than credit derivatives, the numerator of KIRB (ie quantity CRE44.2(1)) must include the exposure amount of the collateral times its risk weight times 8%, but the denominator should be calculated without recognition of the collateral.
+
+## CRE44.6
+To calculate K_{IRB}, the treatment for eligible purchased receivables described in CRE30.27 to CRE30.31, CRE34.2 to CRE34.7, CRE36.107, CRE36.109, CRE36.113 to CRE36.121 may be used, with the particularities specified in CRE44.7 to CRE44.9, if, according to IRB minimum requirements:
+
+- for non-retail assets, it would be an undue burden on a bank to assess the default risk of individual obligors; and
+
+- for retail assets, a bank is unable to primarily rely on internal data.
+
+## CRE44.7
+CRE44.6 applies to any securitised exposure, not just purchased receivables. For this purpose, "eligible purchased receivables" should be understood as referring to any securitised exposure for which the conditions of CRE44.6 are met, and "eligible purchased corporate receivables" should be understood as referring to any securitised non-retail exposure. All other IRB minimum requirements must be met by the bank.
+
+## CRE44.8
+Supervisors may deny the use of a top-down approach for eligible purchased receivables for securitised exposures depending on the bank's compliance with minimum requirements.
+
+## CRE44.9
+The requirements to use a top-down approach for the eligible purchased receivables are generally unchanged when applied to securitisations except in the following cases:
+
+- the requirement in CRE30.30 for the bank to have a claim on all proceeds from the pool of receivables or a pro-rata interest in the proceeds does not apply. Instead, the bank must have a claim on all proceeds from the pool of securitised exposures that have been allocated to the bank's exposure in the securitisation in accordance with the terms of the related securitisation documentation;
+
+- in CRE36.114, the purchasing bank should be interpreted as the bank calculating K_{IRB};
+
+- in CRE36.116 to CRE36.121 "a bank" should be read as "the bank estimating probability of default, loss-given-default (LGD) or expected loss for the securitised exposures"; and
+
+- if the bank calculating K_{IRB} cannot itself meet the requirements in CRE36.116 to CRE36.120, it must instead ensure that it meets these requirements through a party to the securitisation acting for and in the interest of the investors in the securitisation, in accordance with the terms of the related securitisation documents. Specifically, requirements for effective control and ownership must be met for all proceeds from the pool of securitised exposures that have been allocated to the bank's exposure to the securitisation. Further, in CRE36.118(1), the relevant eligibility criteria and advancing policies are those of the securitisation, not those of the bank calculating K_{IRB}.
+
+## CRE44.10
+In cases where a bank has set aside a specific provision or has a non-refundable purchase price discount on an exposure in the pool, the quantities defined in CRE44.2(1) and CRE44.2(2) must be calculated using the gross amount of the exposure without the specific provision and/or non-refundable purchase price discount.
+
+## CRE44.11
+Dilution risk in a securitisation must be recognised if it is not immaterial, as demonstrated by the bank to its national supervisor (see CRE34.8), whereby the provisions of CRE44.2 to CRE44.5 shall apply.
+
+## CRE44.12
+Where default and dilution risk are treated in an aggregate manner (eg an identical reserve or overcollateralisation is available to cover losses for both risks), in order to calculate capital requirements for the securitisation exposure, a bank must determine K_{IRB} for dilution risk and default risk, respectively, and combine them into a single K_{IRB} prior to applying the SEC-IRBA. CRE99.4 to CRE99.8 provides an illustration of such a calculation.
+
+## CRE44.13
+In certain circumstances, pool level credit enhancement will not be available to cover losses from either credit risk or dilution risk. In the case of separate waterfalls for credit risk and dilution risk, a bank should consult with its national supervisor as to how the capital calculation should be performed. To guide banks and supervisors, CRE99.9 to CRE99.19 includes an example of how such calculations could be made in a prudent manner.
+
+# Definition of attachment point (A), detachment point (D) and supervisory parameter (p)
+
+## CRE44.14
+The input A represents the threshold at which losses within the underlying pool would first be allocated to the securitisation exposure. This input, which is a decimal value between zero and one, equals the greater of
+
+- zero and
+
+- the ratio of
+
+- the outstanding balance of all underlying assets in the securitisation minus the outstanding balance of all tranches that rank senior or pari passu to the tranche that contains the securitisation exposure of the bank (including the exposure itself) to
+
+- the outstanding balance of all underlying assets in the securitisation.
+
+## CRE44.15
+The input D represents the threshold at which losses within the underlying pool result in a total loss of principal for the tranche in which a securitisation exposure resides. This input, which is a decimal value between zero and one, equals the greater of
+
+- zero and
+
+- the ratio of
+
+- the outstanding balance of all underlying assets in the securitisation minus the outstanding balance of all tranches that rank senior to the tranche that contains the securitisation exposure of the bank to
+
+- the outstanding balance of all underlying assets in the securitisation.
+
+## CRE44.16
+For the calculation of A and D, overcollateralisation and funded reserve accounts must be recognised as tranches; and the assets forming these reserve accounts must be recognised as underlying assets. Only the loss-absorbing part of the funded reserve accounts that provide credit enhancement can be recognised as tranches and underlying assets. Unfunded reserve accounts, such as those to be funded from future receipts from the underlying exposures (eg unrealised excess spread) and assets that do not provide credit enhancement like pure liquidity support, currency or interest-rate swaps, or cash collateral accounts related to these instruments must not be included in the above calculation of A and D. Banks should take into consideration the economic substance of the transaction and apply these definitions conservatively in the light of the structure.
+
+## CRE44.17
+The supervisory parameter p in the context of the SEC-IRBA is expressed as follows, where:
+
+- 0.3 denotes the p-parameter floor;
+
+- N is the effective number of loans in the underlying pool, calculated as described in CRE44.20;
+
+- K_{IRB} is the capital charge of the underlying pool (as defined in CRE44.2 to CRE44.5);
+
+- LGD is the exposure-weighted average loss-given-default of the underlying pool, calculated as described in CRE44.21);
+
+- M_{T} is the maturity of the tranche calculated according to CRE40.22 and CRE40.23; and
+
+- the parameters A, B, C, D, and E are determined according to Table 1:
+
+| Look-up table for supervisory parameters A, B, C, D and E | Look-up table for supervisory parameters A, B, C, D and E | Look-up table for supervisory parameters A, B, C, D and E | Look-up table for supervisory parameters A, B, C, D and E | Look-up table for supervisory parameters A, B, C, D and E | Look-up table for supervisory parameters A, B, C, D and E | Table 1 | Table 1 |
+| | | A | B | C | D | D | E |
+| Wholesale | Senior, granular (N≥25) | 0 | 3.56 | -1.85 | 0.55 | 0.55 | 0.07 |
+| Wholesale | Senior, non-granular (N<25) | 0.11 | 2.61 | -2.91 | 0.68 | 0.68 | 0.07 |
+| Wholesale | Non-senior, granular (N≥25) | 0.16 | 2.87 | -1.03 | 0.21 | 0.21 | 0.07 |
+| Wholesale | Non-senior, non-granular (N<25) | 0.22 | 2.35 | -2.46 | 0.48 | 0.48 | 0.07 |
+| Retail | Senior | 0 | 0 | -7.48 | 0.71 | 0.71 | 0.24 |
+| Retail | Non-senior | 0 | 0 | -5.78 | 0.55 | 0.55 | 0.27 |
+
+## CRE44.18
+If the underlying IRB pool consists of both retail and wholesale exposures, the pool should be divided into one retail and one wholesale subpool and, for each subpool, a separate p-parameter (and the corresponding input parameters N, K_{IRB} and LGD) should be estimated. Subsequently, a weighted average p-parameter for the transaction should be calculated on the basis of the p-parameters of each subpool and the nominal size of the exposures in each subpool.
+
+## CRE44.19
+If a bank applies the SEC-IRBA to a mixed pool as described in CRE40.46 and CRE40.47, the calculation of the p-parameter should be based on the IRB underlying assets only. The SA underlying assets should not be considered for this purpose.
+
+## CRE44.20
+The effective number of exposures, N, is calculated as follows, where EAD_{i} represents the exposure-at-default associated with the ith instrument in the pool. Multiple exposures to the same obligor must be consolidated (ie treated as a single instrument).
+
+## CRE44.21
+The exposure-weighted average LGD is calculated as follows, where LGD_{i} represents the average LGD associated with all exposures to the ith obligor. When default and dilution risks for purchased receivables are treated in an aggregate manner (eg a single reserve or overcollateralisation is available to cover losses from either source) within a securitisation, the LGD input must be constructed as a weighted average of the LGD for default risk and the 100% LGD for dilution risk. The weights are the stand-alone IRB capital charges for default risk and dilution risk, respectively.
+
+## CRE44.22
+Under the conditions outlined below, banks may employ a simplified method for calculating the effective number of exposures and the exposure-weighted average LGD. Let C_{m} in the simplified calculation denote the share of the pool corresponding to the sum of the largest m exposures (eg a 15% share corresponds to a value of 0.15). The level of m is set by each bank.
+
+- If the portfolio share associated with the largest exposure, C_{1}, is no more than 0.03 (or 3% of the underlying pool), then for purposes of the SEC-IRBA the bank may set LGD as 0.50 and N equal to the following amount:
+
+- Alternatively, if only C_{1}is available and this amount is no more than 0.03, then the bank may set LGD as 0.50 and N as 1/C_{1}.
+
+# Calculation of risk weight
+
+## CRE44.23
+The formulation of the SEC-IRBA is expressed as follows, where:
+
+- is the capital requirement per unit of securitisation exposure under the SEC-IRBA, which is a function of three variables;
+
+- the constant e is the base of the natural logarithm (which equals 2.71828);
+
+- the variable a is defined as -(1 / (p * K_{IRB}));
+
+- the variable u is defined as D - K_{IRB}; and
+
+- the variable l is defined as the maximum of A - K_{IRB} and zero.
+
+## CRE44.24
+The risk weight assigned to a securitisation exposure when applying the SEC-IRBA is calculated as follows:
+
+- When D for a securitisation exposure is less than or equal to K_{IRB}, the exposure must be assigned a risk weight of 1250%.
+
+- When A for a securitisation exposure is greater than or equal to K_{IRB}, the risk weight of the exposure, expressed as a percentage, would equal times 12.5.
+
+- When A is less than K_{IRB} and D is greater than K_{IRB}, the applicable risk weight is a weighted average of 1250% and 12.5 times according to the following formula:
+
+## CRE44.25
+The risk weight for market risk hedges such as currency or interest rate swaps will be inferred from a securitisation exposure that is pari passu to the swaps or, if such an exposure does not exist, from the next subordinated tranche.
+
+## CRE44.26
+The resulting risk weight is subject to a floor risk weight of 15%.
+
+# Alternative capital treatment for term securitisations and short-term securitisations meeting the STC criteria for capital purposes
+
+## CRE44.27
+Securitisation transactions that are assessed as simple, transparent and comparable (STC)-compliant for capital purposes in CRE40.67 can be subject to capital requirements under the securitisation framework, taking into account that, when the SEC-IRBA is used, CRE44.28 and CRE44.29 are applicable instead of CRE44.17 and CRE44.26 respectively.
+
+## CRE44.28
+The supervisory parameter p in SEC-IRBA for an exposure to an STC securitisation is expressed as follows, where:
+
+- 0.3 denotes the p-parameter floor;
+
+- N is the effective number of loans in the underlying pool, calculated as described in CRE44.20;
+
+- K_{IRB} is the capital charge of the underlying pool (as defined in CRE44.2 to CRE44.5);
+
+- LGD is the exposure-weighted average loss-given-default of the underlying pool, calculated as described in CRE44.21;
+
+- M_{T} is the maturity of the tranche calculated according to CRE40.22 and CRE40.23; and
+
+- the parameters A, B, C, D, and E are determined according to Table 2:
+
+| Look-up table for supervisory parameters A, B, C, D and E | Look-up table for supervisory parameters A, B, C, D and E | Look-up table for supervisory parameters A, B, C, D and E | Look-up table for supervisory parameters A, B, C, D and E | Look-up table for supervisory parameters A, B, C, D and E | Look-up table for supervisory parameters A, B, C, D and E | Table 2 | Table 2 |
+| | | A | B | C | D | D | E |
+| Wholesale | Senior, granular (N≥25) | 0 | 3.56 | -1.85 | 0.55 | 0.55 | 0.07 |
+| Wholesale | Senior, non-granular (N<25) | 0.11 | 2.61 | -2.91 | 0.68 | 0.68 | 0.07 |
+| Wholesale | Non-senior, granular (N≥25) | 0.16 | 2.87 | -1.03 | 0.21 | 0.21 | 0.07 |
+| Wholesale | Non-senior, non-granular (N<25) | 0.22 | 2.35 | -2.46 | 0.48 | 0.48 | 0.07 |
+| Retail | Senior | 0 | 0 | -7.48 | 0.71 | 0.71 | 0.24 |
+| Retail | Non-senior | 0 | 0 | -5.78 | 0.55 | 0.55 | 0.27 |
+
+## CRE44.29
+The resulting risk weight is subject to a floor risk weight of 10% for senior tranches, and 15% for non-senior tranches.

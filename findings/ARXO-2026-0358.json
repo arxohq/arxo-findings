@@ -1,0 +1,121 @@
+{
+  "id": "ARXO-2026-0358",
+  "url": "https://arxo.io/findings/ARXO-2026-0358/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework CRE22 (in force 2028-11-01, published 2025-10-28)",
+  "acts": [],
+  "location": "CRE22.49 rating bands",
+  "text": {
+    "en": {
+      "title": "Basel Framework: CRE22.49 rating bands",
+      "summary": "The CRE22.49 haircut table names P-3 but omits Moody's P-1 and P-2, although P-3 and better short-term paper is eligible collateral.",
+      "impact": "Position: Collateral C = 100 of CP of a corporate rated P-1 by Moody's, residual maturity 0.5 year, rated jurisdiction, exposure E = 100 cash. Reading a: P-1 equals A-1: Hc = 1% -> E* = 100 - 99 = 1 Reading b: P-1 not listed: no row, collateral not recognised (or second band 2% -> E* = 2) Difference: E* 1 vs 100 (or 2)",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework CRE22 (in force 2028-11-01, published 2025-10-28)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2025-10-28",
+        "locator": "CRE22.49 rating bands",
+        "text": "| AAA to AA–/A-1 | ≤ 1 year | 0.5 | 1 | 2 | 2 |",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/22/inforce/2028-11-01/published/2025-10-28",
+        "sha256": "a826640759d287975a3513d9598e4b0c38fe3f3adfc4e908f8b28ae2adeae44c",
+        "retrieved": "2026-10-31",
+        "copy": "sources/a826640759d28797-CRE22@2028-11-01~2025-10-28.txt",
+        "copy_sha256": "a826640759d287975a3513d9598e4b0c38fe3f3adfc4e908f8b28ae2adeae44c",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Basel Framework CRE22 (in force 2028-11-01, published 2025-10-28)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2025-10-28",
+        "locator": "CRE22.49 rating bands",
+        "text": "| A+ to BBB–/ A-2/A-3/P-3 and unrated bank securities CRE22.34(3)(b) | ≤ 1 year | 1 | 2 | 4 | 4 |",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/22/inforce/2028-11-01/published/2025-10-28",
+        "sha256": "a826640759d287975a3513d9598e4b0c38fe3f3adfc4e908f8b28ae2adeae44c",
+        "retrieved": "2026-10-31",
+        "copy": "sources/a826640759d28797-CRE22@2028-11-01~2025-10-28.txt",
+        "copy_sha256": "a826640759d287975a3513d9598e4b0c38fe3f3adfc4e908f8b28ae2adeae44c",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

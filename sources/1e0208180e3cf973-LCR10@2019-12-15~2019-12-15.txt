@@ -1,0 +1,44 @@
+LCR10 — inforce 2019-12-15, published 2019-12-15; source sha256 133deba5b0c31509bfcb678edff518453057d5fb835368866b2f0a6e41f22cc6
+Title: Definitions and application | Bank for International Settlements
+
+# Scope of application
+
+## LCR10.1
+The application of the requirements of the liquidity coverage ratio (LCR) standard, set out in LCR, and the liquidity monitoring metrics, set out in SRP50, follow the existing scope of application set out in SCO10.1 to SCO10.4. The LCR standard and monitoring tools should be applied to all internationally active banks on a consolidated basis, but may be used for other banks and on any subset of entities of internationally active banks as well to ensure greater consistency and a level playing field between domestic and cross-border banks. The LCR standard and monitoring tools should be applied consistently wherever they are applied.
+
+## LCR10.2
+National supervisors should determine which investments in banking, securities and financial entities of a banking group that are not consolidated per LCR10.1 should be considered significant, taking into account the liquidity impact of such investments on the group under the LCR standard. Normally, a non-controlling investment (eg a joint venture or minority-owned entity) can be regarded as significant if the banking group will be the main liquidity provider of such investment in times of stress (for example, when the other shareholders are non-banks or where the bank is operationally involved in the day-to-day management and monitoring of the entity’s liquidity risk). National supervisors should agree with each relevant bank on a case-by-case basis on an appropriate methodology for how to quantify such potential liquidity draws, in particular, those arising from the need to support the investment in times of stress out of reputational concerns for the purpose of calculating the LCR. To the extent that such liquidity draws are not included elsewhere, they should be treated under “Other contingent funding obligations”, as described in LCR40.70.
+
+## LCR10.3
+Regardless of the scope of application of the LCR, in keeping with Principle 6 as outlined in the Principles for Sound Liquidity Risk Management and Supervision, a bank should actively monitor and control liquidity risk exposures and funding needs at the level of individual legal entities, foreign branches and subsidiaries, and the group as a whole, taking into account legal, regulatory and operational limitations to the transferability of liquidity.
+
+# Differences in home / host liquidity requirements
+
+## LCR10.4
+While most of the parameters in the LCR standard are internationally “harmonised”, national differences in liquidity treatment may occur in those items subject to national discretion (eg deposit run-off rates, contingent funding obligations, market valuation changes on derivative transactions) and where more stringent parameters are adopted by some supervisors.
+
+## LCR10.5
+When calculating the LCR on a consolidated basis, a cross-border banking group should apply the liquidity parameters adopted in the home jurisdiction to all legal entities being consolidated except for the treatment of retail / small business deposits that should follow the relevant parameters adopted in host jurisdictions in which the entities (branch or subsidiary) operate. This approach will enable the stressed liquidity needs of legal entities of the group (including branches of those entities) operating in host jurisdictions to be more suitably reflected, given that deposit run-off rates in host jurisdictions are more influenced by jurisdiction-specific factors such as the type and effectiveness of deposit insurance schemes in place and the behaviour of local depositors.
+
+## LCR10.6
+Home requirements for retail and small business deposits should apply to the relevant legal entities (including branches of those entities) operating in host jurisdictions if:
+
+- there are no host requirements for retail and small business deposits in the particular jurisdictions;
+
+- those entities operate in host jurisdictions that have not implemented the LCR; or
+
+- the home supervisor decides that home requirements should be used that are stricter than the host requirements.
+
+# Treatment of liquidity transfer restrictions
+
+## LCR10.7
+As noted in LCR30.21, as a general principle, no excess liquidity should be recognised by a cross-border banking group in its consolidated LCR if there is reasonable doubt about the availability of such liquidity. Liquidity transfer restrictions (eg ring-fencing measures, non-convertibility of local currency, foreign exchange controls) in jurisdictions in which a banking group operates will affect the availability of liquidity by inhibiting the transfer of high-quality liquid assets (HQLA) and fund flows within the group. The consolidated LCR should reflect such restrictions in a manner consistent with LCR30.21. For example, the eligible HQLA that are held by a legal entity being consolidated to meet its local LCR requirements (where applicable) can be included in the consolidated LCR to the extent that such HQLA are used to cover the total net cash outflows of that entity, notwithstanding that the assets are subject to liquidity transfer restrictions. If the HQLA held in excess of the total net cash outflows are not transferable, such surplus liquidity should be excluded from the LCR calculation.
+
+## LCR10.8
+For practical reasons, the liquidity transfer restrictions to be accounted for in the consolidated ratio are confined to existing restrictions imposed under applicable laws, regulations and supervisory requirements.[fn1] A banking group should have processes in place to capture all liquidity transfer restrictions to the extent practicable, and to monitor the rules and regulations in the jurisdictions in which the group operates and assess their liquidity implications for the group as a whole.
+[fn1] There are a number of factors that can impede cross-border liquidity flows of a banking group, many of which are beyond the control of the group and some of these restrictions may not be clearly incorporated into law or may become visible only in times of stress.
+
+# Currencies
+
+## LCR10.9
+As outlined in LCR30.29, while the LCR must be met on a consolidated basis and reported in a common currency, supervisors and banks should also be aware of the liquidity needs in each significant currency. As indicated in the LCR standard, the currencies of the stock of HQLA should be similar in composition to the operational needs of the bank. Banks and supervisors cannot assume that currencies will remain transferable and convertible in a stress period, even for currencies that in normal times are freely transferable and highly convertible.

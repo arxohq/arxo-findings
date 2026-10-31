@@ -1,0 +1,121 @@
+{
+  "id": "ARXO-2026-0379",
+  "url": "https://arxo.io/findings/ARXO-2026-0379/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework LCR31 (in force 2019-12-15, published 2019-12-15)",
+  "acts": [],
+  "location": "LCR31.29",
+  "text": {
+    "en": {
+      "title": "Basel Framework: LCR31.29",
+      "summary": "LCR31.29 points to LCR31.7-31.10 as the jurisdiction's information base, but those paragraphs are bank-to-supervisor usage rules; the shortfall information sits in LCR31.24-31.28.",
+      "impact": "Position: Jurisdiction preparing its LCR31.20(1)(b) factor submission Reading a: Follow reference literally: take LCR31.7-31.10 as the prior information base: nothing from the jurisdiction is found there, so the base is empty Reading b: Take LCR31.24-31.28 as the base: HQLA supply/demand data and shortfall method Difference: Different base for the factor commentary; no numeric effect",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework LCR31 (in force 2019-12-15, published 2019-12-15)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2019-12-15",
+        "locator": "LCR31.29",
+        "text": "LCR31.20(1)(b) builds on the information provided by the jurisdiction in LCR31.7 to LCR31.10",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/lcr/31/inforce/2019-12-15/published/2019-12-15",
+        "sha256": "447a06db3ab76e0b38b46a99134d70e1d6d13048fe14083278f22e0ae91b076f",
+        "retrieved": "2026-10-31",
+        "copy": "sources/447a06db3ab76e0b-LCR31@2019-12-15~2019-12-15.txt",
+        "copy_sha256": "447a06db3ab76e0b38b46a99134d70e1d6d13048fe14083278f22e0ae91b076f",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Basel Framework LCR31 (in force 2019-12-15, published 2019-12-15)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2019-12-15",
+        "locator": "LCR31.29",
+        "text": "A bank must keep its supervisor informed of its usage of the options so as to enable the supervisor to manage the aggregate usage",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/lcr/31/inforce/2019-12-15/published/2019-12-15",
+        "sha256": "447a06db3ab76e0b38b46a99134d70e1d6d13048fe14083278f22e0ae91b076f",
+        "retrieved": "2026-10-31",
+        "copy": "sources/447a06db3ab76e0b-LCR31@2019-12-15~2019-12-15.txt",
+        "copy_sha256": "447a06db3ab76e0b38b46a99134d70e1d6d13048fe14083278f22e0ae91b076f",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

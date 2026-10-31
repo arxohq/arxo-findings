@@ -1,0 +1,121 @@
+{
+  "id": "ARXO-2026-0388",
+  "url": "https://arxo.io/findings/ARXO-2026-0388/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework MAR22 (in force 2023-01-01, published 2020-03-27)",
+  "acts": [],
+  "location": "MAR22.23 HBR; MAR22.44 HBR_ctp",
+  "text": {
+    "en": {
+      "title": "Basel Framework: MAR22.23 HBR; MAR22.44 HBR_ctp",
+      "summary": "The hedge benefit ratio in MAR22.23 is not defined when a bucket has no net long and no net short JTD positions, as its denominator is then zero.",
+      "impact": "Position: Corporate bucket: long bond on obligor X JTD 75, short equity... fully offset per MAR22.19 so net long 0 and net short 0 in all rating bands; DRC_b = max[0 - HBR*0; 0] Reading a: HBR = 0/0 undefined, DRC_b undefined/error Reading b: treat HBR as any value, 0*HBR = 0, DRC_b = 0 Difference: DRC_b either undefined or 0 (no numeric difference if convention is 0*x)",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework MAR22 (in force 2023-01-01, published 2020-03-27)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-03-27",
+        "locator": "MAR22.23 HBR; MAR22.44 HBR_ctp",
+        "text": "The HBR is the ratio of net long JTD risk positions to the sum of net long JTD and absolute value of net short JTD risk positions:",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/mar/22/inforce/2023-01-01/published/2020-03-27",
+        "sha256": "6867bedae225e6b45fd9cac97912ead6f6e180844063b4f875b58431de229bf3",
+        "retrieved": "2026-10-31",
+        "copy": "sources/6867bedae225e6b4-MAR22@2023-01-01~2020-03-27.txt",
+        "copy_sha256": "6867bedae225e6b45fd9cac97912ead6f6e180844063b4f875b58431de229bf3",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Basel Framework MAR22 (in force 2023-01-01, published 2020-03-27)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-03-27",
+        "locator": "MAR22.23 HBR; MAR22.44 HBR_ctp",
+        "text": "The aggregated amount is used in the denominator of the expression of the HBR below.",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/mar/22/inforce/2023-01-01/published/2020-03-27",
+        "sha256": "6867bedae225e6b45fd9cac97912ead6f6e180844063b4f875b58431de229bf3",
+        "retrieved": "2026-10-31",
+        "copy": "sources/6867bedae225e6b4-MAR22@2023-01-01~2020-03-27.txt",
+        "copy_sha256": "6867bedae225e6b45fd9cac97912ead6f6e180844063b4f875b58431de229bf3",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

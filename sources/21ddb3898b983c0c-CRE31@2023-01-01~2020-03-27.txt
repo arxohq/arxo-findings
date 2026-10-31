@@ -1,0 +1,101 @@
+CRE31 — inforce 2023-01-01, published 2020-03-27; source sha256 92ee61db31641eb277e6e5e4df059ef61ca30ac4af1a8f47295d3f9f72528968
+Title: IRB approach: risk weight functions | Bank for International Settlements
+
+# Introduction
+
+## CRE31.1
+This chapter presents the calculation of risk weighted assets under the internal ratings-based (IRB) approach for: (i) corporate, sovereign and bank exposures; and (ii) retail exposures. Risk weighted assets are designed to address unexpected losses from exposures. The method of calculating expected losses, and for determining the difference between that measure and provisions, is described CRE35.
+
+# Explanation of the risk-weight functions
+
+## CRE31.2
+Regarding the risk-weight functions for deriving risk weighted assets set out in this chapter:
+
+- Probability of default (PD) and loss-given-default (LGD) are measured as decimals
+
+- Exposure at default (EAD) is measured as currency (eg euros), except where explicitly noted otherwise
+
+- ln denotes the natural logarithm
+
+- N(x) denotes the cumulative distribution function for a standard normal random variable (ie the probability that a normal random variable with mean zero and variance of one is less than or equal to x). The normal cumulative distribution function is, for example, available in Excel as the function NORMSDIST.
+
+- G(z) denotes the inverse cumulative distribution function for a standard normal random variable (ie the value of x such that N(x) = z). The inverse of the normal cumulative distribution function is, for example, available in Excel as the function NORMSINV.
+
+# Risk-weighted assets for exposures that are in default
+
+## CRE31.3
+The capital requirement (K) for a defaulted exposure is equal to the greater of zero and the difference between its LGD (described in CRE36.83) and the bank’s best estimate of expected loss (described in CRE36.86). The risk-weighted asset amount for the defaulted exposure is the product of K, 12.5, and the EAD.
+
+# Risk-weighted assets for corporate, sovereign and bank exposures that are not in default
+
+## 
+Risk-weight functions for corporate, sovereign and bank exposures
+
+## CRE31.4
+The derivation of risk-weighted assets is dependent on estimates of the PD, LGD, EAD and, in some cases, effective maturity (M), for a given exposure.
+
+## CRE31.5
+For exposures not in default, the formula for calculating risk-weighted assets is as follows (illustrative risk weights are shown in CRE99):
+
+## CRE31.6
+Regarding the formula set out in CRE31.5 above, M is the effective maturity, calculated according to CRE32.43 to CRE32.54, and the following term is used to refer to a specific part of the capital requirements formula:
+
+## CRE31.7
+A multiplier of 1.25 is applied to the correlation parameter of all exposures to financial institutions meeting the following criteria:
+
+- Regulated financial institutions whose total assets are greater than or equal to USD100 billion. The most recent audited financial statement of the parent company and consolidated subsidiaries must be used in order to determine asset size. For the purpose of this paragraph, a regulated financial institution is defined as a parent and its subsidiaries where any substantial legal entity in the consolidated group is supervised by a regulator that imposes prudential requirements consistent with international norms. These include, but are not limited to, prudentially regulated Insurance Companies, Broker/Dealers, Banks, Thrifts and Futures Commission Merchants.
+
+- Unregulated financial institutions, regardless of size. Unregulated financial institutions are, for the purposes of this paragraph, legal entities whose main business includes: the management of financial assets, lending, factoring, leasing, provision of credit enhancements, securitisation, investments, financial custody, central counterparty services, proprietary trading and other financial services activities identified by supervisors.
+[fnFAQ1]
+FAQ1: Can the Basel Committee clarify the definition of unregulated financial institutions CRE31.7? Does this could include “real” money funds such as mutual and pension funds which are, in some cases, regulated but not “supervised by a regulator that imposes prudential requirements consistent with international norms”?
+
+For the sole purpose of CRE31.7, “unregulated financial institution” can include a financial institution or leveraged fund that is not subject to prudential solvency regulation.
+
+## 
+Firm-size adjustment for small or medium-sized entities (SMEs)
+
+## CRE31.8
+Under the IRB approach for corporate credits, banks will be permitted to separately distinguish exposures to SME borrowers (defined as corporate exposures where the reported sales for the consolidated group of which the firm is a part is less than €50 million) from those to large firms. A firm-size adjustment (ie 0.04 x (1 – (S – 5) / 45)) is made to the corporate risk weight formula for exposures to SME borrowers. S is expressed as total annual sales in millions of euros with values of S falling in the range of equal to or less than €50 million or greater than or equal to €5 million. Reported sales of less than €5 million will be treated as if they were equivalent to €5 million for the purposes of the firm-size adjustment for SME borrowers.
+
+## CRE31.9
+Subject to national discretion, supervisors may allow banks, as a failsafe, to substitute total assets of the consolidated group for total sales in calculating the SME threshold and the firm-size adjustment. However, total assets should be used only when total sales are not a meaningful indicator of firm size.
+
+## 
+Risk weights for specialised lending
+
+## CRE31.10
+Regarding project finance, object finance, commodities finance and income-producing real estate sub-asset classes of specialised lending (SL):
+
+- Banks that meet the requirements for the estimation of PD will be able to use the foundation IRB (F-IRB) approach for the corporate asset class to derive risk weights for SL sub-classes. As specified in CRE33.2, banks that do not meet the requirements for the estimation of PD will be required to use the supervisory slotting approach.
+
+- Banks that meet the requirements for the estimation of PD, LGD and EAD (where relevant) will be able to use the advanced IRB (A-IRB) approach for the corporate asset class to derive risk weights for SL sub-classes.
+
+## CRE31.11
+Regarding the high volatility commercial real estate (HVCRE) sub-asset class of specialised lending, banks that meet the requirements for the estimation of PD and whose supervisor has chosen to implement a foundation or advanced approach to HVCRE exposures will use the same formula for the derivation of risk weights that is used for other SL exposures, except that they will apply the following asset correlation formula:
+
+## CRE31.12
+Banks that do not meet the requirements for estimation of LGD or EAD for HVCRE exposures must use the supervisory parameters for LGD and EAD for corporate exposures, or use the supervisory slotting approach.
+
+# Risk-weighted assets for retail exposures that are not in default
+
+## CRE31.13
+There are three separate risk-weight functions for retail exposures, as defined in CRE31.14 to CRE31.16. Risk weights for retail exposures are based on separate assessments of PD and LGD as inputs to the risk-weight functions. None of the three retail risk-weight functions contain the full maturity adjustment component that is present in the risk-weight function for exposures to banks, sovereigns and corporates. Illustrative risk weights are shown in CRE99.
+
+## 
+Retail residential mortgage exposures
+
+## CRE31.14
+For exposures defined in CRE30.19 that are not in default and are secured or partly secured[fn1] by residential mortgages, risk weights will be assigned based on the following formula:
+[fn1] This means that risk weights for residential mortgages also apply to the unsecured portion of such residential mortgages.
+
+## 
+Qualifying revolving retail exposures
+
+## CRE31.15
+For qualifying revolving retail exposures as defined in CRE30.23 and CRE30.24 that are not in default, risk weights are defined based on the following formula:
+
+## 
+Other retail exposures
+
+## CRE31.16
+For all other retail exposures that are not in default, risk weights are assigned based on the following function, which allows correlation to vary with PD:

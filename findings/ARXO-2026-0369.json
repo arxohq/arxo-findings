@@ -1,0 +1,121 @@
+{
+  "id": "ARXO-2026-0369",
+  "url": "https://arxo.io/findings/ARXO-2026-0369/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework CRE36 (in force 2023-01-01, published 2022-12-08)",
+  "acts": [],
+  "location": "CRE36.31 FAQ2",
+  "text": {
+    "en": {
+      "title": "Basel Framework: CRE36.31 FAQ2",
+      "summary": "FAQ2 under CRE36.31 quotes a sentence of CRE36.30 that is not in CRE36.30 of the published chapter.",
+      "impact": "Position: Hedge-fund counterparty exposure 100 Reading a: look up the quoted sentence in CRE36.30: not found, no basis for FAQ interpretation Reading b: treat as leftover from earlier wording: FAQ applies to CRE36.31 only Difference: interpretive; whether stressed-volatility PD requirement applies to non-traded-asset borrowers",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework CRE36 (in force 2023-01-01, published 2022-12-08)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2022-12-08",
+        "locator": "CRE36.31 FAQ2",
+        "text": "CRE36.31 elaborates on the sentence in CRE36.30 that states",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/36/inforce/2023-01-01/published/2022-12-08",
+        "sha256": "2f6bc5609d88368a3847ccbb835060b75e5632712dae311a78474ba0852e5b8b",
+        "retrieved": "2026-10-31",
+        "copy": "sources/2f6bc5609d88368a-CRE36@2023-01-01~2022-12-08.txt",
+        "copy_sha256": "2f6bc5609d88368a3847ccbb835060b75e5632712dae311a78474ba0852e5b8b",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Basel Framework CRE36 (in force 2023-01-01, published 2022-12-08)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2022-12-08",
+        "locator": "CRE36.31 FAQ2",
+        "text": "PD estimates for borrowers that are highly leveraged or for borrowers whose assets are predominantly traded assets must reflect the performance of the underlying assets based on periods of stressed volatilities.",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/36/inforce/2023-01-01/published/2022-12-08",
+        "sha256": "2f6bc5609d88368a3847ccbb835060b75e5632712dae311a78474ba0852e5b8b",
+        "retrieved": "2026-10-31",
+        "copy": "sources/2f6bc5609d88368a-CRE36@2023-01-01~2022-12-08.txt",
+        "copy_sha256": "2f6bc5609d88368a3847ccbb835060b75e5632712dae311a78474ba0852e5b8b",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}

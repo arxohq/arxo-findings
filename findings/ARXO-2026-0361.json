@@ -1,0 +1,105 @@
+{
+  "id": "ARXO-2026-0361",
+  "url": "https://arxo.io/findings/ARXO-2026-0361/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": null,
+  "issuer": {
+    "name": "Basel Committee on Banking Supervision",
+    "short": "BCBS",
+    "kind": "standards_body"
+  },
+  "act": "Basel Framework CRE30 (in force 2023-01-01, published 2020-03-27)",
+  "acts": [],
+  "location": "CRE30.31",
+  "text": {
+    "en": {
+      "title": "Basel Framework: CRE30.31",
+      "summary": "CRE30.31 makes top-down eligibility for recourse receivables depend on a 'primary protection' test said to be set in CRE34.4-34.7, but those paragraphs contain no such test.",
+      "impact": "Position: Pool of corporate receivables with 20% recourse to the seller Reading a: Apply CRE34.4-34.7: no test, eligibility undeterminable Reading b: Eligibility judged by supervisor on general criteria Difference: Top-down vs bottom-up/F-IRB treatment",
+      "correction": "Clarify or correct the cited passage so that the rule and its references give one result for the stated case."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-31",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Basel Framework CRE30 (in force 2023-01-01, published 2020-03-27)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Published 2020-03-27",
+        "locator": "CRE30.31",
+        "text": "as long as the cash flows from the purchased corporate receivables are the primary protection against default risk as determined by the rules in CRE34.4 to CRE34.7 for purchased receivables",
+        "translations": {},
+        "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/cre/30/inforce/2023-01-01/published/2020-03-27",
+        "sha256": "4d47fea78cbb9333e9026a15e0f7908b175470dcc6245522c2b9d3ed6206e0b9",
+        "retrieved": "2026-10-31",
+        "copy": "sources/4d47fea78cbb9333-CRE30@2023-01-01~2020-03-27.txt",
+        "copy_sha256": "4d47fea78cbb9333e9026a15e0f7908b175470dcc6245522c2b9d3ed6206e0b9",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T12:07:10Z",
+      "institution": "Basel Committee on Banking Supervision",
+      "channel": "email",
+      "reference": "https://mail.google.com/mail/u/0/#sent/KtbxLthRTjRNkqRtWGvxMWmXhVdckfWkGV"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Basel Committee on Banking Supervision",
+      "role": "maintains the Basel Framework"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-31",
+  "ai_role": {
+    "en": "AI models read the texts, built the examples and reviewed the findings."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-10-31T13:12:41+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to Basel Committee on Banking Supervision (e-mail)"
+    }
+  ]
+}
