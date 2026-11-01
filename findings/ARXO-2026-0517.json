@@ -1,0 +1,355 @@
+{
+  "id": "ARXO-2026-0517",
+  "url": "https://arxo.io/findings/ARXO-2026-0517/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "12 CFR part 608",
+  "text": {
+    "en": {
+      "title": "Farm Credit Administration: 11 references to 4 CFR parts 101 to 105, removed in 2000",
+      "summary": "In the CFR chapters assigned to the Farm Credit Administration, 11 references in 6 sections cite 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].",
+      "impact": "A reader who follows these references finds no text at the cited address. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. The revised standards are at 31 CFR chapter IX, parts 900 to 904 (65 FR 70390). We did not map sections one to one."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-29",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "r1",
+        "source": "Federal Claims Collection Standards and removal of obsolete chapter, 65 FR 70390 and 70405 (November 22, 2000)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "65 FR 70390, SUPPLEMENTARY INFORMATION",
+        "text": "Treasury and DOJ are publishing the revised FCCS as a joint final rule under new chapter IX, Title 31, Code of Federal Regulations. The revised FCCS supersede the current FCCS codified at 4 CFR parts 101–105.",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/FR-2000-11-22/pdf/FR-2000-11-22.pdf",
+        "sha256": "8529ce63aee682356903063a1fdf875913bd3b3e9d90591c340b79c355378515",
+        "retrieved": "2026-10-30",
+        "copy": "sources/09401145571373a4-fr-65-70390-70405-fccs.txt",
+        "copy_sha256": "09401145571373a4be9c0820694460aaa7777527cd8880266859b2ee4cd28674",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "r2",
+        "source": "Federal Claims Collection Standards and removal of obsolete chapter, 65 FR 70390 and 70405 (November 22, 2000)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "65 FR 70405, DATES",
+        "text": "DATES: This rule is effective December 22, 2000.",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/FR-2000-11-22/pdf/FR-2000-11-22.pdf",
+        "sha256": "8529ce63aee682356903063a1fdf875913bd3b3e9d90591c340b79c355378515",
+        "retrieved": "2026-10-30",
+        "copy": "sources/09401145571373a4-fr-65-70390-70405-fccs.txt",
+        "copy_sha256": "09401145571373a4be9c0820694460aaa7777527cd8880266859b2ee4cd28674",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "r3",
+        "source": "Federal Claims Collection Standards and removal of obsolete chapter, 65 FR 70390 and 70405 (November 22, 2000)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "65 FR 70406, amendatory text",
+        "text": "For the reasons set out in the preamble, and under the authority of 31 U.S.C. 3711, the Federal Claims Collection Standards, chapter II of title 4, Code of Federal Regulations, consisting of parts 101 through 105, is removed.",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/FR-2000-11-22/pdf/FR-2000-11-22.pdf",
+        "sha256": "8529ce63aee682356903063a1fdf875913bd3b3e9d90591c340b79c355378515",
+        "retrieved": "2026-10-30",
+        "copy": "sources/09401145571373a4-fr-65-70390-70405-fccs.txt",
+        "copy_sha256": "09401145571373a4be9c0820694460aaa7777527cd8880266859b2ee4cd28674",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s1",
+        "source": "eCFR Title 4, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "4 CFR, end of chapter I",
+        "text": "PARTS 84-199 [RESERVED]",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-4.xml",
+        "sha256": "693843eefde703920263ff1c1f66f4afa544a53910150c9bfde2133ee81489ba",
+        "retrieved": "2026-10-29",
+        "copy": "sources/114f41fa12976400-ecfr-2026-10-27-title-4-structure.txt",
+        "copy_sha256": "114f41fa129764000732b1029f7f88d0c20dfe9ae6415971cb736cb21fd5fdea",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s2",
+        "source": "eCFR Title 31, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "31 CFR chapter IX",
+        "text": "CHAPTER IX—FEDERAL CLAIMS COLLECTION STANDARDS (DEPARTMENT OF THE TREASURY—DEPARTMENT OF JUSTICE)",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-31.xml",
+        "sha256": "d0d9b05c02d1c6cc6dd10fd120cbb04de2b591403c3e790b02975193c4e37819",
+        "retrieved": "2026-10-29",
+        "copy": "sources/e5a3915fc7828024-ecfr-2026-10-27-title-31-structure.txt",
+        "copy_sha256": "e5a3915fc782802444831b383f80cb499faa02728cc1d1e6c15f8b885024ad7e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c1",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 608.802, citing 4 CFR 101.3",
+        "text": "interest in the claim, unless the Justice Department authorizes the Farm Credit Administration, pursuant to 4 CFR 101.3, to handle the claim in accordance with the provisions of 4 CFR parts 101-105. Additionally, this part does",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/f2400b4eb13ddea7-ecfr-2026-10-27-title-12-citing-sections.txt",
+        "copy_sha256": "f2400b4eb13ddea7c17f86b2d93a78e93e4b19f5546f7bfb53bed322f04eedc0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 608.805(b), citing 4 CFR part 103",
+        "text": "solely with the Department of Justice. The standards governing the compromise of claims are set forth in 4 CFR part 103.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/f2400b4eb13ddea7-ecfr-2026-10-27-title-12-citing-sections.txt",
+        "copy_sha256": "f2400b4eb13ddea7c17f86b2d93a78e93e4b19f5546f7bfb53bed322f04eedc0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 608.805(c), citing 4 CFR part 104",
+        "text": "of Justice. The standards governing the suspension or termination of claim collections are set forth in 4 CFR part 104.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/f2400b4eb13ddea7-ecfr-2026-10-27-title-12-citing-sections.txt",
+        "copy_sha256": "f2400b4eb13ddea7c17f86b2d93a78e93e4b19f5546f7bfb53bed322f04eedc0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 608.805(d), citing 4 CFR part 105",
+        "text": "GAO) for claims arising from audit exceptions taken by the GAO to payments made by the FCA in accordance with 4 CFR part 105.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/f2400b4eb13ddea7-ecfr-2026-10-27-title-12-citing-sections.txt",
+        "copy_sha256": "f2400b4eb13ddea7c17f86b2d93a78e93e4b19f5546f7bfb53bed322f04eedc0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 608.813, citing 4 CFR 102.6",
+        "text": "or designee of the Chairman, may contract for collection services in accordance with 31 U.S.C. 3718 and 4 CFR 102.6 to recover debts.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/f2400b4eb13ddea7-ecfr-2026-10-27-title-12-citing-sections.txt",
+        "copy_sha256": "f2400b4eb13ddea7c17f86b2d93a78e93e4b19f5546f7bfb53bed322f04eedc0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c6",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 608.821(a), citing 4 CFR 102.3",
+        "text": "[or salary] offset shall be accomplished in accordance with the provisions of these regulations, of 4 CFR 102.3, and 5 CFR part 550, subpart K. It is not necessary for the debt to be reduced to judgment or to be",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/f2400b4eb13ddea7-ecfr-2026-10-27-title-12-citing-sections.txt",
+        "copy_sha256": "f2400b4eb13ddea7c17f86b2d93a78e93e4b19f5546f7bfb53bed322f04eedc0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c7",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 608.825(a)(2), citing 4 CFR part 102",
+        "text": ". It shall certify the debtor owes the debt and that all of the applicable requirements of 31 U.S.C. 3716 and 4 CFR part 102 have been met. If the intended offset is to be a salary offset, a claim certification shall instead certify",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/f2400b4eb13ddea7-ecfr-2026-10-27-title-12-citing-sections.txt",
+        "copy_sha256": "f2400b4eb13ddea7c17f86b2d93a78e93e4b19f5546f7bfb53bed322f04eedc0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c8",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 608.825(a)(3), citing 4 CFR 102.3(b)(5)",
+        "text": "Offset at least 31 calendar days prior to the date of the intended offset or a statement that pursuant to 4 CFR 102.3(b)(5) said Notice was not required to be sent. A certification that the requirements of 5 U.S.C. 5514 and 5 CFR",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/f2400b4eb13ddea7-ecfr-2026-10-27-title-12-citing-sections.txt",
+        "copy_sha256": "f2400b4eb13ddea7c17f86b2d93a78e93e4b19f5546f7bfb53bed322f04eedc0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c9",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 608.825(a)(3), citing 4 CFR 102.3(b)(5)",
+        "text": "Offset at least 31 calendar days prior to the date of the intended offset or a statement that pursuant to 4 CFR 102.3(b)(5) said Notice was not required to be sent.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/f2400b4eb13ddea7-ecfr-2026-10-27-title-12-citing-sections.txt",
+        "copy_sha256": "f2400b4eb13ddea7c17f86b2d93a78e93e4b19f5546f7bfb53bed322f04eedc0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c10",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 608.825(a)(3), citing 4 CFR part 102",
+        "text": "the date on which payment of the debt was due. A certification that the requirements of 31 U.S.C. 3716 and 4 CFR part 102 have been met shall include a statement that the debtor has been sent a notice of Intent to Collect by",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/f2400b4eb13ddea7-ecfr-2026-10-27-title-12-citing-sections.txt",
+        "copy_sha256": "f2400b4eb13ddea7c17f86b2d93a78e93e4b19f5546f7bfb53bed322f04eedc0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c11",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 608.827, citing 4 CFR 102.3",
+        "text": "debt, the amount of the debt, and that the FCA has complied with the requirements set forth in this part, 4 CFR 102.3, and the Office of Personnel Management regulations. The request shall be submitted to the official",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/f2400b4eb13ddea7-ecfr-2026-10-27-title-12-citing-sections.txt",
+        "copy_sha256": "f2400b4eb13ddea7c17f86b2d93a78e93e4b19f5546f7bfb53bed322f04eedc0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-01",
+      "institution": "Farm Credit Administration",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH71qt4RTt3xHBU0vzpHQ4ZTKJV0TGV9nvhYpywR-YixciA@mail.gmail.com>"
+    },
+    {
+      "date": "2026-11-01",
+      "institution": "Office of the Federal Register",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70iTotpQt-ZZVt36OX3QHcPtdeS-VL3PQv-aRwK04g0kw@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Farm Credit Administration",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-01",
+  "ai_role": {
+    "en": "AI agents wrote and ran the parser and read each reference against the eCFR text."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-01T15:04:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-01",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "reported",
+      "text": "Reported to Farm Credit Administration (e-mail)"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    }
+  ]
+}

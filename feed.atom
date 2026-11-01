@@ -5,7 +5,7 @@
   <link rel="alternate" href="https://arxo.io/findings/"/>
   <link rel="self" href="https://arxo.io/findings/feed.atom"/>
   <id>https://arxo.io/findings/</id>
-  <updated>2026-11-01T13:46:00+00:00</updated>
+  <updated>2026-11-01T15:04:00+00:00</updated>
   <author><name>Arxo Law</name></author>
   <rights>Data: CC BY 4.0, Arxo Law</rights>
   <entry>
@@ -77,6 +77,1026 @@
     <category term="DE"/>
     <category term="accepted" label="Accepted by the addressee"/>
     <summary>Accepted by the addressee. In the XML version of the 2026 wage-tax program, the input VJAHR (the year pension payments began) is declared with the attribute “defaul”. The other inputs with a default value use “default”. This is the only occurrence in the file.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0595/</id>
+    <title>ARXO-2026-0595 — International Boundary and Water Commission, United States Section: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0595/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the International Boundary and Water Commission, United States Section, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0594/</id>
+    <title>ARXO-2026-0594 — United States International Trade Commission: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0594/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the United States International Trade Commission, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0593/</id>
+    <title>ARXO-2026-0593 — United States International Development Finance Corporation: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0593/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the United States International Development Finance Corporation, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0592/</id>
+    <title>ARXO-2026-0592 — United States Agency for Global Media: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0592/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the United States Agency for Global Media, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0591/</id>
+    <title>ARXO-2026-0591 — Tennessee Valley Authority: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0591/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Tennessee Valley Authority, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0590/</id>
+    <title>ARXO-2026-0590 — Surface Transportation Board: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0590/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Surface Transportation Board, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0588/</id>
+    <title>ARXO-2026-0588 — Selective Service System: 1 reference to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0588/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Selective Service System, 1 reference in 1 section cites 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0586/</id>
+    <title>ARXO-2026-0586 — Railroad Retirement Board: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0586/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Railroad Retirement Board, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0585/</id>
+    <title>ARXO-2026-0585 — Pension Benefit Guaranty Corporation: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0585/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Pension Benefit Guaranty Corporation, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0584/</id>
+    <title>ARXO-2026-0584 — Pennsylvania Avenue Development Corporation: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0584/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Pennsylvania Avenue Development Corporation, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0583/</id>
+    <title>ARXO-2026-0583 — Office of Personnel Management: 3 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0583/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Office of Personnel Management, 3 references in 3 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0582/</id>
+    <title>ARXO-2026-0582 — Office of Navajo and Hopi Indian Relocation: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0582/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Office of Navajo and Hopi Indian Relocation, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0581/</id>
+    <title>ARXO-2026-0581 — Nuclear Regulatory Commission: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0581/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Nuclear Regulatory Commission, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0580/</id>
+    <title>ARXO-2026-0580 — National Transportation Safety Board: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0580/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the National Transportation Safety Board, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0579/</id>
+    <title>ARXO-2026-0579 — National Science Foundation: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0579/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the National Science Foundation, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0578/</id>
+    <title>ARXO-2026-0578 — National Labor Relations Board: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0578/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the National Labor Relations Board, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0577/</id>
+    <title>ARXO-2026-0577 — National Foundation on the Arts and the Humanities: 6 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0577/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the National Foundation on the Arts and the Humanities, 6 references in 6 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0576/</id>
+    <title>ARXO-2026-0576 — National Credit Union Administration: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0576/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the National Credit Union Administration, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0575/</id>
+    <title>ARXO-2026-0575 — National Commission on Libraries and Information Science: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0575/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the National Commission on Libraries and Information Science, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0573/</id>
+    <title>ARXO-2026-0573 — National Capital Planning Commission: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0573/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the National Capital Planning Commission, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0572/</id>
+    <title>ARXO-2026-0572 — National Archives and Records Administration: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0572/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the National Archives and Records Administration, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0571/</id>
+    <title>ARXO-2026-0571 — Marine Mammal Commission: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0571/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Marine Mammal Commission, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0570/</id>
+    <title>ARXO-2026-0570 — Japan-United States Friendship Commission: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0570/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Japan-United States Friendship Commission, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0569/</id>
+    <title>ARXO-2026-0569 — Inter-American Foundation: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0569/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Inter-American Foundation, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0568/</id>
+    <title>ARXO-2026-0568 — Harry S. Truman Scholarship Foundation: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0568/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Harry S. Truman Scholarship Foundation, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0567/</id>
+    <title>ARXO-2026-0567 — General Services Administration: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0567/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the General Services Administration, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0565/</id>
+    <title>ARXO-2026-0565 — Federal Mine Safety and Health Review Commission: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0565/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Federal Mine Safety and Health Review Commission, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0564/</id>
+    <title>ARXO-2026-0564 — Federal Maritime Commission: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0564/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Federal Maritime Commission, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0563/</id>
+    <title>ARXO-2026-0563 — Federal Election Commission: 1 reference to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0563/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Federal Election Commission, 1 reference in 1 section cites 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0562/</id>
+    <title>ARXO-2026-0562 — Farm Credit Administration: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0562/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Farm Credit Administration, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0561/</id>
+    <title>ARXO-2026-0561 — Export-Import Bank of the United States: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0561/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Export-Import Bank of the United States, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0559/</id>
+    <title>ARXO-2026-0559 — Environmental Protection Agency: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0559/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Environmental Protection Agency, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0558/</id>
+    <title>ARXO-2026-0558 — Department of Veterans Affairs: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0558/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Veterans Affairs, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0556/</id>
+    <title>ARXO-2026-0556 — Department of Transportation: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0556/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Transportation, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0555/</id>
+    <title>ARXO-2026-0555 — Department of State: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0555/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of State, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0554/</id>
+    <title>ARXO-2026-0554 — Department of Labor: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0554/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Labor, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0553/</id>
+    <title>ARXO-2026-0553 — Department of Justice: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0553/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Justice, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0552/</id>
+    <title>ARXO-2026-0552 — Department of the Interior: 3 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0552/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of the Interior, 3 references in 3 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0550/</id>
+    <title>ARXO-2026-0550 — Department of Homeland Security: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0550/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Homeland Security, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0549/</id>
+    <title>ARXO-2026-0549 — Department of Health and Human Services: 1 reference to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0549/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Health and Human Services, 1 reference in 1 section cites 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0548/</id>
+    <title>ARXO-2026-0548 — Department of Energy: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0548/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Energy, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0547/</id>
+    <title>ARXO-2026-0547 — Department of Education: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0547/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Education, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0546/</id>
+    <title>ARXO-2026-0546 — Department of Commerce: 1 reference to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0546/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Commerce, 1 reference in 1 section cites 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0545/</id>
+    <title>ARXO-2026-0545 — Corporation for National and Community Service: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0545/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Corporation for National and Community Service, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0544/</id>
+    <title>ARXO-2026-0544 — Consumer Product Safety Commission: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0544/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Consumer Product Safety Commission, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0543/</id>
+    <title>ARXO-2026-0543 — Commodity Futures Trading Commission: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0543/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Commodity Futures Trading Commission, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0542/</id>
+    <title>ARXO-2026-0542 — Committee for Purchase From People Who Are Blind or Severely Disabled: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0542/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Committee for Purchase From People Who Are Blind or Severely Disabled, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0541/</id>
+    <title>ARXO-2026-0541 — Commission of Fine Arts: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0541/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Commission of Fine Arts, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0539/</id>
+    <title>ARXO-2026-0539 — Architectural and Transportation Barriers Compliance Board: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0539/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Architectural and Transportation Barriers Compliance Board, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0538/</id>
+    <title>ARXO-2026-0538 — American Battle Monuments Commission: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0538/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the American Battle Monuments Commission, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0537/</id>
+    <title>ARXO-2026-0537 — Agency for International Development: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0537/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Agency for International Development, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0536/</id>
+    <title>ARXO-2026-0536 — African Development Foundation: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0536/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the African Development Foundation, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0535/</id>
+    <title>ARXO-2026-0535 — Advisory Council on Historic Preservation: 2 references to 29 CFR part 1613, removed in 1995</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0535/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Advisory Council on Historic Preservation, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0534/</id>
+    <title>ARXO-2026-0534 — United States Agency for Global Media: 8 references to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0534/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the United States Agency for Global Media, 8 references in 6 sections cite 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0533/</id>
+    <title>ARXO-2026-0533 — Surface Transportation Board: 13 references to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0533/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Surface Transportation Board, 13 references in 7 sections cite 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0532/</id>
+    <title>ARXO-2026-0532 — Selective Service System: 4 references to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0532/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Selective Service System, 4 references in 4 sections cite 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0531/</id>
+    <title>ARXO-2026-0531 — Railroad Retirement Board: 8 references to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0531/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Railroad Retirement Board, 8 references in 7 sections cite 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0530/</id>
+    <title>ARXO-2026-0530 — Presidio Trust: 1 reference to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0530/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Presidio Trust, 1 reference in 1 section cites 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0529/</id>
+    <title>ARXO-2026-0529 — Office of Personnel Management: 57 references to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0529/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Office of Personnel Management, 57 references in 25 sections cite 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0528/</id>
+    <title>ARXO-2026-0528 — Nuclear Regulatory Commission: 1 reference to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0528/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Nuclear Regulatory Commission, 1 reference in 1 section cites 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0527/</id>
+    <title>ARXO-2026-0527 — National Science Foundation: 12 references to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0527/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the National Science Foundation, 12 references in 6 sections cite 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0526/</id>
+    <title>ARXO-2026-0526 — National Foundation on the Arts and the Humanities: 4 references to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0526/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the National Foundation on the Arts and the Humanities, 4 references in 4 sections cite 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0524/</id>
+    <title>ARXO-2026-0524 — Merit Systems Protection Board: 4 references to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0524/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Merit Systems Protection Board, 4 references in 4 sections cite 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0523/</id>
+    <title>ARXO-2026-0523 — Inter-American Foundation: 4 references to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0523/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Inter-American Foundation, 4 references in 4 sections cite 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0522/</id>
+    <title>ARXO-2026-0522 — Federal Retirement Thrift Investment Board: 4 references to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0522/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Federal Retirement Thrift Investment Board, 4 references in 4 sections cite 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0521/</id>
+    <title>ARXO-2026-0521 — Federal Mediation and Conciliation Service: 8 references to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0521/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Federal Mediation and Conciliation Service, 8 references in 7 sections cite 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0520/</id>
+    <title>ARXO-2026-0520 — Federal Maritime Commission: 4 references to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0520/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Federal Maritime Commission, 4 references in 3 sections cite 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0518/</id>
+    <title>ARXO-2026-0518 — Farm Credit System Insurance Corporation: 11 references to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0518/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Farm Credit System Insurance Corporation, 11 references in 6 sections cite 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0517/</id>
+    <title>ARXO-2026-0517 — Farm Credit Administration: 11 references to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0517/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Farm Credit Administration, 11 references in 6 sections cite 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0515/</id>
+    <title>ARXO-2026-0515 — Department of Transportation: 16 references to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0515/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Transportation, 16 references in 10 sections cite 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0514/</id>
+    <title>ARXO-2026-0514 — Department of Labor: 2 references to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0514/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Labor, 2 references in 2 sections cite 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0513/</id>
+    <title>ARXO-2026-0513 — Department of Homeland Security: 1 reference to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0513/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Homeland Security, 1 reference in 1 section cites 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0512/</id>
+    <title>ARXO-2026-0512 — Department of Health and Human Services: 1 reference to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0512/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Health and Human Services, 1 reference in 1 section cites 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0511/</id>
+    <title>ARXO-2026-0511 — Department of Energy: 1 reference to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0511/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Energy, 1 reference in 1 section cites 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0510/</id>
+    <title>ARXO-2026-0510 — Department of Education: 10 references to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0510/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Education, 10 references in 8 sections cite 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0509/</id>
+    <title>ARXO-2026-0509 — Consumer Product Safety Commission: 4 references to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0509/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Consumer Product Safety Commission, 4 references in 4 sections cite 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0508/</id>
+    <title>ARXO-2026-0508 — Commodity Futures Trading Commission: 6 references to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0508/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Commodity Futures Trading Commission, 6 references in 6 sections cite 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0507/</id>
+    <title>ARXO-2026-0507 — Agency for International Development: 1 reference to 4 CFR parts 101 to 105, removed in 2000</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0507/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Agency for International Development, 1 reference in 1 section cites 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0504/</id>
+    <title>ARXO-2026-0504 — Surface Transportation Board: 3 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0504/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Surface Transportation Board, 3 references in 2 sections cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0503/</id>
+    <title>ARXO-2026-0503 — Presidio Trust: 16 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0503/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Presidio Trust, 16 references in 10 sections cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0502/</id>
+    <title>ARXO-2026-0502 — Pennsylvania Avenue Development Corporation: 2 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0502/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Pennsylvania Avenue Development Corporation, 2 references in 2 sections cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0501/</id>
+    <title>ARXO-2026-0501 — Nuclear Regulatory Commission: 22 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0501/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Nuclear Regulatory Commission, 22 references in 7 sections cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0500/</id>
+    <title>ARXO-2026-0500 — National Science Foundation: 18 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0500/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the National Science Foundation, 18 references in 3 sections cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0499/</id>
+    <title>ARXO-2026-0499 — National Capital Planning Commission: 29 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0499/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the National Capital Planning Commission, 29 references in 8 sections cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0497/</id>
+    <title>ARXO-2026-0497 — Federal Maritime Commission: 6 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0497/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Federal Maritime Commission, 6 references in 5 sections cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0495/</id>
+    <title>ARXO-2026-0495 — Federal Acquisition Regulatory Council: 1 reference to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0495/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Federal Acquisition Regulatory Council, 1 reference in 1 section cites 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0494/</id>
+    <title>ARXO-2026-0494 — Environmental Protection Agency: 54 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0494/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Environmental Protection Agency, 54 references in 19 sections cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0493/</id>
+    <title>ARXO-2026-0493 — Emergency Steel Guarantee Loan Board: 14 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0493/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Emergency Steel Guarantee Loan Board, 14 references in 1 section cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0492/</id>
+    <title>ARXO-2026-0492 — Emergency Oil and Gas Guaranteed Loan Board: 14 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0492/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Emergency Oil and Gas Guaranteed Loan Board, 14 references in 1 section cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0490/</id>
+    <title>ARXO-2026-0490 — Department of Transportation: 36 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0490/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Transportation, 36 references in 9 sections cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0489/</id>
+    <title>ARXO-2026-0489 — Department of Labor: 30 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0489/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Labor, 30 references in 7 sections cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0488/</id>
+    <title>ARXO-2026-0488 — Department of Justice: 6 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0488/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Justice, 6 references in 4 sections cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0487/</id>
+    <title>ARXO-2026-0487 — Department of the Interior: 22 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0487/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of the Interior, 22 references in 14 sections cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0485/</id>
+    <title>ARXO-2026-0485 — Department of Homeland Security: 1 reference to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0485/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Homeland Security, 1 reference in 1 section cites 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0484/</id>
+    <title>ARXO-2026-0484 — Department of Health and Human Services: 41 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0484/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Health and Human Services, 41 references in 11 sections cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0483/</id>
+    <title>ARXO-2026-0483 — Department of Energy: 7 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0483/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Energy, 7 references in 5 sections cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0482/</id>
+    <title>ARXO-2026-0482 — Department of Education: 1 reference to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0482/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Education, 1 reference in 1 section cites 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0481/</id>
+    <title>ARXO-2026-0481 — Department of Defense: 2 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0481/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Defense, 2 references in 2 sections cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0480/</id>
+    <title>ARXO-2026-0480 — Department of Commerce: 3 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0480/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Department of Commerce, 3 references in 3 sections cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0478/</id>
+    <title>ARXO-2026-0478 — Denali Commission: 38 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0478/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Denali Commission, 38 references in 16 sections cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0477/</id>
+    <title>ARXO-2026-0477 — Committee for Purchase From People Who Are Blind or Severely Disabled: 8 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0477/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Committee for Purchase From People Who Are Blind or Severely Disabled, 8 references in 4 sections cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0476/</id>
+    <title>ARXO-2026-0476 — Armed Forces Retirement Home: 3 references to 40 CFR parts 1500 to 1508, removed in 2025</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0476/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="US"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the CFR chapters assigned to the Armed Forces Retirement Home, 3 references in 2 sections cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].</summary>
   </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0475/</id>

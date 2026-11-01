@@ -1,0 +1,211 @@
+{
+  "id": "ARXO-2026-0558",
+  "url": "https://arxo.io/findings/ARXO-2026-0558/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "38 CFR part 15",
+  "text": {
+    "en": {
+      "title": "Department of Veterans Affairs: 2 references to 29 CFR part 1613, removed in 1995",
+      "summary": "In the CFR chapters assigned to the Department of Veterans Affairs, 2 references in 2 sections cite 29 CFR part 1613 or sections in that part. EEOC removed this part effective August 21, 1995 (60 FR 43371). The eCFR of October 27, 2026 goes from part 1612 to part 1614.",
+      "impact": "A reader who follows these references finds no text at the cited address. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. The 1995 rule says part 1614 replaced the complaint process in part 1613. We did not map sections one to one."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-29",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "r1",
+        "source": "Federal Sector Equal Employment Opportunity, 60 FR 43371 (August 21, 1995)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "60 FR 43371, SUPPLEMENTARY INFORMATION",
+        "text": "Part 1614 replaced the complaint process located at 29 CFR part 1613 (‘‘part 1613’’), after October 1, 1992. Thus, part 1613 is obsolete. Accordingly, this regulation removes 29 CFR part 1613 and amends 29 CFR part 1614 to delete references to part 1613.",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/FR-1995-08-21/pdf/95-20587.pdf",
+        "sha256": "3c5d2cc4bd2f9d4418fd18ebd75da61207aab0122395d2ac7e9228301920d37f",
+        "retrieved": "2026-10-30",
+        "copy": "sources/f80b4be849b68d53-fr-60-43371-removal.txt",
+        "copy_sha256": "f80b4be849b68d53ff74bfe6c2592fafab5dea46a6faf1c081f838fb72a02c6e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "r2",
+        "source": "Federal Sector Equal Employment Opportunity, 60 FR 43371 (August 21, 1995)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "60 FR 43371, EFFECTIVE DATE",
+        "text": "EFFECTIVE DATE: August 21, 1995.",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/FR-1995-08-21/pdf/95-20587.pdf",
+        "sha256": "3c5d2cc4bd2f9d4418fd18ebd75da61207aab0122395d2ac7e9228301920d37f",
+        "retrieved": "2026-10-30",
+        "copy": "sources/f80b4be849b68d53-fr-60-43371-removal.txt",
+        "copy_sha256": "f80b4be849b68d53ff74bfe6c2592fafab5dea46a6faf1c081f838fb72a02c6e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "r3",
+        "source": "Federal Sector Equal Employment Opportunity, 60 FR 43371 (August 21, 1995)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "60 FR 43372, amendatory text",
+        "text": "1. Part 1613 is removed.",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/FR-1995-08-21/pdf/95-20587.pdf",
+        "sha256": "3c5d2cc4bd2f9d4418fd18ebd75da61207aab0122395d2ac7e9228301920d37f",
+        "retrieved": "2026-10-30",
+        "copy": "sources/f80b4be849b68d53-fr-60-43371-removal.txt",
+        "copy_sha256": "f80b4be849b68d53ff74bfe6c2592fafab5dea46a6faf1c081f838fb72a02c6e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s1",
+        "source": "eCFR Title 29, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "29 CFR chapter XIV",
+        "text": "PART 1612—GOVERNMENT IN THE SUNSHINE ACT REGULATIONS",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-29.xml",
+        "sha256": "cf4b36bfb10504beedb246e95a94a02951731a236696a9be3194eedbc8e71817",
+        "retrieved": "2026-10-29",
+        "copy": "sources/7fc0e92c8d16fd21-ecfr-2026-10-27-title-29-structure.txt",
+        "copy_sha256": "7fc0e92c8d16fd2102d5018ce457fa7fc714ff2c4cf14c543819aa27b7169b2a",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s2",
+        "source": "eCFR Title 29, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "29 CFR chapter XIV",
+        "text": "PART 1614—FEDERAL SECTOR EQUAL EMPLOYMENT OPPORTUNITY",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-29.xml",
+        "sha256": "cf4b36bfb10504beedb246e95a94a02951731a236696a9be3194eedbc8e71817",
+        "retrieved": "2026-10-29",
+        "copy": "sources/7fc0e92c8d16fd21-ecfr-2026-10-27-title-29-structure.txt",
+        "copy_sha256": "7fc0e92c8d16fd2102d5018ce457fa7fc714ff2c4cf14c543819aa27b7169b2a",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c1",
+        "source": "eCFR Title 38, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "38 CFR 15.103, citing 29 CFR 1613.702(f)",
+        "text": "(4) Qualified handicapped person as that term is defined for purposes of employment in 29 CFR 1613.702(f), which is made applicable to this regulation by § 15.140.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-38.xml",
+        "sha256": "9506de6c7c4f940355bb13f1aba679208554bb39516ff67ffe9f01079e4654b6",
+        "retrieved": "2026-10-29",
+        "copy": "sources/d032205ebcb0bc95-ecfr-2026-10-27-title-38-citing-sections.txt",
+        "copy_sha256": "d032205ebcb0bc9532f42aa89f04b87a7e085aeb24536c384ad8ad3dfb86244d",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 38, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "38 CFR 15.140, citing 29 CFR part 1613",
+        "text": "Rehabilitation Act of 1973 (29 U.S.C. 791), as established by the Equal Employment Opportunity Commission in 29 CFR part 1613, shall apply to employment in federally conducted programs or activities.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-38.xml",
+        "sha256": "9506de6c7c4f940355bb13f1aba679208554bb39516ff67ffe9f01079e4654b6",
+        "retrieved": "2026-10-29",
+        "copy": "sources/d032205ebcb0bc95-ecfr-2026-10-27-title-38-citing-sections.txt",
+        "copy_sha256": "d032205ebcb0bc9532f42aa89f04b87a7e085aeb24536c384ad8ad3dfb86244d",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-01",
+      "institution": "Department of Veterans Affairs",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH73LcasM8Stzw1SOmj1oDhkfjuTWD00LEZSFvW5Vm9EF3Q@mail.gmail.com>"
+    },
+    {
+      "date": "2026-11-01",
+      "institution": "Office of the Federal Register",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70iTotpQt-ZZVt36OX3QHcPtdeS-VL3PQv-aRwK04g0kw@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Veterans Affairs",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-01",
+  "ai_role": {
+    "en": "AI agents wrote and ran the parser and read each reference against the eCFR text."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-01T15:04:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-01",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "reported",
+      "text": "Reported to Department of Veterans Affairs (e-mail)"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    }
+  ]
+}

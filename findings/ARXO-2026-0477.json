@@ -1,0 +1,291 @@
+{
+  "id": "ARXO-2026-0477",
+  "url": "https://arxo.io/findings/ARXO-2026-0477/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "41 CFR part 51-7",
+  "text": {
+    "en": {
+      "title": "Committee for Purchase From People Who Are Blind or Severely Disabled: 8 references to 40 CFR parts 1500 to 1508, removed in 2025",
+      "summary": "In the CFR chapters assigned to the Committee for Purchase From People Who Are Blind or Severely Disabled, 8 references in 4 sections cite 40 CFR parts 1500 to 1508 or sections in those parts. CEQ removed and reserved these parts effective April 11, 2025 (90 FR 10610). The eCFR of October 27, 2026 shows PARTS 1500-1508 [RESERVED].",
+      "impact": "A reader who follows these references finds no text at the cited address. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides whether to remove or replace each reference. The removal rule does not name a replacement part."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-29",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "r1",
+        "source": "Removal of National Environmental Policy Act Implementing Regulations, 90 FR 10610 (February 25, 2025)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "90 FR 10610, SUMMARY",
+        "text": "This interim final rule removes the Council on Environmental Quality (CEQ) regulations implementing the National Environmental Policy Act (NEPA) from the Code of Federal Regulations.",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/FR-2025-02-25/pdf/2025-03014.pdf",
+        "sha256": "0a1704a9342792df189c21797450c127956c2f40d5b3b59a4568feee02094af0",
+        "retrieved": "2026-10-30",
+        "copy": "sources/aa280e51afcb892a-fr-90-10610-removal.txt",
+        "copy_sha256": "aa280e51afcb892a19ca4caa2d1bdfad6811e6d2fd2a3832b3bb3859820a6505",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "r2",
+        "source": "Removal of National Environmental Policy Act Implementing Regulations, 90 FR 10610 (February 25, 2025)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "90 FR 10610, DATES",
+        "text": "This interim rule is effective April 11, 2025.",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/FR-2025-02-25/pdf/2025-03014.pdf",
+        "sha256": "0a1704a9342792df189c21797450c127956c2f40d5b3b59a4568feee02094af0",
+        "retrieved": "2026-10-30",
+        "copy": "sources/aa280e51afcb892a-fr-90-10610-removal.txt",
+        "copy_sha256": "aa280e51afcb892a19ca4caa2d1bdfad6811e6d2fd2a3832b3bb3859820a6505",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "r3",
+        "source": "Removal of National Environmental Policy Act Implementing Regulations, 90 FR 10610 (February 25, 2025)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "90 FR 10616, amendatory text",
+        "text": "the Council on Environmental Quality amends subchapter A of chapter V in title 40 of the Code of Federal Regulations by removing and reserving parts 1500, 1501, 1502, 1503, 1504, 1505, 1506, 1507, and 1508.",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/FR-2025-02-25/pdf/2025-03014.pdf",
+        "sha256": "0a1704a9342792df189c21797450c127956c2f40d5b3b59a4568feee02094af0",
+        "retrieved": "2026-10-30",
+        "copy": "sources/aa280e51afcb892a-fr-90-10610-removal.txt",
+        "copy_sha256": "aa280e51afcb892a19ca4caa2d1bdfad6811e6d2fd2a3832b3bb3859820a6505",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s1",
+        "source": "eCFR Title 40, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "40 CFR chapter V, subchapter A",
+        "text": "PARTS 1500-1508 [RESERVED]",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-40.xml",
+        "sha256": "423c732b8424650e7760f6a935a09fe98e0b4769111f5248e5d4f4b480e5472e",
+        "retrieved": "2026-10-29",
+        "copy": "sources/910dff6202ec7331-ecfr-2026-10-27-title-40-structure.txt",
+        "copy_sha256": "910dff6202ec7331c0c74015307be1be48d207ec1b4ff5848d662f5b096c4e11",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c1",
+        "source": "eCFR Title 41, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "41 CFR 51-7.1(a), citing 40 CFR 1507.3(b)",
+        "text": "Environmental Policy Act of 1969 (NEPA) and provides for the implementation of those provisions identified in 40 CFR 1507.3(b) of the regulations issued by the Council on Environmental Quality (CEQ) (40 CFR parts 1500-1508) published",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-41.xml",
+        "sha256": "1139cd88c0df8eee4058d83a960808d586c0c7d5667837811594b56529b4c040",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aa9f34f2d322407a-ecfr-2026-10-27-title-41-citing-sections.txt",
+        "copy_sha256": "aa9f34f2d322407ac963dced0913aefc00562cdbd120525f5fae6d5c5d37404f",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 41, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "41 CFR 51-7.2(a), citing 40 CFR 1501.2(d)",
+        "text": "(a) 40 CFR 1501.2(d) requires agencies to provide for early involvement in actions which, while planned by private applicants or o",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-41.xml",
+        "sha256": "1139cd88c0df8eee4058d83a960808d586c0c7d5667837811594b56529b4c040",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aa9f34f2d322407a-ecfr-2026-10-27-title-41-citing-sections.txt",
+        "copy_sha256": "aa9f34f2d322407ac963dced0913aefc00562cdbd120525f5fae6d5c5d37404f",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 41, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "41 CFR 51-7.2(b), citing 40 CFR 1501.2(d)",
+        "text": "(b) To implement the requirements of 40 CFR 1501.2(d) with respect to these actions, the Committee staff shall consult as required with other appropriate parties",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-41.xml",
+        "sha256": "1139cd88c0df8eee4058d83a960808d586c0c7d5667837811594b56529b4c040",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aa9f34f2d322407a-ecfr-2026-10-27-title-41-citing-sections.txt",
+        "copy_sha256": "aa9f34f2d322407ac963dced0913aefc00562cdbd120525f5fae6d5c5d37404f",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 41, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "41 CFR 51-7.2(b), citing 40 CFR 1501.4",
+        "text": "(EIS) as set forth in § 51-7.4, or is one that requires an environmental assessment as set forth in 40 CFR 1501.4.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-41.xml",
+        "sha256": "1139cd88c0df8eee4058d83a960808d586c0c7d5667837811594b56529b4c040",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aa9f34f2d322407a-ecfr-2026-10-27-title-41-citing-sections.txt",
+        "copy_sha256": "aa9f34f2d322407ac963dced0913aefc00562cdbd120525f5fae6d5c5d37404f",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 41, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "41 CFR 51-7.3(a), citing 40 CFR 1505.1",
+        "text": "(a) 40 CFR 1505.1 of the NEPA regulations contains requirements to ensure adequate consideration of environmental documents in",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-41.xml",
+        "sha256": "1139cd88c0df8eee4058d83a960808d586c0c7d5667837811594b56529b4c040",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aa9f34f2d322407a-ecfr-2026-10-27-title-41-citing-sections.txt",
+        "copy_sha256": "aa9f34f2d322407ac963dced0913aefc00562cdbd120525f5fae6d5c5d37404f",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c6",
+        "source": "eCFR Title 41, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "41 CFR 51-7.4(a), citing 40 CFR 1507.3(b)(2)",
+        "text": "(a) 40 CFR 1507.3(b)(2) in conjunction with 40 CFR 1508.4 requires agencies to establish three typical classes of action for similar",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-41.xml",
+        "sha256": "1139cd88c0df8eee4058d83a960808d586c0c7d5667837811594b56529b4c040",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aa9f34f2d322407a-ecfr-2026-10-27-title-41-citing-sections.txt",
+        "copy_sha256": "aa9f34f2d322407ac963dced0913aefc00562cdbd120525f5fae6d5c5d37404f",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c7",
+        "source": "eCFR Title 41, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "41 CFR 51-7.4(a), citing 40 CFR 1508.4",
+        "text": "(a) 40 CFR 1507.3(b)(2) in conjunction with 40 CFR 1508.4 requires agencies to establish three typical classes of action for similar treatment under NEPA. These",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-41.xml",
+        "sha256": "1139cd88c0df8eee4058d83a960808d586c0c7d5667837811594b56529b4c040",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aa9f34f2d322407a-ecfr-2026-10-27-title-41-citing-sections.txt",
+        "copy_sha256": "aa9f34f2d322407ac963dced0913aefc00562cdbd120525f5fae6d5c5d37404f",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c8",
+        "source": "eCFR Title 41, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "41 CFR 51-7.4(b), citing 40 CFR 1508.27",
+        "text": "(b) The Committee shall independently determine, by referring to 40 CFR 1508.27, whether an EIS or an environmental assessment is required where:",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-41.xml",
+        "sha256": "1139cd88c0df8eee4058d83a960808d586c0c7d5667837811594b56529b4c040",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aa9f34f2d322407a-ecfr-2026-10-27-title-41-citing-sections.txt",
+        "copy_sha256": "aa9f34f2d322407ac963dced0913aefc00562cdbd120525f5fae6d5c5d37404f",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-01",
+      "institution": "Committee for Purchase From People Who Are Blind or Severely Disabled",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH71B0Xfy=46ix_KaATQZ2qh5nxMX3uXs1srh3Rk6by+Q3g@mail.gmail.com>"
+    },
+    {
+      "date": "2026-11-01",
+      "institution": "Office of the Federal Register",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70iTotpQt-ZZVt36OX3QHcPtdeS-VL3PQv-aRwK04g0kw@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Committee for Purchase From People Who Are Blind or Severely Disabled",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-01",
+  "ai_role": {
+    "en": "AI agents wrote and ran the parser and read each reference against the eCFR text."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-01T15:04:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-01",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "reported",
+      "text": "Reported to Committee for Purchase From People Who Are Blind or Severely Disabled (e-mail)"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    }
+  ]
+}

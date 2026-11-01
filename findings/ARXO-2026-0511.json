@@ -1,0 +1,195 @@
+{
+  "id": "ARXO-2026-0511",
+  "url": "https://arxo.io/findings/ARXO-2026-0511/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "18 CFR part 4",
+  "text": {
+    "en": {
+      "title": "Department of Energy: 1 reference to 4 CFR parts 101 to 105, removed in 2000",
+      "summary": "In the CFR chapters assigned to the Department of Energy, 1 reference in 1 section cites 4 CFR parts 101 to 105 or sections in those parts. A final rule removed these parts, chapter II of title 4, effective December 22, 2000 (65 FR 70405). The eCFR of October 27, 2026 has only chapter I in title 4 and shows PARTS 84-199 [RESERVED].",
+      "impact": "A reader who follows these references finds no text at the cited address. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. The revised standards are at 31 CFR chapter IX, parts 900 to 904 (65 FR 70390). We did not map sections one to one."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-29",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "r1",
+        "source": "Federal Claims Collection Standards and removal of obsolete chapter, 65 FR 70390 and 70405 (November 22, 2000)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "65 FR 70390, SUPPLEMENTARY INFORMATION",
+        "text": "Treasury and DOJ are publishing the revised FCCS as a joint final rule under new chapter IX, Title 31, Code of Federal Regulations. The revised FCCS supersede the current FCCS codified at 4 CFR parts 101–105.",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/FR-2000-11-22/pdf/FR-2000-11-22.pdf",
+        "sha256": "8529ce63aee682356903063a1fdf875913bd3b3e9d90591c340b79c355378515",
+        "retrieved": "2026-10-30",
+        "copy": "sources/09401145571373a4-fr-65-70390-70405-fccs.txt",
+        "copy_sha256": "09401145571373a4be9c0820694460aaa7777527cd8880266859b2ee4cd28674",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "r2",
+        "source": "Federal Claims Collection Standards and removal of obsolete chapter, 65 FR 70390 and 70405 (November 22, 2000)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "65 FR 70405, DATES",
+        "text": "DATES: This rule is effective December 22, 2000.",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/FR-2000-11-22/pdf/FR-2000-11-22.pdf",
+        "sha256": "8529ce63aee682356903063a1fdf875913bd3b3e9d90591c340b79c355378515",
+        "retrieved": "2026-10-30",
+        "copy": "sources/09401145571373a4-fr-65-70390-70405-fccs.txt",
+        "copy_sha256": "09401145571373a4be9c0820694460aaa7777527cd8880266859b2ee4cd28674",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "r3",
+        "source": "Federal Claims Collection Standards and removal of obsolete chapter, 65 FR 70390 and 70405 (November 22, 2000)",
+        "role": "Amending act",
+        "language": "en",
+        "edition": null,
+        "locator": "65 FR 70406, amendatory text",
+        "text": "For the reasons set out in the preamble, and under the authority of 31 U.S.C. 3711, the Federal Claims Collection Standards, chapter II of title 4, Code of Federal Regulations, consisting of parts 101 through 105, is removed.",
+        "translations": {},
+        "url": "https://www.govinfo.gov/content/pkg/FR-2000-11-22/pdf/FR-2000-11-22.pdf",
+        "sha256": "8529ce63aee682356903063a1fdf875913bd3b3e9d90591c340b79c355378515",
+        "retrieved": "2026-10-30",
+        "copy": "sources/09401145571373a4-fr-65-70390-70405-fccs.txt",
+        "copy_sha256": "09401145571373a4be9c0820694460aaa7777527cd8880266859b2ee4cd28674",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s1",
+        "source": "eCFR Title 4, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "4 CFR, end of chapter I",
+        "text": "PARTS 84-199 [RESERVED]",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-4.xml",
+        "sha256": "693843eefde703920263ff1c1f66f4afa544a53910150c9bfde2133ee81489ba",
+        "retrieved": "2026-10-29",
+        "copy": "sources/114f41fa12976400-ecfr-2026-10-27-title-4-structure.txt",
+        "copy_sha256": "114f41fa129764000732b1029f7f88d0c20dfe9ae6415971cb736cb21fd5fdea",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s2",
+        "source": "eCFR Title 31, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "31 CFR chapter IX",
+        "text": "CHAPTER IX—FEDERAL CLAIMS COLLECTION STANDARDS (DEPARTMENT OF THE TREASURY—DEPARTMENT OF JUSTICE)",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-31.xml",
+        "sha256": "d0d9b05c02d1c6cc6dd10fd120cbb04de2b591403c3e790b02975193c4e37819",
+        "retrieved": "2026-10-29",
+        "copy": "sources/e5a3915fc7828024-ecfr-2026-10-27-title-31-structure.txt",
+        "copy_sha256": "e5a3915fc782802444831b383f80cb499faa02728cc1d1e6c15f8b885024ad7e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c1",
+        "source": "eCFR Title 18, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "18 CFR 4.304(b), citing 4 CFR part 102",
+        "text": "will be assessed. Interest and penalty charges will be computed in accordance with 31 U.S.C. 3717 and 4 CFR part 102.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-18.xml",
+        "sha256": "aa99b457fd9dfdd181fb8c0eb4001cc1acf366e465973241cc22ffe7a0daff1c",
+        "retrieved": "2026-10-29",
+        "copy": "sources/c66112554aa8fcfd-ecfr-2026-10-27-title-18-citing-sections.txt",
+        "copy_sha256": "c66112554aa8fcfd5c30c1eabd2980dade9c643eb80329f9b05d17b87dbceced",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-01",
+      "institution": "Department of Energy",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH705meOBE7rOHttY9KF9-s4wkHY0zU2TWZJ1yQgN5nxJDg@mail.gmail.com>"
+    },
+    {
+      "date": "2026-11-01",
+      "institution": "Office of the Federal Register",
+      "channel": "email",
+      "reference": "Message-ID: <CAH-SH70iTotpQt-ZZVt36OX3QHcPtdeS-VL3PQv-aRwK04g0kw@mail.gmail.com>"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Energy",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-01",
+  "ai_role": {
+    "en": "AI agents wrote and ran the parser and read each reference against the eCFR text."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-01T15:04:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-01",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "reported",
+      "text": "Reported to Department of Energy (e-mail)"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    }
+  ]
+}
