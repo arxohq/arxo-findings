@@ -1,0 +1,141 @@
+{
+  "id": "ARXO-2026-0625",
+  "url": "https://arxo.io/findings/ARXO-2026-0625/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "DE",
+  "jurisdiction_detail": "federal",
+  "act": "Income Tax Act (Einkommensteuergesetz, EStG)",
+  "acts": [
+    "EStG (Stand 20.10.2026)"
+  ],
+  "location": "§ 34a(11), sentence 3",
+  "text": {
+    "en": {
+      "title": "§ 34a(11) EStG refers to a separate determination of a term that the Act does not define or regulate",
+      "summary": "Sentence 3 ties the end of the determination period to the tax year at whose end “the amount subject to subsequent taxation and the nachversteuerungsfreies Entnahmevolumen” of the business are to be separately determined. The second term occurs nowhere else in the Act. § 34a does not define it and provides for no determination of such an amount. The wording appears in Bundesgesetzblatt 2024 I No. 108, Art. 3 No. 6. It is absent from the 2009 consolidation and from the act in Bundesgesetzblatt 2016 I p. 1679; the act that introduced it has not been identified.",
+      "impact": "The period rule presupposes a determination for which the Act gives no rule. Effects on the period have not been shown.",
+      "correction": "For the legislator: delete the words if they have no content of their own, or else define the term and regulate its determination."
+    },
+    "de": {
+      "title": "§ 34a Abs. 11 EStG setzt die Feststellung eines Begriffs voraus, den das Gesetz weder definiert noch regelt",
+      "summary": "Satz 3 knüpft das Ende der Feststellungsfrist an den Veranlagungszeitraum, auf dessen Schluss „der nachversteuerungspflichtige Betrag und das nachversteuerungsfreie Entnahmevolumen“ gesondert festzustellen sind. Der zweite Begriff kommt im EStG sonst nicht vor. § 34a definiert ihn nicht und regelt keine Feststellung eines solchen Betrags. Der Wortlaut steht in BGBl. 2024 I Nr. 108, Art. 3 Nr. 6. In der Neufassung 2009 und in BGBl. 2016 I S. 1679 fehlt er; das einführende Gesetz ist nicht ermittelt.",
+      "impact": "Die Fristregel setzt eine Feststellung voraus, für die das Gesetz keine Regelung enthält. Auswirkungen auf die Frist sind nicht gezeigt.",
+      "correction": "Für den Gesetzgeber: die Wörter streichen, falls sie keinen eigenen Inhalt haben, andernfalls den Begriff und seine Feststellung regeln."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-01",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "term",
+        "source": "Einkommensteuergesetz (EStG), gesetze-im-internet.de, Stand 20.10.2026",
+        "role": "Normative text",
+        "language": "de",
+        "edition": null,
+        "locator": "§ 34a Abs. 11 Satz 3 EStG",
+        "text": "nachversteuerungsfreie Entnahmevolumen des Betriebs oder Mitunternehmeranteils gesondert festzustellen sind",
+        "translations": {},
+        "url": "https://www.gesetze-im-internet.de/estg/xml.zip",
+        "sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+        "retrieved": "2026-10-20",
+        "copy": "sources/fbf218f8623287aa-estg-2026-10-20.de.txt",
+        "copy_sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "act",
+        "source": "Bundesgesetzblatt 2024 I No. 108",
+        "role": "Amending act",
+        "language": "de",
+        "edition": "BGBl. 2024 I Nr. 108",
+        "locator": "BGBl. 2024 I Nr. 108, Art. 3 Nr. 6",
+        "text": "nachversteuerungsfreie Entnahmevolumen des Betriebs oder",
+        "translations": {},
+        "url": "https://www.recht.bund.de/bgbl/1/2024/108/regelungstext.pdf?__blob=publicationFile&v=1",
+        "sha256": "38ab8edac703a190bbc86b6e9c3f2d577f77a75503d6be4ce36dfd7fe640329e",
+        "retrieved": "2026-11-01",
+        "copy": "sources/38ab8edac703a190-bgbl-2024-I-108.txt",
+        "copy_sha256": "38ab8edac703a190bbc86b6e9c3f2d577f77a75503d6be4ce36dfd7fe640329e",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-01T16:27:28Z",
+      "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+      "channel": "email",
+      "role": "prepares tax legislation",
+      "what": "letter to the central office, copied to Division IV C 5"
+    },
+    {
+      "date": "2026-11-01T16:27:29Z",
+      "institution": "Finance Committee of the German Bundestag (Finanzausschuss)",
+      "channel": "email",
+      "role": "committee examining the draft Annual Tax Act 2026",
+      "what": "letter to the committee secretariat, then to eight members individually"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+      "role": "prepares tax legislation"
+    },
+    {
+      "institution": "Finance Committee of the German Bundestag (Finanzausschuss)",
+      "role": "committee examining the draft Annual Tax Act 2026"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-01",
+  "ai_role": {
+    "en": "AI agents read the statute and the amending acts and drafted this record. A person at Arxo approved the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-01T16:45:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-01",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "reported",
+      "text": "Reported to Federal Ministry of Finance (Bundesministerium der Finanzen) (e-mail)"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "reported",
+      "text": "Reported to Finance Committee of the German Bundestag (Finanzausschuss) (e-mail)"
+    }
+  ]
+}

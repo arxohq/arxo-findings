@@ -1,0 +1,173 @@
+{
+  "id": "ARXO-2026-0623",
+  "url": "https://arxo.io/findings/ARXO-2026-0623/",
+  "record_kind": "discrepancy",
+  "class": "amendments",
+  "class_label": "Amendments",
+  "jurisdiction": "DE",
+  "jurisdiction_detail": "federal",
+  "act": "Income Tax Act (Einkommensteuergesetz, EStG)",
+  "acts": [
+    "EStG (Stand 20.10.2026)"
+  ],
+  "location": "§ 63(2)",
+  "text": {
+    "en": {
+      "title": "§ 63(2) EStG refers to sentence 3 of subsection (1); the children it means have been in sentence 6 since 2014",
+      "summary": "Subsection (2) empowers the Federal Government to provide child benefit for “children described in subsection 1 sentence 3, first half-sentence”. It means children living outside Germany, the EU and the EEA. The act of 2 December 2014 inserted three sentences into subsection (1) and itself calls the sentence on those children the “new sentence 6”. Sentence 3 now deals with the identification number and has no half-sentences. Subsection (2) was not changed.",
+      "impact": "The power to issue the ordinance points to a sentence that does not describe any such children. Effects on an ordinance or on individual cases have not been examined.",
+      "correction": "Replace “Absatz 1 Satz 3 erster Halbsatz” with “Absatz 1 Satz 6 erster Halbsatz”."
+    },
+    "de": {
+      "title": "§ 63 Abs. 2 EStG verweist auf Absatz 1 Satz 3; die gemeinten Kinder stehen seit 2014 in Satz 6",
+      "summary": "Absatz 2 ermächtigt die Bundesregierung zu Regelungen für die „in Absatz 1 Satz 3 erster Halbsatz bezeichneten Kinder“. Gemeint sind Kinder ohne Wohnsitz oder gewöhnlichen Aufenthalt im Inland, in der EU oder im EWR. Das Gesetz vom 2. Dezember 2014 fügte in Absatz 1 drei Sätze ein und spricht selbst vom „neuen Satz 6“. Satz 3 regelt seitdem die Identifikationsnummer und hat keinen Halbsatz. Absatz 2 blieb unverändert.",
+      "impact": "Die Ermächtigung verweist auf einen Satz, der solche Kinder nicht beschreibt. Auswirkungen auf eine Verordnung oder auf Einzelfälle sind nicht untersucht.",
+      "correction": "„Absatz 1 Satz 3 erster Halbsatz“ durch „Absatz 1 Satz 6 erster Halbsatz“ ersetzen."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-01",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "ref",
+        "source": "Einkommensteuergesetz (EStG), gesetze-im-internet.de, Stand 20.10.2026",
+        "role": "Normative text",
+        "language": "de",
+        "edition": null,
+        "locator": "§ 63 Abs. 2 EStG",
+        "text": "für seine in Absatz 1 Satz 3 erster Halbsatz bezeichneten Kinder",
+        "translations": {},
+        "url": "https://www.gesetze-im-internet.de/estg/xml.zip",
+        "sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+        "retrieved": "2026-10-20",
+        "copy": "sources/fbf218f8623287aa-estg-2026-10-20.de.txt",
+        "copy_sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "s3",
+        "source": "Einkommensteuergesetz (EStG), gesetze-im-internet.de, Stand 20.10.2026",
+        "role": "Normative text",
+        "language": "de",
+        "edition": null,
+        "locator": "§ 63 Abs. 1 Satz 3 EStG",
+        "text": "3Voraussetzung für die Berücksichtigung ist die Identifizierung des Kindes",
+        "translations": {},
+        "url": "https://www.gesetze-im-internet.de/estg/xml.zip",
+        "sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+        "retrieved": "2026-10-20",
+        "copy": "sources/fbf218f8623287aa-estg-2026-10-20.de.txt",
+        "copy_sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "s6",
+        "source": "Einkommensteuergesetz (EStG), gesetze-im-internet.de, Stand 20.10.2026",
+        "role": "Normative text",
+        "language": "de",
+        "edition": null,
+        "locator": "§ 63 Abs. 1 Satz 6 EStG",
+        "text": "6Kinder, die weder einen Wohnsitz noch ihren gewöhnlichen Aufenthalt im Inland",
+        "translations": {},
+        "url": "https://www.gesetze-im-internet.de/estg/xml.zip",
+        "sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+        "retrieved": "2026-10-20",
+        "copy": "sources/fbf218f8623287aa-estg-2026-10-20.de.txt",
+        "copy_sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "amend",
+        "source": "Bundesgesetzblatt 2014 I p. 1922, Art. 3 No. 3 (excerpt)",
+        "role": "Amending act",
+        "language": "de",
+        "edition": "BGBl. 2014 I S. 1922",
+        "locator": "BGBl. 2014 I S. 1922, Art. 3 Nr. 3 Buchst. b",
+        "text": "In dem neuen Satz 6 werden die Wörter",
+        "translations": {},
+        "url": "https://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl114s1922.pdf",
+        "sha256": "98bf8459ac6403ebbda1cf0abc309a28ea9c6ba48a65b60cf18903edce962b64",
+        "retrieved": "2026-11-01",
+        "copy": "sources/98bf8459ac6403eb-bgbl-2014-I-1922.auszug.txt",
+        "copy_sha256": "98bf8459ac6403ebbda1cf0abc309a28ea9c6ba48a65b60cf18903edce962b64",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-01T16:27:28Z",
+      "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+      "channel": "email",
+      "role": "prepares tax legislation",
+      "what": "letter to the central office, copied to Division IV C 5"
+    },
+    {
+      "date": "2026-11-01T16:27:29Z",
+      "institution": "Finance Committee of the German Bundestag (Finanzausschuss)",
+      "channel": "email",
+      "role": "committee examining the draft Annual Tax Act 2026",
+      "what": "letter to the committee secretariat, then to eight members individually"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+      "role": "prepares tax legislation"
+    },
+    {
+      "institution": "Finance Committee of the German Bundestag (Finanzausschuss)",
+      "role": "committee examining the draft Annual Tax Act 2026"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-01",
+  "ai_role": {
+    "en": "AI agents read the statute and the amending acts and drafted this record. A person at Arxo approved the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-01T16:45:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-01",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "reported",
+      "text": "Reported to Federal Ministry of Finance (Bundesministerium der Finanzen) (e-mail)"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "reported",
+      "text": "Reported to Finance Committee of the German Bundestag (Finanzausschuss) (e-mail)"
+    }
+  ]
+}

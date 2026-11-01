@@ -1,0 +1,157 @@
+{
+  "id": "ARXO-2026-0624",
+  "url": "https://arxo.io/findings/ARXO-2026-0624/",
+  "record_kind": "discrepancy",
+  "class": "amendments",
+  "class_label": "Amendments",
+  "jurisdiction": "DE",
+  "jurisdiction_detail": "federal",
+  "act": "Income Tax Act (Einkommensteuergesetz, EStG)",
+  "acts": [
+    "EStG (Stand 20.10.2026)"
+  ],
+  "location": "§ 41b(4), sentence 1",
+  "text": {
+    "en": {
+      "title": "§ 41b(4) EStG assigns competence for subsection (2a), which was repealed in 2019",
+      "summary": "Sentence 1 of subsection (4) makes the employer's local tax office competent also “for the application of subsection 2a”. Article 74 No. 7(b) of the act of 20 November 2019 repealed subsection (2a) and did not change subsection (4). The current text shows subsection (2a) as “weggefallen”. Article 5 No. 1 of the draft Annual Tax Act 2026 amends § 41b and leaves subsection (4) as it is.",
+      "impact": "The competence rule names a provision that no longer exists. No incorrect application has been shown.",
+      "correction": "Delete “sowie für die Anwendung des Absatzes 2a”."
+    },
+    "de": {
+      "title": "§ 41b Abs. 4 EStG regelt die Zuständigkeit für den 2019 aufgehobenen Absatz 2a",
+      "summary": "Nach Absatz 4 Satz 1 ist das Betriebsstättenfinanzamt auch „für die Anwendung des Absatzes 2a“ zuständig. Art. 74 Nr. 7 Buchst. b des Gesetzes vom 20. November 2019 hob Absatz 2a auf und ließ Absatz 4 unverändert. Der geltende Text weist Absatz 2a als „weggefallen“ aus. Art. 5 Nr. 1 des Entwurfs des Jahressteuergesetzes 2026 ändert § 41b, lässt Absatz 4 aber unberührt.",
+      "impact": "Die Zuständigkeitsnorm nennt eine Vorschrift, die es nicht mehr gibt. Eine fehlerhafte Anwendung ist nicht gezeigt.",
+      "correction": "Die Wörter „sowie für die Anwendung des Absatzes 2a“ streichen."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-01",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "ref",
+        "source": "Einkommensteuergesetz (EStG), gesetze-im-internet.de, Stand 20.10.2026",
+        "role": "Normative text",
+        "language": "de",
+        "edition": null,
+        "locator": "§ 41b Abs. 4 Satz 1 EStG",
+        "text": "sowie für die Anwendung des Absatzes 2a das Betriebsstättenfinanzamt",
+        "translations": {},
+        "url": "https://www.gesetze-im-internet.de/estg/xml.zip",
+        "sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+        "retrieved": "2026-10-20",
+        "copy": "sources/fbf218f8623287aa-estg-2026-10-20.de.txt",
+        "copy_sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "gone",
+        "source": "Einkommensteuergesetz (EStG), gesetze-im-internet.de, Stand 20.10.2026",
+        "role": "Normative text",
+        "language": "de",
+        "edition": null,
+        "locator": "§ 41b Abs. 2a EStG",
+        "text": "(2a) (weggefallen)",
+        "translations": {},
+        "url": "https://www.gesetze-im-internet.de/estg/xml.zip",
+        "sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+        "retrieved": "2026-10-20",
+        "copy": "sources/fbf218f8623287aa-estg-2026-10-20.de.txt",
+        "copy_sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "amend",
+        "source": "Bundesgesetzblatt 2019 I p. 1626, Art. 74 No. 7 (excerpt)",
+        "role": "Amending act",
+        "language": "de",
+        "edition": "BGBl. 2019 I S. 1626",
+        "locator": "BGBl. 2019 I S. 1626, Art. 74 Nr. 7 Buchst. b",
+        "text": "b) Absatz 2a wird aufgehoben.",
+        "translations": {},
+        "url": "https://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl119s1626.pdf",
+        "sha256": "c813c07f29b11223a8c391adbea8927693256c4a494d69b918cf39e32d266c5a",
+        "retrieved": "2026-11-01",
+        "copy": "sources/c813c07f29b11223-bgbl-2019-I-1626.auszug.txt",
+        "copy_sha256": "c813c07f29b11223a8c391adbea8927693256c4a494d69b918cf39e32d266c5a",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-01T16:27:28Z",
+      "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+      "channel": "email",
+      "role": "prepares tax legislation",
+      "what": "letter to the central office, copied to Division IV C 5"
+    },
+    {
+      "date": "2026-11-01T16:27:29Z",
+      "institution": "Finance Committee of the German Bundestag (Finanzausschuss)",
+      "channel": "email",
+      "role": "committee examining the draft Annual Tax Act 2026",
+      "what": "letter to the committee secretariat, then to eight members individually"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+      "role": "prepares tax legislation"
+    },
+    {
+      "institution": "Finance Committee of the German Bundestag (Finanzausschuss)",
+      "role": "committee examining the draft Annual Tax Act 2026"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-01",
+  "ai_role": {
+    "en": "AI agents read the statute and the amending acts and drafted this record. A person at Arxo approved the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-01T16:45:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-01",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "reported",
+      "text": "Reported to Federal Ministry of Finance (Bundesministerium der Finanzen) (e-mail)"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "reported",
+      "text": "Reported to Finance Committee of the German Bundestag (Finanzausschuss) (e-mail)"
+    }
+  ]
+}
