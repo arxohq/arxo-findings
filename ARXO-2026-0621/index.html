@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARXO-2026-0621: Schedule 8 (2025) e-text: line 75 has no percent sign</title>
+<meta name="description" content="In the accessible e-text of Schedule 8 for 2025, Part 5, line 75 says &quot;multiply by 83.1933 =&quot;. The PDF of the same form, the read-aloud text of the PDF and line 9 of the e-text all have &quot;83.1933%&quot;. Read as printed, line 75 would be 100 times too large. It cancels out by line 88, so the final amounts">
+<link rel="canonical" href="https://arxo.io/findings/ARXO-2026-0621/">
+<link rel="alternate" type="application/atom+xml" title="Arxo Findings Register" href="../feed.atom">
+<style>
+@font-face{font-family:"IBM Plex Sans";font-style:normal;font-weight:100 700;font-display:swap;src:url("/fonts/ibm-plex-sans-latin-wght-normal.woff2") format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:400;font-display:swap;src:url("/fonts/ibm-plex-mono-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"IBM Plex Serif";font-style:normal;font-weight:400;font-display:swap;src:url("/fonts/ibm-plex-serif-latin-400-normal.woff2") format("woff2")}
+:root{color-scheme:light;--bg:#ffffff;--paper:#ffffff;--wash:#f5f5f5;--ink:#111111;--soft:#3d3d3d;--muted:#737373;--line:#ebebeb;--rule:#dcdcdc;
+--accent:#111111;--pencil:#c2412d;--reported:#737373;--accepted:#111111;--disagrees:#3d3d3d;--note:#111111;--corrected:#111111;--withdrawn:#c2412d;
+--code:#f5f5f5;--mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+--serif:"IBM Plex Serif","Iowan Old Style",Georgia,serif;
+--sans:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+::selection{background:#fbe3de}
+a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:.24em;text-decoration-color:var(--rule)}a:hover{text-decoration-color:currentColor}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header.site{border-bottom:1px solid var(--line);background:var(--paper)}
+header.site .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;justify-content:space-between;padding-top:18px;padding-bottom:16px}
+.brand{font:500 15px/1.2 var(--sans);letter-spacing:-.01em;text-decoration:none;color:var(--ink)}
+.brand span{color:var(--muted);font-weight:400}
+nav.site a{margin-right:18px;font-size:14px;color:var(--muted);text-decoration:none}nav.site a:hover{color:var(--ink)}
+h1,h2,h3{font-family:var(--sans);font-weight:350;line-height:1.15;letter-spacing:-.03em;margin:1.6em 0 .5em}
+h1{font-size:clamp(34px,5vw,56px);font-weight:300;letter-spacing:-.04em;margin-top:1em}
+h2{font-size:24px;border-bottom:1px solid var(--line);padding-bottom:8px}
+h3{font-size:18px;font-weight:450;letter-spacing:-.01em}
+p.lede{font-size:18px;color:var(--soft);max-width:760px;margin-top:0}
+.rule{background:var(--paper);border-left:1px dashed var(--pencil);padding:2px 0 2px 18px;margin:24px 0;max-width:820px;color:var(--soft)}
+.mono,code{font-family:var(--mono);font-size:.9em}
+code{background:var(--code);padding:1px 4px;border-radius:3px;word-break:break-all}
+.badge{display:inline-flex;align-items:center;gap:7px;font:450 13px/1 var(--sans);white-space:nowrap}
+.badge::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;flex:none}
+.b-reported{color:var(--reported)}.b-accepted{color:var(--accepted)}.b-disagrees{color:var(--disagrees)}
+.b-note_added{color:var(--note)}.b-corrected,.b-corrected_before_report{color:var(--corrected)}.b-withdrawn{color:var(--withdrawn)}
+.b-accepted,.b-note_added,.b-corrected,.b-corrected_before_report{font-weight:560}
+.filters{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0 10px}
+.filters label{display:flex;flex-direction:column;font-size:12px;color:var(--muted);gap:4px}
+.filters select,.filters input{font:14px var(--sans);padding:7px 12px;border:1px solid var(--rule);border-radius:999px;background:var(--paper);color:var(--ink);min-width:150px}
+.filters input{min-width:220px}
+.count{font-size:13px;color:var(--muted);margin:8px 0 12px}
+.ledger{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink)}
+.ledger li{display:grid;grid-template-columns:130px 1fr 200px;gap:4px 20px;padding:14px 4px;border-bottom:1px solid var(--line)}
+.ledger li:hover{background:var(--wash)}
+.ledger li[hidden]{display:none}
+.ledger .id{font-family:var(--mono);font-size:13px}.ledger .id a{text-decoration:none;color:var(--muted)}
+.ledger .what a{color:var(--ink);text-decoration:none;font-weight:450}.ledger .what a:hover{text-decoration:underline;text-decoration-color:var(--rule)}
+.ledger .meta{font-size:13px;color:var(--muted);margin-top:3px}
+.ledger .st{text-align:right}.ledger .st .when{display:block;font-size:12px;color:var(--muted);margin-top:5px}
+@media (max-width:720px){.ledger li{grid-template-columns:1fr}.ledger .st{text-align:left}}
+table.grid{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0}
+table.grid th,table.grid td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+table.grid th{font-weight:450;color:var(--muted);font-size:12px}
+.scroll{overflow-x:auto}
+dl.facts{display:grid;grid-template-columns:170px 1fr;gap:8px 18px;margin:14px 0;font-size:15px}
+dl.facts dt{color:var(--muted)}dl.facts dd{margin:0}
+@media (max-width:600px){dl.facts{grid-template-columns:1fr}dl.facts dt{margin-top:6px}}
+blockquote.q{margin:14px 0;padding:4px 0 4px 20px;border-left:1px dashed var(--pencil);font-family:var(--serif);font-size:19px;line-height:1.45}
+.qmeta{font-size:13px;color:var(--muted);margin:6px 0 18px;overflow-wrap:anywhere}
+.tr{font-size:14px;color:var(--muted);margin:6px 0 0;font-family:var(--sans)}
+ol.history{list-style:none;padding:0;margin:10px 0;border-left:1px solid var(--line)}
+ol.history li{padding:4px 0 10px 16px;position:relative;font-size:15px}
+ol.history li::before{content:"";position:absolute;left:-3px;top:12px;width:5px;height:5px;border-radius:50%;background:var(--muted)}
+ol.history .d{font-family:var(--mono);font-size:13px;color:var(--muted);margin-right:8px}
+.alt{border-top:1px dashed var(--rule);margin-top:28px;padding-top:4px}
+.headline .id{font-family:var(--mono);color:var(--muted);font-size:14px}
+footer.site{margin:56px 0 0;border-top:1px solid var(--line);padding:20px 0 44px;font-size:13px;color:var(--muted)}
+.empty{padding:20px 4px;color:var(--muted)}
+</style>
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "Report",
+ "identifier": "ARXO-2026-0621",
+ "url": "https://arxo.io/findings/ARXO-2026-0621/",
+ "headline": "Schedule 8 (2025) e-text: line 75 has no percent sign",
+ "name": "Schedule 8 (2025) e-text: line 75 has no percent sign",
+ "description": "In the accessible e-text of Schedule 8 for 2025, Part 5, line 75 says \"multiply by 83.1933 =\". The PDF of the same form, the read-aloud text of the PDF and line 9 of the e-text all have \"83.1933%\". Read as printed, line 75 would be 100 times too large. It cancels out by line 88, so the final amounts do not change. In the same e-text, page 1 says \"Page 1 of 10\" (the other pages say \"of 11\"), and the opening instruction on page 6 is labelled \"Line 36\", where the PDF has line 37.",
+ "inLanguage": "en",
+ "about": [
+  {
+   "@type": "Legislation",
+   "name": "T4127 Payroll Deductions Formulas, 122nd edition (Jan 1, 2026) and 123rd edition (Jul 1, 2026)",
+   "legislationJurisdiction": "CA"
+  },
+  {
+   "@type": "Legislation",
+   "name": "Income Tax Act (R.S.C. 1985, c. 1 (5th Supp.)), s. 122.5",
+   "legislationJurisdiction": "CA"
+  },
+  {
+   "@type": "Legislation",
+   "name": "CRA form 5000-S8, tax year 2025",
+   "legislationJurisdiction": "CA"
+  }
+ ],
+ "citation": [
+  {
+   "@type": "MediaObject",
+   "name": "CRA Schedule 8 (T1-2025), 5000-S8 accessible e-text",
+   "contentUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-25e.txt",
+   "sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "CRA Schedule 8 (T1-2025), 5000-S8 E (25), fillable PDF",
+   "contentUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-fill-25e.pdf",
+   "sha256": "32827b2773fce2d4caab493809e2874949c5d5d2c800b7a7b2b2177c91534656"
+  }
+ ],
+ "publisher": {
+  "@type": "Organization",
+  "name": "Arxo Law",
+  "url": "https://arxo.io"
+ },
+ "isPartOf": {
+  "@type": "Dataset",
+  "name": "Arxo Findings Register",
+  "url": "https://arxo.io/findings/"
+ },
+ "dateModified": "2026-11-01",
+ "creativeWorkStatus": "Reported",
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+ "datePublished": "2026-11-01"
+}</script>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a class="brand" href="../index.html">Arxo Findings Register <span>· Arxo Law</span></a>
+<nav class="site"><a href="../index.html">Register</a><a href="../policy/index.html">Principles</a><a href="../method/index.html">Method</a><a href="../register.json">Data</a><a href="../feed.atom">Feed</a></nav>
+</div></header>
+<main class="wrap">
+
+<div class="headline"><p class="id">ARXO-2026-0621 · <span class="badge b-reported">Reported</span></p>
+<h1>Schedule 8 (2025) e-text: line 75 has no percent sign</h1></div>
+
+
+<p>In the accessible e-text of Schedule 8 for 2025, Part 5, line 75 says &quot;multiply by 83.1933 =&quot;. The PDF of the same form, the read-aloud text of the PDF and line 9 of the e-text all have &quot;83.1933%&quot;. Read as printed, line 75 would be 100 times too large. It cancels out by line 88, so the final amounts do not change. In the same e-text, page 1 says &quot;Page 1 of 10&quot; (the other pages say &quot;of 11&quot;), and the opening instruction on page 6 is labelled &quot;Line 36&quot;, where the PDF has line 37.</p><h3>Consequence</h3><p>No final amount changes. A reader who works through the e-text by hand or with a screen reader gets different intermediate lines: with an amount of 100.00, line 75 is 8,319.33 in the e-text and 83.19 in the PDF.</p><h3>Proposed correction</h3><p>Line 75: &quot;multiplied by 83.1933% =&quot;, as on line 9. Page 1: &quot;Page 1 of 11&quot;. Page 6: &quot;Line 37&quot;.</p>
+<dl class="facts"><dt>Jurisdiction</dt><dd>Canada — federal</dd><dt>Act</dt><dd>Schedule 8 (Form 5000-S8), tax year 2025, accessible e-text</dd><dt>Place</dt><dd>Part 5, line 75; page 1; page 6</dd><dt>Record</dt><dd>Discrepancy</dd><dt>Class</dt><dd>Publication and consolidation</dd><dt>Where it arose</dt><dd>The official publication</dd><dt>Arxo&#x27;s conclusion</dt><dd>Confirmed</dd><dt>Official text</dt><dd>Unchanged at last check</dd><dt>Last checked</dt><dd>2026-11-01</dd></dl>
+<h2>Evidence</h2>
+<p>Pair of quotations. Quotations are verbatim from the official material; translations are ours and marked.</p>
+<blockquote class="q" lang="en">Line 75: amount from line 72 or line 73 Line A ^ multiply by 83.1933 = ^</blockquote><div class="qmeta">Official publication · <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-25e.txt">CRA Schedule 8 (T1-2025), 5000-S8 accessible e-text</a> · Part 5, line 75 · retrieved 2026-10-21 · SHA-256 <code>db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2</code> · <a href="../sources/db859d06606fd7a1-schedule8-2025-raw-last.txt">copy</a></div><blockquote class="q" lang="en">A × 83.1933% = 75</blockquote><div class="qmeta">Official publication · <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-fill-25e.pdf">CRA Schedule 8 (T1-2025), 5000-S8 E (25), fillable PDF</a> · Part 5, line 75 (page 10) · retrieved 2026-10-21 · SHA-256 <code>32827b2773fce2d4caab493809e2874949c5d5d2c800b7a7b2b2177c91534656</code> · <a href="../sources/f80ffe53af63114f-schedule8-2025-mirror.txt">copy</a></div><blockquote class="q" lang="en">Line 9: amount from line 8 ^ multiplied by 83.1933% = ^</blockquote><div class="qmeta">Official publication · <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-25e.txt">CRA Schedule 8 (T1-2025), 5000-S8 accessible e-text</a> · Part 3, line 9 · retrieved 2026-10-21 · SHA-256 <code>db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2</code> · <a href="../sources/db859d06606fd7a1-schedule8-2025-raw-last.txt">copy</a></div><blockquote class="q" lang="en">Part 5. Line 75. Amount A multiplied by 83.1933%.</blockquote><div class="qmeta">Official publication · <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-fill-25e.pdf">CRA Schedule 8 (T1-2025), 5000-S8 E (25), fillable PDF</a> · Page10.Part5_Cont.Line75, read-aloud text · retrieved 2026-10-21 · SHA-256 <code>32827b2773fce2d4caab493809e2874949c5d5d2c800b7a7b2b2177c91534656</code> · <a href="../sources/62c26e40bba2c0f6-pdf-xfa-template.xml">copy</a></div><blockquote class="q" lang="en">5000-S8 (Page 1 of 10)</blockquote><div class="qmeta">Official publication · <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-25e.txt">CRA Schedule 8 (T1-2025), 5000-S8 accessible e-text</a> · header of page 1 · retrieved 2026-10-21 · SHA-256 <code>db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2</code> · <a href="../sources/db859d06606fd7a1-schedule8-2025-raw-last.txt">copy</a></div><blockquote class="q" lang="en">5000-S8 (Page 2 of 11)</blockquote><div class="qmeta">Official publication · <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-25e.txt">CRA Schedule 8 (T1-2025), 5000-S8 accessible e-text</a> · header of page 2 (pages 2 to 11 say &quot;of 11&quot;) · retrieved 2026-10-21 · SHA-256 <code>db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2</code> · <a href="../sources/db859d06606fd7a1-schedule8-2025-raw-last.txt">copy</a></div><blockquote class="q" lang="en">Page 1 of 11</blockquote><div class="qmeta">Official publication · <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-fill-25e.pdf">CRA Schedule 8 (T1-2025), 5000-S8 E (25), fillable PDF</a> · footer of page 1 · retrieved 2026-10-21 · SHA-256 <code>32827b2773fce2d4caab493809e2874949c5d5d2c800b7a7b2b2177c91534656</code> · <a href="../sources/f80ffe53af63114f-schedule8-2025-mirror.txt">copy</a></div><blockquote class="q" lang="en">Line 36: If line 19 is positive or &quot;0&quot;, enter the amount from line 18 at line</blockquote><div class="qmeta">Official publication · <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-25e.txt">CRA Schedule 8 (T1-2025), 5000-S8 accessible e-text</a> · Part 3, page 6, first instruction · retrieved 2026-10-21 · SHA-256 <code>db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2</code> · <a href="../sources/db859d06606fd7a1-schedule8-2025-raw-last.txt">copy</a></div><blockquote class="q" lang="en">Line 36: Line 34 plus line 35. Enter this amount (in dollars and cents) on</blockquote><div class="qmeta">Official publication · <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-25e.txt">CRA Schedule 8 (T1-2025), 5000-S8 accessible e-text</a> · Part 3, page 5, line 36 (the label already used) · retrieved 2026-10-21 · SHA-256 <code>db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2</code> · <a href="../sources/db859d06606fd7a1-schedule8-2025-raw-last.txt">copy</a></div><blockquote class="q" lang="en">at line 44. If not, enter the amount from line 17 and continue at line 38. 37</blockquote><div class="qmeta">Official publication · <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-fill-25e.pdf">CRA Schedule 8 (T1-2025), 5000-S8 E (25), fillable PDF</a> · Part 3 (continued), page 6, line 37 · retrieved 2026-10-21 · SHA-256 <code>32827b2773fce2d4caab493809e2874949c5d5d2c800b7a7b2b2177c91534656</code> · <a href="../sources/f80ffe53af63114f-schedule8-2025-mirror.txt">copy</a></div>
+
+<h2>How to check it without Arxo's tools</h2>
+<ol><li>Open <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-25e.txt">CRA Schedule 8 (T1-2025), 5000-S8 accessible e-text</a> and find Part 5, line 75; Part 3, line 9; header of page 1; header of page 2 (pages 2 to 11 say &quot;of 11&quot;); Part 3, page 6, first instruction; Part 3, page 5, line 36 (the label already used). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/db859d06606fd7a1-schedule8-2025-raw-last.txt">db859d06606fd7a1-schedule8-2025-raw-last.txt</a> (SHA-256 <code>db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2</code>, copy of the official file).</li><li>Open <a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-fill-25e.pdf">CRA Schedule 8 (T1-2025), 5000-S8 E (25), fillable PDF</a> and find Part 5, line 75 (page 10); Page10.Part5_Cont.Line75, read-aloud text; footer of page 1; Part 3 (continued), page 6, line 37. Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/f80ffe53af63114f-schedule8-2025-mirror.txt">f80ffe53af63114f-schedule8-2025-mirror.txt</a> (SHA-256 <code>f80ffe53af63114f13cc726e6faacf3b417c54f7d20698a36733abdc4ec11253</code>, text extracted from the official source, as used to check the quotation), <a href="../sources/62c26e40bba2c0f6-pdf-xfa-template.xml">62c26e40bba2c0f6-pdf-xfa-template.xml</a> (SHA-256 <code>62c26e40bba2c0f65174b65ddfefd5f58f0f3794f3e149c8f5ccb253fd51bb5d</code>, text extracted from the official source, as used to check the quotation).</li><li>The finding holds if the quoted passages read as shown and the comparison gives the result stated at the top of this page. If it does not, write to us with the record ID.</li></ol>
+<h2>How this finding was made</h2>
+<p>AI agents compared the two official publications and drafted this record. A person at Arxo approved the report before it was sent.</p>
+
+<h2>Responsible institutions</h2><ul><li>Canada Revenue Agency — publisher of the form</li></ul>
+<h2>Reported to</h2>
+<div class="scroll"><table class="grid"><thead><tr><th>Date</th><th>Institution</th><th>Channel</th><th>Reference</th></tr></thead><tbody><tr><td class="mono">2026-10-23</td><td>Canada Revenue Agency — e-mail to the alternate formats service of the agency</td><td>e-mail</td><td class="mono"></td></tr></tbody></table></div>
+<h2>Responses</h2>
+<p>No response recorded.</p>
+
+
+<h2>History</h2>
+<ol class="history"><li><span class="d">2026-10-23</span>Confirmed by Arxo</li><li><span class="d">2026-10-23</span>Reported to Canada Revenue Agency (e-mail)</li><li><span class="d">2026-11-01</span>Entered in the register</li></ol>
+
+<h2>Cite this record</h2>
+<p>Arxo Law, Arxo Findings Register, ARXO-2026-0621, https://arxo.io/findings/ARXO-2026-0621/ (status as of 2026-11-01). Data: <a href="../findings/ARXO-2026-0621.json">ARXO-2026-0621.json</a>.</p>
+
+</main>
+<footer class="site"><div class="wrap">
+Published by Arxo Law. Data under CC BY 4.0: <a href="../register.json">register.json</a> · <a href="../findings.csv">findings.csv</a> · <a href="../SHA256SUMS">SHA256SUMS</a>.
+Objections, reports of our own mistakes and requests for verification: <a href="mailto:hi@arxo.io">hi@arxo.io</a> — give the record ID, the conclusion you dispute and your source. We acknowledge receipt within five working days and answer on the merits within ten.
+<a href="../policy/index.html">Responsible Disclosure of Defects in Law</a>. Arxo executes the canon.
+</div></footer>
+</body>
+</html>

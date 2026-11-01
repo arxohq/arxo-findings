@@ -1,0 +1,206 @@
+{
+  "id": "ARXO-2026-0622",
+  "url": "https://arxo.io/findings/ARXO-2026-0622/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "CA",
+  "jurisdiction_detail": "federal",
+  "act": "T4127 Payroll Deductions Formulas, 123rd edition (effective July 1, 2026)",
+  "acts": [
+    "T4127 Payroll Deductions Formulas, 122nd edition (Jan 1, 2026) and 123rd edition (Jul 1, 2026)",
+    "Income Tax Act (R.S.C. 1985, c. 1 (5th Supp.)), s. 122.5",
+    "CRA form 5000-S8, tax year 2025"
+  ],
+  "location": "Chapter 5 (Option 2), Prince Edward Island",
+  "text": {
+    "en": {
+      "title": "T4127 (123rd edition), Option 2, Prince Edward Island: \"Form TD1NL\" instead of \"Form TD1PE\"",
+      "summary": "In Chapter 5 (Option 2) of the T4127 edition effective July 1, 2026, the Prince Edward Island formula says: \"TCP = The total of personal non-refundable tax credits amounts reported on Form TD1NL. If Form TD1NL is not filed, TCP is $15,000.\" TD1NL is the Newfoundland and Labrador form; the paragraph before it is for Newfoundland and Labrador. The amount $15,000 is the Prince Edward Island basic amount in Table 8.2, so only the form name is wrong.",
+      "impact": "No amount changes. A developer who reads Option 2 for Prince Edward Island is pointed to the form of another province.",
+      "correction": "Form TD1PE (twice) in the Prince Edward Island paragraph of Chapter 5."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-01",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "pe-opt2",
+        "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": "123rd edition",
+        "locator": "Chapter 5 – Option 2, Prince Edward Island, K1P",
+        "text": "Prince Edward Island K1P = 0.0950 × TCP Where: TCP = The total of personal non‑refundable tax credits amounts reported on Form TD1NL. If Form TD1NL is not filed, TCP is $15,000.",
+        "translations": {},
+        "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+        "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+        "retrieved": "2026-10-21",
+        "copy": "sources/87a2c8effb190296-jul.html",
+        "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "ch5-heading",
+        "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": "123rd edition",
+        "locator": "Chapter 5 heading (the Prince Edward Island formula follows the British Columbia and Newfoundland and Labrador formulas of this chapter)",
+        "text": "Chapter 5 – Option 2 – Tax formulas based on cumulative averaging",
+        "translations": {},
+        "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+        "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+        "retrieved": "2026-10-21",
+        "copy": "sources/87a2c8effb190296-jul.html",
+        "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "nl-opt2",
+        "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": "123rd edition",
+        "locator": "Chapter 5 – Option 2, Newfoundland and Labrador, K1P (the paragraph just before)",
+        "text": "Newfoundland and Labrador K1P = 0.0870 × TCP Where: TCP = The total of personal non‑refundable tax credits amounts reported on Form TD1NL. If Form TD1NL is not filed, TCP is $13,094.",
+        "translations": {},
+        "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+        "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+        "retrieved": "2026-10-21",
+        "copy": "sources/87a2c8effb190296-jul.html",
+        "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "bc-own-form",
+        "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": "123rd edition",
+        "locator": "Chapter 4 and 5, British Columbia, K1P",
+        "text": "If Form TD1BC is not filed, TCP is $13,216.",
+        "translations": {},
+        "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+        "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+        "retrieved": "2026-10-21",
+        "copy": "sources/87a2c8effb190296-jul.html",
+        "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "glossary-tcp",
+        "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": "123rd edition",
+        "locator": "Chapter 3, Table 3.1 Glossary, TCP",
+        "text": "TCP | \"Total claim amount,\" reported on the provincial or territorial Form TD1. If this form is not filed, TCP is the provincial or territorial basic personal amount, refer to Table 8.2.",
+        "translations": {},
+        "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+        "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+        "retrieved": "2026-10-21",
+        "copy": "sources/87a2c8effb190296-jul.html",
+        "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "forms-list",
+        "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": "123rd edition",
+        "locator": "Chapter 8, note under Table 8.2",
+        "text": "see the respective form TD1AB, TD1BC, TD1MB, TD1NB, TD1NL, TD1NS, TD1NT, TD1NU, TD1ON, TD1PE, TD1SK, or TD1YT",
+        "translations": {},
+        "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+        "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+        "retrieved": "2026-10-21",
+        "copy": "sources/87a2c8effb190296-jul.html",
+        "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "pe-basic-amount",
+        "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+        "role": "Official guidance",
+        "language": "en",
+        "edition": "123rd edition",
+        "locator": "Table 8.2 Other rates and amounts effective July 1, 2026, row PE (extract from the cell grid)",
+        "text": "| PE | 15,000 |",
+        "translations": {},
+        "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+        "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+        "retrieved": "2026-10-21",
+        "copy": "sources/87a2c8effb190296-jul.html",
+        "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-23T20:47:40Z",
+      "institution": "Canada Revenue Agency",
+      "channel": "web_form",
+      "role": "publisher of T4127",
+      "what": "short message through the feedback form of the T4127 page"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Canada Revenue Agency",
+      "role": "publisher of T4127"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-23",
+  "ai_role": {
+    "en": "AI agents read the official text and drafted this record. A person at Arxo approved the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [
+    {
+      "id": "ARXO-2026-0620",
+      "relation": "see_also"
+    }
+  ],
+  "first_published": "2026-11-01T13:46:00+00:00",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Canada Revenue Agency (web form)"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

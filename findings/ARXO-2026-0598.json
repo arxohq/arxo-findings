@@ -1,0 +1,186 @@
+{
+  "id": "ARXO-2026-0598",
+  "url": "https://arxo.io/findings/ARXO-2026-0598/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "DE",
+  "jurisdiction_detail": "federal",
+  "act": "Programmablaufplan for wage-tax withholding 2026 (§ 39b(6) EStG)",
+  "acts": [
+    "EStG (Stand 20.10.2026)",
+    "PAP 2026, Anlage 1, Stand 12.11.2025 (endgültig)",
+    "PAP 2027, Anlage 1, Entwurf 8.10.2026"
+  ],
+  "location": "XML version, comment on input ALTER1",
+  "text": {
+    "en": {
+      "title": "Wage-tax program 2026, XML: the ALTER1 comment says “at the beginning” of the year; § 24a EStG and the PDF say “before the beginning”",
+      "summary": "The XML comment on input ALTER1 sets the flag if the taxpayer completed the 64th year of life at the beginning of the calendar year. § 24a sentence 3 EStG and the PDF of the same program use “before the beginning”.",
+      "impact": "The difference is in the comment text. Under §§ 187(2) and 188(2) of the Civil Code a year of life is completed at the end of the day before the birthday, so both wordings lead to the same result. ALTER1 is an input set by the calling program, and no incorrect tax amount has been shown.",
+      "correction": "Use the wording “vor Beginn des Kalenderjahres” in the comment.",
+      "quote_translations": {
+        "xml": "1 if the 64th year of life was completed at the beginning of the calendar year in which",
+        "pdf": "1 if the 64th year of life was completed before the beginning of the calendar year",
+        "norm": "who, before the beginning of the calendar year in which the income was received, had completed the 64th year of life"
+      }
+    },
+    "de": {
+      "title": "PAP 2026, XML: Der Kommentar zu ALTER1 sagt „zu Beginn“; § 24a EStG und das PDF sagen „vor Beginn“",
+      "summary": "Der XML-Kommentar zum Eingangsparameter ALTER1 setzt den Wert, wenn das 64. Lebensjahr zu Beginn des Kalenderjahres vollendet wurde. § 24a Satz 3 EStG und das PDF desselben Programms sagen „vor dem Beginn“ bzw. „vor Beginn“.",
+      "impact": "Der Unterschied betrifft den Kommentartext. Nach §§ 187 Abs. 2, 188 Abs. 2 BGB ist ein Lebensjahr mit Ablauf des Vortags des Geburtstags vollendet; beide Formulierungen führen zum selben Ergebnis. ALTER1 ist ein Eingangsparameter, den das aufrufende Programm setzt; eine falsche Steuer ist nicht gezeigt.",
+      "correction": "Im Kommentar die Formulierung „vor Beginn des Kalenderjahres“ verwenden."
+    }
+  },
+  "status": {
+    "badge": "accepted",
+    "label": {
+      "en": "Accepted by the addressee",
+      "ru": "Принято адресатом"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "accepted",
+    "last_checked": "2026-11-01",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "xml",
+        "source": "Programmablaufplan Lohnsteuer 2026, XML (BMF)",
+        "role": "Official program",
+        "language": "de",
+        "edition": null,
+        "locator": "XML 2026, comment on input ALTER1",
+        "text": "1, wenn das 64. Lebensjahr zu Beginn des Kalenderjahres vollendet wurde, in dem",
+        "translations": {
+          "en": "1 if the 64th year of life was completed at the beginning of the calendar year in which"
+        },
+        "url": "https://www.bmf-steuerrechner.de/javax.faces.resource/daten/xmls/Lohnsteuer2026.xml.xhtml",
+        "sha256": "63d8981646d139eba2f4dd990c13b43c4fb3883b402a5a40cddf253aa7aa96b4",
+        "retrieved": null,
+        "copy": "sources/63d8981646d139eb-Lohnsteuer2026.xml",
+        "copy_sha256": "63d8981646d139eba2f4dd990c13b43c4fb3883b402a5a40cddf253aa7aa96b4",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "pdf",
+        "source": "Programmablaufplan Lohnsteuer 2026, Anlage 1, Stand 12.11.2025 (Kopie: IHK München)",
+        "role": "Official program",
+        "language": "de",
+        "edition": null,
+        "locator": "PAP 2026, Anlage 1, input table, ALTER1",
+        "text": "1, wenn das 64. Lebensjahr vor Beginn des Kalenderjahres vollendet",
+        "translations": {
+          "en": "1 if the 64th year of life was completed before the beginning of the calendar year"
+        },
+        "url": "https://www.ihk-muenchen.de/ihk/documents/Recht-Steuern/Steuerrecht/Einkommensteuer/2025-11-12-PAP-2026-anlage-1.pdf",
+        "sha256": "614a1bce4f3bb84283080803f57bcf098373b123231b3f6c79e2417e98ac486e",
+        "retrieved": null,
+        "copy": "sources/614a1bce4f3bb842-pap-2026-anlage-1.txt",
+        "copy_sha256": "614a1bce4f3bb84283080803f57bcf098373b123231b3f6c79e2417e98ac486e",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "norm",
+        "source": "Einkommensteuergesetz (EStG), gesetze-im-internet.de, Stand 20.10.2026",
+        "role": "Normative text",
+        "language": "de",
+        "edition": null,
+        "locator": "§ 24a Satz 3 EStG",
+        "text": "der vor dem Beginn des Kalenderjahres, in dem er sein Einkommen bezogen hat, das 64. Lebensjahr vollendet hatte",
+        "translations": {
+          "en": "who, before the beginning of the calendar year in which the income was received, had completed the 64th year of life"
+        },
+        "url": "https://www.gesetze-im-internet.de/estg/xml.zip",
+        "sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+        "retrieved": "2026-10-20",
+        "copy": "sources/fbf218f8623287aa-estg-2026-10-20.de.txt",
+        "copy_sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-21T12:05:00Z",
+      "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+      "channel": "email",
+      "role": "publisher of the wage-tax program",
+      "what": "letter and findings sheets to Division IV C 5, copied to the tax calculator team"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+      "role": "publisher of the wage-tax program"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-10-30T12:30:03Z",
+      "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+      "kind": "acknowledged",
+      "summary": {
+        "en": "The ministry replied that the notes on the XML pseudocode will be taken into account when the 2027 version is prepared.",
+        "de": "Das Ministerium antwortete, die Hinweise zum XML-Pseudocode würden bei der Erstellung der Version 2027 berücksichtigt."
+      }
+    }
+  ],
+  "approval": "2026-10-21",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo approved the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [
+    {
+      "date": "2026-10-21",
+      "title": "arxohq/arxo-lohnsteuer-pap",
+      "url": "https://github.com/arxohq/arxo-lohnsteuer-pap"
+    }
+  ],
+  "reproduction": [
+    {
+      "title": "Public evidence repository: test cases, tables and findings sheets",
+      "url": "https://github.com/arxohq/arxo-lohnsteuer-pap",
+      "commit": "a1826baa564696ee04264d4e7167a63d3b3d45ff"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-01T13:46:00+00:00",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "event": "published_elsewhere",
+      "text": "Published: arxohq/arxo-lohnsteuer-pap"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Federal Ministry of Finance (Bundesministerium der Finanzen) (e-mail)"
+    },
+    {
+      "date": "2026-10-30",
+      "event": "acknowledged",
+      "text": "Accepted: Federal Ministry of Finance (Bundesministerium der Finanzen)"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

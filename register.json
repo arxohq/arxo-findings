@@ -4,13 +4,15 @@
   "description": "Verified discrepancies in legal texts, standards, official publications and implementations, with evidence and correction histories.",
   "publisher": "Arxo Law",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "as_of": "2026-10-31T20:30:00+00:00",
+  "as_of": "2026-11-01T13:46:00+00:00",
   "base_url": "https://arxo.io/findings/",
   "counts": {
-    "records": 377,
-    "discrepancies": 293,
+    "records": 384,
+    "discrepancies": 300,
     "questions": 84,
     "by_jurisdiction": {
+      "CA": 3,
+      "DE": 4,
       "EU": 50,
       "FR": 12,
       "KZ": 182,
@@ -22,13 +24,38 @@
       "W3C": 8
     },
     "by_status": {
-      "reported": 364,
-      "accepted": 3,
+      "reported": 367,
+      "accepted": 6,
+      "disagrees": 1,
       "note_added": 5,
       "corrected": 3,
       "corrected_before_report": 2
     },
     "matrix": [
+      {
+        "jurisdiction": "CA",
+        "class": "programs",
+        "status": "reported",
+        "records": 1
+      },
+      {
+        "jurisdiction": "CA",
+        "class": "publication",
+        "status": "reported",
+        "records": 2
+      },
+      {
+        "jurisdiction": "DE",
+        "class": "programs",
+        "status": "disagrees",
+        "records": 1
+      },
+      {
+        "jurisdiction": "DE",
+        "class": "publication",
+        "status": "accepted",
+        "records": 3
+      },
       {
         "jurisdiction": "EU",
         "class": "act_text",
@@ -192,11 +219,11 @@
         "records": 8
       }
     ],
-    "institutions_notified": 70,
+    "institutions_notified": 89,
     "corrected_by_official_document": 5,
     "withdrawn_after_publication": {
       "withdrawn": 0,
-      "of_published": 346
+      "of_published": 353
     },
     "rule": "Counts are of findings. One finding is one independently checkable statement about one discrepancy at one place; classes and questions are counted separately and are not added together."
   },
@@ -60774,6 +60801,2636 @@
           "date": "2026-10-31",
           "event": "reported",
           "text": "Reported to Unicode Consortium (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0596",
+      "url": "https://arxo.io/findings/ARXO-2026-0596/",
+      "record_kind": "discrepancy",
+      "class": "publication",
+      "class_label": "Publication and consolidation",
+      "jurisdiction": "DE",
+      "jurisdiction_detail": "federal",
+      "act": "Programmablaufplan for wage-tax withholding 2026 (§ 39b(6) EStG)",
+      "acts": [
+        "EStG (Stand 20.10.2026)",
+        "PAP 2026, Anlage 1, Stand 12.11.2025 (endgültig)",
+        "PAP 2027, Anlage 1, Entwurf 8.10.2026"
+      ],
+      "location": "XML version, input VJAHR",
+      "text": {
+        "en": {
+          "title": "Wage-tax program 2026, XML: the VJAHR input has a misspelled “defaul” attribute",
+          "summary": "In the XML version of the 2026 wage-tax program, the input VJAHR (the year pension payments began) is declared with the attribute “defaul”. The other inputs with a default value use “default”. This is the only occurrence in the file.",
+          "impact": "What a program does with this input when no value is passed depends on how it reads the file. No incorrect tax amount has been shown.",
+          "correction": "Write “default” in the VJAHR declaration."
+        },
+        "de": {
+          "title": "PAP 2026, XML: Beim Eingangsparameter VJAHR ist das Attribut als „defaul“ geschrieben",
+          "summary": "In der XML-Fassung des PAP 2026 ist der Eingangsparameter VJAHR (Jahr des Versorgungsbeginns) mit dem Attribut „defaul“ deklariert. Die übrigen Eingangsparameter mit Vorgabewert verwenden „default“. Die Stelle kommt in der Datei nur einmal vor.",
+          "impact": "Was ein Programm mit diesem Parameter macht, wenn kein Wert übergeben wird, hängt davon ab, wie es die Datei liest. Eine falsche Steuer ist nicht gezeigt.",
+          "correction": "In der Deklaration von VJAHR „default“ schreiben."
+        }
+      },
+      "status": {
+        "badge": "accepted",
+        "label": {
+          "en": "Accepted by the addressee",
+          "ru": "Принято адресатом"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "accepted",
+        "last_checked": "2026-11-01",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The official publication",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "typo",
+            "source": "Programmablaufplan Lohnsteuer 2026, XML (BMF)",
+            "role": "Official program",
+            "language": "de",
+            "edition": null,
+            "locator": "XML 2026, input VJAHR",
+            "text": "<INPUT name=\"VJAHR\" type=\"int\" defaul=\"0\"/>",
+            "translations": {},
+            "url": "https://www.bmf-steuerrechner.de/javax.faces.resource/daten/xmls/Lohnsteuer2026.xml.xhtml",
+            "sha256": "63d8981646d139eba2f4dd990c13b43c4fb3883b402a5a40cddf253aa7aa96b4",
+            "retrieved": null,
+            "copy": "sources/63d8981646d139eb-Lohnsteuer2026.xml",
+            "copy_sha256": "63d8981646d139eba2f4dd990c13b43c4fb3883b402a5a40cddf253aa7aa96b4",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "peer",
+            "source": "Programmablaufplan Lohnsteuer 2026, XML (BMF)",
+            "role": "Official program",
+            "language": "de",
+            "edition": null,
+            "locator": "XML 2026, input ALTER1",
+            "text": "<INPUT name=\"ALTER1\" type=\"int\" default=\"0\"/>",
+            "translations": {},
+            "url": "https://www.bmf-steuerrechner.de/javax.faces.resource/daten/xmls/Lohnsteuer2026.xml.xhtml",
+            "sha256": "63d8981646d139eba2f4dd990c13b43c4fb3883b402a5a40cddf253aa7aa96b4",
+            "retrieved": null,
+            "copy": "sources/63d8981646d139eb-Lohnsteuer2026.xml",
+            "copy_sha256": "63d8981646d139eba2f4dd990c13b43c4fb3883b402a5a40cddf253aa7aa96b4",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-21T12:05:00Z",
+          "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+          "channel": "email",
+          "role": "publisher of the wage-tax program",
+          "what": "letter and findings sheets to Division IV C 5, copied to the tax calculator team"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+          "role": "publisher of the wage-tax program"
+        }
+      ],
+      "responses": [
+        {
+          "date": "2026-10-30T12:30:03Z",
+          "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+          "kind": "acknowledged",
+          "summary": {
+            "en": "The ministry replied that the notes on the XML pseudocode will be taken into account when the 2027 version is prepared.",
+            "de": "Das Ministerium antwortete, die Hinweise zum XML-Pseudocode würden bei der Erstellung der Version 2027 berücksichtigt."
+          }
+        }
+      ],
+      "approval": "2026-10-21",
+      "ai_role": {
+        "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [
+        {
+          "date": "2026-10-21",
+          "title": "arxohq/arxo-lohnsteuer-pap",
+          "url": "https://github.com/arxohq/arxo-lohnsteuer-pap"
+        }
+      ],
+      "reproduction": [
+        {
+          "title": "Public evidence repository: test cases, tables and findings sheets",
+          "url": "https://github.com/arxohq/arxo-lohnsteuer-pap",
+          "commit": "a1826baa564696ee04264d4e7167a63d3b3d45ff"
+        }
+      ],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-01T13:46:00+00:00",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "event": "published_elsewhere",
+          "text": "Published: arxohq/arxo-lohnsteuer-pap"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Federal Ministry of Finance (Bundesministerium der Finanzen) (e-mail)"
+        },
+        {
+          "date": "2026-10-30",
+          "event": "acknowledged",
+          "text": "Accepted: Federal Ministry of Finance (Bundesministerium der Finanzen)"
+        },
+        {
+          "date": "2026-11-01",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-01",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0597",
+      "url": "https://arxo.io/findings/ARXO-2026-0597/",
+      "record_kind": "discrepancy",
+      "class": "publication",
+      "class_label": "Publication and consolidation",
+      "jurisdiction": "DE",
+      "jurisdiction_detail": "federal",
+      "act": "Programmablaufplan for wage-tax withholding 2026 (§ 39b(6) EStG)",
+      "acts": [
+        "EStG (Stand 20.10.2026)",
+        "PAP 2026, Anlage 1, Stand 12.11.2025 (endgültig)",
+        "PAP 2027, Anlage 1, Entwurf 8.10.2026"
+      ],
+      "location": "XML version and PDF, references to § 19a(1) EStG",
+      "text": {
+        "en": {
+          "title": "Wage-tax program 2026 cites § 19a(1) sentence 4 EStG for non-taxed share benefits; the rule is in sentence 6",
+          "summary": "The XML version cites sentence 4 in four places, including the comment on input MBV, and the PDF cites it in three explanations of output values. Sentence 4 deals with when a benefit counts as received. Sentence 6 deals with non-taxed benefits and the provision for social insurance contributions, and the PDF's own input table gives sentence 6 for MBV. The draft program for 2027 of 8 October 2026 still cites sentence 4.",
+          "impact": "Readers of the program are sent to the wrong sentence. The tax calculation does not change.",
+          "correction": "Replace “Satz 4” with “Satz 6” in these references.",
+          "quote_translations": {
+            "xml-mbv": "(§ 19a(1) sentence 4 EStG) in cents",
+            "pdf-sts": "share participations (§ 19a(1) sentence 4 EStG) result,",
+            "pdf-mbv": "(1) sentence 6 EStG) in cents",
+            "s4": "A benefit within the meaning of sentence 1 is in this case also deemed received",
+            "s6": "A non-taxed benefit within the meaning of sentence 1 is to be included when calculating the provision for social insurance contributions",
+            "draft": "share participations (§ 19a(1) sentence 4 EStG) result,"
+          }
+        },
+        "de": {
+          "title": "PAP 2026 nennt für nicht besteuerte Vorteile § 19a Abs. 1 Satz 4 EStG; einschlägig ist Satz 6",
+          "summary": "Die XML-Fassung nennt Satz 4 an vier Stellen, darunter im Kommentar zum Eingangsparameter MBV, das PDF in drei Erläuterungen zu Ausgangsgrößen. Satz 4 betrifft den Zeitpunkt des Zuflusses. Satz 6 betrifft den nicht besteuerten Vorteil und die Vorsorgepauschale; die Tabelle der Eingangsparameter im PDF nennt für MBV selbst Satz 6. Der Entwurf des PAP 2027 vom 8. Oktober 2026 nennt weiterhin Satz 4.",
+          "impact": "Der Verweis führt zum falschen Satz. Die Steuerberechnung ändert sich nicht.",
+          "correction": "In diesen Verweisen „Satz 4“ durch „Satz 6“ ersetzen."
+        }
+      },
+      "status": {
+        "badge": "accepted",
+        "label": {
+          "en": "Accepted by the addressee",
+          "ru": "Принято адресатом"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "accepted",
+        "last_checked": "2026-11-01",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The official publication",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "xml-mbv",
+            "source": "Programmablaufplan Lohnsteuer 2026, XML (BMF)",
+            "role": "Official program",
+            "language": "de",
+            "edition": null,
+            "locator": "XML 2026, comment on input MBV",
+            "text": "(§ 19a Absatz 1 Satz 4 EStG) in Cent -->",
+            "translations": {
+              "en": "(§ 19a(1) sentence 4 EStG) in cents"
+            },
+            "url": "https://www.bmf-steuerrechner.de/javax.faces.resource/daten/xmls/Lohnsteuer2026.xml.xhtml",
+            "sha256": "63d8981646d139eba2f4dd990c13b43c4fb3883b402a5a40cddf253aa7aa96b4",
+            "retrieved": null,
+            "copy": "sources/63d8981646d139eb-Lohnsteuer2026.xml",
+            "copy_sha256": "63d8981646d139eba2f4dd990c13b43c4fb3883b402a5a40cddf253aa7aa96b4",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "pdf-sts",
+            "source": "Programmablaufplan Lohnsteuer 2026, Anlage 1, Stand 12.11.2025 (Kopie: IHK München)",
+            "role": "Official program",
+            "language": "de",
+            "edition": null,
+            "locator": "PAP 2026, Anlage 1, explanation of outputs BKS, SOLZS, STS",
+            "text": "Vermögensbeteiligungen (§ 19a Absatz 1 Satz 4 EStG) resultieren,",
+            "translations": {
+              "en": "share participations (§ 19a(1) sentence 4 EStG) result,"
+            },
+            "url": "https://www.ihk-muenchen.de/ihk/documents/Recht-Steuern/Steuerrecht/Einkommensteuer/2025-11-12-PAP-2026-anlage-1.pdf",
+            "sha256": "614a1bce4f3bb84283080803f57bcf098373b123231b3f6c79e2417e98ac486e",
+            "retrieved": null,
+            "copy": "sources/614a1bce4f3bb842-pap-2026-anlage-1.txt",
+            "copy_sha256": "614a1bce4f3bb84283080803f57bcf098373b123231b3f6c79e2417e98ac486e",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "pdf-mbv",
+            "source": "Programmablaufplan Lohnsteuer 2026, Anlage 1, Stand 12.11.2025 (Kopie: IHK München)",
+            "role": "Official program",
+            "language": "de",
+            "edition": null,
+            "locator": "PAP 2026, Anlage 1, input table, MBV",
+            "text": "Absatz 1 Satz 6 EStG) in Cent",
+            "translations": {
+              "en": "(1) sentence 6 EStG) in cents"
+            },
+            "url": "https://www.ihk-muenchen.de/ihk/documents/Recht-Steuern/Steuerrecht/Einkommensteuer/2025-11-12-PAP-2026-anlage-1.pdf",
+            "sha256": "614a1bce4f3bb84283080803f57bcf098373b123231b3f6c79e2417e98ac486e",
+            "retrieved": null,
+            "copy": "sources/614a1bce4f3bb842-pap-2026-anlage-1.txt",
+            "copy_sha256": "614a1bce4f3bb84283080803f57bcf098373b123231b3f6c79e2417e98ac486e",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "s4",
+            "source": "Einkommensteuergesetz (EStG), gesetze-im-internet.de, Stand 20.10.2026",
+            "role": "Normative text",
+            "language": "de",
+            "edition": null,
+            "locator": "§ 19a Abs. 1 Satz 4 EStG",
+            "text": "4Ein Vorteil im Sinne des Satzes 1 gilt in diesem Fall auch dann als zugeflossen",
+            "translations": {
+              "en": "A benefit within the meaning of sentence 1 is in this case also deemed received"
+            },
+            "url": "https://www.gesetze-im-internet.de/estg/xml.zip",
+            "sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+            "retrieved": "2026-10-20",
+            "copy": "sources/fbf218f8623287aa-estg-2026-10-20.de.txt",
+            "copy_sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "s6",
+            "source": "Einkommensteuergesetz (EStG), gesetze-im-internet.de, Stand 20.10.2026",
+            "role": "Normative text",
+            "language": "de",
+            "edition": null,
+            "locator": "§ 19a Abs. 1 Satz 6 EStG",
+            "text": "6Ein nicht besteuerter Vorteil im Sinne des Satzes 1 ist bei der Berechnung der Vorsorgepauschale",
+            "translations": {
+              "en": "A non-taxed benefit within the meaning of sentence 1 is to be included when calculating the provision for social insurance contributions"
+            },
+            "url": "https://www.gesetze-im-internet.de/estg/xml.zip",
+            "sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+            "retrieved": "2026-10-20",
+            "copy": "sources/fbf218f8623287aa-estg-2026-10-20.de.txt",
+            "copy_sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "draft",
+            "source": "Programmablaufplan Lohnsteuer 2027, Entwurf, Stand 8.10.2026",
+            "role": "Official program",
+            "language": "de",
+            "edition": null,
+            "locator": "Draft PAP 2027, Anlage 1, explanation of outputs",
+            "text": "Vermögensbeteiligungen (§ 19a Absatz 1 Satz 4 EStG) resultieren,",
+            "translations": {
+              "en": "share participations (§ 19a(1) sentence 4 EStG) result,"
+            },
+            "url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/Steuern/Steuerarten/Lohnsteuer/Programmablaufplan/2026-10-08-PAP-2027-anlage-1-Entwurf.pdf?__blob=publicationFile&v=3",
+            "sha256": "87c4c8a05410684aa75a72ce02356bce38989d736d7a87f71f51dbfb45f3bb9d",
+            "retrieved": null,
+            "copy": "sources/87c4c8a05410684a-pap-2027-anlage-1-entwurf.txt",
+            "copy_sha256": "87c4c8a05410684aa75a72ce02356bce38989d736d7a87f71f51dbfb45f3bb9d",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-21T12:05:00Z",
+          "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+          "channel": "email",
+          "role": "publisher of the wage-tax program",
+          "what": "letter and findings sheets to Division IV C 5, copied to the tax calculator team"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+          "role": "publisher of the wage-tax program"
+        }
+      ],
+      "responses": [
+        {
+          "date": "2026-10-30T12:30:03Z",
+          "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+          "kind": "acknowledged",
+          "summary": {
+            "en": "The ministry replied that the notes on the XML pseudocode will be taken into account when the 2027 version is prepared.",
+            "de": "Das Ministerium antwortete, die Hinweise zum XML-Pseudocode würden bei der Erstellung der Version 2027 berücksichtigt."
+          }
+        }
+      ],
+      "approval": "2026-10-21",
+      "ai_role": {
+        "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [
+        {
+          "date": "2026-10-21",
+          "title": "arxohq/arxo-lohnsteuer-pap",
+          "url": "https://github.com/arxohq/arxo-lohnsteuer-pap"
+        }
+      ],
+      "reproduction": [
+        {
+          "title": "Public evidence repository: test cases, tables and findings sheets",
+          "url": "https://github.com/arxohq/arxo-lohnsteuer-pap",
+          "commit": "a1826baa564696ee04264d4e7167a63d3b3d45ff"
+        }
+      ],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-01T13:46:00+00:00",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "event": "published_elsewhere",
+          "text": "Published: arxohq/arxo-lohnsteuer-pap"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Federal Ministry of Finance (Bundesministerium der Finanzen) (e-mail)"
+        },
+        {
+          "date": "2026-10-30",
+          "event": "acknowledged",
+          "text": "Accepted: Federal Ministry of Finance (Bundesministerium der Finanzen)"
+        },
+        {
+          "date": "2026-11-01",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-01",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0598",
+      "url": "https://arxo.io/findings/ARXO-2026-0598/",
+      "record_kind": "discrepancy",
+      "class": "publication",
+      "class_label": "Publication and consolidation",
+      "jurisdiction": "DE",
+      "jurisdiction_detail": "federal",
+      "act": "Programmablaufplan for wage-tax withholding 2026 (§ 39b(6) EStG)",
+      "acts": [
+        "EStG (Stand 20.10.2026)",
+        "PAP 2026, Anlage 1, Stand 12.11.2025 (endgültig)",
+        "PAP 2027, Anlage 1, Entwurf 8.10.2026"
+      ],
+      "location": "XML version, comment on input ALTER1",
+      "text": {
+        "en": {
+          "title": "Wage-tax program 2026, XML: the ALTER1 comment says “at the beginning” of the year; § 24a EStG and the PDF say “before the beginning”",
+          "summary": "The XML comment on input ALTER1 sets the flag if the taxpayer completed the 64th year of life at the beginning of the calendar year. § 24a sentence 3 EStG and the PDF of the same program use “before the beginning”.",
+          "impact": "The difference is in the comment text. Under §§ 187(2) and 188(2) of the Civil Code a year of life is completed at the end of the day before the birthday, so both wordings lead to the same result. ALTER1 is an input set by the calling program, and no incorrect tax amount has been shown.",
+          "correction": "Use the wording “vor Beginn des Kalenderjahres” in the comment.",
+          "quote_translations": {
+            "xml": "1 if the 64th year of life was completed at the beginning of the calendar year in which",
+            "pdf": "1 if the 64th year of life was completed before the beginning of the calendar year",
+            "norm": "who, before the beginning of the calendar year in which the income was received, had completed the 64th year of life"
+          }
+        },
+        "de": {
+          "title": "PAP 2026, XML: Der Kommentar zu ALTER1 sagt „zu Beginn“; § 24a EStG und das PDF sagen „vor Beginn“",
+          "summary": "Der XML-Kommentar zum Eingangsparameter ALTER1 setzt den Wert, wenn das 64. Lebensjahr zu Beginn des Kalenderjahres vollendet wurde. § 24a Satz 3 EStG und das PDF desselben Programms sagen „vor dem Beginn“ bzw. „vor Beginn“.",
+          "impact": "Der Unterschied betrifft den Kommentartext. Nach §§ 187 Abs. 2, 188 Abs. 2 BGB ist ein Lebensjahr mit Ablauf des Vortags des Geburtstags vollendet; beide Formulierungen führen zum selben Ergebnis. ALTER1 ist ein Eingangsparameter, den das aufrufende Programm setzt; eine falsche Steuer ist nicht gezeigt.",
+          "correction": "Im Kommentar die Formulierung „vor Beginn des Kalenderjahres“ verwenden."
+        }
+      },
+      "status": {
+        "badge": "accepted",
+        "label": {
+          "en": "Accepted by the addressee",
+          "ru": "Принято адресатом"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "accepted",
+        "last_checked": "2026-11-01",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The official publication",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "xml",
+            "source": "Programmablaufplan Lohnsteuer 2026, XML (BMF)",
+            "role": "Official program",
+            "language": "de",
+            "edition": null,
+            "locator": "XML 2026, comment on input ALTER1",
+            "text": "1, wenn das 64. Lebensjahr zu Beginn des Kalenderjahres vollendet wurde, in dem",
+            "translations": {
+              "en": "1 if the 64th year of life was completed at the beginning of the calendar year in which"
+            },
+            "url": "https://www.bmf-steuerrechner.de/javax.faces.resource/daten/xmls/Lohnsteuer2026.xml.xhtml",
+            "sha256": "63d8981646d139eba2f4dd990c13b43c4fb3883b402a5a40cddf253aa7aa96b4",
+            "retrieved": null,
+            "copy": "sources/63d8981646d139eb-Lohnsteuer2026.xml",
+            "copy_sha256": "63d8981646d139eba2f4dd990c13b43c4fb3883b402a5a40cddf253aa7aa96b4",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "pdf",
+            "source": "Programmablaufplan Lohnsteuer 2026, Anlage 1, Stand 12.11.2025 (Kopie: IHK München)",
+            "role": "Official program",
+            "language": "de",
+            "edition": null,
+            "locator": "PAP 2026, Anlage 1, input table, ALTER1",
+            "text": "1, wenn das 64. Lebensjahr vor Beginn des Kalenderjahres vollendet",
+            "translations": {
+              "en": "1 if the 64th year of life was completed before the beginning of the calendar year"
+            },
+            "url": "https://www.ihk-muenchen.de/ihk/documents/Recht-Steuern/Steuerrecht/Einkommensteuer/2025-11-12-PAP-2026-anlage-1.pdf",
+            "sha256": "614a1bce4f3bb84283080803f57bcf098373b123231b3f6c79e2417e98ac486e",
+            "retrieved": null,
+            "copy": "sources/614a1bce4f3bb842-pap-2026-anlage-1.txt",
+            "copy_sha256": "614a1bce4f3bb84283080803f57bcf098373b123231b3f6c79e2417e98ac486e",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "norm",
+            "source": "Einkommensteuergesetz (EStG), gesetze-im-internet.de, Stand 20.10.2026",
+            "role": "Normative text",
+            "language": "de",
+            "edition": null,
+            "locator": "§ 24a Satz 3 EStG",
+            "text": "der vor dem Beginn des Kalenderjahres, in dem er sein Einkommen bezogen hat, das 64. Lebensjahr vollendet hatte",
+            "translations": {
+              "en": "who, before the beginning of the calendar year in which the income was received, had completed the 64th year of life"
+            },
+            "url": "https://www.gesetze-im-internet.de/estg/xml.zip",
+            "sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+            "retrieved": "2026-10-20",
+            "copy": "sources/fbf218f8623287aa-estg-2026-10-20.de.txt",
+            "copy_sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-21T12:05:00Z",
+          "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+          "channel": "email",
+          "role": "publisher of the wage-tax program",
+          "what": "letter and findings sheets to Division IV C 5, copied to the tax calculator team"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+          "role": "publisher of the wage-tax program"
+        }
+      ],
+      "responses": [
+        {
+          "date": "2026-10-30T12:30:03Z",
+          "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+          "kind": "acknowledged",
+          "summary": {
+            "en": "The ministry replied that the notes on the XML pseudocode will be taken into account when the 2027 version is prepared.",
+            "de": "Das Ministerium antwortete, die Hinweise zum XML-Pseudocode würden bei der Erstellung der Version 2027 berücksichtigt."
+          }
+        }
+      ],
+      "approval": "2026-10-21",
+      "ai_role": {
+        "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [
+        {
+          "date": "2026-10-21",
+          "title": "arxohq/arxo-lohnsteuer-pap",
+          "url": "https://github.com/arxohq/arxo-lohnsteuer-pap"
+        }
+      ],
+      "reproduction": [
+        {
+          "title": "Public evidence repository: test cases, tables and findings sheets",
+          "url": "https://github.com/arxohq/arxo-lohnsteuer-pap",
+          "commit": "a1826baa564696ee04264d4e7167a63d3b3d45ff"
+        }
+      ],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-01T13:46:00+00:00",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "event": "published_elsewhere",
+          "text": "Published: arxohq/arxo-lohnsteuer-pap"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Federal Ministry of Finance (Bundesministerium der Finanzen) (e-mail)"
+        },
+        {
+          "date": "2026-10-30",
+          "event": "acknowledged",
+          "text": "Accepted: Federal Ministry of Finance (Bundesministerium der Finanzen)"
+        },
+        {
+          "date": "2026-11-01",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-01",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0602",
+      "url": "https://arxo.io/findings/ARXO-2026-0602/",
+      "record_kind": "discrepancy",
+      "class": "programs",
+      "class_label": "Programs and services",
+      "jurisdiction": "DE",
+      "jurisdiction_detail": "federal",
+      "act": "Programmablaufplan for wage-tax withholding 2026 (§ 39b(6) EStG) and Income Tax Act (EStG)",
+      "acts": [
+        "EStG (Stand 20.10.2026)",
+        "PAP 2026, Anlage 1, Stand 12.11.2025 (endgültig)",
+        "PAP 2027, Anlage 1, Entwurf 8.10.2026"
+      ],
+      "location": "Wage-tax program 2026, method MZTABFB; § 9a sentence 2 EStG",
+      "text": {
+        "en": {
+          "title": "Wage-tax program 2026 caps the employee lump-sum allowance after deducting the old-age relief and the tax-card allowance; § 9a EStG caps it at income",
+          "summary": "§ 9a sentence 2 EStG allows the employee lump-sum allowance only up to the amount of income. The program caps it at the wage left after the old-age relief amount and any allowance on the tax card have been deducted, so these amounts can be lost. We ran the official XML and a reading of the statutory text on the same inputs. The Federal Ministry of Finance points to the order of deductions in § 39b(2) EStG; that order is not in dispute, and the provision does not state the size of the cap. The program does not declare a deviation under § 39b(6) sentence 2. The text does not expressly say how the cap works in withholding, so this record reports a discrepancy and not a breach of the law.",
+          "impact": "Example: a company pension of 20,000 euros plus 1,000 euros of active wages from the same employer, tax class I, age 64: 506 euros of wage tax under the program and 475 euros under the reading of the text. An approximate income tax assessment with the same contribution allowance also gives 475 euros. With an allowance of 1,140 euros for a disability, the calculated difference is 184 euros. The difference can be recovered through an assessment, which is not mandatory for everyone. With an add-back amount on the tax card the difference runs the other way, by 47 to 48 euros in our cases.",
+          "correction": "Cap the allowance at wages excluding pension payments, before these deductions, or declare the step as a deviation under § 39b(6) sentence 2 with its grounds, or clarify § 9a sentence 2 for withholding.",
+          "quote_translations": {
+            "norm": "the lump sums under sentence 1 number 1 letter a and number 3 may be deducted only up to the amount of the income."
+          }
+        },
+        "de": {
+          "title": "PAP 2026 begrenzt den Arbeitnehmer-Pauschbetrag nach Abzug von Altersentlastungsbetrag und Freibetrag; § 9a EStG begrenzt ihn auf die Einnahmen",
+          "summary": "§ 9a Satz 2 EStG lässt den Arbeitnehmer-Pauschbetrag nur bis zur Höhe der Einnahmen zu. Der PAP begrenzt ihn auf den Arbeitslohn nach Abzug von Altersentlastungsbetrag und Freibetrag, sodass diese Beträge verloren gehen können. Das amtliche XML und eine Lesart des Wortlauts wurden mit denselben Eingaben ausgeführt. Das BMF verweist auf die Reihenfolge des Abzugs nach § 39b Abs. 2 EStG; diese Reihenfolge ist nicht streitig, und die Vorschrift nennt die Höhe der Grenze nicht. Der PAP weist keine Abweichung nach § 39b Abs. 6 Satz 2 aus. Wie die Grenze im Lohnsteuerabzug wirkt, sagt der Wortlaut nicht ausdrücklich; dieser Eintrag beschreibt daher eine Abweichung und keinen Gesetzesverstoß.",
+          "impact": "Beispiel: Werkspension 20 000 € und aktiver Arbeitslohn 1 000 € beim selben Arbeitgeber, Steuerklasse I, 64 Jahre: Lohnsteuer 506 € nach PAP, 475 € nach der Lesart des Wortlauts. Eine überschlägige Veranlagung mit derselben Vorsorgepauschale ergibt ebenfalls 475 €. Mit einem Freibetrag von 1 140 € wegen Behinderung beträgt der berechnete Unterschied 184 €. Der Unterschied lässt sich in der Veranlagung ausgleichen, die nicht für alle verpflichtend ist. Bei einem Hinzurechnungsbetrag verläuft er in unseren Fällen umgekehrt, um 47 bis 48 €.",
+          "correction": "Begrenzung auf den Arbeitslohn ohne Versorgungsbezüge vor diesen Abzügen, oder Ausweis als Abweichung nach § 39b Abs. 6 Satz 2 mit Begründung, oder Klarstellung von § 9a Satz 2 für den Lohnsteuerabzug."
+        }
+      },
+      "status": {
+        "badge": "disagrees",
+        "label": {
+          "en": "Addressee takes a different view",
+          "ru": "Позиция адресата иная"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "disagrees",
+        "last_checked": "2026-11-01",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The official program or service",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "norm",
+            "source": "Einkommensteuergesetz (EStG), gesetze-im-internet.de, Stand 20.10.2026",
+            "role": "Normative text",
+            "language": "de",
+            "edition": null,
+            "locator": "§ 9a Satz 2 EStG",
+            "text": "die Pauschbeträge nach Satz 1 Nummer 1 Buchstabe a und Nummer 3 dürfen nur bis zur Höhe der Einnahmen abgezogen werden.",
+            "translations": {
+              "en": "the lump sums under sentence 1 number 1 letter a and number 3 may be deducted only up to the amount of the income."
+            },
+            "url": "https://www.gesetze-im-internet.de/estg/xml.zip",
+            "sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+            "retrieved": "2026-10-20",
+            "copy": "sources/fbf218f8623287aa-estg-2026-10-20.de.txt",
+            "copy_sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "pap",
+            "source": "Programmablaufplan Lohnsteuer 2026, XML (BMF)",
+            "role": "Official program",
+            "language": "de",
+            "edition": null,
+            "locator": "PAP 2026, METHOD MZTABFB",
+            "text": "<IF expr=\"ZRE4.subtract(ZVBEZ).compareTo(BigDecimal.valueOf(1230)) == -1\">",
+            "translations": {},
+            "url": "https://www.bmf-steuerrechner.de/javax.faces.resource/daten/xmls/Lohnsteuer2026.xml.xhtml",
+            "sha256": "63d8981646d139eba2f4dd990c13b43c4fb3883b402a5a40cddf253aa7aa96b4",
+            "retrieved": null,
+            "copy": "sources/63d8981646d139eb-Lohnsteuer2026.xml",
+            "copy_sha256": "63d8981646d139eba2f4dd990c13b43c4fb3883b402a5a40cddf253aa7aa96b4",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "pap-eval",
+            "source": "Programmablaufplan Lohnsteuer 2026, XML (BMF)",
+            "role": "Official program",
+            "language": "de",
+            "edition": null,
+            "locator": "PAP 2026, MZTABFB, assignment",
+            "text": "<EVAL exec=\"ANP = ANP.add(ZRE4).subtract(ZVBEZ).setScale(0,BigDecimal.ROUND_UP)\"/>",
+            "translations": {},
+            "url": "https://www.bmf-steuerrechner.de/javax.faces.resource/daten/xmls/Lohnsteuer2026.xml.xhtml",
+            "sha256": "63d8981646d139eba2f4dd990c13b43c4fb3883b402a5a40cddf253aa7aa96b4",
+            "retrieved": null,
+            "copy": "sources/63d8981646d139eb-Lohnsteuer2026.xml",
+            "copy_sha256": "63d8981646d139eba2f4dd990c13b43c4fb3883b402a5a40cddf253aa7aa96b4",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": true,
+      "notified": [
+        {
+          "date": "2026-10-21T12:05:06Z",
+          "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+          "channel": "email",
+          "role": "publisher of the wage-tax program",
+          "what": "letter and findings sheets to Division IV C 5"
+        },
+        {
+          "date": "2026-10-21T12:20:29Z",
+          "institution": "Finance Committee of the German Bundestag (Finanzausschuss)",
+          "channel": "email",
+          "role": "parliamentary committee on the tax bill for 2027",
+          "what": "suggestion on § 39b EStG"
+        },
+        {
+          "date": "2026-10-21T12:22:16Z",
+          "institution": "Ministry of Finance of North Rhine-Westphalia",
+          "channel": "email",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+          "what": "letter and findings sheets"
+        },
+        {
+          "date": "2026-10-21T12:23:27Z",
+          "institution": "Bavarian State Ministry of Finance and Home Affairs",
+          "channel": "email",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+          "what": "letter and findings sheets"
+        },
+        {
+          "date": "2026-10-21T12:23:57Z",
+          "institution": "Ministry of Finance of Baden-Württemberg",
+          "channel": "email",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+          "what": "letter and findings sheets"
+        },
+        {
+          "date": "2026-10-21T12:24:42Z",
+          "institution": "Hessian Ministry of Finance",
+          "channel": "email",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+          "what": "letter and findings sheets"
+        },
+        {
+          "date": "2026-10-21T12:25:25Z",
+          "institution": "Lower Saxony Ministry of Finance",
+          "channel": "email",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+          "what": "letter and findings sheets"
+        },
+        {
+          "date": "2026-10-21T12:26:09Z",
+          "institution": "Senate Department for Finance, Berlin",
+          "channel": "email",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+          "what": "letter and findings sheets"
+        },
+        {
+          "date": "2026-10-21T12:26:52Z",
+          "institution": "Authority for Finance and Districts, Hamburg",
+          "channel": "email",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+          "what": "letter and findings sheets"
+        },
+        {
+          "date": "2026-10-21T12:27:34Z",
+          "institution": "Ministry of Finance of Schleswig-Holstein",
+          "channel": "email",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+          "what": "letter and findings sheets"
+        },
+        {
+          "date": "2026-10-21T12:28:18Z",
+          "institution": "Ministry of Finance of Mecklenburg-Western Pomerania",
+          "channel": "email",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+          "what": "letter and findings sheets"
+        },
+        {
+          "date": "2026-10-21T12:29:01Z",
+          "institution": "Ministry of Finance of Rhineland-Palatinate",
+          "channel": "email",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+          "what": "letter and findings sheets"
+        },
+        {
+          "date": "2026-10-21T12:29:45Z",
+          "institution": "Senator for Finance, Bremen",
+          "channel": "email",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+          "what": "letter and findings sheets"
+        },
+        {
+          "date": "2026-10-21T12:30:29Z",
+          "institution": "Thuringian Ministry of Finance",
+          "channel": "email",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+          "what": "letter and findings sheets"
+        },
+        {
+          "date": "2026-10-21T12:31:12Z",
+          "institution": "Saxon State Ministry of Finance",
+          "channel": "email",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+          "what": "letter and findings sheets"
+        },
+        {
+          "date": "2026-10-21T12:32:06Z",
+          "institution": "Ministry of Finance of Saxony-Anhalt",
+          "channel": "email",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+          "what": "letter and findings sheets"
+        },
+        {
+          "date": "2026-10-21T12:32:52Z",
+          "institution": "Ministry of Finance of Brandenburg",
+          "channel": "email",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+          "what": "letter and findings sheets"
+        },
+        {
+          "date": "2026-10-21T12:33:38Z",
+          "institution": "Ministry of Finance of Saarland",
+          "channel": "email",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+          "what": "letter and findings sheets"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+          "role": "publisher of the wage-tax program"
+        },
+        {
+          "institution": "Finance Committee of the German Bundestag (Finanzausschuss)",
+          "role": "parliamentary committee on the tax bill for 2027"
+        },
+        {
+          "institution": "Ministry of Finance of North Rhine-Westphalia",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+        },
+        {
+          "institution": "Bavarian State Ministry of Finance and Home Affairs",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+        },
+        {
+          "institution": "Ministry of Finance of Baden-Württemberg",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+        },
+        {
+          "institution": "Hessian Ministry of Finance",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+        },
+        {
+          "institution": "Lower Saxony Ministry of Finance",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+        },
+        {
+          "institution": "Senate Department for Finance, Berlin",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+        },
+        {
+          "institution": "Authority for Finance and Districts, Hamburg",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+        },
+        {
+          "institution": "Ministry of Finance of Schleswig-Holstein",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+        },
+        {
+          "institution": "Ministry of Finance of Mecklenburg-Western Pomerania",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+        },
+        {
+          "institution": "Ministry of Finance of Rhineland-Palatinate",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+        },
+        {
+          "institution": "Senator for Finance, Bremen",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+        },
+        {
+          "institution": "Thuringian Ministry of Finance",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+        },
+        {
+          "institution": "Saxon State Ministry of Finance",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+        },
+        {
+          "institution": "Ministry of Finance of Saxony-Anhalt",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+        },
+        {
+          "institution": "Ministry of Finance of Brandenburg",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+        },
+        {
+          "institution": "Ministry of Finance of Saarland",
+          "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+        }
+      ],
+      "responses": [
+        {
+          "date": "2026-10-30T12:30:03Z",
+          "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+          "kind": "agency_disagrees",
+          "summary": {
+            "en": "The ministry replied that the order of deductions follows § 39b(2) EStG and that the allowance is deducted after the reduced or increased wage; it will review the notes for the 2027 program or later.",
+            "de": "Das Ministerium antwortete, die Reihenfolge des Abzugs richte sich nach § 39b Abs. 2 EStG und der Pauschbetrag werde nach dem verminderten oder erhöhten Arbeitslohn abgezogen; die Hinweise würden für den PAP 2027 oder später geprüft."
+          }
+        }
+      ],
+      "approval": "2026-10-21",
+      "ai_role": {
+        "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [
+        {
+          "date": "2026-10-21",
+          "title": "arxohq/arxo-lohnsteuer-pap",
+          "url": "https://github.com/arxohq/arxo-lohnsteuer-pap"
+        }
+      ],
+      "reproduction": [
+        {
+          "title": "Public evidence repository: test cases, tables and findings sheets",
+          "url": "https://github.com/arxohq/arxo-lohnsteuer-pap",
+          "commit": "a1826baa564696ee04264d4e7167a63d3b3d45ff"
+        }
+      ],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-01T13:46:00+00:00",
+      "history": [
+        {
+          "date": "2026-10-21",
+          "event": "published_elsewhere",
+          "text": "Published: arxohq/arxo-lohnsteuer-pap"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Federal Ministry of Finance (Bundesministerium der Finanzen) (e-mail)"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Finance Committee of the German Bundestag (Finanzausschuss) (e-mail)"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Ministry of Finance of North Rhine-Westphalia (e-mail)"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Bavarian State Ministry of Finance and Home Affairs (e-mail)"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Ministry of Finance of Baden-Württemberg (e-mail)"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Hessian Ministry of Finance (e-mail)"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Lower Saxony Ministry of Finance (e-mail)"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Senate Department for Finance, Berlin (e-mail)"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Authority for Finance and Districts, Hamburg (e-mail)"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Ministry of Finance of Schleswig-Holstein (e-mail)"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Ministry of Finance of Mecklenburg-Western Pomerania (e-mail)"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Ministry of Finance of Rhineland-Palatinate (e-mail)"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Senator for Finance, Bremen (e-mail)"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Thuringian Ministry of Finance (e-mail)"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Saxon State Ministry of Finance (e-mail)"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Ministry of Finance of Saxony-Anhalt (e-mail)"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Ministry of Finance of Brandenburg (e-mail)"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "reported",
+          "text": "Reported to Ministry of Finance of Saarland (e-mail)"
+        },
+        {
+          "date": "2026-10-30",
+          "event": "agency_disagrees",
+          "text": "Different view stated: Federal Ministry of Finance (Bundesministerium der Finanzen)"
+        },
+        {
+          "date": "2026-11-01",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-01",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0620",
+      "url": "https://arxo.io/findings/ARXO-2026-0620/",
+      "record_kind": "discrepancy",
+      "class": "programs",
+      "class_label": "Programs and services",
+      "jurisdiction": "CA",
+      "jurisdiction_detail": "federal",
+      "act": "Payroll Deductions Online Calculator (PDOC), Canada Revenue Agency",
+      "acts": [
+        "T4127 Payroll Deductions Formulas, 122nd edition (Jan 1, 2026) and 123rd edition (Jul 1, 2026)",
+        "Income Tax Act (R.S.C. 1985, c. 1 (5th Supp.)), s. 122.5",
+        "CRA form 5000-S8, tax year 2025"
+      ],
+      "location": "Result for a pay dated 1 January or 1 July, when a new T4127 edition takes effect",
+      "text": {
+        "en": {
+          "title": "PDOC: when a new edition starts, time zones east of Eastern time get the amounts of the previous day",
+          "summary": "PDOC says that the date the employee is paid decides the tax rates and the CPP and EI figures, and that the July 2026 changes apply to a date paid of July 1, 2026 or later. On 23 October 2026 we ran the public calculator many times with the same entries and changed only the time zone of the browser (automated Google Chrome 155). On the day each new edition we tried took effect (1 July 2025, 1 January 2026 and 1 July 2026) the result screen showed the selected date, but in Atlantic (Halifax) and Newfoundland (St. John's) time PDOC used the amounts of the previous day. Labrador time (Goose Bay), tried on 1 July 2026, behaved the same. Toronto and Vancouver time got the new amounts. The days before and after gave the same result in every time zone. Examples, monthly pay of 4,000.00 CAD: British Columbia, 1 July 2026: provincial tax 132.21 CAD instead of 160.43 CAD. Ontario, 1 January 2026, TD1 amounts as PDOC fills them in: PDOC filled in the 2025 amounts (16,129 and 12,747 instead of 16,452 and 12,989) and showed federal tax 314.59 instead of 310.53, provincial tax 171.40 instead of 170.40 and EI 65.60 instead of 65.20. Newfoundland and Labrador, 1 July 2026: PDOC filled in 11,188 instead of 15,000 as the provincial TD1 amount (provincial tax 255.95 instead of 228.31). The PDF of the result made in Halifax time shows a date one day earlier than the screen. The form sends the date as the local midnight of the computer; we cannot see the server, so we do not know the cause. We did not check what employers actually withheld.",
+          "impact": "A payroll operator in these time zones who enters a pay date of 1 January or 1 July sees the amounts of the previous day under the selected date. Example: provincial tax of 132.21 CAD instead of 160.43 CAD for a monthly pay of 4,000.00 CAD in British Columbia on 1 July 2026.",
+          "correction": "One selected date should give one set of rates and amounts, the same pre-filled TD1 amounts and the same date in the PDF, whatever the time zone of the computer."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-01",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The official program or service",
+      "evidence": {
+        "method": "Recorded observations of the service",
+        "quotes": [
+          {
+            "location": "rule",
+            "source": "CRA page: Payroll Deductions Online Calculator (PDOC), date modified 2026-06-12",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": null,
+            "locator": "What's new",
+            "text": "If you enter a “Date the employee is paid” of July 1, 2026 or later, the changes below are effective:",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/payroll-deductions-online-calculator.html",
+            "sha256": "bc91bea394049159beed7d7c65e545a643363ed08ffaf74de41867ed7a54ed1c",
+            "retrieved": "2026-10-21",
+            "copy": "sources/bc91bea394049159-pdoc_landing.html",
+            "copy_sha256": "bc91bea394049159beed7d7c65e545a643363ed08ffaf74de41867ed7a54ed1c",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "bc-rate",
+            "source": "CRA page: Payroll Deductions Online Calculator (PDOC), date modified 2026-06-12",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": null,
+            "locator": "What's new, British Columbia",
+            "text": "PDOC is using a prorated lowest personal tax rate amount of 6.14%",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/payroll-deductions-online-calculator.html",
+            "sha256": "bc91bea394049159beed7d7c65e545a643363ed08ffaf74de41867ed7a54ed1c",
+            "retrieved": "2026-10-21",
+            "copy": "sources/bc91bea394049159-pdoc_landing.html",
+            "copy_sha256": "bc91bea394049159beed7d7c65e545a643363ed08ffaf74de41867ed7a54ed1c",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "jul-edition",
+            "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "123rd edition",
+            "locator": "What's new for July 1, 2026, British Columbia",
+            "text": "a prorated lowest personal income tax rate of 6.14% will apply for the remaining six months commencing with the first payroll in July",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+            "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "retrieved": "2026-10-21",
+            "copy": "sources/87a2c8effb190296-jul.html",
+            "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "jul-formula",
+            "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "123rd edition",
+            "locator": "Chapter 4, Step 5, British Columbia",
+            "text": "British Columbia K1P = 0.0614 × TCP",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+            "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "retrieved": "2026-10-21",
+            "copy": "sources/87a2c8effb190296-jul.html",
+            "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "jan-table",
+            "source": "T4127 Payroll Deductions Formulas, 122nd edition, effective January 1, 2026 (Rev. 26 (26/05))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "122nd edition",
+            "locator": "Chapter 8, Table 8.1, British Columbia (2026): row A complete, row V first two cells; the row continues (…)",
+            "text": "BC | A | 0 | 50,363 | 100,728 | 115,648 | 140,430 | 190,405 | 265,545 | | V | 0.0506 | 0.0770",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jan/t4127-jan-payroll-deductions-formulas-computer-programs.html",
+            "sha256": "7d835d0c152a2fb63b89b4042478baa2b6de7811fdb3aac677f38e3339d8a171",
+            "retrieved": "2026-10-21",
+            "copy": "sources/7d835d0c152a2fb6-jan.html",
+            "copy_sha256": "7d835d0c152a2fb63b89b4042478baa2b6de7811fdb3aac677f38e3339d8a171",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "t4127-nochange",
+            "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "123rd edition",
+            "locator": "What's new for July 1, 2026, Provincial and Territorial Changes",
+            "text": "Please note that there is no change for Alberta, Manitoba, New Brunswick, Northwest Territories, Nova Scotia, Nunavut, Ontario, Saskatchewan, Yukon or Outside Canada.",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+            "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "retrieved": "2026-10-21",
+            "copy": "sources/87a2c8effb190296-jul.html",
+            "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "t4127-nl-bpa",
+            "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "123rd edition",
+            "locator": "What's new for July 1, 2026, Newfoundland and Labrador",
+            "text": "a prorated basic personal amount of $15,000 will apply for the remaining six months commencing with the first payroll in July",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+            "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "retrieved": "2026-10-21",
+            "copy": "sources/87a2c8effb190296-jul.html",
+            "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "t4127-nl-td1",
+            "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "123rd edition",
+            "locator": "What's new for July 1, 2026, Newfoundland and Labrador",
+            "text": "If an employee has submitted a TD1NL prior to July 1, 2026, with the lower basic personal amount, employers do not need a new TD1NL to change it to the prorated amount.",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+            "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "retrieved": "2026-10-21",
+            "copy": "sources/87a2c8effb190296-jul.html",
+            "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "t4127-pei-rate",
+            "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "123rd edition",
+            "locator": "What's new for July 1, 2026, Prince Edward Island",
+            "text": "For income of $200,000 and over, the tax rate is 21.00% (prorated)",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+            "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "retrieved": "2026-10-21",
+            "copy": "sources/87a2c8effb190296-jul.html",
+            "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "t4127-jul-t82-nl",
+            "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "123rd edition",
+            "locator": "Table 8.2 Other rates and amounts effective July 1, 2026, row NL (extract from the cell grid)",
+            "text": "NL | 15,000 | 0.011",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+            "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "retrieved": "2026-10-21",
+            "copy": "sources/87a2c8effb190296-jul.html",
+            "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "t4127-jan-t82-nl",
+            "source": "T4127 Payroll Deductions Formulas, 122nd edition, effective January 1, 2026 (Rev. 26 (26/05))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "122nd edition",
+            "locator": "Table 8.2 Other rates and amounts for 2026, row NL (extract from the cell grid)",
+            "text": "NL | 11,188 | 0.011",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jan/t4127-jan-payroll-deductions-formulas-computer-programs.html",
+            "sha256": "7d835d0c152a2fb63b89b4042478baa2b6de7811fdb3aac677f38e3339d8a171",
+            "retrieved": "2026-10-21",
+            "copy": "sources/7d835d0c152a2fb6-jan.html",
+            "copy_sha256": "7d835d0c152a2fb63b89b4042478baa2b6de7811fdb3aac677f38e3339d8a171",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "t4127-jul-t81-pe",
+            "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "123rd edition",
+            "locator": "Table 8.1 effective July 1, 2026, row PE (extract from the cell grid)",
+            "text": "PE | A | 0 | 33,928 | 65,820 | 106,890 | 142,520 | 200,000 | | | V | 0.0950 | 0.1347 | 0.1660 | 0.1762 | 0.1900 | 0.2100 | | | KP | 0 | 1,347 | 3,407 | 4,497 | 6,464 | 10,464",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+            "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "retrieved": "2026-10-21",
+            "copy": "sources/87a2c8effb190296-jul.html",
+            "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "t4127-jan-t81-pe",
+            "source": "T4127 Payroll Deductions Formulas, 122nd edition, effective January 1, 2026 (Rev. 26 (26/05))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "122nd edition",
+            "locator": "Table 8.1 for 2026, row PE (extract from the cell grid)",
+            "text": "PE | A | 0 | 33,928 | 65,820 | 106,890 | 142,520* | | | | V | 0.0950 | 0.1347 | 0.1660 | 0.1762 | 0.1900 | | | | KP | 0 | 1,347 | 3,407 | 4,497 | 6,464*",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jan/t4127-jan-payroll-deductions-formulas-computer-programs.html",
+            "sha256": "7d835d0c152a2fb63b89b4042478baa2b6de7811fdb3aac677f38e3339d8a171",
+            "retrieved": "2026-10-21",
+            "copy": "sources/7d835d0c152a2fb6-jan.html",
+            "copy_sha256": "7d835d0c152a2fb63b89b4042478baa2b6de7811fdb3aac677f38e3339d8a171",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "t4127-jul-t81-nb",
+            "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "123rd edition",
+            "locator": "Table 8.1 effective July 1, 2026, row NB (extract from the cell grid)",
+            "text": "NB | A | 0 | 52,333 | 104,666 | 193,861 | | | | | V | 0.0940 | 0.1400 | 0.1600 | 0.1950 | | | | | KP | 0 | 2,407 | 4,501 | 11,286",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+            "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "retrieved": "2026-10-21",
+            "copy": "sources/87a2c8effb190296-jul.html",
+            "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "t4127-jan-t81-nb",
+            "source": "T4127 Payroll Deductions Formulas, 122nd edition, effective January 1, 2026 (Rev. 26 (26/05))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "122nd edition",
+            "locator": "Table 8.1 for 2026, row NB (extract from the cell grid)",
+            "text": "NB | A | 0 | 52,333 | 104,666 | 193,861 | | | | | V | 0.0940 | 0.1400 | 0.1600 | 0.1950 | | | | | KP | 0 | 2,407 | 4,501 | 11,286",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jan/t4127-jan-payroll-deductions-formulas-computer-programs.html",
+            "sha256": "7d835d0c152a2fb63b89b4042478baa2b6de7811fdb3aac677f38e3339d8a171",
+            "retrieved": "2026-10-21",
+            "copy": "sources/7d835d0c152a2fb6-jan.html",
+            "copy_sha256": "7d835d0c152a2fb63b89b4042478baa2b6de7811fdb3aac677f38e3339d8a171",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "t4127-jul-t81-ns",
+            "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "123rd edition",
+            "locator": "Table 8.1 effective July 1, 2026, row NS (extract from the cell grid)",
+            "text": "NS | A | 0 | 30,995 | 61,991 | 97,417 | 157,124 | | | | V | 0.0879 | 0.1495 | 0.1667 | 0.1750 | 0.2100 | | | | KP | 0 | 1,909 | 2,976 | 3,784 | 9,283",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+            "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "retrieved": "2026-10-21",
+            "copy": "sources/87a2c8effb190296-jul.html",
+            "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "t4127-jan-t81-ns",
+            "source": "T4127 Payroll Deductions Formulas, 122nd edition, effective January 1, 2026 (Rev. 26 (26/05))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "122nd edition",
+            "locator": "Table 8.1 for 2026, row NS (extract from the cell grid)",
+            "text": "NS | A | 0 | 30,995 | 61,991 | 97,417 | 157,124 | | | | V | 0.0879 | 0.1495 | 0.1667 | 0.1750 | 0.2100 | | | | KP | 0 | 1,909 | 2,976 | 3,784 | 9,283",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jan/t4127-jan-payroll-deductions-formulas-computer-programs.html",
+            "sha256": "7d835d0c152a2fb63b89b4042478baa2b6de7811fdb3aac677f38e3339d8a171",
+            "retrieved": "2026-10-21",
+            "copy": "sources/7d835d0c152a2fb6-jan.html",
+            "copy_sha256": "7d835d0c152a2fb63b89b4042478baa2b6de7811fdb3aac677f38e3339d8a171",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "pdoc-nl-bpa",
+            "source": "CRA page: Payroll Deductions Online Calculator (PDOC), date modified 2026-06-12",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": null,
+            "locator": "What's new, Newfoundland and Labrador",
+            "text": "PDOC is using a prorated BPA amount of $15,000",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/payroll-deductions-online-calculator.html",
+            "sha256": "bc91bea394049159beed7d7c65e545a643363ed08ffaf74de41867ed7a54ed1c",
+            "retrieved": "2026-10-21",
+            "copy": "sources/bc91bea394049159-pdoc_landing.html",
+            "copy_sha256": "bc91bea394049159beed7d7c65e545a643363ed08ffaf74de41867ed7a54ed1c",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "pdoc-pei-rate",
+            "source": "CRA page: Payroll Deductions Online Calculator (PDOC), date modified 2026-06-12",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": null,
+            "locator": "What's new, Prince Edward Island",
+            "text": "PDOC is using a prorated rate of 21% for income above $200,000",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/payroll-deductions-online-calculator.html",
+            "sha256": "bc91bea394049159beed7d7c65e545a643363ed08ffaf74de41867ed7a54ed1c",
+            "retrieved": "2026-10-21",
+            "copy": "sources/bc91bea394049159-pdoc_landing.html",
+            "copy_sha256": "bc91bea394049159beed7d7c65e545a643363ed08ffaf74de41867ed7a54ed1c",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "t4127-nl-tcp",
+            "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "123rd edition",
+            "locator": "Chapter 4 – Option 1, Step 5, Newfoundland and Labrador",
+            "text": "Newfoundland and Labrador K1P = 0.0870 × TCP Where: TCP = The total of personal non‑refundable tax credits amounts reported on Form TD1NL. If Form TD1NL is not filed, TCP is $15,000.",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+            "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "retrieved": "2026-10-21",
+            "copy": "sources/87a2c8effb190296-jul.html",
+            "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "help-salaries-date",
+            "source": "CRA page: How to use PDOC - For salaries (help-calculate-salaries.html, includes \"Result screen information\"), copy of 2026-10-23",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": null,
+            "locator": "How to use PDOC – For salaries, Step 1, Note on \"Date the employee is paid\"",
+            "text": "Note: The employment payment date will determine the employee's income tax rate, as well as CPP/QPP and EI related figures, in order to generate the payroll deduction result. This date will also be included in the file name when you save the result at the end of the calculation.",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/payroll-deductions-online-calculator/help-calculate-salaries.html",
+            "sha256": "a876274ba5b7dd428921b6319aa4d09007e901aba5906ca7324be8098e38d62e",
+            "retrieved": "2026-10-23",
+            "copy": "sources/a876274ba5b7dd42-help_calculate_salaries_how_to_use_and_result.html",
+            "copy_sha256": "a876274ba5b7dd428921b6319aa4d09007e901aba5906ca7324be8098e38d62e",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "help-salaries-pdf-name",
+            "source": "CRA page: How to use PDOC - For salaries (help-calculate-salaries.html, includes \"Result screen information\"), copy of 2026-10-23",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": null,
+            "locator": "How to use PDOC – For salaries, Result screen information, \"View results in PDF\"",
+            "text": "The default name of the file will be: Employee name-(EE or ER)-PDOC-Date paid-YYYY-MM-DD.pdf",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/payroll-deductions-online-calculator/help-calculate-salaries.html",
+            "sha256": "a876274ba5b7dd428921b6319aa4d09007e901aba5906ca7324be8098e38d62e",
+            "retrieved": "2026-10-23",
+            "copy": "sources/a876274ba5b7dd42-help_calculate_salaries_how_to_use_and_result.html",
+            "copy_sha256": "a876274ba5b7dd428921b6319aa4d09007e901aba5906ca7324be8098e38d62e",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "faq-pay-date",
+            "source": "CRA page: PDOC FAQ (help.html), copy of 2026-10-23; section \"Pay date\"",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": null,
+            "locator": "PDOC FAQ, \"Pay date\"",
+            "text": "The payroll deductions result is determined by the pay date, regardless of when the services are performed or when the money was earned.",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/payroll-deductions-online-calculator/help.html",
+            "sha256": "16fdc8a27445434cab5f533e67b1b9c6694879680c9c0a64b6193259850fa0c5",
+            "retrieved": "2026-10-23",
+            "copy": "sources/16fdc8a27445434c-help_faq.html",
+            "copy_sha256": "16fdc8a27445434cab5f533e67b1b9c6694879680c9c0a64b6193259850fa0c5",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "faq-enter-date",
+            "source": "CRA page: PDOC FAQ (help.html), copy of 2026-10-23; section \"Pay date\"",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": null,
+            "locator": "PDOC FAQ, \"Pay date\"",
+            "text": "In PDOC, enter the actual pay date in the mandatory ‘Date the employee is paid' field.",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-businesses/payroll-deductions-online-calculator/help.html",
+            "sha256": "16fdc8a27445434cab5f533e67b1b9c6694879680c9c0a64b6193259850fa0c5",
+            "retrieved": "2026-10-23",
+            "copy": "sources/16fdc8a27445434c-help_faq.html",
+            "copy_sha256": "16fdc8a27445434cab5f533e67b1b9c6694879680c9c0a64b6193259850fa0c5",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "client-local-midnight",
+            "source": "PDOC client script as served on 2026-10-23 (main bundle; date handling read only)",
+            "role": "Official program",
+            "language": "en",
+            "edition": null,
+            "locator": "convertToDate(), lines 56535–56548 of the saved bundle 3f2a18dab8880790.js",
+            "text": "const date = new Date(formYear, formMonth - 1, formDay);",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/beta/",
+            "sha256": "81000faa264261a78f974098c18f5a9d039d9e6e3e802d26ae3a8d02e11f57c8",
+            "retrieved": "2026-10-23",
+            "copy": "sources/81000faa264261a7-3f2a18dab8880790.js",
+            "copy_sha256": "81000faa264261a78f974098c18f5a9d039d9e6e3e802d26ae3a8d02e11f57c8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "client-rates-calendar-date",
+            "source": "PDOC client script as served on 2026-10-23 (main bundle; date handling read only)",
+            "role": "Official program",
+            "language": "en",
+            "edition": null,
+            "locator": "getRates(), line 54152 of the saved bundle",
+            "text": "let formattedDate = this.datePipe.transform(this.requestSubject.getValue().datePaid, \"yyyy-MM-dd\");",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/beta/",
+            "sha256": "81000faa264261a78f974098c18f5a9d039d9e6e3e802d26ae3a8d02e11f57c8",
+            "retrieved": "2026-10-23",
+            "copy": "sources/81000faa264261a7-3f2a18dab8880790.js",
+            "copy_sha256": "81000faa264261a78f974098c18f5a9d039d9e6e3e802d26ae3a8d02e11f57c8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "live",
+            "source": "PDOC reply: BC, monthly 4000.00, date 2026-07-01, America/Halifax",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, BC, America/Halifax, date 2026-07-01: provincialTaxDeduction",
+            "text": "\"provincialTaxDeduction\": 132.21",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "b7d262439474b7ab98e188afba8b1ebdcee78ee9fcb1ea8fafc8a4a677ee7e15",
+            "retrieved": "2026-10-23",
+            "copy": "sources/b7d262439474b7ab-reply.json",
+            "copy_sha256": "b7d262439474b7ab98e188afba8b1ebdcee78ee9fcb1ea8fafc8a4a677ee7e15",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "live-req",
+            "source": "PDOC request: BC, monthly 4000.00, date 2026-07-01, browser time zone America/Halifax",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Request, BC, America/Halifax, date 2026-07-01: datePaid",
+            "text": "\"datePaid\": \"2026-07-01T03:00:00.000Z\"",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "b2b3f8fdd2b3c71cf0b974ea843b72bd13a87f05ee971754173c415a30f5e9be",
+            "retrieved": "2026-10-23",
+            "copy": "sources/b2b3f8fdd2b3c71c-request.json",
+            "copy_sha256": "b2b3f8fdd2b3c71cf0b974ea843b72bd13a87f05ee971754173c415a30f5e9be",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "live-screen",
+            "source": "PDOC result screen text: BC, monthly 4000.00, date 2026-07-01, America/Halifax",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Result screen, BC, America/Halifax: \"Date the employee is paid\"",
+            "text": "2026-07-01 (YYYY-MM-DD)",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/beta/entry/en",
+            "sha256": "5905eddfb878c77fad0a6fa7ad5c00f7794c7ee600b9a3e9d113890befe4e302",
+            "retrieved": "2026-10-23",
+            "copy": "sources/5905eddfb878c77f-result.txt",
+            "copy_sha256": "5905eddfb878c77fad0a6fa7ad5c00f7794c7ee600b9a3e9d113890befe4e302",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "live-remit",
+            "source": "PDOC reply: BC, monthly 4000.00, date 2026-07-01, America/Halifax",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, BC, America/Halifax, date 2026-07-01: remitAmount",
+            "text": "\"remitAmount\": 1040.52",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "b7d262439474b7ab98e188afba8b1ebdcee78ee9fcb1ea8fafc8a4a677ee7e15",
+            "retrieved": "2026-10-23",
+            "copy": "sources/b7d262439474b7ab-reply.json",
+            "copy_sha256": "b7d262439474b7ab98e188afba8b1ebdcee78ee9fcb1ea8fafc8a4a677ee7e15",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "live-eastern",
+            "source": "PDOC reply: BC, monthly 4000.00, date 2026-07-01, America/Toronto",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, BC, America/Toronto, date 2026-07-01: provincialTaxDeduction",
+            "text": "\"provincialTaxDeduction\": 160.43",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "6fe0f4636f6f63dcecf69da7fac51e47c2efc0433f745ccdce1054d90e65c859",
+            "retrieved": "2026-10-23",
+            "copy": "sources/6fe0f4636f6f63dc-reply.json",
+            "copy_sha256": "6fe0f4636f6f63dcecf69da7fac51e47c2efc0433f745ccdce1054d90e65c859",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "live-eastern-req",
+            "source": "PDOC request: BC, monthly 4000.00, date 2026-07-01, America/Toronto",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Request, BC, America/Toronto, date 2026-07-01: datePaid",
+            "text": "\"datePaid\": \"2026-07-01T04:00:00.000Z\"",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "601978e3619db9019ce6a2295ff0b802c96d18a5704406e5da3970442062d173",
+            "retrieved": "2026-10-23",
+            "copy": "sources/601978e3619db901-request.json",
+            "copy_sha256": "601978e3619db9019ce6a2295ff0b802c96d18a5704406e5da3970442062d173",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "live-eastern-remit",
+            "source": "PDOC reply: BC, monthly 4000.00, date 2026-07-01, America/Toronto",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, BC, America/Toronto, date 2026-07-01: remitAmount",
+            "text": "\"remitAmount\": 1068.74",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "6fe0f4636f6f63dcecf69da7fac51e47c2efc0433f745ccdce1054d90e65c859",
+            "retrieved": "2026-10-23",
+            "copy": "sources/6fe0f4636f6f63dc-reply.json",
+            "copy_sha256": "6fe0f4636f6f63dcecf69da7fac51e47c2efc0433f745ccdce1054d90e65c859",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "live-pei-halifax",
+            "source": "PDOC reply: PEI, monthly 20000.00, date 2026-07-01, America/Halifax",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, PEI 20000.00 monthly, America/Halifax, date 2026-07-01: provincialTaxDeduction",
+            "text": "\"provincialTaxDeduction\": 3068.72",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "0c73260a456c7d6cacd1a3012f72e7dad68ac3b15b21adc57a4444dee4e26093",
+            "retrieved": "2026-10-23",
+            "copy": "sources/0c73260a456c7d6c-reply.json",
+            "copy_sha256": "0c73260a456c7d6cacd1a3012f72e7dad68ac3b15b21adc57a4444dee4e26093",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "live-pei-toronto",
+            "source": "PDOC reply: PEI, monthly 20000.00, date 2026-07-01, America/Toronto",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, PEI 20000.00 monthly, America/Toronto, date 2026-07-01: provincialTaxDeduction",
+            "text": "\"provincialTaxDeduction\": 3131.11",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "9372a4279208fcfea0cbacc29649c5b1b82b0c0bc64f937ee8947367c1e638a5",
+            "retrieved": "2026-10-23",
+            "copy": "sources/9372a4279208fcfe-reply.json",
+            "copy_sha256": "9372a4279208fcfea0cbacc29649c5b1b82b0c0bc64f937ee8947367c1e638a5",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "live-pei-june-toronto",
+            "source": "PDOC reply: PEI, monthly 20000.00, date 2026-06-30, America/Toronto",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, PEI 20000.00 monthly, America/Toronto, date 2026-06-30: provincialTaxDeduction (the amount PDOC applies on June 30)",
+            "text": "\"provincialTaxDeduction\": 3068.72",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "41609ad3e3dd5b3b4ef3b7bb52e6f355f6fb32741040b1c5b95fe7c9a850db9d",
+            "retrieved": "2026-10-23",
+            "copy": "sources/41609ad3e3dd5b3b-reply.json",
+            "copy_sha256": "41609ad3e3dd5b3b4ef3b7bb52e6f355f6fb32741040b1c5b95fe7c9a850db9d",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "live-nl-stjohns-prefill",
+            "source": "PDOC TD1 fields before entry: NL, date 2026-07-01, America/St_Johns",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "TD1 step before entry, NL, America/St_Johns, date 2026-07-01: provincial TD1 field (third text field)",
+            "text": "\"11,188.00\"",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/beta/entry/en",
+            "sha256": "9d82d8ffd195761116fe4743207b6b02a59fa3fb3f072965eef156082f47cec7",
+            "retrieved": "2026-10-23",
+            "copy": "sources/9d82d8ffd1957611-prefill.json",
+            "copy_sha256": "9d82d8ffd195761116fe4743207b6b02a59fa3fb3f072965eef156082f47cec7",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "live-nl-stjohns-req",
+            "source": "PDOC request: NL, monthly 4000.00, pre-filled provincial TD1 kept, date 2026-07-01, America/St_Johns",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Request, NL, America/St_Johns, date 2026-07-01: td1ClaimAmountProv (differs from Toronto together with datePaid)",
+            "text": "\"td1ClaimAmountProv\": 11188",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "64ce0f8102a506e8a3ffea51ace6879178eba1d36f15bd2d75ba4ae8acb5fb86",
+            "retrieved": "2026-10-23",
+            "copy": "sources/64ce0f8102a506e8-request.json",
+            "copy_sha256": "64ce0f8102a506e8a3ffea51ace6879178eba1d36f15bd2d75ba4ae8acb5fb86",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "live-nl-stjohns",
+            "source": "PDOC reply: NL, monthly 4000.00, pre-filled provincial TD1 kept, date 2026-07-01, America/St_Johns",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, NL, America/St_Johns, date 2026-07-01: provincialTaxDeduction",
+            "text": "\"provincialTaxDeduction\": 255.95",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "ced338b67f47c88b0927185c4d97ec065580d34572b1af3f8b3980d83d93aba4",
+            "retrieved": "2026-10-23",
+            "copy": "sources/ced338b67f47c88b-reply.json",
+            "copy_sha256": "ced338b67f47c88b0927185c4d97ec065580d34572b1af3f8b3980d83d93aba4",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "live-nl-toronto-prefill",
+            "source": "PDOC TD1 fields before entry: NL, date 2026-07-01, America/Toronto",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "TD1 step before entry, NL, America/Toronto, date 2026-07-01: provincial TD1 field",
+            "text": "\"15,000.00\"",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/beta/entry/en",
+            "sha256": "6ab8f45e0ad0012bc368ec61a41d49cb14b186f5ffad89a9164609aec9080cc9",
+            "retrieved": "2026-10-23",
+            "copy": "sources/6ab8f45e0ad0012b-prefill.json",
+            "copy_sha256": "6ab8f45e0ad0012bc368ec61a41d49cb14b186f5ffad89a9164609aec9080cc9",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "live-nl-toronto",
+            "source": "PDOC reply: NL, monthly 4000.00, pre-filled provincial TD1 kept, date 2026-07-01, America/Toronto",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, NL, America/Toronto, date 2026-07-01: provincialTaxDeduction",
+            "text": "\"provincialTaxDeduction\": 228.31",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "6ec01b6d6bb0579b16b10db6a56600db21855ccb8c72f9eb8579dbba39d9bdd0",
+            "retrieved": "2026-10-23",
+            "copy": "sources/6ec01b6d6bb0579b-reply.json",
+            "copy_sha256": "6ec01b6d6bb0579b16b10db6a56600db21855ccb8c72f9eb8579dbba39d9bdd0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "live-nl-goosebay-prefill",
+            "source": "PDOC TD1 fields before entry: NL, date 2026-07-01, America/Goose_Bay",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "TD1 step before entry, NL, America/Goose_Bay, date 2026-07-01: provincial TD1 field",
+            "text": "\"11,188.00\"",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/beta/entry/en",
+            "sha256": "5a7134dddff52ff016123914308211372825fc130989a776e0f43407a3e706dd",
+            "retrieved": "2026-10-23",
+            "copy": "sources/5a7134dddff52ff0-prefill.json",
+            "copy_sha256": "5a7134dddff52ff016123914308211372825fc130989a776e0f43407a3e706dd",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "live-nl-goosebay",
+            "source": "PDOC reply: NL, monthly 4000.00, pre-filled provincial TD1 kept, date 2026-07-01, America/Goose_Bay",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, NL, America/Goose_Bay, date 2026-07-01: provincialTaxDeduction",
+            "text": "\"provincialTaxDeduction\": 255.95",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "fb14157755509c64e57b0a2cf2e876120e8883b915dd84381d5279c5e34fba14",
+            "retrieved": "2026-10-23",
+            "copy": "sources/fb14157755509c64-reply.json",
+            "copy_sha256": "fb14157755509c64e57b0a2cf2e876120e8883b915dd84381d5279c5e34fba14",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "live-ns-halifax",
+            "source": "PDOC reply: NS, monthly 4000.00, date 2026-07-01, America/Halifax",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, NS, America/Halifax, date 2026-07-01: provincialTaxDeduction (one cent above our calculation on every date and zone; cause not established)",
+            "text": "\"provincialTaxDeduction\": 324.11",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "890f0c6e81d9ec2c914921e26d39271c1e58f7bd3c0c54eb63269c0dce7ddef9",
+            "retrieved": "2026-10-23",
+            "copy": "sources/890f0c6e81d9ec2c-reply.json",
+            "copy_sha256": "890f0c6e81d9ec2c914921e26d39271c1e58f7bd3c0c54eb63269c0dce7ddef9",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "live-nb-moncton",
+            "source": "PDOC reply: NB, monthly 4000.00, date 2026-07-01, America/Moncton",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, NB, America/Moncton, date 2026-07-01: provincialTaxDeduction",
+            "text": "\"provincialTaxDeduction\": 242.1",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "63abc3861b098288cdf6d46a86b854bab80f020fa5ee07fb8c5024c7001021ed",
+            "retrieved": "2026-10-23",
+            "copy": "sources/63abc3861b098288-reply.json",
+            "copy_sha256": "63abc3861b098288cdf6d46a86b854bab80f020fa5ee07fb8c5024c7001021ed",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "yr-on-halifax-prefill",
+            "source": "PDOC TD1 fields before entry: ON, date 2026-01-01, America/Halifax",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "TD1 step before entry, ON, America/Halifax, date 2026-01-01: federal TD1 field (2025 amount)",
+            "text": "\"16,129.00\"",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/beta/entry/en",
+            "sha256": "9199ebe5e1033dce7abcb2d3052b9dc16d89254333edcdc94f185309b351e160",
+            "retrieved": "2026-10-23",
+            "copy": "sources/9199ebe5e1033dce-prefill.json",
+            "copy_sha256": "9199ebe5e1033dce7abcb2d3052b9dc16d89254333edcdc94f185309b351e160",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "yr-on-halifax-prefill-prov",
+            "source": "PDOC TD1 fields before entry: ON, date 2026-01-01, America/Halifax",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "TD1 step before entry, ON, America/Halifax, date 2026-01-01: provincial TD1 field (2025 amount)",
+            "text": "\"12,747.00\"",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/beta/entry/en",
+            "sha256": "9199ebe5e1033dce7abcb2d3052b9dc16d89254333edcdc94f185309b351e160",
+            "retrieved": "2026-10-23",
+            "copy": "sources/9199ebe5e1033dce-prefill.json",
+            "copy_sha256": "9199ebe5e1033dce7abcb2d3052b9dc16d89254333edcdc94f185309b351e160",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "yr-on-halifax-req",
+            "source": "PDOC request: ON, monthly 4000.00, pre-filled TD1, date 2026-01-01, America/Halifax",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Request, ON, America/Halifax, date 2026-01-01: datePaid",
+            "text": "\"datePaid\": \"2026-01-01T04:00:00.000Z\"",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "8c2e873d3af6a18d0916d173f5eed822f239c1a8de3299cf1d809f45fc89a34b",
+            "retrieved": "2026-10-23",
+            "copy": "sources/8c2e873d3af6a18d-request.json",
+            "copy_sha256": "8c2e873d3af6a18d0916d173f5eed822f239c1a8de3299cf1d809f45fc89a34b",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "yr-on-halifax-fed",
+            "source": "PDOC reply: ON, monthly 4000.00, pre-filled TD1, date 2026-01-01, America/Halifax",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, ON, America/Halifax, date 2026-01-01: federalTaxDeduction",
+            "text": "\"federalTaxDeduction\": 314.59",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "726b3152e9813a7e696f671b77916b52f98842bb9fbab90c85d392bb5d0da681",
+            "retrieved": "2026-10-23",
+            "copy": "sources/726b3152e9813a7e-reply.json",
+            "copy_sha256": "726b3152e9813a7e696f671b77916b52f98842bb9fbab90c85d392bb5d0da681",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "yr-on-halifax-prov",
+            "source": "PDOC reply: ON, monthly 4000.00, pre-filled TD1, date 2026-01-01, America/Halifax",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, ON, America/Halifax, date 2026-01-01: provincialTaxDeduction",
+            "text": "\"provincialTaxDeduction\": 171.4",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "726b3152e9813a7e696f671b77916b52f98842bb9fbab90c85d392bb5d0da681",
+            "retrieved": "2026-10-23",
+            "copy": "sources/726b3152e9813a7e-reply.json",
+            "copy_sha256": "726b3152e9813a7e696f671b77916b52f98842bb9fbab90c85d392bb5d0da681",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "yr-on-halifax-ei",
+            "source": "PDOC reply: ON, monthly 4000.00, pre-filled TD1, date 2026-01-01, America/Halifax",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, ON, America/Halifax, date 2026-01-01: employmentInsuranceDeductions",
+            "text": "\"employmentInsuranceDeductions\": 65.6",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "726b3152e9813a7e696f671b77916b52f98842bb9fbab90c85d392bb5d0da681",
+            "retrieved": "2026-10-23",
+            "copy": "sources/726b3152e9813a7e-reply.json",
+            "copy_sha256": "726b3152e9813a7e696f671b77916b52f98842bb9fbab90c85d392bb5d0da681",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "yr-on-toronto-prefill",
+            "source": "PDOC TD1 fields before entry: ON, date 2026-01-01, America/Toronto",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "TD1 step before entry, ON, America/Toronto, date 2026-01-01: federal TD1 field (2026 amount)",
+            "text": "\"16,452.00\"",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/beta/entry/en",
+            "sha256": "1eebf7ce2e08c44d69b5ea95f5e04eb22e155106a789d07c36e283cbef593edb",
+            "retrieved": "2026-10-23",
+            "copy": "sources/1eebf7ce2e08c44d-prefill.json",
+            "copy_sha256": "1eebf7ce2e08c44d69b5ea95f5e04eb22e155106a789d07c36e283cbef593edb",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "yr-on-toronto-fed",
+            "source": "PDOC reply: ON, monthly 4000.00, pre-filled TD1, date 2026-01-01, America/Toronto",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, ON, America/Toronto, date 2026-01-01: federalTaxDeduction",
+            "text": "\"federalTaxDeduction\": 310.53",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "4aefd7ea8ac2609476410a1b309037e2881bc01eb5356f9f1114a884d8626396",
+            "retrieved": "2026-10-23",
+            "copy": "sources/4aefd7ea8ac26094-reply.json",
+            "copy_sha256": "4aefd7ea8ac2609476410a1b309037e2881bc01eb5356f9f1114a884d8626396",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "yr-on-toronto-prov",
+            "source": "PDOC reply: ON, monthly 4000.00, pre-filled TD1, date 2026-01-01, America/Toronto",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, ON, America/Toronto, date 2026-01-01: provincialTaxDeduction",
+            "text": "\"provincialTaxDeduction\": 170.4",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "4aefd7ea8ac2609476410a1b309037e2881bc01eb5356f9f1114a884d8626396",
+            "retrieved": "2026-10-23",
+            "copy": "sources/4aefd7ea8ac26094-reply.json",
+            "copy_sha256": "4aefd7ea8ac2609476410a1b309037e2881bc01eb5356f9f1114a884d8626396",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "yr-on-toronto-ei",
+            "source": "PDOC reply: ON, monthly 4000.00, pre-filled TD1, date 2026-01-01, America/Toronto",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, ON, America/Toronto, date 2026-01-01: employmentInsuranceDeductions",
+            "text": "\"employmentInsuranceDeductions\": 65.2",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "4aefd7ea8ac2609476410a1b309037e2881bc01eb5356f9f1114a884d8626396",
+            "retrieved": "2026-10-23",
+            "copy": "sources/4aefd7ea8ac26094-reply.json",
+            "copy_sha256": "4aefd7ea8ac2609476410a1b309037e2881bc01eb5356f9f1114a884d8626396",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "yr-bc-halifax-prov",
+            "source": "PDOC reply: BC, monthly 4000.00, pre-filled TD1, date 2026-01-01, America/Halifax",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, BC, pre-filled TD1, America/Halifax, date 2026-01-01: provincialTaxDeduction",
+            "text": "\"provincialTaxDeduction\": 133.39",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "f3f54e67cd370d9c823f5b982f24e769083920fda30b9d6f758f978db948563d",
+            "retrieved": "2026-10-23",
+            "copy": "sources/f3f54e67cd370d9c-reply.json",
+            "copy_sha256": "f3f54e67cd370d9c823f5b982f24e769083920fda30b9d6f758f978db948563d",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "yr-bc-toronto-prov",
+            "source": "PDOC reply: BC, monthly 4000.00, pre-filled TD1, date 2026-01-01, America/Toronto",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, BC, pre-filled TD1, America/Toronto, date 2026-01-01: provincialTaxDeduction",
+            "text": "\"provincialTaxDeduction\": 132.21",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "4ef29a0a3a87b534c122056a98e7e26ddd5b0a088df3aae1fde0912a46319a9c",
+            "retrieved": "2026-10-23",
+            "copy": "sources/4ef29a0a3a87b534-reply.json",
+            "copy_sha256": "4ef29a0a3a87b534c122056a98e7e26ddd5b0a088df3aae1fde0912a46319a9c",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "jul25-on-halifax-fed",
+            "source": "PDOC reply: ON, monthly 4000.00, date 2025-07-01, America/Halifax",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, ON, America/Halifax, date 2025-07-01: federalTaxDeduction",
+            "text": "\"federalTaxDeduction\": 337.06",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "349144ab390ab57e6feff6b706788b59a67592bbfe46dfe79d8b97d8cecc89c1",
+            "retrieved": "2026-10-23",
+            "copy": "sources/349144ab390ab57e-reply.json",
+            "copy_sha256": "349144ab390ab57e6feff6b706788b59a67592bbfe46dfe79d8b97d8cecc89c1",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "jul25-on-toronto-fed",
+            "source": "PDOC reply: ON, monthly 4000.00, date 2025-07-01, America/Toronto",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, ON, America/Toronto, date 2025-07-01: federalTaxDeduction",
+            "text": "\"federalTaxDeduction\": 314.59",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "82816803448a5e1705ed9d715200a1e2da401c74042115fff65bc2107be9087b",
+            "retrieved": "2026-10-23",
+            "copy": "sources/82816803448a5e17-reply.json",
+            "copy_sha256": "82816803448a5e1705ed9d715200a1e2da401c74042115fff65bc2107be9087b",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "wk-halifax-prov",
+            "source": "PDOC reply: BC, weekly 923.08, date 2026-07-01, America/Halifax",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, BC weekly, America/Halifax, date 2026-07-01: provincialTaxDeduction",
+            "text": "\"provincialTaxDeduction\": 30.51",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "3e330a7335c9f44e7d284aa6915eaead4b0d44c2d6cd25b54f39570305e9632c",
+            "retrieved": "2026-10-23",
+            "copy": "sources/3e330a7335c9f44e-reply.json",
+            "copy_sha256": "3e330a7335c9f44e7d284aa6915eaead4b0d44c2d6cd25b54f39570305e9632c",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "wk-toronto-prov",
+            "source": "PDOC reply: BC, weekly 923.08, date 2026-07-01, America/Toronto",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "Reply, BC weekly, America/Toronto, date 2026-07-01: provincialTaxDeduction",
+            "text": "\"provincialTaxDeduction\": 37.02",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/calculate",
+            "sha256": "2afc49a144025afd270c354cbd8ed54a544e908be6f781a2142917f5037848a7",
+            "retrieved": "2026-10-23",
+            "copy": "sources/2afc49a144025afd-reply.json",
+            "copy_sha256": "2afc49a144025afd270c354cbd8ed54a544e908be6f781a2142917f5037848a7",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "pdf-halifax-date",
+            "source": "PDF produced by the calculator button \"View results in PDF\": British Columbia, monthly 4000.00 CAD, date entered 2026-07-01, browser time zone America/Halifax (file name and text carry the date 2026-06-30)",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "PDF of the result, BC, America/Halifax, screen date 2026-07-01: date line",
+            "text": "Date the employee is paid:                                           2026-06-30 (YYYY-MM-DD)",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/getpdf",
+            "sha256": "a703684bb232562aad785de468b0ece436e9077f6bb68a2f70e2742a6ca8b26d",
+            "retrieved": "2026-10-23",
+            "copy": "sources/61b7cc31e1de5bd3-result-pdf.txt",
+            "copy_sha256": "61b7cc31e1de5bd32961cac3729f6c9007919268e2f21fa810ec382cff8028c4",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "pdf-halifax-prov",
+            "source": "PDF produced by the calculator button \"View results in PDF\": British Columbia, monthly 4000.00 CAD, date entered 2026-07-01, browser time zone America/Halifax (file name and text carry the date 2026-06-30)",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "PDF of the result, BC, America/Halifax: provincial tax",
+            "text": "Provincial tax deduction                                                      132.21",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/getpdf",
+            "sha256": "a703684bb232562aad785de468b0ece436e9077f6bb68a2f70e2742a6ca8b26d",
+            "retrieved": "2026-10-23",
+            "copy": "sources/61b7cc31e1de5bd3-result-pdf.txt",
+            "copy_sha256": "61b7cc31e1de5bd32961cac3729f6c9007919268e2f21fa810ec382cff8028c4",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "pdf-toronto-date",
+            "source": "PDF produced by \"View results in PDF\": the same entries, browser time zone America/Toronto (date 2026-07-01, provincial tax 160.43)",
+            "role": "Official service",
+            "language": "en",
+            "edition": null,
+            "locator": "PDF of the result, BC, America/Toronto, screen date 2026-07-01: date line",
+            "text": "Date the employee is paid:                                           2026-07-01 (YYYY-MM-DD)",
+            "translations": {},
+            "url": "https://apps.cra-arc.gc.ca/ebci/rhpd/rest/api/ext/priv/calculator/SALARY/getpdf",
+            "sha256": "bfbaac84c8e94e419f11f47395eddb5ce186a2e75aa4e574cfc0d000c495bc2f",
+            "retrieved": "2026-10-23",
+            "copy": "sources/cf0a2d6d5114b6dc-result-pdf.txt",
+            "copy_sha256": "cf0a2d6d5114b6dc862afe2dd3ebdf8e35713983ca8730e2e57925fa815f072a",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          }
+        ]
+      },
+      "impact_shown": true,
+      "notified": [
+        {
+          "date": "2026-10-23T20:46:46Z",
+          "institution": "Canada Revenue Agency",
+          "channel": "web_form",
+          "role": "operator of PDOC",
+          "what": "short message through the feedback form of the PDOC page (300 characters, no attachments, no reply), with the address of the public data"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Canada Revenue Agency",
+          "role": "operator of PDOC"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-23",
+      "ai_role": {
+        "en": "AI agents ran the public calculator, built the independent calculation of T4127 and compared the replies; they also drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [
+        {
+          "date": "2026-10-23",
+          "title": "Public evidence repository: PDOC runs, replies and PDFs",
+          "url": "https://github.com/arxohq/arxo-ca-pdoc-date-shift"
+        }
+      ],
+      "reproduction": [
+        {
+          "title": "Runs, replies and comparison",
+          "url": "https://github.com/arxohq/arxo-ca-pdoc-date-shift",
+          "commit": "9540aa411d843da21ce938ecfc5a0949127f6d5e"
+        }
+      ],
+      "sources": [],
+      "related": [
+        {
+          "id": "ARXO-2026-0622",
+          "relation": "see_also"
+        }
+      ],
+      "first_published": "2026-11-01T13:46:00+00:00",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-23",
+          "event": "published_elsewhere",
+          "text": "Published: Public evidence repository: PDOC runs, replies and PDFs"
+        },
+        {
+          "date": "2026-10-23",
+          "event": "reported",
+          "text": "Reported to Canada Revenue Agency (web form)"
+        },
+        {
+          "date": "2026-11-01",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0621",
+      "url": "https://arxo.io/findings/ARXO-2026-0621/",
+      "record_kind": "discrepancy",
+      "class": "publication",
+      "class_label": "Publication and consolidation",
+      "jurisdiction": "CA",
+      "jurisdiction_detail": "federal",
+      "act": "Schedule 8 (Form 5000-S8), tax year 2025, accessible e-text",
+      "acts": [
+        "T4127 Payroll Deductions Formulas, 122nd edition (Jan 1, 2026) and 123rd edition (Jul 1, 2026)",
+        "Income Tax Act (R.S.C. 1985, c. 1 (5th Supp.)), s. 122.5",
+        "CRA form 5000-S8, tax year 2025"
+      ],
+      "location": "Part 5, line 75; page 1; page 6",
+      "text": {
+        "en": {
+          "title": "Schedule 8 (2025) e-text: line 75 has no percent sign",
+          "summary": "In the accessible e-text of Schedule 8 for 2025, Part 5, line 75 says \"multiply by 83.1933 =\". The PDF of the same form, the read-aloud text of the PDF and line 9 of the e-text all have \"83.1933%\". Read as printed, line 75 would be 100 times too large. It cancels out by line 88, so the final amounts do not change. In the same e-text, page 1 says \"Page 1 of 10\" (the other pages say \"of 11\"), and the opening instruction on page 6 is labelled \"Line 36\", where the PDF has line 37.",
+          "impact": "No final amount changes. A reader who works through the e-text by hand or with a screen reader gets different intermediate lines: with an amount of 100.00, line 75 is 8,319.33 in the e-text and 83.19 in the PDF.",
+          "correction": "Line 75: \"multiplied by 83.1933% =\", as on line 9. Page 1: \"Page 1 of 11\". Page 6: \"Line 37\"."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-01",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The official publication",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "etext-75",
+            "source": "CRA Schedule 8 (T1-2025), 5000-S8 accessible e-text",
+            "role": "Official publication",
+            "language": "en",
+            "edition": null,
+            "locator": "Part 5, line 75",
+            "text": "Line 75: amount from line 72 or line 73 Line A ^ multiply by 83.1933 = ^",
+            "translations": {},
+            "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-25e.txt",
+            "sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+            "retrieved": "2026-10-21",
+            "copy": "sources/db859d06606fd7a1-schedule8-2025-raw-last.txt",
+            "copy_sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "pdf-75",
+            "source": "CRA Schedule 8 (T1-2025), 5000-S8 E (25), fillable PDF",
+            "role": "Official publication",
+            "language": "en",
+            "edition": null,
+            "locator": "Part 5, line 75 (page 10)",
+            "text": "A × 83.1933% = 75",
+            "translations": {},
+            "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-fill-25e.pdf",
+            "sha256": "32827b2773fce2d4caab493809e2874949c5d5d2c800b7a7b2b2177c91534656",
+            "retrieved": "2026-10-21",
+            "copy": "sources/f80ffe53af63114f-schedule8-2025-mirror.txt",
+            "copy_sha256": "f80ffe53af63114f13cc726e6faacf3b417c54f7d20698a36733abdc4ec11253",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "etext-9",
+            "source": "CRA Schedule 8 (T1-2025), 5000-S8 accessible e-text",
+            "role": "Official publication",
+            "language": "en",
+            "edition": null,
+            "locator": "Part 3, line 9",
+            "text": "Line 9: amount from line 8 ^ multiplied by 83.1933% = ^",
+            "translations": {},
+            "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-25e.txt",
+            "sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+            "retrieved": "2026-10-21",
+            "copy": "sources/db859d06606fd7a1-schedule8-2025-raw-last.txt",
+            "copy_sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "pdf-xfa-75",
+            "source": "CRA Schedule 8 (T1-2025), 5000-S8 E (25), fillable PDF",
+            "role": "Official publication",
+            "language": "en",
+            "edition": null,
+            "locator": "Page10.Part5_Cont.Line75, read-aloud text",
+            "text": "Part 5. Line 75. Amount A multiplied by 83.1933%.",
+            "translations": {},
+            "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-fill-25e.pdf",
+            "sha256": "32827b2773fce2d4caab493809e2874949c5d5d2c800b7a7b2b2177c91534656",
+            "retrieved": "2026-10-21",
+            "copy": "sources/62c26e40bba2c0f6-pdf-xfa-template.xml",
+            "copy_sha256": "62c26e40bba2c0f65174b65ddfefd5f58f0f3794f3e149c8f5ccb253fd51bb5d",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "etext-page1",
+            "source": "CRA Schedule 8 (T1-2025), 5000-S8 accessible e-text",
+            "role": "Official publication",
+            "language": "en",
+            "edition": null,
+            "locator": "header of page 1",
+            "text": "5000-S8 (Page 1 of 10)",
+            "translations": {},
+            "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-25e.txt",
+            "sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+            "retrieved": "2026-10-21",
+            "copy": "sources/db859d06606fd7a1-schedule8-2025-raw-last.txt",
+            "copy_sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "etext-page2",
+            "source": "CRA Schedule 8 (T1-2025), 5000-S8 accessible e-text",
+            "role": "Official publication",
+            "language": "en",
+            "edition": null,
+            "locator": "header of page 2 (pages 2 to 11 say \"of 11\")",
+            "text": "5000-S8 (Page 2 of 11)",
+            "translations": {},
+            "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-25e.txt",
+            "sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+            "retrieved": "2026-10-21",
+            "copy": "sources/db859d06606fd7a1-schedule8-2025-raw-last.txt",
+            "copy_sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "pdf-page1",
+            "source": "CRA Schedule 8 (T1-2025), 5000-S8 E (25), fillable PDF",
+            "role": "Official publication",
+            "language": "en",
+            "edition": null,
+            "locator": "footer of page 1",
+            "text": "Page 1 of 11",
+            "translations": {},
+            "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-fill-25e.pdf",
+            "sha256": "32827b2773fce2d4caab493809e2874949c5d5d2c800b7a7b2b2177c91534656",
+            "retrieved": "2026-10-21",
+            "copy": "sources/f80ffe53af63114f-schedule8-2025-mirror.txt",
+            "copy_sha256": "f80ffe53af63114f13cc726e6faacf3b417c54f7d20698a36733abdc4ec11253",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "etext-36",
+            "source": "CRA Schedule 8 (T1-2025), 5000-S8 accessible e-text",
+            "role": "Official publication",
+            "language": "en",
+            "edition": null,
+            "locator": "Part 3, page 6, first instruction",
+            "text": "Line 36: If line 19 is positive or \"0\", enter the amount from line 18 at line",
+            "translations": {},
+            "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-25e.txt",
+            "sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+            "retrieved": "2026-10-21",
+            "copy": "sources/db859d06606fd7a1-schedule8-2025-raw-last.txt",
+            "copy_sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "etext-36-first",
+            "source": "CRA Schedule 8 (T1-2025), 5000-S8 accessible e-text",
+            "role": "Official publication",
+            "language": "en",
+            "edition": null,
+            "locator": "Part 3, page 5, line 36 (the label already used)",
+            "text": "Line 36: Line 34 plus line 35. Enter this amount (in dollars and cents) on",
+            "translations": {},
+            "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-25e.txt",
+            "sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+            "retrieved": "2026-10-21",
+            "copy": "sources/db859d06606fd7a1-schedule8-2025-raw-last.txt",
+            "copy_sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "pdf-37",
+            "source": "CRA Schedule 8 (T1-2025), 5000-S8 E (25), fillable PDF",
+            "role": "Official publication",
+            "language": "en",
+            "edition": null,
+            "locator": "Part 3 (continued), page 6, line 37",
+            "text": "at line 44. If not, enter the amount from line 17 and continue at line 38. 37",
+            "translations": {},
+            "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-fill-25e.pdf",
+            "sha256": "32827b2773fce2d4caab493809e2874949c5d5d2c800b7a7b2b2177c91534656",
+            "retrieved": "2026-10-21",
+            "copy": "sources/f80ffe53af63114f-schedule8-2025-mirror.txt",
+            "copy_sha256": "f80ffe53af63114f13cc726e6faacf3b417c54f7d20698a36733abdc4ec11253",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-23T20:51:20Z",
+          "institution": "Canada Revenue Agency",
+          "channel": "email",
+          "role": "publisher of the form",
+          "what": "e-mail to the alternate formats service of the agency"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Canada Revenue Agency",
+          "role": "publisher of the form"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-23",
+      "ai_role": {
+        "en": "AI agents compared the two official publications and drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-01T13:46:00+00:00",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-23",
+          "event": "reported",
+          "text": "Reported to Canada Revenue Agency (e-mail)"
+        },
+        {
+          "date": "2026-11-01",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0622",
+      "url": "https://arxo.io/findings/ARXO-2026-0622/",
+      "record_kind": "discrepancy",
+      "class": "publication",
+      "class_label": "Publication and consolidation",
+      "jurisdiction": "CA",
+      "jurisdiction_detail": "federal",
+      "act": "T4127 Payroll Deductions Formulas, 123rd edition (effective July 1, 2026)",
+      "acts": [
+        "T4127 Payroll Deductions Formulas, 122nd edition (Jan 1, 2026) and 123rd edition (Jul 1, 2026)",
+        "Income Tax Act (R.S.C. 1985, c. 1 (5th Supp.)), s. 122.5",
+        "CRA form 5000-S8, tax year 2025"
+      ],
+      "location": "Chapter 5 (Option 2), Prince Edward Island",
+      "text": {
+        "en": {
+          "title": "T4127 (123rd edition), Option 2, Prince Edward Island: \"Form TD1NL\" instead of \"Form TD1PE\"",
+          "summary": "In Chapter 5 (Option 2) of the T4127 edition effective July 1, 2026, the Prince Edward Island formula says: \"TCP = The total of personal non-refundable tax credits amounts reported on Form TD1NL. If Form TD1NL is not filed, TCP is $15,000.\" TD1NL is the Newfoundland and Labrador form; the paragraph before it is for Newfoundland and Labrador. The amount $15,000 is the Prince Edward Island basic amount in Table 8.2, so only the form name is wrong.",
+          "impact": "No amount changes. A developer who reads Option 2 for Prince Edward Island is pointed to the form of another province.",
+          "correction": "Form TD1PE (twice) in the Prince Edward Island paragraph of Chapter 5."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-01",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The official publication",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "pe-opt2",
+            "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "123rd edition",
+            "locator": "Chapter 5 – Option 2, Prince Edward Island, K1P",
+            "text": "Prince Edward Island K1P = 0.0950 × TCP Where: TCP = The total of personal non‑refundable tax credits amounts reported on Form TD1NL. If Form TD1NL is not filed, TCP is $15,000.",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+            "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "retrieved": "2026-10-21",
+            "copy": "sources/87a2c8effb190296-jul.html",
+            "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "ch5-heading",
+            "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "123rd edition",
+            "locator": "Chapter 5 heading (the Prince Edward Island formula follows the British Columbia and Newfoundland and Labrador formulas of this chapter)",
+            "text": "Chapter 5 – Option 2 – Tax formulas based on cumulative averaging",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+            "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "retrieved": "2026-10-21",
+            "copy": "sources/87a2c8effb190296-jul.html",
+            "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "nl-opt2",
+            "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "123rd edition",
+            "locator": "Chapter 5 – Option 2, Newfoundland and Labrador, K1P (the paragraph just before)",
+            "text": "Newfoundland and Labrador K1P = 0.0870 × TCP Where: TCP = The total of personal non‑refundable tax credits amounts reported on Form TD1NL. If Form TD1NL is not filed, TCP is $13,094.",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+            "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "retrieved": "2026-10-21",
+            "copy": "sources/87a2c8effb190296-jul.html",
+            "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "bc-own-form",
+            "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "123rd edition",
+            "locator": "Chapter 4 and 5, British Columbia, K1P",
+            "text": "If Form TD1BC is not filed, TCP is $13,216.",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+            "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "retrieved": "2026-10-21",
+            "copy": "sources/87a2c8effb190296-jul.html",
+            "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "glossary-tcp",
+            "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "123rd edition",
+            "locator": "Chapter 3, Table 3.1 Glossary, TCP",
+            "text": "TCP | \"Total claim amount,\" reported on the provincial or territorial Form TD1. If this form is not filed, TCP is the provincial or territorial basic personal amount, refer to Table 8.2.",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+            "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "retrieved": "2026-10-21",
+            "copy": "sources/87a2c8effb190296-jul.html",
+            "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "forms-list",
+            "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "123rd edition",
+            "locator": "Chapter 8, note under Table 8.2",
+            "text": "see the respective form TD1AB, TD1BC, TD1MB, TD1NB, TD1NL, TD1NS, TD1NT, TD1NU, TD1ON, TD1PE, TD1SK, or TD1YT",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+            "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "retrieved": "2026-10-21",
+            "copy": "sources/87a2c8effb190296-jul.html",
+            "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "pe-basic-amount",
+            "source": "T4127 Payroll Deductions Formulas, 123rd edition, effective July 1, 2026 (Rev. 26 (26/06))",
+            "role": "Official guidance",
+            "language": "en",
+            "edition": "123rd edition",
+            "locator": "Table 8.2 Other rates and amounts effective July 1, 2026, row PE (extract from the cell grid)",
+            "text": "| PE | 15,000 |",
+            "translations": {},
+            "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul/t4127-jul-payroll-deductions-formulas.html",
+            "sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "retrieved": "2026-10-21",
+            "copy": "sources/87a2c8effb190296-jul.html",
+            "copy_sha256": "87a2c8effb19029661c120388510fd9f72fdfe8cff7285814ca09c5158289b75",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-23T20:47:40Z",
+          "institution": "Canada Revenue Agency",
+          "channel": "web_form",
+          "role": "publisher of T4127",
+          "what": "short message through the feedback form of the T4127 page"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Canada Revenue Agency",
+          "role": "publisher of T4127"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-10-23",
+      "ai_role": {
+        "en": "AI agents read the official text and drafted this record. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [
+        {
+          "id": "ARXO-2026-0620",
+          "relation": "see_also"
+        }
+      ],
+      "first_published": "2026-11-01T13:46:00+00:00",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-23",
+          "event": "reported",
+          "text": "Reported to Canada Revenue Agency (web form)"
+        },
+        {
+          "date": "2026-11-01",
+          "event": "entered",
+          "text": "Entered in the register"
         }
       ]
     }

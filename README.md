@@ -5,7 +5,7 @@ Verified discrepancies in legal texts, standards, official publications and impl
 Published by Arxo Law. Human-readable register: https://arxo.io/findings/
 
 This directory is generated from Arxo's finding records; it is never edited by hand.
-Build: 2026-10-31T20:30:00+00:00. Records: 377 (293 discrepancies, 84 questions).
+Build: 2026-11-01T13:46:00+00:00. Records: 384 (300 discrepancies, 84 questions).
 
 ## Files
 

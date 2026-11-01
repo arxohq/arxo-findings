@@ -5,9 +5,79 @@
   <link rel="alternate" href="https://arxo.io/findings/"/>
   <link rel="self" href="https://arxo.io/findings/feed.atom"/>
   <id>https://arxo.io/findings/</id>
-  <updated>2026-10-31T20:30:00+00:00</updated>
+  <updated>2026-11-01T13:46:00+00:00</updated>
   <author><name>Arxo Law</name></author>
   <rights>Data: CC BY 4.0, Arxo Law</rights>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0622/</id>
+    <title>ARXO-2026-0622 — T4127 (123rd edition), Option 2, Prince Edward Island: &quot;Form TD1NL&quot; instead of &quot;Form TD1PE&quot;</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0622/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="CA"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In Chapter 5 (Option 2) of the T4127 edition effective July 1, 2026, the Prince Edward Island formula says: &quot;TCP = The total of personal non-refundable tax credits amounts reported on Form TD1NL. If Form TD1NL is not filed, TCP is $15,000.&quot; TD1NL is the Newfoundland and Labrador form; the paragraph before it is for Newfoundland and Labrador. The amount $15,000 is the Prince Edward Island basic amount in Table 8.2, so only the form name is wrong.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0621/</id>
+    <title>ARXO-2026-0621 — Schedule 8 (2025) e-text: line 75 has no percent sign</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0621/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="CA"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the accessible e-text of Schedule 8 for 2025, Part 5, line 75 says &quot;multiply by 83.1933 =&quot;. The PDF of the same form, the read-aloud text of the PDF and line 9 of the e-text all have &quot;83.1933%&quot;. Read as printed, line 75 would be 100 times too large. It cancels out by line 88, so the final amounts do not change. In the same e-text, page 1 says &quot;Page 1 of 10&quot; (the other pages say &quot;of 11&quot;), and the opening instruction on page 6 is labelled &quot;Line 36&quot;, where the PDF has line 37.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0620/</id>
+    <title>ARXO-2026-0620 — PDOC: when a new edition starts, time zones east of Eastern time get the amounts of the previous day</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0620/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="CA"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. PDOC says that the date the employee is paid decides the tax rates and the CPP and EI figures, and that the July 2026 changes apply to a date paid of July 1, 2026 or later. On 23 October 2026 we ran the public calculator many times with the same entries and changed only the time zone of the browser (automated Google Chrome 155). On the day each new edition we tried took effect (1 July 2025, 1 January 2026 and 1 July 2026) the result screen showed the selected date, but in Atlantic (Halifax) and Newfoundland (St. John&#x27;s) time PDOC used the amounts of the previous day. Labrador time (Goose Bay), tried on 1 July 2026, behaved the same. Toronto and Vancouver time got the new amounts. The days before and after gave the same result in every time zone. Examples, monthly pay of 4,000.00 CAD: British Columbia, 1 July 2026: provincial tax 132.21 CAD instead of 160.43 CAD. Ontario, 1 January 2026, TD1 amounts as PDOC fills them in: PDOC filled in the 2025 amounts (16,129 and 12,747 instead of 16,452 and 12,989) and showed federal tax 314.59 instead of 310.53, provincial tax 171.40 instead of 170.40 and EI 65.60 instead of 65.20. Newfoundland and Labrador, 1 July 2026: PDOC filled in 11,188 instead of 15,000 as the provincial TD1 amount (provincial tax 255.95 instead of 228.31). The PDF of the result made in Halifax time shows a date one day earlier than the screen. The form sends the date as the local midnight of the computer; we cannot see the server, so we do not know the cause. We did not check what employers actually withheld.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0602/</id>
+    <title>ARXO-2026-0602 — Wage-tax program 2026 caps the employee lump-sum allowance after deducting the old-age relief and the tax-card allowance; § 9a EStG caps it at income</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0602/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="DE"/>
+    <category term="disagrees" label="Addressee takes a different view"/>
+    <summary>Addressee takes a different view. § 9a sentence 2 EStG allows the employee lump-sum allowance only up to the amount of income. The program caps it at the wage left after the old-age relief amount and any allowance on the tax card have been deducted, so these amounts can be lost. We ran the official XML and a reading of the statutory text on the same inputs. The Federal Ministry of Finance points to the order of deductions in § 39b(2) EStG; that order is not in dispute, and the provision does not state the size of the cap. The program does not declare a deviation under § 39b(6) sentence 2. The text does not expressly say how the cap works in withholding, so this record reports a discrepancy and not a breach of the law.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0598/</id>
+    <title>ARXO-2026-0598 — Wage-tax program 2026, XML: the ALTER1 comment says “at the beginning” of the year; § 24a EStG and the PDF say “before the beginning”</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0598/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="DE"/>
+    <category term="accepted" label="Accepted by the addressee"/>
+    <summary>Accepted by the addressee. The XML comment on input ALTER1 sets the flag if the taxpayer completed the 64th year of life at the beginning of the calendar year. § 24a sentence 3 EStG and the PDF of the same program use “before the beginning”.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0597/</id>
+    <title>ARXO-2026-0597 — Wage-tax program 2026 cites § 19a(1) sentence 4 EStG for non-taxed share benefits; the rule is in sentence 6</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0597/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="DE"/>
+    <category term="accepted" label="Accepted by the addressee"/>
+    <summary>Accepted by the addressee. The XML version cites sentence 4 in four places, including the comment on input MBV, and the PDF cites it in three explanations of output values. Sentence 4 deals with when a benefit counts as received. Sentence 6 deals with non-taxed benefits and the provision for social insurance contributions, and the PDF&#x27;s own input table gives sentence 6 for MBV. The draft program for 2027 of 8 October 2026 still cites sentence 4.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0596/</id>
+    <title>ARXO-2026-0596 — Wage-tax program 2026, XML: the VJAHR input has a misspelled “defaul” attribute</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0596/"/>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <category term="DE"/>
+    <category term="accepted" label="Accepted by the addressee"/>
+    <summary>Accepted by the addressee. In the XML version of the 2026 wage-tax program, the input VJAHR (the year pension payments began) is declared with the attribute “defaul”. The other inputs with a default value use “default”. This is the only occurrence in the file.</summary>
+  </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0475/</id>
     <title>ARXO-2026-0475 — UAX #29 rev. 49, Section 5.1 Table 4: the name of U+1CBF is misprinted</title>
@@ -1252,7 +1322,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0331/</id>
     <title>ARXO-2026-0331 — raltegravir: wording question in 2.1</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0331/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1262,7 +1332,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0330/</id>
     <title>ARXO-2026-0330 — lorlatinib: Highlights, Dosage and Administration, line &quot;Renal Impairment&quot; and 2.6 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0330/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1272,7 +1342,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0329/</id>
     <title>ARXO-2026-0329 — trace elements injection (zinc): Table 2 and Table 2 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0329/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1282,7 +1352,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0328/</id>
     <title>ARXO-2026-0328 — azacitidine: 2.5 and 2.5 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0328/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1292,7 +1362,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0327/</id>
     <title>ARXO-2026-0327 — potassium phosphates injection: 2.2 has no instruction for a patient the label covers</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0327/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1302,7 +1372,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0326/</id>
     <title>ARXO-2026-0326 — amino acids injection (PROSOL): Table 2 and Table 2 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0326/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1312,7 +1382,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0325/</id>
     <title>ARXO-2026-0325 — emtricitabine: 2.4 and 2.5 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0325/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1322,7 +1392,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0324/</id>
     <title>ARXO-2026-0324 — dronedarone: 7.3 and 7.3 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0324/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1332,7 +1402,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0323/</id>
     <title>ARXO-2026-0323 — pralsetinib: Highlights, Warnings and Precautions has no instruction for a patient the label covers</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0323/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1342,7 +1412,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0322/</id>
     <title>ARXO-2026-0322 — heparin sodium injection: Highlights, Contraindications has no instruction for a patient the label covers</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0322/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1352,7 +1422,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0321/</id>
     <title>ARXO-2026-0321 — PEG 3350 and electrolytes for oral solution: 7.2 and 2.1 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0321/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1362,7 +1432,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0320/</id>
     <title>ARXO-2026-0320 — acamprosate calcium: 2.1 and 4.2 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0320/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1372,7 +1442,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0319/</id>
     <title>ARXO-2026-0319 — oxycodone hydrochloride: Highlights, Drug Interactions has no instruction for a patient the label covers</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0319/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1382,7 +1452,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0318/</id>
     <title>ARXO-2026-0318 — pantoprazole sodium for injection: 2.1 and 12.3 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0318/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1392,7 +1462,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0317/</id>
     <title>ARXO-2026-0317 — lipid injectable emulsion (soybean and olive oils): 2.4, Table 1 and 2.4, Table 1 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0317/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1402,7 +1472,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0316/</id>
     <title>ARXO-2026-0316 — dolutegravir: Highlights and 1 has no instruction for a patient the label covers</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0316/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1412,7 +1482,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0315/</id>
     <title>ARXO-2026-0315 — raltegravir: Table 2 and Table 2 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0315/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1422,7 +1492,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0314/</id>
     <title>ARXO-2026-0314 — bendamustine: Highlights, Use in Specific Populations and 8.7 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0314/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1432,7 +1502,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0313/</id>
     <title>ARXO-2026-0313 — cabozantinib: 2.4 and 2.5 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0313/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1442,7 +1512,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0312/</id>
     <title>ARXO-2026-0312 — glycopyrrolate oral solution: Table 1, 18 to 22 kg, Dose Level 2 has no instruction for a patient the label covers</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0312/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1452,7 +1522,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0311/</id>
     <title>ARXO-2026-0311 — amino acids with electrolytes in dextrose (5/20 formulation): Table 1 and Table 2 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0311/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1462,7 +1532,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0310/</id>
     <title>ARXO-2026-0310 — imipenem and cilastatin: 2.2, Table 2 and 2.2, Table 2 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0310/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1472,7 +1542,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0309/</id>
     <title>ARXO-2026-0309 — remifentanil: 2.7 and Table 2 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0309/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1482,7 +1552,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0308/</id>
     <title>ARXO-2026-0308 — idarubicin: 2.2 and 5.4 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0308/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1492,7 +1562,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0307/</id>
     <title>ARXO-2026-0307 — idarubicin: 2.4, Table 2 and 5.8 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0307/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1502,7 +1572,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0306/</id>
     <title>ARXO-2026-0306 — pregabalin: 2.5, Table 2 and 2.5, Table 2 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0306/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1512,7 +1582,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0305/</id>
     <title>ARXO-2026-0305 — amoxicillin: 2.2 and 8.4 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0305/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1522,7 +1592,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0304/</id>
     <title>ARXO-2026-0304 — amoxicillin: 2.5 and Table 2 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0304/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1532,7 +1602,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0303/</id>
     <title>ARXO-2026-0303 — amoxicillin: Highlights, Dosage and Administration and 2.5 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0303/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1542,7 +1612,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0302/</id>
     <title>ARXO-2026-0302 — dabrafenib: 5.3 and Table 5 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0302/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -1552,7 +1622,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0301/</id>
     <title>ARXO-2026-0301 — meloxicam tablets: Highlights, Dosage and Administration and 2.4 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0301/"/>
-    <published>2026-10-31T00:00:00Z</published>
+    <published>2026-11-01T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>

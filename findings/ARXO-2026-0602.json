@@ -1,0 +1,452 @@
+{
+  "id": "ARXO-2026-0602",
+  "url": "https://arxo.io/findings/ARXO-2026-0602/",
+  "record_kind": "discrepancy",
+  "class": "programs",
+  "class_label": "Programs and services",
+  "jurisdiction": "DE",
+  "jurisdiction_detail": "federal",
+  "act": "Programmablaufplan for wage-tax withholding 2026 (§ 39b(6) EStG) and Income Tax Act (EStG)",
+  "acts": [
+    "EStG (Stand 20.10.2026)",
+    "PAP 2026, Anlage 1, Stand 12.11.2025 (endgültig)",
+    "PAP 2027, Anlage 1, Entwurf 8.10.2026"
+  ],
+  "location": "Wage-tax program 2026, method MZTABFB; § 9a sentence 2 EStG",
+  "text": {
+    "en": {
+      "title": "Wage-tax program 2026 caps the employee lump-sum allowance after deducting the old-age relief and the tax-card allowance; § 9a EStG caps it at income",
+      "summary": "§ 9a sentence 2 EStG allows the employee lump-sum allowance only up to the amount of income. The program caps it at the wage left after the old-age relief amount and any allowance on the tax card have been deducted, so these amounts can be lost. We ran the official XML and a reading of the statutory text on the same inputs. The Federal Ministry of Finance points to the order of deductions in § 39b(2) EStG; that order is not in dispute, and the provision does not state the size of the cap. The program does not declare a deviation under § 39b(6) sentence 2. The text does not expressly say how the cap works in withholding, so this record reports a discrepancy and not a breach of the law.",
+      "impact": "Example: a company pension of 20,000 euros plus 1,000 euros of active wages from the same employer, tax class I, age 64: 506 euros of wage tax under the program and 475 euros under the reading of the text. An approximate income tax assessment with the same contribution allowance also gives 475 euros. With an allowance of 1,140 euros for a disability, the calculated difference is 184 euros. The difference can be recovered through an assessment, which is not mandatory for everyone. With an add-back amount on the tax card the difference runs the other way, by 47 to 48 euros in our cases.",
+      "correction": "Cap the allowance at wages excluding pension payments, before these deductions, or declare the step as a deviation under § 39b(6) sentence 2 with its grounds, or clarify § 9a sentence 2 for withholding.",
+      "quote_translations": {
+        "norm": "the lump sums under sentence 1 number 1 letter a and number 3 may be deducted only up to the amount of the income."
+      }
+    },
+    "de": {
+      "title": "PAP 2026 begrenzt den Arbeitnehmer-Pauschbetrag nach Abzug von Altersentlastungsbetrag und Freibetrag; § 9a EStG begrenzt ihn auf die Einnahmen",
+      "summary": "§ 9a Satz 2 EStG lässt den Arbeitnehmer-Pauschbetrag nur bis zur Höhe der Einnahmen zu. Der PAP begrenzt ihn auf den Arbeitslohn nach Abzug von Altersentlastungsbetrag und Freibetrag, sodass diese Beträge verloren gehen können. Das amtliche XML und eine Lesart des Wortlauts wurden mit denselben Eingaben ausgeführt. Das BMF verweist auf die Reihenfolge des Abzugs nach § 39b Abs. 2 EStG; diese Reihenfolge ist nicht streitig, und die Vorschrift nennt die Höhe der Grenze nicht. Der PAP weist keine Abweichung nach § 39b Abs. 6 Satz 2 aus. Wie die Grenze im Lohnsteuerabzug wirkt, sagt der Wortlaut nicht ausdrücklich; dieser Eintrag beschreibt daher eine Abweichung und keinen Gesetzesverstoß.",
+      "impact": "Beispiel: Werkspension 20 000 € und aktiver Arbeitslohn 1 000 € beim selben Arbeitgeber, Steuerklasse I, 64 Jahre: Lohnsteuer 506 € nach PAP, 475 € nach der Lesart des Wortlauts. Eine überschlägige Veranlagung mit derselben Vorsorgepauschale ergibt ebenfalls 475 €. Mit einem Freibetrag von 1 140 € wegen Behinderung beträgt der berechnete Unterschied 184 €. Der Unterschied lässt sich in der Veranlagung ausgleichen, die nicht für alle verpflichtend ist. Bei einem Hinzurechnungsbetrag verläuft er in unseren Fällen umgekehrt, um 47 bis 48 €.",
+      "correction": "Begrenzung auf den Arbeitslohn ohne Versorgungsbezüge vor diesen Abzügen, oder Ausweis als Abweichung nach § 39b Abs. 6 Satz 2 mit Begründung, oder Klarstellung von § 9a Satz 2 für den Lohnsteuerabzug."
+    }
+  },
+  "status": {
+    "badge": "disagrees",
+    "label": {
+      "en": "Addressee takes a different view",
+      "ru": "Позиция адресата иная"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "disagrees",
+    "last_checked": "2026-11-01",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official program or service",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "norm",
+        "source": "Einkommensteuergesetz (EStG), gesetze-im-internet.de, Stand 20.10.2026",
+        "role": "Normative text",
+        "language": "de",
+        "edition": null,
+        "locator": "§ 9a Satz 2 EStG",
+        "text": "die Pauschbeträge nach Satz 1 Nummer 1 Buchstabe a und Nummer 3 dürfen nur bis zur Höhe der Einnahmen abgezogen werden.",
+        "translations": {
+          "en": "the lump sums under sentence 1 number 1 letter a and number 3 may be deducted only up to the amount of the income."
+        },
+        "url": "https://www.gesetze-im-internet.de/estg/xml.zip",
+        "sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+        "retrieved": "2026-10-20",
+        "copy": "sources/fbf218f8623287aa-estg-2026-10-20.de.txt",
+        "copy_sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "pap",
+        "source": "Programmablaufplan Lohnsteuer 2026, XML (BMF)",
+        "role": "Official program",
+        "language": "de",
+        "edition": null,
+        "locator": "PAP 2026, METHOD MZTABFB",
+        "text": "<IF expr=\"ZRE4.subtract(ZVBEZ).compareTo(BigDecimal.valueOf(1230)) == -1\">",
+        "translations": {},
+        "url": "https://www.bmf-steuerrechner.de/javax.faces.resource/daten/xmls/Lohnsteuer2026.xml.xhtml",
+        "sha256": "63d8981646d139eba2f4dd990c13b43c4fb3883b402a5a40cddf253aa7aa96b4",
+        "retrieved": null,
+        "copy": "sources/63d8981646d139eb-Lohnsteuer2026.xml",
+        "copy_sha256": "63d8981646d139eba2f4dd990c13b43c4fb3883b402a5a40cddf253aa7aa96b4",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "pap-eval",
+        "source": "Programmablaufplan Lohnsteuer 2026, XML (BMF)",
+        "role": "Official program",
+        "language": "de",
+        "edition": null,
+        "locator": "PAP 2026, MZTABFB, assignment",
+        "text": "<EVAL exec=\"ANP = ANP.add(ZRE4).subtract(ZVBEZ).setScale(0,BigDecimal.ROUND_UP)\"/>",
+        "translations": {},
+        "url": "https://www.bmf-steuerrechner.de/javax.faces.resource/daten/xmls/Lohnsteuer2026.xml.xhtml",
+        "sha256": "63d8981646d139eba2f4dd990c13b43c4fb3883b402a5a40cddf253aa7aa96b4",
+        "retrieved": null,
+        "copy": "sources/63d8981646d139eb-Lohnsteuer2026.xml",
+        "copy_sha256": "63d8981646d139eba2f4dd990c13b43c4fb3883b402a5a40cddf253aa7aa96b4",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": true,
+  "notified": [
+    {
+      "date": "2026-10-21T12:05:06Z",
+      "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+      "channel": "email",
+      "role": "publisher of the wage-tax program",
+      "what": "letter and findings sheets to Division IV C 5"
+    },
+    {
+      "date": "2026-10-21T12:20:29Z",
+      "institution": "Finance Committee of the German Bundestag (Finanzausschuss)",
+      "channel": "email",
+      "role": "parliamentary committee on the tax bill for 2027",
+      "what": "suggestion on § 39b EStG"
+    },
+    {
+      "date": "2026-10-21T12:22:16Z",
+      "institution": "Ministry of Finance of North Rhine-Westphalia",
+      "channel": "email",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+      "what": "letter and findings sheets"
+    },
+    {
+      "date": "2026-10-21T12:23:27Z",
+      "institution": "Bavarian State Ministry of Finance and Home Affairs",
+      "channel": "email",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+      "what": "letter and findings sheets"
+    },
+    {
+      "date": "2026-10-21T12:23:57Z",
+      "institution": "Ministry of Finance of Baden-Württemberg",
+      "channel": "email",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+      "what": "letter and findings sheets"
+    },
+    {
+      "date": "2026-10-21T12:24:42Z",
+      "institution": "Hessian Ministry of Finance",
+      "channel": "email",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+      "what": "letter and findings sheets"
+    },
+    {
+      "date": "2026-10-21T12:25:25Z",
+      "institution": "Lower Saxony Ministry of Finance",
+      "channel": "email",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+      "what": "letter and findings sheets"
+    },
+    {
+      "date": "2026-10-21T12:26:09Z",
+      "institution": "Senate Department for Finance, Berlin",
+      "channel": "email",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+      "what": "letter and findings sheets"
+    },
+    {
+      "date": "2026-10-21T12:26:52Z",
+      "institution": "Authority for Finance and Districts, Hamburg",
+      "channel": "email",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+      "what": "letter and findings sheets"
+    },
+    {
+      "date": "2026-10-21T12:27:34Z",
+      "institution": "Ministry of Finance of Schleswig-Holstein",
+      "channel": "email",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+      "what": "letter and findings sheets"
+    },
+    {
+      "date": "2026-10-21T12:28:18Z",
+      "institution": "Ministry of Finance of Mecklenburg-Western Pomerania",
+      "channel": "email",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+      "what": "letter and findings sheets"
+    },
+    {
+      "date": "2026-10-21T12:29:01Z",
+      "institution": "Ministry of Finance of Rhineland-Palatinate",
+      "channel": "email",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+      "what": "letter and findings sheets"
+    },
+    {
+      "date": "2026-10-21T12:29:45Z",
+      "institution": "Senator for Finance, Bremen",
+      "channel": "email",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+      "what": "letter and findings sheets"
+    },
+    {
+      "date": "2026-10-21T12:30:29Z",
+      "institution": "Thuringian Ministry of Finance",
+      "channel": "email",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+      "what": "letter and findings sheets"
+    },
+    {
+      "date": "2026-10-21T12:31:12Z",
+      "institution": "Saxon State Ministry of Finance",
+      "channel": "email",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+      "what": "letter and findings sheets"
+    },
+    {
+      "date": "2026-10-21T12:32:06Z",
+      "institution": "Ministry of Finance of Saxony-Anhalt",
+      "channel": "email",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+      "what": "letter and findings sheets"
+    },
+    {
+      "date": "2026-10-21T12:32:52Z",
+      "institution": "Ministry of Finance of Brandenburg",
+      "channel": "email",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+      "what": "letter and findings sheets"
+    },
+    {
+      "date": "2026-10-21T12:33:38Z",
+      "institution": "Ministry of Finance of Saarland",
+      "channel": "email",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)",
+      "what": "letter and findings sheets"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+      "role": "publisher of the wage-tax program"
+    },
+    {
+      "institution": "Finance Committee of the German Bundestag (Finanzausschuss)",
+      "role": "parliamentary committee on the tax bill for 2027"
+    },
+    {
+      "institution": "Ministry of Finance of North Rhine-Westphalia",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+    },
+    {
+      "institution": "Bavarian State Ministry of Finance and Home Affairs",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+    },
+    {
+      "institution": "Ministry of Finance of Baden-Württemberg",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+    },
+    {
+      "institution": "Hessian Ministry of Finance",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+    },
+    {
+      "institution": "Lower Saxony Ministry of Finance",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+    },
+    {
+      "institution": "Senate Department for Finance, Berlin",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+    },
+    {
+      "institution": "Authority for Finance and Districts, Hamburg",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+    },
+    {
+      "institution": "Ministry of Finance of Schleswig-Holstein",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+    },
+    {
+      "institution": "Ministry of Finance of Mecklenburg-Western Pomerania",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+    },
+    {
+      "institution": "Ministry of Finance of Rhineland-Palatinate",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+    },
+    {
+      "institution": "Senator for Finance, Bremen",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+    },
+    {
+      "institution": "Thuringian Ministry of Finance",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+    },
+    {
+      "institution": "Saxon State Ministry of Finance",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+    },
+    {
+      "institution": "Ministry of Finance of Saxony-Anhalt",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+    },
+    {
+      "institution": "Ministry of Finance of Brandenburg",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+    },
+    {
+      "institution": "Ministry of Finance of Saarland",
+      "role": "supreme finance authority of a Land; the program is set in agreement with the Länder (§ 39b(6) EStG)"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-10-30T12:30:03Z",
+      "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+      "kind": "agency_disagrees",
+      "summary": {
+        "en": "The ministry replied that the order of deductions follows § 39b(2) EStG and that the allowance is deducted after the reduced or increased wage; it will review the notes for the 2027 program or later.",
+        "de": "Das Ministerium antwortete, die Reihenfolge des Abzugs richte sich nach § 39b Abs. 2 EStG und der Pauschbetrag werde nach dem verminderten oder erhöhten Arbeitslohn abgezogen; die Hinweise würden für den PAP 2027 oder später geprüft."
+      }
+    }
+  ],
+  "approval": "2026-10-21",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo approved the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [
+    {
+      "date": "2026-10-21",
+      "title": "arxohq/arxo-lohnsteuer-pap",
+      "url": "https://github.com/arxohq/arxo-lohnsteuer-pap"
+    }
+  ],
+  "reproduction": [
+    {
+      "title": "Public evidence repository: test cases, tables and findings sheets",
+      "url": "https://github.com/arxohq/arxo-lohnsteuer-pap",
+      "commit": "a1826baa564696ee04264d4e7167a63d3b3d45ff"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-01T13:46:00+00:00",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "event": "published_elsewhere",
+      "text": "Published: arxohq/arxo-lohnsteuer-pap"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Federal Ministry of Finance (Bundesministerium der Finanzen) (e-mail)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Finance Committee of the German Bundestag (Finanzausschuss) (e-mail)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Ministry of Finance of North Rhine-Westphalia (e-mail)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Bavarian State Ministry of Finance and Home Affairs (e-mail)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Ministry of Finance of Baden-Württemberg (e-mail)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Hessian Ministry of Finance (e-mail)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Lower Saxony Ministry of Finance (e-mail)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Senate Department for Finance, Berlin (e-mail)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Authority for Finance and Districts, Hamburg (e-mail)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Ministry of Finance of Schleswig-Holstein (e-mail)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Ministry of Finance of Mecklenburg-Western Pomerania (e-mail)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Ministry of Finance of Rhineland-Palatinate (e-mail)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Senator for Finance, Bremen (e-mail)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Thuringian Ministry of Finance (e-mail)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Saxon State Ministry of Finance (e-mail)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Ministry of Finance of Saxony-Anhalt (e-mail)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Ministry of Finance of Brandenburg (e-mail)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Ministry of Finance of Saarland (e-mail)"
+    },
+    {
+      "date": "2026-10-30",
+      "event": "agency_disagrees",
+      "text": "Different view stated: Federal Ministry of Finance (Bundesministerium der Finanzen)"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

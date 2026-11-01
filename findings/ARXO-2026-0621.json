@@ -1,0 +1,249 @@
+{
+  "id": "ARXO-2026-0621",
+  "url": "https://arxo.io/findings/ARXO-2026-0621/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "CA",
+  "jurisdiction_detail": "federal",
+  "act": "Schedule 8 (Form 5000-S8), tax year 2025, accessible e-text",
+  "acts": [
+    "T4127 Payroll Deductions Formulas, 122nd edition (Jan 1, 2026) and 123rd edition (Jul 1, 2026)",
+    "Income Tax Act (R.S.C. 1985, c. 1 (5th Supp.)), s. 122.5",
+    "CRA form 5000-S8, tax year 2025"
+  ],
+  "location": "Part 5, line 75; page 1; page 6",
+  "text": {
+    "en": {
+      "title": "Schedule 8 (2025) e-text: line 75 has no percent sign",
+      "summary": "In the accessible e-text of Schedule 8 for 2025, Part 5, line 75 says \"multiply by 83.1933 =\". The PDF of the same form, the read-aloud text of the PDF and line 9 of the e-text all have \"83.1933%\". Read as printed, line 75 would be 100 times too large. It cancels out by line 88, so the final amounts do not change. In the same e-text, page 1 says \"Page 1 of 10\" (the other pages say \"of 11\"), and the opening instruction on page 6 is labelled \"Line 36\", where the PDF has line 37.",
+      "impact": "No final amount changes. A reader who works through the e-text by hand or with a screen reader gets different intermediate lines: with an amount of 100.00, line 75 is 8,319.33 in the e-text and 83.19 in the PDF.",
+      "correction": "Line 75: \"multiplied by 83.1933% =\", as on line 9. Page 1: \"Page 1 of 11\". Page 6: \"Line 37\"."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-01",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "etext-75",
+        "source": "CRA Schedule 8 (T1-2025), 5000-S8 accessible e-text",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "Part 5, line 75",
+        "text": "Line 75: amount from line 72 or line 73 Line A ^ multiply by 83.1933 = ^",
+        "translations": {},
+        "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-25e.txt",
+        "sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+        "retrieved": "2026-10-21",
+        "copy": "sources/db859d06606fd7a1-schedule8-2025-raw-last.txt",
+        "copy_sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "pdf-75",
+        "source": "CRA Schedule 8 (T1-2025), 5000-S8 E (25), fillable PDF",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "Part 5, line 75 (page 10)",
+        "text": "A × 83.1933% = 75",
+        "translations": {},
+        "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-fill-25e.pdf",
+        "sha256": "32827b2773fce2d4caab493809e2874949c5d5d2c800b7a7b2b2177c91534656",
+        "retrieved": "2026-10-21",
+        "copy": "sources/f80ffe53af63114f-schedule8-2025-mirror.txt",
+        "copy_sha256": "f80ffe53af63114f13cc726e6faacf3b417c54f7d20698a36733abdc4ec11253",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "etext-9",
+        "source": "CRA Schedule 8 (T1-2025), 5000-S8 accessible e-text",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "Part 3, line 9",
+        "text": "Line 9: amount from line 8 ^ multiplied by 83.1933% = ^",
+        "translations": {},
+        "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-25e.txt",
+        "sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+        "retrieved": "2026-10-21",
+        "copy": "sources/db859d06606fd7a1-schedule8-2025-raw-last.txt",
+        "copy_sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "pdf-xfa-75",
+        "source": "CRA Schedule 8 (T1-2025), 5000-S8 E (25), fillable PDF",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "Page10.Part5_Cont.Line75, read-aloud text",
+        "text": "Part 5. Line 75. Amount A multiplied by 83.1933%.",
+        "translations": {},
+        "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-fill-25e.pdf",
+        "sha256": "32827b2773fce2d4caab493809e2874949c5d5d2c800b7a7b2b2177c91534656",
+        "retrieved": "2026-10-21",
+        "copy": "sources/62c26e40bba2c0f6-pdf-xfa-template.xml",
+        "copy_sha256": "62c26e40bba2c0f65174b65ddfefd5f58f0f3794f3e149c8f5ccb253fd51bb5d",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "etext-page1",
+        "source": "CRA Schedule 8 (T1-2025), 5000-S8 accessible e-text",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "header of page 1",
+        "text": "5000-S8 (Page 1 of 10)",
+        "translations": {},
+        "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-25e.txt",
+        "sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+        "retrieved": "2026-10-21",
+        "copy": "sources/db859d06606fd7a1-schedule8-2025-raw-last.txt",
+        "copy_sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "etext-page2",
+        "source": "CRA Schedule 8 (T1-2025), 5000-S8 accessible e-text",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "header of page 2 (pages 2 to 11 say \"of 11\")",
+        "text": "5000-S8 (Page 2 of 11)",
+        "translations": {},
+        "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-25e.txt",
+        "sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+        "retrieved": "2026-10-21",
+        "copy": "sources/db859d06606fd7a1-schedule8-2025-raw-last.txt",
+        "copy_sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "pdf-page1",
+        "source": "CRA Schedule 8 (T1-2025), 5000-S8 E (25), fillable PDF",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "footer of page 1",
+        "text": "Page 1 of 11",
+        "translations": {},
+        "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-fill-25e.pdf",
+        "sha256": "32827b2773fce2d4caab493809e2874949c5d5d2c800b7a7b2b2177c91534656",
+        "retrieved": "2026-10-21",
+        "copy": "sources/f80ffe53af63114f-schedule8-2025-mirror.txt",
+        "copy_sha256": "f80ffe53af63114f13cc726e6faacf3b417c54f7d20698a36733abdc4ec11253",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "etext-36",
+        "source": "CRA Schedule 8 (T1-2025), 5000-S8 accessible e-text",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "Part 3, page 6, first instruction",
+        "text": "Line 36: If line 19 is positive or \"0\", enter the amount from line 18 at line",
+        "translations": {},
+        "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-25e.txt",
+        "sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+        "retrieved": "2026-10-21",
+        "copy": "sources/db859d06606fd7a1-schedule8-2025-raw-last.txt",
+        "copy_sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "etext-36-first",
+        "source": "CRA Schedule 8 (T1-2025), 5000-S8 accessible e-text",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "Part 3, page 5, line 36 (the label already used)",
+        "text": "Line 36: Line 34 plus line 35. Enter this amount (in dollars and cents) on",
+        "translations": {},
+        "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-25e.txt",
+        "sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+        "retrieved": "2026-10-21",
+        "copy": "sources/db859d06606fd7a1-schedule8-2025-raw-last.txt",
+        "copy_sha256": "db859d06606fd7a13c7c2875ab5299d4780d37d8a28ffe77b9f0650d0ef988d2",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "pdf-37",
+        "source": "CRA Schedule 8 (T1-2025), 5000-S8 E (25), fillable PDF",
+        "role": "Official publication",
+        "language": "en",
+        "edition": null,
+        "locator": "Part 3 (continued), page 6, line 37",
+        "text": "at line 44. If not, enter the amount from line 17 and continue at line 38. 37",
+        "translations": {},
+        "url": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s8/5000-s8-fill-25e.pdf",
+        "sha256": "32827b2773fce2d4caab493809e2874949c5d5d2c800b7a7b2b2177c91534656",
+        "retrieved": "2026-10-21",
+        "copy": "sources/f80ffe53af63114f-schedule8-2025-mirror.txt",
+        "copy_sha256": "f80ffe53af63114f13cc726e6faacf3b417c54f7d20698a36733abdc4ec11253",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-23T20:51:20Z",
+      "institution": "Canada Revenue Agency",
+      "channel": "email",
+      "role": "publisher of the form",
+      "what": "e-mail to the alternate formats service of the agency"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Canada Revenue Agency",
+      "role": "publisher of the form"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-10-23",
+  "ai_role": {
+    "en": "AI agents compared the two official publications and drafted this record. A person at Arxo approved the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-01T13:46:00+00:00",
+  "history": [
+    {
+      "date": "2026-10-23",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "reported",
+      "text": "Reported to Canada Revenue Agency (e-mail)"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}
