@@ -1,0 +1,159 @@
+{
+  "id": "ARXO-2026-0631",
+  "url": "https://arxo.io/findings/ARXO-2026-0631/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "DE",
+  "jurisdiction_detail": "federal",
+  "act": "Draft Programmablaufplan for wage-tax withholding 2027 (§ 39b(6) EStG)",
+  "acts": [
+    "EStG (Stand 20.10.2026)",
+    "PAP 2026, Anlage 1, Stand 12.11.2025 (endgültig)",
+    "PAP 2027, Anlage 1, Entwurf 8.10.2026"
+  ],
+  "location": "Draft 2027, section 1 and program constants",
+  "text": {
+    "en": {
+      "title": "Draft wage-tax program 2027 gives the contribution ceiling as 106,240 euros in the text and 106,200 in the program",
+      "summary": "Section 1 of the draft states the general contribution ceiling for pension and unemployment insurance as 106,240 euros. The program step sets BBGRVALV = 106200.",
+      "impact": "Text and constant contradict each other. The program uses the constant; no incorrect tax has been shown.",
+      "correction": "Bring the text and the constant into line with the applicable social-insurance figure."
+    },
+    "de": {
+      "title": "Entwurf PAP 2027 nennt die Beitragsbemessungsgrenze im Text mit 106.240 €, im Programm mit 106.200 €",
+      "summary": "Abschnitt 1 des Entwurfs nennt für die Renten- und Arbeitslosenversicherung eine allgemeine Beitragsbemessungsgrenze von 106.240 €. Der Programmschritt setzt BBGRVALV = 106200.",
+      "impact": "Text und Konstante widersprechen sich. Das Programm verwendet die Konstante; eine falsche Steuer ist nicht gezeigt.",
+      "correction": "Text und Konstante mit dem maßgebenden Wert des Sozialversicherungsrechts abstimmen."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "received",
+    "last_checked": "2026-11-01",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "text",
+        "source": "Programmablaufplan Lohnsteuer 2027, Entwurf, Stand 8.10.2026",
+        "role": "Official program",
+        "language": "de",
+        "edition": null,
+        "locator": "Entwurf 2027, Abschnitt 1",
+        "text": "Beitragsbemessungsgrenze 106.240 Euro",
+        "translations": {},
+        "url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/Steuern/Steuerarten/Lohnsteuer/Programmablaufplan/2026-10-08-PAP-2027-anlage-1-Entwurf.pdf?__blob=publicationFile&v=3",
+        "sha256": "87c4c8a05410684aa75a72ce02356bce38989d736d7a87f71f51dbfb45f3bb9d",
+        "retrieved": null,
+        "copy": "sources/87c4c8a05410684a-pap-2027-anlage-1-entwurf.txt",
+        "copy_sha256": "87c4c8a05410684aa75a72ce02356bce38989d736d7a87f71f51dbfb45f3bb9d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "code",
+        "source": "Programmablaufplan Lohnsteuer 2027, Entwurf, Stand 8.10.2026",
+        "role": "Official program",
+        "language": "de",
+        "edition": null,
+        "locator": "Entwurf 2027, Programm",
+        "text": "BBGRVALV = 106200",
+        "translations": {},
+        "url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/Steuern/Steuerarten/Lohnsteuer/Programmablaufplan/2026-10-08-PAP-2027-anlage-1-Entwurf.pdf?__blob=publicationFile&v=3",
+        "sha256": "87c4c8a05410684aa75a72ce02356bce38989d736d7a87f71f51dbfb45f3bb9d",
+        "retrieved": null,
+        "copy": "sources/87c4c8a05410684a-pap-2027-anlage-1-entwurf.txt",
+        "copy_sha256": "87c4c8a05410684aa75a72ce02356bce38989d736d7a87f71f51dbfb45f3bb9d",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-21T12:05:00Z",
+      "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+      "channel": "email",
+      "role": "publisher of the wage-tax program",
+      "what": "letter and findings sheets to Division IV C 5, copied to the tax calculator team"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+      "role": "publisher of the wage-tax program"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-10-30T12:30:03Z",
+      "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+      "kind": "received",
+      "summary": {
+        "en": "The ministry replied that it will look at the notes in detail and examine whether changes are indicated for the 2027 program or later. It added that further complication of the program must be avoided.",
+        "de": "Das Ministerium antwortete, es werde die Hinweise im Detail ansehen und prüfen, ob Änderungen für den PAP 2027 oder später angezeigt sind; weitere Komplizierungen des PAP müssten vermieden werden."
+      }
+    }
+  ],
+  "approval": "2026-11-01",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo approved the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [
+    {
+      "date": "2026-10-21",
+      "title": "arxohq/arxo-lohnsteuer-pap",
+      "url": "https://github.com/arxohq/arxo-lohnsteuer-pap"
+    }
+  ],
+  "reproduction": [
+    {
+      "title": "Public evidence repository: test cases, tables and findings sheets",
+      "url": "https://github.com/arxohq/arxo-lohnsteuer-pap",
+      "commit": "2e510d6d7bde0501d1e7a998ae3faa0e912c5654"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-01T17:59:00+00:00",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "event": "published_elsewhere",
+      "text": "Published: arxohq/arxo-lohnsteuer-pap"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Federal Ministry of Finance (Bundesministerium der Finanzen) (e-mail)"
+    },
+    {
+      "date": "2026-10-30",
+      "event": "received",
+      "text": "Receipt confirmed: Federal Ministry of Finance (Bundesministerium der Finanzen)"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

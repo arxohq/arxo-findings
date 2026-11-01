@@ -1,0 +1,159 @@
+{
+  "id": "ARXO-2026-0634",
+  "url": "https://arxo.io/findings/ARXO-2026-0634/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "DE",
+  "jurisdiction_detail": "federal",
+  "act": "Draft Programmablaufplan for wage-tax withholding 2027 (§ 39b(6) EStG)",
+  "acts": [
+    "EStG (Stand 20.10.2026)",
+    "PAP 2026, Anlage 1, Stand 12.11.2025 (endgültig)",
+    "PAP 2027, Anlage 1, Entwurf 8.10.2026"
+  ],
+  "location": "Draft 2027, page 30; XML 2026",
+  "text": {
+    "en": {
+      "title": "Draft wage-tax program 2027 names the subroutine UP5-6; the 2026 XML names it UP5_6",
+      "summary": "The draft has unified the main method as MST5_6, but the subroutine it calls is written UP5-6 in the PDF. In the XML version of the 2026 program it is UP5_6.",
+      "impact": "Editorial. Readers comparing the PDF and the XML see two names for one step.",
+      "correction": "Use one spelling."
+    },
+    "de": {
+      "title": "Entwurf PAP 2027 nennt das Unterprogramm UP5-6, das XML 2026 UP5_6",
+      "summary": "Der Entwurf vereinheitlicht die Methode als MST5_6, schreibt das aufgerufene Unterprogramm im PDF aber UP5-6. In der XML-Fassung 2026 heißt es UP5_6.",
+      "impact": "Redaktionell. Beim Vergleich von PDF und XML erscheinen für einen Schritt zwei Namen.",
+      "correction": "Eine Schreibweise verwenden."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "received",
+    "last_checked": "2026-11-01",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "pdf",
+        "source": "Programmablaufplan Lohnsteuer 2027, Entwurf, Stand 8.10.2026",
+        "role": "Official program",
+        "language": "de",
+        "edition": null,
+        "locator": "Entwurf 2027, S. 30",
+        "text": "UP5-6",
+        "translations": {},
+        "url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/Steuern/Steuerarten/Lohnsteuer/Programmablaufplan/2026-10-08-PAP-2027-anlage-1-Entwurf.pdf?__blob=publicationFile&v=3",
+        "sha256": "87c4c8a05410684aa75a72ce02356bce38989d736d7a87f71f51dbfb45f3bb9d",
+        "retrieved": null,
+        "copy": "sources/87c4c8a05410684a-pap-2027-anlage-1-entwurf.txt",
+        "copy_sha256": "87c4c8a05410684aa75a72ce02356bce38989d736d7a87f71f51dbfb45f3bb9d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "xml",
+        "source": "Programmablaufplan Lohnsteuer 2026, XML (BMF)",
+        "role": "Official program",
+        "language": "de",
+        "edition": null,
+        "locator": "XML 2026",
+        "text": "<METHOD name=\"UP5_6\">",
+        "translations": {},
+        "url": "https://www.bmf-steuerrechner.de/javax.faces.resource/daten/xmls/Lohnsteuer2026.xml.xhtml",
+        "sha256": "63d8981646d139eba2f4dd990c13b43c4fb3883b402a5a40cddf253aa7aa96b4",
+        "retrieved": null,
+        "copy": "sources/63d8981646d139eb-Lohnsteuer2026.xml",
+        "copy_sha256": "63d8981646d139eba2f4dd990c13b43c4fb3883b402a5a40cddf253aa7aa96b4",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-21T12:05:00Z",
+      "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+      "channel": "email",
+      "role": "publisher of the wage-tax program",
+      "what": "letter and findings sheets to Division IV C 5, copied to the tax calculator team"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+      "role": "publisher of the wage-tax program"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-10-30T12:30:03Z",
+      "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+      "kind": "received",
+      "summary": {
+        "en": "The ministry replied that it will look at the notes in detail and examine whether changes are indicated for the 2027 program or later. It added that further complication of the program must be avoided.",
+        "de": "Das Ministerium antwortete, es werde die Hinweise im Detail ansehen und prüfen, ob Änderungen für den PAP 2027 oder später angezeigt sind; weitere Komplizierungen des PAP müssten vermieden werden."
+      }
+    }
+  ],
+  "approval": "2026-11-01",
+  "ai_role": {
+    "en": "AI agents read the official texts, turned the provisions concerned into executable rules and ran the comparison; they also drafted this record. A person at Arxo approved the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [
+    {
+      "date": "2026-10-21",
+      "title": "arxohq/arxo-lohnsteuer-pap",
+      "url": "https://github.com/arxohq/arxo-lohnsteuer-pap"
+    }
+  ],
+  "reproduction": [
+    {
+      "title": "Public evidence repository: test cases, tables and findings sheets",
+      "url": "https://github.com/arxohq/arxo-lohnsteuer-pap",
+      "commit": "2e510d6d7bde0501d1e7a998ae3faa0e912c5654"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-01T17:59:00+00:00",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "event": "published_elsewhere",
+      "text": "Published: arxohq/arxo-lohnsteuer-pap"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "reported",
+      "text": "Reported to Federal Ministry of Finance (Bundesministerium der Finanzen) (e-mail)"
+    },
+    {
+      "date": "2026-10-30",
+      "event": "received",
+      "text": "Receipt confirmed: Federal Ministry of Finance (Bundesministerium der Finanzen)"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

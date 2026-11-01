@@ -1,0 +1,141 @@
+{
+  "id": "ARXO-2026-0638",
+  "url": "https://arxo.io/findings/ARXO-2026-0638/",
+  "record_kind": "discrepancy",
+  "class": "amendments",
+  "class_label": "Amendments",
+  "jurisdiction": "DE",
+  "jurisdiction_detail": "federal",
+  "act": "Income Tax Act (Einkommensteuergesetz, EStG)",
+  "acts": [
+    "EStG (Stand 20.10.2026)"
+  ],
+  "location": "§ 110(2)",
+  "text": {
+    "en": {
+      "title": "§ 110(2) EStG writes “§10d” without a space",
+      "summary": "The same amendment, Federal Law Gazette 2020 I p. 1512, also has the usual “§ 10d”.",
+      "impact": "Editorial. The reference is clear.",
+      "correction": "Write “§ 10d”."
+    },
+    "de": {
+      "title": "§ 110 Abs. 2 EStG schreibt „§10d“ ohne Leerzeichen",
+      "summary": "Dieselbe Änderung, BGBl. 2020 I S. 1512, enthält auch das übliche „§ 10d“.",
+      "impact": "Redaktionell. Die Verweisung ist klar.",
+      "correction": "„§ 10d“ schreiben."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-01",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "ref",
+        "source": "Einkommensteuergesetz (EStG), gesetze-im-internet.de, Stand 20.10.2026",
+        "role": "Normative text",
+        "language": "de",
+        "edition": null,
+        "locator": "§ 110 Abs. 2 EStG",
+        "text": "im Sinne des §10d Absatz 1 Satz 1",
+        "translations": {},
+        "url": "https://www.gesetze-im-internet.de/estg/xml.zip",
+        "sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+        "retrieved": "2026-10-20",
+        "copy": "sources/fbf218f8623287aa-estg-2026-10-20.de.txt",
+        "copy_sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "other",
+        "source": "Einkommensteuergesetz (EStG), gesetze-im-internet.de, Stand 20.10.2026",
+        "role": "Normative text",
+        "language": "de",
+        "edition": null,
+        "locator": "§ 3a Abs. 3 EStG",
+        "text": "des § 10d Absatz 1 Satz 1",
+        "translations": {},
+        "url": "https://www.gesetze-im-internet.de/estg/xml.zip",
+        "sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+        "retrieved": "2026-10-20",
+        "copy": "sources/fbf218f8623287aa-estg-2026-10-20.de.txt",
+        "copy_sha256": "fbf218f8623287aa57f4b6027c9cc63216c337272adab1c5a08861c373ba8b56",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-01T16:27:28Z",
+      "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+      "channel": "email",
+      "role": "prepares tax legislation",
+      "what": "letter to the central office, copied to Division IV C 5"
+    },
+    {
+      "date": "2026-11-01T16:27:29Z",
+      "institution": "Finance Committee of the German Bundestag (Finanzausschuss)",
+      "channel": "email",
+      "role": "committee examining the draft Annual Tax Act 2026",
+      "what": "letter to the committee secretariat, then to eight members individually"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Federal Ministry of Finance (Bundesministerium der Finanzen)",
+      "role": "prepares tax legislation"
+    },
+    {
+      "institution": "Finance Committee of the German Bundestag (Finanzausschuss)",
+      "role": "committee examining the draft Annual Tax Act 2026"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-01",
+  "ai_role": {
+    "en": "AI agents read the statute and the amending acts and drafted this record. A person at Arxo approved the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-01T17:59:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-01",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "reported",
+      "text": "Reported to Federal Ministry of Finance (Bundesministerium der Finanzen) (e-mail)"
+    },
+    {
+      "date": "2026-11-01",
+      "event": "reported",
+      "text": "Reported to Finance Committee of the German Bundestag (Finanzausschuss) (e-mail)"
+    }
+  ]
+}
