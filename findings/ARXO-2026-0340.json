@@ -1,0 +1,143 @@
+{
+  "id": "ARXO-2026-0340",
+  "url": "https://arxo.io/findings/ARXO-2026-0340/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "OAuth Working Group",
+  "issuer": {
+    "name": "Internet Engineering Task Force (IETF)",
+    "short": "IETF",
+    "kind": "standards_body",
+    "url": "https://www.ietf.org/"
+  },
+  "act": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (31 October 2026)",
+  "acts": [
+    "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17",
+    "RFC 9700, Best Current Practice for OAuth 2.0 Security",
+    "RFC 8252, OAuth 2.0 for Native Apps",
+    "OpenID Connect Core 1.0"
+  ],
+  "location": "§4.1.3 against §7.5.1.1",
+  "text": {
+    "en": {
+      "title": "OAuth 2.1 draft: §4.1.3 rejects every token request without a code challenge, so, read literally, the PKCE exemption of §7.5.1.1 has no successful outcome",
+      "summary": "§7.5.1.1 lets a confidential client that uses the OpenID Connect nonce skip the code challenge. The last bullet of §4.1.3 says the authorization server must reject a token request when the authorization request had no code challenge. Read literally, a client that uses the exemption receives a code but its token request must be rejected. RFC 9700 rejects only a token request that contains a code verifier, and the third bullet of §4.1.3 already covers that case. Draft-17 of 31 October 2026 rewords the bullet; the point is the same.",
+      "impact": "Read literally, a confidential OpenID Connect client with nonce and without PKCE gets an authorization code whose token request must be rejected.",
+      "correction": "Delete the last bullet of §4.1.3; the third bullet already covers a code verifier sent without a code challenge."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-02",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (IETF, 31 October 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Internet-Draft",
+        "locator": "§4.1.3 Token Endpoint Extension",
+        "text": "reject the token request if there was no code_challenge in the authorization request associated with the authorization code in the token request.",
+        "translations": {},
+        "url": "https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-17.txt",
+        "sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+        "retrieved": "2026-10-31",
+        "copy": "sources/5762f86fef656f4d-draft-ietf-oauth-v2-1-17.txt",
+        "copy_sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (IETF, 31 October 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Internet-Draft",
+        "locator": "§7.5.1.1 Countermeasures",
+        "text": "using code_challenge and code_verifier is REQUIRED for clients, and authorization servers MUST enforce their use, unless both of the following criteria are met:",
+        "translations": {},
+        "url": "https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-17.txt",
+        "sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+        "retrieved": "2026-10-31",
+        "copy": "sources/5762f86fef656f4d-draft-ietf-oauth-v2-1-17.txt",
+        "copy_sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (IETF, 31 October 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Internet-Draft",
+        "locator": "§4.1.3 Token Endpoint Extension",
+        "text": "verify that the code_verifier parameter is present if and only if a code_challenge parameter was present in the authorization request",
+        "translations": {},
+        "url": "https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-17.txt",
+        "sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+        "retrieved": "2026-10-31",
+        "copy": "sources/5762f86fef656f4d-draft-ietf-oauth-v2-1-17.txt",
+        "copy_sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T15:49:08Z",
+      "institution": "IETF OAuth Working Group",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/oauth-wg/oauth-v2-1/issues/278"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "IETF OAuth Working Group",
+      "role": "develops the draft"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-02",
+  "ai_role": {
+    "en": "AI agents read the specifications section by section and compared them with each other; the case was also run through a small rule model of both rules. An AI coordinator checked the place against the full text, the corrections already reported to the RFC Editor and the issue trackers, and two further AI models checked the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-02T19:07:00+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to IETF OAuth Working Group (public issue tracker)"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

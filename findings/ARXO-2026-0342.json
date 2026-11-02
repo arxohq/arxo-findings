@@ -1,0 +1,143 @@
+{
+  "id": "ARXO-2026-0342",
+  "url": "https://arxo.io/findings/ARXO-2026-0342/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "OAuth Working Group",
+  "issuer": {
+    "name": "Internet Engineering Task Force (IETF)",
+    "short": "IETF",
+    "kind": "standards_body",
+    "url": "https://www.ietf.org/"
+  },
+  "act": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (31 October 2026)",
+  "acts": [
+    "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17",
+    "RFC 9700, Best Current Practice for OAuth 2.0 Security",
+    "RFC 8252, OAuth 2.0 for Native Apps",
+    "OpenID Connect Core 1.0"
+  ],
+  "location": "§1.5 against §8.4.3",
+  "text": {
+    "en": {
+      "title": "OAuth 2.1 draft: §1.5 requires https for all client URLs and leaves out the private-use redirect URIs that §8.4.3 describes",
+      "summary": "§1.5 says all OAuth protocol URLs, including those of the client, must use https, with one exception for loopback redirect URIs. §8.4.3 describes private-use URI scheme redirect URIs of native apps such as com.example.app:/oauth2redirect/example-provider, and §2.3.1 tells the server how to check them. The -05 entry of the document history mentions an exception for a custom URL scheme that the current text lacks.",
+      "impact": "Read literally, a native app that registers a private-use scheme redirect URI, as §8.4.3 describes, breaks the MUST of §1.5.",
+      "correction": "Add private-use URI scheme redirect URIs of native apps to the exception in §1.5, or state the rule as RFC 9700 Section 2.6 does."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-02",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (IETF, 31 October 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Internet-Draft",
+        "locator": "§1.5 Communication Security",
+        "text": "All OAuth protocol URLs (URLs exposed by the AS, RS, and client) MUST use the https scheme except for loopback interface redirect URIs, which MAY use the http scheme.",
+        "translations": {},
+        "url": "https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-17.txt",
+        "sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+        "retrieved": "2026-10-31",
+        "copy": "sources/5762f86fef656f4d-draft-ietf-oauth-v2-1-17.txt",
+        "copy_sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (IETF, 31 October 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Internet-Draft",
+        "locator": "§8.4.3 Private-Use URI Scheme Redirection",
+        "text": "com.example.app:/oauth2redirect/example-provider",
+        "translations": {},
+        "url": "https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-17.txt",
+        "sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+        "retrieved": "2026-10-31",
+        "copy": "sources/5762f86fef656f4d-draft-ietf-oauth-v2-1-17.txt",
+        "copy_sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (IETF, 31 October 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Internet-Draft",
+        "locator": "Appendix, document history, -05",
+        "text": "Require TLS on redirect URIs except for localhost/custom URL scheme",
+        "translations": {},
+        "url": "https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-17.txt",
+        "sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+        "retrieved": "2026-10-31",
+        "copy": "sources/5762f86fef656f4d-draft-ietf-oauth-v2-1-17.txt",
+        "copy_sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T15:49:10Z",
+      "institution": "IETF OAuth Working Group",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/oauth-wg/oauth-v2-1/issues/279"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "IETF OAuth Working Group",
+      "role": "develops the draft"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-02",
+  "ai_role": {
+    "en": "AI agents read the specifications section by section and compared them with each other. An AI coordinator checked the place against the full text, the corrections already reported to the RFC Editor and the issue trackers, and two further AI models checked the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-02T19:07:00+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to IETF OAuth Working Group (public issue tracker)"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

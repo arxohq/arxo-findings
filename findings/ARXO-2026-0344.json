@@ -1,0 +1,127 @@
+{
+  "id": "ARXO-2026-0344",
+  "url": "https://arxo.io/findings/ARXO-2026-0344/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "OAuth Working Group",
+  "issuer": {
+    "name": "Internet Engineering Task Force (IETF)",
+    "short": "IETF",
+    "kind": "standards_body",
+    "url": "https://www.ietf.org/"
+  },
+  "act": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (31 October 2026)",
+  "acts": [
+    "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17",
+    "RFC 9700, Best Current Practice for OAuth 2.0 Security",
+    "RFC 8252, OAuth 2.0 for Native Apps",
+    "OpenID Connect Core 1.0"
+  ],
+  "location": "§6.1.1",
+  "text": {
+    "en": {
+      "title": "OAuth 2.1 draft: §6.1.1 attributes the OAuth Extensions Error Registry to RFC 6750",
+      "summary": "§6.1.1 says RFC 6750 establishes the OAuth Extensions Error Registry and points to Section 11.4 of RFC 6749 in the same sentence. The registry was established by RFC 6749 (Sections 7.2 and 11.4); RFC 6750 only registers values in it, and §11 of the draft says it does not require any IANA actions. Draft-17 corrected the second paragraph of §6.1.1; this sentence remains.",
+      "impact": "An author of an OAuth extension is told that RFC 6750 established the registry where error values are registered.",
+      "correction": "Say that RFC 6749 (Section 11.4) establishes the OAuth Extensions Error Registry."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-02",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (IETF, 31 October 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Internet-Draft",
+        "locator": "§6.1.1 Registered Access Token Types",
+        "text": "[RFC6750] establishes a common registry, the \"OAuth Extensions Error Registry\" (Section 11.4 of [RFC6749])",
+        "translations": {},
+        "url": "https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-17.txt",
+        "sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+        "retrieved": "2026-10-31",
+        "copy": "sources/5762f86fef656f4d-draft-ietf-oauth-v2-1-17.txt",
+        "copy_sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (IETF, 31 October 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Internet-Draft",
+        "locator": "§11 IANA Considerations",
+        "text": "This document does not require any IANA actions.",
+        "translations": {},
+        "url": "https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-17.txt",
+        "sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+        "retrieved": "2026-10-31",
+        "copy": "sources/5762f86fef656f4d-draft-ietf-oauth-v2-1-17.txt",
+        "copy_sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T15:49:12Z",
+      "institution": "IETF OAuth Working Group",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/oauth-wg/oauth-v2-1/issues/281"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "IETF OAuth Working Group",
+      "role": "develops the draft"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-02",
+  "ai_role": {
+    "en": "AI agents read the specifications section by section and compared them with each other. An AI coordinator checked the place against the full text, the corrections already reported to the RFC Editor and the issue trackers, and two further AI models checked the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-02T19:07:00+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to IETF OAuth Working Group (public issue tracker)"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

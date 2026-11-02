@@ -1,0 +1,141 @@
+{
+  "id": "ARXO-2026-0345",
+  "url": "https://arxo.io/findings/ARXO-2026-0345/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": null,
+  "jurisdiction_detail": "OAuth Working Group",
+  "issuer": {
+    "name": "Internet Engineering Task Force (IETF)",
+    "short": "IETF",
+    "kind": "standards_body",
+    "url": "https://www.ietf.org/"
+  },
+  "act": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (31 October 2026)",
+  "acts": [
+    "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17",
+    "RFC 9700, Best Current Practice for OAuth 2.0 Security",
+    "RFC 8252, OAuth 2.0 for Native Apps",
+    "OpenID Connect Core 1.0"
+  ],
+  "location": "§3.2.3 against RFC 9700 Section 4.14.2",
+  "text": {
+    "en": {
+      "title": "OAuth 2.1 draft: is SHOULD in §3.2.3 intended where RFC 9700 Section 4.14.2 says MUST?",
+      "summary": "RFC 9700 Section 4.14.2 requires authorization servers to decide, based on a risk assessment, whether to issue refresh tokens to a client (MUST). §3.2.3 of the draft repeats the sentence with SHOULD, and the -05 entry of the document history says the refresh token guidance was updated to match the security best practice. The text does not say whether the lower level is intended.",
+      "impact": "An authorization server that issues refresh tokens without a risk assessment conforms to the draft and breaks RFC 9700.",
+      "correction": "Use MUST in §3.2.3, or add a note that the lower level is intended."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "received",
+    "last_checked": "2026-11-02",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (IETF, 31 October 2026)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "Internet-Draft",
+        "locator": "§3.2.3 Token Response",
+        "text": "Authorization servers SHOULD determine, based on a risk assessment and their own policies, whether to issue refresh tokens to a certain client.",
+        "translations": {},
+        "url": "https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-17.txt",
+        "sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+        "retrieved": "2026-10-31",
+        "copy": "sources/5762f86fef656f4d-draft-ietf-oauth-v2-1-17.txt",
+        "copy_sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "RFC 9700, Best Current Practice for OAuth 2.0 Security (IETF, January 2025)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "published",
+        "locator": "Section 4.14.2",
+        "text": "Authorization servers MUST determine, based on a risk assessment, whether to issue refresh tokens to a certain client.",
+        "translations": {},
+        "url": "https://www.rfc-editor.org/rfc/rfc9700.txt",
+        "sha256": "9919d061d40a97886ca866b51c69389b6c81c65cd4b979056c14fdbebfcf622a",
+        "retrieved": "2026-10-31",
+        "copy": "sources/9919d061d40a9788-rfc9700.txt",
+        "copy_sha256": "9919d061d40a97886ca866b51c69389b6c81c65cd4b979056c14fdbebfcf622a",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-10-31T15:49:11Z",
+      "institution": "IETF OAuth Working Group",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/oauth-wg/oauth-v2-1/issues/280"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "IETF OAuth Working Group",
+      "role": "develops the draft"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-10-31T16:09:59Z",
+      "institution": "IETF OAuth Working Group",
+      "kind": "received",
+      "summary": {
+        "en": "A contributor to the draft opened a pull request that makes this change; it is not merged."
+      }
+    }
+  ],
+  "approval": "2026-11-02",
+  "ai_role": {
+    "en": "AI agents read the specifications section by section and compared them with each other. An AI coordinator checked the place against the full text, the corrections already reported to the RFC Editor and the issue trackers, and two further AI models checked the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-02T19:07:00+00:00",
+  "history": [
+    {
+      "date": "2026-10-31",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "received",
+      "text": "Receipt confirmed: IETF OAuth Working Group"
+    },
+    {
+      "date": "2026-10-31",
+      "event": "reported",
+      "text": "Reported to IETF OAuth Working Group (public issue tracker)"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

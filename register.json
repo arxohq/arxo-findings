@@ -4,12 +4,12 @@
   "description": "Verified discrepancies in legal texts, standards, official publications and implementations, with evidence and correction histories.",
   "publisher": "Arxo Law",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "as_of": "2026-11-02T16:14:00+00:00",
+  "as_of": "2026-11-02T19:07:00+00:00",
   "base_url": "https://arxo.io/findings/",
   "counts": {
-    "records": 530,
-    "discrepancies": 440,
-    "questions": 90,
+    "records": 535,
+    "discrepancies": 443,
+    "questions": 92,
     "by_jurisdiction": {
       "CA": 3,
       "DE": 21,
@@ -22,13 +22,14 @@
       "BCBS": 45,
       "ETSI": 4,
       "Ethereum": 10,
-      "IETF": 7,
+      "IETF": 11,
+      "OIDF": 1,
       "Unicode": 21,
       "W3C": 8,
       "WHATWG": 6
     },
     "by_status": {
-      "reported": 512,
+      "reported": 517,
       "accepted": 6,
       "disagrees": 2,
       "note_added": 5,
@@ -262,13 +263,19 @@
         "issuer": "IETF",
         "class": "act_text",
         "status": "reported",
-        "records": 4
+        "records": 7
       },
       {
         "issuer": "IETF",
         "class": "question",
         "status": "reported",
-        "records": 3
+        "records": 4
+      },
+      {
+        "issuer": "OIDF",
+        "class": "question",
+        "status": "reported",
+        "records": 1
       },
       {
         "issuer": "Unicode",
@@ -295,11 +302,11 @@
         "records": 6
       }
     ],
-    "institutions_notified": 153,
+    "institutions_notified": 155,
     "corrected_by_official_document": 5,
     "withdrawn_after_publication": {
       "withdrawn": 0,
-      "of_published": 499
+      "of_published": 504
     },
     "rule": "Counts are of findings. One finding is one independently checkable statement about one discrepancy at one place; classes and questions are counted separately and are not added together."
   },
@@ -45420,6 +45427,703 @@
           "date": "2026-10-31",
           "event": "reported",
           "text": "Reported to W3C CSS Working Group (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0340",
+      "url": "https://arxo.io/findings/ARXO-2026-0340/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "OAuth Working Group",
+      "issuer": {
+        "name": "Internet Engineering Task Force (IETF)",
+        "short": "IETF",
+        "kind": "standards_body",
+        "url": "https://www.ietf.org/"
+      },
+      "act": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (31 October 2026)",
+      "acts": [
+        "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17",
+        "RFC 9700, Best Current Practice for OAuth 2.0 Security",
+        "RFC 8252, OAuth 2.0 for Native Apps",
+        "OpenID Connect Core 1.0"
+      ],
+      "location": "§4.1.3 against §7.5.1.1",
+      "text": {
+        "en": {
+          "title": "OAuth 2.1 draft: §4.1.3 rejects every token request without a code challenge, so, read literally, the PKCE exemption of §7.5.1.1 has no successful outcome",
+          "summary": "§7.5.1.1 lets a confidential client that uses the OpenID Connect nonce skip the code challenge. The last bullet of §4.1.3 says the authorization server must reject a token request when the authorization request had no code challenge. Read literally, a client that uses the exemption receives a code but its token request must be rejected. RFC 9700 rejects only a token request that contains a code verifier, and the third bullet of §4.1.3 already covers that case. Draft-17 of 31 October 2026 rewords the bullet; the point is the same.",
+          "impact": "Read literally, a confidential OpenID Connect client with nonce and without PKCE gets an authorization code whose token request must be rejected.",
+          "correction": "Delete the last bullet of §4.1.3; the third bullet already covers a code verifier sent without a code challenge."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (IETF, 31 October 2026)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Internet-Draft",
+            "locator": "§4.1.3 Token Endpoint Extension",
+            "text": "reject the token request if there was no code_challenge in the authorization request associated with the authorization code in the token request.",
+            "translations": {},
+            "url": "https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-17.txt",
+            "sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+            "retrieved": "2026-10-31",
+            "copy": "sources/5762f86fef656f4d-draft-ietf-oauth-v2-1-17.txt",
+            "copy_sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (IETF, 31 October 2026)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Internet-Draft",
+            "locator": "§7.5.1.1 Countermeasures",
+            "text": "using code_challenge and code_verifier is REQUIRED for clients, and authorization servers MUST enforce their use, unless both of the following criteria are met:",
+            "translations": {},
+            "url": "https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-17.txt",
+            "sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+            "retrieved": "2026-10-31",
+            "copy": "sources/5762f86fef656f4d-draft-ietf-oauth-v2-1-17.txt",
+            "copy_sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (IETF, 31 October 2026)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Internet-Draft",
+            "locator": "§4.1.3 Token Endpoint Extension",
+            "text": "verify that the code_verifier parameter is present if and only if a code_challenge parameter was present in the authorization request",
+            "translations": {},
+            "url": "https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-17.txt",
+            "sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+            "retrieved": "2026-10-31",
+            "copy": "sources/5762f86fef656f4d-draft-ietf-oauth-v2-1-17.txt",
+            "copy_sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T15:49:08Z",
+          "institution": "IETF OAuth Working Group",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/oauth-wg/oauth-v2-1/issues/278"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "IETF OAuth Working Group",
+          "role": "develops the draft"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the specifications section by section and compared them with each other; the case was also run through a small rule model of both rules. An AI coordinator checked the place against the full text, the corrections already reported to the RFC Editor and the issue trackers, and two further AI models checked the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T19:07:00+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to IETF OAuth Working Group (public issue tracker)"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0342",
+      "url": "https://arxo.io/findings/ARXO-2026-0342/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "OAuth Working Group",
+      "issuer": {
+        "name": "Internet Engineering Task Force (IETF)",
+        "short": "IETF",
+        "kind": "standards_body",
+        "url": "https://www.ietf.org/"
+      },
+      "act": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (31 October 2026)",
+      "acts": [
+        "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17",
+        "RFC 9700, Best Current Practice for OAuth 2.0 Security",
+        "RFC 8252, OAuth 2.0 for Native Apps",
+        "OpenID Connect Core 1.0"
+      ],
+      "location": "§1.5 against §8.4.3",
+      "text": {
+        "en": {
+          "title": "OAuth 2.1 draft: §1.5 requires https for all client URLs and leaves out the private-use redirect URIs that §8.4.3 describes",
+          "summary": "§1.5 says all OAuth protocol URLs, including those of the client, must use https, with one exception for loopback redirect URIs. §8.4.3 describes private-use URI scheme redirect URIs of native apps such as com.example.app:/oauth2redirect/example-provider, and §2.3.1 tells the server how to check them. The -05 entry of the document history mentions an exception for a custom URL scheme that the current text lacks.",
+          "impact": "Read literally, a native app that registers a private-use scheme redirect URI, as §8.4.3 describes, breaks the MUST of §1.5.",
+          "correction": "Add private-use URI scheme redirect URIs of native apps to the exception in §1.5, or state the rule as RFC 9700 Section 2.6 does."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (IETF, 31 October 2026)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Internet-Draft",
+            "locator": "§1.5 Communication Security",
+            "text": "All OAuth protocol URLs (URLs exposed by the AS, RS, and client) MUST use the https scheme except for loopback interface redirect URIs, which MAY use the http scheme.",
+            "translations": {},
+            "url": "https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-17.txt",
+            "sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+            "retrieved": "2026-10-31",
+            "copy": "sources/5762f86fef656f4d-draft-ietf-oauth-v2-1-17.txt",
+            "copy_sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (IETF, 31 October 2026)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Internet-Draft",
+            "locator": "§8.4.3 Private-Use URI Scheme Redirection",
+            "text": "com.example.app:/oauth2redirect/example-provider",
+            "translations": {},
+            "url": "https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-17.txt",
+            "sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+            "retrieved": "2026-10-31",
+            "copy": "sources/5762f86fef656f4d-draft-ietf-oauth-v2-1-17.txt",
+            "copy_sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (IETF, 31 October 2026)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Internet-Draft",
+            "locator": "Appendix, document history, -05",
+            "text": "Require TLS on redirect URIs except for localhost/custom URL scheme",
+            "translations": {},
+            "url": "https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-17.txt",
+            "sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+            "retrieved": "2026-10-31",
+            "copy": "sources/5762f86fef656f4d-draft-ietf-oauth-v2-1-17.txt",
+            "copy_sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T15:49:10Z",
+          "institution": "IETF OAuth Working Group",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/oauth-wg/oauth-v2-1/issues/279"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "IETF OAuth Working Group",
+          "role": "develops the draft"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the specifications section by section and compared them with each other. An AI coordinator checked the place against the full text, the corrections already reported to the RFC Editor and the issue trackers, and two further AI models checked the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T19:07:00+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to IETF OAuth Working Group (public issue tracker)"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0344",
+      "url": "https://arxo.io/findings/ARXO-2026-0344/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "OAuth Working Group",
+      "issuer": {
+        "name": "Internet Engineering Task Force (IETF)",
+        "short": "IETF",
+        "kind": "standards_body",
+        "url": "https://www.ietf.org/"
+      },
+      "act": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (31 October 2026)",
+      "acts": [
+        "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17",
+        "RFC 9700, Best Current Practice for OAuth 2.0 Security",
+        "RFC 8252, OAuth 2.0 for Native Apps",
+        "OpenID Connect Core 1.0"
+      ],
+      "location": "§6.1.1",
+      "text": {
+        "en": {
+          "title": "OAuth 2.1 draft: §6.1.1 attributes the OAuth Extensions Error Registry to RFC 6750",
+          "summary": "§6.1.1 says RFC 6750 establishes the OAuth Extensions Error Registry and points to Section 11.4 of RFC 6749 in the same sentence. The registry was established by RFC 6749 (Sections 7.2 and 11.4); RFC 6750 only registers values in it, and §11 of the draft says it does not require any IANA actions. Draft-17 corrected the second paragraph of §6.1.1; this sentence remains.",
+          "impact": "An author of an OAuth extension is told that RFC 6750 established the registry where error values are registered.",
+          "correction": "Say that RFC 6749 (Section 11.4) establishes the OAuth Extensions Error Registry."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (IETF, 31 October 2026)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Internet-Draft",
+            "locator": "§6.1.1 Registered Access Token Types",
+            "text": "[RFC6750] establishes a common registry, the \"OAuth Extensions Error Registry\" (Section 11.4 of [RFC6749])",
+            "translations": {},
+            "url": "https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-17.txt",
+            "sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+            "retrieved": "2026-10-31",
+            "copy": "sources/5762f86fef656f4d-draft-ietf-oauth-v2-1-17.txt",
+            "copy_sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (IETF, 31 October 2026)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Internet-Draft",
+            "locator": "§11 IANA Considerations",
+            "text": "This document does not require any IANA actions.",
+            "translations": {},
+            "url": "https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-17.txt",
+            "sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+            "retrieved": "2026-10-31",
+            "copy": "sources/5762f86fef656f4d-draft-ietf-oauth-v2-1-17.txt",
+            "copy_sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T15:49:12Z",
+          "institution": "IETF OAuth Working Group",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/oauth-wg/oauth-v2-1/issues/281"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "IETF OAuth Working Group",
+          "role": "develops the draft"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the specifications section by section and compared them with each other. An AI coordinator checked the place against the full text, the corrections already reported to the RFC Editor and the issue trackers, and two further AI models checked the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T19:07:00+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to IETF OAuth Working Group (public issue tracker)"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0345",
+      "url": "https://arxo.io/findings/ARXO-2026-0345/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": null,
+      "jurisdiction_detail": "OAuth Working Group",
+      "issuer": {
+        "name": "Internet Engineering Task Force (IETF)",
+        "short": "IETF",
+        "kind": "standards_body",
+        "url": "https://www.ietf.org/"
+      },
+      "act": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (31 October 2026)",
+      "acts": [
+        "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17",
+        "RFC 9700, Best Current Practice for OAuth 2.0 Security",
+        "RFC 8252, OAuth 2.0 for Native Apps",
+        "OpenID Connect Core 1.0"
+      ],
+      "location": "§3.2.3 against RFC 9700 Section 4.14.2",
+      "text": {
+        "en": {
+          "title": "OAuth 2.1 draft: is SHOULD in §3.2.3 intended where RFC 9700 Section 4.14.2 says MUST?",
+          "summary": "RFC 9700 Section 4.14.2 requires authorization servers to decide, based on a risk assessment, whether to issue refresh tokens to a client (MUST). §3.2.3 of the draft repeats the sentence with SHOULD, and the -05 entry of the document history says the refresh token guidance was updated to match the security best practice. The text does not say whether the lower level is intended.",
+          "impact": "An authorization server that issues refresh tokens without a risk assessment conforms to the draft and breaks RFC 9700.",
+          "correction": "Use MUST in §3.2.3, or add a note that the lower level is intended."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "received",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17 (IETF, 31 October 2026)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "Internet-Draft",
+            "locator": "§3.2.3 Token Response",
+            "text": "Authorization servers SHOULD determine, based on a risk assessment and their own policies, whether to issue refresh tokens to a certain client.",
+            "translations": {},
+            "url": "https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-17.txt",
+            "sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+            "retrieved": "2026-10-31",
+            "copy": "sources/5762f86fef656f4d-draft-ietf-oauth-v2-1-17.txt",
+            "copy_sha256": "5762f86fef656f4d5afd1d2fbd3bb79cbd25bbcba8c856dc7e0ad4851437b2a7",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "RFC 9700, Best Current Practice for OAuth 2.0 Security (IETF, January 2025)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Section 4.14.2",
+            "text": "Authorization servers MUST determine, based on a risk assessment, whether to issue refresh tokens to a certain client.",
+            "translations": {},
+            "url": "https://www.rfc-editor.org/rfc/rfc9700.txt",
+            "sha256": "9919d061d40a97886ca866b51c69389b6c81c65cd4b979056c14fdbebfcf622a",
+            "retrieved": "2026-10-31",
+            "copy": "sources/9919d061d40a9788-rfc9700.txt",
+            "copy_sha256": "9919d061d40a97886ca866b51c69389b6c81c65cd4b979056c14fdbebfcf622a",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T15:49:11Z",
+          "institution": "IETF OAuth Working Group",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/oauth-wg/oauth-v2-1/issues/280"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "IETF OAuth Working Group",
+          "role": "develops the draft"
+        }
+      ],
+      "responses": [
+        {
+          "date": "2026-10-31T16:09:59Z",
+          "institution": "IETF OAuth Working Group",
+          "kind": "received",
+          "summary": {
+            "en": "A contributor to the draft opened a pull request that makes this change; it is not merged."
+          }
+        }
+      ],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the specifications section by section and compared them with each other. An AI coordinator checked the place against the full text, the corrections already reported to the RFC Editor and the issue trackers, and two further AI models checked the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T19:07:00+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "received",
+          "text": "Receipt confirmed: IETF OAuth Working Group"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to IETF OAuth Working Group (public issue tracker)"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0352",
+      "url": "https://arxo.io/findings/ARXO-2026-0352/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": null,
+      "jurisdiction_detail": "OpenID Connect Working Group",
+      "issuer": {
+        "name": "OpenID Foundation",
+        "short": "OIDF",
+        "kind": "standards_body",
+        "url": "https://openid.net/"
+      },
+      "act": "OpenID Connect Core 1.0 (15 December 2023)",
+      "acts": [
+        "The OAuth 2.1 Authorization Framework, draft-ietf-oauth-v2-1-17",
+        "RFC 9700, Best Current Practice for OAuth 2.0 Security",
+        "RFC 8252, OAuth 2.0 for Native Apps",
+        "OpenID Connect Core 1.0"
+      ],
+      "location": "Section 3.1.2.1 against RFC 8252 Section 7.3",
+      "text": {
+        "en": {
+          "title": "OpenID Connect Core: does the exact redirect URI match of Section 3.1.2.1 give way to the loopback port rule of RFC 8252?",
+          "summary": "Section 3.1.2.1 of OpenID Connect Core 1.0 requires the redirect URI to match a registered value exactly. RFC 8252 Section 7.3, published later, requires accepting any port for loopback IP redirect URIs, and RFC 9700 keeps that as the only exception to exact matching. Section 3.1.2.2 says the provider validates OAuth 2.0 parameters according to the OAuth 2.0 specification, so the port rule may already apply through it; the text does not say which sentence controls.",
+          "impact": "A native app registers http://127.0.0.1/cb and sends http://127.0.0.1:51004/cb: under Section 3.1.2.1 the provider must reject it; under RFC 8252 it must accept it.",
+          "correction": "Add a pointer to Section 3.1.2.1: allow the RFC 8252 port exception for loopback IP redirect URIs and refer to RFC 9700 Section 2.6 for the scheme rule."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "OpenID Connect Core 1.0 (OpenID Foundation, 15 December 2023)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Section 3.1.2.1 Authentication Request",
+            "text": "This URI MUST exactly match one of the Redirection URI values for the Client pre-registered at the OpenID Provider",
+            "translations": {},
+            "url": "https://openid.net/specs/openid-connect-core-1_0.txt",
+            "sha256": "aa28dd92cb104bd5928123fd51a2e0ab1070cc4b7846b82520004b2c1bfbf25e",
+            "retrieved": "2026-10-31",
+            "copy": "sources/aa28dd92cb104bd5-openid-connect-core-1_0.txt",
+            "copy_sha256": "aa28dd92cb104bd5928123fd51a2e0ab1070cc4b7846b82520004b2c1bfbf25e",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "RFC 8252, OAuth 2.0 for Native Apps (IETF, October 2017)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Section 7.3",
+            "text": "The authorization server MUST allow any port to be specified at the time of the request for loopback IP redirect URIs",
+            "translations": {},
+            "url": "https://www.rfc-editor.org/rfc/rfc8252.txt",
+            "sha256": "4233c0650ec7e7918c20e0fde2dc565f85e2aa2d4c18123e3cd834295c2f68d0",
+            "retrieved": "2026-10-31",
+            "copy": "sources/4233c0650ec7e791-rfc8252.txt",
+            "copy_sha256": "4233c0650ec7e7918c20e0fde2dc565f85e2aa2d4c18123e3cd834295c2f68d0",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "OpenID Connect Core 1.0 (OpenID Foundation, 15 December 2023)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "published",
+            "locator": "Section 3.1.2.2 Authentication Request Validation",
+            "text": "parameters according to the OAuth 2.0 specification.",
+            "translations": {},
+            "url": "https://openid.net/specs/openid-connect-core-1_0.txt",
+            "sha256": "aa28dd92cb104bd5928123fd51a2e0ab1070cc4b7846b82520004b2c1bfbf25e",
+            "retrieved": "2026-10-31",
+            "copy": "sources/aa28dd92cb104bd5-openid-connect-core-1_0.txt",
+            "copy_sha256": "aa28dd92cb104bd5928123fd51a2e0ab1070cc4b7846b82520004b2c1bfbf25e",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-10-31T15:49:25Z",
+          "institution": "OpenID Connect Working Group",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/openid/connect/issues/2156"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "OpenID Connect Working Group",
+          "role": "maintains OpenID Connect Core"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the specifications section by section and compared them with each other; the case was also run through a small rule model of both rules. An AI coordinator checked the place against the full text, the corrections already reported to the RFC Editor and the issue trackers, and two further AI models checked the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T19:07:00+00:00",
+      "history": [
+        {
+          "date": "2026-10-31",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-10-31",
+          "event": "reported",
+          "text": "Reported to OpenID Connect Working Group (public issue tracker)"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
         }
       ]
     },
