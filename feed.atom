@@ -5,9 +5,139 @@
   <link rel="alternate" href="https://arxo.io/findings/"/>
   <link rel="self" href="https://arxo.io/findings/feed.atom"/>
   <id>https://arxo.io/findings/</id>
-  <updated>2026-11-02T10:05:00+00:00</updated>
+  <updated>2026-11-02T14:10:00+00:00</updated>
   <author><name>Arxo Law</name></author>
   <rights>Data: CC BY 4.0, Arxo Law</rights>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0659/</id>
+    <title>ARXO-2026-0659 — layered-cookies: cookies are sorted by the number of path segments, not by path length</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0659/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="IETF"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Retrieve Cookies sorts by the size of the path, which is its number of segments. RFC 6265bis-22 sorts by length. The root path and a one-segment path have the same size, so creation time decides between them. An existing web-platform-test expects the longer path first.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0658/</id>
+    <title>ARXO-2026-0658 — layered-cookies and RFC 6265bis: an empty Domain attribute</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0658/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="IETF"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. layered-cookies passes an empty Domain value to the host parser, which fails, and the cookie is rejected. RFC 6265bis-22 treats an empty value as a host-only cookie. Whether this change is meant is a question for the editors.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0657/</id>
+    <title>ARXO-2026-0657 — layered-cookies and RFC 6265bis: a last Path without a leading slash</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0657/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="IETF"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. layered-cookies keeps an earlier valid Path when the last one does not start with a slash. RFC 6265bis-22 uses the default path. Whether this change is meant is a question for the editors.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0656/</id>
+    <title>ARXO-2026-0656 — layered-cookies and RFC 6265bis: a last unknown SameSite value</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0656/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="IETF"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. layered-cookies keeps an earlier SameSite value when the last one is unknown. RFC 6265bis-22, which it says it replaces, resets to the default. The working group has said that handling may vary per attribute, so whether this change is meant is a question for the editors. Existing web-platform-tests follow 6265bis.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0655/</id>
+    <title>ARXO-2026-0655 — layered-cookies: the cap on Expires assigns a number of days to a time</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0655/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="IETF"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The cookie age limit is a number of days. When an Expires date is too far ahead, the step sets the expiry time to that limit and not to the current time plus the limit, as the comparison just before it does.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0654/</id>
+    <title>ARXO-2026-0654 — layered-cookies: the failed date check tests the wrong variable</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0654/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="IETF"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. After parsing the date of an Expires attribute, the step that should skip a failed parse tests the attribute value and not the parse result. A failed date therefore goes on to the later steps as if it were a time.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0653/</id>
+    <title>ARXO-2026-0653 — layered-cookies: Max-Age loses to a later Expires</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0653/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="IETF"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The draft says Max-Age has precedence over Expires. The variable that records a Max-Age is created inside the loop over attributes, so it is false again for every attribute and a later Expires overwrites the value.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0652/</id>
+    <title>ARXO-2026-0652 — Fetch: nothing removes expired cookies unless a Set-Cookie response is processed</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0652/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="WHATWG"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. layered-cookies leaves the removal of expired cookies in browsers to Fetch and other callers, and its retrieval steps have no expiry condition. Fetch calls the garbage collection steps only while processing Set-Cookie. If no such response is processed after a cookie expires, the steps return that cookie. The Fetch review of the integration already mentioned clearing cookies periodically, but the list of remaining pieces does not.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0651/</id>
+    <title>ARXO-2026-0651 — Fetch: the same-site algorithm states that every request is GET or POST</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0651/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="WHATWG"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The first step of the algorithm states as an invariant that the method is GET or POST, but the algorithm also runs for every other method. By the Infra Standard such a false statement is an error of the document with no effect on implementations, and the remaining steps already give the right result for same-origin requests.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0650/</id>
+    <title>ARXO-2026-0650 — Fetch: the response to a top-level navigation cannot set an ordinary cookie</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0650/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="WHATWG"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Set-Cookie processing allows Strict, Lax and unset cookies only when the mode is the highest one. A top-level GET navigation never gets that mode, so by the text its response cannot store these cookies. RFC 6265bis notes that top-level navigations can create a cookie with any SameSite value.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0649/</id>
+    <title>ARXO-2026-0649 — Fetch: cross-site subresources and redirected POST requests get the highest same-site mode</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0649/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="WHATWG"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. No step compares a request with its client. The ancestor check looks at parents only, so a first request from a top-level page on a to b reaches the last step. The redirect check skips a hop when the origin of the request is same site with the URL before it, so a form POST from a to a that redirects to b reaches the last step too.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0648/</id>
+    <title>ARXO-2026-0648 — Fetch: a browser UI navigation counts as cross-site</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0648/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="WHATWG"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. HTML gives a navigation started from the browser UI a new opaque initiator origin and passes it to the request as the top-level navigation initiator origin. An opaque origin is not same site with any other origin, so the step for a cross-site initiator applies to typed addresses as well.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0647/</id>
+    <title>ARXO-2026-0647 — Fetch: the Lax exception for cross-site navigations cannot be reached</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0647/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="WHATWG"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The check for a cross-site navigation initiator runs before the check for a top-level GET document. A cross-site link therefore never reaches the step meant for it, and that step catches same-site navigations instead. By the text, a Lax cookie is not sent on a cross-site link and a Strict cookie is not sent on a same-origin link.</summary>
+  </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0646/</id>
     <title>ARXO-2026-0646 — EIP-7732: the fork onboarding text still excludes keys of existing validators</title>

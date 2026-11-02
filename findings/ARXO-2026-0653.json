@@ -1,0 +1,150 @@
+{
+  "id": "ARXO-2026-0653",
+  "url": "https://arxo.io/findings/ARXO-2026-0653/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "HTTP cookies draft",
+  "issuer": {
+    "name": "IETF HTTP Working Group",
+    "short": "IETF",
+    "kind": "standards_body",
+    "url": "https://httpwg.org/"
+  },
+  "act": "draft-ietf-httpbis-layered-cookies, editor's copy (commit f9f079a)",
+  "acts": [
+    "Fetch Standard",
+    "draft-ietf-httpbis-layered-cookies"
+  ],
+  "location": "layered-cookies, Parse a Cookie, loop over attributes",
+  "text": {
+    "en": {
+      "title": "layered-cookies: Max-Age loses to a later Expires",
+      "summary": "The draft says Max-Age has precedence over Expires. The variable that records a Max-Age is created inside the loop over attributes, so it is false again for every attribute and a later Expires overwrites the value.",
+      "impact": "Max-Age=3600; Expires in the past: by the steps the cookie is not kept; Chromium 156, Firefox 157 and WebKit 27.2 keep it. Max-Age=0; Expires in the future: by the steps it is kept; all three reject it.",
+      "correction": "Create the variable before the loop."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-02",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "draft-ietf-httpbis-layered-cookies (httpwg/http-extensions, commit f9f079a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "main at commit f9f079a",
+        "locator": "layered-cookies, The Max-Age Attribute",
+        "text": "If a cookie has both the Max-Age and the Expires attribute, the Max-Age attribute has precedence",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/httpwg/http-extensions/f9f079af84fe047359daa712e54a6912d2882e12/draft-ietf-httpbis-layered-cookies.md",
+        "sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+        "retrieved": "2026-11-02",
+        "copy": "sources/0344ad3059e2360d-layered-cookies-f9f079a.md",
+        "copy_sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "draft-ietf-httpbis-layered-cookies (httpwg/http-extensions, commit f9f079a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "main at commit f9f079a",
+        "locator": "layered-cookies, Parse a Cookie, loop over attributes",
+        "text": "While _attributesInput_ is not an empty byte sequence: 1. Let _maxAgeSeen_ be false.",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/httpwg/http-extensions/f9f079af84fe047359daa712e54a6912d2882e12/draft-ietf-httpbis-layered-cookies.md",
+        "sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+        "retrieved": "2026-11-02",
+        "copy": "sources/0344ad3059e2360d-layered-cookies-f9f079a.md",
+        "copy_sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "draft-ietf-httpbis-layered-cookies (httpwg/http-extensions, commit f9f079a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "main at commit f9f079a",
+        "locator": "layered-cookies, Parse a Cookie, Expires",
+        "text": "If _maxAgeSeen_ is true, then continue.",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/httpwg/http-extensions/f9f079af84fe047359daa712e54a6912d2882e12/draft-ietf-httpbis-layered-cookies.md",
+        "sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+        "retrieved": "2026-11-02",
+        "copy": "sources/0344ad3059e2360d-layered-cookies-f9f079a.md",
+        "copy_sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-02T13:47:34Z",
+      "institution": "IETF HTTP Working Group, cookie draft editors",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/httpwg/http-extensions/pull/3582"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "IETF HTTP Working Group, cookie draft editors",
+      "role": "maintain the document"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-02",
+  "ai_role": {
+    "en": "AI agents read the documents, wrote the scenarios and the tests, and ran them in three browsers. An AI coordinator and two independent AI checks compared each place against the text at the pinned commit and against the repository's issues before filing."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [
+    {
+      "title": "Report",
+      "url": "https://github.com/httpwg/http-extensions/pull/3582"
+    },
+    {
+      "title": "Browser tests",
+      "url": "https://github.com/web-platform-tests/wpt/pull/64550"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-02T14:10:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "reported",
+      "text": "Reported to IETF HTTP Working Group, cookie draft editors (public issue tracker)"
+    }
+  ]
+}

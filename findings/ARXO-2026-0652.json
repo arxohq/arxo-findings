@@ -1,0 +1,150 @@
+{
+  "id": "ARXO-2026-0652",
+  "url": "https://arxo.io/findings/ARXO-2026-0652/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "Fetch Standard",
+  "issuer": {
+    "name": "WHATWG Fetch Standard",
+    "short": "WHATWG",
+    "kind": "standards_body",
+    "url": "https://fetch.spec.whatwg.org/"
+  },
+  "act": "WHATWG Fetch Standard (commit 59afe34)",
+  "acts": [
+    "Fetch Standard",
+    "draft-ietf-httpbis-layered-cookies"
+  ],
+  "location": "Fetch, Set-Cookie processing, with layered-cookies, Requirements Specific to Browser User Agents",
+  "text": {
+    "en": {
+      "title": "Fetch: nothing removes expired cookies unless a Set-Cookie response is processed",
+      "summary": "layered-cookies leaves the removal of expired cookies in browsers to Fetch and other callers, and its retrieval steps have no expiry condition. Fetch calls the garbage collection steps only while processing Set-Cookie. If no such response is processed after a cookie expires, the steps return that cookie. The Fetch review of the integration already mentioned clearing cookies periodically, but the list of remaining pieces does not.",
+      "impact": "A cookie with Max-Age=2, then a request 4 seconds later with no response in between: by the steps it is returned; Chromium 156, Firefox 157 and WebKit 27.2 do not send it.",
+      "correction": "Add a call to remove expired cookies in Fetch and the other callers."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-02",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Fetch Standard (whatwg/fetch, commit 59afe34)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "main at commit 59afe34",
+        "locator": "Fetch, Set-Cookie processing, last step",
+        "text": "Garbage collect cookies given request's current URL's host.",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/whatwg/fetch/59afe349913d56898c947576216f1c2579308be7/fetch.bs",
+        "sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+        "retrieved": "2026-11-02",
+        "copy": "sources/ffa13a962874f83f-fetch-59afe34.bs",
+        "copy_sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "draft-ietf-httpbis-layered-cookies (httpwg/http-extensions, commit f9f079a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "main at commit f9f079a",
+        "locator": "layered-cookies, Cookie Store Eviction for Non-Browser User Agents",
+        "text": "by calling Remove Expired Cookies.",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/httpwg/http-extensions/f9f079af84fe047359daa712e54a6912d2882e12/draft-ietf-httpbis-layered-cookies.md",
+        "sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+        "retrieved": "2026-11-02",
+        "copy": "sources/0344ad3059e2360d-layered-cookies-f9f079a.md",
+        "copy_sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "draft-ietf-httpbis-layered-cookies (httpwg/http-extensions, commit f9f079a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "main at commit f9f079a",
+        "locator": "layered-cookies, Requirements Specific to Browser User Agents",
+        "text": "Specifications for such a user agent are expected to build upon the following algorithms",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/httpwg/http-extensions/f9f079af84fe047359daa712e54a6912d2882e12/draft-ietf-httpbis-layered-cookies.md",
+        "sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+        "retrieved": "2026-11-02",
+        "copy": "sources/0344ad3059e2360d-layered-cookies-f9f079a.md",
+        "copy_sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-02T13:47:01Z",
+      "institution": "Fetch Standard editors",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/whatwg/fetch/issues/1826#issuecomment-6578774659"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Fetch Standard editors",
+      "role": "maintain the document"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-02",
+  "ai_role": {
+    "en": "AI agents read the documents, wrote the scenarios and the tests, and ran them in three browsers. An AI coordinator and two independent AI checks compared each place against the text at the pinned commit and against the repository's issues before filing."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [
+    {
+      "title": "Report",
+      "url": "https://github.com/whatwg/fetch/issues/1826#issuecomment-6578774659"
+    },
+    {
+      "title": "Browser tests",
+      "url": "https://github.com/web-platform-tests/wpt/pull/64550"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-02T14:10:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "reported",
+      "text": "Reported to Fetch Standard editors (public issue tracker)"
+    }
+  ]
+}

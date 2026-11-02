@@ -1,0 +1,150 @@
+{
+  "id": "ARXO-2026-0649",
+  "url": "https://arxo.io/findings/ARXO-2026-0649/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "Fetch Standard",
+  "issuer": {
+    "name": "WHATWG Fetch Standard",
+    "short": "WHATWG",
+    "kind": "standards_body",
+    "url": "https://fetch.spec.whatwg.org/"
+  },
+  "act": "WHATWG Fetch Standard (commit 59afe34)",
+  "acts": [
+    "Fetch Standard",
+    "draft-ietf-httpbis-layered-cookies"
+  ],
+  "location": "Fetch, determine the same-site mode, steps 4 to 6",
+  "text": {
+    "en": {
+      "title": "Fetch: cross-site subresources and redirected POST requests get the highest same-site mode",
+      "summary": "No step compares a request with its client. The ancestor check looks at parents only, so a first request from a top-level page on a to b reaches the last step. The redirect check skips a hop when the origin of the request is same site with the URL before it, so a form POST from a to a that redirects to b reaches the last step too.",
+      "impact": "An image, frame or credentialed fetch from a top-level page on a to b: by the text SameSite=Strict and SameSite=Lax cookies are sent; Chromium 156 and Firefox 157 do not send them. A top-level form POST from a to a with a 307 to b: by the text they are sent; Chromium 156, Firefox 157 and WebKit 27.2 do not send them. Existing web-platform-tests in cookies/samesite expect the browser result.",
+      "correction": "Compare the request with its client for non-navigation requests, and count every hop of the URL list."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-02",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Fetch Standard (whatwg/fetch, commit 59afe34)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "main at commit 59afe34",
+        "locator": "Fetch, determine the same-site mode, step 4",
+        "text": "has cross-site ancestor is true, then return \"unset-or-less\".",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/whatwg/fetch/59afe349913d56898c947576216f1c2579308be7/fetch.bs",
+        "sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+        "retrieved": "2026-11-02",
+        "copy": "sources/ffa13a962874f83f-fetch-59afe34.bs",
+        "copy_sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Fetch Standard (whatwg/fetch, commit 59afe34)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "main at commit 59afe34",
+        "locator": "Fetch, determine the same-site mode, step 5",
+        "text": "If request's redirect-taint is \"cross-site\", then return \"unset-or-less\".",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/whatwg/fetch/59afe349913d56898c947576216f1c2579308be7/fetch.bs",
+        "sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+        "retrieved": "2026-11-02",
+        "copy": "sources/ffa13a962874f83f-fetch-59afe34.bs",
+        "copy_sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Fetch Standard (whatwg/fetch, commit 59afe34)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "main at commit 59afe34",
+        "locator": "Fetch, determine the same-site mode, step 6",
+        "text": "Return \"strict-or-less\".",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/whatwg/fetch/59afe349913d56898c947576216f1c2579308be7/fetch.bs",
+        "sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+        "retrieved": "2026-11-02",
+        "copy": "sources/ffa13a962874f83f-fetch-59afe34.bs",
+        "copy_sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-02T13:46:59Z",
+      "institution": "Fetch Standard editors",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/whatwg/fetch/issues/1965"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Fetch Standard editors",
+      "role": "maintain the document"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-02",
+  "ai_role": {
+    "en": "AI agents read the documents, wrote the scenarios and the tests, and ran them in three browsers. An AI coordinator and two independent AI checks compared each place against the text at the pinned commit and against the repository's issues before filing."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [
+    {
+      "title": "Report",
+      "url": "https://github.com/whatwg/fetch/issues/1965"
+    },
+    {
+      "title": "Browser tests",
+      "url": "https://github.com/web-platform-tests/wpt/pull/64550"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-02T14:10:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "reported",
+      "text": "Reported to Fetch Standard editors (public issue tracker)"
+    }
+  ]
+}

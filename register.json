@@ -4,12 +4,12 @@
   "description": "Verified discrepancies in legal texts, standards, official publications and implementations, with evidence and correction histories.",
   "publisher": "Arxo Law",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "as_of": "2026-11-02T10:05:00+00:00",
+  "as_of": "2026-11-02T14:10:00+00:00",
   "base_url": "https://arxo.io/findings/",
   "counts": {
-    "records": 510,
-    "discrepancies": 424,
-    "questions": 86,
+    "records": 523,
+    "discrepancies": 434,
+    "questions": 89,
     "by_jurisdiction": {
       "CA": 3,
       "DE": 21,
@@ -21,11 +21,13 @@
     "by_issuer": {
       "BCBS": 45,
       "Ethereum": 7,
+      "IETF": 7,
       "Unicode": 21,
-      "W3C": 8
+      "W3C": 8,
+      "WHATWG": 6
     },
     "by_status": {
-      "reported": 492,
+      "reported": 505,
       "accepted": 6,
       "disagrees": 2,
       "note_added": 5,
@@ -244,6 +246,18 @@
         "records": 7
       },
       {
+        "issuer": "IETF",
+        "class": "act_text",
+        "status": "reported",
+        "records": 4
+      },
+      {
+        "issuer": "IETF",
+        "class": "question",
+        "status": "reported",
+        "records": 3
+      },
+      {
         "issuer": "Unicode",
         "class": "act_text",
         "status": "reported",
@@ -260,13 +274,19 @@
         "class": "act_text",
         "status": "reported",
         "records": 8
+      },
+      {
+        "issuer": "WHATWG",
+        "class": "act_text",
+        "status": "reported",
+        "records": 6
       }
     ],
-    "institutions_notified": 150,
+    "institutions_notified": 152,
     "corrected_by_official_document": 5,
     "withdrawn_after_publication": {
       "withdrawn": 0,
-      "of_published": 479
+      "of_published": 492
     },
     "rule": "Counts are of findings. One finding is one independently checkable statement about one discrepancy at one place; classes and questions are counted separately and are not added together."
   },
@@ -97342,6 +97362,1780 @@
           "date": "2026-11-02",
           "event": "reported",
           "text": "Reported to EIP editors (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0647",
+      "url": "https://arxo.io/findings/ARXO-2026-0647/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Fetch Standard",
+      "issuer": {
+        "name": "WHATWG Fetch Standard",
+        "short": "WHATWG",
+        "kind": "standards_body",
+        "url": "https://fetch.spec.whatwg.org/"
+      },
+      "act": "WHATWG Fetch Standard (commit 59afe34)",
+      "acts": [
+        "Fetch Standard",
+        "draft-ietf-httpbis-layered-cookies"
+      ],
+      "location": "Fetch, determine the same-site mode, steps 2 and 3",
+      "text": {
+        "en": {
+          "title": "Fetch: the Lax exception for cross-site navigations cannot be reached",
+          "summary": "The check for a cross-site navigation initiator runs before the check for a top-level GET document. A cross-site link therefore never reaches the step meant for it, and that step catches same-site navigations instead. By the text, a Lax cookie is not sent on a cross-site link and a Strict cookie is not sent on a same-origin link.",
+          "impact": "A link from site a to site b, GET: by the text the SameSite=Lax cookie is not sent; Chromium 156, Firefox 157 and WebKit 27.2 send it. A same-origin link, GET: by the text the SameSite=Strict cookie is not sent; all three send it.",
+          "correction": "Decide cross-site GET navigations before the general cross-site case, and give other navigations the full mode."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Fetch Standard (whatwg/fetch, commit 59afe34)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit 59afe34",
+            "locator": "Fetch, determine the same-site mode, step 2",
+            "text": "If request's top-level navigation initiator origin is not null and is not same site with request's URL's origin, then return \"unset-or-less\".",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/whatwg/fetch/59afe349913d56898c947576216f1c2579308be7/fetch.bs",
+            "sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+            "retrieved": "2026-11-02",
+            "copy": "sources/ffa13a962874f83f-fetch-59afe34.bs",
+            "copy_sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Fetch Standard (whatwg/fetch, commit 59afe34)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit 59afe34",
+            "locator": "Fetch, determine the same-site mode, step 3",
+            "text": "If request's method is \"GET\" and request's destination is \"document\", then return \"lax-or-less\".",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/whatwg/fetch/59afe349913d56898c947576216f1c2579308be7/fetch.bs",
+            "sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+            "retrieved": "2026-11-02",
+            "copy": "sources/ffa13a962874f83f-fetch-59afe34.bs",
+            "copy_sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-02T13:46:59Z",
+          "institution": "Fetch Standard editors",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/whatwg/fetch/issues/1965"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Fetch Standard editors",
+          "role": "maintain the document"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the documents, wrote the scenarios and the tests, and ran them in three browsers. An AI coordinator and two independent AI checks compared each place against the text at the pinned commit and against the repository's issues before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [
+        {
+          "title": "Report",
+          "url": "https://github.com/whatwg/fetch/issues/1965"
+        },
+        {
+          "title": "Browser tests",
+          "url": "https://github.com/web-platform-tests/wpt/pull/64550"
+        }
+      ],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T14:10:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-02",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "reported",
+          "text": "Reported to Fetch Standard editors (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0648",
+      "url": "https://arxo.io/findings/ARXO-2026-0648/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Fetch Standard",
+      "issuer": {
+        "name": "WHATWG Fetch Standard",
+        "short": "WHATWG",
+        "kind": "standards_body",
+        "url": "https://fetch.spec.whatwg.org/"
+      },
+      "act": "WHATWG Fetch Standard (commit 59afe34)",
+      "acts": [
+        "Fetch Standard",
+        "draft-ietf-httpbis-layered-cookies"
+      ],
+      "location": "Fetch, determine the same-site mode, step 2, with the HTML navigate algorithm",
+      "text": {
+        "en": {
+          "title": "Fetch: a browser UI navigation counts as cross-site",
+          "summary": "HTML gives a navigation started from the browser UI a new opaque initiator origin and passes it to the request as the top-level navigation initiator origin. An opaque origin is not same site with any other origin, so the step for a cross-site initiator applies to typed addresses as well.",
+          "impact": "A navigation from the browser UI, GET: by the text SameSite=Strict and SameSite=Lax cookies are not sent; Chromium 156, Firefox 157 and WebKit 27.2 send them. The browser UI was stood in for by the page.goto call of Playwright.",
+          "correction": "Treat a browser UI navigation as not cross-site, either in HTML or in this step."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Fetch Standard (whatwg/fetch, commit 59afe34)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit 59afe34",
+            "locator": "Fetch, determine the same-site mode, step 2",
+            "text": "If request's top-level navigation initiator origin is not null and is not same site with request's URL's origin, then return \"unset-or-less\".",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/whatwg/fetch/59afe349913d56898c947576216f1c2579308be7/fetch.bs",
+            "sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+            "retrieved": "2026-11-02",
+            "copy": "sources/ffa13a962874f83f-fetch-59afe34.bs",
+            "copy_sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-02T13:46:59Z",
+          "institution": "Fetch Standard editors",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/whatwg/fetch/issues/1965"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Fetch Standard editors",
+          "role": "maintain the document"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the documents, wrote the scenarios and the tests, and ran them in three browsers. An AI coordinator and two independent AI checks compared each place against the text at the pinned commit and against the repository's issues before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [
+        {
+          "title": "Report",
+          "url": "https://github.com/whatwg/fetch/issues/1965"
+        },
+        {
+          "title": "Browser tests",
+          "url": "https://github.com/web-platform-tests/wpt/pull/64550"
+        }
+      ],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T14:10:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-02",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "reported",
+          "text": "Reported to Fetch Standard editors (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0649",
+      "url": "https://arxo.io/findings/ARXO-2026-0649/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Fetch Standard",
+      "issuer": {
+        "name": "WHATWG Fetch Standard",
+        "short": "WHATWG",
+        "kind": "standards_body",
+        "url": "https://fetch.spec.whatwg.org/"
+      },
+      "act": "WHATWG Fetch Standard (commit 59afe34)",
+      "acts": [
+        "Fetch Standard",
+        "draft-ietf-httpbis-layered-cookies"
+      ],
+      "location": "Fetch, determine the same-site mode, steps 4 to 6",
+      "text": {
+        "en": {
+          "title": "Fetch: cross-site subresources and redirected POST requests get the highest same-site mode",
+          "summary": "No step compares a request with its client. The ancestor check looks at parents only, so a first request from a top-level page on a to b reaches the last step. The redirect check skips a hop when the origin of the request is same site with the URL before it, so a form POST from a to a that redirects to b reaches the last step too.",
+          "impact": "An image, frame or credentialed fetch from a top-level page on a to b: by the text SameSite=Strict and SameSite=Lax cookies are sent; Chromium 156 and Firefox 157 do not send them. A top-level form POST from a to a with a 307 to b: by the text they are sent; Chromium 156, Firefox 157 and WebKit 27.2 do not send them. Existing web-platform-tests in cookies/samesite expect the browser result.",
+          "correction": "Compare the request with its client for non-navigation requests, and count every hop of the URL list."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Fetch Standard (whatwg/fetch, commit 59afe34)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit 59afe34",
+            "locator": "Fetch, determine the same-site mode, step 4",
+            "text": "has cross-site ancestor is true, then return \"unset-or-less\".",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/whatwg/fetch/59afe349913d56898c947576216f1c2579308be7/fetch.bs",
+            "sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+            "retrieved": "2026-11-02",
+            "copy": "sources/ffa13a962874f83f-fetch-59afe34.bs",
+            "copy_sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Fetch Standard (whatwg/fetch, commit 59afe34)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit 59afe34",
+            "locator": "Fetch, determine the same-site mode, step 5",
+            "text": "If request's redirect-taint is \"cross-site\", then return \"unset-or-less\".",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/whatwg/fetch/59afe349913d56898c947576216f1c2579308be7/fetch.bs",
+            "sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+            "retrieved": "2026-11-02",
+            "copy": "sources/ffa13a962874f83f-fetch-59afe34.bs",
+            "copy_sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "Fetch Standard (whatwg/fetch, commit 59afe34)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit 59afe34",
+            "locator": "Fetch, determine the same-site mode, step 6",
+            "text": "Return \"strict-or-less\".",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/whatwg/fetch/59afe349913d56898c947576216f1c2579308be7/fetch.bs",
+            "sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+            "retrieved": "2026-11-02",
+            "copy": "sources/ffa13a962874f83f-fetch-59afe34.bs",
+            "copy_sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-02T13:46:59Z",
+          "institution": "Fetch Standard editors",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/whatwg/fetch/issues/1965"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Fetch Standard editors",
+          "role": "maintain the document"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the documents, wrote the scenarios and the tests, and ran them in three browsers. An AI coordinator and two independent AI checks compared each place against the text at the pinned commit and against the repository's issues before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [
+        {
+          "title": "Report",
+          "url": "https://github.com/whatwg/fetch/issues/1965"
+        },
+        {
+          "title": "Browser tests",
+          "url": "https://github.com/web-platform-tests/wpt/pull/64550"
+        }
+      ],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T14:10:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-02",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "reported",
+          "text": "Reported to Fetch Standard editors (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0650",
+      "url": "https://arxo.io/findings/ARXO-2026-0650/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Fetch Standard",
+      "issuer": {
+        "name": "WHATWG Fetch Standard",
+        "short": "WHATWG",
+        "kind": "standards_body",
+        "url": "https://fetch.spec.whatwg.org/"
+      },
+      "act": "WHATWG Fetch Standard (commit 59afe34)",
+      "acts": [
+        "Fetch Standard",
+        "draft-ietf-httpbis-layered-cookies"
+      ],
+      "location": "Fetch, Set-Cookie processing",
+      "text": {
+        "en": {
+          "title": "Fetch: the response to a top-level navigation cannot set an ordinary cookie",
+          "summary": "Set-Cookie processing allows Strict, Lax and unset cookies only when the mode is the highest one. A top-level GET navigation never gets that mode, so by the text its response cannot store these cookies. RFC 6265bis notes that top-level navigations can create a cookie with any SameSite value.",
+          "impact": "A response to a top-level GET navigation sets a=1 or a SameSite=Lax cookie: by the text it is not stored; Chromium 156, Firefox 157 and WebKit 27.2 store it.",
+          "correction": "Also allow these cookies for top-level navigations."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Fetch Standard (whatwg/fetch, commit 59afe34)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit 59afe34",
+            "locator": "Fetch, Set-Cookie processing, sameSiteStrictOrLaxAllowed",
+            "text": "is \"strict-or-less\"; otherwise false.",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/whatwg/fetch/59afe349913d56898c947576216f1c2579308be7/fetch.bs",
+            "sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+            "retrieved": "2026-11-02",
+            "copy": "sources/ffa13a962874f83f-fetch-59afe34.bs",
+            "copy_sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "Fetch Standard (whatwg/fetch, commit 59afe34)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit 59afe34",
+            "locator": "Fetch, determine the same-site mode, step 3",
+            "text": "If request's method is \"GET\" and request's destination is \"document\", then return \"lax-or-less\".",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/whatwg/fetch/59afe349913d56898c947576216f1c2579308be7/fetch.bs",
+            "sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+            "retrieved": "2026-11-02",
+            "copy": "sources/ffa13a962874f83f-fetch-59afe34.bs",
+            "copy_sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "draft-ietf-httpbis-rfc6265bis-22",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "version 22",
+            "locator": "RFC 6265bis-22, section 5.7, step 18.3",
+            "text": "Top-level navigations can create a cookie with any SameSite value",
+            "translations": {},
+            "url": "https://www.ietf.org/archive/id/draft-ietf-httpbis-rfc6265bis-22.txt",
+            "sha256": "762b37b40b2286da2e9250bb24a0f9dfca790b11fe20bcde0c67fcbbad28979d",
+            "retrieved": "2026-11-02",
+            "copy": "sources/762b37b40b2286da-rfc6265bis-22.txt",
+            "copy_sha256": "762b37b40b2286da2e9250bb24a0f9dfca790b11fe20bcde0c67fcbbad28979d",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-02T13:46:59Z",
+          "institution": "Fetch Standard editors",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/whatwg/fetch/issues/1965"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Fetch Standard editors",
+          "role": "maintain the document"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the documents, wrote the scenarios and the tests, and ran them in three browsers. An AI coordinator and two independent AI checks compared each place against the text at the pinned commit and against the repository's issues before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [
+        {
+          "title": "Report",
+          "url": "https://github.com/whatwg/fetch/issues/1965"
+        },
+        {
+          "title": "Browser tests",
+          "url": "https://github.com/web-platform-tests/wpt/pull/64550"
+        }
+      ],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T14:10:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-02",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "reported",
+          "text": "Reported to Fetch Standard editors (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0651",
+      "url": "https://arxo.io/findings/ARXO-2026-0651/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Fetch Standard",
+      "issuer": {
+        "name": "WHATWG Fetch Standard",
+        "short": "WHATWG",
+        "kind": "standards_body",
+        "url": "https://fetch.spec.whatwg.org/"
+      },
+      "act": "WHATWG Fetch Standard (commit 59afe34)",
+      "acts": [
+        "Fetch Standard",
+        "draft-ietf-httpbis-layered-cookies"
+      ],
+      "location": "Fetch, determine the same-site mode, step 1",
+      "text": {
+        "en": {
+          "title": "Fetch: the same-site algorithm states that every request is GET or POST",
+          "summary": "The first step of the algorithm states as an invariant that the method is GET or POST, but the algorithm also runs for every other method. By the Infra Standard such a false statement is an error of the document with no effect on implementations, and the remaining steps already give the right result for same-origin requests.",
+          "impact": "A same-origin PUT, DELETE or PATCH request reaches a step whose statement does not hold. Chromium 156, Firefox 157 and WebKit 27.2 send the cookies normally.",
+          "correction": "Remove the statement."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Fetch Standard (whatwg/fetch, commit 59afe34)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit 59afe34",
+            "locator": "Fetch, determine the same-site mode, step 1",
+            "text": "Assert: request's method is \"GET\" or \"POST\".",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/whatwg/fetch/59afe349913d56898c947576216f1c2579308be7/fetch.bs",
+            "sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+            "retrieved": "2026-11-02",
+            "copy": "sources/ffa13a962874f83f-fetch-59afe34.bs",
+            "copy_sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-02T13:46:59Z",
+          "institution": "Fetch Standard editors",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/whatwg/fetch/issues/1965"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Fetch Standard editors",
+          "role": "maintain the document"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the documents, wrote the scenarios and the tests, and ran them in three browsers. An AI coordinator and two independent AI checks compared each place against the text at the pinned commit and against the repository's issues before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [
+        {
+          "title": "Report",
+          "url": "https://github.com/whatwg/fetch/issues/1965"
+        },
+        {
+          "title": "Browser tests",
+          "url": "https://github.com/web-platform-tests/wpt/pull/64550"
+        }
+      ],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T14:10:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-02",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "reported",
+          "text": "Reported to Fetch Standard editors (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0652",
+      "url": "https://arxo.io/findings/ARXO-2026-0652/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "Fetch Standard",
+      "issuer": {
+        "name": "WHATWG Fetch Standard",
+        "short": "WHATWG",
+        "kind": "standards_body",
+        "url": "https://fetch.spec.whatwg.org/"
+      },
+      "act": "WHATWG Fetch Standard (commit 59afe34)",
+      "acts": [
+        "Fetch Standard",
+        "draft-ietf-httpbis-layered-cookies"
+      ],
+      "location": "Fetch, Set-Cookie processing, with layered-cookies, Requirements Specific to Browser User Agents",
+      "text": {
+        "en": {
+          "title": "Fetch: nothing removes expired cookies unless a Set-Cookie response is processed",
+          "summary": "layered-cookies leaves the removal of expired cookies in browsers to Fetch and other callers, and its retrieval steps have no expiry condition. Fetch calls the garbage collection steps only while processing Set-Cookie. If no such response is processed after a cookie expires, the steps return that cookie. The Fetch review of the integration already mentioned clearing cookies periodically, but the list of remaining pieces does not.",
+          "impact": "A cookie with Max-Age=2, then a request 4 seconds later with no response in between: by the steps it is returned; Chromium 156, Firefox 157 and WebKit 27.2 do not send it.",
+          "correction": "Add a call to remove expired cookies in Fetch and the other callers."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "Fetch Standard (whatwg/fetch, commit 59afe34)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit 59afe34",
+            "locator": "Fetch, Set-Cookie processing, last step",
+            "text": "Garbage collect cookies given request's current URL's host.",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/whatwg/fetch/59afe349913d56898c947576216f1c2579308be7/fetch.bs",
+            "sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+            "retrieved": "2026-11-02",
+            "copy": "sources/ffa13a962874f83f-fetch-59afe34.bs",
+            "copy_sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "draft-ietf-httpbis-layered-cookies (httpwg/http-extensions, commit f9f079a)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit f9f079a",
+            "locator": "layered-cookies, Cookie Store Eviction for Non-Browser User Agents",
+            "text": "by calling Remove Expired Cookies.",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/httpwg/http-extensions/f9f079af84fe047359daa712e54a6912d2882e12/draft-ietf-httpbis-layered-cookies.md",
+            "sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "retrieved": "2026-11-02",
+            "copy": "sources/0344ad3059e2360d-layered-cookies-f9f079a.md",
+            "copy_sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "draft-ietf-httpbis-layered-cookies (httpwg/http-extensions, commit f9f079a)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit f9f079a",
+            "locator": "layered-cookies, Requirements Specific to Browser User Agents",
+            "text": "Specifications for such a user agent are expected to build upon the following algorithms",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/httpwg/http-extensions/f9f079af84fe047359daa712e54a6912d2882e12/draft-ietf-httpbis-layered-cookies.md",
+            "sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "retrieved": "2026-11-02",
+            "copy": "sources/0344ad3059e2360d-layered-cookies-f9f079a.md",
+            "copy_sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-02T13:47:01Z",
+          "institution": "Fetch Standard editors",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/whatwg/fetch/issues/1826#issuecomment-6578774659"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Fetch Standard editors",
+          "role": "maintain the document"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the documents, wrote the scenarios and the tests, and ran them in three browsers. An AI coordinator and two independent AI checks compared each place against the text at the pinned commit and against the repository's issues before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [
+        {
+          "title": "Report",
+          "url": "https://github.com/whatwg/fetch/issues/1826#issuecomment-6578774659"
+        },
+        {
+          "title": "Browser tests",
+          "url": "https://github.com/web-platform-tests/wpt/pull/64550"
+        }
+      ],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T14:10:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-02",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "reported",
+          "text": "Reported to Fetch Standard editors (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0653",
+      "url": "https://arxo.io/findings/ARXO-2026-0653/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "HTTP cookies draft",
+      "issuer": {
+        "name": "IETF HTTP Working Group",
+        "short": "IETF",
+        "kind": "standards_body",
+        "url": "https://httpwg.org/"
+      },
+      "act": "draft-ietf-httpbis-layered-cookies, editor's copy (commit f9f079a)",
+      "acts": [
+        "Fetch Standard",
+        "draft-ietf-httpbis-layered-cookies"
+      ],
+      "location": "layered-cookies, Parse a Cookie, loop over attributes",
+      "text": {
+        "en": {
+          "title": "layered-cookies: Max-Age loses to a later Expires",
+          "summary": "The draft says Max-Age has precedence over Expires. The variable that records a Max-Age is created inside the loop over attributes, so it is false again for every attribute and a later Expires overwrites the value.",
+          "impact": "Max-Age=3600; Expires in the past: by the steps the cookie is not kept; Chromium 156, Firefox 157 and WebKit 27.2 keep it. Max-Age=0; Expires in the future: by the steps it is kept; all three reject it.",
+          "correction": "Create the variable before the loop."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "draft-ietf-httpbis-layered-cookies (httpwg/http-extensions, commit f9f079a)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit f9f079a",
+            "locator": "layered-cookies, The Max-Age Attribute",
+            "text": "If a cookie has both the Max-Age and the Expires attribute, the Max-Age attribute has precedence",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/httpwg/http-extensions/f9f079af84fe047359daa712e54a6912d2882e12/draft-ietf-httpbis-layered-cookies.md",
+            "sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "retrieved": "2026-11-02",
+            "copy": "sources/0344ad3059e2360d-layered-cookies-f9f079a.md",
+            "copy_sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "draft-ietf-httpbis-layered-cookies (httpwg/http-extensions, commit f9f079a)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit f9f079a",
+            "locator": "layered-cookies, Parse a Cookie, loop over attributes",
+            "text": "While _attributesInput_ is not an empty byte sequence: 1. Let _maxAgeSeen_ be false.",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/httpwg/http-extensions/f9f079af84fe047359daa712e54a6912d2882e12/draft-ietf-httpbis-layered-cookies.md",
+            "sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "retrieved": "2026-11-02",
+            "copy": "sources/0344ad3059e2360d-layered-cookies-f9f079a.md",
+            "copy_sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q3",
+            "source": "draft-ietf-httpbis-layered-cookies (httpwg/http-extensions, commit f9f079a)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit f9f079a",
+            "locator": "layered-cookies, Parse a Cookie, Expires",
+            "text": "If _maxAgeSeen_ is true, then continue.",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/httpwg/http-extensions/f9f079af84fe047359daa712e54a6912d2882e12/draft-ietf-httpbis-layered-cookies.md",
+            "sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "retrieved": "2026-11-02",
+            "copy": "sources/0344ad3059e2360d-layered-cookies-f9f079a.md",
+            "copy_sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-02T13:47:34Z",
+          "institution": "IETF HTTP Working Group, cookie draft editors",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/httpwg/http-extensions/pull/3582"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "IETF HTTP Working Group, cookie draft editors",
+          "role": "maintain the document"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the documents, wrote the scenarios and the tests, and ran them in three browsers. An AI coordinator and two independent AI checks compared each place against the text at the pinned commit and against the repository's issues before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [
+        {
+          "title": "Report",
+          "url": "https://github.com/httpwg/http-extensions/pull/3582"
+        },
+        {
+          "title": "Browser tests",
+          "url": "https://github.com/web-platform-tests/wpt/pull/64550"
+        }
+      ],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T14:10:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-02",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "reported",
+          "text": "Reported to IETF HTTP Working Group, cookie draft editors (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0654",
+      "url": "https://arxo.io/findings/ARXO-2026-0654/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "HTTP cookies draft",
+      "issuer": {
+        "name": "IETF HTTP Working Group",
+        "short": "IETF",
+        "kind": "standards_body",
+        "url": "https://httpwg.org/"
+      },
+      "act": "draft-ietf-httpbis-layered-cookies, editor's copy (commit f9f079a)",
+      "acts": [
+        "Fetch Standard",
+        "draft-ietf-httpbis-layered-cookies"
+      ],
+      "location": "layered-cookies, Parse a Cookie, Expires",
+      "text": {
+        "en": {
+          "title": "layered-cookies: the failed date check tests the wrong variable",
+          "summary": "After parsing the date of an Expires attribute, the step that should skip a failed parse tests the attribute value and not the parse result. A failed date therefore goes on to the later steps as if it were a time.",
+          "impact": "Expires=garbage: the check does not fire, and the next steps compare failure with a time and may store it as the expiry.",
+          "correction": "Test the parse result."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "draft-ietf-httpbis-layered-cookies (httpwg/http-extensions, commit f9f079a)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit f9f079a",
+            "locator": "layered-cookies, Parse a Cookie, Expires",
+            "text": "Let _expiryTime_ be the result of running Parse a Date given _attributeValue_.",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/httpwg/http-extensions/f9f079af84fe047359daa712e54a6912d2882e12/draft-ietf-httpbis-layered-cookies.md",
+            "sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "retrieved": "2026-11-02",
+            "copy": "sources/0344ad3059e2360d-layered-cookies-f9f079a.md",
+            "copy_sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "draft-ietf-httpbis-layered-cookies (httpwg/http-extensions, commit f9f079a)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit f9f079a",
+            "locator": "layered-cookies, Parse a Cookie, Expires",
+            "text": "If _attributeValue_ is failure, then continue.",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/httpwg/http-extensions/f9f079af84fe047359daa712e54a6912d2882e12/draft-ietf-httpbis-layered-cookies.md",
+            "sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "retrieved": "2026-11-02",
+            "copy": "sources/0344ad3059e2360d-layered-cookies-f9f079a.md",
+            "copy_sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-02T13:47:34Z",
+          "institution": "IETF HTTP Working Group, cookie draft editors",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/httpwg/http-extensions/pull/3582"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "IETF HTTP Working Group, cookie draft editors",
+          "role": "maintain the document"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the documents, wrote the scenarios and the tests, and ran them in three browsers. An AI coordinator and two independent AI checks compared each place against the text at the pinned commit and against the repository's issues before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [
+        {
+          "title": "Report",
+          "url": "https://github.com/httpwg/http-extensions/pull/3582"
+        },
+        {
+          "title": "Browser tests",
+          "url": "https://github.com/web-platform-tests/wpt/pull/64550"
+        }
+      ],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T14:10:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-02",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "reported",
+          "text": "Reported to IETF HTTP Working Group, cookie draft editors (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0655",
+      "url": "https://arxo.io/findings/ARXO-2026-0655/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "HTTP cookies draft",
+      "issuer": {
+        "name": "IETF HTTP Working Group",
+        "short": "IETF",
+        "kind": "standards_body",
+        "url": "https://httpwg.org/"
+      },
+      "act": "draft-ietf-httpbis-layered-cookies, editor's copy (commit f9f079a)",
+      "acts": [
+        "Fetch Standard",
+        "draft-ietf-httpbis-layered-cookies"
+      ],
+      "location": "layered-cookies, Parse a Cookie, Expires",
+      "text": {
+        "en": {
+          "title": "layered-cookies: the cap on Expires assigns a number of days to a time",
+          "summary": "The cookie age limit is a number of days. When an Expires date is too far ahead, the step sets the expiry time to that limit and not to the current time plus the limit, as the comparison just before it does.",
+          "impact": "Expires five years ahead: the expiry time gets the value 400 days instead of a date 400 days from now.",
+          "correction": "Set the expiry time to the current time plus the limit."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "draft-ietf-httpbis-layered-cookies (httpwg/http-extensions, commit f9f079a)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit f9f079a",
+            "locator": "layered-cookies, cookie age limit",
+            "text": "A user agent has an associated **cookie age limit**, which is a number of days.",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/httpwg/http-extensions/f9f079af84fe047359daa712e54a6912d2882e12/draft-ietf-httpbis-layered-cookies.md",
+            "sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "retrieved": "2026-11-02",
+            "copy": "sources/0344ad3059e2360d-layered-cookies-f9f079a.md",
+            "copy_sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "draft-ietf-httpbis-layered-cookies (httpwg/http-extensions, commit f9f079a)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit f9f079a",
+            "locator": "layered-cookies, Parse a Cookie, Expires",
+            "text": "then set _expiryTime_ to the user agent's cookie age limit.",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/httpwg/http-extensions/f9f079af84fe047359daa712e54a6912d2882e12/draft-ietf-httpbis-layered-cookies.md",
+            "sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "retrieved": "2026-11-02",
+            "copy": "sources/0344ad3059e2360d-layered-cookies-f9f079a.md",
+            "copy_sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-02T13:47:34Z",
+          "institution": "IETF HTTP Working Group, cookie draft editors",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/httpwg/http-extensions/pull/3582"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "IETF HTTP Working Group, cookie draft editors",
+          "role": "maintain the document"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the documents, wrote the scenarios and the tests, and ran them in three browsers. An AI coordinator and two independent AI checks compared each place against the text at the pinned commit and against the repository's issues before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [
+        {
+          "title": "Report",
+          "url": "https://github.com/httpwg/http-extensions/pull/3582"
+        },
+        {
+          "title": "Browser tests",
+          "url": "https://github.com/web-platform-tests/wpt/pull/64550"
+        }
+      ],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T14:10:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-02",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "reported",
+          "text": "Reported to IETF HTTP Working Group, cookie draft editors (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0656",
+      "url": "https://arxo.io/findings/ARXO-2026-0656/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": null,
+      "jurisdiction_detail": "HTTP cookies draft",
+      "issuer": {
+        "name": "IETF HTTP Working Group",
+        "short": "IETF",
+        "kind": "standards_body",
+        "url": "https://httpwg.org/"
+      },
+      "act": "draft-ietf-httpbis-layered-cookies, editor's copy (commit f9f079a)",
+      "acts": [
+        "Fetch Standard",
+        "draft-ietf-httpbis-layered-cookies"
+      ],
+      "location": "layered-cookies, Parse a Cookie, SameSite, against RFC 6265bis-22 section 5.6.7",
+      "text": {
+        "en": {
+          "title": "layered-cookies and RFC 6265bis: a last unknown SameSite value",
+          "summary": "layered-cookies keeps an earlier SameSite value when the last one is unknown. RFC 6265bis-22, which it says it replaces, resets to the default. The working group has said that handling may vary per attribute, so whether this change is meant is a question for the editors. Existing web-platform-tests follow 6265bis.",
+          "impact": "SameSite=None; SameSite=foo without Secure: by layered-cookies not stored; by 6265bis and in Chromium 156, Firefox 157 and WebKit 27.2 stored. SameSite=Strict; SameSite=foo, then a cross-site link: by layered-cookies not sent; by 6265bis and in all three sent.",
+          "correction": "Decide the rule; to follow 6265bis, reset to unset on an unknown value."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "draft-ietf-httpbis-layered-cookies (httpwg/http-extensions, commit f9f079a)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit f9f079a",
+            "locator": "layered-cookies, Parse a Cookie, SameSite",
+            "text": "If _attributeValue_ is a byte-case-insensitive match for `None`, then set _cookie_'s same-site to \"none\".",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/httpwg/http-extensions/f9f079af84fe047359daa712e54a6912d2882e12/draft-ietf-httpbis-layered-cookies.md",
+            "sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "retrieved": "2026-11-02",
+            "copy": "sources/0344ad3059e2360d-layered-cookies-f9f079a.md",
+            "copy_sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "draft-ietf-httpbis-rfc6265bis-22",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "version 22",
+            "locator": "RFC 6265bis-22, section 5.6.7",
+            "text": "Let enforcement be \"Default\".",
+            "translations": {},
+            "url": "https://www.ietf.org/archive/id/draft-ietf-httpbis-rfc6265bis-22.txt",
+            "sha256": "762b37b40b2286da2e9250bb24a0f9dfca790b11fe20bcde0c67fcbbad28979d",
+            "retrieved": "2026-11-02",
+            "copy": "sources/762b37b40b2286da-rfc6265bis-22.txt",
+            "copy_sha256": "762b37b40b2286da2e9250bb24a0f9dfca790b11fe20bcde0c67fcbbad28979d",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-02T13:47:02Z",
+          "institution": "IETF HTTP Working Group, cookie draft editors",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/httpwg/http-extensions/issues/3581"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "IETF HTTP Working Group, cookie draft editors",
+          "role": "maintain the document"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the documents, wrote the scenarios and the tests, and ran them in three browsers. An AI coordinator and two independent AI checks compared each place against the text at the pinned commit and against the repository's issues before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [
+        {
+          "title": "Report",
+          "url": "https://github.com/httpwg/http-extensions/issues/3581"
+        },
+        {
+          "title": "Browser tests",
+          "url": "https://github.com/web-platform-tests/wpt/pull/64550"
+        }
+      ],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T14:10:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-02",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "reported",
+          "text": "Reported to IETF HTTP Working Group, cookie draft editors (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0657",
+      "url": "https://arxo.io/findings/ARXO-2026-0657/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": null,
+      "jurisdiction_detail": "HTTP cookies draft",
+      "issuer": {
+        "name": "IETF HTTP Working Group",
+        "short": "IETF",
+        "kind": "standards_body",
+        "url": "https://httpwg.org/"
+      },
+      "act": "draft-ietf-httpbis-layered-cookies, editor's copy (commit f9f079a)",
+      "acts": [
+        "Fetch Standard",
+        "draft-ietf-httpbis-layered-cookies"
+      ],
+      "location": "layered-cookies, Parse a Cookie, Path, against RFC 6265bis-22 section 5.6.4",
+      "text": {
+        "en": {
+          "title": "layered-cookies and RFC 6265bis: a last Path without a leading slash",
+          "summary": "layered-cookies keeps an earlier valid Path when the last one does not start with a slash. RFC 6265bis-22 uses the default path. Whether this change is meant is a question for the editors.",
+          "impact": "Path=/x; Path=foo from /y/set: by layered-cookies the path is /x; by 6265bis and in Chromium 156 and Firefox 157 it is /y. WebKit 27.2 reports the literal path foo and does not return the cookie on the default path.",
+          "correction": "Decide the rule; to follow 6265bis, go back to the default path."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "draft-ietf-httpbis-layered-cookies (httpwg/http-extensions, commit f9f079a)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit f9f079a",
+            "locator": "layered-cookies, Parse a Cookie, Path",
+            "text": "If _attributeValue_ is not empty and if the first byte of _attributeValue_ is 0x2F (/), then set _pathAttributeValue_ to _attributeValue_.",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/httpwg/http-extensions/f9f079af84fe047359daa712e54a6912d2882e12/draft-ietf-httpbis-layered-cookies.md",
+            "sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "retrieved": "2026-11-02",
+            "copy": "sources/0344ad3059e2360d-layered-cookies-f9f079a.md",
+            "copy_sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "draft-ietf-httpbis-rfc6265bis-22",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "version 22",
+            "locator": "RFC 6265bis-22, section 5.6.4",
+            "text": "Let cookie-path be the default-path.",
+            "translations": {},
+            "url": "https://www.ietf.org/archive/id/draft-ietf-httpbis-rfc6265bis-22.txt",
+            "sha256": "762b37b40b2286da2e9250bb24a0f9dfca790b11fe20bcde0c67fcbbad28979d",
+            "retrieved": "2026-11-02",
+            "copy": "sources/762b37b40b2286da-rfc6265bis-22.txt",
+            "copy_sha256": "762b37b40b2286da2e9250bb24a0f9dfca790b11fe20bcde0c67fcbbad28979d",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-02T13:47:02Z",
+          "institution": "IETF HTTP Working Group, cookie draft editors",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/httpwg/http-extensions/issues/3581"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "IETF HTTP Working Group, cookie draft editors",
+          "role": "maintain the document"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the documents, wrote the scenarios and the tests, and ran them in three browsers. An AI coordinator and two independent AI checks compared each place against the text at the pinned commit and against the repository's issues before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [
+        {
+          "title": "Report",
+          "url": "https://github.com/httpwg/http-extensions/issues/3581"
+        },
+        {
+          "title": "Browser tests",
+          "url": "https://github.com/web-platform-tests/wpt/pull/64550"
+        }
+      ],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T14:10:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-02",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "reported",
+          "text": "Reported to IETF HTTP Working Group, cookie draft editors (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0658",
+      "url": "https://arxo.io/findings/ARXO-2026-0658/",
+      "record_kind": "question",
+      "class": "question",
+      "class_label": "Question of reading or data",
+      "jurisdiction": null,
+      "jurisdiction_detail": "HTTP cookies draft",
+      "issuer": {
+        "name": "IETF HTTP Working Group",
+        "short": "IETF",
+        "kind": "standards_body",
+        "url": "https://httpwg.org/"
+      },
+      "act": "draft-ietf-httpbis-layered-cookies, editor's copy (commit f9f079a)",
+      "acts": [
+        "Fetch Standard",
+        "draft-ietf-httpbis-layered-cookies"
+      ],
+      "location": "layered-cookies, Parse a Cookie, Domain, against RFC 6265bis-22 section 5.7",
+      "text": {
+        "en": {
+          "title": "layered-cookies and RFC 6265bis: an empty Domain attribute",
+          "summary": "layered-cookies passes an empty Domain value to the host parser, which fails, and the cookie is rejected. RFC 6265bis-22 treats an empty value as a host-only cookie. Whether this change is meant is a question for the editors.",
+          "impact": "Domain= with nothing after it: by layered-cookies not stored; by 6265bis and in Chromium 156, Firefox 157 and WebKit 27.2 stored.",
+          "correction": "Decide the rule; to follow 6265bis, set the host back to null, so that an earlier Domain does not stay."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "draft-ietf-httpbis-layered-cookies (httpwg/http-extensions, commit f9f079a)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit f9f079a",
+            "locator": "layered-cookies, Parse a Cookie, Domain",
+            "text": "Set _host_ to the result of host parsing _hostInput_.",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/httpwg/http-extensions/f9f079af84fe047359daa712e54a6912d2882e12/draft-ietf-httpbis-layered-cookies.md",
+            "sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "retrieved": "2026-11-02",
+            "copy": "sources/0344ad3059e2360d-layered-cookies-f9f079a.md",
+            "copy_sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "draft-ietf-httpbis-rfc6265bis-22",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "version 22",
+            "locator": "RFC 6265bis-22, section 5.7, step 7",
+            "text": "Let the domain-attribute be the empty string.",
+            "translations": {},
+            "url": "https://www.ietf.org/archive/id/draft-ietf-httpbis-rfc6265bis-22.txt",
+            "sha256": "762b37b40b2286da2e9250bb24a0f9dfca790b11fe20bcde0c67fcbbad28979d",
+            "retrieved": "2026-11-02",
+            "copy": "sources/762b37b40b2286da-rfc6265bis-22.txt",
+            "copy_sha256": "762b37b40b2286da2e9250bb24a0f9dfca790b11fe20bcde0c67fcbbad28979d",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-02T13:47:02Z",
+          "institution": "IETF HTTP Working Group, cookie draft editors",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/httpwg/http-extensions/issues/3581"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "IETF HTTP Working Group, cookie draft editors",
+          "role": "maintain the document"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the documents, wrote the scenarios and the tests, and ran them in three browsers. An AI coordinator and two independent AI checks compared each place against the text at the pinned commit and against the repository's issues before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [
+        {
+          "title": "Report",
+          "url": "https://github.com/httpwg/http-extensions/issues/3581"
+        },
+        {
+          "title": "Browser tests",
+          "url": "https://github.com/web-platform-tests/wpt/pull/64550"
+        }
+      ],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T14:10:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-02",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "reported",
+          "text": "Reported to IETF HTTP Working Group, cookie draft editors (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0659",
+      "url": "https://arxo.io/findings/ARXO-2026-0659/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "HTTP cookies draft",
+      "issuer": {
+        "name": "IETF HTTP Working Group",
+        "short": "IETF",
+        "kind": "standards_body",
+        "url": "https://httpwg.org/"
+      },
+      "act": "draft-ietf-httpbis-layered-cookies, editor's copy (commit f9f079a)",
+      "acts": [
+        "Fetch Standard",
+        "draft-ietf-httpbis-layered-cookies"
+      ],
+      "location": "layered-cookies, Retrieve Cookies, sort",
+      "text": {
+        "en": {
+          "title": "layered-cookies: cookies are sorted by the number of path segments, not by path length",
+          "summary": "Retrieve Cookies sorts by the size of the path, which is its number of segments. RFC 6265bis-22 sorts by length. The root path and a one-segment path have the same size, so creation time decides between them. An existing web-platform-test expects the longer path first.",
+          "impact": "a=1; Path=/, then b=2; Path=/foo, request to /foo/bar: by the steps a=1; b=2; Chromium 156, Firefox 157 and WebKit 27.2 send b=2; a=1. Paths /a/ and /a/b: by the steps creation order; all three put /a/b first.",
+          "correction": "Sort by path length, which is the size of the path plus the lengths of its segments."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Reproduced by execution",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "draft-ietf-httpbis-layered-cookies (httpwg/http-extensions, commit f9f079a)",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "main at commit f9f079a",
+            "locator": "layered-cookies, Retrieve Cookies, sort",
+            "text": "Cookies whose path's size is greater are listed before cookies whose path's size is smaller.",
+            "translations": {},
+            "url": "https://raw.githubusercontent.com/httpwg/http-extensions/f9f079af84fe047359daa712e54a6912d2882e12/draft-ietf-httpbis-layered-cookies.md",
+            "sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "retrieved": "2026-11-02",
+            "copy": "sources/0344ad3059e2360d-layered-cookies-f9f079a.md",
+            "copy_sha256": "0344ad3059e2360df50a85450498f84fece78c1b2a185710707bfc86b887ace8",
+            "copy_kind": "copy of the official file"
+          },
+          {
+            "location": "q2",
+            "source": "draft-ietf-httpbis-rfc6265bis-22",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "version 22",
+            "locator": "RFC 6265bis-22, section 5.8.3",
+            "text": "Cookies with longer paths are listed before cookies with shorter paths.",
+            "translations": {},
+            "url": "https://www.ietf.org/archive/id/draft-ietf-httpbis-rfc6265bis-22.txt",
+            "sha256": "762b37b40b2286da2e9250bb24a0f9dfca790b11fe20bcde0c67fcbbad28979d",
+            "retrieved": "2026-11-02",
+            "copy": "sources/762b37b40b2286da-rfc6265bis-22.txt",
+            "copy_sha256": "762b37b40b2286da2e9250bb24a0f9dfca790b11fe20bcde0c67fcbbad28979d",
+            "copy_kind": "copy of the official file"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-02T13:47:39Z",
+          "institution": "IETF HTTP Working Group, cookie draft editors",
+          "channel": "issue_tracker",
+          "reference": "https://github.com/httpwg/http-extensions/pull/3583"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "IETF HTTP Working Group, cookie draft editors",
+          "role": "maintain the document"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the documents, wrote the scenarios and the tests, and ran them in three browsers. An AI coordinator and two independent AI checks compared each place against the text at the pinned commit and against the repository's issues before filing."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [
+        {
+          "title": "Report",
+          "url": "https://github.com/httpwg/http-extensions/pull/3583"
+        },
+        {
+          "title": "Browser tests",
+          "url": "https://github.com/web-platform-tests/wpt/pull/64550"
+        }
+      ],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T14:10:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-02",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "reported",
+          "text": "Reported to IETF HTTP Working Group, cookie draft editors (public issue tracker)"
         }
       ]
     }

@@ -1,0 +1,134 @@
+{
+  "id": "ARXO-2026-0647",
+  "url": "https://arxo.io/findings/ARXO-2026-0647/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "Fetch Standard",
+  "issuer": {
+    "name": "WHATWG Fetch Standard",
+    "short": "WHATWG",
+    "kind": "standards_body",
+    "url": "https://fetch.spec.whatwg.org/"
+  },
+  "act": "WHATWG Fetch Standard (commit 59afe34)",
+  "acts": [
+    "Fetch Standard",
+    "draft-ietf-httpbis-layered-cookies"
+  ],
+  "location": "Fetch, determine the same-site mode, steps 2 and 3",
+  "text": {
+    "en": {
+      "title": "Fetch: the Lax exception for cross-site navigations cannot be reached",
+      "summary": "The check for a cross-site navigation initiator runs before the check for a top-level GET document. A cross-site link therefore never reaches the step meant for it, and that step catches same-site navigations instead. By the text, a Lax cookie is not sent on a cross-site link and a Strict cookie is not sent on a same-origin link.",
+      "impact": "A link from site a to site b, GET: by the text the SameSite=Lax cookie is not sent; Chromium 156, Firefox 157 and WebKit 27.2 send it. A same-origin link, GET: by the text the SameSite=Strict cookie is not sent; all three send it.",
+      "correction": "Decide cross-site GET navigations before the general cross-site case, and give other navigations the full mode."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-02",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Fetch Standard (whatwg/fetch, commit 59afe34)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "main at commit 59afe34",
+        "locator": "Fetch, determine the same-site mode, step 2",
+        "text": "If request's top-level navigation initiator origin is not null and is not same site with request's URL's origin, then return \"unset-or-less\".",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/whatwg/fetch/59afe349913d56898c947576216f1c2579308be7/fetch.bs",
+        "sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+        "retrieved": "2026-11-02",
+        "copy": "sources/ffa13a962874f83f-fetch-59afe34.bs",
+        "copy_sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Fetch Standard (whatwg/fetch, commit 59afe34)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "main at commit 59afe34",
+        "locator": "Fetch, determine the same-site mode, step 3",
+        "text": "If request's method is \"GET\" and request's destination is \"document\", then return \"lax-or-less\".",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/whatwg/fetch/59afe349913d56898c947576216f1c2579308be7/fetch.bs",
+        "sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+        "retrieved": "2026-11-02",
+        "copy": "sources/ffa13a962874f83f-fetch-59afe34.bs",
+        "copy_sha256": "ffa13a962874f83fab93e10206727173ce1262e5e6725720148b8849f4092121",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-02T13:46:59Z",
+      "institution": "Fetch Standard editors",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/whatwg/fetch/issues/1965"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Fetch Standard editors",
+      "role": "maintain the document"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-02",
+  "ai_role": {
+    "en": "AI agents read the documents, wrote the scenarios and the tests, and ran them in three browsers. An AI coordinator and two independent AI checks compared each place against the text at the pinned commit and against the repository's issues before filing."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [
+    {
+      "title": "Report",
+      "url": "https://github.com/whatwg/fetch/issues/1965"
+    },
+    {
+      "title": "Browser tests",
+      "url": "https://github.com/web-platform-tests/wpt/pull/64550"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-02T14:10:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "reported",
+      "text": "Reported to Fetch Standard editors (public issue tracker)"
+    }
+  ]
+}
