@@ -1,0 +1,173 @@
+{
+  "id": "ARXO-2026-0645",
+  "url": "https://arxo.io/findings/ARXO-2026-0645/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "Consensus specifications",
+  "issuer": {
+    "name": "Ethereum protocol specifications",
+    "short": "Ethereum",
+    "kind": "standards_body",
+    "url": "https://github.com/ethereum"
+  },
+  "act": "Ethereum consensus specifications, Gloas (commit 204fb4a)",
+  "acts": [
+    "Ethereum consensus specifications",
+    "EIP-7732: Enshrined Proposer-Builder Separation"
+  ],
+  "location": "Gloas and Fulu networking: data column request and response",
+  "text": {
+    "en": {
+      "title": "Gloas networking: the data column request protocols are not updated for the new data column sidecar",
+      "summary": "Gloas removes the signed block header, the KZG commitments and the inclusion proof from DataColumnSidecar and adds the slot and the beacon block root. The Gloas request and response section updates the block request protocols with a Gloas row, but says nothing about DataColumnSidecarsByRange and DataColumnSidecarsByRoot, which stay as defined in Fulu. Their context epoch is read from the signed block header, their type table maps every epoch from the Fulu fork on to the Fulu sidecar, and the reader is told to check the inclusion proof, which a Gloas sidecar does not have.",
+      "impact": "For a response that carries a Gloas sidecar the text gives no context epoch, no type and no applicable check, so each client has to choose them on its own.",
+      "correction": "Add Gloas sections for both protocols: the context epoch from the slot of the sidecar, a type table with a Gloas row, and checks that take the KZG commitments from the bid of the block named by the beacon block root, with no inclusion proof."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-02",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Gloas -- Networking (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas p2p-interface.md, modified data column sidecar, lines 137-139",
+        "text": "The `signed_block_header`, `kzg_commitments`, and `kzg_commitments_inclusion_proof` fields have been removed from `DataColumnSidecar` in Gloas",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/p2p-interface.md",
+        "sha256": "65aaaddcdc3be2421874b9aca72459384d8aa458088275a0b60869807c2b486d",
+        "retrieved": "2026-11-02",
+        "copy": "sources/65aaaddcdc3be242-p2p-interface.md",
+        "copy_sha256": "65aaaddcdc3be2421874b9aca72459384d8aa458088275a0b60869807c2b486d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Fulu -- Networking (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Fulu p2p-interface.md, data column sidecars by range, lines 700-702",
+        "text": "For each successful `response_chunk`, the `ForkDigest` context epoch is determined by `compute_epoch_at_slot(data_column_sidecar.signed_block_header.message.slot)`.",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/fulu/p2p-interface.md",
+        "sha256": "fb41d3edeaed04d19ae5682941b93777389ed4604c9aee7726e61be500109c15",
+        "retrieved": "2026-11-02",
+        "copy": "sources/fb41d3edeaed04d1-p2p-interface.md",
+        "copy_sha256": "fb41d3edeaed04d19ae5682941b93777389ed4604c9aee7726e61be500109c15",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Fulu -- Networking (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Fulu p2p-interface.md, data column sidecars by range, type table, line 710",
+        "text": "| `FULU_FORK_EPOCH` and later | `fulu.DataColumnSidecar` |",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/fulu/p2p-interface.md",
+        "sha256": "fb41d3edeaed04d19ae5682941b93777389ed4604c9aee7726e61be500109c15",
+        "retrieved": "2026-11-02",
+        "copy": "sources/fb41d3edeaed04d1-p2p-interface.md",
+        "copy_sha256": "fb41d3edeaed04d19ae5682941b93777389ed4604c9aee7726e61be500109c15",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q4",
+        "source": "Fulu -- Networking (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Fulu p2p-interface.md, data column sidecars by range, reader checks, lines 632-634",
+        "text": "the response reader SHOULD verify the data column sidecar is well-formatted through `verify_data_column_sidecar`, has valid inclusion proof through `verify_data_column_sidecar_inclusion_proof`",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/fulu/p2p-interface.md",
+        "sha256": "fb41d3edeaed04d19ae5682941b93777389ed4604c9aee7726e61be500109c15",
+        "retrieved": "2026-11-02",
+        "copy": "sources/fb41d3edeaed04d1-p2p-interface.md",
+        "copy_sha256": "fb41d3edeaed04d19ae5682941b93777389ed4604c9aee7726e61be500109c15",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q5",
+        "source": "Gloas -- Networking (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas p2p-interface.md, blocks by range, lines 1360-1361",
+        "text": "The Gloas fork-digest is introduced to the `context` enum to specify Gloas beacon block type.",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/p2p-interface.md",
+        "sha256": "65aaaddcdc3be2421874b9aca72459384d8aa458088275a0b60869807c2b486d",
+        "retrieved": "2026-11-02",
+        "copy": "sources/65aaaddcdc3be242-p2p-interface.md",
+        "copy_sha256": "65aaaddcdc3be2421874b9aca72459384d8aa458088275a0b60869807c2b486d",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-02T09:23:54Z",
+      "institution": "Ethereum consensus specifications maintainers",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/ethereum/consensus-specs/issues/5799"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Ethereum consensus specifications maintainers",
+      "role": "maintain the specification"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-02",
+  "ai_role": {
+    "en": "AI agents read the specifications. An AI coordinator checked each place against the text at the pinned commit and against the repository's issues before the issue was filed."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-02T10:05:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "reported",
+      "text": "Reported to Ethereum consensus specifications maintainers (public issue tracker)"
+    }
+  ]
+}

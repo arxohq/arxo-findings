@@ -1,0 +1,146 @@
+{
+  "id": "ARXO-2026-0640",
+  "url": "https://arxo.io/findings/ARXO-2026-0640/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "Consensus specifications",
+  "issuer": {
+    "name": "Ethereum protocol specifications",
+    "short": "Ethereum",
+    "kind": "standards_body",
+    "url": "https://github.com/ethereum"
+  },
+  "act": "Ethereum consensus specifications, Gloas (commit 204fb4a)",
+  "acts": [
+    "Ethereum consensus specifications",
+    "EIP-7732: Enshrined Proposer-Builder Separation"
+  ],
+  "location": "Gloas fork logic (upgrade) and beacon chain (slot processing, attestation flags)",
+  "text": {
+    "en": {
+      "title": "Gloas: the payload availability bit of the fork slot is never cleared",
+      "summary": "The Gloas upgrade sets every bit of the payload availability vector to 1. After that, the processing of each slot clears the bit of the next slot. The bit of the fork slot would be cleared while the last Fulu slot is processed, but that slot runs under the Fulu rules, before the upgrade, so the bit stays 1 even when the payload of the fork block is never revealed. Attestation rewards read this bit to decide whether a vote matches the payload status. The case differs from issue 5661, where the last Fulu slot is empty and the bit belongs to a Fulu slot.",
+      "impact": "Minimal preset, fork at slot 16: block 16 is applied and its payload is withheld, slot 17 is empty, and block 18 builds on block 16 without its payload. Honest attesters of slot 17 who saw no payload vote index 0 and get the timely head flag in 0 of 4 cases; attesters who vote index 1 get it in 4 of 4. The same shape at slot 20 gives the reverse result, 4 of 4 for index 0.",
+      "correction": "Clear the bit of the fork slot in the Gloas upgrade function. The bits of the Fulu slots stay 1, because Fulu blocks carry their payload. With this one-line change the fork slot gives the same result as slot 20."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-02",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Gloas -- Fork Logic (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas fork.md, upgrade function, lines 200-202",
+        "text": "execution_payload_availability=ExecutionPayloadAvailability( data=[0b1 for _ in range(SLOTS_PER_HISTORICAL_ROOT)]",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/fork.md",
+        "sha256": "3d21b873c2f8353fa44c46c4eede85aa71890eedd91e19d0f4d688741cdb41f5",
+        "retrieved": "2026-11-02",
+        "copy": "sources/3d21b873c2f8353f-fork.md",
+        "copy_sha256": "3d21b873c2f8353fa44c46c4eede85aa71890eedd91e19d0f4d688741cdb41f5",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Gloas -- The Beacon Chain (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas beacon-chain.md, slot processing, lines 1620-1622",
+        "text": "# Unset the next payload availability next_slot_index = (state.slot + 1) % SLOTS_PER_HISTORICAL_ROOT state.execution_payload_availability[next_slot_index] = Boolean(False)",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/beacon-chain.md",
+        "sha256": "e0e6ae212fa6981c3e4954975cda3baf138953fb9a0862c59c08b7c4b05ea340",
+        "retrieved": "2026-11-02",
+        "copy": "sources/e0e6ae212fa6981c-beacon-chain.md",
+        "copy_sha256": "e0e6ae212fa6981c3e4954975cda3baf138953fb9a0862c59c08b7c4b05ea340",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Gloas -- The Beacon Chain (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas beacon-chain.md, attestation participation flags, lines 1366-1368",
+        "text": "slot_index = parent_slot % SLOTS_PER_HISTORICAL_ROOT payload_index = state.execution_payload_availability[slot_index] payload_matches = Uint64(data.index) == Uint64(payload_index)",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/beacon-chain.md",
+        "sha256": "e0e6ae212fa6981c3e4954975cda3baf138953fb9a0862c59c08b7c4b05ea340",
+        "retrieved": "2026-11-02",
+        "copy": "sources/e0e6ae212fa6981c-beacon-chain.md",
+        "copy_sha256": "e0e6ae212fa6981c3e4954975cda3baf138953fb9a0862c59c08b7c4b05ea340",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": true,
+  "notified": [
+    {
+      "date": "2026-11-02T09:23:05Z",
+      "institution": "Ethereum consensus specifications maintainers",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/ethereum/consensus-specs/issues/5794"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Ethereum consensus specifications maintainers",
+      "role": "maintain the specification"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-02",
+  "ai_role": {
+    "en": "AI agents read the specifications and wrote the reproduction, which was run on the executable Python specification. An AI coordinator checked each place against the text at the pinned commit and against the repository's issues before the issue was filed."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [
+    {
+      "title": "Reproduction script and output in the issue",
+      "url": "https://github.com/ethereum/consensus-specs/issues/5794"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-02T10:05:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "reported",
+      "text": "Reported to Ethereum consensus specifications maintainers (public issue tracker)"
+    }
+  ]
+}

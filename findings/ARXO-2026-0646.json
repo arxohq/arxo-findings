@@ -1,0 +1,141 @@
+{
+  "id": "ARXO-2026-0646",
+  "url": "https://arxo.io/findings/ARXO-2026-0646/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "EIPs",
+  "issuer": {
+    "name": "Ethereum protocol specifications",
+    "short": "Ethereum",
+    "kind": "standards_body",
+    "url": "https://github.com/ethereum"
+  },
+  "act": "EIP-7732: Enshrined Proposer-Builder Separation (commit dc5d5fa)",
+  "acts": [
+    "Ethereum consensus specifications",
+    "EIP-7732: Enshrined Proposer-Builder Separation"
+  ],
+  "location": "EIP-7732, Fork transition, against Gloas fork logic",
+  "text": {
+    "en": {
+      "title": "EIP-7732: the fork onboarding text still excludes keys of existing validators",
+      "summary": "EIP-7732 says that at the fork, pending deposits with the builder withdrawal prefix are converted to builders only if their public key does not belong to an existing or pending validator. Pull request 5736 in the consensus specifications, merged on 26 October 2026, changed the onboarding function on purpose: a valid builder deposit registers or tops up a builder even if a validator uses the same key, and a builder deposit for an existing builder tops it up regardless of signature. For a key that already belongs to a validator, the EIP now says the opposite of the specification.",
+      "impact": "A pending deposit with the builder prefix and a valid signature, for the key of an existing validator: by the EIP it is not converted; by the specification it registers a builder.",
+      "correction": "Reword the sentence to match the specification: a builder deposit tops up the builder with the same key; otherwise it registers a new builder if its signature is valid, even if a validator uses the same key; other deposits stay in the validator queue."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-02",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "EIP-7732: Enshrined Proposer-Builder Separation (ethereum/EIPs, commit dc5d5fa)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit dc5d5fa (Last Call)",
+        "locator": "EIP-7732, Specification, Fork transition, line 442",
+        "text": "Pending deposits in the beacon state with `BUILDER_WITHDRAWAL_PREFIX` withdrawal credentials, whose public key does not belong to an existing or pending validator, are converted to builders.",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/EIPs/dc5d5fa688b7fe87b95a907fcc128b4fde2f4d2f/EIPS/eip-7732.md",
+        "sha256": "0b147a11e313e11713479bd4a9e09983929eb54afaa9dd962d7857832918d49c",
+        "retrieved": "2026-11-02",
+        "copy": "sources/0b147a11e313e117-eip-7732.md",
+        "copy_sha256": "0b147a11e313e11713479bd4a9e09983929eb54afaa9dd962d7857832918d49c",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Gloas -- Fork Logic (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas fork.md, builder onboarding at the fork, line 95",
+        "text": "if deposit.pubkey not in builder_pubkeys:",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/fork.md",
+        "sha256": "3d21b873c2f8353fa44c46c4eede85aa71890eedd91e19d0f4d688741cdb41f5",
+        "retrieved": "2026-11-02",
+        "copy": "sources/3d21b873c2f8353f-fork.md",
+        "copy_sha256": "3d21b873c2f8353fa44c46c4eede85aa71890eedd91e19d0f4d688741cdb41f5",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Gloas -- Fork Logic (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas fork.md, builder onboarding at the fork, lines 102-106",
+        "text": "# Preserve validator top-ups when no builder can receive them. if deposit.pubkey in validator_pubkeys or is_pending_validator( pending_deposits, deposit.pubkey ): pending_deposits.append(deposit)",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/fork.md",
+        "sha256": "3d21b873c2f8353fa44c46c4eede85aa71890eedd91e19d0f4d688741cdb41f5",
+        "retrieved": "2026-11-02",
+        "copy": "sources/3d21b873c2f8353f-fork.md",
+        "copy_sha256": "3d21b873c2f8353fa44c46c4eede85aa71890eedd91e19d0f4d688741cdb41f5",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-02T09:24:10Z",
+      "institution": "EIP editors",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/ethereum/EIPs/issues/12607"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "EIP editors",
+      "role": "maintain the EIPs repository, where EIP-7732 is published"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-02",
+  "ai_role": {
+    "en": "AI agents read the specifications. An AI coordinator checked each place against the text at the pinned commit and against the repository's issues before the issue was filed."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-02T10:05:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "reported",
+      "text": "Reported to EIP editors (public issue tracker)"
+    }
+  ]
+}

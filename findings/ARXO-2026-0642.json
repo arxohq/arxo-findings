@@ -1,0 +1,162 @@
+{
+  "id": "ARXO-2026-0642",
+  "url": "https://arxo.io/findings/ARXO-2026-0642/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "Consensus specifications",
+  "issuer": {
+    "name": "Ethereum protocol specifications",
+    "short": "Ethereum",
+    "kind": "standards_body",
+    "url": "https://github.com/ethereum"
+  },
+  "act": "Ethereum consensus specifications, Gloas (commit 204fb4a)",
+  "acts": [
+    "Ethereum consensus specifications",
+    "EIP-7732: Enshrined Proposer-Builder Separation"
+  ],
+  "location": "Gloas honest builder guide (bid signature) against the beacon chain (bid verification)",
+  "text": {
+    "en": {
+      "title": "Gloas: a builder bid for the fork slot is signed with the Fulu fork version and fails verification",
+      "summary": "The honest builder guide signs a bid with the domain of the state the builder works with, and the steps before it take that state from the head of the chain. For a bid for the fork slot the head is the last Fulu block, so the domain uses the Fulu fork version, although the epoch passed in is the Gloas fork epoch. The block that includes the bid is processed on the upgraded state, where verification uses the Gloas fork version, so the signature does not verify and the block is rejected. Proposer preferences (issues 5656 and 5665) and inclusion lists (pull request 5721) had the same problem and were fixed by taking the version from the epoch; bids were not changed. Bid gossip also ignores bids for the fork slot today (issue 5795), so the problem shows once that is fixed, or for bids that reach the proposer another way.",
+      "impact": "Minimal preset, fork at epoch 2: the same bid for the fork slot, verified on the upgraded state, is invalid when signed with the head state and valid when signed with the upgraded state.",
+      "correction": "Compute the domain from the fork version of the epoch of the bid, as was done for proposer preferences."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-02",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Gloas -- Honest Builder (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas builder.md, bid signature, line 166",
+        "text": "domain = get_domain(state, DOMAIN_BEACON_BUILDER, compute_epoch_at_slot(bid.slot))",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/builder.md",
+        "sha256": "a08ef2b79c90b0ec7658fb94c87a0732d1351276dacf1dc22e75042c0101cd7d",
+        "retrieved": "2026-11-02",
+        "copy": "sources/a08ef2b79c90b0ec-builder.md",
+        "copy_sha256": "a08ef2b79c90b0ec7658fb94c87a0732d1351276dacf1dc22e75042c0101cd7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Gloas -- Honest Builder (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas builder.md, bid construction step 02, lines 118-120",
+        "text": "Set `bid.parent_block_root` to be the head of the consensus chain. This can be obtained from the beacon state as `hash_tree_root(state.latest_block_header)`.",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/builder.md",
+        "sha256": "a08ef2b79c90b0ec7658fb94c87a0732d1351276dacf1dc22e75042c0101cd7d",
+        "retrieved": "2026-11-02",
+        "copy": "sources/a08ef2b79c90b0ec-builder.md",
+        "copy_sha256": "a08ef2b79c90b0ec7658fb94c87a0732d1351276dacf1dc22e75042c0101cd7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Gloas -- The Beacon Chain (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas beacon-chain.md, bid signature verification, lines 2153-2155",
+        "text": "signing_root = compute_signing_root( signed_bid.message, get_domain(state, DOMAIN_BEACON_BUILDER) )",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/beacon-chain.md",
+        "sha256": "e0e6ae212fa6981c3e4954975cda3baf138953fb9a0862c59c08b7c4b05ea340",
+        "retrieved": "2026-11-02",
+        "copy": "sources/e0e6ae212fa6981c-beacon-chain.md",
+        "copy_sha256": "e0e6ae212fa6981c3e4954975cda3baf138953fb9a0862c59c08b7c4b05ea340",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q4",
+        "source": "Gloas -- The Beacon Chain (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas beacon-chain.md, bid processing, line 2181",
+        "text": "assert verify_execution_payload_bid_signature(state, signed_bid)",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/beacon-chain.md",
+        "sha256": "e0e6ae212fa6981c3e4954975cda3baf138953fb9a0862c59c08b7c4b05ea340",
+        "retrieved": "2026-11-02",
+        "copy": "sources/e0e6ae212fa6981c-beacon-chain.md",
+        "copy_sha256": "e0e6ae212fa6981c3e4954975cda3baf138953fb9a0862c59c08b7c4b05ea340",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": true,
+  "notified": [
+    {
+      "date": "2026-11-02T09:23:36Z",
+      "institution": "Ethereum consensus specifications maintainers",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/ethereum/consensus-specs/issues/5796"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Ethereum consensus specifications maintainers",
+      "role": "maintain the specification"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-02",
+  "ai_role": {
+    "en": "AI agents read the specifications and wrote the reproduction, which was run on the executable Python specification. An AI coordinator checked each place against the text at the pinned commit and against the repository's issues before the issue was filed."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [
+    {
+      "title": "Reproduction script and output in the issue",
+      "url": "https://github.com/ethereum/consensus-specs/issues/5796"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-02T10:05:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "reported",
+      "text": "Reported to Ethereum consensus specifications maintainers (public issue tracker)"
+    }
+  ]
+}

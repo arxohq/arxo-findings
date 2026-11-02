@@ -1,0 +1,178 @@
+{
+  "id": "ARXO-2026-0643",
+  "url": "https://arxo.io/findings/ARXO-2026-0643/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "Consensus specifications",
+  "issuer": {
+    "name": "Ethereum protocol specifications",
+    "short": "Ethereum",
+    "kind": "standards_body",
+    "url": "https://github.com/ethereum"
+  },
+  "act": "Ethereum consensus specifications, Gloas (commit 204fb4a)",
+  "acts": [
+    "Ethereum consensus specifications",
+    "EIP-7732: Enshrined Proposer-Builder Separation"
+  ],
+  "location": "Gloas and Fulu networking: executable gossip checks",
+  "text": {
+    "en": {
+      "title": "Executable gossip checks take the signature domain from the head state, so the opening block of a fork fails the proposer signature check",
+      "summary": "The executable block gossip check in Gloas takes the state of the current head and computes the proposer signature domain from it. When the opening block of a fork arrives, the head is still the last block of the previous fork, and the domain takes the previous fork version from that state. A valid signature does not verify, and the block is rejected as having an invalid proposer signature. The same pattern is in the Gloas checks for aggregates, payload attestations and attestations, and in the Fulu checks for blocks and data column sidecars. Clients do not follow this text literally, since Fulu blocks propagated, but the next fork will copy it, and test generators that run these functions across a fork will reject valid messages.",
+      "impact": "Minimal preset, fork at epoch 2: the proposer signature of a valid initial Gloas block is invalid when checked with the head state, as the text says, and valid when checked with the state of the block.",
+      "correction": "Compute the domain from the fork version of the epoch of the message, as was done for proposer preferences, in each of the listed checks."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-02",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Gloas -- Networking (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas p2p-interface.md, block gossip, line 614",
+        "text": "state = store.block_states[get_head(store).root]",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/p2p-interface.md",
+        "sha256": "65aaaddcdc3be2421874b9aca72459384d8aa458088275a0b60869807c2b486d",
+        "retrieved": "2026-11-02",
+        "copy": "sources/65aaaddcdc3be242-p2p-interface.md",
+        "copy_sha256": "65aaaddcdc3be2421874b9aca72459384d8aa458088275a0b60869807c2b486d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Gloas -- Networking (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas p2p-interface.md, block gossip, proposer signature, line 622",
+        "text": "domain = get_domain(state, DOMAIN_BEACON_PROPOSER, compute_epoch_at_slot(block.slot))",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/p2p-interface.md",
+        "sha256": "65aaaddcdc3be2421874b9aca72459384d8aa458088275a0b60869807c2b486d",
+        "retrieved": "2026-11-02",
+        "copy": "sources/65aaaddcdc3be242-p2p-interface.md",
+        "copy_sha256": "65aaaddcdc3be2421874b9aca72459384d8aa458088275a0b60869807c2b486d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Gloas -- Networking (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas p2p-interface.md, block gossip, proposer signature, line 625",
+        "text": "raise GossipReject(\"invalid proposer signature\")",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/p2p-interface.md",
+        "sha256": "65aaaddcdc3be2421874b9aca72459384d8aa458088275a0b60869807c2b486d",
+        "retrieved": "2026-11-02",
+        "copy": "sources/65aaaddcdc3be242-p2p-interface.md",
+        "copy_sha256": "65aaaddcdc3be2421874b9aca72459384d8aa458088275a0b60869807c2b486d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q4",
+        "source": "Fulu -- Networking (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Fulu p2p-interface.md, block gossip, proposer signature, line 365",
+        "text": "domain = get_domain(state, DOMAIN_BEACON_PROPOSER, compute_epoch_at_slot(block.slot))",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/fulu/p2p-interface.md",
+        "sha256": "fb41d3edeaed04d19ae5682941b93777389ed4604c9aee7726e61be500109c15",
+        "retrieved": "2026-11-02",
+        "copy": "sources/fb41d3edeaed04d1-p2p-interface.md",
+        "copy_sha256": "fb41d3edeaed04d19ae5682941b93777389ed4604c9aee7726e61be500109c15",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q5",
+        "source": "Gloas -- Networking (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas p2p-interface.md, proposer preferences gossip, lines 1163-1166",
+        "text": "domain = compute_domain( DOMAIN_PROPOSER_PREFERENCES, compute_fork_version(proposal_epoch), state.genesis_validators_root,",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/p2p-interface.md",
+        "sha256": "65aaaddcdc3be2421874b9aca72459384d8aa458088275a0b60869807c2b486d",
+        "retrieved": "2026-11-02",
+        "copy": "sources/65aaaddcdc3be242-p2p-interface.md",
+        "copy_sha256": "65aaaddcdc3be2421874b9aca72459384d8aa458088275a0b60869807c2b486d",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": true,
+  "notified": [
+    {
+      "date": "2026-11-02T09:23:50Z",
+      "institution": "Ethereum consensus specifications maintainers",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/ethereum/consensus-specs/issues/5797"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Ethereum consensus specifications maintainers",
+      "role": "maintain the specification"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-02",
+  "ai_role": {
+    "en": "AI agents read the specifications and wrote the reproduction, which was run on the executable Python specification. An AI coordinator checked each place against the text at the pinned commit and against the repository's issues before the issue was filed."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [
+    {
+      "title": "Reproduction script and output in the issue",
+      "url": "https://github.com/ethereum/consensus-specs/issues/5797"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-02T10:05:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "reported",
+      "text": "Reported to Ethereum consensus specifications maintainers (public issue tracker)"
+    }
+  ]
+}

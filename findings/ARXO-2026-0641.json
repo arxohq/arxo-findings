@@ -1,0 +1,251 @@
+{
+  "id": "ARXO-2026-0641",
+  "url": "https://arxo.io/findings/ARXO-2026-0641/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "Consensus specifications",
+  "issuer": {
+    "name": "Ethereum protocol specifications",
+    "short": "Ethereum",
+    "kind": "standards_body",
+    "url": "https://github.com/ethereum"
+  },
+  "act": "Ethereum consensus specifications, Gloas (commit 204fb4a)",
+  "acts": [
+    "Ethereum consensus specifications",
+    "EIP-7732: Enshrined Proposer-Builder Separation"
+  ],
+  "location": "Gloas fork choice, honest validator guide and networking (bid gossip)",
+  "text": {
+    "en": {
+      "title": "Gloas fork choice and honest validator rules do not cover Fulu blocks and Fulu store entries at the fork",
+      "summary": "Issue 5096 and the open pull request 5125 cover one place where Gloas fork choice reads the bid field of a Fulu parent block. The text has further places of this kind. The finalized and safe execution block hashes for the execution layer are read from the bid field of blocks that stay Fulu blocks for at least two epochs after the fork. Bid gossip ignores every bid for the fork slot, because only envelopes fill the list of known payloads and the last Fulu payload never arrives in an envelope. Fork choice gives a Fulu head only an EMPTY child, since a Fulu block never has an envelope, so the honest validator guide tells the proposer of the initial Gloas block to use the parent hash of the last Fulu payload, while the state transition requires the hash of that payload itself. The fork-choice store has no conversion at the fork, although the types of block timeliness and latest messages change in Gloas.",
+      "impact": "Minimal preset, fork at epoch 2: the initial Gloas block built with the parent block hash from the EMPTY branch of the validator guide is invalid; the same block built with the FULL branch is valid. The fork-choice half is shown by the text, not by execution.",
+      "correction": "Add a short fork transition section to the fork-choice text: how existing store entries are converted, whether a Fulu block counts as FULL in Gloas fork choice (or a pre-Gloas exception in the validator guide), and one helper that returns the execution block hash of a block of either fork."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-02",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Gloas -- Honest Validator (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas validator.md, bid parent block hash, lines 217-220",
+        "text": "The `bid.parent_block_hash` equals `state.latest_execution_payload_bid.block_hash` if `should_build_on_full(store, head, state.slot)` is true, otherwise `state.latest_execution_payload_bid.parent_block_hash`.",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/validator.md",
+        "sha256": "aa6fbb4c23b218dfaa439bcd2687621fcb2b856c686e136e6acca9cbbad93023",
+        "retrieved": "2026-11-02",
+        "copy": "sources/aa6fbb4c23b218df-validator.md",
+        "copy_sha256": "aa6fbb4c23b218dfaa439bcd2687621fcb2b856c686e136e6acca9cbbad93023",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Gloas -- Fork Choice (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas fork-choice.md, payload verified, line 320",
+        "text": "return root in store.payloads",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/fork-choice.md",
+        "sha256": "7129a03500b431cad6f8af3aad67a3fec504837a994e1b2190cc8cf3dde0b9fa",
+        "retrieved": "2026-11-02",
+        "copy": "sources/7129a03500b431ca-fork-choice.md",
+        "copy_sha256": "7129a03500b431cad6f8af3aad67a3fec504837a994e1b2190cc8cf3dde0b9fa",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Gloas -- Fork Choice (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas fork-choice.md, build on full, lines 479-480",
+        "text": "if head.payload_status == PAYLOAD_STATUS_EMPTY: return False",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/fork-choice.md",
+        "sha256": "7129a03500b431cad6f8af3aad67a3fec504837a994e1b2190cc8cf3dde0b9fa",
+        "retrieved": "2026-11-02",
+        "copy": "sources/7129a03500b431ca-fork-choice.md",
+        "copy_sha256": "7129a03500b431cad6f8af3aad67a3fec504837a994e1b2190cc8cf3dde0b9fa",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q4",
+        "source": "Gloas -- Fork Logic (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas fork.md, upgrade function, line 178",
+        "text": "latest_block_hash=pre.latest_execution_payload_header.block_hash,",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/fork.md",
+        "sha256": "3d21b873c2f8353fa44c46c4eede85aa71890eedd91e19d0f4d688741cdb41f5",
+        "retrieved": "2026-11-02",
+        "copy": "sources/3d21b873c2f8353f-fork.md",
+        "copy_sha256": "3d21b873c2f8353fa44c46c4eede85aa71890eedd91e19d0f4d688741cdb41f5",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q5",
+        "source": "Gloas -- The Beacon Chain (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas beacon-chain.md, bid processing, line 2193",
+        "text": "assert bid.parent_block_hash == state.latest_block_hash",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/beacon-chain.md",
+        "sha256": "e0e6ae212fa6981c3e4954975cda3baf138953fb9a0862c59c08b7c4b05ea340",
+        "retrieved": "2026-11-02",
+        "copy": "sources/e0e6ae212fa6981c-beacon-chain.md",
+        "copy_sha256": "e0e6ae212fa6981c3e4954975cda3baf138953fb9a0862c59c08b7c4b05ea340",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q6",
+        "source": "Gloas -- Fork Choice (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas fork-choice.md, finalized block hash for the execution layer, line 126",
+        "text": "`finalized_block_bid = finalized_block.body.signed_execution_payload_bid.message`.",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/fork-choice.md",
+        "sha256": "7129a03500b431cad6f8af3aad67a3fec504837a994e1b2190cc8cf3dde0b9fa",
+        "retrieved": "2026-11-02",
+        "copy": "sources/7129a03500b431ca-fork-choice.md",
+        "copy_sha256": "7129a03500b431cad6f8af3aad67a3fec504837a994e1b2190cc8cf3dde0b9fa",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q7",
+        "source": "Gloas -- Networking (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas p2p-interface.md, bid gossip, lines 1029-1030",
+        "text": "# [IGNORE] The bid's parent block hash is the hash of a known execution payload if bid.parent_block_hash not in seen.execution_payloads:",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/p2p-interface.md",
+        "sha256": "65aaaddcdc3be2421874b9aca72459384d8aa458088275a0b60869807c2b486d",
+        "retrieved": "2026-11-02",
+        "copy": "sources/65aaaddcdc3be242-p2p-interface.md",
+        "copy_sha256": "65aaaddcdc3be2421874b9aca72459384d8aa458088275a0b60869807c2b486d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q8",
+        "source": "Gloas -- Fork Choice (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas fork-choice.md, store, line 204",
+        "text": "block_timeliness: dict[Root, list[bool]]",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/fork-choice.md",
+        "sha256": "7129a03500b431cad6f8af3aad67a3fec504837a994e1b2190cc8cf3dde0b9fa",
+        "retrieved": "2026-11-02",
+        "copy": "sources/7129a03500b431ca-fork-choice.md",
+        "copy_sha256": "7129a03500b431cad6f8af3aad67a3fec504837a994e1b2190cc8cf3dde0b9fa",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q9",
+        "source": "Phase 0 -- Beacon Chain Fork Choice (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Phase 0 fork-choice.md, store, line 201",
+        "text": "block_timeliness: dict[Root, bool]",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/phase0/fork-choice.md",
+        "sha256": "f784d189e7a1b6aac4f374564f3880cd575b911fdd8930732efb21a179cb0824",
+        "retrieved": "2026-11-02",
+        "copy": "sources/f784d189e7a1b6aa-fork-choice.md",
+        "copy_sha256": "f784d189e7a1b6aac4f374564f3880cd575b911fdd8930732efb21a179cb0824",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-02T09:23:21Z",
+      "institution": "Ethereum consensus specifications maintainers",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/ethereum/consensus-specs/issues/5795"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Ethereum consensus specifications maintainers",
+      "role": "maintain the specification"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-02",
+  "ai_role": {
+    "en": "AI agents read the specifications and wrote the reproduction, which was run on the executable Python specification. An AI coordinator checked each place against the text at the pinned commit and against the repository's issues before the issue was filed."
+  },
+  "credit": [
+    {
+      "who": "michaelsproul (ethereum/consensus-specs issue 5096)",
+      "date": "2026-04-12",
+      "url": "https://github.com/ethereum/consensus-specs/issues/5096",
+      "note": {
+        "en": "Described the read of the bid field of a Fulu parent block in Gloas fork choice at the fork; this record covers further places of the same kind."
+      }
+    }
+  ],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [
+    {
+      "title": "Reproduction script and output in the issue",
+      "url": "https://github.com/ethereum/consensus-specs/issues/5795"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-02T10:05:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "reported",
+      "text": "Reported to Ethereum consensus specifications maintainers (public issue tracker)"
+    }
+  ]
+}

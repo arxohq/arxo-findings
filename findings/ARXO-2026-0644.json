@@ -1,0 +1,178 @@
+{
+  "id": "ARXO-2026-0644",
+  "url": "https://arxo.io/findings/ARXO-2026-0644/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "Consensus specifications",
+  "issuer": {
+    "name": "Ethereum protocol specifications",
+    "short": "Ethereum",
+    "kind": "standards_body",
+    "url": "https://github.com/ethereum"
+  },
+  "act": "Ethereum consensus specifications, Gloas (commit 204fb4a)",
+  "acts": [
+    "Ethereum consensus specifications",
+    "EIP-7732: Enshrined Proposer-Builder Separation"
+  ],
+  "location": "Gloas honest builder guide (onboarding note) against the Electra and Gloas beacon chain",
+  "text": {
+    "en": {
+      "title": "Gloas: the builder onboarding note describes a deposit window that is empty unless the deposit queue has a backlog",
+      "summary": "The honest builder guide says a builder can be onboarded at the fork with a deposit made late enough to be still pending at the fork, but early enough that its slot is finalized, so that the builder is active. Without a backlog in the pending deposit queue no slot meets both conditions: Fulu applies every pending deposit up to the finalized slot, and a builder is active only if its deposit epoch is before the finalized epoch. A deposit that is early enough is applied by Fulu as a validator with a 0xB0 credential, which is not an execution withdrawal credential, so the validator never gets withdrawals. A deposit that is late enough becomes a builder that is not active at the fork. The activation note of the same guide is correct as a condition.",
+      "impact": "Minimal preset, fork at epoch 6, finalized epoch 4 at the upgrade: a deposit in slot 31 becomes validator 64 with a 0xB0 credential and a balance of 32 ETH, and no builder; a deposit in slot 33 becomes builder 0, which is not active at the fork.",
+      "correction": "Tell builders to deposit in the last epoch before the fork, so that the deposit is still pending at the fork and the builder becomes active about two epochs later, and warn that a deposit applied before the fork creates a validator that cannot withdraw. Making builders active from the fork slot would need a change of the rule, which is a design choice."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-02",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Reproduced by execution",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "Gloas -- Honest Builder (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas builder.md, onboarding note, lines 55-59",
+        "text": "Builders may be onboarded at the fork by submitting a deposit to the validator deposit contract with a `BUILDER_WITHDRAWAL_PREFIX` withdrawal credential. This must be done late enough that the deposit is still pending at the fork, but early enough that the slot in which the deposit is added to the pending deposit queue is finalized so that the builder is considered active.",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/builder.md",
+        "sha256": "a08ef2b79c90b0ec7658fb94c87a0732d1351276dacf1dc22e75042c0101cd7d",
+        "retrieved": "2026-11-02",
+        "copy": "sources/a08ef2b79c90b0ec-builder.md",
+        "copy_sha256": "a08ef2b79c90b0ec7658fb94c87a0732d1351276dacf1dc22e75042c0101cd7d",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "Electra -- The Beacon Chain (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Electra beacon-chain.md, pending deposits, lines 1161-1162",
+        "text": "if deposit.slot > finalized_slot: break",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/electra/beacon-chain.md",
+        "sha256": "5ddb1d2cf4f181533f757977c737f294d9211034cf5fd4c259f1cb1b442d2972",
+        "retrieved": "2026-11-02",
+        "copy": "sources/5ddb1d2cf4f18153-beacon-chain.md",
+        "copy_sha256": "5ddb1d2cf4f181533f757977c737f294d9211034cf5fd4c259f1cb1b442d2972",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Gloas -- The Beacon Chain (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas beacon-chain.md, adding a builder, line 2316",
+        "text": "deposit_epoch=compute_epoch_at_slot(slot),",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/beacon-chain.md",
+        "sha256": "e0e6ae212fa6981c3e4954975cda3baf138953fb9a0862c59c08b7c4b05ea340",
+        "retrieved": "2026-11-02",
+        "copy": "sources/e0e6ae212fa6981c-beacon-chain.md",
+        "copy_sha256": "e0e6ae212fa6981c3e4954975cda3baf138953fb9a0862c59c08b7c4b05ea340",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q4",
+        "source": "Gloas -- The Beacon Chain (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas beacon-chain.md, active builder, lines 1060-1061",
+        "text": "# Placement in builder list is finalized builder.deposit_epoch < state.finalized_checkpoint.epoch",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/beacon-chain.md",
+        "sha256": "e0e6ae212fa6981c3e4954975cda3baf138953fb9a0862c59c08b7c4b05ea340",
+        "retrieved": "2026-11-02",
+        "copy": "sources/e0e6ae212fa6981c-beacon-chain.md",
+        "copy_sha256": "e0e6ae212fa6981c3e4954975cda3baf138953fb9a0862c59c08b7c4b05ea340",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q5",
+        "source": "Gloas -- Honest Builder (ethereum/consensus-specs, commit 204fb4a)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "master at commit 204fb4a",
+        "locator": "Gloas builder.md, activation note, lines 83-85",
+        "text": "The builder's `deposit_epoch` is set to the epoch of the pending deposit, not the fork epoch. Therefore, if that epoch is finalized at the fork, the builder will be immediately active.",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/consensus-specs/204fb4a19774eabb7a2e91505365deed6b8afef8/specs/gloas/builder.md",
+        "sha256": "a08ef2b79c90b0ec7658fb94c87a0732d1351276dacf1dc22e75042c0101cd7d",
+        "retrieved": "2026-11-02",
+        "copy": "sources/a08ef2b79c90b0ec-builder.md",
+        "copy_sha256": "a08ef2b79c90b0ec7658fb94c87a0732d1351276dacf1dc22e75042c0101cd7d",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": true,
+  "notified": [
+    {
+      "date": "2026-11-02T09:23:52Z",
+      "institution": "Ethereum consensus specifications maintainers",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/ethereum/consensus-specs/issues/5798"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Ethereum consensus specifications maintainers",
+      "role": "maintain the specification"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-02",
+  "ai_role": {
+    "en": "AI agents read the specifications and wrote the reproduction, which was run on the executable Python specification. An AI coordinator checked each place against the text at the pinned commit and against the repository's issues before the issue was filed."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [
+    {
+      "title": "Reproduction script and output in the issue",
+      "url": "https://github.com/ethereum/consensus-specs/issues/5798"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-02T10:05:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "reported",
+      "text": "Reported to Ethereum consensus specifications maintainers (public issue tracker)"
+    }
+  ]
+}

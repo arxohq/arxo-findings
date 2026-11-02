@@ -5,9 +5,79 @@
   <link rel="alternate" href="https://arxo.io/findings/"/>
   <link rel="self" href="https://arxo.io/findings/feed.atom"/>
   <id>https://arxo.io/findings/</id>
-  <updated>2026-11-01T17:59:00+00:00</updated>
+  <updated>2026-11-02T10:05:00+00:00</updated>
   <author><name>Arxo Law</name></author>
   <rights>Data: CC BY 4.0, Arxo Law</rights>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0646/</id>
+    <title>ARXO-2026-0646 — EIP-7732: the fork onboarding text still excludes keys of existing validators</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0646/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="Ethereum"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. EIP-7732 says that at the fork, pending deposits with the builder withdrawal prefix are converted to builders only if their public key does not belong to an existing or pending validator. Pull request 5736 in the consensus specifications, merged on 26 October 2026, changed the onboarding function on purpose: a valid builder deposit registers or tops up a builder even if a validator uses the same key, and a builder deposit for an existing builder tops it up regardless of signature. For a key that already belongs to a validator, the EIP now says the opposite of the specification.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0645/</id>
+    <title>ARXO-2026-0645 — Gloas networking: the data column request protocols are not updated for the new data column sidecar</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0645/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="Ethereum"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Gloas removes the signed block header, the KZG commitments and the inclusion proof from DataColumnSidecar and adds the slot and the beacon block root. The Gloas request and response section updates the block request protocols with a Gloas row, but says nothing about DataColumnSidecarsByRange and DataColumnSidecarsByRoot, which stay as defined in Fulu. Their context epoch is read from the signed block header, their type table maps every epoch from the Fulu fork on to the Fulu sidecar, and the reader is told to check the inclusion proof, which a Gloas sidecar does not have.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0644/</id>
+    <title>ARXO-2026-0644 — Gloas: the builder onboarding note describes a deposit window that is empty unless the deposit queue has a backlog</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0644/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="Ethereum"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The honest builder guide says a builder can be onboarded at the fork with a deposit made late enough to be still pending at the fork, but early enough that its slot is finalized, so that the builder is active. Without a backlog in the pending deposit queue no slot meets both conditions: Fulu applies every pending deposit up to the finalized slot, and a builder is active only if its deposit epoch is before the finalized epoch. A deposit that is early enough is applied by Fulu as a validator with a 0xB0 credential, which is not an execution withdrawal credential, so the validator never gets withdrawals. A deposit that is late enough becomes a builder that is not active at the fork. The activation note of the same guide is correct as a condition.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0643/</id>
+    <title>ARXO-2026-0643 — Executable gossip checks take the signature domain from the head state, so the opening block of a fork fails the proposer signature check</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0643/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="Ethereum"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The executable block gossip check in Gloas takes the state of the current head and computes the proposer signature domain from it. When the opening block of a fork arrives, the head is still the last block of the previous fork, and the domain takes the previous fork version from that state. A valid signature does not verify, and the block is rejected as having an invalid proposer signature. The same pattern is in the Gloas checks for aggregates, payload attestations and attestations, and in the Fulu checks for blocks and data column sidecars. Clients do not follow this text literally, since Fulu blocks propagated, but the next fork will copy it, and test generators that run these functions across a fork will reject valid messages.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0642/</id>
+    <title>ARXO-2026-0642 — Gloas: a builder bid for the fork slot is signed with the Fulu fork version and fails verification</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0642/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="Ethereum"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The honest builder guide signs a bid with the domain of the state the builder works with, and the steps before it take that state from the head of the chain. For a bid for the fork slot the head is the last Fulu block, so the domain uses the Fulu fork version, although the epoch passed in is the Gloas fork epoch. The block that includes the bid is processed on the upgraded state, where verification uses the Gloas fork version, so the signature does not verify and the block is rejected. Proposer preferences (issues 5656 and 5665) and inclusion lists (pull request 5721) had the same problem and were fixed by taking the version from the epoch; bids were not changed. Bid gossip also ignores bids for the fork slot today (issue 5795), so the problem shows once that is fixed, or for bids that reach the proposer another way.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0641/</id>
+    <title>ARXO-2026-0641 — Gloas fork choice and honest validator rules do not cover Fulu blocks and Fulu store entries at the fork</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0641/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="Ethereum"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Issue 5096 and the open pull request 5125 cover one place where Gloas fork choice reads the bid field of a Fulu parent block. The text has further places of this kind. The finalized and safe execution block hashes for the execution layer are read from the bid field of blocks that stay Fulu blocks for at least two epochs after the fork. Bid gossip ignores every bid for the fork slot, because only envelopes fill the list of known payloads and the last Fulu payload never arrives in an envelope. Fork choice gives a Fulu head only an EMPTY child, since a Fulu block never has an envelope, so the honest validator guide tells the proposer of the initial Gloas block to use the parent hash of the last Fulu payload, while the state transition requires the hash of that payload itself. The fork-choice store has no conversion at the fork, although the types of block timeliness and latest messages change in Gloas.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0640/</id>
+    <title>ARXO-2026-0640 — Gloas: the payload availability bit of the fork slot is never cleared</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0640/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="Ethereum"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The Gloas upgrade sets every bit of the payload availability vector to 1. After that, the processing of each slot clears the bit of the next slot. The bit of the fork slot would be cleared while the last Fulu slot is processed, but that slot runs under the Fulu rules, before the upgrade, so the bit stays 1 even when the payload of the fork block is never revealed. Attestation rewards read this bit to decide whether a vote matches the payload status. The case differs from issue 5661, where the last Fulu slot is empty and the bit belongs to a Fulu slot.</summary>
+  </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0639/</id>
     <title>ARXO-2026-0639 — § 50b EStG still refers to § 24c, repealed in 2007; the draft Annual Tax Act 2026 removes the reference</title>
@@ -2512,7 +2582,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0331/</id>
     <title>ARXO-2026-0331 — raltegravir: wording question in 2.1</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0331/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2522,7 +2592,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0330/</id>
     <title>ARXO-2026-0330 — lorlatinib: Highlights, Dosage and Administration, line &quot;Renal Impairment&quot; and 2.6 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0330/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2532,7 +2602,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0329/</id>
     <title>ARXO-2026-0329 — trace elements injection (zinc): Table 2 and Table 2 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0329/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2542,7 +2612,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0328/</id>
     <title>ARXO-2026-0328 — azacitidine: 2.5 and 2.5 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0328/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2552,7 +2622,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0327/</id>
     <title>ARXO-2026-0327 — potassium phosphates injection: 2.2 has no instruction for a patient the label covers</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0327/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2562,7 +2632,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0326/</id>
     <title>ARXO-2026-0326 — amino acids injection (PROSOL): Table 2 and Table 2 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0326/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2572,7 +2642,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0325/</id>
     <title>ARXO-2026-0325 — emtricitabine: 2.4 and 2.5 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0325/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2582,7 +2652,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0324/</id>
     <title>ARXO-2026-0324 — dronedarone: 7.3 and 7.3 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0324/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2592,7 +2662,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0323/</id>
     <title>ARXO-2026-0323 — pralsetinib: Highlights, Warnings and Precautions has no instruction for a patient the label covers</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0323/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2602,7 +2672,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0322/</id>
     <title>ARXO-2026-0322 — heparin sodium injection: Highlights, Contraindications has no instruction for a patient the label covers</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0322/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2612,7 +2682,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0321/</id>
     <title>ARXO-2026-0321 — PEG 3350 and electrolytes for oral solution: 7.2 and 2.1 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0321/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2622,7 +2692,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0320/</id>
     <title>ARXO-2026-0320 — acamprosate calcium: 2.1 and 4.2 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0320/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2632,7 +2702,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0319/</id>
     <title>ARXO-2026-0319 — oxycodone hydrochloride: Highlights, Drug Interactions has no instruction for a patient the label covers</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0319/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2642,7 +2712,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0318/</id>
     <title>ARXO-2026-0318 — pantoprazole sodium for injection: 2.1 and 12.3 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0318/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2652,7 +2722,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0317/</id>
     <title>ARXO-2026-0317 — lipid injectable emulsion (soybean and olive oils): 2.4, Table 1 and 2.4, Table 1 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0317/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2662,7 +2732,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0316/</id>
     <title>ARXO-2026-0316 — dolutegravir: Highlights and 1 has no instruction for a patient the label covers</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0316/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2672,7 +2742,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0315/</id>
     <title>ARXO-2026-0315 — raltegravir: Table 2 and Table 2 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0315/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2682,7 +2752,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0314/</id>
     <title>ARXO-2026-0314 — bendamustine: Highlights, Use in Specific Populations and 8.7 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0314/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2692,7 +2762,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0313/</id>
     <title>ARXO-2026-0313 — cabozantinib: 2.4 and 2.5 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0313/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2702,7 +2772,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0312/</id>
     <title>ARXO-2026-0312 — glycopyrrolate oral solution: Table 1, 18 to 22 kg, Dose Level 2 has no instruction for a patient the label covers</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0312/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2712,7 +2782,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0311/</id>
     <title>ARXO-2026-0311 — amino acids with electrolytes in dextrose (5/20 formulation): Table 1 and Table 2 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0311/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2722,7 +2792,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0310/</id>
     <title>ARXO-2026-0310 — imipenem and cilastatin: 2.2, Table 2 and 2.2, Table 2 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0310/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2732,7 +2802,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0309/</id>
     <title>ARXO-2026-0309 — remifentanil: 2.7 and Table 2 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0309/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2742,7 +2812,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0308/</id>
     <title>ARXO-2026-0308 — idarubicin: 2.2 and 5.4 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0308/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2752,7 +2822,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0307/</id>
     <title>ARXO-2026-0307 — idarubicin: 2.4, Table 2 and 5.8 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0307/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2762,7 +2832,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0306/</id>
     <title>ARXO-2026-0306 — pregabalin: 2.5, Table 2 and 2.5, Table 2 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0306/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2772,7 +2842,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0305/</id>
     <title>ARXO-2026-0305 — amoxicillin: 2.2 and 8.4 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0305/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2782,7 +2852,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0304/</id>
     <title>ARXO-2026-0304 — amoxicillin: 2.5 and Table 2 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0304/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2792,7 +2862,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0303/</id>
     <title>ARXO-2026-0303 — amoxicillin: Highlights, Dosage and Administration and 2.5 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0303/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2802,7 +2872,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0302/</id>
     <title>ARXO-2026-0302 — dabrafenib: 5.3 and Table 5 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0302/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
@@ -2812,7 +2882,7 @@
     <id>https://arxo.io/findings/ARXO-2026-0301/</id>
     <title>ARXO-2026-0301 — meloxicam tablets: Highlights, Dosage and Administration and 2.4 give different instructions for one patient</title>
     <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0301/"/>
-    <published>2026-11-01T00:00:00Z</published>
+    <published>2026-11-02T00:00:00Z</published>
     <updated>2026-10-31T00:00:00Z</updated>
     <category term="US"/>
     <category term="reported" label="Reported"/>
