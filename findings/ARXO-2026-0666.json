@@ -1,0 +1,211 @@
+{
+  "id": "ARXO-2026-0666",
+  "url": "https://arxo.io/findings/ARXO-2026-0666/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "EIPs",
+  "issuer": {
+    "name": "Ethereum protocol specifications",
+    "short": "Ethereum",
+    "kind": "standards_body",
+    "url": "https://github.com/ethereum"
+  },
+  "act": "EIP-7708: ETH Transfers Emit a Log (commit dc5d5fa)",
+  "acts": [
+    "EIP-7928: Block-Level Access Lists",
+    "EIP-8038: State-Access Gas Cost Update",
+    "EIP-7708: ETH Transfers Emit a Log"
+  ],
+  "location": "EIP-7708, Specification, against its Test Cases and the execution specification",
+  "text": {
+    "en": {
+      "title": "EIP-7708: the transfer log rules do not cover contract-creation transactions and failed frames",
+      "summary": "The list in EIP-7708 covers a value transaction to a different account and the two creation instructions. It does not name a transaction with an empty recipient field, and the execution specification emits the log for it. The Specification section also does not say what happens to the log when a frame fails; only the Test Cases section lists reverts and rolled-back inner calls among the cases with no log. The execution specification drops the log with the failed frame or an enclosing one, and a creation that fails on an address collision emits no log, because the check comes before the transfer.",
+      "impact": "A contract-creation transaction with value: the list does not cover it, while the execution specification and its test emit the log. A call with value that succeeds inside a frame that later reverts: the Specification section is silent, while the execution specification discards the log. Coding agents wrote correct code from the current text, and all three runs raised these cases. With an earlier draft of the proposed text, one of three still did.",
+      "correction": "Add contract-creation transactions to the list, say that a transfer log belongs to the frame in which the transfer executes and is discarded if that frame or an enclosing frame fails, and say that a transaction that fails before its value transfer emits no log. Proposed in pull request 12613, which also asks the authors whether the log of a contract-creation transaction is meant to be free."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-02",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "EIP-7708: ETH Transfers Emit a Log (ethereum/EIPs, commit dc5d5fa)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "commit dc5d5fa (Last Call)",
+        "locator": "EIP-7708, Specification, line 29",
+        "text": "- Any nonzero-value-transferring transaction to a different account, before any other logs created by EVM execution",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/EIPs/dc5d5fa688b7fe87b95a907fcc128b4fde2f4d2f/EIPS/eip-7708.md",
+        "sha256": "95856501ff4103783d792505ee90a6cacfcdbe95c7fb452992fb82258358ca74",
+        "retrieved": "2026-11-02",
+        "copy": "sources/95856501ff410378-eip-7708.md",
+        "copy_sha256": "95856501ff4103783d792505ee90a6cacfcdbe95c7fb452992fb82258358ca74",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "EIP-7708: ETH Transfers Emit a Log (ethereum/EIPs, commit dc5d5fa)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "commit dc5d5fa (Last Call)",
+        "locator": "EIP-7708, Specification, line 32",
+        "text": "- Any nonzero-value-transferring `CREATE` or `CREATE2` to the created account, at the time that the value transfer executes",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/EIPs/dc5d5fa688b7fe87b95a907fcc128b4fde2f4d2f/EIPS/eip-7708.md",
+        "sha256": "95856501ff4103783d792505ee90a6cacfcdbe95c7fb452992fb82258358ca74",
+        "retrieved": "2026-11-02",
+        "copy": "sources/95856501ff410378-eip-7708.md",
+        "copy_sha256": "95856501ff4103783d792505ee90a6cacfcdbe95c7fb452992fb82258358ca74",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "EIP-7708: ETH Transfers Emit a Log (ethereum/EIPs, commit dc5d5fa)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "commit dc5d5fa (Last Call)",
+        "locator": "EIP-7708, Test Cases, line 69",
+        "text": "- Negative cases where no log is emitted (zero-value, reverts, rolled-back inner calls, fee payments)",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/EIPs/dc5d5fa688b7fe87b95a907fcc128b4fde2f4d2f/EIPS/eip-7708.md",
+        "sha256": "95856501ff4103783d792505ee90a6cacfcdbe95c7fb452992fb82258358ca74",
+        "retrieved": "2026-11-02",
+        "copy": "sources/95856501ff410378-eip-7708.md",
+        "copy_sha256": "95856501ff4103783d792505ee90a6cacfcdbe95c7fb452992fb82258358ca74",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q4",
+        "source": "Execution layer tests, Amsterdam, EIP-7708 transfer logs (ethereum/execution-specs, commit 1689800)",
+        "role": "Official program",
+        "language": "en",
+        "edition": "commit 1689800 (forks/amsterdam)",
+        "locator": "Execution layer tests, contract creation transaction, docstring",
+        "text": "Test that contract creation transactions emit logs based on value.",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/execution-specs/16898000911c1e3caa57be08509536c10ae92d3e/tests/amsterdam/eip7708_eth_transfer_logs/test_transfer_logs.py",
+        "sha256": "80f15e513a29d2d4962071e9c2ec99eacbc0d350a21f27b36c0cfdad6bbc18af",
+        "retrieved": "2026-11-02",
+        "copy": "sources/80f15e513a29d2d4-test_transfer_logs.py",
+        "copy_sha256": "80f15e513a29d2d4962071e9c2ec99eacbc0d350a21f27b36c0cfdad6bbc18af",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q5",
+        "source": "Execution layer specification, Amsterdam, interpreter (ethereum/execution-specs, commit 1689800)",
+        "role": "Official program",
+        "language": "en",
+        "edition": "commit 1689800 (forks/amsterdam)",
+        "locator": "Execution layer specification, transaction processing, lines 294-296",
+        "text": "# A failed execution contributes no logs or self-destructs. if evm.error: logs: Tuple[Log, ...] = ()",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/execution-specs/16898000911c1e3caa57be08509536c10ae92d3e/src/ethereum/forks/amsterdam/vm/interpreter.py",
+        "sha256": "8dd244e747b1b1516ba90de947f9f0d5db84bab4dc51256af0db8dd7a051fd7c",
+        "retrieved": "2026-11-02",
+        "copy": "sources/8dd244e747b1b151-interpreter.py",
+        "copy_sha256": "8dd244e747b1b1516ba90de947f9f0d5db84bab4dc51256af0db8dd7a051fd7c",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q6",
+        "source": "Execution layer tests, Amsterdam, EIP-7708 transfer logs (ethereum/execution-specs, commit 1689800)",
+        "role": "Official program",
+        "language": "en",
+        "edition": "commit 1689800 (forks/amsterdam)",
+        "locator": "Execution layer tests, inner call rolled back by an outer revert, docstring",
+        "text": "Test that logs from successful inner calls are rolled back on outer revert.",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/execution-specs/16898000911c1e3caa57be08509536c10ae92d3e/tests/amsterdam/eip7708_eth_transfer_logs/test_transfer_logs.py",
+        "sha256": "80f15e513a29d2d4962071e9c2ec99eacbc0d350a21f27b36c0cfdad6bbc18af",
+        "retrieved": "2026-11-02",
+        "copy": "sources/80f15e513a29d2d4-test_transfer_logs.py",
+        "copy_sha256": "80f15e513a29d2d4962071e9c2ec99eacbc0d350a21f27b36c0cfdad6bbc18af",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q7",
+        "source": "Execution layer tests, Amsterdam, EIP-7708 transfer logs (ethereum/execution-specs, commit 1689800)",
+        "role": "Official program",
+        "language": "en",
+        "edition": "commit 1689800 (forks/amsterdam)",
+        "locator": "Execution layer tests, contract creation with an address collision, docstring",
+        "text": "The collision check happens before any value transfer, so EIP-7708 emits no Transfer log.",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/execution-specs/16898000911c1e3caa57be08509536c10ae92d3e/tests/amsterdam/eip7708_eth_transfer_logs/test_transfer_logs.py",
+        "sha256": "80f15e513a29d2d4962071e9c2ec99eacbc0d350a21f27b36c0cfdad6bbc18af",
+        "retrieved": "2026-11-02",
+        "copy": "sources/80f15e513a29d2d4-test_transfer_logs.py",
+        "copy_sha256": "80f15e513a29d2d4962071e9c2ec99eacbc0d350a21f27b36c0cfdad6bbc18af",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-02T15:54:21Z",
+      "institution": "EIP editors",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/ethereum/EIPs/pull/12613"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "EIP editors",
+      "role": "maintain the EIPs repository; the authors of the EIP approve changes to it"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-02",
+  "ai_role": {
+    "en": "AI agents read the specifications and drafted the proposed text. An independent AI check compared each proposed sentence with the execution specification and its tests, and coding agents wrote code from the text in separate runs."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [
+    {
+      "title": "Pull request with the proposed text",
+      "url": "https://github.com/ethereum/EIPs/pull/12613"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-02T16:14:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "reported",
+      "text": "Reported to EIP editors (public issue tracker)"
+    }
+  ]
+}

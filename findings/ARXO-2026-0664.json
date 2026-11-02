@@ -1,0 +1,163 @@
+{
+  "id": "ARXO-2026-0664",
+  "url": "https://arxo.io/findings/ARXO-2026-0664/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "EIPs",
+  "issuer": {
+    "name": "Ethereum protocol specifications",
+    "short": "Ethereum",
+    "kind": "standards_body",
+    "url": "https://github.com/ethereum"
+  },
+  "act": "EIP-7928: Block-Level Access Lists (commit dc5d5fa)",
+  "acts": [
+    "EIP-7928: Block-Level Access Lists",
+    "EIP-8038: State-Access Gas Cost Update",
+    "EIP-7708: ETH Transfers Emit a Log"
+  ],
+  "location": "EIP-7928, Gas Validation Before State Access, against the execution specification",
+  "text": {
+    "en": {
+      "title": "EIP-7928: the text does not say that a static-context halt comes before pre-state validation",
+      "summary": "EIP-7928 says that once pre-state validation passes, the target is accessed and included in the block access list. It does not mention a static context. Take a call with value inside a static frame, with enough gas: pre-state validation passes, so by the text the target goes in the list. The execution specification halts such a call before any gas check, and its test requires the target to stay out of the list. The other state-accessing instructions that a static frame does not allow follow the same order.",
+      "impact": "A call with value inside a static frame, with enough gas: by the EIP the target is in the block access list; by the execution specification and its test it is not. Three coding agents wrote the inclusion check from the current text and all three recorded the target. In three runs with an earlier draft of the proposed paragraph, none did.",
+      "correction": "Add a paragraph after the pre-state validation rule: a state-accessing instruction that a static context does not allow halts before pre-state validation, no gas check applies, and the target stays out of the list unless it was accessed for another reason. Proposed in pull request 12611."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-02",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "EIP-7928: Block-Level Access Lists (ethereum/EIPs, commit dc5d5fa)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "commit dc5d5fa (Last Call)",
+        "locator": "EIP-7928, Gas Validation Before State Access, line 140",
+        "text": "Once pre-state validation passes, the target is accessed and included in the BAL.",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/EIPs/dc5d5fa688b7fe87b95a907fcc128b4fde2f4d2f/EIPS/eip-7928.md",
+        "sha256": "cec42cbb8ee1f492f3b81bc70ed9f45949e8f87ba193a38d242889ba9467ef72",
+        "retrieved": "2026-11-02",
+        "copy": "sources/cec42cbb8ee1f492-eip-7928.md",
+        "copy_sha256": "cec42cbb8ee1f492f3b81bc70ed9f45949e8f87ba193a38d242889ba9467ef72",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "EIP-7928: Block-Level Access Lists (ethereum/EIPs, commit dc5d5fa)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "commit dc5d5fa (Last Call)",
+        "locator": "EIP-7928, pre-state validation table, line 151",
+        "text": "| `CALL` | `access_cost` + `memory_expansion` + `GAS_CALL_VALUE` (if value > 0) |",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/EIPs/dc5d5fa688b7fe87b95a907fcc128b4fde2f4d2f/EIPS/eip-7928.md",
+        "sha256": "cec42cbb8ee1f492f3b81bc70ed9f45949e8f87ba193a38d242889ba9467ef72",
+        "retrieved": "2026-11-02",
+        "copy": "sources/cec42cbb8ee1f492-eip-7928.md",
+        "copy_sha256": "cec42cbb8ee1f492f3b81bc70ed9f45949e8f87ba193a38d242889ba9467ef72",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "Execution layer specification, Amsterdam, system instructions (ethereum/execution-specs, commit 1689800)",
+        "role": "Official program",
+        "language": "en",
+        "edition": "commit 1689800 (forks/amsterdam)",
+        "locator": "Execution layer specification, call instruction, lines 484-485",
+        "text": "if evm.is_static and value != U256(0): raise WriteInStaticContext",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/execution-specs/16898000911c1e3caa57be08509536c10ae92d3e/src/ethereum/forks/amsterdam/vm/instructions/system.py",
+        "sha256": "71c02c732862ed9dea4bfb3029898a5d44d403e2981182e8fbaf44d8610f3a9b",
+        "retrieved": "2026-11-02",
+        "copy": "sources/71c02c732862ed9d-system.py",
+        "copy_sha256": "71c02c732862ed9dea4bfb3029898a5d44d403e2981182e8fbaf44d8610f3a9b",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q4",
+        "source": "Execution layer tests, Amsterdam, EIP-7928 opcodes (ethereum/execution-specs, commit 1689800)",
+        "role": "Official program",
+        "language": "en",
+        "edition": "commit 1689800 (forks/amsterdam)",
+        "locator": "Execution layer tests, call with value in a static context, docstring",
+        "text": "CALL with nonzero value in static context: target NOT in BAL.",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/execution-specs/16898000911c1e3caa57be08509536c10ae92d3e/tests/amsterdam/eip7928_block_level_access_lists/test_block_access_lists_opcodes.py",
+        "sha256": "76d0dd9f0c6febc19306ecc66da98475c54e7b2751bf8e9d3b6a4d26527619e5",
+        "retrieved": "2026-11-02",
+        "copy": "sources/76d0dd9f0c6febc1-test_block_access_lists_opcodes.py",
+        "copy_sha256": "76d0dd9f0c6febc19306ecc66da98475c54e7b2751bf8e9d3b6a4d26527619e5",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-02T15:54:15Z",
+      "institution": "EIP editors",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/ethereum/EIPs/pull/12611"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "EIP editors",
+      "role": "maintain the EIPs repository; the authors of the EIP approve changes to it"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-02",
+  "ai_role": {
+    "en": "AI agents read the specifications and drafted the proposed text. An independent AI check compared each proposed sentence with the execution specification and its tests, and coding agents wrote code from the text in separate runs."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [
+    {
+      "title": "Pull request with the proposed text",
+      "url": "https://github.com/ethereum/EIPs/pull/12611"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-02T16:14:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "reported",
+      "text": "Reported to EIP editors (public issue tracker)"
+    }
+  ]
+}

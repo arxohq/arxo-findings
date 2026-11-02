@@ -1,0 +1,179 @@
+{
+  "id": "ARXO-2026-0665",
+  "url": "https://arxo.io/findings/ARXO-2026-0665/",
+  "record_kind": "question",
+  "class": "question",
+  "class_label": "Question of reading or data",
+  "jurisdiction": null,
+  "jurisdiction_detail": "EIPs",
+  "issuer": {
+    "name": "Ethereum protocol specifications",
+    "short": "Ethereum",
+    "kind": "standards_body",
+    "url": "https://github.com/ethereum"
+  },
+  "act": "EIP-8038: State-Access Gas Cost Update (commit dc5d5fa)",
+  "acts": [
+    "EIP-7928: Block-Level Access Lists",
+    "EIP-8038: State-Access Gas Cost Update",
+    "EIP-7708: ETH Transfers Emit a Log"
+  ],
+  "location": "EIP-8038, Interaction with EIP-7928, and the pre-state validation table of EIP-7928",
+  "text": {
+    "en": {
+      "title": "EIP-8038 and EIP-7928: the pre-state gas of contract creation is left open",
+      "summary": "The pre-state validation table of EIP-7928 lists costs in addition to the base cost of the instruction and uses the older gas constant for contract creation. EIP-8038 replaces that constant with an access charge, which is also the base cost, plus a separate state gas charge, and its section on EIP-7928 does not mention the table. Read together, the two leave the pre-state amount open: a reader can add the access charge twice, or can add the state gas charge. The execution specification charges the access charge once, together with memory expansion and the init code cost. In pull request 12418, closed in October 2026, an author of EIP-7928 wrote that it would not depend on EIP-8038, so the mapping belongs in EIP-8038.",
+      "impact": "Contract creation under both EIPs: by one reading the access charge is counted twice, by another the state gas charge is added, while the execution specification counts the access charge once. Coding agents wrote correct code from the current text, and all three runs asked about this table. With an earlier draft of the proposed paragraph, one of three still did.",
+      "correction": "Add a paragraph to the section of EIP-8038 on EIP-7928 that maps the names in the table to the constants of EIP-8038: the access charge is counted once, the extra warm access of the two code-reading instructions is part of pre-state validation, and state gas is not. Proposed in pull request 12612."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-02",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "EIP-7928: Block-Level Access Lists (ethereum/EIPs, commit dc5d5fa)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "commit dc5d5fa (Last Call)",
+        "locator": "EIP-7928, pre-state validation table, line 142",
+        "text": "The following table specifies pre-state validation costs in addition to the base opcode cost",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/EIPs/dc5d5fa688b7fe87b95a907fcc128b4fde2f4d2f/EIPS/eip-7928.md",
+        "sha256": "cec42cbb8ee1f492f3b81bc70ed9f45949e8f87ba193a38d242889ba9467ef72",
+        "retrieved": "2026-11-02",
+        "copy": "sources/cec42cbb8ee1f492-eip-7928.md",
+        "copy_sha256": "cec42cbb8ee1f492f3b81bc70ed9f45949e8f87ba193a38d242889ba9467ef72",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q2",
+        "source": "EIP-7928: Block-Level Access Lists (ethereum/EIPs, commit dc5d5fa)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "commit dc5d5fa (Last Call)",
+        "locator": "EIP-7928, pre-state validation table, line 155",
+        "text": "| `CREATE` | `memory_expansion` + `INITCODE_WORD_COST` + `GAS_CREATE` |",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/EIPs/dc5d5fa688b7fe87b95a907fcc128b4fde2f4d2f/EIPS/eip-7928.md",
+        "sha256": "cec42cbb8ee1f492f3b81bc70ed9f45949e8f87ba193a38d242889ba9467ef72",
+        "retrieved": "2026-11-02",
+        "copy": "sources/cec42cbb8ee1f492-eip-7928.md",
+        "copy_sha256": "cec42cbb8ee1f492f3b81bc70ed9f45949e8f87ba193a38d242889ba9467ef72",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q3",
+        "source": "EIP-8038: State-Access Gas Cost Update (ethereum/EIPs, commit dc5d5fa)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "commit dc5d5fa (Last Call)",
+        "locator": "EIP-8038, contract creation, line 115",
+        "text": "is replaced by `CREATE_ACCESS`, charged in execution gas, plus `GAS_NEW_ACCOUNT`, charged in state gas",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/EIPs/dc5d5fa688b7fe87b95a907fcc128b4fde2f4d2f/EIPS/eip-8038.md",
+        "sha256": "ad09e7c9a7c78855b00e793109056e6d30022bf4bbf0e237e757226de0e544e2",
+        "retrieved": "2026-11-02",
+        "copy": "sources/ad09e7c9a7c78855-eip-8038.md",
+        "copy_sha256": "ad09e7c9a7c78855b00e793109056e6d30022bf4bbf0e237e757226de0e544e2",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q4",
+        "source": "EIP-8038: State-Access Gas Cost Update (ethereum/EIPs, commit dc5d5fa)",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "commit dc5d5fa (Last Call)",
+        "locator": "EIP-8038, Interaction with EIP-7928, line 246",
+        "text": "[EIP-7928](./eip-7928.md) introduces Block-Level Access Lists",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/EIPs/dc5d5fa688b7fe87b95a907fcc128b4fde2f4d2f/EIPS/eip-8038.md",
+        "sha256": "ad09e7c9a7c78855b00e793109056e6d30022bf4bbf0e237e757226de0e544e2",
+        "retrieved": "2026-11-02",
+        "copy": "sources/ad09e7c9a7c78855-eip-8038.md",
+        "copy_sha256": "ad09e7c9a7c78855b00e793109056e6d30022bf4bbf0e237e757226de0e544e2",
+        "copy_kind": "copy of the official file"
+      },
+      {
+        "location": "q5",
+        "source": "Execution layer specification, Amsterdam, system instructions (ethereum/execution-specs, commit 1689800)",
+        "role": "Official program",
+        "language": "en",
+        "edition": "commit 1689800 (forks/amsterdam)",
+        "locator": "Execution layer specification, create instruction, lines 215-218",
+        "text": "charge_gas( evm, GasCosts.CREATE_ACCESS + extend_memory.cost + init_code_gas, )",
+        "translations": {},
+        "url": "https://raw.githubusercontent.com/ethereum/execution-specs/16898000911c1e3caa57be08509536c10ae92d3e/src/ethereum/forks/amsterdam/vm/instructions/system.py",
+        "sha256": "71c02c732862ed9dea4bfb3029898a5d44d403e2981182e8fbaf44d8610f3a9b",
+        "retrieved": "2026-11-02",
+        "copy": "sources/71c02c732862ed9d-system.py",
+        "copy_sha256": "71c02c732862ed9dea4bfb3029898a5d44d403e2981182e8fbaf44d8610f3a9b",
+        "copy_kind": "copy of the official file"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-02T15:54:18Z",
+      "institution": "EIP editors",
+      "channel": "issue_tracker",
+      "reference": "https://github.com/ethereum/EIPs/pull/12612"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "EIP editors",
+      "role": "maintain the EIPs repository; the authors of the EIP approve changes to it"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-02",
+  "ai_role": {
+    "en": "AI agents read the specifications and drafted the proposed text. An independent AI check compared each proposed sentence with the execution specification and its tests, and coding agents wrote code from the text in separate runs."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [
+    {
+      "title": "Pull request with the proposed text",
+      "url": "https://github.com/ethereum/EIPs/pull/12612"
+    }
+  ],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-02T16:14:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "reported",
+      "text": "Reported to EIP editors (public issue tracker)"
+    }
+  ]
+}

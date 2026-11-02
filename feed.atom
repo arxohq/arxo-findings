@@ -5,9 +5,39 @@
   <link rel="alternate" href="https://arxo.io/findings/"/>
   <link rel="self" href="https://arxo.io/findings/feed.atom"/>
   <id>https://arxo.io/findings/</id>
-  <updated>2026-11-02T16:10:00+00:00</updated>
+  <updated>2026-11-02T16:14:00+00:00</updated>
   <author><name>Arxo Law</name></author>
   <rights>Data: CC BY 4.0, Arxo Law</rights>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0666/</id>
+    <title>ARXO-2026-0666 — EIP-7708: the transfer log rules do not cover contract-creation transactions and failed frames</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0666/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="Ethereum"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The list in EIP-7708 covers a value transaction to a different account and the two creation instructions. It does not name a transaction with an empty recipient field, and the execution specification emits the log for it. The Specification section also does not say what happens to the log when a frame fails; only the Test Cases section lists reverts and rolled-back inner calls among the cases with no log. The execution specification drops the log with the failed frame or an enclosing one, and a creation that fails on an address collision emits no log, because the check comes before the transfer.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0665/</id>
+    <title>ARXO-2026-0665 — EIP-8038 and EIP-7928: the pre-state gas of contract creation is left open</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0665/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="Ethereum"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The pre-state validation table of EIP-7928 lists costs in addition to the base cost of the instruction and uses the older gas constant for contract creation. EIP-8038 replaces that constant with an access charge, which is also the base cost, plus a separate state gas charge, and its section on EIP-7928 does not mention the table. Read together, the two leave the pre-state amount open: a reader can add the access charge twice, or can add the state gas charge. The execution specification charges the access charge once, together with memory expansion and the init code cost. In pull request 12418, closed in October 2026, an author of EIP-7928 wrote that it would not depend on EIP-8038, so the mapping belongs in EIP-8038.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0664/</id>
+    <title>ARXO-2026-0664 — EIP-7928: the text does not say that a static-context halt comes before pre-state validation</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0664/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="Ethereum"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. EIP-7928 says that once pre-state validation passes, the target is accessed and included in the block access list. It does not mention a static context. Take a call with value inside a static frame, with enough gas: pre-state validation passes, so by the text the target goes in the list. The execution specification halts such a call before any gas check, and its test requires the target to stay out of the list. The other state-accessing instructions that a static frame does not allow follow the same order.</summary>
+  </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0663/</id>
     <title>ARXO-2026-0663 — ETSI TS 119 472-2: VC-03 cites an example of RFC 9901 for Compact Serialization</title>
