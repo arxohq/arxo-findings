@@ -4,11 +4,11 @@
   "description": "Verified discrepancies in legal texts, standards, official publications and implementations, with evidence and correction histories.",
   "publisher": "Arxo Law",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "as_of": "2026-11-02T14:10:00+00:00",
+  "as_of": "2026-11-02T16:10:00+00:00",
   "base_url": "https://arxo.io/findings/",
   "counts": {
-    "records": 523,
-    "discrepancies": 434,
+    "records": 527,
+    "discrepancies": 438,
     "questions": 89,
     "by_jurisdiction": {
       "CA": 3,
@@ -20,6 +20,7 @@
     },
     "by_issuer": {
       "BCBS": 45,
+      "ETSI": 4,
       "Ethereum": 7,
       "IETF": 7,
       "Unicode": 21,
@@ -27,7 +28,7 @@
       "WHATWG": 6
     },
     "by_status": {
-      "reported": 505,
+      "reported": 509,
       "accepted": 6,
       "disagrees": 2,
       "note_added": 5,
@@ -240,6 +241,12 @@
         "records": 45
       },
       {
+        "issuer": "ETSI",
+        "class": "act_text",
+        "status": "reported",
+        "records": 4
+      },
+      {
         "issuer": "Ethereum",
         "class": "act_text",
         "status": "reported",
@@ -282,11 +289,11 @@
         "records": 6
       }
     ],
-    "institutions_notified": 152,
+    "institutions_notified": 153,
     "corrected_by_official_document": 5,
     "withdrawn_after_publication": {
       "withdrawn": 0,
-      "of_published": 492
+      "of_published": 496
     },
     "rule": "Counts are of findings. One finding is one independently checkable statement about one discrepancy at one place; classes and questions are counted separately and are not added together."
   },
@@ -99136,6 +99143,560 @@
           "date": "2026-11-02",
           "event": "reported",
           "text": "Reported to IETF HTTP Working Group, cookie draft editors (public issue tracker)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0660",
+      "url": "https://arxo.io/findings/ARXO-2026-0660/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "ETSI TS 119 472-2",
+      "issuer": {
+        "name": "ETSI Technical Committee on Electronic Signatures and Trust Infrastructures",
+        "short": "ETSI",
+        "kind": "standards_body",
+        "url": "https://www.etsi.org/"
+      },
+      "act": "ETSI TS 119 472-2 V1.3.1 (2026-07)",
+      "acts": [
+        "ETSI TS 119 472-2"
+      ],
+      "location": "TS 119 472-2, OIDFVP-HAIP-API-03",
+      "text": {
+        "en": {
+          "title": "ETSI TS 119 472-2: the ban on unsigned requests names a value OpenID4VP does not define",
+          "summary": "OIDFVP-HAIP-API-03 bars the exchange protocol value \"openid4vp-1-unsigned\". OpenID4VP 1.0 defines \"openid4vp-v1-unsigned\". The value in the ban is not one that OpenID4VP defines, so the ban does not name the value in use. The text is the same in V1.2.1 and V1.3.1.",
+          "impact": "A wallet that refuses \"openid4vp-1-unsigned\" and accepts \"openid4vp-v1-unsigned\" meets the letter of the requirement, while unsigned requests still go through.",
+          "correction": "Use \"openid4vp-v1-unsigned\" in API-03. If unsigned requests are meant to be permitted, remove API-03 and align the requirements on signed requests."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "ETSI TS 119 472-2 V1.3.1 (2026-07), text extracted from the PDF",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "V1.3.1 (2026-07)",
+            "locator": "TS 119 472-2 V1.3.1, OIDFVP-HAIP-API-03",
+            "text": "exchange protocol value set to \"openid4vp-1-unsigned\"",
+            "translations": {},
+            "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11947202/01.03.01_60/ts_11947202v010301p.pdf",
+            "sha256": "180404e99bc82399a95a806b6a5373b0fd31e044fd09122e82a73f833c038a2c",
+            "retrieved": "2026-11-02",
+            "copy_kind": "no copy kept; see the official address and hash"
+          },
+          {
+            "location": "q2",
+            "source": "OpenID for Verifiable Presentations 1.0",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "1.0",
+            "locator": "OpenID4VP 1.0, Appendix A.1",
+            "text": "Unsigned requests: openid4vp-v1-unsigned",
+            "translations": {},
+            "url": "https://openid.net/specs/openid-4-verifiable-presentations-1_0.html",
+            "sha256": "e4f0abc689afd0a4f6c41b83954d7f970c5263a26143ad861216aea9918993bb",
+            "retrieved": "2026-11-02",
+            "copy_kind": "no copy kept; see the official address and hash"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-02T14:20:57Z",
+          "institution": "ETSI TC ESI secretariat",
+          "channel": "email",
+          "role": "secretariat of the committee that maintains TS 119 472-2",
+          "what": "letter listing seven text points on TS 119 472-2, this one among them"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "ETSI TC ESI secretariat",
+          "role": "maintains TS 119 472-2"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the documents and drafted this record. An AI coordinator and independent AI reviews compared each place against the pinned text. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T16:10:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-02",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "reported",
+          "text": "Reported to ETSI TC ESI secretariat (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0661",
+      "url": "https://arxo.io/findings/ARXO-2026-0661/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "ETSI TS 119 472-2",
+      "issuer": {
+        "name": "ETSI Technical Committee on Electronic Signatures and Trust Infrastructures",
+        "short": "ETSI",
+        "kind": "standards_body",
+        "url": "https://www.etsi.org/"
+      },
+      "act": "ETSI TS 119 472-2 V1.3.1 (2026-07)",
+      "acts": [
+        "ETSI TS 119 472-2"
+      ],
+      "location": "TS 119 472-2, clause 5.3.2, RequestInfo",
+      "text": {
+        "en": {
+          "title": "ETSI TS 119 472-2: the RequestInfo key is spelled differently in the CDDL and in the requirements",
+          "summary": "The RequestInfo CDDL uses the key \"eUWrprc\". ISO/IEC 18013-REQ-06 to REQ-08 of the same clause use \"euWrprc\". CBOR map keys are case sensitive. Annex XII to Regulation (EU) 2026/1731 already uses \"euWrprc\" in its replacement CDDL, while the TS still has the other spelling in V1.2.1 and V1.3.1.",
+          "impact": "A sender following the TS CDDL writes \"eUWrprc\". A receiver following REQ-06 looks for \"euWrprc\" and does not find the registration certificate.",
+          "correction": "Use \"euWrprc\" in the CDDL."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "ETSI TS 119 472-2 V1.3.1 (2026-07), text extracted from the PDF",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "V1.3.1 (2026-07)",
+            "locator": "TS 119 472-2 V1.3.1, clause 5.3.2, RequestInfo CDDL",
+            "text": "?\"eUWrprc\": bstr",
+            "translations": {},
+            "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11947202/01.03.01_60/ts_11947202v010301p.pdf",
+            "sha256": "180404e99bc82399a95a806b6a5373b0fd31e044fd09122e82a73f833c038a2c",
+            "retrieved": "2026-11-02",
+            "copy_kind": "no copy kept; see the official address and hash"
+          },
+          {
+            "location": "q2",
+            "source": "ETSI TS 119 472-2 V1.3.1 (2026-07), text extracted from the PDF",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "V1.3.1 (2026-07)",
+            "locator": "TS 119 472-2 V1.3.1, ISO/IEC 18013-REQ-06",
+            "text": "member with label \"euWrprc\"",
+            "translations": {},
+            "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11947202/01.03.01_60/ts_11947202v010301p.pdf",
+            "sha256": "180404e99bc82399a95a806b6a5373b0fd31e044fd09122e82a73f833c038a2c",
+            "retrieved": "2026-11-02",
+            "copy_kind": "no copy kept; see the official address and hash"
+          },
+          {
+            "location": "q3",
+            "source": "Commission Implementing Regulation (EU) 2026/1731",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "OJ text",
+            "locator": "Regulation (EU) 2026/1731, Annex XII, replacement CDDL",
+            "text": "'euWrprc': bstr",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/eli/reg_impl/2026/1731/oj",
+            "sha256": "716f17c983e24d60d54e577a696e691518bc082330920298c6f7fe64c24d0f73",
+            "retrieved": "2026-11-02",
+            "copy_kind": "no copy kept; see the official address and hash"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-02T14:20:57Z",
+          "institution": "ETSI TC ESI secretariat",
+          "channel": "email",
+          "role": "secretariat of the committee that maintains TS 119 472-2",
+          "what": "letter listing seven text points on TS 119 472-2, this one among them"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "ETSI TC ESI secretariat",
+          "role": "maintains TS 119 472-2"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the documents and drafted this record. An AI coordinator and independent AI reviews compared each place against the pinned text. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T16:10:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-02",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "reported",
+          "text": "Reported to ETSI TC ESI secretariat (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0662",
+      "url": "https://arxo.io/findings/ARXO-2026-0662/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "ETSI TS 119 472-2",
+      "issuer": {
+        "name": "ETSI Technical Committee on Electronic Signatures and Trust Infrastructures",
+        "short": "ETSI",
+        "kind": "standards_body",
+        "url": "https://www.etsi.org/"
+      },
+      "act": "ETSI TS 119 472-2 V1.3.1 (2026-07)",
+      "acts": [
+        "ETSI TS 119 472-2"
+      ],
+      "location": "TS 119 472-2, OIDFVP-HAIP-COMMON-REQ-RO-07",
+      "text": {
+        "en": {
+          "title": "ETSI TS 119 472-2: RO-07 cites the wrong clause of TS 119 475 for srvDescription",
+          "summary": "OIDFVP-HAIP-COMMON-REQ-RO-07 places srvDescription in clause B.2.2 of TS 119 475. That member is in clause B.2.1, and B.2.2 is the class LegalEntity. The CDDL for ISO/IEC 18013-REQ-11 in the same TS already cites B.2.1. Annex XII to Regulation (EU) 2026/1731 makes RO-07 void, while the TS keeps it.",
+          "impact": "A reader who follows the reference reaches a class without that member.",
+          "correction": "Cite clause B.2.1 in RO-07."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "ETSI TS 119 472-2 V1.3.1 (2026-07), text extracted from the PDF",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "V1.3.1 (2026-07)",
+            "locator": "TS 119 472-2 V1.3.1, OIDFVP-HAIP-COMMON-REQ-RO-07",
+            "text": "Shall contain the srvDescription member specified in clause B.2.2 of [14]",
+            "translations": {},
+            "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11947202/01.03.01_60/ts_11947202v010301p.pdf",
+            "sha256": "180404e99bc82399a95a806b6a5373b0fd31e044fd09122e82a73f833c038a2c",
+            "retrieved": "2026-11-02",
+            "copy_kind": "no copy kept; see the official address and hash"
+          },
+          {
+            "location": "q2",
+            "source": "ETSI TS 119 475 V1.2.1",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "V1.2.1",
+            "locator": "TS 119 475 V1.2.1, clause B.2.1",
+            "text": "Class WalletRelyingParty",
+            "translations": {},
+            "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/119475/01.02.01_60/ts_119475v010201p.pdf",
+            "sha256": "77bf8e71715c495494113da23ccba89c0af8bf6b457fe2da38b5a12738ace55f",
+            "retrieved": "2026-11-02",
+            "copy_kind": "no copy kept; see the official address and hash"
+          },
+          {
+            "location": "q3",
+            "source": "ETSI TS 119 475 V1.2.1",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "V1.2.1",
+            "locator": "TS 119 475 V1.2.1, clause B.2.2",
+            "text": "Class LegalEntity",
+            "translations": {},
+            "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/119475/01.02.01_60/ts_119475v010201p.pdf",
+            "sha256": "77bf8e71715c495494113da23ccba89c0af8bf6b457fe2da38b5a12738ace55f",
+            "retrieved": "2026-11-02",
+            "copy_kind": "no copy kept; see the official address and hash"
+          },
+          {
+            "location": "q4",
+            "source": "ETSI TS 119 472-2 V1.3.1 (2026-07), text extracted from the PDF",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "V1.3.1 (2026-07)",
+            "locator": "TS 119 472-2 V1.3.1, CDDL for ISO/IEC 18013-REQ-11",
+            "text": "Annex B.2.1 of [14]",
+            "translations": {},
+            "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11947202/01.03.01_60/ts_11947202v010301p.pdf",
+            "sha256": "180404e99bc82399a95a806b6a5373b0fd31e044fd09122e82a73f833c038a2c",
+            "retrieved": "2026-11-02",
+            "copy_kind": "no copy kept; see the official address and hash"
+          },
+          {
+            "location": "q5",
+            "source": "Commission Implementing Regulation (EU) 2026/1731",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "OJ text",
+            "locator": "Regulation (EU) 2026/1731, Annex XII",
+            "text": "OIDFVP-HAIP-COMMON-REQ-RO-07: void",
+            "translations": {},
+            "url": "https://eur-lex.europa.eu/eli/reg_impl/2026/1731/oj",
+            "sha256": "716f17c983e24d60d54e577a696e691518bc082330920298c6f7fe64c24d0f73",
+            "retrieved": "2026-11-02",
+            "copy_kind": "no copy kept; see the official address and hash"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-02T14:20:57Z",
+          "institution": "ETSI TC ESI secretariat",
+          "channel": "email",
+          "role": "secretariat of the committee that maintains TS 119 472-2",
+          "what": "letter listing seven text points on TS 119 472-2, this one among them"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "ETSI TC ESI secretariat",
+          "role": "maintains TS 119 472-2"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the documents and drafted this record. An AI coordinator and independent AI reviews compared each place against the pinned text. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T16:10:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-02",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "reported",
+          "text": "Reported to ETSI TC ESI secretariat (e-mail)"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0663",
+      "url": "https://arxo.io/findings/ARXO-2026-0663/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": null,
+      "jurisdiction_detail": "ETSI TS 119 472-2",
+      "issuer": {
+        "name": "ETSI Technical Committee on Electronic Signatures and Trust Infrastructures",
+        "short": "ETSI",
+        "kind": "standards_body",
+        "url": "https://www.etsi.org/"
+      },
+      "act": "ETSI TS 119 472-2 V1.3.1 (2026-07)",
+      "acts": [
+        "ETSI TS 119 472-2"
+      ],
+      "location": "TS 119 472-2, EAAP-SD-JWT VC-03",
+      "text": {
+        "en": {
+          "title": "ETSI TS 119 472-2: VC-03 cites an example of RFC 9901 for Compact Serialization",
+          "summary": "EAAP-SD-JWT VC-03 cites clause 5.2 of RFC 9901 for Compact Serialization. That clause is a non-normative presentation example. The format is specified in clause 4.",
+          "impact": "A reader who follows the reference reaches an example in place of the format rules.",
+          "correction": "Cite clause 4 of RFC 9901."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-02",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "q1",
+            "source": "ETSI TS 119 472-2 V1.3.1 (2026-07), text extracted from the PDF",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "V1.3.1 (2026-07)",
+            "locator": "TS 119 472-2 V1.3.1, EAAP-SD-JWT VC-03",
+            "text": "Compact Serialization, as specified in clause 5.2 of IETF SD-JWT [2]",
+            "translations": {},
+            "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11947202/01.03.01_60/ts_11947202v010301p.pdf",
+            "sha256": "180404e99bc82399a95a806b6a5373b0fd31e044fd09122e82a73f833c038a2c",
+            "retrieved": "2026-11-02",
+            "copy_kind": "no copy kept; see the official address and hash"
+          },
+          {
+            "location": "q2",
+            "source": "RFC 9901, Selective Disclosure for JSON Web Tokens",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "RFC 9901",
+            "locator": "RFC 9901, clause 5.2",
+            "text": "The following non-normative example shows an SD-JWT+KB",
+            "translations": {},
+            "url": "https://www.rfc-editor.org/rfc/rfc9901.txt",
+            "sha256": "fd4cb79184162fa7ef95f4f63abab8ee6d03c9a04c19b8f83758946464b284eb",
+            "retrieved": "2026-11-02",
+            "copy_kind": "no copy kept; see the official address and hash"
+          },
+          {
+            "location": "q3",
+            "source": "RFC 9901, Selective Disclosure for JSON Web Tokens",
+            "role": "Normative text",
+            "language": "en",
+            "edition": "RFC 9901",
+            "locator": "RFC 9901, clause 4",
+            "text": "The compact serialized format for the SD-JWT is the concatenation of",
+            "translations": {},
+            "url": "https://www.rfc-editor.org/rfc/rfc9901.txt",
+            "sha256": "fd4cb79184162fa7ef95f4f63abab8ee6d03c9a04c19b8f83758946464b284eb",
+            "retrieved": "2026-11-02",
+            "copy_kind": "no copy kept; see the official address and hash"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-02T14:20:57Z",
+          "institution": "ETSI TC ESI secretariat",
+          "channel": "email",
+          "role": "secretariat of the committee that maintains TS 119 472-2",
+          "what": "letter listing seven text points on TS 119 472-2, this one among them"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "ETSI TC ESI secretariat",
+          "role": "maintains TS 119 472-2"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-02",
+      "ai_role": {
+        "en": "AI agents read the documents and drafted this record. An AI coordinator and independent AI reviews compared each place against the pinned text. A person at Arxo approved the report before it was sent."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-02T16:10:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-02",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "entered",
+          "text": "Entered in the register"
+        },
+        {
+          "date": "2026-11-02",
+          "event": "reported",
+          "text": "Reported to ETSI TC ESI secretariat (e-mail)"
         }
       ]
     }

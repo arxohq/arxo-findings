@@ -5,9 +5,49 @@
   <link rel="alternate" href="https://arxo.io/findings/"/>
   <link rel="self" href="https://arxo.io/findings/feed.atom"/>
   <id>https://arxo.io/findings/</id>
-  <updated>2026-11-02T14:10:00+00:00</updated>
+  <updated>2026-11-02T16:10:00+00:00</updated>
   <author><name>Arxo Law</name></author>
   <rights>Data: CC BY 4.0, Arxo Law</rights>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0663/</id>
+    <title>ARXO-2026-0663 — ETSI TS 119 472-2: VC-03 cites an example of RFC 9901 for Compact Serialization</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0663/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="ETSI"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. EAAP-SD-JWT VC-03 cites clause 5.2 of RFC 9901 for Compact Serialization. That clause is a non-normative presentation example. The format is specified in clause 4.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0662/</id>
+    <title>ARXO-2026-0662 — ETSI TS 119 472-2: RO-07 cites the wrong clause of TS 119 475 for srvDescription</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0662/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="ETSI"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. OIDFVP-HAIP-COMMON-REQ-RO-07 places srvDescription in clause B.2.2 of TS 119 475. That member is in clause B.2.1, and B.2.2 is the class LegalEntity. The CDDL for ISO/IEC 18013-REQ-11 in the same TS already cites B.2.1. Annex XII to Regulation (EU) 2026/1731 makes RO-07 void, while the TS keeps it.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0661/</id>
+    <title>ARXO-2026-0661 — ETSI TS 119 472-2: the RequestInfo key is spelled differently in the CDDL and in the requirements</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0661/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="ETSI"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The RequestInfo CDDL uses the key &quot;eUWrprc&quot;. ISO/IEC 18013-REQ-06 to REQ-08 of the same clause use &quot;euWrprc&quot;. CBOR map keys are case sensitive. Annex XII to Regulation (EU) 2026/1731 already uses &quot;euWrprc&quot; in its replacement CDDL, while the TS still has the other spelling in V1.2.1 and V1.3.1.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0660/</id>
+    <title>ARXO-2026-0660 — ETSI TS 119 472-2: the ban on unsigned requests names a value OpenID4VP does not define</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0660/"/>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <category term="ETSI"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. OIDFVP-HAIP-API-03 bars the exchange protocol value &quot;openid4vp-1-unsigned&quot;. OpenID4VP 1.0 defines &quot;openid4vp-v1-unsigned&quot;. The value in the ban is not one that OpenID4VP defines, so the ban does not name the value in use. The text is the same in V1.2.1 and V1.3.1.</summary>
+  </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0659/</id>
     <title>ARXO-2026-0659 — layered-cookies: cookies are sorted by the number of path segments, not by path length</title>

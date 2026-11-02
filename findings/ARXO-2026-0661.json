@@ -1,0 +1,135 @@
+{
+  "id": "ARXO-2026-0661",
+  "url": "https://arxo.io/findings/ARXO-2026-0661/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": null,
+  "jurisdiction_detail": "ETSI TS 119 472-2",
+  "issuer": {
+    "name": "ETSI Technical Committee on Electronic Signatures and Trust Infrastructures",
+    "short": "ETSI",
+    "kind": "standards_body",
+    "url": "https://www.etsi.org/"
+  },
+  "act": "ETSI TS 119 472-2 V1.3.1 (2026-07)",
+  "acts": [
+    "ETSI TS 119 472-2"
+  ],
+  "location": "TS 119 472-2, clause 5.3.2, RequestInfo",
+  "text": {
+    "en": {
+      "title": "ETSI TS 119 472-2: the RequestInfo key is spelled differently in the CDDL and in the requirements",
+      "summary": "The RequestInfo CDDL uses the key \"eUWrprc\". ISO/IEC 18013-REQ-06 to REQ-08 of the same clause use \"euWrprc\". CBOR map keys are case sensitive. Annex XII to Regulation (EU) 2026/1731 already uses \"euWrprc\" in its replacement CDDL, while the TS still has the other spelling in V1.2.1 and V1.3.1.",
+      "impact": "A sender following the TS CDDL writes \"eUWrprc\". A receiver following REQ-06 looks for \"euWrprc\" and does not find the registration certificate.",
+      "correction": "Use \"euWrprc\" in the CDDL."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-02",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "q1",
+        "source": "ETSI TS 119 472-2 V1.3.1 (2026-07), text extracted from the PDF",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "V1.3.1 (2026-07)",
+        "locator": "TS 119 472-2 V1.3.1, clause 5.3.2, RequestInfo CDDL",
+        "text": "?\"eUWrprc\": bstr",
+        "translations": {},
+        "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11947202/01.03.01_60/ts_11947202v010301p.pdf",
+        "sha256": "180404e99bc82399a95a806b6a5373b0fd31e044fd09122e82a73f833c038a2c",
+        "retrieved": "2026-11-02",
+        "copy_kind": "no copy kept; see the official address and hash"
+      },
+      {
+        "location": "q2",
+        "source": "ETSI TS 119 472-2 V1.3.1 (2026-07), text extracted from the PDF",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "V1.3.1 (2026-07)",
+        "locator": "TS 119 472-2 V1.3.1, ISO/IEC 18013-REQ-06",
+        "text": "member with label \"euWrprc\"",
+        "translations": {},
+        "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11947202/01.03.01_60/ts_11947202v010301p.pdf",
+        "sha256": "180404e99bc82399a95a806b6a5373b0fd31e044fd09122e82a73f833c038a2c",
+        "retrieved": "2026-11-02",
+        "copy_kind": "no copy kept; see the official address and hash"
+      },
+      {
+        "location": "q3",
+        "source": "Commission Implementing Regulation (EU) 2026/1731",
+        "role": "Normative text",
+        "language": "en",
+        "edition": "OJ text",
+        "locator": "Regulation (EU) 2026/1731, Annex XII, replacement CDDL",
+        "text": "'euWrprc': bstr",
+        "translations": {},
+        "url": "https://eur-lex.europa.eu/eli/reg_impl/2026/1731/oj",
+        "sha256": "716f17c983e24d60d54e577a696e691518bc082330920298c6f7fe64c24d0f73",
+        "retrieved": "2026-11-02",
+        "copy_kind": "no copy kept; see the official address and hash"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-02T14:20:57Z",
+      "institution": "ETSI TC ESI secretariat",
+      "channel": "email",
+      "role": "secretariat of the committee that maintains TS 119 472-2",
+      "what": "letter listing seven text points on TS 119 472-2, this one among them"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "ETSI TC ESI secretariat",
+      "role": "maintains TS 119 472-2"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-02",
+  "ai_role": {
+    "en": "AI agents read the documents and drafted this record. An AI coordinator and independent AI reviews compared each place against the pinned text. A person at Arxo approved the report before it was sent."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-02T16:10:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "entered",
+      "text": "Entered in the register"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "reported",
+      "text": "Reported to ETSI TC ESI secretariat (e-mail)"
+    }
+  ]
+}
