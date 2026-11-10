@@ -1,0 +1,7 @@
+Excerpts of Precursor Control Regulations, English version, consolidated XML (eng/regulations/SOR-2002-359.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2002-359.xml
+sha256 of the source file: 603821fca25041975a262568a7452d851d685363b2304bb3aa0419dcd808b591
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Precursor Control Regulations — s. 85 (English)
+keep the report referred to in section 86.1 for at least two years after the day on which it is made to the Minister;

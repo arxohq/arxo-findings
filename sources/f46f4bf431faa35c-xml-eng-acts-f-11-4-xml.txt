@@ -1,0 +1,7 @@
+Excerpts of Financial Institutions Depositors Compensation Act, English version, consolidated XML (eng/acts/F-11.4.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/F-11.4.xml
+sha256 of the source file: b81ab5eb071dd8e21cb0d481b50dac6a0368b754a03707528bd0a29a73fe2a8a
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Financial Institutions Depositors Compensation Act — paragraph 5(2)(b) (English)
+of a deposit, or any part thereof, in a financial institution and there is any doubt or controversy as to(a)whether subsection (1) applies in respect of the deposit or part thereof, or(b)if subsection (1) applies,(ii)the amount of the deposit or part thereof that is subject to a security interest, or(ii)the amount of a set-off that could be asserted in respect of the deposit or part thereof,the Minister, the depositor or a liquidator appointed in respect of the financial institution may apply to a court of competent jurisdiction within Canada for a determination of

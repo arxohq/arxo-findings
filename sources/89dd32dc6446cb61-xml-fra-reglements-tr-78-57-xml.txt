@@ -1,0 +1,7 @@
+Excerpts of Cruiser Remission Order (TR-78-57), French version, consolidated XML (fra/reglements/TR-78-57.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/TR-78-57.xml
+sha256 of the source file: 5520036c810176d8da34ec781de93592d479888b7952c1cca72ffe9d9e106921
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Cruiser Remission Order — s. 7 (French)
+de production.(3)Lorsqu'un choix est retiré par un fabricant de la catégorie B selon le paragraphe (2), la remise est déterminée en vertu de l'article 4 pour chaque année civile de la période initiale de production. TR/85-113, art. 1

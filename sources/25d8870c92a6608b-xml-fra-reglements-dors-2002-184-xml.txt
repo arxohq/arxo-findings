@@ -1,0 +1,7 @@
+Excerpts of Règlement sur le recyclage des produits de la criminalité et le financement des activités terroristes, French version, consolidated XML (fra/reglements/DORS-2002-184.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2002-184.xml
+sha256 of the source file: 46cddda0faf599ac30b7662a08443fefd1e78fb18b9732e84a45c7fa8a3747ed
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Règlement sur le recyclage des produits de la criminalité et le financement des activités terroristes — paragraph 89(e) (French)
+tenir des documents en application du paragraphe 15(1);d)conformément à l’article 105, l’identité de la personne habilitée à agir comme cofiduciaire;e)dans le cas où une entité est habilitée à agir comme cofiduciaire :(i)conformément à l’article 105, l’identité des personnes habilitées à donner des instructions relativement aux activités de cette entité en sa qualité de cofiduciaire, jusqu’à concurrence de trois,(i)conformément aux articles 109 ou 112, l’identité de cette entité. DORS/2019-240, art. 40

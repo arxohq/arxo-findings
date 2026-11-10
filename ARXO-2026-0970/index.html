@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARXO-2026-0970: Justice Laws: repeated subparagraph labels in 8 places of the consolidated XML</title>
+<meta name="description" content="In 8 places of the consolidated Acts and regulations, a paragraph has two subparagraphs with the same label in one language version: Financial Institutions Depositors Compensation Act, 5(2)(b), English; Income Tax Act, 142.6(8)(b), French; Electronic Payments Regulations, 3(b), English; Transportati">
+<link rel="canonical" href="https://arxo.io/findings/ARXO-2026-0970/">
+<link rel="alternate" type="application/atom+xml" title="Arxo Findings Register" href="../feed.atom">
+<style>
+@font-face{font-family:"IBM Plex Sans";font-style:normal;font-weight:100 700;font-display:swap;src:url("/fonts/ibm-plex-sans-latin-wght-normal.woff2") format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:400;font-display:swap;src:url("/fonts/ibm-plex-mono-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"IBM Plex Serif";font-style:normal;font-weight:400;font-display:swap;src:url("/fonts/ibm-plex-serif-latin-400-normal.woff2") format("woff2")}
+:root{color-scheme:light;--bg:#ffffff;--paper:#ffffff;--wash:#f5f5f5;--ink:#111111;--soft:#3d3d3d;--muted:#737373;--line:#ebebeb;--rule:#dcdcdc;
+--accent:#111111;--pencil:#c2412d;--reported:#737373;--accepted:#111111;--disagrees:#3d3d3d;--note:#111111;--corrected:#111111;--withdrawn:#c2412d;
+--code:#f5f5f5;--mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+--serif:"IBM Plex Serif","Iowan Old Style",Georgia,serif;
+--sans:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+::selection{background:#fbe3de}
+a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:.24em;text-decoration-color:var(--rule)}a:hover{text-decoration-color:currentColor}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header.site{border-bottom:1px solid var(--line);background:var(--paper)}
+header.site .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;justify-content:space-between;padding-top:18px;padding-bottom:16px}
+.brand{font:500 15px/1.2 var(--sans);letter-spacing:-.01em;text-decoration:none;color:var(--ink)}
+.brand span{color:var(--muted);font-weight:400}
+nav.site a{margin-right:18px;font-size:14px;color:var(--muted);text-decoration:none}nav.site a:hover{color:var(--ink)}
+h1,h2,h3{font-family:var(--sans);font-weight:350;line-height:1.15;letter-spacing:-.03em;margin:1.6em 0 .5em}
+h1{font-size:clamp(34px,5vw,56px);font-weight:300;letter-spacing:-.04em;margin-top:1em}
+h2{font-size:24px;border-bottom:1px solid var(--line);padding-bottom:8px}
+h3{font-size:18px;font-weight:450;letter-spacing:-.01em}
+p.lede{font-size:18px;color:var(--soft);max-width:760px;margin-top:0}
+.rule{background:var(--paper);border-left:1px dashed var(--pencil);padding:2px 0 2px 18px;margin:24px 0;max-width:820px;color:var(--soft)}
+.mono,code{font-family:var(--mono);font-size:.9em}
+code{background:var(--code);padding:1px 4px;border-radius:3px;word-break:break-all}
+.badge{display:inline-flex;align-items:center;gap:7px;font:450 13px/1 var(--sans);white-space:nowrap}
+.badge::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;flex:none}
+.b-reported{color:var(--reported)}.b-accepted{color:var(--accepted)}.b-disagrees{color:var(--disagrees)}
+.b-note_added{color:var(--note)}.b-corrected,.b-corrected_before_report{color:var(--corrected)}.b-withdrawn{color:var(--withdrawn)}
+.b-accepted,.b-note_added,.b-corrected,.b-corrected_before_report{font-weight:560}
+.filters{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0 10px}
+.filters label{display:flex;flex-direction:column;font-size:12px;color:var(--muted);gap:4px}
+.filters select,.filters input{font:14px var(--sans);padding:7px 12px;border:1px solid var(--rule);border-radius:999px;background:var(--paper);color:var(--ink);min-width:150px}
+.filters input{min-width:220px}
+.count{font-size:13px;color:var(--muted);margin:8px 0 12px}
+.ledger{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink)}
+.ledger li{display:grid;grid-template-columns:130px 1fr 200px;gap:4px 20px;padding:14px 4px;border-bottom:1px solid var(--line)}
+.ledger li:hover{background:var(--wash)}
+.ledger li[hidden]{display:none}
+.ledger .id{font-family:var(--mono);font-size:13px}.ledger .id a{text-decoration:none;color:var(--muted)}
+.ledger .what a{color:var(--ink);text-decoration:none;font-weight:450}.ledger .what a:hover{text-decoration:underline;text-decoration-color:var(--rule)}
+.ledger .meta{font-size:13px;color:var(--muted);margin-top:3px}
+.ledger .st{text-align:right}.ledger .st .when{display:block;font-size:12px;color:var(--muted);margin-top:5px}
+@media (max-width:720px){.ledger li{grid-template-columns:1fr}.ledger .st{text-align:left}}
+table.grid{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0}
+table.grid th,table.grid td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+table.grid th{font-weight:450;color:var(--muted);font-size:12px}
+.scroll{overflow-x:auto}
+dl.facts{display:grid;grid-template-columns:170px 1fr;gap:8px 18px;margin:14px 0;font-size:15px}
+dl.facts dt{color:var(--muted)}dl.facts dd{margin:0}
+@media (max-width:600px){dl.facts{grid-template-columns:1fr}dl.facts dt{margin-top:6px}}
+blockquote.q{margin:14px 0;padding:4px 0 4px 20px;border-left:1px dashed var(--pencil);font-family:var(--serif);font-size:19px;line-height:1.45}
+.qmeta{font-size:13px;color:var(--muted);margin:6px 0 18px;overflow-wrap:anywhere}
+.tr{font-size:14px;color:var(--muted);margin:6px 0 0;font-family:var(--sans)}
+ol.history{list-style:none;padding:0;margin:10px 0;border-left:1px solid var(--line)}
+ol.history li{padding:4px 0 10px 16px;position:relative;font-size:15px}
+ol.history li::before{content:"";position:absolute;left:-3px;top:12px;width:5px;height:5px;border-radius:50%;background:var(--muted)}
+ol.history .d{font-family:var(--mono);font-size:13px;color:var(--muted);margin-right:8px}
+.alt{border-top:1px dashed var(--rule);margin-top:28px;padding-top:4px}
+.headline .id{font-family:var(--mono);color:var(--muted);font-size:14px}
+footer.site{margin:56px 0 0;border-top:1px solid var(--line);padding:20px 0 44px;font-size:13px;color:var(--muted)}
+.empty{padding:20px 4px;color:var(--muted)}
+</style>
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "Report",
+ "identifier": "ARXO-2026-0970",
+ "url": "https://arxo.io/findings/ARXO-2026-0970/",
+ "headline": "Justice Laws: repeated subparagraph labels in 8 places of the consolidated XML",
+ "name": "Justice Laws: repeated subparagraph labels in 8 places of the consolidated XML",
+ "description": "In 8 places of the consolidated Acts and regulations, a paragraph has two subparagraphs with the same label in one language version: Financial Institutions Depositors Compensation Act, 5(2)(b), English; Income Tax Act, 142.6(8)(b), French; Electronic Payments Regulations, 3(b), English; Transportation of Dangerous Goods Regulations, 5.10(1)(d), French; Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations, 89(e), French; Canada Offshore Renewable Energy Regulations, 40(3)(e), French; Defence Services Pension Part V Regulations, 34(4)(b), French; Determination of Country of Origin for the Purpose of Marking Goods (CUSMA Countries) Regulations, 2(2)(b), French. The origin has not been established: the enacted or registered texts were not checked.",
+ "inLanguage": "en",
+ "about": [
+  {
+   "@type": "Legislation",
+   "name": "Consolidated Acts and Regulations of Canada (Justice Laws Website)",
+   "legislationJurisdiction": "CA"
+  }
+ ],
+ "citation": [
+  {
+   "@type": "MediaObject",
+   "name": "Financial Institutions Depositors Compensation Act, English version, consolidated XML (eng/acts/F-11.4.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/F-11.4.xml",
+   "sha256": "b81ab5eb071dd8e21cb0d481b50dac6a0368b754a03707528bd0a29a73fe2a8a"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Electronic Payments Regulations, English version, consolidated XML (eng/regulations/SOR-98-129.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-98-129.xml",
+   "sha256": "b26dccc1eed56be5a022a27c0a4fb0ea0319983514fca740642580bc45b2827d"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Règlement sur le transport des marchandises dangereuses, French version, consolidated XML (fra/reglements/DORS-2001-286.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2001-286.xml",
+   "sha256": "830d9b6bafd483af773a4c7f8e75e0e2ed5ae45aab2e0e2c8b76adb3fbe8eb42"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Règlement sur le recyclage des produits de la criminalité et le financement des activités terroristes, French version, consolidated XML (fra/reglements/DORS-2002-184.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2002-184.xml",
+   "sha256": "46cddda0faf599ac30b7662a08443fefd1e78fb18b9732e84a45c7fa8a3747ed"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Règlement sur l’énergie renouvelable extracôtière au Canada, French version, consolidated XML (fra/reglements/DORS-2024-272.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2024-272.xml",
+   "sha256": "a4bc367366cffba0f251bbfaa2203aa47454ae385683333c0253d6e338a4af00"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Règlements, Loi sur les pensions des services de défense, Partie V, French version, consolidated XML (fra/reglements/DORS-55-416.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-55-416.xml",
+   "sha256": "86c8505425f2af5efdb61be58ea22de644b56d5d970936c123467a5a7929f930"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Règlement sur la détermination, aux fins de marquage, du pays d’origine des marchandises (pays ACEUM), French version, consolidated XML (fra/reglements/DORS-94-23.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-94-23.xml",
+   "sha256": "6139ae7f71607d037fa8b4e83dcdb245b999534fba33d8a92535149a8df56189"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Loi de l’impôt sur le revenu, French version, consolidated XML (fra/lois/I-3.3.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/I-3.3.xml",
+   "sha256": "36b8465c70f532e1fc1edd890154b07a67721e826f2a1af689014f255bb9c96c"
+  }
+ ],
+ "publisher": {
+  "@type": "Organization",
+  "name": "Arxo Law",
+  "url": "https://arxo.io"
+ },
+ "isPartOf": {
+  "@type": "Dataset",
+  "name": "Arxo Findings Register",
+  "url": "https://arxo.io/findings/"
+ },
+ "dateModified": "2026-11-10",
+ "creativeWorkStatus": "Reported",
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+ "datePublished": "2026-11-10"
+}</script>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a class="brand" href="../index.html">Arxo Findings Register <span>· Arxo Law</span></a>
+<nav class="site"><a href="../index.html">Register</a><a href="../policy/index.html">Principles</a><a href="../method/index.html">Method</a><a href="../register.json">Data</a><a href="../feed.atom">Feed</a></nav>
+</div></header>
+<main class="wrap">
+
+<div class="headline"><p class="id">ARXO-2026-0970 · <span class="badge b-reported">Reported</span></p>
+<h1>Justice Laws: repeated subparagraph labels in 8 places of the consolidated XML</h1></div>
+
+
+<p>In 8 places of the consolidated Acts and regulations, a paragraph has two subparagraphs with the same label in one language version: Financial Institutions Depositors Compensation Act, 5(2)(b), English; Income Tax Act, 142.6(8)(b), French; Electronic Payments Regulations, 3(b), English; Transportation of Dangerous Goods Regulations, 5.10(1)(d), French; Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations, 89(e), French; Canada Offshore Renewable Energy Regulations, 40(3)(e), French; Defence Services Pension Part V Regulations, 34(4)(b), French; Determination of Country of Origin for the Purpose of Marking Goods (CUSMA Countries) Regulations, 2(2)(b), French. The origin has not been established: the enacted or registered texts were not checked.</p><h3>Consequence</h3><p>A reference to the repeated label does not identify one subparagraph in that language version. No effect on how a provision applies has been established.</p><h3>Proposed correction</h3><p>Where the difference comes from the enacted or registered text, it needs an amendment by the responsible department; otherwise the consolidation can be corrected.</p>
+<dl class="facts"><dt>Jurisdiction</dt><dd>Canada — federal</dd><dt>Act</dt><dd>Consolidated Acts and Regulations of Canada (Justice Laws Website)</dd><dt>Place</dt><dd>Consolidated Acts and Regulations of Canada</dd><dt>Record</dt><dd>Discrepancy</dd><dt>Class</dt><dd>Publication and consolidation</dd><dt>Where it arose</dt><dd>Not established</dd><dt>Arxo&#x27;s conclusion</dt><dd>Confirmed</dd><dt>Official text</dt><dd>Unchanged at last check</dd><dt>Last checked</dt><dd>2026-11-05</dd></dl>
+<h2>Evidence</h2>
+<p>Contradiction within the text. Quotations are verbatim from the official material; translations are ours and marked.</p>
+<blockquote class="q" lang="en">(ii)the amount of the deposit or part thereof that is subject to a security interest, or(ii)the amount of a set-off that could be asserted in</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/F-11.4.xml">Financial Institutions Depositors Compensation Act, English version, consolidated XML (eng/acts/F-11.4.xml)</a> · paragraph 5(2)(b) of Financial Institutions Depositors Compensation Act, English XML (eng/F-11.4) · consolidated version, point-in-time date 2002-12-31 · retrieved 2026-11-05 · SHA-256 <code>b81ab5eb071dd8e21cb0d481b50dac6a0368b754a03707528bd0a29a73fe2a8a</code> · <a href="../sources/f46f4bf431faa35c-xml-eng-acts-f-11-4-xml.txt">copy</a></div><blockquote class="q" lang="en">(iv)the payee’s financial institution number, branch number and account number, and(iv)the payment date; and(c)when issued by on-line</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-98-129.xml">Electronic Payments Regulations, English version, consolidated XML (eng/regulations/SOR-98-129.xml)</a> · paragraph 3(b) of Electronic Payments Regulations, English XML (eng/SOR-98-129) · consolidated version, point-in-time date 2006-03-22 · retrieved 2026-11-05 · SHA-256 <code>b26dccc1eed56be5a022a27c0a4fb0ea0319983514fca740642580bc45b2827d</code> · <a href="../sources/0ef5562db0a97290-xml-eng-regulations-sor-98-129-xml.txt">copy</a></div><blockquote class="q" lang="fr">(iv)la norme CSA B342,(v)la norme CSA B622,(iv)la norme CSA B625.(2)[Abrogé, DORS/2023-155, art.</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2001-286.xml">Règlement sur le transport des marchandises dangereuses, French version, consolidated XML (fra/reglements/DORS-2001-286.xml)</a> · paragraph 5.10(1)(d) of Règlement sur le transport des marchandises dangereuses, French XML (fra/DORS-2001-286) · consolidated version, point-in-time date 2026-07-01 · retrieved 2026-11-05 · SHA-256 <code>830d9b6bafd483af773a4c7f8e75e0e2ed5ae45aab2e0e2c8b76adb3fbe8eb42</code> · <a href="../sources/68334b662b7786e5-xml-fra-reglements-dors-2001-286-xml.txt">copy</a></div><blockquote class="q" lang="fr">(i)conformément à l’article 105, l’identité des personnes habilitées à donner des instructions relativement aux activités de cette entité en sa qualité de cofiduciaire, jusqu’à concurrence de trois,(i)conformément aux articles 109 ou 112, l’identité</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2002-184.xml">Règlement sur le recyclage des produits de la criminalité et le financement des activités terroristes, French version, consolidated XML (fra/reglements/DORS-2002-184.xml)</a> · paragraph 89(e) of Règlement sur le recyclage des produits de la criminalité et le financement des activités terroristes, French XML (fra/DORS-2002-184) · consolidated version, point-in-time date 2026-03-26 · retrieved 2026-11-05 · SHA-256 <code>46cddda0faf599ac30b7662a08443fefd1e78fb18b9732e84a45c7fa8a3747ed</code> · <a href="../sources/25d8870c92a6608b-xml-fra-reglements-dors-2002-184-xml.txt">copy</a></div><blockquote class="q" lang="fr">(ii)le rapport sur la fabrication et la construction visé à l’alinéa 14b),(ii)l’autorisation;f)vérifier que les installations,</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2024-272.xml">Règlement sur l’énergie renouvelable extracôtière au Canada, French version, consolidated XML (fra/reglements/DORS-2024-272.xml)</a> · paragraph 40(3)(e) of Règlement sur l’énergie renouvelable extracôtière au Canada, French XML (fra/DORS-2024-272) · consolidated version, point-in-time date 2024-12-16 · retrieved 2026-11-05 · SHA-256 <code>a4bc367366cffba0f251bbfaa2203aa47454ae385683333c0253d6e338a4af00</code> · <a href="../sources/b760b3e3572ecd02-xml-fra-reglements-dors-2024-272-xml.txt">copy</a></div><blockquote class="q" lang="fr">(i)dont le numérateur est le nombre d’années de service d’après lequel la pension discontinuée est fixée, nombre qui, ajouté au nombre d’années de service, ou de service ouvrant droit à pension d’après lequel l’allocation est fixée, ne forme pas un total de plus de trente-cinq ans, et(i)dont le dénominateur est le nombre d’années de</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-55-416.xml">Règlements, Loi sur les pensions des services de défense, Partie V, French version, consolidated XML (fra/reglements/DORS-55-416.xml)</a> · paragraph 34(4)(b) of Règlements, Loi sur les pensions des services de défense, Partie V, French XML (fra/DORS-55-416) · consolidated version, point-in-time date 2006-03-22 · retrieved 2026-11-05 · SHA-256 <code>86c8505425f2af5efdb61be58ea22de644b56d5d970936c123467a5a7929f930</code> · <a href="../sources/863ce2e0f91c7e84-xml-fra-reglements-dors-55-416-xml.txt">copy</a></div><blockquote class="q" lang="fr">(ii)sa quantité,(ii)sa fonction quant à l’utilisation des</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-94-23.xml">Règlement sur la détermination, aux fins de marquage, du pays d’origine des marchandises (pays ACEUM), French version, consolidated XML (fra/reglements/DORS-94-23.xml)</a> · paragraph 2(2)(b) of Règlement sur la détermination, aux fins de marquage, du pays d’origine des marchandises (pays ACEUM), French XML (fra/DORS-94-23) · consolidated version, point-in-time date 2020-07-01 · retrieved 2026-11-05 · SHA-256 <code>6139ae7f71607d037fa8b4e83dcdb245b999534fba33d8a92535149a8df56189</code> · <a href="../sources/835353fb7c00b9d3-xml-fra-reglements-dors-94-23-xml.txt">copy</a></div><blockquote class="q" lang="fr">(iv)il a été désigné dans le choix par le contribuable;le produit de disposition de ce bien est réputé égal au plus élevé des montants suivants et le bien est réputé avoir été acquis de nouveau par le contribuable immédiatement après ce moment à un coût égal à ce produit :(iv)la juste valeur marchande du bien à ce</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/I-3.3.xml">Loi de l’impôt sur le revenu, French version, consolidated XML (fra/lois/I-3.3.xml)</a> · paragraph 142.6(8)(b) of Loi de l’impôt sur le revenu, French XML (fra/I-3.3) · consolidated version, point-in-time date 2026-06-18 · retrieved 2026-11-05 · SHA-256 <code>36b8465c70f532e1fc1edd890154b07a67721e826f2a1af689014f255bb9c96c</code> · <a href="../sources/afce1fccb97ec0c7-xml-fra-lois-i-3-3-xml.txt">copy</a></div>
+
+<h2>How to check it without Arxo's tools</h2>
+<ol><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/F-11.4.xml">Financial Institutions Depositors Compensation Act, English version, consolidated XML (eng/acts/F-11.4.xml)</a> and find paragraph 5(2)(b) of Financial Institutions Depositors Compensation Act, English XML (eng/F-11.4). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/f46f4bf431faa35c-xml-eng-acts-f-11-4-xml.txt">f46f4bf431faa35c-xml-eng-acts-f-11-4-xml.txt</a> (SHA-256 <code>f46f4bf431faa35c8ad119e1e60b9507f6200b3ac966597e4826eaf1ddaa9c7d</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-98-129.xml">Electronic Payments Regulations, English version, consolidated XML (eng/regulations/SOR-98-129.xml)</a> and find paragraph 3(b) of Electronic Payments Regulations, English XML (eng/SOR-98-129). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/0ef5562db0a97290-xml-eng-regulations-sor-98-129-xml.txt">0ef5562db0a97290-xml-eng-regulations-sor-98-129-xml.txt</a> (SHA-256 <code>0ef5562db0a97290b697df13784cb622ab252fa71bdf55553799b416a7934cb4</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2001-286.xml">Règlement sur le transport des marchandises dangereuses, French version, consolidated XML (fra/reglements/DORS-2001-286.xml)</a> and find paragraph 5.10(1)(d) of Règlement sur le transport des marchandises dangereuses, French XML (fra/DORS-2001-286). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/68334b662b7786e5-xml-fra-reglements-dors-2001-286-xml.txt">68334b662b7786e5-xml-fra-reglements-dors-2001-286-xml.txt</a> (SHA-256 <code>68334b662b7786e5e3db5a7d085e2438890d674bfdf2b4d58b87a8c13496c1e2</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2002-184.xml">Règlement sur le recyclage des produits de la criminalité et le financement des activités terroristes, French version, consolidated XML (fra/reglements/DORS-2002-184.xml)</a> and find paragraph 89(e) of Règlement sur le recyclage des produits de la criminalité et le financement des activités terroristes, French XML (fra/DORS-2002-184). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/25d8870c92a6608b-xml-fra-reglements-dors-2002-184-xml.txt">25d8870c92a6608b-xml-fra-reglements-dors-2002-184-xml.txt</a> (SHA-256 <code>25d8870c92a6608b9140cfc4417d36483292d824e47e543e56a3601c35f05697</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2024-272.xml">Règlement sur l’énergie renouvelable extracôtière au Canada, French version, consolidated XML (fra/reglements/DORS-2024-272.xml)</a> and find paragraph 40(3)(e) of Règlement sur l’énergie renouvelable extracôtière au Canada, French XML (fra/DORS-2024-272). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/b760b3e3572ecd02-xml-fra-reglements-dors-2024-272-xml.txt">b760b3e3572ecd02-xml-fra-reglements-dors-2024-272-xml.txt</a> (SHA-256 <code>b760b3e3572ecd0285a78aeb25ab4dddedbacb4fbd35d8e3eb8de36da5f34abd</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-55-416.xml">Règlements, Loi sur les pensions des services de défense, Partie V, French version, consolidated XML (fra/reglements/DORS-55-416.xml)</a> and find paragraph 34(4)(b) of Règlements, Loi sur les pensions des services de défense, Partie V, French XML (fra/DORS-55-416). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/863ce2e0f91c7e84-xml-fra-reglements-dors-55-416-xml.txt">863ce2e0f91c7e84-xml-fra-reglements-dors-55-416-xml.txt</a> (SHA-256 <code>863ce2e0f91c7e840f0a4081b9adba0214c0156d117c93a1205dae7c2d00cf2d</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-94-23.xml">Règlement sur la détermination, aux fins de marquage, du pays d’origine des marchandises (pays ACEUM), French version, consolidated XML (fra/reglements/DORS-94-23.xml)</a> and find paragraph 2(2)(b) of Règlement sur la détermination, aux fins de marquage, du pays d’origine des marchandises (pays ACEUM), French XML (fra/DORS-94-23). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/835353fb7c00b9d3-xml-fra-reglements-dors-94-23-xml.txt">835353fb7c00b9d3-xml-fra-reglements-dors-94-23-xml.txt</a> (SHA-256 <code>835353fb7c00b9d33f106873778b3c679ad4ab524feb8b2782ed70420349ec0f</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/I-3.3.xml">Loi de l’impôt sur le revenu, French version, consolidated XML (fra/lois/I-3.3.xml)</a> and find paragraph 142.6(8)(b) of Loi de l’impôt sur le revenu, French XML (fra/I-3.3). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/afce1fccb97ec0c7-xml-fra-lois-i-3-3-xml.txt">afce1fccb97ec0c7-xml-fra-lois-i-3-3-xml.txt</a> (SHA-256 <code>afce1fccb97ec0c76d95ea6e639b159dbf903b13c0f26f9389fce44650699449</code>, text extracted from the official source, as used to check the quotation).</li><li>The finding holds if the quoted passages read as shown and the comparison gives the result stated at the top of this page. If it does not, write to us with the record ID.</li></ol>
+<h2>How this finding was made</h2>
+<p>AI agents wrote and ran checks over the XML of the consolidated federal Acts and regulations of Canada, read each finding in the XML of both language versions and, where named on the card, in the Canada Gazette or the annual statutes; a second AI reading and the coordinator of the checks decided each finding.</p>
+
+<h2>Responsible institutions</h2><ul><li>Department of Justice Canada, Justice Laws Website — publishes the consolidated Acts and regulations of Canada and their XML</li></ul>
+<h2>Reported to</h2>
+<div class="scroll"><table class="grid"><thead><tr><th>Date</th><th>Institution</th><th>Channel</th><th>Reference</th></tr></thead><tbody><tr><td class="mono">2026-11-09</td><td>Department of Justice Canada, Justice Laws Website</td><td>e-mail</td><td class="mono"></td></tr></tbody></table></div>
+<h2>Responses</h2>
+<p>No response recorded.</p>
+
+
+<h2>History</h2>
+<ol class="history"><li><span class="d">2026-11-09</span>Confirmed by Arxo</li><li><span class="d">2026-11-09</span>Reported to Department of Justice Canada, Justice Laws Website (e-mail)</li><li><span class="d">2026-11-10</span>Entered in the register</li></ol>
+<section class="alt" lang="fr"><h2>Français</h2><h3>Lois du Canada : numéros de sous-alinéas répétés à 8 endroits du XML codifié</h3><p>À 8 endroits des lois et règlements codifiés, un alinéa compte deux sous-alinéas portant le même numéro dans une version linguistique, par exemple Loi de l’impôt sur le revenu, alinéa 142.6(8)b), version française : (iv), (iv), (v); Règlement sur le transport des marchandises dangereuses, alinéa 5.10(1)d) : « (v) la norme CSA B622, (iv) la norme CSA B625 ». L’origine n’est pas établie : les textes adoptés ou enregistrés n’ont pas été vérifiés.</p></section>
+<h2>Cite this record</h2>
+<p>Arxo Law, Arxo Findings Register, ARXO-2026-0970, https://arxo.io/findings/ARXO-2026-0970/ (status as of 2026-11-05). Data: <a href="../findings/ARXO-2026-0970.json">ARXO-2026-0970.json</a>.</p>
+
+</main>
+<footer class="site"><div class="wrap">
+Published by Arxo Law. Data under CC BY 4.0: <a href="../register.json">register.json</a> · <a href="../findings.csv">findings.csv</a> · <a href="../SHA256SUMS">SHA256SUMS</a>.
+Objections, reports of our own mistakes and requests for verification: <a href="mailto:hi@arxo.io">hi@arxo.io</a> — give the record ID, the conclusion you dispute and your source. We acknowledge receipt within five working days and answer on the merits within ten.
+<a href="../policy/index.html">Responsible Disclosure of Defects in Law</a>. Arxo executes the canon.
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,7 @@
+Excerpts of Canadian Commercial Corporation Act (C-14), French version, consolidated XML (fra/lois/C-14.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/C-14.xml
+sha256 of the source file: 5262f542eca351345b29854638293426903ccaefc7ef2f261c4d08547a2fabd0
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Canadian Commercial Corporation Act — s. 13 (French)
+Vérificateur13Le vérificateur général du Canada est le vérificateur de la Société. S.R., ch. C-6, art. 8; 1976-77, ch. 34, art. 30; 1984, ch. 31, art. 14

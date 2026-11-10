@@ -1,0 +1,7 @@
+Excerpts of Security of Canada Information Disclosure Act, French version, consolidated XML (fra/lois/S-6.9.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/S-6.9.xml
+sha256 of the source file: 62a4adcee82083aaf1f1288ff1fea8902128c1b856dbd7cfb14ae695fc1482cf
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Security of Canada Information Disclosure Act — paragraph (g) of the definition in subsection 2(1) (French)
+entraver de manière considérable ou à grande échelle le fonctionnement de l’infrastructure mondiale de l’information, au sens de l’article 273.61 de la Loi sur la défense nationale;

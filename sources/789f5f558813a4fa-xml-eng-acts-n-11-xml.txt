@@ -1,0 +1,10 @@
+Excerpts of National Housing Act, English version, consolidated XML (eng/acts/N-11.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/N-11.xml
+sha256 of the source file: a5a13ae377bbd0f4d85b79441f17e16532bcdd025bb25af5c4f3534a2366fda3
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+21.3 National Housing Act — s. 21.3 (English)
+year(3)For the purpose of subsection (1), the fiscal year is the period beginning on April 1 in one year and ending on March 31 in the next year. R.S., 1985, c. 8 (1st Supp.), s. 1, c. 25 (4th Supp.), s. 18; 1992, c. 32. s. 26; 1999, c. 27, s. 3; 2011, c. 15, s. 24; 2012, c. 19, s. 358
+
+21.4 National Housing Act — s. 21.4 (English)
+on which and manner in which the Corporation may exercise its powers under this Part; and(c)prescribing anything that is to be prescribed by this Part. R.S., 1985, c. 8 (1st Supp.), s. 1, c. 25 (4th Supp.), s. 19; 1992, c. 32. s. 27; 1999, c. 27, s. 3; 2011, c. 15, s. 24; 2012, c. 19, s. 358

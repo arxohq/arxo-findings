@@ -1,0 +1,10 @@
+Excerpts of Règlement sur les produits de santé naturels, French version, consolidated XML (fra/reglements/DORS-2003-196.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2003-196.xml
+sha256 of the source file: af87e079fcdfefb92aa02d45ab59046acdc54c852514f275679e68a12f5812f4
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Règlement sur les produits de santé naturels — s. 28 (French)
+que les bâtiments, l’équipement, les méthodes et les procédés utilisés dans l’exercice de chacune des activités visées à l’alinéa b) sont conformes aux exigences prévues à la partie 3. DORS/2021-46, art. 17(F)DORS/2021-46, art. 19(E)
+
+Règlement sur les produits de santé naturels — s. 32 (French)
+l’équipement, les méthodes et les procédés utilisés à l’égard de chacune des activités exercées par le titulaire demeurent conformes aux exigences de la partie 3. DORS/2018-69, art. 47(A)DORS/2021-46, art. 18(F)DORS/2021-46, art. 19(E)

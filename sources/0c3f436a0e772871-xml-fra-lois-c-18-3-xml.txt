@@ -1,0 +1,7 @@
+Excerpts of Loi sur le Tribunal canadien du commerce extérieur, French version, consolidated XML (fra/lois/C-18.3.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/C-18.3.xml
+sha256 of the source file: 87b4f36c96a5edb3985a63b759c814b844f4317f74d2e00f3e6d5ceeccbfbfc5
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+19.1 Loi sur le Tribunal canadien du commerce extérieur — s. 19.1 (French)
+des conditions telles que leur importation constitue à elle seule une cause principale du dommage grave porté aux producteurs nationaux de marchandises similaires ou directement concurrentes. 1988, ch. 65, art. 52; 1997 ch. 36, art. 195

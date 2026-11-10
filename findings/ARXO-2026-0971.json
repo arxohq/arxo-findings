@@ -1,0 +1,104 @@
+{
+  "id": "ARXO-2026-0971",
+  "url": "https://arxo.io/findings/ARXO-2026-0971/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "CA",
+  "jurisdiction_detail": "federal",
+  "act": "Consolidated Acts and Regulations of Canada (Justice Laws Website)",
+  "acts": [],
+  "location": "SOR/83-481, s. 2",
+  "text": {
+    "en": {
+      "title": "Letter Definition Regulations (SOR/83-481), s. 2: paragraph (i) nested inside paragraph (h) in the English XML",
+      "summary": "In the English XML of the Letter Definition Regulations (SOR/83-481), section 2, paragraph (i) of the definition is nested inside paragraph (h) as a subparagraph. The visible text reads correctly.",
+      "impact": "The visible text reads correctly; a machine reader of the XML places the paragraph at the wrong level. No effect on the law.",
+      "correction": "The Department of Justice decides how to correct each place in the consolidation or the XML; the evidence gives the wording of each language version."
+    },
+    "fr": {
+      "title": "Règlement sur la définition de lettre (DORS/83-481), art. 2 : l’alinéa i) imbriqué dans l’alinéa h) dans le XML anglais",
+      "summary": "Dans le XML anglais du Règlement sur la définition de lettre (DORS/83-481), article 2, l’alinéa i) de la définition est imbriqué dans l’alinéa h) comme un sous-alinéa. Le texte se lit correctement."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-05",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The official publication",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c073-en",
+        "source": "Letter Definition Regulations, English version, consolidated XML (eng/regulations/SOR-83-481.xml)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "consolidated version, point-in-time date 2006-03-22",
+        "locator": "section 2 of the Letter Definition Regulations, English XML (eng/SOR-83-481)",
+        "text": "(h)an invoice or other document relating to(i)an item in paragraph (g),(ii)a specimen for medical or scientific analysis, or(iii)goodswhen delivered therewith by the individual delivering such item, specimen or goods;(i)an invoice or other document relating to the supply of goods or services that is delivered by(i)the supplier to the recipient at the supplier’s normal business address,(ii)the recipient at(A)a financial institution indicated by the supplier, or(B)the supplier’s normal business address, or(iii)the individual who performed the services;",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-83-481.xml",
+        "sha256": "7f1edeb2fd9fb05cbbc22cc0307dfb4af98b15cfb8c96a73bea2413f755dc68b",
+        "retrieved": "2026-11-05",
+        "copy": "sources/e2624323c8a691ba-xml-eng-regulations-sor-83-481-xml.txt",
+        "copy_sha256": "e2624323c8a691ba68ea15390521b3b2cfeec1f1e2f0bf3f6d78d6ff15e3d39e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09T20:01:17Z",
+      "institution": "Department of Justice Canada, Justice Laws Website",
+      "channel": "email",
+      "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Justice Canada, Justice Laws Website",
+      "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran checks over the XML of the consolidated federal Acts and regulations of Canada, read each finding in the XML of both language versions and, where named on the card, in the Canada Gazette or the annual statutes; a second AI reading and the coordinator of the checks decided each finding."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T19:20:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Justice Canada, Justice Laws Website (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

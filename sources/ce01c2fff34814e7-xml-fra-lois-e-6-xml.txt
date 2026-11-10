@@ -1,0 +1,7 @@
+Excerpts of Energy Administration Act (E-6), French version, consolidated XML (fra/lois/E-6.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/E-6.xml
+sha256 of the source file: a40fe0c3a43e296ccc6ed887282c851d3f7864943485301fa57015036983b133
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Energy Administration Act — s. 81 (French)
+ces règlements, le ministre peut, sous réserve des conditions qu’il peut imposer conformément aux règlements, autoriser le paiement à cette personne d’une indemnité dont il fixe le montant, conformément aux règlements. 1974-75-76, ch. 47, art. 72; 1976-77, ch. 28, art. 49; 1977-78, ch. 24, art. 2; 1980-81-82-83, ch. 114, art. 42

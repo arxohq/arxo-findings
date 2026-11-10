@@ -1,0 +1,7 @@
+Excerpts of Loi d’aide à l’exécution des ordonnances et des ententes familiales, French version, consolidated XML (fra/lois/F-1.4.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/F-1.4.xml
+sha256 of the source file: 3e289e739cbb04a13455c69e5ce6f0924fa1036e8da9479e086bd730300b5017
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Loi d’aide à l’exécution des ordonnances et des ententes familiales — s. 49 (French)
+Recouvrement auprès du débiteur49Toutes sommes saisissables payées à un débiteur et auxquelles il n’a pas droit, du fait d’une saisie-arrêt autorisée par la présente partie, constituent une créance de Sa Majesté recouvrable, à ce titre, auprès de ce débiteur conformément à la Loi sur la gestion des finances publiques et à la loi régissant les sommes ainsi payées. L.R. (1985), ch. 4 (2e suppl.), art. 492019, ch. 16, art. 64(E)

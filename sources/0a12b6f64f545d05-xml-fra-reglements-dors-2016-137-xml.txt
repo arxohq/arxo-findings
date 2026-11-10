@@ -1,0 +1,7 @@
+Excerpts of Ozone-depleting Substances and Halocarbon Alternatives Regulations (DORS-2016-137), French version, consolidated XML (fra/reglements/DORS-2016-137.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2016-137.xml
+sha256 of the source file: bb7eccd00fd64768c85c4d6a5696c5f578205e5ada17477685341ebcb5958d01
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Ozone-depleting Substances and Halocarbon Alternatives Regulations — s. 54 (French)
+à ce qu’il soit envoyé à une installation de recyclage ou de régénération.Exception — allocation de consommation ou de fabrication(2)Toutefois, le bénéficiaire de l’allocation de consommation ou de fabrication visée aux articles 55 ou 60 peut soit se conformer au paragraphe (1), soit inclure la quantité de HCFC qui ne sert plus à l’utilisation prévue dans le permis dans son niveau calculé de consommation ou de fabrication si l’allocation ne se trouve

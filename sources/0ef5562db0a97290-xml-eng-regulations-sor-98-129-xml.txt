@@ -1,0 +1,7 @@
+Excerpts of Electronic Payments Regulations, English version, consolidated XML (eng/regulations/SOR-98-129.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-98-129.xml
+sha256 of the source file: b26dccc1eed56be5a022a27c0a4fb0ea0319983514fca740642580bc45b2827d
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Electronic Payments Regulations — paragraph 3(b) (English)
+3Every electronic instruction for payment must(a)be issued by or under the direction and control of the Receiver General;(b)include(i)the amount of the payment,(ii)the payment reference number,(iii)the name of the payee,(iv)the payee’s financial institution number, branch number and account number, and(iv)the payment date; and(c)when issued by on-line transfer, be authorized by a digital signature.

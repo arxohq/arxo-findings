@@ -1,0 +1,10 @@
+Excerpts of Décret de remise visant certaines marchandises de la Russie, French version, consolidated XML (fra/reglements/DORS-2023-160.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2023-160.xml
+sha256 of the source file: 03040441d2a6a1c005c58f0b08a0cbe06a5cc9f58484e9c20f8132a636e82d5c
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Décret de remise visant certaines marchandises de la Russie — root attributes (French)
+lims:pit-date="2030-07-08" lims:current-date="2026-09-03" lims:inforce-start-date="2023-07-07" lims:enacted-date="2023-07-07"
+
+Certain Russian Goods Remission Order — subsection 2(2) (French)
+Malgré le paragraphe (1), s’agissant de marchandises visées à l’alinéa 1b) qui ont été importées avant la date d’entrée en vigueur du présent paragraphe, la remise est accordée à la condition qu’une demande de remise soit présentée au ministre de la Sécurité publique et de la Protection civile dans les deux ans suivant cette date.

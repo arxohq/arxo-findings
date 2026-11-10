@@ -1,0 +1,264 @@
+{
+  "id": "ARXO-2026-0974",
+  "url": "https://arxo.io/findings/ARXO-2026-0974/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "CA",
+  "jurisdiction_detail": "federal",
+  "act": "Consolidated Acts and Regulations of Canada (Justice Laws Website)",
+  "acts": [],
+  "location": "Consolidated Acts and Regulations of Canada",
+  "text": {
+    "en": {
+      "title": "Justice Laws: language marks in the wrong form in 11 historical notes",
+      "summary": "English historical notes mark language-specific amendments (E) and (F); French notes use (A) and (F). In 11 places of the consolidation the mark has the form of the other language: English note of the Proceeds of Crime (Money Laundering) and Terrorist Financing Act, s. 49: “223(A)”; French notes with “(E)” in the Criminal Code, s. 183; Olympic and Paralympic Marks Act, ss. 3, 4 and 8; Canada Labour Code, s. 47.1; Family Orders and Agreements Enforcement Assistance Act, s. 49; Royal Canadian Mounted Police Superannuation Regulations, ss. 57 and 59; Natural Health Products Regulations, ss. 28 and 32.",
+      "impact": "The marks remain readable; they are harder to read by machine and to search. No effect on the law.",
+      "correction": "The Department of Justice decides how to correct each place in the consolidation or the XML; the evidence gives the wording of each language version."
+    },
+    "fr": {
+      "title": "Lois du Canada : marques de langue sous une forme erronée dans 11 notes historiques",
+      "summary": "Les notes anglaises emploient (E) et (F); les notes françaises, (A) et (F). À 11 endroits de la codification, la marque a la forme de l’autre langue, par exemple Code criminel, art. 183, note française : « ch. 20, art. 366(E) »; Loi sur le recyclage des produits de la criminalité et le financement des activités terroristes, art. 49, note anglaise : « 223(A) »."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-05",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The consolidated text",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c009-en",
+        "source": "Proceeds of Crime (Money Laundering) and Terrorist Financing Act, English version, consolidated XML (eng/acts/P-24.501.xml)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "consolidated version, point-in-time date 2026-03-26",
+        "locator": "s. 49 of Proceeds of Crime (Money Laundering) and Terrorist Financing Act, English XML (eng/P-24.501)",
+        "text": "2003, c. 22, ss. 190, 223(A)",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/P-24.501.xml",
+        "sha256": "354ea7c94e0bdc995c41365c664aaa0af085934ea6263451a38ee745999feab8",
+        "retrieved": "2026-11-05",
+        "copy": "sources/1052481c45c9949c-xml-eng-acts-p-24-501-xml.txt",
+        "copy_sha256": "1052481c45c9949ce96eb304f01c0583fcf85b8888d91eae2da567c8fcd659d2",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c010-fr",
+        "source": "Code criminel, French version, consolidated XML (fra/lois/C-46.xml)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version, point-in-time date 2026-07-18",
+        "locator": "s. 183 of Code criminel, French XML (fra/C-46)",
+        "text": "2014, ch. 17, art. 2, ch. 20, art. 366(E), ch. 25, art. 11, ch. 31, art. 7, ch. 32, art. 59",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/C-46.xml",
+        "sha256": "b55a7f16c667b5fbe3c6ba37d79570391e8e50f2bdde1f5c5dcf66c91831a679",
+        "retrieved": "2026-11-05",
+        "copy": "sources/60c342f51fbbca6d-xml-fra-lois-c-46-xml.txt",
+        "copy_sha256": "60c342f51fbbca6d9601f7074c1b728512aed4c679413780a431b3bde571bf39",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c011-fr",
+        "source": "Règlement sur la pension de retraite de la Gendarmerie royale du Canada, French version, consolidated XML (fra/reglements/C.R.C.,_ch._1393.xml)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version, point-in-time date 2026-06-22",
+        "locator": "s. 57 of Règlement sur la pension de retraite de la Gendarmerie royale du Canada, French XML (fra/C.R.C.,_ch._1393)",
+        "text": "DORS/2012-124, art. 31 et 32(E)",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/C.R.C.,_ch._1393.xml",
+        "sha256": "00e908ead97df6677bd0ca8fa46800c16ad9fef2cfe1c2fc3b3cf84156c222bc",
+        "retrieved": "2026-11-05",
+        "copy": "sources/c0c7b25c32e654a1-xml-fra-reglements-c-r-c-ch-1393-xml.txt",
+        "copy_sha256": "c0c7b25c32e654a1490399d1ef3406010f74bfab28299b7a96bdb6e82912eb44",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c012-fr",
+        "source": "Règlement sur la pension de retraite de la Gendarmerie royale du Canada, French version, consolidated XML (fra/reglements/C.R.C.,_ch._1393.xml)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version, point-in-time date 2026-06-22",
+        "locator": "s. 59 of Règlement sur la pension de retraite de la Gendarmerie royale du Canada, French XML (fra/C.R.C.,_ch._1393)",
+        "text": "DORS/2012-124, art. 31 et 32(E)",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/C.R.C.,_ch._1393.xml",
+        "sha256": "00e908ead97df6677bd0ca8fa46800c16ad9fef2cfe1c2fc3b3cf84156c222bc",
+        "retrieved": "2026-11-05",
+        "copy": "sources/c0c7b25c32e654a1-xml-fra-reglements-c-r-c-ch-1393-xml.txt",
+        "copy_sha256": "c0c7b25c32e654a1490399d1ef3406010f74bfab28299b7a96bdb6e82912eb44",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c013-fr",
+        "source": "Règlement sur les produits de santé naturels, French version, consolidated XML (fra/reglements/DORS-2003-196.xml)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version, point-in-time date 2025-06-21",
+        "locator": "s. 28 of Règlement sur les produits de santé naturels, French XML (fra/DORS-2003-196)",
+        "text": "DORS/2021-46, art. 19(E)",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2003-196.xml",
+        "sha256": "af87e079fcdfefb92aa02d45ab59046acdc54c852514f275679e68a12f5812f4",
+        "retrieved": "2026-11-05",
+        "copy": "sources/c3d6ab28b8b207ea-xml-fra-reglements-dors-2003-196-xml.txt",
+        "copy_sha256": "c3d6ab28b8b207ea24f9fc209e1ba765490697d6f2af885d63d4394e80344af3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c014-fr",
+        "source": "Règlement sur les produits de santé naturels, French version, consolidated XML (fra/reglements/DORS-2003-196.xml)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version, point-in-time date 2025-06-21",
+        "locator": "s. 32 of Règlement sur les produits de santé naturels, French XML (fra/DORS-2003-196)",
+        "text": "DORS/2021-46, art. 19(E)",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2003-196.xml",
+        "sha256": "af87e079fcdfefb92aa02d45ab59046acdc54c852514f275679e68a12f5812f4",
+        "retrieved": "2026-11-05",
+        "copy": "sources/c3d6ab28b8b207ea-xml-fra-reglements-dors-2003-196-xml.txt",
+        "copy_sha256": "c3d6ab28b8b207ea24f9fc209e1ba765490697d6f2af885d63d4394e80344af3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c015-fr",
+        "source": "Loi d’aide à l’exécution des ordonnances et des ententes familiales, French version, consolidated XML (fra/lois/F-1.4.xml)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version, point-in-time date 2023-11-15",
+        "locator": "s. 49 of Loi d’aide à l’exécution des ordonnances et des ententes familiales, French XML (fra/F-1.4)",
+        "text": "2019, ch. 16, art. 64(E)",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/F-1.4.xml",
+        "sha256": "3e289e739cbb04a13455c69e5ce6f0924fa1036e8da9479e086bd730300b5017",
+        "retrieved": "2026-11-05",
+        "copy": "sources/e307259eaec0eba6-xml-fra-lois-f-1-4-xml.txt",
+        "copy_sha256": "e307259eaec0eba66ca23151b45547ab421fc8d648603cc88ef33cde8ba9bac1",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c016-fr",
+        "source": "Code canadien du travail, French version, consolidated XML (fra/lois/L-2.xml)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version, point-in-time date 2025-12-12",
+        "locator": "s. 47.1 of Code canadien du travail, French XML (fra/L-2)",
+        "text": "2003, ch. 22, art. 109 et 223(E)",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/L-2.xml",
+        "sha256": "b04ef53939a7fc35ab7d0537db5126b0e036ad1da3108596fe81ae58cad08750",
+        "retrieved": "2026-11-05",
+        "copy": "sources/2542954b6bbc35e4-xml-fra-lois-l-2-xml.txt",
+        "copy_sha256": "2542954b6bbc35e49dfbf2d7cd6d09e3c4021fff6e0b8d9adccb6c2872b1a6b0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c017-fr",
+        "source": "Loi sur les marques olympiques et paralympiques, French version, consolidated XML (fra/lois/O-9.2.xml)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version, point-in-time date 2019-06-17",
+        "locator": "s. 3 of Loi sur les marques olympiques et paralympiques, French XML (fra/O-9.2)",
+        "text": "2014, ch. 20, art. 366(E), ch. 32, art. 62",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/O-9.2.xml",
+        "sha256": "f8c29bbc49a7d3dae20afd297ab28bcc5c26fdb278bf847e6f4954664a61e7d2",
+        "retrieved": "2026-11-05",
+        "copy": "sources/6c139b8522d5c8f3-xml-fra-lois-o-9-2-xml.txt",
+        "copy_sha256": "6c139b8522d5c8f3d6e5a907fc30b84b4d66e2576e603604d9a34098b1afa452",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c018-fr",
+        "source": "Loi sur les marques olympiques et paralympiques, French version, consolidated XML (fra/lois/O-9.2.xml)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version, point-in-time date 2019-06-17",
+        "locator": "s. 4 of Loi sur les marques olympiques et paralympiques, French XML (fra/O-9.2)",
+        "text": "2014, ch. 20, art. 366(E), ch. 32, art. 62",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/O-9.2.xml",
+        "sha256": "f8c29bbc49a7d3dae20afd297ab28bcc5c26fdb278bf847e6f4954664a61e7d2",
+        "retrieved": "2026-11-05",
+        "copy": "sources/6c139b8522d5c8f3-xml-fra-lois-o-9-2-xml.txt",
+        "copy_sha256": "6c139b8522d5c8f3d6e5a907fc30b84b4d66e2576e603604d9a34098b1afa452",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c019-fr",
+        "source": "Loi sur les marques olympiques et paralympiques, French version, consolidated XML (fra/lois/O-9.2.xml)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version, point-in-time date 2019-06-17",
+        "locator": "s. 8 of Loi sur les marques olympiques et paralympiques, French XML (fra/O-9.2)",
+        "text": "2014, ch. 20, art. 366(E), ch. 32, art. 62",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/O-9.2.xml",
+        "sha256": "f8c29bbc49a7d3dae20afd297ab28bcc5c26fdb278bf847e6f4954664a61e7d2",
+        "retrieved": "2026-11-05",
+        "copy": "sources/6c139b8522d5c8f3-xml-fra-lois-o-9-2-xml.txt",
+        "copy_sha256": "6c139b8522d5c8f3d6e5a907fc30b84b4d66e2576e603604d9a34098b1afa452",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09T20:01:17Z",
+      "institution": "Department of Justice Canada, Justice Laws Website",
+      "channel": "email",
+      "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Justice Canada, Justice Laws Website",
+      "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran checks over the XML of the consolidated federal Acts and regulations of Canada, read each finding in the XML of both language versions and, where named on the card, in the Canada Gazette or the annual statutes; a second AI reading and the coordinator of the checks decided each finding."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T19:20:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Justice Canada, Justice Laws Website (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

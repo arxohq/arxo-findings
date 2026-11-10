@@ -4,14 +4,14 @@
   "description": "Verified discrepancies in legal texts, standards, official publications and implementations, with evidence and correction histories.",
   "publisher": "Arxo Law",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "as_of": "2026-11-10T15:45:00+00:00",
+  "as_of": "2026-11-10T19:20:00+00:00",
   "base_url": "https://arxo.io/findings/",
   "counts": {
-    "records": 836,
-    "discrepancies": 744,
+    "records": 847,
+    "discrepancies": 755,
     "questions": 92,
     "by_jurisdiction": {
-      "CA": 3,
+      "CA": 14,
       "CH": 16,
       "DE": 21,
       "EU": 50,
@@ -30,14 +30,32 @@
       "WHATWG": 6
     },
     "by_status": {
-      "reported": 807,
-      "accepted": 17,
+      "reported": 816,
+      "accepted": 19,
       "disagrees": 2,
       "note_added": 5,
       "corrected": 3,
       "corrected_before_report": 2
     },
     "matrix": [
+      {
+        "jurisdiction": "CA",
+        "class": "act_text",
+        "status": "accepted",
+        "records": 2
+      },
+      {
+        "jurisdiction": "CA",
+        "class": "act_text",
+        "status": "reported",
+        "records": 1
+      },
+      {
+        "jurisdiction": "CA",
+        "class": "language_versions",
+        "status": "reported",
+        "records": 1
+      },
       {
         "jurisdiction": "CA",
         "class": "programs",
@@ -48,7 +66,7 @@
         "jurisdiction": "CA",
         "class": "publication",
         "status": "reported",
-        "records": 2
+        "records": 9
       },
       {
         "jurisdiction": "CH",
@@ -327,11 +345,11 @@
         "records": 6
       }
     ],
-    "institutions_notified": 198,
+    "institutions_notified": 202,
     "corrected_by_official_document": 5,
     "withdrawn_after_publication": {
       "withdrawn": 0,
-      "of_published": 805
+      "of_published": 816
     },
     "rule": "Counts are of findings. One finding is one independently checkable statement about one discrepancy at one place; classes and questions are counted separately and are not added together."
   },
@@ -294333,6 +294351,2823 @@
           "date": "2026-11-09",
           "event": "reported",
           "text": "Reported to Internal Drafting Committee of the Federal Administration (e-mail)"
+        },
+        {
+          "date": "2026-11-10",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0968",
+      "url": "https://arxo.io/findings/ARXO-2026-0968/",
+      "record_kind": "discrepancy",
+      "class": "publication",
+      "class_label": "Publication and consolidation",
+      "jurisdiction": "CA",
+      "jurisdiction_detail": "federal",
+      "act": "Consolidated Acts and Regulations of Canada (Justice Laws Website)",
+      "acts": [],
+      "location": "S.C. 2015, c. 20, s. 2",
+      "text": {
+        "en": {
+          "title": "Security of Canada Information Disclosure Act, s. 2(1), definition “activity that undermines the security of Canada”, paragraph (g): amendment not applied in the French version",
+          "summary": "The English version refers to “section 2 of the Communications Security Establishment Act”. The French version still reads “au sens de l’article 273.61 de la Loi sur la défense nationale”. Section 89 of S.C. 2019, c. 13 replaced paragraph (g) in both languages; it came into force on August 1, 2019 under SI/2019-70, after subsection 115(3) of the same Act, which came into force on June 21, 2019. The consolidated French version does not show the replacement.",
+          "impact": "A reader of the French consolidated version reads a reference to a provision of the National Defence Act that the amending Act replaced. The enacted text, which prevails, is not affected. No effect on a decision has been established.",
+          "correction": "Bring the French consolidated version into line with section 89 of S.C. 2019, c. 13."
+        },
+        "fr": {
+          "title": "Loi sur la communication d’information ayant trait à la sécurité du Canada, par. 2(1), al. g) de la définition de « activité portant atteinte à la sécurité du Canada » : modification non intégrée dans la version française",
+          "summary": "La version anglaise renvoie à « section 2 of the Communications Security Establishment Act ». La version française se lit toujours : « au sens de l’article 273.61 de la Loi sur la défense nationale ». L’article 89 de L.C. 2019, ch. 13 a remplacé l’alinéa g) dans les deux langues; il est entré en vigueur le 1er août 2019 en vertu du TR/2019-70, après le paragraphe 115(3), entré en vigueur le 21 juin 2019. La version française codifiée ne montre pas ce remplacement."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-05",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The consolidated text",
+      "evidence": {
+        "method": "Traced through the amending instruction",
+        "quotes": [
+          {
+            "location": "CA-L00132-en",
+            "source": "Security of Canada Information Disclosure Act, English version, consolidated XML (eng/acts/S-6.9.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2023-12-04",
+            "locator": "paragraph (g) of the definition in subsection 2(1) of the Security of Canada Information Disclosure Act, English XML (eng/S-6.9)",
+            "text": "as defined in section 2 of the Communications Security Establishment Act",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/S-6.9.xml",
+            "sha256": "b563f2480264b00014e12056f7460804bc905f116c76c8bb690c5dfb2b405130",
+            "retrieved": "2026-11-05",
+            "copy": "sources/1390e5eadf2d2eda-xml-eng-acts-s-6-9-xml.txt",
+            "copy_sha256": "1390e5eadf2d2eda3e1262e11a75b7de86d9e001230d31a6330f01f2b0266cd5",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-L00132-fr",
+            "source": "Security of Canada Information Disclosure Act, French version, consolidated XML (fra/lois/S-6.9.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2023-12-04",
+            "locator": "paragraph (g) of the definition in subsection 2(1) of the Security of Canada Information Disclosure Act, French XML (fra/S-6.9)",
+            "text": "au sens de l’article 273.61 de la Loi sur la défense nationale",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/S-6.9.xml",
+            "sha256": "62a4adcee82083aaf1f1288ff1fea8902128c1b856dbd7cfb14ae695fc1482cf",
+            "retrieved": "2026-11-05",
+            "copy": "sources/0abb702b0d5a134c-xml-fra-lois-s-6-9-xml.txt",
+            "copy_sha256": "0abb702b0d5a134cc54bb47425dcf4460b0996a0e12a4d2fcaf3dc8ba746ba0d",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-L00132-g3-627",
+            "source": "Canada Gazette, Part III, Vol. 42, No. 1 (2019), PDF",
+            "role": "Amending act",
+            "language": "fr",
+            "edition": null,
+            "locator": "Canada Gazette, Part III, Vol. 42, No. 1 (2019), PDF, PDF page 627",
+            "text": "tion 2 of the Communications Security Establishment",
+            "translations": {},
+            "url": "https://gazette.gc.ca/rp-pr/p3/2019/g3-04201.pdf",
+            "sha256": "b0aa72769ea40bddf71d6e90c3470c4ebb858f7afba3703c98617bc1b2723188",
+            "retrieved": "2026-11-07",
+            "copy": "sources/17718475f1a987cf-pdf-g3-04201-pdf.txt",
+            "copy_sha256": "17718475f1a987cf3ca1f7ab2957128db1afce969efcc5bb425d4f28d0a39d1c",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-09T20:01:17Z",
+          "institution": "Department of Justice Canada, Justice Laws Website",
+          "channel": "email",
+          "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Department of Justice Canada, Justice Laws Website",
+          "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-10",
+      "ai_role": {
+        "en": "AI agents wrote and ran checks over the XML of the consolidated federal Acts and regulations of Canada, read each finding in the XML of both language versions and, where named on the card, in the Canada Gazette or the annual statutes; a second AI reading and the coordinator of the checks decided each finding."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-10T19:20:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-07",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-09",
+          "event": "reported",
+          "text": "Reported to Department of Justice Canada, Justice Laws Website (e-mail)"
+        },
+        {
+          "date": "2026-11-10",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0969",
+      "url": "https://arxo.io/findings/ARXO-2026-0969/",
+      "record_kind": "discrepancy",
+      "class": "language_versions",
+      "class_label": "Language versions",
+      "jurisdiction": "CA",
+      "jurisdiction_detail": "federal",
+      "act": "Consolidated Acts and Regulations of Canada (Justice Laws Website)",
+      "acts": [],
+      "location": "Consolidated Regulations of Canada",
+      "text": {
+        "en": {
+          "title": "Justice Laws: in 2 regulations the English and French versions refer to different sections",
+          "summary": "In 2 regulations of the consolidation, the English and French versions of a provision refer to different sections: Ozone-depleting Substances and Halocarbon Alternatives Regulations, subsection 54(2): English “allowance under section 55 or 61”, French “visée aux articles 55 ou 60”; Precursor Control Regulations, paragraph 85(7)(a): English “keep the report referred to in section 86.1”, French “conservent les rapports visés à l’article 86”. The origin of the differences has not been established: the original publications were not checked.",
+          "impact": "Readers of the two language versions are sent to different provisions. Which version is right, and the effect on how the provision applies, were not assessed.",
+          "correction": "Where the difference comes from the enacted or registered text, it needs an amendment by the responsible department; otherwise the consolidation can be corrected."
+        },
+        "fr": {
+          "title": "Lois du Canada : dans 2 règlements, les versions anglaise et française renvoient à des articles différents",
+          "summary": "Règlement sur les substances appauvrissant la couche d’ozone et les halocarbures de remplacement, paragraphe 54(2) : version anglaise « allowance under section 55 or 61 », version française « visée aux articles 55 ou 60 ». Règlement sur les précurseurs, alinéa 85(7)a) : version anglaise « keep the report referred to in section 86.1 », version française « conservent les rapports visés à l’article 86 ». L’origine de ces écarts n’est pas établie : les publications originales n’ont pas été vérifiées."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-05",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "Not established",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "c024-en",
+            "source": "Precursor Control Regulations, English version, consolidated XML (eng/regulations/SOR-2002-359.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2026-06-15",
+            "locator": "s. 85 of Precursor Control Regulations, English XML (eng/SOR-2002-359)",
+            "text": "keep the report referred to in section 86.1",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2002-359.xml",
+            "sha256": "603821fca25041975a262568a7452d851d685363b2304bb3aa0419dcd808b591",
+            "retrieved": "2026-11-05",
+            "copy": "sources/658ceeb289169cb8-xml-eng-regulations-sor-2002-359-xml.txt",
+            "copy_sha256": "658ceeb289169cb8c6b09f59958afa5018401c51ffd5b3f494913007073a0798",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c024-fr",
+            "source": "Precursor Control Regulations (DORS-2002-359), French version, consolidated XML (fra/reglements/DORS-2002-359.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": null,
+            "locator": "s. 85 of Precursor Control Regulations, French XML (fra/DORS-2002-359)",
+            "text": "conservent les rapports visés à l’article 86",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2002-359.xml",
+            "sha256": "b021d2618b694ec9cb4e7b98b017c28014c99e156eca967d043f48166f5f3002",
+            "retrieved": "2026-11-05",
+            "copy": "sources/edcea5dd39c2d854-xml-fra-reglements-dors-2002-359-xml.txt",
+            "copy_sha256": "edcea5dd39c2d8547069f55bfca6fc50e3cc65fc21d6496ee111f636c62cfac6",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c025-en",
+            "source": "Ozone-depleting Substances and Halocarbon Alternatives Regulations, English version, consolidated XML (eng/regulations/SOR-2016-137.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2020-08-23",
+            "locator": "s. 54 of Ozone-depleting Substances and Halocarbon Alternatives Regulations, English XML (eng/SOR-2016-137)",
+            "text": "allowance under section 55 or 61",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2016-137.xml",
+            "sha256": "ca8168686fae0ccf3540cf2eccd0993ef030fc5420b35e64c74161de6a9de642",
+            "retrieved": "2026-11-05",
+            "copy": "sources/7be92e97d061b610-xml-eng-regulations-sor-2016-137-xml.txt",
+            "copy_sha256": "7be92e97d061b6109cec96c734029df5ec67997cac832b7b5650a04e8ae3abc8",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c025-fr",
+            "source": "Ozone-depleting Substances and Halocarbon Alternatives Regulations (DORS-2016-137), French version, consolidated XML (fra/reglements/DORS-2016-137.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": null,
+            "locator": "s. 54 of Ozone-depleting Substances and Halocarbon Alternatives Regulations, French XML (fra/DORS-2016-137)",
+            "text": "visée aux articles 55 ou 60",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2016-137.xml",
+            "sha256": "bb7eccd00fd64768c85c4d6a5696c5f578205e5ada17477685341ebcb5958d01",
+            "retrieved": "2026-11-05",
+            "copy": "sources/0a12b6f64f545d05-xml-fra-reglements-dors-2016-137-xml.txt",
+            "copy_sha256": "0a12b6f64f545d053e6422a82ff74cdb27bd9496055ff54e674ef65bbe94578b",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-09T20:01:17Z",
+          "institution": "Department of Justice Canada, Justice Laws Website",
+          "channel": "email",
+          "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Department of Justice Canada, Justice Laws Website",
+          "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-10",
+      "ai_role": {
+        "en": "AI agents wrote and ran checks over the XML of the consolidated federal Acts and regulations of Canada, read each finding in the XML of both language versions and, where named on the card, in the Canada Gazette or the annual statutes; a second AI reading and the coordinator of the checks decided each finding."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-10T19:20:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-09",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-09",
+          "event": "reported",
+          "text": "Reported to Department of Justice Canada, Justice Laws Website (e-mail)"
+        },
+        {
+          "date": "2026-11-10",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0970",
+      "url": "https://arxo.io/findings/ARXO-2026-0970/",
+      "record_kind": "discrepancy",
+      "class": "publication",
+      "class_label": "Publication and consolidation",
+      "jurisdiction": "CA",
+      "jurisdiction_detail": "federal",
+      "act": "Consolidated Acts and Regulations of Canada (Justice Laws Website)",
+      "acts": [],
+      "location": "Consolidated Acts and Regulations of Canada",
+      "text": {
+        "en": {
+          "title": "Justice Laws: repeated subparagraph labels in 8 places of the consolidated XML",
+          "summary": "In 8 places of the consolidated Acts and regulations, a paragraph has two subparagraphs with the same label in one language version: Financial Institutions Depositors Compensation Act, 5(2)(b), English; Income Tax Act, 142.6(8)(b), French; Electronic Payments Regulations, 3(b), English; Transportation of Dangerous Goods Regulations, 5.10(1)(d), French; Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations, 89(e), French; Canada Offshore Renewable Energy Regulations, 40(3)(e), French; Defence Services Pension Part V Regulations, 34(4)(b), French; Determination of Country of Origin for the Purpose of Marking Goods (CUSMA Countries) Regulations, 2(2)(b), French. The origin has not been established: the enacted or registered texts were not checked.",
+          "impact": "A reference to the repeated label does not identify one subparagraph in that language version. No effect on how a provision applies has been established.",
+          "correction": "Where the difference comes from the enacted or registered text, it needs an amendment by the responsible department; otherwise the consolidation can be corrected."
+        },
+        "fr": {
+          "title": "Lois du Canada : numéros de sous-alinéas répétés à 8 endroits du XML codifié",
+          "summary": "À 8 endroits des lois et règlements codifiés, un alinéa compte deux sous-alinéas portant le même numéro dans une version linguistique, par exemple Loi de l’impôt sur le revenu, alinéa 142.6(8)b), version française : (iv), (iv), (v); Règlement sur le transport des marchandises dangereuses, alinéa 5.10(1)d) : « (v) la norme CSA B622, (iv) la norme CSA B625 ». L’origine n’est pas établie : les textes adoptés ou enregistrés n’ont pas été vérifiés."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-05",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "Not established",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "c072-en",
+            "source": "Financial Institutions Depositors Compensation Act, English version, consolidated XML (eng/acts/F-11.4.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2002-12-31",
+            "locator": "paragraph 5(2)(b) of Financial Institutions Depositors Compensation Act, English XML (eng/F-11.4)",
+            "text": "(ii)the amount of the deposit or part thereof that is subject to a security interest, or(ii)the amount of a set-off that could be asserted in",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/F-11.4.xml",
+            "sha256": "b81ab5eb071dd8e21cb0d481b50dac6a0368b754a03707528bd0a29a73fe2a8a",
+            "retrieved": "2026-11-05",
+            "copy": "sources/f46f4bf431faa35c-xml-eng-acts-f-11-4-xml.txt",
+            "copy_sha256": "f46f4bf431faa35c8ad119e1e60b9507f6200b3ac966597e4826eaf1ddaa9c7d",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c074-en",
+            "source": "Electronic Payments Regulations, English version, consolidated XML (eng/regulations/SOR-98-129.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2006-03-22",
+            "locator": "paragraph 3(b) of Electronic Payments Regulations, English XML (eng/SOR-98-129)",
+            "text": "(iv)the payee’s financial institution number, branch number and account number, and(iv)the payment date; and(c)when issued by on-line",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-98-129.xml",
+            "sha256": "b26dccc1eed56be5a022a27c0a4fb0ea0319983514fca740642580bc45b2827d",
+            "retrieved": "2026-11-05",
+            "copy": "sources/0ef5562db0a97290-xml-eng-regulations-sor-98-129-xml.txt",
+            "copy_sha256": "0ef5562db0a97290b697df13784cb622ab252fa71bdf55553799b416a7934cb4",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c075-fr",
+            "source": "Règlement sur le transport des marchandises dangereuses, French version, consolidated XML (fra/reglements/DORS-2001-286.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-07-01",
+            "locator": "paragraph 5.10(1)(d) of Règlement sur le transport des marchandises dangereuses, French XML (fra/DORS-2001-286)",
+            "text": "(iv)la norme CSA B342,(v)la norme CSA B622,(iv)la norme CSA B625.(2)[Abrogé, DORS/2023-155, art.",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2001-286.xml",
+            "sha256": "830d9b6bafd483af773a4c7f8e75e0e2ed5ae45aab2e0e2c8b76adb3fbe8eb42",
+            "retrieved": "2026-11-05",
+            "copy": "sources/68334b662b7786e5-xml-fra-reglements-dors-2001-286-xml.txt",
+            "copy_sha256": "68334b662b7786e5e3db5a7d085e2438890d674bfdf2b4d58b87a8c13496c1e2",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c076-fr",
+            "source": "Règlement sur le recyclage des produits de la criminalité et le financement des activités terroristes, French version, consolidated XML (fra/reglements/DORS-2002-184.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-03-26",
+            "locator": "paragraph 89(e) of Règlement sur le recyclage des produits de la criminalité et le financement des activités terroristes, French XML (fra/DORS-2002-184)",
+            "text": "(i)conformément à l’article 105, l’identité des personnes habilitées à donner des instructions relativement aux activités de cette entité en sa qualité de cofiduciaire, jusqu’à concurrence de trois,(i)conformément aux articles 109 ou 112, l’identité",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2002-184.xml",
+            "sha256": "46cddda0faf599ac30b7662a08443fefd1e78fb18b9732e84a45c7fa8a3747ed",
+            "retrieved": "2026-11-05",
+            "copy": "sources/25d8870c92a6608b-xml-fra-reglements-dors-2002-184-xml.txt",
+            "copy_sha256": "25d8870c92a6608b9140cfc4417d36483292d824e47e543e56a3601c35f05697",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c077-fr",
+            "source": "Règlement sur l’énergie renouvelable extracôtière au Canada, French version, consolidated XML (fra/reglements/DORS-2024-272.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2024-12-16",
+            "locator": "paragraph 40(3)(e) of Règlement sur l’énergie renouvelable extracôtière au Canada, French XML (fra/DORS-2024-272)",
+            "text": "(ii)le rapport sur la fabrication et la construction visé à l’alinéa 14b),(ii)l’autorisation;f)vérifier que les installations,",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2024-272.xml",
+            "sha256": "a4bc367366cffba0f251bbfaa2203aa47454ae385683333c0253d6e338a4af00",
+            "retrieved": "2026-11-05",
+            "copy": "sources/b760b3e3572ecd02-xml-fra-reglements-dors-2024-272-xml.txt",
+            "copy_sha256": "b760b3e3572ecd0285a78aeb25ab4dddedbacb4fbd35d8e3eb8de36da5f34abd",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c078-fr",
+            "source": "Règlements, Loi sur les pensions des services de défense, Partie V, French version, consolidated XML (fra/reglements/DORS-55-416.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2006-03-22",
+            "locator": "paragraph 34(4)(b) of Règlements, Loi sur les pensions des services de défense, Partie V, French XML (fra/DORS-55-416)",
+            "text": "(i)dont le numérateur est le nombre d’années de service d’après lequel la pension discontinuée est fixée, nombre qui, ajouté au nombre d’années de service, ou de service ouvrant droit à pension d’après lequel l’allocation est fixée, ne forme pas un total de plus de trente-cinq ans, et(i)dont le dénominateur est le nombre d’années de",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-55-416.xml",
+            "sha256": "86c8505425f2af5efdb61be58ea22de644b56d5d970936c123467a5a7929f930",
+            "retrieved": "2026-11-05",
+            "copy": "sources/863ce2e0f91c7e84-xml-fra-reglements-dors-55-416-xml.txt",
+            "copy_sha256": "863ce2e0f91c7e840f0a4081b9adba0214c0156d117c93a1205dae7c2d00cf2d",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c079-fr",
+            "source": "Règlement sur la détermination, aux fins de marquage, du pays d’origine des marchandises (pays ACEUM), French version, consolidated XML (fra/reglements/DORS-94-23.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2020-07-01",
+            "locator": "paragraph 2(2)(b) of Règlement sur la détermination, aux fins de marquage, du pays d’origine des marchandises (pays ACEUM), French XML (fra/DORS-94-23)",
+            "text": "(ii)sa quantité,(ii)sa fonction quant à l’utilisation des",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-94-23.xml",
+            "sha256": "6139ae7f71607d037fa8b4e83dcdb245b999534fba33d8a92535149a8df56189",
+            "retrieved": "2026-11-05",
+            "copy": "sources/835353fb7c00b9d3-xml-fra-reglements-dors-94-23-xml.txt",
+            "copy_sha256": "835353fb7c00b9d33f106873778b3c679ad4ab524feb8b2782ed70420349ec0f",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c080-fr",
+            "source": "Loi de l’impôt sur le revenu, French version, consolidated XML (fra/lois/I-3.3.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-06-18",
+            "locator": "paragraph 142.6(8)(b) of Loi de l’impôt sur le revenu, French XML (fra/I-3.3)",
+            "text": "(iv)il a été désigné dans le choix par le contribuable;le produit de disposition de ce bien est réputé égal au plus élevé des montants suivants et le bien est réputé avoir été acquis de nouveau par le contribuable immédiatement après ce moment à un coût égal à ce produit :(iv)la juste valeur marchande du bien à ce",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/I-3.3.xml",
+            "sha256": "36b8465c70f532e1fc1edd890154b07a67721e826f2a1af689014f255bb9c96c",
+            "retrieved": "2026-11-05",
+            "copy": "sources/afce1fccb97ec0c7-xml-fra-lois-i-3-3-xml.txt",
+            "copy_sha256": "afce1fccb97ec0c76d95ea6e639b159dbf903b13c0f26f9389fce44650699449",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-09T20:01:17Z",
+          "institution": "Department of Justice Canada, Justice Laws Website",
+          "channel": "email",
+          "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Department of Justice Canada, Justice Laws Website",
+          "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-10",
+      "ai_role": {
+        "en": "AI agents wrote and ran checks over the XML of the consolidated federal Acts and regulations of Canada, read each finding in the XML of both language versions and, where named on the card, in the Canada Gazette or the annual statutes; a second AI reading and the coordinator of the checks decided each finding."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-10T19:20:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-09",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-09",
+          "event": "reported",
+          "text": "Reported to Department of Justice Canada, Justice Laws Website (e-mail)"
+        },
+        {
+          "date": "2026-11-10",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0971",
+      "url": "https://arxo.io/findings/ARXO-2026-0971/",
+      "record_kind": "discrepancy",
+      "class": "publication",
+      "class_label": "Publication and consolidation",
+      "jurisdiction": "CA",
+      "jurisdiction_detail": "federal",
+      "act": "Consolidated Acts and Regulations of Canada (Justice Laws Website)",
+      "acts": [],
+      "location": "SOR/83-481, s. 2",
+      "text": {
+        "en": {
+          "title": "Letter Definition Regulations (SOR/83-481), s. 2: paragraph (i) nested inside paragraph (h) in the English XML",
+          "summary": "In the English XML of the Letter Definition Regulations (SOR/83-481), section 2, paragraph (i) of the definition is nested inside paragraph (h) as a subparagraph. The visible text reads correctly.",
+          "impact": "The visible text reads correctly; a machine reader of the XML places the paragraph at the wrong level. No effect on the law.",
+          "correction": "The Department of Justice decides how to correct each place in the consolidation or the XML; the evidence gives the wording of each language version."
+        },
+        "fr": {
+          "title": "Règlement sur la définition de lettre (DORS/83-481), art. 2 : l’alinéa i) imbriqué dans l’alinéa h) dans le XML anglais",
+          "summary": "Dans le XML anglais du Règlement sur la définition de lettre (DORS/83-481), article 2, l’alinéa i) de la définition est imbriqué dans l’alinéa h) comme un sous-alinéa. Le texte se lit correctement."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-05",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The official publication",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "c073-en",
+            "source": "Letter Definition Regulations, English version, consolidated XML (eng/regulations/SOR-83-481.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2006-03-22",
+            "locator": "section 2 of the Letter Definition Regulations, English XML (eng/SOR-83-481)",
+            "text": "(h)an invoice or other document relating to(i)an item in paragraph (g),(ii)a specimen for medical or scientific analysis, or(iii)goodswhen delivered therewith by the individual delivering such item, specimen or goods;(i)an invoice or other document relating to the supply of goods or services that is delivered by(i)the supplier to the recipient at the supplier’s normal business address,(ii)the recipient at(A)a financial institution indicated by the supplier, or(B)the supplier’s normal business address, or(iii)the individual who performed the services;",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-83-481.xml",
+            "sha256": "7f1edeb2fd9fb05cbbc22cc0307dfb4af98b15cfb8c96a73bea2413f755dc68b",
+            "retrieved": "2026-11-05",
+            "copy": "sources/e2624323c8a691ba-xml-eng-regulations-sor-83-481-xml.txt",
+            "copy_sha256": "e2624323c8a691ba68ea15390521b3b2cfeec1f1e2f0bf3f6d78d6ff15e3d39e",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-09T20:01:17Z",
+          "institution": "Department of Justice Canada, Justice Laws Website",
+          "channel": "email",
+          "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Department of Justice Canada, Justice Laws Website",
+          "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-10",
+      "ai_role": {
+        "en": "AI agents wrote and ran checks over the XML of the consolidated federal Acts and regulations of Canada, read each finding in the XML of both language versions and, where named on the card, in the Canada Gazette or the annual statutes; a second AI reading and the coordinator of the checks decided each finding."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-10T19:20:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-09",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-09",
+          "event": "reported",
+          "text": "Reported to Department of Justice Canada, Justice Laws Website (e-mail)"
+        },
+        {
+          "date": "2026-11-10",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0972",
+      "url": "https://arxo.io/findings/ARXO-2026-0972/",
+      "record_kind": "discrepancy",
+      "class": "publication",
+      "class_label": "Publication and consolidation",
+      "jurisdiction": "CA",
+      "jurisdiction_detail": "federal",
+      "act": "Consolidated Acts and Regulations of Canada (Justice Laws Website)",
+      "acts": [],
+      "location": "SOR/2023-160",
+      "text": {
+        "en": {
+          "title": "Certain Russian Goods Remission Order (SOR/2023-160): French XML dated 2030-07-08",
+          "summary": "The French XML of the Certain Russian Goods Remission Order (SOR/2023-160) has the point-in-time date (lims:pit-date) 2030-07-08 and the current date 2026-09-03. The English XML has the point-in-time date 2026-06-22.",
+          "impact": "A machine reader that selects versions by date may treat the French version as a version of 2030 or skip it. The text of the order is not affected.",
+          "correction": "The Department of Justice decides how to correct each place in the consolidation or the XML; the evidence gives the wording of each language version."
+        },
+        "fr": {
+          "title": "Décret de remise visant certaines marchandises de la Russie (DORS/2023-160) : XML français daté du 2030-07-08",
+          "summary": "Le XML français du Décret de remise visant certaines marchandises de la Russie (DORS/2023-160) porte lims:pit-date « 2030-07-08 » et lims:current-date « 2026-09-03 ». Le lims:pit-date anglais est « 2026-06-22 »."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-05",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The official publication",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "c071-fr",
+            "source": "Décret de remise visant certaines marchandises de la Russie, French version, consolidated XML (fra/reglements/DORS-2023-160.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2030-07-08",
+            "locator": "root element of the French XML (fra/DORS-2023-160)",
+            "text": "lims:pit-date=\"2030-07-08\" lims:current-date=\"2026-09-03\"",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2023-160.xml",
+            "sha256": "03040441d2a6a1c005c58f0b08a0cbe06a5cc9f58484e9c20f8132a636e82d5c",
+            "retrieved": "2026-11-05",
+            "copy": "sources/9b6ce1f02002c63b-xml-fra-reglements-dors-2023-160-xml.txt",
+            "copy_sha256": "9b6ce1f02002c63bf0069c9ab335a84227d6787f560f52f0d7621a37085df8db",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "pit-en",
+            "source": "Certain Russian Goods Remission Order (SOR/2023-160), English version, XML on the Justice Laws Website",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "root element of the English XML (SOR-2023-160)",
+            "text": "lims:pit-date=\"2026-06-22\"",
+            "translations": {},
+            "url": "https://laws-lois.justice.gc.ca/eng/XML/SOR-2023-160.xml",
+            "sha256": "29a2f3b2955d547da947e2acf036a4490f4a22f29e72b0ee8409b655e91671a1",
+            "retrieved": "2026-11-07",
+            "copy": "sources/dffabd1e938d6c27-xml-site-eng-sor-2023-160.txt",
+            "copy_sha256": "dffabd1e938d6c270d5711f64d312e084ebc350050912ccefc70571a24628cb6",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-09T20:01:17Z",
+          "institution": "Department of Justice Canada, Justice Laws Website",
+          "channel": "email",
+          "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Department of Justice Canada, Justice Laws Website",
+          "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-10",
+      "ai_role": {
+        "en": "AI agents wrote and ran checks over the XML of the consolidated federal Acts and regulations of Canada, read each finding in the XML of both language versions and, where named on the card, in the Canada Gazette or the annual statutes; a second AI reading and the coordinator of the checks decided each finding."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-10T19:20:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-09",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-09",
+          "event": "reported",
+          "text": "Reported to Department of Justice Canada, Justice Laws Website (e-mail)"
+        },
+        {
+          "date": "2026-11-10",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0973",
+      "url": "https://arxo.io/findings/ARXO-2026-0973/",
+      "record_kind": "discrepancy",
+      "class": "publication",
+      "class_label": "Publication and consolidation",
+      "jurisdiction": "CA",
+      "jurisdiction_detail": "federal",
+      "act": "Consolidated Acts and Regulations of Canada (Justice Laws Website)",
+      "acts": [],
+      "location": "Consolidated Acts and Regulations of Canada",
+      "text": {
+        "en": {
+          "title": "Justice Laws: historical notes differ between the English and French versions in 8 places",
+          "summary": "In 8 places of the consolidation, the historical note of a section names an amending provision in one language version only, or in a different series: Canadian Commercial Corporation Act, s. 13, and Canada Council for the Arts Act, s. 20: “1976-77, ch. 34, art. 30” only in French; Energy Administration Act, s. 81: “1976-77, ch. 28, art. 49” only in French; Fisheries Improvement Loans Act, s. 5: “1980-81-82-83, ch. 154, art. 2” only in French; Safe Containers Convention Act, s. 8: “1984, ch. 40, art. 79” only in French; Foreign Enlistment Act, s. 13: “R.S., c. 10(2nd Supp.), s. 64” only in English; Perfluorinated Ion-Exchange Membranes Remission Order, s. 2: English “SOR/87-240, s. 1”, French “TR/87-240, art. 1”; Cruiser Remission Order, s. 7: English “SOR/85-113, s. 1”, French “TR/85-113, art. 1”. The consolidation does not show which version is right; this card does not decide it.",
+          "impact": "A reader of one language version is told of an amending provision that the other version does not list. Historical notes are not part of the enactment; no effect on the law.",
+          "correction": "The Department of Justice decides how to correct each place in the consolidation or the XML; the evidence gives the wording of each language version."
+        },
+        "fr": {
+          "title": "Lois du Canada : notes historiques différentes dans les versions anglaise et française à 8 endroits",
+          "summary": "À 8 endroits de la codification, la note historique d’un article mentionne une disposition modificative dans une seule version linguistique ou dans une autre série, par exemple Loi sur la Corporation commerciale canadienne, art. 13 : « 1976-77, ch. 34, art. 30 » seulement dans la note française; Décret de remise sur les yachts de croisière, art. 7 : en anglais « SOR/85-113, s. 1 », en français « TR/85-113, art. 1 ». La codification ne permet pas de dire quelle version est la bonne; cette fiche ne le tranche pas."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-05",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The consolidated text",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "c001-en",
+            "source": "Canadian Commercial Corporation Act, English version, consolidated XML (eng/acts/C-14.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2006-12-12",
+            "locator": "s. 13 of Canadian Commercial Corporation Act, English XML (eng/C-14)",
+            "text": "R.S., c. C-6, s. 8; 1984, c. 31, s. 14",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/C-14.xml",
+            "sha256": "e04a404b1cd55b39c87c012b2104421bca48668fd4861f9b7cae3dbcd7099845",
+            "retrieved": "2026-11-05",
+            "copy": "sources/82da22d73ecc9e37-xml-eng-acts-c-14-xml.txt",
+            "copy_sha256": "82da22d73ecc9e3738973b846682108c1825f07e9abdfdc0b8b930a213ee8f0e",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c001-fr",
+            "source": "Canadian Commercial Corporation Act (C-14), French version, consolidated XML (fra/lois/C-14.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": null,
+            "locator": "s. 13 of Canadian Commercial Corporation Act, French XML (fra/C-14)",
+            "text": "S.R., ch. C-6, art. 8; 1976-77, ch. 34, art. 30; 1984, ch. 31, art. 14",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/C-14.xml",
+            "sha256": "5262f542eca351345b29854638293426903ccaefc7ef2f261c4d08547a2fabd0",
+            "retrieved": "2026-11-05",
+            "copy": "sources/d70844130279cec5-xml-fra-lois-c-14-xml.txt",
+            "copy_sha256": "d70844130279cec51f72d15f7ae5820c5c710cf1843690b84713cabd21c0961a",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c002-en",
+            "source": "Canada Council for the Arts Act, English version, consolidated XML (eng/acts/C-2.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2009-03-12",
+            "locator": "s. 20 of Canada Council for the Arts Act, English XML (eng/C-2)",
+            "text": "R.S., c. C-2, s. 22",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/C-2.xml",
+            "sha256": "1e2a76ae3ac3142ac0c45c04fa0039c9a641ba722c09f5d0ad84d8f790495db4",
+            "retrieved": "2026-11-05",
+            "copy": "sources/98739dc2d2960dd2-xml-eng-acts-c-2-xml.txt",
+            "copy_sha256": "98739dc2d2960dd241b5cf2744af8c16616793ab925536481dcb8b16b7629b8f",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c002-fr",
+            "source": "Canada Council for the Arts Act (C-2), French version, consolidated XML (fra/lois/C-2.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": null,
+            "locator": "s. 20 of Canada Council for the Arts Act, French XML (fra/C-2)",
+            "text": "S.R., ch. C-2, art. 22; 1976-77, ch. 34, art. 30",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/C-2.xml",
+            "sha256": "d5db350db5d2d8010e07ea5e1a786ed34b215ac99f09cb58d99a1f80015f20e7",
+            "retrieved": "2026-11-05",
+            "copy": "sources/ff1cd75de26d6f88-xml-fra-lois-c-2-xml.txt",
+            "copy_sha256": "ff1cd75de26d6f88ffe97402a1a1cbbc9fa193062b6efe8cee3d6cc4a4ca09ec",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c003-en",
+            "source": "Perfluorinated Ion-Exchange Membranes Remission Order, English version, consolidated XML (eng/regulations/C.R.C.,_c._778.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2006-03-22",
+            "locator": "s. 2 of Perfluorinated Ion-Exchange Membranes Remission Order, English XML (eng/C.R.C.,_c._778)",
+            "text": "SI/79-13, s. 1; SI/82-39, s. 1; SI/83-138, s. 1; SOR/87-240, s. 1",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/C.R.C.,_c._778.xml",
+            "sha256": "bc96e8652a0e016f52f401e1914145437952b96d25166b49025e963755d5540d",
+            "retrieved": "2026-11-05",
+            "copy": "sources/878525712b59a657-xml-eng-regulations-c-r-c-c-778-xml.txt",
+            "copy_sha256": "878525712b59a65779637f6c7565c561c6c66b304450ef923b711674b01c1fb2",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c003-fr",
+            "source": "Perfluorinated Ion-Exchange Membranes Remission Order (C.R.C.,_ch._778), French version, consolidated XML (fra/reglements/C.R.C.,_ch._778.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": null,
+            "locator": "s. 2 of Perfluorinated Ion-Exchange Membranes Remission Order, French XML (fra/C.R.C.,_ch._778)",
+            "text": "TR/79-13, art. 1; TR/82-39, art. 1; TR/83-138, art. 1; TR/87-240, art. 1",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/C.R.C.,_ch._778.xml",
+            "sha256": "44d34f6bf80e1e1da1c2e9085c6576a47830af9e3369b69526e16c3c0e186fcd",
+            "retrieved": "2026-11-05",
+            "copy": "sources/20fda8dbbf80ca52-xml-fra-reglements-c-r-c-ch-778-xml.txt",
+            "copy_sha256": "20fda8dbbf80ca52a10a9f2a79f69db90531def80959b89d697490f72e4cccde",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c004-en",
+            "source": "Energy Administration Act, English version, consolidated XML (eng/acts/E-6.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2019-08-28",
+            "locator": "s. 81 of Energy Administration Act, English XML (eng/E-6)",
+            "text": "1974-75-76, c. 47, s. 72; 1977-78, c. 24, s. 2; 1980-81-82-83, c. 114, s. 42",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/E-6.xml",
+            "sha256": "b098352bfcfcd3b5a68ab7381070f9ba7ca89cceee45858755440afd43ce5454",
+            "retrieved": "2026-11-05",
+            "copy": "sources/47a9cabe22bf5f16-xml-eng-acts-e-6-xml.txt",
+            "copy_sha256": "47a9cabe22bf5f168f3fcd90d8e075d624ddfe880a840d1004cc61c592dc0857",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c004-fr",
+            "source": "Energy Administration Act (E-6), French version, consolidated XML (fra/lois/E-6.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": null,
+            "locator": "s. 81 of Energy Administration Act, French XML (fra/E-6)",
+            "text": "1974-75-76, ch. 47, art. 72; 1976-77, ch. 28, art. 49; 1977-78, ch. 24, art. 2; 1980-81-82-83, ch. 114, art. 42",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/E-6.xml",
+            "sha256": "a40fe0c3a43e296ccc6ed887282c851d3f7864943485301fa57015036983b133",
+            "retrieved": "2026-11-05",
+            "copy": "sources/ce01c2fff34814e7-xml-fra-lois-e-6-xml.txt",
+            "copy_sha256": "ce01c2fff34814e7419663e4030c4ecee125c215ac15d915ce8a8b55f0c9d7b0",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c005-en",
+            "source": "Fisheries Improvement Loans Act, English version, consolidated XML (eng/acts/F-22.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2002-12-31",
+            "locator": "s. 5 of Fisheries Improvement Loans Act, English XML (eng/F-22)",
+            "text": "R.S., c. F-22, s. 4",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/F-22.xml",
+            "sha256": "3b8f4fa14c244b8657033846004eb161db8340f4573be940a4f6b487752074f1",
+            "retrieved": "2026-11-05",
+            "copy": "sources/373a048c34cf99e3-xml-eng-acts-f-22-xml.txt",
+            "copy_sha256": "373a048c34cf99e30db0e9684a46cf6aa55258ff789aeecd2538b49813d094ef",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c005-fr",
+            "source": "Fisheries Improvement Loans Act (F-22), French version, consolidated XML (fra/lois/F-22.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": null,
+            "locator": "s. 5 of Fisheries Improvement Loans Act, French XML (fra/F-22)",
+            "text": "S.R., ch. F-22, art. 4; 1980-81-82-83, ch. 154, art. 2",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/F-22.xml",
+            "sha256": "10909fe27124f7e77b2d71e2f90248d375e2ace7a62ffb3ebc243d9c9997745e",
+            "retrieved": "2026-11-05",
+            "copy": "sources/9ca5a5c0753abbc9-xml-fra-lois-f-22-xml.txt",
+            "copy_sha256": "9ca5a5c0753abbc9e3bc8023ea474406791c639414bb8f004390e34b6537d691",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c006-en",
+            "source": "Foreign Enlistment Act, English version, consolidated XML (eng/acts/F-28.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2002-12-31",
+            "locator": "s. 13 of Foreign Enlistment Act, English XML (eng/F-28)",
+            "text": "R.S., c. F-29, s. 13; R.S., c. 10(2nd Supp.), s. 64",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/F-28.xml",
+            "sha256": "ad35e9369890d85438b6a28c35eddf59e24f07367b4aa4fe9c0b6092f60dfaf6",
+            "retrieved": "2026-11-05",
+            "copy": "sources/0236a79ac293c95a-xml-eng-acts-f-28-xml.txt",
+            "copy_sha256": "0236a79ac293c95a5567c01c3c374a3a4a70bd70af1d4700ec190bae6239c1cf",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c006-fr",
+            "source": "Foreign Enlistment Act (F-28), French version, consolidated XML (fra/lois/F-28.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": null,
+            "locator": "s. 13 of Foreign Enlistment Act, French XML (fra/F-28)",
+            "text": "S.R., ch. F-29, art. 13",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/F-28.xml",
+            "sha256": "92f3b5f8216a5a7134f6d4a03195bc9d0719dfdc42ff55d31e8ec3444b4e1ae9",
+            "retrieved": "2026-11-05",
+            "copy": "sources/5140a90fc3ed5c94-xml-fra-lois-f-28-xml.txt",
+            "copy_sha256": "5140a90fc3ed5c94bc3343aeb0ae155942e7e741bc17aa4ca7d62e6dc8f4edda",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c007-en",
+            "source": "Safe Containers Convention Act, English version, consolidated XML (eng/acts/S-1.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2002-12-31",
+            "locator": "s. 8 of Safe Containers Convention Act, English XML (eng/S-1)",
+            "text": "1980-81-82-83, c. 9, s. 8",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/S-1.xml",
+            "sha256": "e790985282ef17dda302a7def95c3a68793ed97806f72ccd5d942cd17a845f15",
+            "retrieved": "2026-11-05",
+            "copy": "sources/07d1d5351d54aba5-xml-eng-acts-s-1-xml.txt",
+            "copy_sha256": "07d1d5351d54aba5eac9324f88cecd29c61b546ada184420c119867e5937460e",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c007-fr",
+            "source": "Safe Containers Convention Act (S-1), French version, consolidated XML (fra/lois/S-1.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": null,
+            "locator": "s. 8 of Safe Containers Convention Act, French XML (fra/S-1)",
+            "text": "1980-81-82-83, ch. 9, art. 8; 1984, ch. 40, art. 79",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/S-1.xml",
+            "sha256": "1f2331e826041b6b24c7879a7dfa24b85397d167e3605d338547d9553565ba97",
+            "retrieved": "2026-11-05",
+            "copy": "sources/afdc81985696418b-xml-fra-lois-s-1-xml.txt",
+            "copy_sha256": "afdc81985696418b5de0ce7e62c547b4334338e984bc8cc269f4d6ed4decfc5b",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c008-en",
+            "source": "Cruiser Remission Order, English version, consolidated XML (eng/regulations/SI-78-57.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2006-03-22",
+            "locator": "s. 7 of Cruiser Remission Order, English XML (eng/SI-78-57)",
+            "text": "SOR/85-113, s. 1",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SI-78-57.xml",
+            "sha256": "071e956e4d0229e36099295fd46ca4229628ffe979feb63ea7a321881da23a5c",
+            "retrieved": "2026-11-05",
+            "copy": "sources/6598b9c262f55b56-xml-eng-regulations-si-78-57-xml.txt",
+            "copy_sha256": "6598b9c262f55b56c41984b0d526d7d13e837244058ebf521dc96bad0aff90b3",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c008-fr",
+            "source": "Cruiser Remission Order (TR-78-57), French version, consolidated XML (fra/reglements/TR-78-57.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": null,
+            "locator": "s. 7 of Cruiser Remission Order, French XML (fra/TR-78-57)",
+            "text": "TR/85-113, art. 1",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/TR-78-57.xml",
+            "sha256": "5520036c810176d8da34ec781de93592d479888b7952c1cca72ffe9d9e106921",
+            "retrieved": "2026-11-05",
+            "copy": "sources/89dd32dc6446cb61-xml-fra-reglements-tr-78-57-xml.txt",
+            "copy_sha256": "89dd32dc6446cb619dc7b81ac62d47343cb67f13bb3af075824e49e278e57894",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-09T20:01:17Z",
+          "institution": "Department of Justice Canada, Justice Laws Website",
+          "channel": "email",
+          "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Department of Justice Canada, Justice Laws Website",
+          "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-10",
+      "ai_role": {
+        "en": "AI agents wrote and ran checks over the XML of the consolidated federal Acts and regulations of Canada, read each finding in the XML of both language versions and, where named on the card, in the Canada Gazette or the annual statutes; a second AI reading and the coordinator of the checks decided each finding."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-10T19:20:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-09",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-09",
+          "event": "reported",
+          "text": "Reported to Department of Justice Canada, Justice Laws Website (e-mail)"
+        },
+        {
+          "date": "2026-11-10",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0974",
+      "url": "https://arxo.io/findings/ARXO-2026-0974/",
+      "record_kind": "discrepancy",
+      "class": "publication",
+      "class_label": "Publication and consolidation",
+      "jurisdiction": "CA",
+      "jurisdiction_detail": "federal",
+      "act": "Consolidated Acts and Regulations of Canada (Justice Laws Website)",
+      "acts": [],
+      "location": "Consolidated Acts and Regulations of Canada",
+      "text": {
+        "en": {
+          "title": "Justice Laws: language marks in the wrong form in 11 historical notes",
+          "summary": "English historical notes mark language-specific amendments (E) and (F); French notes use (A) and (F). In 11 places of the consolidation the mark has the form of the other language: English note of the Proceeds of Crime (Money Laundering) and Terrorist Financing Act, s. 49: “223(A)”; French notes with “(E)” in the Criminal Code, s. 183; Olympic and Paralympic Marks Act, ss. 3, 4 and 8; Canada Labour Code, s. 47.1; Family Orders and Agreements Enforcement Assistance Act, s. 49; Royal Canadian Mounted Police Superannuation Regulations, ss. 57 and 59; Natural Health Products Regulations, ss. 28 and 32.",
+          "impact": "The marks remain readable; they are harder to read by machine and to search. No effect on the law.",
+          "correction": "The Department of Justice decides how to correct each place in the consolidation or the XML; the evidence gives the wording of each language version."
+        },
+        "fr": {
+          "title": "Lois du Canada : marques de langue sous une forme erronée dans 11 notes historiques",
+          "summary": "Les notes anglaises emploient (E) et (F); les notes françaises, (A) et (F). À 11 endroits de la codification, la marque a la forme de l’autre langue, par exemple Code criminel, art. 183, note française : « ch. 20, art. 366(E) »; Loi sur le recyclage des produits de la criminalité et le financement des activités terroristes, art. 49, note anglaise : « 223(A) »."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-05",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The consolidated text",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "c009-en",
+            "source": "Proceeds of Crime (Money Laundering) and Terrorist Financing Act, English version, consolidated XML (eng/acts/P-24.501.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2026-03-26",
+            "locator": "s. 49 of Proceeds of Crime (Money Laundering) and Terrorist Financing Act, English XML (eng/P-24.501)",
+            "text": "2003, c. 22, ss. 190, 223(A)",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/P-24.501.xml",
+            "sha256": "354ea7c94e0bdc995c41365c664aaa0af085934ea6263451a38ee745999feab8",
+            "retrieved": "2026-11-05",
+            "copy": "sources/1052481c45c9949c-xml-eng-acts-p-24-501-xml.txt",
+            "copy_sha256": "1052481c45c9949ce96eb304f01c0583fcf85b8888d91eae2da567c8fcd659d2",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c010-fr",
+            "source": "Code criminel, French version, consolidated XML (fra/lois/C-46.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-07-18",
+            "locator": "s. 183 of Code criminel, French XML (fra/C-46)",
+            "text": "2014, ch. 17, art. 2, ch. 20, art. 366(E), ch. 25, art. 11, ch. 31, art. 7, ch. 32, art. 59",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/C-46.xml",
+            "sha256": "b55a7f16c667b5fbe3c6ba37d79570391e8e50f2bdde1f5c5dcf66c91831a679",
+            "retrieved": "2026-11-05",
+            "copy": "sources/60c342f51fbbca6d-xml-fra-lois-c-46-xml.txt",
+            "copy_sha256": "60c342f51fbbca6d9601f7074c1b728512aed4c679413780a431b3bde571bf39",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c011-fr",
+            "source": "Règlement sur la pension de retraite de la Gendarmerie royale du Canada, French version, consolidated XML (fra/reglements/C.R.C.,_ch._1393.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-06-22",
+            "locator": "s. 57 of Règlement sur la pension de retraite de la Gendarmerie royale du Canada, French XML (fra/C.R.C.,_ch._1393)",
+            "text": "DORS/2012-124, art. 31 et 32(E)",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/C.R.C.,_ch._1393.xml",
+            "sha256": "00e908ead97df6677bd0ca8fa46800c16ad9fef2cfe1c2fc3b3cf84156c222bc",
+            "retrieved": "2026-11-05",
+            "copy": "sources/c0c7b25c32e654a1-xml-fra-reglements-c-r-c-ch-1393-xml.txt",
+            "copy_sha256": "c0c7b25c32e654a1490399d1ef3406010f74bfab28299b7a96bdb6e82912eb44",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c012-fr",
+            "source": "Règlement sur la pension de retraite de la Gendarmerie royale du Canada, French version, consolidated XML (fra/reglements/C.R.C.,_ch._1393.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-06-22",
+            "locator": "s. 59 of Règlement sur la pension de retraite de la Gendarmerie royale du Canada, French XML (fra/C.R.C.,_ch._1393)",
+            "text": "DORS/2012-124, art. 31 et 32(E)",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/C.R.C.,_ch._1393.xml",
+            "sha256": "00e908ead97df6677bd0ca8fa46800c16ad9fef2cfe1c2fc3b3cf84156c222bc",
+            "retrieved": "2026-11-05",
+            "copy": "sources/c0c7b25c32e654a1-xml-fra-reglements-c-r-c-ch-1393-xml.txt",
+            "copy_sha256": "c0c7b25c32e654a1490399d1ef3406010f74bfab28299b7a96bdb6e82912eb44",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c013-fr",
+            "source": "Règlement sur les produits de santé naturels, French version, consolidated XML (fra/reglements/DORS-2003-196.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2025-06-21",
+            "locator": "s. 28 of Règlement sur les produits de santé naturels, French XML (fra/DORS-2003-196)",
+            "text": "DORS/2021-46, art. 19(E)",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2003-196.xml",
+            "sha256": "af87e079fcdfefb92aa02d45ab59046acdc54c852514f275679e68a12f5812f4",
+            "retrieved": "2026-11-05",
+            "copy": "sources/c3d6ab28b8b207ea-xml-fra-reglements-dors-2003-196-xml.txt",
+            "copy_sha256": "c3d6ab28b8b207ea24f9fc209e1ba765490697d6f2af885d63d4394e80344af3",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c014-fr",
+            "source": "Règlement sur les produits de santé naturels, French version, consolidated XML (fra/reglements/DORS-2003-196.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2025-06-21",
+            "locator": "s. 32 of Règlement sur les produits de santé naturels, French XML (fra/DORS-2003-196)",
+            "text": "DORS/2021-46, art. 19(E)",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2003-196.xml",
+            "sha256": "af87e079fcdfefb92aa02d45ab59046acdc54c852514f275679e68a12f5812f4",
+            "retrieved": "2026-11-05",
+            "copy": "sources/c3d6ab28b8b207ea-xml-fra-reglements-dors-2003-196-xml.txt",
+            "copy_sha256": "c3d6ab28b8b207ea24f9fc209e1ba765490697d6f2af885d63d4394e80344af3",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c015-fr",
+            "source": "Loi d’aide à l’exécution des ordonnances et des ententes familiales, French version, consolidated XML (fra/lois/F-1.4.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2023-11-15",
+            "locator": "s. 49 of Loi d’aide à l’exécution des ordonnances et des ententes familiales, French XML (fra/F-1.4)",
+            "text": "2019, ch. 16, art. 64(E)",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/F-1.4.xml",
+            "sha256": "3e289e739cbb04a13455c69e5ce6f0924fa1036e8da9479e086bd730300b5017",
+            "retrieved": "2026-11-05",
+            "copy": "sources/e307259eaec0eba6-xml-fra-lois-f-1-4-xml.txt",
+            "copy_sha256": "e307259eaec0eba66ca23151b45547ab421fc8d648603cc88ef33cde8ba9bac1",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c016-fr",
+            "source": "Code canadien du travail, French version, consolidated XML (fra/lois/L-2.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2025-12-12",
+            "locator": "s. 47.1 of Code canadien du travail, French XML (fra/L-2)",
+            "text": "2003, ch. 22, art. 109 et 223(E)",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/L-2.xml",
+            "sha256": "b04ef53939a7fc35ab7d0537db5126b0e036ad1da3108596fe81ae58cad08750",
+            "retrieved": "2026-11-05",
+            "copy": "sources/2542954b6bbc35e4-xml-fra-lois-l-2-xml.txt",
+            "copy_sha256": "2542954b6bbc35e49dfbf2d7cd6d09e3c4021fff6e0b8d9adccb6c2872b1a6b0",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c017-fr",
+            "source": "Loi sur les marques olympiques et paralympiques, French version, consolidated XML (fra/lois/O-9.2.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2019-06-17",
+            "locator": "s. 3 of Loi sur les marques olympiques et paralympiques, French XML (fra/O-9.2)",
+            "text": "2014, ch. 20, art. 366(E), ch. 32, art. 62",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/O-9.2.xml",
+            "sha256": "f8c29bbc49a7d3dae20afd297ab28bcc5c26fdb278bf847e6f4954664a61e7d2",
+            "retrieved": "2026-11-05",
+            "copy": "sources/6c139b8522d5c8f3-xml-fra-lois-o-9-2-xml.txt",
+            "copy_sha256": "6c139b8522d5c8f3d6e5a907fc30b84b4d66e2576e603604d9a34098b1afa452",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c018-fr",
+            "source": "Loi sur les marques olympiques et paralympiques, French version, consolidated XML (fra/lois/O-9.2.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2019-06-17",
+            "locator": "s. 4 of Loi sur les marques olympiques et paralympiques, French XML (fra/O-9.2)",
+            "text": "2014, ch. 20, art. 366(E), ch. 32, art. 62",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/O-9.2.xml",
+            "sha256": "f8c29bbc49a7d3dae20afd297ab28bcc5c26fdb278bf847e6f4954664a61e7d2",
+            "retrieved": "2026-11-05",
+            "copy": "sources/6c139b8522d5c8f3-xml-fra-lois-o-9-2-xml.txt",
+            "copy_sha256": "6c139b8522d5c8f3d6e5a907fc30b84b4d66e2576e603604d9a34098b1afa452",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c019-fr",
+            "source": "Loi sur les marques olympiques et paralympiques, French version, consolidated XML (fra/lois/O-9.2.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2019-06-17",
+            "locator": "s. 8 of Loi sur les marques olympiques et paralympiques, French XML (fra/O-9.2)",
+            "text": "2014, ch. 20, art. 366(E), ch. 32, art. 62",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/O-9.2.xml",
+            "sha256": "f8c29bbc49a7d3dae20afd297ab28bcc5c26fdb278bf847e6f4954664a61e7d2",
+            "retrieved": "2026-11-05",
+            "copy": "sources/6c139b8522d5c8f3-xml-fra-lois-o-9-2-xml.txt",
+            "copy_sha256": "6c139b8522d5c8f3d6e5a907fc30b84b4d66e2576e603604d9a34098b1afa452",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-09T20:01:17Z",
+          "institution": "Department of Justice Canada, Justice Laws Website",
+          "channel": "email",
+          "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Department of Justice Canada, Justice Laws Website",
+          "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-10",
+      "ai_role": {
+        "en": "AI agents wrote and ran checks over the XML of the consolidated federal Acts and regulations of Canada, read each finding in the XML of both language versions and, where named on the card, in the Canada Gazette or the annual statutes; a second AI reading and the coordinator of the checks decided each finding."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-10T19:20:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-09",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-09",
+          "event": "reported",
+          "text": "Reported to Department of Justice Canada, Justice Laws Website (e-mail)"
+        },
+        {
+          "date": "2026-11-10",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0975",
+      "url": "https://arxo.io/findings/ARXO-2026-0975/",
+      "record_kind": "discrepancy",
+      "class": "publication",
+      "class_label": "Publication and consolidation",
+      "jurisdiction": "CA",
+      "jurisdiction_detail": "federal",
+      "act": "Consolidated Acts and Regulations of Canada (Justice Laws Website)",
+      "acts": [],
+      "location": "Consolidated Acts and Regulations of Canada",
+      "text": {
+        "en": {
+          "title": "Justice Laws: typing errors in 42 citations in historical notes",
+          "summary": "In 42 places of the consolidation a citation in a historical note departs from the form used throughout: a missing comma after the year or before the section, a full stop or a comma in place of the other, or a misplaced slash. Examples: Income Tax Act, English, s. 127 “2004 c. 24, s. 24”; National Housing Act, s. 21.3 “1992, c. 32. s. 26”; Coastal Fisheries Protection Act, French, s. 5.6 “2015, ch, 18, art. 4”; Regulations Implementing the United Nations Resolutions on Sudan, s. 3 “SOR2005-122”; Food and Drug Regulations, s. C.01A.002 “SOR/2001/-203, s. 1”.",
+          "impact": "The citations remain readable; they are harder to search and to read by machine. No effect on the law.",
+          "correction": "The Department of Justice decides how to correct each place in the consolidation or the XML; the evidence gives the wording of each language version."
+        },
+        "fr": {
+          "title": "Lois du Canada : fautes de frappe dans 42 renvois des notes historiques",
+          "summary": "À 42 endroits de la codification, un renvoi d’une note historique s’écarte de la forme employée partout : virgule manquante après l’année ou avant l’article, point ou virgule à la place de l’autre, barre oblique mal placée. Exemples : Loi de l’impôt sur le revenu, version française, « 2000 ch. 12, art. 142 »; Loi sur la protection des pêches côtières, art. 5.6, « 2015, ch, 18, art. 4 »; Règlement sur les aliments et drogues, art. C.01A.002, « SOR/2001/-203, s. 1 »."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-05",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The consolidated text",
+      "evidence": {
+        "method": "Contradiction within the text",
+        "quotes": [
+          {
+            "location": "c029-en",
+            "source": "Accessible Canada Act, English version, consolidated XML (eng/acts/A-0.6.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2023-04-27",
+            "locator": "Accessible Canada Act, historical note outside a section, English XML (eng/A-0.6)",
+            "text": "2017 c. 9, s. 2",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/A-0.6.xml",
+            "sha256": "a8382eac428fb6c675676b3053e06883a4ff3ab96da36b3efe51fd6c08fb3eb1",
+            "retrieved": "2026-11-05",
+            "copy": "sources/52d3114e7f24f4ec-xml-eng-acts-a-0-6-xml.txt",
+            "copy_sha256": "52d3114e7f24f4ecffb6909ba3685118b1f0ff3434da0e2bdc40b5fc2aae0444",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c030-en",
+            "source": "Motor Vehicle Safety Regulations, English version, consolidated XML (eng/regulations/C.R.C.,_c._1038.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2025-01-01",
+            "locator": "s. 101 of Motor Vehicle Safety Regulations, English XML (eng/C.R.C.,_c._1038)",
+            "text": "SOR/2017-231 s. 2",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/C.R.C.,_c._1038.xml",
+            "sha256": "0613f8e357599e5d4a359eb0272f3495a4f94b73e9c42396e68d729fb20b31ab",
+            "retrieved": "2026-11-05",
+            "copy": "sources/4886bc76688fbc92-xml-eng-regulations-c-r-c-c-1038-xml.txt",
+            "copy_sha256": "4886bc76688fbc92d35379846314115aea8df13ed7df308da399b2bf7726ee79",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c031-en",
+            "source": "Weights and Measures Regulations, English version, consolidated XML (eng/regulations/C.R.C.,_c._1605.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2024-09-20",
+            "locator": "s. 10 of Weights and Measures Regulations, English XML (eng/C.R.C.,_c._1605)",
+            "text": "SOR/90-118 s. 5",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/C.R.C.,_c._1605.xml",
+            "sha256": "a79ad694ab733093b797ba5faad549b050a6516ed40fa1b44f2aeb314031effc",
+            "retrieved": "2026-11-05",
+            "copy": "sources/356622fa2614f1e0-xml-eng-regulations-c-r-c-c-1605-xml.txt",
+            "copy_sha256": "356622fa2614f1e0a2993868e13c94fc2012e4bde6d4d6864a18c8b896c0908f",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c032-en",
+            "source": "Food and Drug Regulations, English version, consolidated XML (eng/regulations/C.R.C.,_c._870.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2026-06-17",
+            "locator": "s. C.01A.002 of Food and Drug Regulations, English XML (eng/C.R.C.,_c._870)",
+            "text": "SOR/2001/-203, s. 1",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/C.R.C.,_c._870.xml",
+            "sha256": "b83ef0a038790abc817c93b2823365bd28b4cb184dcdc8ba01fea342a641e88b",
+            "retrieved": "2026-11-05",
+            "copy": "sources/a4f28046cd862c3d-xml-eng-regulations-c-r-c-c-870-xml.txt",
+            "copy_sha256": "a4f28046cd862c3d6cf061f80e2584f2768863e35b4e47dab2c1d870a58ce503",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c033-en",
+            "source": "Economic and Fiscal Update Implementation Act, 2021, English version, consolidated XML (eng/acts/E-0.93.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2022-06-09",
+            "locator": "Economic and Fiscal Update Implementation Act, 2021, historical note outside a section, English XML (eng/E-0.93)",
+            "text": "2002 c. 22",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/E-0.93.xml",
+            "sha256": "1e2cfa19738e0cc4d5c405f9f99ef5aff258d325a324d2670ec564c7daacd90c",
+            "retrieved": "2026-11-05",
+            "copy": "sources/cb756c2b5c6a1cb4-xml-eng-acts-e-0-93-xml.txt",
+            "copy_sha256": "cb756c2b5c6a1cb4c9e1746abbad1ba66fbb88a96cc22f318a0d697ef9004b7a",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c034-en",
+            "source": "Income Tax Act, English version, consolidated XML (eng/acts/I-3.3.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2026-06-18",
+            "locator": "s. 127 of Income Tax Act, English XML (eng/I-3.3)",
+            "text": "2004 c. 24, s. 24",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/I-3.3.xml",
+            "sha256": "29c21e504f774dbece4e3151edd99112ef318dff97942982106c09392b2b9df9",
+            "retrieved": "2026-11-05",
+            "copy": "sources/44f897e49083d5cb-xml-eng-acts-i-3-3-xml.txt",
+            "copy_sha256": "44f897e49083d5cb624fcf909623943e0061960f134c49441f2bd743786532d7",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c035-en",
+            "source": "Income Tax Act, English version, consolidated XML (eng/acts/I-3.3.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2026-06-18",
+            "locator": "s. 18 of Income Tax Act, English XML (eng/I-3.3)",
+            "text": "1996, c. 21. s. 5",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/I-3.3.xml",
+            "sha256": "29c21e504f774dbece4e3151edd99112ef318dff97942982106c09392b2b9df9",
+            "retrieved": "2026-11-05",
+            "copy": "sources/44f897e49083d5cb-xml-eng-acts-i-3-3-xml.txt",
+            "copy_sha256": "44f897e49083d5cb624fcf909623943e0061960f134c49441f2bd743786532d7",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c036-en",
+            "source": "Income Tax Act, English version, consolidated XML (eng/acts/I-3.3.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2026-06-18",
+            "locator": "s. 207.71 of Income Tax Act, English XML (eng/I-3.3)",
+            "text": "2024, c. 15. s. 57",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/I-3.3.xml",
+            "sha256": "29c21e504f774dbece4e3151edd99112ef318dff97942982106c09392b2b9df9",
+            "retrieved": "2026-11-05",
+            "copy": "sources/44f897e49083d5cb-xml-eng-acts-i-3-3-xml.txt",
+            "copy_sha256": "44f897e49083d5cb624fcf909623943e0061960f134c49441f2bd743786532d7",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c037-en",
+            "source": "Income Tax Act, English version, consolidated XML (eng/acts/I-3.3.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2026-06-18",
+            "locator": "s. 231.3 of Income Tax Act, English XML (eng/I-3.3)",
+            "text": "1994, c. 21. s. 108",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/I-3.3.xml",
+            "sha256": "29c21e504f774dbece4e3151edd99112ef318dff97942982106c09392b2b9df9",
+            "retrieved": "2026-11-05",
+            "copy": "sources/44f897e49083d5cb-xml-eng-acts-i-3-3-xml.txt",
+            "copy_sha256": "44f897e49083d5cb624fcf909623943e0061960f134c49441f2bd743786532d7",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c038-en",
+            "source": "National Housing Act, English version, consolidated XML (eng/acts/N-11.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2024-06-20",
+            "locator": "s. 21.3 of National Housing Act, English XML (eng/N-11)",
+            "text": "1992, c. 32. s. 26",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/N-11.xml",
+            "sha256": "a5a13ae377bbd0f4d85b79441f17e16532bcdd025bb25af5c4f3534a2366fda3",
+            "retrieved": "2026-11-05",
+            "copy": "sources/789f5f558813a4fa-xml-eng-acts-n-11-xml.txt",
+            "copy_sha256": "789f5f558813a4fa906506c51434286a5b43011a462aa2adb674f1f8ac5041d9",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c039-en",
+            "source": "National Housing Act, English version, consolidated XML (eng/acts/N-11.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2024-06-20",
+            "locator": "s. 21.4 of National Housing Act, English XML (eng/N-11)",
+            "text": "1992, c. 32. s. 27",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/N-11.xml",
+            "sha256": "a5a13ae377bbd0f4d85b79441f17e16532bcdd025bb25af5c4f3534a2366fda3",
+            "retrieved": "2026-11-05",
+            "copy": "sources/789f5f558813a4fa-xml-eng-acts-n-11-xml.txt",
+            "copy_sha256": "789f5f558813a4fa906506c51434286a5b43011a462aa2adb674f1f8ac5041d9",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c040-en",
+            "source": "Regulations Implementing the United Nations Resolutions on Sudan, English version, consolidated XML (eng/regulations/SOR-2004-197.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2024-06-17",
+            "locator": "s. 10 of Regulations Implementing the United Nations Resolutions on Sudan, English XML (eng/SOR-2004-197)",
+            "text": "SOR2005-122, s. 4",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2004-197.xml",
+            "sha256": "345361066fe90d8219de7464bb2a4b2f0519f942034472dc52ed486343527973",
+            "retrieved": "2026-11-05",
+            "copy": "sources/30cc8774c39254e0-xml-eng-regulations-sor-2004-197-xml.txt",
+            "copy_sha256": "30cc8774c39254e00502ff4fa8506bf9ef454eef49e82373beb219cb00643a20",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c041-en",
+            "source": "Regulations Implementing the United Nations Resolutions on Sudan, English version, consolidated XML (eng/regulations/SOR-2004-197.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2024-06-17",
+            "locator": "s. 11 of Regulations Implementing the United Nations Resolutions on Sudan, English XML (eng/SOR-2004-197)",
+            "text": "SOR2005-122, s. 4",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2004-197.xml",
+            "sha256": "345361066fe90d8219de7464bb2a4b2f0519f942034472dc52ed486343527973",
+            "retrieved": "2026-11-05",
+            "copy": "sources/30cc8774c39254e0-xml-eng-regulations-sor-2004-197-xml.txt",
+            "copy_sha256": "30cc8774c39254e00502ff4fa8506bf9ef454eef49e82373beb219cb00643a20",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c042-en",
+            "source": "Regulations Implementing the United Nations Resolutions on Sudan, English version, consolidated XML (eng/regulations/SOR-2004-197.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2024-06-17",
+            "locator": "s. 12 of Regulations Implementing the United Nations Resolutions on Sudan, English XML (eng/SOR-2004-197)",
+            "text": "SOR2005-122, s. 4",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2004-197.xml",
+            "sha256": "345361066fe90d8219de7464bb2a4b2f0519f942034472dc52ed486343527973",
+            "retrieved": "2026-11-05",
+            "copy": "sources/30cc8774c39254e0-xml-eng-regulations-sor-2004-197-xml.txt",
+            "copy_sha256": "30cc8774c39254e00502ff4fa8506bf9ef454eef49e82373beb219cb00643a20",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c043-en",
+            "source": "Regulations Implementing the United Nations Resolutions on Sudan, English version, consolidated XML (eng/regulations/SOR-2004-197.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2024-06-17",
+            "locator": "s. 3 of Regulations Implementing the United Nations Resolutions on Sudan, English XML (eng/SOR-2004-197)",
+            "text": "SOR2005-122, s. 3",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2004-197.xml",
+            "sha256": "345361066fe90d8219de7464bb2a4b2f0519f942034472dc52ed486343527973",
+            "retrieved": "2026-11-05",
+            "copy": "sources/30cc8774c39254e0-xml-eng-regulations-sor-2004-197-xml.txt",
+            "copy_sha256": "30cc8774c39254e00502ff4fa8506bf9ef454eef49e82373beb219cb00643a20",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c044-en",
+            "source": "Regulations Implementing the United Nations Resolutions on Sudan, English version, consolidated XML (eng/regulations/SOR-2004-197.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2024-06-17",
+            "locator": "s. 4 of Regulations Implementing the United Nations Resolutions on Sudan, English XML (eng/SOR-2004-197)",
+            "text": "SOR2005-122, s. 3",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2004-197.xml",
+            "sha256": "345361066fe90d8219de7464bb2a4b2f0519f942034472dc52ed486343527973",
+            "retrieved": "2026-11-05",
+            "copy": "sources/30cc8774c39254e0-xml-eng-regulations-sor-2004-197-xml.txt",
+            "copy_sha256": "30cc8774c39254e00502ff4fa8506bf9ef454eef49e82373beb219cb00643a20",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c045-en",
+            "source": "Regulations Implementing the United Nations Resolutions on Sudan, English version, consolidated XML (eng/regulations/SOR-2004-197.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2024-06-17",
+            "locator": "s. 5 of Regulations Implementing the United Nations Resolutions on Sudan, English XML (eng/SOR-2004-197)",
+            "text": "SOR2005-122, s. 3",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2004-197.xml",
+            "sha256": "345361066fe90d8219de7464bb2a4b2f0519f942034472dc52ed486343527973",
+            "retrieved": "2026-11-05",
+            "copy": "sources/30cc8774c39254e0-xml-eng-regulations-sor-2004-197-xml.txt",
+            "copy_sha256": "30cc8774c39254e00502ff4fa8506bf9ef454eef49e82373beb219cb00643a20",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c046-en",
+            "source": "Regulations Implementing the United Nations Resolutions on Sudan, English version, consolidated XML (eng/regulations/SOR-2004-197.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2024-06-17",
+            "locator": "s. 6 of Regulations Implementing the United Nations Resolutions on Sudan, English XML (eng/SOR-2004-197)",
+            "text": "SOR2005-122, s. 3",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2004-197.xml",
+            "sha256": "345361066fe90d8219de7464bb2a4b2f0519f942034472dc52ed486343527973",
+            "retrieved": "2026-11-05",
+            "copy": "sources/30cc8774c39254e0-xml-eng-regulations-sor-2004-197-xml.txt",
+            "copy_sha256": "30cc8774c39254e00502ff4fa8506bf9ef454eef49e82373beb219cb00643a20",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c047-en",
+            "source": "Regulations Implementing the United Nations Resolutions on Sudan, English version, consolidated XML (eng/regulations/SOR-2004-197.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2024-06-17",
+            "locator": "s. 9 of Regulations Implementing the United Nations Resolutions on Sudan, English XML (eng/SOR-2004-197)",
+            "text": "SOR2005-122, s. 4",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2004-197.xml",
+            "sha256": "345361066fe90d8219de7464bb2a4b2f0519f942034472dc52ed486343527973",
+            "retrieved": "2026-11-05",
+            "copy": "sources/30cc8774c39254e0-xml-eng-regulations-sor-2004-197-xml.txt",
+            "copy_sha256": "30cc8774c39254e00502ff4fa8506bf9ef454eef49e82373beb219cb00643a20",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c048-en",
+            "source": "Canadian Human Rights Benefit Regulations, English version, consolidated XML (eng/regulations/SOR-80-68.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2022-06-21",
+            "locator": "s. 9 of Canadian Human Rights Benefit Regulations, English XML (eng/SOR-80-68)",
+            "text": "SOR/85-512 s. 6",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-80-68.xml",
+            "sha256": "7e22cb7db67a12a660a12bf2adb2c61486acb14406fc42ee7c5dfd660284ce10",
+            "retrieved": "2026-11-05",
+            "copy": "sources/d864e70f8e7c576f-xml-eng-regulations-sor-80-68-xml.txt",
+            "copy_sha256": "d864e70f8e7c576f6bd2f437f65d72bbceec6b1161a44781a575a13ae3c3a9b6",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c049-en",
+            "source": "Excise Duty Indexing Ratio Regulations, English version, consolidated XML (eng/regulations/SOR-83-680.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2006-03-22",
+            "locator": "s. 3 of Excise Duty Indexing Ratio Regulations, English XML (eng/SOR-83-680)",
+            "text": "SOR/84-730 s. 2",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-83-680.xml",
+            "sha256": "ac6965cd2477702f4bf1fc2f0ca641121894aab959914e79f59571b72605e868",
+            "retrieved": "2026-11-05",
+            "copy": "sources/4233522f40677fa9-xml-eng-regulations-sor-83-680-xml.txt",
+            "copy_sha256": "4233522f40677fa999129e93ce601d73db6b61f83ba7f7692439f7cbcb55c9fd",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c050-en",
+            "source": "Federal Courts Rules, English version, consolidated XML (eng/regulations/SOR-98-106.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2025-12-21",
+            "locator": "Federal Courts Rules, historical note outside a section, English XML (eng/SOR-98-106)",
+            "text": "SOR2004-283, ss. 30, 31(E), 32",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-98-106.xml",
+            "sha256": "59699ad17b292bd5b6ff5b414cffdc856f25e46b09f85693dbf94e164e381353",
+            "retrieved": "2026-11-05",
+            "copy": "sources/cf39025050aa17af-xml-eng-regulations-sor-98-106-xml.txt",
+            "copy_sha256": "cf39025050aa17af4970c4d0247e203a33a6f4bcf26f612e00e6453d9baa385d",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c051-fr",
+            "source": "Loi sur le Tribunal canadien du commerce extérieur, French version, consolidated XML (fra/lois/C-18.3.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-05-06",
+            "locator": "s. 19.1 of Loi sur le Tribunal canadien du commerce extérieur, French XML (fra/C-18.3)",
+            "text": "1997 ch. 36, art. 195",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/C-18.3.xml",
+            "sha256": "87b4f36c96a5edb3985a63b759c814b844f4317f74d2e00f3e6d5ceeccbfbfc5",
+            "retrieved": "2026-11-05",
+            "copy": "sources/0c3f436a0e772871-xml-fra-lois-c-18-3-xml.txt",
+            "copy_sha256": "0c3f436a0e7728719750d63897af9a2e571d6cc924b0458e06664711bc6b8547",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c052-fr",
+            "source": "Loi sur la protection des pêches côtières, French version, consolidated XML (fra/lois/C-33.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2019-06-16",
+            "locator": "s. 5.6 of Loi sur la protection des pêches côtières, French XML (fra/C-33)",
+            "text": "2015, ch, 18, art. 4",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/C-33.xml",
+            "sha256": "1edc67272da0f2127743f297d9e4d75919bfdbfc822bc71b30a6f33afac44e08",
+            "retrieved": "2026-11-05",
+            "copy": "sources/2c80a34add902ebc-xml-fra-lois-c-33-xml.txt",
+            "copy_sha256": "2c80a34add902ebc4fa6c76d0e916d0c26d86e29cf3e5546729a75d265cd0152",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c053-fr",
+            "source": "Loi sur la protection des pêches côtières, French version, consolidated XML (fra/lois/C-33.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2019-06-16",
+            "locator": "s. 7.2 of Loi sur la protection des pêches côtières, French XML (fra/C-33)",
+            "text": "2015, ch, 18, art. 6",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/C-33.xml",
+            "sha256": "1edc67272da0f2127743f297d9e4d75919bfdbfc822bc71b30a6f33afac44e08",
+            "retrieved": "2026-11-05",
+            "copy": "sources/2c80a34add902ebc-xml-fra-lois-c-33-xml.txt",
+            "copy_sha256": "2c80a34add902ebc4fa6c76d0e916d0c26d86e29cf3e5546729a75d265cd0152",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c054-fr",
+            "source": "Loi sur la protection des pêches côtières, French version, consolidated XML (fra/lois/C-33.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2019-06-16",
+            "locator": "s. 7.3 of Loi sur la protection des pêches côtières, French XML (fra/C-33)",
+            "text": "2015, ch, 18, art. 6",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/C-33.xml",
+            "sha256": "1edc67272da0f2127743f297d9e4d75919bfdbfc822bc71b30a6f33afac44e08",
+            "retrieved": "2026-11-05",
+            "copy": "sources/2c80a34add902ebc-xml-fra-lois-c-33-xml.txt",
+            "copy_sha256": "2c80a34add902ebc4fa6c76d0e916d0c26d86e29cf3e5546729a75d265cd0152",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c055-fr",
+            "source": "Loi sur la protection des pêches côtières, French version, consolidated XML (fra/lois/C-33.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2019-06-16",
+            "locator": "s. 7.4 of Loi sur la protection des pêches côtières, French XML (fra/C-33)",
+            "text": "2015, ch, 18, art. 6",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/C-33.xml",
+            "sha256": "1edc67272da0f2127743f297d9e4d75919bfdbfc822bc71b30a6f33afac44e08",
+            "retrieved": "2026-11-05",
+            "copy": "sources/2c80a34add902ebc-xml-fra-lois-c-33-xml.txt",
+            "copy_sha256": "2c80a34add902ebc4fa6c76d0e916d0c26d86e29cf3e5546729a75d265cd0152",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c056-fr",
+            "source": "Loi sur la protection des pêches côtières, French version, consolidated XML (fra/lois/C-33.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2019-06-16",
+            "locator": "s. 7.5 of Loi sur la protection des pêches côtières, French XML (fra/C-33)",
+            "text": "2015, ch, 18, art. 6",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/C-33.xml",
+            "sha256": "1edc67272da0f2127743f297d9e4d75919bfdbfc822bc71b30a6f33afac44e08",
+            "retrieved": "2026-11-05",
+            "copy": "sources/2c80a34add902ebc-xml-fra-lois-c-33-xml.txt",
+            "copy_sha256": "2c80a34add902ebc4fa6c76d0e916d0c26d86e29cf3e5546729a75d265cd0152",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c057-fr",
+            "source": "Loi sur la protection des pêches côtières, French version, consolidated XML (fra/lois/C-33.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2019-06-16",
+            "locator": "s. 7.6 of Loi sur la protection des pêches côtières, French XML (fra/C-33)",
+            "text": "2015, ch, 18, art. 6",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/C-33.xml",
+            "sha256": "1edc67272da0f2127743f297d9e4d75919bfdbfc822bc71b30a6f33afac44e08",
+            "retrieved": "2026-11-05",
+            "copy": "sources/2c80a34add902ebc-xml-fra-lois-c-33-xml.txt",
+            "copy_sha256": "2c80a34add902ebc4fa6c76d0e916d0c26d86e29cf3e5546729a75d265cd0152",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c058-fr",
+            "source": "Règlement sur la pêche dans les parcs nationaux du Canada, French version, consolidated XML (fra/reglements/C.R.C.,_ch._1120.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2018-11-23",
+            "locator": "s. 7.2 of Règlement sur la pêche dans les parcs nationaux du Canada, French XML (fra/C.R.C.,_ch._1120)",
+            "text": "DORS/86-378 art. 6",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/C.R.C.,_ch._1120.xml",
+            "sha256": "36d1e8d826b90a8575d51c063dce5d6df9a884ee14fb58ac50d71d0626bbb5f4",
+            "retrieved": "2026-11-05",
+            "copy": "sources/1571d5b9a46740a1-xml-fra-reglements-c-r-c-ch-1120-xml.txt",
+            "copy_sha256": "1571d5b9a46740a11210c97ed273bbb15b49c2ea91fe5364f3bcefd7c2d78ace",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c059-fr",
+            "source": "Arrêté sur les grades de grain défectueux et les grades de criblures, French version, consolidated XML (fra/reglements/C.R.C.,_ch._890.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2025-08-01",
+            "locator": "s. 3 of Arrêté sur les grades de grain défectueux et les grades de criblures, French XML (fra/C.R.C.,_ch._890)",
+            "text": "DORS/84-615 art. 1",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/C.R.C.,_ch._890.xml",
+            "sha256": "af4fcd54630f5bd4fe83c06e733873632a5308eefdb3b2e0e74b5b147ba18e75",
+            "retrieved": "2026-11-05",
+            "copy": "sources/9fe43b92ae18980d-xml-fra-reglements-c-r-c-ch-890-xml.txt",
+            "copy_sha256": "9fe43b92ae18980db26cc42cb32e8c81cd309225a3c0f92ad342abc2b0b8c3fc",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c060-fr",
+            "source": "Règlement de pêche de Terre-Neuve-et-Labrador, French version, consolidated XML (fra/reglements/DORS-78-443.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2018-05-30",
+            "locator": "s. 57 of Règlement de pêche de Terre-Neuve-et-Labrador, French XML (fra/DORS-78-443)",
+            "text": "DORS/93-63 art. 5 et 10(F)",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-78-443.xml",
+            "sha256": "e290732d0b6fe876138b1d43b2b8f0f4015bff9aa867558f6cbfab8ab4a1d783",
+            "retrieved": "2026-11-05",
+            "copy": "sources/3999b80a22064762-xml-fra-reglements-dors-78-443-xml.txt",
+            "copy_sha256": "3999b80a220647626ad350b059aaf0f41f97bbd2c62917ee26127eb080b71684",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c061-fr",
+            "source": "Loi de l’impôt sur le revenu, French version, consolidated XML (fra/lois/I-3.3.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-06-18",
+            "locator": "s. 108 of Loi de l’impôt sur le revenu, French XML (fra/I-3.3)",
+            "text": "2000 ch. 12, art. 142, ch. 19, art. 16",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/I-3.3.xml",
+            "sha256": "36b8465c70f532e1fc1edd890154b07a67721e826f2a1af689014f255bb9c96c",
+            "retrieved": "2026-11-05",
+            "copy": "sources/afce1fccb97ec0c7-xml-fra-lois-i-3-3-xml.txt",
+            "copy_sha256": "afce1fccb97ec0c76d95ea6e639b159dbf903b13c0f26f9389fce44650699449",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c062-fr",
+            "source": "Loi de l’impôt sur le revenu, French version, consolidated XML (fra/lois/I-3.3.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-06-18",
+            "locator": "s. 118.9 of Loi de l’impôt sur le revenu, French XML (fra/I-3.3)",
+            "text": "2000 ch. 12, art. 142",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/I-3.3.xml",
+            "sha256": "36b8465c70f532e1fc1edd890154b07a67721e826f2a1af689014f255bb9c96c",
+            "retrieved": "2026-11-05",
+            "copy": "sources/afce1fccb97ec0c7-xml-fra-lois-i-3-3-xml.txt",
+            "copy_sha256": "afce1fccb97ec0c76d95ea6e639b159dbf903b13c0f26f9389fce44650699449",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c063-fr",
+            "source": "Loi de l’impôt sur le revenu, French version, consolidated XML (fra/lois/I-3.3.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-06-18",
+            "locator": "s. 130 of Loi de l’impôt sur le revenu, French XML (fra/I-3.3)",
+            "text": "2000 ch. 12, art. 142",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/I-3.3.xml",
+            "sha256": "36b8465c70f532e1fc1edd890154b07a67721e826f2a1af689014f255bb9c96c",
+            "retrieved": "2026-11-05",
+            "copy": "sources/afce1fccb97ec0c7-xml-fra-lois-i-3-3-xml.txt",
+            "copy_sha256": "afce1fccb97ec0c76d95ea6e639b159dbf903b13c0f26f9389fce44650699449",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c064-fr",
+            "source": "Loi de l’impôt sur le revenu, French version, consolidated XML (fra/lois/I-3.3.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-06-18",
+            "locator": "s. 160 of Loi de l’impôt sur le revenu, French XML (fra/I-3.3)",
+            "text": "2000 ch. 12, art. 142, ch. 19, art. 46, ch. 30, art. 170",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/I-3.3.xml",
+            "sha256": "36b8465c70f532e1fc1edd890154b07a67721e826f2a1af689014f255bb9c96c",
+            "retrieved": "2026-11-05",
+            "copy": "sources/afce1fccb97ec0c7-xml-fra-lois-i-3-3-xml.txt",
+            "copy_sha256": "afce1fccb97ec0c76d95ea6e639b159dbf903b13c0f26f9389fce44650699449",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c065-fr",
+            "source": "Loi de l’impôt sur le revenu, French version, consolidated XML (fra/lois/I-3.3.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-06-18",
+            "locator": "s. 18 of Loi de l’impôt sur le revenu, French XML (fra/I-3.3)",
+            "text": "1996, ch. 21. art. 5",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/I-3.3.xml",
+            "sha256": "36b8465c70f532e1fc1edd890154b07a67721e826f2a1af689014f255bb9c96c",
+            "retrieved": "2026-11-05",
+            "copy": "sources/afce1fccb97ec0c7-xml-fra-lois-i-3-3-xml.txt",
+            "copy_sha256": "afce1fccb97ec0c76d95ea6e639b159dbf903b13c0f26f9389fce44650699449",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c066-fr",
+            "source": "Loi de l’impôt sur le revenu, French version, consolidated XML (fra/lois/I-3.3.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-06-18",
+            "locator": "s. 221 of Loi de l’impôt sur le revenu, French XML (fra/I-3.3)",
+            "text": "2000 ch. 12, art. 142",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/I-3.3.xml",
+            "sha256": "36b8465c70f532e1fc1edd890154b07a67721e826f2a1af689014f255bb9c96c",
+            "retrieved": "2026-11-05",
+            "copy": "sources/afce1fccb97ec0c7-xml-fra-lois-i-3-3-xml.txt",
+            "copy_sha256": "afce1fccb97ec0c76d95ea6e639b159dbf903b13c0f26f9389fce44650699449",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c067-fr",
+            "source": "Loi de l’impôt sur le revenu, French version, consolidated XML (fra/lois/I-3.3.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-06-18",
+            "locator": "s. 233.1 of Loi de l’impôt sur le revenu, French XML (fra/I-3.3)",
+            "text": "1998, ch, 19, art. 231",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/I-3.3.xml",
+            "sha256": "36b8465c70f532e1fc1edd890154b07a67721e826f2a1af689014f255bb9c96c",
+            "retrieved": "2026-11-05",
+            "copy": "sources/afce1fccb97ec0c7-xml-fra-lois-i-3-3-xml.txt",
+            "copy_sha256": "afce1fccb97ec0c76d95ea6e639b159dbf903b13c0f26f9389fce44650699449",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c068-fr",
+            "source": "Loi de l’impôt sur le revenu, French version, consolidated XML (fra/lois/I-3.3.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-06-18",
+            "locator": "s. 73 of Loi de l’impôt sur le revenu, French XML (fra/I-3.3)",
+            "text": "2000 ch. 12, art. 142",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/I-3.3.xml",
+            "sha256": "36b8465c70f532e1fc1edd890154b07a67721e826f2a1af689014f255bb9c96c",
+            "retrieved": "2026-11-05",
+            "copy": "sources/afce1fccb97ec0c7-xml-fra-lois-i-3-3-xml.txt",
+            "copy_sha256": "afce1fccb97ec0c76d95ea6e639b159dbf903b13c0f26f9389fce44650699449",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c069-fr",
+            "source": "Loi de l’impôt sur le revenu, French version, consolidated XML (fra/lois/I-3.3.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-06-18",
+            "locator": "s. 81 of Loi de l’impôt sur le revenu, French XML (fra/I-3.3)",
+            "text": "2000 ch. 12, art. 142, ch. 19, art. 12",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/I-3.3.xml",
+            "sha256": "36b8465c70f532e1fc1edd890154b07a67721e826f2a1af689014f255bb9c96c",
+            "retrieved": "2026-11-05",
+            "copy": "sources/afce1fccb97ec0c7-xml-fra-lois-i-3-3-xml.txt",
+            "copy_sha256": "afce1fccb97ec0c76d95ea6e639b159dbf903b13c0f26f9389fce44650699449",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "c070-fr",
+            "source": "Loi sur les marques de commerce, French version, consolidated XML (fra/lois/T-13.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2025-04-01",
+            "locator": "s. 6 of Loi sur les marques de commerce, French XML (fra/T-13)",
+            "text": "2014, ch, 20, art. 321, 361(A) et 362(A), ch. 32, art. 53",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/T-13.xml",
+            "sha256": "11087852ae006fc044e3bdf28256b72044a2cb2fed0e66af985e64bd6e72d5bc",
+            "retrieved": "2026-11-05",
+            "copy": "sources/4106121cd4fc7267-xml-fra-lois-t-13-xml.txt",
+            "copy_sha256": "4106121cd4fc726760395fb377fdef0decbcae22026db5ee125bf252f8c6a921",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-09T20:01:17Z",
+          "institution": "Department of Justice Canada, Justice Laws Website",
+          "channel": "email",
+          "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Department of Justice Canada, Justice Laws Website",
+          "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-10",
+      "ai_role": {
+        "en": "AI agents wrote and ran checks over the XML of the consolidated federal Acts and regulations of Canada, read each finding in the XML of both language versions and, where named on the card, in the Canada Gazette or the annual statutes; a second AI reading and the coordinator of the checks decided each finding."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-10T19:20:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-09",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-09",
+          "event": "reported",
+          "text": "Reported to Department of Justice Canada, Justice Laws Website (e-mail)"
+        },
+        {
+          "date": "2026-11-10",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0976",
+      "url": "https://arxo.io/findings/ARXO-2026-0976/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "CA",
+      "jurisdiction_detail": "federal",
+      "act": "Consolidated Acts and Regulations of Canada (Justice Laws Website)",
+      "acts": [],
+      "location": "SOR/2024-25",
+      "text": {
+        "en": {
+          "title": "SOR/2024-25 (Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations): two French references to paragraphs that do not exist",
+          "summary": "Subparagraph 31(3)(a)(i): English “the requirements referred to in paragraph 28(1)(b) are met”, French “les conditions prévues à l’alinéa 26(1)b) sont remplies”. Subparagraph 36(1)(a)(ii): English “the requirements referred to in paragraph 28(1)(b) are no longer being met”, French “l’une ou l’autre des conditions prévues à l’alinéa 27(1)b) n’est plus remplie”. Sections 26 and 27 have no subsections and no paragraph (b). The errors are in the regulations as published in the Canada Gazette, Part II, Vol. 158, No. 5 (February 28, 2024), and in the consolidated XML.",
+          "impact": "The reference in one language version leads to no provision, or to a different one than the other version. Both versions are equally authoritative; the effect on how the provision applies was not assessed.",
+          "correction": "Replace the French references to 26(1)b) and 27(1)b), in 31(3)(a)(i) and 36(1)(a)(ii), with 28(1)b)."
+        },
+        "fr": {
+          "title": "DORS/2024-25 (Règlement-cadre sur les opérations relatives aux hydrocarbures dans la zone extracôtière Canada — Terre-Neuve-et-Labrador) : deux renvois français à des alinéas qui n’existent pas",
+          "summary": "La version française renvoie à « l’alinéa 26(1)b) » au sous-alinéa 31(3)a)(i) et à « l’alinéa 27(1)b) » au sous-alinéa 36(1)a)(ii). La version anglaise renvoie aux deux endroits à « paragraph 28(1)(b) ». Les articles 26 et 27 n’ont ni paragraphes ni alinéa b). Les erreurs figurent dans le règlement publié dans la Gazette du Canada, Partie II, vol. 158, nº 5 (28 février 2024), et dans le XML codifié."
+        }
+      },
+      "status": {
+        "badge": "accepted",
+        "label": {
+          "en": "Accepted by the addressee",
+          "ru": "Принято адресатом"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "accepted",
+        "last_checked": "2026-11-05",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "CA-L00206-en",
+            "source": "Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, English version, consolidated XML (eng/regulations/SOR-2024-25.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2026-09-17",
+            "locator": "subparagraph 31(3)(a)(i) of the Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, English XML (eng/SOR-2024-25)",
+            "text": "paragraph 28(1)(b)",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2024-25.xml",
+            "sha256": "b3cd9ac0a4fa5709a731a078e59730e6665bcf960bea3bfe6e3a73eae8eafdc8",
+            "retrieved": "2026-11-05",
+            "copy": "sources/52eab5f77c40f6b1-xml-eng-regulations-sor-2024-25-xml.txt",
+            "copy_sha256": "52eab5f77c40f6b1286cf96d16fd44337796e6a938fe444f2a24b84a41e3e8ba",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-L00206-fr",
+            "source": "Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, French version, consolidated XML (fra/reglements/DORS-2024-25.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-09-17",
+            "locator": "subparagraph 31(3)(a)(i) of the Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, French XML (fra/DORS-2024-25)",
+            "text": "alinéa 26(1)b)",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2024-25.xml",
+            "sha256": "37caf34198268b5ec790b06906aecb47976365aee65dfe49d979a065af52421a",
+            "retrieved": "2026-11-05",
+            "copy": "sources/0f72cd622576c165-xml-fra-reglements-dors-2024-25-xml.txt",
+            "copy_sha256": "0f72cd622576c16511c35b1e948059b568aebd6ca07b37c233d496ab044e5974",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-L00206-right-en",
+            "source": "Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, English version, consolidated XML (eng/regulations/SOR-2024-25.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2026-09-17",
+            "locator": "section 26 of the Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, English XML (eng/SOR-2024-25)",
+            "text": "Prescribed installations — section 139.2 of Act26For the purpose of section 139.2 of the Act, a production installation, drilling installation, accommodations installation and diving installation are prescribed installations.",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2024-25.xml",
+            "sha256": "b3cd9ac0a4fa5709a731a078e59730e6665bcf960bea3bfe6e3a73eae8eafdc8",
+            "retrieved": "2026-11-05",
+            "copy": "sources/52eab5f77c40f6b1-xml-eng-regulations-sor-2024-25-xml.txt",
+            "copy_sha256": "52eab5f77c40f6b1286cf96d16fd44337796e6a938fe444f2a24b84a41e3e8ba",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-L00206-right-fr",
+            "source": "Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, French version, consolidated XML (fra/reglements/DORS-2024-25.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-09-17",
+            "locator": "section 26 of the Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, French XML (fra/DORS-2024-25)",
+            "text": "Installations visées — article 139.2 de la Loi26Sont visées pour l’application de l’article 139.2 de la Loi l’installation de forage, l’ouvrage de production, l’installation d’habitation et l’installation de plongée.",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2024-25.xml",
+            "sha256": "37caf34198268b5ec790b06906aecb47976365aee65dfe49d979a065af52421a",
+            "retrieved": "2026-11-05",
+            "copy": "sources/0f72cd622576c165-xml-fra-reglements-dors-2024-25-xml.txt",
+            "copy_sha256": "0f72cd622576c16511c35b1e948059b568aebd6ca07b37c233d496ab044e5974",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-L00206-g2-71",
+            "source": "Canada Gazette, Part II, Vol. 158, No. 5 (February 28, 2024), PDF",
+            "role": "Official publication",
+            "language": "fr",
+            "edition": null,
+            "locator": "Canada Gazette, Part II, Vol. 158, No. 5 (February 28, 2024), PDF, PDF page 71",
+            "text": "néa 26(1)b)",
+            "translations": {},
+            "url": "https://gazette.gc.ca/rp-pr/p2/2024/2024-02-28/pdf/g2-15805.pdf",
+            "sha256": "76f2f5c5b3fb70db7ec76f6dcd1bf5998ad12c48d3e897ccfeb650ca14893d88",
+            "retrieved": "2026-11-07",
+            "copy": "sources/47fd59541aa865bc-pdf-g2-15805-pdf.txt",
+            "copy_sha256": "47fd59541aa865bce425f52225c91e86c4418e010b6282cb1b3b0272cfdd54d7",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-L00207-en",
+            "source": "Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, English version, consolidated XML (eng/regulations/SOR-2024-25.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2026-09-17",
+            "locator": "subparagraph 36(1)(a)(ii) of the Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, English XML (eng/SOR-2024-25)",
+            "text": "paragraph 28(1)(b)",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2024-25.xml",
+            "sha256": "b3cd9ac0a4fa5709a731a078e59730e6665bcf960bea3bfe6e3a73eae8eafdc8",
+            "retrieved": "2026-11-05",
+            "copy": "sources/52eab5f77c40f6b1-xml-eng-regulations-sor-2024-25-xml.txt",
+            "copy_sha256": "52eab5f77c40f6b1286cf96d16fd44337796e6a938fe444f2a24b84a41e3e8ba",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-L00207-fr",
+            "source": "Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, French version, consolidated XML (fra/reglements/DORS-2024-25.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-09-17",
+            "locator": "subparagraph 36(1)(a)(ii) of the Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, French XML (fra/DORS-2024-25)",
+            "text": "alinéa 27(1)b)",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2024-25.xml",
+            "sha256": "37caf34198268b5ec790b06906aecb47976365aee65dfe49d979a065af52421a",
+            "retrieved": "2026-11-05",
+            "copy": "sources/0f72cd622576c165-xml-fra-reglements-dors-2024-25-xml.txt",
+            "copy_sha256": "0f72cd622576c16511c35b1e948059b568aebd6ca07b37c233d496ab044e5974",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-L00207-right-en",
+            "source": "Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, English version, consolidated XML (eng/regulations/SOR-2024-25.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2026-09-17",
+            "locator": "section 27 of the Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, English XML (eng/SOR-2024-25)",
+            "text": "Definition of installation27In this Part, installation means an installation referred to in section 26.",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2024-25.xml",
+            "sha256": "b3cd9ac0a4fa5709a731a078e59730e6665bcf960bea3bfe6e3a73eae8eafdc8",
+            "retrieved": "2026-11-05",
+            "copy": "sources/52eab5f77c40f6b1-xml-eng-regulations-sor-2024-25-xml.txt",
+            "copy_sha256": "52eab5f77c40f6b1286cf96d16fd44337796e6a938fe444f2a24b84a41e3e8ba",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-L00207-right-fr",
+            "source": "Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, French version, consolidated XML (fra/reglements/DORS-2024-25.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-09-17",
+            "locator": "section 27 of the Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, French XML (fra/DORS-2024-25)",
+            "text": "Définition de installation27Dans la présente partie, installation s’entend de l’installation ou de l’ouvrage visés à l’article 26.",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2024-25.xml",
+            "sha256": "37caf34198268b5ec790b06906aecb47976365aee65dfe49d979a065af52421a",
+            "retrieved": "2026-11-05",
+            "copy": "sources/0f72cd622576c165-xml-fra-reglements-dors-2024-25-xml.txt",
+            "copy_sha256": "0f72cd622576c16511c35b1e948059b568aebd6ca07b37c233d496ab044e5974",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-L00207-g2-73",
+            "source": "Canada Gazette, Part II, Vol. 158, No. 5 (February 28, 2024), PDF",
+            "role": "Official publication",
+            "language": "fr",
+            "edition": null,
+            "locator": "Canada Gazette, Part II, Vol. 158, No. 5 (February 28, 2024), PDF, PDF page 73",
+            "text": "néa 27(1)b)",
+            "translations": {},
+            "url": "https://gazette.gc.ca/rp-pr/p2/2024/2024-02-28/pdf/g2-15805.pdf",
+            "sha256": "76f2f5c5b3fb70db7ec76f6dcd1bf5998ad12c48d3e897ccfeb650ca14893d88",
+            "retrieved": "2026-11-07",
+            "copy": "sources/47fd59541aa865bc-pdf-g2-15805-pdf.txt",
+            "copy_sha256": "47fd59541aa865bce425f52225c91e86c4418e010b6282cb1b3b0272cfdd54d7",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-09T20:01:33Z",
+          "institution": "Standing Joint Committee for the Scrutiny of Regulations",
+          "channel": "email",
+          "role": "reviews regulations made by the Government of Canada"
+        },
+        {
+          "date": "2026-11-09T20:01:42Z",
+          "institution": "Natural Resources Canada",
+          "channel": "email",
+          "role": "department responsible for the offshore petroleum operations framework regulations"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Natural Resources Canada",
+          "role": "department responsible for the offshore petroleum operations framework regulations"
+        },
+        {
+          "institution": "Standing Joint Committee for the Scrutiny of Regulations",
+          "role": "reviews regulations made by the Government of Canada"
+        }
+      ],
+      "responses": [
+        {
+          "date": "2026-11-10T15:16:00Z",
+          "institution": "Natural Resources Canada",
+          "kind": "acknowledged",
+          "summary": {
+            "en": "Natural Resources Canada replied that it will work to address the error. No correction has yet been published."
+          }
+        }
+      ],
+      "approval": "2026-11-10",
+      "ai_role": {
+        "en": "AI agents wrote and ran checks over the XML of the consolidated federal Acts and regulations of Canada, read each finding in the XML of both language versions and, where named on the card, in the Canada Gazette or the annual statutes; a second AI reading and the coordinator of the checks decided each finding."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-10T19:20:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-07",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-09",
+          "event": "reported",
+          "text": "Reported to Standing Joint Committee for the Scrutiny of Regulations (e-mail)"
+        },
+        {
+          "date": "2026-11-09",
+          "event": "reported",
+          "text": "Reported to Natural Resources Canada (e-mail)"
+        },
+        {
+          "date": "2026-11-10",
+          "event": "acknowledged",
+          "text": "Accepted: Natural Resources Canada"
+        },
+        {
+          "date": "2026-11-10",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0977",
+      "url": "https://arxo.io/findings/ARXO-2026-0977/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "CA",
+      "jurisdiction_detail": "federal",
+      "act": "Consolidated Acts and Regulations of Canada (Justice Laws Website)",
+      "acts": [],
+      "location": "SOR/2024-26",
+      "text": {
+        "en": {
+          "title": "SOR/2024-26 (Canada–Nova Scotia Offshore Area Petroleum Operations Framework Regulations): two French references to paragraphs that do not exist",
+          "summary": "Subparagraph 31(3)(a)(i): English “the requirements referred to in paragraph 28(1)(b) are met”, French “les conditions prévues à l’alinéa 26(1)b) sont remplies”. Subparagraph 36(1)(a)(ii): English “the requirements referred to in paragraph 28(1)(b) are no longer being met”, French “l’une ou l’autre des conditions prévues à l’alinéa 27(1)b) n’est plus remplie”. Sections 26 and 27 have no subsections and no paragraph (b). The errors are in the regulations as published in the Canada Gazette, Part II, Vol. 158, No. 5 (February 28, 2024), and in the consolidated XML.",
+          "impact": "The reference in one language version leads to no provision, or to a different one than the other version. Both versions are equally authoritative; the effect on how the provision applies was not assessed.",
+          "correction": "Replace the French references to 26(1)b) and 27(1)b), in 31(3)(a)(i) and 36(1)(a)(ii), with 28(1)b)."
+        },
+        "fr": {
+          "title": "DORS/2024-26 (Règlement-cadre sur les opérations relatives aux hydrocarbures dans la zone extracôtière Canada — Nouvelle-Écosse) : deux renvois français à des alinéas qui n’existent pas",
+          "summary": "La version française renvoie à « l’alinéa 26(1)b) » au sous-alinéa 31(3)a)(i) et à « l’alinéa 27(1)b) » au sous-alinéa 36(1)a)(ii). La version anglaise renvoie aux deux endroits à « paragraph 28(1)(b) ». Les articles 26 et 27 n’ont ni paragraphes ni alinéa b). Les erreurs figurent dans le règlement publié dans la Gazette du Canada, Partie II, vol. 158, nº 5 (28 février 2024), et dans le XML codifié."
+        }
+      },
+      "status": {
+        "badge": "accepted",
+        "label": {
+          "en": "Accepted by the addressee",
+          "ru": "Принято адресатом"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "accepted",
+        "last_checked": "2026-11-05",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The text of the act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "CA-L00209-en",
+            "source": "Canada–Nova Scotia Offshore Area Petroleum Operations Framework Regulations, English version, consolidated XML (eng/regulations/SOR-2024-26.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2026-09-17",
+            "locator": "subparagraph 31(3)(a)(i) of the Canada–Nova Scotia Offshore Area Petroleum Operations Framework Regulations, English XML (eng/SOR-2024-26)",
+            "text": "paragraph 28(1)(b)",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2024-26.xml",
+            "sha256": "14a57ba59aff2e84cdee89161cfbe72660528723f58467f0e4f7a4476a9f6b46",
+            "retrieved": "2026-11-05",
+            "copy": "sources/ec70da80d0d3584c-xml-eng-regulations-sor-2024-26-xml.txt",
+            "copy_sha256": "ec70da80d0d3584c2635f24a135a9f14cd683961408d9f80f5deb49007d1c00c",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-L00209-fr",
+            "source": "Canada–Nova Scotia Offshore Area Petroleum Operations Framework Regulations, French version, consolidated XML (fra/reglements/DORS-2024-26.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-09-17",
+            "locator": "subparagraph 31(3)(a)(i) of the Canada–Nova Scotia Offshore Area Petroleum Operations Framework Regulations, French XML (fra/DORS-2024-26)",
+            "text": "alinéa 26(1)b)",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2024-26.xml",
+            "sha256": "87c9e1378243ceb47c5a1f24c91a096c0557d1d23ae6af3dad8cca864307626c",
+            "retrieved": "2026-11-05",
+            "copy": "sources/cc5ce2fe5c5f8205-xml-fra-reglements-dors-2024-26-xml.txt",
+            "copy_sha256": "cc5ce2fe5c5f820521c01c5e2b0ac23857a8f9f1c62a229ba27c94b3c284fde6",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-L00209-right-en",
+            "source": "Canada–Nova Scotia Offshore Area Petroleum Operations Framework Regulations, English version, consolidated XML (eng/regulations/SOR-2024-26.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2026-09-17",
+            "locator": "section 26 of the Canada–Nova Scotia Offshore Area Petroleum Operations Framework Regulations, English XML (eng/SOR-2024-26)",
+            "text": "Prescribed installations — section 143.2 of Act26For the purpose of section 143.2 of the Act, a production installation, drilling installation, accommodations installation and diving installation are prescribed installations.",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2024-26.xml",
+            "sha256": "14a57ba59aff2e84cdee89161cfbe72660528723f58467f0e4f7a4476a9f6b46",
+            "retrieved": "2026-11-05",
+            "copy": "sources/ec70da80d0d3584c-xml-eng-regulations-sor-2024-26-xml.txt",
+            "copy_sha256": "ec70da80d0d3584c2635f24a135a9f14cd683961408d9f80f5deb49007d1c00c",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-L00209-right-fr",
+            "source": "Canada–Nova Scotia Offshore Area Petroleum Operations Framework Regulations, French version, consolidated XML (fra/reglements/DORS-2024-26.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-09-17",
+            "locator": "section 26 of the Canada–Nova Scotia Offshore Area Petroleum Operations Framework Regulations, French XML (fra/DORS-2024-26)",
+            "text": "Installations visées — article 143.2 de la Loi26Sont visées pour l’application de l’article 143.2 de la Loi l’installation de forage, l’ouvrage de production, l’installation d’habitation et l’installation de plongée.",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2024-26.xml",
+            "sha256": "87c9e1378243ceb47c5a1f24c91a096c0557d1d23ae6af3dad8cca864307626c",
+            "retrieved": "2026-11-05",
+            "copy": "sources/cc5ce2fe5c5f8205-xml-fra-reglements-dors-2024-26-xml.txt",
+            "copy_sha256": "cc5ce2fe5c5f820521c01c5e2b0ac23857a8f9f1c62a229ba27c94b3c284fde6",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-L00209-g2-265",
+            "source": "Canada Gazette, Part II, Vol. 158, No. 5 (February 28, 2024), PDF",
+            "role": "Official publication",
+            "language": "fr",
+            "edition": null,
+            "locator": "Canada Gazette, Part II, Vol. 158, No. 5 (February 28, 2024), PDF, PDF page 265",
+            "text": "néa 26(1)b)",
+            "translations": {},
+            "url": "https://gazette.gc.ca/rp-pr/p2/2024/2024-02-28/pdf/g2-15805.pdf",
+            "sha256": "76f2f5c5b3fb70db7ec76f6dcd1bf5998ad12c48d3e897ccfeb650ca14893d88",
+            "retrieved": "2026-11-07",
+            "copy": "sources/47fd59541aa865bc-pdf-g2-15805-pdf.txt",
+            "copy_sha256": "47fd59541aa865bce425f52225c91e86c4418e010b6282cb1b3b0272cfdd54d7",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-L00210-en",
+            "source": "Canada–Nova Scotia Offshore Area Petroleum Operations Framework Regulations, English version, consolidated XML (eng/regulations/SOR-2024-26.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2026-09-17",
+            "locator": "subparagraph 36(1)(a)(ii) of the Canada–Nova Scotia Offshore Area Petroleum Operations Framework Regulations, English XML (eng/SOR-2024-26)",
+            "text": "paragraph 28(1)(b)",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2024-26.xml",
+            "sha256": "14a57ba59aff2e84cdee89161cfbe72660528723f58467f0e4f7a4476a9f6b46",
+            "retrieved": "2026-11-05",
+            "copy": "sources/ec70da80d0d3584c-xml-eng-regulations-sor-2024-26-xml.txt",
+            "copy_sha256": "ec70da80d0d3584c2635f24a135a9f14cd683961408d9f80f5deb49007d1c00c",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-L00210-fr",
+            "source": "Canada–Nova Scotia Offshore Area Petroleum Operations Framework Regulations, French version, consolidated XML (fra/reglements/DORS-2024-26.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-09-17",
+            "locator": "subparagraph 36(1)(a)(ii) of the Canada–Nova Scotia Offshore Area Petroleum Operations Framework Regulations, French XML (fra/DORS-2024-26)",
+            "text": "alinéa 27(1)b)",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2024-26.xml",
+            "sha256": "87c9e1378243ceb47c5a1f24c91a096c0557d1d23ae6af3dad8cca864307626c",
+            "retrieved": "2026-11-05",
+            "copy": "sources/cc5ce2fe5c5f8205-xml-fra-reglements-dors-2024-26-xml.txt",
+            "copy_sha256": "cc5ce2fe5c5f820521c01c5e2b0ac23857a8f9f1c62a229ba27c94b3c284fde6",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-L00210-right-en",
+            "source": "Canada–Nova Scotia Offshore Area Petroleum Operations Framework Regulations, English version, consolidated XML (eng/regulations/SOR-2024-26.xml)",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": "consolidated version, point-in-time date 2026-09-17",
+            "locator": "section 27 of the Canada–Nova Scotia Offshore Area Petroleum Operations Framework Regulations, English XML (eng/SOR-2024-26)",
+            "text": "Definition of installation27In this Part, installation means an installation referred to in section 26.",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2024-26.xml",
+            "sha256": "14a57ba59aff2e84cdee89161cfbe72660528723f58467f0e4f7a4476a9f6b46",
+            "retrieved": "2026-11-05",
+            "copy": "sources/ec70da80d0d3584c-xml-eng-regulations-sor-2024-26-xml.txt",
+            "copy_sha256": "ec70da80d0d3584c2635f24a135a9f14cd683961408d9f80f5deb49007d1c00c",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-L00210-right-fr",
+            "source": "Canada–Nova Scotia Offshore Area Petroleum Operations Framework Regulations, French version, consolidated XML (fra/reglements/DORS-2024-26.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2026-09-17",
+            "locator": "section 27 of the Canada–Nova Scotia Offshore Area Petroleum Operations Framework Regulations, French XML (fra/DORS-2024-26)",
+            "text": "Définition de installation27Dans la présente partie, installation s’entend de l’installation ou de l’ouvrage visés à l’article 26.",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2024-26.xml",
+            "sha256": "87c9e1378243ceb47c5a1f24c91a096c0557d1d23ae6af3dad8cca864307626c",
+            "retrieved": "2026-11-05",
+            "copy": "sources/cc5ce2fe5c5f8205-xml-fra-reglements-dors-2024-26-xml.txt",
+            "copy_sha256": "cc5ce2fe5c5f820521c01c5e2b0ac23857a8f9f1c62a229ba27c94b3c284fde6",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-L00210-g2-268",
+            "source": "Canada Gazette, Part II, Vol. 158, No. 5 (February 28, 2024), PDF",
+            "role": "Official publication",
+            "language": "fr",
+            "edition": null,
+            "locator": "Canada Gazette, Part II, Vol. 158, No. 5 (February 28, 2024), PDF, PDF page 268",
+            "text": "néa 27(1)b)",
+            "translations": {},
+            "url": "https://gazette.gc.ca/rp-pr/p2/2024/2024-02-28/pdf/g2-15805.pdf",
+            "sha256": "76f2f5c5b3fb70db7ec76f6dcd1bf5998ad12c48d3e897ccfeb650ca14893d88",
+            "retrieved": "2026-11-07",
+            "copy": "sources/47fd59541aa865bc-pdf-g2-15805-pdf.txt",
+            "copy_sha256": "47fd59541aa865bce425f52225c91e86c4418e010b6282cb1b3b0272cfdd54d7",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-09T20:01:33Z",
+          "institution": "Standing Joint Committee for the Scrutiny of Regulations",
+          "channel": "email",
+          "role": "reviews regulations made by the Government of Canada"
+        },
+        {
+          "date": "2026-11-09T20:01:42Z",
+          "institution": "Natural Resources Canada",
+          "channel": "email",
+          "role": "department responsible for the offshore petroleum operations framework regulations"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Natural Resources Canada",
+          "role": "department responsible for the offshore petroleum operations framework regulations"
+        },
+        {
+          "institution": "Standing Joint Committee for the Scrutiny of Regulations",
+          "role": "reviews regulations made by the Government of Canada"
+        }
+      ],
+      "responses": [
+        {
+          "date": "2026-11-10T15:16:00Z",
+          "institution": "Natural Resources Canada",
+          "kind": "acknowledged",
+          "summary": {
+            "en": "Natural Resources Canada replied that it will work to address the error. No correction has yet been published."
+          }
+        }
+      ],
+      "approval": "2026-11-10",
+      "ai_role": {
+        "en": "AI agents wrote and ran checks over the XML of the consolidated federal Acts and regulations of Canada, read each finding in the XML of both language versions and, where named on the card, in the Canada Gazette or the annual statutes; a second AI reading and the coordinator of the checks decided each finding."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-10T19:20:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-07",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-09",
+          "event": "reported",
+          "text": "Reported to Standing Joint Committee for the Scrutiny of Regulations (e-mail)"
+        },
+        {
+          "date": "2026-11-09",
+          "event": "reported",
+          "text": "Reported to Natural Resources Canada (e-mail)"
+        },
+        {
+          "date": "2026-11-10",
+          "event": "acknowledged",
+          "text": "Accepted: Natural Resources Canada"
+        },
+        {
+          "date": "2026-11-10",
+          "event": "entered",
+          "text": "Entered in the register"
+        }
+      ]
+    },
+    {
+      "id": "ARXO-2026-0978",
+      "url": "https://arxo.io/findings/ARXO-2026-0978/",
+      "record_kind": "discrepancy",
+      "class": "act_text",
+      "class_label": "Text of the act",
+      "jurisdiction": "CA",
+      "jurisdiction_detail": "federal",
+      "act": "Consolidated Acts and Regulations of Canada (Justice Laws Website)",
+      "acts": [],
+      "location": "SOR/2023-160, s. 2(2)",
+      "text": {
+        "en": {
+          "title": "Certain Russian Goods Remission Order (SOR/2023-160), s. 2(2), English: reference to paragraph (1)(b), which does not exist",
+          "summary": "Subsection 2(2) reads “in the case of goods referred to in paragraph (1)(b) that were imported before the day on which this subsection comes into force”. Subsection 2(1) has no paragraph (b). The goods meant are in paragraph 1(b), tariff item No. 8807.20.00; the French version reads “s’agissant de marchandises visées à l’alinéa 1b)”. Subsection 2(2) was added by SOR/2026-140 (Canada Gazette, Part II, Vol. 160, No. 13, July 1, 2026), and the error is in the English text as published there.",
+          "impact": "The reference in one language version leads to no provision, or to a different one than the other version. Both versions are equally authoritative; the effect on how the provision applies was not assessed.",
+          "correction": "Amend the English version of subsection 2(2) by replacing “paragraph (1)(b)” with “paragraph 1(b)”."
+        },
+        "fr": {
+          "title": "Décret de remise visant certaines marchandises de la Russie (DORS/2023-160), par. 2(2), version anglaise : renvoi à l’alinéa (1)b), qui n’existe pas",
+          "summary": "La version anglaise du paragraphe 2(2) se lit « in the case of goods referred to in paragraph (1)(b) that were imported before the day on which this subsection comes into force ». Le paragraphe 2(1) n’a pas d’alinéa b). Les marchandises visées figurent à l’alinéa 1b) (nº tarifaire 8807.20.00), comme le dit la version française : « s’agissant de marchandises visées à l’alinéa 1b) ». Le paragraphe 2(2) a été ajouté par le DORS/2026-140, Gazette du Canada, Partie II, vol. 160, nº 13 (1er juillet 2026), et l’erreur figure dans le texte anglais publié."
+        }
+      },
+      "status": {
+        "badge": "reported",
+        "label": {
+          "en": "Reported",
+          "ru": "Сообщено"
+        },
+        "conclusion": "confirmed",
+        "official_text": "unchanged",
+        "addressee": "none",
+        "last_checked": "2026-11-05",
+        "fixed_on": null,
+        "correction_type": null,
+        "under_review": false
+      },
+      "origin": "The amending act",
+      "evidence": {
+        "method": "Pair of quotations",
+        "quotes": [
+          {
+            "location": "CA-T00001-en",
+            "source": "Certain Russian Goods Remission Order (SOR/2023-160), English version, XML on the Justice Laws Website",
+            "role": "Consolidation",
+            "language": "en",
+            "edition": null,
+            "locator": "subsection 2(2) of the Certain Russian Goods Remission Order, English XML (eng/SOR-2023-160)",
+            "text": "goods referred to in paragraph (1)(b)",
+            "translations": {},
+            "url": "https://laws-lois.justice.gc.ca/eng/XML/SOR-2023-160.xml",
+            "sha256": "29a2f3b2955d547da947e2acf036a4490f4a22f29e72b0ee8409b655e91671a1",
+            "retrieved": "2026-11-07",
+            "copy": "sources/dffabd1e938d6c27-xml-site-eng-sor-2023-160.txt",
+            "copy_sha256": "dffabd1e938d6c270d5711f64d312e084ebc350050912ccefc70571a24628cb6",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-T00001-fr",
+            "source": "Décret de remise visant certaines marchandises de la Russie, French version, consolidated XML (fra/reglements/DORS-2023-160.xml)",
+            "role": "Consolidation",
+            "language": "fr",
+            "edition": "consolidated version, point-in-time date 2030-07-08",
+            "locator": "subsection 2(2) of the Certain Russian Goods Remission Order, French XML (fra/DORS-2023-160)",
+            "text": "marchandises visées à l’alinéa 1b)",
+            "translations": {},
+            "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2023-160.xml",
+            "sha256": "03040441d2a6a1c005c58f0b08a0cbe06a5cc9f58484e9c20f8132a636e82d5c",
+            "retrieved": "2026-11-05",
+            "copy": "sources/9b6ce1f02002c63b-xml-fra-reglements-dors-2023-160-xml.txt",
+            "copy_sha256": "9b6ce1f02002c63bf0069c9ab335a84227d6787f560f52f0d7621a37085df8db",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-T00001-g2-356-en",
+            "source": "Canada Gazette, Part II, Vol. 160, No. 13 (July 1, 2026), PDF",
+            "role": "Amending act",
+            "language": "fr",
+            "edition": null,
+            "locator": "SOR/2026-140, section 2, Canada Gazette, Part II, Vol. 160, No. 13, PDF page 356",
+            "text": "goods referred to in paragraph (1)(b)",
+            "translations": {},
+            "url": "https://gazette.gc.ca/rp-pr/p2/2026/2026-07-01/pdf/g2-16013.pdf",
+            "sha256": "e6c6f0d9074677516bdcd3bcbddf71214e76f154d847a9ea6826b9ae8d98b5a4",
+            "retrieved": "2026-11-07",
+            "copy": "sources/2f80c0976dee3090-pdf-g2-16013-pdf.txt",
+            "copy_sha256": "2f80c0976dee309055b3a8e010d2938dc97ad1927f294e07e6d2e719427bcad4",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          },
+          {
+            "location": "CA-T00001-g2-356-fr",
+            "source": "Canada Gazette, Part II, Vol. 160, No. 13 (July 1, 2026), PDF",
+            "role": "Amending act",
+            "language": "fr",
+            "edition": null,
+            "locator": "SOR/2026-140, section 2, Canada Gazette, Part II, Vol. 160, No. 13, PDF page 356",
+            "text": "marchandises visées à l’alinéa 1b)",
+            "translations": {},
+            "url": "https://gazette.gc.ca/rp-pr/p2/2026/2026-07-01/pdf/g2-16013.pdf",
+            "sha256": "e6c6f0d9074677516bdcd3bcbddf71214e76f154d847a9ea6826b9ae8d98b5a4",
+            "retrieved": "2026-11-07",
+            "copy": "sources/2f80c0976dee3090-pdf-g2-16013-pdf.txt",
+            "copy_sha256": "2f80c0976dee309055b3a8e010d2938dc97ad1927f294e07e6d2e719427bcad4",
+            "copy_kind": "text extracted from the official source, as used to check the quotation"
+          }
+        ]
+      },
+      "impact_shown": false,
+      "notified": [
+        {
+          "date": "2026-11-09T20:01:33Z",
+          "institution": "Standing Joint Committee for the Scrutiny of Regulations",
+          "channel": "email",
+          "role": "reviews regulations made by the Government of Canada"
+        },
+        {
+          "date": "2026-11-09T20:01:51Z",
+          "institution": "Department of Finance Canada",
+          "channel": "email",
+          "role": "department responsible for the Certain Russian Goods Remission Order (trade and tariff policy)"
+        }
+      ],
+      "responsible": [
+        {
+          "institution": "Department of Finance Canada",
+          "role": "department responsible for the Certain Russian Goods Remission Order (trade and tariff policy)"
+        },
+        {
+          "institution": "Standing Joint Committee for the Scrutiny of Regulations",
+          "role": "reviews regulations made by the Government of Canada"
+        }
+      ],
+      "responses": [],
+      "approval": "2026-11-10",
+      "ai_role": {
+        "en": "AI agents wrote and ran checks over the XML of the consolidated federal Acts and regulations of Canada, read each finding in the XML of both language versions and, where named on the card, in the Canada Gazette or the annual statutes; a second AI reading and the coordinator of the checks decided each finding."
+      },
+      "credit": [],
+      "press_date": null,
+      "earlier_publications": [],
+      "reproduction": [],
+      "sources": [],
+      "related": [],
+      "first_published": "2026-11-10T19:20:00+00:00",
+      "history": [
+        {
+          "date": "2026-11-07",
+          "event": "confirmed",
+          "text": "Confirmed by Arxo"
+        },
+        {
+          "date": "2026-11-09",
+          "event": "reported",
+          "text": "Reported to Standing Joint Committee for the Scrutiny of Regulations (e-mail)"
+        },
+        {
+          "date": "2026-11-09",
+          "event": "reported",
+          "text": "Reported to Department of Finance Canada (e-mail)"
         },
         {
           "date": "2026-11-10",

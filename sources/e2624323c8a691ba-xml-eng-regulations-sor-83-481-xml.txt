@@ -1,0 +1,7 @@
+Excerpts of Letter Definition Regulations, English version, consolidated XML (eng/regulations/SOR-83-481.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-83-481.xml
+sha256 of the source file: 7f1edeb2fd9fb05cbbc22cc0307dfb4af98b15cfb8c96a73bea2413f755dc68b
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Letter Definition Regulations — section 2 (English)
+by electronic or optical means;(g)a newspaper, magazine, book, catalogue, blank form, manuscript or musical score;(h)an invoice or other document relating to(i)an item in paragraph (g),(ii)a specimen for medical or scientific analysis, or(iii)goodswhen delivered therewith by the individual delivering such item, specimen or goods;(i)an invoice or other document relating to the supply of goods or services that is delivered by(i)the supplier to the recipient at the supplier’s normal business address,(ii)the recipient at(A)a financial institution indicated by the supplier, or(B)the supplier’s normal business address, or(iii)the individual who performed the services;(j)an invoice or other document prepared for delivery to an addressee from information obtained at the location of such

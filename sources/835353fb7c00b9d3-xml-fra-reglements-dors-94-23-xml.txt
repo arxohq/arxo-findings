@@ -1,0 +1,7 @@
+Excerpts of Règlement sur la détermination, aux fins de marquage, du pays d’origine des marchandises (pays ACEUM), French version, consolidated XML (fra/reglements/DORS-94-23.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-94-23.xml
+sha256 of the source file: 6139ae7f71607d037fa8b4e83dcdb245b999534fba33d8a92535149a8df56189
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Règlement sur la détermination, aux fins de marquage, du pays d’origine des marchandises (pays ACEUM) — paragraph 2(2)(b) (French)
+b)les facteurs à prendre en compte sont les suivants :(i)la nature de chacune des matières, tels son volume, son poids et sa valeur,(ii)sa quantité,(ii)sa fonction quant à l’utilisation des marchandises.

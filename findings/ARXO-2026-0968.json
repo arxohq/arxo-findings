@@ -1,0 +1,136 @@
+{
+  "id": "ARXO-2026-0968",
+  "url": "https://arxo.io/findings/ARXO-2026-0968/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "CA",
+  "jurisdiction_detail": "federal",
+  "act": "Consolidated Acts and Regulations of Canada (Justice Laws Website)",
+  "acts": [],
+  "location": "S.C. 2015, c. 20, s. 2",
+  "text": {
+    "en": {
+      "title": "Security of Canada Information Disclosure Act, s. 2(1), definition “activity that undermines the security of Canada”, paragraph (g): amendment not applied in the French version",
+      "summary": "The English version refers to “section 2 of the Communications Security Establishment Act”. The French version still reads “au sens de l’article 273.61 de la Loi sur la défense nationale”. Section 89 of S.C. 2019, c. 13 replaced paragraph (g) in both languages; it came into force on August 1, 2019 under SI/2019-70, after subsection 115(3) of the same Act, which came into force on June 21, 2019. The consolidated French version does not show the replacement.",
+      "impact": "A reader of the French consolidated version reads a reference to a provision of the National Defence Act that the amending Act replaced. The enacted text, which prevails, is not affected. No effect on a decision has been established.",
+      "correction": "Bring the French consolidated version into line with section 89 of S.C. 2019, c. 13."
+    },
+    "fr": {
+      "title": "Loi sur la communication d’information ayant trait à la sécurité du Canada, par. 2(1), al. g) de la définition de « activité portant atteinte à la sécurité du Canada » : modification non intégrée dans la version française",
+      "summary": "La version anglaise renvoie à « section 2 of the Communications Security Establishment Act ». La version française se lit toujours : « au sens de l’article 273.61 de la Loi sur la défense nationale ». L’article 89 de L.C. 2019, ch. 13 a remplacé l’alinéa g) dans les deux langues; il est entré en vigueur le 1er août 2019 en vertu du TR/2019-70, après le paragraphe 115(3), entré en vigueur le 21 juin 2019. La version française codifiée ne montre pas ce remplacement."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-05",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The consolidated text",
+  "evidence": {
+    "method": "Traced through the amending instruction",
+    "quotes": [
+      {
+        "location": "CA-L00132-en",
+        "source": "Security of Canada Information Disclosure Act, English version, consolidated XML (eng/acts/S-6.9.xml)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "consolidated version, point-in-time date 2023-12-04",
+        "locator": "paragraph (g) of the definition in subsection 2(1) of the Security of Canada Information Disclosure Act, English XML (eng/S-6.9)",
+        "text": "as defined in section 2 of the Communications Security Establishment Act",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/S-6.9.xml",
+        "sha256": "b563f2480264b00014e12056f7460804bc905f116c76c8bb690c5dfb2b405130",
+        "retrieved": "2026-11-05",
+        "copy": "sources/1390e5eadf2d2eda-xml-eng-acts-s-6-9-xml.txt",
+        "copy_sha256": "1390e5eadf2d2eda3e1262e11a75b7de86d9e001230d31a6330f01f2b0266cd5",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CA-L00132-fr",
+        "source": "Security of Canada Information Disclosure Act, French version, consolidated XML (fra/lois/S-6.9.xml)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version, point-in-time date 2023-12-04",
+        "locator": "paragraph (g) of the definition in subsection 2(1) of the Security of Canada Information Disclosure Act, French XML (fra/S-6.9)",
+        "text": "au sens de l’article 273.61 de la Loi sur la défense nationale",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/S-6.9.xml",
+        "sha256": "62a4adcee82083aaf1f1288ff1fea8902128c1b856dbd7cfb14ae695fc1482cf",
+        "retrieved": "2026-11-05",
+        "copy": "sources/0abb702b0d5a134c-xml-fra-lois-s-6-9-xml.txt",
+        "copy_sha256": "0abb702b0d5a134cc54bb47425dcf4460b0996a0e12a4d2fcaf3dc8ba746ba0d",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CA-L00132-g3-627",
+        "source": "Canada Gazette, Part III, Vol. 42, No. 1 (2019), PDF",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": null,
+        "locator": "Canada Gazette, Part III, Vol. 42, No. 1 (2019), PDF, PDF page 627",
+        "text": "tion 2 of the Communications Security Establishment",
+        "translations": {},
+        "url": "https://gazette.gc.ca/rp-pr/p3/2019/g3-04201.pdf",
+        "sha256": "b0aa72769ea40bddf71d6e90c3470c4ebb858f7afba3703c98617bc1b2723188",
+        "retrieved": "2026-11-07",
+        "copy": "sources/17718475f1a987cf-pdf-g3-04201-pdf.txt",
+        "copy_sha256": "17718475f1a987cf3ca1f7ab2957128db1afce969efcc5bb425d4f28d0a39d1c",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09T20:01:17Z",
+      "institution": "Department of Justice Canada, Justice Laws Website",
+      "channel": "email",
+      "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Justice Canada, Justice Laws Website",
+      "role": "publishes the consolidated Acts and regulations of Canada and their XML"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran checks over the XML of the consolidated federal Acts and regulations of Canada, read each finding in the XML of both language versions and, where named on the card, in the Canada Gazette or the annual statutes; a second AI reading and the coordinator of the checks decided each finding."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T19:20:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-07",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Justice Canada, Justice Laws Website (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

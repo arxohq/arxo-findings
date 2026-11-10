@@ -1,0 +1,7 @@
+Excerpts of Precursor Control Regulations (DORS-2002-359), French version, consolidated XML (fra/reglements/DORS-2002-359.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2002-359.xml
+sha256 of the source file: b021d2618b694ec9cb4e7b98b017c28014c99e156eca967d043f48166f5f3002
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Precursor Control Regulations — s. 85 (French)
+conservent les rapports visés à l’article 86 durant une période d’au moins deux ans après la date à laquelle ils sont fournis au ministre;

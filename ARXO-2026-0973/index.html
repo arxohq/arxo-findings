@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARXO-2026-0973: Justice Laws: historical notes differ between the English and French versions in 8 places</title>
+<meta name="description" content="In 8 places of the consolidation, the historical note of a section names an amending provision in one language version only, or in a different series: Canadian Commercial Corporation Act, s. 13, and Canada Council for the Arts Act, s. 20: “1976-77, ch. 34, art. 30” only in French; Energy Administrat">
+<link rel="canonical" href="https://arxo.io/findings/ARXO-2026-0973/">
+<link rel="alternate" type="application/atom+xml" title="Arxo Findings Register" href="../feed.atom">
+<style>
+@font-face{font-family:"IBM Plex Sans";font-style:normal;font-weight:100 700;font-display:swap;src:url("/fonts/ibm-plex-sans-latin-wght-normal.woff2") format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:400;font-display:swap;src:url("/fonts/ibm-plex-mono-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"IBM Plex Serif";font-style:normal;font-weight:400;font-display:swap;src:url("/fonts/ibm-plex-serif-latin-400-normal.woff2") format("woff2")}
+:root{color-scheme:light;--bg:#ffffff;--paper:#ffffff;--wash:#f5f5f5;--ink:#111111;--soft:#3d3d3d;--muted:#737373;--line:#ebebeb;--rule:#dcdcdc;
+--accent:#111111;--pencil:#c2412d;--reported:#737373;--accepted:#111111;--disagrees:#3d3d3d;--note:#111111;--corrected:#111111;--withdrawn:#c2412d;
+--code:#f5f5f5;--mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+--serif:"IBM Plex Serif","Iowan Old Style",Georgia,serif;
+--sans:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+::selection{background:#fbe3de}
+a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:.24em;text-decoration-color:var(--rule)}a:hover{text-decoration-color:currentColor}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header.site{border-bottom:1px solid var(--line);background:var(--paper)}
+header.site .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;justify-content:space-between;padding-top:18px;padding-bottom:16px}
+.brand{font:500 15px/1.2 var(--sans);letter-spacing:-.01em;text-decoration:none;color:var(--ink)}
+.brand span{color:var(--muted);font-weight:400}
+nav.site a{margin-right:18px;font-size:14px;color:var(--muted);text-decoration:none}nav.site a:hover{color:var(--ink)}
+h1,h2,h3{font-family:var(--sans);font-weight:350;line-height:1.15;letter-spacing:-.03em;margin:1.6em 0 .5em}
+h1{font-size:clamp(34px,5vw,56px);font-weight:300;letter-spacing:-.04em;margin-top:1em}
+h2{font-size:24px;border-bottom:1px solid var(--line);padding-bottom:8px}
+h3{font-size:18px;font-weight:450;letter-spacing:-.01em}
+p.lede{font-size:18px;color:var(--soft);max-width:760px;margin-top:0}
+.rule{background:var(--paper);border-left:1px dashed var(--pencil);padding:2px 0 2px 18px;margin:24px 0;max-width:820px;color:var(--soft)}
+.mono,code{font-family:var(--mono);font-size:.9em}
+code{background:var(--code);padding:1px 4px;border-radius:3px;word-break:break-all}
+.badge{display:inline-flex;align-items:center;gap:7px;font:450 13px/1 var(--sans);white-space:nowrap}
+.badge::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;flex:none}
+.b-reported{color:var(--reported)}.b-accepted{color:var(--accepted)}.b-disagrees{color:var(--disagrees)}
+.b-note_added{color:var(--note)}.b-corrected,.b-corrected_before_report{color:var(--corrected)}.b-withdrawn{color:var(--withdrawn)}
+.b-accepted,.b-note_added,.b-corrected,.b-corrected_before_report{font-weight:560}
+.filters{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0 10px}
+.filters label{display:flex;flex-direction:column;font-size:12px;color:var(--muted);gap:4px}
+.filters select,.filters input{font:14px var(--sans);padding:7px 12px;border:1px solid var(--rule);border-radius:999px;background:var(--paper);color:var(--ink);min-width:150px}
+.filters input{min-width:220px}
+.count{font-size:13px;color:var(--muted);margin:8px 0 12px}
+.ledger{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink)}
+.ledger li{display:grid;grid-template-columns:130px 1fr 200px;gap:4px 20px;padding:14px 4px;border-bottom:1px solid var(--line)}
+.ledger li:hover{background:var(--wash)}
+.ledger li[hidden]{display:none}
+.ledger .id{font-family:var(--mono);font-size:13px}.ledger .id a{text-decoration:none;color:var(--muted)}
+.ledger .what a{color:var(--ink);text-decoration:none;font-weight:450}.ledger .what a:hover{text-decoration:underline;text-decoration-color:var(--rule)}
+.ledger .meta{font-size:13px;color:var(--muted);margin-top:3px}
+.ledger .st{text-align:right}.ledger .st .when{display:block;font-size:12px;color:var(--muted);margin-top:5px}
+@media (max-width:720px){.ledger li{grid-template-columns:1fr}.ledger .st{text-align:left}}
+table.grid{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0}
+table.grid th,table.grid td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+table.grid th{font-weight:450;color:var(--muted);font-size:12px}
+.scroll{overflow-x:auto}
+dl.facts{display:grid;grid-template-columns:170px 1fr;gap:8px 18px;margin:14px 0;font-size:15px}
+dl.facts dt{color:var(--muted)}dl.facts dd{margin:0}
+@media (max-width:600px){dl.facts{grid-template-columns:1fr}dl.facts dt{margin-top:6px}}
+blockquote.q{margin:14px 0;padding:4px 0 4px 20px;border-left:1px dashed var(--pencil);font-family:var(--serif);font-size:19px;line-height:1.45}
+.qmeta{font-size:13px;color:var(--muted);margin:6px 0 18px;overflow-wrap:anywhere}
+.tr{font-size:14px;color:var(--muted);margin:6px 0 0;font-family:var(--sans)}
+ol.history{list-style:none;padding:0;margin:10px 0;border-left:1px solid var(--line)}
+ol.history li{padding:4px 0 10px 16px;position:relative;font-size:15px}
+ol.history li::before{content:"";position:absolute;left:-3px;top:12px;width:5px;height:5px;border-radius:50%;background:var(--muted)}
+ol.history .d{font-family:var(--mono);font-size:13px;color:var(--muted);margin-right:8px}
+.alt{border-top:1px dashed var(--rule);margin-top:28px;padding-top:4px}
+.headline .id{font-family:var(--mono);color:var(--muted);font-size:14px}
+footer.site{margin:56px 0 0;border-top:1px solid var(--line);padding:20px 0 44px;font-size:13px;color:var(--muted)}
+.empty{padding:20px 4px;color:var(--muted)}
+</style>
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "Report",
+ "identifier": "ARXO-2026-0973",
+ "url": "https://arxo.io/findings/ARXO-2026-0973/",
+ "headline": "Justice Laws: historical notes differ between the English and French versions in 8 places",
+ "name": "Justice Laws: historical notes differ between the English and French versions in 8 places",
+ "description": "In 8 places of the consolidation, the historical note of a section names an amending provision in one language version only, or in a different series: Canadian Commercial Corporation Act, s. 13, and Canada Council for the Arts Act, s. 20: “1976-77, ch. 34, art. 30” only in French; Energy Administration Act, s. 81: “1976-77, ch. 28, art. 49” only in French; Fisheries Improvement Loans Act, s. 5: “1980-81-82-83, ch. 154, art. 2” only in French; Safe Containers Convention Act, s. 8: “1984, ch. 40, art. 79” only in French; Foreign Enlistment Act, s. 13: “R.S., c. 10(2nd Supp.), s. 64” only in English; Perfluorinated Ion-Exchange Membranes Remission Order, s. 2: English “SOR/87-240, s. 1”, French “TR/87-240, art. 1”; Cruiser Remission Order, s. 7: English “SOR/85-113, s. 1”, French “TR/85-113, art. 1”. The consolidation does not show which version is right; this card does not decide it.",
+ "inLanguage": "en",
+ "about": [
+  {
+   "@type": "Legislation",
+   "name": "Consolidated Acts and Regulations of Canada (Justice Laws Website)",
+   "legislationJurisdiction": "CA"
+  }
+ ],
+ "citation": [
+  {
+   "@type": "MediaObject",
+   "name": "Canadian Commercial Corporation Act, English version, consolidated XML (eng/acts/C-14.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/C-14.xml",
+   "sha256": "e04a404b1cd55b39c87c012b2104421bca48668fd4861f9b7cae3dbcd7099845"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Canadian Commercial Corporation Act (C-14), French version, consolidated XML (fra/lois/C-14.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/C-14.xml",
+   "sha256": "5262f542eca351345b29854638293426903ccaefc7ef2f261c4d08547a2fabd0"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Canada Council for the Arts Act, English version, consolidated XML (eng/acts/C-2.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/C-2.xml",
+   "sha256": "1e2a76ae3ac3142ac0c45c04fa0039c9a641ba722c09f5d0ad84d8f790495db4"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Canada Council for the Arts Act (C-2), French version, consolidated XML (fra/lois/C-2.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/C-2.xml",
+   "sha256": "d5db350db5d2d8010e07ea5e1a786ed34b215ac99f09cb58d99a1f80015f20e7"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Perfluorinated Ion-Exchange Membranes Remission Order, English version, consolidated XML (eng/regulations/C.R.C.,_c._778.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/C.R.C.,_c._778.xml",
+   "sha256": "bc96e8652a0e016f52f401e1914145437952b96d25166b49025e963755d5540d"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Perfluorinated Ion-Exchange Membranes Remission Order (C.R.C.,_ch._778), French version, consolidated XML (fra/reglements/C.R.C.,_ch._778.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/C.R.C.,_ch._778.xml",
+   "sha256": "44d34f6bf80e1e1da1c2e9085c6576a47830af9e3369b69526e16c3c0e186fcd"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Energy Administration Act, English version, consolidated XML (eng/acts/E-6.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/E-6.xml",
+   "sha256": "b098352bfcfcd3b5a68ab7381070f9ba7ca89cceee45858755440afd43ce5454"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Energy Administration Act (E-6), French version, consolidated XML (fra/lois/E-6.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/E-6.xml",
+   "sha256": "a40fe0c3a43e296ccc6ed887282c851d3f7864943485301fa57015036983b133"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Fisheries Improvement Loans Act, English version, consolidated XML (eng/acts/F-22.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/F-22.xml",
+   "sha256": "3b8f4fa14c244b8657033846004eb161db8340f4573be940a4f6b487752074f1"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Fisheries Improvement Loans Act (F-22), French version, consolidated XML (fra/lois/F-22.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/F-22.xml",
+   "sha256": "10909fe27124f7e77b2d71e2f90248d375e2ace7a62ffb3ebc243d9c9997745e"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Foreign Enlistment Act, English version, consolidated XML (eng/acts/F-28.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/F-28.xml",
+   "sha256": "ad35e9369890d85438b6a28c35eddf59e24f07367b4aa4fe9c0b6092f60dfaf6"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Foreign Enlistment Act (F-28), French version, consolidated XML (fra/lois/F-28.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/F-28.xml",
+   "sha256": "92f3b5f8216a5a7134f6d4a03195bc9d0719dfdc42ff55d31e8ec3444b4e1ae9"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Safe Containers Convention Act, English version, consolidated XML (eng/acts/S-1.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/S-1.xml",
+   "sha256": "e790985282ef17dda302a7def95c3a68793ed97806f72ccd5d942cd17a845f15"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Safe Containers Convention Act (S-1), French version, consolidated XML (fra/lois/S-1.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/S-1.xml",
+   "sha256": "1f2331e826041b6b24c7879a7dfa24b85397d167e3605d338547d9553565ba97"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Cruiser Remission Order, English version, consolidated XML (eng/regulations/SI-78-57.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SI-78-57.xml",
+   "sha256": "071e956e4d0229e36099295fd46ca4229628ffe979feb63ea7a321881da23a5c"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "Cruiser Remission Order (TR-78-57), French version, consolidated XML (fra/reglements/TR-78-57.xml)",
+   "contentUrl": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/TR-78-57.xml",
+   "sha256": "5520036c810176d8da34ec781de93592d479888b7952c1cca72ffe9d9e106921"
+  }
+ ],
+ "publisher": {
+  "@type": "Organization",
+  "name": "Arxo Law",
+  "url": "https://arxo.io"
+ },
+ "isPartOf": {
+  "@type": "Dataset",
+  "name": "Arxo Findings Register",
+  "url": "https://arxo.io/findings/"
+ },
+ "dateModified": "2026-11-10",
+ "creativeWorkStatus": "Reported",
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+ "datePublished": "2026-11-10"
+}</script>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a class="brand" href="../index.html">Arxo Findings Register <span>· Arxo Law</span></a>
+<nav class="site"><a href="../index.html">Register</a><a href="../policy/index.html">Principles</a><a href="../method/index.html">Method</a><a href="../register.json">Data</a><a href="../feed.atom">Feed</a></nav>
+</div></header>
+<main class="wrap">
+
+<div class="headline"><p class="id">ARXO-2026-0973 · <span class="badge b-reported">Reported</span></p>
+<h1>Justice Laws: historical notes differ between the English and French versions in 8 places</h1></div>
+
+
+<p>In 8 places of the consolidation, the historical note of a section names an amending provision in one language version only, or in a different series: Canadian Commercial Corporation Act, s. 13, and Canada Council for the Arts Act, s. 20: “1976-77, ch. 34, art. 30” only in French; Energy Administration Act, s. 81: “1976-77, ch. 28, art. 49” only in French; Fisheries Improvement Loans Act, s. 5: “1980-81-82-83, ch. 154, art. 2” only in French; Safe Containers Convention Act, s. 8: “1984, ch. 40, art. 79” only in French; Foreign Enlistment Act, s. 13: “R.S., c. 10(2nd Supp.), s. 64” only in English; Perfluorinated Ion-Exchange Membranes Remission Order, s. 2: English “SOR/87-240, s. 1”, French “TR/87-240, art. 1”; Cruiser Remission Order, s. 7: English “SOR/85-113, s. 1”, French “TR/85-113, art. 1”. The consolidation does not show which version is right; this card does not decide it.</p><h3>Consequence</h3><p>A reader of one language version is told of an amending provision that the other version does not list. Historical notes are not part of the enactment; no effect on the law.</p><h3>Proposed correction</h3><p>The Department of Justice decides how to correct each place in the consolidation or the XML; the evidence gives the wording of each language version.</p>
+<dl class="facts"><dt>Jurisdiction</dt><dd>Canada — federal</dd><dt>Act</dt><dd>Consolidated Acts and Regulations of Canada (Justice Laws Website)</dd><dt>Place</dt><dd>Consolidated Acts and Regulations of Canada</dd><dt>Record</dt><dd>Discrepancy</dd><dt>Class</dt><dd>Publication and consolidation</dd><dt>Where it arose</dt><dd>The consolidated text</dd><dt>Arxo&#x27;s conclusion</dt><dd>Confirmed</dd><dt>Official text</dt><dd>Unchanged at last check</dd><dt>Last checked</dt><dd>2026-11-05</dd></dl>
+<h2>Evidence</h2>
+<p>Pair of quotations. Quotations are verbatim from the official material; translations are ours and marked.</p>
+<blockquote class="q" lang="en">R.S., c. C-6, s. 8; 1984, c. 31, s. 14</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/C-14.xml">Canadian Commercial Corporation Act, English version, consolidated XML (eng/acts/C-14.xml)</a> · s. 13 of Canadian Commercial Corporation Act, English XML (eng/C-14) · consolidated version, point-in-time date 2006-12-12 · retrieved 2026-11-05 · SHA-256 <code>e04a404b1cd55b39c87c012b2104421bca48668fd4861f9b7cae3dbcd7099845</code> · <a href="../sources/82da22d73ecc9e37-xml-eng-acts-c-14-xml.txt">copy</a></div><blockquote class="q" lang="fr">S.R., ch. C-6, art. 8; 1976-77, ch. 34, art. 30; 1984, ch. 31, art. 14</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/C-14.xml">Canadian Commercial Corporation Act (C-14), French version, consolidated XML (fra/lois/C-14.xml)</a> · s. 13 of Canadian Commercial Corporation Act, French XML (fra/C-14) · retrieved 2026-11-05 · SHA-256 <code>5262f542eca351345b29854638293426903ccaefc7ef2f261c4d08547a2fabd0</code> · <a href="../sources/d70844130279cec5-xml-fra-lois-c-14-xml.txt">copy</a></div><blockquote class="q" lang="en">R.S., c. C-2, s. 22</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/C-2.xml">Canada Council for the Arts Act, English version, consolidated XML (eng/acts/C-2.xml)</a> · s. 20 of Canada Council for the Arts Act, English XML (eng/C-2) · consolidated version, point-in-time date 2009-03-12 · retrieved 2026-11-05 · SHA-256 <code>1e2a76ae3ac3142ac0c45c04fa0039c9a641ba722c09f5d0ad84d8f790495db4</code> · <a href="../sources/98739dc2d2960dd2-xml-eng-acts-c-2-xml.txt">copy</a></div><blockquote class="q" lang="fr">S.R., ch. C-2, art. 22; 1976-77, ch. 34, art. 30</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/C-2.xml">Canada Council for the Arts Act (C-2), French version, consolidated XML (fra/lois/C-2.xml)</a> · s. 20 of Canada Council for the Arts Act, French XML (fra/C-2) · retrieved 2026-11-05 · SHA-256 <code>d5db350db5d2d8010e07ea5e1a786ed34b215ac99f09cb58d99a1f80015f20e7</code> · <a href="../sources/ff1cd75de26d6f88-xml-fra-lois-c-2-xml.txt">copy</a></div><blockquote class="q" lang="en">SI/79-13, s. 1; SI/82-39, s. 1; SI/83-138, s. 1; SOR/87-240, s. 1</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/C.R.C.,_c._778.xml">Perfluorinated Ion-Exchange Membranes Remission Order, English version, consolidated XML (eng/regulations/C.R.C.,_c._778.xml)</a> · s. 2 of Perfluorinated Ion-Exchange Membranes Remission Order, English XML (eng/C.R.C.,_c._778) · consolidated version, point-in-time date 2006-03-22 · retrieved 2026-11-05 · SHA-256 <code>bc96e8652a0e016f52f401e1914145437952b96d25166b49025e963755d5540d</code> · <a href="../sources/878525712b59a657-xml-eng-regulations-c-r-c-c-778-xml.txt">copy</a></div><blockquote class="q" lang="fr">TR/79-13, art. 1; TR/82-39, art. 1; TR/83-138, art. 1; TR/87-240, art. 1</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/C.R.C.,_ch._778.xml">Perfluorinated Ion-Exchange Membranes Remission Order (C.R.C.,_ch._778), French version, consolidated XML (fra/reglements/C.R.C.,_ch._778.xml)</a> · s. 2 of Perfluorinated Ion-Exchange Membranes Remission Order, French XML (fra/C.R.C.,_ch._778) · retrieved 2026-11-05 · SHA-256 <code>44d34f6bf80e1e1da1c2e9085c6576a47830af9e3369b69526e16c3c0e186fcd</code> · <a href="../sources/20fda8dbbf80ca52-xml-fra-reglements-c-r-c-ch-778-xml.txt">copy</a></div><blockquote class="q" lang="en">1974-75-76, c. 47, s. 72; 1977-78, c. 24, s. 2; 1980-81-82-83, c. 114, s. 42</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/E-6.xml">Energy Administration Act, English version, consolidated XML (eng/acts/E-6.xml)</a> · s. 81 of Energy Administration Act, English XML (eng/E-6) · consolidated version, point-in-time date 2019-08-28 · retrieved 2026-11-05 · SHA-256 <code>b098352bfcfcd3b5a68ab7381070f9ba7ca89cceee45858755440afd43ce5454</code> · <a href="../sources/47a9cabe22bf5f16-xml-eng-acts-e-6-xml.txt">copy</a></div><blockquote class="q" lang="fr">1974-75-76, ch. 47, art. 72; 1976-77, ch. 28, art. 49; 1977-78, ch. 24, art. 2; 1980-81-82-83, ch. 114, art. 42</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/E-6.xml">Energy Administration Act (E-6), French version, consolidated XML (fra/lois/E-6.xml)</a> · s. 81 of Energy Administration Act, French XML (fra/E-6) · retrieved 2026-11-05 · SHA-256 <code>a40fe0c3a43e296ccc6ed887282c851d3f7864943485301fa57015036983b133</code> · <a href="../sources/ce01c2fff34814e7-xml-fra-lois-e-6-xml.txt">copy</a></div><blockquote class="q" lang="en">R.S., c. F-22, s. 4</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/F-22.xml">Fisheries Improvement Loans Act, English version, consolidated XML (eng/acts/F-22.xml)</a> · s. 5 of Fisheries Improvement Loans Act, English XML (eng/F-22) · consolidated version, point-in-time date 2002-12-31 · retrieved 2026-11-05 · SHA-256 <code>3b8f4fa14c244b8657033846004eb161db8340f4573be940a4f6b487752074f1</code> · <a href="../sources/373a048c34cf99e3-xml-eng-acts-f-22-xml.txt">copy</a></div><blockquote class="q" lang="fr">S.R., ch. F-22, art. 4; 1980-81-82-83, ch. 154, art. 2</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/F-22.xml">Fisheries Improvement Loans Act (F-22), French version, consolidated XML (fra/lois/F-22.xml)</a> · s. 5 of Fisheries Improvement Loans Act, French XML (fra/F-22) · retrieved 2026-11-05 · SHA-256 <code>10909fe27124f7e77b2d71e2f90248d375e2ace7a62ffb3ebc243d9c9997745e</code> · <a href="../sources/9ca5a5c0753abbc9-xml-fra-lois-f-22-xml.txt">copy</a></div><blockquote class="q" lang="en">R.S., c. F-29, s. 13; R.S., c. 10(2nd Supp.), s. 64</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/F-28.xml">Foreign Enlistment Act, English version, consolidated XML (eng/acts/F-28.xml)</a> · s. 13 of Foreign Enlistment Act, English XML (eng/F-28) · consolidated version, point-in-time date 2002-12-31 · retrieved 2026-11-05 · SHA-256 <code>ad35e9369890d85438b6a28c35eddf59e24f07367b4aa4fe9c0b6092f60dfaf6</code> · <a href="../sources/0236a79ac293c95a-xml-eng-acts-f-28-xml.txt">copy</a></div><blockquote class="q" lang="fr">S.R., ch. F-29, art. 13</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/F-28.xml">Foreign Enlistment Act (F-28), French version, consolidated XML (fra/lois/F-28.xml)</a> · s. 13 of Foreign Enlistment Act, French XML (fra/F-28) · retrieved 2026-11-05 · SHA-256 <code>92f3b5f8216a5a7134f6d4a03195bc9d0719dfdc42ff55d31e8ec3444b4e1ae9</code> · <a href="../sources/5140a90fc3ed5c94-xml-fra-lois-f-28-xml.txt">copy</a></div><blockquote class="q" lang="en">1980-81-82-83, c. 9, s. 8</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/S-1.xml">Safe Containers Convention Act, English version, consolidated XML (eng/acts/S-1.xml)</a> · s. 8 of Safe Containers Convention Act, English XML (eng/S-1) · consolidated version, point-in-time date 2002-12-31 · retrieved 2026-11-05 · SHA-256 <code>e790985282ef17dda302a7def95c3a68793ed97806f72ccd5d942cd17a845f15</code> · <a href="../sources/07d1d5351d54aba5-xml-eng-acts-s-1-xml.txt">copy</a></div><blockquote class="q" lang="fr">1980-81-82-83, ch. 9, art. 8; 1984, ch. 40, art. 79</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/S-1.xml">Safe Containers Convention Act (S-1), French version, consolidated XML (fra/lois/S-1.xml)</a> · s. 8 of Safe Containers Convention Act, French XML (fra/S-1) · retrieved 2026-11-05 · SHA-256 <code>1f2331e826041b6b24c7879a7dfa24b85397d167e3605d338547d9553565ba97</code> · <a href="../sources/afdc81985696418b-xml-fra-lois-s-1-xml.txt">copy</a></div><blockquote class="q" lang="en">SOR/85-113, s. 1</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SI-78-57.xml">Cruiser Remission Order, English version, consolidated XML (eng/regulations/SI-78-57.xml)</a> · s. 7 of Cruiser Remission Order, English XML (eng/SI-78-57) · consolidated version, point-in-time date 2006-03-22 · retrieved 2026-11-05 · SHA-256 <code>071e956e4d0229e36099295fd46ca4229628ffe979feb63ea7a321881da23a5c</code> · <a href="../sources/6598b9c262f55b56-xml-eng-regulations-si-78-57-xml.txt">copy</a></div><blockquote class="q" lang="fr">TR/85-113, art. 1</blockquote><div class="qmeta">Consolidation · <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/TR-78-57.xml">Cruiser Remission Order (TR-78-57), French version, consolidated XML (fra/reglements/TR-78-57.xml)</a> · s. 7 of Cruiser Remission Order, French XML (fra/TR-78-57) · retrieved 2026-11-05 · SHA-256 <code>5520036c810176d8da34ec781de93592d479888b7952c1cca72ffe9d9e106921</code> · <a href="../sources/89dd32dc6446cb61-xml-fra-reglements-tr-78-57-xml.txt">copy</a></div>
+
+<h2>How to check it without Arxo's tools</h2>
+<ol><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/C-14.xml">Canadian Commercial Corporation Act, English version, consolidated XML (eng/acts/C-14.xml)</a> and find s. 13 of Canadian Commercial Corporation Act, English XML (eng/C-14). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/82da22d73ecc9e37-xml-eng-acts-c-14-xml.txt">82da22d73ecc9e37-xml-eng-acts-c-14-xml.txt</a> (SHA-256 <code>82da22d73ecc9e3738973b846682108c1825f07e9abdfdc0b8b930a213ee8f0e</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/C-14.xml">Canadian Commercial Corporation Act (C-14), French version, consolidated XML (fra/lois/C-14.xml)</a> and find s. 13 of Canadian Commercial Corporation Act, French XML (fra/C-14). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/d70844130279cec5-xml-fra-lois-c-14-xml.txt">d70844130279cec5-xml-fra-lois-c-14-xml.txt</a> (SHA-256 <code>d70844130279cec51f72d15f7ae5820c5c710cf1843690b84713cabd21c0961a</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/C-2.xml">Canada Council for the Arts Act, English version, consolidated XML (eng/acts/C-2.xml)</a> and find s. 20 of Canada Council for the Arts Act, English XML (eng/C-2). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/98739dc2d2960dd2-xml-eng-acts-c-2-xml.txt">98739dc2d2960dd2-xml-eng-acts-c-2-xml.txt</a> (SHA-256 <code>98739dc2d2960dd241b5cf2744af8c16616793ab925536481dcb8b16b7629b8f</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/C-2.xml">Canada Council for the Arts Act (C-2), French version, consolidated XML (fra/lois/C-2.xml)</a> and find s. 20 of Canada Council for the Arts Act, French XML (fra/C-2). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/ff1cd75de26d6f88-xml-fra-lois-c-2-xml.txt">ff1cd75de26d6f88-xml-fra-lois-c-2-xml.txt</a> (SHA-256 <code>ff1cd75de26d6f88ffe97402a1a1cbbc9fa193062b6efe8cee3d6cc4a4ca09ec</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/C.R.C.,_c._778.xml">Perfluorinated Ion-Exchange Membranes Remission Order, English version, consolidated XML (eng/regulations/C.R.C.,_c._778.xml)</a> and find s. 2 of Perfluorinated Ion-Exchange Membranes Remission Order, English XML (eng/C.R.C.,_c._778). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/878525712b59a657-xml-eng-regulations-c-r-c-c-778-xml.txt">878525712b59a657-xml-eng-regulations-c-r-c-c-778-xml.txt</a> (SHA-256 <code>878525712b59a65779637f6c7565c561c6c66b304450ef923b711674b01c1fb2</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/C.R.C.,_ch._778.xml">Perfluorinated Ion-Exchange Membranes Remission Order (C.R.C.,_ch._778), French version, consolidated XML (fra/reglements/C.R.C.,_ch._778.xml)</a> and find s. 2 of Perfluorinated Ion-Exchange Membranes Remission Order, French XML (fra/C.R.C.,_ch._778). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/20fda8dbbf80ca52-xml-fra-reglements-c-r-c-ch-778-xml.txt">20fda8dbbf80ca52-xml-fra-reglements-c-r-c-ch-778-xml.txt</a> (SHA-256 <code>20fda8dbbf80ca52a10a9f2a79f69db90531def80959b89d697490f72e4cccde</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/E-6.xml">Energy Administration Act, English version, consolidated XML (eng/acts/E-6.xml)</a> and find s. 81 of Energy Administration Act, English XML (eng/E-6). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/47a9cabe22bf5f16-xml-eng-acts-e-6-xml.txt">47a9cabe22bf5f16-xml-eng-acts-e-6-xml.txt</a> (SHA-256 <code>47a9cabe22bf5f168f3fcd90d8e075d624ddfe880a840d1004cc61c592dc0857</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/E-6.xml">Energy Administration Act (E-6), French version, consolidated XML (fra/lois/E-6.xml)</a> and find s. 81 of Energy Administration Act, French XML (fra/E-6). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/ce01c2fff34814e7-xml-fra-lois-e-6-xml.txt">ce01c2fff34814e7-xml-fra-lois-e-6-xml.txt</a> (SHA-256 <code>ce01c2fff34814e7419663e4030c4ecee125c215ac15d915ce8a8b55f0c9d7b0</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/F-22.xml">Fisheries Improvement Loans Act, English version, consolidated XML (eng/acts/F-22.xml)</a> and find s. 5 of Fisheries Improvement Loans Act, English XML (eng/F-22). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/373a048c34cf99e3-xml-eng-acts-f-22-xml.txt">373a048c34cf99e3-xml-eng-acts-f-22-xml.txt</a> (SHA-256 <code>373a048c34cf99e30db0e9684a46cf6aa55258ff789aeecd2538b49813d094ef</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/F-22.xml">Fisheries Improvement Loans Act (F-22), French version, consolidated XML (fra/lois/F-22.xml)</a> and find s. 5 of Fisheries Improvement Loans Act, French XML (fra/F-22). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/9ca5a5c0753abbc9-xml-fra-lois-f-22-xml.txt">9ca5a5c0753abbc9-xml-fra-lois-f-22-xml.txt</a> (SHA-256 <code>9ca5a5c0753abbc9e3bc8023ea474406791c639414bb8f004390e34b6537d691</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/F-28.xml">Foreign Enlistment Act, English version, consolidated XML (eng/acts/F-28.xml)</a> and find s. 13 of Foreign Enlistment Act, English XML (eng/F-28). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/0236a79ac293c95a-xml-eng-acts-f-28-xml.txt">0236a79ac293c95a-xml-eng-acts-f-28-xml.txt</a> (SHA-256 <code>0236a79ac293c95a5567c01c3c374a3a4a70bd70af1d4700ec190bae6239c1cf</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/F-28.xml">Foreign Enlistment Act (F-28), French version, consolidated XML (fra/lois/F-28.xml)</a> and find s. 13 of Foreign Enlistment Act, French XML (fra/F-28). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/5140a90fc3ed5c94-xml-fra-lois-f-28-xml.txt">5140a90fc3ed5c94-xml-fra-lois-f-28-xml.txt</a> (SHA-256 <code>5140a90fc3ed5c94bc3343aeb0ae155942e7e741bc17aa4ca7d62e6dc8f4edda</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/acts/S-1.xml">Safe Containers Convention Act, English version, consolidated XML (eng/acts/S-1.xml)</a> and find s. 8 of Safe Containers Convention Act, English XML (eng/S-1). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/07d1d5351d54aba5-xml-eng-acts-s-1-xml.txt">07d1d5351d54aba5-xml-eng-acts-s-1-xml.txt</a> (SHA-256 <code>07d1d5351d54aba5eac9324f88cecd29c61b546ada184420c119867e5937460e</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/S-1.xml">Safe Containers Convention Act (S-1), French version, consolidated XML (fra/lois/S-1.xml)</a> and find s. 8 of Safe Containers Convention Act, French XML (fra/S-1). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/afdc81985696418b-xml-fra-lois-s-1-xml.txt">afdc81985696418b-xml-fra-lois-s-1-xml.txt</a> (SHA-256 <code>afdc81985696418b5de0ce7e62c547b4334338e984bc8cc269f4d6ed4decfc5b</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SI-78-57.xml">Cruiser Remission Order, English version, consolidated XML (eng/regulations/SI-78-57.xml)</a> and find s. 7 of Cruiser Remission Order, English XML (eng/SI-78-57). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/6598b9c262f55b56-xml-eng-regulations-si-78-57-xml.txt">6598b9c262f55b56-xml-eng-regulations-si-78-57-xml.txt</a> (SHA-256 <code>6598b9c262f55b56c41984b0d526d7d13e837244058ebf521dc96bad0aff90b3</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/TR-78-57.xml">Cruiser Remission Order (TR-78-57), French version, consolidated XML (fra/reglements/TR-78-57.xml)</a> and find s. 7 of Cruiser Remission Order, French XML (fra/TR-78-57). Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/89dd32dc6446cb61-xml-fra-reglements-tr-78-57-xml.txt">89dd32dc6446cb61-xml-fra-reglements-tr-78-57-xml.txt</a> (SHA-256 <code>89dd32dc6446cb619dc7b81ac62d47343cb67f13bb3af075824e49e278e57894</code>, text extracted from the official source, as used to check the quotation).</li><li>The finding holds if the quoted passages read as shown and the comparison gives the result stated at the top of this page. If it does not, write to us with the record ID.</li></ol>
+<h2>How this finding was made</h2>
+<p>AI agents wrote and ran checks over the XML of the consolidated federal Acts and regulations of Canada, read each finding in the XML of both language versions and, where named on the card, in the Canada Gazette or the annual statutes; a second AI reading and the coordinator of the checks decided each finding.</p>
+
+<h2>Responsible institutions</h2><ul><li>Department of Justice Canada, Justice Laws Website — publishes the consolidated Acts and regulations of Canada and their XML</li></ul>
+<h2>Reported to</h2>
+<div class="scroll"><table class="grid"><thead><tr><th>Date</th><th>Institution</th><th>Channel</th><th>Reference</th></tr></thead><tbody><tr><td class="mono">2026-11-09</td><td>Department of Justice Canada, Justice Laws Website</td><td>e-mail</td><td class="mono"></td></tr></tbody></table></div>
+<h2>Responses</h2>
+<p>No response recorded.</p>
+
+
+<h2>History</h2>
+<ol class="history"><li><span class="d">2026-11-09</span>Confirmed by Arxo</li><li><span class="d">2026-11-09</span>Reported to Department of Justice Canada, Justice Laws Website (e-mail)</li><li><span class="d">2026-11-10</span>Entered in the register</li></ol>
+<section class="alt" lang="fr"><h2>Français</h2><h3>Lois du Canada : notes historiques différentes dans les versions anglaise et française à 8 endroits</h3><p>À 8 endroits de la codification, la note historique d’un article mentionne une disposition modificative dans une seule version linguistique ou dans une autre série, par exemple Loi sur la Corporation commerciale canadienne, art. 13 : « 1976-77, ch. 34, art. 30 » seulement dans la note française; Décret de remise sur les yachts de croisière, art. 7 : en anglais « SOR/85-113, s. 1 », en français « TR/85-113, art. 1 ». La codification ne permet pas de dire quelle version est la bonne; cette fiche ne le tranche pas.</p></section>
+<h2>Cite this record</h2>
+<p>Arxo Law, Arxo Findings Register, ARXO-2026-0973, https://arxo.io/findings/ARXO-2026-0973/ (status as of 2026-11-05). Data: <a href="../findings/ARXO-2026-0973.json">ARXO-2026-0973.json</a>.</p>
+
+</main>
+<footer class="site"><div class="wrap">
+Published by Arxo Law. Data under CC BY 4.0: <a href="../register.json">register.json</a> · <a href="../findings.csv">findings.csv</a> · <a href="../SHA256SUMS">SHA256SUMS</a>.
+Objections, reports of our own mistakes and requests for verification: <a href="mailto:hi@arxo.io">hi@arxo.io</a> — give the record ID, the conclusion you dispute and your source. We acknowledge receipt within five working days and answer on the merits within ten.
+<a href="../policy/index.html">Responsible Disclosure of Defects in Law</a>. Arxo executes the canon.
+</div></footer>
+</body>
+</html>

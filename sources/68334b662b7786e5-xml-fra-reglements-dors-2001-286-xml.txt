@@ -1,0 +1,7 @@
+Excerpts of Règlement sur le transport des marchandises dangereuses, French version, consolidated XML (fra/reglements/DORS-2001-286.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2001-286.xml
+sha256 of the source file: 830d9b6bafd483af773a4c7f8e75e0e2ed5ae45aab2e0e2c8b76adb3fbe8eb42
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+5.10 Règlement sur le transport des marchandises dangereuses — paragraph 5.10(1)(d) (French)
+bâtiment :(i)la norme CGSB-43.123, si le gaz est inclus dans la classe 2.1, Gaz inflammables ou la classe 2.2, Gaz ininflammables, non toxiques,(ii)la norme CGSB-43.147,(ii.1)la norme CGSB-43.149,(iii)la norme CSA B340,(iv)la norme CSA B342,(v)la norme CSA B622,(iv)la norme CSA B625.(2)[Abrogé, DORS/2023-155, art. 42](3)[Abrogé, DORS/2023-155, art. 42](4)[Abrogé, DORS/2023-155, art. 42](5)[Abrogé, DORS/2023-155, art. 42](6)Pour l’application du présent article, les exigences ci-après s’appliquent à l’égard d’un rapport de

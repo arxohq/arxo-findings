@@ -1,0 +1,7 @@
+Excerpts of Code canadien du travail, French version, consolidated XML (fra/lois/L-2.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/L-2.xml
+sha256 of the source file: b04ef53939a7fc35ab7d0537db5126b0e036ad1da3108596fe81ae58cad08750
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+47.1 Code canadien du travail — s. 47.1 (French)
+négociation collective en vue de la conclusion d’une convention collective;e)la présente partie, à l’exception de l’article 80, s’applique à l’avis prévu à l’alinéa d). 1996, ch. 18, art. 9; 1998, ch. 26, art. 23(F); 2003, ch. 22, art. 109 et 223(E); 2017, ch. 9, art. 55

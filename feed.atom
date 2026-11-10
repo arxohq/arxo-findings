@@ -5,9 +5,119 @@
   <link rel="alternate" href="https://arxo.io/findings/"/>
   <link rel="self" href="https://arxo.io/findings/feed.atom"/>
   <id>https://arxo.io/findings/</id>
-  <updated>2026-11-10T15:45:00+00:00</updated>
+  <updated>2026-11-10T19:20:00+00:00</updated>
   <author><name>Arxo Law</name></author>
   <rights>Data: CC BY 4.0, Arxo Law</rights>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0978/</id>
+    <title>ARXO-2026-0978 — Certain Russian Goods Remission Order (SOR/2023-160), s. 2(2), English: reference to paragraph (1)(b), which does not exist</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0978/"/>
+    <published>2026-11-10T00:00:00Z</published>
+    <updated>2026-11-10T00:00:00Z</updated>
+    <category term="CA"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. Subsection 2(2) reads “in the case of goods referred to in paragraph (1)(b) that were imported before the day on which this subsection comes into force”. Subsection 2(1) has no paragraph (b). The goods meant are in paragraph 1(b), tariff item No. 8807.20.00; the French version reads “s’agissant de marchandises visées à l’alinéa 1b)”. Subsection 2(2) was added by SOR/2026-140 (Canada Gazette, Part II, Vol. 160, No. 13, July 1, 2026), and the error is in the English text as published there.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0977/</id>
+    <title>ARXO-2026-0977 — SOR/2024-26 (Canada–Nova Scotia Offshore Area Petroleum Operations Framework Regulations): two French references to paragraphs that do not exist</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0977/"/>
+    <published>2026-11-10T00:00:00Z</published>
+    <updated>2026-11-10T00:00:00Z</updated>
+    <category term="CA"/>
+    <category term="accepted" label="Accepted by the addressee"/>
+    <summary>Accepted by the addressee. Subparagraph 31(3)(a)(i): English “the requirements referred to in paragraph 28(1)(b) are met”, French “les conditions prévues à l’alinéa 26(1)b) sont remplies”. Subparagraph 36(1)(a)(ii): English “the requirements referred to in paragraph 28(1)(b) are no longer being met”, French “l’une ou l’autre des conditions prévues à l’alinéa 27(1)b) n’est plus remplie”. Sections 26 and 27 have no subsections and no paragraph (b). The errors are in the regulations as published in the Canada Gazette, Part II, Vol. 158, No. 5 (February 28, 2024), and in the consolidated XML.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0976/</id>
+    <title>ARXO-2026-0976 — SOR/2024-25 (Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations): two French references to paragraphs that do not exist</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0976/"/>
+    <published>2026-11-10T00:00:00Z</published>
+    <updated>2026-11-10T00:00:00Z</updated>
+    <category term="CA"/>
+    <category term="accepted" label="Accepted by the addressee"/>
+    <summary>Accepted by the addressee. Subparagraph 31(3)(a)(i): English “the requirements referred to in paragraph 28(1)(b) are met”, French “les conditions prévues à l’alinéa 26(1)b) sont remplies”. Subparagraph 36(1)(a)(ii): English “the requirements referred to in paragraph 28(1)(b) are no longer being met”, French “l’une ou l’autre des conditions prévues à l’alinéa 27(1)b) n’est plus remplie”. Sections 26 and 27 have no subsections and no paragraph (b). The errors are in the regulations as published in the Canada Gazette, Part II, Vol. 158, No. 5 (February 28, 2024), and in the consolidated XML.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0975/</id>
+    <title>ARXO-2026-0975 — Justice Laws: typing errors in 42 citations in historical notes</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0975/"/>
+    <published>2026-11-10T00:00:00Z</published>
+    <updated>2026-11-10T00:00:00Z</updated>
+    <category term="CA"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In 42 places of the consolidation a citation in a historical note departs from the form used throughout: a missing comma after the year or before the section, a full stop or a comma in place of the other, or a misplaced slash. Examples: Income Tax Act, English, s. 127 “2004 c. 24, s. 24”; National Housing Act, s. 21.3 “1992, c. 32. s. 26”; Coastal Fisheries Protection Act, French, s. 5.6 “2015, ch, 18, art. 4”; Regulations Implementing the United Nations Resolutions on Sudan, s. 3 “SOR2005-122”; Food and Drug Regulations, s. C.01A.002 “SOR/2001/-203, s. 1”.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0974/</id>
+    <title>ARXO-2026-0974 — Justice Laws: language marks in the wrong form in 11 historical notes</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0974/"/>
+    <published>2026-11-10T00:00:00Z</published>
+    <updated>2026-11-10T00:00:00Z</updated>
+    <category term="CA"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. English historical notes mark language-specific amendments (E) and (F); French notes use (A) and (F). In 11 places of the consolidation the mark has the form of the other language: English note of the Proceeds of Crime (Money Laundering) and Terrorist Financing Act, s. 49: “223(A)”; French notes with “(E)” in the Criminal Code, s. 183; Olympic and Paralympic Marks Act, ss. 3, 4 and 8; Canada Labour Code, s. 47.1; Family Orders and Agreements Enforcement Assistance Act, s. 49; Royal Canadian Mounted Police Superannuation Regulations, ss. 57 and 59; Natural Health Products Regulations, ss. 28 and 32.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0973/</id>
+    <title>ARXO-2026-0973 — Justice Laws: historical notes differ between the English and French versions in 8 places</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0973/"/>
+    <published>2026-11-10T00:00:00Z</published>
+    <updated>2026-11-10T00:00:00Z</updated>
+    <category term="CA"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In 8 places of the consolidation, the historical note of a section names an amending provision in one language version only, or in a different series: Canadian Commercial Corporation Act, s. 13, and Canada Council for the Arts Act, s. 20: “1976-77, ch. 34, art. 30” only in French; Energy Administration Act, s. 81: “1976-77, ch. 28, art. 49” only in French; Fisheries Improvement Loans Act, s. 5: “1980-81-82-83, ch. 154, art. 2” only in French; Safe Containers Convention Act, s. 8: “1984, ch. 40, art. 79” only in French; Foreign Enlistment Act, s. 13: “R.S., c. 10(2nd Supp.), s. 64” only in English; Perfluorinated Ion-Exchange Membranes Remission Order, s. 2: English “SOR/87-240, s. 1”, French “TR/87-240, art. 1”; Cruiser Remission Order, s. 7: English “SOR/85-113, s. 1”, French “TR/85-113, art. 1”. The consolidation does not show which version is right; this card does not decide it.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0972/</id>
+    <title>ARXO-2026-0972 — Certain Russian Goods Remission Order (SOR/2023-160): French XML dated 2030-07-08</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0972/"/>
+    <published>2026-11-10T00:00:00Z</published>
+    <updated>2026-11-10T00:00:00Z</updated>
+    <category term="CA"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The French XML of the Certain Russian Goods Remission Order (SOR/2023-160) has the point-in-time date (lims:pit-date) 2030-07-08 and the current date 2026-09-03. The English XML has the point-in-time date 2026-06-22.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0971/</id>
+    <title>ARXO-2026-0971 — Letter Definition Regulations (SOR/83-481), s. 2: paragraph (i) nested inside paragraph (h) in the English XML</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0971/"/>
+    <published>2026-11-10T00:00:00Z</published>
+    <updated>2026-11-10T00:00:00Z</updated>
+    <category term="CA"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In the English XML of the Letter Definition Regulations (SOR/83-481), section 2, paragraph (i) of the definition is nested inside paragraph (h) as a subparagraph. The visible text reads correctly.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0970/</id>
+    <title>ARXO-2026-0970 — Justice Laws: repeated subparagraph labels in 8 places of the consolidated XML</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0970/"/>
+    <published>2026-11-10T00:00:00Z</published>
+    <updated>2026-11-10T00:00:00Z</updated>
+    <category term="CA"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In 8 places of the consolidated Acts and regulations, a paragraph has two subparagraphs with the same label in one language version: Financial Institutions Depositors Compensation Act, 5(2)(b), English; Income Tax Act, 142.6(8)(b), French; Electronic Payments Regulations, 3(b), English; Transportation of Dangerous Goods Regulations, 5.10(1)(d), French; Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations, 89(e), French; Canada Offshore Renewable Energy Regulations, 40(3)(e), French; Defence Services Pension Part V Regulations, 34(4)(b), French; Determination of Country of Origin for the Purpose of Marking Goods (CUSMA Countries) Regulations, 2(2)(b), French. The origin has not been established: the enacted or registered texts were not checked.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0969/</id>
+    <title>ARXO-2026-0969 — Justice Laws: in 2 regulations the English and French versions refer to different sections</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0969/"/>
+    <published>2026-11-10T00:00:00Z</published>
+    <updated>2026-11-10T00:00:00Z</updated>
+    <category term="CA"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. In 2 regulations of the consolidation, the English and French versions of a provision refer to different sections: Ozone-depleting Substances and Halocarbon Alternatives Regulations, subsection 54(2): English “allowance under section 55 or 61”, French “visée aux articles 55 ou 60”; Precursor Control Regulations, paragraph 85(7)(a): English “keep the report referred to in section 86.1”, French “conservent les rapports visés à l’article 86”. The origin of the differences has not been established: the original publications were not checked.</summary>
+  </entry>
+  <entry>
+    <id>https://arxo.io/findings/ARXO-2026-0968/</id>
+    <title>ARXO-2026-0968 — Security of Canada Information Disclosure Act, s. 2(1), definition “activity that undermines the security of Canada”, paragraph (g): amendment not applied in the French version</title>
+    <link rel="alternate" href="https://arxo.io/findings/ARXO-2026-0968/"/>
+    <published>2026-11-10T00:00:00Z</published>
+    <updated>2026-11-10T00:00:00Z</updated>
+    <category term="CA"/>
+    <category term="reported" label="Reported"/>
+    <summary>Reported. The English version refers to “section 2 of the Communications Security Establishment Act”. The French version still reads “au sens de l’article 273.61 de la Loi sur la défense nationale”. Section 89 of S.C. 2019, c. 13 replaced paragraph (g) in both languages; it came into force on August 1, 2019 under SI/2019-70, after subsection 115(3) of the same Act, which came into force on June 21, 2019. The consolidated French version does not show the replacement.</summary>
+  </entry>
   <entry>
     <id>https://arxo.io/findings/ARXO-2026-0967/</id>
     <title>ARXO-2026-0967 — SR 642.211 (VStV), Art. 41b: the German and Italian versions refer to Art. 6 para. 2 VStG, the French version to Art. 6 para. 1 VStG</title>

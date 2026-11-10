@@ -1,0 +1,7 @@
+Excerpts of Safe Containers Convention Act (S-1), French version, consolidated XML (fra/lois/S-1.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/S-1.xml
+sha256 of the source file: 1f2331e826041b6b24c7879a7dfa24b85397d167e3605d338547d9553565ba97
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Safe Containers Convention Act — s. 8 (French)
+Chambre des communes ou du Sénat.Définition de jour de séance du Parlement(4)Pour l’application des paragraphes (2) et (3), tout jour où l’une ou l’autre chambre du Parlement siège est un jour de séance du Parlement. 1980-81-82-83, ch. 9, art. 8; 1984, ch. 40, art. 79

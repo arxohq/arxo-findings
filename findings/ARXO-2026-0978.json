@@ -1,0 +1,167 @@
+{
+  "id": "ARXO-2026-0978",
+  "url": "https://arxo.io/findings/ARXO-2026-0978/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "CA",
+  "jurisdiction_detail": "federal",
+  "act": "Consolidated Acts and Regulations of Canada (Justice Laws Website)",
+  "acts": [],
+  "location": "SOR/2023-160, s. 2(2)",
+  "text": {
+    "en": {
+      "title": "Certain Russian Goods Remission Order (SOR/2023-160), s. 2(2), English: reference to paragraph (1)(b), which does not exist",
+      "summary": "Subsection 2(2) reads “in the case of goods referred to in paragraph (1)(b) that were imported before the day on which this subsection comes into force”. Subsection 2(1) has no paragraph (b). The goods meant are in paragraph 1(b), tariff item No. 8807.20.00; the French version reads “s’agissant de marchandises visées à l’alinéa 1b)”. Subsection 2(2) was added by SOR/2026-140 (Canada Gazette, Part II, Vol. 160, No. 13, July 1, 2026), and the error is in the English text as published there.",
+      "impact": "The reference in one language version leads to no provision, or to a different one than the other version. Both versions are equally authoritative; the effect on how the provision applies was not assessed.",
+      "correction": "Amend the English version of subsection 2(2) by replacing “paragraph (1)(b)” with “paragraph 1(b)”."
+    },
+    "fr": {
+      "title": "Décret de remise visant certaines marchandises de la Russie (DORS/2023-160), par. 2(2), version anglaise : renvoi à l’alinéa (1)b), qui n’existe pas",
+      "summary": "La version anglaise du paragraphe 2(2) se lit « in the case of goods referred to in paragraph (1)(b) that were imported before the day on which this subsection comes into force ». Le paragraphe 2(1) n’a pas d’alinéa b). Les marchandises visées figurent à l’alinéa 1b) (nº tarifaire 8807.20.00), comme le dit la version française : « s’agissant de marchandises visées à l’alinéa 1b) ». Le paragraphe 2(2) a été ajouté par le DORS/2026-140, Gazette du Canada, Partie II, vol. 160, nº 13 (1er juillet 2026), et l’erreur figure dans le texte anglais publié."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-05",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "CA-T00001-en",
+        "source": "Certain Russian Goods Remission Order (SOR/2023-160), English version, XML on the Justice Laws Website",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": null,
+        "locator": "subsection 2(2) of the Certain Russian Goods Remission Order, English XML (eng/SOR-2023-160)",
+        "text": "goods referred to in paragraph (1)(b)",
+        "translations": {},
+        "url": "https://laws-lois.justice.gc.ca/eng/XML/SOR-2023-160.xml",
+        "sha256": "29a2f3b2955d547da947e2acf036a4490f4a22f29e72b0ee8409b655e91671a1",
+        "retrieved": "2026-11-07",
+        "copy": "sources/dffabd1e938d6c27-xml-site-eng-sor-2023-160.txt",
+        "copy_sha256": "dffabd1e938d6c270d5711f64d312e084ebc350050912ccefc70571a24628cb6",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CA-T00001-fr",
+        "source": "Décret de remise visant certaines marchandises de la Russie, French version, consolidated XML (fra/reglements/DORS-2023-160.xml)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version, point-in-time date 2030-07-08",
+        "locator": "subsection 2(2) of the Certain Russian Goods Remission Order, French XML (fra/DORS-2023-160)",
+        "text": "marchandises visées à l’alinéa 1b)",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2023-160.xml",
+        "sha256": "03040441d2a6a1c005c58f0b08a0cbe06a5cc9f58484e9c20f8132a636e82d5c",
+        "retrieved": "2026-11-05",
+        "copy": "sources/9b6ce1f02002c63b-xml-fra-reglements-dors-2023-160-xml.txt",
+        "copy_sha256": "9b6ce1f02002c63bf0069c9ab335a84227d6787f560f52f0d7621a37085df8db",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CA-T00001-g2-356-en",
+        "source": "Canada Gazette, Part II, Vol. 160, No. 13 (July 1, 2026), PDF",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": null,
+        "locator": "SOR/2026-140, section 2, Canada Gazette, Part II, Vol. 160, No. 13, PDF page 356",
+        "text": "goods referred to in paragraph (1)(b)",
+        "translations": {},
+        "url": "https://gazette.gc.ca/rp-pr/p2/2026/2026-07-01/pdf/g2-16013.pdf",
+        "sha256": "e6c6f0d9074677516bdcd3bcbddf71214e76f154d847a9ea6826b9ae8d98b5a4",
+        "retrieved": "2026-11-07",
+        "copy": "sources/2f80c0976dee3090-pdf-g2-16013-pdf.txt",
+        "copy_sha256": "2f80c0976dee309055b3a8e010d2938dc97ad1927f294e07e6d2e719427bcad4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CA-T00001-g2-356-fr",
+        "source": "Canada Gazette, Part II, Vol. 160, No. 13 (July 1, 2026), PDF",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": null,
+        "locator": "SOR/2026-140, section 2, Canada Gazette, Part II, Vol. 160, No. 13, PDF page 356",
+        "text": "marchandises visées à l’alinéa 1b)",
+        "translations": {},
+        "url": "https://gazette.gc.ca/rp-pr/p2/2026/2026-07-01/pdf/g2-16013.pdf",
+        "sha256": "e6c6f0d9074677516bdcd3bcbddf71214e76f154d847a9ea6826b9ae8d98b5a4",
+        "retrieved": "2026-11-07",
+        "copy": "sources/2f80c0976dee3090-pdf-g2-16013-pdf.txt",
+        "copy_sha256": "2f80c0976dee309055b3a8e010d2938dc97ad1927f294e07e6d2e719427bcad4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09T20:01:33Z",
+      "institution": "Standing Joint Committee for the Scrutiny of Regulations",
+      "channel": "email",
+      "role": "reviews regulations made by the Government of Canada"
+    },
+    {
+      "date": "2026-11-09T20:01:51Z",
+      "institution": "Department of Finance Canada",
+      "channel": "email",
+      "role": "department responsible for the Certain Russian Goods Remission Order (trade and tariff policy)"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Finance Canada",
+      "role": "department responsible for the Certain Russian Goods Remission Order (trade and tariff policy)"
+    },
+    {
+      "institution": "Standing Joint Committee for the Scrutiny of Regulations",
+      "role": "reviews regulations made by the Government of Canada"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran checks over the XML of the consolidated federal Acts and regulations of Canada, read each finding in the XML of both language versions and, where named on the card, in the Canada Gazette or the annual statutes; a second AI reading and the coordinator of the checks decided each finding."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T19:20:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-07",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Standing Joint Committee for the Scrutiny of Regulations (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Finance Canada (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

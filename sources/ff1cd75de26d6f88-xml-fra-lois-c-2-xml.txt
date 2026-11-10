@@ -1,0 +1,7 @@
+Excerpts of Canada Council for the Arts Act (C-2), French version, consolidated XML (fra/lois/C-2.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/C-2.xml
+sha256 of the source file: d5db350db5d2d8010e07ea5e1a786ed34b215ac99f09cb58d99a1f80015f20e7
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Canada Council for the Arts Act — s. 20 (French)
+Vérification20Le vérificateur général du Canada examine chaque année les comptes et opérations financières du Conseil et présente son rapport de vérification au Conseil ainsi qu’au membre du Conseil privé de la Reine pour le Canada désigné en application du paragraphe 21(1). S.R., ch. C-2, art. 22; 1976-77, ch. 34, art. 30

@@ -1,0 +1,7 @@
+Excerpts of Fisheries Improvement Loans Act (F-22), French version, consolidated XML (fra/lois/F-22.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/lois/F-22.xml
+sha256 of the source file: 10909fe27124f7e77b2d71e2f90248d375e2ace7a62ffb3ebc243d9c9997745e
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Fisheries Improvement Loans Act — s. 5 (French)
+Cessation de la responsabilité5Avec l’agrément du gouverneur en conseil, le ministre peut se libérer de toute responsabilité envers un prêteur pour les prêts garantis consentis par celui-ci après la date spécifiée dans l’avis qu’il adresse en ce sens au siège social de l’organisme au moins quatorze jours avant la date prévue pour la prise d’effet de la cessation de responsabilité. S.R., ch. F-22, art. 4; 1980-81-82-83, ch. 154, art. 2

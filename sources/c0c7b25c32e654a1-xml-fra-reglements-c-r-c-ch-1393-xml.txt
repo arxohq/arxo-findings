@@ -1,0 +1,10 @@
+Excerpts of Règlement sur la pension de retraite de la Gendarmerie royale du Canada, French version, consolidated XML (fra/reglements/C.R.C.,_ch._1393.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/C.R.C.,_ch._1393.xml
+sha256 of the source file: 00e908ead97df6677bd0ca8fa46800c16ad9fef2cfe1c2fc3b3cf84156c222bc
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Règlement sur la pension de retraite de la Gendarmerie royale du Canada — s. 57 (French)
+après la date limite prévue au paragraphe (1) mais au plus tard trois mois suivant la date de l’avis visé à l’alinéa a).(3)[Abrogé, DORS/2026-150, art. 27](4)[Abrogé, DORS/2026-150, art. 27] DORS/2003-232, art. 2; DORS/2012-124, art. 31 et 32(E)DORS/2026-150, art. 27
+
+Règlement sur la pension de retraite de la Gendarmerie royale du Canada — s. 59 (French)
+59(1)Le choix en faveur de la valeur de transfert est :a)effectué par écrit;b)daté et signé par le contributeur;c)envoyé au ministre, ou à la personne qu’il a désignée, dans le délai applicable prévu aux articles 56 à 58.(2)Le choix est réputé être exercé à la date où il est envoyé conformément à l’alinéa (1)c). DORS/2003-232, art. 2; DORS/2012-124, art. 31 et 32(E)

@@ -1,0 +1,7 @@
+Excerpts of Règlement sur l’énergie renouvelable extracôtière au Canada, French version, consolidated XML (fra/reglements/DORS-2024-272.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2024-272.xml
+sha256 of the source file: a4bc367366cffba0f251bbfaa2203aa47454ae385683333c0253d6e338a4af00
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Règlement sur l’énergie renouvelable extracôtière au Canada — paragraph 40(3)(e) (French)
+le matériel et les systèmes du projet d’énergie renouvelable extracôtière ou de la ligne extracôtière ont été fabriqués, construits et installés de façon conforme à ce qui suit :(i)les bonnes pratiques d’ingénierie,(ii)le rapport sur la fabrication et la construction visé à l’alinéa 14b),(ii)l’autorisation;f)vérifier que les installations, le matériel et les systèmes du projet d’énergie renouvelable extracôtière ou de la ligne extracôtière sont propres à l’usage auquel ils sont destinés et peuvent être utilisés sans danger pour la sécurité, la sûreté et

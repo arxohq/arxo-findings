@@ -1,0 +1,7 @@
+Excerpts of Federal Courts Rules, English version, consolidated XML (eng/regulations/SOR-98-106.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-98-106.xml
+sha256 of the source file: 59699ad17b292bd5b6ff5b414cffdc856f25e46b09f85693dbf94e164e381353
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Federal Courts Rules — note (English)
+l to attend hearing of motion or cross-examination, at the discretion of the Court 1–3 1–5 1–9 14 Assessment of costs 1–5 3–7 6–10 15 Any other service allowed by the assessment officer or ordered by the Court 1 1–3 1–5 SOR2004-283, ss. 30, 31(E), 32 SOR/2021-246, s. 12 SOR/2025-232, s. 6 SOR/2025-232, s. 7 SOR/2025-232, s. 8 SOR/2025-232, s. 9 SCHEDULE (Rule 52.2) Code of Conduct for Expert Witnesses General Duty to the Court 1 An expert witness named to provide a

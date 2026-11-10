@@ -1,0 +1,7 @@
+Excerpts of Règlements, Loi sur les pensions des services de défense, Partie V, French version, consolidated XML (fra/reglements/DORS-55-416.xml)
+Source: https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-55-416.xml
+sha256 of the source file: 86c8505425f2af5efdb61be58ea22de644b56d5d970936c123467a5a7929f930
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+Règlements, Loi sur les pensions des services de défense, Partie V — paragraph 34(4)(b) (French)
+suivants :a)le montant qui, ajouté au montant annuel de l’allocation, égale le montant annuel de la pension discontinuée, oub)le montant déterminé par une fraction du montant annuel de la pension discontinuée, fraction(i)dont le numérateur est le nombre d’années de service d’après lequel la pension discontinuée est fixée, nombre qui, ajouté au nombre d’années de service, ou de service ouvrant droit à pension d’après lequel l’allocation est fixée, ne forme pas un total de plus de trente-cinq ans, et(i)dont le dénominateur est le nombre d’années de service d’après lequel est fixée la pension discontinuée.

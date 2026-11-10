@@ -1,0 +1,277 @@
+{
+  "id": "ARXO-2026-0976",
+  "url": "https://arxo.io/findings/ARXO-2026-0976/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "CA",
+  "jurisdiction_detail": "federal",
+  "act": "Consolidated Acts and Regulations of Canada (Justice Laws Website)",
+  "acts": [],
+  "location": "SOR/2024-25",
+  "text": {
+    "en": {
+      "title": "SOR/2024-25 (Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations): two French references to paragraphs that do not exist",
+      "summary": "Subparagraph 31(3)(a)(i): English “the requirements referred to in paragraph 28(1)(b) are met”, French “les conditions prévues à l’alinéa 26(1)b) sont remplies”. Subparagraph 36(1)(a)(ii): English “the requirements referred to in paragraph 28(1)(b) are no longer being met”, French “l’une ou l’autre des conditions prévues à l’alinéa 27(1)b) n’est plus remplie”. Sections 26 and 27 have no subsections and no paragraph (b). The errors are in the regulations as published in the Canada Gazette, Part II, Vol. 158, No. 5 (February 28, 2024), and in the consolidated XML.",
+      "impact": "The reference in one language version leads to no provision, or to a different one than the other version. Both versions are equally authoritative; the effect on how the provision applies was not assessed.",
+      "correction": "Replace the French references to 26(1)b) and 27(1)b), in 31(3)(a)(i) and 36(1)(a)(ii), with 28(1)b)."
+    },
+    "fr": {
+      "title": "DORS/2024-25 (Règlement-cadre sur les opérations relatives aux hydrocarbures dans la zone extracôtière Canada — Terre-Neuve-et-Labrador) : deux renvois français à des alinéas qui n’existent pas",
+      "summary": "La version française renvoie à « l’alinéa 26(1)b) » au sous-alinéa 31(3)a)(i) et à « l’alinéa 27(1)b) » au sous-alinéa 36(1)a)(ii). La version anglaise renvoie aux deux endroits à « paragraph 28(1)(b) ». Les articles 26 et 27 n’ont ni paragraphes ni alinéa b). Les erreurs figurent dans le règlement publié dans la Gazette du Canada, Partie II, vol. 158, nº 5 (28 février 2024), et dans le XML codifié."
+    }
+  },
+  "status": {
+    "badge": "accepted",
+    "label": {
+      "en": "Accepted by the addressee",
+      "ru": "Принято адресатом"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "accepted",
+    "last_checked": "2026-11-05",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "CA-L00206-en",
+        "source": "Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, English version, consolidated XML (eng/regulations/SOR-2024-25.xml)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "consolidated version, point-in-time date 2026-09-17",
+        "locator": "subparagraph 31(3)(a)(i) of the Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, English XML (eng/SOR-2024-25)",
+        "text": "paragraph 28(1)(b)",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2024-25.xml",
+        "sha256": "b3cd9ac0a4fa5709a731a078e59730e6665bcf960bea3bfe6e3a73eae8eafdc8",
+        "retrieved": "2026-11-05",
+        "copy": "sources/52eab5f77c40f6b1-xml-eng-regulations-sor-2024-25-xml.txt",
+        "copy_sha256": "52eab5f77c40f6b1286cf96d16fd44337796e6a938fe444f2a24b84a41e3e8ba",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CA-L00206-fr",
+        "source": "Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, French version, consolidated XML (fra/reglements/DORS-2024-25.xml)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version, point-in-time date 2026-09-17",
+        "locator": "subparagraph 31(3)(a)(i) of the Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, French XML (fra/DORS-2024-25)",
+        "text": "alinéa 26(1)b)",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2024-25.xml",
+        "sha256": "37caf34198268b5ec790b06906aecb47976365aee65dfe49d979a065af52421a",
+        "retrieved": "2026-11-05",
+        "copy": "sources/0f72cd622576c165-xml-fra-reglements-dors-2024-25-xml.txt",
+        "copy_sha256": "0f72cd622576c16511c35b1e948059b568aebd6ca07b37c233d496ab044e5974",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CA-L00206-right-en",
+        "source": "Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, English version, consolidated XML (eng/regulations/SOR-2024-25.xml)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "consolidated version, point-in-time date 2026-09-17",
+        "locator": "section 26 of the Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, English XML (eng/SOR-2024-25)",
+        "text": "Prescribed installations — section 139.2 of Act26For the purpose of section 139.2 of the Act, a production installation, drilling installation, accommodations installation and diving installation are prescribed installations.",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2024-25.xml",
+        "sha256": "b3cd9ac0a4fa5709a731a078e59730e6665bcf960bea3bfe6e3a73eae8eafdc8",
+        "retrieved": "2026-11-05",
+        "copy": "sources/52eab5f77c40f6b1-xml-eng-regulations-sor-2024-25-xml.txt",
+        "copy_sha256": "52eab5f77c40f6b1286cf96d16fd44337796e6a938fe444f2a24b84a41e3e8ba",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CA-L00206-right-fr",
+        "source": "Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, French version, consolidated XML (fra/reglements/DORS-2024-25.xml)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version, point-in-time date 2026-09-17",
+        "locator": "section 26 of the Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, French XML (fra/DORS-2024-25)",
+        "text": "Installations visées — article 139.2 de la Loi26Sont visées pour l’application de l’article 139.2 de la Loi l’installation de forage, l’ouvrage de production, l’installation d’habitation et l’installation de plongée.",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2024-25.xml",
+        "sha256": "37caf34198268b5ec790b06906aecb47976365aee65dfe49d979a065af52421a",
+        "retrieved": "2026-11-05",
+        "copy": "sources/0f72cd622576c165-xml-fra-reglements-dors-2024-25-xml.txt",
+        "copy_sha256": "0f72cd622576c16511c35b1e948059b568aebd6ca07b37c233d496ab044e5974",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CA-L00206-g2-71",
+        "source": "Canada Gazette, Part II, Vol. 158, No. 5 (February 28, 2024), PDF",
+        "role": "Official publication",
+        "language": "fr",
+        "edition": null,
+        "locator": "Canada Gazette, Part II, Vol. 158, No. 5 (February 28, 2024), PDF, PDF page 71",
+        "text": "néa 26(1)b)",
+        "translations": {},
+        "url": "https://gazette.gc.ca/rp-pr/p2/2024/2024-02-28/pdf/g2-15805.pdf",
+        "sha256": "76f2f5c5b3fb70db7ec76f6dcd1bf5998ad12c48d3e897ccfeb650ca14893d88",
+        "retrieved": "2026-11-07",
+        "copy": "sources/47fd59541aa865bc-pdf-g2-15805-pdf.txt",
+        "copy_sha256": "47fd59541aa865bce425f52225c91e86c4418e010b6282cb1b3b0272cfdd54d7",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CA-L00207-en",
+        "source": "Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, English version, consolidated XML (eng/regulations/SOR-2024-25.xml)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "consolidated version, point-in-time date 2026-09-17",
+        "locator": "subparagraph 36(1)(a)(ii) of the Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, English XML (eng/SOR-2024-25)",
+        "text": "paragraph 28(1)(b)",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2024-25.xml",
+        "sha256": "b3cd9ac0a4fa5709a731a078e59730e6665bcf960bea3bfe6e3a73eae8eafdc8",
+        "retrieved": "2026-11-05",
+        "copy": "sources/52eab5f77c40f6b1-xml-eng-regulations-sor-2024-25-xml.txt",
+        "copy_sha256": "52eab5f77c40f6b1286cf96d16fd44337796e6a938fe444f2a24b84a41e3e8ba",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CA-L00207-fr",
+        "source": "Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, French version, consolidated XML (fra/reglements/DORS-2024-25.xml)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version, point-in-time date 2026-09-17",
+        "locator": "subparagraph 36(1)(a)(ii) of the Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, French XML (fra/DORS-2024-25)",
+        "text": "alinéa 27(1)b)",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2024-25.xml",
+        "sha256": "37caf34198268b5ec790b06906aecb47976365aee65dfe49d979a065af52421a",
+        "retrieved": "2026-11-05",
+        "copy": "sources/0f72cd622576c165-xml-fra-reglements-dors-2024-25-xml.txt",
+        "copy_sha256": "0f72cd622576c16511c35b1e948059b568aebd6ca07b37c233d496ab044e5974",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CA-L00207-right-en",
+        "source": "Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, English version, consolidated XML (eng/regulations/SOR-2024-25.xml)",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "consolidated version, point-in-time date 2026-09-17",
+        "locator": "section 27 of the Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, English XML (eng/SOR-2024-25)",
+        "text": "Definition of installation27In this Part, installation means an installation referred to in section 26.",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/eng/regulations/SOR-2024-25.xml",
+        "sha256": "b3cd9ac0a4fa5709a731a078e59730e6665bcf960bea3bfe6e3a73eae8eafdc8",
+        "retrieved": "2026-11-05",
+        "copy": "sources/52eab5f77c40f6b1-xml-eng-regulations-sor-2024-25-xml.txt",
+        "copy_sha256": "52eab5f77c40f6b1286cf96d16fd44337796e6a938fe444f2a24b84a41e3e8ba",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CA-L00207-right-fr",
+        "source": "Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, French version, consolidated XML (fra/reglements/DORS-2024-25.xml)",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version, point-in-time date 2026-09-17",
+        "locator": "section 27 of the Canada–Newfoundland and Labrador Offshore Area Petroleum Operations Framework Regulations, French XML (fra/DORS-2024-25)",
+        "text": "Définition de installation27Dans la présente partie, installation s’entend de l’installation ou de l’ouvrage visés à l’article 26.",
+        "translations": {},
+        "url": "https://github.com/justicecanada/laws-lois-xml/blob/0507465393c224c0491fc8c17c88340217acc656/fra/reglements/DORS-2024-25.xml",
+        "sha256": "37caf34198268b5ec790b06906aecb47976365aee65dfe49d979a065af52421a",
+        "retrieved": "2026-11-05",
+        "copy": "sources/0f72cd622576c165-xml-fra-reglements-dors-2024-25-xml.txt",
+        "copy_sha256": "0f72cd622576c16511c35b1e948059b568aebd6ca07b37c233d496ab044e5974",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CA-L00207-g2-73",
+        "source": "Canada Gazette, Part II, Vol. 158, No. 5 (February 28, 2024), PDF",
+        "role": "Official publication",
+        "language": "fr",
+        "edition": null,
+        "locator": "Canada Gazette, Part II, Vol. 158, No. 5 (February 28, 2024), PDF, PDF page 73",
+        "text": "néa 27(1)b)",
+        "translations": {},
+        "url": "https://gazette.gc.ca/rp-pr/p2/2024/2024-02-28/pdf/g2-15805.pdf",
+        "sha256": "76f2f5c5b3fb70db7ec76f6dcd1bf5998ad12c48d3e897ccfeb650ca14893d88",
+        "retrieved": "2026-11-07",
+        "copy": "sources/47fd59541aa865bc-pdf-g2-15805-pdf.txt",
+        "copy_sha256": "47fd59541aa865bce425f52225c91e86c4418e010b6282cb1b3b0272cfdd54d7",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09T20:01:33Z",
+      "institution": "Standing Joint Committee for the Scrutiny of Regulations",
+      "channel": "email",
+      "role": "reviews regulations made by the Government of Canada"
+    },
+    {
+      "date": "2026-11-09T20:01:42Z",
+      "institution": "Natural Resources Canada",
+      "channel": "email",
+      "role": "department responsible for the offshore petroleum operations framework regulations"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Natural Resources Canada",
+      "role": "department responsible for the offshore petroleum operations framework regulations"
+    },
+    {
+      "institution": "Standing Joint Committee for the Scrutiny of Regulations",
+      "role": "reviews regulations made by the Government of Canada"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-11-10T15:16:00Z",
+      "institution": "Natural Resources Canada",
+      "kind": "acknowledged",
+      "summary": {
+        "en": "Natural Resources Canada replied that it will work to address the error. No correction has yet been published."
+      }
+    }
+  ],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran checks over the XML of the consolidated federal Acts and regulations of Canada, read each finding in the XML of both language versions and, where named on the card, in the Canada Gazette or the annual statutes; a second AI reading and the coordinator of the checks decided each finding."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T19:20:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-07",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Standing Joint Committee for the Scrutiny of Regulations (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Natural Resources Canada (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "acknowledged",
+      "text": "Accepted: Natural Resources Canada"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}
