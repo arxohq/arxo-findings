@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2012/192/20250101, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2012/192/20250101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2012-192-20250101-fr-pdf-a.pdf
+sha256 of the source file: f2fe930656a472b72f0753f1a17b888ee1267eb6f9754a06ecb9e70d551dac7d
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+172.220.142.2 Art. 39 — footnote 70, page 19
+70   Nouvelle teneur selon le ch. I de la D de l’OP EPF du 1er déc. 2016, approuvée par le Conseil des EPF le 7 déc. 2016 et par le CF le 10 mai 2017, en vigueur depuis le 1er janv. 2017 (RO 2017 3301).

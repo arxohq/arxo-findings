@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1983/1902_1902_1902/20260701, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1983/1902_1902_1902/20260701/de/pdf-a/fedlex-data-admin-ch-eli-cc-1983-1902_1902_1902-20260701-de-pdf-a.pdf
+sha256 of the source file: 5b14ad91a142ed194d96359c07b5162af520d81918c99733ba8b3f677ab16c8a
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+742.141.1 Art. 15g — footnote 154, page 22
+154   Fassung gemäss Ziff. I der V vom 18. Nov. 2015, in Kraft seit 1. Jan. 2016 (AS 2015 4961).

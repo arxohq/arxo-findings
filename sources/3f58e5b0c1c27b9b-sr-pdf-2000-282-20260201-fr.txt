@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2000/282/20260201, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2000/282/20260201/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2000-282-20260201-fr-pdf-a.pdf
+sha256 of the source file: 6d85300361e1112aaefd787df445dc243c6bbf09d3619db5989f23c65c046647
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+172.212.1 Art. 6 — footnote 23, page 5
+23        Nouvelle teneur selon l’art. 28 de l’O du 13 avr. 2005 sur le transfert des biens culturels, en vigueur depuis le 1er juin 2005 (RO 2005 1883).

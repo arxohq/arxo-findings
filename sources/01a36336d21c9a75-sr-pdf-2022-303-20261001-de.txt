@@ -1,0 +1,30 @@
+Excerpts of Fedlex consolidated version 2022/303/20261001, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2022/303/20261001/de/pdf-a/fedlex-data-admin-ch-eli-cc-2022-303-20261001-de-pdf-a.pdf
+sha256 of the source file: 42b228314a098e83b825b3e581560731154f4168dacca73c7e30d7e0f58521ae
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+412.103.11 Art. 17 — article text
+Art. 17               Notenberechnung
+1 Noten, die sich aus dem Mittel der Summe mehrerer bewerteter Leistungen ergeben,
+werden auf die nächste halbe oder ganze Note gerundet. Ausgenommen ist die Ge-
+samtnote.
+2 Bei Kandidatinnen und Kandidaten, die von der schriftlichen Prüfung in der zweiten
+Landessprache oder in Englisch dispensiert sind, beruht die Note für die entspre-
+chende Sprache:
+     a.      zu 50 Prozent auf dem umgerechneten Prüfungsergebnis des Fremdsprachen-
+             diploms; und
+     b.      zu 50 Prozent auf der Note der mündlichen Prüfung.10
+3 Die Note für das interdisziplinäre Arbeiten beruht:
+     a.      für die Ausrichtung Gestaltung und Kunst:
+             1. zu 50 Prozent auf der Note für den Erarbeitungsprozess und das Produkt
+                  der IDPA, und
+             2. zu 50 Prozent auf der Note für die Präsentation mit vertiefender Diskus-
+                  sion der IDPA;
+     b.      für die anderen Ausrichtungen:
+             1. zu einem Drittel auf der Note für den Erarbeitungsprozess und das Pro-
+                  dukt der IDPA, und
+             2. zu zwei Dritteln auf der Note für die Präsentation mit vertiefender Dis-
+                  kussion der IDPA.11
+4 Die Gesamtnote ist das auf eine Dezimalstelle gerundete Mittel aus der Summe der
+Noten aller Fächer im Grundlagenbereich, im Schwerpunktbereich und im Ergän-
+zungsbereich sowie der Note für das interdisziplinäre Arbeiten.

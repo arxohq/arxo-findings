@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2017/643/20260101, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2017/643/20260101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2017-643-20260101-fr-pdf-a-1.pdf
+sha256 of the source file: a73d2627db6bca65d9ab1eddf047fe9e445ad70beba209415ef7cc1e0a514bd1
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+412.101.222.30 Art. 24 — footnote 11, page 13
+11    Nouvelle teneur selon le ch. I de l’O du SEFRI du 29 avr. 2024, en vigueur depuis le 1er juin 2024 (RO 2024 193).

@@ -1,0 +1,13 @@
+Excerpts of Fedlex consolidated version 2017/810/20260601, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2017/810/20260601/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2017-810-20260601-fr-pdf-a.pdf
+sha256 of the source file: a58f3a71a454af942c712c0993ba028422ab50bee545bb74c0216645e342a245
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+512.21 Art. 9 — footnote 25, page 7
+25        Nouvelle teneur selon le ch. I de l’O du 1er avr. 2026, en vigueur depuis le 1er juin 2026 (RO 2026 174).
+
+512.21 Art. 9 — footnote 26, page 7
+26        Abrogé par le ch. I de l’O du 1er avr. 2026, avec effet au 1er juin 2026 (RO 2026 174).
+
+512.21 Art. 9 — footnote 28, page 7
+28        Nouvelle teneur selon le ch. I de l’O du 23 nov. 2022, en vigueur depuis le 1er janv. 2023 (RO 2022 820).

@@ -1,0 +1,36 @@
+Excerpts of Fedlex consolidated version 2016/18/20220101, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2016/18/20220101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2016-18-20220101-fr-pdf-a-3.pdf
+sha256 of the source file: 49219febb8e3a8496a3240c09c290f45367b8c88773447b6fcd23a234cbc6879
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+734.5 Art. 10 — article text
+Art. 10               Documentation technique
+1 Le fabricant établit la documentation technique avant la mise sur le marché de l’ap-
+pareil et la tient à jour. Elle doit:
+     a.      permettre l’évaluation de la conformité de l’appareil aux exigences essen-
+             tielles de la présente ordonnance, et
+     b.      démontrer la conformité de l’appareil auxdites exigences.
+2 La documentation technique précise les exigences applicables et couvre, dans la
+mesure nécessaire à l’évaluation, la conception, la fabrication et le fonctionnement de
+l’appareil.
+3 La documentation technique inclut une analyse et une évaluation adéquates du ou
+des risques.16
+4 La documentation technique doit comporter, le cas échéant, au moins les éléments
+suivants:
+     a.      une description générale de l’appareil;
+     b.      des dessins de la conception et de la fabrication ainsi que des schémas des
+             composants, des sous-ensembles, des circuits, etc.;
+     c.      les descriptions et explications nécessaires pour comprendre ces dessins et
+             schémas ainsi que le fonctionnement de l’appareil;
+     d.      une liste des normes techniques visées à l’art. 5, appliquées entièrement ou en
+             partie et, lorsque ces normes n’ont pas été appliquées, la description des solu-
+             tions adoptées pour satisfaire aux exigences essentielles de la présente ordon-
+             nance, y compris une liste des autres spécifications techniques pertinentes ap-
+             pliquées; en cas d’application partielle des normes techniques visées à l’art. 5,
+             la documentation technique précise les parties appliquées;
+Compatibilité électromagnétique. O                                                            734.5
+     e.      les résultats des calculs de conception, des contrôles effectués, etc.;
+     f.      les rapports d’essai.
+4 Si la documentation technique n’est pas rédigée dans l’une des langues officielles de
+la Suisse ou en anglais, l’OFCOM peut en demander la traduction totale ou partielle
+dans l’une des langues précitées.

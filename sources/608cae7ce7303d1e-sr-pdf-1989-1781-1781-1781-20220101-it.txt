@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1989/1781_1781_1781/20220101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1989/1781_1781_1781/20220101/it/pdf-a/fedlex-data-admin-ch-eli-cc-1989-1781_1781_1781-20220101-it-pdf-a-2.pdf
+sha256 of the source file: 2faa1952a4b6a0aea6e23bb200f661fb25228cc2c14deb3c6e0e0bc478238876
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+631.144.0 Art. 9 Abs. 3 — footnote 13
+13   Nuovo testo giusta l’all. 4 n. 13 dell’O del 1° nov. 2006 sulle dogane, in vigore dal 1° mag. 2007 (RU 2007 14691).

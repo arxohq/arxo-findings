@@ -1,0 +1,250 @@
+{
+  "id": "ARXO-2026-0964",
+  "url": "https://arxo.io/findings/ARXO-2026-0964/",
+  "record_kind": "discrepancy",
+  "class": "language_versions",
+  "class_label": "Language versions",
+  "jurisdiction": "CH",
+  "jurisdiction_detail": "federal",
+  "act": "Classified Compilation of Federal Legislation (SR)",
+  "acts": [],
+  "location": "SR 232.121, Art. 23 para. 4",
+  "text": {
+    "en": {
+      "title": "SR 232.121 (DesV), Art. 23 para. 4: the German and Italian versions refer to Art. 22 para. 2, the French version to Art. 21 para. 2",
+      "summary": "Art. 23 para. 4 of the Design Ordinance (DesV) refers to Art. 22 para. 2 in the German and Italian versions and to Art. 21 para. 2 in the French version. Both paragraphs exist: Art. 22 para. 2 concerns the separate keeping of supporting documents, Art. 21 para. 2 the extension of protection for a multiple deposit. The divergence is already in the original text in the Official Compilation (AS 2002 1122) in all three languages.",
+      "impact": "Readers of different language versions are sent to different provisions; at most one of them can be the one intended. No effect on a decision has been established.",
+      "correction": "The authors of the act decide which reference is intended; the evidence gives the wording of each language version."
+    },
+    "de": {
+      "title": "SR 232.121 (DesV), Art. 23 Abs. 4: deutsch und italienisch Verweis auf Art. 22 Abs. 2, französisch auf Art. 21 Abs. 2",
+      "summary": "Die deutsche und die italienische Fassung von Art. 23 Abs. 4 DesV verweisen auf Art. 22 Abs. 2, die französische auf Art. 21 Abs. 2. Beide Absätze bestehen: Art. 22 Abs. 2 regelt die Aussonderung von Beweisurkunden, Art. 21 Abs. 2 die Verlängerung des Schutzes bei einer Sammelhinterlegung. Die Abweichung steht bereits im ursprünglichen Text in der AS (AS 2002 1122) in allen drei Sprachen."
+    },
+    "fr": {
+      "title": "RS 232.121 (ODes), art. 23, al. 4 : les versions allemande et italienne renvoient à l'art. 22, al. 2, la version française à l'art. 21, al. 2",
+      "summary": "L'art. 23, al. 4, de l'ordonnance sur les designs renvoie à l'art. 22, al. 2, dans les versions allemande et italienne et à l'art. 21, al. 2, dans la version française. Les deux alinéas existent : l'art. 22, al. 2, règle le classement à part des documents justificatifs, l'art. 21, al. 2, la prolongation de la protection en cas de dépôt multiple. La divergence figure déjà dans le texte original publié au RO (RO 2002 1122) dans les trois langues."
+    },
+    "it": {
+      "title": "RS 232.121 (ODes), art. 23 cpv. 4: le versioni tedesca e italiana rinviano all'art. 22 cpv. 2, la versione francese all'art. 21 cpv. 2",
+      "summary": "L'art. 23 cpv. 4 dell'ordinanza sul design rinvia all'art. 22 cpv. 2 nelle versioni tedesca e italiana e all'art. 21 cpv. 2 nella versione francese. Entrambi i capoversi esistono: l'art. 22 cpv. 2 disciplina la conservazione separata dei documenti di prova, l'art. 21 cpv. 2 la proroga della protezione in caso di deposito multiplo. La divergenza figura già nel testo originale pubblicato nella RU (RU 2002 1122) in tutte e tre le lingue."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-09",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "CH-L001-s-de",
+        "source": "Fedlex consolidated version 2002/183/20250701, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of July 1, 2025",
+        "locator": "SR 232.121, Art. 23 para. 4, German version of 1. Juli 2025",
+        "text": "4 Über die Einsicht in ausgesonderte Beweisurkunden nach Artikel 22 Absatz 2 entscheidet das IGE nach Anhörung der Rechtsinhaberin.",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2002/183/20250701/de/xml/fedlex-data-admin-ch-eli-cc-2002-183-20250701-de-xml-1.xml",
+        "sha256": "aa001a09feca7509caeb88c04881daebff4c7c009433386989a72c730bd83823",
+        "retrieved": "2026-11-08",
+        "copy": "sources/7ceeecf163d9cca9-sr-xml-2002-183-20250701-de.txt",
+        "copy_sha256": "7ceeecf163d9cca9b05f26218953f629289ef0354c5a6c87bd84fd718e921774",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L001-s-fr",
+        "source": "Fedlex consolidated version 2002/183/20250701, French, XML",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of July 1, 2025",
+        "locator": "SR 232.121, Art. 23 para. 4, French version of 1. Juli 2025",
+        "text": "4 La consultation des documents justificatifs classés à part (art. 21, al. 2) relève de la compétence de l’IPI, qui se prononce après avoir consulté le titulaire.",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2002/183/20250701/fr/xml/fedlex-data-admin-ch-eli-cc-2002-183-20250701-fr-xml-1.xml",
+        "sha256": "fe127e50c41df71e078329e47ac46bda07fa03c719baebb15a64b28044d0ab0d",
+        "retrieved": "2026-11-08",
+        "copy": "sources/5c4aa5aad71905e6-sr-xml-2002-183-20250701-fr.txt",
+        "copy_sha256": "5c4aa5aad71905e64cb01527188674d3f733bb623db295df84c0c3e24ec412cc",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L001-s-it",
+        "source": "Fedlex consolidated version 2002/183/20250701, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of July 1, 2025",
+        "locator": "SR 232.121, Art. 23 para. 4, Italian version of 1. Juli 2025",
+        "text": "4 Circa la consultazione dei documenti di prova conservati separatamente giusta l’articolo 22 capoverso 2 decide l’IPI dopo aver sentito il titolare del diritto.",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2002/183/20250701/it/xml/fedlex-data-admin-ch-eli-cc-2002-183-20250701-it-xml-1.xml",
+        "sha256": "5615b9378564fce74290d6617ae2e7c48f6cb56219c6055fc8f056ceaae7df4d",
+        "retrieved": "2026-11-08",
+        "copy": "sources/cf8c5f574a6913e4-sr-xml-2002-183-20250701-it.txt",
+        "copy_sha256": "cf8c5f574a6913e45b33bfd7a53434c081faa892606f80fa1a66ebfe5a218789",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L001-t-de",
+        "source": "Fedlex consolidated version 2002/183/20250701, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of July 1, 2025",
+        "locator": "Provision referred to, German version: 2002/183/20250701",
+        "text": "2 Beweisurkunden, die Fabrikations- oder Geschäftsgeheimnisse offenbaren oder andere Angaben enthalten, an deren Geheimhaltung die Hinterlegerin ein schützenswertes Interesse hat, werden auf Antrag ausgesondert. Die Aussonderung wird im Aktenheft vermerkt.",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2002/183/20250701/de/xml/fedlex-data-admin-ch-eli-cc-2002-183-20250701-de-xml-1.xml",
+        "sha256": "aa001a09feca7509caeb88c04881daebff4c7c009433386989a72c730bd83823",
+        "retrieved": "2026-11-08",
+        "copy": "sources/7ceeecf163d9cca9-sr-xml-2002-183-20250701-de.txt",
+        "copy_sha256": "7ceeecf163d9cca9b05f26218953f629289ef0354c5a6c87bd84fd718e921774",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L001-t-de-n1",
+        "source": "Fedlex consolidated version 2002/183/20250701, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of July 1, 2025",
+        "locator": "Footnote to the provision referred to, German version",
+        "text": "Fassung gemäss Ziff. I der V vom 18. Okt. 2006, in Kraft seit 1. Jan. 2007 ( AS 2006 4481 ).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2002/183/20250701/de/xml/fedlex-data-admin-ch-eli-cc-2002-183-20250701-de-xml-1.xml",
+        "sha256": "aa001a09feca7509caeb88c04881daebff4c7c009433386989a72c730bd83823",
+        "retrieved": "2026-11-08",
+        "copy": "sources/7ceeecf163d9cca9-sr-xml-2002-183-20250701-de.txt",
+        "copy_sha256": "7ceeecf163d9cca9b05f26218953f629289ef0354c5a6c87bd84fd718e921774",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L001-t-fr",
+        "source": "Fedlex consolidated version 2002/183/20250701, French, XML",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of July 1, 2025",
+        "locator": "Provision referred to, French version: 2002/183/20250701",
+        "text": "2 Dans le cas d’un dépôt multiple (art. 20 LDes), il est possible de limiter la prolongation de la protection à certains designs. Il convient alors d’indiquer précisément pour quels designs cette prolongation est requise.",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2002/183/20250701/fr/xml/fedlex-data-admin-ch-eli-cc-2002-183-20250701-fr-xml-1.xml",
+        "sha256": "fe127e50c41df71e078329e47ac46bda07fa03c719baebb15a64b28044d0ab0d",
+        "retrieved": "2026-11-08",
+        "copy": "sources/5c4aa5aad71905e6-sr-xml-2002-183-20250701-fr.txt",
+        "copy_sha256": "5c4aa5aad71905e64cb01527188674d3f733bb623db295df84c0c3e24ec412cc",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L001-t-it",
+        "source": "Fedlex consolidated version 2002/183/20250701, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of July 1, 2025",
+        "locator": "Provision referred to, Italian version: 2002/183/20250701",
+        "text": "2 I documenti di prova che rendono pubblici segreti di fabbricazione o d’affari oppure contengono altre indicazioni sulle quali il depositante ha un legittimo interesse alla tutela del segreto sono conservati separatamente su domanda. Tale fatto è menzionato nel fascicolo.",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2002/183/20250701/it/xml/fedlex-data-admin-ch-eli-cc-2002-183-20250701-it-xml-1.xml",
+        "sha256": "5615b9378564fce74290d6617ae2e7c48f6cb56219c6055fc8f056ceaae7df4d",
+        "retrieved": "2026-11-08",
+        "copy": "sources/cf8c5f574a6913e4-sr-xml-2002-183-20250701-it.txt",
+        "copy_sha256": "cf8c5f574a6913e45b33bfd7a53434c081faa892606f80fa1a66ebfe5a218789",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L001-t-it-n1",
+        "source": "Fedlex consolidated version 2002/183/20250701, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of July 1, 2025",
+        "locator": "Footnote to the provision referred to, Italian version",
+        "text": "Nuovo testo giusta la cifra I dell’O del 18 ott. 2006, in vigore dal 1° gen. 2007 ( RU 2006 4481 ).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2002/183/20250701/it/xml/fedlex-data-admin-ch-eli-cc-2002-183-20250701-it-xml-1.xml",
+        "sha256": "5615b9378564fce74290d6617ae2e7c48f6cb56219c6055fc8f056ceaae7df4d",
+        "retrieved": "2026-11-08",
+        "copy": "sources/cf8c5f574a6913e4-sr-xml-2002-183-20250701-it.txt",
+        "copy_sha256": "cf8c5f574a6913e45b33bfd7a53434c081faa892606f80fa1a66ebfe5a218789",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09T05:57:30Z",
+      "institution": "Federal Chancellery",
+      "channel": "email",
+      "role": "publishes the Official Compilation (AS) and the Classified Compilation (SR)"
+    },
+    {
+      "date": "2026-11-09T06:02:02Z",
+      "institution": "Swiss Federal Institute of Intellectual Property",
+      "channel": "email",
+      "role": "office in charge of the provision"
+    },
+    {
+      "date": "2026-11-09T05:59:46Z",
+      "institution": "Internal Drafting Committee of the Federal Administration",
+      "channel": "email",
+      "role": "checks the wording of ordinances in the official languages"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Swiss Federal Institute of Intellectual Property",
+      "role": "office in charge of the provision"
+    },
+    {
+      "institution": "Federal Chancellery",
+      "role": "publishes the Official Compilation (AS) and the Classified Compilation (SR)"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran checks over the Classified Compilation of Federal Legislation, read each finding in the PDF of the consolidated version and had it read again by a second AI reader; the coordinator of the checks decided each finding."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:45:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Federal Chancellery (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Swiss Federal Institute of Intellectual Property (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Internal Drafting Committee of the Federal Administration (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+Excerpts of Fedlex consolidated version 2021/391/20250601, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2021/391/20250601/it/pdf-a/fedlex-data-admin-ch-eli-cc-2021-391-20250601-it-pdf-a.pdf
+sha256 of the source file: 28b19a48c04353045b9e3480ba1531708138e1582bb67b731d6105225919af05
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+832.107 Art. 5 — article text
+Art. 5           Determinazione dei numeri massimi da parte dei Cantoni
+1 I Cantoni fissano l’offerta di medici (art. 2) in relazione al tasso di approvvigiona-
+mento della regione interessata per specialità medica (art. 3), al fine di determinare il
+numero massimo di medici necessario per garantire un approvvigionamento econo-
+mico di cure sanitarie sul loro territorio.
+2 Possono prevedere un fattore di ponderazione per tenere conto delle circostanze che
+non hanno potuto essere prese in considerazione nel calcolo del tasso di approvvigio-
+namento. Per determinare il fattore di ponderazione, si basano in particolare su inter-
+viste di specialisti, sistemi di indicatori o valori di riferimento.
+2 Riesaminano periodicamente i numeri massimi e li adattano se necessario.

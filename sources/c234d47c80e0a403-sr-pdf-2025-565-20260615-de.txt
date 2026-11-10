@@ -1,0 +1,18 @@
+Excerpts of Fedlex consolidated version 2025/565/20260615, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2025/565/20260615/de/pdf-a/fedlex-data-admin-ch-eli-cc-2025-565-20260615-de-pdf-a.pdf
+sha256 of the source file: b4348b8a9f9ce09b63ccc07b979eee82d7c606144ad31eacf48a89614aaec3de
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+916.161 Art. 42 — article text
+Art. 42          Übertragung einer Zulassung
+1 Die Zulassungsstelle überträgt die Zulassung eines Pflanzenschutzmittels auf eine
+andere Inhaberin, wenn:
+   a.     die Zulassungsinhaberin dies beantragt; und
+   b.     die neue Inhaberin einwilligt und die Voraussetzung nach Artikel 10 Absatz
+          2 erfüllt.
+2 Das Gesuch muss den Namen und die Einwilligung der neuen Zulassungsinhaberin
+enthalten.
+3 Sie erlässt eine neue Zulassung und widerruft die bisherige Zulassung.
+3 Für die Entsorgung, die Lagerung, das Inverkehrbringen und die Verwendung des
+Pflanzenschutzmittels gelten die Fristen nach Artikel 45. Die bisherige Zulassungsin-
+haberin kann kürzere Fristen verlangen.

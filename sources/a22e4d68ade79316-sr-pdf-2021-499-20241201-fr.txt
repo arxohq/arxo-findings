@@ -1,0 +1,24 @@
+Excerpts of Fedlex consolidated version 2021/499/20241201, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2021/499/20241201/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2021-499-20241201-fr-pdf-a.pdf
+sha256 of the source file: 340f6fdcc9fb876f300cef01b0f4b446aef40f4c4dc93b3c84a20ae3d59b17f5
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+415.012 Art. 10 — article text
+Art. 10          Diplôme et Diploma Supplement
+1 Quiconque achève avec succès une filière d’études se voit remettre un diplôme ainsi
+qu’un Diploma Supplement.
+2 Le diplôme est délivré avec les appréciations suivantes:
+   Note 6,00                  = summa cum laude
+   À partir de la note 5,50 = insigni cum laude
+   À partir de la note 5,00 = magna cum laude
+   À partir de la note 4,50 = cum laude
+   À partir de la note 4,00 = rite
+2 Le Diploma Supplement fournit des données suffisantes pour améliorer la transpa-
+rence internationale et la reconnaissance académique et professionnelle équitable des
+qualifications.
+3 Quiconque ne remplit pas les conditions d’obtention du diplôme n’obtient qu’un re-
+levé de prestations dans lequel figurent les prestations réalisées individuellement.
+4 Si un étudiant obtient plus de crédits ECTS que le nombre requis pour l’obtention
+du diplôme, ceux-ci sont indiqués séparément dans le Diploma Supplement.
+Chapitre 2       Filières de bachelor et de master
+Section 1        Admission

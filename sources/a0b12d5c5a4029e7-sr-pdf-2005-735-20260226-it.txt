@@ -1,0 +1,15 @@
+Excerpts of Fedlex consolidated version 2005/735/20260226, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2005/735/20260226/it/pdf-a/fedlex-data-admin-ch-eli-cc-2005-735-20260226-it-pdf-a.pdf
+sha256 of the source file: 1d3c3382e6b1cb1389b887cece4b32fa27028a9d3e9de9447acface48d9d00c5
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+961.011 Art. 54 — article text
+Art. 54
+1 L’impresa di assicurazione dispone di sufficienti riserve tecniche.
+2 Essa scioglie le riserve tecniche non più necessarie.
+3 Nel piano d’esercizio l’impresa di assicurazione indica le condizioni per la costitu-
+zione e lo scioglimento delle riserve tecniche. Essa documenta il metodo utilizzato
+per le riserve e la valutazione degli impegni attuariali.
+4 La FINMA disciplina i dettagli concernenti genere e entità delle riserve tecniche.
+4 La FINMA disciplina i dettagli concernenti genere e modalità delle riserve tecniche.
+Sezione 2: Assicurazione sulla vita

@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1996/3371_3371_3371/20260101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1996/3371_3371_3371/20260101/it/pdf-a/fedlex-data-admin-ch-eli-cc-1996-3371_3371_3371-20260101-it-pdf-a.pdf
+sha256 of the source file: 09613947d3d7a131c6881098aa12e0c57243c116623968ba0c10f0611c267ba5
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+641.61 Art. 35 — footnote 33, page 15
+33        Nuovo testo giusta l’all. n. 3 della LF del 18 mar. 2016, in vigore dal 1° ago. 2016 (RU 2008 579; FF 2006 3889).

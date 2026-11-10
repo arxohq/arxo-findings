@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2015/840/20260701, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2015/840/20260701/de/pdf-a/fedlex-data-admin-ch-eli-cc-2015-840-20260701-de-pdf-a.pdf
+sha256 of the source file: 04a1fdafa2d64e85d251fb6584827dba96c9b8715414a28de4db261b5b40f8ac
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+832.121 Art. 53 — footnote 34, page 19
+34        Fassung gemäss Ziff. I der V vom 24. April 2024, in Kraft seit 1. Juli 2024 (AS 2024 195).

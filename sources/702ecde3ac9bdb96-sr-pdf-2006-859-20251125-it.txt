@@ -1,0 +1,13 @@
+Excerpts of Fedlex consolidated version 2006/859/20251125, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2006/859/20251125/it/pdf-a/fedlex-data-admin-ch-eli-cc-2006-859-20251125-it-pdf-a-2.pdf
+sha256 of the source file: 64cfa3c21e663ee10a069c8ffe22d2ca6af2454ebf4117539df61a5b42bee22e
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+951.311 Art. 104 — footnote 192, page 49
+192 Introdotto dalla cifra I dell’O del 13 feb. 2013, in vigore dal 1° mar. 2013 (RU 2013 607).
+
+951.311 Art. 104 — footnote 193, page 49
+193 Nuovo testo giusta la cifra I dell’O del 13 feb. 2013, in vigore dal 1° mar. 2013 (RU 2013 607).
+
+951.311 Art. 104 — footnote 195, page 50
+195 Introdotto dalla cifra I dell’O del 13 feb. 2013, in vigore dal 1° mar. 2013 (RU 2013 607).

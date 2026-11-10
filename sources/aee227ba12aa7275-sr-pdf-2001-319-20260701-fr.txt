@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2001/319/20260701, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2001/319/20260701/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2001-319-20260701-fr-pdf-a-1.pdf
+sha256 of the source file: cb6977fc934a7fce5fa4a88ba3e76d4cd054b6d51d674247eb0b184e66ce7f43
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+172.220.111.3 Art. 83 — footnote 284, page 57
+284 Introduit par l’annexe ch. 2 de l’O du 31 oct. 2007 sur les allocations familiales, (RO 2008 145). Abrogé par le ch. I de l’O du 6 mars 2009, avec effet au 1 er janv. 2009 (RO 2009 1137).

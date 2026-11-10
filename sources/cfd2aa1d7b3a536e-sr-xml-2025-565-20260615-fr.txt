@@ -1,0 +1,58 @@
+Excerpts of Fedlex consolidated version 2025/565/20260615, French, XML
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2025/565/20260615/fr/xml/fedlex-data-admin-ch-eli-cc-2025-565-20260615-fr-xml.xml
+sha256 of the source file: 75bb0aa2c4d221086219ddac22bc7b15af9bd566ab953544e88d29773f33eb6b
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+916.161 Art. 107 — opening tag of the article element and its number
+<article eId="art_119"><num><b>Art. 107</b></num>
+
+916.161 Art. 119 — opening tag of the article element and its number
+<article eId="art_119"><num><b>Art. 119</b></num>
+
+916.161 Art. 108 — opening tag of the article element and its number
+<article eId="art_120"><num><b>Art. 108</b></num>
+
+916.161 Art. 120 — opening tag of the article element and its number
+<article eId="art_120"><num><b>Art. 120</b></num>
+
+916.161 Art. 106 — opening tag of the article element and its number
+<article eId="art_118"><num><b>Art. 106</b></num>
+
+916.161 Art. 118 — opening tag of the article element and its number
+<article eId="art_118"><num><b>Art. 118</b></num>
+
+916.161 Art. 111 — opening tag of the article element and its number
+<article eId="art_123"><num><b>Art. 111</b></num>
+
+916.161 Art. 123 — opening tag of the article element and its number
+<article eId="art_123"><num><b>Art. 123</b></num>
+
+916.161 Art. 96 — opening tag of the article element and its number
+<article eId="art_117"><num><b>Art. 96</b></num>
+
+916.161 Art. 117 — opening tag of the article element and its number
+<article eId="art_117"><num><b>Art. 117</b></num>
+
+916.161 Art. 109 — opening tag of the article element and its number
+<article eId="art_121"><num><b>Art. 109</b></num>
+
+916.161 Art. 121 — opening tag of the article element and its number
+<article eId="art_121"><num><b>Art. 121</b></num>
+
+916.161 Art. 95 — opening tag of the article element and its number
+<article eId="art_116"><num><b>Art. 95</b></num>
+
+916.161 Art. 116 — opening tag of the article element and its number
+<article eId="art_116"><num><b>Art. 116</b></num>
+
+916.161 Art. 94 — opening tag of the article element and its number
+<article eId="art_115"><num><b>Art. 94</b></num>
+
+916.161 Art. 115 — opening tag of the article element and its number
+<article eId="art_115"><num><b>Art. 115</b></num>
+
+916.161 Art. 110 — opening tag of the article element and its number
+<article eId="art_122"><num><b>Art. 110</b></num>
+
+916.161 Art. 122 — opening tag of the article element and its number
+<article eId="art_122"><num><b>Art. 122 </b></num>

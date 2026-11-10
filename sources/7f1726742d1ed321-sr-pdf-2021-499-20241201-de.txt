@@ -1,0 +1,26 @@
+Excerpts of Fedlex consolidated version 2021/499/20241201, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2021/499/20241201/de/pdf-a/fedlex-data-admin-ch-eli-cc-2021-499-20241201-de-pdf-a.pdf
+sha256 of the source file: 1fac5ee15668148df094d771e2f70f657f3e6c6f087abdd9fbc0a09160c8ca35
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+415.012 Art. 10 — article text
+Art. 10          Diplom und Diploma Supplement
+1 Bei erfolgreichem Abschluss eines Studienganges werden ein Diplom sowie ein
+Diploma Supplement abgegeben.
+2 Das Diplom wird in Würdigung der Abschlussnote mit folgenden Prädikaten ausge-
+stellt:
+   Note 6.00         = summa cum laude
+   ab Note 5.50      = insigni cum laude
+   ab Note 5.00      = magna cum laude
+   ab Note 4.50      = cum laude
+   ab Note 4.00      = rite
+2 Das Diploma Supplement stellt hinreichende Daten zur Verfügung, die die interna-
+tionale Transparenz und die akademische und berufliche Anerkennung der Qualifika-
+tion verbessern.
+3 Wer die Bedingungen für den Studienabschluss nicht erfüllt, erhält nur eine Leis-
+tungsübersicht mit den individuell erbrachten Leistungen.
+4 Hat eine Studierende oder ein Studierender mehr ECTS-Punkte erworben, als zum
+Studienabschluss erforderlich sind, so werden diese im Diploma Supplement ausge-
+wiesen.
+2. Kapitel: Bachelor- und Masterstudiengang
+1. Abschnitt: Zulassung

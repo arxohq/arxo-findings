@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2003/754/20230101, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2003/754/20230101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2003-754-20230101-fr-pdf-a-1.pdf
+sha256 of the source file: 2c5eb9e414922f3daf21a1d43bce52200500157adf376e5aa5428d72273f7e55
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+512.31 Art. 48 — footnote 66, page 15
+66        Abrogés par le ch. II 37 de l’O du 8 nov. 2006 (Révision totale de la procédure fédérale), avec effet au 1er janv. 2007 (RO 2006 4705).
+
+512.31 Art. 48 — footnote 67, page 15
+67        Nouvelle teneur selon le ch. II 37 de l’O du 8 nov. 2006 (Révision totale de la procédure fédérale), en vigueur depuis le 1er janv. 2007 (RO 2006 4705).

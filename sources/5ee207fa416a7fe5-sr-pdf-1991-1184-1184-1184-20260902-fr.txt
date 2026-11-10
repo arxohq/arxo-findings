@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1991/1184_1184_1184/20260902, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1991/1184_1184_1184/20260902/fr/pdf-a/fedlex-data-admin-ch-eli-cc-1991-1184_1184_1184-20260902-fr-pdf-a.pdf
+sha256 of the source file: b310d7ad91b5e6d6dd868639ea76adb7313837c85e4b275f1b85130eaca48b55
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+642.11 Art. 56 — footnote 134, page 37
+134 Nouvelle teneur selon l’annexe ch. 3 de la LF du 8 oct. 2004 (Droit des fondations), en vigueur depuis le 1er janv. 2006 (RO 2005 4545; FF 2003 7425 7463).

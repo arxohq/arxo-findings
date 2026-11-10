@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2012/855/20250101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2012/855/20250101/it/pdf-a/fedlex-data-admin-ch-eli-cc-2012-855-20250101-it-pdf-a-1.pdf
+sha256 of the source file: 3c484facbb874bcabb0694400e06ca65c31a9a8e2c6e19fe4c7a581ad4c669bc
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+641.71 Art. 16 Abs. 2 — footnote 44
+44        Nuovo testo giusta il n. I 2 della LF del 20 di. 2019 che proroga i termini delle agevola- zioni fiscali per il gas naturale, il gas liquido e i biocarburanti e che modifica la legge sul CO2, in vigore dal 1° gen. 2021 (RU 2020 1269; FF 2019 4719, 4827).

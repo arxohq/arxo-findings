@@ -1,0 +1,126 @@
+{
+  "id": "ARXO-2026-0958",
+  "url": "https://arxo.io/findings/ARXO-2026-0958/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "CH",
+  "jurisdiction_detail": "federal",
+  "act": "Classified Compilation of Federal Legislation (SR)",
+  "acts": [],
+  "location": "SR 631.144.0",
+  "text": {
+    "en": {
+      "title": "SR 631.144.0: merged citation «RU 2007 14691» in an Italian footnote",
+      "summary": "In the Italian version of SR 631.144.0, Art. 9 para. 3, a footnote cites «RU 2007 14691». The footnote links lead to two entries of the Official Compilation, AS 2007 1 and AS 2007 1469: the two citations have been merged into one. Each finding was read in the PDF of the consolidated version, which is the authoritative form.",
+      "impact": "The merged citation leads to no entry of the Official Compilation; the reader has to find the two entries from the links. No effect on the content of the provision.",
+      "correction": "The Federal Chancellery decides how to correct each place; the evidence gives the wording of each language version."
+    },
+    "de": {
+      "title": "SR 631.144.0: zusammengezogene Fundstelle «RU 2007 14691» in einer italienischen Fussnote",
+      "summary": "In der italienischen Fassung von SR 631.144.0, Art. 9 Abs. 3, nennt eine Fussnote «RU 2007 14691». Die Verlinkung der Fussnote führt auf zwei Fundstellen der Amtlichen Sammlung, AS 2007 1 und AS 2007 1469: die beiden Fundstellen sind zu einer zusammengezogen. Jeder Befund wurde im PDF der konsolidierten Fassung gelesen, das massgebend ist."
+    },
+    "fr": {
+      "title": "RS 631.144.0 : citation fusionnée «RU 2007 14691» dans une note italienne",
+      "summary": "Dans la version italienne du RS 631.144.0, art. 9, al. 3, une note cite «RU 2007 14691». Les liens de la note mènent à deux entrées du Recueil officiel, RO 2007 1 et RO 2007 1469 : les deux citations ont été fusionnées en une seule. Chaque constat a été lu dans le PDF de la version consolidée, qui fait foi."
+    },
+    "it": {
+      "title": "RS 631.144.0: citazione fusa «RU 2007 14691» in una nota italiana",
+      "summary": "Nella versione italiana della RS 631.144.0, art. 9 cpv. 3, una nota cita «RU 2007 14691». I collegamenti della nota portano a due voci della Raccolta ufficiale, RU 2007 1 e RU 2007 1469: le due citazioni sono state fuse in una sola. Ogni constatazione è stata letta nel PDF della versione consolidata, che è determinante."
+    }
+  },
+  "status": {
+    "badge": "accepted",
+    "label": {
+      "en": "Accepted by the addressee",
+      "ru": "Принято адресатом"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "accepted",
+    "last_checked": "2026-11-09",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The consolidated text",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "s0389-it",
+        "source": "Fedlex consolidated version 1989/1781_1781_1781/20220101, Italian, PDF",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of January 1, 2022",
+        "locator": "SR 631.144.0, Art. 9 para. 3, Italian version, footnote 13 (page 5)",
+        "text": "13 Nuovo testo giusta l’all. 4 n. 13 dell’O del 1° nov. 2006 sulle dogane, in vigore dal 1° mag. 2007 (RU 2007 14691).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1989/1781_1781_1781/20220101/it/pdf-a/fedlex-data-admin-ch-eli-cc-1989-1781_1781_1781-20220101-it-pdf-a-2.pdf",
+        "sha256": "2faa1952a4b6a0aea6e23bb200f661fb25228cc2c14deb3c6e0e0bc478238876",
+        "retrieved": "2026-11-05",
+        "copy": "sources/608cae7ce7303d1e-sr-pdf-1989-1781-1781-1781-20220101-it.txt",
+        "copy_sha256": "608cae7ce7303d1eb0472743a6703e9f6a8f0ea3f29cf95c98d830b2cc68afa2",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09T05:57:30Z",
+      "institution": "Federal Chancellery",
+      "channel": "email",
+      "role": "publishes the Official Compilation (AS) and the Classified Compilation (SR)"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Federal Chancellery",
+      "role": "publishes the Official Compilation (AS) and the Classified Compilation (SR)"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-11-10T10:50:00Z",
+      "institution": "Federal Chancellery",
+      "kind": "acknowledged",
+      "summary": {
+        "en": "The Federal Chancellery (Official Publications Centre) replied that it will make the necessary corrections as soon as possible. The corrections have not yet been published."
+      }
+    }
+  ],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran checks over the Classified Compilation of Federal Legislation, read each finding in the PDF of the consolidated version and had it read again by a second AI reader; the coordinator of the checks decided each finding."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:45:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Federal Chancellery (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "acknowledged",
+      "text": "Accepted: Federal Chancellery"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

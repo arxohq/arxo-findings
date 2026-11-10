@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 33/189_191_191/20260401, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/33/189_191_191/20260401/de/pdf-a/fedlex-data-admin-ch-eli-cc-33-189_191_191-20260401-de-pdf-a.pdf
+sha256 of the source file: e69013c22db57585aaf718e4d452e721e4db491b52b2664f881bac666d0c6f1a
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+721.80 Art. 60 Abs. 3bis — footnote 101
+101 Eingefügt durch Ziff. I 1 des BG vom 23. Dez. 2011, in Kraft seit 1. Jul 2012 (AS 2012 3229; BBl 2011 2901 3907).
+
+721.80 Art. 62 Abs. 2bis — footnote 108
+108   Eingefügt durch Ziff. I 1 des BG vom 23. Dez. 2011, in Kraft seit 1. Jul 2012 (AS 2012 3229; BBl 2011 2901 3907).

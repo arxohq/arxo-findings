@@ -1,0 +1,22 @@
+Excerpts of Fedlex consolidated version 2025/565/20260615, Italian, XML
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2025/565/20260615/it/xml/fedlex-data-admin-ch-eli-cc-2025-565-20260615-it-xml.xml
+sha256 of the source file: a492470914d48eee47ba4e252e4dc4128d9c584b4917de3853754de6cfba9290
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+916.161 Art. 138 — opening tag of the article element and its number
+<article eId="art_142"><num><b>Art. 138</b></num>
+
+916.161 Art. 142 — opening tag of the article element and its number
+<article eId="art_142"><num><b>Art. 142</b></num>
+
+916.161 Art. 126 — opening tag of the article element and its number
+<article eId="art_141"><num><b>Art. 126</b></num>
+
+916.161 Art. 141 — opening tag of the article element and its number
+<article eId="art_141"><num><b>Art. 141</b></num>
+
+916.161 Art. 140 — opening tag of the article element and its number
+<article eId="art_143"><num><b>Art. 140</b></num>
+
+916.161 Art. 143 — opening tag of the article element and its number
+<article eId="art_143"><num><b>Art. 143</b></num>

@@ -1,0 +1,37 @@
+Excerpts of Fedlex consolidated version 2016/18/20220101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2016/18/20220101/de/pdf-a/fedlex-data-admin-ch-eli-cc-2016-18-20220101-de-pdf-a-3.pdf
+sha256 of the source file: 98d6579f59cbfc9bb02f25f2cb9a4550dfc352a97ddb9885e8fd2fc6b14d90e4
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+734.5 Art. 10 — article text
+Art. 10               Technische Unterlagen
+1 Die Herstellerin erstellt vor dem Inverkehrbringen der Geräte die technischen Un-
+terlagen und hält sie auf dem aktuellen Stand. Die technischen Unterlagen müssen:
+     a.      die Bewertung der Konformität des Geräts mit den grundlegenden Anforde-
+             rungen dieser Verordnung ermöglichen; und
+     b.      die Konformität des Geräts mit den genannten Anforderungen nachweisen.
+2 Sie führen die anwendbaren Anforderungen auf und erfassen den Entwurf, die Her-
+stellung und den Betrieb des Geräts, soweit sie für die Bewertung von Belang sind.
+3 Die technischen Unterlagen müssen eine geeignete Risikoanalyse und -bewertung
+enthalten.17
+4 Die technischen Unterlagen müssen gegebenenfalls mindestens die folgenden Ele-
+mente enthalten:
+     a.      eine allgemeine Beschreibung des Geräts;
+     b.      Entwürfe, Fertigungszeichnungen und -pläne von Bauteilen, Baugruppen,
+             Schaltkreisen usw.;
+Elektromagnetische Verträglichkeit. V                                                    734.5
+     c.      Beschreibungen und Erläuterungen, die zum Verständnis dieser Zeichnungen
+             und Pläne sowie des Funktionierens des Geräts erforderlich sind;
+     d.      eine Aufstellung, welche technischen Normen nach Artikel 5 vollständig oder
+             in Teilen angewendet worden sind, und, wenn diese Normen nicht angewen-
+             det wurden, eine Beschreibung, mit welchen Lösungen den grundlegenden
+             Anforderungen dieser Verordnung entsprochen wurde, einschliesslich einer
+             Aufstellung, welche anderen einschlägigen technischen Spezifikationen ange-
+             wendet wurden; im Fall von teilweise angewendeten technischen Normen
+             nach Artikel 5 sind die angewendeten Teile in den technischen Unterlagen
+             anzugeben;
+     e.      die Ergebnisse der Konstruktionsberechnungen, Prüfungen usw.;
+     f.      die Prüfberichte.
+5 Sind die technischen Unterlagen nicht in einer Amtssprache der Schweiz oder in
+Englisch abgefasst, so kann das BAKOM die vollständige oder teilweise Übersetzung
+in eine der vorgenannten Sprachen verlangen.

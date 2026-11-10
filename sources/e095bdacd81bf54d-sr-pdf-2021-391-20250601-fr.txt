@@ -1,0 +1,16 @@
+Excerpts of Fedlex consolidated version 2021/391/20250601, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2021/391/20250601/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2021-391-20250601-fr-pdf-a.pdf
+sha256 of the source file: 6d37b2be936e6d64934d78171ff0013a88778824a5463c75403f45eca39b11ad
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+832.107 Art. 5 — article text
+Art. 5           Fixation des nombres maximaux par les cantons
+1 Les cantons divisent, pour chaque domaine de spécialisation médicale, l’offre de
+médecins (art. 2) par le taux de couverture par domaine de spécialisation médicale
+pour la région correspondante (art. 3), afin d’obtenir les nombres maximaux néces-
+saires à une couverture économique des besoins sur leur territoire.
+2 Ils peuvent prévoir un facteur de pondération afin de tenir compte de circonstances
+qui ne sont pas prises en considération dans le calcul du taux de couverture. Pour le
+fixer, ils se fondent notamment sur des enquêtes auprès de spécialistes, sur des sys-
+tèmes d’indicateurs ou sur des valeurs de référence.
+3 Ils réexaminent périodiquement les nombres maximaux et les adaptent si nécessaire.

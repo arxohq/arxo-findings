@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2009/615/20250331, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2009/615/20250331/de/pdf-a/fedlex-data-admin-ch-eli-cc-2009-615-20250331-de-pdf-a-1.pdf
+sha256 of the source file: 60e352f2e9355e91a35f17354d5ded7a9e9beb753ba8283eb431549b6583a32c
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+641.20 Art. 115a — footnote 222, page 71
+222 Eingefügt durch Ziff. I des BG vom 30. Sept. 2016, in Kraft seit 1. Jan. 2018 (AS 2017 3575; BBl 2015 2615). Die Berichtigung der RedK der BVers vom 30. Aug. 2017 betrifft nur den italienischen Text (AS 2017 4857).

@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1971/172_176_176/20200101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1971/172_176_176/20200101/it/pdf-a/fedlex-data-admin-ch-eli-cc-1971-172_176_176-20200101-it-pdf-a-3.pdf
+sha256 of the source file: b6cf2ad7cc3439f267aab5d149ea37c4d1e806a06c0686cc4efc00b3ba45d986
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+844 Art. 6 — footnote 14
+14    Nuovo testo giusta la cifra I della LF del 5 oct. 1990, in vigore dal 1° feb. 1991 (RU 1991 202, FF 1989 III 362).

@@ -1,0 +1,17 @@
+Excerpts of Fedlex consolidated version 2004/626/20261001, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2004/626/20261001/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2004-626-20261001-fr-pdf-a.pdf
+sha256 of the source file: a58344aefd708865aff2c2556119bc515b88dd058a4f9b1ba3e44dc0869ef0d4
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+955.23 Art. 9 — article text
+Art. 9                Information de l’intermédiaire financier et du conseiller63
+1 Le bureau informe l’intermédiaire financier ou le conseiller qu’il transmet les infor-
+mations à l’autorité de poursuite pénale compétente conformément à l’art. 23, al. 5,
+LBA.64
+2 Si l’affaire est transmise à une autorité de poursuite pénale, toute information ulté-
+rieure de l’intermédiaire financier ou du conseiller est soumise à l’autorisation préa-
+lable de celle-ci.65
+3 Si le bureau transmet les informations communiquées à une autorité de poursuite
+pénale conformément à l’art. 23, al. 4, LBA ou s’il reçoit une communication en vertu
+de l’art. 9, al. 1, let. c, LBA, il indique à l’intermédiaire financier la date d’échéance
+du blocage des avoirs fixée conformément à l’art. 10, al. 2, LBA.66

@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 11/529_488_529/20260101, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/11/529_488_529/20260101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-11-529_488_529-20260101-fr-pdf-a.pdf
+sha256 of the source file: 881d38191b8e0c24faa61eff1c2b61b882a0523b2f6bfdef482ad1b15dc46ca7
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+281.1 Art. 43 — footnote 84, page 16
+84    Nouvelle teneur selon l’art. 31 ch. 2 de la LF du 18 déc. 2015 sur les valeurs patrimoniales d’origine illicite, en vigueur depuis le 1er juil. 2016 (RO 2016 1803; FF 2014 5121).
+
+281.1 Art. 43 — footnote 86, page 16
+86    Nouvelle teneur selon l’art. 31 al. 2 ch. 2 de la LF du 18 déc. 2015 sur les valeurs patrimo- niales d’origine illicite, en vigueur depuis le 1er juil. 2016 (RO 2016 1803; FF 2014 5121).

@@ -1,0 +1,26 @@
+Excerpts of Fedlex consolidated version 2016/786/20260101, Italian, XML
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2016/786/20260101/it/xml/fedlex-data-admin-ch-eli-cc-2016-786-20260101-it-xml-2.xml
+sha256 of the source file: c3f06c7987e3a72926e0bf0ab9495b290699e727fb28d2ae5d5902c368795822
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+653.11 Art. 19 — opening tag of the article element and its number
+<article eId="art_19"><num><b>Art. 19</b></num>
+
+653.11 Art. 35b — opening tag of the article element and its number
+<article eId="art_19"><num><b>Art. 35</b><i>b</i><authorialNote>
+		<p> Introdotto dalla cifra I dell’O del 26 nov. 2025, in vigore dal 1° gen. 2026  (<ref href="https://fedlex.data.admin.ch/eli/oc/2025/817">RU <b>2025</b> 817</ref>).</p>
+	</authorialNote></num>
+
+653.11 Art. 18 — opening tag of the article element and its number
+<article eId="art_18"><num><b>Art. 18</b></num>
+
+653.11 Art. 35a — opening tag of the article element and its number
+<article eId="art_18"><num><b>Art. 35</b><i>a</i><authorialNote>
+		<p> Introdotto dalla cifra I dell’O dell’11 nov. 2020, in vigore dal 1° gen. 2021  (<ref href="https://fedlex.data.admin.ch/eli/oc/2020/910">RU <b>2020</b> 5251</ref>).</p>
+	</authorialNote></num>
+
+653.11 Art. 20 — opening tag of the article element and its number
+<article eId="art_20"><num><b>Art. 20</b></num>
+
+653.11 Art. 36 — opening tag of the article element and its number
+<article eId="art_20"><num><b>Art. 36</b></num>

@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2015/388/20190801, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2015/388/20190801/de/pdf-a/fedlex-data-admin-ch-eli-cc-2015-388-20190801-de-pdf-a-1.pdf
+sha256 of the source file: c85ef89a62840312c4583158db3b9bc14f138bb1682faf4319e50763d6f7155a
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+935.121.41 Art. 14 — footnote 5, page 4
+5        Fassung gemäss Ziff. I des Beschlusses der Generalversammlung der SGH vom 27. Juni 2019, vom BR genehmigt am 15. März 2019 und in Kraft seit 1. Aug. 2019 (AS 2019 2097).

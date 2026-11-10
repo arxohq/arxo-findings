@@ -1,0 +1,35 @@
+Excerpts of Fedlex consolidated version 2004/108/20250101, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2004/108/20250101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2004-108-20250101-fr-pdf-a-1.pdf
+sha256 of the source file: 9dc6da9b8aef1b8f02c306668a885649d19d458599027faba5026c473cb90fe3
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+510.710 Art. 41 — article text
+Art. 41           Autres véhicules
+1 Les prescriptions relatives aux exigences techniques pour les véhicules routiers ainsi
+que pour la construction, l’équipement, les dimensions et le poids des véhicules (puis-
+sance du moteur, émissions de fumée et de gaz d’échappement, niveau sonore, etc.)
+qui étaient en vigueur au moment de l’établissement de la réception par type du véhi-
+cule sont également applicables aux véhicules militaires du même type mis en circu-
+lation ultérieurement.
+1bis L’installation de sièges supplémentaires dans le compartiment de charge des vé-
+hicules à moteur lourds, notamment des camions, peut être autorisée.102
+2 Les prescriptions de l’ADR103 ainsi que du SDR104 qui concernent la construction
+et l’équipement des véhicules ne sont pas applicables aux véhicules militaires pour le
+transport en colis, qui ont été mis en circulation avant le 1er janvier 2000 et dont
+l’usage est soumis aux annexes 1 et 2 de la présente ordonnance. Elles sont en re-
+vanche applicables aux véhicules équipés de citernes fixes (véhicules-citernes), de
+citernes démontables, de conteneurs-citernes, de caisses mobiles citernes ou de ci-
+ternes mobiles ainsi qu’aux véhicules batteries et aux conteneurs à gaz à éléments
+multiples (CGEM). Les exceptions figurent dans l’annexe 1.105
+3 Les véhicules blindés à roues ou à chenilles pourvus d’un système d’extinction de
+bord ou d’un extincteur de 2 kg au moins sont exemptés de l’obligation d’être équipés
+d’extincteurs conformément à l’art. 114, al. 2, OETV106.107
+3bis Les véhicules blindés à roues sont traités comme les véhicules à chenilles en ce
+qui concerne la mesure de la fumée, des gaz d’échappement, de l’évaporation et des
+émissions sonores. Les véhicules à roues à carburant modulable doivent au minimum
+remplir la norme d’émission Euro 3 lorsqu’ils fonctionnent avec le carburant standard
+prescrit par le fabricant. Les autres véhicules militaires doivent remplir les normes
+relatives à la fumée, aux gaz d’échappement, à l’évaporation et aux émissions sonores
+dans la mesure admissible pour leur usage.108
+4 Les intervalles des contrôles périodiques pour les véhicules militaires sont fixés par
+l’OCRNA.

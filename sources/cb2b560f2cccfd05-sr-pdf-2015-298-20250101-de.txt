@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2015/298/20250101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2015/298/20250101/de/pdf-a/fedlex-data-admin-ch-eli-cc-2015-298-20250101-de-pdf-a.pdf
+sha256 of the source file: 27f677824ba6f9039cebdf64807a8462922103a3b91fd37cd4346a049c126ddd
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+818.101.1 Art. 64d — footnote 21, page 22
+21        Eingefügt durch Ziff. I der V vom 3. Nov. 2021 (AS 2021 648). Fassung gemäss Ziff. I der V vom 29. Nov. 2023, in Kraft vom 1. Jan. 2024 bis zum 30. Juni 2024 (AS 2023 791).
+
+818.101.1 Art. 64c — footnote 20, page 22
+20        Eingefügt durch Ziff. I der V vom 3. Febr. 2021 (AS 2021 66). Fassung gemäss Ziff. I der V vom 29. Nov. 2023, in Kraft vom 1. Jan. 2024 bis zum 30. Juni 2024 (AS 2023 791).

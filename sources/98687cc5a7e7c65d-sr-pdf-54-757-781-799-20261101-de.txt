@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 54/757_781_799/20261101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/54/757_781_799/20261101/de/pdf-a/fedlex-data-admin-ch-eli-cc-54-757_781_799-20261101-de-pdf-a.pdf
+sha256 of the source file: b13bc5327703e156748a6105193d9032e24b83e2bef2ecbc9fa1f61277bd705c
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+311.0 Art. 55a — footnote 48, page 18
+48    Fassung gemäss Art. 37 Ziff. 1 des Partnerschaftsgesetzes vom 18. Juni 2004, in Kraft seit 1. Jan. 2007 (AS 2005 5685; BBl 2003 1288).

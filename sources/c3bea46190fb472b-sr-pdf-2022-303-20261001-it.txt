@@ -1,0 +1,35 @@
+Excerpts of Fedlex consolidated version 2022/303/20261001, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2022/303/20261001/it/pdf-a/fedlex-data-admin-ch-eli-cc-2022-303-20261001-it-pdf-a.pdf
+sha256 of the source file: f90eaebb724180cba295c98b8da0faf0146495a50675dbaee37bb94dc45be415
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+412.103.11 Art. 17 — article text
+Art. 17               Calcolo delle note
+1 Le note risultanti dalla media della somma delle valutazioni di diverse prestazioni
+sono arrotondate al punto o al mezzo punto successivo. Fa eccezione la nota comples-
+siva.
+2 Per i candidati esonerati dall’esame scritto nella seconda lingua nazionale o nella
+terza lingua la nota della relativa lingua è composta:
+     a.      per il 70 per cento dal risultato dell’esame del diploma di lingue straniere
+             convertito in nota; e
+     b.      per il 30 per cento dalla nota dell’esame orale.
+2 Per i candidati esonerati dall’esame scritto nella seconda lingua nazionale o in in-
+glese la nota della relativa lingua è composta:
+     a.      per il 50 per cento dal risultato dell’esame del diploma di lingue straniere con-
+             vertito in nota; e
+     b.      per il 50 per cento dalla nota dell’esame orale.12
+3 La nota dell’approccio interdisciplinare è composta:
+     a.      per l’indirizzo «creazione e arte»:
+             1. per il 50 per cento dalla nota del processo di elaborazione e del prodotto
+                   del LPI, e
+             2. per il 50 per cento dalla nota della presentazione con discussione appro-
+                   fondita del LPI;
+     b.      per gli altri indirizzi:
+             1. per un terzo dalla nota del processo di elaborazione e del prodotto del
+                  LPI, e
+             2. per due terzi dalla nota della presentazione con discussione approfondita
+                  del LPI.13
+4 La nota complessiva è data dalla media, arrotondata a un decimale, della somma
+delle note di tutte le materie dell’ambito fondamentale, dell’ambito specifico e
+dell’ambito complementare, nonché della nota dell’approccio interdisciplinare.
+412.103.11                                                            Istruzione professionale

@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2009/680/20250101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2009/680/20250101/it/pdf-a/fedlex-data-admin-ch-eli-cc-2009-680-20250101-it-pdf-a-2.pdf
+sha256 of the source file: 87ea0518b1abd1c1a04d5aaffaa151d661a70bebf76c3836d6b59ee6a02d1659
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+745.1 Art. 18 Abs. 1 Bst. c — footnote 30
+30        Introdotta dalla cifra I n. 9 della LF del 28 set. 2018 sull’organizzazione dell’infrastruttura ferroviaria, in vigore dal 1° ge. 2021 (RU 2020 1889; FF 2016 7711).

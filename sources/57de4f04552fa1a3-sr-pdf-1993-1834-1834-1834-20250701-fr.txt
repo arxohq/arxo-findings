@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1993/1834_1834_1834/20250701, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1993/1834_1834_1834/20250701/fr/pdf-a/fedlex-data-admin-ch-eli-cc-1993-1834_1834_1834-20250701-fr-pdf-a.pdf
+sha256 of the source file: 7ed75101a20070ad3c1d31e67b59d38a753d47d4ecf5e96bf7214f96cb82e1e2
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+231.21 Art. 4 — footnote 11, page 2
+11        Nouvelle teneur selon le ch. I de l’O du 2 déc. 2016, en vigueur depuis le 1er janv. 2017 (RO 2017 4827).

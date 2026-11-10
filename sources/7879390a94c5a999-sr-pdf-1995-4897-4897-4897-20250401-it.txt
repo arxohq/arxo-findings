@@ -1,0 +1,20 @@
+Excerpts of Fedlex consolidated version 1995/4897_4897_4897/20250401, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1995/4897_4897_4897/20250401/it/pdf-a/fedlex-data-admin-ch-eli-cc-1995-4897_4897_4897-20250401-it-pdf-a.pdf
+sha256 of the source file: 9d69291b543fcf713a6d68a84a736e4852b223d7e60c0a8abd46b7e3fc710cc6
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+748.215.1 Art. 9 — article text
+Art. 9           Procedura d’ammissione
+1 L’UFAC è in ogni caso l’autorità competente in materia d’ammissione.30
+1bis La procedura d’ammissione per gli aeromobili della categoria standard e per i loro
+motori ed eliche è disciplinata, in deroga all’articolo 2 paragrafo 3 lettera d del rego-
+lamento (UE) n. 2018/113931, dal regolamento (UE) n. 748/201232.33
+2 La procedura d’ammissione per gli aeromobili della categoria speciale e per i relativi
+motori ed eliche è disciplinata negli allegati.34
+3 Spetta al richiedente procurarsi i documenti relativi alle esigenze di navigabilità pre-
+viste dalla procedura d’ammissione.
+4 Il richiedente o il costruttore deve consegnare gratuitamente all’UFAC tutti i docu-
+menti necessari per l’ammissione e i relativi emendamenti. Tali documenti vanno re-
+datti in inglese o in una lingua ufficiale.
+5 L’UFAC può riconoscere i certificati di tipo stranieri se sono conformi alle esigenze
+di navigabilità definite all’articolo 10.35

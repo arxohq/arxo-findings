@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2015/26/20250101, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2015/26/20250101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2015-26-20250101-fr-pdf-a-1.pdf
+sha256 of the source file: 80fe43629caa09d5aec26ed5473f83d017661f490ccad8e21b399f95ca154f72
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+742.161 Art. 60a — footnote 91, page 21
+91    Introduit par le ch. I de l’O du 13 sept. 2024, en vigueur depuis le 1er janv. 2025 (RO 2024 511).

@@ -1,0 +1,75 @@
+Excerpts of Fedlex consolidated version 2012/856/20260101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2012/856/20260101/it/pdf-a/fedlex-data-admin-ch-eli-cc-2012-856-20260101-it-pdf-a-8.pdf
+sha256 of the source file: 82387feb80d2daceff934be90ef0a6f9d7bdee515f1f7ad3d792b878c2d47819
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+641.711 Art. 17d — article text
+Art. 17d100            Prima messa in circolazione
+1 Sono considerati messi in circolazione per la prima volta in Svizzera i veicoli am-
+messi per la prima volta alla circolazione e il cui uso specificato nella prima immatri-
+colazione corrisponde all’uso effettivo da parte dell’utilizzatore finale.
+2 L’immatricolazione    in un’enclave doganale svizzera secondo l’articolo 3 capo-
+verso 3 della legge del 18 marzo 2005101 sulle dogane (LD) e nel Liechtenstein è con-
+siderata come immatricolazione in Svizzera. L’immatricolazione in un’enclave doga-
+nale estera secondo l’articolo 3 capoverso 2 LD, fatta eccezione per il Liechtenstein,
+è considerata come immatricolazione all’estero.
+3 Non sono considerati messi in circolazione per la prima volta i veicoli importati la
+cui immatricolazione all’estero risale a più di sei mesi prima della dichiarazione do-
+ganale.
+3 Non sono considerati messi in circolazione per la prima volta i veicoli importati che:
+      a.      sono stati immatricolati all’estero più di 12 mesi prima della dichiarazione
+              doganale in Svizzera; oppure
+      b.      sono stati immatricolati all’estero più di sei ma al massimo 12 mesi prima
+              della dichiarazione doganale in Svizzera e presentano un chilometraggio pari
+              o superiore a 5000 km:
+              1. al momento della dichiarazione in dogana,
+              2. al momento della prima ammissione alla circolazione, se il chilometrag-
+                   gio non è rilevato al momento della dichiarazione in dogana.102
+4 … 103
+
+641.711 Art. 147 — article text
+Art. 147
+La presente ordinanza entra in vigore il 1° gennaio 2013.
+511   Regolamento (CE) n. 595/2009 del Parlamento europeo e del Consiglio, del 18 giugno
+      2009, relativo all’omologazione dei veicoli a motore e dei motori riguardo alle emissioni
+      dei veicoli pesanti (euro VI) e all’accesso alle informazioni relative alla riparazione
+      e alla manutenzione del veicolo e che modifica il regolamento (CE) n. 715/2007
+      e la direttiva 2007/46/CE e che abroga le direttive 80/1269/CEE, 2005/55/CE e
+      2005/78/CE, GU L 188 del 18.7.2009, pag. 1; modificato da ultimo dal regolamento
+      (UE) n. 133/2014, GU L 47 del 18.2.2014, pag. 1.
+                                                                                     115 / 202
+641.711                                                                                    Imposte
+                                                                                    Allegato 1512
+                                                                                   (art. 1 cpv. 2)
+Effetto riscaldante dei gas serra sul clima in CO2eq
+Gas serra                                       Formula chimica                     Effetto in CO2eq
+Biossido di carbonio                            CO2                                                 1
+Metano                                          CH4                                                28
+Protossido di azoto, gas esilarante             N2O                                               265
+Idrofluorocarburi (HFC)
+– HFC-23                                        CHF3                                       12 400
+– HFC-32                                        CH2F2                                         677
+– HFC-41                                        CH3F                                          116
+– HFC-43-10mee                                  CF3CHFCHFCF2CF3                             1 650
+– HFC-125                                       CHF2CF3                                     3 170
+– HFC-134                                       CHF2CHF2                                    1 120
+– HFC-134a                                      CH2FCF3                                     1 300
+– HFC-143                                       CH2FCHF2                                      328
+– HFC-143a                                      CH3CF3                                      4 800
+– HFC-152                                       CH2FCH2F                                       16
+– HFC-152a                                      CH3CHF2                                       138
+– HFC-161                                       CH3CH2F                                         4
+– HFC-227ca                                     CF3CF2CHF2                                  2 640
+– HFC-227ea                                     CF3CHFCF3                                   3 350
+– HFC-236cb                                     CH2FCF2CF3                                  1 210
+– HFC-236ea                                     CHF2CHFCF3                                  1 330
+– HFC-236fa                                     CF3CH2CF3                                   8 060
+– HFC-245ca                                     CH2FCF2CHF2                                   716
+– HFC-245cb                                     CF3CF2CH3                                   4 620
+– HFC-245ea                                     CHF2CHFCHF2                                   235
+– HFC-245eb                                     CH2FCHFCF3                                    290
+– HFC-245fa                                     CHF2CH2CF3                                    858
+– HFC-263fb                                     CH3CH2CF3                                      76
+– HFC-272ca                                     CH3CF2CH3                                     144
+– HFC-329p                                      CHF2CF2CF2CF3                               2 360
+– HFC-365mfc

@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2017/643/20260101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2017/643/20260101/it/pdf-a/fedlex-data-admin-ch-eli-cc-2017-643-20260101-it-pdf-a.pdf
+sha256 of the source file: 9ba238ad0b18378a6a1cd0c3a0cae879a74a41f8113a16875519e287fa7fb006
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+412.101.222.30 Art. 24 — footnote 11, page 13
+11   Nuovo testo giusta la cifra I dell’O della SEFRI del 29 apr. 2024, in vigore dal 1° giu. 2024 (RU 2024 192).

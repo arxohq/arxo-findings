@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2006/822/20261001, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2006/822/20261001/de/pdf-a/fedlex-data-admin-ch-eli-cc-2006-822-20261001-de-pdf-a-1.pdf
+sha256 of the source file: 49e5bc8ec103f7195d25e0ef90fa41843ab308bd87917a7df9f3c370c525505b
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+951.31 Art. 20 — footnote 55, page 9
+55        Fassung gemäss Ziff. I des BG vom 17. Dez. 2021, in Kraft seit 1. März 2024 (AS 2024 53; BBl 2020 6885).

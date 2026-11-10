@@ -1,0 +1,13 @@
+Excerpts of Fedlex consolidated version 2015/366/20260424, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2015/366/20260424/it/pdf-a/fedlex-data-admin-ch-eli-cc-2015-366-20260424-it-pdf-a.pdf
+sha256 of the source file: 496e5ee31fbc0fe801c471eb4f7daca9b1a46dce0d7ac191ec00c68feffd7b44
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+813.11 Art. 75 — footnote 148, page 41
+148        Nuovo testo giusta l’all. n. 1 dell’O del 15 nov. 2023, in vigore dal 1° gen. 2024 (RU 2023 709).
+
+813.11 Art. 93c — footnote 173, page 50
+173 Nuovo testo giusta l’all. n. 1 dell’O del 15 nov. 2023, in vigore dal 1° gen. 2024 (RU 2023 709).
+
+813.11 Art. 93c — footnote 174, page 50
+174 Nuovo testo giusta l’all. n. 1 dell’O del 15 nov. 2023, in vigore dal 1° gen. 2024 (RU 2023 709).

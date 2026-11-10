@@ -1,0 +1,266 @@
+{
+  "id": "ARXO-2026-0961",
+  "url": "https://arxo.io/findings/ARXO-2026-0961/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "CH",
+  "jurisdiction_detail": "federal",
+  "act": "Classified Compilation of Federal Legislation (SR)",
+  "acts": [],
+  "location": "SR 172.010.21, Art. 6 para. 1 let. d",
+  "text": {
+    "en": {
+      "title": "SR 172.010.21 (VILB), Art. 6 para. 1 let. d refers to Art. 57 para. 2 RVOG, repealed since January 1, 2009",
+      "summary": "In all three language versions, Art. 6 para. 1 let. d of the Ordinance on Federal Real Estate Management and Logistics (VILB) refers to Art. 57 para. 2 of the Government and Administration Organisation Act (RVOG). That provision was repealed with effect from January 1, 2009 (AS 2008 5941), the day the VILB entered into force. The reference is already in the original text of the VILB in the Official Compilation; it did not arise when the SR was updated.",
+      "impact": "A reader who follows the reference finds a repealed provision instead of the rule it is meant to point to. No effect on a decision has been established.",
+      "correction": "The office in charge decides whether to replace or remove the reference."
+    },
+    "de": {
+      "title": "SR 172.010.21 (VILB), Art. 6 Abs. 1 Bst. d verweist auf Art. 57 Abs. 2 RVOG, aufgehoben seit 1. Januar 2009",
+      "summary": "Art. 6 Abs. 1 Bst. d der VILB verweist in allen drei Sprachfassungen auf Art. 57 Abs. 2 RVOG. Diese Bestimmung wurde mit Wirkung seit 1. Januar 2009 aufgehoben (AS 2008 5941); die VILB ist am selben Tag in Kraft getreten. Der Verweis steht bereits im ursprünglichen Text der VILB in der AS; er ist nicht erst bei der Nachführung der SR entstanden."
+    },
+    "fr": {
+      "title": "RS 172.010.21, art. 6, al. 1, let. d : renvoi à l'art. 57, al. 2, LOGA, abrogé depuis le 1er janvier 2009",
+      "summary": "Dans les trois versions linguistiques, l'art. 6, al. 1, let. d, de l'ordonnance RS 172.010.21 renvoie à l'art. 57, al. 2, LOGA. Cette disposition a été abrogée avec effet au 1er janvier 2009 (RO 2008 5941), jour de l'entrée en vigueur de l'ordonnance. Le renvoi figure déjà dans le texte original publié au RO ; il n'est pas né lors de la mise à jour du RS."
+    },
+    "it": {
+      "title": "RS 172.010.21, art. 6 cpv. 1 lett. d: rinvio all'art. 57 cpv. 2 LOGA, abrogato dal 1° gennaio 2009",
+      "summary": "In tutte e tre le versioni linguistiche, l'art. 6 cpv. 1 lett. d dell'ordinanza RS 172.010.21 rinvia all'art. 57 cpv. 2 LOGA. Questa disposizione è stata abrogata con effetto dal 1° gennaio 2009 (RU 2008 5941), giorno dell'entrata in vigore dell'ordinanza. Il rinvio figura già nel testo originale pubblicato nella RU; non è nato con l'aggiornamento della RS."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-09",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "CH-D001-s-de",
+        "source": "Fedlex consolidated version 2008/857/20261101, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of November 1, 2026",
+        "locator": "SR 172.010.21, Art. 6 para. 1 let. d, German version of 1. November 2026",
+        "text": "d. der ausserparlamentarischen Kommissionen nach Artikel 57 Absatz 2 RVOG;",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2008/857/20261101/de/xml/fedlex-data-admin-ch-eli-cc-2008-857-20261101-de-xml.xml",
+        "sha256": "9741c76dd8d1a1896501e57ebe3b7120606674dc99ac0e955571cfa15e51ebe3",
+        "retrieved": "2026-11-08",
+        "copy": "sources/c097c0e8da4e36e2-sr-xml-2008-857-20261101-de.txt",
+        "copy_sha256": "c097c0e8da4e36e233033a4cdcabe20ea4b9a8688cdbf1469378d68897ae216d",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-D001-s-fr",
+        "source": "Fedlex consolidated version 2008/857/20261101, French, XML",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of November 1, 2026",
+        "locator": "SR 172.010.21, Art. 6 para. 1 let. d, French version of 1. November 2026",
+        "text": "d. des commissions extraparlementaires visées à l’art. 57, al. 2, LOGA;",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2008/857/20261101/fr/xml/fedlex-data-admin-ch-eli-cc-2008-857-20261101-fr-xml.xml",
+        "sha256": "babc95fdc319ce9da11924afc7892ec42f19fe02fba0766c1f99111ce6bbc7f4",
+        "retrieved": "2026-11-08",
+        "copy": "sources/5bebbfacf8a6328e-sr-xml-2008-857-20261101-fr.txt",
+        "copy_sha256": "5bebbfacf8a6328e915d94b9867dfd5cc01bbe877f2cae3b58a2949125e10928",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-D001-s-it",
+        "source": "Fedlex consolidated version 2008/857/20261101, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of November 1, 2026",
+        "locator": "SR 172.010.21, Art. 6 para. 1 let. d, Italian version of 1. November 2026",
+        "text": "d. delle commissioni extraparlamentari di cui all’articolo 57 capoverso 2 LOGA;",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2008/857/20261101/it/xml/fedlex-data-admin-ch-eli-cc-2008-857-20261101-it-xml.xml",
+        "sha256": "d53d6c6351c4001e077fb95268d91d351330958d09d55508633336215ef25fd6",
+        "retrieved": "2026-11-08",
+        "copy": "sources/11f63c7cd291a692-sr-xml-2008-857-20261101-it.txt",
+        "copy_sha256": "11f63c7cd291a692709f3d03a95f548dbce3221136c917e69288f0747eb0aede",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-D001-t-de",
+        "source": "Fedlex consolidated version 1997/2022_2022_2022/20250501, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of May 1, 2025",
+        "locator": "Provision referred to, German version: 1997/2022_2022_2022/20250501",
+        "text": "2 …",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1997/2022_2022_2022/20250501/de/xml/fedlex-data-admin-ch-eli-cc-1997-2022_2022_2022-20250501-de-xml-3.xml",
+        "sha256": "70a7aa65b2f40449cc73ea3ae21d6bddafbc7564b290a0469575440e9ddd479b",
+        "retrieved": "2026-11-08",
+        "copy": "sources/210ec0a5e6ffee96-sr-xml-1997-2022-2022-2022-20250501-de.txt",
+        "copy_sha256": "210ec0a5e6ffee96b17cb6ca730f3f35389298517372be7f5fab8dac0a178d4b",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-D001-t-de-n1",
+        "source": "Fedlex consolidated version 1997/2022_2022_2022/20250501, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of May 1, 2025",
+        "locator": "Footnote to the provision referred to, German version",
+        "text": "Aufgehoben durch Ziff. I des BG vom 20. März 2008 (Neuordnung der ausserparlamentarischen Kommissionen), mit Wirkung seit 1. Jan. 2009 ( AS 2008 5941 ; BBl 2007 6641 ).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1997/2022_2022_2022/20250501/de/xml/fedlex-data-admin-ch-eli-cc-1997-2022_2022_2022-20250501-de-xml-3.xml",
+        "sha256": "70a7aa65b2f40449cc73ea3ae21d6bddafbc7564b290a0469575440e9ddd479b",
+        "retrieved": "2026-11-08",
+        "copy": "sources/210ec0a5e6ffee96-sr-xml-1997-2022-2022-2022-20250501-de.txt",
+        "copy_sha256": "210ec0a5e6ffee96b17cb6ca730f3f35389298517372be7f5fab8dac0a178d4b",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-D001-t-fr",
+        "source": "Fedlex consolidated version 1997/2022_2022_2022/20250501, French, XML",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of May 1, 2025",
+        "locator": "Provision referred to, French version: 1997/2022_2022_2022/20250501",
+        "text": "2 …",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1997/2022_2022_2022/20250501/fr/xml/fedlex-data-admin-ch-eli-cc-1997-2022_2022_2022-20250501-fr-xml-3.xml",
+        "sha256": "e696e64928b1157aa48794345d394a4f24f9ae2a5af2295bebd0a90158e04280",
+        "retrieved": "2026-11-08",
+        "copy": "sources/edca6c078c56410c-sr-xml-1997-2022-2022-2022-20250501-fr.txt",
+        "copy_sha256": "edca6c078c56410ce1b401909029b7ea384a805870c0c00e88b16f2c683ba253",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-D001-t-fr-n1",
+        "source": "Fedlex consolidated version 1997/2022_2022_2022/20250501, French, XML",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of May 1, 2025",
+        "locator": "Footnote to the provision referred to, French version",
+        "text": "Abrogé par le ch. I de la LF du 20 mars 2008 (Réorganisation des commissions extraparlementaires), avec effet au 1er janv. 2009 ( RO 2008 5941 ; FF 2007 6273 ).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1997/2022_2022_2022/20250501/fr/xml/fedlex-data-admin-ch-eli-cc-1997-2022_2022_2022-20250501-fr-xml-3.xml",
+        "sha256": "e696e64928b1157aa48794345d394a4f24f9ae2a5af2295bebd0a90158e04280",
+        "retrieved": "2026-11-08",
+        "copy": "sources/edca6c078c56410c-sr-xml-1997-2022-2022-2022-20250501-fr.txt",
+        "copy_sha256": "edca6c078c56410ce1b401909029b7ea384a805870c0c00e88b16f2c683ba253",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-D001-t-it",
+        "source": "Fedlex consolidated version 1997/2022_2022_2022/20250501, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of May 1, 2025",
+        "locator": "Provision referred to, Italian version: 1997/2022_2022_2022/20250501",
+        "text": "2 …",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1997/2022_2022_2022/20250501/it/xml/fedlex-data-admin-ch-eli-cc-1997-2022_2022_2022-20250501-it-xml-3.xml",
+        "sha256": "f4bc6d1bbc057be388d6a874846acacff14af3cc337d10e56907586388e41e88",
+        "retrieved": "2026-11-08",
+        "copy": "sources/4801312595948f7d-sr-xml-1997-2022-2022-2022-20250501-it.txt",
+        "copy_sha256": "4801312595948f7ddca795899d3d7fabdfb66e677be55888c56beeb1fb72d092",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-D001-t-it-n1",
+        "source": "Fedlex consolidated version 1997/2022_2022_2022/20250501, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of May 1, 2025",
+        "locator": "Footnote to the provision referred to, Italian version",
+        "text": "Abrogato dall’all. cifra I della LF del 20 mar. 2008 (Riordinamento delle commissioni extraparlamentari), con effetto dal 1° gen. 2009 ( RU 2008 5941 ; FF 2007 6027 ).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1997/2022_2022_2022/20250501/it/xml/fedlex-data-admin-ch-eli-cc-1997-2022_2022_2022-20250501-it-xml-3.xml",
+        "sha256": "f4bc6d1bbc057be388d6a874846acacff14af3cc337d10e56907586388e41e88",
+        "retrieved": "2026-11-08",
+        "copy": "sources/4801312595948f7d-sr-xml-1997-2022-2022-2022-20250501-it.txt",
+        "copy_sha256": "4801312595948f7ddca795899d3d7fabdfb66e677be55888c56beeb1fb72d092",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09T05:57:30Z",
+      "institution": "Federal Chancellery",
+      "channel": "email",
+      "role": "publishes the Official Compilation (AS) and the Classified Compilation (SR)"
+    },
+    {
+      "date": "2026-11-09T06:00:34Z",
+      "institution": "Federal Office for Buildings and Logistics",
+      "channel": "email",
+      "role": "office in charge of the ordinance"
+    },
+    {
+      "date": "2026-11-09T05:59:46Z",
+      "institution": "Internal Drafting Committee of the Federal Administration",
+      "channel": "email",
+      "role": "checks the wording of ordinances in the official languages"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Federal Office for Buildings and Logistics",
+      "role": "office in charge of the ordinance"
+    },
+    {
+      "institution": "Federal Chancellery",
+      "role": "publishes the Official Compilation (AS) and the Classified Compilation (SR)"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran checks over the Classified Compilation of Federal Legislation, read each finding in the PDF of the consolidated version and had it read again by a second AI reader; the coordinator of the checks decided each finding."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:45:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Federal Chancellery (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Federal Office for Buildings and Logistics (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Internal Drafting Committee of the Federal Administration (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

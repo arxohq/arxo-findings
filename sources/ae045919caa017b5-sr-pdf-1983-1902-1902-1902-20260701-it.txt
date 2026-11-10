@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1983/1902_1902_1902/20260701, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1983/1902_1902_1902/20260701/it/pdf-a/fedlex-data-admin-ch-eli-cc-1983-1902_1902_1902-20260701-it-pdf-a.pdf
+sha256 of the source file: 39c985a838fa32654a46bdaf8588cfb8259f425b2a0901676c02e1b9b0a8c8b5
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+742.141.1 Art. 15g — footnote 153, page 22
+153   Nuovo testo giusta la cifra I dell’O del 6 nov. 2019, in vigore dal 1° dic. 2019 (RU 2019 3571).

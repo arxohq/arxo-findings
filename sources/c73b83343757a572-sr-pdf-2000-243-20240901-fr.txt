@@ -1,0 +1,13 @@
+Excerpts of Fedlex consolidated version 2000/243/20240901, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2000/243/20240901/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2000-243-20240901-fr-pdf-a.pdf
+sha256 of the source file: 90e44afad87c45f682f01eb39461d50484994688d347cbfc59681c6cf3ee5b71
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+822.111 Art. 76 — footnote 47, page 32
+47        Abrogé par le ch. I de l’O du 6 juillet 2011, avec effet au 1er août 2011 (RO 2002 1347).
+
+822.111 Art. 81 — footnote 49, page 34
+49        Nouvelle teneur selon le ch. I de l’O du 24 avril 2002, en vigueur depuis le 1er juin 2002 (RO 2002 1347).
+
+822.111 Art. 81 — footnote 50, page 34
+50        Nouvelle teneur selon le ch. I de l’O du 6 juillet 2011, en vigueur depuis 1er août 2011 (RO 2002 1347).

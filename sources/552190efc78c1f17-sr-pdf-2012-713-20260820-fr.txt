@@ -1,0 +1,13 @@
+Excerpts of Fedlex consolidated version 2012/713/20260820, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2012/713/20260820/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2012-713-20260820-fr-pdf-a-1.pdf
+sha256 of the source file: 505652090e7fd8c7cb0670e4d75ef0999629765290246738efeb7a59d2f01db0
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+143.5 Art. 13 — footnote 29, page 6
+29    Nouvelle teneur selon le ch. I de l’O du 10 mai 2023, en vigueur depuis le 15 oct. 2023 (RO 2024 248).
+
+143.5 Art. 13 — footnote 30, page 7
+30        Nouvelle teneur selon le ch. I de l’O du 10 mai 2023, en vigueur depuis le 15 oct. 2023 (RO 2024 248).
+
+143.5 Art. 13 — footnote 31, page 7
+31        Introduite par le ch. I de l’O du 10 mai 2023, en vigueur depuis le 15 oct. 2023 (RO 2024 248).

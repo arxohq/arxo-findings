@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1985/1727_1727_1727/20251201, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1985/1727_1727_1727/20251201/it/pdf-a/fedlex-data-admin-ch-eli-cc-1985-1727_1727_1727-20251201-it-pdf-a.pdf
+sha256 of the source file: 9dee82c9ea2d15bb6d0e4414ab1ce8476e1a543fc16c9fe720207799e2792c6d
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+916.472 Art. 22 — footnote 61
+61    Abrogato dall’all. n. 4 dell’O del 23 nov. 2022, con effetto dal 1° ge. 2023 (RU 2022 723).

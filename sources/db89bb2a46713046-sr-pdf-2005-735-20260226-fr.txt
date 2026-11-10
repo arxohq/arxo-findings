@@ -1,0 +1,15 @@
+Excerpts of Fedlex consolidated version 2005/735/20260226, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2005/735/20260226/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2005-735-20260226-fr-pdf-a.pdf
+sha256 of the source file: 53077fd28c8f90a5f1f1e0587f6f7b1209a9b8a337bd845519201cc627b1dceb
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+961.011 Art. 54 — article text
+Art. 54
+1 L’entreprise d’assurance dispose de provisions techniques suffisantes.
+2 Elle dissout les provisions techniques devenues inutiles.
+3 Elle indique dans son plan d’exploitation les conditions de constitution et de disso-
+lution des provisions techniques. Elle documente les méthodes de constitution des
+provisions appliquées et leur évaluation.
+4 La FINMA règle les détails concernant le genre et le volume des provisions tech-
+niques.
+Section 2             Assurance sur la vie

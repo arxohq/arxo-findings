@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2015/388/20190801, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2015/388/20190801/it/pdf-a/fedlex-data-admin-ch-eli-cc-2015-388-20190801-it-pdf-a-1.pdf
+sha256 of the source file: c7ced87ccaad3a37817a2a39c663339d6c1fd47d4850957051bc43d864cd5223
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+935.121.41 Art. 14 — footnote 5, page 4
+5        Nuovo testo giusta il n. I della dec. dell’Assemblea generale della SCA del 27 giu. 2019, Approvata dal CF il 15 mar. 2019, in vigore dal 1° ago. 2019 (RU 2019 2067).

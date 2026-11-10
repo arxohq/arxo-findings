@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2021/751/20260101, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2021/751/20260101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2021-751-20260101-fr-pdf-a-3.pdf
+sha256 of the source file: e1e10f362db819cf3fe67221160718f1e6e00d83a1938aa77d114cf5aa14fc4b
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+916.404.1 Art. 27 — footnote 33, page 10
+33        Nouvelle teneur selon le ch. I de l’O du 29 oct. 2025, en vigueur depuis le 1er janv. 2026 (RO 2025 724).
+
+916.404.1 Art. 27 — footnote 38, page 11
+38        Nouvelle expression selon le ch. I de l’O du 29 oct. 2025, en vigueur depuis le 1er janv. 2026 (RO 2025 724). Il a été tenu compte de cette mod. dans tout le texte, sauf à l’art. 15.

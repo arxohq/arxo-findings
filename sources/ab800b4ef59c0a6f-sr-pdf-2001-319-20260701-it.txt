@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2001/319/20260701, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2001/319/20260701/it/pdf-a/fedlex-data-admin-ch-eli-cc-2001-319-20260701-it-pdf-a-2.pdf
+sha256 of the source file: 0ee90e2f99f22157f2357c2840d87f720eef7823fbeb6e432833852f89774ae5
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+172.220.111.3 Art. 83 — footnote 280, page 56
+280 Introdotto dall’all. n. 2 dell’O del 31 ott. 2007 sugli assegni familiari (RU 2008 145). Nuovo testo giusta la cifra I dell’O del 3 set. 2025, in vigore dal 1° gen. 2026 (RU 2025 569).
+
+172.220.111.3 Art. 94d — footnote 322
+322        Introdotto dalla cifra I dell’O del 15 ago. 2012, in vigore dal 15 sei. 2012 (RU 2012 4483).

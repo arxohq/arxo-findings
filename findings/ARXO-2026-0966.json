@@ -1,0 +1,316 @@
+{
+  "id": "ARXO-2026-0966",
+  "url": "https://arxo.io/findings/ARXO-2026-0966/",
+  "record_kind": "discrepancy",
+  "class": "language_versions",
+  "class_label": "Language versions",
+  "jurisdiction": "CH",
+  "jurisdiction_detail": "federal",
+  "act": "Classified Compilation of Federal Legislation (SR)",
+  "acts": [],
+  "location": "SR 420.2, Art. 9 para. 1",
+  "text": {
+    "en": {
+      "title": "SR 420.2 (SAFIG), Art. 9 para. 1: the German and Italian versions refer to Art. 10, the French version to a paragraph 10 that does not exist",
+      "summary": "Art. 9 para. 1 of the Innosuisse Act (SAFIG) names the tasks under Art. 10 in the German and Italian versions and the tasks under «al. 10», a tenth paragraph of Art. 9, in the French version. Art. 9 has eight paragraphs; Art. 10 sets the tasks of the Innovation Council. The divergence is already in the original text in the Official Compilation (AS 2016 4259, p. 5).",
+      "impact": "Readers of different language versions are sent to different provisions; at most one of them can be the one intended. No effect on a decision has been established.",
+      "correction": "The authors of the act decide which reference is intended; the evidence gives the wording of each language version."
+    },
+    "de": {
+      "title": "SR 420.2 (SAFIG), Art. 9 Abs. 1: deutsch und italienisch Verweis auf Art. 10, französisch auf einen Abs. 10, den es nicht gibt",
+      "summary": "Die deutsche und die italienische Fassung von Art. 9 Abs. 1 SAFIG nennen die Aufgaben nach Art. 10, die französische die Aufgaben nach «al. 10», also nach einem zehnten Absatz von Art. 9. Art. 9 hat acht Absätze; Art. 10 regelt die Aufgaben des Innovationsrats. Die Abweichung steht bereits im ursprünglichen Text in der AS (AS 2016 4259, S. 5)."
+    },
+    "fr": {
+      "title": "RS 420.2 (LASEI), art. 9, al. 1 : les versions allemande et italienne renvoient à l'art. 10, la version française à un al. 10 qui n'existe pas",
+      "summary": "L'art. 9, al. 1, de la loi sur Innosuisse vise les tâches de l'art. 10 dans les versions allemande et italienne et les tâches de «l'al. 10», soit un dixième alinéa de l'art. 9, dans la version française. L'art. 9 compte huit alinéas ; l'art. 10 fixe les tâches du conseil de l'innovation. La divergence figure déjà dans le texte original publié au RO (RO 2016 4259, p. 5)."
+    },
+    "it": {
+      "title": "RS 420.2 (LASEI), art. 9 cpv. 1: le versioni tedesca e italiana rinviano all'art. 10, la versione francese a un al. 10 che non esiste",
+      "summary": "L'art. 9 cpv. 1 della legge su Innosuisse indica i compiti di cui all'art. 10 nelle versioni tedesca e italiana e i compiti di cui all'«al. 10», cioè a un decimo capoverso dell'art. 9, nella versione francese. L'art. 9 ha otto capoversi; l'art. 10 stabilisce i compiti del Consiglio dell'innovazione. La divergenza figura già nel testo originale pubblicato nella RU (RU 2016 4259, p. 5)."
+    }
+  },
+  "status": {
+    "badge": "accepted",
+    "label": {
+      "en": "Accepted by the addressee",
+      "ru": "Принято адресатом"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "accepted",
+    "last_checked": "2026-11-09",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "CH-L003-s-de",
+        "source": "Fedlex consolidated version 2016/712/20230101, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of January 1, 2023",
+        "locator": "SR 420.2, Art. 9 para. 1, German version of 1. Januar 2023",
+        "text": "1 Der Innovationsrat ist das Fachorgan der Innosuisse für die Aufgaben nach Artikel 10.",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2016/712/20230101/de/xml/fedlex-data-admin-ch-eli-cc-2016-712-20230101-de-xml-9.xml",
+        "sha256": "ec66bcb5c4b7c7591148b4c9c6a50482a2311aa8dad8dab6fa6dea50ab39ecb6",
+        "retrieved": "2026-11-08",
+        "copy": "sources/ab75703145c7bd97-sr-xml-2016-712-20230101-de.txt",
+        "copy_sha256": "ab75703145c7bd97827971d6f0fe0b13575622adb2446106de49be75986335f6",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L003-s-fr",
+        "source": "Fedlex consolidated version 2016/712/20230101, French, XML",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of January 1, 2023",
+        "locator": "SR 420.2, Art. 9 para. 1, French version of 1. Januar 2023",
+        "text": "1 Le conseil de l’innovation est l’organe spécialisé d’Innosuisse pour les tâches visées à l’al. 10.",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2016/712/20230101/fr/xml/fedlex-data-admin-ch-eli-cc-2016-712-20230101-fr-xml-9.xml",
+        "sha256": "462ec68245299d5d17f8399ebca15d817b8be76c6dea883b68fbca503f9cfc57",
+        "retrieved": "2026-11-08",
+        "copy": "sources/9110425006d40a5e-sr-xml-2016-712-20230101-fr.txt",
+        "copy_sha256": "9110425006d40a5ee25fd4748747b4a60a0de1cc90dcdf08fa7362dec0a0adc4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L003-s-it",
+        "source": "Fedlex consolidated version 2016/712/20230101, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of January 1, 2023",
+        "locator": "SR 420.2, Art. 9 para. 1, Italian version of 1. Januar 2023",
+        "text": "1 Il Consiglio dell’innovazione è l’organo specializzato di Innosuisse per i compiti di cui all’articolo 10.",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2016/712/20230101/it/xml/fedlex-data-admin-ch-eli-cc-2016-712-20230101-it-xml-9.xml",
+        "sha256": "469971bb9a971881aec2792d2c4a46c62568519a27bcdd61b5ada0acaa94b770",
+        "retrieved": "2026-11-08",
+        "copy": "sources/f4eb2970fc7cbce3-sr-xml-2016-712-20230101-it.txt",
+        "copy_sha256": "f4eb2970fc7cbce3442f485edd7e6fbf06556f1b7da5142944873df879dd869f",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L003-t-de",
+        "source": "Fedlex consolidated version 2016/712/20230101, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of January 1, 2023",
+        "locator": "Provision referred to, German version: 2016/712/20230101",
+        "text": "Art. 10 Innovationsrat: Aufgaben 1 Der Innovationsrat hat die folgenden Aufgaben: a. Er entscheidet über Fördergesuche in den Bereichen nach Artikel 3 Absätze 2 und 3, soweit der Entscheid nicht einem anderen Organ zugewiesen ist; weicht er bei seinen Entscheiden von Anträgen der Geschäftsleitung",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2016/712/20230101/de/xml/fedlex-data-admin-ch-eli-cc-2016-712-20230101-de-xml-9.xml",
+        "sha256": "ec66bcb5c4b7c7591148b4c9c6a50482a2311aa8dad8dab6fa6dea50ab39ecb6",
+        "retrieved": "2026-11-08",
+        "copy": "sources/ab75703145c7bd97-sr-xml-2016-712-20230101-de.txt",
+        "copy_sha256": "ab75703145c7bd97827971d6f0fe0b13575622adb2446106de49be75986335f6",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L003-t-de-n1",
+        "source": "Fedlex consolidated version 2016/712/20230101, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of January 1, 2023",
+        "locator": "Footnote to the provision referred to, German version",
+        "text": "Fassung gemäss Anhang des BG vom 17. Dez. 2021 (Änderungen bei der Innovationsförderung), in Kraft seit 1. Jan. 2023 ( AS 2022 221 ; BBl 2021 480 ).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2016/712/20230101/de/xml/fedlex-data-admin-ch-eli-cc-2016-712-20230101-de-xml-9.xml",
+        "sha256": "ec66bcb5c4b7c7591148b4c9c6a50482a2311aa8dad8dab6fa6dea50ab39ecb6",
+        "retrieved": "2026-11-08",
+        "copy": "sources/ab75703145c7bd97-sr-xml-2016-712-20230101-de.txt",
+        "copy_sha256": "ab75703145c7bd97827971d6f0fe0b13575622adb2446106de49be75986335f6",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L003-t-de-n2",
+        "source": "Fedlex consolidated version 2016/712/20230101, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of January 1, 2023",
+        "locator": "Footnote to the provision referred to, German version",
+        "text": "Fassung gemäss Anhang des BG vom 17. Dez. 2021 (Änderungen bei der Innovationsförderung), in Kraft seit 1. Jan. 2023 ( AS 2022 221 ; BBl 2021 480 ).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2016/712/20230101/de/xml/fedlex-data-admin-ch-eli-cc-2016-712-20230101-de-xml-9.xml",
+        "sha256": "ec66bcb5c4b7c7591148b4c9c6a50482a2311aa8dad8dab6fa6dea50ab39ecb6",
+        "retrieved": "2026-11-08",
+        "copy": "sources/ab75703145c7bd97-sr-xml-2016-712-20230101-de.txt",
+        "copy_sha256": "ab75703145c7bd97827971d6f0fe0b13575622adb2446106de49be75986335f6",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L003-t-de-n3",
+        "source": "Fedlex consolidated version 2016/712/20230101, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of January 1, 2023",
+        "locator": "Footnote to the provision referred to, German version",
+        "text": "SR 420.1",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2016/712/20230101/de/xml/fedlex-data-admin-ch-eli-cc-2016-712-20230101-de-xml-9.xml",
+        "sha256": "ec66bcb5c4b7c7591148b4c9c6a50482a2311aa8dad8dab6fa6dea50ab39ecb6",
+        "retrieved": "2026-11-08",
+        "copy": "sources/ab75703145c7bd97-sr-xml-2016-712-20230101-de.txt",
+        "copy_sha256": "ab75703145c7bd97827971d6f0fe0b13575622adb2446106de49be75986335f6",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L003-t-it",
+        "source": "Fedlex consolidated version 2016/712/20230101, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of January 1, 2023",
+        "locator": "Provision referred to, Italian version: 2016/712/20230101",
+        "text": "Art. 10 Consiglio dell’innovazione: compiti 1 Il Consiglio dell’innovazione: a. decide in merito alle domande di promozione nei settori di cui all’articolo 3 capoversi 2 e 3, salvo che la decisione sia affidata a un altro organo; se le sue decisioni differiscono dalle proposte della direzione di",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2016/712/20230101/it/xml/fedlex-data-admin-ch-eli-cc-2016-712-20230101-it-xml-9.xml",
+        "sha256": "469971bb9a971881aec2792d2c4a46c62568519a27bcdd61b5ada0acaa94b770",
+        "retrieved": "2026-11-08",
+        "copy": "sources/f4eb2970fc7cbce3-sr-xml-2016-712-20230101-it.txt",
+        "copy_sha256": "f4eb2970fc7cbce3442f485edd7e6fbf06556f1b7da5142944873df879dd869f",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L003-t-it-n1",
+        "source": "Fedlex consolidated version 2016/712/20230101, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of January 1, 2023",
+        "locator": "Footnote to the provision referred to, Italian version",
+        "text": "Nuovo testo giusta l’all. della LF del 17 dic. 2021 (Modifiche in materia di promozione dell’innovazione), in vigore dal 1° gen. 2023 ( RU 2022 221 ; FF 2021 480 ).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2016/712/20230101/it/xml/fedlex-data-admin-ch-eli-cc-2016-712-20230101-it-xml-9.xml",
+        "sha256": "469971bb9a971881aec2792d2c4a46c62568519a27bcdd61b5ada0acaa94b770",
+        "retrieved": "2026-11-08",
+        "copy": "sources/f4eb2970fc7cbce3-sr-xml-2016-712-20230101-it.txt",
+        "copy_sha256": "f4eb2970fc7cbce3442f485edd7e6fbf06556f1b7da5142944873df879dd869f",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L003-t-it-n2",
+        "source": "Fedlex consolidated version 2016/712/20230101, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of January 1, 2023",
+        "locator": "Footnote to the provision referred to, Italian version",
+        "text": "Nuovo testo giusta l’all. della LF del 17 dic. 2021 (Modifiche in materia di promozione dell’innovazione), in vigore dal 1° gen. 2023 ( RU 2022 221 ; FF 2021 480 ).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2016/712/20230101/it/xml/fedlex-data-admin-ch-eli-cc-2016-712-20230101-it-xml-9.xml",
+        "sha256": "469971bb9a971881aec2792d2c4a46c62568519a27bcdd61b5ada0acaa94b770",
+        "retrieved": "2026-11-08",
+        "copy": "sources/f4eb2970fc7cbce3-sr-xml-2016-712-20230101-it.txt",
+        "copy_sha256": "f4eb2970fc7cbce3442f485edd7e6fbf06556f1b7da5142944873df879dd869f",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L003-t-it-n3",
+        "source": "Fedlex consolidated version 2016/712/20230101, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of January 1, 2023",
+        "locator": "Footnote to the provision referred to, Italian version",
+        "text": "RS 420.1",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2016/712/20230101/it/xml/fedlex-data-admin-ch-eli-cc-2016-712-20230101-it-xml-9.xml",
+        "sha256": "469971bb9a971881aec2792d2c4a46c62568519a27bcdd61b5ada0acaa94b770",
+        "retrieved": "2026-11-08",
+        "copy": "sources/f4eb2970fc7cbce3-sr-xml-2016-712-20230101-it.txt",
+        "copy_sha256": "f4eb2970fc7cbce3442f485edd7e6fbf06556f1b7da5142944873df879dd869f",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09T05:57:30Z",
+      "institution": "Federal Chancellery",
+      "channel": "email",
+      "role": "publishes the Official Compilation (AS) and the Classified Compilation (SR)"
+    },
+    {
+      "date": "2026-11-09T05:59:09Z",
+      "institution": "Drafting Committee of the Federal Assembly",
+      "channel": "email",
+      "role": "checks the wording of federal acts in the official languages"
+    },
+    {
+      "date": "2026-11-09T05:59:09Z",
+      "institution": "State Secretariat for Education, Research and Innovation",
+      "channel": "email",
+      "role": "office in charge of the act"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Drafting Committee of the Federal Assembly",
+      "role": "checks the wording of federal acts in the official languages"
+    },
+    {
+      "institution": "State Secretariat for Education, Research and Innovation",
+      "role": "office in charge of the act"
+    },
+    {
+      "institution": "Federal Chancellery",
+      "role": "publishes the Official Compilation (AS) and the Classified Compilation (SR)"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-11-10T08:07:00Z",
+      "institution": "Drafting Committee of the Federal Assembly",
+      "kind": "acknowledged",
+      "summary": {
+        "en": "The secretariat of the Drafting Committee of the Federal Assembly replied that it will take the necessary measures. No correction has yet been published."
+      }
+    }
+  ],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran checks over the Classified Compilation of Federal Legislation, read each finding in the PDF of the consolidated version and had it read again by a second AI reader; the coordinator of the checks decided each finding."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:45:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Federal Chancellery (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Drafting Committee of the Federal Assembly (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to State Secretariat for Education, Research and Innovation (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "acknowledged",
+      "text": "Accepted: Drafting Committee of the Federal Assembly"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

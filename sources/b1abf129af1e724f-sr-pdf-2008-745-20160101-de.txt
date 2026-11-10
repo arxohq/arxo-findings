@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2008/745/20160101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2008/745/20160101/de/pdf-a/fedlex-data-admin-ch-eli-cc-2008-745-20160101-de-pdf-a-1.pdf
+sha256 of the source file: 62bb5624a3c0ee378eb1592162ea460200f71c75944156d821c8efd9c4e88da0
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+954.195.1 Art. 57 — footnote 110, page 26
+110        Fassung gemäss Ziff. I der V der Übernahmekommission vom 28. Jan. 2013, von der FINMA genehmigt am 25. Febr. 2013 und in Kraft seit 1. Mai 2013 (AS 2013 1119).
+
+954.195.1 Art. 57 — footnote 115, page 26
+115        Fassung gemäss Ziff. I der V der Übernahmekommission vom 28. Jan. 2013, von der FINMA genehmigt am 25. Febr. 2013 und in Kraft seit 1. Mai 2013 (AS 2013 1119).

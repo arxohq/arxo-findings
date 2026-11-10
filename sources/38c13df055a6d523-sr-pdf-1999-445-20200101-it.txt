@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1999/445/20200101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1999/445/20200101/it/pdf-a/fedlex-data-admin-ch-eli-cc-1999-445-20200101-it-pdf-a-1.pdf
+sha256 of the source file: 97d4ad354fbc5b826827686fc682bd371e1619b90cd750f3063a3cbd2fd20bff
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+832.321 Art. 9 — footnote 15, page 5
+15        Nuovo testo giusta il n. I dell’O del 9 mag. 2012, in vigore dal 1° giu. 2012 (RU 2012 2821).

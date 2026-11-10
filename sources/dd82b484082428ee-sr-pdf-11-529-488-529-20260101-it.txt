@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 11/529_488_529/20260101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/11/529_488_529/20260101/it/pdf-a/fedlex-data-admin-ch-eli-cc-11-529_488_529-20260101-it-pdf-a.pdf
+sha256 of the source file: 80601b21466301a7dd4f3e974a074db0680e55b3de47b2c171e64f8704c5073d
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+281.1 Art. 43 — footnote 90, page 16
+90    Nuovo testo giusta l’all. n. 16 della L del 18 giu. 2004 sull’unione domestica registrata, in vigore dal 1° gen. 2007 (RU 2005 5685; FF 2003 1165).
+
+281.1 Art. 43 — footnote 92, page 17
+92    Nuovo testo giusta l’art. 31 cpv. 2 n. 2 della LF del 18 dic. 2007 sui valori patrimoniali di provenienza illecita, in vigore dal 1° lug. 2016 (RU 2016 1803; FF 2014 4555).

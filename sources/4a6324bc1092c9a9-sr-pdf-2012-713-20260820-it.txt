@@ -1,0 +1,13 @@
+Excerpts of Fedlex consolidated version 2012/713/20260820, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2012/713/20260820/it/pdf-a/fedlex-data-admin-ch-eli-cc-2012-713-20260820-it-pdf-a-1.pdf
+sha256 of the source file: 0af4b697584addaf58a415123eb4e97131f5501766bdd9c7804e44cc6651d0ad
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+143.5 Art. 13 — footnote 29, page 7
+29        Nuovo testo giusta la cifra I dell’O del 10 mag. 2023, in vigore dal 15 ott. 2023 (RU 2023 248).
+
+143.5 Art. 13 — footnote 30, page 7
+30        Nuovo testo giusta la cifra I dell’O del 10 mag. 2023, in vigore dal 15 ott. 2023 (RU 2023 248).
+
+143.5 Art. 13 — footnote 31, page 7
+31        Introdotta dalla cifra I dell’O del 10 mag. 2023, in vigore dal 15 ott. 2023 (RU 2023 248).

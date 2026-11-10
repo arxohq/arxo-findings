@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1986/2022_2022_2022/20130101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1986/2022_2022_2022/20130101/de/pdf-a/fedlex-data-admin-ch-eli-cc-1986-2022_2022_2022-20130101-de-pdf-a-2.pdf
+sha256 of the source file: cd248df2edd9aa1e2ab9544e7fea70e18ca12080d7276b8ae379743abf6c1c42
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+941.221.2 Art. 14 Abs. 3 — footnote 19
+19        Ausdruck gemäss Ziff. I der V des EJPD vom 21. Novenmber 1995, in Kraft seit 1. Februar 1996 (AS 1995 5646).

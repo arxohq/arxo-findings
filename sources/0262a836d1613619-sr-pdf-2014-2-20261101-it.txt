@@ -1,0 +1,13 @@
+Excerpts of Fedlex consolidated version 2014/2/20261101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2014/2/20261101/it/pdf-a/fedlex-data-admin-ch-eli-cc-2014-2-20261101-it-pdf-a.pdf
+sha256 of the source file: b86e008ffee9bb6df817d826207c781fa518600d8dc59a8dfde5836d81a7cb6d
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+142.512 Art. 2 — footnote 4, page 2
+4        Introdotta dalla cifra I dell’O del 10 nov. 2021 (RU 2021 735). Nuovo testo giusta la cifra III n. 2 dell’O del 26 ago. 2026, in vigore dal 1° ott. 2026 (RU 2026 444).
+
+142.512 Art. 2 — footnote 6, page 2
+6        Introdotta dalla cifra I dell’O del 10 nov. 2021 (RU 2021 735). Abrogata dalla cifra III n. 2 dell’O del 26 ago. 2026, con effetto dal 1° ott. 2026 (RU 2026 444).
+
+142.512 Art. 17 — footnote 53, page 13
+53        Nuovo testo giusta la cifra I dell’O del 10 nov. 2021, in vigore dal 1° mag. 2022 (RU 2021 735).

@@ -1,0 +1,30 @@
+Excerpts of Fedlex consolidated version 2020/1028/20240101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2020/1028/20240101/de/pdf-a/fedlex-data-admin-ch-eli-cc-2020-1028-20240101-de-pdf-a-1.pdf
+sha256 of the source file: d3451d8989a601879b6bfea9fd612a6105b1eaf17ef701529148fac35fef8a67
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+784.106 Art. 48 — footnote 30, page 18
+30        Eingefügt durch Ziff. II der V vom 28. Jun. 2023, in Kraft seit 1. Jan. 2024 (AS 2023 365).
+
+784.106 Art. 48 — article text
+Art. 48                Zuteilung und Verwaltung von Domain-Namen mit der Endung
+                       «.swiss»
+1 Dem Registrar von Domain-Namen mit der Endung «.swiss» wird jährlich eine Ver-
+waltungsgebühr von 90 Franken, ohne Mehrwertsteuer, in Rechnung gestellt für die
+Zuteilung und Verwaltung:
+784.106                                                                    Fernmeldeverkehr
+     a.      eines Domain-Namens nach den Artikeln 27 Absatz 2 und 53 Absätze 1 und
+             3 der Verordnung vom 5. November 201429 über Internet-Domains (VID);
+             oder
+     b.      eines Domain-Namens, der mittels Namenszuteilungsmandat nach den Arti-
+             keln 53 Absatz 1 Buchstabe f und 56 VID zugeteilt wird.
+2 Für die Erstellung eines Namenszuteilungsmandats nach Artikel 56 VID wird den
+Gesuchstellenden für Domain-Namen mit der Endung «.swiss» eine einmalige Ver-
+waltungsgebühr von 2500 Franken, ohne Mehrwertsteuer, in Rechnung gestellt. Die
+Gebühr für die Erneuerung des Mandats beträgt 850 Franken, ohne Mehrwertsteuer.
+3 Führt die Erstellung oder Erneuerung eines Namenszuteilungsmandats zu einem
+übermässigen Aufwand, so werden zusätzlich zu den nach Absatz 2 erhobenen Ver-
+waltungsgebühren Zuschläge nach Zeitaufwand berechnet, ohne Mehrwertsteuer.
+4 Wird nach Artikel 56 Absatz 8bis VID ein Namenszuteilungsmandat aufgelöst, so
+erhebt das BAKOM eine Gebühr, die nach Zeitaufwand berechnet wird, ohne Mehr-
+wertsteuer.30

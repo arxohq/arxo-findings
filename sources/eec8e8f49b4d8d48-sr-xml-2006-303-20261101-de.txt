@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2006/303/20261101, German, XML
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2006/303/20261101/de/xml/fedlex-data-admin-ch-eli-cc-2006-303-20261101-de-xml.xml
+sha256 of the source file: 997e8e0eba3291842dda32da2d09089e61dd5ca394ea76233deaf7f692e0ea4f
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+142.513 CH-B001 — referring provision (de)
+Art. 16 Datenschutz- und Informatiksicherheitsberatung (Art. 5 Abs. 2 BGIAA) 1 Das SEM bezeichnet eine Datenschutz- und Informatiksicherheitsberatung. Diese überprüft die Datenrichtigkeit und die Datensicherheit in ZEMIS regelmässig. 2 Es legt in einem Bearbeitungsreglement insbesondere die organisatorischen und technischen Massnahmen gegen unbefugtes Bearbeiten der Daten fest und regelt die automatische Protokollierung der Datenbearbeitung und der Dateneinsicht.

@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2015/388/20190801, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2015/388/20190801/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2015-388-20190801-fr-pdf-a-1.pdf
+sha256 of the source file: 5f395f46f6d5c1d96126f307e21f3a0b22483af655a4daa8dc03ef3e55ae828f
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+935.121.41 Art. 14 — footnote 5, page 4
+5        Nouvelle teneur selon le ch. I de la D de l’assemblée générale de la SCH du 27 juin 2019, approuvée par le CF le 15 mars 2019, en vigueur depuis le 1er août 2019 (RO 2019 2097).

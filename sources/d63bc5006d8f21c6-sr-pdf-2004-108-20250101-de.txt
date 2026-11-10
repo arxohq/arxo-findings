@@ -1,0 +1,35 @@
+Excerpts of Fedlex consolidated version 2004/108/20250101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2004/108/20250101/de/pdf-a/fedlex-data-admin-ch-eli-cc-2004-108-20250101-de-pdf-a.pdf
+sha256 of the source file: 9cdbd3e635cf16b6ccd53d23bdfef86561149abafb70a29c8a58258d99ba8490
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+510.710 Art. 41 — article text
+Art. 41          Übrige Fahrzeuge
+1 Die Vorschriften über die technischen Anforderungen an Strassenfahrzeuge sowie
+über Bau, Ausrüstung, Masse und Gewichte der Fahrzeuge (Motorleistung, Rauch-,
+Abgas- oder Geräuschwerte etc.), die zum Zeitpunkt der Erstellung der Typengeneh-
+migung des Fahrzeuges gelten, finden auch auf später erstmals in Verkehr gesetzte
+Militärfahrzeuge desselben Typs Anwendung.
+1bis Bei schweren Motorwagen, insbesondere bei Lastwagen, können zusätzliche Sitz-
+einrichtungen im Laderaum bewilligt werden.98
+2 Die Vorschriften des ADR99 sowie der SDR100, die den Bau und die Ausrüstung von
+Fahrzeugen betreffen, gelten nicht für Militärfahrzeuge für den Stückgutverkehr, die
+vor dem 1. Januar 2000 in Verkehr gesetzt wurden und deren Verwendungszweck in
+den Geltungsbereich der Anhänge 1 und 2 dieser Verordnung fällt. Sie sind jedoch
+anwendbar für Fahrzeuge mit festverbundenen Tanks (Tankfahrzeuge), Aufsetztanks,
+Tankcontainern, Tankwechselaufbauten (Tankwechselbehältern) oder ortsbewegli-
+510.710                                            Militärische Organisation und Verwaltung
+chen Tanks sowie für Batterie-Fahrzeuge und Fahrzeuge mit Gascontainern mit meh-
+reren Elementen (MEGC). Ausnahmen sind im Anhang 1 aufgeführt.101
+3 Gepanzerte Rad- und Raupenfahrzeuge, die über eine Bordfeuerlöschanlage oder
+über einen Feuerlöscher von mindestens 2 Kilogramm verfügen, sind von der Pflicht
+zur Ausrüstung mit Feuerlöscher nach Artikel 114 Absatz 2 VTS102 befreit.103
+3bis Gepanzerte Radfahrzeuge sind für die Rauch-, Abgas-, Verdampfungs- und Ge-
+räuschmessung den Raupenfahrzeugen gleichgestellt. Mehrstofftaugliche Radfahr-
+zeuge müssen beim Betrieb mit dem vom Hersteller vorgegebenen Normalkraftstoff
+mindestens die Abgasnorm Euro 3 erfüllen. Andere Militärfahrzeuge müssen die Vor-
+schriften über Rauch-, Abgas-, Verdampfungs- und Geräuschmessung so weit erfül-
+len, als ihr Verwendungszweck dies zulässt.104
+4 Die
+    periodischen Prüfungsintervalle von Militärfahrzeugen werden durch das
+SVSAA festgelegt.

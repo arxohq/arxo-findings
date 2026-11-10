@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2016/741/20260101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2016/741/20260101/it/pdf-a/fedlex-data-admin-ch-eli-cc-2016-741-20260101-it-pdf-a-4.pdf
+sha256 of the source file: 9cc02acbd3efd2fddbb5f5715902d408a155cb034dad313cf1dc5066a8c4f65c
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+414.201 Art. 57 — footnote 10
+10        Abrogato dall’all. n. 3 dell’O del 21 dec. 2016, con effetto dal 1o gen. 2017 (RU 2016 5113).

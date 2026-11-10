@@ -1,0 +1,142 @@
+Excerpts of Fedlex consolidated version 2025/565/20260615, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2025/565/20260615/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2025-565-20260615-fr-pdf-a.pdf
+sha256 of the source file: bc54ca0cdb045afbf6c52fa92b52432d7e8a1329628ebce6a421ea0a59529882
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+916.161 Art. 42 — article text
+Art. 42           Transfert de l’homologation
+1 Le service d’homologation transfère l’homologation d’un produit phytosanitaire à
+un autre titulaire:
+   a.     si le titulaire de l’homologation le demande, et
+   b.     si le nouveau titulaire y consent et remplit la condition fixée à l’art. 10, al. 2.
+2 La demande doit comprendre le nom et le consentement du nouveau titulaire de
+l’homologation.
+3 Le service d’homologation délivre la nouvelle homologation et retire l’ancienne.
+4 Le stockage, l’élimination, la mise en circulation et l’utilisation du produit phytosa-
+nitaire sont soumis aux délais visés à l’art. 45. L’ancien titulaire de l’homologation
+peut demander des délais plus courts.
+
+916.161 Art. 107 — article text
+Art. 107              Autorisation générale pour les organisations de recherche,
+                      les cantons et les entreprises
+1 Sur demande, le service d’homologation accorde aux cantons ainsi qu’aux organisa-
+tions de recherche et aux entreprises une autorisation générale pour des essais au sens
+de l’art. 106, si le demandeur dispose des connaissances et de l’expérience nécessaires
+pour la réalisation de tels essais.
+2 Les titulaires d’une autorisation générale ne sont pas tenus de faire autoriser chaque
+essai individuellement.
+3 Il n’est pas accordé d’autorisation générale pour la réalisation d’essais impliquant
+l’utilisation de micro-organismes ou d’organismes utiles ou l’épandage aérien.
+4 Le service d’homologation fixe la durée de validité de l’autorisation générale. Cette
+durée ne doit pas dépasser cinq ans.
+
+916.161 Art. 108 — article text
+Art. 108              Demande d’autorisation
+1 Les demandes d’autorisation relatives à la réalisation d’essais à des fins de recherche
+et de développement doivent être adressées au service d’homologation.
+2 La demande doit être accompagnée d’un dossier contenant toutes les informations
+disponibles nécessaires pour évaluer les effets possibles sur la santé humaine et ani-
+male ainsi que sur l’environnement, et attestant des connaissances et de l’expérience
+nécessaires pour la réalisation d’essais.
+3 Dans la demande d’autorisation générale, le demandeur doit en outre apporter la
+preuve qu’il dispose de connaissances et de l’expérience nécessaires pour réaliser de
+tels essais.
+
+916.161 Art. 106 — article text
+Art. 106              Autorisation obligatoire des essais à des fins de recherche
+                      et de développement
+1 L’autorisation du service d’homologation est requise en vue de la réalisation des
+essais ci-après à des fins de recherche et de développement:
+     a.      essais impliquant l’utilisation de produits phytosanitaires non homologués ou
+             de substances de base ou d’organismes utiles non approuvés;
+     b.      essais destinés à tester une nouvelle utilisation d’un produit phytosanitaire ho-
+             mologué ou d’une substance de base ou d’un organisme utile approuvé.
+2 Dans l’autorisation, le service d’homologation peut fixer:
+     a.      la quantité maximale qui peut être utilisée et la taille maximale de la zone dans
+             laquelle l’essai peut être réalisé;
+Produits phytosanitaires. O                                                            916.161
+     b.      les prescriptions d’utilisation destinées à prévenir les effets nocifs sur la santé
+             humaine et animale ou tout effet inacceptable sur l’environnement, notam-
+             ment à empêcher que des denrées alimentaires et aliments pour animaux con-
+             tenant des résidus entrent dans la chaîne alimentaire;
+     c.      la durée pour laquelle l’autorisation est accordée.
+3 Si la demande porte sur des essais impliquant des micro-organismes ou des orga-
+nismes utiles non approuvés, le service d’homologation consulte l’Office fédéral de
+l’environnement (OFEV) avant toute décision.
+
+916.161 Art. 111 — article text
+Art. 111               Obligation d’enregistrer
+1 Quiconque réalise des essais au sens de l’art. 106, al. 1, let. a, enregistre, pour
+chaque essai, les données suivantes:
+     a.      l’identité et la provenance du produit phytosanitaire, de la substance de base
+             ou de l’organisme utile;
+     b.      les indications concernant l’étiquetage;
+     c.      la quantité reçue et utilisée de produit phytosanitaire, de substance de base ou
+             d’organismes utiles;
+     d.      le nom et l’adresse de la personne qui a utilisé le produit phytosanitaire, la
+             substance de base ou l’organisme utile dans le cadre de l’essai;
+     e.      toutes les informations disponibles concernant les effets possibles sur l’être
+             humain, sur l’animal et sur l’environnement;
+     f.      les indications concernant le type, le lieu et le moment de l’utilisation.
+2 Les informations enregistrées sont mises à la disposition du service d’homologation
+à sa demande.
+Titre 7                Transmission et échange de données
+
+916.161 Art. 96 — article text
+Art. 96               Demande d’approbation
+1 La demande d’approbation d’un organisme utile est adressée au service d’homolo-
+gation via le système d’information au sens du titre 9.
+2 Elle doit être accompagnée d’un dossier visé à l’annexe 8. Si une partie du dossier
+n’est pas présentée, la demande doit comprendre une justification scientifique de ce
+fait.
+3 Le contenu du dossier doit remplir, outre les exigences figurant aux art. 26, 27 et 28
+de la présente ordonnance, les exigences fixées aux art. 28 et 34, al. 2, ODE55 si l’or-
+ganisme utile dont l’approbation est demandée est un organisme génétiquement mo-
+difié.
+4 La demande doit être rédigée dans une langue officielle de la Confédération ou en
+anglais. Si elle concerne un organisme génétiquement modifié ou pathogène, le dos-
+sier doit comprendre un résumé de la demande dans une des langues officielles.
+
+916.161 Art. 109 — article text
+Art. 109              Respect des valeurs maximales des résidus
+Le titulaire de l’autorisation veille à ce que les valeurs maximales des résidus sur les
+produits d’origine végétale et animale selon les dispositions édictées en vertu de
+l’ODAlOUs57 soient respectées.
+916.161                                                                    Production agricole
+
+916.161 Art. 95 — article text
+Art. 95           Conditions d’approbation
+1 Les organismes utiles sont approuvés sur demande si au moins une utilisation repré-
+sentative a montré qu’ils remplissent les conditions ci-après lorsqu’ils sont utilisés
+conformément aux bonnes pratiques phytosanitaires et dans des conditions d’utilisa-
+tion réalistes:
+   a.     ils sont suffisamment efficaces;
+   b.     ils n’ont pas d’effet nocif:
+          1. sur la santé humaine, notamment celle des groupes vulnérables,
+          2. sur la santé animale;
+   c.     ils n’ont pas d’effet inacceptable sur les végétaux ou les produits végétaux;
+   d.     ils n’ont pas d’effet inacceptable sur l’environnement, nomment:
+          1. sur les espèces qu’ils ne doivent pas combattre, y compris leur compor-
+                tement à long terme,
+          2. sur la biodiversité et l’écosystème.
+                                                                                  39 / 84
+916.161                                                                           Production agricole
+2 Les conditions d’approbation sont réputées remplies pour les organismes utiles énu-
+mérés aux annexes 1 et 2 de la norme de l’OEPP Biological control agents safely used
+in the EPPO region (PM6/353).
+3 En outre, les exigences fixées aux art. 7 à 11 ODE54 sont applicables si l’organisme
+utile est un organisme génétiquement modifié.
+
+916.161 Art. 94 — article text
+Art. 94           Principe
+1 Les produits contenant des organismes utiles ne peuvent être mis en circulation aux
+fins de la présente ordonnance que si ces organismes utiles sont approuvés conformé-
+ment à la présente ordonnance.
+2 Les organismes utiles approuvés sont listés à l’annexe 7.
+
+916.161 Art. 110 — article text
+Art. 110               Essais avec des organismes génétiquement modifiés ou pathogènes
+                       ainsi qu’avec de petits invertébrés exotiques
+L’ODE58 et l’ordonnance du 9 mai 2012 sur l’utilisation confinée59 sont applicables
+à la réalisation d’essais avec des organismes génétiquement modifiés ou pathogènes
+et d’essais avec de petits invertébrés exotiques.

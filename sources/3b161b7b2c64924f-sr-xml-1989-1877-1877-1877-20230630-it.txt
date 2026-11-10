@@ -1,0 +1,24 @@
+Excerpts of Fedlex consolidated version 1989/1877_1877_1877/20230630, Italian, XML
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1989/1877_1877_1877/20230630/it/xml/fedlex-data-admin-ch-eli-cc-1989-1877_1877_1877-20230630-it-xml-10.xml
+sha256 of the source file: b71545d2442796e1b8b70d6f8eefc09740cdbcf8a72f32e0648798c3c593a0cb
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+0.784.405 Art. 17 — opening tag of the article element and its number
+<article eId="art_17"><num><b>Art. 17</b></num>
+
+0.784.405 Art. 18bis — opening tag of the article element and its number
+<article eId="art_17"><num><b>Art. 18</b><sup>bis</sup></num>
+
+0.784.405 Art. 5 — opening tag of the article element and its number
+<article eId="art_5"><num><b>Art. 5</b><authorialNote>
+		<p> Nuovo testo giusta l’art. 7 del Prot. del 1° ott. 1998, approvato dall’AF il 23 giu. 2000, in vigore per la Svizzera dal 1° mar. 2002 (<ref href="https://fedlex.data.admin.ch/eli/oc/2002/464">RU <b>2002 </b>3130 </ref><ref href="https://fedlex.data.admin.ch/eli/oc/2002/463">3129</ref>; <ref href="https://fedlex.data.admin.ch/eli/fga/2000/253">FF <b>2000 </b>1157</ref>).</p>
+	</authorialNote></num>
+
+0.784.405 Art. 10 — opening tag of the article element and its number
+<article eId="art_5"><num><b>Art. 10</b></num>
+
+0.784.405 Art. 18 — opening tag of the article element and its number
+<article eId="art_18"><num><b>Art. 18</b></num>
+
+0.784.405 Art. 18ter — opening tag of the article element and its number
+<article eId="art_18"><num><b>Art. 18</b><sup>ter</sup></num>

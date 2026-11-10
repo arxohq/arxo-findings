@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2000/243/20240901, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2000/243/20240901/it/pdf-a/fedlex-data-admin-ch-eli-cc-2000-243-20240901-it-pdf-a.pdf
+sha256 of the source file: d887085cb5f1fbdca31de7b456af6195e0373ba47be4a4c074d08e6a17eb8d3a
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+822.111 Art. 76 — footnote 46, page 31
+46        Abrogato dal n. I dell’O del 6 lug. 2011, con effetto dal 1° ago. 2011 (RU 2011 3381).
+
+822.111 Art. 81 — footnote 49, page 33
+49        Nuovo testo giusta il n. I dell’O del 6 lug. 2011, in vigore dal 1° ago. 2011 (RU 2011 3381).

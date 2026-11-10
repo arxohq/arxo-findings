@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 1966/1637_1694_1679/20250801, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1966/1637_1694_1679/20250801/fr/pdf-a/fedlex-data-admin-ch-eli-cc-1966-1637_1694_1679-20250801-fr-pdf-a.pdf
+sha256 of the source file: dcc0fc0e65c84d9db8d66d3fa06bc122c03ff3fed30c9f4bffee2e1882f03012
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+451 Art. 24a Abs. 1 — footnote 96
+96   Nouvelle teneur selon le ch. I de la LF du 21 juin 1996, en vigueur depuis le 1er jul. 1997 (RO 1997 1152; FF 1995 IV 621).
+
+451 Art. 25a — footnote 113
+113   Introduit par le ch. 1 de l’annexe à la LF du 21 déc. 1995, en vigueur depuis le 1er jul. 1997 (RO 1997 1155; FF 1993 II 1337).

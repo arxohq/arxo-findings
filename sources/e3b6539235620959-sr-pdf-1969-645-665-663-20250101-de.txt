@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1969/645_665_663/20250101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1969/645_665_663/20250101/de/pdf-a/fedlex-data-admin-ch-eli-cc-1969-645_665_663-20250101-de-pdf-a-2.pdf
+sha256 of the source file: bc5250b56b00bd1537a04a0b86b94bc8d0f5315be55089b935149e3f0cddd68c
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+641.31 Art. 9 — footnote 23, page 4
+23    Fassung gemäss Anhang Ziff. 8 des Zollgesetzes vom 18. März 2005, in Kraft seit 1. Mai 2007 (AS 2007 1411; BBl 2004 567).

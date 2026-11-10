@@ -1,0 +1,17 @@
+Excerpts of Fedlex consolidated version 2005/735/20260226, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2005/735/20260226/de/pdf-a/fedlex-data-admin-ch-eli-cc-2005-735-20260226-de-pdf-a.pdf
+sha256 of the source file: 4981593c0cb3f3ba0d7a3dc29a7ca3b4171ec1198cb92e7d0d6138df62f88bbb
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+961.011 Art. 54 — article text
+Art. 54
+1 Das Versicherungsunternehmen verfügt über ausreichende versicherungstechnische
+Rückstellungen.
+2 Es löst nicht mehr benötigte versicherungstechnische Rückstellungen auf.
+3 Es nennt im Geschäftsplan die Bedingungen der Bildung und der Auflösung der ver-
+sicherungstechnischen Rückstellungen. Es dokumentiert die verwendeten Rückstel-
+lungsmethoden und die Bewertung der versicherungstechnischen Verbindlichkeiten.
+4 Die FINMA regelt die Einzelheiten bezüglich Art und Umfang der versicherungs-
+technischen Rückstellungen.
+Aufsichtsverordnung                                                                     961.011
+2. Abschnitt: Lebensversicherung

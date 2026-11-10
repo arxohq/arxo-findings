@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2022/232/20251001, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2022/232/20251001/it/pdf-a/fedlex-data-admin-ch-eli-cc-2022-232-20251001-it-pdf-a.pdf
+sha256 of the source file: 5105f8475f185ca14a4998b1f08694706bb3b79f30ea0f45e28404c052ecb523
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+128 Art. 10a — footnote 16, page 6
+16        Nuova espressione giusta la cifra I dell’O del 7 mar. 2025, in vigore dal 1° apr. 2025 (RU 2024 168). Di detta mod. è tenuto conto in tutto il presente testo.

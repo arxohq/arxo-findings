@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2012/856/20260101, Italian, XML
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2012/856/20260101/it/xml/fedlex-data-admin-ch-eli-cc-2012-856-20260101-it-xml-15.xml
+sha256 of the source file: 1590fa0b24db18b2617264e06296d5dab1f0a35fa2272a02668a0c26bb523331
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+641.711 Art. 146 — opening tag of the article element and its number
+<article eId="art_146"><num><b>Art. 146</b></num>
+
+641.711 Art. 147 — opening tag of the article element and its number
+<article eId="art_146"><num><b>Art. 147</b></num>

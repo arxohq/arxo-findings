@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1993/296_296_296/20250701, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1993/296_296_296/20250701/de/pdf-a/fedlex-data-admin-ch-eli-cc-1993-296_296_296-20250701-de-pdf-a-2.pdf
+sha256 of the source file: 994c85202d4a3b6e2755004c446918d68cef02f3b91558d35ceba8c8ea3c0c85
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+232.111 Art. 27 — footnote 64, page 12
+64        Fassung gemäss Ziff. I der V vom 14. März 2008, in Kraft seit 1. Juli 2008 (AS 2008 1891).

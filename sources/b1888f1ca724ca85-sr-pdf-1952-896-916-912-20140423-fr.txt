@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 1952/896_916_912/20140423, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1952/896_916_912/20140423/fr/pdf-a/fedlex-data-admin-ch-eli-cc-1952-896_916_912-20140423-fr-pdf-a-1.pdf
+sha256 of the source file: fedf011303fa387c763ce2e6f3cd7a7a9b7ab92ce82d11b7c0a34a00703c1422
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+836.11 Art. 2a — footnote 8, page 2
+8     Introduit par le ch. 2 de l’annexe à l’O du 31 oct. 2007 sur les allocations familiales, en vigueur depuis le 1er janv. 2009 (RO 2008 131).
+
+836.11 Art. 3b — footnote 16, page 3
+16        Introduit par le ch. 2 de l’annexe à l’O du 31 oct. 2007 sur les allocations familiales, en vigueur depuis le 1er janv. 2009 (RO 2008 131).

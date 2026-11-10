@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2017/810/20260601, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2017/810/20260601/de/pdf-a/fedlex-data-admin-ch-eli-cc-2017-810-20260601-de-pdf-a.pdf
+sha256 of the source file: ddf4f98f422a349481bfb9faab24d62e1d1159c7da24cb2297d1001a0191615e
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+512.21 Art. 9 — footnote 26, page 7
+26        Fassung gemäss Ziff. I der V vom 1. April 2026, in Kraft seit 1. Juni 2026 (AS 2026 174).
+
+512.21 Art. 9 — footnote 27, page 7
+27        Aufgehoben durch Ziff. I der V vom 1. April 2026, mit Wirkung seit 1. Juni 2026 (AS 2026 174).

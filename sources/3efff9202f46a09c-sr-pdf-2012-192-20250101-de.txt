@@ -1,0 +1,13 @@
+Excerpts of Fedlex consolidated version 2012/192/20250101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2012/192/20250101/de/pdf-a/fedlex-data-admin-ch-eli-cc-2012-192-20250101-de-pdf-a.pdf
+sha256 of the source file: cf616c81d472e9a5b944a3d84223dac3e77d039fdfcdd835f5bb3b1b8467ff1a
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+172.220.142.2 Art. 39 — footnote 69, page 19
+69   Fassung gemäss Ziff. I der Beschlüsse des PO ETH vom 26. März/20. Nov. 2020, vom BR genehmigt am 26. Jan. 2022, in Kraft seit 1. Jan. 2021 (AS 2022 75).
+
+172.220.142.2 Art. 39 — footnote 70, page 19
+70   Fassung gemäss Ziff. I der Beschlüsse des PO ETH vom 26. März/20. Nov. 2020, vom BR genehmigt am 26. Jan. 2022 und in Kraft seit 1. Jan. 2021 (AS 2022 75).
+
+172.220.142.2 Art. 39 — footnote 72, page 19
+72   Aufgehoben durch Ziff. I der Beschlüsse des PO ETH vom 26. März/20. Nov. 2020, vom BR genehmigt am 26. Jan. 2022, mit Wirkung seit 1. Jan. 2021 (AS 2022 75).

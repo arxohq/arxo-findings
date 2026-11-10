@@ -1,0 +1,16 @@
+Excerpts of Fedlex consolidated version 48/425_437_457/20240601, Italian, XML
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/48/425_437_457/20240601/it/xml/fedlex-data-admin-ch-eli-cc-48-425_437_457-20240601-it-xml-3.xml
+sha256 of the source file: 1539e14efa08a1aa1b7cbb39c69785d8f4f4127232db5c754de97c279826237c
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+680 Art. 71 — opening tag of the article element and its number
+<article eId="art_71"><num><b>Art. 71</b><authorialNote><p> Nuovo testo giusta il n. I della LF del 30 set. 2016, in vigore dal 1° giu. 2024  (<ref href="https://fedlex.data.admin.ch/eli/oc/2017/149">RU <b>2017</b> 777</ref>, <ref href="https://fedlex.data.admin.ch/eli/oc/2024/128"><b>2024</b> 128</ref>; <ref href="https://fedlex.data.admin.ch/eli/fga/2016/709">FF <b>2016</b> 3217</ref>).</p></authorialNote></num>
+
+680 Art. 72 — opening tag of the article element and its number
+<article eId="art_71"><num><b>Art. 72</b><authorialNote><p> Nuovo testo giusta il n. I della LF del 30 set. 2016, in vigore dal 1° gen. 2018  (<ref href="https://fedlex.data.admin.ch/eli/oc/2017/149">RU <b>2017</b> 777 </ref><ref href="https://fedlex.data.admin.ch/eli/oc/2017/567">5159</ref>; <ref href="https://fedlex.data.admin.ch/eli/fga/2016/709">FF <b>2016</b> 3217</ref>).</p></authorialNote></num>
+
+680 Art. 76b — opening tag of the article element and its number
+<article eId="art_76_b"><num><b>Art. 76</b><i>b</i><authorialNote><p> Introdotto dal n. I della LF del 30 set. 2016, in vigore dal 1° giu. 2024 (<ref href="https://fedlex.data.admin.ch/eli/oc/2017/149">RU <b>2017</b> 777</ref>, <ref href="https://fedlex.data.admin.ch/eli/oc/2024/128"><b>2024</b> 128</ref>; <ref href="https://fedlex.data.admin.ch/eli/fga/2016/709">FF <b>2016</b> 3217</ref>).</p></authorialNote></num>
+
+680 Art. 76c — opening tag of the article element and its number
+<article eId="art_76_b"><num><b>Art. 76</b><i>c</i><authorialNote><p> Introdotto dal n. I della LF del 30 set. 2016, in vigore dal 1° gen. 2017 (<ref href="https://fedlex.data.admin.ch/eli/oc/2017/149">RU <b>2017</b> 777</ref>;  <ref href="https://fedlex.data.admin.ch/eli/fga/2016/709">FF <b>2016</b> 3217</ref>).</p></authorialNote></num>

@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1998/65_65_65/20210101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1998/65_65_65/20210101/de/pdf-a/fedlex-data-admin-ch-eli-cc-1998-65_65_65-20210101-de-pdf-a-4.pdf
+sha256 of the source file: ed3cb7c068cd979fad97a82b30773aeb13eede5a96e13e0319082871fa1df448
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+784.101.115 Art. 8 — footnote 17, page 3
+17     Fassung gemäss Ziff. I der V der ComCom vom 24. Sept. 2009, vom BR genehmigt am 4. Nov. 2009, in Kraft seit 1. Jan. 2010 (AS 2009 5835).

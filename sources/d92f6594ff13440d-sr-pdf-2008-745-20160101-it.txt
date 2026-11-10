@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2008/745/20160101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2008/745/20160101/it/pdf-a/fedlex-data-admin-ch-eli-cc-2008-745-20160101-it-pdf-a-2.pdf
+sha256 of the source file: 8bae0559ca26f718dc041396b5dd97f572fd0aac36dc88c0363926d85703263b
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+954.195.1 Art. 57 — footnote 110, page 25
+110        Nuovo testo giusta il n. I dell’O della Commissione del 28 gen. 2013, approvata dalla FINMA il 25 feb. 2013, in vigore dal 1° mag. 2013 (RU 2013 1119).
+
+954.195.1 Art. 57 — footnote 115, page 25
+115        Nuovo testo giusta il n. I dell’O della Commissione del 28 gen. 2013, approvata dalla FINMA il 25 feb. 2013, in vigore dal 1° mag. 2013 (RU 2013 1119).

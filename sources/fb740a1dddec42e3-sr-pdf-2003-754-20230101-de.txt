@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2003/754/20230101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2003/754/20230101/de/pdf-a/fedlex-data-admin-ch-eli-cc-2003-754-20230101-de-pdf-a-1.pdf
+sha256 of the source file: dc329684b0e11c509ad22e881d12e40e067fb69940cd1e16003d3f28d56a6968
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+512.31 Art. 48 — footnote 63, page 15
+63        Aufgehoben durch Ziff. II 37 der V vom 8. Nov. 2006 über die Anpassung von Bundesratsverordnungen an die Totalrevision der Bundesrechtspflege, mit Wirkung seit 1. Jan. 2007 (AS 2006 4705).
+
+512.31 Art. 48 — footnote 64, page 15
+64        Fassung gemäss Ziff. II 37 der V vom 8. Nov. 2006 über die Anpassung von Bundesrats- verordnungen an die Totalrevision der Bundesrechtspflege, in Kraft seit 1. Jan. 2007 (AS 2006 4705).

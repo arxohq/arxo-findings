@@ -1,0 +1,56 @@
+Excerpts of Fedlex consolidated version 1989/1877_1877_1877/20230630, German, XML
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1989/1877_1877_1877/20230630/de/xml/fedlex-data-admin-ch-eli-cc-1989-1877_1877_1877-20230630-de-xml-10.xml
+sha256 of the source file: 5a3001b214ee2983c432002486d7c32452c6caaa09a9ee7fc03401d38558da6e
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+0.784.405 Art. 12 — opening tag of the article element and its number
+<article eId="art_18"><num><b>Art. 12</b><authorialNote>
+		<p> Fassung gemäss Art. 16 des Prot. vom 1. Okt. 1998, von der BVers genehmigt am  23. Juni 2000 und in Kraft getreten für die Schweiz am 1. März 2002  (<ref href="https://fedlex.data.admin.ch/eli/oc/2002/464">AS <b>2002</b> 3130 </ref><ref href="https://fedlex.data.admin.ch/eli/oc/2002/463">3129</ref>; <ref href="https://fedlex.data.admin.ch/eli/fga/2000/253">BBl <b>2000</b> 1291</ref>).</p>
+	</authorialNote></num>
+
+0.784.405 Art. 18 — opening tag of the article element and its number
+<article eId="art_18"><num><b>Art. 18</b></num>
+
+0.784.405 Art. 9a — opening tag of the article element and its number
+<article eId="art_14"><num><b>Art. 9</b><i>a</i><authorialNote>
+		<p> Eingefügt durch Art. 10 des Prot. vom 1. Okt. 1998, von der BVers genehmigt am  23. Juni 2000 und in Kraft getreten für die Schweiz am 1. März 2002  (<ref href="https://fedlex.data.admin.ch/eli/oc/2002/464">AS <b>2002</b> 3130 </ref><ref href="https://fedlex.data.admin.ch/eli/oc/2002/463">3129</ref>; <ref href="https://fedlex.data.admin.ch/eli/fga/2000/253">BBl <b>2000</b> 1291</ref>).</p>
+	</authorialNote></num>
+
+0.784.405 Art. 14 — opening tag of the article element and its number
+<article eId="art_14"><num><b>Art. 14</b><authorialNote>
+		<p> Fassung gemäss Art. 18 des Prot. vom 1. Okt. 1998, von der BVers genehmigt am  23. Juni 2000 und in Kraft getreten für die Schweiz am 1. März 2002  (<ref href="https://fedlex.data.admin.ch/eli/oc/2002/464">AS <b>2002</b> 3130 </ref><ref href="https://fedlex.data.admin.ch/eli/oc/2002/463">3129</ref>; <ref href="https://fedlex.data.admin.ch/eli/fga/2000/253">BBl <b>2000</b> 1291</ref>).</p>
+	</authorialNote></num>
+
+0.784.405 Art. 9 — opening tag of the article element and its number
+<article eId="art_13"><num><b>Art. 9</b><authorialNote>
+		<p> Fassung gemäss Art. 9 des Prot. vom 1. Okt. 1998, von der BVers genehmigt am  23. Juni 2000 und in Kraft getreten für die Schweiz am 1. März 2002  (<ref href="https://fedlex.data.admin.ch/eli/oc/2002/464">AS <b>2002</b> 3130 </ref><ref href="https://fedlex.data.admin.ch/eli/oc/2002/463">3129</ref>; <ref href="https://fedlex.data.admin.ch/eli/fga/2000/253">BBl <b>2000</b> 1291</ref>).</p>
+	</authorialNote></num>
+
+0.784.405 Art. 13 — opening tag of the article element and its number
+<article eId="art_13"><num><b>Art. 13</b><authorialNote>
+		<p> Fassung gemäss Art. 17 des Prot. vom 1. Okt. 1998, von der BVers genehmigt am  23. Juni 2000 und in Kraft getreten für die Schweiz am 1. März 2002  (<ref href="https://fedlex.data.admin.ch/eli/oc/2002/464">AS <b>2002</b> 3130 </ref><ref href="https://fedlex.data.admin.ch/eli/oc/2002/463">3129</ref>; <ref href="https://fedlex.data.admin.ch/eli/fga/2000/253">BBl <b>2000</b> 1291</ref>).</p>
+	</authorialNote></num>
+
+0.784.405 Art. 10 — opening tag of the article element and its number
+<article eId="art_15"><num><b>Art. 10</b></num>
+
+0.784.405 Art. 15 — opening tag of the article element and its number
+<article eId="art_15"><num><b>Art. 15</b></num>
+
+0.784.405 Art. 11 — opening tag of the article element and its number
+<article eId="art_17"><num><b>Art. 11</b><authorialNote>
+		<p> Fassung gemäss Art. 15 des Prot. vom 1. Okt. 1998, von der BVers genehmigt am  23. Juni 2000 und in Kraft getreten für die Schweiz am 1. März 2002  (<ref href="https://fedlex.data.admin.ch/eli/oc/2002/464">AS <b>2002</b> 3130 </ref><ref href="https://fedlex.data.admin.ch/eli/oc/2002/463">3129</ref>; <ref href="https://fedlex.data.admin.ch/eli/fga/2000/253">BBl <b>2000</b> 1291</ref>).</p>
+	</authorialNote></num>
+
+0.784.405 Art. 17 — opening tag of the article element and its number
+<article eId="art_17"><num><b>Art. 17</b></num>
+
+0.784.405 Art. 10a — opening tag of the article element and its number
+<article eId="art_16"><num><b>Art. 10</b><i>a</i><authorialNote>
+		<p> Eingefügt durch Art. 13 des Prot. vom 1. Okt. 1998, von der BVers genehmigt am  23. Juni 2000 und in Kraft getreten für die Schweiz am 1. März 2002  (<ref href="https://fedlex.data.admin.ch/eli/oc/2002/464">AS <b>2002</b> 3130 </ref><ref href="https://fedlex.data.admin.ch/eli/oc/2002/463">3129</ref>; <ref href="https://fedlex.data.admin.ch/eli/fga/2000/253">BBl <b>2000</b> 1291</ref>).</p>
+	</authorialNote></num>
+
+0.784.405 Art. 16 — opening tag of the article element and its number
+<article eId="art_16"><num><b>Art. 16</b><authorialNote>
+		<p> Fassung gemäss Art. 22 des Prot. vom 1. Okt. 1998, von der BVers genehmigt am  23. Juni 2000 und in Kraft getreten für die Schweiz am 1. März 2002  (<ref href="https://fedlex.data.admin.ch/eli/oc/2002/464">AS <b>2002</b> 3130 </ref><ref href="https://fedlex.data.admin.ch/eli/oc/2002/463">3129</ref>; <ref href="https://fedlex.data.admin.ch/eli/fga/2000/253">BBl <b>2000</b> 1291</ref>).</p>
+	</authorialNote></num>

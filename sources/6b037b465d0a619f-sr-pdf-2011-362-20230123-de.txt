@@ -1,0 +1,19 @@
+Excerpts of Fedlex consolidated version 2011/362/20230123, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2011/362/20230123/de/pdf-a/fedlex-data-admin-ch-eli-cc-2011-362-20230123-de-pdf-a.pdf
+sha256 of the source file: 13dc9a22c5eea9fde871642819668a2f77caf51a3131cb2bb0b25c50250a1f40
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+812.121.1 Art. 39 — article text
+Art. 39         Kontrolle durch die Zollstelle
+1 Die Zollstellen behalten Sendungen mit kontrollierten Substanzen für die keine Ein-
+oder Ausfuhrbewilligung vorliegt, zurück und melden sie der Swissmedic. Ausge-
+nommen sind Sendungen nach Artikel 32 Absätze 3 und 4.
+2 Die Swissmedic klärt ab, ob eine Einfuhr- oder eine Ausfuhrbewilligung erteilt
+wurde oder ob die Voraussetzung für eine nachträgliche Beantragung nach Artikel 32
+Absatz 4 erfüllt ist.
+3 Liegt eine gültige Bewilligung vor, ohne dass ein Exemplar davon der Ware beiliegt,
+wird der Warenführerin oder dem Warenführer eine Frist gesetzt, um dieses beizu-
+bringen. Wird es beigebracht, so kann die Ware freigegeben werden.
+4 Kann eine von der Zollstelle zurückbehaltene Sendung nicht freigegeben werden, so
+entscheidet die Swissmedic über die Beschlagnahmung, die Verwendung und Entsor-
+gung nach Artikel 70 und informiert die zuständige kantonale Behörde.

@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2017/643/20260101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2017/643/20260101/de/pdf-a/fedlex-data-admin-ch-eli-cc-2017-643-20260101-de-pdf-a-1.pdf
+sha256 of the source file: b25d273488a3439d8f92135e34d3f7fee6258b097c69fbead099707664148242
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+412.101.222.30 Art. 24 — footnote 11, page 13
+11   Fassung gemäss Ziff. I der V des SBFI vom 29. April 2024, in Kraft seit 1. Juni 2024 (AS 2024 193).

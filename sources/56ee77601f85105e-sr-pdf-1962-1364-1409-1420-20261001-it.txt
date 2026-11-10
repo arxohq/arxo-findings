@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1962/1364_1409_1420/20261001, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/it/pdf-a/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-it-pdf-a-1.pdf
+sha256 of the source file: 58b71928aa748afedba9a3de4e7ee0933567e0063dd80bb4041a733adb8a14ea
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+741.11 Art. 33 — footnote 153, page 25
+153 Nuovo testo giusta la cifra I dell’O del 16 ott. 2024, in vigore dal 1° gen. 2025 (RU 2013 607).

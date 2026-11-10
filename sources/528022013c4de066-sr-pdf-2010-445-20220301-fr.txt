@@ -1,0 +1,16 @@
+Excerpts of Fedlex consolidated version 2010/445/20220301, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2010/445/20220301/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2010-445-20220301-fr-pdf-a-1.pdf
+sha256 of the source file: f06abec044cac335099ea8213989d7774885363835ada4f4d6e6c4a4a3b9994d
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+412.106.12 Art. 28 — footnote 47, page 11
+47   Abrogé par le ch. I de l’O du Conseil de la HEFP du 18 nov. 2021, avec effet au 1er mars 2022 (RO 2022 82).
+
+412.106.12 Art. 28 — footnote 48, page 11
+48   Nouvelle teneur selon le ch. I de l’O du Conseil de la HEFP du 18 nov. 2021, en vigueur depuis le 1er mars 2022 (RO 2022 82).
+
+412.106.12 Art. 28 — footnote 49, page 11
+49   Abrogés par le ch. I de l’O du Conseil de la HEFP du 18 nov. 2021, avec effet au 1er mars 2022 (RO 2022 82).
+
+412.106.12 Art. 28 — footnote 50, page 11
+50   Abrogé par le ch. I de l’O du Conseil de la HEFP du 17 juin 2021, avec effet au 1er août 2021 (RO 2021 459).

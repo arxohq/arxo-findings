@@ -1,0 +1,234 @@
+{
+  "id": "ARXO-2026-0967",
+  "url": "https://arxo.io/findings/ARXO-2026-0967/",
+  "record_kind": "discrepancy",
+  "class": "language_versions",
+  "class_label": "Language versions",
+  "jurisdiction": "CH",
+  "jurisdiction_detail": "federal",
+  "act": "Classified Compilation of Federal Legislation (SR)",
+  "acts": [],
+  "location": "SR 642.211, Art. 41b",
+  "text": {
+    "en": {
+      "title": "SR 642.211 (VStV), Art. 41b: the German and Italian versions refer to Art. 6 para. 2 VStG, the French version to Art. 6 para. 1 VStG",
+      "summary": "Art. 41b of the Withholding Tax Ordinance (VStV) refers to Art. 6 para. 2 of the Withholding Tax Act (VStG) in the German and Italian versions and to Art. 6 para. 1 in the French version. Both paragraphs exist: para. 1 concerns winnings from gambling games, para. 2 winnings from lotteries and games of skill for sales promotion; Art. 41b itself speaks of the latter in all three versions. The divergence is already in the amendment of April 10, 2024 (AS 2024 161), in force since June 1, 2024.",
+      "impact": "Readers of different language versions are sent to different provisions; at most one of them can be the one intended. No effect on a decision has been established.",
+      "correction": "The authors of the act decide which reference is intended; the evidence gives the wording of each language version."
+    },
+    "de": {
+      "title": "SR 642.211 (VStV), Art. 41b: deutsch und italienisch Verweis auf Art. 6 Abs. 2 VStG, französisch auf Art. 6 Abs. 1 VStG",
+      "summary": "Die deutsche und die italienische Fassung von Art. 41b VStV verweisen auf Art. 6 Abs. 2 VStG, die französische auf Art. 6 Abs. 1 VStG. Beide Absätze bestehen: Art. 6 Abs. 1 VStG betrifft Gewinne aus Geldspielen, Abs. 2 Gewinne aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung. Die Abweichung steht bereits in der Änderung vom 10. April 2024 (AS 2024 161), in Kraft seit 1. Juni 2024."
+    },
+    "fr": {
+      "title": "RS 642.211 (OIA), art. 41b : les versions allemande et italienne renvoient à l'art. 6, al. 2, LIA, la version française à l'art. 6, al. 1, LIA",
+      "summary": "L'art. 41b de l'ordonnance sur l'impôt anticipé renvoie à l'art. 6, al. 2, LIA dans les versions allemande et italienne et à l'art. 6, al. 1, LIA dans la version française. Les deux alinéas existent : l'al. 1 vise les gains provenant de jeux d'argent, l'al. 2 les gains provenant de jeux d'adresse ou de loteries destinés à promouvoir les ventes. La divergence figure déjà dans la modification du 10 avril 2024 (RO 2024 161), en vigueur depuis le 1er juin 2024."
+    },
+    "it": {
+      "title": "RS 642.211 (OIPrev), art. 41b: le versioni tedesca e italiana rinviano all'art. 6 cpv. 2 LIP, la versione francese all'art. 6 cpv. 1 LIP",
+      "summary": "L'art. 41b dell'ordinanza sull'imposta preventiva rinvia all'art. 6 cpv. 2 LIP nelle versioni tedesca e italiana e all'art. 6 cpv. 1 LIP nella versione francese. Entrambi i capoversi esistono: il cpv. 1 riguarda le vincite ai giochi in denaro, il cpv. 2 le vincite ai giochi di destrezza e alle lotterie destinati a promuovere le vendite. La divergenza figura già nella modifica del 10 aprile 2024 (RU 2024 161), in vigore dal 1° giugno 2024."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-09",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "CH-L004-s-de",
+        "source": "Fedlex consolidated version 1966/1585_1641_1624/20250101, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of January 1, 2025",
+        "locator": "SR 642.211, Art. 41b, German version of 1. Januar 2025",
+        "text": "Art. 41b Die Steuer ist auf den einzelnen gemäss Artikel 6 Absatz 2 VStG steuerbaren Geldgewinnen aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung zu berechnen; sie ist",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1966/1585_1641_1624/20250101/de/xml/fedlex-data-admin-ch-eli-cc-1966-1585_1641_1624-20250101-de-xml-6.xml",
+        "sha256": "6c61ccdcfea3674d222a97352ec28ce83a8ef83a89751065c1d208e7df170642",
+        "retrieved": "2026-11-08",
+        "copy": "sources/3381a95ecdd6df0a-sr-xml-1966-1585-1641-1624-20250101-de.txt",
+        "copy_sha256": "3381a95ecdd6df0a8a74e29fd05b47af63d7e9c8b1b8e54f7d9aa3af0ac90ba0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L004-s-fr",
+        "source": "Fedlex consolidated version 1966/1585_1641_1624/20250101, French, XML",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of January 1, 2025",
+        "locator": "SR 642.211, Art. 41b, French version of 1. Januar 2025",
+        "text": "est calculé sur les gains en argent unitaires qui, provenant de jeux d’adresse ou de loteries destinés à promouvoir les ventes, sont imposables en vertu de l’art. 6, al. 1, LIA; il doit être payé spontanément à l’AFC dans les trente jours après l’obtention du résultat, sur la base d’un relevé",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1966/1585_1641_1624/20250101/fr/xml/fedlex-data-admin-ch-eli-cc-1966-1585_1641_1624-20250101-fr-xml-6.xml",
+        "sha256": "cb605795d4909026612c032666cd65d26eaab54768d2d0bf164e3f860cdebb79",
+        "retrieved": "2026-11-08",
+        "copy": "sources/ccb97969401a62ef-sr-xml-1966-1585-1641-1624-20250101-fr.txt",
+        "copy_sha256": "ccb97969401a62ef8372bc3b616cc2bf1ef540c704c533e2bcc1702c23261bee",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L004-s-it",
+        "source": "Fedlex consolidated version 1966/1585_1641_1624/20250101, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of January 1, 2025",
+        "locator": "SR 642.211, Art. 41b, Italian version of 1. Januar 2025",
+        "text": "Art. 41b L’imposta è calcolata sulle singole vincite in denaro a lotterie e giochi di destrezza destinati a promuovere le vendite imponibili secondo l’articolo 6 capoverso 2 LIP; essa deve essere pagata spontaneamente all’AFC entro 30 giorni dalla determinazione del risultato sulla base di un",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1966/1585_1641_1624/20250101/it/xml/fedlex-data-admin-ch-eli-cc-1966-1585_1641_1624-20250101-it-xml-6.xml",
+        "sha256": "1271f0dcdbabb46c61c54c6dcbb7ac4a547742fd476748ea49d9e8f1d3e420d5",
+        "retrieved": "2026-11-08",
+        "copy": "sources/a8634233f624c591-sr-xml-1966-1585-1641-1624-20250101-it.txt",
+        "copy_sha256": "a8634233f624c5919d93064f7e2fbf1906d4f95de63d6928755dd5c23b26606c",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L004-t-de",
+        "source": "Fedlex consolidated version 1966/371_385_384/20250101, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of January 1, 2025",
+        "locator": "Provision referred to, German version: 1966/371_385_384/20250101",
+        "text": "2 Gegenstand der Verrechnungssteuer auf Gewinnen aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung sind ausgerichtete einzelne Gewinne, die nicht nach Artikel 24 Buchstabe j DBG steuerfrei sind.",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1966/371_385_384/20250101/de/xml/fedlex-data-admin-ch-eli-cc-1966-371_385_384-20250101-de-xml-11.xml",
+        "sha256": "afdc571c7fd9783e93c1685dd0192407d1d6cd4dbff95c671de862b8c0a1a8c2",
+        "retrieved": "2026-11-08",
+        "copy": "sources/b8768e0ce9cf388a-sr-xml-1966-371-385-384-20250101-de.txt",
+        "copy_sha256": "b8768e0ce9cf388abc108923bc9765d26ca526624176215be22224dc0c39125a",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L004-t-fr",
+        "source": "Fedlex consolidated version 1966/371_385_384/20250101, French, XML",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of January 1, 2025",
+        "locator": "Provision referred to, French version: 1966/371_385_384/20250101",
+        "text": "1 L’impôt anticipé sur les gains provenant de jeux d’argent a pour objet les gains effectivement versés qui ne sont pas exonérés de l’impôt selon l’art. 24, let. i à iter, LIFD .",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1966/371_385_384/20250101/fr/xml/fedlex-data-admin-ch-eli-cc-1966-371_385_384-20250101-fr-xml-11.xml",
+        "sha256": "418b3b9820f41fcab10adc309d76d4339ab66f3b66cdfaffdfb1c05ba7978e76",
+        "retrieved": "2026-11-08",
+        "copy": "sources/dd0c4fdabbbd8014-sr-xml-1966-371-385-384-20250101-fr.txt",
+        "copy_sha256": "dd0c4fdabbbd80142a16a00d834c356ce4c215523c6909baa7da736e0680e5cb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L004-t-fr-n1",
+        "source": "Fedlex consolidated version 1966/371_385_384/20250101, French, XML",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of January 1, 2025",
+        "locator": "Footnote to the provision referred to, French version",
+        "text": "RS 642.11",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1966/371_385_384/20250101/fr/xml/fedlex-data-admin-ch-eli-cc-1966-371_385_384-20250101-fr-xml-11.xml",
+        "sha256": "418b3b9820f41fcab10adc309d76d4339ab66f3b66cdfaffdfb1c05ba7978e76",
+        "retrieved": "2026-11-08",
+        "copy": "sources/dd0c4fdabbbd8014-sr-xml-1966-371-385-384-20250101-fr.txt",
+        "copy_sha256": "dd0c4fdabbbd80142a16a00d834c356ce4c215523c6909baa7da736e0680e5cb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L004-t-it",
+        "source": "Fedlex consolidated version 1966/371_385_384/20250101, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of January 1, 2025",
+        "locator": "Provision referred to, Italian version: 1966/371_385_384/20250101",
+        "text": "2 L’imposta preventiva sulle vincite ai giochi di destrezza e alle lotterie destinati a promuovere le vendite ha per oggetto le singole vincite versate che non sono esentate dall’imposta sul reddito secondo l’articolo 24 lettera j LIFD.",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1966/371_385_384/20250101/it/xml/fedlex-data-admin-ch-eli-cc-1966-371_385_384-20250101-it-xml-11.xml",
+        "sha256": "553dac65091773cb480595ec35aa732b316802945cf5fdd3ce71b30bda075e37",
+        "retrieved": "2026-11-08",
+        "copy": "sources/ef9e7142b23c188d-sr-xml-1966-371-385-384-20250101-it.txt",
+        "copy_sha256": "ef9e7142b23c188db558eaf30efc5d4e968243f873f41e5f573c9b3ec0f991bf",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09T05:57:30Z",
+      "institution": "Federal Chancellery",
+      "channel": "email",
+      "role": "publishes the Official Compilation (AS) and the Classified Compilation (SR)"
+    },
+    {
+      "date": "2026-11-09T06:02:20Z",
+      "institution": "Federal Tax Administration",
+      "channel": "email",
+      "role": "office in charge of the ordinance"
+    },
+    {
+      "date": "2026-11-09T05:59:46Z",
+      "institution": "Internal Drafting Committee of the Federal Administration",
+      "channel": "email",
+      "role": "checks the wording of ordinances in the official languages"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Federal Tax Administration",
+      "role": "office in charge of the ordinance"
+    },
+    {
+      "institution": "Federal Chancellery",
+      "role": "publishes the Official Compilation (AS) and the Classified Compilation (SR)"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran checks over the Classified Compilation of Federal Legislation, read each finding in the PDF of the consolidated version and had it read again by a second AI reader; the coordinator of the checks decided each finding."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:45:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Federal Chancellery (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Federal Tax Administration (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Internal Drafting Committee of the Federal Administration (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

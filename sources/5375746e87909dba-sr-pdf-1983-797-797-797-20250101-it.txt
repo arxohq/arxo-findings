@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1983/797_797_797/20250101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1983/797_797_797/20250101/it/pdf-a/fedlex-data-admin-ch-eli-cc-1983-797_797_797-20250101-it-pdf-a-7.pdf
+sha256 of the source file: 5e5091a0424fe3360f213f5f9435bcb8453c310c86eeac948b202ed263bb5ac7
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+831.40 Art. 79b — footnote 336, page 66
+336        Nuovo testo giusta l’art. 37 n. 3 della L del 18 giu. 2004 sull’unione domestica registrata, in vigore dal 1° gen. 2007 (RU 2005 5685; FF 2003 1165).

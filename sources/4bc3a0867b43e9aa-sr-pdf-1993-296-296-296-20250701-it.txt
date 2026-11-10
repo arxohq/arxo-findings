@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1993/296_296_296/20250701, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1993/296_296_296/20250701/it/pdf-a/fedlex-data-admin-ch-eli-cc-1993-296_296_296-20250701-it-pdf-a-1.pdf
+sha256 of the source file: fc97a1cbb08d2c0bcea8403d4036b6f68ad593c7fb93f008dcc2a6acf09a478d
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+232.111 Art. 27 — footnote 64, page 11
+64   Nuovo testo giusta la cifra I dell’O del 14 mar. 2008, in vigore dal 1° lug. 2008 (RU 2008 1893).

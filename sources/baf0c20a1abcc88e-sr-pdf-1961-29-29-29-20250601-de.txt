@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1961/29_29_29/20250601, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1961/29_29_29/20250601/de/pdf-a/fedlex-data-admin-ch-eli-cc-1961-29_29_29-20250601-de-pdf-a.pdf
+sha256 of the source file: 350e943b38cdfcb826a99e92d708f5008c7df2fa887606b0869c83f3d721f368
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+831.201 Art. 6 — footnote 61, page 14
+61        Fassung gemäss Ziff. I der V vom 12. Sept. 2014, in Kraft seit 1. Jan. 2015 (AS 2014 3133).

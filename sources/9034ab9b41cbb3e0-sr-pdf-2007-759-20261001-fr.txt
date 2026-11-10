@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2007/759/20261001, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2007/759/20261001/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2007-759-20261001-fr-pdf-a.pdf
+sha256 of the source file: 1b1033ac150085649044365264c5aacb3fb8e4d8f469770ab01ec6948f69c9a1
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+142.201 Art. 83a — footnote 217, page 52
+217   Nouvelle teneur selon le ch. I de l’O du 6 mai 2026, en vigueur depuis le 12 juin 2026 (RO 2026 239).

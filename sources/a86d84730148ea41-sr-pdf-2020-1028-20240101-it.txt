@@ -1,0 +1,29 @@
+Excerpts of Fedlex consolidated version 2020/1028/20240101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2020/1028/20240101/it/pdf-a/fedlex-data-admin-ch-eli-cc-2020-1028-20240101-it-pdf-a-1.pdf
+sha256 of the source file: a90bfb276d093b791ab9221f597ae8a74623b3d7f9bcabecad670a68ea39422f
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+784.106 Art. 48 — footnote 30, page 18
+30        Introdotto dal n. II dell’O del 28 giu. 2023, in vigore dal 1° gen. 2024 (RU 2024 365).
+
+784.106 Art. 48 — article text
+Art. 48                Attribuzione e gestione di nomi di dominio subordinati al dominio
+                       «.swiss»
+1 Una tassa annuale di 90 franchi, IVA esclusa, è fatturata al centro di registrazione
+dei nomi di dominio subordinati al dominio «.swiss» per l’attribuzione e la gestione:
+784.106                                                                         Telecomunicazioni
+     a.      di un nome di dominio conformemente agli articoli 27 capoverso 2 e 53 capo-
+             versi 1 e 3 dell’ordinanza del 5 novembre 201429 sui domini Internet (ODIn);
+             o
+     b.      di un nome di dominio ottenuto tramite mandato di nominazione conforme-
+             mente agli articoli 53 capoverso 1 lettera f e 56 ODIn.
+2 Una tassa unica di 2500 franchi, IVA esclusa, è fatturata ai richiedenti dei nomi di
+dominio subordinati al dominio «.swiss» per la preparazione di un mandato di nomi-
+nazione secondo l’articolo 56 ODIn. La tassa per il rinnovo del mandato ammonta a
+850 franchi, IVA esclusa.
+3 Se la preparazione o il rinnovo di un mandato di nominazione comporta un onere
+eccessivo, oltre alle tasse amministrative riscosse in virtù del capoverso 2 sono calco-
+lati supplementi in funzione del tempo impiegato, IVA esclusa.
+3 Se un mandato di nominazione viene disdetto conformemente all’articolo 56 capo-
+verso 8bis ODIn, l’UFCOM riscuote una tassa calcolata in funzione del tempo impie-
+gato, IVA esclusa.30

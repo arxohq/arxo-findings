@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2004/362/20250601, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2004/362/20250601/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2004-362-20250601-fr-pdf-a-1.pdf
+sha256 of the source file: c08529473032a54ed8aceb9a9218774b746eb8a3ea0747ded4ea6690921b9a43
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+211.112.2 Art. 80 — footnote 286, page 53
+286   Nouvelle teneur selon le ch. I de l’O du 26 juin 2024, en vigueur depuis le 11 nov. 2024 (RO 2024 335).
+
+211.112.2 Art. 29 — footnote 136, page 24
+136   Nouvelle teneur selon le ch. I de l’O du 28 juin 2006, en vigueur depuis le 1er janv. 2007 (RO 2006 2923).

@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2006/303/20261101, Italian, XML
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2006/303/20261101/it/xml/fedlex-data-admin-ch-eli-cc-2006-303-20261101-it-xml.xml
+sha256 of the source file: 646483c0755f864a0cfcdccfd1c7a8cdd903bb6f88ec684f3c5449673ab1575a
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+142.513 CH-B001 — referring provision (it)
+Art. 16 Consulenza in materia di protezione dei dati e di sicurezza informatica (art. 5 cpv. 2 LSISA) 1 La SEM designa un consulente in materia di protezione dei dati e di sicurezza informatica. Quest’ultimo verifica periodicamente l’esattezza e la sicurezza dei dati nel SIMIC. 2 La SEM stabilisce in un apposito regolamento segnatamente le misure organizzative e tecniche da adottare allo scopo di evitare il trattamento non autorizzato dei dati e disciplina la messa a repertorio automatica del trattamento e della consultazione dei dati.

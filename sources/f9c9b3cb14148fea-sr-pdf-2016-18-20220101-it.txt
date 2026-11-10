@@ -1,0 +1,36 @@
+Excerpts of Fedlex consolidated version 2016/18/20220101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2016/18/20220101/it/pdf-a/fedlex-data-admin-ch-eli-cc-2016-18-20220101-it-pdf-a-2.pdf
+sha256 of the source file: 6695a38515b432fd7bb016a18fe1aeb72ae5efee8a3acc74a904e557724c916d
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+734.5 Art. 10 — article text
+Art. 10               Documentazione tecnica
+1 Il fabbricante allestisce la documentazione tecnica prima dell’immissione in com-
+mercio dell’apparecchio e la tiene aggiornata. La documentazione tecnica deve:
+     a.      permettere la valutazione della conformità dell’apparecchio ai requisiti essen-
+             ziali della presente ordinanza; e
+     b.      dimostrare la conformità dell’apparecchio a detti requisiti.
+2 La documentazione tecnica elenca le esigenze applicabili e contiene i progetti, la
+fabbricazione e il funzionamento dell’apparecchio, sempre che ciò sia importante ai
+fini della valutazione.
+3 La documentazione tecnica deve contenere un’analisi e una valutazione dei rischi
+adeguate.17
+4 La documentazione tecnica deve contenere all’occorrenza almeno gli elementi se-
+guenti:
+     a.      una descrizione generale dell’apparecchio;
+     b.      i progetti, i disegni di produzione e gli schemi di componenti, sottounità, cir-
+             cuiti, ecc.;
+     c.      le descrizioni e le spiegazioni necessarie alla comprensione di tali disegni e
+             schemi, nonché al funzionamento dell’apparecchio;
+     d.      un elenco delle norme tecniche di cui all’articolo 5, applicate interamente o in
+             parte, e in caso di mancata applicazione di tali norme, la descrizione delle
+             soluzioni adottate per soddisfare i requisiti essenziali della presente ordinanza,
+             compreso un elenco delle altre specifiche tecniche pertinenti applicate; in caso
+             di applicazione parziale delle norme tecniche di cui all’articolo 5, la documen-
+             tazione tecnica deve specificare le parti che sono state applicate;
+Compatibilità elettromagnetica. O                                                             734.5
+     e.      i risultati dei calcoli di costruzione, controlli, ecc.;
+     f.      le relazioni sulle prove effettuate.
+5 Se la documentazione tecnica non è redatta in una lingua ufficiale della Svizzera o
+in inglese, l’UFCOM può chiederne la traduzione integrale o parziale in una delle
+lingue menzionate.

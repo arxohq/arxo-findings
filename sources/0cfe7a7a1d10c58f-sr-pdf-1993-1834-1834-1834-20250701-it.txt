@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1993/1834_1834_1834/20250701, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1993/1834_1834_1834/20250701/it/pdf-a/fedlex-data-admin-ch-eli-cc-1993-1834_1834_1834-20250701-it-pdf-a.pdf
+sha256 of the source file: 0e315a7a2ce6989282f27109b6a20b331dbdce9800c789a734afe1e53cac1c9f
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+231.21 Art. 4 — footnote 11, page 2
+11        Nuovo testo giusta la cifra I dell’O del 2 dic. 2016, in vigore il 1° gen. 2017 (RU 2016 4827).

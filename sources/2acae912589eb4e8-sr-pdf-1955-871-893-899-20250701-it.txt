@@ -1,0 +1,13 @@
+Excerpts of Fedlex consolidated version 1955/871_893_899/20250701, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1955/871_893_899/20250701/it/pdf-a/fedlex-data-admin-ch-eli-cc-1955-871_893_899-20250701-it-pdf-a-2.pdf
+sha256 of the source file: faf8e23db42d7135f17b225c27680b972206083f5dfef81616f130c5ceb17cfa
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+232.14 Art. 8a — footnote 27, page 6
+27    Per. introdotto dalla cifra I della LF del 19 dic. 2008, in vigore dal 1° lug. 2009 (RU 2009 2645; FF 2008 247).
+
+232.14 Art. 8a — footnote 29, page 6
+29    Nuovo testo del per. giusta la cifra I della LF del 19 dic. 2008, in vigore dal 1° lug. 2009 (RU 2009 2645; FF 2008 247).
+
+232.14 Art. 9a — footnote 34, page 7
+34    Introdotto dalla cifra I della LF del 22 giu. 2007 (RU 2008 2551; FF 2006 1). Nuovo testo giusta la cifra I della LF del 19 dic. 2008, in vigore dal 1° lug. 2009 (RU 2009 2645; FF 2008 247).

@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 1998/892_892_892/20261001, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1998/892_892_892/20261001/de/pdf-a/fedlex-data-admin-ch-eli-cc-1998-892_892_892-20261001-de-pdf-a.pdf
+sha256 of the source file: a0fe377c73f8ec56533164c1eb62cf6180766ea969448c41d66cacad3502f57e
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+955.0 Art. 22a — footnote 178, page 28
+178    Fassung gemäss Ziff. I des BG vom 26. Sept. 2025, in Kraft seit 1. Okt. 2026 (AS 2026 322; BBl 2024 1607).
+
+955.0 Art. 24 — footnote 192, page 30
+192        Fassung gemäss Ziff. I des BG vom 26. Sept. 2025, in Kraft seit 1. Okt. 2026 (AS 2026 322; BBl 2024 1607).

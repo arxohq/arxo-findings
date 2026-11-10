@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2015/26/20250101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2015/26/20250101/de/pdf-a/fedlex-data-admin-ch-eli-cc-2015-26-20250101-de-pdf-a-1.pdf
+sha256 of the source file: bac686b640e971758cd6dcf89dccdf7178a43255ef15d5932cf787dbed13eb30
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+742.161 Art. 60a — footnote 94, page 22
+94   Eingefügt durch Ziff. I der V vom 10. April 2024, in Kraft seit 1. Juli 2024 (AS 2024 182).
+
+742.161 Art. 55 — footnote 88, page 20
+88        Eingefügt durch Ziff. I der V vom 10. April 2024, in Kraft seit 1. Juli 2024 (AS 2024 182).

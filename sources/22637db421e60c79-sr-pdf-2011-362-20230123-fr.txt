@@ -1,0 +1,20 @@
+Excerpts of Fedlex consolidated version 2011/362/20230123, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2011/362/20230123/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2011-362-20230123-fr-pdf-a.pdf
+sha256 of the source file: 4660c185f3186299dbecf4e3deedded78f65b709f640c19555c7819dc3944ce6
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+812.121.1 Art. 39 — article text
+Art. 39          Contrôle par le bureau de douane
+1 Les bureaux de douane retiennent les envois contenant des substances soumises à
+contrôle qui ne sont pas munis d’une autorisation d’importation ou d’exportation et
+les notifient à Swissmedic. Cette règle ne s’applique pas aux envois visés à l’art. 32,
+al. 3 et 4.
+2 Swissmedic établit si une autorisation d’importation ou une autorisation d’exporta-
+tion a été délivrée ou si les conditions visées à l’art. 32, al. 4, pour une demande pos-
+térieure sont remplies.
+3 Si une autorisation valable a été délivrée mais qu’aucun exemplaire n’a été joint à la
+marchandise, un délai est accordé au transporteur pour la produire. Si l’autorisation
+est produite, la marchandise peut être libérée.
+2 Si un envoi retenu par le bureau de douane ne peut pas être libéré, Swissmedic statue
+sur la saisie, l’utilisation et l’élimination de la marchandise selon l’art. 70 et en in-
+forme l’autorité cantonale compétente.

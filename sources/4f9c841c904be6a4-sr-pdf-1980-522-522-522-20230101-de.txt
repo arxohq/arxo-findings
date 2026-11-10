@@ -1,0 +1,13 @@
+Excerpts of Fedlex consolidated version 1980/522_522_522/20230101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1980/522_522_522/20230101/de/pdf-a/fedlex-data-admin-ch-eli-cc-1980-522_522_522-20230101-de-pdf-a-2.pdf
+sha256 of the source file: adf974889c7363291b0cee3f7210e0a862e1842a249d5debc539bcfa191b9682
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+941.41 Art. 33 — footnote 49, page 13
+49   Fassung gemäss Ziff. I 3 des BG vom 22. Juni 2001 über die Straffung der Bundesgesetzgebung über Waffen, Kriegsmaterial, Sprengstoff sowie zivil und militä- risch verwendbare Güter, in Kraft seit 1. März 2002 (AS 2002 258, BBl 2000 3369).
+
+941.41 Art. 9 — footnote 22, page 4
+22        Fassung gemäss Ziff. I 3 des BG vom 22. Juni 2001 über die Straffung der Bundesgesetzgebung über Waffen, Kriegsmaterial, Sprengstoff sowie zivil und militä- risch verwendbare Güter, in Kraft seit 1. März 2002 (AS 2002 258, BBl 2000 3369).
+
+941.41 Art. 9 — footnote 23, page 4
+23        Eingefügt durch Ziff. I 3 des BG vom 22. Juni 2001 über die Straffung der Bundesgesetzgebung über Waffen, Kriegsmaterial, Sprengstoff sowie zivil und militä- risch verwendbare Güter, in Kraft seit 1. März 2002 (AS 2002 258, BBl 2000 3369).

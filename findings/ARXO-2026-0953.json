@@ -1,0 +1,350 @@
+{
+  "id": "ARXO-2026-0953",
+  "url": "https://arxo.io/findings/ARXO-2026-0953/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "CH",
+  "jurisdiction_detail": "federal",
+  "act": "Classified Compilation of Federal Legislation (SR)",
+  "acts": [],
+  "location": "SR 172.220.1, 232.111, 941.41",
+  "text": {
+    "en": {
+      "title": "SR footnotes: in 4 articles one language version cites the AS entry of a different act",
+      "summary": "In 4 articles of 3 acts of the Classified Compilation (SR), the footnotes of all language versions describe the same amending act, but in one version the reference to the Official Compilation (AS) is that of a different act. Each finding was read in the PDF of the consolidated version, which is the authoritative form. Which language version is right is not decided here.",
+      "impact": "A reader who follows the footnote of one language version reaches a different entry of the Official Compilation than readers of the other versions, or none. No effect on the content of the provisions has been established.",
+      "correction": "The Federal Chancellery decides how to correct each place; the evidence gives the wording of each language version."
+    },
+    "de": {
+      "title": "SR-Fussnoten: In 4 Artikeln verweist eine Sprachfassung auf die AS-Fundstelle eines anderen Erlasses",
+      "summary": "In 4 Artikeln aus 3 Erlassen der Systematischen Rechtssammlung (SR) beschreiben die Fussnoten aller Sprachfassungen denselben Änderungserlass; in einer Fassung ist die Fundstelle der Amtlichen Sammlung (AS) jedoch die eines anderen Erlasses. Jeder Befund wurde im PDF der konsolidierten Fassung gelesen, das massgebend ist. Welche Sprachfassung zutrifft, legen wir nicht fest."
+    },
+    "fr": {
+      "title": "Notes du RS : dans 4 articles, une version linguistique renvoie à l'entrée RO d'un autre acte",
+      "summary": "Dans 4 articles de 3 actes du Recueil systématique (RS), les notes de toutes les versions linguistiques décrivent le même acte modificateur, mais dans une version la référence au Recueil officiel (RO) est celle d'un autre acte. Chaque constat a été lu dans le PDF de la version consolidée, qui fait foi. Nous ne déterminons pas quelle version linguistique est exacte."
+    },
+    "it": {
+      "title": "Note della RS: in 4 articoli una versione linguistica rinvia alla voce RU di un altro atto",
+      "summary": "In 4 articoli di 3 atti della Raccolta sistematica (RS), le note di tutte le versioni linguistiche descrivono lo stesso atto modificatore, ma in una versione il riferimento alla Raccolta ufficiale (RU) è quello di un altro atto. Ogni constatazione è stata letta nel PDF della versione consolidata, che è determinante. Non stabiliamo quale versione linguistica sia corretta."
+    }
+  },
+  "status": {
+    "badge": "accepted",
+    "label": {
+      "en": "Accepted by the addressee",
+      "ru": "Принято адресатом"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "accepted",
+    "last_checked": "2026-11-09",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The consolidated text",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "s0073-de-n49",
+        "source": "Fedlex consolidated version 1980/522_522_522/20230101, German, PDF",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of January 1, 2023",
+        "locator": "SR 941.41, Art. 33, German version, footnote 49 on page 13",
+        "text": "49 Fassung gemäss Ziff. I 3 des BG vom 22. Juni 2001 über die Straffung der Bundesgesetzgebung über Waffen, Kriegsmaterial, Sprengstoff sowie zivil und militä- risch verwendbare Güter, in Kraft seit 1. März 2002 (AS 2002 258, BBl 2000 3369).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1980/522_522_522/20230101/de/pdf-a/fedlex-data-admin-ch-eli-cc-1980-522_522_522-20230101-de-pdf-a-2.pdf",
+        "sha256": "adf974889c7363291b0cee3f7210e0a862e1842a249d5debc539bcfa191b9682",
+        "retrieved": "2026-11-05",
+        "copy": "sources/4f9c841c904be6a4-sr-pdf-1980-522-522-522-20230101-de.txt",
+        "copy_sha256": "4f9c841c904be6a465fdfb9616c1e101e8298385f52221a12b07737bc974233e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0073-fr-n53",
+        "source": "Fedlex consolidated version 1980/522_522_522/20230101, French, PDF",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of January 1, 2023",
+        "locator": "SR 941.41, Art. 33, French version, footnote 53 on page 13",
+        "text": "53 Nouvelle teneur selon le ch. I 3 de la LF du 22 juin 2001 relative à la coordination de la législation sur les armes, sur le matériel de guerre, sur les explosifs et sur le contrôle des biens, en vigueur depuis le 1er mars 2002 (RO 2002 248; FF 2000 3151).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1980/522_522_522/20230101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-1980-522_522_522-20230101-fr-pdf-a-1.pdf",
+        "sha256": "0d3235310a300ec011b57af681028acd69fd18b7f3c2ee592e48a1cb22c00932",
+        "retrieved": "2026-11-05",
+        "copy": "sources/a4413305aa36a507-sr-pdf-1980-522-522-522-20230101-fr.txt",
+        "copy_sha256": "a4413305aa36a507e722b771e72df4c09f3212483bbf2b143ba93108bf221d9c",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0073-it-n51",
+        "source": "Fedlex consolidated version 1980/522_522_522/20230101, Italian, PDF",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of January 1, 2023",
+        "locator": "SR 941.41, Art. 33, Italian version, footnote 51 on page 12",
+        "text": "51 Nuovo testo giusta il n. I 3 della LF del 22 giu. 2001 concernente il coordinamento della legislazione federale sulle armi, sul materiale bellico, sugli esplosivi e sui beni utilizzabili a fini civili e militari, in vigore dal 1° mar. 2002 (RU 2002 248; FF 2000 2971).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1980/522_522_522/20230101/it/pdf-a/fedlex-data-admin-ch-eli-cc-1980-522_522_522-20230101-it-pdf-a-1.pdf",
+        "sha256": "d4b8d9cce8d4d9a9845d49c8c1fdef71ac37b45d399800dc001045bc442885c3",
+        "retrieved": "2026-11-05",
+        "copy": "sources/3b44640a1c141979-sr-pdf-1980-522-522-522-20230101-it.txt",
+        "copy_sha256": "3b44640a1c141979bfa1caba239170321d2cd931444458eff8568088effecef3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0074-de-n22",
+        "source": "Fedlex consolidated version 1980/522_522_522/20230101, German, PDF",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of January 1, 2023",
+        "locator": "SR 941.41, Art. 9, German version, footnote 22 on page 4",
+        "text": "22 Fassung gemäss Ziff. I 3 des BG vom 22. Juni 2001 über die Straffung der Bundesgesetzgebung über Waffen, Kriegsmaterial, Sprengstoff sowie zivil und militä- risch verwendbare Güter, in Kraft seit 1. März 2002 (AS 2002 258, BBl 2000 3369).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1980/522_522_522/20230101/de/pdf-a/fedlex-data-admin-ch-eli-cc-1980-522_522_522-20230101-de-pdf-a-2.pdf",
+        "sha256": "adf974889c7363291b0cee3f7210e0a862e1842a249d5debc539bcfa191b9682",
+        "retrieved": "2026-11-05",
+        "copy": "sources/4f9c841c904be6a4-sr-pdf-1980-522-522-522-20230101-de.txt",
+        "copy_sha256": "4f9c841c904be6a465fdfb9616c1e101e8298385f52221a12b07737bc974233e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0074-de-n23",
+        "source": "Fedlex consolidated version 1980/522_522_522/20230101, German, PDF",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of January 1, 2023",
+        "locator": "SR 941.41, Art. 9, German version, footnote 23 on page 4",
+        "text": "23 Eingefügt durch Ziff. I 3 des BG vom 22. Juni 2001 über die Straffung der Bundesgesetzgebung über Waffen, Kriegsmaterial, Sprengstoff sowie zivil und militä- risch verwendbare Güter, in Kraft seit 1. März 2002 (AS 2002 258, BBl 2000 3369).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1980/522_522_522/20230101/de/pdf-a/fedlex-data-admin-ch-eli-cc-1980-522_522_522-20230101-de-pdf-a-2.pdf",
+        "sha256": "adf974889c7363291b0cee3f7210e0a862e1842a249d5debc539bcfa191b9682",
+        "retrieved": "2026-11-05",
+        "copy": "sources/4f9c841c904be6a4-sr-pdf-1980-522-522-522-20230101-de.txt",
+        "copy_sha256": "4f9c841c904be6a465fdfb9616c1e101e8298385f52221a12b07737bc974233e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0074-fr-n23",
+        "source": "Fedlex consolidated version 1980/522_522_522/20230101, French, PDF",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of January 1, 2023",
+        "locator": "SR 941.41, Art. 9, French version, footnote 23 on page 4",
+        "text": "23 Nouvelle teneur selon le ch. I 3 de la LF du 22 juin 2001 relative à la coordination de la législation sur les armes, sur le matériel de guerre, sur les explosifs et sur le contrôle des biens, en vigueur depuis le 1er mars 2002 (RO 2002 248; FF 2000 3151).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1980/522_522_522/20230101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-1980-522_522_522-20230101-fr-pdf-a-1.pdf",
+        "sha256": "0d3235310a300ec011b57af681028acd69fd18b7f3c2ee592e48a1cb22c00932",
+        "retrieved": "2026-11-05",
+        "copy": "sources/a4413305aa36a507-sr-pdf-1980-522-522-522-20230101-fr.txt",
+        "copy_sha256": "a4413305aa36a507e722b771e72df4c09f3212483bbf2b143ba93108bf221d9c",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0074-fr-n24",
+        "source": "Fedlex consolidated version 1980/522_522_522/20230101, French, PDF",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of January 1, 2023",
+        "locator": "SR 941.41, Art. 9, French version, footnote 24 on page 4",
+        "text": "24 Introduit par le ch. I 3 de la LF du 22 juin 2001 relative à la coordination de la législation sur les armes, sur le matériel de guerre, sur les explosifs et sur le contrôle des biens, en vi- gueur depuis le 1er mars 2002 (RO 2002 248; FF 2000 3151).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1980/522_522_522/20230101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-1980-522_522_522-20230101-fr-pdf-a-1.pdf",
+        "sha256": "0d3235310a300ec011b57af681028acd69fd18b7f3c2ee592e48a1cb22c00932",
+        "retrieved": "2026-11-05",
+        "copy": "sources/a4413305aa36a507-sr-pdf-1980-522-522-522-20230101-fr.txt",
+        "copy_sha256": "a4413305aa36a507e722b771e72df4c09f3212483bbf2b143ba93108bf221d9c",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0074-it-n23",
+        "source": "Fedlex consolidated version 1980/522_522_522/20230101, Italian, PDF",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of January 1, 2023",
+        "locator": "SR 941.41, Art. 9, Italian version, footnote 23 on page 4",
+        "text": "23 Nuovo testo giusta il n. I 3 della LF del 22 giu. 2001 concernente il coordinamento della legislazione federale sulle armi, sul materiale bellico, sugli esplosivi e sui beni utilizzabili a fini civili e militari, in vigore dal 1° mar. 2002 (RU 2002 248; FF 2000 2971).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1980/522_522_522/20230101/it/pdf-a/fedlex-data-admin-ch-eli-cc-1980-522_522_522-20230101-it-pdf-a-1.pdf",
+        "sha256": "d4b8d9cce8d4d9a9845d49c8c1fdef71ac37b45d399800dc001045bc442885c3",
+        "retrieved": "2026-11-05",
+        "copy": "sources/3b44640a1c141979-sr-pdf-1980-522-522-522-20230101-it.txt",
+        "copy_sha256": "3b44640a1c141979bfa1caba239170321d2cd931444458eff8568088effecef3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0074-it-n24",
+        "source": "Fedlex consolidated version 1980/522_522_522/20230101, Italian, PDF",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of January 1, 2023",
+        "locator": "SR 941.41, Art. 9, Italian version, footnote 24 on page 4",
+        "text": "24 Introdotto dal n. I 3 della LF del 22 giu. 2001 concernente il coordinamento della legislazione federale sulle armi, sul materiale bellico, sugli esplosivi e sui beni utilizzabili a fini civili e militari, in vigore dal 1° mar. 2002 (RU 2002 248; FF 2000 2971).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1980/522_522_522/20230101/it/pdf-a/fedlex-data-admin-ch-eli-cc-1980-522_522_522-20230101-it-pdf-a-1.pdf",
+        "sha256": "d4b8d9cce8d4d9a9845d49c8c1fdef71ac37b45d399800dc001045bc442885c3",
+        "retrieved": "2026-11-05",
+        "copy": "sources/3b44640a1c141979-sr-pdf-1980-522-522-522-20230101-it.txt",
+        "copy_sha256": "3b44640a1c141979bfa1caba239170321d2cd931444458eff8568088effecef3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0104-de-n64",
+        "source": "Fedlex consolidated version 1993/296_296_296/20250701, German, PDF",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of July 1, 2025",
+        "locator": "SR 232.111, Art. 27, German version, footnote 64 on page 12",
+        "text": "64 Fassung gemäss Ziff. I der V vom 14. März 2008, in Kraft seit 1. Juli 2008 (AS 2008 1891).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1993/296_296_296/20250701/de/pdf-a/fedlex-data-admin-ch-eli-cc-1993-296_296_296-20250701-de-pdf-a-2.pdf",
+        "sha256": "994c85202d4a3b6e2755004c446918d68cef02f3b91558d35ceba8c8ea3c0c85",
+        "retrieved": "2026-11-05",
+        "copy": "sources/9ba49bd5dc22aa87-sr-pdf-1993-296-296-296-20250701-de.txt",
+        "copy_sha256": "9ba49bd5dc22aa878c22d91bebd655ed08b75e7f5209491a531417da802f7080",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0104-fr-n64",
+        "source": "Fedlex consolidated version 1993/296_296_296/20250701, French, PDF",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of July 1, 2025",
+        "locator": "SR 232.111, Art. 27, French version, footnote 64 on page 11",
+        "text": "64 Nouvelle teneur selon le ch. I de l’O du 14 mars 2008, en vigueur depuis le 1er juil. 2008 (RO 2008 1893).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1993/296_296_296/20250701/fr/pdf-a/fedlex-data-admin-ch-eli-cc-1993-296_296_296-20250701-fr-pdf-a-2.pdf",
+        "sha256": "0ab1ba1aa9f9ed6d7b8d68f5640a01f1c766aa5ad4fe4c05fc99b6e2002952f9",
+        "retrieved": "2026-11-05",
+        "copy": "sources/f72b8ebae5616858-sr-pdf-1993-296-296-296-20250701-fr.txt",
+        "copy_sha256": "f72b8ebae56168586525c3796490b1990a8df375f6ab18bb8b9e389257980ab3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0104-it-n64",
+        "source": "Fedlex consolidated version 1993/296_296_296/20250701, Italian, PDF",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of July 1, 2025",
+        "locator": "SR 232.111, Art. 27, Italian version, footnote 64 on page 11",
+        "text": "64 Nuovo testo giusta la cifra I dell’O del 14 mar. 2008, in vigore dal 1° lug. 2008 (RU 2008 1893).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1993/296_296_296/20250701/it/pdf-a/fedlex-data-admin-ch-eli-cc-1993-296_296_296-20250701-it-pdf-a-1.pdf",
+        "sha256": "fc97a1cbb08d2c0bcea8403d4036b6f68ad593c7fb93f008dcc2a6acf09a478d",
+        "retrieved": "2026-11-05",
+        "copy": "sources/4bc3a0867b43e9aa-sr-pdf-1993-296-296-296-20250701-it.txt",
+        "copy_sha256": "4bc3a0867b43e9aa10c9bf685a3906b2756b1b6e4eb222b4ad922e1c487066fd",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0194-de-n34",
+        "source": "Fedlex consolidated version 2001/123/20240101, German, PDF",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of January 1, 2024",
+        "locator": "SR 172.220.1, Art. 6a, German version, footnote 34 on page 5",
+        "text": "34 Fassung gemäss Anhang Ziff. II 1 des Postorganisationsgesetzes vom 17. Dez. 2010, in Kraft seit 1. Okt. 2012 (AS 2012 5043; BBl 2009 5265).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2001/123/20240101/de/pdf-a/fedlex-data-admin-ch-eli-cc-2001-123-20240101-de-pdf-a-1.pdf",
+        "sha256": "7596bffed39076cd84940bb9766df5fff62a98006d81cb91bfbdf496866cf75f",
+        "retrieved": "2026-11-05",
+        "copy": "sources/1c4d98aa93d306db-sr-pdf-2001-123-20240101-de.txt",
+        "copy_sha256": "1c4d98aa93d306db5b543c97ca80d2189f2a1001a74b5694f3aa49da93f5b66e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0194-fr-n35",
+        "source": "Fedlex consolidated version 2001/123/20240101, French, PDF",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of January 1, 2024",
+        "locator": "SR 172.220.1, Art. 6a, French version, footnote 35 on page 5",
+        "text": "35 Nouvelle teneur selon l’annexe ch. II 1 de la LF du 17 déc. 2010 sur l’organisation de la Poste, en vigueur depuis le 1er oct. 2012 (RO 2012 5043; FF 2009 4731).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2001/123/20240101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2001-123-20240101-fr-pdf-a-3.pdf",
+        "sha256": "02bf08c9e5b11585adb2bdc52a96324e1862be1172b4d80ae2681eaf60238c13",
+        "retrieved": "2026-11-05",
+        "copy": "sources/ea85c18243166656-sr-pdf-2001-123-20240101-fr.txt",
+        "copy_sha256": "ea85c1824316665665f3a1795c8c97d248d9067f1ebbbec808aa6134f6649c07",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0194-it-n38",
+        "source": "Fedlex consolidated version 2001/123/20240101, Italian, PDF",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of January 1, 2024",
+        "locator": "SR 172.220.1, Art. 6a, Italian version, footnote 38 on page 5",
+        "text": "38 Nuovo testo giusta l’all. n. II 1 della L del 19 mar. 2010 sull’organizzazione delle autorità penali, in vigore dal 1° gen. 2011 (RU 2010 3267; FF 2008 7093).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2001/123/20240101/it/pdf-a/fedlex-data-admin-ch-eli-cc-2001-123-20240101-it-pdf-a-3.pdf",
+        "sha256": "cce4f38a95d3f5eaf2485c10ef5741a4e80ee5d32bde57353e57874a2cb790c0",
+        "retrieved": "2026-11-05",
+        "copy": "sources/16c25c627bb1f8c6-sr-pdf-2001-123-20240101-it.txt",
+        "copy_sha256": "16c25c627bb1f8c618366d8dbb9ea11d949688f52124ce4ac2e77eeed0e9449b",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09T05:57:30Z",
+      "institution": "Federal Chancellery",
+      "channel": "email",
+      "role": "publishes the Official Compilation (AS) and the Classified Compilation (SR)"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Federal Chancellery",
+      "role": "publishes the Official Compilation (AS) and the Classified Compilation (SR)"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-11-10T10:50:00Z",
+      "institution": "Federal Chancellery",
+      "kind": "acknowledged",
+      "summary": {
+        "en": "The Federal Chancellery (Official Publications Centre) replied that it will make the necessary corrections as soon as possible. The corrections have not yet been published."
+      }
+    }
+  ],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran checks over the Classified Compilation of Federal Legislation, read each finding in the PDF of the consolidated version and had it read again by a second AI reader; the coordinator of the checks decided each finding."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:45:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Federal Chancellery (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "acknowledged",
+      "text": "Accepted: Federal Chancellery"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

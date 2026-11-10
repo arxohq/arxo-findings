@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2000/44/20190101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2000/44/20190101/it/pdf-a/fedlex-data-admin-ch-eli-cc-2000-44-20190101-it-pdf-a-10.pdf
+sha256 of the source file: e702e860f3962757c550508f38579c3772204c0dee718b6f4c1f4b045eafc342
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+172.217.1 Art. 14a — footnote 34, page 10
+34   Nuovo testo giusta il n. II 3 dell’all. 2 all’O del 29 ago. 2012 sulle poste, in vigore dal 1° ott. 2012 (RU 2012 5009).
+
+172.217.1 Art. 14a — footnote 36, page 10
+36   Introdotta dal n. II 3 dell’all. 2 all’O del 29 ago. 2012 sulle poste, in vigore dal 1° ott. 2012 (RU 2012 5009).

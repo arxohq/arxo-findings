@@ -1,0 +1,27 @@
+Excerpts of Fedlex consolidated version 2020/1028/20240101, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2020/1028/20240101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2020-1028-20240101-fr-pdf-a-1.pdf
+sha256 of the source file: 1bba8c22e49f934552097d283c60aef2abd67b69aaf18748c7687588167fbac7
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+784.106 Art. 48 — footnote 30, page 18
+30        Introduit par le ch. II de l’O du 28 juin 2023, en vigueur depuis le 1er janv. 2024 (RO 2023 365).
+
+784.106 Art. 48 — article text
+Art. 48              Attribution et gestion des noms de domaine subordonnés à
+                     l’extension «.swiss»
+1 Un émolument annuel de 90 francs, TVA non comprise, est facturé au registraire de
+noms de domaine subordonnés à l’extention «.swiss» pour l’attribution et la gestion:
+     a.      d’un nom de domaine au sens des art. 27, al. 2, et 53, al. 1 et 3, de l’ordonnance
+             du 5 novembre 2014 sur les domaines Internet (ODI)29, ou
+     b.      d’un nom de domaine sous mandat de nommage au sens des art. 53, al. 1, let.
+             f, et 56 ODI.
+2 Un émolument unique de 2500 francs, TVA non comprise, est facturé au requérant
+de noms de domaine subordonnés à l’extention «.swiss» pour l’établissement d’un
+mandat de nommage au sens de l’art. 56 ODI. L’émolument s’élève à 850 francs,
+TVA non comprise, pour le renouvellement du mandat.
+3 Des suppléments aux émoluments perçus en vertu de l’al. 2 sont calculés en fonction
+du temps consacré, TVA non comprise, lorsque l’établissement ou le renouvellement
+d’un mandat de nommage engendre une charge excessive.
+4 Lorsqu’un mandat de nommage est résilié conformément à l’art. 56, al. 8bis, ODI,
+l’OFCOM perçoit un émolument calculé en fonction du temps consacré, TVA non
+comprise.30

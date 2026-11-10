@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2001/123/20240101, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2001/123/20240101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2001-123-20240101-fr-pdf-a-3.pdf
+sha256 of the source file: 02bf08c9e5b11585adb2bdc52a96324e1862be1172b4d80ae2681eaf60238c13
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+172.220.1 Art. 6a — footnote 35, page 5
+35        Nouvelle teneur selon l’annexe ch. II 1 de la LF du 17 déc. 2010 sur l’organisation de la Poste, en vigueur depuis le 1er oct. 2012 (RO 2012 5043; FF 2009 4731).

@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1996/3371_3371_3371/20260101, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1996/3371_3371_3371/20260101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-1996-3371_3371_3371-20260101-fr-pdf-a.pdf
+sha256 of the source file: d045d90c5dab453a20aca9c33ce78f311b5339cb238c9a0b05a897b18038efad
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+641.61 Art. 35 — footnote 33, page 15
+33        Nouvelle teneur selon l’annexe ch. 3 de la LF du 18 mars 2016, en vigueur depuis le 1er août 2016 (RO 2016 2429; FF 2015 2657).

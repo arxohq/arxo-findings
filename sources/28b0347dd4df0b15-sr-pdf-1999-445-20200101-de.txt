@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1999/445/20200101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1999/445/20200101/de/pdf-a/fedlex-data-admin-ch-eli-cc-1999-445-20200101-de-pdf-a-1.pdf
+sha256 of the source file: d43cd5ab292df59c2e747a6a74f17d95d62a42529b598df99b5d92443241bb5b
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+832.321 Art. 9 — footnote 15, page 6
+15        Fassung gemäss Anhang 5 Ziff. 10 der Einschliessungsverordnung vom 9. Mai 2012, in Kraft seit 1. Juni 2012 (AS 2012 2777).

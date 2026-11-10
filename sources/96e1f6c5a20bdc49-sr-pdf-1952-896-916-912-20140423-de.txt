@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 1952/896_916_912/20140423, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1952/896_916_912/20140423/de/pdf-a/fedlex-data-admin-ch-eli-cc-1952-896_916_912-20140423-de-pdf-a-2.pdf
+sha256 of the source file: 15eadbcdb4f8032ad8cad618939a5587ead7f9ad09c5953722293e9499a98550
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+836.11 Art. 2a — footnote 8, page 2
+8     Eingefügt durch Anhang Ziff. 3 der Familienzulagenverordnung vom 31. Okt. 2007, in Kraft seit 1. Jan. 2009 (AS 2008 145).
+
+836.11 Art. 3b — footnote 16, page 3
+16        Eingefügt durch Anhang Ziff. 3 der Familienzulagenverordnung vom 31. Okt. 2007, in Kraft seit 1. Jan. 2009 (AS 2008 145).

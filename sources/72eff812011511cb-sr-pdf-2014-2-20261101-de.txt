@@ -1,0 +1,13 @@
+Excerpts of Fedlex consolidated version 2014/2/20261101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2014/2/20261101/de/pdf-a/fedlex-data-admin-ch-eli-cc-2014-2-20261101-de-pdf-a.pdf
+sha256 of the source file: 4d898236696dbac339aca15aaabf24223e6e78a1fdf3b5b21e773c4106c5321a
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+142.512 Art. 2 — footnote 4, page 2
+4        Eingefügt durch Ziff. I der V vom 10. Nov. 2021 (AS 2022 735). Fassung gemäss Ziff. III 2 der V vom 26. Aug. 2026, in Kraft seit 1. Okt. 2026 (AS 2026 444).
+
+142.512 Art. 2 — footnote 6, page 2
+6        Eingefügt durch Ziff. I der V vom 10. Nov. 2021 (AS 2022 735). Aufgehoben durch Ziff. III 2 der V vom 26. Aug. 2026, mit Wirkung seit 1. Okt. 2026 (AS 2026 444).
+
+142.512 Art. 17 — footnote 53, page 13
+53        Fassung gemäss Ziff. I der V vom 10. Nov. 2021, in Kraft seit 1. Mai 2022 (AS 2022 735).

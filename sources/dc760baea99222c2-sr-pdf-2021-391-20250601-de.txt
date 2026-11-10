@@ -1,0 +1,16 @@
+Excerpts of Fedlex consolidated version 2021/391/20250601, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2021/391/20250601/de/pdf-a/fedlex-data-admin-ch-eli-cc-2021-391-20250601-de-pdf-a.pdf
+sha256 of the source file: a61ffd00e80d09558e76931033b798f8e1fd98691cba4cc67a5701f843adc0c1
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+832.107 Art. 5 — article text
+Art. 5          Festlegung der Höchstzahlen durch die Kantone
+1 Die Kantone setzen das Angebot an Ärztinnen und Ärzten (Art. 2) ins Verhältnis
+zum Versorgungsgrad der betroffenen Region je medizinisches Fachgebiet (Art. 3),
+um die Höchstzahlen für eine wirtschaftliche Versorgung, die auf ihrem Gebiet not-
+wendig ist, festzulegen.
+2 Sie können einen Gewichtungsfaktor vorsehen, mit dem Umstände berücksichtigt
+werden, die bei der Berechnung des Versorgungsgrads nicht berücksichtigt werden
+konnten. Bei der Festlegung des Gewichtungsfaktors stützen sie sich namentlich auf
+Befragungen von Fachpersonen, Indikatorensysteme oder Referenzwerte.
+3 Sie überprüfen die Höchstzahlen periodisch und passen sie wenn nötig an.

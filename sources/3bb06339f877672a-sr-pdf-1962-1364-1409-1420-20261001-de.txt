@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1962/1364_1409_1420/20261001, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1962/1364_1409_1420/20261001/de/pdf-a/fedlex-data-admin-ch-eli-cc-1962-1364_1409_1420-20261001-de-pdf-a.pdf
+sha256 of the source file: 8bb0499f8226915acf3b370f59dcb5db8e4159abecfc8dbbfdbbad94049a3856
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+741.11 Art. 33 — footnote 142, page 24
+142 Fassung gemäss Ziff. I der V vom 16. Okt. 2024, in Kraft seit 1. Jan. 2025 (AS 2024 607).

@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2007/759/20261001, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2007/759/20261001/it/pdf-a/fedlex-data-admin-ch-eli-cc-2007-759-20261001-it-pdf-a.pdf
+sha256 of the source file: 94ef587fb8e9fa48fc8ca6377124dd3d542ab129ee37d437c64f1919572f4b3a
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+142.201 Art. 83a — footnote 217, page 52
+217   Nuovo testo giusta la cifra II dell’O del 5 apr. 2017, in vigore dal 1° mag. 2017 (RU 2017 2549).

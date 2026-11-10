@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1998/2863_2863_2863/20251201, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1998/2863_2863_2863/20251201/fr/pdf-a/fedlex-data-admin-ch-eli-cc-1998-2863_2863_2863-20251201-fr-pdf-a.pdf
+sha256 of the source file: eea1e58af5ac23c700a55e1d898b081e7bcfb98c213e27a4ef8587086626ae8a
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+814.201 Art. 3 — footnote 7, page 2
+7        Nouvelle teneur selon le ch. II 9 de l’O du 18 mai 2005 sur l’abrogation et la mod. du droit en vigueur du fait de la loi sur les produits chimiques, en vigueur depuis le 1er août 2005 (RO 2005 2695).

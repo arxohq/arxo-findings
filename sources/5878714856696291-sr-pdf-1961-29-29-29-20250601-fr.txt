@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1961/29_29_29/20250601, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1961/29_29_29/20250601/fr/pdf-a/fedlex-data-admin-ch-eli-cc-1961-29_29_29-20250601-fr-pdf-a.pdf
+sha256 of the source file: 1dadc90fe62bb74b7706a5a26dcfbc9e19a2201c51b72b0f2632180e173bafeb
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+831.201 Art. 6 — footnote 60, page 14
+60   Nouvelle teneur selon le ch. I de l’O du 19 sept. 2014, en vigueur depuis le 1er janv. 2015 (RO 2014 3177).

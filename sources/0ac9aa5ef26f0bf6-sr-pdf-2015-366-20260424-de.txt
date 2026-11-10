@@ -1,0 +1,13 @@
+Excerpts of Fedlex consolidated version 2015/366/20260424, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2015/366/20260424/de/pdf-a/fedlex-data-admin-ch-eli-cc-2015-366-20260424-de-pdf-a.pdf
+sha256 of the source file: 854e3ceae5c153f059857c48e2dae8da0328fc7caa38e7a61b858a7c77209510
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+813.11 Art. 75 — footnote 147, page 42
+147        Fassung gemäss Anhang 5 Ziff. II 1 der V vom 15. Nov. 2023 über das Inverkehrbringen von Düngern, in Kraft seit 1. Jan. 2024 (AS 2023 711).
+
+813.11 Art. 93c — footnote 172, page 51
+172 Fassung gemäss Anhang 5 Ziff. II 1 der V vom 15. Nov. 2023 über das Inverkehrbringen von Düngern, in Kraft seit 1. Jan. 2024 (AS 2023 711).
+
+813.11 Art. 93c — footnote 173, page 51
+173 Fassung gemäss Anhang 5 Ziff. II 1 der V vom 15. Nov. 2023 über das Inverkehrbringen von Düngern, in Kraft seit 1. Jan. 2024 (AS 2023 711).

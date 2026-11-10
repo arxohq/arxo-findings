@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2000/243/20240901, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2000/243/20240901/de/pdf-a/fedlex-data-admin-ch-eli-cc-2000-243-20240901-de-pdf-a.pdf
+sha256 of the source file: 07aa99542ceabe834c180f7e2df2617b45fbe693513573e3a2ae2d9f2f12c8ac
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+822.111 Art. 76 — footnote 47, page 33
+47        Aufgehoben durch Ziff. I der V vom 6. Juli 2011, mit Wirkung seit 1. Aug. 2011 (AS 2011 3381).
+
+822.111 Art. 81 — footnote 50, page 35
+50        Fassung gemäss Ziff. I der V vom 6. Juli 2011, in Kraft seit 1. Aug. 2011 (AS 2011 3381).

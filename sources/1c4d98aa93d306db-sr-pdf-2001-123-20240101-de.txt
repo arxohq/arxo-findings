@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2001/123/20240101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2001/123/20240101/de/pdf-a/fedlex-data-admin-ch-eli-cc-2001-123-20240101-de-pdf-a-1.pdf
+sha256 of the source file: 7596bffed39076cd84940bb9766df5fff62a98006d81cb91bfbdf496866cf75f
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+172.220.1 Art. 6a — footnote 34, page 5
+34        Fassung gemäss Anhang Ziff. II 1 des Postorganisationsgesetzes vom 17. Dez. 2010, in Kraft seit 1. Okt. 2012 (AS 2012 5043; BBl 2009 5265).

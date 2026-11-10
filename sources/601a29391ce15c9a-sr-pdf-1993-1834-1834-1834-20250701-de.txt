@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1993/1834_1834_1834/20250701, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1993/1834_1834_1834/20250701/de/pdf-a/fedlex-data-admin-ch-eli-cc-1993-1834_1834_1834-20250701-de-pdf-a.pdf
+sha256 of the source file: 2c90c57f56fad48ffd238f7707e99313af10dbf593486559d4da9329b291a8c5
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+231.21 Art. 4 — footnote 11, page 2
+11        Fassung gemäss Ziff. I der V vom 2. Dez. 2016, in Kraft seit 1. Jan. 2017 (AS 2016 4827).

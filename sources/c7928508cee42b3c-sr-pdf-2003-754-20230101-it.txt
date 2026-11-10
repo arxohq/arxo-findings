@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2003/754/20230101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2003/754/20230101/it/pdf-a/fedlex-data-admin-ch-eli-cc-2003-754-20230101-it-pdf-a-1.pdf
+sha256 of the source file: 4b396665b41ff8ad8eb04255261f3b2a7f85dfba07b868bb6e7fb0d918260e44
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+512.31 Art. 48 — footnote 64, page 15
+64        Abrogati dal n. II 37 dell’O dell’8 nov. 2006 (Revisione totale dell’organizzazione giudiziaria federale), con effetto dal 1° gen. 2007 (RU 2006 4705).
+
+512.31 Art. 48 — footnote 65, page 15
+65        Nuovo testo giusta il n. II 37 dell’O dell’8 nov. 2006 (messa in vigore parziale delle mo- difiche del 16 dic. 2005 della L sull’asilo, della L sull’assicurazione malattie e della L sull’assicurazione per la vecchiaia e per i superstiti), in vigore dal 1° gen. 2007 (RU 2006 4739).

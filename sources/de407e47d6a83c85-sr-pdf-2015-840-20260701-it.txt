@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2015/840/20260701, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2015/840/20260701/it/pdf-a/fedlex-data-admin-ch-eli-cc-2015-840-20260701-it-pdf-a.pdf
+sha256 of the source file: 9f2f49e90af0bc0f343e749b18e10e21abcfd7a08473b28ac0294b97dd65e019
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+832.121 Art. 53 — footnote 34, page 19
+34        Nuovo testo giusta la cifra I dell’O del 24 apr. 2024, in vigore dal 1° lug. 2024 (RU 2021 195).

@@ -1,0 +1,13 @@
+Excerpts of Fedlex consolidated version 2004/362/20250601, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2004/362/20250601/de/pdf-a/fedlex-data-admin-ch-eli-cc-2004-362-20250601-de-pdf-a-1.pdf
+sha256 of the source file: 1833eb6f85c18bffa020d2f516b48f20ea5df9bd346a69e3120958d2057b72f6
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+211.112.2 Art. 80 — footnote 287, page 54
+287   Fassung gemäss Ziff. I der V vom 26. Juni 2024, in Kraft seit 11. Nov. 2024 (AS 2024 335).
+
+211.112.2 Art. 65 — footnote 243, page 45
+243        Fassung gemäss Ziff. I der V vom 9. Dez. 2005, in Kraft seit 1. Jan. 2006 (AS 2005 5679).
+
+211.112.2 Art. 29 — footnote 138, page 25
+138        Fassung gemäss Ziff. I der V vom 28. Juni 2006, in Kraft seit 1. Jan. 2007 (AS 2006 2923).

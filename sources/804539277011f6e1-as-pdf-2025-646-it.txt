@@ -1,0 +1,10 @@
+Excerpts of RU 2025 646, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2025/646/it/pdf-a/fedlex-data-admin-ch-eli-oc-2025-646-it-pdf-a.pdf
+sha256 of the source file: cf4c65bd0c5fd58e1de474b8762423ad9b0f3ca746fe5f04d18aa9be2ce4d0f1
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+RU 2025 646 — replacement of expressions
+Sostituzione di espressioni
+1 In tutta l’ordinanza, eccettuato l’allegato 5 numero 22, «esame successivo» è sosti-
+tuito, con i necessari adeguamenti grammaticali, con «controllo periodico».
+2 Nell’articolo 56 capoverso 2, negli allegati 7 numero 2 e 9 numero 311.1 «controllo

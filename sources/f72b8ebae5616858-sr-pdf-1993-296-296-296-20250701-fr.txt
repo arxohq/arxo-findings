@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1993/296_296_296/20250701, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1993/296_296_296/20250701/fr/pdf-a/fedlex-data-admin-ch-eli-cc-1993-296_296_296-20250701-fr-pdf-a-2.pdf
+sha256 of the source file: 0ab1ba1aa9f9ed6d7b8d68f5640a01f1c766aa5ad4fe4c05fc99b6e2002952f9
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+232.111 Art. 27 — footnote 64, page 11
+64     Nouvelle teneur selon le ch. I de l’O du 14 mars 2008, en vigueur depuis le 1er juil. 2008 (RO 2008 1893).

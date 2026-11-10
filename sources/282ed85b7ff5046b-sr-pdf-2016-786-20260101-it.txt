@@ -1,0 +1,120 @@
+Excerpts of Fedlex consolidated version 2016/786/20260101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2016/786/20260101/it/pdf-a/fedlex-data-admin-ch-eli-cc-2016-786-20260101-it-pdf-a.pdf
+sha256 of the source file: a95e3cc7d30afe0ada228ebd31fcbead368aba259ed38ae984007d9ae033bb46
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+653.11 Art. 35b — article text
+Art. 35b47       Disposizioni transitorie della modifica del 26 novembre 2025
+1 Nei primi tre anni successivi all’entrata in vigore della modifica del 26 novembre
+2025 i prestatori svizzeri di servizi per le cripto-attività tenuti alla comunicazione sono
+esonerati dagli obblighi di comunicazione e adeguata verifica in materia fiscale se-
+condo l’Accordo multilaterale dell’8 giugno 202348 tra autorità competenti concer-
+nente lo scambio automatico di informazioni in conformità al quadro per la comuni-
+Scambio automatico internazionale di informazioni a fini fiscali. O                653.11
+cazione di informazioni in materia di cripto-attività (Accordo SAI Cripto-attività) e la
+LSAI se sono soddisfatte le condizioni seguenti:
+   a.   i prestatori svizzeri di servizi per le cripto-attività tenuti alla comunicazione
+        presentano un criterio di collegamento secondo la sezione I parte A CARF
+        con un altro Stato o territorio che, secondo la sezione I parti C‒F CARF, pre-
+        vale sul criterio di collegamento con la Svizzera;
+   b.   lo Stato o il territorio non attua lo scambio automatico di informazioni relative
+        a cripto-attività al momento dell’entrata in vigore della modifica;
+   c.   i prestatori svizzeri di servizi per le cripto-attività tenuti alla comunicazione
+        non sarebbero assoggettati a tali obblighi di comunicazione e adeguata veri-
+        fica in materia fiscale in Svizzera se tale Stato o territorio avesse attuato lo
+        scambio automatico di informazioni relative a cripto-attività al momento del-
+        l’entrata in vigore della modifica.
+2 Nel periodo in questione i prestatori svizzeri di servizi per le cripto-attività tenuti
+alla comunicazione sono inoltre esonerati dagli obblighi di comunicazione e adeguata
+verifica in materia fiscale secondo l’Accordo SAI Cripto-attività e la LSAI per quanto
+riguarda le operazioni effettuate tramite le loro succursali situate in un altro Stato o
+territorio se sono soddisfatte le condizioni seguenti:
+   a.   lo Stato o il territorio non attua lo scambio automatico di informazioni relative
+        a cripto-attività al momento dell’entrata in vigore della modifica;
+   b.   la succursale sarebbe assoggettata in questo Stato o territorio agli obblighi
+        previsti dal CARF per quanto riguarda le operazioni effettuate per il suo tra-
+        mite se tale Stato o territorio avesse attuato lo scambio automatico di infor-
+        mazioni relative a cripto-attività al momento dell’entrata in vigore della mo-
+        difica.
+3 In deroga al capoverso 1, conformemente alla sezione I parte B dell’allegato all’Ac-
+cordo SAI Cripto-attività una succursale svizzera di un prestatore di servizi per le
+cripto-attività tenuto alla comunicazione è assoggettata in Svizzera agli obblighi
+secondo l’Accordo SAI Cripto-attività e la LSAI per quanto riguarda le operazioni
+effettuate per il suo tramite.
+4 I prestatori svizzeri di servizi per le cripto-attività tenuti alla comunicazione che
+conformemente al capoverso 1 sono esonerati dagli obblighi di comunicazione e ade-
+guata verifica in materia fiscale devono comunicare all’AFC, oltre alle indicazioni di
+cui all’articolo 13a capoverso 2 LSAI, lo Stato o il territorio nel quale sarebbero as-
+soggettati all’obbligo di comunicazione, così come il criterio di collegamento di cui
+alla sezione I parte A CARF in base al quale sarebbero assoggettati all’obbligo di co-
+municazione in tale Stato o territorio.
+5 Per gli enti di cui agli articoli 5 e 6 del diritto anteriore che dall’entrata in vigore
+della modifica sono considerati istituti finanziari svizzeri tenuti alla comunicazione,
+in relazione ai conti già aperti presso tali istituti il giorno antecedente l’entrata in
+vigore della modifica valgono gli obblighi di adeguata verifica previsti per i conti
+preesistenti. Si applicano i termini di cui all’articolo 11 capoversi 2‒4 LSAI, che de-
+corrono dall’entrata in vigore della modifica.
+
+653.11 Art. 35a — article text
+Art. 35a45       Disposizione transitoria della modifica dell’11 novembre 2020
+In relazione ai conti già aperti il giorno antecedente l’entrata in vigore della modifica
+dell’11 novembre 2020 e per i quali l’istituto finanziario svizzero tenuto alla comuni-
+cazione dispone di un’autocertificazione che non contiene un numero d’identifica-
+zione fiscale, si applicano le regole secondo la sezione I parte C dell’allegato all’Ac-
+cordo multilaterale del 29 ottobre 201446 tra autorità competenti concernente lo
+scambio automatico di informazioni relative a conti finanziari.
+
+653.11 Art. 36 — article text
+Art. 36          Entrata in vigore51
+La presente ordinanza entra in vigore il 1° gennaio 2017.
+Scambio automatico internazionale di informazioni a fini fiscali. O               653.11
+                                                                               Allegato
+                                                                                (art. 21)
+Disposizioni alternative del commentario dell’OCSE
+relativo allo SCC
+   1.   A complemento della procedura alternativa definita nello SCC o in un accordo
+        applicabile prevista per i conti finanziari di persone fisiche beneficiarie di un
+        contratto di assicurazione con valore di riscatto o di un contratto assicurativo
+        di rendita, si applica quanto segue:
+        «Un’istituzione finanziaria tenuta alla comunicazione può considerare un
+        conto finanziario che è una quota di un membro in un contratto di assicura-
+        zione di gruppo per il quale è misurabile un valore maturato o in un contratto
+        di rendita di gruppo come un conto finanziario che non è un conto oggetto di
+        comunicazione fino alla data in cui un importo è dovuto al dipendente/titolare
+        di un certificato o beneficiario, se il conto finanziario che è una quota di un
+        membro in un contratto di assicurazione di gruppo per il quale è misurabile
+        un valore maturato o in un contratto di rendita di gruppo soddisfa i seguenti
+        requisiti:
+        a) il contratto di assicurazione di gruppo per il quale è misurabile un valore
+             maturato o il contratto di rendita di gruppo è emesso nei confronti di un
+             datore di lavoro e copre 25 o più dipendenti/titolari di certificato;
+        b) i dipendenti/titolari di certificato sono abilitati a ricevere qualsiasi va-
+             lore contrattuale connesso alle loro quote e a nominare dei beneficiari
+             per l’indennità dovuta al momento del decesso del dipendente; e
+        c) l’importo aggregato dovuto a ciascun dipendente/titolare di certificato
+             o beneficiario non supera 1 000 000 USD.
+        Per «contratto di assicurazione di gruppo per il quale è misurabile un valore
+        maturato» si intende un contratto di assicurazione di gruppo che i) prevede
+        una copertura per le persone fisiche che sono affiliate tramite un datore di
+        lavoro, un’associazione professionale, un sindacato o un’altra associazione
+        o un altro gruppo e ii) applica un premio a ciascun membro del gruppo (o
+        membro di una categoria al suo interno) che è determinato indipendentemente
+        dalle condizioni di salute del singolo a parte l’età, il genere e l’eventuale ta-
+        bagismo del membro (o della categoria di membri) del gruppo.
+        Per «contratto di rendita di gruppo» si intende un contratto di rendita i cui
+        beneficiari sono persone fisiche affiliate tramite un datore di lavoro, un’as-
+        sociazione professionale, un sindacato o un’altra associazione o un altro
+        gruppo.»
+   2.   Anziché la nozione di «conto preesistente» così come definita nello SCC o in
+        un accordo applicabile si applica quanto segue:
+        «Per «conto preesistente» si intende:
+        a) un conto finanziario detenuto presso un’istituzione finanziaria tenuta
+            alla comunicazione alla data [xx.xx.xxxx];
+                                                                                 17 / 18
+653.11                                   Scambio automatico di informazioni in materia fiscale
+          b)   tutti i conti finanziari del titolare di un conto, indipendentemente dalla
+               data di apertura del conto finanziario se:
+               i. il titolare del conto detiene altresì presso l’istituzione finanziaria
+                     tenuta alla comunicazione (o presso un’entità collegata nella stessa
+                     giurisdizione dell’istituzione finanziaria tenuta alla comunicazione)
+                     un conto finanziario che è un con

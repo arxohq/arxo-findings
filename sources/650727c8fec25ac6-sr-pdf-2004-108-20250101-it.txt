@@ -1,0 +1,37 @@
+Excerpts of Fedlex consolidated version 2004/108/20250101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2004/108/20250101/it/pdf-a/fedlex-data-admin-ch-eli-cc-2004-108-20250101-it-pdf-a.pdf
+sha256 of the source file: c962c2dde69ce58a4ca1c94e85490169bfaac34e691502b26e2912537edf62e2
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+510.710 Art. 41 — article text
+Art. 41          Altri veicoli
+1 Le prescrizioni concernenti le esigenze tecniche per i veicoli stradali nonché la co-
+struzione, l’equipaggiamento, le dimensioni e il peso dei veicoli (potenza del motore,
+valori limite di fumo, gas di scarico o rumore ecc.) valevoli all’atto del rilascio dell’ap-
+provazione del tipo del pertinente veicolo sono pure applicabili ai veicoli militari dello
+stesso tipo messi in circolazione per la prima volta ulteriormente.
+1bis In autoveicoli pesanti, segnatamente in autocarri, possono essere autorizzati sedili
+supplementari nello spazio di carico.94
+2 Le prescrizioni dell’ADR95 e della SDR96 riguardanti la costruzione e l’equipaggia-
+mento di veicoli non sono applicabili ai veicoli militari per il traffico di collettame
+che sono stati messi in circolazione prima del 1° gennaio 2000 e il cui uso rientra nel
+campo d’applicazione degli allegati 1 e 2 della presente ordinanza. Esse sono tuttavia
+applicabili ai veicoli provvisti di cisterne fisse (veicoli cisterna), cisterne smontabili,
+container-cisterna, casse mobili cisterna o cisterne mobili nonché ai veicoli batteria e
+ai veicoli provvisti di container per gas a elementi multipli (CGEM). Le eccezioni
+sono indicate nell’allegato 1.97
+3 I veicoli blindati ruotati o cingolati muniti di un impianto antincendio di bordo o di
+un estintore di almeno 2 chilogrammi sono esentati dall’obbligo di essere equipaggiati
+con estintori secondo l’articolo 114 capoverso 2 OETV98.99
+3bis I veicoli blindati ruotati sono equiparati ai veicoli cingolati per quanto concerne la
+misurazione del fumo, dei gas di scarico, dell’evaporazione e del rumore. I veicoli
+ruotati a motore multicarburante devono soddisfare almeno lo standard di emissioni
+Euro 3 quando sono utilizzati con il carburante normale prescritto dal produttore. Altri
+veicoli militari devono adempiere le prescrizioni in materia di misurazione del fumo,
+dei gas di scarico, dell’evaporazione e del rumore nei limiti consentiti dal loro uso.100
+510.710                                             Organizzazione e amministrazione militare
+3bis I veicoli blindati ruotati sono equiparati ai veicoli cingolati per quanto concerne la
+misurazione del fumo, dei gas di scarico, dell’evaporazione e del rumore. Altri veicoli
+militari devono adempiere le prescrizioni in materia di misurazione del fumo, dei gas
+di scarico, dell’evaporazione e del rumore nei limiti consentiti dal loro impiego.101
+4 Gli intervalli degli esami periodici dei veicoli militari sono stabiliti dall’UCNEs.

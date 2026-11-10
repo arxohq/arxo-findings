@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2010/98/20261001, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2010/98/20261001/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2010-98-20261001-fr-pdf-a.pdf
+sha256 of the source file: e3bf7e360033fcd52048d7916c31a98912805c9fb4ee45f1351580e4bd90f517
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+172.215.1 Art. 29b — footnote 74, page 17
+74        Nouvelle teneur selon l’art. 4 de l’O du 28 sept. 2018, en vigueur depuis le 1er nov. 2018 (RO 2018 3503).
+
+172.215.1 Art. 29b — footnote 75, page 17
+75        Introduit par l’art. 4 de l’O du 28 sept. 2018 sur l’alcool, en vigueur depuis le 1er nov. 2018 (RO 2011 3787).

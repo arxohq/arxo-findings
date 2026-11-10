@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2017/810/20260601, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2017/810/20260601/it/pdf-a/fedlex-data-admin-ch-eli-cc-2017-810-20260601-it-pdf-a.pdf
+sha256 of the source file: c3e46c3c488c1416a7293cefd6246d861cf0d6df5567e6f660d5e1e4f69a30ae
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+512.21 Art. 9 — footnote 26, page 7
+26        Nuovo testo giusta la cifra I dell’O del 1° apr. 2026, in vigore dal 1° giu. 2026 (RU 2026 174).
+
+512.21 Art. 9 — footnote 27, page 7
+27        Abrogato dalla cifra I dell’O del 23 nov. 2022, con effetto dal 1° gen. 2023 (RU 2022 820).

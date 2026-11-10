@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2006/303/20261101, French, XML
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2006/303/20261101/fr/xml/fedlex-data-admin-ch-eli-cc-2006-303-20261101-fr-xml.xml
+sha256 of the source file: 01e3e02293f5dde81a8db1f6580983baa1027771939e52c62f0467298c75f3c7
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+142.513 CH-B001 — referring provision (fr)
+Art. 16 Conseiller à la protection des données et à la sécurité informatique (art. 5, al. 2, LDEA) 1 Le SEM désigne un conseiller à la protection des données et à la sécurité informatique. Ce dernier contrôle régulièrement l’exactitude et la sécurité des données dans le SYMIC. 2 Il fixe dans un règlement de traitement en particulier les mesures organisationnelles et techniques à prendre pour éviter le traitement non autorisé des données et pour assurer la journalisation automatique du traitement et de la consultation des données.

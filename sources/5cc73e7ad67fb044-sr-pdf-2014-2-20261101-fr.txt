@@ -1,0 +1,13 @@
+Excerpts of Fedlex consolidated version 2014/2/20261101, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2014/2/20261101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2014-2-20261101-fr-pdf-a.pdf
+sha256 of the source file: 5485a7d44f8df55d89b446cfbbb037425167b6fb6de44b4e5090dc2abd0ae667
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+142.512 Art. 2 — footnote 3, page 2
+3        Introduite par le ch. I de l’O du 10 nov. 2021 (RO 2021 735). Nouvelle teneur selon le ch. III 2 de l’O du 26 août 2026, en vigueur depuis le 1er oct. 2026 (RO 2026 444).
+
+142.512 Art. 2 — footnote 5, page 2
+5        Introduite par le ch. I de l’O du 10 nov. 2021 (RO 2021 735). Abrogée par le ch. III 2 de l’O du 26 août 2026, avec effet au 1er oct. 2026 (RO 2026 444).
+
+142.512 Art. 17 — footnote 51, page 13
+51        Nouvelle teneur selon le ch. I de l’O du 10 nov. 2021, en vigueur depuis le 1er mai 2022 (RO 2021 735).

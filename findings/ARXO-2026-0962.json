@@ -1,0 +1,266 @@
+{
+  "id": "ARXO-2026-0962",
+  "url": "https://arxo.io/findings/ARXO-2026-0962/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "CH",
+  "jurisdiction_detail": "federal",
+  "act": "Classified Compilation of Federal Legislation (SR)",
+  "acts": [],
+  "location": "SR 211.432.11, Art. 10 para. 1 let. b",
+  "text": {
+    "en": {
+      "title": "SR 211.432.11 (TGBV), Art. 10 para. 1 let. b refers to Art. 27 para. 3 GBV, repealed since July 1, 2020",
+      "summary": "In all three language versions, Art. 10 para. 1 let. b of the Technical Ordinance on the Land Register (TGBV) refers to Art. 27 para. 3 of the Land Register Ordinance (GBV) on the national property index. That provision was repealed with effect from July 1, 2020 (AS 2019 3049). The original text of the TGBV in the Official Compilation gives the same address; since the repeal the reference names a repealed provision.",
+      "impact": "A reader who follows the reference finds a repealed provision instead of the rule it is meant to point to. No effect on a decision has been established.",
+      "correction": "The office in charge decides whether to replace or remove the reference."
+    },
+    "de": {
+      "title": "SR 211.432.11 (TGBV), Art. 10 Abs. 1 Bst. b verweist auf Art. 27 Abs. 3 GBV, aufgehoben seit 1. Juli 2020",
+      "summary": "Art. 10 Abs. 1 Bst. b der TGBV verweist in allen drei Sprachfassungen auf Art. 27 Abs. 3 GBV (gesamtschweizerischer Grundstücksindex). Diese Bestimmung wurde mit Wirkung seit 1. Juli 2020 aufgehoben (AS 2019 3049). Der ursprüngliche Text der TGBV in der AS nennt dieselbe Adresse; seit der Aufhebung nennt der Verweis eine aufgehobene Bestimmung."
+    },
+    "fr": {
+      "title": "RS 211.432.11, art. 10, al. 1, let. b : renvoi à l'art. 27, al. 3, ORF, abrogé depuis le 1er juillet 2020",
+      "summary": "Dans les trois versions linguistiques, l'art. 10, al. 1, let. b, de l'ordonnance RS 211.432.11 renvoie à l'art. 27, al. 3, ORF (index national des immeubles). Cette disposition a été abrogée avec effet au 1er juillet 2020 (RO 2019 3049). Le texte original publié au RO donne la même adresse ; depuis l'abrogation, le renvoi désigne une disposition abrogée."
+    },
+    "it": {
+      "title": "RS 211.432.11, art. 10 cpv. 1 lett. b: rinvio all'art. 27 cpv. 3 ORF, abrogato dal 1° luglio 2020",
+      "summary": "In tutte e tre le versioni linguistiche, l'art. 10 cpv. 1 lett. b dell'ordinanza RS 211.432.11 rinvia all'art. 27 cpv. 3 ORF (indice svizzero dei fondi). Questa disposizione è stata abrogata con effetto dal 1° luglio 2020 (RU 2019 3049). Il testo originale pubblicato nella RU indica lo stesso indirizzo; dopo l'abrogazione il rinvio designa una disposizione abrogata."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-09",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "CH-D002-s-de",
+        "source": "Fedlex consolidated version 2013/3/20240101, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of January 1, 2024",
+        "locator": "SR 211.432.11, Art. 10 para. 1 let. b, German version of 1. Januar 2024",
+        "text": "b. die Erstellung des gesamtschweizerischen Grundstücksindexes nach Artikel 27 Absatz 3 GBV;",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2013/3/20240101/de/xml/fedlex-data-admin-ch-eli-cc-2013-3-20240101-de-xml-8.xml",
+        "sha256": "6184de486eda951360bfe212398062670543d195698c4c544bf7e715426030ed",
+        "retrieved": "2026-11-08",
+        "copy": "sources/1f5cf787bba9a1cb-sr-xml-2013-3-20240101-de.txt",
+        "copy_sha256": "1f5cf787bba9a1cbed2120e6b3d89a5f4e7fea0f725c5a10f1b8f7b4315f40d0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-D002-s-fr",
+        "source": "Fedlex consolidated version 2013/3/20240101, French, XML",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of January 1, 2024",
+        "locator": "SR 211.432.11, Art. 10 para. 1 let. b, French version of 1. Januar 2024",
+        "text": "b. l’établissement de l’index national des immeubles, conformément à l’art. 27, al. 3, ORF;",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2013/3/20240101/fr/xml/fedlex-data-admin-ch-eli-cc-2013-3-20240101-fr-xml-8.xml",
+        "sha256": "d7f032221f08b7848c37f1a5b3fd18780faaefad0a5334d94f72291fb7950f7f",
+        "retrieved": "2026-11-08",
+        "copy": "sources/874546c7615ab0d9-sr-xml-2013-3-20240101-fr.txt",
+        "copy_sha256": "874546c7615ab0d9d9f18db621fd4592f5f3427381a871dcd31f5af289860887",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-D002-s-it",
+        "source": "Fedlex consolidated version 2013/3/20240101, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of January 1, 2024",
+        "locator": "SR 211.432.11, Art. 10 para. 1 let. b, Italian version of 1. Januar 2024",
+        "text": "b. l’allestimento dell’indice svizzero dei fondi secondo l’articolo 27 capoverso 3 ORF;",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2013/3/20240101/it/xml/fedlex-data-admin-ch-eli-cc-2013-3-20240101-it-xml-8.xml",
+        "sha256": "33a84b666f4f74609ce21d074394af4a35430c9024f302a35d8a7458cd3b920d",
+        "retrieved": "2026-11-08",
+        "copy": "sources/ad9ed460180ced23-sr-xml-2013-3-20240101-it.txt",
+        "copy_sha256": "ad9ed460180ced23fd133fcbb379591a3638ec7e0e056d3997072bf76651cb38",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-D002-t-de",
+        "source": "Fedlex consolidated version 2011/667/20240101, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of January 1, 2024",
+        "locator": "Provision referred to, German version: 2011/667/20240101",
+        "text": "3 …",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2011/667/20240101/de/xml/fedlex-data-admin-ch-eli-cc-2011-667-20240101-de-xml-7.xml",
+        "sha256": "58fd09eba4b0b6e1224c174d0a86fac340222024eeca8756990f9ed8837df419",
+        "retrieved": "2026-11-08",
+        "copy": "sources/da74f6215f1d8501-sr-xml-2011-667-20240101-de.txt",
+        "copy_sha256": "da74f6215f1d850152a02d66a50ed583461d652699f5f4aac8f8c425ab216c9e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-D002-t-de-n1",
+        "source": "Fedlex consolidated version 2011/667/20240101, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of January 1, 2024",
+        "locator": "Footnote to the provision referred to, German version",
+        "text": "Aufgehoben durch Ziff. I der V vom 20. Sept. 2019, mit Wirkung seit 1. Juli 2020 ( AS 2019 3049 ).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2011/667/20240101/de/xml/fedlex-data-admin-ch-eli-cc-2011-667-20240101-de-xml-7.xml",
+        "sha256": "58fd09eba4b0b6e1224c174d0a86fac340222024eeca8756990f9ed8837df419",
+        "retrieved": "2026-11-08",
+        "copy": "sources/da74f6215f1d8501-sr-xml-2011-667-20240101-de.txt",
+        "copy_sha256": "da74f6215f1d850152a02d66a50ed583461d652699f5f4aac8f8c425ab216c9e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-D002-t-fr",
+        "source": "Fedlex consolidated version 2011/667/20240101, French, XML",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of January 1, 2024",
+        "locator": "Provision referred to, French version: 2011/667/20240101",
+        "text": "3 ...",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2011/667/20240101/fr/xml/fedlex-data-admin-ch-eli-cc-2011-667-20240101-fr-xml-7.xml",
+        "sha256": "807a7cde5552fa70481161867a8f76cb8d3cf69204a0d0b9554cb3b495ca19ba",
+        "retrieved": "2026-11-08",
+        "copy": "sources/1d1888589780c3a5-sr-xml-2011-667-20240101-fr.txt",
+        "copy_sha256": "1d1888589780c3a5cba4fc0a4bc34cb626bc62b5467f48fd868500e1991fd593",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-D002-t-fr-n1",
+        "source": "Fedlex consolidated version 2011/667/20240101, French, XML",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of January 1, 2024",
+        "locator": "Footnote to the provision referred to, French version",
+        "text": "Abrogé par le ch. I de l’O du 20 sept. 2019, avec effet au 1er juil. 2020 ( RO 2019 3049 ).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2011/667/20240101/fr/xml/fedlex-data-admin-ch-eli-cc-2011-667-20240101-fr-xml-7.xml",
+        "sha256": "807a7cde5552fa70481161867a8f76cb8d3cf69204a0d0b9554cb3b495ca19ba",
+        "retrieved": "2026-11-08",
+        "copy": "sources/1d1888589780c3a5-sr-xml-2011-667-20240101-fr.txt",
+        "copy_sha256": "1d1888589780c3a5cba4fc0a4bc34cb626bc62b5467f48fd868500e1991fd593",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-D002-t-it",
+        "source": "Fedlex consolidated version 2011/667/20240101, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of January 1, 2024",
+        "locator": "Provision referred to, Italian version: 2011/667/20240101",
+        "text": "3 ...",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2011/667/20240101/it/xml/fedlex-data-admin-ch-eli-cc-2011-667-20240101-it-xml-7.xml",
+        "sha256": "28905c7c36ca9dfe36b4d30f2994a9e5511aa551338599e9bccbbe7ff5ef4ca9",
+        "retrieved": "2026-11-08",
+        "copy": "sources/6ec94bb8795d1dab-sr-xml-2011-667-20240101-it.txt",
+        "copy_sha256": "6ec94bb8795d1dab6a4b9afcf9235db62aaa7b5584f09ef25a22797dd72afaac",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-D002-t-it-n1",
+        "source": "Fedlex consolidated version 2011/667/20240101, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of January 1, 2024",
+        "locator": "Footnote to the provision referred to, Italian version",
+        "text": "Abrogato dal n. I dell’O del 20 set. 2019, con effetto dal 1° lug. 2020 ( RU 2019 3049 ).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2011/667/20240101/it/xml/fedlex-data-admin-ch-eli-cc-2011-667-20240101-it-xml-7.xml",
+        "sha256": "28905c7c36ca9dfe36b4d30f2994a9e5511aa551338599e9bccbbe7ff5ef4ca9",
+        "retrieved": "2026-11-08",
+        "copy": "sources/6ec94bb8795d1dab-sr-xml-2011-667-20240101-it.txt",
+        "copy_sha256": "6ec94bb8795d1dab6a4b9afcf9235db62aaa7b5584f09ef25a22797dd72afaac",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09T05:57:30Z",
+      "institution": "Federal Chancellery",
+      "channel": "email",
+      "role": "publishes the Official Compilation (AS) and the Classified Compilation (SR)"
+    },
+    {
+      "date": "2026-11-09T06:00:52Z",
+      "institution": "Federal Office of Justice, Office for Land Registry and Real Estate Law",
+      "channel": "email",
+      "role": "office in charge of the ordinance"
+    },
+    {
+      "date": "2026-11-09T05:59:46Z",
+      "institution": "Internal Drafting Committee of the Federal Administration",
+      "channel": "email",
+      "role": "checks the wording of ordinances in the official languages"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Federal Office of Justice, Office for Land Registry and Real Estate Law",
+      "role": "office in charge of the ordinance"
+    },
+    {
+      "institution": "Federal Chancellery",
+      "role": "publishes the Official Compilation (AS) and the Classified Compilation (SR)"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran checks over the Classified Compilation of Federal Legislation, read each finding in the PDF of the consolidated version and had it read again by a second AI reader; the coordinator of the checks decided each finding."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:45:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Federal Chancellery (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Federal Office of Justice, Office for Land Registry and Real Estate Law (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Internal Drafting Committee of the Federal Administration (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

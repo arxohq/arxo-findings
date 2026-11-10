@@ -1,0 +1,12 @@
+Excerpts of Fedlex consolidated version 48/425_437_457/20240601, German, XML
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/48/425_437_457/20240601/de/xml/fedlex-data-admin-ch-eli-cc-48-425_437_457-20240601-de-xml-3.xml
+sha256 of the source file: ccfc9c3a22b9329d54a709eb58c3ce3375a31ba1606807f816f285cc1cc95c02
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+680 Art. 77 — opening tag of the article element and its number
+<article eId="art_78"><num><b>Art. 77</b><authorialNote>
+		<p> Fassung gemäss Ziff. I des BG vom 30. Sept. 2016, in Kraft seit 1. Jan. 2017  (<ref href="https://fedlex.data.admin.ch/eli/oc/2017/149">AS <b>2017</b> 777 </ref><ref href="https://fedlex.data.admin.ch/eli/oc/2017/567">5159</ref>; <ref href="https://fedlex.data.admin.ch/eli/fga/2016/709">BBl <b>2016</b> 3649</ref>).</p>
+	</authorialNote></num>
+
+680 Art. 78 — opening tag of the article element and its number
+<article eId="art_78"><num><b>Art. 78</b></num>

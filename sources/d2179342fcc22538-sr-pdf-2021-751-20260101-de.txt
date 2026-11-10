@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2021/751/20260101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2021/751/20260101/de/pdf-a/fedlex-data-admin-ch-eli-cc-2021-751-20260101-de-pdf-a-4.pdf
+sha256 of the source file: f85f67b23ca2778f4f0abacf4514df02e8aca63e398d85b208299969b4523e95
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+916.404.1 Art. 27 — footnote 38, page 11
+38        Ausdruck gemäss Ziff. I der V vom 29. Okt. 2025, in Kraft seit 1. Jan. 2026 (AS 2025 724). Diese Änd. wurde im ganzen Erlass, ausser in Art. 15, berücksichtigt.

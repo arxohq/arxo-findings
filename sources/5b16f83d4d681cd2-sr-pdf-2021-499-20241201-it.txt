@@ -1,0 +1,25 @@
+Excerpts of Fedlex consolidated version 2021/499/20241201, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2021/499/20241201/it/pdf-a/fedlex-data-admin-ch-eli-cc-2021-499-20241201-it-pdf-a-1.pdf
+sha256 of the source file: c0c434bd0abae5d7f41ff0409e6049de290ea5a695c6d6982e922aeaadd3ed66
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+415.012 Art. 10 — article text
+Art. 10           Diploma e Diploma Supplement
+1 Se il ciclo di studi è stato concluso con successo vengono consegnati un diploma e
+un Diploma Supplement.
+Ordinanza SUFSM                                                                  415.012
+2 Il diploma riporta una valutazione complessiva corrispondente alla nota finale,
+espressa con le menzioni seguenti:
+   nota 6.00         = summa cum laude
+   dalla nota 5.50 = insigni cum laude
+   dalla nota 5.00 = magna cum laude
+   dalla nota 4.50 = cum laude
+   dalla nota 4.00 = rite
+2 Il Diploma Supplement mette a disposizione dati sufficienti a migliorare la traspa-
+renza internazionale e il riconoscimento accademico e professionale delle qualifiche.
+3 Gli studenti che non soddisfano i requisiti per l’ottenimento del diploma finale rice-
+vono soltanto un certificato attestante le singole prestazioni fornite.
+4 Se uno studente ha totalizzato più crediti ECTS di quelli richiesti per l’ottenimento
+del diploma finale, questi vengono riportati nel Diploma Supplement.
+Capitolo 2: Ciclo di studio di bachelor e ciclo di studio di master
+Sezione 1: Ammissione

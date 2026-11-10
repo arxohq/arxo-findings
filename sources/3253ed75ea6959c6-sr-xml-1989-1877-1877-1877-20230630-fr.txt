@@ -1,0 +1,22 @@
+Excerpts of Fedlex consolidated version 1989/1877_1877_1877/20230630, French, XML
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1989/1877_1877_1877/20230630/fr/xml/fedlex-data-admin-ch-eli-cc-1989-1877_1877_1877-20230630-fr-xml-10.xml
+sha256 of the source file: e54e347dea5f26e27f69ec4788e9e08e869721d091ea783806a98ce8dbb2200a
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+0.784.405 Art. 4 — opening tag of the article element and its number
+<article eId="art_4"><num><b>Art. 4</b></num>
+
+0.784.405 Art. 10 — opening tag of the article element and its number
+<article eId="art_4"><num><b>Art. 10</b></num>
+
+0.784.405 Art. 26 — opening tag of the article element and its number
+<article eId="art_26"><num><b>Art. 26</b></num>
+
+0.784.405 Art. 30 — opening tag of the article element and its number
+<article eId="art_26"><num><b>Art. 30</b></num>
+
+0.784.405 Art. 17 — opening tag of the article element and its number
+<article eId="art_17"><num><b>Art. 17</b></num>
+
+0.784.405 Art. 19 — opening tag of the article element and its number
+<article eId="art_17"><num><b>Art. 19</b></num>

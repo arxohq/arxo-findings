@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2022/232/20251001, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2022/232/20251001/de/pdf-a/fedlex-data-admin-ch-eli-cc-2022-232-20251001-de-pdf-a.pdf
+sha256 of the source file: 9b1bb0ee5f72b770a7f6fc6748d6fe6b189a830399ed68e42a09442a1b632d2f
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+128 Art. 10a — footnote 16, page 6
+16        Ausdruck gemäss Ziff. I der V vom 7. März 2025, in Kraft seit 1. April 2025 (AS 2025 168). Diese Änd. wurde im ganzen Erlass berücksichtigt.

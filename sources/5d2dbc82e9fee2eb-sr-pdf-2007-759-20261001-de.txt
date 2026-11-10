@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2007/759/20261001, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2007/759/20261001/de/pdf-a/fedlex-data-admin-ch-eli-cc-2007-759-20261001-de-pdf-a.pdf
+sha256 of the source file: 2e6015dbf6028e2b58024b7144d4c1405a9b439d5e2a3fe71e07e13075cbb6a7
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+142.201 Art. 83a — footnote 206, page 53
+206        Fassung gemäss Ziff. I der V vom 6. Mai 2026, in Kraft seit 12. Juni 2026 (AS 2026 239).

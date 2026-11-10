@@ -1,0 +1,270 @@
+{
+  "id": "ARXO-2026-0959",
+  "url": "https://arxo.io/findings/ARXO-2026-0959/",
+  "record_kind": "discrepancy",
+  "class": "publication",
+  "class_label": "Publication and consolidation",
+  "jurisdiction": "CH",
+  "jurisdiction_detail": "federal",
+  "act": "Classified Compilation of Federal Legislation (SR)",
+  "acts": [],
+  "location": "SR 172.220.141.1, 741.41",
+  "text": {
+    "en": {
+      "title": "SR: in 5 places of 2 acts an expression replaced throughout the act remains in the consolidated version",
+      "summary": "In 5 places of 2 acts of the Classified Compilation (SR), an amending act replaced an expression throughout the act, but the consolidated version of one language still contains the former expression: «l’âge ordinaire de l’AVS» → «l’âge de référence» in SR 172.220.141.1 (AS 2023 774); «l’âge AVS» → «l’âge de référence» in SR 172.220.141.1 (AS 2023 774); «esame successivo» → «controllo periodico» in SR 741.41 (AS 2025 646). Each finding was read in the PDF of the consolidated version, which is the authoritative form.",
+      "impact": "The consolidated version shows an expression that the amending act replaced. A reader of that language version reads a wording that is no longer in force. No effect on a decision has been established.",
+      "correction": "The Federal Chancellery decides how to correct each place; the evidence gives the wording of each language version."
+    },
+    "de": {
+      "title": "SR: An 5 Stellen in 2 Erlassen ist ein im ganzen Erlass ersetzter Ausdruck in der konsolidierten Fassung geblieben",
+      "summary": "An 5 Stellen in 2 Erlassen der Systematischen Rechtssammlung (SR) hat ein Änderungserlass einen Ausdruck im ganzen Erlass ersetzt; die konsolidierte Fassung einer Sprache enthält aber weiterhin den früheren Ausdruck: «l’âge ordinaire de l’AVS» → «l’âge de référence» in SR 172.220.141.1 (AS 2023 774); «l’âge AVS» → «l’âge de référence» in SR 172.220.141.1 (AS 2023 774); «esame successivo» → «controllo periodico» in SR 741.41 (AS 2025 646). Jeder Befund wurde im PDF der konsolidierten Fassung gelesen, das massgebend ist."
+    },
+    "fr": {
+      "title": "RS : à 5 endroits de 2 actes, une expression remplacée dans tout l'acte subsiste dans la version consolidée",
+      "summary": "À 5 endroits de 2 actes du Recueil systématique (RS), un acte modificateur a remplacé une expression dans tout l'acte, mais la version consolidée d'une langue contient encore l'ancienne expression : «l’âge ordinaire de l’AVS» → «l’âge de référence» in SR 172.220.141.1 (RO 2023 774); «l’âge AVS» → «l’âge de référence» in SR 172.220.141.1 (RO 2023 774); «esame successivo» → «controllo periodico» in SR 741.41 (RO 2025 646). Chaque constat a été lu dans le PDF de la version consolidée, qui fait foi."
+    },
+    "it": {
+      "title": "RS: in 5 punti di 2 atti un'espressione sostituita in tutto l'atto resta nella versione consolidata",
+      "summary": "In 5 punti di 2 atti della Raccolta sistematica (RS), un atto modificatore ha sostituito un'espressione in tutto l'atto, ma la versione consolidata di una lingua contiene ancora l'espressione precedente: «l’âge ordinaire de l’AVS» → «l’âge de référence» in SR 172.220.141.1 (RU 2023 774); «l’âge AVS» → «l’âge de référence» in SR 172.220.141.1 (RU 2023 774); «esame successivo» → «controllo periodico» in SR 741.41 (RU 2025 646). Ogni constatazione è stata letta nel PDF della versione consolidata, che è determinante."
+    }
+  },
+  "status": {
+    "badge": "accepted",
+    "label": {
+      "en": "Accepted by the addressee",
+      "ru": "Принято адресатом"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "accepted",
+    "last_checked": "2026-11-09",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The consolidated text",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "s0527-as",
+        "source": "RO 2023 774, French, PDF",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": null,
+        "locator": "RO 2023 774, French version: replacement of an expression throughout the act",
+        "text": "Remplacement d’expressions 1 Dans tout l’acte, sauf aux art. 108g à 108h, «l’âge de 65 ans» est remplacé par «l’âge de référence», en procédant aux ajustements grammaticaux nécessaires. 2 Dans tout l’acte, sauf aux art. 108g à 108i, «l’âge ordinaire de l’AVS» est remplacé par «l’âge de référence», en procédant aux ajustements grammaticaux nécessaires.",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2023/774/fr/pdf-a/fedlex-data-admin-ch-eli-oc-2023-774-fr-pdf-a.pdf",
+        "sha256": "d454572c887ef61eccc6c9508997aa04386c5a544d24f7be17295905d5864f5a",
+        "retrieved": "2026-11-05",
+        "copy": "sources/3a22e8726e6cd24b-as-pdf-2023-774-fr.txt",
+        "copy_sha256": "3a22e8726e6cd24bff88b83f57715c5f84c9f8e5d1bf663134ace2af7ea5a558",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0527-sr",
+        "source": "Fedlex consolidated version 2012/190/20250101, French, PDF",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of January 1, 2025",
+        "locator": "SR 172.220.141.1, Art. 104, French version: the replaced expression remains",
+        "text": "droit s’éteint: a. au décès de la personne bénéficiaire d’une rente, mais au plus tard lorsque celle-ci atteint l’âge ordinaire de l’AVS; b. lorsque le conjoint ou la conjointe d’une personne bénéficiaire d’une rente décède, mais au plus tard lorsqu’il ou elle atteint l’âge ordinaire de l’AVS, ou",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2012/190/20250101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2012-190-20250101-fr-pdf-a.pdf",
+        "sha256": "8c9b36972f55f6def7a91de72bf6d013df7f34e36c16e2ab704bdc5120b31311",
+        "retrieved": "2026-11-05",
+        "copy": "sources/5b040c6978b708b4-sr-pdf-2012-190-20250101-fr.txt",
+        "copy_sha256": "5b040c6978b708b45956f5a5902e7f53c9eee4dd074a6e9d3d6676c3f89e3184",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0528-as",
+        "source": "RO 2023 774, French, PDF",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": null,
+        "locator": "RO 2023 774, French version: replacement of an expression throughout the act",
+        "text": "Remplacement d’expressions 1 Dans tout l’acte, sauf aux art. 108g à 108h, «l’âge de 65 ans» est remplacé par «l’âge de référence», en procédant aux ajustements grammaticaux nécessaires. 2 Dans tout l’acte, sauf aux art. 108g à 108i, «l’âge ordinaire de l’AVS» est remplacé par «l’âge de référence», en procédant aux ajustements grammaticaux nécessaires.",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2023/774/fr/pdf-a/fedlex-data-admin-ch-eli-oc-2023-774-fr-pdf-a.pdf",
+        "sha256": "d454572c887ef61eccc6c9508997aa04386c5a544d24f7be17295905d5864f5a",
+        "retrieved": "2026-11-05",
+        "copy": "sources/3a22e8726e6cd24b-as-pdf-2023-774-fr.txt",
+        "copy_sha256": "3a22e8726e6cd24bff88b83f57715c5f84c9f8e5d1bf663134ace2af7ea5a558",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0528-sr",
+        "source": "Fedlex consolidated version 2012/190/20250101, French, PDF",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of January 1, 2025",
+        "locator": "SR 172.220.141.1, Art. 104, French version: the replaced expression remains",
+        "text": "4 Le droit à la rente de substitution AI ayant pris naissance sous l’ancien droit s’éteint au décès de la personne bénéficiaire d’une rente, mais au plus tard lorsque celle-ci atteint l’âge ordinaire de l’AVS. Art. 105228 Rentes d’invalidité transférées",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2012/190/20250101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2012-190-20250101-fr-pdf-a.pdf",
+        "sha256": "8c9b36972f55f6def7a91de72bf6d013df7f34e36c16e2ab704bdc5120b31311",
+        "retrieved": "2026-11-05",
+        "copy": "sources/5b040c6978b708b4-sr-pdf-2012-190-20250101-fr.txt",
+        "copy_sha256": "5b040c6978b708b45956f5a5902e7f53c9eee4dd074a6e9d3d6676c3f89e3184",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0529-as",
+        "source": "RO 2023 774, French, PDF",
+        "role": "Amending act",
+        "language": "fr",
+        "edition": null,
+        "locator": "RO 2023 774, French version: replacement of an expression throughout the act",
+        "text": "«l’âge de référence», en procédant aux ajustements grammaticaux nécessaires. 2 Dans tout l’acte, sauf aux art. 108g à 108i, «l’âge ordinaire de l’AVS» est remplacé par «l’âge de référence», en procédant aux ajustements grammaticaux nécessaires. 3 Dans tout l’acte, sauf aux art. 108g à 108i, «l’âge AVS» est remplacé par «l’âge de référence», en procédant aux ajustements grammaticaux nécessaires.",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2023/774/fr/pdf-a/fedlex-data-admin-ch-eli-oc-2023-774-fr-pdf-a.pdf",
+        "sha256": "d454572c887ef61eccc6c9508997aa04386c5a544d24f7be17295905d5864f5a",
+        "retrieved": "2026-11-05",
+        "copy": "sources/3a22e8726e6cd24b-as-pdf-2023-774-fr.txt",
+        "copy_sha256": "3a22e8726e6cd24bff88b83f57715c5f84c9f8e5d1bf663134ace2af7ea5a558",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0529-sr",
+        "source": "Fedlex consolidated version 2012/190/20250101, French, PDF",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of January 1, 2025",
+        "locator": "SR 172.220.141.1, Art. 108c, French version: the replaced expression remains",
+        "text": "Art. 108b239 Dispositions transitoires relatives à la modification du 21 juin 2011 1 La réduction à vie dès l’âge AVS, consécutive à la rente transitoire perçue, des rentes de vieillesse ayant pris naissance entre le 1er juillet 2008 et l’entrée en vigueur de la modification du 21 juin 2011 est régie par analogie par l’art. 103, al. 2.",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2012/190/20250101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2012-190-20250101-fr-pdf-a.pdf",
+        "sha256": "8c9b36972f55f6def7a91de72bf6d013df7f34e36c16e2ab704bdc5120b31311",
+        "retrieved": "2026-11-05",
+        "copy": "sources/5b040c6978b708b4-sr-pdf-2012-190-20250101-fr.txt",
+        "copy_sha256": "5b040c6978b708b45956f5a5902e7f53c9eee4dd074a6e9d3d6676c3f89e3184",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0533-as",
+        "source": "RU 2025 646, Italian, PDF",
+        "role": "Amending act",
+        "language": "it",
+        "edition": null,
+        "locator": "RU 2025 646, Italian version: replacement of an expression throughout the act",
+        "text": "Sostituzione di espressioni 1 In tutta l’ordinanza, eccettuato l’allegato 5 numero 22, «esame successivo» è sosti- tuito, con i necessari adeguamenti grammaticali, con «controllo periodico». 2 Nell’articolo 56 capoverso 2, negli allegati 7 numero 2 e 9 numero 311.1 «controllo",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2025/646/it/pdf-a/fedlex-data-admin-ch-eli-oc-2025-646-it-pdf-a.pdf",
+        "sha256": "cf4c65bd0c5fd58e1de474b8762423ad9b0f3ca746fe5f04d18aa9be2ce4d0f1",
+        "retrieved": "2026-11-05",
+        "copy": "sources/804539277011f6e1-as-pdf-2025-646-it.txt",
+        "copy_sha256": "804539277011f6e190dc4d31f0db56734371f0f9a535271268812a9de41385ff",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0533-sr",
+        "source": "Fedlex consolidated version 1995/4425_4425_4425/20261001, Italian, PDF",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of October 1, 2026",
+        "locator": "SR 741.41, Art. 33, Italian version: the replaced expression remains",
+        "text": "Art. 33 Obbligo dell’esame periodico 1 I veicoli immatricolati con targhe ed elencati nel capoverso 2 sono sottoposti perio- dicamente all’esame successivo ufficiale. L’autorità d’immatricolazione convoca i de- tentori all’esame successivo.189 1bis L’esame successivo comprende:",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1995/4425_4425_4425/20261001/it/pdf-a/fedlex-data-admin-ch-eli-cc-1995-4425_4425_4425-20261001-it-pdf-a.pdf",
+        "sha256": "3726f323613df902604604bda12016ef2a694a65575b53d6b3b16efd45193694",
+        "retrieved": "2026-11-05",
+        "copy": "sources/c076f5ee67eb4860-sr-pdf-1995-4425-4425-4425-20261001-it.txt",
+        "copy_sha256": "c076f5ee67eb4860a0b0aa727eaf03d690b622e2cda7f7d6aedb1846ad5ecdcf",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0534-as",
+        "source": "RU 2025 646, Italian, PDF",
+        "role": "Amending act",
+        "language": "it",
+        "edition": null,
+        "locator": "RU 2025 646, Italian version: replacement of an expression throughout the act",
+        "text": "Sostituzione di espressioni 1 In tutta l’ordinanza, eccettuato l’allegato 5 numero 22, «esame successivo» è sosti- tuito, con i necessari adeguamenti grammaticali, con «controllo periodico». 2 Nell’articolo 56 capoverso 2, negli allegati 7 numero 2 e 9 numero 311.1 «controllo",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2025/646/it/pdf-a/fedlex-data-admin-ch-eli-oc-2025-646-it-pdf-a.pdf",
+        "sha256": "cf4c65bd0c5fd58e1de474b8762423ad9b0f3ca746fe5f04d18aa9be2ce4d0f1",
+        "retrieved": "2026-11-05",
+        "copy": "sources/804539277011f6e1-as-pdf-2025-646-it.txt",
+        "copy_sha256": "804539277011f6e190dc4d31f0db56734371f0f9a535271268812a9de41385ff",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "s0534-sr",
+        "source": "Fedlex consolidated version 1995/4425_4425_4425/20261001, Italian, PDF",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of October 1, 2026",
+        "locator": "SR 741.41, Art. 34b, Italian version: the replaced expression remains",
+        "text": "a. i criteri per la classificazione dei veicoli stradali; b. l’esame d’immatricolazione, l’esame successivo4 e la manutenzione del si- stema antinquinamento dei veicoli stradali; c. le esigenze tecniche per i veicoli stradali.",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1995/4425_4425_4425/20261001/it/pdf-a/fedlex-data-admin-ch-eli-cc-1995-4425_4425_4425-20261001-it-pdf-a.pdf",
+        "sha256": "3726f323613df902604604bda12016ef2a694a65575b53d6b3b16efd45193694",
+        "retrieved": "2026-11-05",
+        "copy": "sources/c076f5ee67eb4860-sr-pdf-1995-4425-4425-4425-20261001-it.txt",
+        "copy_sha256": "c076f5ee67eb4860a0b0aa727eaf03d690b622e2cda7f7d6aedb1846ad5ecdcf",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09T05:57:30Z",
+      "institution": "Federal Chancellery",
+      "channel": "email",
+      "role": "publishes the Official Compilation (AS) and the Classified Compilation (SR)"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Federal Chancellery",
+      "role": "publishes the Official Compilation (AS) and the Classified Compilation (SR)"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-11-10T10:50:00Z",
+      "institution": "Federal Chancellery",
+      "kind": "acknowledged",
+      "summary": {
+        "en": "The Federal Chancellery (Official Publications Centre) replied that it will make the necessary corrections as soon as possible. The corrections have not yet been published."
+      }
+    }
+  ],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran checks over the Classified Compilation of Federal Legislation, read each finding in the PDF of the consolidated version and had it read again by a second AI reader; the coordinator of the checks decided each finding."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:45:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Federal Chancellery (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "acknowledged",
+      "text": "Accepted: Federal Chancellery"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

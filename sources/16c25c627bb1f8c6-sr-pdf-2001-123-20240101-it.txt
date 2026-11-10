@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2001/123/20240101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2001/123/20240101/it/pdf-a/fedlex-data-admin-ch-eli-cc-2001-123-20240101-it-pdf-a-3.pdf
+sha256 of the source file: cce4f38a95d3f5eaf2485c10ef5741a4e80ee5d32bde57353e57874a2cb790c0
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+172.220.1 Art. 6a — footnote 38, page 5
+38        Nuovo testo giusta l’all. n. II 1 della L del 19 mar. 2010 sull’organizzazione delle autorità penali, in vigore dal 1° gen. 2011 (RU 2010 3267; FF 2008 7093).

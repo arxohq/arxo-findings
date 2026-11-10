@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2000/282/20260201, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2000/282/20260201/de/pdf-a/fedlex-data-admin-ch-eli-cc-2000-282-20260201-de-pdf-a.pdf
+sha256 of the source file: 413666e931f9bcec063d19eef139996d5360a9556ff57a5ada0e872e8a50d8db
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+172.212.1 Art. 6 — footnote 23, page 5
+23        Fassung gemäss Art. 28 der Kulturgütertransferverordnung vom 13. April 2005, in Kraft seit 1. Juni 2005 (AS 2005 1883).

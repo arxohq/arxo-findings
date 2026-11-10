@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 1951/1017_1019_1045/20130101, German, XML
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1951/1017_1019_1045/20130101/de/xml/fedlex-data-admin-ch-eli-cc-1951-1017_1019_1045-20130101-de-xml-9.xml
+sha256 of the source file: eb90d154efcc7d5968e6fd54813293d253ad1f249fa467208c932814508bfecd
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+0.142.113.496 Art. 7 — opening tag of the article element and its number
+<article eId="art_7"><num><b>Art. 7</b></num>
+
+0.142.113.496 Art. 13 — opening tag of the article element and its number
+<article eId="art_7"><num><b>Art. 13</b></num>

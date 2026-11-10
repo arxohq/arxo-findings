@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2001/319/20260701, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2001/319/20260701/de/pdf-a/fedlex-data-admin-ch-eli-cc-2001-319-20260701-de-pdf-a-1.pdf
+sha256 of the source file: 00feee3bedb2e921bba84c788f3218bc6225f74a6eb3a69937fea66addf1a8fd
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+172.220.111.3 Art. 83 — footnote 281, page 56
+281 Eingefügt durch Anhang Ziff. 2 der Familienzulagenverordnung vom 31. Okt. 2007, (AS 2008 145). Aufgehoben durch Ziff. I der V vom 6. März 2009, mit Wirkung seit 1. Jan. 2009 (AS 2009 1137).

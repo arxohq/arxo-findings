@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 1955/871_893_899/20250701, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1955/871_893_899/20250701/fr/pdf-a/fedlex-data-admin-ch-eli-cc-1955-871_893_899-20250701-fr-pdf-a-1.pdf
+sha256 of the source file: d3cf07bf605e50b48721bb74065e9cdfa3eb1ae7d35bcb36fe752b1f282b25d1
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+232.14 Art. 8a — footnote 28, page 6
+28    Phrase introduite par le ch. I de la LF du 19 déc. 2008, en vigueur depuis le 1er juil. 2009 (RO 2009 2615; FF 2008 257).
+
+232.14 Art. 9a — footnote 35, page 8
+35    Introduit par le ch. I de la LF du 22 juin 2007 (RO 2008 2551; FF 2006 1). Nouvelle teneur selon le ch. I de la LF du 19 déc. 2008, en vigueur depuis le 1er juil. 2009 (RO 2009 2615; FF 2008 257).

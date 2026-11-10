@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1999/445/20200101, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1999/445/20200101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-1999-445-20200101-fr-pdf-a-1.pdf
+sha256 of the source file: cdc49c507af854032c11ffac9477b9f088612cde96e16b975a19ec968ce7a698
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+832.321 Art. 9 — footnote 16, page 5
+16        Nouvelle teneur selon le ch. I de l’O du 9 mai 2012, en vigueur depuis le 1er juin 2012 (RO 2012 2821).

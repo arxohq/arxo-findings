@@ -1,0 +1,26 @@
+Excerpts of Fedlex consolidated version 1956/1305_1395_1407/20260701, Italian, XML
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1956/1305_1395_1407/20260701/it/xml/fedlex-data-admin-ch-eli-cc-1956-1305_1395_1407-20260701-it-xml.xml
+sha256 of the source file: c17ac33867b072b637a21428cc8da97542186aea5f2192112a38f251f53834cd
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+747.30 Art. 20 — opening tag of the article element and its number
+<article eId="art_31"><num><b>Art. 20</b><authorialNote>
+		<p> Nuovo testo giusta la cifra I della LF del 18 dic. 1992, in vigore dal 1° giu. 1993  (<ref href="https://fedlex.data.admin.ch/eli/oc/1993/1703_1703_1703">RU <b>1993</b> 1703</ref>; <ref href="https://fedlex.data.admin.ch/eli/fga/1992/2_1561_1533_1313">FF <b>1992</b> II 1313</ref>).</p>
+	</authorialNote></num>
+
+747.30 Art. 31 — opening tag of the article element and its number
+<article eId="art_31"><num><b>Art. 31</b></num>
+
+747.30 Art. 17 — opening tag of the article element and its number
+<article eId="art_18"><num><b>Art. 17</b></num>
+
+747.30 Art. 18 — opening tag of the article element and its number
+<article eId="art_18"><num><b>Art. 18</b></num>
+
+747.30 Art. 35 — opening tag of the article element and its number
+<article eId="art_36"><num><b>Art. 35</b><authorialNote>
+		<p> Nuovo testo giusta la cifra I della LF del 20 mar. 1987, in vigore dal 1° feb. 1989  (<ref href="https://fedlex.data.admin.ch/eli/oc/1989/212_212_212">RU <b>1989</b> 212</ref>; <ref href="https://fedlex.data.admin.ch/eli/fga/1986/2_717_741_541">FF <b>1986</b> II 541</ref>).</p>
+	</authorialNote></num>
+
+747.30 Art. 36 — opening tag of the article element and its number
+<article eId="art_36"><num><b>Art. 36</b></num>

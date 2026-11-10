@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2010/98/20261001, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2010/98/20261001/it/pdf-a/fedlex-data-admin-ch-eli-cc-2010-98-20261001-it-pdf-a.pdf
+sha256 of the source file: 34eadd7da974dff2e79d5b6b412eb504822032ccfbfd4ef584cc447939703dd1
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+172.215.1 Art. 29b — footnote 73, page 17
+73        Introdotto dall’art. 4 dell’O del 28 set. 2018 concernente la ripartizione del capitale della Regìa federale degli alcool in favore della Confederazione, in vigore dal 1° nov. 2018 (RU 2018 3503).

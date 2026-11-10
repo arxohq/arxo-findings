@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2010/445/20220301, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2010/445/20220301/it/pdf-a/fedlex-data-admin-ch-eli-cc-2010-445-20220301-it-pdf-a-2.pdf
+sha256 of the source file: 066a62423c60cbec2432a86c113f87b1f246301f8576aa7a4cf36e3072593bd9
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+412.106.12 Art. 28 — footnote 43, page 11
+43   Abrogati dal n. I dell’O del Consiglio della SUFFP del 18 nov. 2021, con effetto dal 1° mar. 2022 (RU 2022 82).
+
+412.106.12 Art. 28 — footnote 44, page 11
+44   Abrogati dal n. I dell’O del Consiglio della SUFFP del 18 nov. 2021, con effetto dal 1° mar. 2022 (RU 2022 82).

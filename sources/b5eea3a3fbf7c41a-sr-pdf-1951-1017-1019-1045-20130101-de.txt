@@ -1,0 +1,12 @@
+Excerpts of Fedlex consolidated version 1951/1017_1019_1045/20130101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1951/1017_1019_1045/20130101/de/pdf-a/fedlex-data-admin-ch-eli-cc-1951-1017_1019_1045-20130101-de-pdf-a-1.pdf
+sha256 of the source file: 8c45232ca0ac6809957dcf1c24ccb733697e3666dddc049676624d17c4da0603
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+0.142.113.496 Art. 13 — article text
+Art. 13
+Die Bestimmungen dieser Vereinbarung sind unter Vorbehalt entsprechender Anpas-
+sung der Übergangsbestimmungen des Artikels 10 anwendbar auf Algerien4, Gua-
+deloupe, Französisch Guyana, die Inseln Martinique und Réunion sowie auf die Ter-
+ritorien oder Länder der Französischen Union, wo der Beruf eines Bücherexperten
+oder anerkannten Buchhalters reglementiert ist oder sein wird.

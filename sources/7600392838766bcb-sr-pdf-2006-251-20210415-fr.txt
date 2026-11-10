@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2006/251/20210415, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2006/251/20210415/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2006-251-20210415-fr-pdf-a-1.pdf
+sha256 of the source file: 9f4d4c9184544f0641874e88754a439a06c06033f799dc42da81c199ef7ef262
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+941.242 Art. 2 Bst. c — footnote 8
+8         Nouvelle teneur selon le ch. I de l’O du DFJP du 15 octobtre 2018, en vigueur depuis le 1er décembre 2018 (RO 2018 4071).

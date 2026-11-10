@@ -1,0 +1,44 @@
+Excerpts of Fedlex consolidated version 2016/786/20260101, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2016/786/20260101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2016-786-20260101-fr-pdf-a.pdf
+sha256 of the source file: 555069a3698056cce326deec3844a25cb9adeb0ef6606ce7f7750eff40f390ee
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+653.11 Art. 12 — article text
+Art. 1220             Comptes de communautés de copropriétaires
+Les institutions financières suisses déclarantes peuvent traiter les comptes de commu-
+nautés de copropriétaires comme des comptes exclus au sens de l’art. 4, al. 3, LEAR si:
+     a.      les parts de copropriété sont immatriculées au registre foncier conformément
+             à l’art. 23 de l’ordonnance du 23 septembre 2011 sur le registre foncier21;
+Échange international automatique de renseignements en matière fiscale. O                    653.11
+     b.      les copropriétaires ont conclu un règlement d’utilisation et d’administration
+             conformément à l’art. 647 du code civil (CC)22, prévoyant que les actifs fi-
+             nanciers administrés par la communauté de copropriétaires sont utilisés ex-
+             clusivement pour financer les dépenses liées à l’objet en copropriété, et que
+     c.      le règlement d’utilisation et d’administration est mentionné au registre foncier
+             conformément à l’art. 649a, al. 2, CC.
+
+653.11 Art. 1a — article text
+Art. 1a
+En vertu de l’art. 2b, al. 2, LEAR, la version applicable des commentaires de l’Orga-
+nisation de coopération et de développement économiques (OCDE) sur le modèle
+d’accord entre autorités compétentes et sur la norme commune en matière de déclara-
+tion et de diligence raisonnable concernant les renseignements relatifs aux comptes
+financiers (NCD) est celle du 27 mars 20175. La version applicable des commentaires
+de l’OCDE sur l’Addendum à l’Accord multilatéral entre autorités compétentes con-
+RO 2016 4885
+653.11                                                     Échange automatique de renseignements
+cernant l’échange automatique de renseignements relatifs aux comptes financiers et
+sur les modifications de la NCD est celle du 8 juin 20236.
+Section 2             Institutions financières non déclarantes
+
+653.11 Art. 8 — article text
+Art. 8                Comptes d’avocats ou de notaires
+1 Sont réputés comptes exclus selon l’art. 4, al. 3, LEAR, les comptes de dépôt et les
+comptes conservateurs détenus par des avocats ou des notaires agréés en Suisse ou
+par un cabinet d’avocats ou de notaires agréés en Suisse organisé sous forme de so-
+ciété et dont les clients sont les ayants droit économiques des valeurs qui y sont dépo-
+sées.
+2 Les valeurs qui peuvent être déposées sur de tels comptes et les conditions régissant
+leur détention se fondent sur l’Accord du 14 février 2013 entre la Suisse et les États-
+Unis d’Amérique sur leur coopération visant à faciliter la mise en œuvre du FATCA18.
+Art. 9 à 1119

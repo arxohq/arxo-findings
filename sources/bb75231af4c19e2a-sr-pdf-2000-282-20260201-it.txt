@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2000/282/20260201, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2000/282/20260201/it/pdf-a/fedlex-data-admin-ch-eli-cc-2000-282-20260201-it-pdf-a-1.pdf
+sha256 of the source file: a2a65d8ac81033a2edfc675a236160288a0d70adb48976089b3cdea5abdf447f
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+172.212.1 Art. 6 — footnote 24, page 5
+24        Nuovo testo giusta l’art. 28 dell’O del 13 apr. 2005 sul trasferimento dei beni culturali, in vigore dal 1° giu. 2005 (RU 2010 2653).

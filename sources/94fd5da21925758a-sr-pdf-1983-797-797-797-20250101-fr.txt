@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 1983/797_797_797/20250101, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1983/797_797_797/20250101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-1983-797_797_797-20250101-fr-pdf-a-7.pdf
+sha256 of the source file: 578aff110f74c3a11d259c2bfb41dcdb3bd7f39ddd28ce2879bf800924955917
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+831.40 Art. 79b — footnote 324, page 66
+324    Nouvelle teneur selon l’art. 37 ch. 3 de la L du 18 juin 2004 sur le partenariat, en vigueur depuis le 1er janv. 2007 (RO 2005 5685; FF 2003 1192).
+
+831.40 Art. 48 — footnote 144, page 28
+144        Nouvelle expression selon l’annexe ch. 29 de la LF du 18 déc. 2020, en vigueur depuis le 1er janv. 2022 (RO 2021 758; FF 2019 6955). Il a été tenu compte de cette mod. dans tout le texte.

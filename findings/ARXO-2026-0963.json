@@ -1,0 +1,266 @@
+{
+  "id": "ARXO-2026-0963",
+  "url": "https://arxo.io/findings/ARXO-2026-0963/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "CH",
+  "jurisdiction_detail": "federal",
+  "act": "Classified Compilation of Federal Legislation (SR)",
+  "acts": [],
+  "location": "SR 142.513, Art. 16, Sachüberschrift",
+  "text": {
+    "en": {
+      "title": "SR 142.513 (ZEMIS Ordinance), the heading of Art. 16 cites Art. 5 para. 2 BGIAA, repealed since May 29, 2006",
+      "summary": "In all three language versions, the heading of Art. 16 of the ZEMIS Ordinance names Art. 5 para. 2 of the Federal Act on the Information Systems for Foreign Nationals and Asylum (BGIAA) as its basis. That provision was repealed with effect from May 29, 2006 (AS 2006 1941); the responsibilities have been in Art. 5 para. 1 since then. The ZEMIS Ordinance entered into force the same day, and its original text gives the same address. Whether this affects the legal basis of the provision is not assessed here.",
+      "impact": "A reader who follows the reference finds a repealed provision instead of the rule it is meant to point to. No effect on a decision has been established.",
+      "correction": "The office in charge decides whether to replace or remove the reference."
+    },
+    "de": {
+      "title": "SR 142.513 (ZEMIS-Verordnung), die Sachüberschrift von Art. 16 nennt Art. 5 Abs. 2 BGIAA, aufgehoben seit 29. Mai 2006",
+      "summary": "Die Sachüberschrift von Art. 16 der ZEMIS-Verordnung nennt in allen drei Sprachfassungen Art. 5 Abs. 2 BGIAA als Grundlage. Diese Bestimmung wurde mit Wirkung seit 29. Mai 2006 aufgehoben (AS 2006 1941); die Zuständigkeiten stehen seither in Art. 5 Abs. 1. Die ZEMIS-Verordnung ist am selben Tag in Kraft getreten, und ihr ursprünglicher Text nennt dieselbe Adresse. Ob dies die Rechtsgrundlage der Bestimmung berührt, beurteilen wir nicht."
+    },
+    "fr": {
+      "title": "RS 142.513, le titre de l'art. 16 cite l'art. 5, al. 2, LDEA, abrogé depuis le 29 mai 2006",
+      "summary": "Dans les trois versions linguistiques, le titre de l'art. 16 de l'ordonnance RS 142.513 (ZEMIS) cite l'art. 5, al. 2, LDEA comme base. Cette disposition a été abrogée avec effet au 29 mai 2006 (RO 2006 1941) ; les compétences figurent depuis à l'art. 5, al. 1. L'ordonnance est entrée en vigueur le même jour et son texte original donne la même adresse. Nous n'examinons pas si la base légale de la disposition en est affectée."
+    },
+    "it": {
+      "title": "RS 142.513, la rubrica dell'art. 16 cita l'art. 5 cpv. 2 LSISA, abrogato dal 29 maggio 2006",
+      "summary": "In tutte e tre le versioni linguistiche, la rubrica dell'art. 16 dell'ordinanza RS 142.513 (ZEMIS) cita l'art. 5 cpv. 2 LSISA come base. Questa disposizione è stata abrogata con effetto dal 29 maggio 2006 (RU 2006 1941); da allora le competenze figurano all'art. 5 cpv. 1. L'ordinanza è entrata in vigore lo stesso giorno e il suo testo originale indica lo stesso indirizzo. Non valutiamo se ciò tocchi la base legale della disposizione."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-11-09",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "CH-B001-s-de",
+        "source": "Fedlex consolidated version 2006/303/20261101, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of November 1, 2026",
+        "locator": "SR 142.513, Art. 16, Sachüberschrift, German version of 1. November 2026",
+        "text": "Art. 16 Datenschutz- und Informatiksicherheitsberatung (Art. 5 Abs. 2 BGIAA) 1 Das SEM bezeichnet eine Datenschutz- und Informatiksicherheitsberatung. Diese überprüft die Datenrichtigkeit und",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2006/303/20261101/de/xml/fedlex-data-admin-ch-eli-cc-2006-303-20261101-de-xml.xml",
+        "sha256": "997e8e0eba3291842dda32da2d09089e61dd5ca394ea76233deaf7f692e0ea4f",
+        "retrieved": "2026-11-08",
+        "copy": "sources/eec8e8f49b4d8d48-sr-xml-2006-303-20261101-de.txt",
+        "copy_sha256": "eec8e8f49b4d8d4844cf0e4f47d7b586a640997338d34db43ca4da6b1a23ffee",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-B001-s-fr",
+        "source": "Fedlex consolidated version 2006/303/20261101, French, XML",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of November 1, 2026",
+        "locator": "SR 142.513, Art. 16, Sachüberschrift, French version of 1. November 2026",
+        "text": "Art. 16 Conseiller à la protection des données et à la sécurité informatique (art. 5, al. 2, LDEA) 1 Le SEM désigne un conseiller à la protection des données et à la sécurité informatique. Ce dernier contrôle",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2006/303/20261101/fr/xml/fedlex-data-admin-ch-eli-cc-2006-303-20261101-fr-xml.xml",
+        "sha256": "01e3e02293f5dde81a8db1f6580983baa1027771939e52c62f0467298c75f3c7",
+        "retrieved": "2026-11-08",
+        "copy": "sources/6ecd6a1845d74989-sr-xml-2006-303-20261101-fr.txt",
+        "copy_sha256": "6ecd6a1845d74989e8a8be1cf9be966e9b997805d60ddf375c51288d1372d2ba",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-B001-s-it",
+        "source": "Fedlex consolidated version 2006/303/20261101, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of November 1, 2026",
+        "locator": "SR 142.513, Art. 16, Sachüberschrift, Italian version of 1. November 2026",
+        "text": "Art. 16 Consulenza in materia di protezione dei dati e di sicurezza informatica (art. 5 cpv. 2 LSISA) 1 La SEM designa un consulente in materia di protezione dei dati e di sicurezza informatica. Quest’ultimo verifica",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2006/303/20261101/it/xml/fedlex-data-admin-ch-eli-cc-2006-303-20261101-it-xml.xml",
+        "sha256": "646483c0755f864a0cfcdccfd1c7a8cdd903bb6f88ec684f3c5449673ab1575a",
+        "retrieved": "2026-11-08",
+        "copy": "sources/36209da28825f8a2-sr-xml-2006-303-20261101-it.txt",
+        "copy_sha256": "36209da28825f8a2f038ed27f450cc499b3b6960dd6b12e269e921b2d1929af5",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-B001-t-de",
+        "source": "Fedlex consolidated version 2006/301/20261101, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of November 1, 2026",
+        "locator": "Provision referred to, German version: 2006/301/20261101",
+        "text": "2 …",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2006/301/20261101/de/xml/fedlex-data-admin-ch-eli-cc-2006-301-20261101-de-xml.xml",
+        "sha256": "3c237a27d6f50b1be6dfce1e538205ca3f1d19805a3101c1442139ca5e00538d",
+        "retrieved": "2026-11-08",
+        "copy": "sources/6bd055d37fa9ef78-sr-xml-2006-301-20261101-de.txt",
+        "copy_sha256": "6bd055d37fa9ef7853050a663ff6f028359cd31daa19b1f376fea18989dca7d1",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-B001-t-de-n1",
+        "source": "Fedlex consolidated version 2006/301/20261101, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of November 1, 2026",
+        "locator": "Footnote to the provision referred to, German version",
+        "text": "Aufgehoben durch Ziff. I der V vom 12. April 2006 über die Anpassung des BGIAA infolge der Zusammenlegung der Bundesämter IMES und BFF, mit Wirkung seit 29. Mai 2006 ( AS 2006 1941 ).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2006/301/20261101/de/xml/fedlex-data-admin-ch-eli-cc-2006-301-20261101-de-xml.xml",
+        "sha256": "3c237a27d6f50b1be6dfce1e538205ca3f1d19805a3101c1442139ca5e00538d",
+        "retrieved": "2026-11-08",
+        "copy": "sources/6bd055d37fa9ef78-sr-xml-2006-301-20261101-de.txt",
+        "copy_sha256": "6bd055d37fa9ef7853050a663ff6f028359cd31daa19b1f376fea18989dca7d1",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-B001-t-fr",
+        "source": "Fedlex consolidated version 2006/301/20261101, French, XML",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of November 1, 2026",
+        "locator": "Provision referred to, French version: 2006/301/20261101",
+        "text": "2 …",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2006/301/20261101/fr/xml/fedlex-data-admin-ch-eli-cc-2006-301-20261101-fr-xml.xml",
+        "sha256": "c2f8c8f4fd839d3ca90abf8ad8a7c2c431a243e60134a5371b6b67f904ecd32c",
+        "retrieved": "2026-11-08",
+        "copy": "sources/4a38fdf0dfa836a7-sr-xml-2006-301-20261101-fr.txt",
+        "copy_sha256": "4a38fdf0dfa836a7674f543b4354191a16c52fda62597607521293b128314b13",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-B001-t-fr-n1",
+        "source": "Fedlex consolidated version 2006/301/20261101, French, XML",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of November 1, 2026",
+        "locator": "Footnote to the provision referred to, French version",
+        "text": "Abrogé par le ch. I de l’O du 12 avr. 2006 relative à l’adaptation de la LDEA à la suite de la réunion des offices fédéraux IMES et ODR, avec effet au 29 mai 2006 ( RO 2006 1941 ).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2006/301/20261101/fr/xml/fedlex-data-admin-ch-eli-cc-2006-301-20261101-fr-xml.xml",
+        "sha256": "c2f8c8f4fd839d3ca90abf8ad8a7c2c431a243e60134a5371b6b67f904ecd32c",
+        "retrieved": "2026-11-08",
+        "copy": "sources/4a38fdf0dfa836a7-sr-xml-2006-301-20261101-fr.txt",
+        "copy_sha256": "4a38fdf0dfa836a7674f543b4354191a16c52fda62597607521293b128314b13",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-B001-t-it",
+        "source": "Fedlex consolidated version 2006/301/20261101, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of November 1, 2026",
+        "locator": "Provision referred to, Italian version: 2006/301/20261101",
+        "text": "2 …",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2006/301/20261101/it/xml/fedlex-data-admin-ch-eli-cc-2006-301-20261101-it-xml.xml",
+        "sha256": "d18c362b9ba41cad46d0e5c49e9ac1798c89cacdb32f12d50e117d895ef1bc6e",
+        "retrieved": "2026-11-08",
+        "copy": "sources/5815dcff69592048-sr-xml-2006-301-20261101-it.txt",
+        "copy_sha256": "5815dcff695920480dfa8149ea92434f8874cd2fdc5166b8e9881dd7af9f1cc3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-B001-t-it-n1",
+        "source": "Fedlex consolidated version 2006/301/20261101, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of November 1, 2026",
+        "locator": "Footnote to the provision referred to, Italian version",
+        "text": "Abrogato dalla cifra I dell’O del 12 apr. 2006 sull’adeguamento della LSISA in seguito alla fusione degli uffici federali IMES e UFR, con effetto dal 29 mag. 2006 ( RU 2006 1941 ).",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2006/301/20261101/it/xml/fedlex-data-admin-ch-eli-cc-2006-301-20261101-it-xml.xml",
+        "sha256": "d18c362b9ba41cad46d0e5c49e9ac1798c89cacdb32f12d50e117d895ef1bc6e",
+        "retrieved": "2026-11-08",
+        "copy": "sources/5815dcff69592048-sr-xml-2006-301-20261101-it.txt",
+        "copy_sha256": "5815dcff695920480dfa8149ea92434f8874cd2fdc5166b8e9881dd7af9f1cc3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09T05:57:30Z",
+      "institution": "Federal Chancellery",
+      "channel": "email",
+      "role": "publishes the Official Compilation (AS) and the Classified Compilation (SR)"
+    },
+    {
+      "date": "2026-11-09T06:01:44Z",
+      "institution": "State Secretariat for Migration",
+      "channel": "email",
+      "role": "office in charge of the ordinance"
+    },
+    {
+      "date": "2026-11-09T05:59:46Z",
+      "institution": "Internal Drafting Committee of the Federal Administration",
+      "channel": "email",
+      "role": "checks the wording of ordinances in the official languages"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "State Secretariat for Migration",
+      "role": "office in charge of the ordinance"
+    },
+    {
+      "institution": "Federal Chancellery",
+      "role": "publishes the Official Compilation (AS) and the Classified Compilation (SR)"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran checks over the Classified Compilation of Federal Legislation, read each finding in the PDF of the consolidated version and had it read again by a second AI reader; the coordinator of the checks decided each finding."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:45:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Federal Chancellery (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to State Secretariat for Migration (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Internal Drafting Committee of the Federal Administration (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

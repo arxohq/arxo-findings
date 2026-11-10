@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 1955/871_893_899/20250701, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1955/871_893_899/20250701/de/pdf-a/fedlex-data-admin-ch-eli-cc-1955-871_893_899-20250701-de-pdf-a-1.pdf
+sha256 of the source file: a5dd188d12b80a69cdff0315de6b10de07bced3f7776c0dfecbca89a52298c0c
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+232.14 Art. 8a — footnote 29, page 6
+29    Zweiter Satz eingefügt durch Ziff. I des BG vom 19. Dez. 2008, in Kraft seit 1. Juli 2009 (AS 2009 2615; BBl 2008 303).
+
+232.14 Art. 9a — footnote 36, page 8
+36   Eingefügt durch Ziff. I des BG vom 22. Juni 2007 (AS 2008 2551; BBl 2006 1). Fassung gemäss Ziff. I des BG vom 19. Dez. 2008, in Kraft seit 1. Juli 2009 (AS 2009 2615; BBl 2008 303).

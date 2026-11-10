@@ -1,0 +1,29 @@
+Excerpts of Fedlex consolidated version 2022/303/20261001, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2022/303/20261001/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2022-303-20261001-fr-pdf-a.pdf
+sha256 of the source file: 940760bbc3bc022546a0cc08c8343cb0a48c1ebe52a4fb577c4a08f29f69c158
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+412.103.11 Art. 17 — article text
+Art. 17               Calcul des notes
+1 Les notes qui correspondent à la moyenne de plusieurs prestations ayant fait l’objet
+d’une évaluation sont arrondies à la demi-note ou la note entière supérieure. Cette
+règle ne s’applique pas à la note globale.
+2 Pour les candidats qui sont dispensés de l’examen écrit dans la deuxième langue
+nationale ou en anglais, la note de la langue concernée est basée:
+     a.      à raison de 50 % sur le résultat converti de l’examen de diplôme dans la langue
+             étrangère, et
+     b.      à raison de 50 % sur la note de l’examen oral.10
+3 La note du travail interdisciplinaire est basée:
+     a.      dans l’orientation arts visuels et arts appliqués:
+             1. à raison de 50 % sur la note du processus d’élaboration et du produit du
+                  TIP, et
+             2. à raison de 50 % sur la note de la présentation suivie d’une discussion
+                  approfondie du TIP;
+     b.      dans les autres orientations:
+             1. à raison d’un tiers sur la note du processus d’élaboration et du produit du
+                  TIP, et
+             2. à raison de deux tiers sur la note de la présentation suivie d’une discus-
+                  sion approfondie du TIP.11
+4 La note globale correspond à la moyenne, arrondie à une décimale, des notes obte-
+nues dans toutes les branches d’examen du domaine fondamental, du domaine spéci-
+fique et du domaine complémentaire ainsi que de la note du travail interdisciplinaire.

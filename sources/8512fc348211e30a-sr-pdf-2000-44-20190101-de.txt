@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2000/44/20190101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2000/44/20190101/de/pdf-a/fedlex-data-admin-ch-eli-cc-2000-44-20190101-de-pdf-a-3.pdf
+sha256 of the source file: 0cea2353e18668a81d68f94129118e573e28982a996ad754ea6686bc56cdb954
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+172.217.1 Art. 14a — footnote 33, page 10
+33        Fassung gemäss Anhang Ziff. 2 II 3 der Postverordnung vom 29. Aug. 2012, in Kraft seit 1. Okt. 2012 (AS 2012 5009).
+
+172.217.1 Art. 14a — footnote 35, page 10
+35        Eingefügt durch Anhang Ziff. 5 der V vom 12. Nov. 2008 über das Eidgenössische Nuk- learsicherheitsinspektorat, in Kraft seit 1. Jan. 2009 (AS 2008 5747).

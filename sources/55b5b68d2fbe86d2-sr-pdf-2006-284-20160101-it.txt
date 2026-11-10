@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2006/284/20160101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2006/284/20160101/it/pdf-a/fedlex-data-admin-ch-eli-cc-2006-284-20160101-it-pdf-a-2.pdf
+sha256 of the source file: 11039a1a76728d58d2eed6ca72ae0462fe048a05a1e211078a3d2a0f84e6e5e3
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+946.10 Art. 41 — footnote 27
+27   Abrogato dal n. I della LF del 12 dicembe 2014, con effetto dal 1° gennaio 2016 (RU 2015 2217; FF 2014 3451).

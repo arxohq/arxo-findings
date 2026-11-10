@@ -1,0 +1,26 @@
+Excerpts of Fedlex consolidated version 2016/786/20260101, French, XML
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2016/786/20260101/fr/xml/fedlex-data-admin-ch-eli-cc-2016-786-20260101-fr-xml-2.xml
+sha256 of the source file: 5a70be279ecd320e2ed6e7951790d9df85977f29219d347852ece1c945cee723
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+653.11 Art. 12 — opening tag of the article element and its number
+<article eId="art_36"><num><b>Art. 12</b><authorialNote>
+		<p> Nouvelle teneur selon le ch. I de l’O du 11 nov. 2020, en vigueur depuis le 1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> janv. 2021 (<ref href="https://fedlex.data.admin.ch/eli/oc/2020/910">RO <b>2020</b> 5251</ref>).</p>
+	</authorialNote></num>
+
+653.11 Art. 36 — opening tag of the article element and its number
+<article eId="art_36"><num><b>Art. 36</b></num>
+
+653.11 Art. 1a — opening tag of the article element and its number
+<article eId="art_30_a"><num><b>Art. 1</b><i>a</i></num>
+
+653.11 Art. 30a — opening tag of the article element and its number
+<article eId="art_30_a"><num><b>Art. 30</b><i>a</i></num>
+
+653.11 Art. 8 — opening tag of the article element and its number
+<article eId="art_35_a"><num><b>Art. 8</b></num>
+
+653.11 Art. 35a — opening tag of the article element and its number
+<article eId="art_35_a"><num><b>Art. 35</b><i>a</i><authorialNote>
+		<p> Introduit par le ch. I de l’O du 11 nov. 2020, en vigueur depuis le 1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> janv. 2021 (<ref href="https://fedlex.data.admin.ch/eli/oc/2020/910">RO <b>2020</b> 5251</ref>).</p>
+	</authorialNote></num>

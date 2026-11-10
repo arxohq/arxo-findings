@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2012/192/20250101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2012/192/20250101/it/pdf-a/fedlex-data-admin-ch-eli-cc-2012-192-20250101-it-pdf-a.pdf
+sha256 of the source file: a0a575b8a0d21471bc9fc4aab77bf60260d8f3acf3c96c9122d8781a02c91589
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+172.220.142.2 Art. 39 — footnote 69, page 19
+69   Nuovo testo giusta la cifra I della Dec. dell’OP PF del 1° dic. 2016, approvata dal Consiglio dei PF il 7 dic. 2016 e dal CF il 10 mag. 2017, in vigore dal 1° gen. 2017 (RU 2017 3301).
+
+172.220.142.2 Art. 39 — footnote 70, page 19
+70   Nuovo testo giusta la cifra I delle Dec. dell’OP PF del 26 mar./20 nov. 2020, approvate dal CF il 26 gen. 2022, in vigore dal 1° gen. 2021 (RU 2022 75).

@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2015/840/20260701, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2015/840/20260701/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2015-840-20260701-fr-pdf-a.pdf
+sha256 of the source file: 3894ada6a0d50c2549e91cc59f53402b231e9c3d6c06f28edca4b3f5f9b14810
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+832.121 Art. 53 — footnote 35, page 19
+35    Nouvelle teneur selon le ch. I de l’O du 24 avr. 2024, en vigueur depuis le 1er juil. 2024 (RO 2024 195).

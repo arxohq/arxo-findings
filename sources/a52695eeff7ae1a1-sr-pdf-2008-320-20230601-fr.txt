@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2008/320/20230601, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2008/320/20230601/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2008-320-20230601-fr-pdf-a.pdf
+sha256 of the source file: d627ccbad3c9317d6aee1526d6d579e70e33159aa17798fafa27b380cc3bb892
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+173.320.1 Art. 15 Abs. 1 — footnote 8
+8        Nouvelle teneur selon le ch. I de la D du TAF du 23 mars 2021, en vigueur depuis le 1er jan. 2021 (RO 2021 629).
+
+173.320.1 Art. 7 — footnote 5
+5        Abrogé par le ch. I de la D du TAF du 23 mars 2021, avec effet au 1er jan. 2021 (RO 2021 629).

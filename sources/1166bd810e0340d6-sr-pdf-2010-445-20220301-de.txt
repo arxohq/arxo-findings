@@ -1,0 +1,16 @@
+Excerpts of Fedlex consolidated version 2010/445/20220301, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2010/445/20220301/de/pdf-a/fedlex-data-admin-ch-eli-cc-2010-445-20220301-de-pdf-a-1.pdf
+sha256 of the source file: 1fc8106af3245c5ef1d6e29b53fc1424268628f4a6a6f1597afa5237f60350f5
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+412.106.12 Art. 28 — footnote 46, page 11
+46   Aufgehoben durch Ziff. I der V des EHB-Rats vom 18. Nov. 2021, mit Wirkung seit 1. März 2022 (AS 2022 82).
+
+412.106.12 Art. 28 — footnote 47, page 11
+47   Fassung gemäss Ziff. I der V des EHB-Rats vom 18. Nov. 2021, in Kraft seit 1. März 2022 (AS 2022 82).
+
+412.106.12 Art. 28 — footnote 48, page 11
+48   Aufgehoben durch Ziff. I der V des EHB-Rats vom 18. Nov. 2021, mit Wirkung seit 1. März 2022 (AS 2022 82).
+
+412.106.12 Art. 28 — footnote 49, page 11
+49   Aufgehoben durch Ziff. I der V des EHB-Rats vom 17. Juni 2021, mit Wirkung seit 1. Aug. 2021 (AS 2021 459).

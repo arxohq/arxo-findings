@@ -1,0 +1,32 @@
+Excerpts of Fedlex consolidated version 2012/856/20260101, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2012/856/20260101/de/pdf-a/fedlex-data-admin-ch-eli-cc-2012-856-20260101-de-pdf-a-9.pdf
+sha256 of the source file: f31e768b472973f1a1514f2e23565c3bf4f456ed16144b71bc50e27f9e0c5426
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+641.711 Art. 65 — footnote 273, page 50
+273        Fassung gemäss Ziff. I der V vom 19. Nov. 2025, in Kraft seit 1. Jan. 2026 (AS 2025 788).
+
+641.711 Art. 9 — footnote 36, page 9
+36   Fassung gemäss Ziff. I der V vom 19. Nov. 2025, in Kraft seit 1. Jan. 2026 (AS 2025 788).
+
+641.711 Art. 17d — article text
+Art. 17d103            Erstmaliges Inverkehrsetzen
+1 Als erstmals in der Schweiz in Verkehr gesetzt gelten Fahrzeuge, die erstmals zum
+Verkehr in der Schweiz zugelassen werden und bei denen die in der erstmaligen Zu-
+lassung festgelegte Verwendung der tatsächlichen Verwendung durch die Endabneh-
+merin oder den Endabnehmer entspricht.
+2 Das Inverkehrsetzen in einem Zollausschlussgebiet nach Artikel 3 Absatz 3 des
+Zollgesetzes vom 18. März 2005104 (ZG) sowie in Liechtenstein gilt als Inverkehrset-
+zen in der Schweiz. Das Inverkehrsetzen in einem Zollanschlussgebiet nach Artikel 3
+Absatz 2 ZG, mit Ausnahme von Liechtenstein, gilt als Inverkehrsetzen im Ausland.
+3 Nicht als erstmals in Verkehr gesetzt gelten eingeführte Fahrzeuge, die:
+      a.      vor mehr als zwölf Monaten vor der Zollanmeldung in der Schweiz zum Ver-
+              kehr im Ausland zugelassen worden sind; oder
+      b.      vor mehr als sechs Monaten und vor höchstens 12 Monaten vor der Zollan-
+              meldung in der Schweiz zum Verkehr im Ausland zugelassen worden sind
+              und zu folgendem Zeitpunkt eine Fahrleistung von 5000 km oder mehr auf-
+              weisen:
+              1. zum Zeitpunkt der Zollanmeldung,
+              2. zum Zeitpunkt der erstmaligen Zulassung zum Verkehr, wenn die Fahr-
+                  leistung zum Zeitpunkt der Zollanmeldung nicht erfasst ist.105
+4 …106

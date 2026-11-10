@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1998/65_65_65/20210101, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1998/65_65_65/20210101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-1998-65_65_65-20210101-fr-pdf-a-2.pdf
+sha256 of the source file: da17baf11659877fbf2115fad9fdeed87553789b2b520cd847a670ffb50974b9
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+784.101.115 Art. 8 — footnote 17, page 3
+17     Nouvelle teneur selon selon le ch. I de l’O de la ComCom du 24 sept. 2009, approuvée par le CF le 4 nov. 2009 et en vigueur depuis le 1er janv. 2010 (RO 2009 5835).

@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1955/1180_1207_1215/20080801, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1955/1180_1207_1215/20080801/de/pdf-a/fedlex-data-admin-ch-eli-cc-1955-1180_1207_1215-20080801-de-pdf-a-2.pdf
+sha256 of the source file: d3467c7ef9e8eb08902760903ca3b7def3cc6e6d3cda47a706a6dc2b172850b0
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+935.21 Art. 6 — footnote 8
+8     Fassung gemäss Ziff. II 53 des BG vom 20. März 2008 zur formellen Bereinigung des Bundesrechts, in Kraft seit 1. Augst 2008 (AS 2008 3437 3452; BBl 2007 6121).

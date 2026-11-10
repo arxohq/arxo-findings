@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 1952/896_916_912/20140423, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1952/896_916_912/20140423/it/pdf-a/fedlex-data-admin-ch-eli-cc-1952-896_916_912-20140423-it-pdf-a-1.pdf
+sha256 of the source file: 45c1eac93879f0ce8fa2c38b852a8d3d16504f6d6583d27abe959767f522e618
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+836.11 Art. 2a — footnote 8, page 2
+8     Introdotto dal n. 3 dell’all. all’O del 31 ott. 2007 sugli assegni familiari, in vigore dal 1° gen. 2009 (RU 2008 145).
+
+836.11 Art. 3b — footnote 16, page 3
+16        Introdotto dal n. 3 dell’all. all’O del 31 ott. 2007 sugli assegni familiari, in vigore dal 1° gen. 2009 (RU 2008 145).

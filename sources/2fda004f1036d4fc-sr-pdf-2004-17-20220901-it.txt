@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 2004/17/20220901, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2004/17/20220901/it/pdf-a/fedlex-data-admin-ch-eli-cc-2004-17-20220901-it-pdf-a.pdf
+sha256 of the source file: be040ad26504f04bd60d7975f43683c313916d4d63d9c71a0c4c965a68c929c9
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+414.110.37 Art. 10 Abs. 4 — footnote 3
+3        Nuovo testo giusta il n. I dell’O del Consiglio dei PF dell’11 marz. 2009, in vigore dal 1° mag. 2009 (RU 2009 1145).

@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2002/183/20250701, French, XML
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2002/183/20250701/fr/xml/fedlex-data-admin-ch-eli-cc-2002-183-20250701-fr-xml-1.xml
+sha256 of the source file: fe127e50c41df71e078329e47ac46bda07fa03c719baebb15a64b28044d0ab0d
+Each block: a heading, then the passage as extracted from the XML file, as text of the elements.
+
+232.121 CH-L001 — referring provision (fr)
+4 La consultation des documents justificatifs classés à part (art. 21, al. 2) relève de la compétence de l’IPI, qui se prononce après avoir consulté le titulaire.
+
+CH-L001 — provision referred to (fr)
+2 Dans le cas d’un dépôt multiple (art. 20 LDes), il est possible de limiter la prolongation de la protection à certains designs. Il convient alors d’indiquer précisément pour quels designs cette prolongation est requise.

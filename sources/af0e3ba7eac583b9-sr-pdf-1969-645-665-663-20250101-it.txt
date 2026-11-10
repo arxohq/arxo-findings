@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1969/645_665_663/20250101, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1969/645_665_663/20250101/it/pdf-a/fedlex-data-admin-ch-eli-cc-1969-645_665_663-20250101-it-pdf-a-1.pdf
+sha256 of the source file: 2936bc14e908fa73816d15a1f7a5be5a6b7e9048577449c1ba4967aaf210ba0f
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+641.31 Art. 9 — footnote 23, page 4
+23    Nuovo testo giusta l’all. n. 8 della L del 18 mar. 2005 sulle dogane, in vigore dal 1° mag. 2007 (RU 2007 1411; FF 2004 485).

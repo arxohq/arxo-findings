@@ -1,0 +1,7 @@
+Excerpts of Fedlex consolidated version 1961/29_29_29/20250601, Italian, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1961/29_29_29/20250601/it/pdf-a/fedlex-data-admin-ch-eli-cc-1961-29_29_29-20250601-it-pdf-a.pdf
+sha256 of the source file: 13f4f43fb6ca706dc9c9efa91602d4a5cbc503f4a650b4a7f11e3f3c0ff2552c
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+831.201 Art. 6 — footnote 61, page 15
+61        Nuovo testo giusta la cifra I dell’O del 19 set. 2014, in vigore dal 1° gen. 2015 (RU 2014 3177).

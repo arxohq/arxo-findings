@@ -1,0 +1,236 @@
+{
+  "id": "ARXO-2026-0965",
+  "url": "https://arxo.io/findings/ARXO-2026-0965/",
+  "record_kind": "discrepancy",
+  "class": "language_versions",
+  "class_label": "Language versions",
+  "jurisdiction": "CH",
+  "jurisdiction_detail": "federal",
+  "act": "Classified Compilation of Federal Legislation (SR)",
+  "acts": [],
+  "location": "SR 232.14, Art. 140x para. 1 let. b",
+  "text": {
+    "en": {
+      "title": "SR 232.14 (Patents Act), Art. 140x para. 1 let. b: the German and French versions refer to Art. 140u para. 2, the Italian version to Art. 140x para. 2",
+      "summary": "Art. 140x para. 1 let. b of the Patents Act refers to Art. 140u para. 2 in the German and French versions and to Art. 140x para. 2 in the Italian version. Both paragraphs exist: Art. 140u para. 2 provides that the paediatric certificate is granted only once per product, Art. 140x para. 2 governs the action for a declaration of nullity. The divergence is already in the amendment as promulgated (AS 2017 2745, p. 36 in all three languages); the provision has applied since January 1, 2019.",
+      "impact": "Readers of different language versions are sent to different provisions; at most one of them can be the one intended. No effect on a decision has been established.",
+      "correction": "The authors of the act decide which reference is intended; the evidence gives the wording of each language version."
+    },
+    "de": {
+      "title": "SR 232.14 (PatG), Art. 140x Abs. 1 Bst. b: deutsch und französisch Verweis auf Art. 140u Abs. 2, italienisch auf Art. 140x Abs. 2",
+      "summary": "Die deutsche und die französische Fassung von Art. 140x Abs. 1 Bst. b PatG verweisen auf Art. 140u Abs. 2, die italienische auf Art. 140x Abs. 2. Beide Absätze bestehen: Art. 140u Abs. 2 bestimmt, dass das pädiatrische Zertifikat je Erzeugnis nur einmal erteilt wird; Art. 140x Abs. 2 regelt die Klage auf Feststellung der Nichtigkeit. Die Abweichung steht bereits in der verkündeten Änderung (AS 2017 2745, S. 36 in allen drei Sprachen); die Bestimmung gilt seit 1. Januar 2019."
+    },
+    "fr": {
+      "title": "RS 232.14 (LBI), art. 140x, al. 1, let. b : les versions allemande et française renvoient à l'art. 140u, al. 2, la version italienne à l'art. 140x, al. 2",
+      "summary": "L'art. 140x, al. 1, let. b, de la loi sur les brevets renvoie à l'art. 140u, al. 2, dans les versions allemande et française et à l'art. 140x, al. 2, dans la version italienne. Les deux alinéas existent : l'art. 140u, al. 2, prévoit qu'un seul certificat pédiatrique est délivré par produit, l'art. 140x, al. 2, règle l'action en constatation de la nullité. La divergence figure déjà dans la modification publiée (RO 2017 2745, p. 36 dans les trois langues) ; la disposition s'applique depuis le 1er janvier 2019."
+    },
+    "it": {
+      "title": "RS 232.14 (LBI), art. 140x cpv. 1 lett. b: le versioni tedesca e francese rinviano all'art. 140u cpv. 2, la versione italiana all'art. 140x cpv. 2",
+      "summary": "L'art. 140x cpv. 1 lett. b della legge sui brevetti rinvia all'art. 140u cpv. 2 nelle versioni tedesca e francese e all'art. 140x cpv. 2 nella versione italiana. Entrambi i capoversi esistono: l'art. 140u cpv. 2 prevede che il certificato pediatrico sia rilasciato una sola volta per prodotto, l'art. 140x cpv. 2 disciplina l'azione di nullità. La divergenza figura già nella modifica pubblicata (RU 2017 2745, p. 36 in tutte e tre le lingue); la disposizione si applica dal 1° gennaio 2019."
+    }
+  },
+  "status": {
+    "badge": "accepted",
+    "label": {
+      "en": "Accepted by the addressee",
+      "ru": "Принято адресатом"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "accepted",
+    "last_checked": "2026-11-09",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The amending act",
+  "evidence": {
+    "method": "Pair of quotations",
+    "quotes": [
+      {
+        "location": "CH-L002-s-de",
+        "source": "Fedlex consolidated version 1955/871_893_899/20250701, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of July 1, 2025",
+        "locator": "SR 232.14, Art. 140x para. 1 let. b, German version of 1. Juli 2025",
+        "text": "b. es entgegen Artikel 140u Absatz 2 erteilt worden ist;",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1955/871_893_899/20250701/de/xml/fedlex-data-admin-ch-eli-cc-1955-871_893_899-20250701-de-xml-5.xml",
+        "sha256": "f1084a91ade800c0faede74c9924db9b179cec0fa9181a938646a4f25683ac85",
+        "retrieved": "2026-11-08",
+        "copy": "sources/3c04e3ee0c856141-sr-xml-1955-871-893-899-20250701-de.txt",
+        "copy_sha256": "3c04e3ee0c8561412fddeb7e9424a996fbaa1fc910d9f0bc173395b2da379f07",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L002-s-fr",
+        "source": "Fedlex consolidated version 1955/871_893_899/20250701, French, XML",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of July 1, 2025",
+        "locator": "SR 232.14, Art. 140x para. 1 let. b, French version of 1. Juli 2025",
+        "text": "b. s’il a été délivré en violation de l’art. 140u, al. 2;",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1955/871_893_899/20250701/fr/xml/fedlex-data-admin-ch-eli-cc-1955-871_893_899-20250701-fr-xml-5.xml",
+        "sha256": "9a0310e4e42af7a92d35209b174eeec9e0e6c42bf2b423b76ef2b405e95cec77",
+        "retrieved": "2026-11-08",
+        "copy": "sources/0593feefd5b160a9-sr-xml-1955-871-893-899-20250701-fr.txt",
+        "copy_sha256": "0593feefd5b160a9be8572868d2e5a4378498a048932f4c86285614c69ded471",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L002-s-it",
+        "source": "Fedlex consolidated version 1955/871_893_899/20250701, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of July 1, 2025",
+        "locator": "SR 232.14, Art. 140x para. 1 let. b, Italian version of 1. Juli 2025",
+        "text": "b. è stato rilasciato in violazione dell’articolo 140x capoverso 2;",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1955/871_893_899/20250701/it/xml/fedlex-data-admin-ch-eli-cc-1955-871_893_899-20250701-it-xml-5.xml",
+        "sha256": "5a752f8a0f5492b5ecaa4b242e5fffe9de1ccd6acc0425b686fbe58136e66003",
+        "retrieved": "2026-11-08",
+        "copy": "sources/58861e4de835e007-sr-xml-1955-871-893-899-20250701-it.txt",
+        "copy_sha256": "58861e4de835e007c633de2e8125c7eb61b0b21377c0cbe4a173aa3a0e122245",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L002-t-de",
+        "source": "Fedlex consolidated version 1955/871_893_899/20250701, German, XML",
+        "role": "Consolidation",
+        "language": "de",
+        "edition": "consolidated version of July 1, 2025",
+        "locator": "Provision referred to, German version: 1955/871_893_899/20250701",
+        "text": "2 Je Erzeugnis wird das pädiatrische Zertifikat nur einmal erteilt.",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1955/871_893_899/20250701/de/xml/fedlex-data-admin-ch-eli-cc-1955-871_893_899-20250701-de-xml-5.xml",
+        "sha256": "f1084a91ade800c0faede74c9924db9b179cec0fa9181a938646a4f25683ac85",
+        "retrieved": "2026-11-08",
+        "copy": "sources/3c04e3ee0c856141-sr-xml-1955-871-893-899-20250701-de.txt",
+        "copy_sha256": "3c04e3ee0c8561412fddeb7e9424a996fbaa1fc910d9f0bc173395b2da379f07",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L002-t-fr",
+        "source": "Fedlex consolidated version 1955/871_893_899/20250701, French, XML",
+        "role": "Consolidation",
+        "language": "fr",
+        "edition": "consolidated version of July 1, 2025",
+        "locator": "Provision referred to, French version: 1955/871_893_899/20250701",
+        "text": "2 Un seul certificat pédiatrique est délivré pour chaque produit.",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1955/871_893_899/20250701/fr/xml/fedlex-data-admin-ch-eli-cc-1955-871_893_899-20250701-fr-xml-5.xml",
+        "sha256": "9a0310e4e42af7a92d35209b174eeec9e0e6c42bf2b423b76ef2b405e95cec77",
+        "retrieved": "2026-11-08",
+        "copy": "sources/0593feefd5b160a9-sr-xml-1955-871-893-899-20250701-fr.txt",
+        "copy_sha256": "0593feefd5b160a9be8572868d2e5a4378498a048932f4c86285614c69ded471",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "CH-L002-t-it",
+        "source": "Fedlex consolidated version 1955/871_893_899/20250701, Italian, XML",
+        "role": "Consolidation",
+        "language": "it",
+        "edition": "consolidated version of July 1, 2025",
+        "locator": "Provision referred to, Italian version: 1955/871_893_899/20250701",
+        "text": "2 Chiunque può intentare un’azione per nullità del certificato pediatrico presso l’autorità competente per l’accertamento della nullità del brevetto.",
+        "translations": {},
+        "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1955/871_893_899/20250701/it/xml/fedlex-data-admin-ch-eli-cc-1955-871_893_899-20250701-it-xml-5.xml",
+        "sha256": "5a752f8a0f5492b5ecaa4b242e5fffe9de1ccd6acc0425b686fbe58136e66003",
+        "retrieved": "2026-11-08",
+        "copy": "sources/58861e4de835e007-sr-xml-1955-871-893-899-20250701-it.txt",
+        "copy_sha256": "58861e4de835e007c633de2e8125c7eb61b0b21377c0cbe4a173aa3a0e122245",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09T05:57:30Z",
+      "institution": "Federal Chancellery",
+      "channel": "email",
+      "role": "publishes the Official Compilation (AS) and the Classified Compilation (SR)"
+    },
+    {
+      "date": "2026-11-09T05:59:09Z",
+      "institution": "Drafting Committee of the Federal Assembly",
+      "channel": "email",
+      "role": "checks the wording of federal acts in the official languages"
+    },
+    {
+      "date": "2026-11-09T06:02:02Z",
+      "institution": "Swiss Federal Institute of Intellectual Property",
+      "channel": "email",
+      "role": "office in charge of the provision"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Drafting Committee of the Federal Assembly",
+      "role": "checks the wording of federal acts in the official languages"
+    },
+    {
+      "institution": "Swiss Federal Institute of Intellectual Property",
+      "role": "office in charge of the provision"
+    },
+    {
+      "institution": "Federal Chancellery",
+      "role": "publishes the Official Compilation (AS) and the Classified Compilation (SR)"
+    }
+  ],
+  "responses": [
+    {
+      "date": "2026-11-10T08:07:00Z",
+      "institution": "Drafting Committee of the Federal Assembly",
+      "kind": "acknowledged",
+      "summary": {
+        "en": "The secretariat of the Drafting Committee of the Federal Assembly replied that it will take the necessary measures. No correction has yet been published."
+      }
+    }
+  ],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran checks over the Classified Compilation of Federal Legislation, read each finding in the PDF of the consolidated version and had it read again by a second AI reader; the coordinator of the checks decided each finding."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:45:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Federal Chancellery (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Drafting Committee of the Federal Assembly (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Swiss Federal Institute of Intellectual Property (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "acknowledged",
+      "text": "Accepted: Drafting Committee of the Federal Assembly"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

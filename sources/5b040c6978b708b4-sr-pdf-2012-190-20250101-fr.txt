@@ -1,0 +1,23 @@
+Excerpts of Fedlex consolidated version 2012/190/20250101, French, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2012/190/20250101/fr/pdf-a/fedlex-data-admin-ch-eli-cc-2012-190-20250101-fr-pdf-a.pdf
+sha256 of the source file: 8c9b36972f55f6def7a91de72bf6d013df7f34e36c16e2ab704bdc5120b31311
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+172.220.141.1 Art. 104 — passage with the former expression
+droit s’éteint:
+      a.   au décès de la personne bénéficiaire d’une rente, mais au plus tard lorsque
+           celle-ci atteint l’âge ordinaire de l’AVS;
+      b.   lorsque le conjoint ou la conjointe d’une personne bénéficiaire d’une rente
+           décède, mais au plus tard lorsqu’il ou elle atteint l’âge ordinaire de l’AVS, ou
+
+172.220.141.1 Art. 104 — passage with the former expression
+4 Le droit à la rente de substitution AI ayant pris naissance sous l’ancien droit s’éteint
+au décès de la personne bénéficiaire d’une rente, mais au plus tard lorsque celle-ci
+atteint l’âge ordinaire de l’AVS.
+Art. 105228        Rentes d’invalidité transférées
+
+172.220.141.1 Art. 108c — passage with the former expression
+Art. 108b239      Dispositions transitoires relatives à la modification du 21 juin 2011
+1 La réduction à vie dès l’âge AVS, consécutive à la rente transitoire perçue, des rentes
+de vieillesse ayant pris naissance entre le 1er juillet 2008 et l’entrée en vigueur de la
+modification du 21 juin 2011 est régie par analogie par l’art. 103, al. 2.

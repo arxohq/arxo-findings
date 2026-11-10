@@ -1,0 +1,10 @@
+Excerpts of Fedlex consolidated version 2010/98/20261001, German, PDF
+Source: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2010/98/20261001/de/pdf-a/fedlex-data-admin-ch-eli-cc-2010-98-20261001-de-pdf-a.pdf
+sha256 of the source file: 1d3826f84d96384570a3c9423077c55246cc97fd66502f35bda14450db3a041c
+Each block: a heading, then the passage as extracted from pdftotext -layout of the PDF.
+
+172.215.1 Art. 29b — footnote 74, page 17
+74        Fassung gemäss Art. 4 der V vom 28. Sept. 2018 über die Vermögensausscheidung der Eidgenössischen Alkoholverwaltung zugunsten des Bundes, in Kraft seit 1. Nov. 2018 (AS 2018 3503).
+
+172.215.1 Art. 29b — footnote 75, page 17
+75        Eingefügt durch Art. 4 der V vom 28. Sept. 2018 über die Vermögensausscheidung der Eidgenössischen Alkoholverwaltung zugunsten des Bundes, in Kraft seit 1. Nov. 2018 (AS 2018 3503).
