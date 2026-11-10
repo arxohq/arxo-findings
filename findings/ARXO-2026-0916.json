@@ -1,0 +1,289 @@
+{
+  "id": "ARXO-2026-0916",
+  "url": "https://arxo.io/findings/ARXO-2026-0916/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "46 CFR parts 501, 503, 504, 508, 535, 545, 560",
+  "text": {
+    "en": {
+      "title": "Federal Maritime Commission: 8 references to former U.S. Code sections or former act names",
+      "summary": "In the CFR chapters assigned to the Federal Maritime Commission, 8 references in 7 sections use a former address or name: 6 cite a renumbered section; 2 cite a section replaced by a new one when the title was enacted as positive law. Each reference was compared with release point 119-134 of the U.S. Code, which names where the old number went.",
+      "impact": "A reader who follows these references finds a note that the section moved, or no section, instead of the text. A reference to a moved section may keep its legal effect, but the address no longer leads to the text. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the U.S. Code names the section the old number moved to, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 46, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "46 CFR 535.101, citing 46 U.S.C. 305; the U.S. Code gives 46 U.S.C. 46105",
+        "text": ", 7, 8, 10, 11, 13, 15, 16, 17, and 19 of the Shipping Act of 1984 (\"the Act\") (46 U.S.C. 305, 40101-40104, 40301-40307, 40501-40503, 40901-40904, 41101-41109, 41301-41302, and 41305-41307), and the Ocean Shipping Reform Act of 1998, Pub. L.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-46.xml",
+        "sha256": "3a5487e158beea8febf39e5c3a58325d03044fe22cfcd1ee0c04635bdc836944",
+        "retrieved": "2026-10-29",
+        "copy": "sources/7710e7cb891f61ec-ecfr-2026-10-27-title-46-citing.txt",
+        "copy_sha256": "7710e7cb891f61ec77e779fc79c9d5fd60e0bbe448139cb4457b38cae2dd1030",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 46, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "46 CFR part 501 (Authority), citing 41 U.S.C. 414; the U.S. Code gives 41 U.S.C. 1702",
+        "text": "Authority:5 U.S.C. 551-557, 701-706, 2903 and 6304; 31 U.S.C. 3721; 41 U.S.C. 414 and 418; 44 U.S.C. 501-520 and 3501-3520; 46 U.S.C. 40101-41309, 42",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-46.xml",
+        "sha256": "3a5487e158beea8febf39e5c3a58325d03044fe22cfcd1ee0c04635bdc836944",
+        "retrieved": "2026-10-29",
+        "copy": "sources/7710e7cb891f61ec-ecfr-2026-10-27-title-46-citing.txt",
+        "copy_sha256": "7710e7cb891f61ec77e779fc79c9d5fd60e0bbe448139cb4457b38cae2dd1030",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 46, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "46 CFR part 501 (Authority), citing 41 U.S.C. 418; the U.S. Code gives 41 U.S.C. 1705",
+        "text": "Authority:5 U.S.C. 551-557, 701-706, 2903 and 6304; 31 U.S.C. 3721; 41 U.S.C. 414 and 418; 44 U.S.C. 501-520 and 3501-3520; 46 U.S.C. 40101-41309, 42",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-46.xml",
+        "sha256": "3a5487e158beea8febf39e5c3a58325d03044fe22cfcd1ee0c04635bdc836944",
+        "retrieved": "2026-10-29",
+        "copy": "sources/7710e7cb891f61ec-ecfr-2026-10-27-title-46-citing.txt",
+        "copy_sha256": "7710e7cb891f61ec77e779fc79c9d5fd60e0bbe448139cb4457b38cae2dd1030",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 46, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "46 CFR part 503 (Authority), citing 46 U.S.C. 303; the U.S. Code gives 46 U.S.C. 46103",
+        "text": "Authority:5 U.S.C. 331, 552, 552a, 552b, 553; 31 U.S.C. 9701; 46 U.S.C. 303; E.O. 13526 of January 5, 2010 75 FR 707, 3 CFR, 2010 Comp.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-46.xml",
+        "sha256": "3a5487e158beea8febf39e5c3a58325d03044fe22cfcd1ee0c04635bdc836944",
+        "retrieved": "2026-10-29",
+        "copy": "sources/7710e7cb891f61ec-ecfr-2026-10-27-title-46-citing.txt",
+        "copy_sha256": "7710e7cb891f61ec77e779fc79c9d5fd60e0bbe448139cb4457b38cae2dd1030",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 46, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "46 CFR part 504 (Authority), citing 46 U.S.C. 305; the U.S. Code gives 46 U.S.C. 46105",
+        "text": "Authority:5 U.S.C. 552, 553; 46 U.S.C. 305 and 41107-41109; 42 U.S.C. 4332(2)(b), and 42 U.S.C. 6362.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-46.xml",
+        "sha256": "3a5487e158beea8febf39e5c3a58325d03044fe22cfcd1ee0c04635bdc836944",
+        "retrieved": "2026-10-29",
+        "copy": "sources/7710e7cb891f61ec-ecfr-2026-10-27-title-46-citing.txt",
+        "copy_sha256": "7710e7cb891f61ec77e779fc79c9d5fd60e0bbe448139cb4457b38cae2dd1030",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c6",
+        "source": "eCFR Title 46, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "46 CFR part 508 (Authority), citing 46 U.S.C. 305; the U.S. Code gives 46 U.S.C. 46105",
+        "text": "Authority:5 U.S.C. 553; 5 U.S.C. 7301; 46 U.S.C. 305.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-46.xml",
+        "sha256": "3a5487e158beea8febf39e5c3a58325d03044fe22cfcd1ee0c04635bdc836944",
+        "retrieved": "2026-10-29",
+        "copy": "sources/7710e7cb891f61ec-ecfr-2026-10-27-title-46-citing.txt",
+        "copy_sha256": "7710e7cb891f61ec77e779fc79c9d5fd60e0bbe448139cb4457b38cae2dd1030",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c7",
+        "source": "eCFR Title 46, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "46 CFR part 545 (Authority), citing 46 U.S.C. 305; the U.S. Code gives 46 U.S.C. 46105",
+        "text": "Authority:5 U.S.C. 553; 46 U.S.C. 305, 40307, 40501-40503, 41101-41106, and 40901-40904; 46 CFR 515.23",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-46.xml",
+        "sha256": "3a5487e158beea8febf39e5c3a58325d03044fe22cfcd1ee0c04635bdc836944",
+        "retrieved": "2026-10-29",
+        "copy": "sources/7710e7cb891f61ec-ecfr-2026-10-27-title-46-citing.txt",
+        "copy_sha256": "7710e7cb891f61ec77e779fc79c9d5fd60e0bbe448139cb4457b38cae2dd1030",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c8",
+        "source": "eCFR Title 46, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "46 CFR part 560 (Authority), citing 46 U.S.C. 305; the U.S. Code gives 46 U.S.C. 46105",
+        "text": "Authority:5 U.S.C. 553; secs. 13(b)(6), 15 and 17 of the Shipping Act of 1984, 46 U.S.C. 305, 40104, and 41108(d); sec. 10002 of the Foreign Shipping Practices Act of 1988 (",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-46.xml",
+        "sha256": "3a5487e158beea8febf39e5c3a58325d03044fe22cfcd1ee0c04635bdc836944",
+        "retrieved": "2026-10-29",
+        "copy": "sources/7710e7cb891f61ec-ecfr-2026-10-27-title-46-citing.txt",
+        "copy_sha256": "7710e7cb891f61ec77e779fc79c9d5fd60e0bbe448139cb4457b38cae2dd1030",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "46 U.S.C. 305, OLRC release point 119-134, element /us/usc/t46/s302...308",
+        "text": "[§§ 302 to 308. Renumbered §§ 46102 to 46108]",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c94e08d729d5c3a-olrc-119-134-title-46-records.txt",
+        "copy_sha256": "7c94e08d729d5c3ad56ee1d912da7641b405ba324b4819453fef04c1e64f2264",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 414, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 151, 152, 153, 1101, 1102, 1121",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 418, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 151, 152, 153, 1101, 1102, 1121",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "46 U.S.C. 303, OLRC release point 119-134, element /us/usc/t46/s302...308",
+        "text": "[§§ 302 to 308. Renumbered §§ 46102 to 46108]",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c94e08d729d5c3a-olrc-119-134-title-46-records.txt",
+        "copy_sha256": "7c94e08d729d5c3ad56ee1d912da7641b405ba324b4819453fef04c1e64f2264",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Federal Maritime Commission",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Federal Maritime Commission",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Federal Maritime Commission (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

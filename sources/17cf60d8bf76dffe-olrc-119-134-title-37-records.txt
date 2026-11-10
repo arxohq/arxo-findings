@@ -1,0 +1,9 @@
+Records of United States Code Title 37, OLRC release point 119-134 (usc-119-134/usc37.xml, sha256 bfe468bee89d81c1b84c3ad7fbb19503c250e2726cef371c53eb073fcc0e3c5c).
+Each line: the cited number, then the start of the section element that carries it (a single section or a block of sections), or the section numbers of the title in order around the cited number when no element carries it; or a sentence of the title that names the act.
+
+37 U.S.C. 404a: [§ 404a. Renumbered § 474a]
+37 U.S.C. 407: [§ 407. Renumbered § 477]
+37 U.S.C. 411k: [§ 411k. Renumbered § 481k]
+37 U.S.C. 554: [§ 554. Renumbered § 484]
+37 U.S.C. 791: Title 37, sections in order: 705, 706, 707, 801, 802, 803
+37 U.S.C. 801: [§ 801. Repealed. Pub.

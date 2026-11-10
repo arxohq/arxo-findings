@@ -1,0 +1,353 @@
+{
+  "id": "ARXO-2026-0880",
+  "url": "https://arxo.io/findings/ARXO-2026-0880/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "23 CFR parts 1, 180, 420, 635, 750, 810",
+  "text": {
+    "en": {
+      "title": "Department of Transportation: 9 references to former U.S. Code sections or former act names (23 CFR)",
+      "summary": "In the CFR chapters assigned to the Department of Transportation in 23 CFR, 9 references in 8 sections use a former address or name: 4 cite a section replaced by a new one when the title was enacted as positive law; 4 cite a repealed section; 1 cites a renumbered section. Each reference was compared with release point 119-134 of the U.S. Code, which names where the old number went.",
+      "impact": "A reader who follows these references finds a note that the section moved, or no section, instead of the text. A reference to a moved section may keep its legal effect, but the address no longer leads to the text. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the U.S. Code names the section the old number moved to, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 23, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "23 CFR 1.32, citing 49 U.S.C. 1655; the U.S. Code gives one or more of: 49 U.S.C. 103; 49 U.S.C. 104; 49 U.S.C. 106; 49 U.S.C. 108; 49 U.S.C. 31502; 49 U.S.C. 31503; 49 U.S.C. 31504; 49 U.S.C. 329; 49 U.S.C. 501; 49 U.S.C. 502; 49 U.S.C. 503; 49 U.S.C. 504; 49 U.S.C. 505; 49 U.S.C. 506; 49 U.S.C. 507; 49 U.S.C. 521; 49 U.S.C. 522; 49 U.S.C. 523; 49 U.S.C. 524; 49 U.S.C. 525; 49 U.S.C. 526",
+        "text": "for insertion of new pages and removal of changed pages, or both. (49 U.S.C. 1655)",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-23.xml",
+        "sha256": "5101433576b26b9cc8de47cde50bf4f894a19bde5f11910b97ea619a550ca709",
+        "retrieved": "2026-10-29",
+        "copy": "sources/75f5a37bff3aec25-ecfr-2026-10-27-title-23-citing.txt",
+        "copy_sha256": "75f5a37bff3aec2578d49d451a3a5d9464c6ddd449294faf009ec37b4e70b1f4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 23, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "23 CFR 420.103, citing 23 U.S.C. 303; the U.S. Code gives 49 U.S.C. 104",
+        "text": "activities, or development and establishment of management systems under 23 U.S.C. 303; (4) Surface transportation program (STP) funds authorized",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-23.xml",
+        "sha256": "5101433576b26b9cc8de47cde50bf4f894a19bde5f11910b97ea619a550ca709",
+        "retrieved": "2026-10-29",
+        "copy": "sources/75f5a37bff3aec25-ecfr-2026-10-27-title-23-citing.txt",
+        "copy_sha256": "75f5a37bff3aec2578d49d451a3a5d9464c6ddd449294faf009ec37b4e70b1f4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 23, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "23 CFR 420.105, citing 23 U.S.C. 303; the U.S. Code gives 49 U.S.C. 104",
+        "text": "identified in paragraph (b) of this section, and the requirements of 23 U.S.C. 134, 135, 303, and 505 are being adequately addressed, the FHWA will allow State",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-23.xml",
+        "sha256": "5101433576b26b9cc8de47cde50bf4f894a19bde5f11910b97ea619a550ca709",
+        "retrieved": "2026-10-29",
+        "copy": "sources/75f5a37bff3aec25-ecfr-2026-10-27-title-23-citing.txt",
+        "copy_sha256": "75f5a37bff3aec2578d49d451a3a5d9464c6ddd449294faf009ec37b4e70b1f4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 23, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "23 CFR 635.309, citing 42 U.S.C. 4231-4233; the U.S. Code gives 31 U.S.C. 6506",
+        "text": "Where applicable, area wide agency review has been accomplished as required by 42 U.S.C. 3334 and 4231 through 4233. (n) The FHWA has determined that the PS&E provide for",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-23.xml",
+        "sha256": "5101433576b26b9cc8de47cde50bf4f894a19bde5f11910b97ea619a550ca709",
+        "retrieved": "2026-10-29",
+        "copy": "sources/75f5a37bff3aec25-ecfr-2026-10-27-title-23-citing.txt",
+        "copy_sha256": "75f5a37bff3aec2578d49d451a3a5d9464c6ddd449294faf009ec37b4e70b1f4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 23, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "23 CFR 810.4, citing 49 U.S.C. 1602; the U.S. Code gives one or more of: 49 U.S.C. 5309; 49 U.S.C. 5318; 49 U.S.C. 5323; 49 U.S.C. 5337; 49 U.S.C. 5338",
+        "text": "(c) and 9(e)(3)(G) of the Urban Mass Transportation Act of 1964, as amended, 49 U.S.C. 1602(e)(1), 1604(1), 1607 (a) and (c) and 1607a(e)(3)(G). This organization shall be",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-23.xml",
+        "sha256": "5101433576b26b9cc8de47cde50bf4f894a19bde5f11910b97ea619a550ca709",
+        "retrieved": "2026-10-29",
+        "copy": "sources/75f5a37bff3aec25-ecfr-2026-10-27-title-23-citing.txt",
+        "copy_sha256": "75f5a37bff3aec2578d49d451a3a5d9464c6ddd449294faf009ec37b4e70b1f4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c6",
+        "source": "eCFR Title 23, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "23 CFR 810.4, citing 49 U.S.C. 1607; the U.S. Code gives one or more of: 49 U.S.C. 5301; 49 U.S.C. 5303; 49 U.S.C. 5304; 49 U.S.C. 5305; 49 U.S.C. 5306; 49 U.S.C. 5323; 49 U.S.C. 5334",
+        "text": "(c) and 9(e)(3)(G) of the Urban Mass Transportation Act of 1964, as amended, 49 U.S.C. 1602(e)(1), 1604(1), 1607 (a) and (c) and 1607a(e)(3)(G). This organization shall be",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-23.xml",
+        "sha256": "5101433576b26b9cc8de47cde50bf4f894a19bde5f11910b97ea619a550ca709",
+        "retrieved": "2026-10-29",
+        "copy": "sources/75f5a37bff3aec25-ecfr-2026-10-27-title-23-citing.txt",
+        "copy_sha256": "75f5a37bff3aec2578d49d451a3a5d9464c6ddd449294faf009ec37b4e70b1f4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c7",
+        "source": "eCFR Title 23, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "23 CFR part 180 (Authority), citing 23 U.S.C. 181-189; the U.S. Code gives 23 U.S.C. 601–609",
+        "text": "Authority:Secs. 1501 et seq., Pub. L. 105-178, 112 Stat. 107, 241, as amended; 23 U.S.C. 181-189 and 315; 49 CFR 1.48.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-23.xml",
+        "sha256": "5101433576b26b9cc8de47cde50bf4f894a19bde5f11910b97ea619a550ca709",
+        "retrieved": "2026-10-29",
+        "copy": "sources/75f5a37bff3aec25-ecfr-2026-10-27-title-23-citing.txt",
+        "copy_sha256": "75f5a37bff3aec2578d49d451a3a5d9464c6ddd449294faf009ec37b4e70b1f4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c8",
+        "source": "eCFR Title 23, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "23 CFR part 420 (Authority), citing 23 U.S.C. 303; the U.S. Code gives 49 U.S.C. 104",
+        "text": "Authority:23 U.S.C. 103(b)(6), 104(f), 115, 120, 133(b), 134(n), 303(g), 505, and 315; and 49 CFR 1.48(b).",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-23.xml",
+        "sha256": "5101433576b26b9cc8de47cde50bf4f894a19bde5f11910b97ea619a550ca709",
+        "retrieved": "2026-10-29",
+        "copy": "sources/75f5a37bff3aec25-ecfr-2026-10-27-title-23-citing.txt",
+        "copy_sha256": "75f5a37bff3aec2578d49d451a3a5d9464c6ddd449294faf009ec37b4e70b1f4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c9",
+        "source": "eCFR Title 23, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "23 CFR part 750 (Authority), citing 49 U.S.C. 1651; the U.S. Code gives one or more of: 49 U.S.C. 101; 49 U.S.C. 303",
+        "text": "Authority:23 U.S.C. 131, 315, 49 U.S.C. 1651; 49 CFR 1.48(b).",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-23.xml",
+        "sha256": "5101433576b26b9cc8de47cde50bf4f894a19bde5f11910b97ea619a550ca709",
+        "retrieved": "2026-10-29",
+        "copy": "sources/75f5a37bff3aec25-ecfr-2026-10-27-title-23-citing.txt",
+        "copy_sha256": "75f5a37bff3aec2578d49d451a3a5d9464c6ddd449294faf009ec37b4e70b1f4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 1655, OLRC release point 119-134, no element carries this number",
+        "text": "Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "23 U.S.C. 303, OLRC release point 119-134, element /us/usc/t23/s303",
+        "text": "[§ 303. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/84891bad2031c894-olrc-119-134-title-23-records.txt",
+        "copy_sha256": "84891bad2031c8949d26d6df67bfff0f89a893183286cb39e7ad32b55f2abaab",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "42 U.S.C. 4231-4233, OLRC release point 119-134, element /us/usc/t42/s4231...4233",
+        "text": "§§ 4231 to 4233. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/181c271e86bdf9fb-olrc-119-134-title-42-records.txt",
+        "copy_sha256": "181c271e86bdf9fb40082644ce23542bac5aa6857596f18c43d63c281004c1ec",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 1602, OLRC release point 119-134, no element carries this number",
+        "text": "Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u5",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 1607, OLRC release point 119-134, no element carries this number",
+        "text": "Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u6",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "23 U.S.C. 181-189, OLRC release point 119-134, element /us/usc/t23/s181...190",
+        "text": "[§§ 181 to 190. Renumbered §§ 601 to 610] Editorial Notes Codification Subchapter II heading \"INFRASTRUCTURE FINANCE\" was struck out and sections 181 to 190, which comprised subchapter II of this chapter, were renumbered sections 601 to 610, respectively, and transferred to follow the analysis of chapter 6 of this title, by Pub. L.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/84891bad2031c894-olrc-119-134-title-23-records.txt",
+        "copy_sha256": "84891bad2031c8949d26d6df67bfff0f89a893183286cb39e7ad32b55f2abaab",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u7",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 1651, OLRC release point 119-134, no element carries this number",
+        "text": "Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of Transportation",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Transportation",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Transportation (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

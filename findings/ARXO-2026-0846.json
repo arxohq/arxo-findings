@@ -1,0 +1,145 @@
+{
+  "id": "ARXO-2026-0846",
+  "url": "https://arxo.io/findings/ARXO-2026-0846/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "5 CFR part 5501",
+  "text": {
+    "en": {
+      "title": "Department of Health and Human Services: 2 references to former U.S. Code sections or former act names (5 CFR)",
+      "summary": "In the CFR chapters assigned to the Department of Health and Human Services in 5 CFR, 2 references in 2 sections use a former address or name: 2 cite a section transferred to another section. Each reference was compared with release point 119-134 of the U.S. Code, which names where the old number went.",
+      "impact": "A reader who follows these references finds a note that the section moved, or no section, instead of the text. A reference to a moved section may keep its legal effect, but the address no longer leads to the text. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the U.S. Code names the section the old number moved to, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 5, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "5 CFR 5501.108, citing 25 U.S.C. 450i",
+        "text": "the provisions of 18 U.S.C. 205, the Indian Self-Determination Act (25 U.S.C. 450i(f)) authorizes Federal employees detailed or assigned to India",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-5.xml",
+        "sha256": "45b29ff0f9c4f2678b2624f564c096b9253f991a94582d28c4189657e49b12fd",
+        "retrieved": "2026-10-29",
+        "copy": "sources/2724717084a6cf1d-ecfr-2026-10-27-title-5-citing.txt",
+        "copy_sha256": "2724717084a6cf1daee0ed13aed13f711f4cee602bffee3c848af540908eddfc",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 5, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "5 CFR part 5501 (Authority), citing 25 U.S.C. 450i",
+        "text": "U.S.C. 301, 7301, 7353; 5 U.S.C. App. (Ethics in Government Act of 1978); 25 U.S.C. 450i(f); 42 U.S.C. 216; E.O. 12674, 54 FR 15159, 3 CFR, 1989 Comp.,",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-5.xml",
+        "sha256": "45b29ff0f9c4f2678b2624f564c096b9253f991a94582d28c4189657e49b12fd",
+        "retrieved": "2026-10-29",
+        "copy": "sources/2724717084a6cf1d-ecfr-2026-10-27-title-5-citing.txt",
+        "copy_sha256": "2724717084a6cf1daee0ed13aed13f711f4cee602bffee3c848af540908eddfc",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "25 U.S.C. 450i, OLRC release point 119-134, element /us/usc/t25/s450i",
+        "text": "§ 450i. Transferred Editorial Notes Codification Section 450i was editorially reclassified as section 5323 of this title.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/a5512583c0fc537b-olrc-119-134-title-25-records.txt",
+        "copy_sha256": "a5512583c0fc537b33bc63771fd35a2fd616207aa195bbbe54e789ead9051c40",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of Health and Human Services",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Health and Human Services",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Health and Human Services (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

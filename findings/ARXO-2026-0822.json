@@ -1,0 +1,177 @@
+{
+  "id": "ARXO-2026-0822",
+  "url": "https://arxo.io/findings/ARXO-2026-0822/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "16 CFR parts 1012, 1105",
+  "text": {
+    "en": {
+      "title": "Consumer Product Safety Commission: 3 references to former U.S. Code sections or former act names",
+      "summary": "In the CFR chapters assigned to the Consumer Product Safety Commission, 3 references in 3 sections use a former address or name: 3 cite a section replaced by a new one when the title was enacted as positive law. Each reference was compared with release point 119-134 of the U.S. Code, which names where the old number went.",
+      "impact": "A reader who follows these references finds a note that the section moved, or no section, instead of the text. A reference to a moved section may keep its legal effect, but the address no longer leads to the text. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the U.S. Code names the section the old number moved to, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 16, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "16 CFR 1012.3, citing 41 U.S.C. 252; the U.S. Code gives one or more of: 41 U.S.C. 3101; 41 U.S.C. 3104; 41 U.S.C. 3106; 41 U.S.C. 3301",
+        "text": "(8) Pre-proposal conferences involving confidential contracts made pursuant to 41 U.S.C. 252(c)(12) in connection with potential litigation matters.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-16.xml",
+        "sha256": "cf260ebbd07371fb82404bec064ecc17a731beb3636aa0896f3625038b5e62e7",
+        "retrieved": "2026-10-29",
+        "copy": "sources/02e2e19268c9a213-ecfr-2026-10-27-title-16-citing.txt",
+        "copy_sha256": "02e2e19268c9a213c404271bb954c00aac66b21011a2d7000f8aa11d39e390ca",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 16, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "16 CFR 1012.4, citing 41 U.S.C. 252; the U.S. Code gives one or more of: 41 U.S.C. 3101; 41 U.S.C. 3104; 41 U.S.C. 3106; 41 U.S.C. 3301",
+        "text": "(9) Pre-proposal conferences involving confidential contracts made pursuant to 41 U.S.C. 252(c)(12), in connection with the potential litigation matters.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-16.xml",
+        "sha256": "cf260ebbd07371fb82404bec064ecc17a731beb3636aa0896f3625038b5e62e7",
+        "retrieved": "2026-10-29",
+        "copy": "sources/02e2e19268c9a213-ecfr-2026-10-27-title-16-citing.txt",
+        "copy_sha256": "02e2e19268c9a213c404271bb954c00aac66b21011a2d7000f8aa11d39e390ca",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 16, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "16 CFR 1105.12, citing 31 U.S.C. 529; the U.S. Code gives 31 U.S.C. 3324",
+        "text": "without regard to section 3648 of the Revised States of the United States (31 U.S.C. 529).",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-16.xml",
+        "sha256": "cf260ebbd07371fb82404bec064ecc17a731beb3636aa0896f3625038b5e62e7",
+        "retrieved": "2026-10-29",
+        "copy": "sources/02e2e19268c9a213-ecfr-2026-10-27-title-16-citing.txt",
+        "copy_sha256": "02e2e19268c9a213c404271bb954c00aac66b21011a2d7000f8aa11d39e390ca",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 252, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 151, 152, 153, 1101, 1102, 1121",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "31 U.S.C. 529, OLRC release point 119-134, no element carries this number",
+        "text": "Title 31, sections in order: 507, 521, 522, 701, 702, 703",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/1ab28e8edfd99046-olrc-119-134-title-31-records.txt",
+        "copy_sha256": "1ab28e8edfd990460666093c463424a2e53997caf909d9d560d2d78be1bbc666",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Consumer Product Safety Commission",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Consumer Product Safety Commission",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Consumer Product Safety Commission (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

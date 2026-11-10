@@ -1,0 +1,161 @@
+{
+  "id": "ARXO-2026-0832",
+  "url": "https://arxo.io/findings/ARXO-2026-0832/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "13 CFR part 500",
+  "text": {
+    "en": {
+      "title": "Emergency Oil and Gas Guaranteed Loan Board: 2 references to former U.S. Code sections or former act names",
+      "summary": "In the CFR chapters of the Emergency Oil and Gas Guaranteed Loan Board, 2 references in 1 section use a former address or name: 1 cites a repealed section; 1 cites a section replaced by a new one when the title was enacted as positive law. Each reference was compared with release point 119-134 of the U.S. Code, which names where the old number went.",
+      "impact": "A reader who follows these references finds a note that the section moved, or no section, instead of the text. A reference to a moved section may keep its legal effect, but the address no longer leads to the text. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the U.S. Code names the section the old number moved to, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 13, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "13 CFR 500.109, citing 10 U.S.C. 2304; the U.S. Code gives 10 U.S.C. 3344",
+        "text": "to equal or exceed the Federal procurement small purchase threshold fixed at 10 U.S.C. 2304(g) and 41 U.S.C. 253(g) (currently $100,000) under a primary",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-13.xml",
+        "sha256": "29edbdf16821d86b7c10bf8be8fad32c789be02e8fd3f9d4c47e89cfc0474600",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aee07d40fa3babec-ecfr-2026-10-27-title-13-citing.txt",
+        "copy_sha256": "aee07d40fa3babec64098c7e0ebfc6f16ce99400b8f44399e2600ef36bc0c0bb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 13, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "13 CFR 500.109, citing 41 U.S.C. 253; the U.S. Code gives one or more of: 41 U.S.C. 3105; 41 U.S.C. 3301; 41 U.S.C. 3303; 41 U.S.C. 3304; 41 U.S.C. 3305",
+        "text": "Federal procurement small purchase threshold fixed at 10 U.S.C. 2304(g) and 41 U.S.C. 253(g) (currently $100,000) under a primary covered transaction; (",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-13.xml",
+        "sha256": "29edbdf16821d86b7c10bf8be8fad32c789be02e8fd3f9d4c47e89cfc0474600",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aee07d40fa3babec-ecfr-2026-10-27-title-13-citing.txt",
+        "copy_sha256": "aee07d40fa3babec64098c7e0ebfc6f16ce99400b8f44399e2600ef36bc0c0bb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "10 U.S.C. 2304, OLRC release point 119-134, element /us/usc/t10/s2304",
+        "text": "[§ 2304. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/9fb66326513bdd9c-olrc-119-134-title-10-records.txt",
+        "copy_sha256": "9fb66326513bdd9c7c061f1ba8c65d0aacc28ef022be09e2de738c52696810d2",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 253, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 151, 152, 153, 1101, 1102, 1121",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of Commerce",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Commerce",
+      "role": "holds the functions or the CFR chapters of the Emergency Oil and Gas Guaranteed Loan Board"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Commerce (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

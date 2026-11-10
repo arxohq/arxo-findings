@@ -1,0 +1,369 @@
+{
+  "id": "ARXO-2026-0896",
+  "url": "https://arxo.io/findings/ARXO-2026-0896/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "50 CFR parts 22, 29, 34, 35, 37, 80, 90",
+  "text": {
+    "en": {
+      "title": "Department of the Interior: 9 references to former U.S. Code sections or former act names (50 CFR)",
+      "summary": "In the CFR chapters assigned to the Department of the Interior in 50 CFR, 9 references in 9 sections use a former address or name: 5 cite a section transferred to another section; 2 cite a section replaced by a new one when the title was enacted as positive law; 2 cite a repealed section. Each reference was compared with release point 119-134 of the U.S. Code, which names where the old number went.",
+      "impact": "A reader who follows these references finds a note that the section moved, or no section, instead of the text. A reference to a moved section may keep its legal effect, but the address no longer leads to the text. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the U.S. Code names the section the old number moved to, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 50, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "50 CFR 22.60, citing 25 U.S.C. 479a-1",
+        "text": "receive services from the United States Bureau of Indian Affairs listed under 25 U.S.C. 479a-1 engaged in religious activities who satisfy all the",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-50.xml",
+        "sha256": "d81e940ab3590775e52af93f2fbbc6b1f40384a2d1bca4209b27c2a035a6a085",
+        "retrieved": "2026-10-29",
+        "copy": "sources/66d501393c4e0670-ecfr-2026-10-27-title-50-citing.txt",
+        "copy_sha256": "66d501393c4e067043c00ae3bba35c83d86e2a96c123ee99753539537efeaa39",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 50, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "50 CFR 34.4, citing 31 U.S.C. 1601-1607; the U.S. Code gives 31 U.S.C. 6901–6904; 31 U.S.C. 6906",
+        "text": "lands under section 6(a) of the Act of October 29, 1976 (Pub. L. 94-565, 31 U.S.C. 1601-1607), for which regulations are published in title 43, part",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-50.xml",
+        "sha256": "d81e940ab3590775e52af93f2fbbc6b1f40384a2d1bca4209b27c2a035a6a085",
+        "retrieved": "2026-10-29",
+        "copy": "sources/66d501393c4e0670-ecfr-2026-10-27-title-50-citing.txt",
+        "copy_sha256": "66d501393c4e067043c00ae3bba35c83d86e2a96c123ee99753539537efeaa39",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 50, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "50 CFR 80.82, citing 16 U.S.C. 470s; the U.S. Code gives 54 U.S.C. 304108",
+        "text": "Act of 1973 (16 U.S.C. 1531 et seq.), the National Historic Preservation Act (16 U.S.C. 470s), and other laws, regulations, and policies.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-50.xml",
+        "sha256": "d81e940ab3590775e52af93f2fbbc6b1f40384a2d1bca4209b27c2a035a6a085",
+        "retrieved": "2026-10-29",
+        "copy": "sources/66d501393c4e0670-ecfr-2026-10-27-title-50-citing.txt",
+        "copy_sha256": "66d501393c4e067043c00ae3bba35c83d86e2a96c123ee99753539537efeaa39",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 50, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "50 CFR 90.11, citing 7 U.S.C. 442-445",
+        "text": "Section 1 of the Act of July 3, 1956, as amended (70 Stat. 492; 7 U.S.C. 442-445) provides that the Commodity Credit Corporation shall make",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-50.xml",
+        "sha256": "d81e940ab3590775e52af93f2fbbc6b1f40384a2d1bca4209b27c2a035a6a085",
+        "retrieved": "2026-10-29",
+        "copy": "sources/66d501393c4e0670-ecfr-2026-10-27-title-50-citing.txt",
+        "copy_sha256": "66d501393c4e067043c00ae3bba35c83d86e2a96c123ee99753539537efeaa39",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 50, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "50 CFR 90.2, citing 7 U.S.C. 442-445",
+        "text": "The provisions of this part supplement 70 Stat. 492, 7 U.S.C. 442-445.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-50.xml",
+        "sha256": "d81e940ab3590775e52af93f2fbbc6b1f40384a2d1bca4209b27c2a035a6a085",
+        "retrieved": "2026-10-29",
+        "copy": "sources/66d501393c4e0670-ecfr-2026-10-27-title-50-citing.txt",
+        "copy_sha256": "66d501393c4e067043c00ae3bba35c83d86e2a96c123ee99753539537efeaa39",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c6",
+        "source": "eCFR Title 50, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "50 CFR part 29 (Authority), citing 40 U.S.C. 319; the U.S. Code gives 40 U.S.C. 1314",
+        "text": "664, 668dd, 685, 690d, 715i, 725, 3161; 30 U.S.C. 185; 31 U.S.C. 3711, 9701; 40 U.S.C. 319; 43 U.S.C. 315a; 113 Stat. 1501A-140.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-50.xml",
+        "sha256": "d81e940ab3590775e52af93f2fbbc6b1f40384a2d1bca4209b27c2a035a6a085",
+        "retrieved": "2026-10-29",
+        "copy": "sources/66d501393c4e0670-ecfr-2026-10-27-title-50-citing.txt",
+        "copy_sha256": "66d501393c4e067043c00ae3bba35c83d86e2a96c123ee99753539537efeaa39",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c7",
+        "source": "eCFR Title 50, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "50 CFR part 35 (Authority), citing 43 U.S.C. 1201",
+        "text": "Authority:78 Stat. 890; 16 U.S.C. 1131-1136; 43 U.S.C. 1201.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-50.xml",
+        "sha256": "d81e940ab3590775e52af93f2fbbc6b1f40384a2d1bca4209b27c2a035a6a085",
+        "retrieved": "2026-10-29",
+        "copy": "sources/66d501393c4e0670-ecfr-2026-10-27-title-50-citing.txt",
+        "copy_sha256": "66d501393c4e067043c00ae3bba35c83d86e2a96c123ee99753539537efeaa39",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c8",
+        "source": "eCFR Title 50, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "50 CFR part 37 (Authority), citing 16 U.S.C. 470h-2; the U.S. Code gives one or more of: 54 U.S.C. 306101; 54 U.S.C. 306102; 54 U.S.C. 306103; 54 U.S.C. 306104; 54 U.S.C. 306105; 54 U.S.C. 306106; 54 U.S.C. 306107; 54 U.S.C. 306109; 54 U.S.C. 306110; 54 U.S.C. 306111; 54 U.S.C. 306112; 54 U.S.C. 306113; 54 U.S.C. 306114",
+        "text": "110, Pub. L. 89-665, as added by sec. 206, Pub. L. 96-515, 94 Stat. 2996 (16 U.S.C. 470h-2); sec. 401, Pub. L. 148, 49 Stat. 383, as amended (16",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-50.xml",
+        "sha256": "d81e940ab3590775e52af93f2fbbc6b1f40384a2d1bca4209b27c2a035a6a085",
+        "retrieved": "2026-10-29",
+        "copy": "sources/66d501393c4e0670-ecfr-2026-10-27-title-50-citing.txt",
+        "copy_sha256": "66d501393c4e067043c00ae3bba35c83d86e2a96c123ee99753539537efeaa39",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c9",
+        "source": "eCFR Title 50, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "50 CFR part 90 (Authority), citing 7 U.S.C. 443",
+        "text": "Authority:70 Stat. 492, 7 U.S.C. 443.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-50.xml",
+        "sha256": "d81e940ab3590775e52af93f2fbbc6b1f40384a2d1bca4209b27c2a035a6a085",
+        "retrieved": "2026-10-29",
+        "copy": "sources/66d501393c4e0670-ecfr-2026-10-27-title-50-citing.txt",
+        "copy_sha256": "66d501393c4e067043c00ae3bba35c83d86e2a96c123ee99753539537efeaa39",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "25 U.S.C. 479a-1, OLRC release point 119-134, element /us/usc/t25/s479a–1",
+        "text": "§ 479a-1. Transferred Editorial Notes Codification Section 479a-1 was editorially reclassified as section 5131 of this title.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/a5512583c0fc537b-olrc-119-134-title-25-records.txt",
+        "copy_sha256": "a5512583c0fc537b33bc63771fd35a2fd616207aa195bbbe54e789ead9051c40",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "31 U.S.C. 1601-1607, OLRC release point 119-134, no element carries this number",
+        "text": "Title 31, sections in order: 1556, 1557, 1558, 3101, 3101A, 3102",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/1ab28e8edfd99046-olrc-119-134-title-31-records.txt",
+        "copy_sha256": "1ab28e8edfd990460666093c463424a2e53997caf909d9d560d2d78be1bbc666",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "16 U.S.C. 470s, OLRC release point 119-134, element /us/usc/t16/s470s",
+        "text": "§ 470s. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/676bd06f99df3056-olrc-119-134-title-16-records.txt",
+        "copy_sha256": "676bd06f99df3056bbd9ff4fc63155cbe8acd6d40d12ed2204fdb1fdd65695c9",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "7 U.S.C. 442-445, OLRC release point 119-134, element /us/usc/t7/s442",
+        "text": "§ 442. Transferred Editorial Notes Codification Section 442 was editorially reclassified as section 667f of Title 16, Conservation.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/0fb1a1176f5470d5-olrc-119-134-title-7-records.txt",
+        "copy_sha256": "0fb1a1176f5470d50b06596f4d6d10bea79725ff7079327f7cf0fc30d1f564a0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u5",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "40 U.S.C. 319, OLRC release point 119-134, no element carries this number",
+        "text": "Title 40, sections in order: 311, 312, 313, 321, 322, 323",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/9d198fe831101761-olrc-119-134-title-40-records.txt",
+        "copy_sha256": "9d198fe8311017619c2a84ff1b969742443b051211284d50199f019658047c7d",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u6",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "43 U.S.C. 1201, OLRC release point 119-134, element /us/usc/t43/s1201",
+        "text": "§ 1201. Transferred Editorial Notes Codification Section 1201 was editorially reclassified as section 1457c of this title.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/81dc7b05d27f98a9-olrc-119-134-title-43-records.txt",
+        "copy_sha256": "81dc7b05d27f98a9fe29e71a57b223e8bd28f06617bae826c33f6da8bf384700",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u7",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "16 U.S.C. 470h-2, OLRC release point 119-134, element /us/usc/t16/s470h–2",
+        "text": "§ 470h-2. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/676bd06f99df3056-olrc-119-134-title-16-records.txt",
+        "copy_sha256": "676bd06f99df3056bbd9ff4fc63155cbe8acd6d40d12ed2204fdb1fdd65695c9",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u8",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "7 U.S.C. 443, OLRC release point 119-134, element /us/usc/t7/s443",
+        "text": "§ 443. Transferred Editorial Notes Codification Section 443 was editorially reclassified as section 667f-1 of Title 16, Conservation.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/0fb1a1176f5470d5-olrc-119-134-title-7-records.txt",
+        "copy_sha256": "0fb1a1176f5470d50b06596f4d6d10bea79725ff7079327f7cf0fc30d1f564a0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of the Interior",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of the Interior",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of the Interior (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

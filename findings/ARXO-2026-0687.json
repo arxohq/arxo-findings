@@ -1,0 +1,193 @@
+{
+  "id": "ARXO-2026-0687",
+  "url": "https://arxo.io/findings/ARXO-2026-0687/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "20 CFR part 679; 29 CFR part 1990",
+  "text": {
+    "en": {
+      "title": "Department of Labor: 2 references with a wrong U.S. Code section or act name",
+      "summary": "In the CFR chapters assigned to the Department of Labor, 2 references in 2 sections cite the U.S. Code or an act with an error: 1 names a U.S. Code section that is not part of the act named next to it; 1 names an act differently from the U.S. Code. Each reference was compared with release point 119-134 of the U.S. Code published by the Office of the Law Revision Counsel.",
+      "impact": "A reader who follows these references reaches a different section or looks for an act under a name the U.S. Code does not use. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to correct each reference. Where the U.S. Code shows the section or the name intended, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 20, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "20 CFR 679.130, citing the act at 20 U.S.C. 9101 by a name that differs from its U.S. Code short title",
+        "text": "skills (as defined in sec. 202 of the Museum and Library Service Act, 20 U.S.C. 9101); (2) Accelerate acquisition of skills and recognized posts",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-20.xml",
+        "sha256": "bf34138c36206a1118937376d09252521bafc734ec929a7d97ae921fda3e6890",
+        "retrieved": "2026-10-29",
+        "copy": "sources/68d1d987635dd2d4-ecfr-2026-10-27-title-20-citing.txt",
+        "copy_sha256": "68d1d987635dd2d4a4d079535ee59e700b4b59dc3d150822a75002e4c14d5255",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 29, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "29 CFR 1990.103, citing 29 U.S.C. 551; the U.S. Code gives 29 U.S.C. 651",
+        "text": "Safety and Health Act of 1970 (Pub. L. 91-596, 84 Stat. 1590 et seq., 29 U.S.C. 551 et seq.). Administrator of EPA means the Administrator of t",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-29.xml",
+        "sha256": "cf4b36bfb10504beedb246e95a94a02951731a236696a9be3194eedbc8e71817",
+        "retrieved": "2026-10-29",
+        "copy": "sources/dd25fcc26cd6ad4b-ecfr-2026-10-27-title-29-citing.txt",
+        "copy_sha256": "dd25fcc26cd6ad4bcb3a9af5cda4bbaee5b659b49d19dd94d01e9d020406ea51",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "20 U.S.C. 9101, OLRC release point 119-134, element /us/usc/t20/s9101",
+        "text": "§ 9101. General definitions As used in this chapter:(1) Determined to be obsceneThe term \"determined to be obscene\" means determined, in a final judgment of a court of record and of competent jurisdiction in the United States, to be obscene. (2) Digital literacy skillsThe term \"digital literacy skil",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7d525eb3e5ba8f01-olrc-119-134-title-20-records.txt",
+        "copy_sha256": "7d525eb3e5ba8f010cbf8ecabebae684f32e22428bbf497af0d7b54f1891d9c5",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "n1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "/us/usc/t20/s9101, OLRC release point 119-134: name of the act",
+        "text": "5412, provided that: \"This Act [enacting section 9175 of this title and amending sections 9101, 9103, 9105a, 9108, 9111, 9121 to 9123, 9131, 9134, 9141, 9151, 9162, 9165, 9171 to 9173, and 9176 of this title] may be cited as the ‘Museum and Library Services Act of 2018'.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7d525eb3e5ba8f01-olrc-119-134-title-20-records.txt",
+        "copy_sha256": "7d525eb3e5ba8f010cbf8ecabebae684f32e22428bbf497af0d7b54f1891d9c5",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "29 U.S.C. 551, OLRC release point 119-134, element /us/usc/t29/s551",
+        "text": "§ 551. Establishment of Department; Secretary; seal There shall be an executive department in the Government to be called the Department of Labor, with a Secretary of Labor, who shall be the head thereof, to be appointed by the President, by and with the advice and consent of the Senate, and whose t",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/3cf2b9a2467ea7de-olrc-119-134-title-29-records.txt",
+        "copy_sha256": "3cf2b9a2467ea7de2e93bdb9ac421dbe0208255104a6b2c61fe2b707bb0b2c19",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "29 U.S.C. 651, OLRC release point 119-134, element /us/usc/t29/s651",
+        "text": "§ 651. Congressional statement of findings and declaration of purpose and policy(a) The Congress finds that personal injuries and illnesses arising out of work situations impose a substantial burden upon, and are a hindrance to, interstate commerce in terms of lost production, wage loss, medical exp",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/3cf2b9a2467ea7de-olrc-119-134-title-29-records.txt",
+        "copy_sha256": "3cf2b9a2467ea7de2e93bdb9ac421dbe0208255104a6b2c61fe2b707bb0b2c19",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of Labor",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Labor",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Labor (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

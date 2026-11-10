@@ -1,0 +1,273 @@
+{
+  "id": "ARXO-2026-0950",
+  "url": "https://arxo.io/findings/ARXO-2026-0950/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "39 CFR parts 241, 255, 927, 960",
+  "text": {
+    "en": {
+      "title": "United States Postal Service: 6 references to former U.S. Code sections or former act names",
+      "summary": "In the CFR chapters assigned to the United States Postal Service, 6 references in 4 sections use a former address or name: 4 cite a section replaced by a new one when the title was enacted as positive law; 2 cite a section transferred to another section. Each reference was compared with release point 119-134 of the U.S. Code, which names where the old number went.",
+      "impact": "A reader who follows these references finds a note that the section moved, or no section, instead of the text. A reference to a moved section may keep its legal effect, but the address no longer leads to the text. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the U.S. Code names the section the old number moved to, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 39, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "39 CFR 241.4, citing 16 U.S.C. 470",
+        "text": "compliance with: (i) Section 106 of the National Historic Preservation Act, 16 U.S.C. 470, Executive Order 12072, and Executive Order 13006; (ii)",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-39.xml",
+        "sha256": "1e0d5dd518ce907666dd2e711ae346be4cc6e29b46c61465a19ae47b81e88b84",
+        "retrieved": "2026-10-29",
+        "copy": "sources/f72c9d8e38a1e5ae-ecfr-2026-10-27-title-39-citing.txt",
+        "copy_sha256": "f72c9d8e38a1e5ae1a634e39fbe837ff5387d7981a9025ee15546ebce855fd4c",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 39, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "39 CFR 255.8, citing 16 U.S.C. 470",
+        "text": "property in accordance with the National Historic Preservation Act of 1966, 16 U.S.C. 470 et seq.; (vii) The availability of other options to",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-39.xml",
+        "sha256": "1e0d5dd518ce907666dd2e711ae346be4cc6e29b46c61465a19ae47b81e88b84",
+        "retrieved": "2026-10-29",
+        "copy": "sources/f72c9d8e38a1e5ae-ecfr-2026-10-27-title-39-citing.txt",
+        "copy_sha256": "f72c9d8e38a1e5ae1a634e39fbe837ff5387d7981a9025ee15546ebce855fd4c",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 39, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "39 CFR 960.3, citing 41 U.S.C. 605; the U.S. Code gives 41 U.S.C. 7103",
+        "text": "officers made pursuant to section 6 of the Contract Disputes Act of 1978 (41 U.S.C. 605) before the Postal Service Board of Contract Appeals as",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-39.xml",
+        "sha256": "1e0d5dd518ce907666dd2e711ae346be4cc6e29b46c61465a19ae47b81e88b84",
+        "retrieved": "2026-10-29",
+        "copy": "sources/f72c9d8e38a1e5ae-ecfr-2026-10-27-title-39-citing.txt",
+        "copy_sha256": "f72c9d8e38a1e5ae1a634e39fbe837ff5387d7981a9025ee15546ebce855fd4c",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 39, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "39 CFR 960.3, citing 41 U.S.C. 607; the U.S. Code gives one or more of: 41 U.S.C. 7105; 41 U.S.C. 7106; 41 U.S.C. 7107",
+        "text": "Postal Service Board of Contract Appeals as provided in section 8 of that Act. (41 U.S.C. 607). (b) The Postal Service may also designate a proceeding",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-39.xml",
+        "sha256": "1e0d5dd518ce907666dd2e711ae346be4cc6e29b46c61465a19ae47b81e88b84",
+        "retrieved": "2026-10-29",
+        "copy": "sources/f72c9d8e38a1e5ae-ecfr-2026-10-27-title-39-citing.txt",
+        "copy_sha256": "f72c9d8e38a1e5ae1a634e39fbe837ff5387d7981a9025ee15546ebce855fd4c",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 39, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "39 CFR part 927 (Authority), citing 49 U.S.C. 1357; the U.S. Code gives one or more of: 49 U.S.C. 44903; 49 U.S.C. 44904; 49 U.S.C. 44906; 49 U.S.C. 44912; 49 U.S.C. 44914; 49 U.S.C. 44935; 49 U.S.C. 44936; 49 U.S.C. 44937; 49 U.S.C. 44938; 49 U.S.C. 48107",
+        "text": "Authority:39 U.S.C. 401, 2601 Chap. 56 Section 5604; 49 U.S.C. 1357, 1471.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-39.xml",
+        "sha256": "1e0d5dd518ce907666dd2e711ae346be4cc6e29b46c61465a19ae47b81e88b84",
+        "retrieved": "2026-10-29",
+        "copy": "sources/f72c9d8e38a1e5ae-ecfr-2026-10-27-title-39-citing.txt",
+        "copy_sha256": "f72c9d8e38a1e5ae1a634e39fbe837ff5387d7981a9025ee15546ebce855fd4c",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c6",
+        "source": "eCFR Title 39, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "39 CFR part 927 (Authority), citing 49 U.S.C. 1471; the U.S. Code gives one or more of: 49 U.S.C. 1153; 49 U.S.C. 1155; 49 U.S.C. 46301; 49 U.S.C. 46302; 49 U.S.C. 46303; 49 U.S.C. 46304",
+        "text": "Authority:39 U.S.C. 401, 2601 Chap. 56 Section 5604; 49 U.S.C. 1357, 1471.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-39.xml",
+        "sha256": "1e0d5dd518ce907666dd2e711ae346be4cc6e29b46c61465a19ae47b81e88b84",
+        "retrieved": "2026-10-29",
+        "copy": "sources/f72c9d8e38a1e5ae-ecfr-2026-10-27-title-39-citing.txt",
+        "copy_sha256": "f72c9d8e38a1e5ae1a634e39fbe837ff5387d7981a9025ee15546ebce855fd4c",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "16 U.S.C. 470, OLRC release point 119-134, element /us/usc/t16/s470",
+        "text": "§ 470. Transferred or Omitted Editorial Notes Codification Section, Pub. L.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/676bd06f99df3056-olrc-119-134-title-16-records.txt",
+        "copy_sha256": "676bd06f99df3056bbd9ff4fc63155cbe8acd6d40d12ed2204fdb1fdd65695c9",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 605, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 151, 152, 153, 1101, 1102, 1121",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 607, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 151, 152, 153, 1101, 1102, 1121",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 1357, OLRC release point 119-134, no element carries this number",
+        "text": "Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u5",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 1471, OLRC release point 119-134, no element carries this number",
+        "text": "Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "United States Postal Service",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "United States Postal Service",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to United States Postal Service (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

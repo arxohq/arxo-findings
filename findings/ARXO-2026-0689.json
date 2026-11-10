@@ -1,0 +1,241 @@
+{
+  "id": "ARXO-2026-0689",
+  "url": "https://arxo.io/findings/ARXO-2026-0689/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "22 CFR parts 64, 136, 161",
+  "text": {
+    "en": {
+      "title": "Department of State: 3 references with a wrong U.S. Code section or act name",
+      "summary": "In the CFR chapters assigned to the Department of State, 3 references in 3 sections cite the U.S. Code or an act with an error: 2 name a U.S. Code section that is not part of the act named next to it; 1 names an act differently from the U.S. Code. Each reference was compared with release point 119-134 of the U.S. Code published by the Office of the Law Revision Counsel.",
+      "impact": "A reader who follows these references reaches a different section or looks for an act under a name the U.S. Code does not use. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to correct each reference. Where the U.S. Code shows the section or the name intended, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 22, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "22 CFR 136.3, citing 22 U.S.C. 2902; the U.S. Code gives 22 U.S.C. 3902",
+        "text": "meaning given such term by section 102(e) of the Foreign Service Act of 1980 (22 U.S.C. 2902(3). (d) Contractor means: (1) An individual employed by",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-22.xml",
+        "sha256": "7c67421ae22d174738e8cc230cc34c9dfb0a7cea16a49d46beb8383774c5b797",
+        "retrieved": "2026-10-29",
+        "copy": "sources/5fbcf0e3a8487776-ecfr-2026-10-27-title-22-citing.txt",
+        "copy_sha256": "5fbcf0e3a8487776efcc56e30809581380af7a28a7431da04a6c1bf89817e0ad",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 22, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "22 CFR 161.11, citing 16 U.S.C. 1401; the U.S. Code gives 33 U.S.C. 1401",
+        "text": "seq. (h) Marine Protection, Research and Sanctuaries Act of 1972, as amended, 16 U.S.C. 1401 et seq. (i) Deepwater Port Act of 1974, as amended, 33 U.S.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-22.xml",
+        "sha256": "7c67421ae22d174738e8cc230cc34c9dfb0a7cea16a49d46beb8383774c5b797",
+        "retrieved": "2026-10-29",
+        "copy": "sources/5fbcf0e3a8487776-ecfr-2026-10-27-title-22-citing.txt",
+        "copy_sha256": "5fbcf0e3a8487776efcc56e30809581380af7a28a7431da04a6c1bf89817e0ad",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 22, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "22 CFR 64.2, citing \"Mutual Educational Cultural Exchange Act of 1961\" (22 U.S.C. 2451); the U.S. Code gives Mutual Educational and Cultural Exchange Act of 1961",
+        "text": "(g) Act means the Mutual Educational Cultural Exchange Act of 1961, as amended (22 U.S.C. 2451 et seq.). (h) Member of the family or household of a",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-22.xml",
+        "sha256": "7c67421ae22d174738e8cc230cc34c9dfb0a7cea16a49d46beb8383774c5b797",
+        "retrieved": "2026-10-29",
+        "copy": "sources/5fbcf0e3a8487776-ecfr-2026-10-27-title-22-citing.txt",
+        "copy_sha256": "5fbcf0e3a8487776efcc56e30809581380af7a28a7431da04a6c1bf89817e0ad",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "22 U.S.C. 2902, OLRC release point 119-134, element /us/usc/t22/s2902",
+        "text": "§ 2902. Japan-United States Friendship Trust Fund(a) EstablishmentThere is established in the Treasury of the United States a trust fund to be known as the Japan-United States Friendship Trust Fund (hereafter referred to as the \"Fund\"). (b) Use of amounts in Fund for promotion of scholarly, cultural",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/ea481d1be33ffb70-olrc-119-134-title-22-records.txt",
+        "copy_sha256": "ea481d1be33ffb70002f772a18ff922756613e4911537eaf436276925e338c3a",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "22 U.S.C. 3902, OLRC release point 119-134, element /us/usc/t22/s3902",
+        "text": "§ 3902. Definitions As used in this chapter, the term-(1) \"abroad\" means all areas not included within the United States; (2) \"agency\" means an agency as defined in section 552(e) 11 See References in Text note below. of title 5; (3) \"chief of mission\" means the principal officer in charge of a dipl",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/ea481d1be33ffb70-olrc-119-134-title-22-records.txt",
+        "copy_sha256": "ea481d1be33ffb70002f772a18ff922756613e4911537eaf436276925e338c3a",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "16 U.S.C. 1401, OLRC release point 119-134, element /us/usc/t16/s1401",
+        "text": "§ 1401. Establishment(a) DesignationThere is hereby established the Marine Mammal Commission (hereafter referred to in this subchapter as the \"Commission\"). (b) Membership and term of office(1) Effective September 1, 1982, the Commission shall be composed of three members who shall be appointed by t",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/676bd06f99df3056-olrc-119-134-title-16-records.txt",
+        "copy_sha256": "676bd06f99df3056bbd9ff4fc63155cbe8acd6d40d12ed2204fdb1fdd65695c9",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "33 U.S.C. 1401, OLRC release point 119-134, element /us/usc/t33/s1401",
+        "text": "§ 1401. Congressional finding, policy, and declaration of purpose(a) Dangers of unregulated dumpingUnregulated dumping of material into ocean waters endangers human health, welfare, and amenities, and the marine environment, ecological systems, and economic potentialities. (b) Policy of regulation a",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/767cc5d5967f06d2-olrc-119-134-title-33-records.txt",
+        "copy_sha256": "767cc5d5967f06d27e38db454754bafdaf38f0cec5321f3da9e3fa3af62b2522",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u5",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "22 U.S.C. 2451, OLRC release point 119-134, element /us/usc/t22/s2451",
+        "text": "§ 2451. Congressional statement of purpose The purpose of this chapter is to enable the Government of the United States to increase mutual understanding between the people of the United States and the people of other countries by means of educational and cultural exchange; to strengthen the ties whi",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/ea481d1be33ffb70-olrc-119-134-title-22-records.txt",
+        "copy_sha256": "ea481d1be33ffb70002f772a18ff922756613e4911537eaf436276925e338c3a",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "n1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "/us/usc/t22/s1431, OLRC release point 119-134: name of the act",
+        "text": "subsection (c)(2).\" Continuation of Certain Executive Orders, Agreements, Determinations, Regulations, Contracts, Appointments, and Other ActionsContinuation in full force and effect, and applicability to the appropriate provisions of the Mutual Educational and Cultural Exchange Act of 1961, set out as section 2451 et seq.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/ea481d1be33ffb70-olrc-119-134-title-22-records.txt",
+        "copy_sha256": "ea481d1be33ffb70002f772a18ff922756613e4911537eaf436276925e338c3a",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of State",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of State",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of State (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

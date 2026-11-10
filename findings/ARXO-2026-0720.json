@@ -1,0 +1,161 @@
+{
+  "id": "ARXO-2026-0720",
+  "url": "https://arxo.io/findings/ARXO-2026-0720/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "22 CFR parts 1507, 1508",
+  "text": {
+    "en": {
+      "title": "African Development Foundation: 2 references to U.S. Code sections repealed, omitted or not in the Code",
+      "summary": "In the CFR chapters assigned to the African Development Foundation, 2 references in 2 sections cite a U.S. Code section that release point 119-134 of the U.S. Code does not carry in force: 2 cite a number the Code does not have. The release names no successor for these sections.",
+      "impact": "A reader who follows these references does not reach the text the rule relies on. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides whether to remove or replace each reference. The U.S. Code names no successor for these sections."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 22, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "22 CFR 1507.4, citing 31 U.S.C. 370",
+        "text": "pertains of such disclosure. (l) To consumer reporting agencies as defined in 31 U.S.C. 370(a)(3) in accordance with 31 U.S.C. 3711, and under contracts",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-22.xml",
+        "sha256": "7c67421ae22d174738e8cc230cc34c9dfb0a7cea16a49d46beb8383774c5b797",
+        "retrieved": "2026-10-29",
+        "copy": "sources/5fbcf0e3a8487776-ecfr-2026-10-27-title-22-citing.txt",
+        "copy_sha256": "5fbcf0e3a8487776efcc56e30809581380af7a28a7431da04a6c1bf89817e0ad",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 22, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "22 CFR 1508.940, citing 40 U.S.C. 276",
+        "text": "disqualifications include persons prohibited under- (a) The Davis-Bacon Act (40 U.S.C. 276(a)); (b) The equal employment opportunity acts and Executive",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-22.xml",
+        "sha256": "7c67421ae22d174738e8cc230cc34c9dfb0a7cea16a49d46beb8383774c5b797",
+        "retrieved": "2026-10-29",
+        "copy": "sources/5fbcf0e3a8487776-ecfr-2026-10-27-title-22-citing.txt",
+        "copy_sha256": "5fbcf0e3a8487776efcc56e30809581380af7a28a7431da04a6c1bf89817e0ad",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "31 U.S.C. 370, OLRC release point 119-134, no element carries this number",
+        "text": "Title 31, sections in order: 331, 332, 333, 501, 502, 503",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/1ab28e8edfd99046-olrc-119-134-title-31-records.txt",
+        "copy_sha256": "1ab28e8edfd990460666093c463424a2e53997caf909d9d560d2d78be1bbc666",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "40 U.S.C. 276, OLRC release point 119-134, no element carries this number",
+        "text": "Title 40, sections in order: 124, 125, 126, 301, 302, 303",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/9d198fe831101761-olrc-119-134-title-40-records.txt",
+        "copy_sha256": "9d198fe8311017619c2a84ff1b969742443b051211284d50199f019658047c7d",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "African Development Foundation",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "African Development Foundation",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to African Development Foundation (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

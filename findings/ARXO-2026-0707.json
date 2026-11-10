@@ -1,0 +1,225 @@
+{
+  "id": "ARXO-2026-0707",
+  "url": "https://arxo.io/findings/ARXO-2026-0707/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "7 CFR parts 2, 11, 15c, 271, 760",
+  "text": {
+    "en": {
+      "title": "Department of Agriculture: 8 references to provisions removed or redesignated by 2026 rules",
+      "summary": "In the CFR chapters assigned to the Department of Agriculture, 8 references in 5 sections still use an address that a 2026 final rule changed: 7 cite a section or part that a 2026 final rule removed; 1 cites a paragraph that a 2026 final rule removed or redesignated. Each rule was published in the Federal Register and in effect by October 27, 2026; the eCFR of that date keeps the old address.",
+      "impact": "A reader who follows these references finds no text at the cited address, or text that the rule moved there from another paragraph. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the 2026 rule redesignated the paragraph, the evidence below gives the new designation."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 7, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "7 CFR 11.1, citing 7 CFR part 15f",
+        "text": "(10) Discrimination complaints prosecutable under the nondiscrimination regulations at 7 CFR parts 15, 15a, 15b, 15e, and 15f; or",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-7.xml",
+        "sha256": "eec0248fe73821df50c3db7a5f134a7c1bf76a17e243e91a81370f89d77ed72a",
+        "retrieved": "2026-10-29",
+        "copy": "sources/a29f82a8cc57bbd5-ecfr-2026-10-27-title-7-citing.txt",
+        "copy_sha256": "a29f82a8cc57bbd51d535b4e460df4acddbaef5893b88d3284e565685d5a5131",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 7, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "7 CFR 2.25, citing 7 CFR part 15f",
+        "text": "(19) Make final determinations in proceedings under part 15f of this title where review of an administrative law judge decision is undertaken.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-7.xml",
+        "sha256": "eec0248fe73821df50c3db7a5f134a7c1bf76a17e243e91a81370f89d77ed72a",
+        "retrieved": "2026-10-29",
+        "copy": "sources/a29f82a8cc57bbd5-ecfr-2026-10-27-title-7-citing.txt",
+        "copy_sha256": "a29f82a8cc57bbd51d535b4e460df4acddbaef5893b88d3284e565685d5a5131",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 7, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "7 CFR 271.2, citing 7 CFR 278.1(b)(7); now 7 CFR 278.1(b)(9)",
+        "text": "or supplement meals, or food used primarily in the meal preparation process as listed at § 278.1(b)(7) of this chapter. Accessory foods are not defined by package size and shall not be considered",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-7.xml",
+        "sha256": "eec0248fe73821df50c3db7a5f134a7c1bf76a17e243e91a81370f89d77ed72a",
+        "retrieved": "2026-10-29",
+        "copy": "sources/a29f82a8cc57bbd5-ecfr-2026-10-27-title-7-citing.txt",
+        "copy_sha256": "a29f82a8cc57bbd51d535b4e460df4acddbaef5893b88d3284e565685d5a5131",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 7, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "7 CFR 760.1505, citing 7 CFR part 457",
+        "text": "(1) For an insured crop, the participant's existing unit structure established in accordance with part 457 of this title;",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-7.xml",
+        "sha256": "eec0248fe73821df50c3db7a5f134a7c1bf76a17e243e91a81370f89d77ed72a",
+        "retrieved": "2026-10-29",
+        "copy": "sources/a29f82a8cc57bbd5-ecfr-2026-10-27-title-7-citing.txt",
+        "copy_sha256": "a29f82a8cc57bbd51d535b4e460df4acddbaef5893b88d3284e565685d5a5131",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 7, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "7 CFR Appendix A to 7 CFR Part 15c, citing 7 CFR part 402",
+        "text": "Policy Basic Provisions, 7 CFR part 457 including the Catastrophic Risk Protection Endorsement, 7 CFR part 402, and the Actual Production History Regulation 7 CFR part 400 Subpart G for",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-7.xml",
+        "sha256": "eec0248fe73821df50c3db7a5f134a7c1bf76a17e243e91a81370f89d77ed72a",
+        "retrieved": "2026-10-29",
+        "copy": "sources/a29f82a8cc57bbd5-ecfr-2026-10-27-title-7-citing.txt",
+        "copy_sha256": "a29f82a8cc57bbd51d535b4e460df4acddbaef5893b88d3284e565685d5a5131",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c6",
+        "source": "eCFR Title 7, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "7 CFR Appendix A to 7 CFR Part 15c, citing 7 CFR part 402",
+        "text": "enter into a binding contract, a court-appointed guardian or parent must sign the application.\" 7 CFR parts 400, 402, 457.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-7.xml",
+        "sha256": "eec0248fe73821df50c3db7a5f134a7c1bf76a17e243e91a81370f89d77ed72a",
+        "retrieved": "2026-10-29",
+        "copy": "sources/a29f82a8cc57bbd5-ecfr-2026-10-27-title-7-citing.txt",
+        "copy_sha256": "a29f82a8cc57bbd51d535b4e460df4acddbaef5893b88d3284e565685d5a5131",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c7",
+        "source": "eCFR Title 7, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "7 CFR Appendix A to 7 CFR Part 15c, citing 7 CFR part 457",
+        "text": "by Approved Insurance Providers under the Common Crop Insurance Policy Basic Provisions, 7 CFR part 457 including the Catastrophic Risk Protection Endorsement, 7 CFR part 402, and",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-7.xml",
+        "sha256": "eec0248fe73821df50c3db7a5f134a7c1bf76a17e243e91a81370f89d77ed72a",
+        "retrieved": "2026-10-29",
+        "copy": "sources/a29f82a8cc57bbd5-ecfr-2026-10-27-title-7-citing.txt",
+        "copy_sha256": "a29f82a8cc57bbd51d535b4e460df4acddbaef5893b88d3284e565685d5a5131",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c8",
+        "source": "eCFR Title 7, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "7 CFR Appendix A to 7 CFR Part 15c, citing 7 CFR part 457",
+        "text": "enter into a binding contract, a court-appointed guardian or parent must sign the application.\" 7 CFR parts 400, 402, 457.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-7.xml",
+        "sha256": "eec0248fe73821df50c3db7a5f134a7c1bf76a17e243e91a81370f89d77ed72a",
+        "retrieved": "2026-10-29",
+        "copy": "sources/a29f82a8cc57bbd5-ecfr-2026-10-27-title-7-citing.txt",
+        "copy_sha256": "a29f82a8cc57bbd51d535b4e460df4acddbaef5893b88d3284e565685d5a5131",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of Agriculture",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Agriculture",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Agriculture (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

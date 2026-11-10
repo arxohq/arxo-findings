@@ -1,0 +1,5 @@
+Records of United States Code Title 3, OLRC release point 119-134 (usc-119-134/usc03.xml, sha256 e8e2918e784a1ed5d85fdd32cbb09150636d5e2ca7bf69f24bc8f24f9c100393).
+Each line: the cited number, then the start of the section element that carries it (a single section or a block of sections), or the section numbers of the title in order around the cited number when no element carries it; or a sentence of the title that names the act.
+
+3 U.S.C. 202: [§§ 202 to 204. Repealed. Pub.
+3 U.S.C. 466e: Title 3, sections in order: 454, 455, 456, 471

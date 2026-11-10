@@ -1,0 +1,369 @@
+{
+  "id": "ARXO-2026-0942",
+  "url": "https://arxo.io/findings/ARXO-2026-0942/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "13 CFR parts 124, 125, 126, 127, 146, 147",
+  "text": {
+    "en": {
+      "title": "Small Business Administration: 9 references to former U.S. Code sections or former act names",
+      "summary": "In the CFR chapters assigned to the Small Business Administration, 9 references in 9 sections use a former address or name: 7 cite a section replaced by a new one when the title was enacted as positive law; 1 cites a renumbered section; 1 cites a section transferred to another section. Each reference was compared with release point 119-134 of the U.S. Code, which names where the old number went.",
+      "impact": "A reader who follows these references finds a note that the section moved, or no section, instead of the text. A reference to a moved section may keep its legal effect, but the address no longer leads to the text. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the U.S. Code names the section the old number moved to, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 13, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "13 CFR 124.506, citing 41 U.S.C. 431a; the U.S. Code gives 41 U.S.C. 1908",
+        "text": "property or services by an executive agency as determined by the FAR Council. 41 U.S.C. 431a(c). Part 124, Subpart A, 8(a) Business Development, contains",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-13.xml",
+        "sha256": "29edbdf16821d86b7c10bf8be8fad32c789be02e8fd3f9d4c47e89cfc0474600",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aee07d40fa3babec-ecfr-2026-10-27-title-13-citing.txt",
+        "copy_sha256": "aee07d40fa3babec64098c7e0ebfc6f16ce99400b8f44399e2600ef36bc0c0bb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 13, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "13 CFR 125.1, citing 41 U.S.C. 414; the U.S. Code gives 41 U.S.C. 1702",
+        "text": "pursuant to section 16(a) of the Office of Federal Procurement Policy Act (41 U.S.C. 414(a)). Commercial off-the-shelf item has the same definition",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-13.xml",
+        "sha256": "29edbdf16821d86b7c10bf8be8fad32c789be02e8fd3f9d4c47e89cfc0474600",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aee07d40fa3babec-ecfr-2026-10-27-title-13-citing.txt",
+        "copy_sha256": "aee07d40fa3babec64098c7e0ebfc6f16ce99400b8f44399e2600ef36bc0c0bb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 13, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "13 CFR 125.2, citing 10 U.S.C. 2304c; the U.S. Code gives 10 U.S.C. 3406",
+        "text": "Contracts. (i) Notwithstanding the fair opportunity requirements set forth in 10 U.S.C. 2304c and 41 U.S.C. 4106(c), a contracting officer may set",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-13.xml",
+        "sha256": "29edbdf16821d86b7c10bf8be8fad32c789be02e8fd3f9d4c47e89cfc0474600",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aee07d40fa3babec-ecfr-2026-10-27-title-13-citing.txt",
+        "copy_sha256": "aee07d40fa3babec64098c7e0ebfc6f16ce99400b8f44399e2600ef36bc0c0bb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 13, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "13 CFR 125.7, citing 41 U.S.C. 431a; the U.S. Code gives 41 U.S.C. 1908",
+        "text": "property or services by an executive agency as determined by the FAR Council. 41 U.S.C. 431a(c). Part 125, Government Contracting Programs, contains",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-13.xml",
+        "sha256": "29edbdf16821d86b7c10bf8be8fad32c789be02e8fd3f9d4c47e89cfc0474600",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aee07d40fa3babec-ecfr-2026-10-27-title-13-citing.txt",
+        "copy_sha256": "aee07d40fa3babec64098c7e0ebfc6f16ce99400b8f44399e2600ef36bc0c0bb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 13, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "13 CFR 126.605, citing 41 U.S.C. 46; the U.S. Code gives one or more of: 41 U.S.C. 8501; 41 U.S.C. 8502",
+        "text": "participating non-profit agencies for the blind and severely disabled, under 41 U.S.C. 46 et seq., as amended; or (b) An 8(a) participant currently",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-13.xml",
+        "sha256": "29edbdf16821d86b7c10bf8be8fad32c789be02e8fd3f9d4c47e89cfc0474600",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aee07d40fa3babec-ecfr-2026-10-27-title-13-citing.txt",
+        "copy_sha256": "aee07d40fa3babec64098c7e0ebfc6f16ce99400b8f44399e2600ef36bc0c0bb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c6",
+        "source": "eCFR Title 13, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "13 CFR 127.102, citing 41 U.S.C. 423; the U.S. Code gives one or more of: 41 U.S.C. 2101; 41 U.S.C. 2102; 41 U.S.C. 2103; 41 U.S.C. 2104; 41 U.S.C. 2105; 41 U.S.C. 2106; 41 U.S.C. 2107",
+        "text": "Section 27(f)(5) of the Office of Federal Procurement Policy Act (codified at 41 U.S.C. 423(f)(5)). D/GC means SBA's Director for Government Contracting.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-13.xml",
+        "sha256": "29edbdf16821d86b7c10bf8be8fad32c789be02e8fd3f9d4c47e89cfc0474600",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aee07d40fa3babec-ecfr-2026-10-27-title-13-citing.txt",
+        "copy_sha256": "aee07d40fa3babec64098c7e0ebfc6f16ce99400b8f44399e2600ef36bc0c0bb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c7",
+        "source": "eCFR Title 13, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "13 CFR 146.105, citing 25 U.S.C. 450b",
+        "text": "in section 4 of the Indian Self-Determination and Education Assistance Act (25 U.S.C. 450B). Alaskan Natives are included under the definitions of",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-13.xml",
+        "sha256": "29edbdf16821d86b7c10bf8be8fad32c789be02e8fd3f9d4c47e89cfc0474600",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aee07d40fa3babec-ecfr-2026-10-27-title-13-citing.txt",
+        "copy_sha256": "aee07d40fa3babec64098c7e0ebfc6f16ce99400b8f44399e2600ef36bc0c0bb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c8",
+        "source": "eCFR Title 13, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "13 CFR 147.100, citing 41 U.S.C. 701; the U.S. Code gives 41 U.S.C. 8102",
+        "text": "This part carries out the portion of the Drug-Free Workplace Act of 1988 (41 U.S.C. 701 et seq., as amended) that applies to grants. It also applie",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-13.xml",
+        "sha256": "29edbdf16821d86b7c10bf8be8fad32c789be02e8fd3f9d4c47e89cfc0474600",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aee07d40fa3babec-ecfr-2026-10-27-title-13-citing.txt",
+        "copy_sha256": "aee07d40fa3babec64098c7e0ebfc6f16ce99400b8f44399e2600ef36bc0c0bb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c9",
+        "source": "eCFR Title 13, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "13 CFR part 147 (Authority), citing 41 U.S.C. 701-707; the U.S. Code gives 41 U.S.C. 8101–8106",
+        "text": "Authority:41 U.S.C. 701-707.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-13.xml",
+        "sha256": "29edbdf16821d86b7c10bf8be8fad32c789be02e8fd3f9d4c47e89cfc0474600",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aee07d40fa3babec-ecfr-2026-10-27-title-13-citing.txt",
+        "copy_sha256": "aee07d40fa3babec64098c7e0ebfc6f16ce99400b8f44399e2600ef36bc0c0bb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 431a, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 151, 152, 153, 1101, 1102, 1121",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 414, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 151, 152, 153, 1101, 1102, 1121",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "10 U.S.C. 2304c, OLRC release point 119-134, element /us/usc/t10/s2304c",
+        "text": "[§ 2304c. Renumbered § 3406]",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/9fb66326513bdd9c-olrc-119-134-title-10-records.txt",
+        "copy_sha256": "9fb66326513bdd9c7c061f1ba8c65d0aacc28ef022be09e2de738c52696810d2",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 46, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 101, 102, 103",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u5",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 423, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 151, 152, 153, 1101, 1102, 1121",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u6",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "25 U.S.C. 450b, OLRC release point 119-134, element /us/usc/t25/s450b",
+        "text": "§ 450b. Transferred Editorial Notes Codification Section 450b was editorially reclassified as section 5304 of this title.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/a5512583c0fc537b-olrc-119-134-title-25-records.txt",
+        "copy_sha256": "a5512583c0fc537b33bc63771fd35a2fd616207aa195bbbe54e789ead9051c40",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u7",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 701, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 151, 152, 153, 1101, 1102, 1121",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u8",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 701-707, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 151, 152, 153, 1101, 1102, 1121",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Small Business Administration",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Small Business Administration",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Small Business Administration (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

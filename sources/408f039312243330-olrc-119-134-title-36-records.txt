@@ -1,0 +1,5 @@
+Records of United States Code Title 36, OLRC release point 119-134 (usc-119-134/usc36.xml, sha256 aff638adfb8d1f4212cee8c487e76704f94f8b82183e8d0bcddbd293c517d1ba).
+Each line: the cited number, then the start of the section element that carries it (a single section or a block of sections), or the section numbers of the title in order around the cited number when no element carries it; or a sentence of the title that names the act.
+
+36 U.S.C. 6: Title 36, sections in order: 101, 102, 103
+36 U.S.C. 5522: Title 36, sections in order: 2310, 2501, 2502, 10101, 10102, 20101

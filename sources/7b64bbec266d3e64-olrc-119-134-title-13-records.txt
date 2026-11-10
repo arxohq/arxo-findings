@@ -1,0 +1,6 @@
+Records of United States Code Title 13, OLRC release point 119-134 (usc-119-134/usc13.xml, sha256 f3e9ed60d3c5eb75fd61c46e4f64135074cb4a2a87cc568ddf01b84db90dd587).
+Each line: the cited number, then the start of the section element that carries it (a single section or a block of sections), or the section numbers of the title in order around the cited number when no element carries it; or a sentence of the title that names the act.
+
+13 U.S.C. 1001: Title 13, sections in order: 307, 401, 402
+13 U.S.C. 1342: Title 13, sections in order: 307, 401, 402
+13 U.S.C. 3711: Title 13, sections in order: 307, 401, 402

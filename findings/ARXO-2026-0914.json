@@ -1,0 +1,161 @@
+{
+  "id": "ARXO-2026-0914",
+  "url": "https://arxo.io/findings/ARXO-2026-0914/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "5 CFR part 4701; 11 CFR part 300",
+  "text": {
+    "en": {
+      "title": "Federal Election Commission: 2 references to former U.S. Code sections or former act names",
+      "summary": "In the CFR chapters assigned to the Federal Election Commission, 2 references in 2 sections use a former address or name: 2 cite a section transferred to another section. Each reference was compared with release point 119-134 of the U.S. Code, which names where the old number went.",
+      "impact": "A reader who follows these references finds a note that the section moved, or no section, instead of the text. A reference to a moved section may keep its legal effect, but the address no longer leads to the text. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the U.S. Code names the section the old number moved to, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 5, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "5 CFR part 4701 (Authority), citing 2 U.S.C. 437c",
+        "text": "Authority:2 U.S.C. 437c(a)(3); 5 U.S.C. 7301; 5 U.S.C. app. (Ethics in Government Act of",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-5.xml",
+        "sha256": "45b29ff0f9c4f2678b2624f564c096b9253f991a94582d28c4189657e49b12fd",
+        "retrieved": "2026-10-29",
+        "copy": "sources/2724717084a6cf1d-ecfr-2026-10-27-title-5-citing.txt",
+        "copy_sha256": "2724717084a6cf1daee0ed13aed13f711f4cee602bffee3c848af540908eddfc",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 11, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "11 CFR 300.36, citing 2 U.S.C. 431",
+        "text": "R part 104, unless the disbursement otherwise qualifies as an expenditure under 2 U.S.C. 431(9). (2) Requirements for a State, district, or local",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-11.xml",
+        "sha256": "947a58efdab1d78ba308d31e8e80d88c891a27d6ee39c4358f0d36c6aca2f5ed",
+        "retrieved": "2026-10-29",
+        "copy": "sources/b20a367ef176772a-ecfr-2026-10-27-title-11-citing.txt",
+        "copy_sha256": "b20a367ef176772aa62745cab4ba32473b98ae4b4b32e640d9abe7a78857e37a",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "2 U.S.C. 437c, OLRC release point 119-134, element /us/usc/t2/s437c",
+        "text": "§ 437c. Transferred Editorial Notes Codification Section 437c was editorially reclassified as section 30106 of Title 52, Voting and Elections.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/23bb19794e570c39-olrc-119-134-title-2-records.txt",
+        "copy_sha256": "23bb19794e570c39f0a1f9193cbcbdf804eedba228aa2dd6f8d1cc3f4b47df33",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "2 U.S.C. 431, OLRC release point 119-134, element /us/usc/t2/s431",
+        "text": "§ 431. Transferred Editorial Notes Codification Section 431 was editorially reclassified as section 30101 of Title 52, Voting and Elections.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/23bb19794e570c39-olrc-119-134-title-2-records.txt",
+        "copy_sha256": "23bb19794e570c39f0a1f9193cbcbdf804eedba228aa2dd6f8d1cc3f4b47df33",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Federal Election Commission",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Federal Election Commission",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Federal Election Commission (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+Records of United States Code Title 4, OLRC release point 119-134 (usc-119-134/usc04.xml, sha256 ab7cc8c41970d990b4890451b5f260f53bfab23be83b9ee3e41fd6a85e15d9db).
+Each line: the cited number, then the start of the section element that carries it (a single section or a block of sections), or the section numbers of the title in order around the cited number when no element carries it; or a sentence of the title that names the act.
+
+4 U.S.C. 9606: Title 4, sections in order: 144, 145, 146

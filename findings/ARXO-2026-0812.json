@@ -1,0 +1,129 @@
+{
+  "id": "ARXO-2026-0812",
+  "url": "https://arxo.io/findings/ARXO-2026-0812/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "22 CFR part 713",
+  "text": {
+    "en": {
+      "title": "United States International Development Finance Corporation: 1 reference to U.S. Code sections repealed, omitted or not in the Code",
+      "summary": "In the CFR chapters assigned to the United States International Development Finance Corporation, 1 reference in 1 section cites a U.S. Code section that release point 119-134 of the U.S. Code does not carry in force: 1 cites a repealed section. The release names no successor for these sections.",
+      "impact": "A reader who follows these references does not reach the text the rule relies on. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides whether to remove or replace each reference. The U.S. Code names no successor for these sections."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 22, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "22 CFR part 713 (Authority), citing 22 U.S.C. 2199",
+        "text": ". 301; 5 U.S.C. 552; 5 U.S.C. 552a; 5 U.S.C. 702; 18 U.S.C. 207; 18 U.S.C. 641; 22 U.S.C. 2199(d); 28 U.S.C. 1821; Pub. L. 115-254, sections 1401-1470.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-22.xml",
+        "sha256": "7c67421ae22d174738e8cc230cc34c9dfb0a7cea16a49d46beb8383774c5b797",
+        "retrieved": "2026-10-29",
+        "copy": "sources/5fbcf0e3a8487776-ecfr-2026-10-27-title-22-citing.txt",
+        "copy_sha256": "5fbcf0e3a8487776efcc56e30809581380af7a28a7431da04a6c1bf89817e0ad",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "22 U.S.C. 2199, OLRC release point 119-134, element /us/usc/t22/s2198...2200b",
+        "text": "§§ 2198 to 2200b. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/ea481d1be33ffb70-olrc-119-134-title-22-records.txt",
+        "copy_sha256": "ea481d1be33ffb70002f772a18ff922756613e4911537eaf436276925e338c3a",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "United States International Development Finance Corporation",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "United States International Development Finance Corporation",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to United States International Development Finance Corporation (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "id": "ARXO-2026-0677",
+  "url": "https://arxo.io/findings/ARXO-2026-0677/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "16 CFR parts 1309, 1500, 1700",
+  "text": {
+    "en": {
+      "title": "Consumer Product Safety Commission: 3 references with a wrong U.S. Code section or act name",
+      "summary": "In the CFR chapters assigned to the Consumer Product Safety Commission, 3 references in 3 sections cite the U.S. Code or an act with an error: 3 name an act differently from the U.S. Code. Each reference was compared with release point 119-134 of the U.S. Code published by the Office of the Law Revision Counsel.",
+      "impact": "A reader who follows these references reaches a different section or looks for an act under a name the U.S. Code does not use. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to correct each reference. Where the U.S. Code shows the section or the name intended, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 16, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "16 CFR 1309.1, citing \"Safety Sleep for Babies Act of 2021\" (15 U.S.C. 2057e); the U.S. Code gives Safe Sleep for Babies Act of 2021",
+        "text": "in part 1309.2, as set forth in the Safety Sleep for Babies Act of 2021 (15 U.S.C. 2057e).",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-16.xml",
+        "sha256": "cf260ebbd07371fb82404bec064ecc17a731beb3636aa0896f3625038b5e62e7",
+        "retrieved": "2026-10-29",
+        "copy": "sources/02e2e19268c9a213-ecfr-2026-10-27-title-16-citing.txt",
+        "copy_sha256": "02e2e19268c9a213c404271bb954c00aac66b21011a2d7000f8aa11d39e390ca",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 16, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "16 CFR 1500.18, citing \"Federal Hazardous Substance Act\" (15 U.S.C. 1261); the U.S. Code gives Federal Hazardous Substances Act",
+        "text": "a rule under section 2(q)(1) of the Federal Hazardous Substance Act (FHSA), 15 U.S.C. 1261(q)(1), classifying a substance or article as a banned hazardous",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-16.xml",
+        "sha256": "cf260ebbd07371fb82404bec064ecc17a731beb3636aa0896f3625038b5e62e7",
+        "retrieved": "2026-10-29",
+        "copy": "sources/02e2e19268c9a213-ecfr-2026-10-27-title-16-citing.txt",
+        "copy_sha256": "02e2e19268c9a213c404271bb954c00aac66b21011a2d7000f8aa11d39e390ca",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 16, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "16 CFR 1700.14, citing \"Federal Food, Drug, and Cosmetics Act\" (21 U.S.C. 321); the U.S. Code gives Federal Food, Drug, and Cosmetic Act",
+        "text": "or cosmetics as defined in the Federal Food, Drug, and Cosmetics Act (FDCA) (21 U.S.C. 321(a)), and that contain 10 percent or more hydrocarbons by",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-16.xml",
+        "sha256": "cf260ebbd07371fb82404bec064ecc17a731beb3636aa0896f3625038b5e62e7",
+        "retrieved": "2026-10-29",
+        "copy": "sources/02e2e19268c9a213-ecfr-2026-10-27-title-16-citing.txt",
+        "copy_sha256": "02e2e19268c9a213c404271bb954c00aac66b21011a2d7000f8aa11d39e390ca",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "15 U.S.C. 2057e, OLRC release point 119-134, element /us/usc/t15/s2057e",
+        "text": "§ 2057e. Banning of crib bumpers(a) In generalNot later than 180 days after May 16, 2022, crib bumpers, regardless of the date of manufacture, shall be considered a banned hazardous product under section 2057 of this title. (b) Crib bumper definedIn this section, the term \"crib bumper\"-(1) means any",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/cc58c62d553ea135-olrc-119-134-title-15-records.txt",
+        "copy_sha256": "cc58c62d553ea1356385f785c803fa222b4c67e2dd8b58ec5b97a82cfa89bada",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "n1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "/us/usc/t15/s2051, OLRC release point 119-134: name of the act",
+        "text": "1208, provided that: \"This Act [enacting sections 2057d and 2057e of this title] may be cited as the ‘Safe Sleep for Babies Act of 2021'.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/cc58c62d553ea135-olrc-119-134-title-15-records.txt",
+        "copy_sha256": "cc58c62d553ea1356385f785c803fa222b4c67e2dd8b58ec5b97a82cfa89bada",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "15 U.S.C. 1261, OLRC release point 119-134, element /us/usc/t15/s1261",
+        "text": "§ 1261. Definitions For the purposes of this chapter-(a) The term \"territory\" means any territory or possession of the United States, including the District of Columbia and the Commonwealth of Puerto Rico but excluding the Canal Zone. (b) The term \"interstate commerce\" means (1) commerce between any",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/cc58c62d553ea135-olrc-119-134-title-15-records.txt",
+        "copy_sha256": "cc58c62d553ea1356385f785c803fa222b4c67e2dd8b58ec5b97a82cfa89bada",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "n2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "/us/usc/t15/s1191, OLRC release point 119-134: name of the act",
+        "text": "27, 2020]; or \"(C) the California standard.\" Hazardous SubstancesFederal Hazardous Substances Act as not modifying this chapter or regulations promulgated thereunder, see Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/cc58c62d553ea135-olrc-119-134-title-15-records.txt",
+        "copy_sha256": "cc58c62d553ea1356385f785c803fa222b4c67e2dd8b58ec5b97a82cfa89bada",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u5",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "21 U.S.C. 321, OLRC release point 119-134, element /us/usc/t21/s321",
+        "text": "§ 321. Definitions; generally For the purposes of this chapter-(a)(1) The term \"State\", except as used in the last sentence of section 372(a) of this title, means any State or Territory of the United States, the District of Columbia, and the Commonwealth of Puerto Rico. (2) The term \"Territory\" mean",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/1b66ffd2db782bf9-olrc-119-134-title-21-records.txt",
+        "copy_sha256": "1b66ffd2db782bf9d314998bb161bc6fcf38434989947a2b25a5908dfe1cb23e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "n3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "/us/usc/t21/s1...5, OLRC release point 119-134: name of the act",
+        "text": "854, provided that: \"The provisions of such act of June 30, 1906, as amended, to the extent that they impose, or authorize the imposition of, any requirement imposed by section 403(k) of the Federal Food, Drug, and Cosmetic Act [section 343(k) of this title], shall remain in force until January 1, 1940.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/1b66ffd2db782bf9-olrc-119-134-title-21-records.txt",
+        "copy_sha256": "1b66ffd2db782bf9d314998bb161bc6fcf38434989947a2b25a5908dfe1cb23e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Consumer Product Safety Commission",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Consumer Product Safety Commission",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Consumer Product Safety Commission (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

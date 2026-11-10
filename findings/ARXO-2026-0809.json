@@ -1,0 +1,353 @@
+{
+  "id": "ARXO-2026-0809",
+  "url": "https://arxo.io/findings/ARXO-2026-0809/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "49 CFR parts 1039, 1177, 1302, 1332",
+  "text": {
+    "en": {
+      "title": "Surface Transportation Board: 8 references to U.S. Code sections repealed, omitted or not in the Code",
+      "summary": "In the CFR chapters assigned to the Surface Transportation Board, 8 references in 8 sections cite a U.S. Code section that release point 119-134 of the U.S. Code does not carry in force: 7 cite a number the Code does not have; 1 cites a repealed section. The release names no successor for these sections.",
+      "impact": "A reader who follows these references does not reach the text the rule relies on. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides whether to remove or replace each reference. The U.S. Code names no successor for these sections."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR 1039.14, citing 49 U.S.C. 10705a; perhaps 49 U.S.C. 10705 was meant",
+        "text": "for identification purposes when establishing rates. (5) The provisions of 49 U.S.C. 10705 and 10705a applicable to joint rates and through routes will be",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR 1039.17, citing 49 U.S.C. 11105",
+        "text": "of rail carriers and express companies, are exempt from the requirements of 49 U.S.C. 11105. Nothing in this exemption shall be construed to affect",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR 1039.22, citing 49 U.S.C. 10713",
+        "text": "a transaction is eligible for inclusion in one or more contracts under 49 U.S.C. 10713, that person's exclusive remedy shall be to request the Boa",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR 1177.3, citing 49 U.S.C. 10321",
+        "text": "of vessels or rolling stock. (Authority: 5 U.S.C. 553, 31 U.S.C. 9701; 49 U.S.C. 10321)",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR 1177.5, citing 49 U.S.C. 11303",
+        "text": "filing. A notation acknowledging that the document has been filed pursuant to 49 U.S.C. 11303 will be made. The original document, along with the",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c6",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR 1302.43, citing 49 U.S.C. 6",
+        "text": "6 of the Interstate Commerce Act (section 6, 24 Stat. 380, as amended; 49 U.S.C. 6(13)) the rates to the ports in force and applicable upon said s",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c7",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR 1332.1, citing 39 U.S.C. 5201",
+        "text": "Code, as revised and reenacted by the Postal Reorganization Act, 84 Stat. 719, 39 U.S.C. 5001 and 5201.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c8",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR part 1302 (Authority), citing 49 U.S.C. 884",
+        "text": "Authority:49 U.S.C. 884.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 10705a, OLRC release point 119-134, no element carries this number",
+        "text": "Title 49, sections in order: 10703, 10704, 10705, 10706, 10707, 10708",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 11105, OLRC release point 119-134, no element carries this number",
+        "text": "Title 49, sections in order: 11101, 11102, 11103, 11121, 11122, 11123",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 10713, OLRC release point 119-134, no element carries this number",
+        "text": "Title 49, sections in order: 10707, 10708, 10709, 10721, 10722, 10741",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 10321, OLRC release point 119-134, no element carries this number",
+        "text": "Title 49, sections in order: 6703, 10101, 10102, 10501, 10502, 10701",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u5",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 11303, OLRC release point 119-134, no element carries this number",
+        "text": "Title 49, sections in order: 11163, 11164, 11301, 11321, 11322, 11323",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u6",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 6, OLRC release point 119-134, no element carries this number",
+        "text": "Title 49, sections in order: 101, 102, 103",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u7",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "39 U.S.C. 5201, OLRC release point 119-134, element /us/usc/t39/s5201...5215",
+        "text": "[§§ 5201 to 5215. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/cb4734de092787cd-olrc-119-134-title-39-records.txt",
+        "copy_sha256": "cb4734de092787cdb6917e6d97da165ce29777079d185aa3bd53caedbffe8036",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u8",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 884, OLRC release point 119-134, no element carries this number",
+        "text": "Title 49, sections in order: 725, 726, 727, 1101, 1111, 1112",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Surface Transportation Board",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Surface Transportation Board",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Surface Transportation Board (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

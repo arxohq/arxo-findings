@@ -1,0 +1,241 @@
+{
+  "id": "ARXO-2026-0792",
+  "url": "https://arxo.io/findings/ARXO-2026-0792/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "36 CFR parts 702, 704; 37 CFR part 302",
+  "text": {
+    "en": {
+      "title": "Library of Congress: 5 references to U.S. Code sections repealed, omitted or not in the Code",
+      "summary": "In the CFR chapters assigned to the Library of Congress, 5 references in 4 sections cite a U.S. Code section that release point 119-134 of the U.S. Code does not carry in force: 4 cite a repealed section; 1 cites a number the Code does not have. The release names no successor for these sections.",
+      "impact": "A reader who follows these references does not reach the text the rule relies on. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides whether to remove or replace each reference. The U.S. Code names no successor for these sections."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 36, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "36 CFR 702.14, citing 2 U.S.C. 167a-167e",
+        "text": "(a) Persons violating provisions of 2 U.S.C. 167a to 167e, inclusive, regulations promulgated pursuant to 2 U.S.C. 16",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-36.xml",
+        "sha256": "ee9dc54d0e35b91c036522a2cc566413071be476d46c9b1ab1eb78188a1584c8",
+        "retrieved": "2026-10-29",
+        "copy": "sources/5440f5f29983225f-ecfr-2026-10-27-title-36-citing.txt",
+        "copy_sha256": "5440f5f29983225f2c1dbe7e25a8f22def441f94e33cb426531de4a74ac4c632",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 36, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "36 CFR 702.14, citing 2 U.S.C. 167f",
+        "text": "of 2 U.S.C. 167a to 167e, inclusive, regulations promulgated pursuant to 2 U.S.C. 167f, this part 702, or other applicable Federal laws relating t",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-36.xml",
+        "sha256": "ee9dc54d0e35b91c036522a2cc566413071be476d46c9b1ab1eb78188a1584c8",
+        "retrieved": "2026-10-29",
+        "copy": "sources/5440f5f29983225f-ecfr-2026-10-27-title-36-citing.txt",
+        "copy_sha256": "5440f5f29983225f2c1dbe7e25a8f22def441f94e33cb426531de4a74ac4c632",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 36, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "36 CFR 704.1, citing 2 U.S.C. 179",
+        "text": "Authority:Pub. L. 102-307, 106 Stat. 267 (2 U.S.C. 179).",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-36.xml",
+        "sha256": "ee9dc54d0e35b91c036522a2cc566413071be476d46c9b1ab1eb78188a1584c8",
+        "retrieved": "2026-10-29",
+        "copy": "sources/5440f5f29983225f-ecfr-2026-10-27-title-36-citing.txt",
+        "copy_sha256": "5440f5f29983225f2c1dbe7e25a8f22def441f94e33cb426531de4a74ac4c632",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 36, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "36 CFR part 704 (Authority), citing 2 U.S.C. 179",
+        "text": "Authority:Pub. L. 102-307, 106 Stat. 267 (2 U.S.C. 179).",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-36.xml",
+        "sha256": "ee9dc54d0e35b91c036522a2cc566413071be476d46c9b1ab1eb78188a1584c8",
+        "retrieved": "2026-10-29",
+        "copy": "sources/5440f5f29983225f-ecfr-2026-10-27-title-36-citing.txt",
+        "copy_sha256": "5440f5f29983225f2c1dbe7e25a8f22def441f94e33cb426531de4a74ac4c632",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 37, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "37 CFR part 302 (Authority), citing 5 U.S.C. 522",
+        "text": "Authority:5 U.S.C. 522.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-37.xml",
+        "sha256": "8d4322405c67ef841916650e76ec56d50f0f538e7f5a4565608f5fb2b09b6089",
+        "retrieved": "2026-10-29",
+        "copy": "sources/5c878c7c297fc5ab-ecfr-2026-10-27-title-37-citing.txt",
+        "copy_sha256": "5c878c7c297fc5ab13b3eb0baa3ee44dc0a4c1a1dffea579e623e5f0bf861999",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "2 U.S.C. 167a-167e, OLRC release point 119-134, element /us/usc/t2/s167...167h",
+        "text": "§§ 167 to 167h. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/23bb19794e570c39-olrc-119-134-title-2-records.txt",
+        "copy_sha256": "23bb19794e570c39f0a1f9193cbcbdf804eedba228aa2dd6f8d1cc3f4b47df33",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "2 U.S.C. 167f, OLRC release point 119-134, element /us/usc/t2/s167...167h",
+        "text": "§§ 167 to 167h. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/23bb19794e570c39-olrc-119-134-title-2-records.txt",
+        "copy_sha256": "23bb19794e570c39f0a1f9193cbcbdf804eedba228aa2dd6f8d1cc3f4b47df33",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "2 U.S.C. 179, OLRC release point 119-134, element /us/usc/t2/s179...179k",
+        "text": "§§ 179 to 179k. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/23bb19794e570c39-olrc-119-134-title-2-records.txt",
+        "copy_sha256": "23bb19794e570c39f0a1f9193cbcbdf804eedba228aa2dd6f8d1cc3f4b47df33",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "5 U.S.C. 522, OLRC release point 119-134, no element carries this number",
+        "text": "Title 5, sections in order: 502, 503, 504, 551, 552, 552a",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/e04126c9f1baa61a-olrc-119-134-title-5-records.txt",
+        "copy_sha256": "e04126c9f1baa61ae97a3ed5b14888390fcce690fccf496271068bf3a7f87d28",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Library of Congress",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Library of Congress",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Library of Congress (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

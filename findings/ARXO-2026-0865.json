@@ -1,0 +1,225 @@
+{
+  "id": "ARXO-2026-0865",
+  "url": "https://arxo.io/findings/ARXO-2026-0865/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "27 CFR part 479",
+  "text": {
+    "en": {
+      "title": "Department of Justice: 4 references to former U.S. Code sections or former act names (27 CFR)",
+      "summary": "In the CFR chapters assigned to the Department of Justice in 27 CFR, 4 references in 3 sections use a former address or name: 4 cite a renumbered section. Each reference was compared with release point 119-134 of the U.S. Code, which names where the old number went.",
+      "impact": "A reader who follows these references finds a note that the section moved, or no section, instead of the text. A reference to a moved section may keep its legal effect, but the address no longer leads to the text. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the U.S. Code names the section the old number moved to, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 27, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "27 CFR 479.11, citing 10 U.S.C. 4684; the U.S. Code gives 10 U.S.C. 7684",
+        "text": "surplus ordnance sold, loaned, or given by the Secretary of the Army under 10 U.S.C. 4684(2), 4685, or 4686, or any device which the Director finds is not likely to",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-27.xml",
+        "sha256": "685b8e8636d88221a1633c3f7e76ff129d179aea48e4828e37fb2d54c591ddf8",
+        "retrieved": "2026-10-29",
+        "copy": "sources/ca59bdd0823dd0cb-ecfr-2026-10-27-title-27-citing.txt",
+        "copy_sha256": "ca59bdd0823dd0cbd8a262c365bec57bfa3b035ef2816f13adc0a41a980eb002",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 27, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "27 CFR 479.11, citing 10 U.S.C. 4686; the U.S. Code gives 10 U.S.C. 7686",
+        "text": "surplus ordnance sold, loaned, or given by the Secretary of the Army under 10 U.S.C. 4684(2), 4685, or 4686, or any device which the Director finds is not likely to",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-27.xml",
+        "sha256": "685b8e8636d88221a1633c3f7e76ff129d179aea48e4828e37fb2d54c591ddf8",
+        "retrieved": "2026-10-29",
+        "copy": "sources/ca59bdd0823dd0cb-ecfr-2026-10-27-title-27-citing.txt",
+        "copy_sha256": "ca59bdd0823dd0cbd8a262c365bec57bfa3b035ef2816f13adc0a41a980eb002",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 27, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "27 CFR 479.31, citing 26 U.S.C. 5143; the U.S. Code gives 26 U.S.C. 5733",
+        "text": "of the premises are otherwise contiguous. See also §§ 479.38-479.39. (26 U.S.C. 5143, 5801, 5846)",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-27.xml",
+        "sha256": "685b8e8636d88221a1633c3f7e76ff129d179aea48e4828e37fb2d54c591ddf8",
+        "retrieved": "2026-10-29",
+        "copy": "sources/ca59bdd0823dd0cb-ecfr-2026-10-27-title-27-citing.txt",
+        "copy_sha256": "ca59bdd0823dd0cbd8a262c365bec57bfa3b035ef2816f13adc0a41a980eb002",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 27, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "27 CFR 479.34, citing 26 U.S.C. 5142; the U.S. Code gives 26 U.S.C. 5732",
+        "text": ".S.C. Chapter 44, Firearms, ATF Form 7 (5310.12), as specified in § 478.44(a). (26 U.S.C. 5142, 5802, 5846, 6061, 6065, 6151)",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-27.xml",
+        "sha256": "685b8e8636d88221a1633c3f7e76ff129d179aea48e4828e37fb2d54c591ddf8",
+        "retrieved": "2026-10-29",
+        "copy": "sources/ca59bdd0823dd0cb-ecfr-2026-10-27-title-27-citing.txt",
+        "copy_sha256": "ca59bdd0823dd0cbd8a262c365bec57bfa3b035ef2816f13adc0a41a980eb002",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "10 U.S.C. 4684, OLRC release point 119-134, no element carries this number",
+        "text": "Title 10, sections in order: 4662, 4663, 4664, 4701, 4702, 4703",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/9fb66326513bdd9c-olrc-119-134-title-10-records.txt",
+        "copy_sha256": "9fb66326513bdd9c7c061f1ba8c65d0aacc28ef022be09e2de738c52696810d2",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "10 U.S.C. 4686, OLRC release point 119-134, no element carries this number",
+        "text": "Title 10, sections in order: 4662, 4663, 4664, 4701, 4702, 4703",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/9fb66326513bdd9c-olrc-119-134-title-10-records.txt",
+        "copy_sha256": "9fb66326513bdd9c7c061f1ba8c65d0aacc28ef022be09e2de738c52696810d2",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "26 U.S.C. 5143, OLRC release point 119-134, no element carries this number",
+        "text": "Title 26, sections in order: 5124, 5131, 5132, 5171, 5172, 5173",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/0058b67471b98218-olrc-119-134-title-26-records.txt",
+        "copy_sha256": "0058b67471b9821892d810732f6217ad7446402e332667ae148122479bfe6fb8",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "26 U.S.C. 5142, OLRC release point 119-134, no element carries this number",
+        "text": "Title 26, sections in order: 5124, 5131, 5132, 5171, 5172, 5173",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/0058b67471b98218-olrc-119-134-title-26-records.txt",
+        "copy_sha256": "0058b67471b9821892d810732f6217ad7446402e332667ae148122479bfe6fb8",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of Justice",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Justice",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Justice (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

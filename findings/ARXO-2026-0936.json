@@ -1,0 +1,321 @@
+{
+  "id": "ARXO-2026-0936",
+  "url": "https://arxo.io/findings/ARXO-2026-0936/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "5 CFR parts 2610, 2641",
+  "text": {
+    "en": {
+      "title": "Office of Government Ethics: 8 references to former U.S. Code sections or former act names",
+      "summary": "In the CFR chapters assigned to the Office of Government Ethics, 8 references in 5 sections use a former address or name: 6 cite a section replaced by a new one when the title was enacted as positive law; 2 cite a section transferred to another section. Each reference was compared with release point 119-134 of the U.S. Code, which names where the old number went.",
+      "impact": "A reader who follows these references finds a note that the section moved, or no section, instead of the text. A reference to a moved section may keep its legal effect, but the address no longer leads to the text. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the U.S. Code names the section the old number moved to, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 5, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "5 CFR 2610.101, citing 41 U.S.C. 605; the U.S. Code gives 41 U.S.C. 7103",
+        "text": "officer made pursuant to section 6 of the Contracts Disputes Act of 1978 (41 U.S.C. 605) as provided in section 8 of that statute (41 U.S.C. 607).",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-5.xml",
+        "sha256": "45b29ff0f9c4f2678b2624f564c096b9253f991a94582d28c4189657e49b12fd",
+        "retrieved": "2026-10-29",
+        "copy": "sources/2724717084a6cf1d-ecfr-2026-10-27-title-5-citing.txt",
+        "copy_sha256": "2724717084a6cf1daee0ed13aed13f711f4cee602bffee3c848af540908eddfc",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 5, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "5 CFR 2610.101, citing 41 U.S.C. 607; the U.S. Code gives one or more of: 41 U.S.C. 7105; 41 U.S.C. 7106; 41 U.S.C. 7107",
+        "text": "Disputes Act of 1978 (41 U.S.C. 605) as provided in section 8 of that statute (41 U.S.C. 607). (d) Agency counsel means: (1) When the position of the",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-5.xml",
+        "sha256": "45b29ff0f9c4f2678b2624f564c096b9253f991a94582d28c4189657e49b12fd",
+        "retrieved": "2026-10-29",
+        "copy": "sources/2724717084a6cf1d-ecfr-2026-10-27-title-5-citing.txt",
+        "copy_sha256": "2724717084a6cf1daee0ed13aed13f711f4cee602bffee3c848af540908eddfc",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 5, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "5 CFR 2610.104, citing 41 U.S.C. 605; the U.S. Code gives 41 U.S.C. 7103",
+        "text": "Collection Act of 1982, 5 U.S.C. 5514; (2) The Contract Disputes Act of 1978, 41 U.S.C. 605, 607; (3) The Ethics in Government Act of 1978, section",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-5.xml",
+        "sha256": "45b29ff0f9c4f2678b2624f564c096b9253f991a94582d28c4189657e49b12fd",
+        "retrieved": "2026-10-29",
+        "copy": "sources/2724717084a6cf1d-ecfr-2026-10-27-title-5-citing.txt",
+        "copy_sha256": "2724717084a6cf1daee0ed13aed13f711f4cee602bffee3c848af540908eddfc",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 5, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "5 CFR 2610.104, citing 41 U.S.C. 607; the U.S. Code gives one or more of: 41 U.S.C. 7105; 41 U.S.C. 7106; 41 U.S.C. 7107",
+        "text": "Collection Act of 1982, 5 U.S.C. 5514; (2) The Contract Disputes Act of 1978, 41 U.S.C. 605, 607; (3) The Ethics in Government Act of 1978, section",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-5.xml",
+        "sha256": "45b29ff0f9c4f2678b2624f564c096b9253f991a94582d28c4189657e49b12fd",
+        "retrieved": "2026-10-29",
+        "copy": "sources/2724717084a6cf1d-ecfr-2026-10-27-title-5-citing.txt",
+        "copy_sha256": "2724717084a6cf1daee0ed13aed13f711f4cee602bffee3c848af540908eddfc",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 5, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "5 CFR 2610.105, citing 41 U.S.C. 606; the U.S. Code gives 41 U.S.C. 7104",
+        "text": "shall be determined as of the date the applicant filed its appeal under 41 U.S.C. 606. (d) An applicant who owns an unincorporated business will",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-5.xml",
+        "sha256": "45b29ff0f9c4f2678b2624f564c096b9253f991a94582d28c4189657e49b12fd",
+        "retrieved": "2026-10-29",
+        "copy": "sources/2724717084a6cf1d-ecfr-2026-10-27-title-5-citing.txt",
+        "copy_sha256": "2724717084a6cf1daee0ed13aed13f711f4cee602bffee3c848af540908eddfc",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c6",
+        "source": "eCFR Title 5, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "5 CFR 2641.101, citing 41 U.S.C. 423; the U.S. Code gives one or more of: 41 U.S.C. 2101; 41 U.S.C. 2102; 41 U.S.C. 2103; 41 U.S.C. 2104; 41 U.S.C. 2105; 41 U.S.C. 2106; 41 U.S.C. 2107",
+        "text": "than 18 U.S.C. 207. These restrictions include those in 18 U.S.C. 203 and 41 U.S.C. 423(d).",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-5.xml",
+        "sha256": "45b29ff0f9c4f2678b2624f564c096b9253f991a94582d28c4189657e49b12fd",
+        "retrieved": "2026-10-29",
+        "copy": "sources/2724717084a6cf1d-ecfr-2026-10-27-title-5-citing.txt",
+        "copy_sha256": "2724717084a6cf1daee0ed13aed13f711f4cee602bffee3c848af540908eddfc",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c7",
+        "source": "eCFR Title 5, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "5 CFR 2641.301, citing 25 U.S.C. 450i",
+        "text": "in carrying out official duties on behalf of the Panama Canal Authority; (4) 25 U.S.C. 450i(j), permitting a former employee who is carrying out",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-5.xml",
+        "sha256": "45b29ff0f9c4f2678b2624f564c096b9253f991a94582d28c4189657e49b12fd",
+        "retrieved": "2026-10-29",
+        "copy": "sources/2724717084a6cf1d-ecfr-2026-10-27-title-5-citing.txt",
+        "copy_sha256": "2724717084a6cf1daee0ed13aed13f711f4cee602bffee3c848af540908eddfc",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c8",
+        "source": "eCFR Title 5, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "5 CFR 2641.301, citing 50 U.S.C. 405",
+        "text": "arises under laws administered by the Secretary of Veterans Affairs; (6) 50 U.S.C. 405(b), permitting a former part-time member of an advisory",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-5.xml",
+        "sha256": "45b29ff0f9c4f2678b2624f564c096b9253f991a94582d28c4189657e49b12fd",
+        "retrieved": "2026-10-29",
+        "copy": "sources/2724717084a6cf1d-ecfr-2026-10-27-title-5-citing.txt",
+        "copy_sha256": "2724717084a6cf1daee0ed13aed13f711f4cee602bffee3c848af540908eddfc",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 605, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 151, 152, 153, 1101, 1102, 1121",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 607, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 151, 152, 153, 1101, 1102, 1121",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 606, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 151, 152, 153, 1101, 1102, 1121",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 423, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 151, 152, 153, 1101, 1102, 1121",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u5",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "25 U.S.C. 450i, OLRC release point 119-134, element /us/usc/t25/s450i",
+        "text": "§ 450i. Transferred Editorial Notes Codification Section 450i was editorially reclassified as section 5323 of this title.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/a5512583c0fc537b-olrc-119-134-title-25-records.txt",
+        "copy_sha256": "a5512583c0fc537b33bc63771fd35a2fd616207aa195bbbe54e789ead9051c40",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u6",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "50 U.S.C. 405, OLRC release point 119-134, element /us/usc/t50/s405",
+        "text": "§ 405. Transferred Editorial Notes Codification Section 405, comprising section 303 of the National Security Act of 1947, act July 26, 1947, ch. 343, was editorially reclassified as section 3073 of this title.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/a9f0d0d34973f6a6-olrc-119-134-title-50-records.txt",
+        "copy_sha256": "a9f0d0d34973f6a694a408f3869cac514492813a860fc369c56bfc89592519b3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Office of Government Ethics",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Office of Government Ethics",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of Government Ethics (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "ARXO-2026-0712",
+  "url": "https://arxo.io/findings/ARXO-2026-0712/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "21 CFR part 1301",
+  "text": {
+    "en": {
+      "title": "Department of Justice: 1 reference to provisions removed or redesignated by 2026 rules",
+      "summary": "In the CFR chapters assigned to the Department of Justice, 1 reference in 1 section still uses an address that a 2026 final rule changed: 1 cites a paragraph that a 2026 final rule removed or redesignated. Each rule was published in the Federal Register and in effect by October 27, 2026; the eCFR of that date keeps the old address.",
+      "impact": "A reader who follows these references finds no text at the cited address, or text that the rule moved there from another paragraph. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the 2026 rule redesignated the paragraph, the evidence below gives the new designation."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 21, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "21 CFR 1301.24(d), citing 21 CFR 1301.13(e)(1)(ix); now 21 CFR 1301.13(e)(1)(x)",
+        "text": "to the activities authorized under a registration to conduct chemical analysis pursuant to § 1301.13(e)(1)(ix), laboratories of the Administration shall be authorized to manufacture or",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-21.xml",
+        "sha256": "a88d28c597a53d7d6c855d232cf37f5cd0b2d1385f0fe9ae3ca8dfe9842d1f81",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1fb2ac508ba0f1cf-ecfr-2026-10-27-title-21-citing.txt",
+        "copy_sha256": "1fb2ac508ba0f1cf7a70fe35039b9b0773f544a19ff2519c20e31a363ceaf1b0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of Justice",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Justice",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Justice (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

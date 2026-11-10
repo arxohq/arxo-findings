@@ -1,0 +1,7 @@
+Records of United States Code Title 17, OLRC release point 119-134 (usc-119-134/usc17.xml, sha256 76b657e383ccfdedbb5cee5ba7d460295a36299c0dd22d779cd4490a2c05ca1d).
+Each line: the cited number, then the start of the section element that carries it (a single section or a block of sections), or the section numbers of the title in order around the cited number when no element carries it; or a sentence of the title that names the act.
+
+17 U.S.C. 78c: Title 17, sections in order: 101, 102, 103
+17 U.S.C. 78m: Title 17, sections in order: 101, 102, 103
+17 U.S.C. 78o: Title 17, sections in order: 101, 102, 103
+17 U.S.C. 601: [§ 601. Repealed. Pub.

@@ -1,0 +1,207 @@
+{
+  "id": "ARXO-2026-0870",
+  "url": "https://arxo.io/findings/ARXO-2026-0870/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "28 CFR part 1100",
+  "text": {
+    "en": {
+      "title": "Department of Justice and Department of State: 5 references to former U.S. Code sections or former act names",
+      "summary": "In the CFR chapters assigned to the Department of Justice and Department of State, 5 references in 5 sections use a former address or name: 5 cite a section transferred to another section. Each reference was compared with release point 119-134 of the U.S. Code, which names where the old number went.",
+      "impact": "A reader who follows these references finds a note that the section moved, or no section, instead of the text. A reference to a moved section may keep its legal effect, but the address no longer leads to the text. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the U.S. Code names the section the old number moved to, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 28, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "28 CFR 1100.25, citing 42 U.S.C. 10607",
+        "text": "refers to the agency official designated to provide the services described in 42 U.S.C. 10607(a). Section 107(c) means section 107(c) of TVPA, Division A",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-28.xml",
+        "sha256": "54ed565e82b6af1aa8cc7fd34bfb0d0ac5d978c560413a4567c66d85660acbf9",
+        "retrieved": "2026-10-29",
+        "copy": "sources/add9cbce56c43c4f-ecfr-2026-10-27-title-28-citing.txt",
+        "copy_sha256": "add9cbce56c43c4f369ecfbcb41cff793478f95b3d0278968a842dda0bbb31d8",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 28, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "28 CFR 1100.29, citing 42 U.S.C. 10607",
+        "text": "42 U.S.C. 10606, and to provide the protections and services required under 42 U.S.C. 10607 and under the TVPA. (b) Department of State officials.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-28.xml",
+        "sha256": "54ed565e82b6af1aa8cc7fd34bfb0d0ac5d978c560413a4567c66d85660acbf9",
+        "retrieved": "2026-10-29",
+        "copy": "sources/add9cbce56c43c4f-ecfr-2026-10-27-title-28-citing.txt",
+        "copy_sha256": "add9cbce56c43c4f369ecfbcb41cff793478f95b3d0278968a842dda0bbb31d8",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 28, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "28 CFR 1100.31, citing 42 U.S.C. 10607",
+        "text": "with their status as victims of severe forms of trafficking in persons. Under 42 U.S.C. 10607(a), each agency must designate officials who are responsible",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-28.xml",
+        "sha256": "54ed565e82b6af1aa8cc7fd34bfb0d0ac5d978c560413a4567c66d85660acbf9",
+        "retrieved": "2026-10-29",
+        "copy": "sources/add9cbce56c43c4f-ecfr-2026-10-27-title-28-citing.txt",
+        "copy_sha256": "add9cbce56c43c4f369ecfbcb41cff793478f95b3d0278968a842dda0bbb31d8",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 28, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "28 CFR 1100.37, citing 42 U.S.C. 10607",
+        "text": "services and protections, as appropriate, in accordance with the TVPA, 42 U.S.C. 10606 and 10607, and other applicable victim-assistance laws. Specifically,",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-28.xml",
+        "sha256": "54ed565e82b6af1aa8cc7fd34bfb0d0ac5d978c560413a4567c66d85660acbf9",
+        "retrieved": "2026-10-29",
+        "copy": "sources/add9cbce56c43c4f-ecfr-2026-10-27-title-28-citing.txt",
+        "copy_sha256": "add9cbce56c43c4f369ecfbcb41cff793478f95b3d0278968a842dda0bbb31d8",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 28, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "28 CFR part 1100 (Authority), citing 42 U.S.C. 10607",
+        "text": "U.S.C. 552, 552a; 8 U.S.C. 1101, 1103, 1104, 1252; 22 U.S.C. 7101, 7105; 42 U.S.C. 10606 and 10607; and section 107(c) of Public Law 106-386 (114 Stat. 1464,",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-28.xml",
+        "sha256": "54ed565e82b6af1aa8cc7fd34bfb0d0ac5d978c560413a4567c66d85660acbf9",
+        "retrieved": "2026-10-29",
+        "copy": "sources/add9cbce56c43c4f-ecfr-2026-10-27-title-28-citing.txt",
+        "copy_sha256": "add9cbce56c43c4f369ecfbcb41cff793478f95b3d0278968a842dda0bbb31d8",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "42 U.S.C. 10607, OLRC release point 119-134, element /us/usc/t42/s10607",
+        "text": "§ 10607. Transferred Editorial Notes Codification Section 10607 was editorially reclassified as section 20141 of Title 34, Crime Control and Law Enforcement.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/181c271e86bdf9fb-olrc-119-134-title-42-records.txt",
+        "copy_sha256": "181c271e86bdf9fb40082644ce23542bac5aa6857596f18c43d63c281004c1ec",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of Justice",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Department of State",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Justice",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Department of State",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Justice (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of State (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

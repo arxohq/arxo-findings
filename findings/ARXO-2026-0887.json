@@ -1,0 +1,241 @@
+{
+  "id": "ARXO-2026-0887",
+  "url": "https://arxo.io/findings/ARXO-2026-0887/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "49 CFR parts 613, 640, 650, 661, 663",
+  "text": {
+    "en": {
+      "title": "Department of Transportation: 5 references to former U.S. Code sections or former act names (49 CFR, chapter VI, parts 613 to 663)",
+      "summary": "In the CFR chapters assigned to the Department of Transportation in 49 CFR, chapter VI, parts 613 to 663, 5 references in 5 sections use a former address or name: 2 cite a renumbered section; 2 cite a section replaced by a new one when the title was enacted as positive law; 1 cites a repealed section. Each reference was compared with release point 119-134 of the U.S. Code, which names where the old number went.",
+      "impact": "A reader who follows these references finds a note that the section moved, or no section, instead of the text. A reference to a moved section may keep its legal effect, but the address no longer leads to the text. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the U.S. Code names the section the old number moved to, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR 650.3, citing 23 U.S.C. 181-189; the U.S. Code gives 23 U.S.C. 601–609",
+        "text": "53, the Transportation Infrastructure Finance and Innovation Act (TIFIA) (23 U.S.C. 181-189, 601-609), the Railroad Rehabilitation and Improvement Financing",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR 661.7, citing 41 U.S.C. 10a; the U.S. Code gives 41 U.S.C. 8302",
+        "text": "excepted articles, materials, and supplies for the Buy American Act of 1933 (41 U.S.C. 10a-d), as the waivers may be amended from time to time,",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR part 613 (Authority), citing 42 U.S.C. 4233; the U.S. Code gives 31 U.S.C. 6506",
+        "text": "Authority:23 U.S.C. 134, 135, and 217(g); 42 U.S.C. 3334, 4233, 4332, 7410 et seq.; 49 U.S.C. 5303-5306, 5323(k); and 49 CFR 1.91(a) a",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR part 640 (Authority), citing 23 U.S.C. 181-189; the U.S. Code gives 23 U.S.C. 601–609",
+        "text": "Authority:Secs. 1501 et seq., Pub. L. 105-178, 112 Stat. 107, 241, as amended; 23 U.S.C. 181-189 and 315; 49 CFR 1.51.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR part 663 (Authority), citing 49 U.S.C. 1608; the U.S. Code gives 49 U.S.C. 107",
+        "text": "Authority:49 U.S.C. 1608(j); 23 U.S.C. 103(e)(f); Pub. L. 96-184, 93 Stat. 1320; Pub. L",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "23 U.S.C. 181-189, OLRC release point 119-134, element /us/usc/t23/s181...190",
+        "text": "[§§ 181 to 190. Renumbered §§ 601 to 610] Editorial Notes Codification Subchapter II heading \"INFRASTRUCTURE FINANCE\" was struck out and sections 181 to 190, which comprised subchapter II of this chapter, were renumbered sections 601 to 610, respectively, and transferred to follow the analysis of chapter 6 of this title, by Pub. L.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/84891bad2031c894-olrc-119-134-title-23-records.txt",
+        "copy_sha256": "84891bad2031c8949d26d6df67bfff0f89a893183286cb39e7ad32b55f2abaab",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 10a, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 101, 102, 103",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "42 U.S.C. 4233, OLRC release point 119-134, element /us/usc/t42/s4231...4233",
+        "text": "§§ 4231 to 4233. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/181c271e86bdf9fb-olrc-119-134-title-42-records.txt",
+        "copy_sha256": "181c271e86bdf9fb40082644ce23542bac5aa6857596f18c43d63c281004c1ec",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 1608, OLRC release point 119-134, no element carries this number",
+        "text": "Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of Transportation",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Transportation",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Transportation (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

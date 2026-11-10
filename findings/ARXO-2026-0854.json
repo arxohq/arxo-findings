@@ -1,0 +1,209 @@
+{
+  "id": "ARXO-2026-0854",
+  "url": "https://arxo.io/findings/ARXO-2026-0854/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "8 CFR parts 223, 241, 245a, 287, 392",
+  "text": {
+    "en": {
+      "title": "Department of Homeland Security: 5 references to former U.S. Code sections or former act names (8 CFR)",
+      "summary": "In the CFR chapters assigned to the Department of Homeland Security in 8 CFR, 5 references in 5 sections use a former address or name: 4 cite a section transferred to another section; 1 cites a renumbered section. Each reference was compared with release point 119-134 of the U.S. Code, which names where the old number went.",
+      "impact": "A reader who follows these references finds a note that the section moved, or no section, instead of the text. A reference to a moved section may keep its legal effect, but the address no longer leads to the text. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the U.S. Code names the section the old number moved to, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 8, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "8 CFR 245a.2, citing 8 U.S.C. 1251; the U.S. Code gives 8 U.S.C. 1227",
+        "text": "the ground for deportation arises under section 241(a)(2)(A)(iii) of the Act (8 U.S.C. 1251(a)(2)(A)(iii)); (2) If the ground for deportation arises after the",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-8.xml",
+        "sha256": "310210ce5a19bc8bc6dc90c2f107913685d8131ca7ad3461a2d93be910b9defb",
+        "retrieved": "2026-10-29",
+        "copy": "sources/09532063b98f0798-ecfr-2026-10-27-title-8-citing.txt",
+        "copy_sha256": "09532063b98f0798d65adde7c71a8b64e8d2848f89a2cbff5fc1e6e17063d848",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 8, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "8 CFR 392.1, citing 38 U.S.C. 3402; the U.S. Code gives 38 U.S.C. 5902",
+        "text": "of the decedent's next-of-kin; or, (3) A service organization listed in 38 U.S.C. 3402, or chartered by Congress, or State, or other service organ",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-8.xml",
+        "sha256": "310210ce5a19bc8bc6dc90c2f107913685d8131ca7ad3461a2d93be910b9defb",
+        "retrieved": "2026-10-29",
+        "copy": "sources/09532063b98f0798-ecfr-2026-10-27-title-8-citing.txt",
+        "copy_sha256": "09532063b98f0798d65adde7c71a8b64e8d2848f89a2cbff5fc1e6e17063d848",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 8, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "8 CFR part 223 (Authority), citing 8 U.S.C. 1251; the U.S. Code gives 8 U.S.C. 1227",
+        "text": "Authority:8 U.S.C. 1103, 1181, 1182, 1186a, 1203, 1225, 1226, 1227, 1251; Protocol Relating to the Status of Refugees, November 1, 1",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-8.xml",
+        "sha256": "310210ce5a19bc8bc6dc90c2f107913685d8131ca7ad3461a2d93be910b9defb",
+        "retrieved": "2026-10-29",
+        "copy": "sources/09532063b98f0798-ecfr-2026-10-27-title-8-citing.txt",
+        "copy_sha256": "09532063b98f0798d65adde7c71a8b64e8d2848f89a2cbff5fc1e6e17063d848",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 8, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "8 CFR part 241 (Authority), citing 8 U.S.C. 1251; the U.S. Code gives 8 U.S.C. 1227",
+        "text": "Authority:5 U.S.C. 301, 552, 552a; 8 U.S.C. 1103, 1182, 1223, 1224, 1225, 1226, 1227, 1228, 1231, 1251, 1253, 1255, 1330, 1362; 18 U.S.C. 4002, 4013(c)(4); Pub. L. 107-296, 116 Stat.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-8.xml",
+        "sha256": "310210ce5a19bc8bc6dc90c2f107913685d8131ca7ad3461a2d93be910b9defb",
+        "retrieved": "2026-10-29",
+        "copy": "sources/09532063b98f0798-ecfr-2026-10-27-title-8-citing.txt",
+        "copy_sha256": "09532063b98f0798d65adde7c71a8b64e8d2848f89a2cbff5fc1e6e17063d848",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 8, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "8 CFR part 287 (Authority), citing 8 U.S.C. 1251; the U.S. Code gives 8 U.S.C. 1227",
+        "text": "Authority:8 U.S.C. 1103, 1182, 1225, 1226, 1251, 1252, 1357; Homeland Security Act of 2002, Pub. L. 107-296 (6 U.S.C. 1",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-8.xml",
+        "sha256": "310210ce5a19bc8bc6dc90c2f107913685d8131ca7ad3461a2d93be910b9defb",
+        "retrieved": "2026-10-29",
+        "copy": "sources/09532063b98f0798-ecfr-2026-10-27-title-8-citing.txt",
+        "copy_sha256": "09532063b98f0798d65adde7c71a8b64e8d2848f89a2cbff5fc1e6e17063d848",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "8 U.S.C. 1251, OLRC release point 119-134, element /us/usc/t8/s1251",
+        "text": "§ 1251. Transferred Editorial Notes Codification Section 1251, act June 27, 1952, ch. 477, title II, ch.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/fb52e5eb6c3f6fed-olrc-119-134-title-8-records.txt",
+        "copy_sha256": "fb52e5eb6c3f6fed5b2a985559e80c8e898f6132a21be05520b75aecc82f8221",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "38 U.S.C. 3402, OLRC release point 119-134, no element carries this number",
+        "text": "Title 38, sections in order: 3325, 3326, 3327, 3451, 3452, 3461",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/70318ef7af627719-olrc-119-134-title-38-records.txt",
+        "copy_sha256": "70318ef7af627719515c9f9614284d1bfbd6443de5f3c531f5dc4befc7449345",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of Homeland Security",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Homeland Security",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Homeland Security (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

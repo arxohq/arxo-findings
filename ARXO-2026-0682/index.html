@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARXO-2026-0682: Department of Energy: 6 references with a wrong U.S. Code section or act name</title>
+<meta name="description" content="In the CFR chapters assigned to the Department of Energy, 6 references in 6 sections cite the U.S. Code or an act with an error: 1 names a U.S. Code section that is not part of the act named next to it; 5 name an act differently from the U.S. Code. Each reference was compared with release point 119-">
+<link rel="canonical" href="https://arxo.io/findings/ARXO-2026-0682/">
+<link rel="alternate" type="application/atom+xml" title="Arxo Findings Register" href="../feed.atom">
+<style>
+@font-face{font-family:"IBM Plex Sans";font-style:normal;font-weight:100 700;font-display:swap;src:url("/fonts/ibm-plex-sans-latin-wght-normal.woff2") format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:400;font-display:swap;src:url("/fonts/ibm-plex-mono-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"IBM Plex Serif";font-style:normal;font-weight:400;font-display:swap;src:url("/fonts/ibm-plex-serif-latin-400-normal.woff2") format("woff2")}
+:root{color-scheme:light;--bg:#ffffff;--paper:#ffffff;--wash:#f5f5f5;--ink:#111111;--soft:#3d3d3d;--muted:#737373;--line:#ebebeb;--rule:#dcdcdc;
+--accent:#111111;--pencil:#c2412d;--reported:#737373;--accepted:#111111;--disagrees:#3d3d3d;--note:#111111;--corrected:#111111;--withdrawn:#c2412d;
+--code:#f5f5f5;--mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+--serif:"IBM Plex Serif","Iowan Old Style",Georgia,serif;
+--sans:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+::selection{background:#fbe3de}
+a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:.24em;text-decoration-color:var(--rule)}a:hover{text-decoration-color:currentColor}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header.site{border-bottom:1px solid var(--line);background:var(--paper)}
+header.site .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;justify-content:space-between;padding-top:18px;padding-bottom:16px}
+.brand{font:500 15px/1.2 var(--sans);letter-spacing:-.01em;text-decoration:none;color:var(--ink)}
+.brand span{color:var(--muted);font-weight:400}
+nav.site a{margin-right:18px;font-size:14px;color:var(--muted);text-decoration:none}nav.site a:hover{color:var(--ink)}
+h1,h2,h3{font-family:var(--sans);font-weight:350;line-height:1.15;letter-spacing:-.03em;margin:1.6em 0 .5em}
+h1{font-size:clamp(34px,5vw,56px);font-weight:300;letter-spacing:-.04em;margin-top:1em}
+h2{font-size:24px;border-bottom:1px solid var(--line);padding-bottom:8px}
+h3{font-size:18px;font-weight:450;letter-spacing:-.01em}
+p.lede{font-size:18px;color:var(--soft);max-width:760px;margin-top:0}
+.rule{background:var(--paper);border-left:1px dashed var(--pencil);padding:2px 0 2px 18px;margin:24px 0;max-width:820px;color:var(--soft)}
+.mono,code{font-family:var(--mono);font-size:.9em}
+code{background:var(--code);padding:1px 4px;border-radius:3px;word-break:break-all}
+.badge{display:inline-flex;align-items:center;gap:7px;font:450 13px/1 var(--sans);white-space:nowrap}
+.badge::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;flex:none}
+.b-reported{color:var(--reported)}.b-accepted{color:var(--accepted)}.b-disagrees{color:var(--disagrees)}
+.b-note_added{color:var(--note)}.b-corrected,.b-corrected_before_report{color:var(--corrected)}.b-withdrawn{color:var(--withdrawn)}
+.b-accepted,.b-note_added,.b-corrected,.b-corrected_before_report{font-weight:560}
+.filters{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0 10px}
+.filters label{display:flex;flex-direction:column;font-size:12px;color:var(--muted);gap:4px}
+.filters select,.filters input{font:14px var(--sans);padding:7px 12px;border:1px solid var(--rule);border-radius:999px;background:var(--paper);color:var(--ink);min-width:150px}
+.filters input{min-width:220px}
+.count{font-size:13px;color:var(--muted);margin:8px 0 12px}
+.ledger{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink)}
+.ledger li{display:grid;grid-template-columns:130px 1fr 200px;gap:4px 20px;padding:14px 4px;border-bottom:1px solid var(--line)}
+.ledger li:hover{background:var(--wash)}
+.ledger li[hidden]{display:none}
+.ledger .id{font-family:var(--mono);font-size:13px}.ledger .id a{text-decoration:none;color:var(--muted)}
+.ledger .what a{color:var(--ink);text-decoration:none;font-weight:450}.ledger .what a:hover{text-decoration:underline;text-decoration-color:var(--rule)}
+.ledger .meta{font-size:13px;color:var(--muted);margin-top:3px}
+.ledger .st{text-align:right}.ledger .st .when{display:block;font-size:12px;color:var(--muted);margin-top:5px}
+@media (max-width:720px){.ledger li{grid-template-columns:1fr}.ledger .st{text-align:left}}
+table.grid{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0}
+table.grid th,table.grid td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+table.grid th{font-weight:450;color:var(--muted);font-size:12px}
+.scroll{overflow-x:auto}
+dl.facts{display:grid;grid-template-columns:170px 1fr;gap:8px 18px;margin:14px 0;font-size:15px}
+dl.facts dt{color:var(--muted)}dl.facts dd{margin:0}
+@media (max-width:600px){dl.facts{grid-template-columns:1fr}dl.facts dt{margin-top:6px}}
+blockquote.q{margin:14px 0;padding:4px 0 4px 20px;border-left:1px dashed var(--pencil);font-family:var(--serif);font-size:19px;line-height:1.45}
+.qmeta{font-size:13px;color:var(--muted);margin:6px 0 18px;overflow-wrap:anywhere}
+.tr{font-size:14px;color:var(--muted);margin:6px 0 0;font-family:var(--sans)}
+ol.history{list-style:none;padding:0;margin:10px 0;border-left:1px solid var(--line)}
+ol.history li{padding:4px 0 10px 16px;position:relative;font-size:15px}
+ol.history li::before{content:"";position:absolute;left:-3px;top:12px;width:5px;height:5px;border-radius:50%;background:var(--muted)}
+ol.history .d{font-family:var(--mono);font-size:13px;color:var(--muted);margin-right:8px}
+.alt{border-top:1px dashed var(--rule);margin-top:28px;padding-top:4px}
+.headline .id{font-family:var(--mono);color:var(--muted);font-size:14px}
+footer.site{margin:56px 0 0;border-top:1px solid var(--line);padding:20px 0 44px;font-size:13px;color:var(--muted)}
+.empty{padding:20px 4px;color:var(--muted)}
+</style>
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "Report",
+ "identifier": "ARXO-2026-0682",
+ "url": "https://arxo.io/findings/ARXO-2026-0682/",
+ "headline": "Department of Energy: 6 references with a wrong U.S. Code section or act name",
+ "name": "Department of Energy: 6 references with a wrong U.S. Code section or act name",
+ "description": "In the CFR chapters assigned to the Department of Energy, 6 references in 6 sections cite the U.S. Code or an act with an error: 1 names a U.S. Code section that is not part of the act named next to it; 5 name an act differently from the U.S. Code. Each reference was compared with release point 119-134 of the U.S. Code published by the Office of the Law Revision Counsel.",
+ "inLanguage": "en",
+ "about": [
+  {
+   "@type": "Legislation",
+   "name": "Code of Federal Regulations",
+   "legislationJurisdiction": "US"
+  }
+ ],
+ "citation": [
+  {
+   "@type": "MediaObject",
+   "name": "eCFR Title 10, up to date as of October 27, 2026",
+   "contentUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-10.xml",
+   "sha256": "c7e3557556804cef758b9fae378471e2f467cdf9332cf71f3756744c875d9e0f"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "eCFR Title 41, up to date as of October 27, 2026",
+   "contentUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-41.xml",
+   "sha256": "1139cd88c0df8eee4058d83a960808d586c0c7d5667837811594b56529b4c040"
+  },
+  {
+   "@type": "MediaObject",
+   "name": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+   "contentUrl": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+   "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae"
+  }
+ ],
+ "publisher": {
+  "@type": "Organization",
+  "name": "Arxo Law",
+  "url": "https://arxo.io"
+ },
+ "isPartOf": {
+  "@type": "Dataset",
+  "name": "Arxo Findings Register",
+  "url": "https://arxo.io/findings/"
+ },
+ "dateModified": "2026-11-10",
+ "creativeWorkStatus": "Reported",
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+ "datePublished": "2026-11-10"
+}</script>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a class="brand" href="../index.html">Arxo Findings Register <span>· Arxo Law</span></a>
+<nav class="site"><a href="../index.html">Register</a><a href="../policy/index.html">Principles</a><a href="../method/index.html">Method</a><a href="../register.json">Data</a><a href="../feed.atom">Feed</a></nav>
+</div></header>
+<main class="wrap">
+
+<div class="headline"><p class="id">ARXO-2026-0682 · <span class="badge b-reported">Reported</span></p>
+<h1>Department of Energy: 6 references with a wrong U.S. Code section or act name</h1></div>
+
+
+<p>In the CFR chapters assigned to the Department of Energy, 6 references in 6 sections cite the U.S. Code or an act with an error: 1 names a U.S. Code section that is not part of the act named next to it; 5 name an act differently from the U.S. Code. Each reference was compared with release point 119-134 of the U.S. Code published by the Office of the Law Revision Counsel.</p><h3>Consequence</h3><p>A reader who follows these references reaches a different section or looks for an act under a name the U.S. Code does not use. No effect on a decision or an amount has been established.</p><h3>Proposed correction</h3><p>The agency decides how to correct each reference. Where the U.S. Code shows the section or the name intended, the evidence below gives it.</p>
+<dl class="facts"><dt>Jurisdiction</dt><dd>United States — federal</dd><dt>Act</dt><dd>Code of Federal Regulations</dd><dt>Place</dt><dd>10 CFR parts 501, 601, 810; 41 CFR part 109</dd><dt>Record</dt><dd>Discrepancy</dd><dt>Class</dt><dd>Text of the act</dd><dt>Where it arose</dt><dd>The text of the act</dd><dt>Arxo&#x27;s conclusion</dt><dd>Confirmed</dd><dt>Official text</dt><dd>Unchanged at last check</dd><dt>Last checked</dt><dd>2026-10-27</dd></dl>
+<h2>Evidence</h2>
+<p>Contradiction within the text. Quotations are verbatim from the official material; translations are ours and marked.</p>
+<blockquote class="q" lang="en">L. 93-319, as amended by Pub. L. 94-163, Pub. L. 95-70, and Pub. L. 95-620, 15 U.S.C. 719 et seq.; Powerplant and Industrial Fuel Use Act of 1978,</blockquote><div class="qmeta">Consolidation · <a href="https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-10.xml">eCFR Title 10, up to date as of October 27, 2026</a> · 10 CFR 501.52, citing 15 U.S.C. 719; the U.S. Code gives 15 U.S.C. 791 · eCFR of 2026-10-27 · retrieved 2026-10-29 · SHA-256 <code>c7e3557556804cef758b9fae378471e2f467cdf9332cf71f3756744c875d9e0f</code> · <a href="../sources/668fdf4eeb499afb-ecfr-2026-10-27-title-10-citing.txt">copy</a></div><blockquote class="q" lang="en">pursuant to the provisions of the Program Fraud and Civil Remedies Act, 31 U.S.C. 3803 (except subsection (c)), 3804, 3805, 3806, 3807, 3808, and</blockquote><div class="qmeta">Consolidation · <a href="https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-10.xml">eCFR Title 10, up to date as of October 27, 2026</a> · 10 CFR 601.405, citing &quot;Program Fraud and Civil Remedies Act&quot; (31 U.S.C. 3803); the U.S. Code gives Program Fraud Civil Remedies Act of 1986 · eCFR of 2026-10-27 · retrieved 2026-10-29 · SHA-256 <code>c7e3557556804cef758b9fae378471e2f467cdf9332cf71f3756744c875d9e0f</code> · <a href="../sources/668fdf4eeb499afb-ecfr-2026-10-27-title-10-citing.txt">copy</a></div><blockquote class="q" lang="en">or is a protected individual under the Immigration and Naturalization Act (8 U.S.C. 1324b(a)(3)). (d) Persons under U.S. jurisdiction are responsible for</blockquote><div class="qmeta">Consolidation · <a href="https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-10.xml">eCFR Title 10, up to date as of October 27, 2026</a> · 10 CFR 810.2, citing &quot;Immigration and Naturalization Act&quot; (8 U.S.C. 1324b); the U.S. Code gives Immigration and Nationality Act · eCFR of 2026-10-27 · retrieved 2026-10-29 · SHA-256 <code>c7e3557556804cef758b9fae378471e2f467cdf9332cf71f3756744c875d9e0f</code> · <a href="../sources/668fdf4eeb499afb-ecfr-2026-10-27-title-10-citing.txt">copy</a></div><blockquote class="q" lang="en">and protected individuals under the Immigration and Naturalization Act (8 U.S.C. 1324b(a)(3)). Fundamental research means basic and applied research</blockquote><div class="qmeta">Consolidation · <a href="https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-10.xml">eCFR Title 10, up to date as of October 27, 2026</a> · 10 CFR 810.3, citing &quot;Immigration and Naturalization Act&quot; (8 U.S.C. 1324b); the U.S. Code gives Immigration and Nationality Act · eCFR of 2026-10-27 · retrieved 2026-10-29 · SHA-256 <code>c7e3557556804cef758b9fae378471e2f467cdf9332cf71f3756744c875d9e0f</code> · <a href="../sources/668fdf4eeb499afb-ecfr-2026-10-27-title-10-citing.txt">copy</a></div><blockquote class="q" lang="en">or protected individuals under the Immigration and Naturalization Act (8 U.S.C. 1324b(a)(3)): (1) Uranium isotope separation (uranium enrichment),</blockquote><div class="qmeta">Consolidation · <a href="https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-10.xml">eCFR Title 10, up to date as of October 27, 2026</a> · 10 CFR 810.7, citing &quot;Immigration and Naturalization Act&quot; (8 U.S.C. 1324b); the U.S. Code gives Immigration and Nationality Act · eCFR of 2026-10-27 · retrieved 2026-10-29 · SHA-256 <code>c7e3557556804cef758b9fae378471e2f467cdf9332cf71f3756744c875d9e0f</code> · <a href="../sources/668fdf4eeb499afb-ecfr-2026-10-27-title-10-citing.txt">copy</a></div><blockquote class="q" lang="en">Act; Pub. L. 102-245, American Technologies Preeminence Act of 1991 (15 U.S.C. 3701); Office of Science Financial Assistance Program (10 CFR pa</blockquote><div class="qmeta">Consolidation · <a href="https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-41.xml">eCFR Title 41, up to date as of October 27, 2026</a> · 41 CFR part 109-50 (Authority), citing &quot;American Technologies Preeminence Act of 1991&quot; (15 U.S.C. 3701); the U.S. Code gives American Technology Preeminence Act of 1991 · eCFR of 2026-10-27 · retrieved 2026-10-29 · SHA-256 <code>1139cd88c0df8eee4058d83a960808d586c0c7d5667837811594b56529b4c040</code> · <a href="../sources/1d8c64c5ba75d6ae-ecfr-2026-10-27-title-41-citing.txt">copy</a></div><blockquote class="q" lang="en">§ 719. Congressional findings The Congress finds and declares that-(1) a natural gas supply shortage exists in the contiguous States of the United States; (2) large reserves of natural gas in the State of Alaska could help significantly to alleviate this supply shortage; (3) the expeditious construc</blockquote><div class="qmeta">Consolidation · <a href="https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip">United States Code, release point 119-134 of the Office of the Law Revision Counsel</a> · 15 U.S.C. 719, OLRC release point 119-134, element /us/usc/t15/s719 · OLRC release point 119-134 · SHA-256 <code>89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae</code> · <a href="../sources/cc58c62d553ea135-olrc-119-134-title-15-records.txt">copy</a></div><blockquote class="q" lang="en">§ 791. Congressional declaration of purpose The purposes of this chapter are (1) to provide for a means to assist in meeting the essential needs of the United States for fuels, in a manner which is consistent, to the fullest extent practicable, with existing national commitments to protect and impro</blockquote><div class="qmeta">Consolidation · <a href="https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip">United States Code, release point 119-134 of the Office of the Law Revision Counsel</a> · 15 U.S.C. 791, OLRC release point 119-134, element /us/usc/t15/s791 · OLRC release point 119-134 · SHA-256 <code>89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae</code> · <a href="../sources/cc58c62d553ea135-olrc-119-134-title-15-records.txt">copy</a></div><blockquote class="q" lang="en">§ 3803. Hearing and determinations(a)(1) The investigating official of an authority may investigate allegations that a person is liable under section 3802 of this title and shall report the findings and conclusions of such investigation to the reviewing official of the authority. The preceding sente</blockquote><div class="qmeta">Consolidation · <a href="https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip">United States Code, release point 119-134 of the Office of the Law Revision Counsel</a> · 31 U.S.C. 3803, OLRC release point 119-134, element /us/usc/t31/s3803 · OLRC release point 119-134 · SHA-256 <code>89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae</code> · <a href="../sources/1ab28e8edfd99046-olrc-119-134-title-31-records.txt">copy</a></div><blockquote class="q" lang="en">2440, provided that: &quot;Any reference to the Program Fraud Civil Remedies Act of 1986 in any provision of law, regulation, map, document, record, or other paper of the United States shall be deemed a reference to the Administrative False Claims Act [see Short Title note below].</blockquote><div class="qmeta">Consolidation · <a href="https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip">United States Code, release point 119-134 of the Office of the Law Revision Counsel</a> · /us/usc/t31/s3801, OLRC release point 119-134: name of the act · OLRC release point 119-134 · SHA-256 <code>89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae</code> · <a href="../sources/1ab28e8edfd99046-olrc-119-134-title-31-records.txt">copy</a></div><blockquote class="q" lang="en">§ 1324b. Unfair immigration-related employment practices(a) Prohibition of discrimination based on national origin or citizenship status(1) General ruleIt is an unfair immigration-related employment practice for a person or other entity to discriminate against any individual (other than an unauthori</blockquote><div class="qmeta">Consolidation · <a href="https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip">United States Code, release point 119-134 of the Office of the Law Revision Counsel</a> · 8 U.S.C. 1324b, OLRC release point 119-134, element /us/usc/t8/s1324b · OLRC release point 119-134 · SHA-256 <code>89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae</code> · <a href="../sources/fb52e5eb6c3f6fed-olrc-119-134-title-8-records.txt">copy</a></div><blockquote class="q" lang="en">163, known as the Immigration and Nationality Act, which is classified principally to this chapter.</blockquote><div class="qmeta">Consolidation · <a href="https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip">United States Code, release point 119-134 of the Office of the Law Revision Counsel</a> · /us/usc/t8/s1101, OLRC release point 119-134: name of the act · OLRC release point 119-134 · SHA-256 <code>89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae</code> · <a href="../sources/fb52e5eb6c3f6fed-olrc-119-134-title-8-records.txt">copy</a></div><blockquote class="q" lang="en">§ 3701. Findings The Congress finds and declares that:(1) Technology and industrial innovation are central to the economic, environmental, and social well-being of citizens of the United States. (2) Technology and industrial innovation offer an improved standard of living, increased public and priva</blockquote><div class="qmeta">Consolidation · <a href="https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip">United States Code, release point 119-134 of the Office of the Law Revision Counsel</a> · 15 U.S.C. 3701, OLRC release point 119-134, element /us/usc/t15/s3701 · OLRC release point 119-134 · SHA-256 <code>89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae</code> · <a href="../sources/cc58c62d553ea135-olrc-119-134-title-15-records.txt">copy</a></div><blockquote class="q" lang="en">e 42, enacting provisions set out as notes under this section, sections 271, 278f, 278n, and 1453 of this title, and section 6611 of Title 42, and amending provisions set out as a note under section 278l of this title] may be cited as the ‘American Technology Preeminence Act of 1991&#x27;.</blockquote><div class="qmeta">Consolidation · <a href="https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip">United States Code, release point 119-134 of the Office of the Law Revision Counsel</a> · /us/usc/t15/s3701, OLRC release point 119-134: name of the act · OLRC release point 119-134 · SHA-256 <code>89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae</code> · <a href="../sources/cc58c62d553ea135-olrc-119-134-title-15-records.txt">copy</a></div>
+
+<h2>How to check it without Arxo's tools</h2>
+<ol><li>Open <a href="https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-10.xml">eCFR Title 10, up to date as of October 27, 2026</a> and find 10 CFR 501.52, citing 15 U.S.C. 719; the U.S. Code gives 15 U.S.C. 791; 10 CFR 601.405, citing &quot;Program Fraud and Civil Remedies Act&quot; (31 U.S.C. 3803); the U.S. Code gives Program Fraud Civil Remedies Act of 1986; 10 CFR 810.2, citing &quot;Immigration and Naturalization Act&quot; (8 U.S.C. 1324b); the U.S. Code gives Immigration and Nationality Act; 10 CFR 810.3, citing &quot;Immigration and Naturalization Act&quot; (8 U.S.C. 1324b); the U.S. Code gives Immigration and Nationality Act; 10 CFR 810.7, citing &quot;Immigration and Naturalization Act&quot; (8 U.S.C. 1324b); the U.S. Code gives Immigration and Nationality Act. Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/668fdf4eeb499afb-ecfr-2026-10-27-title-10-citing.txt">668fdf4eeb499afb-ecfr-2026-10-27-title-10-citing.txt</a> (SHA-256 <code>668fdf4eeb499afb068b106e8fe8a2f261ad8128efd6b50061e6790d425e8e5b</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-41.xml">eCFR Title 41, up to date as of October 27, 2026</a> and find 41 CFR part 109-50 (Authority), citing &quot;American Technologies Preeminence Act of 1991&quot; (15 U.S.C. 3701); the U.S. Code gives American Technology Preeminence Act of 1991. Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/1d8c64c5ba75d6ae-ecfr-2026-10-27-title-41-citing.txt">1d8c64c5ba75d6ae-ecfr-2026-10-27-title-41-citing.txt</a> (SHA-256 <code>1d8c64c5ba75d6aed0d92d7b7ca94bab8520b81750f23e5ad9cccf54739ef350</code>, text extracted from the official source, as used to check the quotation).</li><li>Open <a href="https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip">United States Code, release point 119-134 of the Office of the Law Revision Counsel</a> and find 15 U.S.C. 719, OLRC release point 119-134, element /us/usc/t15/s719; 15 U.S.C. 791, OLRC release point 119-134, element /us/usc/t15/s791; 31 U.S.C. 3803, OLRC release point 119-134, element /us/usc/t31/s3803; /us/usc/t31/s3801, OLRC release point 119-134: name of the act; 8 U.S.C. 1324b, OLRC release point 119-134, element /us/usc/t8/s1324b; /us/usc/t8/s1101, OLRC release point 119-134: name of the act; 15 U.S.C. 3701, OLRC release point 119-134, element /us/usc/t15/s3701; /us/usc/t15/s3701, OLRC release point 119-134: name of the act. Compare the text with the quotation above. A copy is kept in this register: <a href="../sources/cc58c62d553ea135-olrc-119-134-title-15-records.txt">cc58c62d553ea135-olrc-119-134-title-15-records.txt</a> (SHA-256 <code>cc58c62d553ea1356385f785c803fa222b4c67e2dd8b58ec5b97a82cfa89bada</code>, text extracted from the official source, as used to check the quotation), <a href="../sources/1ab28e8edfd99046-olrc-119-134-title-31-records.txt">1ab28e8edfd99046-olrc-119-134-title-31-records.txt</a> (SHA-256 <code>1ab28e8edfd990460666093c463424a2e53997caf909d9d560d2d78be1bbc666</code>, text extracted from the official source, as used to check the quotation), <a href="../sources/fb52e5eb6c3f6fed-olrc-119-134-title-8-records.txt">fb52e5eb6c3f6fed-olrc-119-134-title-8-records.txt</a> (SHA-256 <code>fb52e5eb6c3f6fed5b2a985559e80c8e898f6132a21be05520b75aecc82f8221</code>, text extracted from the official source, as used to check the quotation).</li><li>The finding holds if the quoted passages read as shown and the comparison gives the result stated at the top of this page. If it does not, write to us with the record ID.</li></ol>
+<h2>How this finding was made</h2>
+<p>AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time.</p>
+
+<h2>Responsible institutions</h2><ul><li>Department of Energy — issues the rules that carry these references</li><li>Office of the Federal Register — publishes the CFR and the eCFR</li></ul>
+<h2>Reported to</h2>
+<div class="scroll"><table class="grid"><thead><tr><th>Date</th><th>Institution</th><th>Channel</th><th>Reference</th></tr></thead><tbody><tr><td class="mono">2026-11-09</td><td>Department of Energy</td><td>e-mail</td><td class="mono"></td></tr><tr><td class="mono">2026-11-09</td><td>Office of the Federal Register</td><td>e-mail</td><td class="mono"></td></tr></tbody></table></div>
+<h2>Responses</h2>
+<p>No response recorded.</p>
+
+
+<h2>History</h2>
+<ol class="history"><li><span class="d">2026-11-09</span>Reported to Department of Energy (e-mail)</li><li><span class="d">2026-11-09</span>Reported to Office of the Federal Register (e-mail)</li><li><span class="d">2026-11-10</span>Confirmed by Arxo</li><li><span class="d">2026-11-10</span>Entered in the register</li></ol>
+
+<h2>Cite this record</h2>
+<p>Arxo Law, Arxo Findings Register, ARXO-2026-0682, https://arxo.io/findings/ARXO-2026-0682/ (status as of 2026-10-27). Data: <a href="../findings/ARXO-2026-0682.json">ARXO-2026-0682.json</a>.</p>
+
+</main>
+<footer class="site"><div class="wrap">
+Published by Arxo Law. Data under CC BY 4.0: <a href="../register.json">register.json</a> · <a href="../findings.csv">findings.csv</a> · <a href="../SHA256SUMS">SHA256SUMS</a>.
+Objections, reports of our own mistakes and requests for verification: <a href="mailto:hi@arxo.io">hi@arxo.io</a> — give the record ID, the conclusion you dispute and your source. We acknowledge receipt within five working days and answer on the merits within ten.
+<a href="../policy/index.html">Responsible Disclosure of Defects in Law</a>. Arxo executes the canon.
+</div></footer>
+</body>
+</html>

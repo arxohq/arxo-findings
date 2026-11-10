@@ -1,0 +1,209 @@
+{
+  "id": "ARXO-2026-0713",
+  "url": "https://arxo.io/findings/ARXO-2026-0713/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "29 CFR part 2590",
+  "text": {
+    "en": {
+      "title": "Department of Labor: 7 references to provisions removed or redesignated by 2026 rules",
+      "summary": "In the CFR chapters assigned to the Department of Labor, 7 references in 2 sections still use an address that a 2026 final rule changed: 7 cite a paragraph that a 2026 final rule removed or redesignated. Each rule was published in the Federal Register and in effect by October 27, 2026; the eCFR of that date keeps the old address.",
+      "impact": "A reader who follows these references finds no text at the cited address, or text that the rule moved there from another paragraph. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the 2026 rule redesignated the paragraph, the evidence below gives the new designation."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 29, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "29 CFR 2590.716-8(e)(2)(i), citing 29 CFR 2590.716-8(c)(4)(ii); now 29 CFR 2590.716-8(c)(5)(ii)",
+        "text": "payment determinations described in paragraph (c) of this section within the time prescribed in paragraph (c)(4)(ii) of this section.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-29.xml",
+        "sha256": "cf4b36bfb10504beedb246e95a94a02951731a236696a9be3194eedbc8e71817",
+        "retrieved": "2026-10-29",
+        "copy": "sources/dd25fcc26cd6ad4b-ecfr-2026-10-27-title-29-citing.txt",
+        "copy_sha256": "dd25fcc26cd6ad4bcb3a9af5cda4bbaee5b659b49d19dd94d01e9d020406ea51",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 29, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "29 CFR 2590.716-8(f)(1)(iii), citing 29 CFR 2590.716-8(c)(4)(ii); now 29 CFR 2590.716-8(c)(5)(ii)",
+        "text": ") The number of such notices of IDR initiation with respect to which a determination was made under paragraph (c)(4)(ii) of this section;",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-29.xml",
+        "sha256": "cf4b36bfb10504beedb246e95a94a02951731a236696a9be3194eedbc8e71817",
+        "retrieved": "2026-10-29",
+        "copy": "sources/dd25fcc26cd6ad4b-ecfr-2026-10-27-title-29-citing.txt",
+        "copy_sha256": "dd25fcc26cd6ad4bcb3a9af5cda4bbaee5b659b49d19dd94d01e9d020406ea51",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 29, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "29 CFR 2590.716-8(f)(1)(v)(C), citing 29 CFR 2590.716-8(c)(4)(i); now 29 CFR 2590.716-8(c)(5)(i)",
+        "text": "(C) The amount of the offer submitted under paragraph (c)(4)(i) of this section by the plan or issuer (as applicable) and by the provider or facility (as",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-29.xml",
+        "sha256": "cf4b36bfb10504beedb246e95a94a02951731a236696a9be3194eedbc8e71817",
+        "retrieved": "2026-10-29",
+        "copy": "sources/dd25fcc26cd6ad4b-ecfr-2026-10-27-title-29-citing.txt",
+        "copy_sha256": "dd25fcc26cd6ad4bcb3a9af5cda4bbaee5b659b49d19dd94d01e9d020406ea51",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 29, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "29 CFR 2590.716-8(f)(1)(v)(D), citing 29 CFR 2590.716-8(c)(4); now 29 CFR 2590.716-8(c)(5)",
+        "text": "(D) Whether the offer selected by the certified IDR entity under paragraph (c)(4) of this section was the offer submitted by the plan or issuer (as applicable) or by the",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-29.xml",
+        "sha256": "cf4b36bfb10504beedb246e95a94a02951731a236696a9be3194eedbc8e71817",
+        "retrieved": "2026-10-29",
+        "copy": "sources/dd25fcc26cd6ad4b-ecfr-2026-10-27-title-29-citing.txt",
+        "copy_sha256": "dd25fcc26cd6ad4bcb3a9af5cda4bbaee5b659b49d19dd94d01e9d020406ea51",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 29, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "29 CFR 2590.717-2(b)(4)(ii), citing 29 CFR 2590.716-8(c)(4)(ii); now 29 CFR 2590.716-8(c)(5)(ii)",
+        "text": "of such notices of IDR initiation with respect to which a final determination was made under § 2590.716-8(c)(4)(ii) of this part (as applied by paragraph (b)(1) of this section);",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-29.xml",
+        "sha256": "cf4b36bfb10504beedb246e95a94a02951731a236696a9be3194eedbc8e71817",
+        "retrieved": "2026-10-29",
+        "copy": "sources/dd25fcc26cd6ad4b-ecfr-2026-10-27-title-29-citing.txt",
+        "copy_sha256": "dd25fcc26cd6ad4bcb3a9af5cda4bbaee5b659b49d19dd94d01e9d020406ea51",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c6",
+        "source": "eCFR Title 29, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "29 CFR 2590.717-2(b)(4)(iv)(C), citing 29 CFR 2590.716-8(c)(4)(i); now 29 CFR 2590.716-8(c)(5)(i)",
+        "text": "(C) The amount of the offers submitted under § 2590.716-8(c)(4)(i) (as applied by paragraph (b)(1) of this section) by the group health plan or he",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-29.xml",
+        "sha256": "cf4b36bfb10504beedb246e95a94a02951731a236696a9be3194eedbc8e71817",
+        "retrieved": "2026-10-29",
+        "copy": "sources/dd25fcc26cd6ad4b-ecfr-2026-10-27-title-29-citing.txt",
+        "copy_sha256": "dd25fcc26cd6ad4bcb3a9af5cda4bbaee5b659b49d19dd94d01e9d020406ea51",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c7",
+        "source": "eCFR Title 29, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "29 CFR 2590.717-2(b)(4)(iv)(D), citing 29 CFR 2590.716-8(c)(4)(ii); now 29 CFR 2590.716-8(c)(5)(ii)",
+        "text": "(D) Whether the offer selected by the certified IDR entity under § 2590.716-8(c)(4)(ii) of this part (as applied by paragraph (b)(1) of this section) to be the",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-29.xml",
+        "sha256": "cf4b36bfb10504beedb246e95a94a02951731a236696a9be3194eedbc8e71817",
+        "retrieved": "2026-10-29",
+        "copy": "sources/dd25fcc26cd6ad4b-ecfr-2026-10-27-title-29-citing.txt",
+        "copy_sha256": "dd25fcc26cd6ad4bcb3a9af5cda4bbaee5b659b49d19dd94d01e9d020406ea51",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of Labor",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Labor",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Labor (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

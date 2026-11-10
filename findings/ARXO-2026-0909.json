@@ -1,0 +1,161 @@
+{
+  "id": "ARXO-2026-0909",
+  "url": "https://arxo.io/findings/ARXO-2026-0909/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "29 CFR parts 1630, 1640",
+  "text": {
+    "en": {
+      "title": "Equal Employment Opportunity Commission: 2 references to former U.S. Code sections or former act names",
+      "summary": "In the CFR chapters assigned to the Equal Employment Opportunity Commission, 2 references in 2 sections use a former address or name: 1 cites a section replaced by a new one when the title was enacted as positive law; 1 cites a repealed section. Each reference was compared with release point 119-134 of the U.S. Code, which names where the old number went.",
+      "impact": "A reader who follows these references finds a note that the section moved, or no section, instead of the text. A reference to a moved section may keep its legal effect, but the address no longer leads to the text. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the U.S. Code names the section the old number moved to, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 29, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "29 CFR 1630.16, citing 41 U.S.C. 701; the U.S. Code gives 41 U.S.C. 8102",
+        "text": "with the requirements established under the Drug-Free Workplace Act of 1988 (41 U.S.C. 701 et seq.); (4) May hold an employee who engages in the",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-29.xml",
+        "sha256": "cf4b36bfb10504beedb246e95a94a02951731a236696a9be3194eedbc8e71817",
+        "retrieved": "2026-10-29",
+        "copy": "sources/dd25fcc26cd6ad4b-ecfr-2026-10-27-title-29-citing.txt",
+        "copy_sha256": "dd25fcc26cd6ad4bcb3a9af5cda4bbaee5b659b49d19dd94d01e9d020406ea51",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 29, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "29 CFR 1640.2, citing 45 U.S.C. 502; the U.S. Code gives one or more of: 49 U.S.C. 24102",
+        "text": "authority (as defined in section 103(8) of the Rail Passenger Service Act, 45 U.S.C. 502(8)). Recipient means any State, political subdivision of any",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-29.xml",
+        "sha256": "cf4b36bfb10504beedb246e95a94a02951731a236696a9be3194eedbc8e71817",
+        "retrieved": "2026-10-29",
+        "copy": "sources/dd25fcc26cd6ad4b-ecfr-2026-10-27-title-29-citing.txt",
+        "copy_sha256": "dd25fcc26cd6ad4bcb3a9af5cda4bbaee5b659b49d19dd94d01e9d020406ea51",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 701, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 151, 152, 153, 1101, 1102, 1121",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "45 U.S.C. 502, OLRC release point 119-134, element /us/usc/t45/s501...502",
+        "text": "§§ 501 to 502. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/5f551624d4951851-olrc-119-134-title-45-records.txt",
+        "copy_sha256": "5f551624d49518517018d945398542cf4126ddc7648d8f25c21d7a39dc5c75a4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Equal Employment Opportunity Commission",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Equal Employment Opportunity Commission",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Equal Employment Opportunity Commission (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "id": "ARXO-2026-0810",
+  "url": "https://arxo.io/findings/ARXO-2026-0810/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "18 CFR parts 1301, 1312, 1316, 1317",
+  "text": {
+    "en": {
+      "title": "Tennessee Valley Authority: 5 references to U.S. Code sections repealed, omitted or not in the Code",
+      "summary": "In the CFR chapters assigned to the Tennessee Valley Authority, 5 references in 5 sections cite a U.S. Code section that release point 119-134 of the U.S. Code does not carry in force: 3 cite a number the Code does not have; 1 cites a repealed section; 1 cites a section omitted from the Code. The release names no successor for these sections.",
+      "impact": "A reader who follows these references does not reach the text the rule relies on. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides whether to remove or replace each reference. The U.S. Code names no successor for these sections."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 18, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "18 CFR 1301.34, citing 5 U.S.C. 522a",
+        "text": "Records is exempt from subsections (d); (e)(4)(H); and (f)(2), (3), and (4) of 5 U.S.C. 522a (section 3 of the Privacy Act of 1974) to the extent that",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-18.xml",
+        "sha256": "aa99b457fd9dfdd181fb8c0eb4001cc1acf366e465973241cc22ffe7a0daff1c",
+        "retrieved": "2026-10-29",
+        "copy": "sources/87ecc8e5b43cca60-ecfr-2026-10-27-title-18-citing.txt",
+        "copy_sha256": "87ecc8e5b43cca60d88670f3659caa3d39657a7c99ae63e8023e10d428151460",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 18, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "18 CFR 1316.3, citing 41 U.S.C. 51-58",
+        "text": "terms shall have the meanings defined in the Anti-Kickback Act of 1986 (41 U.S.C. 51-58) (the Act). (b) The Act prohibits any person from- (1)",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-18.xml",
+        "sha256": "aa99b457fd9dfdd181fb8c0eb4001cc1acf366e465973241cc22ffe7a0daff1c",
+        "retrieved": "2026-10-29",
+        "copy": "sources/87ecc8e5b43cca60-ecfr-2026-10-27-title-18-citing.txt",
+        "copy_sha256": "87ecc8e5b43cca60d88670f3659caa3d39657a7c99ae63e8023e10d428151460",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 18, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "18 CFR 1317.105, citing 20 U.S.C. 8801",
+        "text": "Educational institution means a local educational agency (LEA) as defined by 20 U.S.C. 8801(18), a preschool, a private elementary or secondary school,",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-18.xml",
+        "sha256": "aa99b457fd9dfdd181fb8c0eb4001cc1acf366e465973241cc22ffe7a0daff1c",
+        "retrieved": "2026-10-29",
+        "copy": "sources/87ecc8e5b43cca60-ecfr-2026-10-27-title-18-citing.txt",
+        "copy_sha256": "87ecc8e5b43cca60d88670f3659caa3d39657a7c99ae63e8023e10d428151460",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 18, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "18 CFR 1317.125, citing 42 U.S.C. 298b-2",
+        "text": "CFR, 1978 Comp., p. 264; sections 704 and 855 of the Public Health Service Act (42 U.S.C. 295m, 298b-2); Title VII of the Civil Rights Act of 1964 (42 U.S.C.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-18.xml",
+        "sha256": "aa99b457fd9dfdd181fb8c0eb4001cc1acf366e465973241cc22ffe7a0daff1c",
+        "retrieved": "2026-10-29",
+        "copy": "sources/87ecc8e5b43cca60-ecfr-2026-10-27-title-18-citing.txt",
+        "copy_sha256": "87ecc8e5b43cca60d88670f3659caa3d39657a7c99ae63e8023e10d428151460",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 18, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "18 CFR part 1312 (Authority), citing 16 U.S.C. 469",
+        "text": ". 59-209, 34 Stat. 225 (16 U.S.C. 432, 433); Pub. L. 86-523, 74 Stat. 220, 221 (16 U.S.C. 469), as amended, 88 Stat. 174 (1974); Pub. L. 89-665, 80 Stat.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-18.xml",
+        "sha256": "aa99b457fd9dfdd181fb8c0eb4001cc1acf366e465973241cc22ffe7a0daff1c",
+        "retrieved": "2026-10-29",
+        "copy": "sources/87ecc8e5b43cca60-ecfr-2026-10-27-title-18-citing.txt",
+        "copy_sha256": "87ecc8e5b43cca60d88670f3659caa3d39657a7c99ae63e8023e10d428151460",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "5 U.S.C. 522a, OLRC release point 119-134, no element carries this number",
+        "text": "Title 5, sections in order: 502, 503, 504, 551, 552, 552a",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/e04126c9f1baa61a-olrc-119-134-title-5-records.txt",
+        "copy_sha256": "e04126c9f1baa61ae97a3ed5b14888390fcce690fccf496271068bf3a7f87d28",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 51-58, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 101, 102, 103",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "20 U.S.C. 8801, OLRC release point 119-134, element /us/usc/t20/s8801...8803",
+        "text": "§§ 8801 to 8803. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7d525eb3e5ba8f01-olrc-119-134-title-20-records.txt",
+        "copy_sha256": "7d525eb3e5ba8f010cbf8ecabebae684f32e22428bbf497af0d7b54f1891d9c5",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "42 U.S.C. 298b-2, OLRC release point 119-134, no element carries this number",
+        "text": "Title 42, sections in order: 297o, 297t, 298, 298d, 299, 299a",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/181c271e86bdf9fb-olrc-119-134-title-42-records.txt",
+        "copy_sha256": "181c271e86bdf9fb40082644ce23542bac5aa6857596f18c43d63c281004c1ec",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u5",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "16 U.S.C. 469, OLRC release point 119-134, element /us/usc/t16/s469",
+        "text": "§ 469. Omitted Editorial Notes Codification Section, Pub. L.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/676bd06f99df3056-olrc-119-134-title-16-records.txt",
+        "copy_sha256": "676bd06f99df3056bbd9ff4fc63155cbe8acd6d40d12ed2204fdb1fdd65695c9",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Tennessee Valley Authority",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Tennessee Valley Authority",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Tennessee Valley Authority (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

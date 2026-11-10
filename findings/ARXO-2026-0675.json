@@ -1,0 +1,177 @@
+{
+  "id": "ARXO-2026-0675",
+  "url": "https://arxo.io/findings/ARXO-2026-0675/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "17 CFR parts 23, 75",
+  "text": {
+    "en": {
+      "title": "Commodity Futures Trading Commission: 2 references with a wrong U.S. Code section or act name",
+      "summary": "In the CFR chapters assigned to the Commodity Futures Trading Commission, 2 references in 2 sections cite the U.S. Code or an act with an error: 2 name an act differently from the U.S. Code. Each reference was compared with release point 119-134 of the U.S. Code published by the Office of the Law Revision Counsel.",
+      "impact": "A reader who follows these references reaches a different section or looks for an act under a name the U.S. Code does not use. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to correct each reference. Where the U.S. Code shows the section or the name intended, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 17, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "17 CFR 23.151, citing \"Employee Retirement Income and Security Act of 1974\" (29 U.S.C. 1002); the U.S. Code gives Employee Retirement Income Security Act of 1974",
+        "text": "(32) of section 3 of the Employee Retirement Income and Security Act of 1974 (29 U.S.C. 1002); (x) An entity that is organized as an insurance company,",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-17.xml",
+        "sha256": "56455efc8cb9dd09ac2d7fdf383b5d680971cafa59a1e6d8a545507e9c8ebfad",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1195983ab9f08b04-ecfr-2026-10-27-title-17-citing.txt",
+        "copy_sha256": "1195983ab9f08b0426da55b554fa236ceba60867f72d2a371d83ceaa79a16c1a",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 17, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "17 CFR 75.10, citing \"Employee's Retirement Income Security Act\" (29 U.S.C. 1103); the U.S. Code gives Employee Retirement Income Security Act of 1974",
+        "text": "to section 403(a)(1) of the Employee's Retirement Income Security Act (29 U.S.C. 1103(a)(1)); or (B) A trustee that is subject to fiduciary standards",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-17.xml",
+        "sha256": "56455efc8cb9dd09ac2d7fdf383b5d680971cafa59a1e6d8a545507e9c8ebfad",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1195983ab9f08b04-ecfr-2026-10-27-title-17-citing.txt",
+        "copy_sha256": "1195983ab9f08b0426da55b554fa236ceba60867f72d2a371d83ceaa79a16c1a",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "29 U.S.C. 1002, OLRC release point 119-134, element /us/usc/t29/s1002",
+        "text": "§ 1002. Definitions For purposes of this subchapter:(1) The terms \"employee welfare benefit plan\" and \"welfare plan\" mean any plan, fund, or program which was heretofore or is hereafter established or maintained by an employer or by an employee organization, or by both, to the extent that such plan,",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/3cf2b9a2467ea7de-olrc-119-134-title-29-records.txt",
+        "copy_sha256": "3cf2b9a2467ea7de2e93bdb9ac421dbe0208255104a6b2c61fe2b707bb0b2c19",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "n1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "/us/usc/t29/s441, OLRC release point 119-134: name of the act",
+        "text": "Surety company reports; contents; waiver or modification of requirements respecting contents of reports Each surety company which issues any bond required by this chapter or the Employee Retirement Income Security Act of 1974 [29 U.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/3cf2b9a2467ea7de-olrc-119-134-title-29-records.txt",
+        "copy_sha256": "3cf2b9a2467ea7de2e93bdb9ac421dbe0208255104a6b2c61fe2b707bb0b2c19",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "29 U.S.C. 1103, OLRC release point 119-134, element /us/usc/t29/s1103",
+        "text": "§ 1103. Establishment of trust(a) Benefit plan assets to be held in trust; authority of trusteesExcept as provided in subsection (b), all assets of an employee benefit plan shall be held in trust by one or more trustees. Such trustee or trustees shall be either named in the trust instrument or in th",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/3cf2b9a2467ea7de-olrc-119-134-title-29-records.txt",
+        "copy_sha256": "3cf2b9a2467ea7de2e93bdb9ac421dbe0208255104a6b2c61fe2b707bb0b2c19",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Commodity Futures Trading Commission",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Commodity Futures Trading Commission",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Commodity Futures Trading Commission (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

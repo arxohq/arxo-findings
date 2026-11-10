@@ -1,0 +1,225 @@
+{
+  "id": "ARXO-2026-0780",
+  "url": "https://arxo.io/findings/ARXO-2026-0780/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "29 CFR parts 1400, 1470",
+  "text": {
+    "en": {
+      "title": "Federal Mediation and Conciliation Service: 4 references to U.S. Code sections repealed, omitted or not in the Code",
+      "summary": "In the CFR chapters assigned to the Federal Mediation and Conciliation Service, 4 references in 3 sections cite a U.S. Code section that release point 119-134 of the U.S. Code does not carry in force: 3 cite a number the Code does not have; 1 cites a repealed section. The release names no successor for these sections.",
+      "impact": "A reader who follows these references does not reach the text the rule relies on. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides whether to remove or replace each reference. The U.S. Code names no successor for these sections."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 29, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "29 CFR 1400.735-21, citing 5 U.S.C. 1917",
+        "text": "18 U.S.C. 1719 $300 fine. A-13. Deceit in examinations and personnel actions 5 U.S.C. 1917 $1,000 fine; 1 year imprisonment or both. A-14. Fraud and",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-29.xml",
+        "sha256": "cf4b36bfb10504beedb246e95a94a02951731a236696a9be3194eedbc8e71817",
+        "retrieved": "2026-10-29",
+        "copy": "sources/dd25fcc26cd6ad4b-ecfr-2026-10-27-title-29-citing.txt",
+        "copy_sha256": "dd25fcc26cd6ad4bcb3a9af5cda4bbaee5b659b49d19dd94d01e9d020406ea51",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 29, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "29 CFR 1400.735-21, citing 50 U.S.C. 784",
+        "text": "The prohibition against the employment of a member of a Communist organization (50 U.S.C. 784). (f) The prohibitions against (1) the disclosure of",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-29.xml",
+        "sha256": "cf4b36bfb10504beedb246e95a94a02951731a236696a9be3194eedbc8e71817",
+        "retrieved": "2026-10-29",
+        "copy": "sources/dd25fcc26cd6ad4b-ecfr-2026-10-27-title-29-citing.txt",
+        "copy_sha256": "dd25fcc26cd6ad4bcb3a9af5cda4bbaee5b659b49d19dd94d01e9d020406ea51",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 29, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "29 CFR 1470.21, citing 23 U.S.C. 450",
+        "text": "Cooperation Act (31 U.S.C. 6501 et seq.) and the Indian Self-Determination Act (23 U.S.C. 450), grantees and subgrantees shall promptly, but at least",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-29.xml",
+        "sha256": "cf4b36bfb10504beedb246e95a94a02951731a236696a9be3194eedbc8e71817",
+        "retrieved": "2026-10-29",
+        "copy": "sources/dd25fcc26cd6ad4b-ecfr-2026-10-27-title-29-citing.txt",
+        "copy_sha256": "dd25fcc26cd6ad4bcb3a9af5cda4bbaee5b659b49d19dd94d01e9d020406ea51",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 29, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "29 CFR 1470.36, citing 40 U.S.C. 327-330",
+        "text": "Sections 103 and 107 of the Contract Work Hours and Safety Standards Act (40 U.S.C. 327-330) as supplemented by Department of Labor regulations (29",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-29.xml",
+        "sha256": "cf4b36bfb10504beedb246e95a94a02951731a236696a9be3194eedbc8e71817",
+        "retrieved": "2026-10-29",
+        "copy": "sources/dd25fcc26cd6ad4b-ecfr-2026-10-27-title-29-citing.txt",
+        "copy_sha256": "dd25fcc26cd6ad4bcb3a9af5cda4bbaee5b659b49d19dd94d01e9d020406ea51",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "5 U.S.C. 1917, OLRC release point 119-134, no element carries this number",
+        "text": "Title 5, sections in order: 1506, 1507, 1508, 2101, 2101a, 2102",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/e04126c9f1baa61a-olrc-119-134-title-5-records.txt",
+        "copy_sha256": "e04126c9f1baa61ae97a3ed5b14888390fcce690fccf496271068bf3a7f87d28",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "50 U.S.C. 784, OLRC release point 119-134, no element carries this number",
+        "text": "Title 50, sections in order: 781, 782, 783, 788...795, 796, 797",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/a9f0d0d34973f6a6-olrc-119-134-title-50-records.txt",
+        "copy_sha256": "a9f0d0d34973f6a694a408f3869cac514492813a860fc369c56bfc89592519b3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "23 U.S.C. 450, OLRC release point 119-134, no element carries this number",
+        "text": "Title 23, sections in order: 408, 409, 412, 501, 502, 503",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/84891bad2031c894-olrc-119-134-title-23-records.txt",
+        "copy_sha256": "84891bad2031c8949d26d6df67bfff0f89a893183286cb39e7ad32b55f2abaab",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "40 U.S.C. 327-330, OLRC release point 119-134, no element carries this number",
+        "text": "Title 40, sections in order: 321, 322, 323, 501, 502, 503",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/9d198fe831101761-olrc-119-134-title-40-records.txt",
+        "copy_sha256": "9d198fe8311017619c2a84ff1b969742443b051211284d50199f019658047c7d",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Federal Mediation and Conciliation Service",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Federal Mediation and Conciliation Service",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Federal Mediation and Conciliation Service (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

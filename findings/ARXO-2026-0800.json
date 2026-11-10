@@ -1,0 +1,225 @@
+{
+  "id": "ARXO-2026-0800",
+  "url": "https://arxo.io/findings/ARXO-2026-0800/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "2 CFR part 200; 5 CFR part 1315; 48 CFR parts 9904, 9905",
+  "text": {
+    "en": {
+      "title": "Office of Management and Budget: 4 references to U.S. Code sections repealed, omitted or not in the Code",
+      "summary": "In the CFR chapters assigned to the Office of Management and Budget, 4 references in 4 sections cite a U.S. Code section that release point 119-134 of the U.S. Code does not carry in force: 2 cite a number the Code does not have; 2 cite a repealed section. The release names no successor for these sections.",
+      "impact": "A reader who follows these references does not reach the text the rule relies on. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides whether to remove or replace each reference. The U.S. Code names no successor for these sections."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 2, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "2 CFR 200.217, citing 10 U.S.C. 4310",
+        "text": "protections at 10 U.S.C. 4701, 41 U.S.C. 4712, 41 U.S.C. 4304, and 10 U.S.C. 4310.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-2.xml",
+        "sha256": "88efc21e190bff0473627df9dc30d52c277188e177f8bb13a92e3b025398490a",
+        "retrieved": "2026-10-29",
+        "copy": "sources/78c80e786ca46ff2-ecfr-2026-10-27-title-2-citing.txt",
+        "copy_sha256": "78c80e786ca46ff2268e68454e852b898730e570b2026add56aa85170304bd26",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 5, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "5 CFR 1315.1, citing 4 U.S.C. 9606; perhaps 42 U.S.C. 9606 was meant",
+        "text": "); and the release or threatened release of hazardous substances (as defined in 4 U.S.C. 9606, Section 106). (c) Utility payments. All utility payments,",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-5.xml",
+        "sha256": "45b29ff0f9c4f2678b2624f564c096b9253f991a94582d28c4189657e49b12fd",
+        "retrieved": "2026-10-29",
+        "copy": "sources/2724717084a6cf1d-ecfr-2026-10-27-title-5-citing.txt",
+        "copy_sha256": "2724717084a6cf1daee0ed13aed13f711f4cee602bffee3c848af540908eddfc",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 48, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "48 CFR 9904.401-50, citing 10 U.S.C. 2306a",
+        "text": "unless the contractor has submitted cost or pricing data pursuant to 10 U.S.C. 2306a or 41 U.S.C. 254(d) (Pub. L. 87-653), in which case adheren",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml",
+        "sha256": "baf513f7a0a161fe7510281743f608eaceb374817296613a2251d6e80afa4661",
+        "retrieved": "2026-10-29",
+        "copy": "sources/4346de1ccc8648b8-ecfr-2026-10-27-title-48-citing.txt",
+        "copy_sha256": "4346de1ccc8648b84882b59f892d1639f37f804ec3cab4c1ca4cb962dcd551d3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 48, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "48 CFR 9905.501-50, citing 10 U.S.C. 2306",
+        "text": "unless the contractor has submitted cost or pricing data pursuant to 10 U.S.C. 2306(a) or 41 U.S.C. 254(d) (Pub. L. 87-653), in which case adheren",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml",
+        "sha256": "baf513f7a0a161fe7510281743f608eaceb374817296613a2251d6e80afa4661",
+        "retrieved": "2026-10-29",
+        "copy": "sources/4346de1ccc8648b8-ecfr-2026-10-27-title-48-citing.txt",
+        "copy_sha256": "4346de1ccc8648b84882b59f892d1639f37f804ec3cab4c1ca4cb962dcd551d3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "10 U.S.C. 4310, OLRC release point 119-134, no element carries this number",
+        "text": "Title 10, sections in order: 4274, 4292, 4293, 4321, 4323, 4324",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/9fb66326513bdd9c-olrc-119-134-title-10-records.txt",
+        "copy_sha256": "9fb66326513bdd9c7c061f1ba8c65d0aacc28ef022be09e2de738c52696810d2",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "4 U.S.C. 9606, OLRC release point 119-134, no element carries this number",
+        "text": "Title 4, sections in order: 144, 145, 146",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/2c80f0c314843e7c-olrc-119-134-title-4-records.txt",
+        "copy_sha256": "2c80f0c314843e7ca4e61be14bacd59159a218cabab62fe9ca494e0122ac3bff",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "10 U.S.C. 2306a, OLRC release point 119-134, element /us/usc/t10/s2306...2307",
+        "text": "[§§ 2306 to 2307. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/9fb66326513bdd9c-olrc-119-134-title-10-records.txt",
+        "copy_sha256": "9fb66326513bdd9c7c061f1ba8c65d0aacc28ef022be09e2de738c52696810d2",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "10 U.S.C. 2306, OLRC release point 119-134, element /us/usc/t10/s2306...2307",
+        "text": "[§§ 2306 to 2307. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/9fb66326513bdd9c-olrc-119-134-title-10-records.txt",
+        "copy_sha256": "9fb66326513bdd9c7c061f1ba8c65d0aacc28ef022be09e2de738c52696810d2",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Office of Management and Budget",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Office of Management and Budget",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of Management and Budget (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

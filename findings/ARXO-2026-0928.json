@@ -1,0 +1,305 @@
+{
+  "id": "ARXO-2026-0928",
+  "url": "https://arxo.io/findings/ARXO-2026-0928/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "32 CFR parts 2001, 2004; 36 CFR parts 1201, 1212",
+  "text": {
+    "en": {
+      "title": "National Archives and Records Administration: 7 references to former U.S. Code sections or former act names",
+      "summary": "In the CFR chapters assigned to the National Archives and Records Administration, 7 references in 6 sections use a former address or name: 3 cite a section transferred to another section; 3 cite a section replaced by a new one when the title was enacted as positive law; 1 cites a renumbered section. Each reference was compared with release point 119-134 of the U.S. Code, which names where the old number went.",
+      "impact": "A reader who follows these references finds a note that the section moved, or no section, instead of the text. A reference to a moved section may keep its legal effect, but the address no longer leads to the text. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the U.S. Code names the section the old number moved to, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 32, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "32 CFR 2001.24, citing 50 U.S.C. 403",
+        "text": "Intelligence jointly determine to be necessary to carry out the provisions of 50 U.S.C. 403 and 403-1 and safeguarded under applicable Executive orders as",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-32.xml",
+        "sha256": "723c57463ed546d086b4161d8108617f09d115bf3661be806a64ef21b4abae58",
+        "retrieved": "2026-10-29",
+        "copy": "sources/de73862ead5650b4-ecfr-2026-10-27-title-32-citing.txt",
+        "copy_sha256": "de73862ead5650b4bb6e264d3ae9f03d00c3727b3a34aeff118c195c42a63412",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 32, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "32 CFR 2001.24, citing 50 U.S.C. 403-1",
+        "text": "Intelligence jointly determine to be necessary to carry out the provisions of 50 U.S.C. 403 and 403-1 and safeguarded under applicable Executive orders as",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-32.xml",
+        "sha256": "723c57463ed546d086b4161d8108617f09d115bf3661be806a64ef21b4abae58",
+        "retrieved": "2026-10-29",
+        "copy": "sources/de73862ead5650b4-ecfr-2026-10-27-title-32-citing.txt",
+        "copy_sha256": "de73862ead5650b4bb6e264d3ae9f03d00c3727b3a34aeff118c195c42a63412",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 32, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "32 CFR 2004.1, citing 50 U.S.C. 401",
+        "text": "Act of 2004 (Pub. L. 108-458), the National Security Act of 1947 as amended (50 U.S.C. 401, et seq.), and E.O. 12333 (December 4, 1981), as amended",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-32.xml",
+        "sha256": "723c57463ed546d086b4161d8108617f09d115bf3661be806a64ef21b4abae58",
+        "retrieved": "2026-10-29",
+        "copy": "sources/de73862ead5650b4-ecfr-2026-10-27-title-32-citing.txt",
+        "copy_sha256": "de73862ead5650b4bb6e264d3ae9f03d00c3727b3a34aeff118c195c42a63412",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 32, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "32 CFR 2004.32, citing 10 U.S.C. 2536; the U.S. Code gives 10 U.S.C. 4874",
+        "text": "government unless the Secretary of the agency first issues a waiver (see 10 U.S.C. 2536). A waiver is not required if the CSA determines the",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-32.xml",
+        "sha256": "723c57463ed546d086b4161d8108617f09d115bf3661be806a64ef21b4abae58",
+        "retrieved": "2026-10-29",
+        "copy": "sources/de73862ead5650b4-ecfr-2026-10-27-title-32-citing.txt",
+        "copy_sha256": "de73862ead5650b4bb6e264d3ae9f03d00c3727b3a34aeff118c195c42a63412",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 36, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "36 CFR 1201.4, citing 41 U.S.C. 601; the U.S. Code gives 41 U.S.C. 7101",
+        "text": ".C. 404(f) and 1383(b)(4)(A)). (b) Any case to which the Contract Disputes Act (41 U.S.C. 601 et seq.) applies; (c) Any case where collection of a debt",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-36.xml",
+        "sha256": "ee9dc54d0e35b91c036522a2cc566413071be476d46c9b1ab1eb78188a1584c8",
+        "retrieved": "2026-10-29",
+        "copy": "sources/5440f5f29983225f-ecfr-2026-10-27-title-36-citing.txt",
+        "copy_sha256": "5440f5f29983225f2c1dbe7e25a8f22def441f94e33cb426531de4a74ac4c632",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c6",
+        "source": "eCFR Title 36, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "36 CFR 1212.100, citing 41 U.S.C. 701; the U.S. Code gives 41 U.S.C. 8102",
+        "text": "This part carries out the portion of the Drug-Free Workplace Act of 1988 (41 U.S.C. 701 et seq., as amended) that applies to grants. It also applie",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-36.xml",
+        "sha256": "ee9dc54d0e35b91c036522a2cc566413071be476d46c9b1ab1eb78188a1584c8",
+        "retrieved": "2026-10-29",
+        "copy": "sources/5440f5f29983225f-ecfr-2026-10-27-title-36-citing.txt",
+        "copy_sha256": "5440f5f29983225f2c1dbe7e25a8f22def441f94e33cb426531de4a74ac4c632",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c7",
+        "source": "eCFR Title 36, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "36 CFR part 1212 (Authority), citing 41 U.S.C. 701; the U.S. Code gives 41 U.S.C. 8102",
+        "text": "Authority:41 U.S.C. 701, et seq.; 44 U.S.C. 2104(a).",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-36.xml",
+        "sha256": "ee9dc54d0e35b91c036522a2cc566413071be476d46c9b1ab1eb78188a1584c8",
+        "retrieved": "2026-10-29",
+        "copy": "sources/5440f5f29983225f-ecfr-2026-10-27-title-36-citing.txt",
+        "copy_sha256": "5440f5f29983225f2c1dbe7e25a8f22def441f94e33cb426531de4a74ac4c632",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "50 U.S.C. 403, OLRC release point 119-134, element /us/usc/t50/s403",
+        "text": "§ 403. Transferred Editorial Notes Codification Section 403, comprising section 102 of the National Security Act of 1947, act July 26, 1947, ch. 343, was editorially reclassified as section 3023 of this title.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/a9f0d0d34973f6a6-olrc-119-134-title-50-records.txt",
+        "copy_sha256": "a9f0d0d34973f6a694a408f3869cac514492813a860fc369c56bfc89592519b3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "50 U.S.C. 403-1, OLRC release point 119-134, element /us/usc/t50/s403–1",
+        "text": "§ 403-1. Transferred Editorial Notes Codification Section 403-1, comprising section 102A of the National Security Act of 1947, act July 26, 1947, ch. 343, was editorially reclassified as section 3024 of this title.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/a9f0d0d34973f6a6-olrc-119-134-title-50-records.txt",
+        "copy_sha256": "a9f0d0d34973f6a694a408f3869cac514492813a860fc369c56bfc89592519b3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "50 U.S.C. 401, OLRC release point 119-134, element /us/usc/t50/s401",
+        "text": "§ 401. Transferred Editorial Notes Codification Section 401, comprising section 2 of the National Security Act of 1947, act July 26, 1947, ch. 343, was editorially reclassified as section 3002 of this title.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/a9f0d0d34973f6a6-olrc-119-134-title-50-records.txt",
+        "copy_sha256": "a9f0d0d34973f6a694a408f3869cac514492813a860fc369c56bfc89592519b3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "10 U.S.C. 2536, OLRC release point 119-134, element /us/usc/t10/s2536",
+        "text": "[§ 2536. Renumbered § 4874]",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/9fb66326513bdd9c-olrc-119-134-title-10-records.txt",
+        "copy_sha256": "9fb66326513bdd9c7c061f1ba8c65d0aacc28ef022be09e2de738c52696810d2",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u5",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 601, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 151, 152, 153, 1101, 1102, 1121",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u6",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 701, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 151, 152, 153, 1101, 1102, 1121",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "National Archives and Records Administration",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "National Archives and Records Administration",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to National Archives and Records Administration (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

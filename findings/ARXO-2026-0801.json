@@ -1,0 +1,161 @@
+{
+  "id": "ARXO-2026-0801",
+  "url": "https://arxo.io/findings/ARXO-2026-0801/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "21 CFR part 1401",
+  "text": {
+    "en": {
+      "title": "Office of National Drug Control Policy: 2 references to U.S. Code sections repealed, omitted or not in the Code",
+      "summary": "In the CFR chapters assigned to the Office of National Drug Control Policy, 2 references in 2 sections cite a U.S. Code section that release point 119-134 of the U.S. Code does not carry in force: 1 cites a repealed section; 1 cites a number the Code does not have. The release names no successor for these sections.",
+      "impact": "A reader who follows these references does not reach the text the rule relies on. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides whether to remove or replace each reference. The U.S. Code names no successor for these sections."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 21, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "21 CFR 1401.2, citing 21 U.S.C. 1501",
+        "text": "Policy (ONDCP or Agency) was created by the Anti-Drug Abuse Act of 1988, 21 U.S.C. 1501 et seq., and reauthorized under the SUPPORT for Patients",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-21.xml",
+        "sha256": "a88d28c597a53d7d6c855d232cf37f5cd0b2d1385f0fe9ae3ca8dfe9842d1f81",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1fb2ac508ba0f1cf-ecfr-2026-10-27-title-21-citing.txt",
+        "copy_sha256": "1fb2ac508ba0f1cf7a70fe35039b9b0773f544a19ff2519c20e31a363ceaf1b0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 21, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "21 CFR 1401.6, citing 26 U.S.C. 1746; perhaps 28 U.S.C. 1746 was meant",
+        "text": "authorization signed by that individual or an unsworn declaration under 26 U.S.C. 1746 by that individual authorizing disclosure of the records to",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-21.xml",
+        "sha256": "a88d28c597a53d7d6c855d232cf37f5cd0b2d1385f0fe9ae3ca8dfe9842d1f81",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1fb2ac508ba0f1cf-ecfr-2026-10-27-title-21-citing.txt",
+        "copy_sha256": "1fb2ac508ba0f1cf7a70fe35039b9b0773f544a19ff2519c20e31a363ceaf1b0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "21 U.S.C. 1501, OLRC release point 119-134, no element carries this number",
+        "text": "Title 21, sections in order: 1401, 1402, 1403, 1502a, 1503...1505, 1505a",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/1b66ffd2db782bf9-olrc-119-134-title-21-records.txt",
+        "copy_sha256": "1b66ffd2db782bf9d314998bb161bc6fcf38434989947a2b25a5908dfe1cb23e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "26 U.S.C. 1746, OLRC release point 119-134, no element carries this number",
+        "text": "Title 26, sections in order: 1562, 1563, 1564, 2001, 2002, 2010",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/0058b67471b98218-olrc-119-134-title-26-records.txt",
+        "copy_sha256": "0058b67471b9821892d810732f6217ad7446402e332667ae148122479bfe6fb8",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Office of National Drug Control Policy",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Office of National Drug Control Policy",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of National Drug Control Policy (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

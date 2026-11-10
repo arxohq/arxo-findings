@@ -1,0 +1,193 @@
+{
+  "id": "ARXO-2026-0719",
+  "url": "https://arxo.io/findings/ARXO-2026-0719/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "5 CFR parts 11, 731, 890",
+  "text": {
+    "en": {
+      "title": "Office of Personnel Management: 6 references to provisions removed or redesignated by 2026 rules",
+      "summary": "In the CFR chapters assigned to the Office of Personnel Management, 6 references in 3 sections still use an address that a 2026 final rule changed: 6 cite a paragraph that a 2026 final rule removed or redesignated. Each rule was published in the Federal Register and in effect by October 27, 2026; the eCFR of that date keeps the old address.",
+      "impact": "A reader who follows these references finds no text at the cited address, or text that the rule moved there from another paragraph. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the 2026 rule redesignated the paragraph, the evidence below gives the new designation."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 5, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "5 CFR 11.5(f), citing 5 CFR 11.5(e); now 5 CFR 11.5(i)",
+        "text": "the end of an employee's initial probationary or trial period, an official designated under paragraph (e) of this section shall meet with the employee to discuss the employee's performance and conduct,",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-5.xml",
+        "sha256": "45b29ff0f9c4f2678b2624f564c096b9253f991a94582d28c4189657e49b12fd",
+        "retrieved": "2026-10-29",
+        "copy": "sources/2724717084a6cf1d-ecfr-2026-10-27-title-5-citing.txt",
+        "copy_sha256": "2724717084a6cf1daee0ed13aed13f711f4cee602bffee3c848af540908eddfc",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 5, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "5 CFR 11.5(g), citing 5 CFR 11.5(e); now 5 CFR 11.5(i)",
+        "text": "employee's initial probationary or trial period, the agency head or an official designated under paragraph (e) of this section shall determine, consistent with this section and other applicable law,",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-5.xml",
+        "sha256": "45b29ff0f9c4f2678b2624f564c096b9253f991a94582d28c4189657e49b12fd",
+        "retrieved": "2026-10-29",
+        "copy": "sources/2724717084a6cf1d-ecfr-2026-10-27-title-5-citing.txt",
+        "copy_sha256": "2724717084a6cf1daee0ed13aed13f711f4cee602bffee3c848af540908eddfc",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 5, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "5 CFR 731.105(c), citing 5 CFR 731.103(c); now 5 CFR 731.103(d)",
+        "text": "(c) Except as limited by § 731.103(c), (e), and (g), an agency, exercising delegated authority, may take a suitability action under",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-5.xml",
+        "sha256": "45b29ff0f9c4f2678b2624f564c096b9253f991a94582d28c4189657e49b12fd",
+        "retrieved": "2026-10-29",
+        "copy": "sources/2724717084a6cf1d-ecfr-2026-10-27-title-5-citing.txt",
+        "copy_sha256": "2724717084a6cf1daee0ed13aed13f711f4cee602bffee3c848af540908eddfc",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 5, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "5 CFR 731.105(c), citing 5 CFR 731.103(e); now 5 CFR 731.103(f)",
+        "text": "(c) Except as limited by § 731.103(c), (e), and (g), an agency, exercising delegated authority, may take a suitability action under",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-5.xml",
+        "sha256": "45b29ff0f9c4f2678b2624f564c096b9253f991a94582d28c4189657e49b12fd",
+        "retrieved": "2026-10-29",
+        "copy": "sources/2724717084a6cf1d-ecfr-2026-10-27-title-5-citing.txt",
+        "copy_sha256": "2724717084a6cf1daee0ed13aed13f711f4cee602bffee3c848af540908eddfc",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 5, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "5 CFR 731.105(f), citing 5 CFR 731.103(e); now 5 CFR 731.103(f)",
+        "text": "chapter or under agency specific authorities. An agency must notify OPM to the extent required in § 731.103(e) and (g) if it wants to take, or has taken, action under these authorities. OPM",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-5.xml",
+        "sha256": "45b29ff0f9c4f2678b2624f564c096b9253f991a94582d28c4189657e49b12fd",
+        "retrieved": "2026-10-29",
+        "copy": "sources/2724717084a6cf1d-ecfr-2026-10-27-title-5-citing.txt",
+        "copy_sha256": "2724717084a6cf1daee0ed13aed13f711f4cee602bffee3c848af540908eddfc",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c6",
+        "source": "eCFR Title 5, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "5 CFR 890.114(d)(1), citing 29 CFR 2590.716-8(b)(2)(iii); now 29 CFR 2590.716-8(b)(2)(ii)",
+        "text": "(d)(1) In addition to notification to the Department per 26 CFR 54.9816-8T(b)(2)(iii), 29 CFR 2590.716-8(b)(2)(iii), and 45 CFR 149.510(b)(2)(iii), a carrier must notify the Director of its",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-5.xml",
+        "sha256": "45b29ff0f9c4f2678b2624f564c096b9253f991a94582d28c4189657e49b12fd",
+        "retrieved": "2026-10-29",
+        "copy": "sources/2724717084a6cf1d-ecfr-2026-10-27-title-5-citing.txt",
+        "copy_sha256": "2724717084a6cf1daee0ed13aed13f711f4cee602bffee3c848af540908eddfc",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Office of Personnel Management",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Office of Personnel Management",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of Personnel Management (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

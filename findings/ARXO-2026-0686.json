@@ -1,0 +1,193 @@
+{
+  "id": "ARXO-2026-0686",
+  "url": "https://arxo.io/findings/ARXO-2026-0686/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "28 CFR parts 0, 42",
+  "text": {
+    "en": {
+      "title": "Department of Justice: 2 references with a wrong U.S. Code section or act name",
+      "summary": "In the CFR chapters assigned to the Department of Justice, 2 references in 2 sections cite the U.S. Code or an act with an error: 1 names a U.S. Code section that is not part of the act named next to it; 1 names an act differently from the U.S. Code. Each reference was compared with release point 119-134 of the U.S. Code published by the Office of the Law Revision Counsel.",
+      "impact": "A reader who follows these references reaches a different section or looks for an act under a name the U.S. Code does not use. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to correct each reference. Where the U.S. Code shows the section or the name intended, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 28, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "28 CFR 0.40, citing \"Deep Seabed Hard Minerals Resources Act\" (30 U.S.C. 1413); the U.S. Code gives Deep Seabed Hard Mineral Resources Act",
+        "text": "seabed hard minerals pursuant to the Deep Seabed Hard Minerals Resources Act (30 U.S.C. 1413(d)), furnishing advice or reports regarding contracts or",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-28.xml",
+        "sha256": "54ed565e82b6af1aa8cc7fd34bfb0d0ac5d978c560413a4567c66d85660acbf9",
+        "retrieved": "2026-10-29",
+        "copy": "sources/add9cbce56c43c4f-ecfr-2026-10-27-title-28-citing.txt",
+        "copy_sha256": "add9cbce56c43c4f369ecfbcb41cff793478f95b3d0278968a842dda0bbb31d8",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 28, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "28 CFR 42.700, citing 42 U.S.C. 5101-6107; the U.S. Code gives 42 U.S.C. 6101-6107",
+        "text": "(a) This subpart implements the Age Discrimination Act of 1975, as amended (42 U.S.C. 5101-6107) (Act). Subject to certain exceptions, the Act prohibits",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-28.xml",
+        "sha256": "54ed565e82b6af1aa8cc7fd34bfb0d0ac5d978c560413a4567c66d85660acbf9",
+        "retrieved": "2026-10-29",
+        "copy": "sources/add9cbce56c43c4f-ecfr-2026-10-27-title-28-citing.txt",
+        "copy_sha256": "add9cbce56c43c4f369ecfbcb41cff793478f95b3d0278968a842dda0bbb31d8",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "30 U.S.C. 1413, OLRC release point 119-134, element /us/usc/t30/s1413",
+        "text": "§ 1413. License and permit applications, review, and certification(a) Applications(1) Any United States citizen may apply to the Administrator for the issuance or transfer of a license for exploration or a permit for commercial recovery. (2)(A) Applications for issuance or transfer of licenses for e",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/d8da27ae277e869e-olrc-119-134-title-30-records.txt",
+        "copy_sha256": "d8da27ae277e869e473fe9c3e6a6d79f7be6bb0cb9621fbd4c9acc474a02ab60",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "n1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "/us/usc/t30/s1401, OLRC release point 119-134: name of the act",
+        "text": "553, known as the Deep Seabed Hard Mineral Resources Act, which is classified principally to this chapter (§ 1401 et seq.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/d8da27ae277e869e-olrc-119-134-title-30-records.txt",
+        "copy_sha256": "d8da27ae277e869e473fe9c3e6a6d79f7be6bb0cb9621fbd4c9acc474a02ab60",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "42 U.S.C. 5101-6107, OLRC release point 119-134, element /us/usc/t42/s5101",
+        "text": "§ 5101. Office on Child Abuse and Neglect(a) EstablishmentThe Secretary of Health and Human Services may establish an office to be known as the Office on Child Abuse and Neglect. (b) PurposeThe purpose of the Office established under subsection (a) shall be to execute and coordinate the functions an",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/181c271e86bdf9fb-olrc-119-134-title-42-records.txt",
+        "copy_sha256": "181c271e86bdf9fb40082644ce23542bac5aa6857596f18c43d63c281004c1ec",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "42 U.S.C. 6101-6107, OLRC release point 119-134, element /us/usc/t42/s6101",
+        "text": "§ 6101. Statement of purpose It is the purpose of this chapter to prohibit discrimination on the basis of age in programs or activities receiving Federal financial assistance. (Pub. L. 94-135, title III, § 302, Nov. 28, 1975, 89 Stat. 728; Pub. L. 95-478, title IV, § 401(a), Oct. 18, 1978, 92 Stat.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/181c271e86bdf9fb-olrc-119-134-title-42-records.txt",
+        "copy_sha256": "181c271e86bdf9fb40082644ce23542bac5aa6857596f18c43d63c281004c1ec",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of Justice",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Justice",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Justice (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

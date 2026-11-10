@@ -1,0 +1,145 @@
+{
+  "id": "ARXO-2026-0803",
+  "url": "https://arxo.io/findings/ARXO-2026-0803/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "15 CFR part 2007",
+  "text": {
+    "en": {
+      "title": "Office of United States Trade Representative: 2 references to U.S. Code sections repealed, omitted or not in the Code",
+      "summary": "In the CFR chapters assigned to the Office of United States Trade Representative, 2 references in 2 sections cite a U.S. Code section that release point 119-134 of the U.S. Code does not carry in force: 2 cite a number the Code does not have. The release names no successor for these sections.",
+      "impact": "A reader who follows these references does not reach the text the rule relies on. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides whether to remove or replace each reference. The U.S. Code names no successor for these sections."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 15, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "15 CFR 2007.0, citing 19 U.S.C. 2642",
+        "text": "to any of the designation criteria listed in section 502(b) or 502(c) (19 U.S.C. 2642 (b) and (c)). Such requests must (1) specify the name of the",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-15.xml",
+        "sha256": "5c87b7a597951074aa048589731468ae8df3ef87964bb11ecc70d51d8ab15cd1",
+        "retrieved": "2026-10-29",
+        "copy": "sources/c79e45453b6aca5a-ecfr-2026-10-27-title-15-citing.txt",
+        "copy_sha256": "c79e45453b6aca5a97888dbd5d75a6e5a3835728e15a200ffbc04d0d5b5ab91e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 15, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "15 CFR 2007.2, citing 19 U.S.C. 2642",
+        "text": "not provide sufficient information relevant to subsection 502(b) or 502(c) (19 U.S.C. 2642 (b) and (c)) to warrant review, or if it is clear from",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-15.xml",
+        "sha256": "5c87b7a597951074aa048589731468ae8df3ef87964bb11ecc70d51d8ab15cd1",
+        "retrieved": "2026-10-29",
+        "copy": "sources/c79e45453b6aca5a-ecfr-2026-10-27-title-15-citing.txt",
+        "copy_sha256": "c79e45453b6aca5a97888dbd5d75a6e5a3835728e15a200ffbc04d0d5b5ab91e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "19 U.S.C. 2642, OLRC release point 119-134, no element carries this number",
+        "text": "Title 19, sections in order: 2611, 2612, 2613, 2701, 2702, 2703",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/d9034c33a49044f0-olrc-119-134-title-19-records.txt",
+        "copy_sha256": "d9034c33a49044f0c9d2859b6f8761b7879a43e56435edcbc68d0232ccd1f89e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Office of United States Trade Representative",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Office of United States Trade Representative",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of United States Trade Representative (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

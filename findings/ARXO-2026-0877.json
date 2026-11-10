@@ -1,0 +1,369 @@
+{
+  "id": "ARXO-2026-0877",
+  "url": "https://arxo.io/findings/ARXO-2026-0877/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "14 CFR parts 14, 206, 214, 372, 374a",
+  "text": {
+    "en": {
+      "title": "Department of Transportation: 10 references to former U.S. Code sections or former act names (14 CFR, chapter II, parts 14 to 374a)",
+      "summary": "In the CFR chapters assigned to the Department of Transportation in 14 CFR, chapter II, parts 14 to 374a, 10 references in 6 sections use a former address or name: 9 cite a section replaced by a new one when the title was enacted as positive law; 1 cites a section transferred to another section. Each reference was compared with release point 119-134 of the U.S. Code, which names where the old number went.",
+      "impact": "A reader who follows these references finds a note that the section moved, or no section, instead of the text. A reference to a moved section may keep its legal effect, but the address no longer leads to the text. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the U.S. Code names the section the old number moved to, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 14, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "14 CFR 14, citing 49 U.S.C. 1374; the U.S. Code gives one or more of: 49 U.S.C. 41310; 49 U.S.C. 41501; 49 U.S.C. 41702; 49 U.S.C. 41705; 49 U.S.C. 41706; 49 U.S.C. 46301",
+        "text": "the Federal Aviation Act of 1958, as amended, 72 Stat. 743, 760, 766, 788, (49 U.S.C. 1324, 1374, 1377, 1482))",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-14.xml",
+        "sha256": "098120edc1a787a87b17674bd1a0fa38b10fb9938c61c9db8143c807e83d7810",
+        "retrieved": "2026-10-29",
+        "copy": "sources/251c0bd948945a75-ecfr-2026-10-27-title-14-citing.txt",
+        "copy_sha256": "251c0bd948945a75951b26e8d5fe9851e9d0cfccfc33304a82dea5f58e154468",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 14, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "14 CFR 14, citing 49 U.S.C. 1377; the U.S. Code gives one or more of: 49 U.S.C. 41708; 49 U.S.C. 41709",
+        "text": "the Federal Aviation Act of 1958, as amended, 72 Stat. 743, 760, 766, 788, (49 U.S.C. 1324, 1374, 1377, 1482))",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-14.xml",
+        "sha256": "098120edc1a787a87b17674bd1a0fa38b10fb9938c61c9db8143c807e83d7810",
+        "retrieved": "2026-10-29",
+        "copy": "sources/251c0bd948945a75-ecfr-2026-10-27-title-14-citing.txt",
+        "copy_sha256": "251c0bd948945a75951b26e8d5fe9851e9d0cfccfc33304a82dea5f58e154468",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 14, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "14 CFR 14, citing 49 U.S.C. 1482; the U.S. Code gives one or more of: 49 U.S.C. 41507; 49 U.S.C. 41508; 49 U.S.C. 41509; 49 U.S.C. 46101",
+        "text": "the Federal Aviation Act of 1958, as amended, 72 Stat. 743, 760, 766, 788, (49 U.S.C. 1324, 1374, 1377, 1482))",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-14.xml",
+        "sha256": "098120edc1a787a87b17674bd1a0fa38b10fb9938c61c9db8143c807e83d7810",
+        "retrieved": "2026-10-29",
+        "copy": "sources/251c0bd948945a75-ecfr-2026-10-27-title-14-citing.txt",
+        "copy_sha256": "251c0bd948945a75951b26e8d5fe9851e9d0cfccfc33304a82dea5f58e154468",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 14, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "14 CFR 206.1, citing 49 U.S.C. 1386; the U.S. Code gives one or more of: 49 U.S.C. 40109; 49 U.S.C. 41701",
+        "text": "to Chapter 415 of 49 U.S.C. Subtitle VII. (Secs. 204, 416, 72 Stat. 743, 771; 49 U.S.C. 1324, 1386)",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-14.xml",
+        "sha256": "098120edc1a787a87b17674bd1a0fa38b10fb9938c61c9db8143c807e83d7810",
+        "retrieved": "2026-10-29",
+        "copy": "sources/251c0bd948945a75-ecfr-2026-10-27-title-14-citing.txt",
+        "copy_sha256": "251c0bd948945a75951b26e8d5fe9851e9d0cfccfc33304a82dea5f58e154468",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 14, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "14 CFR 214.1, citing 49 U.S.C. 1371; the U.S. Code gives one or more of: 49 U.S.C. 41101; 49 U.S.C. 41102; 49 U.S.C. 41104; 49 U.S.C. 41105; 49 U.S.C. 41106; 49 U.S.C. 41107; 49 U.S.C. 41108; 49 U.S.C. 41109; 49 U.S.C. 41110; 49 U.S.C. 41111; 49 U.S.C. 41112; 49 U.S.C. 41312; 49 U.S.C. 41503; 49 U.S.C. 41903; 49 U.S.C. 42112",
+        "text": "only. (Secs. 204, 402, Pub. L. 85-726, as amended, 72 Stat. 743, 757; 49 U.S.C. 1324, 1371)",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-14.xml",
+        "sha256": "098120edc1a787a87b17674bd1a0fa38b10fb9938c61c9db8143c807e83d7810",
+        "retrieved": "2026-10-29",
+        "copy": "sources/251c0bd948945a75-ecfr-2026-10-27-title-14-citing.txt",
+        "copy_sha256": "251c0bd948945a75951b26e8d5fe9851e9d0cfccfc33304a82dea5f58e154468",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c6",
+        "source": "eCFR Title 14, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "14 CFR 214.2, citing 49 U.S.C. 1371; the U.S. Code gives one or more of: 49 U.S.C. 41101; 49 U.S.C. 41102; 49 U.S.C. 41104; 49 U.S.C. 41105; 49 U.S.C. 41106; 49 U.S.C. 41107; 49 U.S.C. 41108; 49 U.S.C. 41109; 49 U.S.C. 41110; 49 U.S.C. 41111; 49 U.S.C. 41112; 49 U.S.C. 41312; 49 U.S.C. 41503; 49 U.S.C. 41903; 49 U.S.C. 42112",
+        "text": "this chapter. (Secs. 204, 402, Pub. L. 85-726, as amended, 72 Stat. 743, 757; 49 U.S.C. 1324, 1371)",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-14.xml",
+        "sha256": "098120edc1a787a87b17674bd1a0fa38b10fb9938c61c9db8143c807e83d7810",
+        "retrieved": "2026-10-29",
+        "copy": "sources/251c0bd948945a75-ecfr-2026-10-27-title-14-citing.txt",
+        "copy_sha256": "251c0bd948945a75951b26e8d5fe9851e9d0cfccfc33304a82dea5f58e154468",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c7",
+        "source": "eCFR Title 14, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "14 CFR 372.24, citing 49 U.S.C. 1371; the U.S. Code gives one or more of: 49 U.S.C. 41101; 49 U.S.C. 41102; 49 U.S.C. 41104; 49 U.S.C. 41105; 49 U.S.C. 41106; 49 U.S.C. 41107; 49 U.S.C. 41108; 49 U.S.C. 41109; 49 U.S.C. 41110; 49 U.S.C. 41111; 49 U.S.C. 41112; 49 U.S.C. 41312; 49 U.S.C. 41503; 49 U.S.C. 41903; 49 U.S.C. 42112",
+        "text": "Aviation Act of 1958, as amended, 72 Stat. 737, 743, 754, and 757, as amended, 49 U.S.C. 1301, 1324, 1371 and 1372)",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-14.xml",
+        "sha256": "098120edc1a787a87b17674bd1a0fa38b10fb9938c61c9db8143c807e83d7810",
+        "retrieved": "2026-10-29",
+        "copy": "sources/251c0bd948945a75-ecfr-2026-10-27-title-14-citing.txt",
+        "copy_sha256": "251c0bd948945a75951b26e8d5fe9851e9d0cfccfc33304a82dea5f58e154468",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c8",
+        "source": "eCFR Title 14, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "14 CFR 372.24, citing 49 U.S.C. 1372; the U.S. Code gives one or more of: 49 U.S.C. 41301; 49 U.S.C. 41302; 49 U.S.C. 41303; 49 U.S.C. 41304; 49 U.S.C. 41305; 49 U.S.C. 41306",
+        "text": "Aviation Act of 1958, as amended, 72 Stat. 737, 743, 754, and 757, as amended, 49 U.S.C. 1301, 1324, 1371 and 1372)",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-14.xml",
+        "sha256": "098120edc1a787a87b17674bd1a0fa38b10fb9938c61c9db8143c807e83d7810",
+        "retrieved": "2026-10-29",
+        "copy": "sources/251c0bd948945a75-ecfr-2026-10-27-title-14-citing.txt",
+        "copy_sha256": "251c0bd948945a75951b26e8d5fe9851e9d0cfccfc33304a82dea5f58e154468",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c9",
+        "source": "eCFR Title 14, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "14 CFR 374a.4, citing 2 U.S.C. 451",
+        "text": "1324, 1377. Sec. 401 of the Federal Election Campaign Act of 1971, 86 Stat. 19, 2 U.S.C. 451)",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-14.xml",
+        "sha256": "098120edc1a787a87b17674bd1a0fa38b10fb9938c61c9db8143c807e83d7810",
+        "retrieved": "2026-10-29",
+        "copy": "sources/251c0bd948945a75-ecfr-2026-10-27-title-14-citing.txt",
+        "copy_sha256": "251c0bd948945a75951b26e8d5fe9851e9d0cfccfc33304a82dea5f58e154468",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c10",
+        "source": "eCFR Title 14, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "14 CFR 374a.4, citing 49 U.S.C. 1377; the U.S. Code gives one or more of: 49 U.S.C. 41708; 49 U.S.C. 41709",
+        "text": "204, 407 of the Federal Aviation Act of 1958, as amended, 72 Stat. 743, 766; 49 U.S.C. 1324, 1377. Sec. 401 of the Federal Election Campaign Act of 1971,",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-14.xml",
+        "sha256": "098120edc1a787a87b17674bd1a0fa38b10fb9938c61c9db8143c807e83d7810",
+        "retrieved": "2026-10-29",
+        "copy": "sources/251c0bd948945a75-ecfr-2026-10-27-title-14-citing.txt",
+        "copy_sha256": "251c0bd948945a75951b26e8d5fe9851e9d0cfccfc33304a82dea5f58e154468",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 1374, OLRC release point 119-134, no element carries this number",
+        "text": "Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 1377, OLRC release point 119-134, no element carries this number",
+        "text": "Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 1482, OLRC release point 119-134, no element carries this number",
+        "text": "Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 1386, OLRC release point 119-134, no element carries this number",
+        "text": "Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u5",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 1371, OLRC release point 119-134, no element carries this number",
+        "text": "Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u6",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 1372, OLRC release point 119-134, no element carries this number",
+        "text": "Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u7",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "2 U.S.C. 451, OLRC release point 119-134, element /us/usc/t2/s451",
+        "text": "§ 451. Transferred Editorial Notes Codification Section 451 was editorially reclassified as section 30141 of Title 52, Voting and Elections.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/23bb19794e570c39-olrc-119-134-title-2-records.txt",
+        "copy_sha256": "23bb19794e570c39f0a1f9193cbcbdf804eedba228aa2dd6f8d1cc3f4b47df33",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of Transportation",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Transportation",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Transportation (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

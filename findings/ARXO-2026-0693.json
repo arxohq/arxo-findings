@@ -1,0 +1,177 @@
+{
+  "id": "ARXO-2026-0693",
+  "url": "https://arxo.io/findings/ARXO-2026-0693/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "12 CFR parts 624, 628",
+  "text": {
+    "en": {
+      "title": "Farm Credit Administration: 2 references with a wrong U.S. Code section or act name",
+      "summary": "In the CFR chapters assigned to the Farm Credit Administration, 2 references in 2 sections cite the U.S. Code or an act with an error: 2 name an act differently from the U.S. Code. Each reference was compared with release point 119-134 of the U.S. Code published by the Office of the Law Revision Counsel.",
+      "impact": "A reader who follows these references reaches a different section or looks for an act under a name the U.S. Code does not use. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to correct each reference. Where the U.S. Code shows the section or the name intended, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 624.2, citing \"Employee Retirement Income and Security Act of 1974\" (29 U.S.C. 1002); the U.S. Code gives Employee Retirement Income Security Act of 1974",
+        "text": "(32) of section 3 of the Employee Retirement Income and Security Act of 1974 (29 U.S.C. 1002); (x) An entity that is organized as an insurance company,",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/bbc7801f09f782c7-ecfr-2026-10-27-title-12-citing.txt",
+        "copy_sha256": "bbc7801f09f782c76a7f20fe47b22b90bb49ccb0cbc5bb6da12737d02f9eeb85",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 628.2, citing \"Employee Retirement Income and Security Act of 1974\" (29 U.S.C. 1001); the U.S. Code gives Employee Retirement Income Security Act of 1974",
+        "text": "ERISA means the Employee Retirement Income and Security Act of 1974 (29 U.S.C. 1001 et seq.). Exchange rate derivative contract means a cross-c",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/bbc7801f09f782c7-ecfr-2026-10-27-title-12-citing.txt",
+        "copy_sha256": "bbc7801f09f782c76a7f20fe47b22b90bb49ccb0cbc5bb6da12737d02f9eeb85",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "29 U.S.C. 1002, OLRC release point 119-134, element /us/usc/t29/s1002",
+        "text": "§ 1002. Definitions For purposes of this subchapter:(1) The terms \"employee welfare benefit plan\" and \"welfare plan\" mean any plan, fund, or program which was heretofore or is hereafter established or maintained by an employer or by an employee organization, or by both, to the extent that such plan,",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/3cf2b9a2467ea7de-olrc-119-134-title-29-records.txt",
+        "copy_sha256": "3cf2b9a2467ea7de2e93bdb9ac421dbe0208255104a6b2c61fe2b707bb0b2c19",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "n1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "/us/usc/t29/s441, OLRC release point 119-134: name of the act",
+        "text": "Surety company reports; contents; waiver or modification of requirements respecting contents of reports Each surety company which issues any bond required by this chapter or the Employee Retirement Income Security Act of 1974 [29 U.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/3cf2b9a2467ea7de-olrc-119-134-title-29-records.txt",
+        "copy_sha256": "3cf2b9a2467ea7de2e93bdb9ac421dbe0208255104a6b2c61fe2b707bb0b2c19",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "29 U.S.C. 1001, OLRC release point 119-134, element /us/usc/t29/s1001",
+        "text": "§ 1001. Congressional findings and declaration of policy(a) Benefit plans as affecting interstate commerce and the Federal taxing powerThe Congress finds that the growth in size, scope, and numbers of employee benefit plans in recent years has been rapid and substantial; that the operational scope a",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/3cf2b9a2467ea7de-olrc-119-134-title-29-records.txt",
+        "copy_sha256": "3cf2b9a2467ea7de2e93bdb9ac421dbe0208255104a6b2c61fe2b707bb0b2c19",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Farm Credit Administration",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Farm Credit Administration",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Farm Credit Administration (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

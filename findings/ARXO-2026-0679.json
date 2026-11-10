@@ -1,0 +1,145 @@
+{
+  "id": "ARXO-2026-0679",
+  "url": "https://arxo.io/findings/ARXO-2026-0679/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "15 CFR part 990",
+  "text": {
+    "en": {
+      "title": "Department of Commerce: 1 reference with a wrong U.S. Code section or act name",
+      "summary": "In the CFR chapters assigned to the Department of Commerce, 1 reference in 1 section cites the U.S. Code or an act with an error: 1 names an act differently from the U.S. Code. Each reference was compared with release point 119-134 of the U.S. Code published by the Office of the Law Revision Counsel.",
+      "impact": "A reader who follows these references reaches a different section or looks for an act under a name the U.S. Code does not use. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to correct each reference. Where the U.S. Code shows the section or the name intended, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 15, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "15 CFR 990.41, citing \"Trans-Alaska Pipeline Authority Act\" (43 U.S.C. 1651); the U.S. Code gives Trans-Alaska Pipeline Authorization Act",
+        "text": "From an onshore facility subject to the Trans-Alaska Pipeline Authority Act, 43 U.S.C. 1651, et seq.; and (3) Natural resources under the trusteeship",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-15.xml",
+        "sha256": "5c87b7a597951074aa048589731468ae8df3ef87964bb11ecc70d51d8ab15cd1",
+        "retrieved": "2026-10-29",
+        "copy": "sources/c79e45453b6aca5a-ecfr-2026-10-27-title-15-citing.txt",
+        "copy_sha256": "c79e45453b6aca5a97888dbd5d75a6e5a3835728e15a200ffbc04d0d5b5ab91e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "43 U.S.C. 1651, OLRC release point 119-134, element /us/usc/t43/s1651",
+        "text": "§ 1651. Congressional findings and declaration The Congress finds and declares that:(a) The early development and delivery of oil and gas from Alaska's North Slope to domestic markets is in the national interest because of growing domestic shortages and increasing dependence upon insecure foreign so",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/81dc7b05d27f98a9-olrc-119-134-title-43-records.txt",
+        "copy_sha256": "81dc7b05d27f98a9fe29e71a57b223e8bd28f06617bae826c33f6da8bf384700",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "n1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "/us/usc/t43/s1608, OLRC release point 119-134: name of the act",
+        "text": "ance paymentsThe payments required by this section shall continue only until a sum of $500,000,000 has been paid into the Alaska Native Fund less the total of advance payments paid into the Alaska Native Fund pursuant to section 407 of the Trans-Alaska Pipeline Authorization Act.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/81dc7b05d27f98a9-olrc-119-134-title-43-records.txt",
+        "copy_sha256": "81dc7b05d27f98a9fe29e71a57b223e8bd28f06617bae826c33f6da8bf384700",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of Commerce",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Commerce",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Commerce (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

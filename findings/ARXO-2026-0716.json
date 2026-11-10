@@ -1,0 +1,129 @@
+{
+  "id": "ARXO-2026-0716",
+  "url": "https://arxo.io/findings/ARXO-2026-0716/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "12 CFR part 34; 26 CFR part 54",
+  "text": {
+    "en": {
+      "title": "Department of the Treasury: 2 references to provisions removed or redesignated by 2026 rules",
+      "summary": "In the CFR chapters assigned to the Department of the Treasury, 2 references in 2 sections still use an address that a 2026 final rule changed: 2 cite a paragraph that a 2026 final rule removed or redesignated. Each rule was published in the Federal Register and in effect by October 27, 2026; the eCFR of that date keeps the old address.",
+      "impact": "A reader who follows these references finds no text at the cited address, or text that the rule moved there from another paragraph. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the 2026 rule redesignated the paragraph, the evidence below gives the new designation."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 34.24, citing 12 CFR 34.2(b); now 12 CFR 34.2(c)",
+        "text": "For purposes of this section, the term \"State\" shall have the same meaning as set forth in § 34.2(b).",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/bbc7801f09f782c7-ecfr-2026-10-27-title-12-citing.txt",
+        "copy_sha256": "bbc7801f09f782c76a7f20fe47b22b90bb49ccb0cbc5bb6da12737d02f9eeb85",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 26, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "26 CFR 54.9816-8(c)(4)(i)(A), citing 29 CFR 2590.716-8(c)(4)(i)(A); now 29 CFR 2590.716-8(c)(5)(i)(A)",
+        "text": "(A) For further guidance, see 29 CFR 2590.716-8(c)(4)(i)(A):",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-26.xml",
+        "sha256": "80ccd6067af0125ceca27f9c388b8572823265a41a54178055f3ed0d2b610e1b",
+        "retrieved": "2026-10-29",
+        "copy": "sources/0937f06ced0c0371-ecfr-2026-10-27-title-26-citing.txt",
+        "copy_sha256": "0937f06ced0c037195212490e2a7f1cb6f7423df16414b00a33448afd37957ec",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of the Treasury",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of the Treasury",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of the Treasury (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

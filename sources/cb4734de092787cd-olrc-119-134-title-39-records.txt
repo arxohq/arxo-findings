@@ -1,0 +1,4 @@
+Records of United States Code Title 39, OLRC release point 119-134 (usc-119-134/usc39.xml, sha256 13a9a7e33ba81c05df5f0ff51c67b6ef46ccd9b1ff3c57b95a104fbc8a2e6d40).
+Each line: the cited number, then the start of the section element that carries it (a single section or a block of sections), or the section numbers of the title in order around the cited number when no element carries it; or a sentence of the title that names the act.
+
+39 U.S.C. 5201: [§§ 5201 to 5215. Repealed. Pub.

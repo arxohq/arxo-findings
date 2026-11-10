@@ -1,0 +1,193 @@
+{
+  "id": "ARXO-2026-0726",
+  "url": "https://arxo.io/findings/ARXO-2026-0726/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "28 CFR parts 802, 811",
+  "text": {
+    "en": {
+      "title": "Court Services and Offender Supervision Agency for the District of Columbia: 3 references to U.S. Code sections repealed, omitted or not in the Code",
+      "summary": "In the CFR chapters assigned to the Court Services and Offender Supervision Agency for the District of Columbia, 3 references in 2 sections cite a U.S. Code section that release point 119-134 of the U.S. Code does not carry in force: 3 cite a repealed section. The release names no successor for these sections.",
+      "impact": "A reader who follows these references does not reach the text the rule relies on. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides whether to remove or replace each reference. The U.S. Code names no successor for these sections."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 28, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "28 CFR 802.27, citing 42 U.S.C. 10606",
+        "text": "found at 42 U.S.C. 290dd and 42 CFR 2.1 et seq.; (3) The Victims Rights Act, 42 U.S.C. 10606(b); (4) D.C. statutes and regulations; (5) Any other state",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-28.xml",
+        "sha256": "54ed565e82b6af1aa8cc7fd34bfb0d0ac5d978c560413a4567c66d85660acbf9",
+        "retrieved": "2026-10-29",
+        "copy": "sources/add9cbce56c43c4f-ecfr-2026-10-27-title-28-citing.txt",
+        "copy_sha256": "add9cbce56c43c4f369ecfbcb41cff793478f95b3d0278968a842dda0bbb31d8",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 28, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "28 CFR 811.3, citing 18 U.S.C. 4209",
+        "text": "042(c) (relating to notice by Federal Bureau of Prisons and probation offices); 18 U.S.C. 3563(a)(8), 3583(d), 4209(a) (inclusion of registration requirements as conditions of",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-28.xml",
+        "sha256": "54ed565e82b6af1aa8cc7fd34bfb0d0ac5d978c560413a4567c66d85660acbf9",
+        "retrieved": "2026-10-29",
+        "copy": "sources/add9cbce56c43c4f-ecfr-2026-10-27-title-28-citing.txt",
+        "copy_sha256": "add9cbce56c43c4f369ecfbcb41cff793478f95b3d0278968a842dda0bbb31d8",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 28, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "28 CFR 811.3, citing 42 U.S.C. 14071",
+        "text": "of registration requirements as conditions of release under federal law); 42 U.S.C. 14071(b)(1) (notice under federal law standards for state sex",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-28.xml",
+        "sha256": "54ed565e82b6af1aa8cc7fd34bfb0d0ac5d978c560413a4567c66d85660acbf9",
+        "retrieved": "2026-10-29",
+        "copy": "sources/add9cbce56c43c4f-ecfr-2026-10-27-title-28-citing.txt",
+        "copy_sha256": "add9cbce56c43c4f369ecfbcb41cff793478f95b3d0278968a842dda0bbb31d8",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "42 U.S.C. 10606, OLRC release point 119-134, element /us/usc/t42/s10606",
+        "text": "§ 10606. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/181c271e86bdf9fb-olrc-119-134-title-42-records.txt",
+        "copy_sha256": "181c271e86bdf9fb40082644ce23542bac5aa6857596f18c43d63c281004c1ec",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "18 U.S.C. 4209, OLRC release point 119-134, element /us/usc/t18/s4201...4218",
+        "text": "[§§ 4201 to 4218. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/8f6cd31827277694-olrc-119-134-title-18-records.txt",
+        "copy_sha256": "8f6cd3182727769481b3996f4fce375bb0a92d61bceac9ac4ec97d8c688d5267",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "42 U.S.C. 14071, OLRC release point 119-134, element /us/usc/t42/s14071...14073",
+        "text": "§§ 14071 to 14073. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/181c271e86bdf9fb-olrc-119-134-title-42-records.txt",
+        "copy_sha256": "181c271e86bdf9fb40082644ce23542bac5aa6857596f18c43d63c281004c1ec",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Court Services and Offender Supervision Agency for the District of Columbia",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Court Services and Offender Supervision Agency for the District of Columbia",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Court Services and Offender Supervision Agency for the District of Columbia (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

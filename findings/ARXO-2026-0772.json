@@ -1,0 +1,193 @@
+{
+  "id": "ARXO-2026-0772",
+  "url": "https://arxo.io/findings/ARXO-2026-0772/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "29 CFR parts 1606, 1620, 1691",
+  "text": {
+    "en": {
+      "title": "Equal Employment Opportunity Commission: 3 references to U.S. Code sections repealed, omitted or not in the Code",
+      "summary": "In the CFR chapters assigned to the Equal Employment Opportunity Commission, 3 references in 3 sections cite a U.S. Code section that release point 119-134 of the U.S. Code does not carry in force: 3 cite a number the Code does not have. The release names no successor for these sections.",
+      "impact": "A reader who follows these references does not reach the text the rule relies on. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides whether to remove or replace each reference. The U.S. Code names no successor for these sections."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 29, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "29 CFR 1606.5, citing 31 U.S.C. 699",
+        "text": "Mfg. Co., Inc., 414 U.S. 86, 92 (1973). See also, E.O. 11935, 5 CFR 7.4; and 31 U.S.C. 699(b), for citizenship requirements in certain Federal",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-29.xml",
+        "sha256": "cf4b36bfb10504beedb246e95a94a02951731a236696a9be3194eedbc8e71817",
+        "retrieved": "2026-10-29",
+        "copy": "sources/dd25fcc26cd6ad4b-ecfr-2026-10-27-title-29-citing.txt",
+        "copy_sha256": "dd25fcc26cd6ad4bcb3a9af5cda4bbaee5b659b49d19dd94d01e9d020406ea51",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 29, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "29 CFR 1620.27, citing 42 U.S.C. 200e",
+        "text": "of both the EPA and title VII of the Civil Rights Act of 1964, as amended, 42 U.S.C. 200e et seq., are satisfied, any violation of the Equal Pay",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-29.xml",
+        "sha256": "cf4b36bfb10504beedb246e95a94a02951731a236696a9be3194eedbc8e71817",
+        "retrieved": "2026-10-29",
+        "copy": "sources/dd25fcc26cd6ad4b-ecfr-2026-10-27-title-29-citing.txt",
+        "copy_sha256": "dd25fcc26cd6ad4bcb3a9af5cda4bbaee5b659b49d19dd94d01e9d020406ea51",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 29, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "29 CFR 1691.13, citing 31 U.S.C. 1221",
+        "text": "act refers to the State and Local Fiscal Assistance Act of 1972, as amended, 31 U.S.C. 1221 et seq. (i) Title VI refers to title VI of the Civil",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-29.xml",
+        "sha256": "cf4b36bfb10504beedb246e95a94a02951731a236696a9be3194eedbc8e71817",
+        "retrieved": "2026-10-29",
+        "copy": "sources/dd25fcc26cd6ad4b-ecfr-2026-10-27-title-29-citing.txt",
+        "copy_sha256": "dd25fcc26cd6ad4bcb3a9af5cda4bbaee5b659b49d19dd94d01e9d020406ea51",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "31 U.S.C. 699, OLRC release point 119-134, no element carries this number",
+        "text": "Title 31, sections in order: 507, 521, 522, 701, 702, 703",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/1ab28e8edfd99046-olrc-119-134-title-31-records.txt",
+        "copy_sha256": "1ab28e8edfd990460666093c463424a2e53997caf909d9d560d2d78be1bbc666",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "42 U.S.C. 200e, OLRC release point 119-134, no element carries this number",
+        "text": "Title 42, sections in order: 192, 193, 194, 201, 202, 203",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/181c271e86bdf9fb-olrc-119-134-title-42-records.txt",
+        "copy_sha256": "181c271e86bdf9fb40082644ce23542bac5aa6857596f18c43d63c281004c1ec",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "31 U.S.C. 1221, OLRC release point 119-134, no element carries this number",
+        "text": "Title 31, sections in order: 1124, 1125, 1126, 1301, 1302, 1303",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/1ab28e8edfd99046-olrc-119-134-title-31-records.txt",
+        "copy_sha256": "1ab28e8edfd990460666093c463424a2e53997caf909d9d560d2d78be1bbc666",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Equal Employment Opportunity Commission",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Equal Employment Opportunity Commission",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Equal Employment Opportunity Commission (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "id": "ARXO-2026-0680",
+  "url": "https://arxo.io/findings/ARXO-2026-0680/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "32 CFR parts 536, 757; 48 CFR parts 209, 252",
+  "text": {
+    "en": {
+      "title": "Department of Defense: 5 references with a wrong U.S. Code section or act name",
+      "summary": "In the CFR chapters assigned to the Department of Defense, 5 references in 5 sections cite the U.S. Code or an act with an error: 3 name a U.S. Code section that is not part of the act named next to it; 2 name an act differently from the U.S. Code. Each reference was compared with release point 119-134 of the U.S. Code published by the Office of the Law Revision Counsel.",
+      "impact": "A reader who follows these references reaches a different section or looks for an act under a name the U.S. Code does not use. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to correct each reference. Where the U.S. Code shows the section or the name intended, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 32, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "32 CFR 536.28, citing \"Health Care Portability and Accountability Act\" (42 U.S.C. 1320d-1320d-8); the U.S. Code gives Health Insurance Portability and Accountability Act of 1996",
+        "text": "as required by the Health Care Portability and Accountability Act (HIPAA), 42 U.S.C. 1320d-1320d-8. See the parallel discussion at DA Pam 27-162, paragraph 2-",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-32.xml",
+        "sha256": "723c57463ed546d086b4161d8108617f09d115bf3661be806a64ef21b4abae58",
+        "retrieved": "2026-10-29",
+        "copy": "sources/de73862ead5650b4-ecfr-2026-10-27-title-32-citing.txt",
+        "copy_sha256": "de73862ead5650b4bb6e264d3ae9f03d00c3727b3a34aeff118c195c42a63412",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 32, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "32 CFR 757.2, citing \"Federal Collections Claims Act\" (31 U.S.C. 3711); the U.S. Code gives Federal Claims Collection Act",
+        "text": "States are processed in accordance with the Federal Collections Claims Act (31 U.S.C. 3711), as amended by the Debt Collection Act of 1982, PL 97-365,",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-32.xml",
+        "sha256": "723c57463ed546d086b4161d8108617f09d115bf3661be806a64ef21b4abae58",
+        "retrieved": "2026-10-29",
+        "copy": "sources/de73862ead5650b4-ecfr-2026-10-27-title-32-citing.txt",
+        "copy_sha256": "de73862ead5650b4bb6e264d3ae9f03d00c3727b3a34aeff118c195c42a63412",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 48, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "48 CFR 209.572, citing 50 U.S.C. 4318; the U.S. Code gives 50 U.S.C. 4813",
+        "text": "(A) Section 1754(c)(1)(A) of the Export Control Reform Act of 2018 (50 U.S.C. 4318(c)(1)(A)). (B) Section 620A of the Foreign Assistance Act of 1961",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml",
+        "sha256": "baf513f7a0a161fe7510281743f608eaceb374817296613a2251d6e80afa4661",
+        "retrieved": "2026-10-29",
+        "copy": "sources/4346de1ccc8648b8-ecfr-2026-10-27-title-48-citing.txt",
+        "copy_sha256": "4346de1ccc8648b84882b59f892d1639f37f804ec3cab4c1ca4cb962dcd551d3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 48, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "48 CFR 252.209-7012, citing 50 U.S.C. 4318; the U.S. Code gives 50 U.S.C. 4813",
+        "text": "(i) Section 1754(c)(1)(A) of the Export Control Reform Act of 2018 (50 U.S.C. 4318(c)(1)(A)). (ii) Section 620A of the Foreign Assistance Act of 1961 (",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml",
+        "sha256": "baf513f7a0a161fe7510281743f608eaceb374817296613a2251d6e80afa4661",
+        "retrieved": "2026-10-29",
+        "copy": "sources/4346de1ccc8648b8-ecfr-2026-10-27-title-48-citing.txt",
+        "copy_sha256": "4346de1ccc8648b84882b59f892d1639f37f804ec3cab4c1ca4cb962dcd551d3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 48, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "48 CFR 252.225-7040, citing 18 U.S.C. 3621; the U.S. Code gives 18 U.S.C. 3261",
+        "text": "in accordance with the Military Extraterritorial Jurisdiction Act of 2000 (18 U.S.C. 3621, et seq.); (ii) Pursuant to the War Crimes Act (18 U.S.C.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml",
+        "sha256": "baf513f7a0a161fe7510281743f608eaceb374817296613a2251d6e80afa4661",
+        "retrieved": "2026-10-29",
+        "copy": "sources/4346de1ccc8648b8-ecfr-2026-10-27-title-48-citing.txt",
+        "copy_sha256": "4346de1ccc8648b84882b59f892d1639f37f804ec3cab4c1ca4cb962dcd551d3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "42 U.S.C. 1320d-1320d-8, OLRC release point 119-134, element /us/usc/t42/s1320d",
+        "text": "§ 1320d. Definitions For purposes of this part:(1) Code setThe term \"code set\" means any set of codes used for encoding data elements, such as tables of terms, medical concepts, medical diagnostic codes, or medical procedure codes. (2) Health care clearinghouseThe term \"health care clearinghouse\" me",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/181c271e86bdf9fb-olrc-119-134-title-42-records.txt",
+        "copy_sha256": "181c271e86bdf9fb40082644ce23542bac5aa6857596f18c43d63c281004c1ec",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "n1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "/us/usc/t42/s201, OLRC release point 119-134: name of the act",
+        "text": "1936, provided that: \"This Act [see Tables for classification] may be cited as the ‘Health Insurance Portability and Accountability Act of 1996'.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/181c271e86bdf9fb-olrc-119-134-title-42-records.txt",
+        "copy_sha256": "181c271e86bdf9fb40082644ce23542bac5aa6857596f18c43d63c281004c1ec",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "31 U.S.C. 3711, OLRC release point 119-134, element /us/usc/t31/s3711",
+        "text": "§ 3711. Collection and compromise(a) The head of an executive, judicial, or legislative agency-(1) shall try to collect a claim of the United States Government for money or property arising out of the activities of, or referred to, the agency; (2) may compromise a claim of the Government of not more",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/1ab28e8edfd99046-olrc-119-134-title-31-records.txt",
+        "copy_sha256": "1ab28e8edfd990460666093c463424a2e53997caf909d9d560d2d78be1bbc666",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "n2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "/us/usc/t31/s3711, OLRC release point 119-134: name of the act",
+        "text": "In subsection (c)(2), the words \"Notwithstanding any provision of the Federal Claims Collection Act of 1966\" are omitted as unnecessary.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/1ab28e8edfd99046-olrc-119-134-title-31-records.txt",
+        "copy_sha256": "1ab28e8edfd990460666093c463424a2e53997caf909d9d560d2d78be1bbc666",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u5",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "50 U.S.C. 4318, OLRC release point 119-134, element /us/usc/t50/s4318",
+        "text": "§ 4318. Claims of naturalized citizens as affected by expatriation The claim of any naturalized American citizen under the provisions of this chapter shall not be denied on the ground of any presumption of expatriation which has arisen against him, under the second sentence of section 2 of the Act e",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/a9f0d0d34973f6a6-olrc-119-134-title-50-records.txt",
+        "copy_sha256": "a9f0d0d34973f6a694a408f3869cac514492813a860fc369c56bfc89592519b3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u6",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "50 U.S.C. 4813, OLRC release point 119-134, element /us/usc/t50/s4813",
+        "text": "§ 4813. Additional authorities(a) In generalIn carrying out this subchapter on behalf of the President, the Secretary, in consultation with the Secretary of State, the Secretary of Defense, the Secretary of Energy, and the heads of other Federal agencies as appropriate, shall-(1) establish and maint",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/a9f0d0d34973f6a6-olrc-119-134-title-50-records.txt",
+        "copy_sha256": "a9f0d0d34973f6a694a408f3869cac514492813a860fc369c56bfc89592519b3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u7",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "18 U.S.C. 3621, OLRC release point 119-134, element /us/usc/t18/s3621",
+        "text": "§ 3621. Imprisonment of a convicted person(a) Commitment to Custody of Bureau of Prisons.-A person who has been sentenced to a term of imprisonment pursuant to the provisions of subchapter D of chapter 227 shall be committed to the custody of the Bureau of Prisons until the expiration of the term im",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/8f6cd31827277694-olrc-119-134-title-18-records.txt",
+        "copy_sha256": "8f6cd3182727769481b3996f4fce375bb0a92d61bceac9ac4ec97d8c688d5267",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u8",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "18 U.S.C. 3261, OLRC release point 119-134, element /us/usc/t18/s3261",
+        "text": "§ 3261. Criminal offenses committed by certain members of the Armed Forces and by persons employed by or accompanying the Armed Forces outside the United States(a) Whoever engages in conduct outside the United States that would constitute an offense punishable by imprisonment for more than 1 year if",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/8f6cd31827277694-olrc-119-134-title-18-records.txt",
+        "copy_sha256": "8f6cd3182727769481b3996f4fce375bb0a92d61bceac9ac4ec97d8c688d5267",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of Defense",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Defense",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Defense (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

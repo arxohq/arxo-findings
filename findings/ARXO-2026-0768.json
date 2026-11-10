@@ -1,0 +1,353 @@
+{
+  "id": "ARXO-2026-0768",
+  "url": "https://arxo.io/findings/ARXO-2026-0768/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "12 CFR parts 3, 4, 1501, 1510, 1808",
+  "text": {
+    "en": {
+      "title": "Department of the Treasury: 8 references to U.S. Code sections repealed, omitted or not in the Code (12 CFR)",
+      "summary": "In the CFR chapters assigned to the Department of the Treasury in 12 CFR, 8 references in 6 sections cite a U.S. Code section that release point 119-134 of the U.S. Code does not carry in force: 5 cite a number the Code does not have; 3 cite a repealed section. The release names no successor for these sections.",
+      "impact": "A reader who follows these references does not reach the text the rule relies on. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides whether to remove or replace each reference. The U.S. Code names no successor for these sections."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 1501.1, citing 12 U.S.C. 5136a",
+        "text": "Board in accordance with section 5136A(b)(1)(B)(i) of the Revised Statutes (12 U.S.C. 5136A(b)(1)(B)(i)). (2) Public notice. The Secretary may, as appropriate",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/bbc7801f09f782c7-ecfr-2026-10-27-title-12-citing.txt",
+        "copy_sha256": "bbc7801f09f782c76a7f20fe47b22b90bb49ccb0cbc5bb6da12737d02f9eeb85",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 1510.2, citing 12 U.S.C. 1421b",
+        "text": "of the Funding Corporation established pursuant to section 21B(c) of the Act (12 U.S.C. 1421b(c)). FDIC means the Federal Deposit Insurance Corporation",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/bbc7801f09f782c7-ecfr-2026-10-27-title-12-citing.txt",
+        "copy_sha256": "bbc7801f09f782c76a7f20fe47b22b90bb49ccb0cbc5bb6da12737d02f9eeb85",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 1808.309, citing 12 U.S.C. 47123a",
+        "text": "Pursuant to 12 U.S.C. 47123a(c)(5), Bond Loan proceeds shall not be used for: (a) Political ac",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/bbc7801f09f782c7-ecfr-2026-10-27-title-12-citing.txt",
+        "copy_sha256": "bbc7801f09f782c76a7f20fe47b22b90bb49ccb0cbc5bb6da12737d02f9eeb85",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 3.701, citing 12 U.S.C. 101",
+        "text": "provisions of law relating to the capital stock of national banks, other than 12 U.S.C. 101, 177, and 178 shall have the same meaning as the term capital set forth",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/bbc7801f09f782c7-ecfr-2026-10-27-title-12-citing.txt",
+        "copy_sha256": "bbc7801f09f782c76a7f20fe47b22b90bb49ccb0cbc5bb6da12737d02f9eeb85",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 3.701, citing 12 U.S.C. 177",
+        "text": "provisions of law relating to the capital stock of national banks, other than 12 U.S.C. 101, 177, and 178 shall have the same meaning as the term capital set forth",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/bbc7801f09f782c7-ecfr-2026-10-27-title-12-citing.txt",
+        "copy_sha256": "bbc7801f09f782c76a7f20fe47b22b90bb49ccb0cbc5bb6da12737d02f9eeb85",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c6",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 3.701, citing 12 U.S.C. 178",
+        "text": "provisions of law relating to the capital stock of national banks, other than 12 U.S.C. 101, 177, and 178 shall have the same meaning as the term capital set forth",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/bbc7801f09f782c7-ecfr-2026-10-27-title-12-citing.txt",
+        "copy_sha256": "bbc7801f09f782c76a7f20fe47b22b90bb49ccb0cbc5bb6da12737d02f9eeb85",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c7",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 4.31, citing 12 U.S.C. 5318",
+        "text": "Suspicious Activity Report (SAR) filed pursuant to the regulations implementing 12 U.S.C. 5318(g), or any information that would reveal the existence of a",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/bbc7801f09f782c7-ecfr-2026-10-27-title-12-citing.txt",
+        "copy_sha256": "bbc7801f09f782c76a7f20fe47b22b90bb49ccb0cbc5bb6da12737d02f9eeb85",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c8",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR part 4 (Authority), citing 15 U.S.C. 77uu",
+        "text": "2801 et seq., 2901 et seq., 3101 et seq., 3401 et seq., 5321, 5412, 5414; 15 U.S.C. 77uu(b), 78q(c)(3); 18 U.S.C. 641, 1905, 1906; 29 U.S.C. 1204; 31 U.S.C. 5318(",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/bbc7801f09f782c7-ecfr-2026-10-27-title-12-citing.txt",
+        "copy_sha256": "bbc7801f09f782c76a7f20fe47b22b90bb49ccb0cbc5bb6da12737d02f9eeb85",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "12 U.S.C. 5136a, OLRC release point 119-134, no element carries this number",
+        "text": "Title 12, sections in order: 5115, 5116, 5117, 5201, 5202, 5211",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/640e1d156c7a0247-olrc-119-134-title-12-records.txt",
+        "copy_sha256": "640e1d156c7a024703147e6c857a7ee783701b1c4d77d5f650fba01ab208028d",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "12 U.S.C. 1421b, OLRC release point 119-134, no element carries this number",
+        "text": "Title 12, sections in order: 1322, 1401...1404, 1421, 1422, 1423, 1424",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/640e1d156c7a0247-olrc-119-134-title-12-records.txt",
+        "copy_sha256": "640e1d156c7a024703147e6c857a7ee783701b1c4d77d5f650fba01ab208028d",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "12 U.S.C. 47123a, OLRC release point 119-134, no element carries this number",
+        "text": "Title 12, sections in order: 5914, 5915, 5916",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/640e1d156c7a0247-olrc-119-134-title-12-records.txt",
+        "copy_sha256": "640e1d156c7a024703147e6c857a7ee783701b1c4d77d5f650fba01ab208028d",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "12 U.S.C. 101, OLRC release point 119-134, element /us/usc/t12/s101...110",
+        "text": "§§ 101 to 110. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/640e1d156c7a0247-olrc-119-134-title-12-records.txt",
+        "copy_sha256": "640e1d156c7a024703147e6c857a7ee783701b1c4d77d5f650fba01ab208028d",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u5",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "12 U.S.C. 177, OLRC release point 119-134, element /us/usc/t12/s168...177",
+        "text": "§§ 168 to 177. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/640e1d156c7a0247-olrc-119-134-title-12-records.txt",
+        "copy_sha256": "640e1d156c7a024703147e6c857a7ee783701b1c4d77d5f650fba01ab208028d",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u6",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "12 U.S.C. 178, OLRC release point 119-134, element /us/usc/t12/s178",
+        "text": "§ 178. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/640e1d156c7a0247-olrc-119-134-title-12-records.txt",
+        "copy_sha256": "640e1d156c7a024703147e6c857a7ee783701b1c4d77d5f650fba01ab208028d",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u7",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "12 U.S.C. 5318, OLRC release point 119-134, no element carries this number",
+        "text": "Title 12, sections in order: 5302, 5303, 5311, 5321, 5322, 5323",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/640e1d156c7a0247-olrc-119-134-title-12-records.txt",
+        "copy_sha256": "640e1d156c7a024703147e6c857a7ee783701b1c4d77d5f650fba01ab208028d",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u8",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "15 U.S.C. 77uu, OLRC release point 119-134, no element carries this number",
+        "text": "Title 15, sections in order: 77kk, 77ll, 77mm, 77aaa, 77bbb, 77ccc",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/cc58c62d553ea135-olrc-119-134-title-15-records.txt",
+        "copy_sha256": "cc58c62d553ea1356385f785c803fa222b4c67e2dd8b58ec5b97a82cfa89bada",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of the Treasury",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of the Treasury",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of the Treasury (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "id": "ARXO-2026-0853",
+  "url": "https://arxo.io/findings/ARXO-2026-0853/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "6 CFR parts 9, 27, 37, 115",
+  "text": {
+    "en": {
+      "title": "Department of Homeland Security: 4 references to former U.S. Code sections or former act names (6 CFR)",
+      "summary": "In the CFR chapters assigned to the Department of Homeland Security in 6 CFR, 4 references in 4 sections use a former address or name: 4 cite a section transferred to another section. Each reference was compared with release point 119-134 of the U.S. Code, which names where the old number went.",
+      "impact": "A reader who follows these references finds a note that the section moved, or no section, instead of the text. A reference to a moved section may keep its legal effect, but the address no longer leads to the text. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the U.S. Code names the section the old number moved to, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 6, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "6 CFR 27.400, citing 6 U.S.C. 133; the U.S. Code gives 6 U.S.C. 673",
+        "text": "has been designated as Protected Critical Infrastructure Information under 6 U.S.C. 133, any covered person in possession of such information must",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-6.xml",
+        "sha256": "b29f3535af0edc51375ed11aea0d34a604df25aba050295fb49a4103af0af492",
+        "retrieved": "2026-10-29",
+        "copy": "sources/59ab42c38037135c-ecfr-2026-10-27-title-6-citing.txt",
+        "copy_sha256": "59ab42c38037135c1ce3c6a10d806b7a3d34e1fdb4805c02a74ce758085c4a06",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 6, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "6 CFR 37.3, citing 42 U.S.C. 13925",
+        "text": "64, Jan. 5, 2006); codified at section 40002, Definitions and grant provisions, 42 U.S.C. 13925, or State laws addressing domestic and dating violence.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-6.xml",
+        "sha256": "b29f3535af0edc51375ed11aea0d34a604df25aba050295fb49a4103af0af492",
+        "retrieved": "2026-10-29",
+        "copy": "sources/59ab42c38037135c-ecfr-2026-10-27-title-6-citing.txt",
+        "copy_sha256": "59ab42c38037135c1ce3c6a10d806b7a3d34e1fdb4805c02a74ce758085c4a06",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 6, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "6 CFR 9.2, citing 25 U.S.C. 450b",
+        "text": "in section 4 of the Indian Self-Determination and Education Assistance Act (25 U.S.C. 450B). Alaskan Natives are included under the definition of",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-6.xml",
+        "sha256": "b29f3535af0edc51375ed11aea0d34a604df25aba050295fb49a4103af0af492",
+        "retrieved": "2026-10-29",
+        "copy": "sources/59ab42c38037135c-ecfr-2026-10-27-title-6-citing.txt",
+        "copy_sha256": "59ab42c38037135c1ce3c6a10d806b7a3d34e1fdb4805c02a74ce758085c4a06",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 6, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "6 CFR part 115 (Authority), citing 8 U.S.C. 1251; the U.S. Code gives 8 U.S.C. 1227",
+        "text": "Authority:5 U.S.C. 301, 552, 552a; 8 U.S.C. 1103, 1182, 1223, 1224, 1225, 1226, 1227, 1228, 1231, 1251, 1253, 1255, 1330, 1362; 18 U.S.C. 4002, 4013(c)(4); Pub. L. 107-296, 116 Stat.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-6.xml",
+        "sha256": "b29f3535af0edc51375ed11aea0d34a604df25aba050295fb49a4103af0af492",
+        "retrieved": "2026-10-29",
+        "copy": "sources/59ab42c38037135c-ecfr-2026-10-27-title-6-citing.txt",
+        "copy_sha256": "59ab42c38037135c1ce3c6a10d806b7a3d34e1fdb4805c02a74ce758085c4a06",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "6 U.S.C. 133, OLRC release point 119-134, element /us/usc/t6/s131...134",
+        "text": "§§ 131 to 134. Transferred Editorial Notes Codification Section 131, Pub. L.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/307c906df70ed3ac-olrc-119-134-title-6-records.txt",
+        "copy_sha256": "307c906df70ed3ac8286bb98d6e632260394ad62e0aa66b429186a97527f7c36",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "42 U.S.C. 13925, OLRC release point 119-134, element /us/usc/t42/s13925",
+        "text": "§ 13925. Transferred Editorial Notes Codification Section 13925 was editorially reclassified as section 12291 of Title 34, Crime Control and Law Enforcement.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/181c271e86bdf9fb-olrc-119-134-title-42-records.txt",
+        "copy_sha256": "181c271e86bdf9fb40082644ce23542bac5aa6857596f18c43d63c281004c1ec",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "25 U.S.C. 450b, OLRC release point 119-134, element /us/usc/t25/s450b",
+        "text": "§ 450b. Transferred Editorial Notes Codification Section 450b was editorially reclassified as section 5304 of this title.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/a5512583c0fc537b-olrc-119-134-title-25-records.txt",
+        "copy_sha256": "a5512583c0fc537b33bc63771fd35a2fd616207aa195bbbe54e789ead9051c40",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "8 U.S.C. 1251, OLRC release point 119-134, element /us/usc/t8/s1251",
+        "text": "§ 1251. Transferred Editorial Notes Codification Section 1251, act June 27, 1952, ch. 477, title II, ch.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/fb52e5eb6c3f6fed-olrc-119-134-title-8-records.txt",
+        "copy_sha256": "fb52e5eb6c3f6fed5b2a985559e80c8e898f6132a21be05520b75aecc82f8221",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of Homeland Security",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Homeland Security",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Homeland Security (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

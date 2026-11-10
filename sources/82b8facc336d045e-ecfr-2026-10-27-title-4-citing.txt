@@ -1,0 +1,5 @@
+Citing passages in eCFR Title 4, snapshot of 2026-10-27 (title-4.xml, sha256 693843eefde703920263ff1c1f66f4afa544a53910150c9bfde2133ee81489ba).
+Each line: citing section and paragraph, then the passage as it reads in the section text.
+
+4 CFR 21.5: of orders issued under task or delivery order contracts. As established in 10 U.S.C. 2304c(e) and 41 U.S.C. 4106(f), GAO does not have jurisdiction to
+4 CFR part 82: Authority:31 U.S.C. 711, 713, 714, 718, 3523, 2524, 2526, and 3529.

@@ -1,0 +1,5 @@
+Records of United States Code Title 27, OLRC release point 119-134 (usc-119-134/usc27.xml, sha256 94c0ecf246bc0b2f93359a28b1abd7a50043dc4850f723a9b6fecc12ceec39fe).
+Each line: the cited number, then the start of the section element that carries it (a single section or a block of sections), or the section numbers of the title in order around the cited number when no element carries it; or a sentence of the title that names the act.
+
+27 U.S.C. 5056: Title 27, sections in order: 219, 219a, 221...228
+27 U.S.C. 5414: Title 27, sections in order: 219, 219a, 221...228

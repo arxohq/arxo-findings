@@ -1,0 +1,193 @@
+{
+  "id": "ARXO-2026-0705",
+  "url": "https://arxo.io/findings/ARXO-2026-0705/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "13 CFR parts 125, 129",
+  "text": {
+    "en": {
+      "title": "Small Business Administration: 2 references with a wrong U.S. Code section or act name",
+      "summary": "In the CFR chapters assigned to the Small Business Administration, 2 references in 2 sections cite the U.S. Code or an act with an error: 2 name an act differently from the U.S. Code. Each reference was compared with release point 119-134 of the U.S. Code published by the Office of the Law Revision Counsel.",
+      "impact": "A reader who follows these references reaches a different section or looks for an act under a name the U.S. Code does not use. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to correct each reference. Where the U.S. Code shows the section or the name intended, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 13, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "13 CFR 125.2, citing \"Arms Control Export Act\" (22 U.S.C. 2762); the U.S. Code gives Arms Export Control Act",
+        "text": "a foreign government pursuant to section 22 of the Arms Control Export Act (22 U.S.C. 2762), is humanitarian or civic assistance provided in",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-13.xml",
+        "sha256": "29edbdf16821d86b7c10bf8be8fad32c789be02e8fd3f9d4c47e89cfc0474600",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aee07d40fa3babec-ecfr-2026-10-27-title-13-citing.txt",
+        "copy_sha256": "aee07d40fa3babec64098c7e0ebfc6f16ce99400b8f44399e2600ef36bc0c0bb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 13, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "13 CFR 129.100, citing \"Robert T. Stafford Disaster Relief and Assistance Act\" (42 U.S.C. 5170); the U.S. Code gives Robert T. Stafford Disaster Relief and Emergency Assistance Act",
+        "text": "section 401 of the Robert T. Stafford Disaster Relief and Assistance Act (42 U.S.C. 5170), during the period of the declaration. Emergency",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-13.xml",
+        "sha256": "29edbdf16821d86b7c10bf8be8fad32c789be02e8fd3f9d4c47e89cfc0474600",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aee07d40fa3babec-ecfr-2026-10-27-title-13-citing.txt",
+        "copy_sha256": "aee07d40fa3babec64098c7e0ebfc6f16ce99400b8f44399e2600ef36bc0c0bb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "22 U.S.C. 2762, OLRC release point 119-134, element /us/usc/t22/s2762",
+        "text": "§ 2762. Procurement for cash sales(a) Authority of President; dependable undertaking by foreign country or international organization; interest ratesExcept as otherwise provided in this section, the President may, without requirement for charge to any appropriation or contract authorization otherwis",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/ea481d1be33ffb70-olrc-119-134-title-22-records.txt",
+        "copy_sha256": "ea481d1be33ffb70002f772a18ff922756613e4911537eaf436276925e338c3a",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "n1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "/us/usc/t22/s284ff, OLRC release point 119-134: name of the act",
+        "text": "2371], or section 40 of the Arms Export Control Act [22 U.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/ea481d1be33ffb70-olrc-119-134-title-22-records.txt",
+        "copy_sha256": "ea481d1be33ffb70002f772a18ff922756613e4911537eaf436276925e338c3a",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "42 U.S.C. 5170, OLRC release point 119-134, element /us/usc/t42/s5170",
+        "text": "§ 5170. Procedure for declaration(a) In generalAll requests for a declaration by the President that a major disaster exists shall be made by the Governor of the affected State. Such a request shall be based on a finding that the disaster is of such severity and magnitude that effective response is b",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/181c271e86bdf9fb-olrc-119-134-title-42-records.txt",
+        "copy_sha256": "181c271e86bdf9fb40082644ce23542bac5aa6857596f18c43d63c281004c1ec",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "n2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "/us/usc/t42/s204a, OLRC release point 119-134: name of the act",
+        "text": "1601 et seq.); (B) an emergency or major disaster declared by the President under the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/181c271e86bdf9fb-olrc-119-134-title-42-records.txt",
+        "copy_sha256": "181c271e86bdf9fb40082644ce23542bac5aa6857596f18c43d63c281004c1ec",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Small Business Administration",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Small Business Administration",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Small Business Administration (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

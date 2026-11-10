@@ -1,0 +1,7 @@
+Records of United States Code Title 11, OLRC release point 119-134 (usc-119-134/usc11.xml, sha256 90567b639cd4ffcff52688559f22e6a3fbfbccf21df840cc33a7125ab4e6d202).
+Each line: the cited number, then the start of the section element that carries it (a single section or a block of sections), or the section numbers of the title in order around the cited number when no element carries it; or a sentence of the title that names the act.
+
+11 U.S.C. 29: Title 11, sections in order: 101, 102, 103
+11 U.S.C. 32: Title 11, sections in order: 101, 102, 103
+11 U.S.C. 203: Title 11, sections in order: 110, 111, 112, 301, 302, 303
+11 U.S.C. 1821: Title 11, sections in order: 1530, 1531, 1532

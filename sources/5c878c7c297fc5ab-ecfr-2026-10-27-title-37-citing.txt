@@ -1,0 +1,8 @@
+Citing passages in eCFR Title 37, snapshot of 2026-10-27 (title-37.xml, sha256 8d4322405c67ef841916650e76ec56d50f0f538e7f5a4565608f5fb2b09b6089).
+Each line: citing section and paragraph, then the passage as it reads in the section text.
+
+37 CFR 1.102: examination under this paragraph may be granted in an application. (36 U.S.C. 6; 15 U.S.C. 1113, 1123)
+37 CFR 401.14: (c) and exempt from taxation under section 501(a) of the Internal Revenue Code (25 U.S.C. 501(a)) or any nonprofit scientific or educational organization
+37 CFR part 1: Authority:Sections 1.16 through 1.22 also issued under 35 U.S.C. 41, 111, 119, 120, 132(b), 156, 157, 255, 302, and 311, Public Laws 103-465, 106-113, and 112-29.
+37 CFR part 2: Authority:Secs. 2.11 to 2.19 also issued under 35 U.S.C. 31, 32.
+37 CFR part 302: Authority:5 U.S.C. 522.

@@ -1,0 +1,177 @@
+{
+  "id": "ARXO-2026-0773",
+  "url": "https://arxo.io/findings/ARXO-2026-0773/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "12 CFR parts 616, 617, 628",
+  "text": {
+    "en": {
+      "title": "Farm Credit Administration: 3 references to U.S. Code sections repealed, omitted or not in the Code",
+      "summary": "In the CFR chapters assigned to the Farm Credit Administration, 3 references in 3 sections cite a U.S. Code section that release point 119-134 of the U.S. Code does not carry in force: 2 cite a repealed section; 1 cites a number the Code does not have. The release names no successor for these sections.",
+      "impact": "A reader who follows these references does not reach the text the rule relies on. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides whether to remove or replace each reference. The U.S. Code names no successor for these sections."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR 628.2, citing 15 U.S.C. 78",
+        "text": "Commission. Securities Exchange Act means the Securities Exchange Act of 1934 (15 U.S.C. 78). Securitization exposure means: (1) An on-balance sheet",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/bbc7801f09f782c7-ecfr-2026-10-27-title-12-citing.txt",
+        "copy_sha256": "bbc7801f09f782c76a7f20fe47b22b90bb49ccb0cbc5bb6da12737d02f9eeb85",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR part 616 (Authority), citing 12 U.S.C. 2202c",
+        "text": "7, 5.9, 5.10, 5.17, 7.0, 7.2, 7.3, 7.6, 7.8, 7.12, 7.13 of the Farm Credit Act (12 U.S.C. 2011, 2013, 2014, 2015, 2017, 2018, 2019, 2071, 2073, 2074, 2075, 2091, 2093, 2094, 2097, 2121, 2122, 2124, 2128, 2129, 2130, 2131, 2141, 2149, 2154, 2154a, 2199, 2200, 2201, 2202, 2202a, 2202c, 2202d, 2202e, 2206, 2206a, 2211, 2212, 2213, 2214, 2219a, 2219b, 2243, 2244, 2252, 2279a, 2279a-2, 2279a-3, 2279b, 2279c-1, 2279f, 2279f-1).",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/bbc7801f09f782c7-ecfr-2026-10-27-title-12-citing.txt",
+        "copy_sha256": "bbc7801f09f782c76a7f20fe47b22b90bb49ccb0cbc5bb6da12737d02f9eeb85",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 12, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "12 CFR part 617 (Authority), citing 12 U.S.C. 2202c",
+        "text": ".13B, 4.14, 4.14A, 4.14C, 4.14D, 4.14E, 4.36, 5.9, 5.17 of the Farm Credit Act (12 U.S.C. 2199, 2200, 2201, 2202, 2202a, 2202c, 2202d, 2202e, 2219a, 2243, 2252).",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-12.xml",
+        "sha256": "3e088dc23255b39e5db788d7b26b3d600bfc2f6632d92939d4a70ebf67657365",
+        "retrieved": "2026-10-29",
+        "copy": "sources/bbc7801f09f782c7-ecfr-2026-10-27-title-12-citing.txt",
+        "copy_sha256": "bbc7801f09f782c76a7f20fe47b22b90bb49ccb0cbc5bb6da12737d02f9eeb85",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "15 U.S.C. 78, OLRC release point 119-134, no element carries this number",
+        "text": "Title 15, sections in order: 77zzz, 77aaaa, 77bbbb, 78a, 78b, 78c",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/cc58c62d553ea135-olrc-119-134-title-15-records.txt",
+        "copy_sha256": "cc58c62d553ea1356385f785c803fa222b4c67e2dd8b58ec5b97a82cfa89bada",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "12 U.S.C. 2202c, OLRC release point 119-134, element /us/usc/t12/s2202c",
+        "text": "§ 2202c. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/640e1d156c7a0247-olrc-119-134-title-12-records.txt",
+        "copy_sha256": "640e1d156c7a024703147e6c857a7ee783701b1c4d77d5f650fba01ab208028d",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Farm Credit Administration",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Farm Credit Administration",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Farm Credit Administration (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

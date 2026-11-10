@@ -1,0 +1,177 @@
+{
+  "id": "ARXO-2026-0714",
+  "url": "https://arxo.io/findings/ARXO-2026-0714/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "49 CFR parts 224, 238, 512, 535",
+  "text": {
+    "en": {
+      "title": "Department of Transportation: 5 references to provisions removed or redesignated by 2026 rules",
+      "summary": "In the CFR chapters assigned to the Department of Transportation, 5 references in 5 sections still use an address that a 2026 final rule changed: 3 cite a section or part that a 2026 final rule removed; 2 cite a paragraph that a 2026 final rule removed or redesignated. Each rule was published in the Federal Register and in effect by October 27, 2026; the eCFR of that date keeps the old address.",
+      "impact": "A reader who follows these references finds no text at the cited address, or text that the rule moved there from another paragraph. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the 2026 rule redesignated the paragraph, the evidence below gives the new designation."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR 238.321, citing 49 CFR 238.309(f); now 49 CFR 238.309(h)",
+        "text": "the number of out of service days shall be made in the records required under §§ 238.307(e) and 238.309(f). If the passenger car is out of service for one or more periods of at least",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR 535.6(a)(3)(ii), citing 40 CFR 600.510-12(k)",
+        "text": "vehicles using a weighted average of the manufacturer's emission results as specified in 40 CFR 600.510-12(k) for light-duty trucks.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR Appendix E to Part 512, citing 49 CFR part 599",
+        "text": "Counsel has determined that the following information required to be submitted to the agency under 49 CFR part 599, if released, is likely to cause substantial harm to the competitive position",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR Table 3 to Subpart B of Part 224, citing 49 CFR 224.107",
+        "text": "B of Part 224-Alternative Schedule for Application of Retroreflective Material to Freight Cars per § 224.107(a)(2)(ii)",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR Table 4 to Subpart B of Part 224, citing 49 CFR 224.107",
+        "text": "B of Part 224-Alternative Schedule for Application of Retroreflective Material to Locomotives per § 224.107(b)(2)(ii)",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of Transportation",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Transportation",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Transportation (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

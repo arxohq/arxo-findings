@@ -1,0 +1,289 @@
+{
+  "id": "ARXO-2026-0759",
+  "url": "https://arxo.io/findings/ARXO-2026-0759/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "22 CFR parts 218, 225, 229; 48 CFR parts 701, 750",
+  "text": {
+    "en": {
+      "title": "Agency for International Development: 6 references to U.S. Code sections repealed, omitted or not in the Code",
+      "summary": "In the CFR chapters of the Agency for International Development, 6 references in 6 sections cite a U.S. Code section that release point 119-134 of the U.S. Code does not carry in force: 3 cite a number the Code does not have; 2 cite a repealed section; 1 cites a section omitted from the Code. The release names no successor for these sections.",
+      "impact": "A reader who follows these references does not reach the text the rule relies on. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides whether to remove or replace each reference. The U.S. Code names no successor for these sections."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 22, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "22 CFR 229.105, citing 20 U.S.C. 8801",
+        "text": "Educational institution means a local educational agency (LEA) as defined by 20 U.S.C. 8801(18), a preschool, a private elementary or secondary school,",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-22.xml",
+        "sha256": "7c67421ae22d174738e8cc230cc34c9dfb0a7cea16a49d46beb8383774c5b797",
+        "retrieved": "2026-10-29",
+        "copy": "sources/5fbcf0e3a8487776-ecfr-2026-10-27-title-22-citing.txt",
+        "copy_sha256": "5fbcf0e3a8487776efcc56e30809581380af7a28a7431da04a6c1bf89817e0ad",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 22, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "22 CFR 229.125, citing 42 U.S.C. 298b-2",
+        "text": "CFR, 1978 Comp., p. 264; sections 704 and 855 of the Public Health Service Act (42 U.S.C. 295m, 298b-2); Title VII of the Civil Rights Act of 1964 (42 U.S.C.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-22.xml",
+        "sha256": "7c67421ae22d174738e8cc230cc34c9dfb0a7cea16a49d46beb8383774c5b797",
+        "retrieved": "2026-10-29",
+        "copy": "sources/5fbcf0e3a8487776-ecfr-2026-10-27-title-22-citing.txt",
+        "copy_sha256": "5fbcf0e3a8487776efcc56e30809581380af7a28a7431da04a6c1bf89817e0ad",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 22, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "22 CFR part 218 (Authority), citing 22 U.S.C. 2658",
+        "text": "Discrimination Act of 1975, as amended, 42 U.S.C. 6101 et seq.; 45 CFR part 90; 22 U.S.C. 2658, unless otherwise noted.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-22.xml",
+        "sha256": "7c67421ae22d174738e8cc230cc34c9dfb0a7cea16a49d46beb8383774c5b797",
+        "retrieved": "2026-10-29",
+        "copy": "sources/5fbcf0e3a8487776-ecfr-2026-10-27-title-22-citing.txt",
+        "copy_sha256": "5fbcf0e3a8487776efcc56e30809581380af7a28a7431da04a6c1bf89817e0ad",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 22, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "22 CFR part 225 (Authority), citing 42 U.S.C. 300v-1",
+        "text": "Authority:5 U.S.C. 301; 42 U.S.C. 300v-1(b), unless otherwise noted.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-22.xml",
+        "sha256": "7c67421ae22d174738e8cc230cc34c9dfb0a7cea16a49d46beb8383774c5b797",
+        "retrieved": "2026-10-29",
+        "copy": "sources/5fbcf0e3a8487776-ecfr-2026-10-27-title-22-citing.txt",
+        "copy_sha256": "5fbcf0e3a8487776efcc56e30809581380af7a28a7431da04a6c1bf89817e0ad",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 48, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "48 CFR 701.602-1, citing 41 U.S.C. 601-613",
+        "text": "appeal under the provisions of the Contract Disputes Act of 1978, as amended (41 U.S.C. 601-613), or other procedures, as applicable. Internal policy and",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml",
+        "sha256": "baf513f7a0a161fe7510281743f608eaceb374817296613a2251d6e80afa4661",
+        "retrieved": "2026-10-29",
+        "copy": "sources/4346de1ccc8648b8-ecfr-2026-10-27-title-48-citing.txt",
+        "copy_sha256": "4346de1ccc8648b84882b59f892d1639f37f804ec3cab4c1ca4cb962dcd551d3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c6",
+        "source": "eCFR Title 48, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "48 CFR 750.7101, citing 22 U.S.C. 2933",
+        "text": "Under section 633 of the Foreign Assistance Act of 1961, 75 Stat. 454 (22 U.S.C. 2933), as amended; Executive Order 11223, dated May 12, 1965, as",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-48.xml",
+        "sha256": "baf513f7a0a161fe7510281743f608eaceb374817296613a2251d6e80afa4661",
+        "retrieved": "2026-10-29",
+        "copy": "sources/4346de1ccc8648b8-ecfr-2026-10-27-title-48-citing.txt",
+        "copy_sha256": "4346de1ccc8648b84882b59f892d1639f37f804ec3cab4c1ca4cb962dcd551d3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "20 U.S.C. 8801, OLRC release point 119-134, element /us/usc/t20/s8801...8803",
+        "text": "§§ 8801 to 8803. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7d525eb3e5ba8f01-olrc-119-134-title-20-records.txt",
+        "copy_sha256": "7d525eb3e5ba8f010cbf8ecabebae684f32e22428bbf497af0d7b54f1891d9c5",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "42 U.S.C. 298b-2, OLRC release point 119-134, no element carries this number",
+        "text": "Title 42, sections in order: 297o, 297t, 298, 298d, 299, 299a",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/181c271e86bdf9fb-olrc-119-134-title-42-records.txt",
+        "copy_sha256": "181c271e86bdf9fb40082644ce23542bac5aa6857596f18c43d63c281004c1ec",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "22 U.S.C. 2658, OLRC release point 119-134, element /us/usc/t22/s2658",
+        "text": "§ 2658. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/ea481d1be33ffb70-olrc-119-134-title-22-records.txt",
+        "copy_sha256": "ea481d1be33ffb70002f772a18ff922756613e4911537eaf436276925e338c3a",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "42 U.S.C. 300v-1, OLRC release point 119-134, element /us/usc/t42/s300v...300v–3",
+        "text": "§§ 300v to 300v-3. Omitted Editorial Notes Codification Sections 300v to 300v-3, which provided for the establishment, duties, administration, funding, and termination of the President's Commission for the Study of Ethical Problems in Medicine and Biomedical and Behavioral Research, were omitted pursuant to section 300v-3, which provided for the Commission's termination on Dec. 31, 1982.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/181c271e86bdf9fb-olrc-119-134-title-42-records.txt",
+        "copy_sha256": "181c271e86bdf9fb40082644ce23542bac5aa6857596f18c43d63c281004c1ec",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u5",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "41 U.S.C. 601-613, OLRC release point 119-134, no element carries this number",
+        "text": "Title 41, sections in order: 151, 152, 153, 1101, 1102, 1121",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/49aeebaca9e367fa-olrc-119-134-title-41-records.txt",
+        "copy_sha256": "49aeebaca9e367fa15adeea4b41fe5d88efb8b2908f85c5e0a1ece93da210771",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u6",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "22 U.S.C. 2933, OLRC release point 119-134, no element carries this number",
+        "text": "Title 22, sections in order: 2904, 2905, 2906, 3001, 3002, 3003",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/ea481d1be33ffb70-olrc-119-134-title-22-records.txt",
+        "copy_sha256": "ea481d1be33ffb70002f772a18ff922756613e4911537eaf436276925e338c3a",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of State",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of State",
+      "role": "holds the functions or the CFR chapters of the Agency for International Development"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of State (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

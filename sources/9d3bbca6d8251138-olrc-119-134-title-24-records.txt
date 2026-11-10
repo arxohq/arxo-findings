@@ -1,0 +1,5 @@
+Records of United States Code Title 24, OLRC release point 119-134 (usc-119-134/usc24.xml, sha256 9c1317bea527e5cf9a8adf8facf81c221e07e54b8f7ccd9f65c24aefc75dbba3).
+Each line: the cited number, then the start of the section element that carries it (a single section or a block of sections), or the section numbers of the title in order around the cited number when no element carries it; or a sentence of the title that names the act.
+
+24 U.S.C. 1301: Title 24, sections in order: 424, 431...433, 441
+24 U.S.C. 1452: Title 24, sections in order: 424, 431...433, 441

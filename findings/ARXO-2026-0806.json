@@ -1,0 +1,209 @@
+{
+  "id": "ARXO-2026-0806",
+  "url": "https://arxo.io/findings/ARXO-2026-0806/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "13 CFR parts 107, 108, 113",
+  "text": {
+    "en": {
+      "title": "Small Business Administration: 4 references to U.S. Code sections repealed, omitted or not in the Code",
+      "summary": "In the CFR chapters assigned to the Small Business Administration, 4 references in 4 sections cite a U.S. Code section that release point 119-134 of the U.S. Code does not carry in force: 3 cite a number the Code does not have; 1 cites a repealed section. The release names no successor for these sections.",
+      "impact": "A reader who follows these references does not reach the text the rule relies on. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides whether to remove or replace each reference. The U.S. Code names no successor for these sections."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 13, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "13 CFR 107.50, citing 15 U.S.C. 8a-1",
+        "text": "Company (each as defined in the Investment Company Act of 1940, as amended (15 U.S.C. 8a-1 et seq.). (iv) A holding company of any entity described",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-13.xml",
+        "sha256": "29edbdf16821d86b7c10bf8be8fad32c789be02e8fd3f9d4c47e89cfc0474600",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aee07d40fa3babec-ecfr-2026-10-27-title-13-citing.txt",
+        "copy_sha256": "aee07d40fa3babec64098c7e0ebfc6f16ce99400b8f44399e2600ef36bc0c0bb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 13, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "13 CFR 108.50, citing 15 U.S.C. 8a-1",
+        "text": "Company (each as defined in the Investment Company Act of 1940, as amended (15 U.S.C. 8a-1 et seq.). (iv) A holding company of any entity described",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-13.xml",
+        "sha256": "29edbdf16821d86b7c10bf8be8fad32c789be02e8fd3f9d4c47e89cfc0474600",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aee07d40fa3babec-ecfr-2026-10-27-title-13-citing.txt",
+        "copy_sha256": "aee07d40fa3babec64098c7e0ebfc6f16ce99400b8f44399e2600ef36bc0c0bb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 13, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "13 CFR 113.105, citing 20 U.S.C. 8801",
+        "text": "Educational institution means a local educational agency (LEA) as defined by 20 U.S.C. 8801(18), a preschool, a private elementary or secondary school,",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-13.xml",
+        "sha256": "29edbdf16821d86b7c10bf8be8fad32c789be02e8fd3f9d4c47e89cfc0474600",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aee07d40fa3babec-ecfr-2026-10-27-title-13-citing.txt",
+        "copy_sha256": "aee07d40fa3babec64098c7e0ebfc6f16ce99400b8f44399e2600ef36bc0c0bb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 13, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "13 CFR 113.125, citing 42 U.S.C. 298b-2",
+        "text": "CFR, 1978 Comp., p. 264; sections 704 and 855 of the Public Health Service Act (42 U.S.C. 295m, 298b-2); Title VII of the Civil Rights Act of 1964 (42 U.S.C.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-13.xml",
+        "sha256": "29edbdf16821d86b7c10bf8be8fad32c789be02e8fd3f9d4c47e89cfc0474600",
+        "retrieved": "2026-10-29",
+        "copy": "sources/aee07d40fa3babec-ecfr-2026-10-27-title-13-citing.txt",
+        "copy_sha256": "aee07d40fa3babec64098c7e0ebfc6f16ce99400b8f44399e2600ef36bc0c0bb",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "15 U.S.C. 8a-1, OLRC release point 119-134, no element carries this number",
+        "text": "Title 15, sections in order: 7a-2, 7a-3, 8, 9, 10, 11",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/cc58c62d553ea135-olrc-119-134-title-15-records.txt",
+        "copy_sha256": "cc58c62d553ea1356385f785c803fa222b4c67e2dd8b58ec5b97a82cfa89bada",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "20 U.S.C. 8801, OLRC release point 119-134, element /us/usc/t20/s8801...8803",
+        "text": "§§ 8801 to 8803. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7d525eb3e5ba8f01-olrc-119-134-title-20-records.txt",
+        "copy_sha256": "7d525eb3e5ba8f010cbf8ecabebae684f32e22428bbf497af0d7b54f1891d9c5",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "42 U.S.C. 298b-2, OLRC release point 119-134, no element carries this number",
+        "text": "Title 42, sections in order: 297o, 297t, 298, 298d, 299, 299a",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/181c271e86bdf9fb-olrc-119-134-title-42-records.txt",
+        "copy_sha256": "181c271e86bdf9fb40082644ce23542bac5aa6857596f18c43d63c281004c1ec",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Small Business Administration",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Small Business Administration",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Small Business Administration (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

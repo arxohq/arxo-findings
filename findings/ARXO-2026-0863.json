@@ -1,0 +1,161 @@
+{
+  "id": "ARXO-2026-0863",
+  "url": "https://arxo.io/findings/ARXO-2026-0863/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "2 CFR part 2800",
+  "text": {
+    "en": {
+      "title": "Department of Justice: 3 references to former U.S. Code sections or former act names (2 CFR)",
+      "summary": "In the CFR chapters assigned to the Department of Justice in 2 CFR, 3 references in 3 sections use a former address or name: 3 cite a section transferred to another section. Each reference was compared with release point 119-134 of the U.S. Code, which names where the old number went.",
+      "impact": "A reader who follows these references finds a note that the section moved, or no section, instead of the text. A reference to a moved section may keep its legal effect, but the address no longer leads to the text. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the U.S. Code names the section the old number moved to, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 2, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "2 CFR 2800.313, citing 42 U.S.C. 3789",
+        "text": "Crime Control and Safe Streets Act of 1968, Public Law 90-351, section 808 (42 U.S.C. 3789), creates a special rule for disposition and use of",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-2.xml",
+        "sha256": "88efc21e190bff0473627df9dc30d52c277188e177f8bb13a92e3b025398490a",
+        "retrieved": "2026-10-29",
+        "copy": "sources/78c80e786ca46ff2-ecfr-2026-10-27-title-2-citing.txt",
+        "copy_sha256": "78c80e786ca46ff2268e68454e852b898730e570b2026add56aa85170304bd26",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 2, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "2 CFR 2800.314, citing 42 U.S.C. 3789",
+        "text": "Crime Control and Safe Streets Act of 1968, Public Law 90-351, section 808 (42 U.S.C. 3789) creates a special rule for disposition and use of",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-2.xml",
+        "sha256": "88efc21e190bff0473627df9dc30d52c277188e177f8bb13a92e3b025398490a",
+        "retrieved": "2026-10-29",
+        "copy": "sources/78c80e786ca46ff2-ecfr-2026-10-27-title-2-citing.txt",
+        "copy_sha256": "78c80e786ca46ff2268e68454e852b898730e570b2026add56aa85170304bd26",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 2, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "2 CFR part 2800 (Authority), citing 42 U.S.C. 3789",
+        "text": "Authority:5 U.S.C. 301; 28 U.S.C. 509; 28 U.S.C. 530C(a)(4); 42 U.S.C. 3789; 2 CFR part 200.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-2.xml",
+        "sha256": "88efc21e190bff0473627df9dc30d52c277188e177f8bb13a92e3b025398490a",
+        "retrieved": "2026-10-29",
+        "copy": "sources/78c80e786ca46ff2-ecfr-2026-10-27-title-2-citing.txt",
+        "copy_sha256": "78c80e786ca46ff2268e68454e852b898730e570b2026add56aa85170304bd26",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "42 U.S.C. 3789, OLRC release point 119-134, element /us/usc/t42/s3789",
+        "text": "§ 3789. Transferred Editorial Notes Codification Section 3789 was editorially reclassified as section 10227 of Title 34, Crime Control and Law Enforcement. Prior ProvisionsA prior section 3789, Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/181c271e86bdf9fb-olrc-119-134-title-42-records.txt",
+        "copy_sha256": "181c271e86bdf9fb40082644ce23542bac5aa6857596f18c43d63c281004c1ec",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of Justice",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Justice",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Justice (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

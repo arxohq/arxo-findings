@@ -1,0 +1,225 @@
+{
+  "id": "ARXO-2026-0727",
+  "url": "https://arxo.io/findings/ARXO-2026-0727/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "7 CFR parts 28, 29, 46",
+  "text": {
+    "en": {
+      "title": "Department of Agriculture: 4 references to U.S. Code sections repealed, omitted or not in the Code (7 CFR, chapter I, parts 28 to 46)",
+      "summary": "In the CFR chapters assigned to the Department of Agriculture in 7 CFR, chapter I, parts 28 to 46, 4 references in 4 sections cite a U.S. Code section that release point 119-134 of the U.S. Code does not carry in force: 3 cite a number the Code does not have; 1 cites a repealed section. The release names no successor for these sections.",
+      "impact": "A reader who follows these references does not reach the text the rule relies on. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides whether to remove or replace each reference. The U.S. Code names no successor for these sections."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 7, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "7 CFR 46.45, citing 7 U.S.C. 449b",
+        "text": "in the Act (7 U.S.C. 499 et seq.), in particular sections 2(5) and 8 (7 U.S.C. 449b(5) and 499h), § 46.45 of the Regulations (7 CFR 46.45), the Rules of",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-7.xml",
+        "sha256": "eec0248fe73821df50c3db7a5f134a7c1bf76a17e243e91a81370f89d77ed72a",
+        "retrieved": "2026-10-29",
+        "copy": "sources/a29f82a8cc57bbd5-ecfr-2026-10-27-title-7-citing.txt",
+        "copy_sha256": "a29f82a8cc57bbd51d535b4e460df4acddbaef5893b88d3284e565685d5a5131",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 7, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "7 CFR 46.46, citing 7 U.S.C. 499",
+        "text": "and persons subject to license are bound by the trust provisions of the Act (7 U.S.C. 499(e)). (2) Principals, including growers, who employ agents to",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-7.xml",
+        "sha256": "eec0248fe73821df50c3db7a5f134a7c1bf76a17e243e91a81370f89d77ed72a",
+        "retrieved": "2026-10-29",
+        "copy": "sources/a29f82a8cc57bbd5-ecfr-2026-10-27-title-7-citing.txt",
+        "copy_sha256": "a29f82a8cc57bbd51d535b4e460df4acddbaef5893b88d3284e565685d5a5131",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 7, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "7 CFR part 28 (Authority), citing 26 U.S.C. 4854",
+        "text": "sec. 6, 42 Stat. 1518, as amended, sec. 4854, 68A Stat. 580; 7 U.S.C. 56, 26 U.S.C. 4854.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-7.xml",
+        "sha256": "eec0248fe73821df50c3db7a5f134a7c1bf76a17e243e91a81370f89d77ed72a",
+        "retrieved": "2026-10-29",
+        "copy": "sources/a29f82a8cc57bbd5-ecfr-2026-10-27-title-7-citing.txt",
+        "copy_sha256": "a29f82a8cc57bbd51d535b4e460df4acddbaef5893b88d3284e565685d5a5131",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 7, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "7 CFR part 29 (Authority), citing 7 U.S.C. 511r",
+        "text": "Authority:Sections 29.2251 to 29.2481, issued under 7 U.S.C. 511m and 511r.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-7.xml",
+        "sha256": "eec0248fe73821df50c3db7a5f134a7c1bf76a17e243e91a81370f89d77ed72a",
+        "retrieved": "2026-10-29",
+        "copy": "sources/a29f82a8cc57bbd5-ecfr-2026-10-27-title-7-citing.txt",
+        "copy_sha256": "a29f82a8cc57bbd51d535b4e460df4acddbaef5893b88d3284e565685d5a5131",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "7 U.S.C. 449b, OLRC release point 119-134, no element carries this number",
+        "text": "Title 7, sections in order: 447, 448, 449, 450, 450a, 450b",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/0fb1a1176f5470d5-olrc-119-134-title-7-records.txt",
+        "copy_sha256": "0fb1a1176f5470d50b06596f4d6d10bea79725ff7079327f7cf0fc30d1f564a0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "7 U.S.C. 499, OLRC release point 119-134, no element carries this number",
+        "text": "Title 7, sections in order: 495, 496, 497, 499a, 499b, 499b-1",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/0fb1a1176f5470d5-olrc-119-134-title-7-records.txt",
+        "copy_sha256": "0fb1a1176f5470d50b06596f4d6d10bea79725ff7079327f7cf0fc30d1f564a0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "26 U.S.C. 4854, OLRC release point 119-134, no element carries this number",
+        "text": "Title 26, sections in order: 4681, 4682, 4701, 4901, 4902, 4903",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/0058b67471b98218-olrc-119-134-title-26-records.txt",
+        "copy_sha256": "0058b67471b9821892d810732f6217ad7446402e332667ae148122479bfe6fb8",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "7 U.S.C. 511r, OLRC release point 119-134, element /us/usc/t7/s511r",
+        "text": "§ 511r. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/0fb1a1176f5470d5-olrc-119-134-title-7-records.txt",
+        "copy_sha256": "0fb1a1176f5470d50b06596f4d6d10bea79725ff7079327f7cf0fc30d1f564a0",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of Agriculture",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Agriculture",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Agriculture (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "id": "ARXO-2026-0682",
+  "url": "https://arxo.io/findings/ARXO-2026-0682/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "10 CFR parts 501, 601, 810; 41 CFR part 109",
+  "text": {
+    "en": {
+      "title": "Department of Energy: 6 references with a wrong U.S. Code section or act name",
+      "summary": "In the CFR chapters assigned to the Department of Energy, 6 references in 6 sections cite the U.S. Code or an act with an error: 1 names a U.S. Code section that is not part of the act named next to it; 5 name an act differently from the U.S. Code. Each reference was compared with release point 119-134 of the U.S. Code published by the Office of the Law Revision Counsel.",
+      "impact": "A reader who follows these references reaches a different section or looks for an act under a name the U.S. Code does not use. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to correct each reference. Where the U.S. Code shows the section or the name intended, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 10, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "10 CFR 501.52, citing 15 U.S.C. 719; the U.S. Code gives 15 U.S.C. 791",
+        "text": "L. 93-319, as amended by Pub. L. 94-163, Pub. L. 95-70, and Pub. L. 95-620, 15 U.S.C. 719 et seq.; Powerplant and Industrial Fuel Use Act of 1978,",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-10.xml",
+        "sha256": "c7e3557556804cef758b9fae378471e2f467cdf9332cf71f3756744c875d9e0f",
+        "retrieved": "2026-10-29",
+        "copy": "sources/668fdf4eeb499afb-ecfr-2026-10-27-title-10-citing.txt",
+        "copy_sha256": "668fdf4eeb499afb068b106e8fe8a2f261ad8128efd6b50061e6790d425e8e5b",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 10, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "10 CFR 601.405, citing \"Program Fraud and Civil Remedies Act\" (31 U.S.C. 3803); the U.S. Code gives Program Fraud Civil Remedies Act of 1986",
+        "text": "pursuant to the provisions of the Program Fraud and Civil Remedies Act, 31 U.S.C. 3803 (except subsection (c)), 3804, 3805, 3806, 3807, 3808, and",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-10.xml",
+        "sha256": "c7e3557556804cef758b9fae378471e2f467cdf9332cf71f3756744c875d9e0f",
+        "retrieved": "2026-10-29",
+        "copy": "sources/668fdf4eeb499afb-ecfr-2026-10-27-title-10-citing.txt",
+        "copy_sha256": "668fdf4eeb499afb068b106e8fe8a2f261ad8128efd6b50061e6790d425e8e5b",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 10, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "10 CFR 810.2, citing \"Immigration and Naturalization Act\" (8 U.S.C. 1324b); the U.S. Code gives Immigration and Nationality Act",
+        "text": "or is a protected individual under the Immigration and Naturalization Act (8 U.S.C. 1324b(a)(3)). (d) Persons under U.S. jurisdiction are responsible for",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-10.xml",
+        "sha256": "c7e3557556804cef758b9fae378471e2f467cdf9332cf71f3756744c875d9e0f",
+        "retrieved": "2026-10-29",
+        "copy": "sources/668fdf4eeb499afb-ecfr-2026-10-27-title-10-citing.txt",
+        "copy_sha256": "668fdf4eeb499afb068b106e8fe8a2f261ad8128efd6b50061e6790d425e8e5b",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 10, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "10 CFR 810.3, citing \"Immigration and Naturalization Act\" (8 U.S.C. 1324b); the U.S. Code gives Immigration and Nationality Act",
+        "text": "and protected individuals under the Immigration and Naturalization Act (8 U.S.C. 1324b(a)(3)). Fundamental research means basic and applied research",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-10.xml",
+        "sha256": "c7e3557556804cef758b9fae378471e2f467cdf9332cf71f3756744c875d9e0f",
+        "retrieved": "2026-10-29",
+        "copy": "sources/668fdf4eeb499afb-ecfr-2026-10-27-title-10-citing.txt",
+        "copy_sha256": "668fdf4eeb499afb068b106e8fe8a2f261ad8128efd6b50061e6790d425e8e5b",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 10, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "10 CFR 810.7, citing \"Immigration and Naturalization Act\" (8 U.S.C. 1324b); the U.S. Code gives Immigration and Nationality Act",
+        "text": "or protected individuals under the Immigration and Naturalization Act (8 U.S.C. 1324b(a)(3)): (1) Uranium isotope separation (uranium enrichment),",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-10.xml",
+        "sha256": "c7e3557556804cef758b9fae378471e2f467cdf9332cf71f3756744c875d9e0f",
+        "retrieved": "2026-10-29",
+        "copy": "sources/668fdf4eeb499afb-ecfr-2026-10-27-title-10-citing.txt",
+        "copy_sha256": "668fdf4eeb499afb068b106e8fe8a2f261ad8128efd6b50061e6790d425e8e5b",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c6",
+        "source": "eCFR Title 41, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "41 CFR part 109-50 (Authority), citing \"American Technologies Preeminence Act of 1991\" (15 U.S.C. 3701); the U.S. Code gives American Technology Preeminence Act of 1991",
+        "text": "Act; Pub. L. 102-245, American Technologies Preeminence Act of 1991 (15 U.S.C. 3701); Office of Science Financial Assistance Program (10 CFR pa",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-41.xml",
+        "sha256": "1139cd88c0df8eee4058d83a960808d586c0c7d5667837811594b56529b4c040",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1d8c64c5ba75d6ae-ecfr-2026-10-27-title-41-citing.txt",
+        "copy_sha256": "1d8c64c5ba75d6aed0d92d7b7ca94bab8520b81750f23e5ad9cccf54739ef350",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "15 U.S.C. 719, OLRC release point 119-134, element /us/usc/t15/s719",
+        "text": "§ 719. Congressional findings The Congress finds and declares that-(1) a natural gas supply shortage exists in the contiguous States of the United States; (2) large reserves of natural gas in the State of Alaska could help significantly to alleviate this supply shortage; (3) the expeditious construc",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/cc58c62d553ea135-olrc-119-134-title-15-records.txt",
+        "copy_sha256": "cc58c62d553ea1356385f785c803fa222b4c67e2dd8b58ec5b97a82cfa89bada",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "15 U.S.C. 791, OLRC release point 119-134, element /us/usc/t15/s791",
+        "text": "§ 791. Congressional declaration of purpose The purposes of this chapter are (1) to provide for a means to assist in meeting the essential needs of the United States for fuels, in a manner which is consistent, to the fullest extent practicable, with existing national commitments to protect and impro",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/cc58c62d553ea135-olrc-119-134-title-15-records.txt",
+        "copy_sha256": "cc58c62d553ea1356385f785c803fa222b4c67e2dd8b58ec5b97a82cfa89bada",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "31 U.S.C. 3803, OLRC release point 119-134, element /us/usc/t31/s3803",
+        "text": "§ 3803. Hearing and determinations(a)(1) The investigating official of an authority may investigate allegations that a person is liable under section 3802 of this title and shall report the findings and conclusions of such investigation to the reviewing official of the authority. The preceding sente",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/1ab28e8edfd99046-olrc-119-134-title-31-records.txt",
+        "copy_sha256": "1ab28e8edfd990460666093c463424a2e53997caf909d9d560d2d78be1bbc666",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "n1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "/us/usc/t31/s3801, OLRC release point 119-134: name of the act",
+        "text": "2440, provided that: \"Any reference to the Program Fraud Civil Remedies Act of 1986 in any provision of law, regulation, map, document, record, or other paper of the United States shall be deemed a reference to the Administrative False Claims Act [see Short Title note below].",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/1ab28e8edfd99046-olrc-119-134-title-31-records.txt",
+        "copy_sha256": "1ab28e8edfd990460666093c463424a2e53997caf909d9d560d2d78be1bbc666",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u5",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "8 U.S.C. 1324b, OLRC release point 119-134, element /us/usc/t8/s1324b",
+        "text": "§ 1324b. Unfair immigration-related employment practices(a) Prohibition of discrimination based on national origin or citizenship status(1) General ruleIt is an unfair immigration-related employment practice for a person or other entity to discriminate against any individual (other than an unauthori",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/fb52e5eb6c3f6fed-olrc-119-134-title-8-records.txt",
+        "copy_sha256": "fb52e5eb6c3f6fed5b2a985559e80c8e898f6132a21be05520b75aecc82f8221",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "n2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "/us/usc/t8/s1101, OLRC release point 119-134: name of the act",
+        "text": "163, known as the Immigration and Nationality Act, which is classified principally to this chapter.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/fb52e5eb6c3f6fed-olrc-119-134-title-8-records.txt",
+        "copy_sha256": "fb52e5eb6c3f6fed5b2a985559e80c8e898f6132a21be05520b75aecc82f8221",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u7",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "15 U.S.C. 3701, OLRC release point 119-134, element /us/usc/t15/s3701",
+        "text": "§ 3701. Findings The Congress finds and declares that:(1) Technology and industrial innovation are central to the economic, environmental, and social well-being of citizens of the United States. (2) Technology and industrial innovation offer an improved standard of living, increased public and priva",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/cc58c62d553ea135-olrc-119-134-title-15-records.txt",
+        "copy_sha256": "cc58c62d553ea1356385f785c803fa222b4c67e2dd8b58ec5b97a82cfa89bada",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "n3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "/us/usc/t15/s3701, OLRC release point 119-134: name of the act",
+        "text": "e 42, enacting provisions set out as notes under this section, sections 271, 278f, 278n, and 1453 of this title, and section 6611 of Title 42, and amending provisions set out as a note under section 278l of this title] may be cited as the ‘American Technology Preeminence Act of 1991'.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/cc58c62d553ea135-olrc-119-134-title-15-records.txt",
+        "copy_sha256": "cc58c62d553ea1356385f785c803fa222b4c67e2dd8b58ec5b97a82cfa89bada",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Department of Energy",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Department of Energy",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Department of Energy (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

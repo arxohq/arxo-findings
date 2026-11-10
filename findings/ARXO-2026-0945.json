@@ -1,0 +1,289 @@
+{
+  "id": "ARXO-2026-0945",
+  "url": "https://arxo.io/findings/ARXO-2026-0945/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "49 CFR parts 1002, 1104, 1105, 1150, 1152",
+  "text": {
+    "en": {
+      "title": "Surface Transportation Board: 7 references to former U.S. Code sections or former act names",
+      "summary": "In the CFR chapters assigned to the Surface Transportation Board, 7 references in 7 sections use a former address or name: 5 cite a repealed section; 1 cites a renumbered section; 1 cites a section transferred to another section. Each reference was compared with release point 119-134 of the U.S. Code, which names where the old number went.",
+      "impact": "A reader who follows these references finds a note that the section moved, or no section, instead of the text. A reference to a moved section may keep its legal effect, but the address no longer leads to the text. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the U.S. Code names the section the old number moved to, the evidence below gives it."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR 1002.2, citing 45 U.S.C. 562; the U.S. Code gives one or more of: 49 U.S.C. 24308; 49 U.S.C. 24311; 49 U.S.C. 24904",
+        "text": "7) National Railroad Passenger Corporation (Amtrak) conveyance proceeding under 45 U.S.C. 562 $350 (48) National Railroad Passenger Corporation (Amtrak)",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR 1104.12, citing 49 U.S.C. 721; the U.S. Code gives 49 U.S.C. 1321",
+        "text": "of making service which must be consistent with this part). Signature Date (49 U.S.C. 721, 5 U.S.C. 553) (d) Service by the Board. Service of",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR 1105.1, citing 16 U.S.C. 470f; the U.S. Code gives 54 U.S.C. 306108",
+        "text": "C. 6362(b); and related laws, including the National Historic Preservation Act, 16 U.S.C. 470f, the Coastal Zone Management Act, 16 U.S.C. 1451, and the",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR 1150.32, citing 16 U.S.C. 470",
+        "text": "the requirements of Section 106 of the National Historic Preservation Act, 16 U.S.C. 470 is achieved. (e) If the projected annual revenue of the",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR 1150.42, citing 16 U.S.C. 470f; the U.S. Code gives 54 U.S.C. 306108",
+        "text": "the requirements of section 106 of the National Historic Preservation Act, 16 U.S.C. 470f, is achieved. (e) If the projected annual revenue of the",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c6",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR 1150.45, citing 16 U.S.C. 470f; the U.S. Code gives 54 U.S.C. 306108",
+        "text": "the requirements of section 106 of the National Historic Preservation Act, 16 U.S.C. 470f, is achieved.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c7",
+        "source": "eCFR Title 49, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "49 CFR 1152.22, citing 45 U.S.C. 501; the U.S. Code gives 49 U.S.C. 24101",
+        "text": "been taken for discontinuance pursuant to the Rail Passenger Service Act. (45 U.S.C. 501 et seq.) (h) Additional information. The applicant shall",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-49.xml",
+        "sha256": "fdaa7090b57ae72180ca21624e827a78966e12d7c21eab61cd0ad55316526548",
+        "retrieved": "2026-10-29",
+        "copy": "sources/1241a9ed793b72af-ecfr-2026-10-27-title-49-citing.txt",
+        "copy_sha256": "1241a9ed793b72af3a4907e811c7f95643ba5e9c5be333cb31c07736cdc7cf0e",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u1",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "45 U.S.C. 562, OLRC release point 119-134, element /us/usc/t45/s561...563",
+        "text": "§§ 561 to 563. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/5f551624d4951851-olrc-119-134-title-45-records.txt",
+        "copy_sha256": "5f551624d49518517018d945398542cf4126ddc7648d8f25c21d7a39dc5c75a4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u2",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "49 U.S.C. 721, OLRC release point 119-134, element /us/usc/t49/s721...724",
+        "text": "[§§ 721 to 724. Renumbered §§ 1321 to 1324]",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/7c8913306b4c433d-olrc-119-134-title-49-records.txt",
+        "copy_sha256": "7c8913306b4c433d1f31ef699455cd1089a4fc5fab5a8cdb84e7fa53c1c8a1f3",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u3",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "16 U.S.C. 470f, OLRC release point 119-134, element /us/usc/t16/s470f",
+        "text": "§ 470f. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/676bd06f99df3056-olrc-119-134-title-16-records.txt",
+        "copy_sha256": "676bd06f99df3056bbd9ff4fc63155cbe8acd6d40d12ed2204fdb1fdd65695c9",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u4",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "16 U.S.C. 470, OLRC release point 119-134, element /us/usc/t16/s470",
+        "text": "§ 470. Transferred or Omitted Editorial Notes Codification Section, Pub. L.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/676bd06f99df3056-olrc-119-134-title-16-records.txt",
+        "copy_sha256": "676bd06f99df3056bbd9ff4fc63155cbe8acd6d40d12ed2204fdb1fdd65695c9",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "u5",
+        "source": "United States Code, release point 119-134 of the Office of the Law Revision Counsel",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "OLRC release point 119-134",
+        "locator": "45 U.S.C. 501, OLRC release point 119-134, element /us/usc/t45/s501...502",
+        "text": "§§ 501 to 502. Repealed. Pub.",
+        "translations": {},
+        "url": "https://uscode.house.gov/download/releasepoints/us/pl/119/134/xml_uscAll@119-134.zip",
+        "sha256": "89b2012199b3ab06f009a42d7533225c8c4a4bb9e93f071b2cb9785224ef25ae",
+        "retrieved": null,
+        "copy": "sources/5f551624d4951851-olrc-119-134-title-45-records.txt",
+        "copy_sha256": "5f551624d49518517018d945398542cf4126ddc7648d8f25c21d7a39dc5c75a4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Surface Transportation Board",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Surface Transportation Board",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T15:15:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Surface Transportation Board (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}
