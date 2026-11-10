@@ -1,0 +1,102 @@
+Records of United States Code Title 46, OLRC release point 119-134 (usc-119-134/usc46.xml, sha256 fb1be6fe5f280d127c80412d78aef08f7ed60ff23fa6567c1bda48e7f178f6e9).
+Each line: the cited number, then the start of the section element that carries it (a single section or a block of sections), or the section numbers of the title in order around the cited number when no element carries it; or a sentence of the title that names the act.
+
+46 U.S.C. 1-1388: Title 46, sections in order: 101, 102, 103
+46 U.S.C. 2: Title 46, sections in order: 101, 102, 103
+46 U.S.C. 8: Title 46, sections in order: 101, 102, 103
+46 U.S.C. 11: Title 46, sections in order: 101, 102, 103
+46 U.S.C. 13: Title 46, sections in order: 101, 102, 103
+46 U.S.C. 27: Title 46, sections in order: 101, 102, 103
+46 U.S.C. 77: Title 46, sections in order: 101, 102, 103
+46 U.S.C. 85-85g: Title 46, sections in order: 101, 102, 103
+46 U.S.C. 86: Title 46, sections in order: 101, 102, 103
+46 U.S.C. 88-88g: Title 46, sections in order: 101, 102, 103
+46 U.S.C. 88c: Title 46, sections in order: 101, 102, 103
+46 U.S.C. 91: Title 46, sections in order: 101, 102, 103
+46 U.S.C. 170: Title 46, sections in order: 114, 115, 116, 301, 302...308, 501
+46 U.S.C. 193: Title 46, sections in order: 114, 115, 116, 301, 302...308, 501
+46 U.S.C. 211: Title 46, sections in order: 114, 115, 116, 301, 302...308, 501
+46 U.S.C. 216: Title 46, sections in order: 114, 115, 116, 301, 302...308, 501
+46 U.S.C. 216-216i: Title 46, sections in order: 114, 115, 116, 301, 302...308, 501
+46 U.S.C. 239: Title 46, sections in order: 114, 115, 116, 301, 302...308, 501
+46 U.S.C. 239a: Title 46, sections in order: 114, 115, 116, 301, 302...308, 501
+46 U.S.C. 251: Title 46, sections in order: 114, 115, 116, 301, 302...308, 501
+46 U.S.C. 251-252: Title 46, sections in order: 114, 115, 116, 301, 302...308, 501
+46 U.S.C. 258: Title 46, sections in order: 114, 115, 116, 301, 302...308, 501
+46 U.S.C. 289: Title 46, sections in order: 114, 115, 116, 301, 302...308, 501
+46 U.S.C. 303: [§§ 302 to 308. Renumbered §§ 46102 to 46108]
+46 U.S.C. 305: [§§ 302 to 308. Renumbered §§ 46102 to 46108]
+46 U.S.C. 316: Title 46, sections in order: 116, 301, 302...308, 501, 502, 503
+46 U.S.C. 363: Title 46, sections in order: 116, 301, 302...308, 501, 502, 503
+46 U.S.C. 367: Title 46, sections in order: 116, 301, 302...308, 501, 502, 503
+46 U.S.C. 369: Title 46, sections in order: 116, 301, 302...308, 501, 502, 503
+46 U.S.C. 375: Title 46, sections in order: 116, 301, 302...308, 501, 502, 503
+46 U.S.C. 382b: Title 46, sections in order: 116, 301, 302...308, 501, 502, 503
+46 U.S.C. 391: Title 46, sections in order: 116, 301, 302...308, 501, 502, 503
+46 U.S.C. 391a: Title 46, sections in order: 116, 301, 302...308, 501, 502, 503
+46 U.S.C. 395: Title 46, sections in order: 116, 301, 302...308, 501, 502, 503
+46 U.S.C. 404: Title 46, sections in order: 116, 301, 302...308, 501, 502, 503
+46 U.S.C. 416: Title 46, sections in order: 116, 301, 302...308, 501, 502, 503
+46 U.S.C. 441: Title 46, sections in order: 116, 301, 302...308, 501, 502, 503
+46 U.S.C. 443: Title 46, sections in order: 116, 301, 302...308, 501, 502, 503
+46 U.S.C. 515: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 526b: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 527: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 527-527h: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 570-572: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 601: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 643: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 689: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 725: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 741-752: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 745: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 746: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 761: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 764: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 781-790: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 802: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 803: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 840: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 883: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 883-1: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1101: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1114: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1117: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1155: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1160: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1161: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1176: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1177: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1211: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1212: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1214: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1223: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1241: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1242: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1271-1279: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1279f: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1281: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1283: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1289: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1295-1295g: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1295b: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1300: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1331: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1451: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1451-1489: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1454: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1456: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1458: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1466-1467: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1467: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1486: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 1488: Title 46, sections in order: 503, 504, 505, 2101, 2102, 2103
+46 U.S.C. 2108: [§ 2108. Repealed. Pub.
+46 U.S.C. 2213: Title 46, sections in order: 2116, 2117, 2118, 2301, 2302, 2303
+46 U.S.C. 3901-3902: Title 46, sections in order: 3717, 3718, 3719, 4101, 4102, 4103
+46 U.S.C. 4104: [§ 4104. Repealed. Pub.
+46 U.S.C. 4713: Title 46, sections in order: 4710, 4711, 4712, 4901, 5101, 5102
+46 U.S.C. 5115: [§ 5115. Repealed. Pub.
+46 U.S.C. 12122: Title 46, sections in order: 12119, 12120, 12121, 12131, 12132, 12133
+46 U.S.C. 50510: Title 46, sections in order: 50503, 50504, 50505, 51101, 51102, 51103
+46 U.S.C. 70117: [§ 70117. Repealed. Pub.

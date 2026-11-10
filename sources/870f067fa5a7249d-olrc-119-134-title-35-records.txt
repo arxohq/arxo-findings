@@ -1,0 +1,8 @@
+Records of United States Code Title 35, OLRC release point 119-134 (usc-119-134/usc35.xml, sha256 7a43a74e349e5be3a9f935ec89b5f11bd351a6dc4b2a8b4cb1adb0b212fbe65c).
+Each line: the cited number, then the start of the section element that carries it (a single section or a block of sections), or the section numbers of the title in order around the cited number when no element carries it; or a sentence of the title that names the act.
+
+35 U.S.C. 31: [§ 31. Repealed. Pub.
+35 U.S.C. 157: [§ 157. Repealed. Pub.
+35 U.S.C. 266: [§ 266. Repealed. Pub.
+35 U.S.C. 901: Title 35, sections in order: 388, 389, 390
+35 U.S.C. 1681a: Title 35, sections in order: 388, 389, 390

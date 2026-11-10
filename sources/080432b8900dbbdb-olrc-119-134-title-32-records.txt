@@ -1,0 +1,7 @@
+Records of United States Code Title 32, OLRC release point 119-134 (usc-119-134/usc32.xml, sha256 3d548cd5523fa7e8e0ac37fe6b8f94c843a4cb1ed73cfe19d46d8cd308555f47).
+Each line: the cited number, then the start of the section element that carries it (a single section or a block of sections), or the section numbers of the title in order around the cited number when no element carries it; or a sentence of the title that names the act.
+
+32 U.S.C. 318-320: [§§ 318 to 321. Repealed. Pub.
+32 U.S.C. 1701: Title 32, sections in order: 906, 907, 908
+32 U.S.C. 3729: Title 32, sections in order: 906, 907, 908
+32 U.S.C. 3729-3733: Title 32, sections in order: 906, 907, 908

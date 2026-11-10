@@ -1,0 +1,225 @@
+{
+  "id": "ARXO-2026-0668",
+  "url": "https://arxo.io/findings/ARXO-2026-0668/",
+  "record_kind": "discrepancy",
+  "class": "act_text",
+  "class_label": "Text of the act",
+  "jurisdiction": "US",
+  "jurisdiction_detail": "federal",
+  "act": "Code of Federal Regulations",
+  "acts": [],
+  "location": "40 CFR parts 52, 70, 71, 80, 600, 1037",
+  "text": {
+    "en": {
+      "title": "Environmental Protection Agency: 8 references to provisions removed or redesignated by 2026 rules",
+      "summary": "In the CFR chapters assigned to the Environmental Protection Agency, 8 references in 8 sections still use an address that a 2026 final rule changed: 6 cite a section or part that a 2026 final rule removed; 2 cite a paragraph that a 2026 final rule removed or redesignated. Each rule was published in the Federal Register and in effect by October 27, 2026; the eCFR of that date keeps the old address.",
+      "impact": "A reader who follows these references finds no text at the cited address, or text that the rule moved there from another paragraph. No effect on a decision or an amount has been established.",
+      "correction": "The agency decides how to update each reference. Where the 2026 rule redesignated the paragraph, the evidence below gives the new designation."
+    }
+  },
+  "status": {
+    "badge": "reported",
+    "label": {
+      "en": "Reported",
+      "ru": "Сообщено"
+    },
+    "conclusion": "confirmed",
+    "official_text": "unchanged",
+    "addressee": "none",
+    "last_checked": "2026-10-27",
+    "fixed_on": null,
+    "correction_type": null,
+    "under_review": false
+  },
+  "origin": "The text of the act",
+  "evidence": {
+    "method": "Contradiction within the text",
+    "quotes": [
+      {
+        "location": "c1",
+        "source": "eCFR Title 40, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "40 CFR 1037.510, citing 40 CFR 1037.705",
+        "text": "and to the first decimal place for tractors. PL = the standard payload, in tons, as specified in § 1037.705. v moving = mean composite weighted driven vehicle speed, excluding idle",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-40.xml",
+        "sha256": "423c732b8424650e7760f6a935a09fe98e0b4769111f5248e5d4f4b480e5472e",
+        "retrieved": "2026-10-29",
+        "copy": "sources/d65c024e2af75d3f-ecfr-2026-10-27-title-40-citing.txt",
+        "copy_sha256": "d65c024e2af75d3f263b0ecb875811b4b52ac3c32664793138225d8b8b926ac4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c2",
+        "source": "eCFR Title 40, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "40 CFR 52.21, citing 40 CFR 86.1818-12",
+        "text": "(i) Greenhouse gases (GHGs), the air pollutant defined in § 86.1818-12(a) of this chapter as the aggregate group of six greenhouse gases: Carbon dioxide, nitrous oxide,",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-40.xml",
+        "sha256": "423c732b8424650e7760f6a935a09fe98e0b4769111f5248e5d4f4b480e5472e",
+        "retrieved": "2026-10-29",
+        "copy": "sources/d65c024e2af75d3f-ecfr-2026-10-27-title-40-citing.txt",
+        "copy_sha256": "d65c024e2af75d3f263b0ecb875811b4b52ac3c32664793138225d8b8b926ac4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c3",
+        "source": "eCFR Title 40, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "40 CFR 600.116-12, citing 40 CFR 86.1866-12",
+        "text": "Calculate this value by dividing the equivalent all-electric range determined from the equation in § 86.1866-12(b)(2)(ii) by the corresponding measured Watt-hours of energy consumed; apply the",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-40.xml",
+        "sha256": "423c732b8424650e7760f6a935a09fe98e0b4769111f5248e5d4f4b480e5472e",
+        "retrieved": "2026-10-29",
+        "copy": "sources/d65c024e2af75d3f-ecfr-2026-10-27-title-40-citing.txt",
+        "copy_sha256": "d65c024e2af75d3f263b0ecb875811b4b52ac3c32664793138225d8b8b926ac4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c4",
+        "source": "eCFR Title 40, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "40 CFR 600.510-12, citing 40 CFR 86.1870-12",
+        "text": "gallons per mile; PUCredit = the total of all full size pickup truck credits, in megagrams, from 40 CFR 86.1870-12(c), and rounded to the nearest whole number; and Production = the total",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-40.xml",
+        "sha256": "423c732b8424650e7760f6a935a09fe98e0b4769111f5248e5d4f4b480e5472e",
+        "retrieved": "2026-10-29",
+        "copy": "sources/d65c024e2af75d3f-ecfr-2026-10-27-title-40-citing.txt",
+        "copy_sha256": "d65c024e2af75d3f263b0ecb875811b4b52ac3c32664793138225d8b8b926ac4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c5",
+        "source": "eCFR Title 40, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "40 CFR 70.2, citing 40 CFR 86.1818-12",
+        "text": "(1) Greenhouse gases (GHGs), the air pollutant defined in § 86.1818-12(a) of this chapter as the aggregate group of six greenhouse gases: carbon dioxide, nitrous oxide,",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-40.xml",
+        "sha256": "423c732b8424650e7760f6a935a09fe98e0b4769111f5248e5d4f4b480e5472e",
+        "retrieved": "2026-10-29",
+        "copy": "sources/d65c024e2af75d3f-ecfr-2026-10-27-title-40-citing.txt",
+        "copy_sha256": "d65c024e2af75d3f263b0ecb875811b4b52ac3c32664793138225d8b8b926ac4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c6",
+        "source": "eCFR Title 40, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "40 CFR 71.2, citing 40 CFR 86.1818-12",
+        "text": "(1) Greenhouse gases (GHGs), the air pollutant defined in § 86.1818-12(a) of this chapter as the aggregate group of six greenhouse gases: carbon dioxide, nitrous oxide,",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-40.xml",
+        "sha256": "423c732b8424650e7760f6a935a09fe98e0b4769111f5248e5d4f4b480e5472e",
+        "retrieved": "2026-10-29",
+        "copy": "sources/d65c024e2af75d3f-ecfr-2026-10-27-title-40-citing.txt",
+        "copy_sha256": "d65c024e2af75d3f263b0ecb875811b4b52ac3c32664793138225d8b8b926ac4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c7",
+        "source": "eCFR Title 40, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "40 CFR 80.170(a)(5), citing 40 CFR 80.1469(c)(2); now 40 CFR 80.1469(a)(2)",
+        "text": "(5) Independent third-party auditors must ensure that mass and energy balances performed under § 80.1469(c)(2) are consistent between facilities that are audited as part of the same chain.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-40.xml",
+        "sha256": "423c732b8424650e7760f6a935a09fe98e0b4769111f5248e5d4f4b480e5472e",
+        "retrieved": "2026-10-29",
+        "copy": "sources/d65c024e2af75d3f-ecfr-2026-10-27-title-40-citing.txt",
+        "copy_sha256": "d65c024e2af75d3f263b0ecb875811b4b52ac3c32664793138225d8b8b926ac4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      },
+      {
+        "location": "c8",
+        "source": "eCFR Title 40, up to date as of October 27, 2026",
+        "role": "Consolidation",
+        "language": "en",
+        "edition": "eCFR of 2026-10-27",
+        "locator": "40 CFR 80.2(3), citing 40 CFR 80.1469(c); now 40 CFR 80.1469(a)",
+        "text": "N verified by a registered independent third-party auditor using a QAP that has been approved under § 80.1469(c) following the audit process specified in § 80.1472.",
+        "translations": {},
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-10-27/title-40.xml",
+        "sha256": "423c732b8424650e7760f6a935a09fe98e0b4769111f5248e5d4f4b480e5472e",
+        "retrieved": "2026-10-29",
+        "copy": "sources/d65c024e2af75d3f-ecfr-2026-10-27-title-40-citing.txt",
+        "copy_sha256": "d65c024e2af75d3f263b0ecb875811b4b52ac3c32664793138225d8b8b926ac4",
+        "copy_kind": "text extracted from the official source, as used to check the quotation"
+      }
+    ]
+  },
+  "impact_shown": false,
+  "notified": [
+    {
+      "date": "2026-11-09",
+      "institution": "Environmental Protection Agency",
+      "channel": "email"
+    },
+    {
+      "date": "2026-11-09",
+      "institution": "Office of the Federal Register",
+      "channel": "email"
+    }
+  ],
+  "responsible": [
+    {
+      "institution": "Environmental Protection Agency",
+      "role": "issues the rules that carry these references"
+    },
+    {
+      "institution": "Office of the Federal Register",
+      "role": "publishes the CFR and the eCFR"
+    }
+  ],
+  "responses": [],
+  "approval": "2026-11-10",
+  "ai_role": {
+    "en": "AI agents wrote and ran the checks against the U.S. Code and the 2026 Federal Register, and read each reference in the eCFR text; disputed references were read a third time."
+  },
+  "credit": [],
+  "press_date": null,
+  "earlier_publications": [],
+  "reproduction": [],
+  "sources": [],
+  "related": [],
+  "first_published": "2026-11-10T14:30:00+00:00",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Environmental Protection Agency (e-mail)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "reported",
+      "text": "Reported to Office of the Federal Register (e-mail)"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "confirmed",
+      "text": "Confirmed by Arxo"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "entered",
+      "text": "Entered in the register"
+    }
+  ]
+}

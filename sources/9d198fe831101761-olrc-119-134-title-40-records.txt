@@ -1,0 +1,87 @@
+Records of United States Code Title 40, OLRC release point 119-134 (usc-119-134/usc40.xml, sha256 c00193e7720a234d1776c7471f1e1b8df932a02c66480c6a2a3ce3906aa4977a).
+Each line: the cited number, then the start of the section element that carries it (a single section or a block of sections), or the section numbers of the title in order around the cited number when no element carries it; or a sentence of the title that names the act.
+
+40 U.S.C. 12: Title 40, sections in order: 101, 102, 111
+40 U.S.C. 72: Title 40, sections in order: 101, 102, 111
+40 U.S.C. 104: Title 40, sections in order: 101, 102, 111, 112, 113
+40 U.S.C. 106: Title 40, sections in order: 101, 102, 111, 112, 113
+40 U.S.C. 193n-193w: Title 40, sections in order: 124, 125, 126, 301, 302, 303
+40 U.S.C. 193v: Title 40, sections in order: 124, 125, 126, 301, 302, 303
+40 U.S.C. 255: Title 40, sections in order: 124, 125, 126, 301, 302, 303
+40 U.S.C. 257: Title 40, sections in order: 124, 125, 126, 301, 302, 303
+40 U.S.C. 258a: Title 40, sections in order: 124, 125, 126, 301, 302, 303
+40 U.S.C. 270: Title 40, sections in order: 124, 125, 126, 301, 302, 303
+40 U.S.C. 270a: Title 40, sections in order: 124, 125, 126, 301, 302, 303
+40 U.S.C. 270a-270d: Title 40, sections in order: 124, 125, 126, 301, 302, 303
+40 U.S.C. 271: Title 40, sections in order: 124, 125, 126, 301, 302, 303
+40 U.S.C. 276: Title 40, sections in order: 124, 125, 126, 301, 302, 303
+40 U.S.C. 276a: Title 40, sections in order: 124, 125, 126, 301, 302, 303
+40 U.S.C. 276a-276a-5: Title 40, sections in order: 124, 125, 126, 301, 302, 303
+40 U.S.C. 276a-276a-7: Title 40, sections in order: 124, 125, 126, 301, 302, 303
+40 U.S.C. 276c: Title 40, sections in order: 124, 125, 126, 301, 302, 303
+40 U.S.C. 278a: Title 40, sections in order: 124, 125, 126, 301, 302, 303
+40 U.S.C. 285: Title 40, sections in order: 124, 125, 126, 301, 302, 303
+40 U.S.C. 304c: Title 40, sections in order: 302, 303, 304, 305, 311, 312
+40 U.S.C. 304f-304m: Title 40, sections in order: 302, 303, 304, 305, 311, 312
+40 U.S.C. 304k: Title 40, sections in order: 302, 303, 304, 305, 311, 312
+40 U.S.C. 318: Title 40, sections in order: 311, 312, 313, 321, 322, 323
+40 U.S.C. 318-318c: Title 40, sections in order: 311, 312, 313, 321, 322, 323
+40 U.S.C. 318-318d: Title 40, sections in order: 311, 312, 313, 321, 322, 323
+40 U.S.C. 318a: Title 40, sections in order: 311, 312, 313, 321, 322, 323
+40 U.S.C. 318c: Title 40, sections in order: 311, 312, 313, 321, 322, 323
+40 U.S.C. 319: Title 40, sections in order: 311, 312, 313, 321, 322, 323
+40 U.S.C. 319-319: Title 40, sections in order: 311, 312, 313, 321, 322, 323
+40 U.S.C. 327: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 327-330: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 327-332: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 327-333: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 329: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 330: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 331: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 333: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 345c: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 401: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 408: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 440: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 442: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 471: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 471-488: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 472: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 474: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 476: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 481: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 483: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 484: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 484m: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 486: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 487: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 488: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 489: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 490: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 491: Title 40, sections in order: 321, 322, 323, 501, 502, 503
+40 U.S.C. 511: Title 40, sections in order: 504, 505, 506, 521, 522, 523
+40 U.S.C. 612: Title 40, sections in order: 609, 610, 611, 621, 622, 623
+40 U.S.C. 682: Title 40, sections in order: 622, 623, 624, 701, 702, 703
+40 U.S.C. 721: Title 40, sections in order: 703, 704, 705, 901, 902, 903
+40 U.S.C. 728: Title 40, sections in order: 703, 704, 705, 901, 902, 903
+40 U.S.C. 729: Title 40, sections in order: 703, 704, 705, 901, 902, 903
+40 U.S.C. 753: Title 40, sections in order: 703, 704, 705, 901, 902, 903
+40 U.S.C. 759: Title 40, sections in order: 703, 704, 705, 901, 902, 903
+40 U.S.C. 763: Title 40, sections in order: 703, 704, 705, 901, 902, 903
+40 U.S.C. 808: Title 40, sections in order: 703, 704, 705, 901, 902, 903
+40 U.S.C. 870: Title 40, sections in order: 703, 704, 705, 901, 902, 903
+40 U.S.C. 871: Title 40, sections in order: 703, 704, 705, 901, 902, 903
+40 U.S.C. 872: Title 40, sections in order: 703, 704, 705, 901, 902, 903
+40 U.S.C. 874: Title 40, sections in order: 703, 704, 705, 901, 902, 903
+40 U.S.C. 875: Title 40, sections in order: 703, 704, 705, 901, 902, 903
+40 U.S.C. 877: Title 40, sections in order: 703, 704, 705, 901, 902, 903
+40 U.S.C. 1001: Title 40, sections in order: 903, 904, 905, 1101, 1102, 1103
+40 U.S.C. 1401: Title 40, sections in order: 1313, 1314, 1315, 3101, 3102, 3103
+40 U.S.C. 1452: Title 40, sections in order: 1313, 1314, 1315, 3101, 3102, 3103
+40 U.S.C. 1508: Title 40, sections in order: 1313, 1314, 1315, 3101, 3102, 3103
+40 U.S.C. 1636: Title 40, sections in order: 1313, 1314, 1315, 3101, 3102, 3103
+40 U.S.C. 4321: Title 40, sections in order: 3706, 3707, 3708, 5101, 5102, 5103
+40 U.S.C. 4811: Title 40, sections in order: 3706, 3707, 3708, 5101, 5102, 5103
+40 U.S.C. 6901: § 6901. Definition In this subchapter, the term "Union Station complex" means real property, air rights, and improvements the Secretary of the Interior leased under sections 101-110 of the National Visitors Center Facilities Act of 1968 (Public Law 90-264, 82 Stat. 43) and property acquired and impr
+40 U.S.C. 7545: Title 40, sections in order: 6922, 6923, 6924, 8101, 8102, 8103
+40 U.S.C. 7601: Title 40, sections in order: 6922, 6923, 6924, 8101, 8102, 8103

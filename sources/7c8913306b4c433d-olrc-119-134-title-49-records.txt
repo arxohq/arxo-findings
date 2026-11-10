@@ -1,0 +1,122 @@
+Records of United States Code Title 49, OLRC release point 119-134 (usc-119-134/usc49.xml, sha256 b32e0ae3cc8383fd97bbdf452076236fcd49ac4f0df43e5b34ea5dfb1d588bc3).
+Each line: the cited number, then the start of the section element that carries it (a single section or a block of sections), or the section numbers of the title in order around the cited number when no element carries it; or a sentence of the title that names the act.
+
+49 U.S.C. 1: Title 49, sections in order: 101, 102, 103
+49 U.S.C. 1-27: Title 49, sections in order: 101, 102, 103
+49 U.S.C. 6: Title 49, sections in order: 101, 102, 103
+49 U.S.C. 12: Title 49, sections in order: 101, 102, 103
+49 U.S.C. 13: Title 49, sections in order: 101, 102, 103
+49 U.S.C. 16: Title 49, sections in order: 101, 102, 103
+49 U.S.C. 19a: Title 49, sections in order: 101, 102, 103
+49 U.S.C. 20: Title 49, sections in order: 101, 102, 103
+49 U.S.C. 20a: Title 49, sections in order: 101, 102, 103
+49 U.S.C. 20b: Title 49, sections in order: 101, 102, 103
+49 U.S.C. 41: Title 49, sections in order: 101, 102, 103
+49 U.S.C. 65: Title 49, sections in order: 101, 102, 103
+49 U.S.C. 111: [§ 111. Repealed. Pub.
+49 U.S.C. 112: [§ 112. Repealed. Pub.
+49 U.S.C. 153: Title 49, sections in order: 117, 118, 119, 301, 302, 303
+49 U.S.C. 211: Title 49, sections in order: 117, 118, 119, 301, 302, 303
+49 U.S.C. 721: [§§ 721 to 724. Renumbered §§ 1321 to 1324]
+49 U.S.C. 781-788: Title 49, sections in order: 725, 726, 727, 1101, 1111, 1112
+49 U.S.C. 782: Title 49, sections in order: 725, 726, 727, 1101, 1111, 1112
+49 U.S.C. 784: Title 49, sections in order: 725, 726, 727, 1101, 1111, 1112
+49 U.S.C. 788: Title 49, sections in order: 725, 726, 727, 1101, 1111, 1112
+49 U.S.C. 794: Title 49, sections in order: 725, 726, 727, 1101, 1111, 1112
+49 U.S.C. 884: Title 49, sections in order: 725, 726, 727, 1101, 1111, 1112
+49 U.S.C. 901-923: Title 49, sections in order: 725, 726, 727, 1101, 1111, 1112
+49 U.S.C. 1105: Title 49, sections in order: 726, 727, 1101, 1111, 1112, 1113
+49 U.S.C. 1109: Title 49, sections in order: 726, 727, 1101, 1111, 1112, 1113
+49 U.S.C. 1110: Title 49, sections in order: 726, 727, 1101, 1111, 1112, 1113
+49 U.S.C. 1120: Title 49, sections in order: 1117, 1118, 1119, 1131, 1132, 1133
+49 U.S.C. 1155g: Title 49, sections in order: 1153, 1154, 1155, 1301, 1302, 1303
+49 U.S.C. 1159: Title 49, sections in order: 1153, 1154, 1155, 1301, 1302, 1303
+49 U.S.C. 1159a: Title 49, sections in order: 1153, 1154, 1155, 1301, 1302, 1303
+49 U.S.C. 1159b: Title 49, sections in order: 1153, 1154, 1155, 1301, 1302, 1303
+49 U.S.C. 1344: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1348: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1349: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1353: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1354: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1355: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1357: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1371: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1372: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1374: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1377: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1386: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1421: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1421-1422: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1421-1425: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1421-1430: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1422: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1423: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1424: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1425: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1426: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1427: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1429: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1471: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1482: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1502: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1504: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1507: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1508: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1509: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1523: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1552: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1601: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1602: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1604: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1607: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1608: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1609: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1650: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1651: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1653: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1654: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1655: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1657: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1701: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1711: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1711-1727: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1718: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1723: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1730: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1741: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1801-1819: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1802: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1803: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1804: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1808: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1901: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 1903: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 2102: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 2215: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 3102: Title 49, sections in order: 1324, 1325, 1326, 5101, 5102, 5103
+49 U.S.C. 5308: [§ 5308. Repealed. Pub.
+49 U.S.C. 5313: [§ 5313. Repealed. Pub.
+49 U.S.C. 5316: Title 49, sections in order: 5313, 5314, 5315, 5318, 5319, 5320
+49 U.S.C. 5317: Title 49, sections in order: 5313, 5314, 5315, 5318, 5319, 5320
+49 U.S.C. 5503: [§ 5503. Repealed. Pub.
+49 U.S.C. 5713: Title 49, sections in order: 5567, 5568, 5701, 5901, 5902, 5903
+49 U.S.C. 7701: Title 49, sections in order: 6701, 6702, 6703, 10101, 10102, 10501
+49 U.S.C. 9615: Title 49, sections in order: 6701, 6702, 6703, 10101, 10102, 10501
+49 U.S.C. 10321: Title 49, sections in order: 6703, 10101, 10102, 10501, 10502, 10701
+49 U.S.C. 10705a: Title 49, sections in order: 10703, 10704, 10705, 10706, 10707, 10708
+49 U.S.C. 10713: Title 49, sections in order: 10707, 10708, 10709, 10721, 10722, 10741
+49 U.S.C. 10926: Title 49, sections in order: 10908, 10909, 10910, 11101, 11102, 11103
+49 U.S.C. 11105: Title 49, sections in order: 11101, 11102, 11103, 11121, 11122, 11123
+49 U.S.C. 11303: Title 49, sections in order: 11163, 11164, 11301, 11321, 11322, 11323
+49 U.S.C. 11343: Title 49, sections in order: 11326, 11327, 11328, 11501, 11502, 11701
+49 U.S.C. 13321: Title 49, sections in order: 13302, 13303, 13304, 13501, 13502, 13503
+49 U.S.C. 20154: [§ 20154. Repealed. Pub.
+49 U.S.C. 24405: [§§ 24401 to 24408. Renumbered §§ 22901 to 22908]
+49 U.S.C. 30168: [§ 30168. Repealed. Pub.
+49 U.S.C. 30254: Title 49, sections in order: 30181, 30182, 30183, 30301, 30302, 30303
+49 U.S.C. 44514: [§ 44514. Repealed. Pub.
+49 U.S.C. 46014: Title 49, sections in order: 45304, 45305, 45306, 46101, 46102, 46103
+49 U.S.C. 46901: Title 49, sections in order: 46505, 46506, 46507, 47101, 47102, 47103
+49 U.S.C. 51303: Title 49, sections in order: 50103, 50104, 50105, 60101, 60102, 60103
+49 U.S.C. 54101: Title 49, sections in order: 50103, 50104, 50105, 60101, 60102, 60103
+49 U.S.C. 70113: Title 49, sections in order: 70101, 70102, 70103, 70201, 70202, 70203

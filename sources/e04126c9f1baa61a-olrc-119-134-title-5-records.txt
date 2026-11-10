@@ -1,0 +1,46 @@
+Records of United States Code Title 5, OLRC release point 119-134 (usc-119-134/usc05.xml, sha256 15e197df50cd440c43afa891b4203ffa238356b213d7404c392cf5a487a84e7b).
+Each line: the cited number, then the start of the section element that carries it (a single section or a block of sections), or the section numbers of the title in order around the cited number when no element carries it; or a sentence of the title that names the act.
+
+5 U.S.C. 2: Title 5, sections in order: 101, 102, 103
+5 U.S.C. 4a: Title 5, sections in order: 101, 102, 103
+5 U.S.C. 52: Title 5, sections in order: 101, 102, 103
+5 U.S.C. 55a: Title 5, sections in order: 101, 102, 103
+5 U.S.C. 133: Title 5, sections in order: 103, 104, 105, 301, 302, 303
+5 U.S.C. 133-133z-15: Title 5, sections in order: 103, 104, 105, 301, 302, 303
+5 U.S.C. 134b: Title 5, sections in order: 103, 104, 105, 301, 302, 303
+5 U.S.C. 139: Title 5, sections in order: 103, 104, 105, 301, 302, 303
+5 U.S.C. 310: Title 5, sections in order: 304, 305, 306, 311, 312, 313
+5 U.S.C. 331: Title 5, sections in order: 322, 323, 324, 401, 402, 403
+5 U.S.C. 341: Title 5, sections in order: 322, 323, 324, 401, 402, 403
+5 U.S.C. 375: Title 5, sections in order: 322, 323, 324, 401, 402, 403
+5 U.S.C. 403g: Title 5, sections in order: 401, 402, 403, 404, 405, 406
+5 U.S.C. 488: Title 5, sections in order: 422, 423, 424, 500, 501, 502
+5 U.S.C. 504: § 504. Costs and fees of parties(a)(1) An agency that conducts an adversary adjudication shall award, to a prevailing party other than the United States, fees and other expenses incurred by that party in connection with that proceeding, unless the adjudicative officer of the agency finds that the po
+5 U.S.C. 522: Title 5, sections in order: 502, 503, 504, 551, 552, 552a
+5 U.S.C. 522a: Title 5, sections in order: 502, 503, 504, 551, 552, 552a
+5 U.S.C. 522b: Title 5, sections in order: 502, 503, 504, 551, 552, 552a
+5 U.S.C. 533: Title 5, sections in order: 502, 503, 504, 551, 552, 552a
+5 U.S.C. 552ag: Title 5, sections in order: 552, 552a, 552b, 553, 554, 555
+5 U.S.C. 554a: Title 5, sections in order: 552b, 553, 554, 555, 556, 557
+5 U.S.C. 637: Title 5, sections in order: 610, 611, 612, 701, 702, 703
+5 U.S.C. 685: Title 5, sections in order: 610, 611, 612, 701, 702, 703
+5 U.S.C. 690d: Title 5, sections in order: 610, 611, 612, 701, 702, 703
+5 U.S.C. 751: Title 5, sections in order: 704, 705, 706, 801, 802, 803
+5 U.S.C. 752: Title 5, sections in order: 704, 705, 706, 801, 802, 803
+5 U.S.C. 835-842: Title 5, sections in order: 806, 807, 808, 901, 902, 903
+5 U.S.C. 1207: Title 5, sections in order: 1204, 1205, 1206, 1209, 1211, 1212
+5 U.S.C. 1320: Title 5, sections in order: 1306, 1307, 1308, 1401, 1402, 1501
+5 U.S.C. 1917: Title 5, sections in order: 1506, 1507, 1508, 2101, 2101a, 2102
+5 U.S.C. 2056d: Title 5, sections in order: 1506, 1507, 1508, 2101, 2101a, 2102
+5 U.S.C. 2251: Title 5, sections in order: 2108, 2108a, 2109, 2301, 2302, 2303
+5 U.S.C. 2415: Title 5, sections in order: 2305, 2306, 2307, 2901, 2902, 2903
+5 U.S.C. 2635: Title 5, sections in order: 2305, 2306, 2307, 2901, 2902, 2903
+5 U.S.C. 3003: Title 5, sections in order: 2952, 2953, 2954, 3101, 3102, 3103
+5 U.S.C. 3407: [§ 3407. Repealed. Pub.
+5 U.S.C. 4706: [§ 4706. Renumbered § 4705]
+5 U.S.C. 5532: [§ 5532. Repealed. Pub.
+5 U.S.C. 5732b: Title 5, sections in order: 5730, 5731, 5732, 5733, 5734, 5735
+5 U.S.C. 6171: Title 5, sections in order: 6131, 6132, 6133, 6301, 6302, 6303
+5 U.S.C. 6402: Title 5, sections in order: 6386, 6387, 6391, 6501, 6502, 6503
+5 U.S.C. 8325: Title 5, sections in order: 8320, 8321, 8322, 8331, 8332, 8333
+5 U.S.C. 504 (name of the act): the Federal Rules of Civil Procedure, set out in Title 28 Appendix, and section 1988 of Title 42, The Public Health and Welfare, and enacting provisions set out as notes under this section and section 2412 of Title 28] may be cited as the ‘Equal Access to Justice Act'.
